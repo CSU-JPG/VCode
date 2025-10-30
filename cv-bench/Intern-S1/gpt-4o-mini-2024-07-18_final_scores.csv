@@ -1,0 +1,11 @@
+Metric,Accuracy,Samples
+CV-Bench Accuracy,0.5090153452685422,100
+2D Accuracy,0.4680306905370844,40
+3D Accuracy,0.55,60
+ADE20K Accuracy,0.34782608695652173,23
+COCO Accuracy,0.5882352941176471,17
+Omni3D Accuracy,0.55,60
+Object Count,0.45,20
+Spatial Relationship,0.45,20
+Depth Order,0.5,30
+Relative Distance,0.6,30
