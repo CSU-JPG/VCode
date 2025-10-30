@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dev_Public_Health_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.36‰",
+      "B": "0.87‰",
+      "C": "0.29‰",
+      "D": "1.23‰"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.93",
+      "B": "0.51",
+      "C": "0.75",
+      "D": "0.49"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "99.73%",
+      "B": "99.87%",
+      "C": "99.91%",
+      "D": "99.76%"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Yes, SUTI 1a",
+      "B": "Yes, SUTI 1b",
+      "C": "No",
+      "D": "Yes,ABUTI"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.88/100000",
+      "B": "0.16/100000",
+      "C": "0.06/100000",
+      "D": "0.04/100000"
+    },
+    "response": "A"
+  }
+]

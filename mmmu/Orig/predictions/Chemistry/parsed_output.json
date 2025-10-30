@@ -1,0 +1,74 @@
+[
+    {
+        "id": "dev_Chemistry_1",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "1",
+            "B": "2",
+            "C": "5",
+            "D": "7",
+            "E": "9"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Chemistry_2",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "0\u00b0C",
+            "B": "-50\u00b0C",
+            "C": "12\u00b0C",
+            "D": "75\u00b0C"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Chemistry_3",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Chemistry_4",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "(A)",
+            "B": "(B)",
+            "C": "(C)",
+            "D": "(D)",
+            "E": "(E)"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Chemistry_5",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "I > II > III",
+            "B": "III > II > I",
+            "C": "III > I > II",
+            "D": "II > I > III"
+        },
+        "judge": "Wrong"
+    }
+]

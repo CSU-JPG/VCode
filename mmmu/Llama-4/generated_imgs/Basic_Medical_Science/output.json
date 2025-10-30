@@ -1,0 +1,142 @@
+[
+  {
+    "id": "dev_Basic_Medical_Science_1",
+    "question": "What kind of tissue does this image depict? <image 1> ",
+    "question_type": "multiple-choice",
+    "options": [
+      "Skeletal muscle",
+      "Cartilage",
+      "Blood"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Skeletal muscle",
+      "B": "Cartilage",
+      "C": "Blood"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Basic_Medical_Science/dev_Basic_Medical_Science_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Basic_Medical_Science_2",
+    "question": "This region is characterized by <image 1> ",
+    "question_type": "multiple-choice",
+    "options": [
+      "Absence of bipolar cells.",
+      "Lack of blood vessels.",
+      "Absence of ganglion cells.",
+      "All of the above."
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Absence of bipolar cells.",
+      "B": "Lack of blood vessels.",
+      "C": "Absence of ganglion cells.",
+      "D": "All of the above."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Basic_Medical_Science/dev_Basic_Medical_Science_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Basic_Medical_Science_3",
+    "question": "<image 1>Which of the following correctly describes the reception stage of this signal transduction pathway?",
+    "question_type": "multiple-choice",
+    "options": [
+      "epinephrine binds to a g-protein coupled receptor protein present in the cell membrane",
+      "the g protein changes shape, is activated, activates adenyl cyclase, which activates cAMP, which activates protein kinases",
+      "protein kinases phosphoylate molecules",
+      "glycogen synthesis is inhibited and glycogen breakdown is promoted"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "epinephrine binds to a g-protein coupled receptor protein present in the cell membrane",
+      "B": "the g protein changes shape, is activated, activates adenyl cyclase, which activates cAMP, which activates protein kinases",
+      "C": "protein kinases phosphoylate molecules",
+      "D": "glycogen synthesis is inhibited and glycogen breakdown is promoted"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Basic_Medical_Science/dev_Basic_Medical_Science_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Basic_Medical_Science_4",
+    "question": "What type of change is present in these neurons from the hypoglossal nucleus? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Acute necrosis",
+      "Atrophy",
+      "Chromatolysis",
+      "Ferruginization",
+      "Lipofuscin"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Acute necrosis",
+      "B": "Atrophy",
+      "C": "Chromatolysis",
+      "D": "Ferruginization",
+      "E": "Lipofuscin"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Basic_Medical_Science/dev_Basic_Medical_Science_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Basic_Medical_Science_5",
+    "question": "<image 1>The diagram below shows the movement of material from the inside of a cell to the outside of the cell through a protein channel. What type of cellular transport is occurring?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Active transport because molecules are moving away from equilibrium",
+      "Active transport because molecules are moving toward equilibrium",
+      "Passive transport because molecules are moving away from equilibrium",
+      "Passive transport because molecules are moving toward equilibrium"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Active transport because molecules are moving away from equilibrium",
+      "B": "Active transport because molecules are moving toward equilibrium",
+      "C": "Passive transport because molecules are moving away from equilibrium",
+      "D": "Passive transport because molecules are moving toward equilibrium"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Basic_Medical_Science/dev_Basic_Medical_Science_5_img1.png"
+    ],
+    "response": ""
+  }
+]

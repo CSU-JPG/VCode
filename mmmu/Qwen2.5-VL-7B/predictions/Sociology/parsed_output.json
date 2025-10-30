@@ -1,0 +1,72 @@
+[
+    {
+        "id": "dev_Sociology_1",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "A very small group of witnesses",
+            "B": "The presence of an ally",
+            "C": "The ability to keep one's answer private",
+            "D": "All of the above"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Sociology_2",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "Historical preconditions and laws of society",
+            "B": "Historical preconditions and subjective perspectives",
+            "C": "Historical preconditions and social facts",
+            "D": "Historical preconditions and class consciousness"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Sociology_3",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "Formal sanctions",
+            "B": "Social order",
+            "C": "Cultural deviance",
+            "D": "Sanction labelling"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Sociology_4",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us",
+            "B": "Identity is regarded as the result of modeling oneself in response to the expectations of others, not as a product of the unconscious",
+            "C": "Socially deLned expectations that a person in a given social position will follow",
+            "D": "Involves instilling culture within the individual, enabling the person to survive effectively in his or her social world"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Sociology_5",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "Political",
+            "B": "Pyschological",
+            "C": "Sociological",
+            "D": "Individual"
+        },
+        "judge": "Wrong"
+    }
+]

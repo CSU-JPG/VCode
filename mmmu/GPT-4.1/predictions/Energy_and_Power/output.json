@@ -1,0 +1,84 @@
+[
+  {
+    "id": "dev_Energy_and_Power_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "PV",
+      "B": "PV/2",
+      "C": "2PV",
+      "D": "PV/3"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Energy_and_Power_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "7.6 m",
+      "B": "9.2 m",
+      "C": "8.7 m"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Energy_and_Power_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "317 rev/min",
+      "B": "414 rev/min",
+      "C": "400 rev/min"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Energy_and_Power_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "1.00 m/s2",
+      "B": "1.50 m/s2",
+      "C": "1.28 m/s^2"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Energy_and_Power_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "204 V",
+      "B": "224 V",
+      "C": "244 V"
+    },
+    "response": "B"
+  }
+]

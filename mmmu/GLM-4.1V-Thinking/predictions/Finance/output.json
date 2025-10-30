@@ -1,0 +1,64 @@
+[
+  {
+    "id": "dev_Finance_1",
+    "question_type": "open",
+    "answer": "0.8638",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "$0.86"
+  },
+  {
+    "id": "dev_Finance_2",
+    "question_type": "open",
+    "answer": "6.38",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Self-supporting growth rate."
+  },
+  {
+    "id": "dev_Finance_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "11%",
+      "B": "8%",
+      "C": "10%",
+      "D": "9%"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Finance_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "$2,822",
+      "B": "$374,598",
+      "C": "$85,293",
+      "D": "$31,492",
+      "E": "$810,092"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Finance_5",
+    "question_type": "open",
+    "answer": "749.10",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "$1,200 million"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "dev_Psychology_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "A t test",
+      "B": "A correlation",
+      "C": "Analysis of variance",
+      "D": "Descriptive statistics",
+      "E": "Factor analysis"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Psychology_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The oncologists recruited patients from a sample that was too homogenous, which makes the results of the program difficult to generalize.",
+      "B": "The oncologists did not control for group social support, which could lead to decreases in some of the emotional and cognitive symptoms of stress on the checklist.",
+      "C": "The oncologists used the stress checklist to measure stress, which did not provide a sensitive measurement of stress and had overlap between and within categories of symptoms.",
+      "D": "The oncologists did not control for side effects of cancer treatment, which could lead to increases in some of the behavioral and physical symptoms of stress on the checklist."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Psychology_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Whiskers only responds to continuous reinforcement.",
+      "B": "Whisker's aggressive behavior has become generalized.",
+      "C": "Whiskers' behavior has been shaped to be aggressive.",
+      "D": "Whiskers is experiencing an extinction burst."
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Psychology_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Some vampire bats refused food from certain perspective donors.",
+      "B": "Allogrooming was higher on non-test days between food sharing dyads and was consistent throughout the experiment.",
+      "C": "Allogrooming was highest between vampire bats infested with parasites and was consistent throughout the experiment.",
+      "D": "Male-male dyads were observed performing allogrooming after sharing food."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Psychology_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Recall",
+      "B": "Recognition",
+      "C": "Repressed",
+      "D": "Deja vu"
+    },
+    "response": "B"
+  }
+]

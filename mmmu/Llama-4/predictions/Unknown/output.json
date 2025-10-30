@@ -1,0 +1,2520 @@
+[
+  {
+    "id": "dev_Accounting_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$63,020",
+      "B": "$58,410",
+      "C": "$71,320",
+      "D": "$77,490"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Accounting_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$171,900",
+      "B": "$170,000",
+      "C": "$172,500",
+      "D": "$181,900"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Accounting_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "1): -$493.02 (2):-$2,384 (3):$1,890.98",
+      "B": "1): $1843.98 (2): -$2,384 (3):$493.02",
+      "C": "1): -$493.02 (2):  -$2,384 (3):-$1,890.98"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Accounting_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$.02",
+      "B": "$7.79",
+      "C": "$8.65"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Accounting_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "10.52 years; 14.73 years; 20.02 years; 24.73 years",
+      "B": "10.64 years; 14.81 years; 20.35 years; 25.01 years",
+      "C": "10.96 years; 15.22 years; 20.83 years; 25.96 years"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Agriculture_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Neither are pest of potato",
+      "B": "The one with black coloured antennae",
+      "C": "The one with tan coloured antennae",
+      "D": "Both are pests of potato"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Agriculture_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "One pathogen",
+      "B": "Two pathogens",
+      "C": "Three pathogens",
+      "D": "There is no pathogen involved",
+      "E": "I don't know and I don't want to guess"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Agriculture_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Don't know or not sure",
+      "B": "Physiological stress",
+      "C": "Bacterial disease",
+      "D": "Harvesting damage when cutting with knives",
+      "E": "Fungal gummosis"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Agriculture_4",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Laboratory work with micro manipulators can mimic the transmission of viruses.",
+      "B": "All plant feeding insects can transmit viruses.",
+      "C": "All plant viruses can be transmitted by insects.",
+      "D": "Most viruses have a specific relationship with their vectors.",
+      "E": "I don't know and I don't want to guess"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Agriculture_5",
+    "question_type": "multiple-choice",
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Physiological problems",
+      "B": "Phytoplasma infection",
+      "C": "I don't know and don't want to guess.",
+      "D": "Animal damage",
+      "E": "Bacteria"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "S45°30'32\"E,745.03 $\\approx$ steps",
+      "B": "N45°30'32\"E,745.03 $\\approx$ steps",
+      "C": "N45°30'32\"W,745.03 $\\approx$ steps",
+      "D": "S45°30'32\"W,745.03 $\\approx$ steps"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$\\angle $A = 54°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "B": "$\\angle $A = 44°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "C": "$\\angle $A = 56°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "D": "$\\angle $A = 57°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\""
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.117 in",
+      "B": "0.232 in",
+      "C": "0.123 in",
+      "D": "0.217 in"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "41.67mi/hr",
+      "B": "45.67mi/hr",
+      "C": "45.17mi/hr"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_5",
+    "question_type": "open",
+    "answer": "1970.6",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "100 cm²"
+  },
+  {
+    "id": "dev_Art_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Vanessa Bell",
+      "B": "Eileen Agar",
+      "C": "Dora Carrington",
+      "D": "Leonora Carrington"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Art_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The left one.",
+      "B": "The right one.",
+      "C": "Both images",
+      "D": "Neither image"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Art_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Agnew Clinic",
+      "B": "I and the Village",
+      "C": "Five Bathing Women at a Lake",
+      "D": "Skull with Burning Cigarette"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Art_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Glory",
+      "B": "The Wild Geese",
+      "C": "The Field by the Lirk o' the Hill",
+      "D": "The Rowan"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Art_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "MICHELANGELO BUONARROTI",
+      "B": "TITIAN",
+      "C": "LUCAS VAN LEYDEN",
+      "D": "LEONARDO DA VINCI"
+    },
+    "response": null
+  },
+  {
+    "id": "dev_Art_Theory_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "contribution of Native Americans to landscape preservation",
+      "B": "implementation of the Homestead Act",
+      "C": "impact of the gold rush on landscape development",
+      "D": "idea of Manifest Destiny"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Art_Theory_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Roman emperor",
+      "B": "Greek philosopher",
+      "C": "Carolingian king",
+      "D": "Romanesque abbot"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Art_Theory_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "accurately copying figures and subject matter from nature",
+      "B": "aligning the Old Testament and the New Testament through typology",
+      "C": "emphasizing the role of the saints in the church",
+      "D": "asserting imperial authority over the church"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Art_Theory_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "friezes",
+      "B": "pediments",
+      "C": "registers",
+      "D": "polyptychs"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Basic_Medical_Science_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Skeletal muscle",
+      "B": "Cartilage",
+      "C": "Blood"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Basic_Medical_Science_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Absence of bipolar cells.",
+      "B": "Lack of blood vessels.",
+      "C": "Absence of ganglion cells.",
+      "D": "All of the above."
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Basic_Medical_Science_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "epinephrine binds to a g-protein coupled receptor protein present in the cell membrane",
+      "B": "the g protein changes shape, is activated, activates adenyl cyclase, which activates cAMP, which activates protein kinases",
+      "C": "protein kinases phosphoylate molecules",
+      "D": "glycogen synthesis is inhibited and glycogen breakdown is promoted"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Basic_Medical_Science_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Acute necrosis",
+      "B": "Atrophy",
+      "C": "Chromatolysis",
+      "D": "Ferruginization",
+      "E": "Lipofuscin"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Basic_Medical_Science_5",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Active transport because molecules are moving away from equilibrium",
+      "B": "Active transport because molecules are moving toward equilibrium",
+      "C": "Passive transport because molecules are moving away from equilibrium",
+      "D": "Passive transport because molecules are moving toward equilibrium"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Biology_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "speciation events",
+      "B": "separation events",
+      "C": "relative length of time in existence",
+      "D": "a common ancestor"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Biology_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "A. crenulata",
+      "B": "A. mediterranea",
+      "C": "None of above"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Biology_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "aldose",
+      "B": "ketose"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Biology_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Both B cells and T cells can produce antibodies.",
+      "B": "Both B cells and T cells have memory functions.",
+      "C": "Both B cells and T cells are required for an antibody response.",
+      "D": "B cells are required for an antibody response in the absence of T cells.",
+      "E": "B cells and T cells are co-localized and produce synergetic effects in bone marrow and thymus."
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Biology_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Obturator internus",
+      "B": "Levatorani",
+      "C": "Prostatic venous plexus",
+      "D": "Obturator membrane"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Chemistry_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "7",
+      "E": "9"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Chemistry_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0°C",
+      "B": "-50°C",
+      "C": "12°C",
+      "D": "75°C"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Chemistry_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Chemistry_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "(A)",
+      "B": "(B)",
+      "C": "(C)",
+      "D": "(D)",
+      "E": "(E)"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Chemistry_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "I > II > III",
+      "B": "III > II > I",
+      "C": "III > I > II",
+      "D": "II > I > III"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Clinical_Medicine_1",
+    "question_type": "multiple-choice",
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "index2ans": {
+      "A": "Sinus Rhythm with PAC's",
+      "B": "Junctional Rhythm",
+      "C": "2nd Degree AV Block, Type I",
+      "D": "3rd Degree AV Block",
+      "E": "Normal Sinus Rhythm with PVC's",
+      "F": "Idioventricular Rhythm"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Clinical_Medicine_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Thrombocytopenia",
+      "B": "Gangrene",
+      "C": "Congestive heart failure",
+      "D": "Metastatic breast carcinoma"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Clinical_Medicine_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "first degree atrioventricular block",
+      "B": "third degree atrioventricular block",
+      "C": "Second degree type II atrioventricular block",
+      "D": "atrial flutter"
+    },
+    "response": null
+  },
+  {
+    "id": "dev_Clinical_Medicine_4",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Monteggia",
+      "B": "Bennett",
+      "C": "Jones",
+      "D": "Smith"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Clinical_Medicine_5",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "simple appendicitis",
+      "B": "appendix abscess",
+      "C": "normal appendix",
+      "D": "cellulite appendicitis"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Computer_Science_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Phone",
+      "B": "Ssn",
+      "C": "Name",
+      "D": "Addr",
+      "E": "None of the other answers"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Computer_Science_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "half adder",
+      "B": "full adder"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Computer_Science_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "None of the other answers"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Computer_Science_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "same",
+      "B": "not the same"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Computer_Science_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "BOOK_AUTHORS",
+      "B": "PUBLISHER",
+      "C": "BOOK_LOANS",
+      "D": "LIBRARY_BRANCH"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Design_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "the figure grouping is placed at eye-level",
+      "B": "the figures show emotional anguish and despair",
+      "C": "Rodin suggests their pain through physical discomfort",
+      "D": "all of the above"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Design_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Baroque",
+      "B": "Renaissance",
+      "C": "Rococo",
+      "D": "Classical"
+    },
+    "response": null
+  },
+  {
+    "id": "dev_Design_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Repetition",
+      "B": "Unity",
+      "C": "Variety",
+      "D": "Balance"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Design_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Stove",
+      "B": "Refrigerator",
+      "C": "Dishwasher",
+      "D": "Sink"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Design_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "Monochromatic color scheme",
+      "B": "Analogous color scheme"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_1",
+    "question_type": "multiple-choice",
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "characteristically contains rosenthal fibers",
+      "B": "MRI shows commonly a cystic lesion with enhancing mural nodule",
+      "C": "usually has complex glomeruloid vessels",
+      "D": "a and b are correct",
+      "E": "a, b and C are correct"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "This patient has probably a long history of seizures",
+      "B": "A reticulin stain will probably show a dense intercellular network",
+      "C": "This is a high grade glioma",
+      "D": "A and B are correct",
+      "E": "A,B and C are correct"
+    },
+    "response": null
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The structure labelled A isthe left subclavian vein.",
+      "B": "The structure labelled B isthe trachea",
+      "C": "The structure labelled C is the hemiazygos vein",
+      "D": "The structure labelled D isthe apex of the left lung"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "S-100",
+      "B": "EMA",
+      "C": "CD-34",
+      "D": "CD-20",
+      "E": "CD-45"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Becker s Muscular Dystrophy",
+      "B": "Duchene Muscular Dystroph",
+      "C": "A female carrier of a dystrophinopathy",
+      "D": "Normal"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Economics_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "500",
+      "B": "450",
+      "C": "400",
+      "D": "600"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Economics_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "1.20 Shoes",
+      "B": "1.00 Shoes",
+      "C": "0.83 Shoes",
+      "D": "0.75 Shoes"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Economics_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Nigeria",
+      "B": "Neither country",
+      "C": "Mexico"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Economics_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Economics_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "6 million",
+      "B": "7 million",
+      "C": "8 million",
+      "D": "9 million"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Electronics_1",
+    "question_type": "open",
+    "answer": "120",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Calculation needed."
+  },
+  {
+    "id": "dev_Electronics_2",
+    "question_type": "open",
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Undefined."
+  },
+  {
+    "id": "dev_Electronics_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$3 \\pi x 10^-5 A$",
+      "B": "$0 \\pi x 10^-5 A$",
+      "C": "$1 \\pi x 10^-5 A$",
+      "D": "$-2 \\pi x 10^-5 A$"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Electronics_4",
+    "question_type": "open",
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Gain."
+  },
+  {
+    "id": "dev_Electronics_5",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) cos (t - 63.44^{\\circ})] u(t)$",
+      "B": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{3}) sin (t - 63.44^{\\circ})] u(t)$",
+      "C": "$[2 - 2.1e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$",
+      "D": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Energy_and_Power_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "PV",
+      "B": "PV/2",
+      "C": "2PV",
+      "D": "PV/3"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Energy_and_Power_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "7.6 m",
+      "B": "9.2 m",
+      "C": "8.7 m"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Energy_and_Power_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "317 rev/min",
+      "B": "414 rev/min",
+      "C": "400 rev/min"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Energy_and_Power_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "1.00 m/s2",
+      "B": "1.50 m/s2",
+      "C": "1.28 m/s^2"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Energy_and_Power_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "204 V",
+      "B": "224 V",
+      "C": "244 V"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Finance_1",
+    "question_type": "open",
+    "answer": "0.8638",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "$0.50"
+  },
+  {
+    "id": "dev_Finance_2",
+    "question_type": "open",
+    "answer": "6.38",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Self-supporting growth rate."
+  },
+  {
+    "id": "dev_Finance_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "11%",
+      "B": "8%",
+      "C": "10%",
+      "D": "9%"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Finance_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "$2,822",
+      "B": "$374,598",
+      "C": "$85,293",
+      "D": "$31,492",
+      "E": "$810,092"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Finance_5",
+    "question_type": "open",
+    "answer": "749.10",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "$1,200 million"
+  },
+  {
+    "id": "dev_Geography_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Earth's energy balance, Earth's water cycle, Earth's surface",
+      "B": "Earth's water cycle, Earth's energy balance, Earth's surface",
+      "C": "Earth's surface, Earth's water cycle, Earth's energy balance",
+      "D": "Earth's surface, Earth's energy balance, Earth's water cycle"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Geography_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.85",
+      "B": " 0.92",
+      "C": "0.99",
+      "D": "1.06"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Geography_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Effective self weight pressure",
+      "B": " Rebound index",
+      "C": "Average additional pressure",
+      "D": "Groundwater level"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Geography_4",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": " 7.5",
+      "B": " 7.5",
+      "C": "8",
+      "D": " 6"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Geography_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "equal to 120V",
+      "B": "equals to 4.8V",
+      "C": "and equals to 0.6V",
+      "D": "cannot be calculated"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_History_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The resilience of the Chinese economy, despite the dynastic change from Ming to Qing",
+      "B": "The industrial and commercial supremacy of Great Britain in western Europe",
+      "C": "The widespread acceptance of the principles of free trade by most European and Asian governments",
+      "D": "The ongoing expansion of Muslim empires, such as the Ottoman and the Safavid"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_History_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The king granted the title of National Assembly to the First Estate after it advocated for greater royal control of church officials",
+      "B": "The Second Estate, refusing to shoulder a greater tax burdon, announced the reformation of a completely aristocratic National Assembly",
+      "C": "The Third Estate, whose numbers exceeded the combined numbers of the other estates, simply declared itself the National Assembly",
+      "D": "The Fourth Estate, refusing to report on the controversies of Estates General, introduced itself as an alternative legislature called the National Assembly"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_History_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The power of traditional elites was continuously challenged by the emerging power of new elites.",
+      "B": "The power of states was based on the ability of rulers to monopolize the use of violence.",
+      "C": "Artists depended on royal patronage for their livelihoods.",
+      "D": "Rulers used religious imagery to legitimize their political authority."
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_History_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The need for humans to adapt to their environments",
+      "B": "The production of cash crops on plantations",
+      "C": "The use of slave labor for cultivation",
+      "D": "The use of technology to project military power"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_History_5",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The migration of former colonial subjects to cities in the former colonizing country",
+      "B": "The development of ethnic enclaves as migrants moved to seek work opportunities",
+      "C": "The migration patterns associated with male seasonal laborers",
+      "D": "The population resettlement caused by redrawing former colonial boundaries"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Literature_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Writing-in-role",
+      "B": "Challenge",
+      "C": "Banning",
+      "D": "Hot Seat"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Literature_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Theme",
+      "B": "Shape",
+      "C": "Covers",
+      "D": "Motif"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Literature_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "News Program",
+      "B": "Readers Theatre",
+      "C": "Hot Seat",
+      "D": "News"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Literature_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "verbal irony",
+      "B": "situational irony",
+      "C": "foreshadowing",
+      "D": "dramatic irony"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Manage_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Overnight Shipping",
+      "B": "Worldwide Delivery",
+      "C": "United Freight"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Manage_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Workers without a high school diploma",
+      "B": "High school graduates with no college education",
+      "C": "Workers with some college education",
+      "D": "Workers with a bachelor's degree or higher",
+      "E": "All groups showed a rise."
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Manage_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Post-it notes with three or more ballots are placed in a large 'idea box' and painted on a board based on the dominant color.",
+      "B": "Participants place their stickers on the corresponding sticky notes",
+      "C": "In silence, participants read all thoughts generated during the disagreement",
+      "D": "The group selects three or more ideas for each color to develop"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Manage_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Profit structure",
+      "B": "cost structure",
+      "C": "Industrial structure",
+      "D": "Company personnel structure"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Manage_5",
+    "question_type": "open",
+    "answer": "26",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Not enough information."
+  },
+  {
+    "id": "dev_Marketing_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Larger.",
+      "B": "Smaller.",
+      "C": "Not certain."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Marketing_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "B": "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "C": "Not certain."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Marketing_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "B": "No, there is not enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "C": "Not certain."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Marketing_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "B": "There is sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "C": "Not certain."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Marketing_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.6029",
+      "B": "0.6030",
+      "C": "0.6031",
+      "D": "0.6032"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Materials_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Hc = 0lb; Vc = 85lb;Mc = 1125 lb.ft",
+      "B": "Hc = 0lb; Vc = 95lb;Mc = 1125 lb.ft",
+      "C": "Hc = 0lb; Vc = 105lb;Mc = 1125 lb.ft",
+      "D": "Hc = 0lb; Vc = 75lb;Mc = 1125 lb.ft"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Materials_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "29.0 ksi",
+      "B": "20.9 ksi",
+      "C": "25.9 ksi",
+      "D": "15.9 ksi"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Materials_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "true",
+      "B": "false"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Materials_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "index2ans": {
+      "A": "SC {100}",
+      "B": "BCC {100}",
+      "C": "FCC {100}",
+      "D": "SC {110}",
+      "E": "BCC {110}",
+      "F": "FCC {110}",
+      "G": "SC {111}",
+      "H": "BCC {111}",
+      "I": "FCC {111}"
+    },
+    "response": "I"
+  },
+  {
+    "id": "dev_Materials_5",
+    "question_type": "multiple-choice",
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Au",
+      "B": "Cu",
+      "C": "Ni",
+      "D": "Fe",
+      "E": "Na"
+    },
+    "response": "E"
+  },
+  {
+    "id": "dev_Math_1",
+    "question_type": "open",
+    "answer": "4",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Four."
+  },
+  {
+    "id": "dev_Math_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The dichotomous search yields a smaller interval containing $ x^* $ than the equal-interval search.",
+      "B": "The value obtained from quadratic interpolation $ \\lambda' = 0.52 $ is an accurate estimate for $ \\lambda^* $.",
+      "C": "The equal-interval search required more function evaluations than the quadratic interpolation.",
+      "D": "$ f(x) $ has a minimum of 5 in the interval $ [-1, 1] $."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Math_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "y = 5x/12 + 7/4 ",
+      "B": "y = 5x/12 + 5/4",
+      "C": "y = 7x/12 + 7/4"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Math_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "w = (3, {3, 2}, 2, {2, 4}, 4, {4, 1}, 1).",
+      "B": "w = (1, 3, {3, 2}, 2, {2, 1}, 4, {4, 1}).",
+      "C": "w = (4, {2, 4}, 3, {3, 2} , 4, {4, 1}, 1).",
+      "D": "w = (4, {4, 1}, 2, {2, 4},3, {3, 2},, 1)."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Math_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "Yes",
+      "B": "No"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "85.5rpm",
+      "B": "72.2rpm",
+      "C": "95rpm",
+      "D": "52rpm"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$",
+      "B": "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
+      "C": "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta d=506.109$",
+      "B": "$\\delta d=706.109$",
+      "C": "$\\delta d=906.109$"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.0375hp",
+      "B": "0.0475hp",
+      "C": "0.0572hp",
+      "D": "0.0623hp"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "t=1.46s",
+      "B": "t=2.46s",
+      "C": "t=3.46s"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Music_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "iv7d",
+      "B": "V7a",
+      "C": "IV7",
+      "D": "viio7b"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Music_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "box1",
+      "B": "box2",
+      "C": "box3",
+      "D": "box4"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Music_4",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "B major",
+      "B": "E major",
+      "C": "A minor",
+      "D": "E minor"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Music_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "3/4 3/4 3/4 4/4 2/8 6/8",
+      "B": "6/8 3/4 6/8 2/4 3/8 6/8",
+      "C": "6/8 3/4 3/4 2/4 3/8 6/8",
+      "D": "All of the first three options are incorrect."
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Pharmacy_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Chemoselectivity",
+      "B": "Regioselectivity",
+      "C": "Stereospecificity",
+      "D": "Enantioselectivity"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Pharmacy_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "25 $\\mu $g/ml ",
+      "B": "50 $\\mu $g/ml",
+      "C": "100 $\\mu $g/ml",
+      "D": "200 $\\mu $g/ml"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Pharmacy_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "True",
+      "B": "False"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Pharmacy_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A",
+      "B": "D",
+      "C": "Both of them",
+      "D": ""
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Physics_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Physics_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "0.6 m/s",
+      "B": "4.8 m/s",
+      "C": "1.9 m/s",
+      "D": "60 m/s",
+      "E": "2.4 m/s"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Physics_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "E/v",
+      "B": "eE/v",
+      "C": "vE",
+      "D": "eE"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Physics_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The needle deflects to the left.",
+      "B": "The needle deflects to the right.",
+      "C": "The needle oscillates back and forth.",
+      "D": "The needle never moves."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Physics_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "it would equal the potential difference across the 20 ohm resistor",
+      "B": "it would be twice the potential difference across the 30 ohm resistor",
+      "C": "it would equal the potential difference across the 30 ohm resistor",
+      "D": "it would be half the potential difference across the 30 ohm resistor"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Psychology_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "A t test",
+      "B": "A correlation",
+      "C": "Analysis of variance",
+      "D": "Descriptive statistics",
+      "E": "Factor analysis"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Psychology_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The oncologists recruited patients from a sample that was too homogenous, which makes the results of the program difficult to generalize.",
+      "B": "The oncologists did not control for group social support, which could lead to decreases in some of the emotional and cognitive symptoms of stress on the checklist.",
+      "C": "The oncologists used the stress checklist to measure stress, which did not provide a sensitive measurement of stress and had overlap between and within categories of symptoms.",
+      "D": "The oncologists did not control for side effects of cancer treatment, which could lead to increases in some of the behavioral and physical symptoms of stress on the checklist."
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Psychology_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Whiskers only responds to continuous reinforcement.",
+      "B": "Whisker's aggressive behavior has become generalized.",
+      "C": "Whiskers' behavior has been shaped to be aggressive.",
+      "D": "Whiskers is experiencing an extinction burst."
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Psychology_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Some vampire bats refused food from certain perspective donors.",
+      "B": "Allogrooming was higher on non-test days between food sharing dyads and was consistent throughout the experiment.",
+      "C": "Allogrooming was highest between vampire bats infested with parasites and was consistent throughout the experiment.",
+      "D": "Male-male dyads were observed performing allogrooming after sharing food."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Psychology_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Recall",
+      "B": "Recognition",
+      "C": "Repressed",
+      "D": "Deja vu"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.36‰",
+      "B": "0.87‰",
+      "C": "0.29‰",
+      "D": "1.23‰"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.93",
+      "B": "0.51",
+      "C": "0.75",
+      "D": "0.49"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Public_Health_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "99.73%",
+      "B": "99.87%",
+      "C": "99.91%",
+      "D": "99.76%"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Yes, SUTI 1a",
+      "B": "Yes, SUTI 1b",
+      "C": "No",
+      "D": "Yes,ABUTI"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Public_Health_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.88/100000",
+      "B": "0.16/100000",
+      "C": "0.06/100000",
+      "D": "0.04/100000"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Sociology_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A very small group of witnesses",
+      "B": "The presence of an ally",
+      "C": "The ability to keep one's answer private",
+      "D": "All of the above"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Sociology_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Historical preconditions and laws of society",
+      "B": "Historical preconditions and subjective perspectives",
+      "C": "Historical preconditions and social facts",
+      "D": "Historical preconditions and class consciousness"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Sociology_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Formal sanctions",
+      "B": "Social order",
+      "C": "Cultural deviance",
+      "D": "Sanction labelling"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Sociology_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us",
+      "B": "Identity is regarded as the result of modeling oneself in response to the expectations of others, not as a product of the unconscious",
+      "C": "Socially deLned expectations that a person in a given social position will follow",
+      "D": "Involves instilling culture within the individual, enabling the person to survive effectively in his or her social world"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Sociology_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Political",
+      "B": "Pyschological",
+      "C": "Sociological",
+      "D": "Individual"
+    },
+    "response": "C"
+  }
+]

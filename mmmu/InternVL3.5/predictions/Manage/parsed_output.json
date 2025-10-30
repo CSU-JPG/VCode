@@ -1,0 +1,69 @@
+[
+    {
+        "id": "dev_Manage_1",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "Overnight Shipping",
+            "B": "Worldwide Delivery",
+            "C": "United Freight"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Manage_2",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "Workers without a high school diploma",
+            "B": "High school graduates with no college education",
+            "C": "Workers with some college education",
+            "D": "Workers with a bachelor's degree or higher",
+            "E": "All groups showed a rise."
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Manage_3",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "Post-it notes with three or more ballots are placed in a large 'idea box' and painted on a board based on the dominant color.",
+            "B": "Participants place their stickers on the corresponding sticky notes",
+            "C": "In silence, participants read all thoughts generated during the disagreement",
+            "D": "The group selects three or more ideas for each color to develop"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Manage_4",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "Profit structure",
+            "B": "cost structure",
+            "C": "Industrial structure",
+            "D": "Company personnel structure"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Manage_5",
+        "question_type": "open",
+        "answer": "26",
+        "response": "Total project completion time is 36 days.",
+        "parsed_pred": [
+            36.0,
+            "36 days"
+        ],
+        "judge": "Wrong"
+    }
+]

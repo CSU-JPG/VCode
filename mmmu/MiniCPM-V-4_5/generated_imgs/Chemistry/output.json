@@ -1,0 +1,148 @@
+[
+  {
+    "id": "dev_Chemistry_1",
+    "question": "<image 1> Which point corresponds to the critical point?",
+    "question_type": "multiple-choice",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "7",
+      "E": "9"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Chemistry/dev_Chemistry_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Chemistry_2",
+    "question": "Consider the following heating curve of a hypothetical substance: <image 1> What is the boiling point of the substance?",
+    "question_type": "multiple-choice",
+    "options": [
+      "0°C",
+      "-50°C",
+      "12°C",
+      "75°C"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0°C",
+      "B": "-50°C",
+      "C": "12°C",
+      "D": "75°C"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Chemistry/dev_Chemistry_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Chemistry_3",
+    "question": "How many molecules of the sweetener saccharin can be prepared from 30 $C$ atoms, 25 $H$ atoms, 12 $O$ atoms, 8 $S$ atoms, and 14 $N$ atoms? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Chemistry/dev_Chemistry_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Chemistry_4",
+    "question": "The diagram below shows the titration of a weak monoprotic acid by a strong base. In the diagram, there are five points labeled as (A) to (E) respectively. <image 1> At which point the solution is buffered?",
+    "question_type": "multiple-choice",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "(D)",
+      "(E)"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "(A)",
+      "B": "(B)",
+      "C": "(C)",
+      "D": "(D)",
+      "E": "(E)"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Chemistry/dev_Chemistry_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Chemistry_5",
+    "question": "<image 1> Which of the following orders of rotation barrier about the C = C bond, as indicated, is correct ?",
+    "question_type": "multiple-choice",
+    "options": [
+      "I > II > III",
+      "III > II > I",
+      "III > I > II",
+      "II > I > III"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "I > II > III",
+      "B": "III > II > I",
+      "C": "III > I > II",
+      "D": "II > I > III"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Chemistry/dev_Chemistry_5_img1.png"
+    ],
+    "response": ""
+  }
+]

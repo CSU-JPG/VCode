@@ -1,0 +1,130 @@
+[
+  {
+    "id": "dev_Energy_and_Power_1",
+    "question": "An ideal gas taken round the cycle ABCA as shown in PV diagram<image 1>.The work done during the cycle",
+    "question_type": "multiple-choice",
+    "options": [
+      "PV",
+      "PV/2",
+      "2PV",
+      "PV/3"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "PV",
+      "B": "PV/2",
+      "C": "2PV",
+      "D": "PV/3"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Energy_and_Power/dev_Energy_and_Power_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Energy_and_Power_2",
+    "question": "The long pipe in Fig. 3.133 is filled with water at 20°C. When valve A is closed, p1 - p2 = 75 kPa. When the valve is open and water flows at 500 m^3/h, p_1 - p_2=160 kPa. What is the friction head loss between 1 and 2, in m, for the flowing condition? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "7.6 m",
+      "9.2 m",
+      "8.7 m"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "7.6 m",
+      "B": "9.2 m",
+      "C": "8.7 m"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Energy_and_Power/dev_Energy_and_Power_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Energy_and_Power_3",
+    "question": "The 3-arm lawn sprinkler of Fig. P3.114 receives 20°C water through the center at 2.7 m^3/hr. If collar friction is neglected, what is the steady rotation rate in rev/min for $\\theta $ = 40°? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "317 rev/min",
+      "414 rev/min",
+      "400 rev/min"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "317 rev/min",
+      "B": "414 rev/min",
+      "C": "400 rev/min"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Energy_and_Power/dev_Energy_and_Power_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Energy_and_Power_4",
+    "question": "The tank of liquid in the figure P2.139 accelerates to the right with the fluid in rigid-body motion. Compute a_x in m/s^2. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "1.00 m/s2",
+      "1.50 m/s2",
+      "1.28 m/s^2"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "1.00 m/s2",
+      "B": "1.50 m/s2",
+      "C": "1.28 m/s^2"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Energy_and_Power/dev_Energy_and_Power_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Energy_and_Power_5",
+    "question": "An insulated piston-cylinder device contains 5 L of saturated liquid water at a constant pressure of 175 kPa. Water is stirred by a paddle wheel while a current of 8 A flows for 45 min through a resistor placed in the water. If one-half of the liquid is evaporated during this constant-pressure process and the paddle-wheel work amounts to 400 kJ, determine the voltage of the source. Also, show the process on a P-v diagram with respect to saturation lines. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "204 V",
+      "224 V",
+      "244 V"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "204 V",
+      "B": "224 V",
+      "C": "244 V"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Energy_and_Power/dev_Energy_and_Power_5_img1.png"
+    ],
+    "response": ""
+  }
+]

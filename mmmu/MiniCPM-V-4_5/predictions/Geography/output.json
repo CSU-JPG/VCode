@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dev_Geography_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Earth's energy balance, Earth's water cycle, Earth's surface",
+      "B": "Earth's water cycle, Earth's energy balance, Earth's surface",
+      "C": "Earth's surface, Earth's water cycle, Earth's energy balance",
+      "D": "Earth's surface, Earth's energy balance, Earth's water cycle"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  },
+  {
+    "id": "dev_Geography_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.85",
+      "B": " 0.92",
+      "C": "0.99",
+      "D": "1.06"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Geography_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Effective self weight pressure",
+      "B": " Rebound index",
+      "C": "Average additional pressure",
+      "D": "Groundwater level"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Geography_4",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": " 7.5",
+      "B": " 7.5",
+      "C": "8",
+      "D": " 6"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Geography_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "equal to 120V",
+      "B": "equals to 4.8V",
+      "C": "and equals to 0.6V",
+      "D": "cannot be calculated"
+    },
+    "response": "A"
+  }
+]

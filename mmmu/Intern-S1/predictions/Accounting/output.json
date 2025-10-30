@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dev_Accounting_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$63,020",
+      "B": "$58,410",
+      "C": "$71,320",
+      "D": "$77,490"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Accounting_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$171,900",
+      "B": "$170,000",
+      "C": "$172,500",
+      "D": "$181,900"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Accounting_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "1): -$493.02 (2):-$2,384 (3):$1,890.98",
+      "B": "1): $1843.98 (2): -$2,384 (3):$493.02",
+      "C": "1): -$493.02 (2):  -$2,384 (3):-$1,890.98"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Accounting_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$.02",
+      "B": "$7.79",
+      "C": "$8.65"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Accounting_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "10.52 years; 14.73 years; 20.02 years; 24.73 years",
+      "B": "10.64 years; 14.81 years; 20.35 years; 25.01 years",
+      "C": "10.96 years; 15.22 years; 20.83 years; 25.96 years"
+    },
+    "response": "A"
+  }
+]

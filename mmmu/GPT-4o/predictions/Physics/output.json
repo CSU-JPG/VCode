@@ -1,0 +1,94 @@
+[
+  {
+    "id": "dev_Physics_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Physics_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "0.6 m/s",
+      "B": "4.8 m/s",
+      "C": "1.9 m/s",
+      "D": "60 m/s",
+      "E": "2.4 m/s"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Physics_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "E/v",
+      "B": "eE/v",
+      "C": "vE",
+      "D": "eE"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Physics_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The needle deflects to the left.",
+      "B": "The needle deflects to the right.",
+      "C": "The needle oscillates back and forth.",
+      "D": "The needle never moves."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Physics_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "it would equal the potential difference across the 20 ohm resistor",
+      "B": "it would be twice the potential difference across the 30 ohm resistor",
+      "C": "it would equal the potential difference across the 30 ohm resistor",
+      "D": "it would be half the potential difference across the 30 ohm resistor"
+    },
+    "response": "C"
+  }
+]

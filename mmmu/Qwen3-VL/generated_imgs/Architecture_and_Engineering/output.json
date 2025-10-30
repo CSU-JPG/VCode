@@ -1,0 +1,124 @@
+[
+  {
+    "id": "dev_Architecture_and_Engineering_1",
+    "question": "While making a reconnaissance survey through the woods, a surveyor with a hand compass, started from a point A and walked a thousand steps in the direction S67°W and reached a point B. Then he changed his direction and walked 512 steps in the direction N10°E and reached a point C. Then again he changed his direction and walked 1504 steps in the direction S65°E and reached a point D as shown in Fig. 5.10. Now, the surveyor wants to return to the starting point A. In which direction should he move and how many steps should he take.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "S45°30'32\"E,745.03 $\\approx$ steps",
+      "N45°30'32\"E,745.03 $\\approx$ steps",
+      "N45°30'32\"W,745.03 $\\approx$ steps",
+      "S45°30'32\"W,745.03 $\\approx$ steps"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "S45°30'32\"E,745.03 $\\approx$ steps",
+      "B": "N45°30'32\"E,745.03 $\\approx$ steps",
+      "C": "N45°30'32\"W,745.03 $\\approx$ steps",
+      "D": "S45°30'32\"W,745.03 $\\approx$ steps"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Architecture_and_Engineering/dev_Architecture_and_Engineering_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_2",
+    "question": "The following mean values of the three angles of a triangle were observed<image 1>Determine the corrected values of the angles by the method of least squares.",
+    "question_type": "multiple-choice",
+    "options": [
+      "$\\angle $A = 54°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "$\\angle $A = 44°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "$\\angle $A = 56°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "$\\angle $A = 57°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\""
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$\\angle $A = 54°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "B": "$\\angle $A = 44°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "C": "$\\angle $A = 56°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "D": "$\\angle $A = 57°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\""
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Architecture_and_Engineering/dev_Architecture_and_Engineering_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_3",
+    "question": "For the truss in Figure P8.4, compute the vertical displacement of joint C.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "0.117 in",
+      "0.232 in",
+      "0.123 in",
+      "0.217 in"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.117 in",
+      "B": "0.232 in",
+      "C": "0.123 in",
+      "D": "0.217 in"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Architecture_and_Engineering/dev_Architecture_and_Engineering_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_4",
+    "question": "Observers stationed at two sections XX and YY, 152 m apart on a highway, record the arrival times of four vehicles as shown in the accompanying table. If the total time of observation at XX was 15 sec, determine the space mean speed.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "41.67mi/hr",
+      "45.67mi/hr",
+      "45.17mi/hr"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "41.67mi/hr",
+      "B": "45.67mi/hr",
+      "C": "45.17mi/hr"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Architecture_and_Engineering/dev_Architecture_and_Engineering_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_5",
+    "question": "Calculate the area of the zero circle with the following data:<image 1>Assume that the tracing arm of the planimeter was so set that one revolution of the measuring wheel measures 100 $cm^{2}$ on the paper.",
+    "question_type": "open",
+    "options": [],
+    "answer": "1970.6",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Architecture_and_Engineering/dev_Architecture_and_Engineering_5_img1.png"
+    ],
+    "response": ""
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "dev_Accounting_1",
+    "question": "Each of the following situations relates to a different company. <image 1> For company B, find the missing amounts.",
+    "question_type": "multiple-choice",
+    "options": [
+      "$63,020",
+      "$58,410",
+      "$71,320",
+      "$77,490"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$63,020",
+      "B": "$58,410",
+      "C": "$71,320",
+      "D": "$77,490"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Accounting/dev_Accounting_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Accounting_2",
+    "question": "Here are facts for the Hudson Roofing Company for December. <image 1> Assuming no investments or withdrawals, what is the ending balance in the owners' capital account?",
+    "question_type": "multiple-choice",
+    "options": [
+      "$171,900",
+      "$170,000",
+      "$172,500",
+      "$181,900"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$171,900",
+      "B": "$170,000",
+      "C": "$172,500",
+      "D": "$181,900"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Accounting/dev_Accounting_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Accounting_3",
+    "question": "For 2015, calculate the cash flow from assets(1) ________, cash flow to creditors(2) ________, and cash flow to stockholders(3) ________.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "1): -$493.02 (2):-$2,384 (3):$1,890.98",
+      "1): $1843.98 (2): -$2,384 (3):$493.02",
+      "1): -$493.02 (2):  -$2,384 (3):-$1,890.98"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "1): -$493.02 (2):-$2,384 (3):$1,890.98",
+      "B": "1): $1843.98 (2): -$2,384 (3):$493.02",
+      "C": "1): -$493.02 (2):  -$2,384 (3):-$1,890.98"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Accounting/dev_Accounting_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Accounting_4",
+    "question": "Paper Submarine Manufacturing is investigating a lockbox system to reduce its collection time. It has determined the following:<image 1> The total collection time will be reduced by three days if the lockbox system is adopted.What is the net cash flow per check from adopting? ",
+    "question_type": "multiple-choice",
+    "options": [
+      "$.02",
+      "$7.79",
+      "$8.65"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$.02",
+      "B": "$7.79",
+      "C": "$8.65"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Accounting/dev_Accounting_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Accounting_5",
+    "question": "Solve for the unknown number of years in each of the following:<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "10.52 years; 14.73 years; 20.02 years; 24.73 years",
+      "10.64 years; 14.81 years; 20.35 years; 25.01 years",
+      "10.96 years; 15.22 years; 20.83 years; 25.96 years"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "10.52 years; 14.73 years; 20.02 years; 24.73 years",
+      "B": "10.64 years; 14.81 years; 20.35 years; 25.01 years",
+      "C": "10.96 years; 15.22 years; 20.83 years; 25.96 years"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Accounting/dev_Accounting_5_img1.png"
+    ],
+    "response": ""
+  }
+]

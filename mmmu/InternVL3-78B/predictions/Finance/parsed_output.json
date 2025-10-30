@@ -1,0 +1,64 @@
+[
+    {
+        "id": "dev_Finance_1",
+        "question_type": "open",
+        "answer": "0.8638",
+        "response": "$0.50",
+        "parsed_pred": [
+            0.5,
+            "$0.50"
+        ],
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Finance_2",
+        "question_type": "open",
+        "answer": "6.38",
+        "response": "Self-supporting growth rate.",
+        "parsed_pred": [
+            "self-supporting growth rate"
+        ],
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Finance_3",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "11%",
+            "B": "8%",
+            "C": "10%",
+            "D": "9%"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Finance_4",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "$2,822",
+            "B": "$374,598",
+            "C": "$85,293",
+            "D": "$31,492",
+            "E": "$810,092"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Finance_5",
+        "question_type": "open",
+        "answer": "749.10",
+        "response": "$1,200 million",
+        "parsed_pred": [
+            "$1,200 million",
+            1200.0,
+            200.0
+        ],
+        "judge": "Wrong"
+    }
+]

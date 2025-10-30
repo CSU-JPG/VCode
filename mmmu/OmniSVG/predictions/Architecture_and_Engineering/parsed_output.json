@@ -1,0 +1,67 @@
+[
+    {
+        "id": "dev_Architecture_and_Engineering_1",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "S45\u00b030'32\"E,745.03 $\\approx$ steps",
+            "B": "N45\u00b030'32\"E,745.03 $\\approx$ steps",
+            "C": "N45\u00b030'32\"W,745.03 $\\approx$ steps",
+            "D": "S45\u00b030'32\"W,745.03 $\\approx$ steps"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Architecture_and_Engineering_2",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "$\\angle $A = 54\u00b012'12.98\",$\\angle $B = 48\u00b045'52.21\",$\\angle $C = 77\u00b001'54.81\"",
+            "B": "$\\angle $A = 44\u00b012'12.98\",$\\angle $B = 48\u00b045'52.21\",$\\angle $C = 77\u00b001'54.81\"",
+            "C": "$\\angle $A = 56\u00b012'12.98\",$\\angle $B = 48\u00b045'52.21\",$\\angle $C = 77\u00b001'54.81\"",
+            "D": "$\\angle $A = 57\u00b012'12.98\",$\\angle $B = 48\u00b045'52.21\",$\\angle $C = 77\u00b001'54.81\""
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Architecture_and_Engineering_3",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "0.117 in",
+            "B": "0.232 in",
+            "C": "0.123 in",
+            "D": "0.217 in"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Architecture_and_Engineering_4",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "41.67mi/hr",
+            "B": "45.67mi/hr",
+            "C": "45.17mi/hr"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Architecture_and_Engineering_5",
+        "question_type": "open",
+        "answer": "1970.6",
+        "response": "Undefined",
+        "parsed_pred": [
+            "undefined"
+        ],
+        "judge": "Wrong"
+    }
+]

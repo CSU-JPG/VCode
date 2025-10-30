@@ -1,0 +1,118 @@
+[
+  {
+    "id": "dev_Math_1",
+    "question": "Each of seven students has chosen three courses from ten options, and must sit an exam for each of his or her three choices. Two students sitting the same exam must do so at the same time, but no student can sit more than one exam in the same day. The table of choices is given in <image 1>. Find the smallest number of days required to schedule the exams. Return only the number of days.",
+    "question_type": "open",
+    "options": [],
+    "answer": "4",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Math/dev_Math_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Math_2",
+    "question": "For the function f(x) = 8x^3 - 2x^2 - 7x + 3, perform two iterations of the dichotomous search scheme for locating the minimum in [0, 1]. In the interval [0, 1], apply the three-point equal-interval search scheme and compare the results with the above solution. Applying the quadratic interpolation technique, find λ^ from (1) and compare the result with that of dichotomous search: λ^ = (1/2) [{g(a)(c^2 - b^2) + g(b)(a^2 - c^2) + g(c)(b^2 - a^2)} / {g(a)(c - b) + g(b)(a - c) + g(c)(b - a)}] (1) Choose ε = 0.1.\n<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "The dichotomous search yields a smaller interval containing $ x^* $ than the equal-interval search.",
+      "The value obtained from quadratic interpolation $ \\lambda' = 0.52 $ is an accurate estimate for $ \\lambda^* $.",
+      "The equal-interval search required more function evaluations than the quadratic interpolation.",
+      "$ f(x) $ has a minimum of 5 in the interval $ [-1, 1] $."
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The dichotomous search yields a smaller interval containing $ x^* $ than the equal-interval search.",
+      "B": "The value obtained from quadratic interpolation $ \\lambda' = 0.52 $ is an accurate estimate for $ \\lambda^* $.",
+      "C": "The equal-interval search required more function evaluations than the quadratic interpolation.",
+      "D": "$ f(x) $ has a minimum of 5 in the interval $ [-1, 1] $."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Math/dev_Math_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Math_3",
+    "question": "<image 1>Let f be twice differentiable function on the interval -1 < x < 5 with f(1) = 0 and f(2) = 3.The graph of f' , the derivative of f , is shown above. The graph of f'crosses the x- axis at x=-0.5 and x =4 . Let h be the function given by $h(x)=f({\\sqrt{x+1}})$. which is the equation for the line tangent to the graph of h at x = 3",
+    "question_type": "multiple-choice",
+    "options": [
+      "y = 5x/12 + 7/4 ",
+      "y = 5x/12 + 5/4",
+      "y = 7x/12 + 7/4"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "y = 5x/12 + 7/4 ",
+      "B": "y = 5x/12 + 5/4",
+      "C": "y = 7x/12 + 7/4"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Math/dev_Math_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Math_4",
+    "question": "<image 1> illustrate a walk and a cycle. We can easily represent walking as?",
+    "question_type": "multiple-choice",
+    "options": [
+      "w = (3, {3, 2}, 2, {2, 4}, 4, {4, 1}, 1).",
+      "w = (1, 3, {3, 2}, 2, {2, 1}, 4, {4, 1}).",
+      "w = (4, {2, 4}, 3, {3, 2} , 4, {4, 1}, 1).",
+      "w = (4, {4, 1}, 2, {2, 4},3, {3, 2},, 1)."
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "w = (3, {3, 2}, 2, {2, 4}, 4, {4, 1}, 1).",
+      "B": "w = (1, 3, {3, 2}, 2, {2, 1}, 4, {4, 1}).",
+      "C": "w = (4, {2, 4}, 3, {3, 2} , 4, {4, 1}, 1).",
+      "D": "w = (4, {4, 1}, 2, {2, 4},3, {3, 2},, 1)."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Math/dev_Math_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Math_5",
+    "question": "Do the set of instant insanity cubes in <image 1> have a solution? ",
+    "question_type": "multiple-choice",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "Yes",
+      "B": "No"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Math/dev_Math_5_img1.png"
+    ],
+    "response": ""
+  }
+]

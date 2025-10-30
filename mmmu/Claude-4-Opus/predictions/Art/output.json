@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dev_Art_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Vanessa Bell",
+      "B": "Eileen Agar",
+      "C": "Dora Carrington",
+      "D": "Leonora Carrington"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Art_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The left one.",
+      "B": "The right one.",
+      "C": "Both images",
+      "D": "Neither image"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  },
+  {
+    "id": "dev_Art_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Agnew Clinic",
+      "B": "I and the Village",
+      "C": "Five Bathing Women at a Lake",
+      "D": "Skull with Burning Cigarette"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Art_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Glory",
+      "B": "The Wild Geese",
+      "C": "The Field by the Lirk o' the Hill",
+      "D": "The Rowan"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Art_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "MICHELANGELO BUONARROTI",
+      "B": "TITIAN",
+      "C": "LUCAS VAN LEYDEN",
+      "D": "LEONARDO DA VINCI"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  }
+]

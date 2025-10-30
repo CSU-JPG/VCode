@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dev_Manage_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Overnight Shipping",
+      "B": "Worldwide Delivery",
+      "C": "United Freight"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Manage_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Workers without a high school diploma",
+      "B": "High school graduates with no college education",
+      "C": "Workers with some college education",
+      "D": "Workers with a bachelor's degree or higher",
+      "E": "All groups showed a rise."
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Manage_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Post-it notes with three or more ballots are placed in a large 'idea box' and painted on a board based on the dominant color.",
+      "B": "Participants place their stickers on the corresponding sticky notes",
+      "C": "In silence, participants read all thoughts generated during the disagreement",
+      "D": "The group selects three or more ideas for each color to develop"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Manage_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Profit structure",
+      "B": "cost structure",
+      "C": "Industrial structure",
+      "D": "Company personnel structure"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Manage_5",
+    "question_type": "open",
+    "answer": "26",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Total project completion time is 34 days."
+  }
+]

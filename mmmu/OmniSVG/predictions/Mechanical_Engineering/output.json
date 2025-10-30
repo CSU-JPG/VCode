@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dev_Mechanical_Engineering_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "85.5rpm",
+      "B": "72.2rpm",
+      "C": "95rpm",
+      "D": "52rpm"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$",
+      "B": "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
+      "C": "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta d=506.109$",
+      "B": "$\\delta d=706.109$",
+      "C": "$\\delta d=906.109$"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.0375hp",
+      "B": "0.0475hp",
+      "C": "0.0572hp",
+      "D": "0.0623hp"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "t=1.46s",
+      "B": "t=2.46s",
+      "C": "t=3.46s"
+    },
+    "response": "A"
+  }
+]

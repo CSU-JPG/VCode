@@ -1,0 +1,136 @@
+[
+  {
+    "id": "dev_Design_1",
+    "question": "What innovation seen in Rodin's 'The Burghers of Calais' signaled his departure from established traditions of sculpture?(<image 1>)",
+    "question_type": "multiple-choice",
+    "options": [
+      "the figure grouping is placed at eye-level",
+      "the figures show emotional anguish and despair",
+      "Rodin suggests their pain through physical discomfort",
+      "all of the above"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "the figure grouping is placed at eye-level",
+      "B": "the figures show emotional anguish and despair",
+      "C": "Rodin suggests their pain through physical discomfort",
+      "D": "all of the above"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Design/dev_Design_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Design_2",
+    "question": "Both works (<image 1>) come from which art-historical period?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Baroque",
+      "Renaissance",
+      "Rococo",
+      "Classical"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Baroque",
+      "B": "Renaissance",
+      "C": "Rococo",
+      "D": "Classical"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Design/dev_Design_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Design_3",
+    "question": "To keep rhythm exciting and active, _____ is essential.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Repetition",
+      "Unity",
+      "Variety",
+      "Balance"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Repetition",
+      "B": "Unity",
+      "C": "Variety",
+      "D": "Balance"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Design/dev_Design_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Design_4",
+    "question": "Provide at least 15\" of landing area on the handle side of a _____<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Stove",
+      "Refrigerator",
+      "Dishwasher",
+      "Sink"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Stove",
+      "B": "Refrigerator",
+      "C": "Dishwasher",
+      "D": "Sink"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Design/dev_Design_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Design_5",
+    "question": "Does <image 1> represent a monochromatic color scheme or analogous color scheme?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Monochromatic color scheme",
+      "Analogous color scheme"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "Monochromatic color scheme",
+      "B": "Analogous color scheme"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Design/dev_Design_5_img1.png"
+    ],
+    "response": ""
+  }
+]

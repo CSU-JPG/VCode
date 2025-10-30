@@ -1,0 +1,58 @@
+[
+    {
+        "id": "dev_Art_Theory_1",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "contribution of Native Americans to landscape preservation",
+            "B": "implementation of the Homestead Act",
+            "C": "impact of the gold rush on landscape development",
+            "D": "idea of Manifest Destiny"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Art_Theory_2",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "Roman emperor",
+            "B": "Greek philosopher",
+            "C": "Carolingian king",
+            "D": "Romanesque abbot"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Art_Theory_4",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "accurately copying figures and subject matter from nature",
+            "B": "aligning the Old Testament and the New Testament through typology",
+            "C": "emphasizing the role of the saints in the church",
+            "D": "asserting imperial authority over the church"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Art_Theory_5",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "friezes",
+            "B": "pediments",
+            "C": "registers",
+            "D": "polyptychs"
+        },
+        "judge": "Correct"
+    }
+]

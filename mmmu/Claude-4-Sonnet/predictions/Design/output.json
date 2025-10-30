@@ -1,0 +1,88 @@
+[
+  {
+    "id": "dev_Design_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "the figure grouping is placed at eye-level",
+      "B": "the figures show emotional anguish and despair",
+      "C": "Rodin suggests their pain through physical discomfort",
+      "D": "all of the above"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Design_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Baroque",
+      "B": "Renaissance",
+      "C": "Rococo",
+      "D": "Classical"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  },
+  {
+    "id": "dev_Design_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Repetition",
+      "B": "Unity",
+      "C": "Variety",
+      "D": "Balance"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Design_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Stove",
+      "B": "Refrigerator",
+      "C": "Dishwasher",
+      "D": "Sink"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Design_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "Monochromatic color scheme",
+      "B": "Analogous color scheme"
+    },
+    "response": "B"
+  }
+]

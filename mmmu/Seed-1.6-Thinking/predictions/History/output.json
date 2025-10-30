@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dev_History_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The resilience of the Chinese economy, despite the dynastic change from Ming to Qing",
+      "B": "The industrial and commercial supremacy of Great Britain in western Europe",
+      "C": "The widespread acceptance of the principles of free trade by most European and Asian governments",
+      "D": "The ongoing expansion of Muslim empires, such as the Ottoman and the Safavid"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_History_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The king granted the title of National Assembly to the First Estate after it advocated for greater royal control of church officials",
+      "B": "The Second Estate, refusing to shoulder a greater tax burdon, announced the reformation of a completely aristocratic National Assembly",
+      "C": "The Third Estate, whose numbers exceeded the combined numbers of the other estates, simply declared itself the National Assembly",
+      "D": "The Fourth Estate, refusing to report on the controversies of Estates General, introduced itself as an alternative legislature called the National Assembly"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_History_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The power of traditional elites was continuously challenged by the emerging power of new elites.",
+      "B": "The power of states was based on the ability of rulers to monopolize the use of violence.",
+      "C": "Artists depended on royal patronage for their livelihoods.",
+      "D": "Rulers used religious imagery to legitimize their political authority."
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_History_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The need for humans to adapt to their environments",
+      "B": "The production of cash crops on plantations",
+      "C": "The use of slave labor for cultivation",
+      "D": "The use of technology to project military power"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_History_5",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The migration of former colonial subjects to cities in the former colonizing country",
+      "B": "The development of ethnic enclaves as migrants moved to seek work opportunities",
+      "C": "The migration patterns associated with male seasonal laborers",
+      "D": "The population resettlement caused by redrawing former colonial boundaries"
+    },
+    "response": "B"
+  }
+]

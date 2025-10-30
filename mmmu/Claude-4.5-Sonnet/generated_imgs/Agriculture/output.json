@@ -1,0 +1,154 @@
+[
+  {
+    "id": "dev_Agriculture_1",
+    "question": "<image 1> This isn't related to plant diseases, but it's crucial for the production of potatoes. Can you tell me if either of these two insects, or maybe even both, are harmful to potatoes?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Neither are pest of potato",
+      "The one with black coloured antennae",
+      "The one with tan coloured antennae",
+      "Both are pests of potato"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Neither are pest of potato",
+      "B": "The one with black coloured antennae",
+      "C": "The one with tan coloured antennae",
+      "D": "Both are pests of potato"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Agriculture/dev_Agriculture_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Agriculture_2",
+    "question": "<image 1> What is the count of pathogens infecting this sunflower leaf?",
+    "question_type": "multiple-choice",
+    "options": [
+      "One pathogen",
+      "Two pathogens",
+      "Three pathogens",
+      "There is no pathogen involved",
+      "I don't know and I don't want to guess"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "One pathogen",
+      "B": "Two pathogens",
+      "C": "Three pathogens",
+      "D": "There is no pathogen involved",
+      "E": "I don't know and I don't want to guess"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Agriculture/dev_Agriculture_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Agriculture_3",
+    "question": "<image 1> What could be the reason behind the massive gum production on the trunks of these grapefruit trees in Cyprus, even though they appeared healthy when observed from a higher point on a hillside?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Don't know or not sure",
+      "Physiological stress",
+      "Bacterial disease",
+      "Harvesting damage when cutting with knives",
+      "Fungal gummosis"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Don't know or not sure",
+      "B": "Physiological stress",
+      "C": "Bacterial disease",
+      "D": "Harvesting damage when cutting with knives",
+      "E": "Fungal gummosis"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Agriculture/dev_Agriculture_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Agriculture_4",
+    "question": "<image 1> Which among the following assertions holds true?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Laboratory work with micro manipulators can mimic the transmission of viruses.",
+      "All plant feeding insects can transmit viruses.",
+      "All plant viruses can be transmitted by insects.",
+      "Most viruses have a specific relationship with their vectors.",
+      "I don't know and I don't want to guess"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Laboratory work with micro manipulators can mimic the transmission of viruses.",
+      "B": "All plant feeding insects can transmit viruses.",
+      "C": "All plant viruses can be transmitted by insects.",
+      "D": "Most viruses have a specific relationship with their vectors.",
+      "E": "I don't know and I don't want to guess"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Agriculture/dev_Agriculture_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Agriculture_5",
+    "question": "<image 1> What among the listed issues would not be the cause for the petioles of this rhubarb splitting?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Physiological problems",
+      "Phytoplasma infection",
+      "I don't know and don't want to guess.",
+      "Animal damage",
+      "Bacteria"
+    ],
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Physiological problems",
+      "B": "Phytoplasma infection",
+      "C": "I don't know and don't want to guess.",
+      "D": "Animal damage",
+      "E": "Bacteria"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Agriculture/dev_Agriculture_5_img1.png"
+    ],
+    "response": ""
+  }
+]

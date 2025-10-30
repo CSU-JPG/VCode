@@ -1,0 +1,114 @@
+[
+  {
+    "id": "dev_Literature_1",
+    "question": "Refer to the figure <image 1>, which term refers to when a challenge is successful and materials are removed from the curriculum or library?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Writing-in-role",
+      "Challenge",
+      "Banning",
+      "Hot Seat"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Writing-in-role",
+      "B": "Challenge",
+      "C": "Banning",
+      "D": "Hot Seat"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Literature/dev_Literature_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Literature_3",
+    "question": "Refer to the figure <image 1>, which term refers to a symbol reoccurring through a story?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Theme",
+      "Shape",
+      "Covers",
+      "Motif"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Theme",
+      "B": "Shape",
+      "C": "Covers",
+      "D": "Motif"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Literature/dev_Literature_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Literature_4",
+    "question": "Refer to the figure <image 1>, which term best describes the practice where students take on the role of television or newspaper reporters and interview characters from the book to retell an event from a range of perspectives?",
+    "question_type": "multiple-choice",
+    "options": [
+      "News Program",
+      "Readers Theatre",
+      "Hot Seat",
+      "News"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "News Program",
+      "B": "Readers Theatre",
+      "C": "Hot Seat",
+      "D": "News"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Literature/dev_Literature_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Literature_5",
+    "question": "Refer to the description <image 1>, which type of irony is depicted when a person says or writes one thing and means another, or uses words to convey a meaning opposite to the literal meaning?",
+    "question_type": "multiple-choice",
+    "options": [
+      "verbal irony",
+      "situational irony",
+      "foreshadowing",
+      "dramatic irony"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "verbal irony",
+      "B": "situational irony",
+      "C": "foreshadowing",
+      "D": "dramatic irony"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Literature/dev_Literature_5_img1.png"
+    ],
+    "response": ""
+  }
+]

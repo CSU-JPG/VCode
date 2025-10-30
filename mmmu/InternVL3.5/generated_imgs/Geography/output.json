@@ -1,0 +1,142 @@
+[
+  {
+    "id": "dev_Geography_1",
+    "question": "What do satellite 1, 2, 3 separately monitor in <image 1>?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Earth's energy balance, Earth's water cycle, Earth's surface",
+      "Earth's water cycle, Earth's energy balance, Earth's surface",
+      "Earth's surface, Earth's water cycle, Earth's energy balance",
+      "Earth's surface, Earth's energy balance, Earth's water cycle"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Earth's energy balance, Earth's water cycle, Earth's surface",
+      "B": "Earth's water cycle, Earth's energy balance, Earth's surface",
+      "C": "Earth's surface, Earth's water cycle, Earth's energy balance",
+      "D": "Earth's surface, Earth's energy balance, Earth's water cycle"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Geography/dev_Geography_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Geography_2",
+    "question": "The moisture content of a non self weight collapsible loess sample is w=15.6%, and the relative density (specific gravity) of soil particles is dr=2.70,Mass density $\\rou$= 1.60g/cm3, liquid limit wL=30.0%, plastic limit wP=17.9%, pile foundation design needs to be based on Check the design parameters for the liquid index under saturation state, and the liquid index of the sample is closest when its saturation reaches 85%Which of the following options? ()<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "0.85",
+      " 0.92",
+      "0.99",
+      "1.06"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.85",
+      "B": " 0.92",
+      "C": "0.99",
+      "D": "1.06"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Geography/dev_Geography_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Geography_3",
+    "question": "The settlement calculation method considering stress history requires the indicators provided by the survey, in addition to the pre consolidation pressure In addition to force, compression index, and porosity ratio, the other indicators that should be provided are ()<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Effective self weight pressure",
+      " Rebound index",
+      "Average additional pressure",
+      "Groundwater level"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Effective self weight pressure",
+      "B": " Rebound index",
+      "C": "Average additional pressure",
+      "D": "Groundwater level"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Geography/dev_Geography_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Geography_4",
+    "question": "There is a device with a current actual value of P=8000 yuan and an estimated residual value of LN=800 yuan. The first year's The operating cost of the equipment is Q=600 yuan, and the annual deterioration increment of the equipment is equal. The annual deterioration value $\\lambda $= four hundred Yuan, then the economic life of the equipment is () years.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      " 7.5",
+      " 7.5",
+      "8",
+      " 6"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": " 7.5",
+      "B": " 7.5",
+      "C": "8",
+      "D": " 6"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Geography/dev_Geography_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Geography_5",
+    "question": "In the illustrated circuit, the consumption power of load RL is 72W. If the transformer voltage ratio k=5, the effective value of the transformer is U1 ()<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "equal to 120V",
+      "equals to 4.8V",
+      "and equals to 0.6V",
+      "cannot be calculated"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "equal to 120V",
+      "B": "equals to 4.8V",
+      "C": "and equals to 0.6V",
+      "D": "cannot be calculated"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Geography/dev_Geography_5_img1.png"
+    ],
+    "response": ""
+  }
+]

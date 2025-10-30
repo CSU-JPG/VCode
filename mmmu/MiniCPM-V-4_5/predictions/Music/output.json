@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dev_Music_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "iv7d",
+      "B": "V7a",
+      "C": "IV7",
+      "D": "viio7b"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Music_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "box1",
+      "B": "box2",
+      "C": "box3",
+      "D": "box4"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Music_4",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "B major",
+      "B": "E major",
+      "C": "A minor",
+      "D": "E minor"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Music_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "3/4 3/4 3/4 4/4 2/8 6/8",
+      "B": "6/8 3/4 6/8 2/4 3/8 6/8",
+      "C": "6/8 3/4 3/4 2/4 3/8 6/8",
+      "D": "All of the first three options are incorrect."
+    },
+    "response": "IMAGE_NOT_FOUND"
+  }
+]

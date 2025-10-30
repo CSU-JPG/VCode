@@ -1,0 +1,98 @@
+[
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_1",
+    "question_type": "multiple-choice",
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "characteristically contains rosenthal fibers",
+      "B": "MRI shows commonly a cystic lesion with enhancing mural nodule",
+      "C": "usually has complex glomeruloid vessels",
+      "D": "a and b are correct",
+      "E": "a, b and C are correct"
+    },
+    "response": "E"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "This patient has probably a long history of seizures",
+      "B": "A reticulin stain will probably show a dense intercellular network",
+      "C": "This is a high grade glioma",
+      "D": "A and B are correct",
+      "E": "A,B and C are correct"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The structure labelled A isthe left subclavian vein.",
+      "B": "The structure labelled B isthe trachea",
+      "C": "The structure labelled C is the hemiazygos vein",
+      "D": "The structure labelled D isthe apex of the left lung"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "S-100",
+      "B": "EMA",
+      "C": "CD-34",
+      "D": "CD-20",
+      "E": "CD-45"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Becker s Muscular Dystrophy",
+      "B": "Duchene Muscular Dystroph",
+      "C": "A female carrier of a dystrophinopathy",
+      "D": "Normal"
+    },
+    "response": "B"
+  }
+]

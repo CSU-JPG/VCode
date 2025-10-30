@@ -1,0 +1,114 @@
+[
+  {
+    "id": "dev_Music_1",
+    "question": "<image 1> Identify the chords marked * in bar 5.",
+    "question_type": "multiple-choice",
+    "options": [
+      "iv7d",
+      "V7a",
+      "IV7",
+      "viio7b"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "iv7d",
+      "B": "V7a",
+      "C": "IV7",
+      "D": "viio7b"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Music/dev_Music_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Music_3",
+    "question": "<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "box1",
+      "box2",
+      "box3",
+      "box4"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "box1",
+      "B": "box2",
+      "C": "box3",
+      "D": "box4"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Music/dev_Music_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Music_4",
+    "question": "Choose the correct key of each of the melody. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "B major",
+      "E major",
+      "A minor",
+      "E minor"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "B major",
+      "B": "E major",
+      "C": "A minor",
+      "D": "E minor"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Music/dev_Music_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Music_5",
+    "question": "Choose the correct time signature for each measure of the following melody fragment from the four options (A, B, C, and D) given in each question. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "3/4 3/4 3/4 4/4 2/8 6/8",
+      "6/8 3/4 6/8 2/4 3/8 6/8",
+      "6/8 3/4 3/4 2/4 3/8 6/8",
+      "All of the first three options are incorrect."
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "3/4 3/4 3/4 4/4 2/8 6/8",
+      "B": "6/8 3/4 6/8 2/4 3/8 6/8",
+      "C": "6/8 3/4 3/4 2/4 3/8 6/8",
+      "D": "All of the first three options are incorrect."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Music/dev_Music_5_img1.png"
+    ],
+    "response": ""
+  }
+]

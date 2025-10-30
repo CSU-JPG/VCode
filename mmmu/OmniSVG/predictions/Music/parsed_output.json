@@ -1,0 +1,58 @@
+[
+    {
+        "id": "dev_Music_1",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "iv7d",
+            "B": "V7a",
+            "C": "IV7",
+            "D": "viio7b"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Music_3",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": null,
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "box1",
+            "B": "box2",
+            "C": "box3",
+            "D": "box4"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Music_4",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "B major",
+            "B": "E major",
+            "C": "A minor",
+            "D": "E minor"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Music_5",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "3/4 3/4 3/4 4/4 2/8 6/8",
+            "B": "6/8 3/4 6/8 2/4 3/8 6/8",
+            "C": "6/8 3/4 3/4 2/4 3/8 6/8",
+            "D": "All of the first three options are incorrect."
+        },
+        "judge": "Wrong"
+    }
+]

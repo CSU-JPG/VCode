@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dev_Sociology_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A very small group of witnesses",
+      "B": "The presence of an ally",
+      "C": "The ability to keep one's answer private",
+      "D": "All of the above"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  },
+  {
+    "id": "dev_Sociology_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Historical preconditions and laws of society",
+      "B": "Historical preconditions and subjective perspectives",
+      "C": "Historical preconditions and social facts",
+      "D": "Historical preconditions and class consciousness"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  },
+  {
+    "id": "dev_Sociology_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Formal sanctions",
+      "B": "Social order",
+      "C": "Cultural deviance",
+      "D": "Sanction labelling"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  },
+  {
+    "id": "dev_Sociology_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us",
+      "B": "Identity is regarded as the result of modeling oneself in response to the expectations of others, not as a product of the unconscious",
+      "C": "Socially deLned expectations that a person in a given social position will follow",
+      "D": "Involves instilling culture within the individual, enabling the person to survive effectively in his or her social world"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  },
+  {
+    "id": "dev_Sociology_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Political",
+      "B": "Pyschological",
+      "C": "Sociological",
+      "D": "Individual"
+    },
+    "response": "A"
+  }
+]

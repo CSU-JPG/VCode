@@ -1,0 +1,72 @@
+[
+    {
+        "id": "dev_Geography_1",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "Earth's energy balance, Earth's water cycle, Earth's surface",
+            "B": "Earth's water cycle, Earth's energy balance, Earth's surface",
+            "C": "Earth's surface, Earth's water cycle, Earth's energy balance",
+            "D": "Earth's surface, Earth's energy balance, Earth's water cycle"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Geography_2",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "0.85",
+            "B": " 0.92",
+            "C": "0.99",
+            "D": "1.06"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Geography_3",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "Effective self weight pressure",
+            "B": " Rebound index",
+            "C": "Average additional pressure",
+            "D": "Groundwater level"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Geography_4",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": " 7.5",
+            "B": " 7.5",
+            "C": "8",
+            "D": " 6"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Geography_5",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "equal to 120V",
+            "B": "equals to 4.8V",
+            "C": "and equals to 0.6V",
+            "D": "cannot be calculated"
+        },
+        "judge": "Wrong"
+    }
+]

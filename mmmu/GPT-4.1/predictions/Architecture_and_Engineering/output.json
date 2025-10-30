@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dev_Architecture_and_Engineering_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "S45°30'32\"E,745.03 $\\approx$ steps",
+      "B": "N45°30'32\"E,745.03 $\\approx$ steps",
+      "C": "N45°30'32\"W,745.03 $\\approx$ steps",
+      "D": "S45°30'32\"W,745.03 $\\approx$ steps"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$\\angle $A = 54°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "B": "$\\angle $A = 44°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "C": "$\\angle $A = 56°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "D": "$\\angle $A = 57°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\""
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.117 in",
+      "B": "0.232 in",
+      "C": "0.123 in",
+      "D": "0.217 in"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "41.67mi/hr",
+      "B": "45.67mi/hr",
+      "C": "45.17mi/hr"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_5",
+    "question_type": "open",
+    "answer": "1970.6",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Area: 6.520 cm²"
+  }
+]

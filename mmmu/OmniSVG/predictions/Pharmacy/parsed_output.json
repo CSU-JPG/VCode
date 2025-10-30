@@ -1,0 +1,56 @@
+[
+    {
+        "id": "dev_Pharmacy_1",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "Chemoselectivity",
+            "B": "Regioselectivity",
+            "C": "Stereospecificity",
+            "D": "Enantioselectivity"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Pharmacy_3",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "25 $\\mu $g/ml ",
+            "B": "50 $\\mu $g/ml",
+            "C": "100 $\\mu $g/ml",
+            "D": "200 $\\mu $g/ml"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Pharmacy_4",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "True",
+            "B": "False"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Pharmacy_5",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "A",
+            "B": "D",
+            "C": "Both of them",
+            "D": ""
+        },
+        "judge": "Wrong"
+    }
+]

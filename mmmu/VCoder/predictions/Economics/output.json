@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dev_Economics_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "500",
+      "B": "450",
+      "C": "400",
+      "D": "600"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Economics_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "1.20 Shoes",
+      "B": "1.00 Shoes",
+      "C": "0.83 Shoes",
+      "D": "0.75 Shoes"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Economics_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Nigeria",
+      "B": "Neither country",
+      "C": "Mexico"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Economics_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Economics_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "6 million",
+      "B": "7 million",
+      "C": "8 million",
+      "D": "9 million"
+    },
+    "response": "IMAGE_NOT_FOUND"
+  }
+]

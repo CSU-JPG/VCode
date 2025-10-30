@@ -1,0 +1,96 @@
+[
+  {
+    "id": "dev_Chemistry_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "7",
+      "E": "9"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Chemistry_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0°C",
+      "B": "-50°C",
+      "C": "12°C",
+      "D": "75°C"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Chemistry_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Chemistry_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "(A)",
+      "B": "(B)",
+      "C": "(C)",
+      "D": "(D)",
+      "E": "(E)"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Chemistry_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "I > II > III",
+      "B": "III > II > I",
+      "C": "III > I > II",
+      "D": "II > I > III"
+    },
+    "response": "B"
+  }
+]

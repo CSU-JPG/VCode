@@ -1,0 +1,69 @@
+[
+    {
+        "id": "dev_Computer_Science_1",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "Phone",
+            "B": "Ssn",
+            "C": "Name",
+            "D": "Addr",
+            "E": "None of the other answers"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Computer_Science_2",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "half adder",
+            "B": "full adder"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Computer_Science_3",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "None of the other answers"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Computer_Science_4",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "IMAGE_NOT_FOUND",
+        "parsed_pred": null,
+        "index2ans": {
+            "A": "same",
+            "B": "not the same"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Computer_Science_5",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "BOOK_AUTHORS",
+            "B": "PUBLISHER",
+            "C": "BOOK_LOANS",
+            "D": "LIBRARY_BRANCH"
+        },
+        "judge": "Correct"
+    }
+]
