@@ -1,0 +1,747 @@
+[
+  {
+    "modelName": "Claude-4.5-Sonnet",
+    "sigLipScore": 75.3,
+    "codeToken": 1.9,
+    "size": null,
+    "date": "2025-09-29",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 44.3,
+      "general": {
+        "avg": 39.0,
+        "rec": 29.7,
+        "ocr": 57.6,
+        "know": 11.9,
+        "gen": 17.0,
+        "spat": 57.3,
+        "math": 52.7,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 42.5,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 52.7,
+        "2d": 50.4,
+        "3d": 55.0,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Claude-4-Opus",
+    "sigLipScore": 65.6,
+    "codeToken": 1.5,
+    "size": null,
+    "date": "2025-05-22",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 42.8,
+      "general": {
+        "avg": 37.5,
+        "rec": 30.4,
+        "ocr": 52.3,
+        "know": 13.9,
+        "gen": 18.5,
+        "spat": 49.5,
+        "math": 50.4,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 42.5,
+        "samples": 140
+      },
+      "vision_centric": {
+        "avg": 49.9,
+        "2d": 41.6,
+        "3d": 58.3,
+        "samples": 98
+      }
+    }
+  },
+  {
+    "modelName": "Claude-4-Sonnet",
+    "sigLipScore": 65.2,
+    "codeToken": 1.6,
+    "size": null,
+    "date": "2025-05-22",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 42.4,
+      "general": {
+        "avg": 37.8,
+        "rec": 31.8,
+        "ocr": 51.2,
+        "know": 24.9,
+        "gen": 27.9,
+        "spat": 44.8,
+        "math": 34.6,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 39.0,
+        "samples": 140
+      },
+      "vision_centric": {
+        "avg": 51.2,
+        "2d": 49.0,
+        "3d": 53.3,
+        "samples": 98
+      }
+    }
+  },
+  {
+    "modelName": "GPT-5",
+    "sigLipScore": 72.1,
+    "codeToken": 2.3,
+    "size": null,
+    "date": "2025-08-07",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 48.4,
+      "general": {
+        "avg": 43.9,
+        "rec": 33.9,
+        "ocr": 64.9,
+        "know": 20.5,
+        "gen": 23.8,
+        "spat": 60.5,
+        "math": 65.4,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 42.5,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 59.2,
+        "2d": 51.8,
+        "3d": 66.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "GPT-4o",
+    "sigLipScore": 60.7,
+    "codeToken": 0.6,
+    "size": null,
+    "date": "2024-05-13",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 39.1,
+      "general": {
+        "avg": 35.0,
+        "rec": 23.1,
+        "ocr": 58.4,
+        "know": 12.7,
+        "gen": 17.0,
+        "spat": 51.3,
+        "math": 60.4,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 44.5,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 39.6,
+        "2d": 29.3,
+        "3d": 50.0,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "GPT-o3",
+    "sigLipScore": 63.6,
+    "codeToken": 1.1,
+    "size": null,
+    "date": "2025-04-16",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 43.5,
+      "general": {
+        "avg": 39.8,
+        "rec": 31.3,
+        "ocr": 55.2,
+        "know": 17.7,
+        "gen": 19.7,
+        "spat": 48.5,
+        "math": 61.5,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 39.0,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 52.1,
+        "2d": 47.4,
+        "3d": 56.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "GPT-4.1",
+    "sigLipScore": 68.5,
+    "codeToken": 1.6,
+    "size": null,
+    "date": "2025-04-14",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 47.1,
+      "general": {
+        "avg": 40.9,
+        "rec": 30.8,
+        "ocr": 62.0,
+        "know": 15.5,
+        "gen": 20.4,
+        "spat": 56.0,
+        "math": 55.8,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 44.5,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 57.4,
+        "2d": 48.2,
+        "3d": 66.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "GPT-4o-mini",
+    "sigLipScore": 62.5,
+    "codeToken": 0.4,
+    "size": null,
+    "date": "2024-07-18",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 37.9,
+      "general": {
+        "avg": 33.5,
+        "rec": 20.7,
+        "ocr": 58.4,
+        "know": 13.2,
+        "gen": 18.9,
+        "spat": 46.8,
+        "math": 63.5,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 44.5,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 38.0,
+        "2d": 27.7,
+        "3d": 48.3,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Gemini-2.5-Pro",
+    "sigLipScore": 66.4,
+    "codeToken": 2.4,
+    "size": null,
+    "date": "2025-06-17",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 46.3,
+      "general": {
+        "avg": 39.1,
+        "rec": 28.9,
+        "ocr": 57.8,
+        "know": 20.0,
+        "gen": 22.9,
+        "spat": 47.9,
+        "math": 68.5,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 45.2,
+        "samples": 145
+      },
+      "vision_centric": {
+        "avg": 56.4,
+        "2d": 56.1,
+        "3d": 56.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Gemini-2.5-Flash",
+    "sigLipScore": 63.6,
+    "codeToken": 1.9,
+    "size": null,
+    "date": "2025-06-17",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 43.9,
+      "general": {
+        "avg": 39.1,
+        "rec": 29.3,
+        "ocr": 56.7,
+        "know": 17.4,
+        "gen": 21.1,
+        "spat": 46.3,
+        "math": 53.8,
+        "samples": 195
+      },
+      "professional": {
+        "avg": 39.7,
+        "samples": 143
+      },
+      "vision_centric": {
+        "avg": 53.6,
+        "2d": 48.8,
+        "3d": 58.3,
+        "samples": 99
+      }
+    }
+  },
+  {
+    "modelName": "Seed-1.6-Thinking",
+    "sigLipScore": 62.7,
+    "codeToken": 1.6,
+    "size": null,
+    "date": "2025-06-11",
+    "isThinkingModel": true,
+    "scores": {
+      "vcode_overall": 38.9,
+      "general": {
+        "avg": 28.7,
+        "rec": 18.9,
+        "ocr": 46.5,
+        "know": 8.1,
+        "gen": 11.9,
+        "spat": 44.1,
+        "math": 38.5,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 43.2,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 48.5,
+        "2d": 45.3,
+        "3d": 51.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Llama-4-Scout-17B-16E-Instruct",
+    "sigLipScore": 64.2,
+    "codeToken": 0.7,
+    "size": 17,
+    "date": "2025-04-05",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 35.3,
+      "general": {
+        "avg": 26.4,
+        "rec": 18.2,
+        "ocr": 44.9,
+        "know": 12.4,
+        "gen": 15.5,
+        "spat": 32.8,
+        "math": 46.2,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 42.5,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 44.2,
+        "2d": 35.0,
+        "3d": 53.3,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Qwen2.5-VL-7B",
+    "sigLipScore": 58.9,
+    "codeToken": 0.6,
+    "size": 7,
+    "date": "2025-01-26",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 16.6,
+      "general": {
+        "avg": 4.8,
+        "rec": 4.9,
+        "ocr": 6.0,
+        "know": 3.0,
+        "gen": 4.0,
+        "spat": 7.1,
+        "math": 3.8,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 19.2,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 29.6,
+        "2d": 17.5,
+        "3d": 41.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Qwen2.5-VL-72B",
+    "sigLipScore": 24.4,
+    "codeToken": 0.3,
+    "size": 72,
+    "date": "2025-01-26",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 36.2,
+      "general": {
+        "avg": 31.8,
+        "rec": 20.6,
+        "ocr": 52.9,
+        "know": 14.0,
+        "gen": 17.3,
+        "spat": 51.3,
+        "math": 43.1,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 41.1,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 37.6,
+        "2d": 21.9,
+        "3d": 53.3,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Qwen3-VL-235B-A22B-Instruct",
+    "sigLipScore": 58.9,
+    "codeToken": 1.7,
+    "size": 235,
+    "date": "2025-09-23",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 36.8,
+      "general": {
+        "avg": 31.1,
+        "rec": 19.3,
+        "ocr": 54.6,
+        "know": 8.8,
+        "gen": 14.5,
+        "spat": 45.6,
+        "math": 53.1,
+        "samples": 185
+      },
+      "professional": {
+        "avg": 41.1,
+        "samples": 145
+      },
+      "vision_centric": {
+        "avg": 40.5,
+        "2d": 22.6,
+        "3d": 58.3,
+        "samples": 94
+      }
+    }
+  },
+  {
+    "modelName": "InternVL3.5-241B-A28B",
+    "sigLipScore": 59.6,
+    "codeToken": 1.0,
+    "size": 241,
+    "date": "2025-08-26",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 39.8,
+      "general": {
+        "avg": 31.1,
+        "rec": 20.4,
+        "ocr": 52.4,
+        "know": 11.9,
+        "gen": 15.7,
+        "spat": 39.2,
+        "math": 42.3,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 43.8,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 47.6,
+        "2d": 45.3,
+        "3d": 50.0,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "Intern-S1",
+    "sigLipScore": 59.3,
+    "codeToken": 1.0,
+    "size": 241,
+    "date": "2025-07-26",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 41.8,
+      "general": {
+        "avg": 35.2,
+        "rec": 24.7,
+        "ocr": 56.8,
+        "know": 12.1,
+        "gen": 16.0,
+        "spat": 51.2,
+        "math": 41.9,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 41.1,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 50.9,
+        "2d": 46.8,
+        "3d": 55.0,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "InternVL3-78B",
+    "sigLipScore": 58.0,
+    "codeToken": 0.7,
+    "size": 78,
+    "date": "2024-04-11",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 35.1,
+      "general": {
+        "avg": 29.1,
+        "rec": 16.9,
+        "ocr": 52.7,
+        "know": 8.3,
+        "gen": 13.9,
+        "spat": 40.5,
+        "math": 55.0,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 45.2,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 34.1,
+        "2d": 18.3,
+        "3d": 50.0,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "GLM-4.5V",
+    "sigLipScore": 63.4,
+    "codeToken": 1.6,
+    "size": 106,
+    "date": "2025-08-11",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 42.0,
+      "general": {
+        "avg": 33.1,
+        "rec": 22.4,
+        "ocr": 54.4,
+        "know": 7.1,
+        "gen": 15.6,
+        "spat": 46.0,
+        "math": 56.9,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 40.4,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 54.9,
+        "2d": 43.1,
+        "3d": 66.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "GLM-4.1V-Thinking",
+    "sigLipScore": 62.1,
+    "codeToken": 1.2,
+    "size": 9,
+    "date": "2025-07-01",
+    "isThinkingModel": true,
+    "scores": {
+      "vcode_overall": 39.9,
+      "general": {
+        "avg": 31.9,
+        "rec": 21.1,
+        "ocr": 52.0,
+        "know": 10.4,
+        "gen": 13.7,
+        "spat": 44.8,
+        "math": 58.8,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 43.2,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 47.3,
+        "2d": 37.9,
+        "3d": 56.7,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "MiniCPM-V-4.5",
+    "sigLipScore": 46.2,
+    "codeToken": 0.9,
+    "size": 8,
+    "date": "2025-08-26",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 28.0,
+      "general": {
+        "avg": 17.7,
+        "rec": 11.8,
+        "ocr": 31.8,
+        "know": 4.5,
+        "gen": 10.8,
+        "spat": 23.2,
+        "math": 26.5,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 36.3,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 34.2,
+        "2d": 23.4,
+        "3d": 45.0,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "OmniSVG",
+    "sigLipScore": 38.5,
+    "codeToken": 5.3,
+    "size": 3,
+    "date": "2025-07-22",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 25.18103448,
+      "general": {
+        "avg": 9.4,
+        "rec": 9.2,
+        "ocr": 15.3,
+        "know": 3.7,
+        "gen": 10.4,
+        "spat": 16.9,
+        "math": 11.5,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 43.8,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 32.4,
+        "2d": 24.8,
+        "3d": 40.0,
+        "samples": 100
+      }
+    }
+  },
+  {
+    "modelName": "StarVector",
+    "sigLipScore": 5.1,
+    "codeToken": 1.3,
+    "size": 8,
+    "date": "2025-03-20",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 2.5,
+      "general": {
+        "avg": 1.5,
+        "rec": 0.0,
+        "ocr": 3.4,
+        "know": 0.0,
+        "gen": 1.6,
+        "spat": 4.4,
+        "math": 0.0,
+        "samples": 8
+      },
+      "professional": {
+        "avg": 6.8,
+        "samples": 28
+      },
+      "vision_centric": {
+        "avg": 0.0,
+        "2d": 0.0,
+        "3d": 0.0,
+        "samples": 1
+      }
+    }
+  },
+  {
+    "modelName": "VCoder (Claude-4-Opus)",
+    "sigLipScore": 71.1,
+    "codeToken": 2.0,
+    "size": null,
+    "date": "2025-09-25",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 54.9,
+      "general": {
+        "avg": 54.1,
+        "rec": 46.0,
+        "ocr": 64.4,
+        "know": 40.8,
+        "gen": 43.0,
+        "spat": 61.6,
+        "math": 72.7,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 48.6,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 61.3,
+        "2d": 57.7,
+        "3d": 65.0,
+        "samples": 100
+      }
+    }
+  }
+
+]

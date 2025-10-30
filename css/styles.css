@@ -1,0 +1,154 @@
+:root {
+    --color-overall: #495057; --color-general: #0d6efd; --color-professional: #198754;
+    --color-vision: #fd7e14; --color-secondary-controls: #6c757d;
+}
+body {
+    font-family: 'JetBrains Mono', monospace; background-color: #ffffff; color: #333;
+}
+#content {
+    width: 90%; max-width: 1200px;
+}
+.btn-group-sm > .btn { font-size: 0.8rem; }
+.btn-outline-custom {
+    border-width: 2px; font-weight: 500; transition: all 0.2s ease-in-out;
+}
+.btn-overall { color: var(--color-overall); border-color: var(--color-overall); }
+.btn-check:checked + .btn-overall, .btn-overall:hover { color: #fff; background-color: var(--color-overall); border-color: var(--color-overall); }
+.btn-general { color: var(--color-general); border-color: var(--color-general); }
+.btn-check:checked + .btn-general, .btn-general:hover { color: #fff; background-color: var(--color-general); border-color: var(--color-general); }
+.btn-professional { color: var(--color-professional); border-color: var(--color-professional); }
+.btn-check:checked + .btn-professional, .btn-professional:hover { color: #fff; background-color: var(--color-professional); border-color: var(--color-professional); }
+.btn-vision { color: var(--color-vision); border-color: var(--color-vision); }
+.btn-check:checked + .btn-vision, .btn-vision:hover { color: #fff; background-color: var(--color-vision); border-color: var(--color-vision); }
+.btn-outline-secondary { border-color: #abacaf; color: #555; }
+.btn-check:checked + .btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary:hover { 
+    background-color: var(--color-secondary-controls) !important; border-color: var(--color-secondary-controls) !important; color: #fff !important;
+}
+
+.custom-checkbox-filter .form-check-input {
+    display: none;
+}
+.custom-checkbox-filter .form-check-label {
+    font-size: 0.9rem;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.custom-checkbox-filter .form-check-label:hover {
+    color: #555;
+}
+.custom-checkbox-filter .form-check-label::before {
+    content: '';
+    font-weight: bold;
+    margin-right: 0.4em;
+}
+.custom-checkbox-filter .form-check-input:checked + .form-check-label {
+    color: var(--color-general);
+    font-weight: 500;
+}
+
+.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+.sortable:hover {
+    color: var(--color-general);
+}
+#table-container {
+    border: 2px solid #343a40;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+}
+.table {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    border: none;
+}
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    vertical-align: middle;
+    padding: 0.85rem 1rem;
+}
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom-width: 2px;
+    border-color: #343a40;
+    color: #343a40;
+    font-weight: 700;
+    text-align: right;
+    white-space: nowrap;
+}
+.table thead th:first-child { text-align: center; }
+.table thead th:nth-child(2) { text-align: left; }
+
+.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s ease;
+}
+.sortable:hover {
+    color: var(--color-general);
+}
+.table tbody td.model-cell {
+    position: relative;
+    padding: 0;
+}
+.score-bar {
+    position: absolute; top: 0; left: 0; height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    transition: width 0.3s ease-out;
+}
+.model-link {
+    position: relative; z-index: 2; display: block;
+    padding: 0.85rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    font-weight: 500;
+}
+.model-link:hover {
+    color: var(--color-general);
+}
+
+.table tbody tr:hover > * {
+    background-color: #f0f3f5;
+}
+.table tbody tr td:nth-of-type(n+3) {
+    font-weight: 700;
+    text-align: right;
+}
+.table tbody th { text-align: center; }
+.table tbody td:nth-child(2) { text-align: left; }
+.table tbody tr:last-child > * {
+    border-bottom: none;
+}
+.table thead th {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.table thead th:first-child { border-left: 1px solid #dee2e6; }
+.table thead th:last-child { border-right: 1px solid #dee2e6; }
+.table tbody tr > *:first-child {
+    border-left: none;
+}
+.table tbody tr > *:last-child {
+    border-right: none;
+}
+
+.tooltip .tooltip-arrow::before {
+    border-left-color: #f8f9fa;
+}
+
+.tooltip .tooltip-inner {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 0.5rem 1rem;
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+}
