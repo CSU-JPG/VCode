@@ -1,0 +1,97 @@
+[
+  {
+    "id": "dev_Electronics_1",
+    "question": "For the INVERTER shown in <image 1>. Find the value of $C_s$ for full compensation.  For the transistor, $h_{FE(min)}$ = 60 $r_{b'e}$ = 1200$\\Omega$, $C_i$ = 100pF, $V_{BE(ON)}$ = 0.7V, $V_{sat}$ = 0.2V. $V_i$ = 6V when on.",
+    "question_type": "open",
+    "options": [],
+    "answer": "120",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Electronics/dev_Electronics_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Electronics_2",
+    "question": "The circuit in <image 1> consists of a general inverter connected to a load. Suppose the range of logical 1 is defined to be 4 to 5V. Determine the minimum $R_L$ in order that the output be 1 when the input voltage v1 is zero.",
+    "question_type": "open",
+    "options": [],
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Electronics/dev_Electronics_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Electronics_3",
+    "question": " In <image 1>. $v_c = sin 2 \\pi T$. Find an expression for i and calculate i at the instants t = 1/2s.",
+    "question_type": "multiple-choice",
+    "options": [
+      "$3 \\pi x 10^-5 A$",
+      "$0 \\pi x 10^-5 A$",
+      "$1 \\pi x 10^-5 A$",
+      "$-2 \\pi x 10^-5 A$"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$3 \\pi x 10^-5 A$",
+      "B": "$0 \\pi x 10^-5 A$",
+      "C": "$1 \\pi x 10^-5 A$",
+      "D": "$-2 \\pi x 10^-5 A$"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Electronics/dev_Electronics_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Electronics_4",
+    "question": "Find the $A_v$ of the following circuit in <image 1> and $R_{EU}$ is 100$\\Omega$.",
+    "question_type": "open",
+    "options": [],
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Electronics/dev_Electronics_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Electronics_5",
+    "question": "Using superposition and Laplace transform techniques, calculate the voltage $v_2(t)$ in <image 1>.",
+    "question_type": "multiple-choice",
+    "options": [
+      "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) cos (t - 63.44^{\\circ})] u(t)$",
+      "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{3}) sin (t - 63.44^{\\circ})] u(t)$",
+      "$[2 - 2.1e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$",
+      "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) cos (t - 63.44^{\\circ})] u(t)$",
+      "B": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{3}) sin (t - 63.44^{\\circ})] u(t)$",
+      "C": "$[2 - 2.1e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$",
+      "D": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Electronics/dev_Electronics_5_img1.png"
+    ],
+    "response": ""
+  }
+]

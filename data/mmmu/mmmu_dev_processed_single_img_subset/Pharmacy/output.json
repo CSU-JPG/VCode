@@ -1,0 +1,108 @@
+[
+  {
+    "id": "dev_Pharmacy_1",
+    "question": "What sort of selectivity is observed in step 1 of the following synthesis <image 1>?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Chemoselectivity",
+      "Regioselectivity",
+      "Stereospecificity",
+      "Enantioselectivity"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Chemoselectivity",
+      "B": "Regioselectivity",
+      "C": "Stereospecificity",
+      "D": "Enantioselectivity"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Pharmacy/dev_Pharmacy_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Pharmacy_3",
+    "question": "The following results were obtained from a broth dilution test for microbial susceptibility.<image 1>,The MBC of this antibiotic is_______ .",
+    "question_type": "multiple-choice",
+    "options": [
+      "25 $\\mu $g/ml ",
+      "50 $\\mu $g/ml",
+      "100 $\\mu $g/ml",
+      "200 $\\mu $g/ml"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "25 $\\mu $g/ml ",
+      "B": "50 $\\mu $g/ml",
+      "C": "100 $\\mu $g/ml",
+      "D": "200 $\\mu $g/ml"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Pharmacy/dev_Pharmacy_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Pharmacy_4",
+    "question": "The graph below shows confirmed cases of enteropathogenic E. coli. Determine if the following content is correct based on the image and text:The incidence is seasonal.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "True",
+      "B": "False"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Pharmacy/dev_Pharmacy_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Pharmacy_5",
+    "question": "The following data were obtained from a disk-diffusion test.<image 1>,Which antibiotic was most effective against the bacteria being tested?",
+    "question_type": "multiple-choice",
+    "options": [
+      "A",
+      "D",
+      "Both of them",
+      ""
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A",
+      "B": "D",
+      "C": "Both of them",
+      "D": ""
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Pharmacy/dev_Pharmacy_5_img1.png"
+    ],
+    "response": ""
+  }
+]

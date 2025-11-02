@@ -1,0 +1,586 @@
+[
+  {
+    "id": "dev_Accounting_1",
+    "prompt": "Each of the following situations relates to a different company. <image 1> For company B, find the missing amounts.\n(A) $63,020\n(B) $58,410\n(C) $71,320\n(D) $77,490\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Accounting_2",
+    "prompt": "Here are facts for the Hudson Roofing Company for December. <image 1> Assuming no investments or withdrawals, what is the ending balance in the owners' capital account?\n(A) $171,900\n(B) $170,000\n(C) $172,500\n(D) $181,900\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Accounting_3",
+    "prompt": "For 2015, calculate the cash flow from assets(1) ________, cash flow to creditors(2) ________, and cash flow to stockholders(3) ________.<image 1>\n(A) 1): -$493.02 (2):-$2,384 (3):$1,890.98\n(B) 1): $1843.98 (2): -$2,384 (3):$493.02\n(C) 1): -$493.02 (2):  -$2,384 (3):-$1,890.98\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Accounting_4",
+    "prompt": "Paper Submarine Manufacturing is investigating a lockbox system to reduce its collection time. It has determined the following:<image 1> The total collection time will be reduced by three days if the lockbox system is adopted.What is the net cash flow per check from adopting? \n(A) $.02\n(B) $7.79\n(C) $8.65\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Accounting_5",
+    "prompt": "Solve for the unknown number of years in each of the following:<image 1>\n(A) 10.52 years; 14.73 years; 20.02 years; 24.73 years\n(B) 10.64 years; 14.81 years; 20.35 years; 25.01 years\n(C) 10.96 years; 15.22 years; 20.83 years; 25.96 years\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_1",
+    "prompt": "While making a reconnaissance survey through the woods, a surveyor with a hand compass, started from a point A and walked a thousand steps in the direction S67°W and reached a point B. Then he changed his direction and walked 512 steps in the direction N10°E and reached a point C. Then again he changed his direction and walked 1504 steps in the direction S65°E and reached a point D as shown in Fig. 5.10. Now, the surveyor wants to return to the starting point A. In which direction should he move and how many steps should he take.<image 1>\n(A) S45°30'32\"E,745.03 $\\approx$ steps\n(B) N45°30'32\"E,745.03 $\\approx$ steps\n(C) N45°30'32\"W,745.03 $\\approx$ steps\n(D) S45°30'32\"W,745.03 $\\approx$ steps\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_2",
+    "prompt": "The following mean values of the three angles of a triangle were observed<image 1>Determine the corrected values of the angles by the method of least squares.\n(A) $\\angle $A = 54°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"\n(B) $\\angle $A = 44°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"\n(C) $\\angle $A = 56°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"\n(D) $\\angle $A = 57°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_3",
+    "prompt": "For the truss in Figure P8.4, compute the vertical displacement of joint C.<image 1>\n(A) 0.117 in\n(B) 0.232 in\n(C) 0.123 in\n(D) 0.217 in\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_4",
+    "prompt": "Observers stationed at two sections XX and YY, 152 m apart on a highway, record the arrival times of four vehicles as shown in the accompanying table. If the total time of observation at XX was 15 sec, determine the space mean speed.<image 1>\n(A) 41.67mi/hr\n(B) 45.67mi/hr\n(C) 45.17mi/hr\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_5",
+    "prompt": "Calculate the area of the zero circle with the following data:<image 1>Assume that the tracing arm of the planimeter was so set that one revolution of the measuring wheel measures 100 $cm^{2}$ on the paper.\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Agriculture_1",
+    "prompt": "<image 1> This isn't related to plant diseases, but it's crucial for the production of potatoes. Can you tell me if either of these two insects, or maybe even both, are harmful to potatoes?\n(A) Neither are pest of potato\n(B) The one with black coloured antennae\n(C) The one with tan coloured antennae\n(D) Both are pests of potato\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Agriculture_2",
+    "prompt": "<image 1> What is the count of pathogens infecting this sunflower leaf?\n(A) One pathogen\n(B) Two pathogens\n(C) Three pathogens\n(D) There is no pathogen involved\n(E) I don't know and I don't want to guess\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Agriculture_3",
+    "prompt": "<image 1> What could be the reason behind the massive gum production on the trunks of these grapefruit trees in Cyprus, even though they appeared healthy when observed from a higher point on a hillside?\n(A) Don't know or not sure\n(B) Physiological stress\n(C) Bacterial disease\n(D) Harvesting damage when cutting with knives\n(E) Fungal gummosis\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Agriculture_4",
+    "prompt": "<image 1> Which among the following assertions holds true?\n(A) Laboratory work with micro manipulators can mimic the transmission of viruses.\n(B) All plant feeding insects can transmit viruses.\n(C) All plant viruses can be transmitted by insects.\n(D) Most viruses have a specific relationship with their vectors.\n(E) I don't know and I don't want to guess\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Agriculture_5",
+    "prompt": "<image 1> What among the listed issues would not be the cause for the petioles of this rhubarb splitting?\n(A) Physiological problems\n(B) Phytoplasma infection\n(C) I don't know and don't want to guess.\n(D) Animal damage\n(E) Bacteria\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_1",
+    "prompt": "<image 1> by Mark Gertler can be found in the Touchstones Rochdale museum. Which artist belonging to the Bloomsbury group was Gertler in a relationship with?\n(A) Vanessa Bell\n(B) Eileen Agar\n(C) Dora Carrington\n(D) Leonora Carrington\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_2",
+    "prompt": "Which image was generated by AI on <image 1>?\n(A) The left one.\n(B) The right one.\n(C) Both images\n(D) Neither image\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_3",
+    "prompt": "<image 1> was coined?\n(A) Agnew Clinic\n(B) I and the Village\n(C) Five Bathing Women at a Lake\n(D) Skull with Burning Cigarette\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_4",
+    "prompt": "This William Lamb bronze sculpture of <image 1> is of Angus poet Violet Jacob. Which of her poems was set to music by Jim Reid and performed and recorded by various other musicians, including Battlefield Band, Malinky, and Frightened Rabbit with Lau and Jim Malcolm?\n(A) Glory\n(B) The Wild Geese\n(C) The Field by the Lirk o' the Hill\n(D) The Rowan\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_5",
+    "prompt": "Who created <image 1>?\n(A) MICHELANGELO BUONARROTI\n(B) TITIAN\n(C) LUCAS VAN LEYDEN\n(D) LEONARDO DA VINCI\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_Theory_1",
+    "prompt": "The painting on the right focuses on the <image 1>\n(A) contribution of Native Americans to landscape preservation\n(B) implementation of the Homestead Act\n(C) impact of the gold rush on landscape development\n(D) idea of Manifest Destiny\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_Theory_2",
+    "prompt": "The central enthroned figure of Christ recalls earlier depictions of a what? <image 1>\n(A) Roman emperor\n(B) Greek philosopher\n(C) Carolingian king\n(D) Romanesque abbot\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_Theory_4",
+    "prompt": "What does the work <image 1> reflects an interest in?\n(A) accurately copying figures and subject matter from nature\n(B) aligning the Old Testament and the New Testament through typology\n(C) emphasizing the role of the saints in the church\n(D) asserting imperial authority over the church\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Art_Theory_5",
+    "prompt": "The figural groups within the work are arranged in what? <image 1>\n(A) friezes\n(B) pediments\n(C) registers\n(D) polyptychs\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Basic_Medical_Science_1",
+    "prompt": "What kind of tissue does this image depict? <image 1> \n(A) Skeletal muscle\n(B) Cartilage\n(C) Blood\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Basic_Medical_Science_2",
+    "prompt": "This region is characterized by <image 1> \n(A) Absence of bipolar cells.\n(B) Lack of blood vessels.\n(C) Absence of ganglion cells.\n(D) All of the above.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Basic_Medical_Science_3",
+    "prompt": "<image 1>Which of the following correctly describes the reception stage of this signal transduction pathway?\n(A) epinephrine binds to a g-protein coupled receptor protein present in the cell membrane\n(B) the g protein changes shape, is activated, activates adenyl cyclase, which activates cAMP, which activates protein kinases\n(C) protein kinases phosphoylate molecules\n(D) glycogen synthesis is inhibited and glycogen breakdown is promoted\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Basic_Medical_Science_4",
+    "prompt": "What type of change is present in these neurons from the hypoglossal nucleus? <image 1>\n(A) Acute necrosis\n(B) Atrophy\n(C) Chromatolysis\n(D) Ferruginization\n(E) Lipofuscin\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Basic_Medical_Science_5",
+    "prompt": "<image 1>The diagram below shows the movement of material from the inside of a cell to the outside of the cell through a protein channel. What type of cellular transport is occurring?\n(A) Active transport because molecules are moving away from equilibrium\n(B) Active transport because molecules are moving toward equilibrium\n(C) Passive transport because molecules are moving away from equilibrium\n(D) Passive transport because molecules are moving toward equilibrium\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Computer_Science_1",
+    "prompt": "What is the key attribute for the CUSTOMER entity in the entity-relationship (ER) diagram in <image 1>?\n(A) Phone\n(B) Ssn\n(C) Name\n(D) Addr\n(E) None of the other answers\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Computer_Science_2",
+    "prompt": "The <image 1> shows the truth table and calculation circuit diagram for the addition of 1-digit integers. What is the simple circuit that the diagram represents usually called?\n(A) half adder\n(B) full adder\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Computer_Science_3",
+    "prompt": "How many context switches are required in the last row of <image 1>?\n(A) 0\n(B) 1\n(C) 2\n(D) None of the other answers\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Computer_Science_4",
+    "prompt": "The <image 1> is Typical details of the upstream and downstream channels in North America. .Are downstream channels and upstream channels managed in the same way?\n(A) same\n(B) not the same\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Computer_Science_5",
+    "prompt": "What tables do you have to reference to connect a BOOK instance to a BORROWER instance in the relational database schema for <image 1>?\n(A) BOOK_AUTHORS\n(B) PUBLISHER\n(C) BOOK_LOANS\n(D) LIBRARY_BRANCH\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Chemistry_1",
+    "prompt": "<image 1> Which point corresponds to the critical point?\n(A) 1\n(B) 2\n(C) 5\n(D) 7\n(E) 9\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Chemistry_2",
+    "prompt": "Consider the following heating curve of a hypothetical substance: <image 1> What is the boiling point of the substance?\n(A) 0°C\n(B) -50°C\n(C) 12°C\n(D) 75°C\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Chemistry_3",
+    "prompt": "How many molecules of the sweetener saccharin can be prepared from 30 $C$ atoms, 25 $H$ atoms, 12 $O$ atoms, 8 $S$ atoms, and 14 $N$ atoms? <image 1>\n(A) 3\n(B) 4\n(C) 5\n(D) 6\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Chemistry_4",
+    "prompt": "The diagram below shows the titration of a weak monoprotic acid by a strong base. In the diagram, there are five points labeled as (A) to (E) respectively. <image 1> At which point the solution is buffered?\n(A) (A)\n(B) (B)\n(C) (C)\n(D) (D)\n(E) (E)\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Chemistry_5",
+    "prompt": "<image 1> Which of the following orders of rotation barrier about the C = C bond, as indicated, is correct ?\n(A) I > II > III\n(B) III > II > I\n(C) III > I > II\n(D) II > I > III\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Clinical_Medicine_1",
+    "prompt": "Identify the following rhythm: <image 1>\n(A) Sinus Rhythm with PAC's\n(B) Junctional Rhythm\n(C) 2nd Degree AV Block, Type I\n(D) 3rd Degree AV Block\n(E) Normal Sinus Rhythm with PVC's\n(F) Idioventricular Rhythm\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Clinical_Medicine_2",
+    "prompt": "A 56-year-old woman is undergoing chemotherapy for treatment of breast carcinoma. The gross appearance of her skin shown here is most typical for which of the following conditions? <image 1> \n(A) Thrombocytopenia\n(B) Gangrene\n(C) Congestive heart failure\n(D) Metastatic breast carcinoma\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Clinical_Medicine_3",
+    "prompt": "Based on <image 1>, what's the most likely diagnosis?\n(A) first degree atrioventricular block\n(B) third degree atrioventricular block\n(C) Second degree type II atrioventricular block\n(D) atrial flutter\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Clinical_Medicine_4",
+    "prompt": "What person's name is associated with the fracture shown below? <image 1> \n(A) Monteggia\n(B) Bennett\n(C) Jones\n(D) Smith\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Clinical_Medicine_5",
+    "prompt": "The best diagnosis for the appendix is: <image 1> \n(A) simple appendicitis\n(B) appendix abscess\n(C) normal appendix\n(D) cellulite appendicitis\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Biology_1",
+    "prompt": "The hotizontal lines in the phylogenetic tree in <image 1> represent\n(A) speciation events\n(B) separation events\n(C) relative length of time in existence\n(D) a common ancestor\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Biology_2",
+    "prompt": "In <image 1>, if the nuclei were contained within the stalks of Acetabularia, what types of caps would you expect from graft A?\n(A) A. crenulata\n(B) A. mediterranea\n(C) None of above\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Biology_3",
+    "prompt": "<image 1> What kind of sugar is this, aldose or ketose?\n(A) aldose\n(B) ketose\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Biology_4",
+    "prompt": "For your independent research, you transferred lymphocyte populations between syngeneic mice. You irradiated recipients first to ablate (get rid of) existing lymphocytes, then transferred defined cell populations from donors of same genetic background. The result is shown in <image 1>. What does this experiment tell us?\n(A) Both B cells and T cells can produce antibodies.\n(B) Both B cells and T cells have memory functions.\n(C) Both B cells and T cells are required for an antibody response.\n(D) B cells are required for an antibody response in the absence of T cells.\n(E) B cells and T cells are co-localized and produce synergetic effects in bone marrow and thymus.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Biology_5",
+    "prompt": "In the Section of male pelvis, identify the 92 structure. <image 1>\n(A) Obturator internus\n(B) Levatorani\n(C) Prostatic venous plexus\n(D) Obturator membrane\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Design_1",
+    "prompt": "What innovation seen in Rodin's 'The Burghers of Calais' signaled his departure from established traditions of sculpture?(<image 1>)\n(A) the figure grouping is placed at eye-level\n(B) the figures show emotional anguish and despair\n(C) Rodin suggests their pain through physical discomfort\n(D) all of the above\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Design_2",
+    "prompt": "Both works (<image 1>) come from which art-historical period?\n(A) Baroque\n(B) Renaissance\n(C) Rococo\n(D) Classical\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Design_3",
+    "prompt": "To keep rhythm exciting and active, _____ is essential.<image 1>\n(A) Repetition\n(B) Unity\n(C) Variety\n(D) Balance\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Design_4",
+    "prompt": "Provide at least 15\" of landing area on the handle side of a _____<image 1>\n(A) Stove\n(B) Refrigerator\n(C) Dishwasher\n(D) Sink\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Design_5",
+    "prompt": "Does <image 1> represent a monochromatic color scheme or analogous color scheme?\n(A) Monochromatic color scheme\n(B) Analogous color scheme\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_1",
+    "prompt": "The lesion depicted here <image 1>\n(A) characteristically contains rosenthal fibers\n(B) MRI shows commonly a cystic lesion with enhancing mural nodule\n(C) usually has complex glomeruloid vessels\n(D) a and b are correct\n(E) a, b and C are correct\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_2",
+    "prompt": "Which statement about the figure is correct? <image 1>\n(A) This patient has probably a long history of seizures\n(B) A reticulin stain will probably show a dense intercellular network\n(C) This is a high grade glioma\n(D) A and B are correct\n(E) A,B and C are correct\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_3",
+    "prompt": "Appropriate statementsregarding the CTPA (computed tomography pulmonary artery) image of the chest, shown below <image 1>, include:\n(A) The structure labelled A isthe left subclavian vein.\n(B) The structure labelled B isthe trachea\n(C) The structure labelled C is the hemiazygos vein\n(D) The structure labelled D isthe apex of the left lung\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_4",
+    "prompt": "This tumor is usually positive for: <image 1>\n(A) S-100\n(B) EMA\n(C) CD-34\n(D) CD-20\n(E) CD-45\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_5",
+    "prompt": "This anti-dystrophin immunoreacted section is consistent with: <image 1>\n(A) Becker s Muscular Dystrophy\n(B) Duchene Muscular Dystroph\n(C) A female carrier of a dystrophinopathy\n(D) Normal\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Electronics_1",
+    "prompt": "For the INVERTER shown in <image 1>. Find the value of $C_s$ for full compensation.  For the transistor, $h_{FE(min)}$ = 60 $r_{b'e}$ = 1200$\\Omega$, $C_i$ = 100pF, $V_{BE(ON)}$ = 0.7V, $V_{sat}$ = 0.2V. $V_i$ = 6V when on.\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Electronics_2",
+    "prompt": "The circuit in <image 1> consists of a general inverter connected to a load. Suppose the range of logical 1 is defined to be 4 to 5V. Determine the minimum $R_L$ in order that the output be 1 when the input voltage v1 is zero.\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Electronics_3",
+    "prompt": " In <image 1>. $v_c = sin 2 \\pi T$. Find an expression for i and calculate i at the instants t = 1/2s.\n(A) $3 \\pi x 10^-5 A$\n(B) $0 \\pi x 10^-5 A$\n(C) $1 \\pi x 10^-5 A$\n(D) $-2 \\pi x 10^-5 A$\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Electronics_4",
+    "prompt": "Find the $A_v$ of the following circuit in <image 1> and $R_{EU}$ is 100$\\Omega$.\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Electronics_5",
+    "prompt": "Using superposition and Laplace transform techniques, calculate the voltage $v_2(t)$ in <image 1>.\n(A) $[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) cos (t - 63.44^{\\circ})] u(t)$\n(B) $[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{3}) sin (t - 63.44^{\\circ})] u(t)$\n(C) $[2 - 2.1e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$\n(D) $[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Economics_1",
+    "prompt": "The graph below shows the AD-AS diagram for Spain. All numbers are in billions. <image 1> What is the price level in the short-run equilibrium?\n(A) 500\n(B) 450\n(C) 400\n(D) 600\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Economics_2",
+    "prompt": "The table below describes production possibilities for Mexico and Nigeria. Each number in the table shows the number of workers needed to produce one unit of the product. <image 1> Suppose that both countries have 90 workers. What is the opportunity cost of producing Glasses in Mexico?\n(A) 1.20 Shoes\n(B) 1.00 Shoes\n(C) 0.83 Shoes\n(D) 0.75 Shoes\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Economics_3",
+    "prompt": "The table below describes production possibilities for Mexico and Nigeria. Each number in the table shows the number of workers needed to produce one unit of the product. <image 1> Suppose that both countries have 90 workers. Which country should be specializing in the production of Shoes?\n(A) Nigeria\n(B) Neither country\n(C) Mexico\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Economics_4",
+    "prompt": "The graph below shows the supply and demand curves and the world price for bagels. <image 1> What is the equilibrium quantity if this country does not trade?\n(A) 2\n(B) 4\n(C) 6\n(D) 8\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Economics_5",
+    "prompt": "A recent study found that the demand and supply schedules for Frisbees are as follows:<image 1> What are the equilibrium quantity of Frisbees?\n(A) 6 million\n(B) 7 million\n(C) 8 million\n(D) 9 million\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Energy_and_Power_1",
+    "prompt": "An ideal gas taken round the cycle ABCA as shown in PV diagram<image 1>.The work done during the cycle\n(A) PV\n(B) PV/2\n(C) 2PV\n(D) PV/3\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Energy_and_Power_2",
+    "prompt": "The long pipe in Fig. 3.133 is filled with water at 20°C. When valve A is closed, p1 - p2 = 75 kPa. When the valve is open and water flows at 500 m^3/h, p_1 - p_2=160 kPa. What is the friction head loss between 1 and 2, in m, for the flowing condition? <image 1>\n(A) 7.6 m\n(B) 9.2 m\n(C) 8.7 m\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Energy_and_Power_3",
+    "prompt": "The 3-arm lawn sprinkler of Fig. P3.114 receives 20°C water through the center at 2.7 m^3/hr. If collar friction is neglected, what is the steady rotation rate in rev/min for $\\theta $ = 40°? <image 1>\n(A) 317 rev/min\n(B) 414 rev/min\n(C) 400 rev/min\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Energy_and_Power_4",
+    "prompt": "The tank of liquid in the figure P2.139 accelerates to the right with the fluid in rigid-body motion. Compute a_x in m/s^2. <image 1>\n(A) 1.00 m/s2\n(B) 1.50 m/s2\n(C) 1.28 m/s^2\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Energy_and_Power_5",
+    "prompt": "An insulated piston-cylinder device contains 5 L of saturated liquid water at a constant pressure of 175 kPa. Water is stirred by a paddle wheel while a current of 8 A flows for 45 min through a resistor placed in the water. If one-half of the liquid is evaporated during this constant-pressure process and the paddle-wheel work amounts to 400 kJ, determine the voltage of the source. Also, show the process on a P-v diagram with respect to saturation lines. <image 1>\n(A) 204 V\n(B) 224 V\n(C) 244 V\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Finance_1",
+    "prompt": "Without referring to the preprogrammed function on your financial calculator, use the basic formula for present value, along with the given opportunity cost, r, and the number of periods, n, to calculate the present value of $1 in case C shown in the following table. <image 1>\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Finance_2",
+    "prompt": "Upton Computers makes bulk purchases of small computers, stocks them in conveniently located warehouses, ships them to its chain of retail stores, and has a staff to advise customers and help them set up their new computers. Upton's balance sheet as of December 31, 2010, is shown here (millions of dollars): <image 1> Sales for 2010 were $350 million and net income for the year was $10.5 million, so the firm's profit margin was 3.0%. Upton paid dividends of $4.2 million to common stockholders, so its payout ratio was 40%. Its tax rate is 40%, and it operated at full capacity. Assume that all assets/sales ratios, spontaneous liabilities/sales ratios, the profit margin, and the payout ratio remain constant in 2011. Using the AFN equation, determine Upton's self-supporting growth rate. That is, what is the maximum growth rate the firm can achieve without having to employ nonspontaneous external funds?\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Finance_3",
+    "prompt": "Clare Jaccard has $5,000 to invest. Because she is only 25 years old, she is not concerned about the length of the investment's life. What she is sensitive to is the rate of return she will earn on the investment. With the help of her financial advisor, Clare has isolated four equally risky investments, each providing a single amount at the end of its life, as shown in the following table. All the investments require an initial $5,000 payment. <image 1> Calculate, to the nearest 1%, the rate of return on investment D available to Clare.\n(A) 11%\n(B) 8%\n(C) 10%\n(D) 9%\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Finance_4",
+    "prompt": "For case E in the following table: <image 1>. Calculate the present value of the annuity, assuming that it is an ordinary annuity\n(A) $2,822\n(B) $374,598\n(C) $85,293\n(D) $31,492\n(E) $810,092\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Finance_5",
+    "prompt": "The financial statements of Lioi Steel Fabricators are shown below — both the actual results for 2010 and the projections for 2011. Free cash flow is expected to grow at a 6% rate after 2011. The weighted average cost of capital is 11%. <image 1> What is the total value of the company as of 12/31/2010 (in million)?\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Geography_1",
+    "prompt": "What do satellite 1, 2, 3 separately monitor in <image 1>?\n(A) Earth's energy balance, Earth's water cycle, Earth's surface\n(B) Earth's water cycle, Earth's energy balance, Earth's surface\n(C) Earth's surface, Earth's water cycle, Earth's energy balance\n(D) Earth's surface, Earth's energy balance, Earth's water cycle\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Geography_2",
+    "prompt": "The moisture content of a non self weight collapsible loess sample is w=15.6%, and the relative density (specific gravity) of soil particles is dr=2.70,Mass density $\\rou$= 1.60g/cm3, liquid limit wL=30.0%, plastic limit wP=17.9%, pile foundation design needs to be based on Check the design parameters for the liquid index under saturation state, and the liquid index of the sample is closest when its saturation reaches 85%Which of the following options? ()<image 1>\n(A) 0.85\n(B)  0.92\n(C) 0.99\n(D) 1.06\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Geography_3",
+    "prompt": "The settlement calculation method considering stress history requires the indicators provided by the survey, in addition to the pre consolidation pressure In addition to force, compression index, and porosity ratio, the other indicators that should be provided are ()<image 1>\n(A) Effective self weight pressure\n(B)  Rebound index\n(C) Average additional pressure\n(D) Groundwater level\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Geography_4",
+    "prompt": "There is a device with a current actual value of P=8000 yuan and an estimated residual value of LN=800 yuan. The first year's The operating cost of the equipment is Q=600 yuan, and the annual deterioration increment of the equipment is equal. The annual deterioration value $\\lambda $= four hundred Yuan, then the economic life of the equipment is () years.<image 1>\n(A)  7.5\n(B)  7.5\n(C) 8\n(D)  6\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Geography_5",
+    "prompt": "In the illustrated circuit, the consumption power of load RL is 72W. If the transformer voltage ratio k=5, the effective value of the transformer is U1 ()<image 1>\n(A) equal to 120V\n(B) equals to 4.8V\n(C) and equals to 0.6V\n(D) cannot be calculated\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_History_1",
+    "prompt": "Which of the following was an important continuity underlying the trade interactions illustrated by <image 1>?\n(A) The resilience of the Chinese economy, despite the dynastic change from Ming to Qing\n(B) The industrial and commercial supremacy of Great Britain in western Europe\n(C) The widespread acceptance of the principles of free trade by most European and Asian governments\n(D) The ongoing expansion of Muslim empires, such as the Ottoman and the Safavid\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_History_2",
+    "prompt": "<image 1> In which of the following ways did the Estates General transform into the National Assembly?\n(A) The king granted the title of National Assembly to the First Estate after it advocated for greater royal control of church officials\n(B) The Second Estate, refusing to shoulder a greater tax burdon, announced the reformation of a completely aristocratic National Assembly\n(C) The Third Estate, whose numbers exceeded the combined numbers of the other estates, simply declared itself the National Assembly\n(D) The Fourth Estate, refusing to report on the controversies of Estates General, introduced itself as an alternative legislature called the National Assembly\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_History_3",
+    "prompt": "The object in <image 1> best illustrates which of the following continuities in world history?\n(A) The power of traditional elites was continuously challenged by the emerging power of new elites.\n(B) The power of states was based on the ability of rulers to monopolize the use of violence.\n(C) Artists depended on royal patronage for their livelihoods.\n(D) Rulers used religious imagery to legitimize their political authority.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_History_4",
+    "prompt": "<image 1> best illustrates which of the following continuities in world history?\n(A) The need for humans to adapt to their environments\n(B) The production of cash crops on plantations\n(C) The use of slave labor for cultivation\n(D) The use of technology to project military power\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_History_5",
+    "prompt": "<image 1> The movements shown in the table reflect which of the following historical processes?\n(A) The migration of former colonial subjects to cities in the former colonizing country\n(B) The development of ethnic enclaves as migrants moved to seek work opportunities\n(C) The migration patterns associated with male seasonal laborers\n(D) The population resettlement caused by redrawing former colonial boundaries\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Marketing_1",
+    "prompt": "The data in Table 8.2 are the result of a random survey of 39 national flags (with replacement between picks) from various countries. Let X = the number of colors on a national flag. <image 1> Using the same x_bar, sx, and level of confidence, suppose that n were 69 instead of 39. Would the error bound become larger or smaller?\n(A) Larger.\n(B) Smaller.\n(C) Not certain.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Marketing_2",
+    "prompt": "Two computer users were discussing tablet computers. A higher proportion of people ages 16 to 29 use tablets than the proportion of people age 30 and older. Table 10.17 details the number of tablet owners for each age group. Test at the 1% level of significance. <image 1>\n(A) There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.\n(B) There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.\n(C) Not certain.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Marketing_3",
+    "prompt": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in Table 12.16. <image 1> At the 10% significance level, are the scores among the different groups different?\n(A) Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.\n(B) No, there is not enough evidence to show that the scores among the groups are statistically significant at the 10% level.\n(C) Not certain.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Marketing_4",
+    "prompt": "<image 1> Are the mean numbers of daily visitors to a ski resort the same for the three types of snow conditions? Suppose that Table 12.38 shows the results of a study. Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05. What can you conclude?\n(A) There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.\n(B) There is sufficient evidence to conclude that the mean numbers of daily visitors are different.\n(C) Not certain.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Marketing_5",
+    "prompt": "Thuy Dau, Ngoc Bui, Sam Su, and Lan Voung conducted a survey as to how long customers at Lucky claimed to wait in the checkout line until their turn. Let X = time in line. Table 6.1 displays the ordered real data (in minutes): <image 1> Use the distribution in part e to calculate the probability that a person will wait fewer than 6.1 minutes.\n(A) 0.6029\n(B) 0.6030\n(C) 0.6031\n(D) 0.6032\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Mechanical_Engineering_1",
+    "prompt": "Determine the critical speed of rotation for the overhanging 2-in. diameter steel shaft (E = 29 * 10^6 psi) with attached 60-lb grinding wheel shown in Figure.<image 1>\n(A) 85.5rpm\n(B) 72.2rpm\n(C) 95rpm\n(D) 52rpm\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Mechanical_Engineering_2",
+    "prompt": "A flat brass bar has length L, constant thickness t, and a rectangular cross section whose width varies linearly between $b_{2}$ at the fixed support to $b_{1}$ at the free end (see <image 1>). Assume that the taper of the bar is small. The bar has modulus of elasticity E. Calculate the displacements $\\delta_{b}$ and $\\delta_{c}$ if P = 200 kN, L = 2 m, t = 20 mm, b1 = 100 mm, b2 = 115 mm, and E = 96 GPa.\n(A) $\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$\n(B) $\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$\n(C) $\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Mechanical_Engineering_3",
+    "prompt": "Car A travels at a constant speed of 65 mi / hr. When in the position shown at time t = 0, car B has a speed of 25 mi / hr and accelerates at a constant rate of 0.1g along its path until it reaches a speed of 65 mi / hr, after which it travels at that constant speed. What is the steady-state position of car A with respect to car B? <image 1>\n(A) $\\delta d=506.109$\n(B) $\\delta d=706.109$\n(C) $\\delta d=906.109$\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Mechanical_Engineering_4",
+    "prompt": "A flat 6-in. diameter disk buffer shown in P18.3 has a rotation speed of 500 rpm. The coefficient of friction between the buffer disk and a flat metal surface being polished is 0.2. The force on the disk is 15 lb. Assume that the normal pressure created by the 15 lb is uniformly distributed over the surface of the disk and that the tangential pressure force on the disk is q = fp, where f is the coefficient of friction. Determine the power transmitted to the buffing disk.<image 1>\n(A) 0.0375hp\n(B) 0.0475hp\n(C) 0.0572hp\n(D) 0.0623hp\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Mechanical_Engineering_5",
+    "prompt": "In the pinewood-derby event shown, the car is released from rest at the starting position A and then rolls down the incline and on to the finish line C. If the constant acceleration down the incline is 2.75 m/s^2 and the speed from B to C is essentially constant, determine the time duration $t_{AC}$ for the race. The effects of the small transition area at B can be neglected.<image 1>\n(A) t=1.46s\n(B) t=2.46s\n(C) t=3.46s\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Manage_1",
+    "prompt": "Fernando Garza's firm wishes to use factor rating to help select an outsourcing provider of logistics services. With weights from 1-5 (5 highest) and ratings 1-100 (100 highest), use the following table to help Garza make his decision: <image 1> Which provider should Garza select?\n(A) Overnight Shipping\n(B) Worldwide Delivery\n(C) United Freight\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Manage_2",
+    "prompt": "Graph 1 shows the number of unemployed (in thousands) over a five-month period, organized by level of education completed. <image 1> The only group that saw no rise in unemployment during this five-month period was ______.\n(A) Workers without a high school diploma\n(B) High school graduates with no college education\n(C) Workers with some college education\n(D) Workers with a bachelor's degree or higher\n(E) All groups showed a rise.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Manage_3",
+    "prompt": "<image 1> are Strategic Personnel Planning, Gerard Evers and Cornelis Verhoeven (1999) model. The yellow box is a follow-up to brainstorming (discussed earlier in this section). The concept is that at the end of a brainstorming session, participants will write down all their ideas on sticky notes; all ideas are posted on the wall Which of the following options is not among the steps to be done?\n(A) Post-it notes with three or more ballots are placed in a large 'idea box' and painted on a board based on the dominant color.\n(B) Participants place their stickers on the corresponding sticky notes\n(C) In silence, participants read all thoughts generated during the disagreement\n(D) The group selects three or more ideas for each color to develop\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Manage_4",
+    "prompt": "The <image 1> is the Five Forces model. What is the joint function of these five forces?\n(A) Profit structure\n(B) cost structure\n(C) Industrial structure\n(D) Company personnel structure\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Manage_5",
+    "prompt": "Roger Ginde is developing a program in supply chain management certification for managers. Ginde has listed a number of activities that must be completed before a training program of this nature could be conducted. The activities, immediate predecessors, and times appear in the accompanying table: <image 1> What is the total project completion time (in days)?\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Literature_1",
+    "prompt": "Refer to the figure <image 1>, which term refers to when a challenge is successful and materials are removed from the curriculum or library?\n(A) Writing-in-role\n(B) Challenge\n(C) Banning\n(D) Hot Seat\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Literature_3",
+    "prompt": "Refer to the figure <image 1>, which term refers to a symbol reoccurring through a story?\n(A) Theme\n(B) Shape\n(C) Covers\n(D) Motif\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Literature_4",
+    "prompt": "Refer to the figure <image 1>, which term best describes the practice where students take on the role of television or newspaper reporters and interview characters from the book to retell an event from a range of perspectives?\n(A) News Program\n(B) Readers Theatre\n(C) Hot Seat\n(D) News\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Literature_5",
+    "prompt": "Refer to the description <image 1>, which type of irony is depicted when a person says or writes one thing and means another, or uses words to convey a meaning opposite to the literal meaning?\n(A) verbal irony\n(B) situational irony\n(C) foreshadowing\n(D) dramatic irony\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Materials_1",
+    "prompt": "Determine the resultant internal loadings in the beam at cross sections through points D and E. Point E is just to the right of the 3-kip load.<image 1>\n(A) Hc = 0lb; Vc = 85lb;Mc = 1125 lb.ft\n(B) Hc = 0lb; Vc = 95lb;Mc = 1125 lb.ft\n(C) Hc = 0lb; Vc = 105lb;Mc = 1125 lb.ft\n(D) Hc = 0lb; Vc = 75lb;Mc = 1125 lb.ft\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Materials_2",
+    "prompt": "A tension test was performed on a magnesium alloy specimen having a diameter 0.5 in. and gauge length 2 in. The resulting stress-strain diagram is shown in the figure. Determine the yield strength of the alloy using the 0.2% strain offset method. <image 1>\n(A) 29.0 ksi\n(B) 20.9 ksi\n(C) 25.9 ksi\n(D) 15.9 ksi\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Materials_3",
+    "prompt": "Only one phase boundary is depicted. <image 1>\n(A) true\n(B) false\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Materials_4",
+    "prompt": "Which of the following options is consistent with the unit cell plane depicted below? <image 1>\n(A) SC {100}\n(B) BCC {100}\n(C) FCC {100}\n(D) SC {110}\n(E) BCC {110}\n(F) FCC {110}\n(G) SC {111}\n(H) BCC {111}\n(I) FCC {111}\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Materials_5",
+    "prompt": "Below are shown, for five metals, reduction reactions and standard electrode potential values. Which of these metals is the most reactive? <image 1>\n(A) Au\n(B) Cu\n(C) Ni\n(D) Fe\n(E) Na\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Music_1",
+    "prompt": "<image 1> Identify the chords marked * in bar 5.\n(A) iv7d\n(B) V7a\n(C) IV7\n(D) viio7b\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Music_3",
+    "prompt": "<image 1>\n(A) box1\n(B) box2\n(C) box3\n(D) box4\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Music_4",
+    "prompt": "Choose the correct key of each of the melody. <image 1>\n(A) B major\n(B) E major\n(C) A minor\n(D) E minor\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Music_5",
+    "prompt": "Choose the correct time signature for each measure of the following melody fragment from the four options (A, B, C, and D) given in each question. <image 1>\n(A) 3/4 3/4 3/4 4/4 2/8 6/8\n(B) 6/8 3/4 6/8 2/4 3/8 6/8\n(C) 6/8 3/4 3/4 2/4 3/8 6/8\n(D) All of the first three options are incorrect.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Pharmacy_1",
+    "prompt": "What sort of selectivity is observed in step 1 of the following synthesis <image 1>?\n(A) Chemoselectivity\n(B) Regioselectivity\n(C) Stereospecificity\n(D) Enantioselectivity\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Pharmacy_3",
+    "prompt": "The following results were obtained from a broth dilution test for microbial susceptibility.<image 1>,The MBC of this antibiotic is_______ .\n(A) 25 $\\mu $g/ml \n(B) 50 $\\mu $g/ml\n(C) 100 $\\mu $g/ml\n(D) 200 $\\mu $g/ml\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Pharmacy_4",
+    "prompt": "The graph below shows confirmed cases of enteropathogenic E. coli. Determine if the following content is correct based on the image and text:The incidence is seasonal.<image 1>\n(A) True\n(B) False\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Pharmacy_5",
+    "prompt": "The following data were obtained from a disk-diffusion test.<image 1>,Which antibiotic was most effective against the bacteria being tested?\n(A) A\n(B) D\n(C) Both of them\n(D) \n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Math_1",
+    "prompt": "Each of seven students has chosen three courses from ten options, and must sit an exam for each of his or her three choices. Two students sitting the same exam must do so at the same time, but no student can sit more than one exam in the same day. The table of choices is given in <image 1>. Find the smallest number of days required to schedule the exams. Return only the number of days.\nAnswer the question using a single word or phrase."
+  },
+  {
+    "id": "dev_Math_2",
+    "prompt": "For the function f(x) = 8x^3 - 2x^2 - 7x + 3, perform two iterations of the dichotomous search scheme for locating the minimum in [0, 1]. In the interval [0, 1], apply the three-point equal-interval search scheme and compare the results with the above solution. Applying the quadratic interpolation technique, find λ^ from (1) and compare the result with that of dichotomous search: λ^ = (1/2) [{g(a)(c^2 - b^2) + g(b)(a^2 - c^2) + g(c)(b^2 - a^2)} / {g(a)(c - b) + g(b)(a - c) + g(c)(b - a)}] (1) Choose ε = 0.1.\n<image 1>\n(A) The dichotomous search yields a smaller interval containing $ x^* $ than the equal-interval search.\n(B) The value obtained from quadratic interpolation $ \\lambda' = 0.52 $ is an accurate estimate for $ \\lambda^* $.\n(C) The equal-interval search required more function evaluations than the quadratic interpolation.\n(D) $ f(x) $ has a minimum of 5 in the interval $ [-1, 1] $.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Math_3",
+    "prompt": "<image 1>Let f be twice differentiable function on the interval -1 < x < 5 with f(1) = 0 and f(2) = 3.The graph of f' , the derivative of f , is shown above. The graph of f'crosses the x- axis at x=-0.5 and x =4 . Let h be the function given by $h(x)=f({\\sqrt{x+1}})$. which is the equation for the line tangent to the graph of h at x = 3\n(A) y = 5x/12 + 7/4 \n(B) y = 5x/12 + 5/4\n(C) y = 7x/12 + 7/4\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Math_4",
+    "prompt": "<image 1> illustrate a walk and a cycle. We can easily represent walking as?\n(A) w = (3, {3, 2}, 2, {2, 4}, 4, {4, 1}, 1).\n(B) w = (1, 3, {3, 2}, 2, {2, 1}, 4, {4, 1}).\n(C) w = (4, {2, 4}, 3, {3, 2} , 4, {4, 1}, 1).\n(D) w = (4, {4, 1}, 2, {2, 4},3, {3, 2},, 1).\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Math_5",
+    "prompt": "Do the set of instant insanity cubes in <image 1> have a solution? \n(A) Yes\n(B) No\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Physics_1",
+    "prompt": "<image 1>An object shown in the accompanying figure moves in uniform circular motion. Which arrow best depicts the net force acting on the object at the instant shown?\n(A) A\n(B) B\n(C) C\n(D) D\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Physics_2",
+    "prompt": "The diagram below represents a toy car starting from rest and uniformly accelerating across the floor. The time and distance traveled from the start are shown in the diagram.<image 1>What was the instantaneous velocity of the cart at 96 centimeters from the start?\n(A) 0.6 m/s\n(B) 4.8 m/s\n(C) 1.9 m/s\n(D) 60 m/s\n(E) 2.4 m/s\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Physics_3",
+    "prompt": "A proton traveling with speed v enters a uniform electric field of magnitude E, directed parallel to the plane of the page, as shown in the figure. There is also a magnetic force on the proton that is in the direction opposite to that of the electric force.<image 1>If e represents the magnitude of the proton charge, what minimum magnitude of the magnetic field could balance the electric force on the proton?\n(A) E/v\n(B) eE/v\n(C) vE\n(D) eE\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Physics_4",
+    "prompt": "<image 1>For the solenoids shown in the diagram (which are assumed to be close to each other), the resistance of the left-hand circuit is slowly increased. In which direction does the ammeter needle (indicating the direction of conventional current) in the right-hand circuit deflect in response to this change?\n(A) The needle deflects to the left.\n(B) The needle deflects to the right.\n(C) The needle oscillates back and forth.\n(D) The needle never moves.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Physics_5",
+    "prompt": "<image 1>A battery, an ammeter, three resistors, and a switch are connected to form the simple circuit shown above. When the switch is closed what would happen to the potential difference across the 15 ohm resistor?\n(A) it would equal the potential difference across the 20 ohm resistor\n(B) it would be twice the potential difference across the 30 ohm resistor\n(C) it would equal the potential difference across the 30 ohm resistor\n(D) it would be half the potential difference across the 30 ohm resistor\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Public_Health_1",
+    "prompt": "A cohort study obtained the following rates.<image 1>The AR was\n(A) 0.36‰\n(B) 0.87‰\n(C) 0.29‰\n(D) 1.23‰\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Public_Health_2",
+    "prompt": "A maternal and child health facility wanted to evaluate the effectiveness of two methods of screening for cervical intraepithelial neoplasia (CIN I-III), electronic colposcopy and cervical liquid-based cytology (TCT). 600 gynaecological outpatient cases were examined by both methods, and all cases were confirmed with cervical histopathology (the gold standard) at the same time. The results of all examinations were summarised in the table.<image 1> The false positive rate of the parallel test was\n(A) 0.93\n(B) 0.51\n(C) 0.75\n(D) 0.49\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Public_Health_3",
+    "prompt": "A combined urine glucose and blood glucose test was used to screen for diabetes mellitus with the following results.<image 1>The specificity of the serial test was\n(A) 99.73%\n(B) 99.87%\n(C) 99.91%\n(D) 99.76%\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Public_Health_4",
+    "prompt": "Does the patient have a UTI on 9/22? <image 1> \n(A) Yes, SUTI 1a\n(B) Yes, SUTI 1b\n(C) No\n(D) Yes,ABUTI\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Public_Health_5",
+    "prompt": "According to the China Health and Family Planning Statistical Yearbook 2015, China's top 10 legally reported infectious diseases of categories A and B in 2014 included viral hepatitis, tuberculosis, syphilis, bacterial and amoebic dysentery, gonorrhoea, brucellosis, scarlet fever, measles, dengue fever, and AIDS, and the top 10 deaths included AIDS, tuberculosis, rabies, viral hepatitis, H7N9 avian influenza, epidemic haemorrhagic fever, syphilis, epidemic B encephalitis, measles, and malaria, as shown in the table below. The total population in mid-2014 was 1367820000 people.<image 1> The mortality rate of AIDS was\n(A) 0.88/100000\n(B) 0.16/100000\n(C) 0.06/100000\n(D) 0.04/100000\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Psychology_1",
+    "prompt": "A group of psychologists wanted to develop an intelligence test that would be quicker to administer than the one they were using, which was a standardized test that required answering as many questions correctly as possible in a given time. The existing test was considered valid and reliable. In the psychologists' new test, participants had to find an image hidden in a visual display as quickly as possible. The psychologists collected data to determine the relation between the number of items the participants answered correctly on the original standardized test and the time it took them to spot the hidden image on the new test. The graph below displays the results. <image 1> Based on the graph, which of the following would most likely be used to assess the relation between the participants' scores on the two tests?\n(A) A t test\n(B) A correlation\n(C) Analysis of variance\n(D) Descriptive statistics\n(E) Factor analysis\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Psychology_2",
+    "prompt": "Individuals diagnosed with cancer often experience significant amounts of stress. Some patients cope with stress by adopting unhealthy habits (like drinking, smoking, or withdrawing from social relationships), which can increase symptom severity and result in poor quality of life both during and after cancer treatment. Conversely, individuals who manage stress with healthy techniques can experience symptom relief and improved quality of life. A group of oncologists hope to promote healthy stress reduction and decide to focus their efforts on deep breathing. They postulate that a deep breathing exercise will induce the relaxation response, a physical state of deep rest that is the physiological opposite of a stress response (or fight or flight). They believe that when patients learn to breathe more slowly and deeply, their muscles will relax, blood pressure will decrease, and heart rates will slow down (all characteristics of the relaxation response). When testing the exercise with two patients they notice significant decreases in blood pressure, muscle tension, and heart rate. They conclude that the exercise could decrease select physical symptoms of stress. The oncologists decide to expand their testing, and develop several deep-breathing exercises to be delivered in a group format. They believe that the combined exercises will help patients cope during times of stress. The program consists of 30-minute guided group breathing classes that occur biweekly for 8 weeks. Patients are also asked to complete home deep breathing practices. To test their theory, they recruit 10 adult cancer patients to participate in their program. The patient group is homogenous in type and stage of cancer. All patients have recently received their cancer diagnosis. The patients are all between 45 and 55 years old (mean age 48.6) and there are equal numbers of men and women in the group. Each patient completes a stress symptom checklist both before and after the intervention. The stress symptoms checklist can be found in Table 1. The symptom checklist is divided into four categories, with six possible symptoms in each category. Patients are instructed to circle any and all symptoms they are currently experiencing. The results from the study can be found in Figure 1 <image 1>. Given the information in the passage and the results from Figure 1, which of the following is the least problematic aspect of the study?\n(A) The oncologists recruited patients from a sample that was too homogenous, which makes the results of the program difficult to generalize.\n(B) The oncologists did not control for group social support, which could lead to decreases in some of the emotional and cognitive symptoms of stress on the checklist.\n(C) The oncologists used the stress checklist to measure stress, which did not provide a sensitive measurement of stress and had overlap between and within categories of symptoms.\n(D) The oncologists did not control for side effects of cancer treatment, which could lead to increases in some of the behavioral and physical symptoms of stress on the checklist.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Psychology_3",
+    "prompt": "Jeff has two cats, Whiskers and Tiger. Jeff wants to play with both of them using a laser pointer, but the cats respond very differently to playtime. Whiskers is an active cat and loves to chase the red dot, but he sometimes gets so excited by playtime that he becomes overly agitated and attacks Jeff. Tiger is very lazy - he loves to look out the window from his bed and lounge in the sun; he is almost never interested in playing with the laser pointer. Jeff wants both of his cats to be equally active and healthy, so he decides to use principles from behaviorism to teach his cats better play behavior. He has two goals - to increase Tiger's playtime, and to decrease Whisker's aggressive playtime. He uses a variety of different strategies with his cats: he tries giving each cats treats when they play nicely, taking away Tiger's bed to increase playtime, putting the cats in a carrier when they do not play nicely, and loudly yelling \"No!\" if Whiskers becomes aggressive. Jeff notices that the cats respond well to the treats, so he decides to vary when and how Whiskers and Tiger receive their treats. Table 1 outlines the different schedules of reinforcement that Jeff tries with Whiskers and Tiger. <image 1> Jeff has been successfully increasing the number of times Whiskers has to play nicely before he receives a treat, until finally he decides he can stop giving treats during playtime all together. Whiskers suddenly becomes ultra-aggressive - he bites, hisses, and scratches at an increased rate when playing with the laser pointer. Which of the following best describes Whisker's behavior?\n(A) Whiskers only responds to continuous reinforcement.\n(B) Whisker's aggressive behavior has become generalized.\n(C) Whiskers' behavior has been shaped to be aggressive.\n(D) Whiskers is experiencing an extinction burst.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Psychology_4",
+    "prompt": "Vampire bats (Desmodus rotundus) are social mammals, which naturally determine kinship differences, form dyadic relationships that remain consistent over time, and practice food sharing with roost-mates who were unable to feed. These dyadic relationships occur between both kin and non-kin. Vampire bats can die if unable to feed for more than 70 hours. Roost-mates may regurgitate food into the mouth of the unfed roost-mate. An experiment was conducted on 20 vampire bats (11M, 9F) over a 2-year period to determine whether this food sharing behavior was altruistic. The bats were housed in a flight cage, large enough to allow the bats to freely associate, for more than 2 years before the beginning of the study. The bats were removed, fasted for 24 hours, re-introduced into the roost, and their social interactions were recorded for two hours after reintroduction. None of the bats tested showed signs of parasite infestation. Researchers examined food sharing (licking the roost-mate's mouth for more than 5 seconds with > 5 seconds between bouts of licking) and subsequent allogrooming (licking locations other than the roost-mate's mouth). The bat's behavior was monitored to determine subsequent interactions. The coefficient of determination values for food donated, donor sex, allogrooming, and relatedness are shown in Figure 1. Sharing happened most often between females; males were not recorded sharing food with other males. Donors initiated food sharing more often than fasted bats and three donors, on average, fed each of the fasted bats. There was no relation found between recipient (age or size) and donations or allogrooming received. Some donors rejected certain begging (harassing) recipients; however, some fasted subjects rejected food sharing from certain perspective donors. Figure 1: Relative variation in food donated; 38% of the variation in the amount of food donated can be explained by this model. Food donated (p < 0.0002), donor sex (p < 0.0002), and allogrooming (p < 0.0002) received were all significant; however, relatedness was not (p = 0.16). <image 1> Which conclusion describes the correlation of allogrooming and social bonding in vampire bats?\n(A) Some vampire bats refused food from certain perspective donors.\n(B) Allogrooming was higher on non-test days between food sharing dyads and was consistent throughout the experiment.\n(C) Allogrooming was highest between vampire bats infested with parasites and was consistent throughout the experiment.\n(D) Male-male dyads were observed performing allogrooming after sharing food.\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Psychology_5",
+    "prompt": "Elizabeth Loftus is widely known as one of the leading experts in the field of false memories, especially regarding childhood sexual abuse. However, this particular topic is deeply controversial, with many experts divided over whether these memories are truly false, or if they are instead repressed to protect the individual from reliving further trauma. Loftus is most famous for her theory of the misinformation effect, which refers to the phenomenon in which exposure to incorrect information between the encoding of a memory and its later recall causes impairment to the memory. That is to say, if you witnessed a hit-and-run car accident, and heard a radio commercial for Ford before giving your testimony to the police, you might incorrectly recall that the offending vehicle was a Ford, even if it was not. Loftus' research has been used in many cases of eyewitness testimony in high-profile court cases to demonstrate the malleability of the human memory. To test this theory, researchers in New York City set up a \"crime\" for participants to \"witness\" (unbeknownst to them). 175 local female college students were recruited to participate in a study about memory, and were directed to complete some computer tasks involving word and picture recall in a room overlooking an alley. While completing the computer tasks, participants witnessed a young woman being \"mugged\" by a young man in the alley outside the lab-both individuals were confederates of the researchers. After reporting the \"crime\" to the researchers, participants were escorted out of the lab and told that this crime would be reported to the local police, and that they might be called back in to give a testimony. For half of the participants, a research confederate acting as a custodial worker was present as they were being escorted out. For the other half, no decoys were present. Participants were randomly assigned to either the decoy or control group. Participants who did not report the \"crime\" to the researchers were excluded from the study (25 women were excluded). One week later, participants were called back to the lab to give their testimony to a police officer - another confederate. Participants were told that the police had several leads on who the mugger might be, and were asked to pick out the suspect from five different photo options. Included in the photo set were photos of the mugger, the custodial worker, and three neutral faces chosen to be similar to the two experimental faces. After recalling the event to the police officer and choosing a face, participants were debriefed (they were told that the mugging was fake) and awarded course credit for their participation. The results of this study are summarized in Table 1. <image 1> What type of memory is used in a multiple-choice test, such as this one?\n(A) Recall\n(B) Recognition\n(C) Repressed\n(D) Deja vu\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Sociology_1",
+    "prompt": "According to <image 1>, in Asch's study on conformity, what contributed to the ability of subjects to resist conforming?\n(A) A very small group of witnesses\n(B) The presence of an ally\n(C) The ability to keep one's answer private\n(D) All of the above\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Sociology_2",
+    "prompt": "The two types of objective knowledge that <image 1> believed could be obtained by social scientists employing the scientiMc method were:\n(A) Historical preconditions and laws of society\n(B) Historical preconditions and subjective perspectives\n(C) Historical preconditions and social facts\n(D) Historical preconditions and class consciousness\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Sociology_3",
+    "prompt": "Societies practise the concept of  <image 1> to maintain ________.\n(A) Formal sanctions\n(B) Social order\n(C) Cultural deviance\n(D) Sanction labelling\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Sociology_4",
+    "prompt": "What is <image 1>?\n(A) Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us\n(B) Identity is regarded as the result of modeling oneself in response to the expectations of others, not as a product of the unconscious\n(C) Socially deLned expectations that a person in a given social position will follow\n(D) Involves instilling culture within the individual, enabling the person to survive effectively in his or her social world\n\nAnswer with the option's letter from the given choices directly."
+  },
+  {
+    "id": "dev_Sociology_5",
+    "prompt": "<image 1> deals with the study of political conduct within a ____ frame of reference.\n(A) Political\n(B) Pyschological\n(C) Sociological\n(D) Individual\n\nAnswer with the option's letter from the given choices directly."
+  }
+]

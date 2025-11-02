@@ -1,0 +1,154 @@
+[
+  {
+    "id": "dev_Materials_1",
+    "question": "Determine the resultant internal loadings in the beam at cross sections through points D and E. Point E is just to the right of the 3-kip load.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Hc = 0lb; Vc = 85lb;Mc = 1125 lb.ft",
+      "Hc = 0lb; Vc = 95lb;Mc = 1125 lb.ft",
+      "Hc = 0lb; Vc = 105lb;Mc = 1125 lb.ft",
+      "Hc = 0lb; Vc = 75lb;Mc = 1125 lb.ft"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Hc = 0lb; Vc = 85lb;Mc = 1125 lb.ft",
+      "B": "Hc = 0lb; Vc = 95lb;Mc = 1125 lb.ft",
+      "C": "Hc = 0lb; Vc = 105lb;Mc = 1125 lb.ft",
+      "D": "Hc = 0lb; Vc = 75lb;Mc = 1125 lb.ft"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Materials/dev_Materials_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Materials_2",
+    "question": "A tension test was performed on a magnesium alloy specimen having a diameter 0.5 in. and gauge length 2 in. The resulting stress-strain diagram is shown in the figure. Determine the yield strength of the alloy using the 0.2% strain offset method. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "29.0 ksi",
+      "20.9 ksi",
+      "25.9 ksi",
+      "15.9 ksi"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "29.0 ksi",
+      "B": "20.9 ksi",
+      "C": "25.9 ksi",
+      "D": "15.9 ksi"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Materials/dev_Materials_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Materials_3",
+    "question": "Only one phase boundary is depicted. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "true",
+      "false"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "true",
+      "B": "false"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Materials/dev_Materials_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Materials_4",
+    "question": "Which of the following options is consistent with the unit cell plane depicted below? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "SC {100}",
+      "BCC {100}",
+      "FCC {100}",
+      "SC {110}",
+      "BCC {110}",
+      "FCC {110}",
+      "SC {111}",
+      "BCC {111}",
+      "FCC {111}"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "index2ans": {
+      "A": "SC {100}",
+      "B": "BCC {100}",
+      "C": "FCC {100}",
+      "D": "SC {110}",
+      "E": "BCC {110}",
+      "F": "FCC {110}",
+      "G": "SC {111}",
+      "H": "BCC {111}",
+      "I": "FCC {111}"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Materials/dev_Materials_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Materials_5",
+    "question": "Below are shown, for five metals, reduction reactions and standard electrode potential values. Which of these metals is the most reactive? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Au",
+      "Cu",
+      "Ni",
+      "Fe",
+      "Na"
+    ],
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Au",
+      "B": "Cu",
+      "C": "Ni",
+      "D": "Fe",
+      "E": "Na"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Materials/dev_Materials_5_img1.png"
+    ],
+    "response": ""
+  }
+]

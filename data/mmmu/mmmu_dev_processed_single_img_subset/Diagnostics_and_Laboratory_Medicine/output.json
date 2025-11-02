@@ -1,0 +1,151 @@
+[
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_1",
+    "question": "The lesion depicted here <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "characteristically contains rosenthal fibers",
+      "MRI shows commonly a cystic lesion with enhancing mural nodule",
+      "usually has complex glomeruloid vessels",
+      "a and b are correct",
+      "a, b and C are correct"
+    ],
+    "answer": "E",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "characteristically contains rosenthal fibers",
+      "B": "MRI shows commonly a cystic lesion with enhancing mural nodule",
+      "C": "usually has complex glomeruloid vessels",
+      "D": "a and b are correct",
+      "E": "a, b and C are correct"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Diagnostics_and_Laboratory_Medicine/dev_Diagnostics_and_Laboratory_Medicine_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_2",
+    "question": "Which statement about the figure is correct? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "This patient has probably a long history of seizures",
+      "A reticulin stain will probably show a dense intercellular network",
+      "This is a high grade glioma",
+      "A and B are correct",
+      "A,B and C are correct"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "This patient has probably a long history of seizures",
+      "B": "A reticulin stain will probably show a dense intercellular network",
+      "C": "This is a high grade glioma",
+      "D": "A and B are correct",
+      "E": "A,B and C are correct"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Diagnostics_and_Laboratory_Medicine/dev_Diagnostics_and_Laboratory_Medicine_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_3",
+    "question": "Appropriate statementsregarding the CTPA (computed tomography pulmonary artery) image of the chest, shown below <image 1>, include:",
+    "question_type": "multiple-choice",
+    "options": [
+      "The structure labelled A isthe left subclavian vein.",
+      "The structure labelled B isthe trachea",
+      "The structure labelled C is the hemiazygos vein",
+      "The structure labelled D isthe apex of the left lung"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The structure labelled A isthe left subclavian vein.",
+      "B": "The structure labelled B isthe trachea",
+      "C": "The structure labelled C is the hemiazygos vein",
+      "D": "The structure labelled D isthe apex of the left lung"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Diagnostics_and_Laboratory_Medicine/dev_Diagnostics_and_Laboratory_Medicine_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_4",
+    "question": "This tumor is usually positive for: <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "S-100",
+      "EMA",
+      "CD-34",
+      "CD-20",
+      "CD-45"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "S-100",
+      "B": "EMA",
+      "C": "CD-34",
+      "D": "CD-20",
+      "E": "CD-45"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Diagnostics_and_Laboratory_Medicine/dev_Diagnostics_and_Laboratory_Medicine_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Diagnostics_and_Laboratory_Medicine_5",
+    "question": "This anti-dystrophin immunoreacted section is consistent with: <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Becker s Muscular Dystrophy",
+      "Duchene Muscular Dystroph",
+      "A female carrier of a dystrophinopathy",
+      "Normal"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Becker s Muscular Dystrophy",
+      "B": "Duchene Muscular Dystroph",
+      "C": "A female carrier of a dystrophinopathy",
+      "D": "Normal"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Diagnostics_and_Laboratory_Medicine/dev_Diagnostics_and_Laboratory_Medicine_5_img1.png"
+    ],
+    "response": ""
+  }
+]

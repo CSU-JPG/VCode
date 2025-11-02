@@ -1,0 +1,142 @@
+[
+  {
+    "id": "dev_Sociology_1",
+    "question": "According to <image 1>, in Asch's study on conformity, what contributed to the ability of subjects to resist conforming?",
+    "question_type": "multiple-choice",
+    "options": [
+      "A very small group of witnesses",
+      "The presence of an ally",
+      "The ability to keep one's answer private",
+      "All of the above"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A very small group of witnesses",
+      "B": "The presence of an ally",
+      "C": "The ability to keep one's answer private",
+      "D": "All of the above"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Sociology/dev_Sociology_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Sociology_2",
+    "question": "The two types of objective knowledge that <image 1> believed could be obtained by social scientists employing the scientiMc method were:",
+    "question_type": "multiple-choice",
+    "options": [
+      "Historical preconditions and laws of society",
+      "Historical preconditions and subjective perspectives",
+      "Historical preconditions and social facts",
+      "Historical preconditions and class consciousness"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Historical preconditions and laws of society",
+      "B": "Historical preconditions and subjective perspectives",
+      "C": "Historical preconditions and social facts",
+      "D": "Historical preconditions and class consciousness"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Sociology/dev_Sociology_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Sociology_3",
+    "question": "Societies practise the concept of  <image 1> to maintain ________.",
+    "question_type": "multiple-choice",
+    "options": [
+      "Formal sanctions",
+      "Social order",
+      "Cultural deviance",
+      "Sanction labelling"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Formal sanctions",
+      "B": "Social order",
+      "C": "Cultural deviance",
+      "D": "Sanction labelling"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Sociology/dev_Sociology_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Sociology_4",
+    "question": "What is <image 1>?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us",
+      "Identity is regarded as the result of modeling oneself in response to the expectations of others, not as a product of the unconscious",
+      "Socially deLned expectations that a person in a given social position will follow",
+      "Involves instilling culture within the individual, enabling the person to survive effectively in his or her social world"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us",
+      "B": "Identity is regarded as the result of modeling oneself in response to the expectations of others, not as a product of the unconscious",
+      "C": "Socially deLned expectations that a person in a given social position will follow",
+      "D": "Involves instilling culture within the individual, enabling the person to survive effectively in his or her social world"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Sociology/dev_Sociology_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Sociology_5",
+    "question": "<image 1> deals with the study of political conduct within a ____ frame of reference.",
+    "question_type": "multiple-choice",
+    "options": [
+      "Political",
+      "Pyschological",
+      "Sociological",
+      "Individual"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Political",
+      "B": "Pyschological",
+      "C": "Sociological",
+      "D": "Individual"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Sociology/dev_Sociology_5_img1.png"
+    ],
+    "response": ""
+  }
+]
