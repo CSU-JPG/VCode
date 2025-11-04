@@ -1,14 +1,14 @@
 # VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation
 
 <div align="center">
-  <a href="https://csu-jpg.github.io/VCode" target="_blank">
+  <a href="https://csu-jpg.github.io/VCode" target="_blank" style="text-decoration:none; margin-right: 10px;">
     <img src="https://img.shields.io/badge/Project-Page-brightgreen">
   </a>
-  &nbsp;
-  <a href="https://github.com/CSU-JPG/VCode" target="_blank">
+  <a href="https://github.com/CSU-JPG/VCode" target="_blank" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Code-GitHub-black">
   </a>
 </div>
+
 
 
 We proposed **VCode**: A Novel Perspective for Multimodal Coding.
