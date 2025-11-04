@@ -203,56 +203,8 @@ These scripts will read your `generated_imgs/` and compute scores.
 
 **Step 3 — Calculate each dataset’s metrics**
 
-### Expected Directory Layout
 
-```
-project_root/
-├── siglip_score_and_token_stats.py
-├── reference_images/                 # Reference/ground truth images
-│   ├── category1/
-│   │   ├── image001.png
-│   │   ├── image002.jpg
-│   │   └── ...
-│   ├── category2/
-│   │   ├── image003.png
-│   │   └── ...
-│   └── ...
-│
-└── model_outputs/                    # Model output folder
-    ├── gpt-4o/                       # Model name folder
-    │   ├── generated_imgs/           # Generated/rendered images
-    │   │   ├── category1/
-    │   │   │   ├── image001.png
-    │   │   │   ├── image002.jpg
-    │   │   │   └── ...
-    │   │   ├── category2/
-    │   │   │   ├── image003.png
-    │   │   │   └── ...
-    │   │   └── ...
-    │   │
-    │   └── generated_svgs/           # SVG source files
-    │       ├── category1/
-    │       │   ├── image001.svg
-    │       │   ├── image002.svg
-    │       │   └── ...
-    │       ├── category2/
-    │       │   ├── image003.svg
-    │       │   └── ...
-    │       └── ...
-    └── ...
-```
-
-## 🚀 Usage
-
-### Basic Command
-
-```bash
-python metrics.py \
-  --folder1 /path/to/reference_images \
-  --folder2 /path/to/model_outputs/gpt-4o
-```
-
-### Full Command with Options
+Full Command with Options
 
 ```bash
 python metrics.py \
@@ -261,7 +213,7 @@ python metrics.py \
   --ckpt google/siglip2-so400m-patch14-384
 ```
 
-### Command Line Arguments
+Command Line Arguments
 
 | Argument | Required | Default | Description |
 |----------|----------|---------|-------------|
@@ -269,4 +221,43 @@ python metrics.py \
 | `--folder2` | ✅ Yes | - | Path to model output folder (containing `generated_imgs/` and `generated_svgs/`) |
 | `--ckpt` | ❌ No | `google/siglip2-so400m-patch14-384` | SigLIP model checkpoint |
 
+
+**Expected Directory Layout**
+
+**Reference Images Folder** (`--folder1`):
+```
+reference_images/
+├── category1/
+│   ├── image001.png
+│   ├── image002.jpg
+│   └── ...
+├── category2/
+│   ├── image003.png
+│   └── ...
+└── ...
+```
+
+**Model Output Folder** (`--folder2`):
+```
+gpt-4o/
+├── generated_imgs/           # Generated/rendered images
+│   ├── category1/
+│   │   ├── image001.png
+│   │   ├── image002.png
+│   │   └── ...
+│   ├── category2/
+│   │   ├── image003.png
+│   │   └── ...
+│   └── ...
+│
+└── generated_svgs/           # SVG source files
+    ├── category1/
+    │   ├── image001.svg
+    │   ├── image002.svg
+    │   └── ...
+    ├── category2/
+    │   ├── image003.svg
+    │   └── ...
+    └── ...
+```
 
