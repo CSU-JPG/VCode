@@ -1,11 +1,23 @@
 # VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation
 
-<p align="center">
+<div align="center">
 
-<a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
-<a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
+<a href="https://csu-jpg.github.io/VCode" target="_blank">
+  <img src="https://img.shields.io/badge/Project-Page-brightgreen">
+</a>
+<a href="https://github.com/CSU-JPG/VCode" target="_blank">
+  <img src="https://img.shields.io/badge/Code-GitHub-black">
+</a>
 
-</p>
+</div>
+
+We propose **VCode**: A Novel Perspective for Multimodal Coding.
+
+![Overview](./assets/teaser.png)
+
+**VCoder** is a framework that augments VLMs as strong multimodal coders.
+
+![VCoder Overview](./assets/vcoder.png)
 
 ## 📋 Table of Contents
 
@@ -32,13 +44,14 @@ conda activate vcode
 
 ## 🚀 Quick Start
 
-### Img2SVG2Render Pipeline
+### VCode-suite
 
-Img2SVG2Render is an automated pipeline that takes an input image folder, converts all images into their corresponding SVG code, and then renders each SVG back into a bitmap for visual evaluation and comparison.
-It forms the core of the VCode framework, enabling fully automated image-to-SVG-to-render workflows.
+**VCode-suite** is a comprehensive toolkit that automates the full image-to-SVG-to-render workflow.
+It includes both integrated pipelines and independent modules for generation, rendering, and revision.
+Users can either run the end-to-end pipelines for batch processing, or execute individual scripts for customized control.
 
 ```
-📁 img2svg2render/
+📁 vcode-suite/
 ├── filter.py
 ├── img2svg.py
 ├── img2svgthinking.py
@@ -50,11 +63,17 @@ It forms the core of the VCode framework, enabling fully automated image-to-SVG-
 └── svg_render_img.py
 ```
 
+> 💡 **Tip:**
+> The **pipelines (`pipeline.sh`, `revision_pipeline.sh`)** perform fully automated batch processing,
+> while the **Python scripts** (`img2svg.py`, `img2text2svg.py`, `revision.py`, etc.) can be run independently
+> to support flexible and modular experimentation within the VCode framework.
+
+
 #### ⚙️ Usage
 
 1️⃣ Generate and Render SVGs
 
-`pipeline.sh` orchestrates the full Img2SVG2Render process.
+`pipeline.sh` orchestrates the full image-to-SVG-to-render workflow.
 It can connect to different generation modules — `img2svg`, `img2text2svg`, or `img2svgthinking` — to convert images into SVGs, then filter and render them into pixel images.
 
 ```bash
@@ -84,7 +103,7 @@ Similarly, `revision.py` can be run independently to optimize previously generat
 ##### Run `img2svg.py`
 
 ```bash
-python img2svg2render/img2svg.py \
+python vcode-suite/img2svg.py \
   /path/to/input_images \
   ./generated_svgs \
   --model gpt-5 \
@@ -101,14 +120,14 @@ python img2svg2render/img2svg.py \
 | `--base-url`        | str  | `https://api.deepinfra.com/v1/openai` | Base URL of the API endpoint.                             |
 | `--api-key`         | str  | Required                              | API key for authentication.                               |
 | `--sleep`           | int  | `5`                                   | Seconds to wait between consecutive API calls.            |
-| `--max-tokens`      | int  | `16384`                                | Maximum number of tokens allowed in the model’s response. |
+| `--max-tokens`      | int  | `16384`                               | Maximum number of tokens allowed in the model’s response. |
 
 ---
 
 ##### Run `revision.py`
 
 ```bash
-python img2svg2render/revision.py \
+python vcode-suite/revision.py \
   --svg-folder ./generated_svgs \
   --original-folder ./input_images \
   --rendered-folder ./generated_imgs \
@@ -142,7 +161,7 @@ python img2svg2render/revision.py \
 
 **Step 1 — Generate `generated_imgs/` for all three datasets**
 
-Use the Img2SVG2Render pipeline (or standalone scripts) to render images for each dataset.
+Use the VCode-suite pipeline (or standalone scripts) to render images for each dataset.
 Original images are already in `data/`:
 
 - **MM-Vet:** `data/mm-vet/images`
