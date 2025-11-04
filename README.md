@@ -105,18 +105,18 @@ python vcode-suite/img2svg.py \
   /path/to/input_images \
   ./generated_svgs \
   --model gpt-5 \
-  --base-url https://api.deepinfra.com/v1/openai \
-  --api-key sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \
+  --base-url https://openrouter.ai/api/v1 \
+  --api-key <OPENROUTER_API_KEY> \
   --max-tokens 16384
 ```
 
 | Argument            | Type | Default                               | Description                                               |
 | ------------------- | ---- | ------------------------------------- | --------------------------------------------------------- |
-| `images_folder`     | str  | —                                     | Path to the input folder containing image files.          |
-| `svg_output_folder` | str  | —                                     | Directory to save the generated SVG files.                |
+| `images_folder`     | str  | -                                     | Path to the input folder containing image files.          |
+| `svg_output_folder` | str  | -                                     | Directory to save the generated SVG files.                |
 | `--model`           | str  | `gpt-5`                               | API model name used for conversion.                       |
-| `--base-url`        | str  | `https://api.deepinfra.com/v1/openai` | Base URL of the API endpoint.                             |
-| `--api-key`         | str  | Required                              | API key for authentication.                               |
+| `--base-url`        | str  | `https://openrouter.ai/api/v1`        | Base URL of the API endpoint.                             |
+| `--api-key`         | str  | -                              | API key for authentication.                               |
 | `--sleep`           | int  | `5`                                   | Seconds to wait between consecutive API calls.            |
 | `--max-tokens`      | int  | `16384`                               | Maximum number of tokens allowed in the model’s response. |
 
@@ -131,8 +131,8 @@ python vcode-suite/revision.py \
   --rendered-folder ./generated_imgs \
   --output-folder ./optimized_svgs \
   --analysis-folder ./visual_analysis \
-  --base-url https://api.openai.com/v1 \
-  --api-key sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \
+  --base-url https://openrouter.ai/api/v1 \
+  --api-key <OPENROUTER_API_KEY> \
   --model gpt-5 \
   --max-tokens 16384
 ```
@@ -140,13 +140,13 @@ python vcode-suite/revision.py \
 | Argument            | Type | Default                       | Description                                             |
 | ------------------- | ---- | ----------------------------- | ------------------------------------------------------- |
 | `--svg-folder`      | str  | —                             | Root directory containing the SVG files to optimize.    |
-| `--original-folder` | str  | —                             | Directory of the original reference images.             |
-| `--rendered-folder` | str  | —                             | Directory of rendered images corresponding to the SVGs. |
-| `--output-folder`   | str  | —                             | Directory to save the optimized SVG files.              |
-| `--analysis-folder` | str  | —                             | Directory to save visual comparison and analysis txts.  |
-| `--base-url`        | str  | `https://tao.plus7.plus/v1`   | Base URL of the API endpoint.                           |
-| `--api-key`         | str  | `os.getenv('OPENAI_API_KEY')` | API key.                                                |
-| `--model`           | str  | `claude-4-opus`               | Model used for revision.                                |
+| `--original-folder` | str  | -                             | Directory of the original reference images.             |
+| `--rendered-folder` | str  | -                             | Directory of rendered images corresponding to the SVGs. |
+| `--output-folder`   | str  | -                             | Directory to save the optimized SVG files.              |
+| `--analysis-folder` | str  | -                             | Directory to save visual comparison and analysis txts.  |
+| `--base-url`        | str  | `https://openrouter.ai/api/v1`| Base URL of the API endpoint.                           |
+| `--api-key`         | str  | -                             | API key.                                                |
+| `--model`           | str  | `gpt-5`                       | Model used for revision.                                |
 | `--max-tokens`      | int  | `16384`                       | Maximum tokens allowed in the model response.           |
 
 > 💡 **Tip:**
