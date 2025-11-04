@@ -1,15 +1,13 @@
 # VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation
 
-<div align="center">
+<p align="center">
 
-<a href="https://csu-jpg.github.io/VCode" target="_blank">
-  <img src="https://img.shields.io/badge/Project-Page-brightgreen">
-</a>
-<a href="https://github.com/CSU-JPG/VCode" target="_blank">
-  <img src="https://img.shields.io/badge/Code-GitHub-black">
-</a>
+<a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
+<a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
 
-</div>
+</p>
+
+
 
 We proposed **VCode**: A Novel Perspective for Multimodal Coding.
 
@@ -104,23 +102,23 @@ Similarly, `revision.py` can be run independently to optimize previously generat
 
 ```bash
 python vcode-suite/img2svg.py \
-  /path/to/input_images \
-  ./generated_svgs \
-  --model gpt-5 \
-  --base-url https://openrouter.ai/api/v1 \
-  --api-key <OPENROUTER_API_KEY> \
-  --max-tokens 16384
+/path/to/input_images \
+./generated_svgs \
+--model gpt-5 \
+--base-url https://openrouter.ai/api/v1 \
+--api-key <OPENROUTER_API_KEY> \
+--max-tokens 16384
 ```
 
-| Argument            | Type | Default                               | Description                                               |
-| ------------------- | ---- | ------------------------------------- | --------------------------------------------------------- |
-| `images_folder`     | str  | -                                     | Path to the input folder containing image files.          |
-| `svg_output_folder` | str  | -                                     | Directory to save the generated SVG files.                |
-| `--model`           | str  | `gpt-5`                               | API model name used for conversion.                       |
-| `--base-url`        | str  | `https://openrouter.ai/api/v1`        | Base URL of the API endpoint.                             |
+| Argument            | Type | Default                        | Description                                               |
+| ------------------- | ---- | ------------------------------ | --------------------------------------------------------- |
+| `images_folder`     | str  | -                              | Path to the input folder containing image files.          |
+| `svg_output_folder` | str  | -                              | Directory to save the generated SVG files.                |
+| `--model`           | str  | `gpt-5`                        | API model name used for conversion.                       |
+| `--base-url`        | str  | `https://openrouter.ai/api/v1` | Base URL of the API endpoint.                             |
 | `--api-key`         | str  | -                              | API key for authentication.                               |
-| `--sleep`           | int  | `5`                                   | Seconds to wait between consecutive API calls.            |
-| `--max-tokens`      | int  | `16384`                               | Maximum number of tokens allowed in the model’s response. |
+| `--sleep`           | int  | `5`                            | Seconds to wait between consecutive API calls.            |
+| `--max-tokens`      | int  | `16384`                        | Maximum number of tokens allowed in the model’s response. |
 
 ---
 
@@ -128,28 +126,29 @@ python vcode-suite/img2svg.py \
 
 ```bash
 python vcode-suite/revision.py \
-  --svg-folder ./generated_svgs \
-  --original-folder ./input_images \
-  --rendered-folder ./generated_imgs \
-  --output-folder ./optimized_svgs \
-  --analysis-folder ./visual_analysis \
-  --base-url https://openrouter.ai/api/v1 \
-  --api-key <OPENROUTER_API_KEY> \
-  --model gpt-5 \
-  --max-tokens 16384
+--svg-folder ./generated_svgs \
+--original-folder ./input_images \
+--rendered-folder ./generated_imgs \
+--output-folder ./optimized_svgs \
+--analysis-folder ./visual_analysis \
+--base-url https://openrouter.ai/api/v1 \
+--api-key <OPENROUTER_API_KEY> \
+--model gpt-5 \
+--max-tokens 16384
 ```
 
-| Argument            | Type | Default                       | Description                                             |
-| ------------------- | ---- | ----------------------------- | ------------------------------------------------------- |
-| `--svg-folder`      | str  | -                             | Root directory containing the SVG files to optimize.    |
-| `--original-folder` | str  | -                             | Directory of the original reference images.             |
-| `--rendered-folder` | str  | -                             | Directory of rendered images corresponding to the SVGs. |
-| `--output-folder`   | str  | -                             | Directory to save the optimized SVG files.              |
-| `--analysis-folder` | str  | -                             | Directory to save visual comparison and analysis txts.  |
-| `--base-url`        | str  | `https://openrouter.ai/api/v1`| Base URL of the API endpoint.                           |
-| `--api-key`         | str  | -                             | API key.                                                |
-| `--model`           | str  | `gpt-5`                       | Model used for revision.                                |
-| `--max-tokens`      | int  | `16384`                       | Maximum tokens allowed in the model response.           |
+| Argument            | Type | Default                        | Description                                             |
+| ------------------- | ---- | ------------------------------ | ------------------------------------------------------- |
+| `--svg-folder`      | str  | —                              | Root directory containing the SVG files to optimize.    |
+| `--svg-folder`      | str  | -                              | Root directory containing the SVG files to optimize.    |
+| `--original-folder` | str  | -                              | Directory of the original reference images.             |
+| `--rendered-folder` | str  | -                              | Directory of rendered images corresponding to the SVGs. |
+| `--output-folder`   | str  | -                              | Directory to save the optimized SVG files.              |
+| `--analysis-folder` | str  | -                              | Directory to save visual comparison and analysis txts.  |
+| `--base-url`        | str  | `https://openrouter.ai/api/v1` | Base URL of the API endpoint.                           |
+| `--api-key`         | str  | -                              | API key.                                                |
+| `--model`           | str  | `gpt-5`                        | Model used for revision.                                |
+| `--max-tokens`      | int  | `16384`                        | Maximum tokens allowed in the model response.           |
 
 > 💡 **Tip:**
 > The `revision.py` script refines existing SVGs based on visual comparison feedback, while generation scripts (`img2svg.py`, `img2text2svg.py`, `img2svgthinking.py`, `img2svg-w-visual-tool.py`) create SVGs from input images_folder.
@@ -199,3 +198,70 @@ chmod +x subtask/mmmu/mmmu_eval.sh
 These scripts will read your `generated_imgs/` and compute scores.
 
 > 💡 **Reference:** For directory organization and example script configuration, see **`example_results/`** (it shows a working layout you can mirror).
+
+
+---
+
+**Step 3 — Calculate each dataset’s metrics**
+
+
+**Full Command with Options**
+
+```bash
+python metrics.py \
+--folder1 /path/to/reference_images \
+--folder2 /path/to/model_outputs/gpt-4o \
+--ckpt google/siglip2-so400m-patch14-384
+```
+
+**Command Line Arguments**
+
+| Argument    | Required | Default                             | Description                                                                      |
+| ----------- | -------- | ----------------------------------- | -------------------------------------------------------------------------------- |
+| `--folder1` | ✅ Yes    | -                                   | Path to reference images folder                                                  |
+| `--folder2` | ✅ Yes    | -                                   | Path to model output folder (containing `generated_imgs/` and `generated_svgs/`) |
+| `--ckpt`    | ❌ No     | `google/siglip2-so400m-patch14-384` | SigLIP model checkpoint                                                          |
+
+
+**Expected Directory Layout:**
+
+**Reference Images Folder** (`--folder1`)
+
+**Location:** `data/mm-vet/images` *(example path - can be customized)*
+```
+folder1/
+├── category1/
+│   ├── image001.png
+│   ├── image002.jpg
+│   └── ...
+├── category2/
+│   ├── image003.png
+│   └── ...
+└── ...
+```
+
+**Model Output Folder** (`--folder2`)
+
+**Location:** `example_results/mm-vet/Gemini-2.5-Pro` *(example path - can be customized)*
+```
+folder2/
+├── generated_imgs/           # Generated/rendered images
+│   ├── category1/
+│   │   ├── image001.png
+│   │   ├── image002.jpg
+│   │   └── ...
+│   ├── category2/
+│   │   ├── image003.png
+│   │   └── ...
+│   └── ...
+│
+└── generated_svgs/           # SVG source files
+   ├── category1/
+   │   ├── image001.svg
+   │   ├── image002.svg
+   │   └── ...
+   ├── category2/
+   │   ├── image003.svg
+   │   └── ...
+   └── ...
+```
