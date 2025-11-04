@@ -139,7 +139,7 @@ python vcode-suite/revision.py \
 
 | Argument            | Type | Default                       | Description                                             |
 | ------------------- | ---- | ----------------------------- | ------------------------------------------------------- |
-| `--svg-folder`      | str  | —                             | Root directory containing the SVG files to optimize.    |
+| `--svg-folder`      | str  | -                             | Root directory containing the SVG files to optimize.    |
 | `--original-folder` | str  | -                             | Directory of the original reference images.             |
 | `--rendered-folder` | str  | -                             | Directory of rendered images corresponding to the SVGs. |
 | `--output-folder`   | str  | -                             | Directory to save the optimized SVG files.              |
