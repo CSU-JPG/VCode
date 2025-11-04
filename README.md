@@ -222,9 +222,10 @@ python metrics.py \
 | `--ckpt` | ❌ No | `google/siglip2-so400m-patch14-384` | SigLIP model checkpoint |
 
 
-**Expected Directory Layout**
+**Expected Directory Layout:**
 
-**Reference Images Folder** (`--folder1`):
+**Reference Images Folder** (`--folder1`)
+**Location:** `results/gpt-4o/` *(example path - can be customized)*
 ```
 reference_images/
 ├── category1/
@@ -237,7 +238,8 @@ reference_images/
 └── ...
 ```
 
-**Model Output Folder** (`--folder2`):
+**Model Output Folder** (`--folder2`)
+**Location:** `results/gpt-4o/` *(example path - can be customized)*
 ```
 gpt-4o/
 ├── generated_imgs/           # Generated/rendered images
