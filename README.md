@@ -225,9 +225,10 @@ python metrics.py \
 **Expected Directory Layout:**
 
 **Reference Images Folder** (`--folder1`)
-**Location:** `results/gpt-4o/` *(example path - can be customized)*
+
+**Location:** `data/mm-vet/images` *(example path - can be customized)*
 ```
-reference_images/
+data/mm-vet/images/
 ├── category1/
 │   ├── image001.png
 │   ├── image002.jpg
@@ -239,9 +240,10 @@ reference_images/
 ```
 
 **Model Output Folder** (`--folder2`)
-**Location:** `results/gpt-4o/` *(example path - can be customized)*
+
+**Location:** `example_results/mm-vet/Gemini-2.5-Pro` *(example path - can be customized)*
 ```
-gpt-4o/
+example_results/mm-vet/Gemini-2.5-Pro/
 ├── generated_imgs/           # Generated/rendered images
 │   ├── category1/
 │   │   ├── image001.png
