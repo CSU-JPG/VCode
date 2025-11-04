@@ -90,7 +90,7 @@ python img2svg2render/img2svg.py \
   --model Qwen3-VL-235B-A22B-Instruct \
   --base-url https://api.deepinfra.com/v1/openai \
   --api-key sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \
-  --max-tokens 16384
+  --max-tokens 8192
 ```
 
 | Argument            | Type | Default                               | Description                                               |
@@ -101,7 +101,7 @@ python img2svg2render/img2svg.py \
 | `--base-url`        | str  | `https://api.deepinfra.com/v1/openai` | Base URL of the API endpoint.                             |
 | `--api-key`         | str  | Required                              | API key for authentication.                               |
 | `--sleep`           | int  | `5`                                   | Seconds to wait between consecutive API calls.            |
-| `--max-tokens`      | int  | `16384`                               | Maximum number of tokens allowed in the model’s response. |
+| `--max-tokens`      | int  | `8192`                                | Maximum number of tokens allowed in the model’s response. |
 
 ---
 
