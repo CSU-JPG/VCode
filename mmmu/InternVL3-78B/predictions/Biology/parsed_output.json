@@ -57,8 +57,8 @@
         "id": "dev_Biology_5",
         "question_type": "multiple-choice",
         "answer": "A",
-        "response": "B",
-        "parsed_pred": "B",
+        "response": "C",
+        "parsed_pred": "C",
         "index2ans": {
             "A": "Obturator internus",
             "B": "Levatorani",

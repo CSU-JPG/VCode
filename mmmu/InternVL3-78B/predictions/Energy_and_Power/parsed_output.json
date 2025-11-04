@@ -3,8 +3,8 @@
         "id": "dev_Energy_and_Power_1",
         "question_type": "multiple-choice",
         "answer": "B",
-        "response": "C",
-        "parsed_pred": "C",
+        "response": "A",
+        "parsed_pred": "A",
         "index2ans": {
             "A": "PV",
             "B": "PV/2",
@@ -43,8 +43,8 @@
         "id": "dev_Energy_and_Power_4",
         "question_type": "multiple-choice",
         "answer": "C",
-        "response": "A",
-        "parsed_pred": "A",
+        "response": "B",
+        "parsed_pred": "B",
         "index2ans": {
             "A": "1.00 m/s2",
             "B": "1.50 m/s2",
@@ -56,13 +56,13 @@
         "id": "dev_Energy_and_Power_5",
         "question_type": "multiple-choice",
         "answer": "B",
-        "response": "B",
-        "parsed_pred": "B",
+        "response": "A",
+        "parsed_pred": "A",
         "index2ans": {
             "A": "204 V",
             "B": "224 V",
             "C": "244 V"
         },
-        "judge": "Correct"
+        "judge": "Wrong"
     }
 ]

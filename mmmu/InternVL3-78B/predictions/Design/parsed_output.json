@@ -17,15 +17,15 @@
         "id": "dev_Design_2",
         "question_type": "multiple-choice",
         "answer": "B",
-        "response": "B",
-        "parsed_pred": "B",
+        "response": null,
+        "parsed_pred": null,
         "index2ans": {
             "A": "Baroque",
             "B": "Renaissance",
             "C": "Rococo",
             "D": "Classical"
         },
-        "judge": "Correct"
+        "judge": "Wrong"
     },
     {
         "id": "dev_Design_3",

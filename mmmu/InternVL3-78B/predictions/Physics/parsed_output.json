@@ -3,15 +3,15 @@
         "id": "dev_Physics_1",
         "question_type": "multiple-choice",
         "answer": "B",
-        "response": "B",
-        "parsed_pred": "B",
+        "response": "C",
+        "parsed_pred": "C",
         "index2ans": {
             "A": "A",
             "B": "B",
             "C": "C",
             "D": "D"
         },
-        "judge": "Correct"
+        "judge": "Wrong"
     },
     {
         "id": "dev_Physics_2",
@@ -46,28 +46,28 @@
         "id": "dev_Physics_4",
         "question_type": "multiple-choice",
         "answer": "A",
-        "response": "A",
-        "parsed_pred": "A",
+        "response": "B",
+        "parsed_pred": "B",
         "index2ans": {
             "A": "The needle deflects to the left.",
             "B": "The needle deflects to the right.",
             "C": "The needle oscillates back and forth.",
             "D": "The needle never moves."
         },
-        "judge": "Correct"
+        "judge": "Wrong"
     },
     {
         "id": "dev_Physics_5",
         "question_type": "multiple-choice",
         "answer": "C",
-        "response": "D",
-        "parsed_pred": "D",
+        "response": "C",
+        "parsed_pred": "C",
         "index2ans": {
             "A": "it would equal the potential difference across the 20 ohm resistor",
             "B": "it would be twice the potential difference across the 30 ohm resistor",
             "C": "it would equal the potential difference across the 30 ohm resistor",
             "D": "it would be half the potential difference across the 30 ohm resistor"
         },
-        "judge": "Wrong"
+        "judge": "Correct"
     }
 ]

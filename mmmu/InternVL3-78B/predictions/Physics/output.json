@@ -15,7 +15,7 @@
       "C": "C",
       "D": "D"
     },
-    "response": "B"
+    "response": "C"
   },
   {
     "id": "dev_Physics_2",
@@ -71,7 +71,7 @@
       "C": "The needle oscillates back and forth.",
       "D": "The needle never moves."
     },
-    "response": "A"
+    "response": "B"
   },
   {
     "id": "dev_Physics_5",
@@ -89,6 +89,6 @@
       "C": "it would equal the potential difference across the 30 ohm resistor",
       "D": "it would be half the potential difference across the 30 ohm resistor"
     },
-    "response": "D"
+    "response": "C"
   }
 ]

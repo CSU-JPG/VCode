@@ -15,7 +15,7 @@
       "C": "$71,320",
       "D": "$77,490"
     },
-    "response": "B"
+    "response": "C"
   },
   {
     "id": "dev_Accounting_2",
@@ -33,7 +33,7 @@
       "C": "$172,500",
       "D": "$181,900"
     },
-    "response": "D"
+    "response": "A"
   },
   {
     "id": "dev_Accounting_3",
@@ -82,84 +82,6 @@
       "C": "10.96 years; 15.22 years; 20.83 years; 25.96 years"
     },
     "response": "A"
-  },
-  {
-    "id": "dev_Architecture_and_Engineering_1",
-    "question_type": "multiple-choice",
-    "answer": "C",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "S45°30'32\"E,745.03 $\\approx$ steps",
-      "B": "N45°30'32\"E,745.03 $\\approx$ steps",
-      "C": "N45°30'32\"W,745.03 $\\approx$ steps",
-      "D": "S45°30'32\"W,745.03 $\\approx$ steps"
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Architecture_and_Engineering_2",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "$\\angle $A = 54°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
-      "B": "$\\angle $A = 44°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
-      "C": "$\\angle $A = 56°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
-      "D": "$\\angle $A = 57°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\""
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Architecture_and_Engineering_3",
-    "question_type": "multiple-choice",
-    "answer": "D",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "0.117 in",
-      "B": "0.232 in",
-      "C": "0.123 in",
-      "D": "0.217 in"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Architecture_and_Engineering_4",
-    "question_type": "multiple-choice",
-    "answer": "B",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "41.67mi/hr",
-      "B": "45.67mi/hr",
-      "C": "45.17mi/hr"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Architecture_and_Engineering_5",
-    "question_type": "open",
-    "answer": "1970.6",
-    "all_choices": [],
-    "index2ans": {},
-    "response": "Area: 472.4 cm²"
   },
   {
     "id": "dev_Agriculture_1",
@@ -258,6 +180,84 @@
       "E": "Bacteria"
     },
     "response": "C"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_1",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "S45°30'32\"E,745.03 $\\approx$ steps",
+      "B": "N45°30'32\"E,745.03 $\\approx$ steps",
+      "C": "N45°30'32\"W,745.03 $\\approx$ steps",
+      "D": "S45°30'32\"W,745.03 $\\approx$ steps"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$\\angle $A = 54°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "B": "$\\angle $A = 44°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "C": "$\\angle $A = 56°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\"",
+      "D": "$\\angle $A = 57°12'12.98\",$\\angle $B = 48°45'52.21\",$\\angle $C = 77°01'54.81\""
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.117 in",
+      "B": "0.232 in",
+      "C": "0.123 in",
+      "D": "0.217 in"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "41.67mi/hr",
+      "B": "45.67mi/hr",
+      "C": "45.17mi/hr"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Architecture_and_Engineering_5",
+    "question_type": "open",
+    "answer": "1970.6",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Area: 472.4 cm²"
   },
   {
     "id": "dev_Art_1",
@@ -512,73 +512,7 @@
     "response": "D"
   },
   {
-    "id": "dev_Computer_Science_1",
-    "question_type": "multiple-choice",
-    "answer": "B",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "index2ans": {
-      "A": "Phone",
-      "B": "Ssn",
-      "C": "Name",
-      "D": "Addr",
-      "E": "None of the other answers"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Computer_Science_2",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B"
-    ],
-    "index2ans": {
-      "A": "half adder",
-      "B": "full adder"
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Computer_Science_3",
-    "question_type": "multiple-choice",
-    "answer": "D",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "0",
-      "B": "1",
-      "C": "2",
-      "D": "None of the other answers"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Computer_Science_4",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B"
-    ],
-    "index2ans": {
-      "A": "same",
-      "B": "not the same"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Computer_Science_5",
+    "id": "dev_Biology_1",
     "question_type": "multiple-choice",
     "answer": "C",
     "all_choices": [
@@ -588,12 +522,80 @@
       "D"
     ],
     "index2ans": {
-      "A": "BOOK_AUTHORS",
-      "B": "PUBLISHER",
-      "C": "BOOK_LOANS",
-      "D": "LIBRARY_BRANCH"
+      "A": "speciation events",
+      "B": "separation events",
+      "C": "relative length of time in existence",
+      "D": "a common ancestor"
     },
     "response": "C"
+  },
+  {
+    "id": "dev_Biology_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "A. crenulata",
+      "B": "A. mediterranea",
+      "C": "None of above"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Biology_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "aldose",
+      "B": "ketose"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Biology_4",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Both B cells and T cells can produce antibodies.",
+      "B": "Both B cells and T cells have memory functions.",
+      "C": "Both B cells and T cells are required for an antibody response.",
+      "D": "B cells are required for an antibody response in the absence of T cells.",
+      "E": "B cells and T cells are co-localized and produce synergetic effects in bone marrow and thymus."
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Biology_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Obturator internus",
+      "B": "Levatorani",
+      "C": "Prostatic venous plexus",
+      "D": "Obturator membrane"
+    },
+    "response": "B"
   },
   {
     "id": "dev_Chemistry_1",
@@ -687,7 +689,7 @@
       "C": "III > I > II",
       "D": "II > I > III"
     },
-    "response": "B"
+    "response": "C"
   },
   {
     "id": "dev_Clinical_Medicine_1",
@@ -784,57 +786,9 @@
     "response": "B"
   },
   {
-    "id": "dev_Biology_1",
-    "question_type": "multiple-choice",
-    "answer": "C",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "speciation events",
-      "B": "separation events",
-      "C": "relative length of time in existence",
-      "D": "a common ancestor"
-    },
-    "response": "C"
-  },
-  {
-    "id": "dev_Biology_2",
+    "id": "dev_Computer_Science_1",
     "question_type": "multiple-choice",
     "answer": "B",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "A. crenulata",
-      "B": "A. mediterranea",
-      "C": "None of above"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Biology_3",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B"
-    ],
-    "index2ans": {
-      "A": "aldose",
-      "B": "ketose"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Biology_4",
-    "question_type": "multiple-choice",
-    "answer": "C",
     "all_choices": [
       "A",
       "B",
@@ -843,18 +797,32 @@
       "E"
     ],
     "index2ans": {
-      "A": "Both B cells and T cells can produce antibodies.",
-      "B": "Both B cells and T cells have memory functions.",
-      "C": "Both B cells and T cells are required for an antibody response.",
-      "D": "B cells are required for an antibody response in the absence of T cells.",
-      "E": "B cells and T cells are co-localized and produce synergetic effects in bone marrow and thymus."
+      "A": "Phone",
+      "B": "Ssn",
+      "C": "Name",
+      "D": "Addr",
+      "E": "None of the other answers"
     },
-    "response": "C"
+    "response": "B"
   },
   {
-    "id": "dev_Biology_5",
+    "id": "dev_Computer_Science_2",
     "question_type": "multiple-choice",
     "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "half adder",
+      "B": "full adder"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Computer_Science_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
     "all_choices": [
       "A",
       "B",
@@ -862,12 +830,44 @@
       "D"
     ],
     "index2ans": {
-      "A": "Obturator internus",
-      "B": "Levatorani",
-      "C": "Prostatic venous plexus",
-      "D": "Obturator membrane"
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "None of the other answers"
     },
     "response": "B"
+  },
+  {
+    "id": "dev_Computer_Science_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "same",
+      "B": "not the same"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Computer_Science_5",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "BOOK_AUTHORS",
+      "B": "PUBLISHER",
+      "C": "BOOK_LOANS",
+      "D": "LIBRARY_BRANCH"
+    },
+    "response": "C"
   },
   {
     "id": "dev_Design_1",
@@ -1052,66 +1052,6 @@
     "response": "C"
   },
   {
-    "id": "dev_Electronics_1",
-    "question_type": "open",
-    "answer": "120",
-    "all_choices": [],
-    "index2ans": {},
-    "response": "Compensation."
-  },
-  {
-    "id": "dev_Electronics_2",
-    "question_type": "open",
-    "answer": "20",
-    "all_choices": [],
-    "index2ans": {},
-    "response": "5 kΩ"
-  },
-  {
-    "id": "dev_Electronics_3",
-    "question_type": "multiple-choice",
-    "answer": "D",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "$3 \\pi x 10^-5 A$",
-      "B": "$0 \\pi x 10^-5 A$",
-      "C": "$1 \\pi x 10^-5 A$",
-      "D": "$-2 \\pi x 10^-5 A$"
-    },
-    "response": "D"
-  },
-  {
-    "id": "dev_Electronics_4",
-    "question_type": "open",
-    "answer": "20",
-    "all_choices": [],
-    "index2ans": {},
-    "response": "Voltage divider."
-  },
-  {
-    "id": "dev_Electronics_5",
-    "question_type": "multiple-choice",
-    "answer": "D",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) cos (t - 63.44^{\\circ})] u(t)$",
-      "B": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{3}) sin (t - 63.44^{\\circ})] u(t)$",
-      "C": "$[2 - 2.1e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$",
-      "D": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$"
-    },
-    "response": "D"
-  },
-  {
     "id": "dev_Economics_1",
     "question_type": "multiple-choice",
     "answer": "D",
@@ -1127,7 +1067,7 @@
       "C": "400",
       "D": "600"
     },
-    "response": "C"
+    "response": "B"
   },
   {
     "id": "dev_Economics_2",
@@ -1145,7 +1085,7 @@
       "C": "0.83 Shoes",
       "D": "0.75 Shoes"
     },
-    "response": "C"
+    "response": "A"
   },
   {
     "id": "dev_Economics_3",
@@ -1198,6 +1138,66 @@
       "D": "9 million"
     },
     "response": "C"
+  },
+  {
+    "id": "dev_Electronics_1",
+    "question_type": "open",
+    "answer": "120",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Compensation."
+  },
+  {
+    "id": "dev_Electronics_2",
+    "question_type": "open",
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Infinite."
+  },
+  {
+    "id": "dev_Electronics_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$3 \\pi x 10^-5 A$",
+      "B": "$0 \\pi x 10^-5 A$",
+      "C": "$1 \\pi x 10^-5 A$",
+      "D": "$-2 \\pi x 10^-5 A$"
+    },
+    "response": "D"
+  },
+  {
+    "id": "dev_Electronics_4",
+    "question_type": "open",
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Voltage divider."
+  },
+  {
+    "id": "dev_Electronics_5",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) cos (t - 63.44^{\\circ})] u(t)$",
+      "B": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{3}) sin (t - 63.44^{\\circ})] u(t)$",
+      "C": "$[2 - 2.1e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$",
+      "D": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$"
+    },
+    "response": "D"
   },
   {
     "id": "dev_Energy_and_Power_1",
@@ -1524,141 +1524,27 @@
     "response": "D"
   },
   {
-    "id": "dev_Marketing_1",
-    "question_type": "multiple-choice",
-    "answer": "B",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "Larger.",
-      "B": "Smaller.",
-      "C": "Not certain."
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Marketing_2",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
-      "B": "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
-      "C": "Not certain."
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Marketing_3",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
-      "B": "No, there is not enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
-      "C": "Not certain."
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Marketing_4",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.",
-      "B": "There is sufficient evidence to conclude that the mean numbers of daily visitors are different.",
-      "C": "Not certain."
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Marketing_5",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "0.6029",
-      "B": "0.6030",
-      "C": "0.6031",
-      "D": "0.6032"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Mechanical_Engineering_1",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "85.5rpm",
-      "B": "72.2rpm",
-      "C": "95rpm",
-      "D": "52rpm"
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Mechanical_Engineering_2",
+    "id": "dev_Literature_1",
     "question_type": "multiple-choice",
     "answer": "C",
     "all_choices": [
       "A",
       "B",
-      "C"
+      "C",
+      "D"
     ],
     "index2ans": {
-      "A": "$\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$",
-      "B": "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
-      "C": "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
+      "A": "Writing-in-role",
+      "B": "Challenge",
+      "C": "Banning",
+      "D": "Hot Seat"
     },
-    "response": "A"
+    "response": "C"
   },
   {
-    "id": "dev_Mechanical_Engineering_3",
+    "id": "dev_Literature_3",
     "question_type": "multiple-choice",
-    "answer": "B",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "$\\delta d=506.109$",
-      "B": "$\\delta d=706.109$",
-      "C": "$\\delta d=906.109$"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Mechanical_Engineering_4",
-    "question_type": "multiple-choice",
-    "answer": "B",
+    "answer": "D",
     "all_choices": [
       "A",
       "B",
@@ -1666,26 +1552,46 @@
       "D"
     ],
     "index2ans": {
-      "A": "0.0375hp",
-      "B": "0.0475hp",
-      "C": "0.0572hp",
-      "D": "0.0623hp"
+      "A": "Theme",
+      "B": "Shape",
+      "C": "Covers",
+      "D": "Motif"
     },
-    "response": "C"
+    "response": "D"
   },
   {
-    "id": "dev_Mechanical_Engineering_5",
+    "id": "dev_Literature_4",
     "question_type": "multiple-choice",
-    "answer": "B",
+    "answer": "A",
     "all_choices": [
       "A",
       "B",
-      "C"
+      "C",
+      "D"
     ],
     "index2ans": {
-      "A": "t=1.46s",
-      "B": "t=2.46s",
-      "C": "t=3.46s"
+      "A": "News Program",
+      "B": "Readers Theatre",
+      "C": "Hot Seat",
+      "D": "News"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Literature_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "verbal irony",
+      "B": "situational irony",
+      "C": "foreshadowing",
+      "D": "dramatic irony"
     },
     "response": "A"
   },
@@ -1767,79 +1673,89 @@
     "answer": "26",
     "all_choices": [],
     "index2ans": {},
-    "response": "Total project completion time is 34 days."
+    "response": "34 days"
   },
   {
-    "id": "dev_Literature_1",
+    "id": "dev_Marketing_1",
     "question_type": "multiple-choice",
-    "answer": "C",
+    "answer": "B",
     "all_choices": [
       "A",
       "B",
-      "C",
-      "D"
+      "C"
     ],
     "index2ans": {
-      "A": "Writing-in-role",
-      "B": "Challenge",
-      "C": "Banning",
-      "D": "Hot Seat"
+      "A": "Larger.",
+      "B": "Smaller.",
+      "C": "Not certain."
     },
-    "response": "C"
+    "response": "B"
   },
   {
-    "id": "dev_Literature_3",
-    "question_type": "multiple-choice",
-    "answer": "D",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "Theme",
-      "B": "Shape",
-      "C": "Covers",
-      "D": "Motif"
-    },
-    "response": "D"
-  },
-  {
-    "id": "dev_Literature_4",
+    "id": "dev_Marketing_2",
     "question_type": "multiple-choice",
     "answer": "A",
     "all_choices": [
       "A",
       "B",
-      "C",
-      "D"
+      "C"
     ],
     "index2ans": {
-      "A": "News Program",
-      "B": "Readers Theatre",
-      "C": "Hot Seat",
-      "D": "News"
+      "A": "There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "B": "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "C": "Not certain."
     },
-    "response": "C"
+    "response": "B"
   },
   {
-    "id": "dev_Literature_5",
+    "id": "dev_Marketing_3",
     "question_type": "multiple-choice",
     "answer": "A",
     "all_choices": [
       "A",
       "B",
-      "C",
-      "D"
+      "C"
     ],
     "index2ans": {
-      "A": "verbal irony",
-      "B": "situational irony",
-      "C": "foreshadowing",
-      "D": "dramatic irony"
+      "A": "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "B": "No, there is not enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "C": "Not certain."
     },
     "response": "A"
+  },
+  {
+    "id": "dev_Marketing_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "B": "There is sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "C": "Not certain."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Marketing_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.6029",
+      "B": "0.6030",
+      "C": "0.6031",
+      "D": "0.6032"
+    },
+    "response": "B"
   },
   {
     "id": "dev_Materials_1",
@@ -1940,6 +1856,164 @@
     "response": "E"
   },
   {
+    "id": "dev_Math_1",
+    "question_type": "open",
+    "answer": "4",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Four."
+  },
+  {
+    "id": "dev_Math_2",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The dichotomous search yields a smaller interval containing $ x^* $ than the equal-interval search.",
+      "B": "The value obtained from quadratic interpolation $ \\lambda' = 0.52 $ is an accurate estimate for $ \\lambda^* $.",
+      "C": "The equal-interval search required more function evaluations than the quadratic interpolation.",
+      "D": "$ f(x) $ has a minimum of 5 in the interval $ [-1, 1] $."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Math_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "y = 5x/12 + 7/4 ",
+      "B": "y = 5x/12 + 5/4",
+      "C": "y = 7x/12 + 7/4"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Math_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "w = (3, {3, 2}, 2, {2, 4}, 4, {4, 1}, 1).",
+      "B": "w = (1, 3, {3, 2}, 2, {2, 1}, 4, {4, 1}).",
+      "C": "w = (4, {2, 4}, 3, {3, 2} , 4, {4, 1}, 1).",
+      "D": "w = (4, {4, 1}, 2, {2, 4},3, {3, 2},, 1)."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Math_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "Yes",
+      "B": "No"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_1",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "85.5rpm",
+      "B": "72.2rpm",
+      "C": "95rpm",
+      "D": "52rpm"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_2",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$",
+      "B": "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
+      "C": "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_3",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta d=506.109$",
+      "B": "$\\delta d=706.109$",
+      "C": "$\\delta d=906.109$"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.0375hp",
+      "B": "0.0475hp",
+      "C": "0.0572hp",
+      "D": "0.0623hp"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Mechanical_Engineering_5",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "t=1.46s",
+      "B": "t=2.46s",
+      "C": "t=3.46s"
+    },
+    "response": "A"
+  },
+  {
     "id": "dev_Music_1",
     "question_type": "multiple-choice",
     "answer": "D",
@@ -1991,7 +2065,7 @@
       "C": "A minor",
       "D": "E minor"
     },
-    "response": "D"
+    "response": "C"
   },
   {
     "id": "dev_Music_5",
@@ -2080,80 +2154,6 @@
     "response": "C"
   },
   {
-    "id": "dev_Math_1",
-    "question_type": "open",
-    "answer": "4",
-    "all_choices": [],
-    "index2ans": {},
-    "response": "Four."
-  },
-  {
-    "id": "dev_Math_2",
-    "question_type": "multiple-choice",
-    "answer": "D",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "The dichotomous search yields a smaller interval containing $ x^* $ than the equal-interval search.",
-      "B": "The value obtained from quadratic interpolation $ \\lambda' = 0.52 $ is an accurate estimate for $ \\lambda^* $.",
-      "C": "The equal-interval search required more function evaluations than the quadratic interpolation.",
-      "D": "$ f(x) $ has a minimum of 5 in the interval $ [-1, 1] $."
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Math_3",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C"
-    ],
-    "index2ans": {
-      "A": "y = 5x/12 + 7/4 ",
-      "B": "y = 5x/12 + 5/4",
-      "C": "y = 7x/12 + 7/4"
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Math_4",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "w = (3, {3, 2}, 2, {2, 4}, 4, {4, 1}, 1).",
-      "B": "w = (1, 3, {3, 2}, 2, {2, 1}, 4, {4, 1}).",
-      "C": "w = (4, {2, 4}, 3, {3, 2} , 4, {4, 1}, 1).",
-      "D": "w = (4, {4, 1}, 2, {2, 4},3, {3, 2},, 1)."
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Math_5",
-    "question_type": "multiple-choice",
-    "answer": "B",
-    "all_choices": [
-      "A",
-      "B"
-    ],
-    "index2ans": {
-      "A": "Yes",
-      "B": "No"
-    },
-    "response": "A"
-  },
-  {
     "id": "dev_Physics_1",
     "question_type": "multiple-choice",
     "answer": "B",
@@ -2225,7 +2225,7 @@
       "C": "The needle oscillates back and forth.",
       "D": "The needle never moves."
     },
-    "response": "B"
+    "response": "A"
   },
   {
     "id": "dev_Physics_5",
@@ -2244,96 +2244,6 @@
       "D": "it would be half the potential difference across the 30 ohm resistor"
     },
     "response": "C"
-  },
-  {
-    "id": "dev_Public_Health_1",
-    "question_type": "multiple-choice",
-    "answer": "D",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "0.36‰",
-      "B": "0.87‰",
-      "C": "0.29‰",
-      "D": "1.23‰"
-    },
-    "response": "B"
-  },
-  {
-    "id": "dev_Public_Health_2",
-    "question_type": "multiple-choice",
-    "answer": "B",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "0.93",
-      "B": "0.51",
-      "C": "0.75",
-      "D": "0.49"
-    },
-    "response": "D"
-  },
-  {
-    "id": "dev_Public_Health_3",
-    "question_type": "multiple-choice",
-    "answer": "C",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "99.73%",
-      "B": "99.87%",
-      "C": "99.91%",
-      "D": "99.76%"
-    },
-    "response": "C"
-  },
-  {
-    "id": "dev_Public_Health_4",
-    "question_type": "multiple-choice",
-    "answer": "B",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "Yes, SUTI 1a",
-      "B": "Yes, SUTI 1b",
-      "C": "No",
-      "D": "Yes,ABUTI"
-    },
-    "response": "A"
-  },
-  {
-    "id": "dev_Public_Health_5",
-    "question_type": "multiple-choice",
-    "answer": "A",
-    "all_choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "index2ans": {
-      "A": "0.88/100000",
-      "B": "0.16/100000",
-      "C": "0.06/100000",
-      "D": "0.04/100000"
-    },
-    "response": "B"
   },
   {
     "id": "dev_Psychology_1",
@@ -2424,6 +2334,96 @@
       "B": "Recognition",
       "C": "Repressed",
       "D": "Deja vu"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_1",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.36‰",
+      "B": "0.87‰",
+      "C": "0.29‰",
+      "D": "1.23‰"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_2",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.93",
+      "B": "0.51",
+      "C": "0.75",
+      "D": "0.49"
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Public_Health_3",
+    "question_type": "multiple-choice",
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "99.73%",
+      "B": "99.87%",
+      "C": "99.91%",
+      "D": "99.76%"
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Public_Health_4",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Yes, SUTI 1a",
+      "B": "Yes, SUTI 1b",
+      "C": "No",
+      "D": "Yes,ABUTI"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Public_Health_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.88/100000",
+      "B": "0.16/100000",
+      "C": "0.06/100000",
+      "D": "0.04/100000"
     },
     "response": "B"
   },

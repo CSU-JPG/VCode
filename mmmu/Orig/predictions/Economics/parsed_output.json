@@ -3,8 +3,8 @@
         "id": "dev_Economics_1",
         "question_type": "multiple-choice",
         "answer": "D",
-        "response": "C",
-        "parsed_pred": "C",
+        "response": "B",
+        "parsed_pred": "B",
         "index2ans": {
             "A": "500",
             "B": "450",
@@ -17,15 +17,15 @@
         "id": "dev_Economics_2",
         "question_type": "multiple-choice",
         "answer": "A",
-        "response": "C",
-        "parsed_pred": "C",
+        "response": "A",
+        "parsed_pred": "A",
         "index2ans": {
             "A": "1.20 Shoes",
             "B": "1.00 Shoes",
             "C": "0.83 Shoes",
             "D": "0.75 Shoes"
         },
-        "judge": "Wrong"
+        "judge": "Correct"
     },
     {
         "id": "dev_Economics_3",

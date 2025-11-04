@@ -3,8 +3,8 @@
         "id": "dev_Accounting_1",
         "question_type": "multiple-choice",
         "answer": "D",
-        "response": "B",
-        "parsed_pred": "B",
+        "response": "C",
+        "parsed_pred": "C",
         "index2ans": {
             "A": "$63,020",
             "B": "$58,410",
@@ -17,15 +17,15 @@
         "id": "dev_Accounting_2",
         "question_type": "multiple-choice",
         "answer": "A",
-        "response": "D",
-        "parsed_pred": "D",
+        "response": "A",
+        "parsed_pred": "A",
         "index2ans": {
             "A": "$171,900",
             "B": "$170,000",
             "C": "$172,500",
             "D": "$181,900"
         },
-        "judge": "Wrong"
+        "judge": "Correct"
     },
     {
         "id": "dev_Accounting_3",

@@ -58,10 +58,10 @@
         "id": "dev_Architecture_and_Engineering_5",
         "question_type": "open",
         "answer": "1970.6",
-        "response": "Area: 4.5 cm\u00b2",
+        "response": "Area: 172.4 cm\u00b2",
         "parsed_pred": [
-            "area: 4.5 cm\u00b2",
-            4.5
+            "area: 172.4 cm\u00b2",
+            172.4
         ],
         "judge": "Wrong"
     }

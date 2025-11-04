@@ -59,7 +59,7 @@
         "id": "dev_Manage_5",
         "question_type": "open",
         "answer": "26",
-        "response": "Total project completion time is 34 days.",
+        "response": "34 days",
         "parsed_pred": [
             "34 days",
             34.0

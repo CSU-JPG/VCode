@@ -13,10 +13,9 @@
         "id": "dev_Electronics_2",
         "question_type": "open",
         "answer": "20",
-        "response": "5 k\u03a9",
+        "response": "Infinite.",
         "parsed_pred": [
-            "5 k\u03c9",
-            5.0
+            "infinite"
         ],
         "judge": "Wrong"
     },

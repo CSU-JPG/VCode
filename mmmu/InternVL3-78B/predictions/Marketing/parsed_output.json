@@ -16,14 +16,14 @@
         "id": "dev_Marketing_2",
         "question_type": "multiple-choice",
         "answer": "A",
-        "response": "A",
-        "parsed_pred": "A",
+        "response": "B",
+        "parsed_pred": "B",
         "index2ans": {
             "A": "There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
             "B": "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
             "C": "Not certain."
         },
-        "judge": "Correct"
+        "judge": "Wrong"
     },
     {
         "id": "dev_Marketing_3",

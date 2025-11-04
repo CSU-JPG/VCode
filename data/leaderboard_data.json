@@ -1,13 +1,13 @@
 [
   {
     "modelName": "Claude-4.5-Sonnet",
-    "sigLipScore": 75.3,
+    "sigLipScore": 66.8,
     "codeToken": 1.9,
     "size": null,
     "date": "2025-09-29",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 44.3,
+      "vcode_overall": 43.1,
       "general": {
         "avg": 39.0,
         "rec": 29.7,
@@ -16,11 +16,11 @@
         "gen": 17.0,
         "spat": 57.3,
         "math": 52.7,
-        "samples": 200
+        "samples": 198
       },
       "professional": {
         "avg": 42.5,
-        "samples": 146
+        "samples": 144
       },
       "vision_centric": {
         "avg": 52.7,
@@ -32,13 +32,13 @@
   },
   {
     "modelName": "Claude-4-Opus",
-    "sigLipScore": 65.6,
+    "sigLipScore": 65.9,
     "codeToken": 1.5,
     "size": null,
     "date": "2025-05-22",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 42.8,
+      "vcode_overall": 41.7,
       "general": {
         "avg": 37.5,
         "rec": 30.4,
@@ -63,13 +63,13 @@
   },
   {
     "modelName": "Claude-4-Sonnet",
-    "sigLipScore": 65.2,
+    "sigLipScore": 65.5,
     "codeToken": 1.6,
     "size": null,
     "date": "2025-05-22",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 42.4,
+      "vcode_overall": 41.1,
       "general": {
         "avg": 37.8,
         "rec": 31.8,
@@ -94,13 +94,13 @@
   },
   {
     "modelName": "GPT-5",
-    "sigLipScore": 72.1,
+    "sigLipScore": 72.3,
     "codeToken": 2.3,
     "size": null,
     "date": "2025-08-07",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 48.4,
+      "vcode_overall": 46.8,
       "general": {
         "avg": 43.9,
         "rec": 33.9,
@@ -125,13 +125,13 @@
   },
   {
     "modelName": "GPT-4o",
-    "sigLipScore": 60.7,
+    "sigLipScore": 60.6,
     "codeToken": 0.6,
     "size": null,
     "date": "2024-05-13",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 39.1,
+      "vcode_overall": 39.0,
       "general": {
         "avg": 35.0,
         "rec": 23.1,
@@ -156,13 +156,13 @@
   },
   {
     "modelName": "GPT-o3",
-    "sigLipScore": 63.6,
+    "sigLipScore": 64.1,
     "codeToken": 1.1,
     "size": null,
     "date": "2025-04-16",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 43.5,
+      "vcode_overall": 42.2,
       "general": {
         "avg": 39.8,
         "rec": 31.3,
@@ -187,13 +187,13 @@
   },
   {
     "modelName": "GPT-4.1",
-    "sigLipScore": 68.5,
+    "sigLipScore": 68.6,
     "codeToken": 1.6,
     "size": null,
     "date": "2025-04-14",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 47.1,
+      "vcode_overall": 45.6,
       "general": {
         "avg": 40.9,
         "rec": 30.8,
@@ -218,7 +218,7 @@
   },
   {
     "modelName": "GPT-4o-mini",
-    "sigLipScore": 62.5,
+    "sigLipScore": 61.1,
     "codeToken": 0.4,
     "size": null,
     "date": "2024-07-18",
@@ -249,13 +249,13 @@
   },
   {
     "modelName": "Gemini-2.5-Pro",
-    "sigLipScore": 66.4,
+    "sigLipScore": 66.5,
     "codeToken": 2.4,
     "size": null,
     "date": "2025-06-17",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 46.3,
+      "vcode_overall": 44.7,
       "general": {
         "avg": 39.1,
         "rec": 28.9,
@@ -268,7 +268,7 @@
       },
       "professional": {
         "avg": 45.2,
-        "samples": 145
+        "samples": 146
       },
       "vision_centric": {
         "avg": 56.4,
@@ -280,13 +280,13 @@
   },
   {
     "modelName": "Gemini-2.5-Flash",
-    "sigLipScore": 63.6,
+    "sigLipScore": 63.7,
     "codeToken": 1.9,
     "size": null,
     "date": "2025-06-17",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 43.9,
+      "vcode_overall": 42.4,
       "general": {
         "avg": 39.1,
         "rec": 29.3,
@@ -311,13 +311,13 @@
   },
   {
     "modelName": "Seed-1.6-Thinking",
-    "sigLipScore": 62.7,
+    "sigLipScore": 62.8,
     "codeToken": 1.6,
     "size": null,
     "date": "2025-06-11",
     "isThinkingModel": true,
     "scores": {
-      "vcode_overall": 38.9,
+      "vcode_overall": 37.5,
       "general": {
         "avg": 28.7,
         "rec": 18.9,
@@ -342,7 +342,7 @@
   },
   {
     "modelName": "Llama-4-Scout-17B-16E-Instruct",
-    "sigLipScore": 64.2,
+    "sigLipScore": 55.5,
     "codeToken": 0.7,
     "size": 17,
     "date": "2025-04-05",
@@ -373,13 +373,13 @@
   },
   {
     "modelName": "Qwen2.5-VL-7B",
-    "sigLipScore": 58.9,
+    "sigLipScore": 22.9,
     "codeToken": 0.6,
     "size": 7,
     "date": "2025-01-26",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 16.6,
+      "vcode_overall": 14.7,
       "general": {
         "avg": 4.8,
         "rec": 4.9,
@@ -388,29 +388,29 @@
         "gen": 4.0,
         "spat": 7.1,
         "math": 3.8,
-        "samples": 200
+        "samples": 198
       },
       "professional": {
         "avg": 19.2,
-        "samples": 146
+        "samples": 55
       },
       "vision_centric": {
         "avg": 29.6,
         "2d": 17.5,
         "3d": 41.7,
-        "samples": 100
+        "samples": 62
       }
     }
   },
   {
     "modelName": "Qwen2.5-VL-72B",
-    "sigLipScore": 24.4,
+    "sigLipScore": 57.9,
     "codeToken": 0.3,
     "size": 72,
     "date": "2025-01-26",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 36.2,
+      "vcode_overall": 36.0,
       "general": {
         "avg": 31.8,
         "rec": 20.6,
@@ -419,29 +419,29 @@
         "gen": 17.3,
         "spat": 51.3,
         "math": 43.1,
-        "samples": 200
+        "samples": 198
       },
       "professional": {
         "avg": 41.1,
-        "samples": 146
+        "samples": 144
       },
       "vision_centric": {
         "avg": 37.6,
         "2d": 21.9,
         "3d": 53.3,
-        "samples": 100
+        "samples": 98
       }
     }
   },
   {
     "modelName": "Qwen3-VL-235B-A22B-Instruct",
-    "sigLipScore": 58.9,
+    "sigLipScore": 58.1,
     "codeToken": 1.7,
     "size": 235,
     "date": "2025-09-23",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 36.8,
+      "vcode_overall": 36.3,
       "general": {
         "avg": 31.1,
         "rec": 19.3,
@@ -466,13 +466,13 @@
   },
   {
     "modelName": "InternVL3.5-241B-A28B",
-    "sigLipScore": 59.6,
+    "sigLipScore": 60.2,
     "codeToken": 1.0,
     "size": 241,
     "date": "2025-08-26",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 39.8,
+      "vcode_overall": 38.7,
       "general": {
         "avg": 31.1,
         "rec": 20.4,
@@ -497,13 +497,13 @@
   },
   {
     "modelName": "Intern-S1",
-    "sigLipScore": 59.3,
+    "sigLipScore": 60.0,
     "codeToken": 1.0,
     "size": 241,
     "date": "2025-07-26",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 41.8,
+      "vcode_overall": 40.4,
       "general": {
         "avg": 35.2,
         "rec": 24.7,
@@ -528,13 +528,13 @@
   },
   {
     "modelName": "InternVL3-78B",
-    "sigLipScore": 58.0,
+    "sigLipScore": 57.7,
     "codeToken": 0.7,
     "size": 78,
     "date": "2024-04-11",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 35.1,
+      "vcode_overall": 34.2,
       "general": {
         "avg": 29.1,
         "rec": 16.9,
@@ -546,7 +546,7 @@
         "samples": 200
       },
       "professional": {
-        "avg": 45.2,
+        "avg": 41.8,
         "samples": 146
       },
       "vision_centric": {
@@ -559,13 +559,13 @@
   },
   {
     "modelName": "GLM-4.5V",
-    "sigLipScore": 63.4,
+    "sigLipScore": 63.8,
     "codeToken": 1.6,
     "size": 106,
     "date": "2025-08-11",
-    "isThinkingModel": false,
+    "isThinkingModel": true,
     "scores": {
-      "vcode_overall": 42.0,
+      "vcode_overall": 40.1,
       "general": {
         "avg": 33.1,
         "rec": 22.4,
@@ -574,7 +574,7 @@
         "gen": 15.6,
         "spat": 46.0,
         "math": 56.9,
-        "samples": 200
+        "samples": 199
       },
       "professional": {
         "avg": 40.4,
@@ -590,13 +590,13 @@
   },
   {
     "modelName": "GLM-4.1V-Thinking",
-    "sigLipScore": 62.1,
+    "sigLipScore": 61.7,
     "codeToken": 1.2,
     "size": 9,
     "date": "2025-07-01",
     "isThinkingModel": true,
     "scores": {
-      "vcode_overall": 39.9,
+      "vcode_overall": 38.8,
       "general": {
         "avg": 31.9,
         "rec": 21.1,
@@ -621,13 +621,13 @@
   },
   {
     "modelName": "MiniCPM-V-4.5",
-    "sigLipScore": 46.2,
+    "sigLipScore": 45.9,
     "codeToken": 0.9,
     "size": 8,
     "date": "2025-08-26",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 28.0,
+      "vcode_overall": 27.1,
       "general": {
         "avg": 17.7,
         "rec": 11.8,
@@ -636,29 +636,29 @@
         "gen": 10.8,
         "spat": 23.2,
         "math": 26.5,
-        "samples": 200
+        "samples": 143
       },
       "professional": {
         "avg": 36.3,
-        "samples": 146
+        "samples": 128
       },
       "vision_centric": {
         "avg": 34.2,
         "2d": 23.4,
         "3d": 45.0,
-        "samples": 100
+        "samples": 81
       }
     }
   },
   {
     "modelName": "OmniSVG",
-    "sigLipScore": 38.5,
+    "sigLipScore": 46.2,
     "codeToken": 5.3,
     "size": 3,
     "date": "2025-07-22",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 25.18103448,
+      "vcode_overall": 25.2,
       "general": {
         "avg": 9.4,
         "rec": 9.2,
@@ -683,13 +683,13 @@
   },
   {
     "modelName": "StarVector",
-    "sigLipScore": 5.1,
+    "sigLipScore": 18.1,
     "codeToken": 1.3,
     "size": 8,
     "date": "2025-03-20",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 2.5,
+      "vcode_overall": 2.8,
       "general": {
         "avg": 1.5,
         "rec": 0.0,
@@ -714,20 +714,20 @@
   },
   {
     "modelName": "VCoder (Claude-4-Opus)",
-    "sigLipScore": 71.1,
+    "sigLipScore": 71.0,
     "codeToken": 2.0,
     "size": null,
     "date": "2025-09-25",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 54.9,
+      "vcode_overall": 54.0,
       "general": {
-        "avg": 54.1,
-        "rec": 46.0,
-        "ocr": 64.4,
-        "know": 40.8,
-        "gen": 43.0,
-        "spat": 61.6,
+        "avg": 54.2,
+        "rec": 46.6,
+        "ocr": 63.4,
+        "know": 38.8,
+        "gen": 41.5,
+        "spat": 58.1,
         "math": 72.7,
         "samples": 200
       },

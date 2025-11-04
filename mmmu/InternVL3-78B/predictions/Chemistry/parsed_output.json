@@ -3,8 +3,8 @@
         "id": "dev_Chemistry_1",
         "question_type": "multiple-choice",
         "answer": "C",
-        "response": "C",
-        "parsed_pred": "C",
+        "response": "B",
+        "parsed_pred": "B",
         "index2ans": {
             "A": "1",
             "B": "2",
@@ -12,7 +12,7 @@
             "D": "7",
             "E": "9"
         },
-        "judge": "Correct"
+        "judge": "Wrong"
     },
     {
         "id": "dev_Chemistry_2",

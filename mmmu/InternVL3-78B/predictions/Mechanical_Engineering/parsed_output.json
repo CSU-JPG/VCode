@@ -17,14 +17,14 @@
         "id": "dev_Mechanical_Engineering_2",
         "question_type": "multiple-choice",
         "answer": "C",
-        "response": "C",
-        "parsed_pred": "C",
+        "response": "A",
+        "parsed_pred": "A",
         "index2ans": {
             "A": "$\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$",
             "B": "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
             "C": "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
         },
-        "judge": "Correct"
+        "judge": "Wrong"
     },
     {
         "id": "dev_Mechanical_Engineering_3",

@@ -15,7 +15,7 @@
       "C": "400",
       "D": "600"
     },
-    "response": "C"
+    "response": "B"
   },
   {
     "id": "dev_Economics_2",
@@ -33,7 +33,7 @@
       "C": "0.83 Shoes",
       "D": "0.75 Shoes"
     },
-    "response": "C"
+    "response": "A"
   },
   {
     "id": "dev_Economics_3",

@@ -17,15 +17,15 @@
         "id": "dev_Public_Health_2",
         "question_type": "multiple-choice",
         "answer": "B",
-        "response": "D",
-        "parsed_pred": "D",
+        "response": "B",
+        "parsed_pred": "B",
         "index2ans": {
             "A": "0.93",
             "B": "0.51",
             "C": "0.75",
             "D": "0.49"
         },
-        "judge": "Wrong"
+        "judge": "Correct"
     },
     {
         "id": "dev_Public_Health_3",

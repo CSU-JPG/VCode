@@ -257,7 +257,7 @@
     "answer": "1970.6",
     "all_choices": [],
     "index2ans": {},
-    "response": "Area: 4.5 cm²"
+    "response": "Area: 172.4 cm²"
   },
   {
     "id": "dev_Art_1",
@@ -347,7 +347,7 @@
       "C": "LUCAS VAN LEYDEN",
       "D": "LEONARDO DA VINCI"
     },
-    "response": "A"
+    "response": null
   },
   {
     "id": "dev_Art_Theory_1",
@@ -595,7 +595,7 @@
       "C": "Prostatic venous plexus",
       "D": "Obturator membrane"
     },
-    "response": "B"
+    "response": "C"
   },
   {
     "id": "dev_Chemistry_1",
@@ -615,7 +615,7 @@
       "D": "7",
       "E": "9"
     },
-    "response": "C"
+    "response": "B"
   },
   {
     "id": "dev_Chemistry_2",
@@ -747,7 +747,7 @@
       "C": "Second degree type II atrioventricular block",
       "D": "atrial flutter"
     },
-    "response": "C"
+    "response": null
   },
   {
     "id": "dev_Clinical_Medicine_4",
@@ -903,7 +903,7 @@
       "C": "Rococo",
       "D": "Classical"
     },
-    "response": "B"
+    "response": null
   },
   {
     "id": "dev_Design_3",
@@ -993,7 +993,7 @@
       "D": "A and B are correct",
       "E": "A,B and C are correct"
     },
-    "response": "C"
+    "response": null
   },
   {
     "id": "dev_Diagnostics_and_Laboratory_Medicine_3",
@@ -1215,7 +1215,7 @@
       "C": "2PV",
       "D": "PV/3"
     },
-    "response": "C"
+    "response": "A"
   },
   {
     "id": "dev_Energy_and_Power_2",
@@ -1263,7 +1263,7 @@
       "B": "1.50 m/s2",
       "C": "1.28 m/s^2"
     },
-    "response": "A"
+    "response": "B"
   },
   {
     "id": "dev_Energy_and_Power_5",
@@ -1279,7 +1279,7 @@
       "B": "224 V",
       "C": "244 V"
     },
-    "response": "B"
+    "response": "A"
   },
   {
     "id": "dev_Finance_1",
@@ -1313,7 +1313,7 @@
       "C": "10%",
       "D": "9%"
     },
-    "response": "D"
+    "response": "C"
   },
   {
     "id": "dev_Finance_4",
@@ -1485,7 +1485,7 @@
       "C": "Artists depended on royal patronage for their livelihoods.",
       "D": "Rulers used religious imagery to legitimize their political authority."
     },
-    "response": "B"
+    "response": null
   },
   {
     "id": "dev_History_4",
@@ -1705,7 +1705,7 @@
       "B": "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
       "C": "Not certain."
     },
-    "response": "A"
+    "response": "B"
   },
   {
     "id": "dev_Marketing_3",
@@ -1961,7 +1961,7 @@
       "B": "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
       "C": "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
     },
-    "response": "C"
+    "response": "A"
   },
   {
     "id": "dev_Mechanical_Engineering_3",
@@ -2169,7 +2169,7 @@
       "C": "C",
       "D": "D"
     },
-    "response": "B"
+    "response": "C"
   },
   {
     "id": "dev_Physics_2",
@@ -2225,7 +2225,7 @@
       "C": "The needle oscillates back and forth.",
       "D": "The needle never moves."
     },
-    "response": "A"
+    "response": "B"
   },
   {
     "id": "dev_Physics_5",
@@ -2243,7 +2243,7 @@
       "C": "it would equal the potential difference across the 30 ohm resistor",
       "D": "it would be half the potential difference across the 30 ohm resistor"
     },
-    "response": "D"
+    "response": "C"
   },
   {
     "id": "dev_Psychology_1",
@@ -2389,7 +2389,7 @@
       "C": "99.91%",
       "D": "99.76%"
     },
-    "response": "B"
+    "response": "D"
   },
   {
     "id": "dev_Public_Health_4",

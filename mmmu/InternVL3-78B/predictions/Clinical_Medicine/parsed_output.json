@@ -33,8 +33,8 @@
         "id": "dev_Clinical_Medicine_3",
         "question_type": "multiple-choice",
         "answer": "A",
-        "response": "C",
-        "parsed_pred": "C",
+        "response": null,
+        "parsed_pred": null,
         "index2ans": {
             "A": "first degree atrioventricular block",
             "B": "third degree atrioventricular block",

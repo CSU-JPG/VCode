@@ -15,7 +15,7 @@
       "C": "2PV",
       "D": "PV/3"
     },
-    "response": "C"
+    "response": "A"
   },
   {
     "id": "dev_Energy_and_Power_2",
@@ -63,7 +63,7 @@
       "B": "1.50 m/s2",
       "C": "1.28 m/s^2"
     },
-    "response": "A"
+    "response": "B"
   },
   {
     "id": "dev_Energy_and_Power_5",
@@ -79,6 +79,6 @@
       "B": "224 V",
       "C": "244 V"
     },
-    "response": "B"
+    "response": "A"
   }
 ]

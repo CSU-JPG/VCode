@@ -1,27 +1,27 @@
 ﻿Subject,Data Num,Acc
-Overall-Art and Design,18,0.722
+Overall-Art and Design,18,0.667
 Art,5,1.0
 Art_Theory,4,1.0
 Design,5,0.6
-Music,4,0.25
-Overall-Business,25,0.24
-Accounting,5,0.0
-Economics,5,0.0
+Music,4,0.0
+Overall-Business,25,0.32
+Accounting,5,0.2
+Economics,5,0.2
 Finance,5,0.4
 Manage,5,0.2
 Marketing,5,0.6
-Overall-Science,25,0.4
+Overall-Science,25,0.44
 Biology,5,0.6
 Chemistry,5,0.4
 Geography,5,0.0
 Math,5,0.4
-Physics,5,0.6
-Overall-Health and Medicine,24,0.458
+Physics,5,0.8
+Overall-Health and Medicine,24,0.5
 Basic_Medical_Science,5,0.8
 Clinical_Medicine,5,0.2
 Diagnostics_and_Laboratory_Medicine,5,0.4
 Pharmacy,4,0.75
-Public_Health,5,0.2
+Public_Health,5,0.4
 Overall-Humanities and Social Science,19,0.842
 History,5,1.0
 Literature,4,0.75
@@ -35,4 +35,4 @@ Electronics,5,0.4
 Energy_and_Power,5,0.2
 Materials,5,0.4
 Mechanical_Engineering,5,0.4
-Overall,146,0.479
+Overall,146,0.5
