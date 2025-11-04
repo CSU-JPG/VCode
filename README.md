@@ -228,7 +228,7 @@ python metrics.py \
 
 **Location:** `data/mm-vet/images` *(example path - can be customized)*
 ```
-data/mm-vet/images/
+folder1/
 ├── category1/
 │   ├── image001.png
 │   ├── image002.jpg
@@ -243,11 +243,11 @@ data/mm-vet/images/
 
 **Location:** `example_results/mm-vet/Gemini-2.5-Pro` *(example path - can be customized)*
 ```
-example_results/mm-vet/Gemini-2.5-Pro/
+folder2/
 ├── generated_imgs/           # Generated/rendered images
 │   ├── category1/
 │   │   ├── image001.png
-│   │   ├── image002.png
+│   │   ├── image002.jpg
 │   │   └── ...
 │   ├── category2/
 │   │   ├── image003.png
