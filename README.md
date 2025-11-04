@@ -204,7 +204,7 @@ These scripts will read your `generated_imgs/` and compute scores.
 **Step 3 — Calculate each dataset’s metrics**
 
 
-Full Command with Options
+**Full Command with Options**
 
 ```bash
 python metrics.py \
@@ -213,7 +213,7 @@ python metrics.py \
   --ckpt google/siglip2-so400m-patch14-384
 ```
 
-Command Line Arguments
+**Command Line Arguments**
 
 | Argument | Required | Default | Description |
 |----------|----------|---------|-------------|
