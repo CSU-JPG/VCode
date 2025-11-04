@@ -1,0 +1,125 @@
+<svg viewBox="0 0 660 445" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7eaee"/>
+      <stop offset="1" stop-color="#cfd5da"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9cdd1"/>
+      <stop offset="0.5" stop-color="#f0f3f6"/>
+      <stop offset="1" stop-color="#b4b9be"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a6d70"/>
+      <stop offset="1" stop-color="#434649"/>
+    </linearGradient>
+    <linearGradient id="redFloor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a3f3b"/>
+      <stop offset="1" stop-color="#6b2e2a"/>
+    </linearGradient>
+    <linearGradient id="tube" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff9e9"/>
+      <stop offset="1" stop-color="#efe6d6"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="660" height="445" fill="url(#bg)"/>
+
+  <!-- Floor and pit -->
+  <rect x="0" y="300" width="660" height="90" fill="url(#floor)"/>
+  <rect x="430" y="345" width="230" height="90" fill="url(#redFloor)"/>
+
+  <!-- Left large metal panel -->
+  <rect x="20" y="50" width="430" height="140" rx="6" ry="6" fill="url(#metal)" stroke="#8e9399"/>
+  <rect x="20" y="180" width="430" height="40" fill="#b5babf" stroke="#8e9399"/>
+
+  <!-- Lower metal frame and arm base -->
+  <rect x="430" y="80" width="210" height="220" fill="url(#metal)" stroke="#8e9399"/>
+  <polygon points="520,190 640,140 640,220 535,240" fill="#bcc1c7" stroke="#8e9399"/>
+  <rect x="512" y="210" width="35" height="70" rx="4" ry="4" fill="#aeb4b9" stroke="#8e9399"/>
+
+  <!-- Mechanical head/robot elements -->
+  <rect x="350" y="95" width="65" height="50" rx="4" ry="4" fill="#dadfe3" stroke="#8e9399"/>
+  <circle cx="382" cy="100" r="6" fill="#8aa0b8"/>
+  <rect x="372" y="118" width="20" height="35" rx="2" ry="2" fill="#c8ced4" stroke="#8e9399"/>
+
+  <!-- Opening lip shadow -->
+  <rect x="20" y="210" width="430" height="8" fill="rgba(0,0,0,0.2)"/>
+  <rect x="20" y="180" width="430" height="6" fill="rgba(255,255,255,0.6)"/>
+
+  <!-- Cow head and legs -->
+  <!-- Head -->
+  <ellipse cx="250" cy="220" rx="36" ry="30" fill="#f7f7f5" stroke="#b9b2a8"/>
+  <path d="M235,210 q18,-18 38,5 q-8,20 -34,20 z" fill="#1c1c1c" opacity="0.9"/>
+  <circle cx="257" cy="214" r="3.5" fill="#0e0e0e"/>
+  <ellipse cx="240" cy="240" rx="10" ry="6" fill="#f0d2c5" stroke="#b08f82"/>
+
+  <!-- Ear -->
+  <path d="M220,214 q-14,-8 -18,8 q13,7 23,0 z" fill="#1b1b1b"/>
+
+  <!-- Foreleg -->
+  <rect x="274" y="240" width="16" height="78" rx="8" ry="8" fill="#e8dccf" stroke="#b9b2a8"/>
+  <rect x="274" y="308" width="16" height="10" rx="2" ry="2" fill="#3b3a3a"/>
+  <!-- Near leg -->
+  <rect x="310" y="238" width="16" height="82" rx="8" ry="8" fill="#e8dccf" stroke="#b9b2a8"/>
+  <rect x="310" y="310" width="16" height="10" rx="2" ry="2" fill="#3b3a3a"/>
+
+  <!-- Rear legs hinted -->
+  <rect x="205" y="248" width="12" height="60" rx="6" ry="6" fill="#d8cbbd" opacity="0.7"/>
+  <rect x="205" y="304" width="12" height="8" rx="2" ry="2" fill="#333" opacity="0.7"/>
+
+  <!-- Grate under cow -->
+  <rect x="260" y="315" width="100" height="36" fill="#2b2e30" stroke="#555"/>
+  <g stroke="#6d7378">
+    <line x1="265" y1="318" x2="265" y2="349"/>
+    <line x1="275" y1="318" x2="275" y2="349"/>
+    <line x1="285" y1="318" x2="285" y2="349"/>
+    <line x1="295" y1="318" x2="295" y2="349"/>
+    <line x1="305" y1="318" x2="305" y2="349"/>
+    <line x1="315" y1="318" x2="315" y2="349"/>
+    <line x1="325" y1="318" x2="325" y2="349"/>
+    <line x1="335" y1="318" x2="335" y2="349"/>
+    <line x1="345" y1="318" x2="345" y2="349"/>
+    <line x1="355" y1="318" x2="355" y2="349"/>
+  </g>
+
+  <!-- Right curved tube bundle -->
+  <path d="M430,360 C480,315 555,300 640,350" fill="none" stroke="url(#tube)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M440,370 C492,322 563,310 642,362" fill="none" stroke="#e7ddcf" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+  <path d="M450,382 C498,335 568,325 645,374" fill="none" stroke="url(#tube)" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Pink indicator marks on tubes -->
+  <g fill="#f2b6b6" opacity="0.7">
+    <circle cx="480" cy="342" r="2"/>
+    <circle cx="500" cy="332" r="2"/>
+    <circle cx="520" cy="326" r="2"/>
+    <circle cx="540" cy="322" r="2"/>
+    <circle cx="560" cy="324" r="2"/>
+    <circle cx="580" cy="332" r="2"/>
+    <circle cx="600" cy="340" r="2"/>
+    <circle cx="620" cy="348" r="2"/>
+    <circle cx="490" cy="354" r="2"/>
+    <circle cx="515" cy="346" r="2"/>
+    <circle cx="540" cy="342" r="2"/>
+    <circle cx="565" cy="344" r="2"/>
+    <circle cx="590" cy="350" r="2"/>
+    <circle cx="615" cy="360" r="2"/>
+  </g>
+
+  <!-- Right machine arc/guard -->
+  <path d="M490,136 L640,100 L640,125 L500,165 Z" fill="#c6cbd0" stroke="#8e9399"/>
+  <rect x="488" y="160" width="18" height="20" fill="#9aa3aa" stroke="#7e848a"/>
+  <polygon points="500,260 540,250 600,315 530,330" fill="#9da4aa" stroke="#7f868c"/>
+  <rect x="534" y="228" width="20" height="14" rx="2" ry="2" fill="#c7ccd1" stroke="#8e9399"/>
+  <circle cx="642" cy="92" r="8" fill="#f4d33c" stroke="#c8a000"/>
+
+  <!-- Subtle shadows -->
+  <path d="M20,220 H450 v8 H20 z" fill="url(#shadow)" opacity="0.4"/>
+  <ellipse cx="318" cy="350" rx="120" ry="18" fill="url(#shadow)" opacity="0.4"/>
+
+</svg>

@@ -1,0 +1,121 @@
+<svg viewBox="0 0 800 533" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#cdd3d8"/>
+      <stop offset="100%" stop-color="#e1e5e8"/>
+    </linearGradient>
+    <linearGradient id="fuselageGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#f8f9fa"/>
+      <stop offset="100%" stop-color="#d3d9de"/>
+    </linearGradient>
+    <radialGradient id="engineGradient">
+      <stop offset="50%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#909090"/>
+    </radialGradient>
+    <linearGradient id="hazeGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c1c8d0" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#d4d9de" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky and Background -->
+  <rect width="800" height="533" fill="url(#skyGradient)"/>
+  <path d="M0 360 C100 350, 200 370, 300 360 L 500 350 C 600 360, 700 350, 800 360 V 533 H 0 Z" fill="#c4c9cf" opacity="0.5"/>
+
+  <!-- City Skyline -->
+  <g fill="#b4bec8" opacity="0.7">
+    <rect x="0" y="340" width="80" height="80"/>
+    <rect x="90" y="355" width="40" height="65"/>
+    <rect x="140" y="330" width="60" height="90"/>
+    <rect x="170" y="300" width="30" height="120"/>
+    <rect x="210" y="360" width="50" height="60"/>
+    <rect x="270" y="320" width="35" height="100"/>
+    <rect x="310" y="350" width="50" height="70"/>
+    <rect x="440" y="345" width="60" height="75"/>
+    <rect x="510" y="310" width="40" height="110"/>
+    <rect x="520" y="280" width="25" height="140"/>
+    <rect x="560" y="335" width="70" height="85"/>
+    <rect x="640" y="360" width="40" height="60"/>
+    <rect x="690" y="320" width="50" height="100"/>
+    <rect x="750" y="300" width="50" height="120"/>
+  </g>
+  <g fill="#ffffff" opacity="0.6">
+    <rect x="100" y="380" width="50" height="40"/>
+    <rect x="185" y="400" width="70" height="30"/>
+    <rect x="280" y="390" width="40" height="45"/>
+    <rect x="530" y="385" width="60" height="40"/>
+    <rect x="650" y="405" width="80" height="25"/>
+    <rect x="730" y="370" width="45" height="60"/>
+  </g>
+
+  <!-- Runway -->
+  <path d="M0 533 L360 420 L440 420 L800 533 Z" fill="#6F7072"/>
+  <path d="M0 520 L365 425 L435 425 L800 520 Z" fill="#A3A4A6"/>
+  <!-- Runway Markings -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <path d="M370 428 L380 428 L400 533 L390 533 Z"/>
+    <path d="M430 428 L420 428 L400 533 L410 533 Z"/>
+    <polygon points="392 480, 408 480, 405 500, 395 500"/>
+    <polygon points="393 460, 407 460, 405 475, 395 475"/>
+    <polygon points="394 440, 406 440, 405 455, 395 455"/>
+    <polygon points="330 432, 350 432, 340 460, 320 460"/>
+    <polygon points="450 432, 470 432, 480 460, 460 460"/>
+    <polygon points="250 445, 270 445, 265 480, 245 480"/>
+    <polygon points="530 445, 550 445, 555 480, 535 480"/>
+  </g>
+
+  <!-- Heat Haze / Jet Wash -->
+  <path d="M150 400 C 250 350, 550 350, 650 400 Q 400 450, 150 400 Z" fill="url(#hazeGradient)"/>
+  <path d="M200 410 C 300 370, 500 370, 600 410 Q 400 440, 200 410 Z" fill="#b0b0b0" opacity="0.3"/>
+
+  <!-- Airplane -->
+  <g id="airplane">
+    <!-- Wings -->
+    <path d="M400 340 L80 345 L10 335 L330 330 Z" fill="#E0E1E2" stroke="#B0B1B2" stroke-width="1"/>
+    <path d="M400 340 L720 345 L790 335 L470 330 Z" fill="#E0E1E2" stroke="#B0B1B2" stroke-width="1"/>
+    
+    <!-- Engines -->
+    <g id="left-engine">
+      <path d="M300 340 L305 375 L345 375 L340 340 Z" fill="#C0C0C0"/>
+      <ellipse cx="325" cy="358" rx="25" ry="28" fill="url(#engineGradient)"/>
+      <ellipse cx="325" cy="358" rx="15" ry="18" fill="#4D4D4F"/>
+    </g>
+    <g id="right-engine">
+      <path d="M460 340 L455 375 L495 375 L500 340 Z" fill="#C0C0C0"/>
+      <ellipse cx="475" cy="358" rx="25" ry="28" fill="url(#engineGradient)"/>
+      <ellipse cx="475" cy="358" rx="15" ry="18" fill="#4D4D4F"/>
+    </g>
+
+    <!-- Landing Gear -->
+    <g id="main-gear-left">
+      <rect x="360" y="340" width="5" height="40" fill="#A9A9A9"/>
+      <rect x="345" y="380" width="35" height="5" fill="#A9A9A9"/>
+      <ellipse cx="352" cy="388" rx="6" ry="7" fill="#333333"/>
+      <ellipse cx="372" cy="388" rx="6" ry="7" fill="#333333"/>
+    </g>
+    <g id="main-gear-right">
+      <rect x="435" y="340" width="5" height="40" fill="#A9A9A9"/>
+      <rect x="420" y="380" width="35" height="5" fill="#A9A9A9"/>
+      <ellipse cx="428" cy="388" rx="6" ry="7" fill="#333333"/>
+      <ellipse cx="448" cy="388" rx="6" ry="7" fill="#333333"/>
+    </g>
+    
+    <!-- Fuselage -->
+    <path d="M400,280 C360,280 340,300 340,330 L350,410 C350,415 450,415 450,410 L460,330 C460,300 440,280 400,280 Z" fill="url(#fuselageGradient)"/>
+    <path d="M375,300 C380,295 420,295 425,300 L415,310 L385,310 Z" fill="#2c3e50"/>
+
+    <!-- Nose Gear -->
+    <g id="nose-gear">
+      <rect x="397.5" y="325" width="5" height="50" fill="#A9A9A9"/>
+      <rect x="390" y="375" width="20" height="4" fill="#A9A9A9"/>
+      <ellipse cx="394" cy="382" rx="4" ry="5" fill="#333333"/>
+      <ellipse cx="406" cy="382" rx="4" ry="5" fill="#333333"/>
+      <circle cx="400" cy="335" r="4" fill="#FFD700" stroke="white" stroke-width="0.5"/>
+    </g>
+
+    <!-- Wingtip Lights -->
+    <circle cx="15" cy="336" r="2" fill="#FF0000"/>
+    <circle cx="785" cy="336" r="2" fill="#00FF00"/>
+  </g>
+</svg>

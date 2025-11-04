@@ -1,0 +1,86 @@
+<svg viewBox="10 10 980 980" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 14px; }
+    .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; }
+    .legend-box { fill: white; stroke: black; stroke-width: 1; }
+    .legend-text { font-family: Arial, sans-serif; font-size: 14px; }
+    .road { stroke: black; stroke-width: 3; fill: none; }
+    .motorway { stroke: black; stroke-width: 3; stroke-dasharray: 10 5; fill: none; }
+    .railway { stroke: black; stroke-width: 3; stroke-dasharray: 15 5; fill: none; }
+    .area-1868-1883 { fill: #e0e0e0; stroke: black; }
+    .area-1883-1922 { fill: white; stroke: black; stroke-dasharray: 5 3; }
+    .area-1922-1970 { fill: url(#dots); stroke: black; }
+    .area-1970-1994 { fill: url(#diagonal); stroke: black; }
+  </style>
+
+  <defs>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="8" height="8">
+      <circle cx="4" cy="4" r="1" fill="black"/>
+    </pattern>
+    <pattern id="diagonal" patternUnits="userSpaceOnUse" width="10" height="10">
+      <line x1="0" y1="0" x2="10" y2="10" stroke="black" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Title -->
+  <text x="50" y="30" class="title">Village of Chorleywood showing development between 1868 and 1994</text>
+
+  <!-- Main roads (solid thick lines) -->
+  <path d="M200 55 L370 180 L600 290" class="road"/>
+  <path d="M150 600 L220 400 L300 200" class="road"/>
+  <path d="M620 60 L750 270 L850 400" class="road"/>
+  <path d="M650 700 L700 500 L750 270" class="road"/>
+  <path d="M750 270 L900 350" class="road"/>
+
+  <!-- Motorway (double line with dash) -->
+  <path d="M30 340 L250 500 L500 570 L800 580 L950 650" class="motorway"/>
+
+  <!-- Railway (dashed line) -->
+  <path d="M250 500 L330 570 L600 570 L800 580 L950 650" class="railway"/>
+
+  <!-- Areas by period -->
+  <!-- 1868-1883: light gray -->
+  <path d="M300 330 L380 400 L350 480 L280 450 Z" class="area-1868-1883"/>
+  <path d="M200 500 L350 550 L300 650 L180 600 Z" class="area-1868-1883"/>
+
+  <!-- 1883-1922: horizontal stripes -->
+  <path d="M180 600 L300 650 L350 550 L200 500 Z" class="area-1883-1922"/>
+
+  <!-- 1922-1970: dots -->
+  <path d="M40 370 L180 500 L150 650 L80 600 Z" class="area-1922-1970"/>
+  <path d="M250 570 L550 620 L450 700 L200 650 Z" class="area-1922-1970"/>
+
+  <!-- 1970-1994: diagonal stripes -->
+  <path d="M520 150 L720 200 L700 280 L500 250 Z" class="area-1970-1994"/>
+  <path d="M770 150 L950 200 L940 320 L750 280 Z" class="area-1970-1994"/>
+  <path d="M550 480 L690 520 L670 570 L530 530 Z" class="area-1970-1994"/>
+  <path d="M740 410 L880 500 L850 600 L720 550 Z" class="area-1970-1994"/>
+  <path d="M670 570 L880 650 L850 720 L650 680 Z" class="area-1970-1994"/>
+
+  <!-- Labels -->
+  <text x="460" y="380" class="label">Chorleywood Park</text>
+  <text x="470" y="410" class="label">and Golf course</text>
+  <text x="290" y="510" class="label">Chorleywood Station</text>
+
+  <!-- Legend -->
+  <rect x="30" y="770" width="140" height="20" class="legend-box"/>
+  <text x="180" y="785" class="legend-text">Main roads</text>
+
+  <rect x="30" y="800" width="140" height="20" class="legend-box"/>
+  <text x="180" y="815" class="legend-text">Motorway (built 1970)</text>
+
+  <rect x="30" y="830" width="140" height="20" class="legend-box"/>
+  <text x="180" y="845" class="legend-text">Railway (built 1909)</text>
+
+  <rect x="390" y="770" width="30" height="20" class="area-1868-1883"/>
+  <text x="430" y="785" class="legend-text">1868 - 1883</text>
+
+  <rect x="390" y="800" width="30" height="20" class="area-1883-1922"/>
+  <text x="430" y="815" class="legend-text">1883 - 1922</text>
+
+  <rect x="390" y="830" width="30" height="20" class="area-1922-1970"/>
+  <text x="430" y="845" class="legend-text">1922 - 1970</text>
+
+  <rect x="390" y="860" width="30" height="20" class="area-1970-1994"/>
+  <text x="430" y="875" class="legend-text">1970 - 1994</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg viewBox="0 0 750 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#9CB3B8"/>
+      <stop offset="100%" stop-color="#E1DBCF"/>
+    </linearGradient>
+  </defs>
+  <rect width="750" height="900" fill="url(#skyGradient)"/>
+  <path d="M0 850 L750 850 L750 900 L0 900 Z" fill="#6A6A6A"/>
+  <path d="M0 650 L750 650 L750 850 L0 850 Z" fill="#4C4C4E"/>
+  <path d="M0 845 L750 845" stroke="#BDBDBD" stroke-width="4"/>
+  <path d="M-50 480 C150 450, 400 450, 800 480" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="20" fill="none"/>
+  <path d="M-50 430 C150 400, 400 400, 800 430" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="15" fill="none"/>
+
+  <!-- Car Shadow -->
+  <path d="M100 660 Q 400 680, 750 660 L 750 650 Q 400 670, 100 650 Z" fill="#000000" fill-opacity="0.3"/>
+
+  <!-- Smoke -->
+  <g fill-opacity="0.7">
+    <path d="M190 620 C 130 650, 10 630, 0 600 L 0 520 C 80 500, 150 510, 210 570 C 230 590, 220 620, 190 620 Z" fill="#E0E0E0"/>
+    <path d="M180 630 C 100 660, 20 640, 0 610 L 0 550 C 90 540, 160 550, 200 600 C 210 615, 200 630, 180 630 Z" fill="#FFFFFF"/>
+    <path d="M150 640 C 80 665, 30 650, 0 630 L 0 580 C 70 570, 130 580, 170 620 C 180 630, 165 640, 150 640 Z" fill="#C8C8C8"/>
+  </g>
+
+  <!-- Car Body -->
+  <g>
+    <!-- Main Body Shape -->
+    <path d="M740 655 L 750 540 L 680 525 L 630 500 L 480 500 L 440 450 L 290 450 L 240 500 L 150 500 L 100 480 L 15 480 L 0 520 L 0 600 L 20 655 Z" fill="#2E3034"/>
+    <path d="M740 655 L 20 655 L 120 645 L 300 645 L 700 645 Z" fill="#222428"/>
+    <path d="M740 655 L 20 655 L 0 600 L 0 520 L 15 480 L 100 480 L 150 500 L 240 500 L 290 450 L 440 450 L 480 500 L 630 500 L 680 525 L 750 540 L 740 655 Z" fill="#383A3F" clip-path="url(#camoClip)"/>
+    <defs>
+      <clipPath id="camoClip">
+        <path d="M20,530 l20,-30 l50,10 l10,40 z M100,580 l30,-40 l60,20 l-10,50 z M250,510 l40,-20 l50,40 l-30,30 z M400,600 l50,-50 l60,10 l-20,60 z M550,530 l40,10 l20,40 l-50,10 z M680,580 l40,-30 l30,40 l-50,20 z"/>
+      </clipPath>
+    </defs>
+
+    <!-- Window and Interior -->
+    <path d="M635 505 L 475 505 L 435 455 L 610 455 Z" fill="#101010"/>
+    <path d="M600 460 L 620 500" stroke="#999999" stroke-width="8"/>
+    <path d="M570 460 L 590 500" stroke="#999999" stroke-width="8"/>
+
+    <!-- Driver -->
+    <g>
+      <path d="M605 520 C 625 510, 630 480, 615 465 L 575 465 C 560 480, 565 510, 585 520 Z" fill="#E0E0E0"/>
+      <path d="M580 470 L 610 470 L 612 485 L 578 485 Z" fill="#1E3A8A"/>
+      <path d="M580 470 L 610 470 L 612 477 L 578 477 Z" fill="#B40A2D"/>
+      <path d="M595 478 L 590 482 L 585 478 L 590 474 Z" fill="white" transform="rotate(20 590 480)"/>
+      <path d="M570 515 L 520 508 L 530 525 L 575 525 Z" fill="#D0D0D0"/>
+      <path d="M525 510 L 485 505 L 490 520 L 528 522 Z" fill="#222222"/>
+    </g>
+
+    <!-- Front Wheel -->
+    <path d="M180 655 A 80 80 0 0 1 20 655 Z" fill="#202020"/>
+    <path d="M100 655 A 35 35 0 0 1 100 585 A 35 35 0 0 1 100 655 Z" fill="#404040"/>
+    <path d="M100 620 a 10 10 0 1 1 0.1 0" fill="#E8751A"/>
+
+    <!-- Engine Pipes -->
+    <g>
+      <path d="M170 498 C 190 490, 210 470, 200 440 L 180 440 C 190 470, 180 490, 170 498" fill="#C0C0C0"/>
+      <path d="M210 498 C 230 490, 250 470, 240 440 L 220 440 C 230 470, 220 490, 210 498" fill="#C0C0C0"/>
+      <circle cx="190" cy="440" r="10" fill="#A00000"/>
+    </g>
+
+    <!-- Logos and Decals -->
+    <rect x="360" y="590" width="160" height="40" fill="#FFFFFF"/>
+    <text x="370" y="620" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#000000">[HOONIGAN]</text>
+
+    <circle cx="280" cy="560" r="60" fill="#FFFFFF"/>
+    <path d="M260 525 L 290 525 L 290 595 L 260 595 L 260 560 L 310 560 L 310 525 L 330 545 L 310 565 L 310 595 L 290 595 M320 580 L290 540" fill="none" stroke="#2E3034" stroke-width="18"/>
+
+    <path d="M510 540 l 15 -50 l 15 50 l 15 -50 l 15 50 l 15 -50" stroke="#9DCC41" stroke-width="12" fill="none" stroke-linejoin="miter"/>
+
+    <path d="M680 540 L 750 540 L 750 565 L 680 565 Z" fill="#FFFFFF"/>
+    <text x="685" y="560" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#000000">TOYO</text>
+    <rect x="680" y="565" width="70" height="20" fill="#000000"/>
+    <text x="685" y="580" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#FFFFFF">TIRES</text>
+
+    <ellipse cx="180" cy="470" rx="35" ry="15" fill="#002D62"/>
+    <text x="160" y="475" font-family="Impact, sans-serif" font-style="italic" font-size="16" fill="#FFFFFF">Ford</text>
+    
+    <rect x="235" y="595" width="40" height="30" fill="#111"/>
+    <text x="245" y="618" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#FFFFFF">FR</text>
+    
+    <path d="M40 500 l 10 -10 l -5 -5 l 10 -10 l 10 10 l -5 5 l 10 10 l -10 10 l 5 5 l -10 10 l -10 -10 l 5 -5 z M 45 490 a 5 5 0 1 0 0.1 0" fill="white"/>
+    <text x="640" y="495" font-size="10" fill="white" font-family="monospace">FOR BLOCK 43</text>
+  </g>
+</svg>

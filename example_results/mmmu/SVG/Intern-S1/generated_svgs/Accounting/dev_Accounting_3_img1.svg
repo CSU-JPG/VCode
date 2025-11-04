@@ -1,0 +1,62 @@
+<svg viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="0" x2="0" y2="420" stroke="black"/>
+  <line x1="150" y1="0" x2="150" y2="420" stroke="black"/>
+  <line x1="250" y1="0" x2="250" y2="420" stroke="black"/>
+  <line x1="350" y1="0" x2="350" y2="420" stroke="black"/>
+  <line x1="0" y1="0" x2="350" y2="0" stroke="black"/>
+  <line x1="0" y1="30" x2="350" y2="30" stroke="black"/>
+  <line x1="0" y1="60" x2="350" y2="60" stroke="black"/>
+  <line x1="0" y1="90" x2="350" y2="90" stroke="black"/>
+  <line x1="0" y1="120" x2="350" y2="120" stroke="black"/>
+  <line x1="0" y1="150" x2="350" y2="150" stroke="black"/>
+  <line x1="0" y1="180" x2="350" y2="180" stroke="black"/>
+  <line x1="0" y1="210" x2="350" y2="210" stroke="black"/>
+  <line x1="0" y1="240" x2="350" y2="240" stroke="black"/>
+  <line x1="0" y1="270" x2="350" y2="270" stroke="black"/>
+  <line x1="0" y1="300" x2="350" y2="300" stroke="black"/>
+  <line x1="0" y1="330" x2="350" y2="330" stroke="black"/>
+  <line x1="0" y1="360" x2="350" y2="360" stroke="black"/>
+  <line x1="0" y1="390" x2="350" y2="390" stroke="black"/>
+  <line x1="0" y1="420" x2="350" y2="420" stroke="black"/>
+  <text x="200" y="20" font-size="14" text-anchor="middle" dy=".7em">2014</text>
+  <text x="300" y="20" font-size="14" text-anchor="middle" dy=".7em">2015</text>
+  <text x="10" y="50" font-size="12" text-anchor="start" dy=".7em">Sales</text>
+  <text x="245" y="50" font-size="12" text-anchor="end" dy=".7em">$9,402</text>
+  <text x="345" y="50" font-size="12" text-anchor="end" dy=".7em">$10,091</text>
+  <text x="10" y="80" font-size="12" text-anchor="start" dy=".7em">Depreciation</text>
+  <text x="245" y="80" font-size="12" text-anchor="end" dy=".7em">1,350</text>
+  <text x="345" y="80" font-size="12" text-anchor="end" dy=".7em">1,351</text>
+  <text x="10" y="110" font-size="12" text-anchor="start" dy=".7em">Cost of goods sold</text>
+  <text x="245" y="110" font-size="12" text-anchor="end" dy=".7em">3,235</text>
+  <text x="345" y="110" font-size="12" text-anchor="end" dy=".7em">3,672</text>
+  <text x="10" y="140" font-size="12" text-anchor="start" dy=".7em">Other expenses</text>
+  <text x="245" y="140" font-size="12" text-anchor="end" dy=".7em">767</text>
+  <text x="345" y="140" font-size="12" text-anchor="end" dy=".7em">641</text>
+  <text x="10" y="170" font-size="12" text-anchor="start" dy=".7em">Interest</text>
+  <text x="245" y="170" font-size="12" text-anchor="end" dy=".7em">630</text>
+  <text x="345" y="170" font-size="12" text-anchor="end" dy=".7em">724</text>
+  <text x="10" y="200" font-size="12" text-anchor="start" dy=".7em">Cash</text>
+  <text x="245" y="200" font-size="12" text-anchor="end" dy=".7em">4,931</text>
+  <text x="345" y="200" font-size="12" text-anchor="end" dy=".7em">6,244</text>
+  <text x="10" y="230" font-size="12" text-anchor="start" dy=".7em">Accounts receivable</text>
+  <text x="245" y="230" font-size="12" text-anchor="end" dy=".7em">6,527</text>
+  <text x="345" y="230" font-size="12" text-anchor="end" dy=".7em">7,352</text>
+  <text x="10" y="260" font-size="12" text-anchor="start" dy=".7em">Short-term notes payable</text>
+  <text x="245" y="260" font-size="12" text-anchor="end" dy=".7em">953</text>
+  <text x="345" y="260" font-size="12" text-anchor="end" dy=".7em">895</text>
+  <text x="10" y="290" font-size="12" text-anchor="start" dy=".7em">Long-term debt</text>
+  <text x="245" y="290" font-size="12" text-anchor="end" dy=".7em">16,152</text>
+  <text x="345" y="290" font-size="12" text-anchor="end" dy=".7em">19,260</text>
+  <text x="10" y="320" font-size="12" text-anchor="start" dy=".7em">Net fixed assets</text>
+  <text x="245" y="320" font-size="12" text-anchor="end" dy=".7em">41,346</text>
+  <text x="345" y="320" font-size="12" text-anchor="end" dy=".7em">42,332</text>
+  <text x="10" y="350" font-size="12" text-anchor="start" dy=".7em">Accounts payable</text>
+  <text x="245" y="350" font-size="12" text-anchor="end" dy=".7em">5,179</text>
+  <text x="345" y="350" font-size="12" text-anchor="end" dy=".7em">5,022</text>
+  <text x="10" y="380" font-size="12" text-anchor="start" dy=".7em">Inventory</text>
+  <text x="245" y="380" font-size="12" text-anchor="end" dy=".7em">11,604</text>
+  <text x="345" y="380" font-size="12" text-anchor="end" dy=".7em">11,926</text>
+  <text x="10" y="410" font-size="12" text-anchor="start" dy=".7em">Dividends</text>
+  <text x="245" y="410" font-size="12" text-anchor="end" dy=".7em">1,147</text>
+  <text x="345" y="410" font-size="12" text-anchor="end" dy=".7em">1,261</text>
+</svg>

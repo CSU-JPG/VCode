@@ -1,0 +1,118 @@
+<svg viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Staff lines -->
+  <line x1="90" y1="25" x2="880" y2="25" stroke="black" stroke-width="1.5"/>
+  <line x1="90" y1="35" x2="880" y2="35" stroke="black" stroke-width="1.5"/>
+  <line x1="90" y1="45" x2="880" y2="45" stroke="black" stroke-width="1.5"/>
+  <line x1="90" y1="55" x2="880" y2="55" stroke="black" stroke-width="1.5"/>
+  <line x1="90" y1="65" x2="880" y2="65" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Label (a) -->
+  <text x="20" y="50" font-family="serif" font-size="20" fill="black">(a)</text>
+  
+  <!-- Treble clef -->
+  <path d="M 100 15 Q 95 20 95 30 Q 95 40 100 50 Q 105 60 100 70 Q 95 75 92 70 Q 90 65 92 60 Q 95 55 100 55 Q 105 55 108 50 Q 110 45 110 40 Q 110 25 105 15 Q 100 8 95 10" fill="black"/>
+  
+  <!-- Time signature C (common time) -->
+  <path d="M 130 35 Q 125 35 125 45 Q 125 55 130 55 Q 135 55 140 50 Q 143 45 140 40 Q 137 35 130 35" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Note 1 - quarter note -->
+  <ellipse cx="170" cy="42" rx="5" ry="4" fill="black" transform="rotate(-20 170 42)"/>
+  <line x1="175" y1="42" x2="175" y2="10" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Note 2 - eighth note -->
+  <ellipse cx="210" cy="38" rx="5" ry="4" fill="black" transform="rotate(-20 210 38)"/>
+  <line x1="215" y1="38" x2="215" y2="8" stroke="black" stroke-width="1.5"/>
+  <path d="M 215 8 Q 225 10 225 15" fill="none" stroke="black" stroke-width="1.8"/>
+  
+  <!-- Note 3 - quarter note -->
+  <ellipse cx="245" cy="45" rx="5" ry="4" fill="black" transform="rotate(-20 245 45)"/>
+  <line x1="250" y1="45" x2="250" y2="13" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Bar line -->
+  <line x1="275" y1="25" x2="275" y2="65" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Note 4 - whole note -->
+  <ellipse cx="305" cy="45" rx="6" ry="4.5" fill="none" stroke="black" stroke-width="1.5" transform="rotate(-20 305 45)"/>
+  
+  <!-- Sharp symbol -->
+  <line x1="330" y1="38" x2="330" y2="52" stroke="black" stroke-width="1"/>
+  <line x1="335" y1="36" x2="335" y2="50" stroke="black" stroke-width="1"/>
+  <line x1="327" y1="42" x2="337" y2="40" stroke="black" stroke-width="1.2"/>
+  <line x1="327" y1="46" x2="337" y2="44" stroke="black" stroke-width="1.2"/>
+  
+  <!-- Note 5 - quarter note -->
+  <ellipse cx="360" cy="35" rx="5" ry="4" fill="black" transform="rotate(-20 360 35)"/>
+  <line x1="365" y1="35" x2="365" y2="5" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Note 6 - eighth note -->
+  <ellipse cx="395" cy="40" rx="5" ry="4" fill="black" transform="rotate(-20 395 40)"/>
+  <line x1="400" y1="40" x2="400" y2="10" stroke="black" stroke-width="1.5"/>
+  <path d="M 400 10 Q 410 12 410 17" fill="none" stroke="black" stroke-width="1.8"/>
+  
+  <!-- Bar line -->
+  <line x1="425" y1="25" x2="425" y2="65" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Note 7 - quarter note -->
+  <ellipse cx="455" cy="45" rx="5" ry="4" fill="black" transform="rotate(-20 455 45)"/>
+  <line x1="460" y1="45" x2="460" y2="13" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Note 8 - eighth note -->
+  <ellipse cx="490" cy="48" rx="5" ry="4" fill="black" transform="rotate(-20 490 48)"/>
+  <line x1="495" y1="48" x2="495" y2="18" stroke="black" stroke-width="1.5"/>
+  <path d="M 495 18 Q 505 20 505 25" fill="none" stroke="black" stroke-width="1.8"/>
+  
+  <!-- Bar line -->
+  <line x1="520" y1="25" x2="520" y2="65" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Note 9 - eighth note -->
+  <ellipse cx="550" cy="50" rx="5" ry="4" fill="black" transform="rotate(-20 550 50)"/>
+  <line x1="555" y1="50" x2="555" y2="20" stroke="black" stroke-width="1.5"/>
+  <path d="M 555 20 Q 565 22 565 27" fill="none" stroke="black" stroke-width="1.8"/>
+  
+  <!-- Note 10 - eighth note -->
+  <ellipse cx="585" cy="52" rx="5" ry="4" fill="black" transform="rotate(-20 585 52)"/>
+  <line x1="590" y1="52" x2="590" y2="22" stroke="black" stroke-width="1.5"/>
+  <path d="M 590 22 Q 600 24 600 29" fill="none" stroke="black" stroke-width="1.8"/>
+  
+  <!-- Beam connecting notes 9 and 10 -->
+  <path d="M 555 20 L 590 22" stroke="black" stroke-width="2"/>
+  
+  <!-- Bar line -->
+  <line x1="615" y1="25" x2="615" y2="65" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Note 11 - eighth note -->
+  <ellipse cx="645" cy="55" rx="5" ry="4" fill="black" transform="rotate(-20 645 55)"/>
+  <line x1="650" y1="55" x2="650" y2="25" stroke="black" stroke-width="1.5"/>
+  <path d="M 650 25 Q 660 27 660 32" fill="none" stroke="black" stroke-width="1.8"/>
+  
+  <!-- Note 12 - eighth note -->
+  <ellipse cx="680" cy="48" rx="5" ry="4" fill="black" transform="rotate(-20 680 48)"/>
+  <line x1="685" y1="48" x2="685" y2="18" stroke="black" stroke-width="1.5"/>
+  <path d="M 685 18 Q 695 20 695 25" fill="none" stroke="black" stroke-width="1.8"/>
+  
+  <!-- Beam connecting notes 11 and 12 -->
+  <path d="M 650 25 L 685 18" stroke="black" stroke-width="2"/>
+  
+  <!-- Bar line -->
+  <line x1="710" y1="25" x2="710" y2="65" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Natural sign -->
+  <line x1="735" y1="35" x2="735" y2="55" stroke="black" stroke-width="1"/>
+  <line x1="741" y1="38" x2="741" y2="58" stroke="black" stroke-width="1"/>
+  <rect x="735" y="42" width="6" height="2" fill="black"/>
+  <rect x="735" y="48" width="6" height="2" fill="black"/>
+  
+  <!-- Sharp symbol -->
+  <line x1="760" y1="38" x2="760" y2="52" stroke="black" stroke-width="1"/>
+  <line x1="765" y1="36" x2="765" y2="50" stroke="black" stroke-width="1"/>
+  <line x1="757" y1="42" x2="767" y2="40" stroke="black" stroke-width="1.2"/>
+  <line x1="757" y1="46" x2="767" y2="44" stroke="black" stroke-width="1.2"/>
+  
+  <!-- Final note - half note -->
+  <ellipse cx="795" cy="40" rx="6" ry="4.5" fill="none" stroke="black" stroke-width="1.5" transform="rotate(-20 795 40)"/>
+  <line x1="801" y1="40" x2="801" y2="10" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Final bar lines -->
+  <line x1="830" y1="25" x2="830" y2="65" stroke="black" stroke-width="1.5"/>
+  <line x1="837" y1="25" x2="837" y2="65" stroke="black" stroke-width="3"/>
+</svg>

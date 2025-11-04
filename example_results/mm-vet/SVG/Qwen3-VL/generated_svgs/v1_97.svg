@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFA500"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+    <filter id="paintTexture" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" result="turbulence"/>
+      <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bgGradient)" filter="url(#paintTexture)"/>
+
+  <!-- Author -->
+  <text x="400" y="230" font-family="SimHei, sans-serif" font-size="36" text-anchor="middle" fill="#333">
+    马曳 —— 著
+  </text>
+
+  <!-- Title -->
+  <text x="500" y="360" font-family="SimHei, sans-serif" font-size="120" text-anchor="middle" fill="#000" letter-spacing="2">
+    细细密密的光
+  </text>
+
+  <!-- Subtitle -->
+  <text x="500" y="470" font-family="SimSun, serif" font-size="20" text-anchor="middle" fill="#333">
+    每个人都有自己的困境，
+  </text>
+  <text x="500" y="505" font-family="SimSun, serif" font-size="20" text-anchor="middle" fill="#333">
+    却总会被光亮吸引，身不由己地慢慢靠近
+  </text>
+
+  <!-- Cityscape painting -->
+  <g transform="translate(100,600)">
+    <!-- Building 1 -->
+    <rect x="0" y="0" width="80" height="150" fill="#8B0000" opacity="0.8"/>
+    <rect x="10" y="10" width="60" height="130" fill="#B22222" opacity="0.9"/>
+    <g fill="#FFFF00" opacity="0.7">
+      <circle cx="20" cy="30" r="3"/>
+      <circle cx="40" cy="30" r="3"/>
+      <circle cx="20" cy="50" r="3"/>
+      <circle cx="40" cy="50" r="3"/>
+    </g>
+
+    <!-- Building 2 -->
+    <rect x="100" y="0" width="100" height="200" fill="#4B0082" opacity="0.8"/>
+    <rect x="110" y="10" width="80" height="180" fill="#6A5ACD" opacity="0.9"/>
+    <g fill="#FFFF00" opacity="0.7">
+      <circle cx="120" cy="30" r="3"/>
+      <circle cx="140" cy="30" r="3"/>
+      <circle cx="160" cy="30" r="3"/>
+      <circle cx="120" cy="50" r="3"/>
+      <circle cx="140" cy="50" r="3"/>
+      <circle cx="160" cy="50" r="3"/>
+    </g>
+
+    <!-- Building 3 -->
+    <rect x="220" y="0" width="120" height="250" fill="#800080" opacity="0.8"/>
+    <rect x="230" y="10" width="100" height="230" fill="#9932CC" opacity="0.9"/>
+    <g fill="#FFFF00" opacity="0.7">
+      <circle cx="240" cy="30" r="3"/>
+      <circle cx="260" cy="30" r="3"/>
+      <circle cx="280" cy="30" r="3"/>
+      <circle cx="240" cy="50" r="3"/>
+      <circle cx="260" cy="50" r="3"/>
+      <circle cx="280" cy="50" r="3"/>
+    </g>
+
+    <!-- Building 4 -->
+    <rect x="360" y="0" width="150" height="300" fill="#00008B" opacity="0.8"/>
+    <rect x="370" y="10" width="130" height="280" fill="#0000CD" opacity="0.9"/>
+    <g fill="#FFFF00" opacity="0.7">
+      <circle cx="380" cy="30" r="3"/>
+      <circle cx="400" cy="30" r="3"/>
+      <circle cx="420" cy="30" r="3"/>
+      <circle cx="440" cy="30" r="3"/>
+      <circle cx="380" cy="50" r="3"/>
+      <circle cx="400" cy="50" r="3"/>
+      <circle cx="420" cy="50" r="3"/>
+      <circle cx="440" cy="50" r="3"/>
+    </g>
+
+    <!-- Bridge elements -->
+    <path d="M0,150 C50,100 150,100 200,150" stroke="#8B0000" stroke-width="4" fill="none"/>
+    <path d="M0,160 C50,110 150,110 200,160" stroke="#8B0000" stroke-width="4" fill="none"/>
+    <path d="M0,170 C50,120 150,120 200,170" stroke="#8B0000" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Background texture enhancement -->
+  <rect width="100%" height="100%" fill="none" stroke="#FFF" stroke-width="2" stroke-opacity="0.1" filter="url(#paintTexture)"/>
+</svg>

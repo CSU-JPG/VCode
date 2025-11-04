@@ -1,0 +1,58 @@
+<svg viewBox="0 0 450 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Power Supply -->
+  <circle cx="180" cy="20" r="5"/>
+  <text x="190" y="20" font-size="12">+Vcc</text>
+  
+  <!-- Resistors -->
+  <path d="M180 30 h40 m-20 -10 l0 20" stroke="black" fill="none"/>
+  <text x="180" y="70" font-size="12">R1</text>
+  
+  <path d="M180 130 h40 m-20 -10 l0 20" stroke="black" fill="none"/>
+  <text x="180" y="170" font-size="12">R2</text>
+  
+  <path d="M280 60 h40 m-20 -10 l0 20" stroke="black" fill="none"/>
+  <text x="280" y="100" font-size="12">RL</text>
+  
+  <path d="M280 230 h40 m-20 -10 l0 20" stroke="black" fill="none"/>
+  <text x="280" y="270" font-size="12">REU</text>
+  
+  <path d="M280 270 h40 m-20 -10 l0 20" stroke="black" fill="none"/>
+  <text x="280" y="310" font-size="12">REB</text>
+  
+  <path d="M80 230 h40 m-20 -10 l0 20" stroke="black" fill="none"/>
+  <text x="80" y="270" font-size="12">rg</text>
+  
+  <!-- Capacitors -->
+  <rect x="220" y="130" width="5" height="40" fill="black"/>
+  <rect x="230" y="130" width="5" height="40" fill="black"/>
+  <text x="235" y="150" font-size="12">Co</text>
+  
+  <rect x="110" y="130" width="5" height="40" fill="black"/>
+  <rect x="120" y="130" width="5" height="40" fill="black"/>
+  <text x="125" y="150" font-size="12">Cin</text>
+  
+  <rect x="220" y="270" width="5" height="40" fill="black"/>
+  <rect x="230" y="270" width="5" height="40" fill="black"/>
+  <text x="235" y="290" font-size="12">CB</text>
+  
+  <!-- Transistor -->
+  <path d="M200 130 l0 80 m-10 -40 l20 0 m-20 20 l10 -20" stroke="black" fill="none"/>
+  <circle cx="200" cy="130" r="5"/>
+  <circle cx="200" cy="210" r="5"/>
+  <circle cx="190" cy="170" r="5"/>
+  
+  <!-- Connections -->
+  <path d="M80 250 l0 -120 l120 0 l0 80" stroke="black"/>
+  <path d="M280 30 l0 30 l120 0 l0 -30" stroke="black"/>
+  <path d="M280 230 l0 40 l120 0 l0 -40" stroke="black"/>
+  <path d="M180 70 l0 60" stroke="black"/>
+  <path d="M180 130 l0 40" stroke="black"/>
+  
+  <!-- Ground -->
+  <path d="M280 310 l5 0 m-10 0 l5 0 m-5 -5 l0 5" stroke="black"/>
+  <path d="M100 310 l5 0 m-10 0 l5 0 m-5 -5 l0 5" stroke="black"/>
+  
+  <!-- Input Source -->
+  <path d="M80 250 l-20 0 m10 -10 l0 20" stroke="black" fill="none"/>
+  <text x="60" y="250" font-size="12">ug</text>
+</svg>

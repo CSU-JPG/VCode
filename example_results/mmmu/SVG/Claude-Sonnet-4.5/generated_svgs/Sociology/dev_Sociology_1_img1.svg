@@ -1,0 +1,28 @@
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left rectangle -->
+  <rect x="95" y="65" width="260" height="520" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Left vertical line -->
+  <rect x="215" y="190" width="20" height="320" fill="black"/>
+  
+  <!-- Right rectangle -->
+  <rect x="425" y="65" width="260" height="520" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Right side - Line A -->
+  <rect x="475" y="240" width="20" height="280" fill="black"/>
+  
+  <!-- Right side - Line B -->
+  <rect x="555" y="120" width="20" height="400" fill="black"/>
+  
+  <!-- Right side - Line C -->
+  <rect x="625" y="190" width="20" height="330" fill="black"/>
+  
+  <!-- Label A -->
+  <text x="485" y="555" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="black">A</text>
+  
+  <!-- Label B -->
+  <text x="560" y="555" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="black">B</text>
+  
+  <!-- Label C -->
+  <text x="630" y="555" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="black">C</text>
+</svg>

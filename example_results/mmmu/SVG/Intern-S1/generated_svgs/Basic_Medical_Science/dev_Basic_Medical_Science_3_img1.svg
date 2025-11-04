@@ -1,0 +1,27 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ADD8E6"/>
+  <path d="M100 200 Q150 150 200 200 Q250 250 200 300 Q150 350 100 300 Q50 250 100 200" fill="#9370DB"/>
+  <circle cx="250" cy="250" r="40" fill="#4682B4"/>
+  <path d="M350 200 Q400 150 450 200 Q500 250 450 300 Q400 350 350 300 Q300 250 350 200" fill="#90EE90"/>
+  <rect x="480" y="200" width="100" height="100" rx="20" fill="#FFD700"/>
+  <circle cx="250" cy="250" r="25" fill="yellow"/>
+  <text x="250" y="255" font-family="Arial" font-size="14" text-anchor="middle" fill="black">GTP</text>
+  <text x="480" y="250" font-family="Arial" font-size="16" text-anchor="middle" fill="black">cAMP</text>
+  <text x="530" y="270" font-family="Arial" font-size="14" fill="black">Second messenger</text>
+  <path d="M210 250 L240 250" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M310 250 L340 250" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M450 250 L480 250" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M480 300 L480 350" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="120" cy="160" r="15" fill="red"/>
+  <text x="140" y="150" font-family="Arial" font-size="14" fill="black">Epinephrine</text>
+  <text x="150" y="380" font-family="Arial" font-size="14" fill="black">Inhibition of glycogen synthesis</text>
+  <text x="250" y="420" font-family="Arial" font-size="14" fill="black">Promotion of glycogen breakdown</text>
+  <text x="180" y="280" font-family="Arial" font-size="14" fill="black">G protein-coupled receptor</text>
+  <text x="290" y="280" font-family="Arial" font-size="14" fill="black">G protein</text>
+  <text x="400" y="280" font-family="Arial" font-size="14" fill="black">Adenylyl cyclase</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10" fill="black"/>
+    </marker>
+  </defs>
+</svg>

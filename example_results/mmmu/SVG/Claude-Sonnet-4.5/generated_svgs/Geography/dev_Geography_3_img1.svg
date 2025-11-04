@@ -1,0 +1,56 @@
+<svg viewBox="0 0 530 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header row background -->
+  <rect x="0" y="0" width="530" height="30" fill="#e0e0e0" stroke="#000" stroke-width="1"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="0" y1="0" x2="530" y2="0" stroke="#000" stroke-width="1"/>
+  <line x1="0" y1="30" x2="530" y2="30" stroke="#000" stroke-width="1"/>
+  <line x1="0" y1="60" x2="530" y2="60" stroke="#000" stroke-width="1"/>
+  <line x1="0" y1="90" x2="530" y2="90" stroke="#000" stroke-width="1"/>
+  <line x1="0" y1="120" x2="530" y2="120" stroke="#000" stroke-width="1"/>
+  
+  <!-- Vertical lines -->
+  <line x1="0" y1="0" x2="0" y2="120" stroke="#000" stroke-width="1"/>
+  <line x1="108" y1="0" x2="108" y2="120" stroke="#000" stroke-width="1"/>
+  <line x1="216" y1="0" x2="216" y2="120" stroke="#000" stroke-width="1"/>
+  <line x1="324" y1="0" x2="324" y2="120" stroke="#000" stroke-width="1"/>
+  <line x1="530" y1="0" x2="530" y2="120" stroke="#000" stroke-width="1"/>
+  
+  <!-- Header text -->
+  <text x="54" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-style="italic">x/m</text>
+  <text x="162" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-style="italic">α</text>
+  <text x="270" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-style="italic">x α</text>
+  <text x="427" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-style="italic">
+    <tspan>x̄ α</tspan>
+    <tspan baseline-shift="sub" font-size="10">i</tspan>
+    <tspan> - x̄</tspan>
+    <tspan baseline-shift="sub" font-size="10">i-1</tspan>
+    <tspan> (α</tspan>
+    <tspan baseline-shift="sub" font-size="10">i-1</tspan>
+    <tspan>)</tspan>
+  </text>
+  <text x="477" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-style="italic">E</text>
+  <text x="487" y="24" text-anchor="start" font-family="Arial" font-size="10" font-style="italic">c</text>
+  <text x="495" y="20" text-anchor="start" font-family="Arial" font-size="14">/MPa</text>
+  
+  <!-- Row 1 data -->
+  <text x="54" y="50" text-anchor="middle" font-family="Arial" font-size="14">0</text>
+  <text x="162" y="50" text-anchor="middle" font-family="Arial" font-size="14"></text>
+  <text x="270" y="50" text-anchor="middle" font-family="Arial" font-size="14">0</text>
+  <text x="427" y="50" text-anchor="middle" font-family="Arial" font-size="14"></text>
+  <text x="477" y="50" text-anchor="middle" font-family="Arial" font-size="14">1</text>
+  
+  <!-- Row 2 data -->
+  <text x="54" y="80" text-anchor="middle" font-family="Arial" font-size="14">10</text>
+  <text x="162" y="80" text-anchor="middle" font-family="Arial" font-size="14">0.8974</text>
+  <text x="270" y="80" text-anchor="middle" font-family="Arial" font-size="14">8.974</text>
+  <text x="427" y="80" text-anchor="middle" font-family="Arial" font-size="14">8.974</text>
+  <text x="477" y="80" text-anchor="middle" font-family="Arial" font-size="14">15</text>
+  
+  <!-- Row 3 data -->
+  <text x="54" y="110" text-anchor="middle" font-family="Arial" font-size="14">20</text>
+  <text x="162" y="110" text-anchor="middle" font-family="Arial" font-size="14">0.7281</text>
+  <text x="270" y="110" text-anchor="middle" font-family="Arial" font-size="14">14.562</text>
+  <text x="427" y="110" text-anchor="middle" font-family="Arial" font-size="14">5.588</text>
+  <text x="477" y="110" text-anchor="middle" font-family="Arial" font-size="14">20</text>
+</svg>

@@ -1,0 +1,249 @@
+<svg viewBox="0 0 1280 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 64px 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif; fill: #e87f7e; text-anchor: middle; }
+      .step-number { font: bold 32px 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif; fill: #b2a89f; }
+    </style>
+    <g id="frying-pan">
+      <path d="M141.6,4.5 C141.6,4.5 280.9,29.9 280.9,122.3 C280.9,214.8 174.4,240 141.6,240 C108.8,240 3.3,214.8 3.3,122.3 C3.3,29.9 141.6,4.5 141.6,4.5 Z" fill="#dcb48b" stroke="#a47c54" stroke-width="2"/>
+      <path d="M58 50 C 80 80, 50 150, 65 200" fill="none" stroke="#a47c54" stroke-width="3" stroke-linecap="round"/>
+      <path d="M100 50 C 120 90, 90 160, 105 210" fill="none" stroke="#a47c54" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="140" cy="120" r="120" fill="#4d4d4d"/>
+      <circle cx="140" cy="120" r="115" fill="#333"/>
+      <path d="M100,50 a80,80 0 0,1 120,0" fill="none" stroke="#666" stroke-width="5"/>
+    </g>
+    <g id="flames">
+        <path d="M0 20 Q 10 0 20 20 Q 10 15 0 20" fill="#f1c40f"/>
+        <path d="M30 20 Q 40 0 50 20 Q 40 15 30 20" fill="#f39c12"/>
+        <path d="M60 20 Q 70 0 80 20 Q 70 15 60 20" fill="#f1c40f"/>
+        <path d="M90 20 Q 100 0 110 20 Q 100 15 90 20" fill="#f39c12"/>
+        <path d="M120 20 Q 130 0 140 20 Q 130 15 120 20" fill="#f1c40f"/>
+        <path d="M150 20 Q 160 0 170 20 Q 160 15 150 20" fill="#f39c12"/>
+    </g>
+    <g id="pancake-stack">
+      <ellipse cx="0" cy="0" rx="90" ry="25" fill="#e39d3e"/>
+      <ellipse cx="0" cy="-10" rx="90" ry="25" fill="#e39d3e"/>
+      <ellipse cx="0" cy="-20" rx="90" ry="25" fill="#e39d3e"/>
+      <ellipse cx="0" cy="-30" rx="90" ry="25" fill="#e39d3e"/>
+      <ellipse cx="0" cy="-40" rx="90" ry="25" fill="#e39d3e"/>
+      <ellipse cx="0" cy="-50" rx="90" ry="25" fill="#e39d3e"/>
+      <path d="M -90 -50 C -60 -55, 60 -55, 90 -50 C 95 -45, 95 -35, 90 -30 L -90 -30 C -95 -35, -95 -45, -90 -50 Z" fill="#e6ad54"/>
+    </g>
+  </defs>
+
+  <rect width="1280" height="1000" fill="#fdf3e7"/>
+  <text x="640" y="90" class="title">Pancake recipe</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(60, 150)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">1</text>
+    <g transform="translate(150, 210) scale(1.2)">
+      <path d="M -100,0 C -100,-55 100,-55 100,0 A 100,100 0 0,1 -100,0 Z" fill="#d14a46"/>
+      <path d="M -100,0 C -100,-50 100,-50 100,0 A 100,100 0 0,1 -100,0 Z" fill="#e85d59"/>
+      <path d="M-105 -5 C -105 -15, 105 -15, 105 -5 L 95 -5 C 95 -10, -95 -10, -95 -5 Z" fill="#f07a76"/>
+      <path d="M -80,0 C -80,-40 80,-40 80,0 A 80,80 0 0,1 -80,0 Z" fill="#fff"/>
+      <path d="M-60, -20 C 0 -40, 60 -20, 60 -20" fill="none" stroke="#eee" stroke-width="5"/>
+    </g>
+    <g transform="translate(60, 160)">
+      <path d="M 0 0 V 40 L 15 50 H 45 L 60 40 V 0 Z" fill="#aaa"/>
+      <path d="M 5 5 V 38 L 18 47 H 42 L 55 38 V 5 Z" fill="#bdc3c7"/>
+      <path d="M 0 0 H 60 L 55 5 H 5 Z" fill="#ccc"/>
+      <path d="M -20,10 H 0" stroke="#aaa" stroke-width="3"/>
+      <circle cx="-10" cy="-10" r="5" fill="#ddd"/>
+      <circle cx="0" cy="-15" r="5" fill="#ddd"/>
+      <circle cx="10" cy="-10" r="5" fill="#ddd"/>
+    </g>
+    <g transform="translate(230, 180)">
+      <path d="M 0 0 C 20 -20, 60 -10, 80 10 L 85 5 C 65 -15, 25 -25, 5 -5 Z" fill="#ddd"/>
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="white"/>
+    </g>
+    <g transform="translate(250, 120)">
+      <rect x="0" y="0" width="40" height="50" rx="5" fill="#f0f0f0" stroke="#ccc" stroke-width="2"/>
+      <rect x="-2" y="-10" width="44" height="10" rx="3" fill="#e0e0e0" stroke="#ccc" stroke-width="2"/>
+      <rect x="5" y="20" width="30" height="25" fill="#fff" opacity="0.8"/>
+    </g>
+    <g transform="translate(100, 100) rotate(-30)">
+      <path d="M 0 0 C -10 10, -10 30, 0 40 L 0 80 L 10 80 L 10 40 C 20 30, 20 10, 10 0 Z" fill="#e0e0e0"/>
+      <path d="M 0 0 C 10 10, 10 30, 0 40 L 10 40 C 20 30, 20 10, 10 0 Z" fill="#d0d0d0" />
+      <path d="M 5 80 L 5 90 H 25 V 80" fill="#95a5a6"/>
+      <path d="M 5 80 H 25 L 20 70 L 10 70 Z" fill="#7f8c8d" />
+      <path d="M 5,45 H 35 L 30 25 L 20 10 Z" fill="#a1c4db" />
+      <path d="M 5,45 H 35 L 30 25 L 20 10 Z" fill="#82c1e8" transform="translate(2, -2)" />
+    </g>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(480, 150)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">2</text>
+    <g transform="translate(150, 210) scale(1.2)">
+      <path d="M -100,0 C -100,-55 100,-55 100,0 A 100,100 0 0,1 -100,0 Z" fill="#d14a46"/>
+      <path d="M -100,0 C -100,-50 100,-50 100,0 A 100,100 0 0,1 -100,0 Z" fill="#e85d59"/>
+      <path d="M-105 -5 C -105 -15, 105 -15, 105 -5 L 95 -5 C 95 -10, -95 -10, -95 -5 Z" fill="#f07a76"/>
+      <path d="M -80,-5 C -80,-45 80,-45 80,-5 A 80,80 0 0,1 -80,-5 Z" fill="#fde3a7"/>
+      <path d="M-60, -25 C 0 -45, 60 -25, 60 -25" fill="none" stroke="#fceab8" stroke-width="5"/>
+    </g>
+    <g transform="translate(210, 110) rotate(20)">
+      <rect y="0" x="-5" width="10" height="80" fill="#dcb48b" rx="5"/>
+      <path d="M -5 80 L 5 80 L 5 70 L -5 70 Z" fill="#a47c54"/>
+      <g transform="translate(0, -50)">
+        <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+        <path d="M-25 0 A 25 30 0 0 1 25 0" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+        <path d="M-20 0 A 20 40 0 0 1 20 0" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+        <path d="M-15 0 A 15 50 0 0 1 15 0" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+      </g>
+    </g>
+    <g transform="translate(80, 160)">
+      <ellipse cx="0" cy="0" rx="20" ry="15" fill="#f5d7af" stroke="#e4b980" stroke-width="1"/>
+      <ellipse cx="30" cy="10" rx="20" ry="15" fill="#f5d7af" stroke="#e4b980" stroke-width="1" transform="rotate(15 30 10)"/>
+    </g>
+    <g transform="translate(250, 180) rotate(-10)">
+      <path d="M 0 0 C -15 0, -20 -20, -20 -30 V -70 H 20 V -30 C 20 -20, 15 0, 0 0 Z" fill="#fef283" opacity="0.5"/>
+      <path d="M -20 -70 H 20 V -80 H -20 Z" fill="#d35400"/>
+      <path d="M -20 -30 V -70 H 20 V -30 C 20 -20, 15 0, 0 0 C -15 0, -20 -20, -20 -30 Z" fill="#fde3a7"/>
+    </g>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(900, 150)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">3</text>
+    <g transform="translate(150, 210) scale(1.2)">
+      <path d="M -100,0 C -100,-55 100,-55 100,0 A 100,100 0 0,1 -100,0 Z" fill="#d14a46"/>
+      <path d="M -100,0 C -100,-50 100,-50 100,0 A 100,100 0 0,1 -100,0 Z" fill="#e85d59"/>
+      <path d="M-105 -5 C -105 -15, 105 -15, 105 -5 L 95 -5 C 95 -10, -95 -10, -95 -5 Z" fill="#f07a76"/>
+      <path d="M -80,-5 C -80,-45 80,-45 80,-5 A 80,80 0 0,1 -80,-5 Z" fill="#fde3a7"/>
+      <path d="M-60, -25 C 0 -45, 60 -25, 60 -25" fill="none" stroke="#fceab8" stroke-width="5"/>
+    </g>
+    <g transform="translate(100, 150) rotate(15)">
+      <rect y="0" x="-5" width="10" height="80" fill="#dcb48b" rx="5"/>
+      <path d="M -5 80 L 5 80 L 5 70 L -5 70 Z" fill="#a47c54"/>
+      <g transform="translate(0, -50)">
+        <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+        <path d="M-25 0 A 25 30 0 0 1 25 0" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+        <path d="M-20 0 A 20 40 0 0 1 20 0" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+        <path d="M-15 0 A 15 50 0 0 1 15 0" fill="none" stroke="#bdc3c7" stroke-width="3"/>
+      </g>
+    </g>
+    <g transform="translate(200, 100) rotate(-15)">
+        <path d="M 0 0 H 60 L 80 -20 H 20 Z" fill="#f0f0f0"/>
+        <path d="M 0 0 V -100 H 60 V 0 Z" fill="white"/>
+        <path d="M 60 0 L 80 -20 V -120 L 60 -100 Z" fill="#e0e0e0"/>
+        <path d="M 0 -100 L 20 -120 H 80 L 60 -100 Z" fill="#d0d0d0"/>
+        <path d="M 10 -80 H 50 V -20 H 10 Z" fill="#82c1e8"/>
+        <path d="M 15 -75 H 45 V -50 H 15 Z" fill="white"/>
+        <path d="M 20 -70 L 40 -70 L 30 -60 Z" fill="#a1c4db"/>
+    </g>
+    <path d="M 215 110 C 200 150, 160 170, 140 180" stroke="white" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(60, 430)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">4</text>
+    <g transform="translate(180, 240) scale(0.6)">
+        <use href="#flames" />
+    </g>
+    <g transform="translate(10, 150)">
+        <use href="#frying-pan" transform="scale(0.8)"/>
+    </g>
+    <g transform="translate(160, 120) rotate(45)">
+      <path d="M 0 0 C -15 0, -20 -20, -20 -30 V -70 H 20 V -30 C 20 -20, 15 0, 0 0 Z" fill="#fef283" opacity="0.5"/>
+      <path d="M -20 -70 H 20 V -80 H -20 Z" fill="#d35400"/>
+      <path d="M -20 -30 V -70 H 20 V -30 C 20 -20, 15 0, 0 0 C -15 0, -20 -20, -20 -30 Z" fill="#fde3a7"/>
+    </g>
+    <path d="M 160 180 C 158 190, 162 190, 160 200" stroke="#fde3a7" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="160" cy="210" rx="10" ry="4" fill="#fde3a7"/>
+  </g>
+
+  <!-- Step 5 -->
+  <g transform="translate(480, 430)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">5</text>
+    <g transform="translate(180, 240) scale(0.6)">
+      <use href="#flames" />
+    </g>
+    <g transform="translate(10, 150)">
+      <use href="#frying-pan" transform="scale(0.8)"/>
+    </g>
+    <g transform="translate(150, 100) rotate(-30)">
+      <path d="M -60,0 C -60,-33 60,-33 60,0 A 60,60 0 0,1 -60,0 Z" fill="#e85d59"/>
+      <path d="M -50,-5 C -50,-25 50,-25 50,-5 A 50,50 0 0,1 -50,-5 Z" fill="#fde3a7"/>
+    </g>
+    <g transform="translate(190, 130) rotate(30)">
+      <path d="M -80 0 L 0 0 C 20 0, 25 -20, 15 -30 C 5 -40, -15 -40, -25 -30 C -35 -20, -30 0, -50 0 Z" fill="#509dc8"/>
+      <path d="M 10 -28 C 0 -35, -15 -35, -20 -28 C -25 -24, -25 -5, -25 -5 L 10 -5 Z" fill="#fde3a7"/>
+    </g>
+    <path d="M 160 170 C 158 180, 162 180, 160 190" stroke="#fde3a7" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Step 6 -->
+  <g transform="translate(900, 430)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">6</text>
+    <g transform="translate(180, 240) scale(0.6)">
+      <use href="#flames" />
+    </g>
+    <g transform="translate(10, 150)">
+      <use href="#frying-pan" transform="scale(0.8)"/>
+      <circle cx="140" cy="120" r="50" fill="#f9e79f"/>
+      <circle cx="140" cy="120" r="45" fill="#fef2d0"/>
+    </g>
+    <g transform="translate(230, 120)">
+      <circle cx="0" cy="0" r="30" fill="#f0f0f0"/>
+      <circle cx="0" cy="0" r="28" fill="white"/>
+      <line x1="0" y1="0" x2="0" y2="-20" stroke="black" stroke-width="2"/>
+      <line x1="0" y1="0" x2="15" y2="-15" stroke="red" stroke-width="3"/>
+      <path d="M 0 -25 L 0 -24 M 25 0 L 24 0 M 0 25 L 0 24 M -25 0 L -24 0" stroke="grey" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Step 7 -->
+  <g transform="translate(60, 710)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">7</text>
+    <g transform="translate(10, 220)">
+        <use href="#frying-pan" transform="scale(0.8)"/>
+    </g>
+    <g transform="translate(120, 150)">
+        <ellipse cx="0" cy="0" rx="60" ry="25" fill="#e39d3e"/>
+        <path d="M -60 0 A 60 25 0 0 1 60 0 A 60 15 0 0 0 -60 0" fill="#f9e79f"/>
+    </g>
+  </g>
+
+  <!-- Step 8 -->
+  <g transform="translate(480, 710)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">8</text>
+    <ellipse cx="150" cy="240" rx="110" ry="30" fill="#e74c3c"/>
+    <ellipse cx="150" cy="235" rx="100" ry="20" fill="#f1948a"/>
+    <g transform="translate(150, 220)">
+      <use href="#pancake-stack"/>
+    </g>
+    <g transform="translate(200, 100) rotate(20)">
+      <path d="M -20 -30 V -50 H 20 V -30 C 20 -15, 10 0, 0 0 C -10 0, -20 -15, -20 -30 Z" fill="#e0e0e0"/>
+      <path d="M -20 -30 V -50 H 20 V -30 C 20 -15, 10 0, 0 0 C -10 0, -20 -15, -20 -30 Z" fill="white" transform="scale(0.9)"/>
+      <path d="M-15 -45 V -35 H 15 V -45 Z" fill="#c77838" opacity="0.7"/>
+      <path d="M 20 -30 C 30 -25, 30 -10, 25 -5 L 35 -15 C 40 -20, 40 -35, 20 -30 Z" fill="#e0e0e0"/>
+    </g>
+    <path d="M 220 120 C 180 160, 160 170, 150 175" stroke="#c77838" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 130 175 C 140 180, 155 182, 165 178" stroke="#c77838" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Step 9 -->
+  <g transform="translate(900, 710)">
+    <circle cx="150" cy="150" r="140" fill="white"/>
+    <text x="50" y="70" class="step-number">9</text>
+    <ellipse cx="150" cy="240" rx="110" ry="30" fill="#e74c3c"/>
+    <ellipse cx="150" cy="235" rx="100" ry="20" fill="#f1948a"/>
+    <g transform="translate(150, 220)">
+      <use href="#pancake-stack"/>
+      <g transform="translate(0, -50)">
+        <path d="M 130 175 C 140 180, 155 182, 165 178" stroke="#fef283" stroke-width="8" fill="none" stroke-linecap="round" transform="translate(-145, -178)"/>
+        <path d="M-20 0 C -10 5, 10 5, 20 0 L 15 10 L -15 10 Z" fill="#fde3a7"/>
+        <path d="M-25 -5 H 25 L 20 0 H -20 Z" fill="#fef283"/>
+      </g>
+    </g>
+  </g>
+</svg>

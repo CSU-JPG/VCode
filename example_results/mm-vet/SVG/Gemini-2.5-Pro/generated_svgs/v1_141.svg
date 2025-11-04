@@ -1,0 +1,75 @@
+<svg viewBox="0 0 1920 817" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a3225;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1c170d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad_hair" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#6b2a0a;" />
+      <stop offset="30%" style="stop-color:#a84d15;" />
+      <stop offset="60%" style="stop-color:#e08a3c;" />
+      <stop offset="100%" style="stop-color:#c86f27;" />
+    </linearGradient>
+    <radialGradient id="grad_face">
+      <stop offset="0%" stop-color="#e1d1c8" />
+      <stop offset="100%" stop-color="#bdafa5" />
+    </radialGradient>
+    <linearGradient id="grad_jacket" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0a0f" />
+      <stop offset="50%" stop-color="#020204" />
+      <stop offset="100%" stop-color="#101018" />
+    </linearGradient>
+    <linearGradient id="grad_vest" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8d8dc" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e0e4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="817" fill="url(#grad_bg)" />
+
+  <g transform="translate(0, -50)">
+    <path fill="#251f16" d="M0,867 L1920,867 L1920,150 C1800,120 1600,100 1200,110 C800,120 400,140 0,150 Z" />
+    <path fill="#e4c591" opacity="0.4" d="M1400,200 h450 v80 h-450 z" />
+    <path fill="#543c24" d="M1410,210 h430 v60 h-430 z" />
+    <path fill="#e4c591" opacity="0.6" d="M1420,280 h410 v10 h-410 z" />
+    <path fill="#3a2d1d" d="M0,150 h800 v80 h-800 z" />
+    <path fill="#e4c591" opacity="0.3" d="M10,160 h780 v60 h-780 z" />
+    <path fill="#2a2015" d="M850,250 C900,240 1000,250 1100,280 L1120,600 L830,580 Z" fill-opacity="0.7"/>
+  </g>
+
+  <path id="jacket" fill="url(#grad_jacket)" d="M960,350 C920,380 900,450 900,550 L900,817 L1550,817 L1550,400 C1500,350 1400,320 1250,320 C1100,320 1000,330 960,350 Z" />
+  <path id="vest" fill="url(#grad_vest)" d="M1100,450 C1100,500 1105,600 1110,700 L1290,700 C1295,600 1300,500 1300,450 Q1250,420 1200,420 Q1150,420 1100,450 Z" />
+  <path id="shirt_front" fill="#f0f0f5" d="M1170,430 L1230,430 L1215,750 L1185,750 Z" />
+  <circle cx="1200" cy="650" r="5" fill="#f2e28c"/>
+  <circle cx="1200" cy="720" r="5" fill="#f2e28c"/>
+
+  <g id="cal">
+    <path id="neck" fill="#c4b6ad" d="M1150,380 C1160,450 1240,450 1250,380 Q1200,360 1150,380 Z" />
+    <path id="head" fill="url(#grad_face)" d="M1110,180 C1080,250 1090,350 1150,410 C1200,430 1250,430 1300,410 C1360,350 1370,250 1340,180 Q1225,120 1110,180 Z" />
+    <path id="shadow_jaw" fill="#a4968d" opacity="0.7" d="M1150,410 C1130,380 1115,320 1110,280 L1140,290 C1140,340 1160,380 1200,400 C1240,400 1280,380 1300,350 L1320,360 C1300,400 1250,425 1200,425 C1175,425 1160,420 1150,410 Z" />
+    <path id="hair" fill="#08080a" d="M1110,180 Q1225,120 1340,180 C1330,160 1280,140 1225,140 C1170,140 1120,160 1110,180 Z" />
+    <path d="M1150,220 C1200,200 1250,205 1300,220" stroke="#202028" stroke-width="3" fill="none" opacity="0.5"/>
+    <path id="eyebrow_l" fill="#1a120a" d="M1130,250 Q1160,240 1190,250 C1185,247 1160,237 1135,247 Z" />
+    <path id="eyebrow_r" fill="#1a120a" d="M1260,250 Q1290,240 1320,250 C1315,247 1290,237 1265,247 Z" />
+    <path id="eye_l_socket" fill="#a4968d" d="M1140,260 C1160,280 1190,280 1200,265 L1190,255 C1170,265 1150,265 1140,260 Z" />
+    <path id="eye_r_socket" fill="#a4968d" d="M1250,265 C1260,280 1290,280 1310,260 L1300,255 C1280,265 1260,265 1250,265 Z" />
+    <path id="nose" fill="#a4968d" opacity="0.5" d="M1220,270 L1230,350 L1250,345 L1235,270 Z" />
+    <path id="lips" fill="#b08a82" d="M1180,360 Q1225,350 1270,360 Q1225,370 1180,360 Z" />
+    <path id="collar" fill="#ffffff" d="M1150,380 C1150,340 1180,320 1200,320 C1220,320 1250,340 1250,380 L1240,380 C1240,350 1220,335 1200,335 C1180,335 1160,350 1160,380 Z" />
+_
+    <path id="bowtie" fill="#f5f5fa" d="M1140,350 L1260,350 C1280,360 1280,380 1260,390 L1140,390 C1120,380 1120,360 1140,350 Z" />
+    <path fill="#d0d0d8" d="M1190,350 L1210,350 L1210,390 L1190,390 Z" />
+    <path fill="#d0d0d8" d="M1140,350 C1150,355 1150,365 1145,370 L1145,390 L1120,380 C1120,360 1140,350 1140,350 Z" opacity="0.7"/>
+    <path fill="#d0d0d8" d="M1260,350 C1250,355 1250,365 1255,370 L1255,390 L1280,380 C1280,360 1260,350 1260,350 Z" opacity="0.7"/>
+  </g>
+
+  <g id="rose">
+    <path id="dress" fill="#e0e2f0" opacity="0.8" d="M0,580 C100,550 250,550 400,600 L400,817 L0,817 Z" />
+    <path id="hair_main" fill="url(#grad_hair)" d="M850,817 C400,817 150,700 10,500 C-20,300 50,100 300,50 C550,0 750,150 800,350 C850,550 850,817 850,817 Z" />
+    <path d="M400,150 C350,250 380,400 450,450" stroke="#f0a05c" stroke-width="15" fill="none" opacity="0.5" />
+    <path d="M250,450 C200,550 250,650 350,700" stroke="#8b3a1a" stroke-width="20" fill="none" opacity="0.4" />
+    <path d="M600,300 C550,400 580,550 650,600" stroke="#f0a05c" stroke-width="12" fill="none" opacity="0.6" />
+  </g>
+
+</svg>

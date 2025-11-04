@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0e6ff"/>
+  <path d="M50 50 Q100 100 150 50 T250 50 T350 50 T450 50 T550 50 T650 50 T750 50" fill="none" stroke="#8a2be2" stroke-width="2"/>
+  <path d="M50 150 Q120 200 190 150 T330 150 T470 150 T610 150 T750 150" fill="none" stroke="#9370db" stroke-width="3"/>
+  <path d="M50 250 Q150 350 250 250 T450 250 T650 250 T850 250" fill="none" stroke="#8a2be2" stroke-width="4"/>
+  <path d="M50 350 Q100 400 150 350 T250 350 T350 350 T450 350 T550 350 T650 350 T750 350" fill="none" stroke="#9370db" stroke-width="2"/>
+  <path d="M50 450 Q120 500 190 450 T330 450 T470 450 T610 450 T750 450" fill="none" stroke="#8a2be2" stroke-width="3"/>
+  <path d="M50 550 Q150 600 250 550 T450 550 T650 550 T850 550" fill="none" stroke="#9370db" stroke-width="4"/>
+  <circle cx="100" cy="100" r="15" fill="#ff69b4"/>
+  <circle cx="200" cy="200" r="10" fill="#ff1493"/>
+  <circle cx="300" cy="300" r="12" fill="#ff69b4"/>
+  <circle cx="400" cy="400" r="8" fill="#ff1493"/>
+  <circle cx="500" cy="500" r="10" fill="#ff69b4"/>
+  <circle cx="600" cy="400" r="14" fill="#ff1493"/>
+  <circle cx="700" cy="300" r="11" fill="#ff69b4"/>
+  <circle cx="800" cy="200" r="9" fill="#ff1493"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 820 420" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="410" height="420" fill="#4CAF50"/>
+  <rect x="410" y="0" width="410" height="420" fill="#4CAF50"/>
+  <path d="M100 100 Q150 50 200 100 T300 100 T400 100" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <path d="M100 120 Q150 70 200 120 T300 120 T400 120" fill="#000" stroke="#000" stroke-width="1"/>
+  <path d="M120 140 Q170 90 220 140 T320 140 T420 140" fill="#000" stroke="#000" stroke-width="1"/>
+  <path d="M140 160 Q190 110 240 160 T340 160 T440 160" fill="#000" stroke="#000" stroke-width="1"/>
+  <circle cx="100" cy="200" r="30" fill="#FFA500"/>
+  <path d="M90 210 Q80 220 90 230" stroke="#000" stroke-width="2"/>
+  <path d="M110 210 Q120 220 110 230" stroke="#000" stroke-width="2"/>
+  <path d="M100 230 Q90 240 100 250" stroke="#000" stroke-width="2"/>
+  <path d="M100 230 Q110 240 100 250" stroke="#000" stroke-width="2"/>
+  <path d="M500 100 Q550 50 600 100 T700 100 T800 100" fill="#FFFACD" stroke="#000" stroke-width="2"/>
+  <path d="M500 120 Q550 70 600 120 T700 120 T800 120" fill="#000" stroke="#000" stroke-width="1"/>
+  <path d="M520 140 Q570 90 620 140 T720 140 T820 140" fill="#000" stroke="#000" stroke-width="1"/>
+  <path d="M540 160 Q590 110 640 160 T740 160 T840 160" fill="#000" stroke="#000" stroke-width="1"/>
+  <circle cx="500" cy="200" r="30" fill="#A0522D"/>
+  <path d="M490 210 Q480 220 490 230" stroke="#000" stroke-width="2"/>
+  <path d="M510 210 Q520 220 510 230" stroke="#000" stroke-width="2"/>
+  <path d="M500 230 Q490 240 500 250" stroke="#000" stroke-width="2"/>
+  <path d="M500 230 Q510 240 500 250" stroke="#000" stroke-width="2"/>
+</svg>

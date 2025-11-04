@@ -1,0 +1,160 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff"/>
+  <rect x="0" y="750" width="1000" height="50" fill="#8B4513"/>
+  <rect x="0" y="760" width="1000" height="40" fill="#A0522D"/>
+  
+  <!-- Left white shelf -->
+  <rect x="140" y="220" width="330" height="900" fill="none" stroke="#fff" stroke-width="4"/>
+  <line x1="140" y1="300" x2="470" y2="300" stroke="#fff" stroke-width="4"/>
+  <line x1="140" y1="450" x2="470" y2="450" stroke="#fff" stroke-width="4"/>
+  <line x1="140" y1="600" x2="470" y2="600" stroke="#fff" stroke-width="4"/>
+  <line x1="140" y1="750" x2="470" y2="750" stroke="#fff" stroke-width="4"/>
+  
+  <!-- Middle white shelf -->
+  <rect x="450" y="350" width="300" height="700" fill="none" stroke="#fff" stroke-width="4"/>
+  <line x1="450" y1="430" x2="750" y2="430" stroke="#fff" stroke-width="4"/>
+  <line x1="450" y1="550" x2="750" y2="550" stroke="#fff" stroke-width="4"/>
+  <line x1="450" y1="670" x2="750" y2="670" stroke="#fff" stroke-width="4"/>
+  <line x1="450" y1="790" x2="750" y2="790" stroke="#fff" stroke-width="4"/>
+  
+  <!-- Right wall shelves -->
+  <rect x="640" y="400" width="200" height="10" fill="#DEB887"/>
+  <rect x="640" y="570" width="200" height="10" fill="#DEB887"/>
+  
+  <!-- Hanging plants -->
+  <g>
+    <circle cx="220" cy="80" r="10" fill="#8B4513"/>
+    <line x1="220" y1="80" x2="220" y2="120" stroke="#8B4513" stroke-width="2"/>
+    <path d="M200,120 Q220,150 240,120" fill="none" stroke="#2E8B57" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="300" cy="80" r="10" fill="#8B4513"/>
+    <line x1="300" y1="80" x2="300" y2="120" stroke="#8B4513" stroke-width="2"/>
+    <path d="M280,120 Q300,150 320,120" fill="none" stroke="#2E8B57" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="380" cy="80" r="10" fill="#8B4513"/>
+    <line x1="380" y1="80" x2="380" y2="120" stroke="#8B4513" stroke-width="2"/>
+    <path d="M360,120 Q380,150 400,120" fill="none" stroke="#2E8B57" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="460" cy="80" r="10" fill="#8B4513"/>
+    <line x1="460" y1="80" x2="460" y2="120" stroke="#8B4513" stroke-width="2"/>
+    <path d="M440,120 Q460,150 480,120" fill="none" stroke="#2E8B57" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="540" cy="80" r="10" fill="#8B4513"/>
+    <line x1="540" y1="80" x2="540" y2="120" stroke="#8B4513" stroke-width="2"/>
+    <path d="M520,120 Q540,150 560,120" fill="none" stroke="#2E8B57" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="620" cy="80" r="10" fill="#8B4513"/>
+    <line x1="620" y1="80" x2="620" y2="120" stroke="#8B4513" stroke-width="2"/>
+    <path d="M600,120 Q620,150 640,120" fill="none" stroke="#2E8B57" stroke-width="3"/>
+  </g>
+  
+  <!-- Window frame on right -->
+  <rect x="880" y="0" width="120" height="600" fill="none" stroke="#8B4513" stroke-width="4"/>
+  <line x1="880" y1="200" x2="1000" y2="200" stroke="#8B4513" stroke-width="2"/>
+  <line x1="880" y1="400" x2="1000" y2="400" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Plants on shelves -->
+  <!-- Left shelf top -->
+  <rect x="170" y="250" width="40" height="50" rx="10" ry="10" fill="#D2B48C"/>
+  <rect x="230" y="250" width="40" height="50" rx="10" ry="10" fill="#FF7F50"/>
+  <rect x="290" y="250" width="40" height="50" rx="10" ry="10" fill="#8B4513"/>
+  
+  <!-- Left shelf second row -->
+  <rect x="170" y="350" width="40" height="50" rx="10" ry="10" fill="#D2B48C"/>
+  <rect x="230" y="350" width="40" height="50" rx="10" ry="10" fill="#8B4513"/>
+  <rect x="290" y="350" width="40" height="50" rx="10" ry="10" fill="#D2B48C"/>
+  
+  <!-- Left shelf third row -->
+  <rect x="170" y="500" width="40" height="50" rx="10" ry="10" fill="#D2B48C"/>
+  <rect x="230" y="500" width="40" height="50" rx="10" ry="10" fill="#8B4513"/>
+  <rect x="290" y="500" width="40" height="50" rx="10" ry="10" fill="#D2B48C"/>
+  
+  <!-- Left shelf fourth row -->
+  <rect x="170" y="650" width="40" height="50" rx="10" ry="10" fill="#FFF"/>
+  <rect x="230" y="650" width="40" height="50" rx="10" ry="10" fill="#FFF"/>
+  <rect x="290" y="650" width="40" height="50" rx="10" ry="10" fill="#FFF"/>
+  
+  <!-- Middle shelf top -->
+  <rect x="470" y="380" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="520" y="380" width="30" height="40" rx="5" ry="5" fill="#4682B4"/>
+  <rect x="570" y="380" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  
+  <!-- Middle shelf second row -->
+  <rect x="470" y="500" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="520" y="500" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="570" y="500" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  
+  <!-- Middle shelf third row -->
+  <rect x="470" y="620" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="520" y="620" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="570" y="620" width="30" height="40" rx="5" ry="5" fill="#4682B4"/>
+  
+  <!-- Middle shelf bottom row -->
+  <rect x="470" y="740" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="520" y="740" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="570" y="740" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  
+  <!-- Right wall shelves -->
+  <rect x="660" y="410" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="710" y="410" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="760" y="410" width="30" height="40" rx="5" ry="5" fill="#FF7F50"/>
+  
+  <rect x="660" y="580" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="710" y="580" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="760" y="580" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  
+  <!-- Large plant in center -->
+  <rect x="360" y="650" width="40" height="150" fill="#4682B4"/>
+  <rect x="350" y="700" width="60" height="20" fill="#8B4513"/>
+  <rect x="360" y="700" width="40" height="10" fill="#8B4513"/>
+  <rect x="350" y="700" width="60" height="10" fill="#8B4513"/>
+  
+  <!-- Tall plant trunks -->
+  <rect x="370" y="500" width="10" height="150" fill="#8B4513"/>
+  <rect x="390" y="500" width="10" height="150" fill="#8B4513"/>
+  
+  <!-- Floor plants -->
+  <rect x="50" y="780" width="100" height="100" rx="30" ry="30" fill="#F5F5F5"/>
+  <rect x="680" y="800" width="100" height="100" rx="30" ry="30" fill="#F5F5F5"/>
+  <rect x="830" y="780" width="100" height="100" rx="30" ry="30" fill="#D2B48C"/>
+  
+  <!-- Table on right -->
+  <rect x="790" y="780" width="200" height="100" fill="#8B4513"/>
+  <rect x="790" y="800" width="200" height="80" fill="#A0522D"/>
+  
+  <!-- Window sill plants -->
+  <rect x="840" y="600" width="30" height="40" rx="5" ry="5" fill="#4682B4"/>
+  <rect x="880" y="600" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  <rect x="920" y="600" width="30" height="40" rx="5" ry="5" fill="#FF7F50"/>
+  <rect x="960" y="600" width="30" height="40" rx="5" ry="5" fill="#D2B48C"/>
+  
+  <!-- Plant leaves and flowers -->
+  <!-- Large leafy plant left -->
+  <path d="M0,0 Q50,30 100,0" fill="#2E8B57"/>
+  <path d="M0,50 Q50,80 100,50" fill="#2E8B57"/>
+  <path d="M0,100 Q50,130 100,100" fill="#2E8B57"/>
+  <path d="M0,150 Q50,180 100,150" fill="#2E8B57"/>
+  
+  <!-- Center tall plant leaves -->
+  <path d="M340,230 Q360,250 380,230" fill="#2E8B57"/>
+  <path d="M340,250 Q360,270 380,250" fill="#2E8B57"/>
+  <path d="M340,270 Q360,290 380,270" fill="#2E8B57"/>
+  <path d="M340,290 Q360,310 380,290" fill="#2E8B57"/>
+  
+  <!-- Right large plant -->
+  <path d="M620,620 Q650,650 680,620" fill="#2E8B57"/>
+  <path d="M620,650 Q650,680 680,650" fill="#2E8B57"/>
+  <path d="M620,680 Q650,710 680,680" fill="#2E8B57"/>
+  <path d="M620,710 Q650,740 680,710" fill="#2E8B57"/>
+  
+  <!-- Tulips on right -->
+  <path d="M880,480 Q900,500 920,480" fill="#FF4500"/>
+  <path d="M900,480 Q920,500 940,480" fill="#FF4500"/>
+  <path d="M920,480 Q940,500 960,480" fill="#FF4500"/>
+  <path d="M940,480 Q960,500 980,480" fill="#FF4500"/>
+</svg>

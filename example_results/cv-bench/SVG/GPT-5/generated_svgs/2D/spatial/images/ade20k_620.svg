@@ -1,0 +1,193 @@
+<svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Sidewalk block pattern -->
+    <pattern id="pavement" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#c9c9c9"/>
+      <path d="M0 0 L14 0 M0 7 L14 7 M0 14 L14 14 M0 0 L0 14 M7 0 L7 14 M14 0 L14 14" stroke="#b3b3b3" stroke-width="0.6" opacity="0.6"/>
+    </pattern>
+    <!-- Storm drain pattern -->
+    <pattern id="grill" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#3e3e3e"/>
+      <rect x="0" y="2.2" width="6" height="1.6" fill="#1f1f1f"/>
+    </pattern>
+    <!-- Fence bar gradient -->
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <!-- Tree foliage gradient -->
+    <radialGradient id="leaf" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#4f8a40"/>
+      <stop offset="1" stop-color="#2e5f2a"/>
+    </radialGradient>
+    <!-- Glass shine -->
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b9d7e5" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#6ea1ba" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background: park, sidewalk, road -->
+  <rect x="0" y="0" width="520" height="190" fill="#2c5a32"/>
+  <rect x="0" y="190" width="520" height="40" fill="url(#pavement)"/>
+  <rect x="0" y="230" width="520" height="170" fill="#6d6f70"/>
+  <rect x="0" y="228" width="520" height="4" fill="#9a9a9a" opacity="0.8"/>
+
+  <!-- Distant building band -->
+  <rect x="80" y="60" width="360" height="80" fill="#6e5a47" opacity="0.7"/>
+
+  <!-- Iron fence -->
+  <g transform="translate(0,150)">
+    <rect x="0" y="22" width="520" height="5" fill="#1f1f1f"/>
+    <rect x="0" y="0" width="520" height="4" fill="#1a1a1a"/>
+    <g>
+      <g stroke="url(#bar)" stroke-width="3">
+        <line x1="20" y1="0" x2="20" y2="22"/>
+        <line x1="32" y1="0" x2="32" y2="22"/>
+        <line x1="44" y1="0" x2="44" y2="22"/>
+        <line x1="56" y1="0" x2="56" y2="22"/>
+        <line x1="68" y1="0" x2="68" y2="22"/>
+        <line x1="80" y1="0" x2="80" y2="22"/>
+        <line x1="92" y1="0" x2="92" y2="22"/>
+        <line x1="104" y1="0" x2="104" y2="22"/>
+        <line x1="116" y1="0" x2="116" y2="22"/>
+        <line x1="128" y1="0" x2="128" y2="22"/>
+        <line x1="140" y1="0" x2="140" y2="22"/>
+        <line x1="152" y1="0" x2="152" y2="22"/>
+        <line x1="164" y1="0" x2="164" y2="22"/>
+        <line x1="176" y1="0" x2="176" y2="22"/>
+        <line x1="188" y1="0" x2="188" y2="22"/>
+        <line x1="200" y1="0" x2="200" y2="22"/>
+        <line x1="212" y1="0" x2="212" y2="22"/>
+        <line x1="224" y1="0" x2="224" y2="22"/>
+        <line x1="236" y1="0" x2="236" y2="22"/>
+        <line x1="248" y1="0" x2="248" y2="22"/>
+        <line x1="260" y1="0" x2="260" y2="22"/>
+        <line x1="272" y1="0" x2="272" y2="22"/>
+        <line x1="284" y1="0" x2="284" y2="22"/>
+        <line x1="296" y1="0" x2="296" y2="22"/>
+        <line x1="308" y1="0" x2="308" y2="22"/>
+        <line x1="320" y1="0" x2="320" y2="22"/>
+        <line x1="332" y1="0" x2="332" y2="22"/>
+        <line x1="344" y1="0" x2="344" y2="22"/>
+        <line x1="356" y1="0" x2="356" y2="22"/>
+        <line x1="368" y1="0" x2="368" y2="22"/>
+        <line x1="380" y1="0" x2="380" y2="22"/>
+        <line x1="392" y1="0" x2="392" y2="22"/>
+        <line x1="404" y1="0" x2="404" y2="22"/>
+        <line x1="416" y1="0" x2="416" y2="22"/>
+        <line x1="428" y1="0" x2="428" y2="22"/>
+        <line x1="440" y1="0" x2="440" y2="22"/>
+        <line x1="452" y1="0" x2="452" y2="22"/>
+        <line x1="464" y1="0" x2="464" y2="22"/>
+        <line x1="476" y1="0" x2="476" y2="22"/>
+        <line x1="488" y1="0" x2="488" y2="22"/>
+        <line x1="500" y1="0" x2="500" y2="22"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Trees -->
+  <g opacity="0.95">
+    <rect x="300" y="95" width="12" height="64" fill="#5a3b21"/>
+    <circle cx="306" cy="88" r="30" fill="url(#leaf)"/>
+    <circle cx="326" cy="102" r="24" fill="url(#leaf)"/>
+    <rect x="430" y="95" width="12" height="64" fill="#5a3b21"/>
+    <circle cx="436" cy="84" r="28" fill="url(#leaf)"/>
+    <circle cx="416" cy="104" r="22" fill="url(#leaf)"/>
+  </g>
+
+  <!-- Stone pillar (left background) -->
+  <rect x="96" y="110" width="58" height="74" fill="#8c7f73"/>
+  <rect x="94" y="104" width="62" height="10" fill="#807268"/>
+
+  <!-- Highlighted kiosk (inside red box) -->
+  <rect x="48" y="62" width="92" height="70" fill="rgba(60,120,160,0.35)" stroke="#d21010" stroke-width="6"/>
+  <rect x="60" y="70" width="46" height="54" fill="#2c6a3c" stroke="#103b1e" stroke-width="2"/>
+  <rect x="64" y="74" width="18" height="46" fill="url(#glass)"/>
+  <rect x="86" y="74" width="18" height="46" fill="url(#glass)"/>
+
+  <!-- Group of people in the park (simplified silhouettes) -->
+  <g fill="#e1d4c6" stroke="#6f5b4f" stroke-width="1" opacity="0.9">
+    <circle cx="360" cy="148" r="8"/>
+    <rect x="354" y="156" width="12" height="18" rx="3"/>
+    <circle cx="388" cy="144" r="9"/>
+    <rect x="380" y="154" width="16" height="22" rx="4"/>
+    <circle cx="408" cy="146" r="8"/>
+    <rect x="402" y="154" width="12" height="20" rx="3"/>
+  </g>
+
+  <!-- Crosswalk (bottom-left) -->
+  <g transform="translate(20,320) rotate(-10)">
+    <rect x="-10" y="10" width="100" height="12" fill="#f2f2f2" opacity="0.95"/>
+    <rect x="-10" y="-10" width="100" height="12" fill="#f2f2f2" opacity="0.95"/>
+  </g>
+
+  <!-- Storm drain near curb -->
+  <rect x="290" y="296" width="82" height="28" rx="3" fill="url(#grill)" stroke="#1f1f1f" stroke-width="2" opacity="0.9"/>
+
+  <!-- Motorcycle -->
+  <g>
+    <!-- Wheels -->
+    <circle cx="252" cy="316" r="46" fill="#1c1c1c"/>
+    <circle cx="252" cy="316" r="36" fill="#cfd5d8"/>
+    <circle cx="252" cy="316" r="6" fill="#9fa5a8"/>
+    <circle cx="198" cy="332" r="24" fill="#1c1c1c"/>
+    <circle cx="198" cy="332" r="16" fill="#cfd5d8"/>
+    <!-- Fork and frame -->
+    <path d="M238 316 L274 240 L286 244 L262 318" stroke="#b9c2c7" stroke-width="6" fill="none"/>
+    <path d="M198 332 L220 316 L250 300 L270 300" stroke="#9ea7ad" stroke-width="6" fill="none"/>
+    <line x1="272" y1="240" x2="304" y2="238" stroke="#b6c0c6" stroke-width="4"/>
+    <!-- Headlight and handlebar -->
+    <circle cx="306" cy="236" r="10" fill="#f0f0c0" stroke="#888" stroke-width="2"/>
+    <line x1="292" y1="226" x2="306" y2="214" stroke="#8f969b" stroke-width="3"/>
+    <line x1="286" y1="226" x2="272" y2="214" stroke="#8f969b" stroke-width="3"/>
+    <!-- Fuel tank and seat -->
+    <path d="M214 300 C220 284 246 270 262 270 C270 270 282 276 284 284 C286 292 274 302 262 306 C244 312 228 312 220 310 Z" fill="#8e3d39" stroke="#6a2a28" stroke-width="2"/>
+    <rect x="206" y="304" width="30" height="14" rx="4" fill="#5a4a44"/>
+    <!-- Front fender -->
+    <path d="M214 340 C228 322 240 314 260 308" stroke="#cfd5d8" stroke-width="5" fill="none"/>
+  </g>
+
+  <!-- Jeep on right -->
+  <g>
+    <!-- Body -->
+    <rect x="350" y="240" width="150" height="90" rx="6" fill="#243c28" stroke="#182818" stroke-width="2"/>
+    <rect x="360" y="244" width="104" height="40" fill="#1f2f21"/>
+    <!-- Windows -->
+    <rect x="366" y="248" width="44" height="30" fill="url(#glass)" stroke="#0f1410" stroke-width="1"/>
+    <rect x="414" y="248" width="44" height="30" fill="url(#glass)" stroke="#0f1410" stroke-width="1"/>
+    <!-- Grille -->
+    <rect x="366" y="290" width="64" height="26" fill="#111"/>
+    <g fill="#2b2b2b">
+      <rect x="370" y="292" width="6" height="20"/>
+      <rect x="380" y="292" width="6" height="20"/>
+      <rect x="390" y="292" width="6" height="20"/>
+      <rect x="400" y="292" width="6" height="20"/>
+      <rect x="410" y="292" width="6" height="20"/>
+    </g>
+    <!-- Headlights and signals -->
+    <rect x="436" y="292" width="14" height="14" fill="#ffb347"/>
+    <rect x="452" y="292" width="14" height="14" fill="#ffb347"/>
+    <!-- License plate -->
+    <rect x="408" y="314" width="46" height="18" rx="2" fill="#b7cfe1" opacity="0.85" stroke="#8aa4b5" stroke-width="1"/>
+    <!-- Wheels -->
+    <circle cx="478" cy="326" r="30" fill="#1a1a1a"/>
+    <circle cx="478" cy="326" r="20" fill="#474747"/>
+    <circle cx="370" cy="330" r="18" fill="#1a1a1a"/>
+    <circle cx="370" cy="330" r="12" fill="#474747"/>
+  </g>
+
+  <!-- Person walking on left foreground -->
+  <g transform="translate(24,240)">
+    <circle cx="30" cy="-6" r="10" fill="#3d2b1f"/>
+    <path d="M20 0 C16 18 16 36 24 58 L46 58 C50 44 50 32 44 10 Z" fill="#3e4b40"/>
+    <rect x="6" y="64" width="16" height="24" rx="4" fill="#1b1b1b"/>
+    <rect x="44" y="64" width="18" height="24" rx="4" fill="#1b1b1b"/>
+    <ellipse cx="12" cy="90" rx="10" ry="4" fill="#eee"/>
+    <ellipse cx="54" cy="90" rx="10" ry="4" fill="#eee"/>
+  </g>
+
+  <!-- Subtle vignette edges -->
+  <rect x="0" y="0" width="520" height="400" fill="none" stroke="#000" stroke-opacity="0.15" stroke-width="4"/>
+</svg>

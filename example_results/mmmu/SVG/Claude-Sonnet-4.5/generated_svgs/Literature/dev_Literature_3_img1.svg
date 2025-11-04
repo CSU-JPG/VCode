@@ -1,0 +1,223 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Row 1 -->
+  <rect x="35" y="25" width="30" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="38" y="35" width="4" height="15" fill="#333"/>
+  <rect x="44" y="30" width="4" height="20" fill="#333"/>
+  <rect x="50" y="38" width="4" height="12" fill="#333"/>
+  
+  <circle cx="110" cy="40" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="105" cy="37" r="2" fill="#333"/>
+  <circle cx="115" cy="37" r="2" fill="#333"/>
+  <path d="M 102 45 Q 110 50 118 45" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="155" y="48" font-family="Arial" font-size="24" font-weight="bold" fill="#333">3D</text>
+  
+  <path d="M 210 30 Q 230 25 250 30 Q 245 40 250 50 Q 230 55 210 50 Q 215 40 210 30" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 220 35 L 225 40 L 235 38" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 270 50 Q 275 35 285 30 Q 290 32 290 38" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="292" cy="42" r="3" fill="#333"/>
+  <path d="M 275 45 Q 280 48 285 50" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  
+  <rect x="325" y="25" width="30" height="30" fill="none" stroke="#333" stroke-width="2" transform="rotate(45 340 40)"/>
+  <rect x="330" y="30" width="20" height="20" fill="none" stroke="#333" stroke-width="2" transform="rotate(45 340 40)"/>
+  
+  <circle cx="400" cy="40" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="400" cy="40" r="8" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="400" cy="40" r="3" fill="#333"/>
+  
+  <circle cx="460" cy="40" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 460 30 L 460 50 M 450 40 L 470 40" stroke="#333" stroke-width="2"/>
+  
+  <rect x="505" y="25" width="30" height="30" rx="3" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 505 35 L 535 35" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 565 25 L 590 25 L 590 55 L 565 55 L 565 40 L 575 35 L 585 40 L 585 55" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Row 2 -->
+  <path d="M 35 85 L 50 70 L 65 85 L 65 100 L 35 100 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="45" y="95" width="10" height="5" fill="#333"/>
+  
+  <path d="M 95 75 Q 95 70 100 70 L 120 70 Q 125 70 125 75 L 125 85 Q 120 95 110 95 Q 100 95 95 85 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="110" cy="78" r="3" fill="#333"/>
+  
+  <circle cx="170" cy="85" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="163" cy="82" r="2" fill="#333"/>
+  <circle cx="170" cy="82" r="2" fill="#333"/>
+  <circle cx="177" cy="82" r="2" fill="#333"/>
+  <circle cx="166" cy="88" r="2" fill="#333"/>
+  <circle cx="174" cy="88" r="2" fill="#333"/>
+  <circle cx="170" cy="94" r="2" fill="#333"/>
+  
+  <path d="M 215 75 L 215 95 M 215 85 L 225 75 L 225 95" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="225" cy="85" r="8" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="280" cy="85" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 280 75 L 280 95 M 270 85 L 290 85" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 330 75 Q 335 70 340 75 Q 345 70 350 75 Q 345 80 340 75 Q 335 80 330 75 M 330 85 Q 335 80 340 85 Q 345 80 350 85 Q 345 90 340 85 Q 335 90 330 85" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="400" cy="85" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 400 75 L 400 95 M 390 85 L 410 85" stroke="#333" stroke-width="2"/>
+  <circle cx="400" cy="85" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 445 75 L 465 75 L 460 85 L 465 85 Q 468 85 468 88 Q 468 95 460 95 Q 452 95 452 88" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="520" cy="85" r="12" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 513 78 L 527 92 M 527 78 L 513 92" stroke="#333" stroke-width="2"/>
+  
+  <rect x="560" y="70" width="30" height="30" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 560 80 L 590 80 M 560 90 L 590 90" stroke="#333" stroke-width="2"/>
+
+  <!-- Row 3 -->
+  <rect x="35" y="130" width="25" height="25" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="38" y="133" width="6" height="6" fill="#333"/>
+  <rect x="38" y="143" width="6" height="6" fill="#333"/>
+  <rect x="48" y="133" width="6" height="6" fill="#333"/>
+  <rect x="48" y="143" width="6" height="6" fill="#333"/>
+  
+  <rect x="95" y="130" width="10" height="25" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="95" y="137" width="10" height="4" fill="#333"/>
+  <rect x="95" y="147" width="10" height="4" fill="#333"/>
+  <rect x="110" y="130" width="10" height="25" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="110" y="137" width="10" height="4" fill="#333"/>
+  
+  <path d="M 160 135 Q 165 130 170 135 L 170 150 Q 165 155 160 150 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 165 138 Q 167 140 165 142" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 215 130 L 225 140 L 225 155 L 215 155 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 215 145 L 225 145" stroke="#333" stroke-width="2"/>
+  
+  <rect x="270" y="130" width="25" height="25" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="273" y="138" width="19" height="3" fill="#333"/>
+  <rect x="273" y="145" width="19" height="3" fill="#333"/>
+  
+  <rect x="330" y="135" width="25" height="15" rx="7" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="340" cy="142" r="5" fill="#333"/>
+  
+  <rect x="390" y="130" width="20" height="25" rx="3" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 395 135 L 405 135 M 400 140 L 400 150" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="460" cy="142" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 460 132 L 460 147 M 460 152 L 460 152" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  
+  <rect x="505" y="130" width="30" height="25" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="515" cy="140" r="3" fill="#333"/>
+  <circle cx="525" cy="140" r="3" fill="#333"/>
+  <rect x="510" y="147" width="15" height="3" fill="#333"/>
+  
+  <rect x="565" y="130" width="25" height="25" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 570 140 L 585 140 M 577.5 133 L 577.5 147" stroke="#333" stroke-width="2"/>
+
+  <!-- Row 4 -->
+  <path d="M 35 185 L 50 185 L 50 200 L 60 210 L 40 210 L 35 200 Z" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 100 185 L 105 185 L 110 190 L 110 200 L 105 205 L 95 205 L 90 200 L 95 195 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 115 185 L 120 190 L 115 195" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 160 185 Q 155 185 155 190 L 155 200 Q 155 205 160 205 L 175 205 Q 180 205 180 200 L 180 190 Q 180 185 175 185 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 165 190 L 170 195 L 165 200" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 220 185 Q 210 190 210 197 Q 210 205 220 210 Q 230 205 230 197 Q 230 190 220 185" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <rect x="270" y="185" width="25" height="25" rx="3" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 275 192 L 280 197 L 290 187" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  
+  <path d="M 335 185 L 345 185 L 350 195 L 345 210 L 335 210 L 330 195 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="340" cy="197" r="3" fill="#333"/>
+  
+  <circle cx="400" cy="197" r="12" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 395 192 L 405 202 M 405 192 L 395 202" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 455 190 L 465 190 L 465 205 L 455 205 Z M 450 185 L 450 210 M 470 185 L 470 210" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 515 185 L 530 195 L 530 210 L 510 210 L 510 195 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="520" cy="195" r="2" fill="#333"/>
+  <path d="M 520 200 L 520 207" stroke="#333" stroke-width="2"/>
+  
+  <rect x="565" y="185" width="25" height="25" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="570" y="190" width="5" height="15" fill="#333"/>
+  <rect x="578" y="190" width="5" height="15" fill="#333"/>
+  <rect x="586" y="190" width="2" height="15" fill="#333"/>
+
+  <!-- Row 5 -->
+  <rect x="35" y="250" width="8" height="8" fill="#333"/>
+  <rect x="48" y="250" width="8" height="8" fill="#333"/>
+  <rect x="61" y="250" width="8" height="8" fill="#333"/>
+  <rect x="35" y="263" width="8" height="8" fill="#333"/>
+  <rect x="48" y="263" width="8" height="8" fill="#333"/>
+  <rect x="61" y="263" width="8" height="8" fill="#333"/>
+  <rect x="35" y="276" width="8" height="8" fill="#333"/>
+  <rect x="48" y="276" width="8" height="8" fill="#333"/>
+  <rect x="61" y="276" width="8" height="8" fill="#333"/>
+  
+  <path d="M 95 250 L 110 265 L 95 280 M 110 250 L 125 265 L 110 280" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="170" cy="265" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 160 255 L 180 275 M 180 265 L 165 265 L 165 255" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <rect x="210" y="250" width="25" height="25" rx="3" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 218 258 L 227 267 L 218 276" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  
+  <path d="M 280 250 Q 270 255 270 265 Q 270 275 280 280 L 290 280 L 290 250 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="280" cy="265" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="340" cy="265" r="12" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="340" cy="265" r="7" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 340 253 L 340 247 M 328 265 L 322 265" stroke="#333" stroke-width="2"/>
+  
+  <rect x="390" y="255" width="20" height="15" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="385" y="250" width="30" height="5" fill="#333"/>
+  <rect x="395" y="258" width="10" height="3" fill="#333"/>
+  <rect x="395" y="264" width="10" height="3" fill="#333"/>
+  
+  <rect x="450" y="250" width="25" height="25" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="462" cy="262" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="455" y="270" width="14" height="2" fill="#333"/>
+  
+  <rect x="510" y="250" width="25" height="25" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="522" cy="262" r="3" fill="#333"/>
+  <path d="M 515 270 L 530 270" stroke="#333" stroke-width="2"/>
+  
+  <rect x="565" y="250" width="8" height="8" fill="#333"/>
+  <rect x="578" y="250" width="8" height="8" fill="#333"/>
+  <rect x="591" y="250" width="8" height="8" fill="#333"/>
+  <rect x="565" y="263" width="8" height="8" fill="#333"/>
+  <rect x="578" y="263" width="8" height="8" fill="#333"/>
+  <rect x="591" y="263" width="8" height="8" fill="#333"/>
+  <rect x="565" y="276" width="8" height="8" fill="#333"/>
+  <rect x="578" y="276" width="8" height="8" fill="#333"/>
+  <rect x="591" y="276" width="8" height="8" fill="#333"/>
+
+  <!-- Row 6 -->
+  <path d="M 50 310 Q 45 315 40 320 Q 35 325 35 335 Q 35 345 40 350 Q 45 355 50 360 Q 42 350 42 335 Q 42 320 50 310" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 100 310 L 120 330 L 100 350 L 90 340 Z" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 160 320 L 170 310 L 180 320 L 175 345 Q 175 355 165 355 Q 155 355 155 345 Z" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 215 315 L 215 325 L 225 315 L 225 340 L 215 350 L 215 340 L 225 330" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="280" cy="335" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="280" cy="335" r="9" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="280" cy="335" r="4" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <rect x="330" y="320" width="25" height="25" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="333" y="323" width="6" height="19" fill="#333"/>
+  <rect x="342" y="323" width="6" height="19" fill="#333"/>
+  <rect x="351" y="323" width="2" height="19" fill="#333"/>
+  
+  <rect x="390" y="320" width="25" height="20" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="395" y="315" width="15" height="5" fill="#333"/>
+  <circle cx="402" cy="330" r="3" fill="#333"/>
+  
+  <path d="M 455 320 L 470 320 L 470 340 L 455 340 Z M 460 320 L 460 310 M 460 340 L 460 350" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 452 327 L 468 327 M 452 333 L 468 333" stroke="#333" stroke-width="1.5"/>
+  
+  <path d="M 515 315 L 525 315 Q 530 315 530 320 L 530 340 Q 530 345 525 345 L 515 345 Q 510 345 510 340 L 510 330" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 520 325 L 520 335" stroke="#333" stroke-width="2"/>
+  
+  <path d="M 565 320 L 575 310 L 585 320 L 580 335 L 570 335 Z M 577 340 L 577 355" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 570 350 L 584 350" stroke="#333" stroke-width="2"/>
+
+</svg>

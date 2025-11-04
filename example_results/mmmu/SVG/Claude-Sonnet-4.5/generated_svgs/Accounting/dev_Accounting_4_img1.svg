@@ -1,0 +1,17 @@
+<svg viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="160" fill="#E8DCC8"/>
+  
+  <text x="20" y="35" font-family="Arial, sans-serif" font-size="18" fill="#000000">Average number of payments per day</text>
+  <text x="458" y="35" font-family="Arial, sans-serif" font-size="18" fill="#000000" text-anchor="end">410</text>
+  
+  <text x="20" y="70" font-family="Arial, sans-serif" font-size="18" fill="#000000">Average value of payment</text>
+  <text x="458" y="70" font-family="Arial, sans-serif" font-size="18" fill="#000000" text-anchor="end">$865</text>
+  
+  <text x="20" y="105" font-family="Arial, sans-serif" font-size="18" fill="#000000">Variable lockbox fee (per transaction)</text>
+  <text x="458" y="105" font-family="Arial, sans-serif" font-size="18" fill="#000000" text-anchor="end">$.50</text>
+  
+  <text x="20" y="140" font-family="Arial, sans-serif" font-size="18" fill="#000000">Daily interest rate on money market securities</text>
+  <text x="458" y="140" font-family="Arial, sans-serif" font-size="18" fill="#000000" text-anchor="end">.02%</text>
+  
+  <line x1="458" y1="15" x2="458" y2="145" stroke="#8B7355" stroke-width="1"/>
+</svg>

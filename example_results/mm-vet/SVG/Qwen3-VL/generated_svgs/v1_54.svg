@@ -1,0 +1,77 @@
+<svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .start-end { fill: #1a8fe3; color: white; font-family: Arial, sans-serif; font-weight: bold; }
+    .process { fill: #f44336; color: white; font-family: Arial, sans-serif; font-weight: bold; }
+    .decision { fill: #4caf50; color: white; font-family: Arial, sans-serif; font-weight: bold; }
+    .delay { fill: #ff9800; color: white; font-family: Arial, sans-serif; font-weight: bold; }
+    .arrow { fill: #ff9800; stroke: none; }
+    .label { font-family: Arial, sans-serif; font-size: 16px; fill: #333; }
+    .yes-label { fill: #4caf50; font-weight: bold; }
+    .no-label { fill: #f44336; font-weight: bold; }
+  </style>
+
+  <!-- START -->
+  <rect x="100" y="20" width="100" height="40" rx="5" class="start-end"/>
+  <text x="150" y="47" text-anchor="middle" class="start-end">START</text>
+
+  <!-- Arrow down from START -->
+  <polygon points="150,60 140,80 160,80" class="arrow"/>
+
+  <!-- Alarm Rings -->
+  <rect x="80" y="90" width="140" height="80" rx="5" class="process"/>
+  <text x="150" y="120" text-anchor="middle" class="process">Alarm</text>
+  <text x="150" y="145" text-anchor="middle" class="process">Rings</text>
+
+  <!-- Arrow down from Alarm Rings -->
+  <polygon points="150,170 140,190 160,190" class="arrow"/>
+
+  <!-- Decision: Ready to get up? -->
+  <polygon points="150,200 200,250 150,300 100,250" class="decision"/>
+  <text x="150" y="240" text-anchor="middle" class="decision">Ready</text>
+  <text x="150" y="265" text-anchor="middle" class="decision">to get</text>
+  <text x="150" y="290" text-anchor="middle" class="decision">up?</text>
+
+  <!-- YES path -->
+  <text x="190" y="320" class="yes-label">YES</text>
+  <polygon points="150,300 140,320 160,320" class="arrow"/>
+
+  <!-- Climb Out of Bed -->
+  <rect x="80" y="330" width="140" height="80" rx="5" class="process"/>
+  <text x="150" y="360" text-anchor="middle" class="process">Climb Out</text>
+  <text x="150" y="385" text-anchor="middle" class="process">of Bed</text>
+
+  <!-- Arrow down to END -->
+  <polygon points="150,410 140,430 160,430" class="arrow"/>
+
+  <!-- END -->
+  <rect x="100" y="440" width="100" height="40" rx="5" class="start-end"/>
+  <text x="150" y="467" text-anchor="middle" class="start-end">END</text>
+
+  <!-- NO path from decision -->
+  <text x="280" y="240" class="no-label">NO!</text>
+  <line x1="200" y1="250" x2="300" y2="250" stroke="#f44336" stroke-width="2"/>
+  <polygon points="300,250 290,240 290,260" fill="#f44336"/>
+
+  <!-- Hit Snooze Button -->
+  <rect x="300" y="210" width="140" height="80" rx="5" class="process"/>
+  <text x="370" y="240" text-anchor="middle" class="process">Hit</text>
+  <text x="370" y="265" text-anchor="middle" class="process">Snooze</text>
+  <text x="370" y="290" text-anchor="middle" class="process">Button</text>
+
+  <!-- Arrow up to Delay -->
+  <polygon points="370,210 360,190 380,190" class="arrow"/>
+
+  <!-- Delay -->
+  <path d="M310,150 H430 A30,30 0 0 1 460,180 V200 A30,30 0 0 1 430,230 H310 A30,30 0 0 1 280,200 V180 A30,30 0 0 1 310,150" class="delay"/>
+  <text x="370" y="190" text-anchor="middle" class="delay">Delay</text>
+
+  <!-- Arrow left to Alarm Rings -->
+  <polygon points="310,180 290,170 290,190" class="arrow"/>
+
+  <!-- Labels -->
+  <text x="470" y="190" class="label">Set for 5</text>
+  <text x="470" y="210" class="label">minutes</text>
+
+  <text x="470" y="270" class="label">Average</text>
+  <text x="470" y="290" class="label">3 times</text>
+</svg>

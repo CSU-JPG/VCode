@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#1a1a1a"/>
+  
+  <!-- Background elements -->
+  <rect x="0" y="0" width="1000" height="700" fill="#2d2d2d"/>
+  
+  <!-- Windows with diamond panes -->
+  <rect x="150" y="0" width="200" height="440" fill="#333"/>
+  <rect x="310" y="0" width="300" height="440" fill="#333"/>
+  <rect x="590" y="0" width="200" height="440" fill="#333"/>
+  
+  <!-- Window panes - left window -->
+  <g stroke="#888" stroke-width="1">
+    <line x1="160" y1="10" x2="170" y2="20"/>
+    <line x1="170" y1="10" x2="160" y2="20"/>
+    <line x1="180" y1="10" x2="190" y2="20"/>
+    <line x1="190" y1="10" x2="180" y2="20"/>
+    <!-- More lines to create diamond pattern would be here -->
+  </g>
+  
+  <!-- Window panes - middle window -->
+  <g stroke="#888" stroke-width="1">
+    <line x1="320" y1="10" x2="330" y2="20"/>
+    <line x1="330" y1="10" x2="320" y2="20"/>
+    <line x1="340" y1="10" x2="350" y2="20"/>
+    <line x1="350" y1="10" x2="340" y2="20"/>
+    <!-- More lines to create diamond pattern would be here -->
+  </g>
+  
+  <!-- Window panes - right window -->
+  <g stroke="#888" stroke-width="1">
+    <line x1="600" y1="10" x2="610" y2="20"/>
+    <line x1="610" y1="10" x2="600" y2="20"/>
+    <line x1="620" y1="10" x2="630" y2="20"/>
+    <line x1="630" y1="10" x2="620" y2="20"/>
+    <!-- More lines to create diamond pattern would be here -->
+  </g>
+  
+  <!-- Wall frames and pictures -->
+  <rect x="20" y="10" width="120" height="150" fill="#444" stroke="#fff" stroke-width="2"/>
+  <rect x="20" y="190" width="120" height="150" fill="#444" stroke="#fff" stroke-width="2"/>
+  <rect x="220" y="30" width="280" height="120" fill="#444" stroke="#fff" stroke-width="2"/>
+  <rect x="220" y="170" width="280" height="120" fill="#444" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Woman character -->
+  <rect x="390" y="80" width="280" height="600" fill="#f0e6ff"/>
+  <!-- Head -->
+  <circle cx="530" cy="140" r="40" fill="#ffe6cc"/>
+  <!-- Hair -->
+  <path d="M490 140 C470 120,460 100,480 80 C500 60,540 60,560 80 C580 100,570 120,550 140" fill="#ffd700"/>
+  <!-- Body -->
+  <rect x="450" y="180" width="160" height="300" fill="#fff"/>
+  <!-- UK flag on shirt -->
+  <rect x="470" y="220" width="120" height="80" fill="#fff"/>
+  <path d="M470 220 L590 300 M470 300 L590 220" fill="none" stroke="#000" stroke-width="10"/>
+  <path d="M510 220 L510 300 M550 220 L550 300" fill="none" stroke="#000" stroke-width="10"/>
+  <path d="M470 240 L590 240 M470 260 L590 260" fill="none" stroke="#000" stroke-width="10"/>
+  <!-- Arms -->
+  <rect x="390" y="200" width="60" height="400" fill="#f0e6ff"/>
+  <rect x="630" y="200" width="60" height="400" fill="#f0e6ff"/>
+  <!-- Legs -->
+  <rect x="460" y="480" width="60" height="200" fill="#1a1a1a"/>
+  <rect x="530" y="480" width="60" height="200" fill="#1a1a1a"/>
+  
+  <!-- Man character -->
+  <rect x="650" y="70" width="200" height="600" fill="#c0c0c0"/>
+  <!-- Head -->
+  <circle cx="730" cy="130" r="35" fill="#e0d0c0"/>
+  <!-- Hair -->
+  <path d="M700 110 C710 100,720 95,730 95 C740 95,750 100,760 110" fill="#555"/>
+  <!-- Body -->
+  <rect x="670" y="170" width="160" height="300" fill="#b0b0b0"/>
+  <!-- Arms -->
+  <rect x="650" y="200" width="20" height="200" fill="#c0c0c0"/>
+  <rect x="810" y="200" width="20" height="200" fill="#c0c0c0"/>
+  <!-- Legs -->
+  <rect x="700" y="480" width="40" height="200" fill="#222"/>
+  <rect x="750" y="480" width="40" height="200" fill="#222"/>
+  
+  <!-- Table and chairs -->
+  <rect x="0" y="500" width="180" height="20" fill="#604020"/>
+  <rect x="750" y="680" width="250" height="20" fill="#604020"/>
+  <rect x="310" y="840" width="120" height="60" fill="#805030"/>
+  
+  <!-- Beer glasses -->
+  <rect x="800" y="520" width="40" height="80" fill="#8b4513"/>
+  <rect x="880" y="700" width="60" height="100" fill="#8b4513"/>
+</svg>

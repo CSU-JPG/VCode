@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="light" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#444"/>
+      <stop offset="100%" stop-color="#111"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="#111"/>
+  <g fill="#333" stroke="#222">
+    <path d="M-50 450 C 300 350, 980 350, 1330 450 L 1330 550 C 980 450, 300 450, -50 550 Z"/>
+    <path d="M-50 560 C 300 500, 980 500, 1330 560 L 1330 650 C 980 590, 300 590, -50 650 Z"/>
+    <path d="M-50 660 C 300 630, 980 630, 1330 660 L 1330 730 C 980 700, 300 700, -50 730 Z"/>
+  </g>
+  <g fill="#b28900" opacity="0.6">
+    <path d="M-50 455 C 300 355, 980 355, 1330 455 L 1330 480 C 980 380, 300 380, -50 480 Z"/>
+    <path d="M-50 485 C 300 385, 980 385, 1330 485 L 1330 505 C 980 405, 300 405, -50 505 Z"/>
+    <path d="M-50 510 C 300 410, 980 410, 1330 510 L 1330 545 C 980 445, 300 445, -50 545 Z"/>
+    <path d="M-50 565 C 300 505, 980 505, 1330 565 L 1330 590 C 980 530, 300 530, -50 590 Z"/>
+    <path d="M-50 595 C 300 535, 980 535, 1330 595 L 1330 615 C 980 555, 300 555, -50 615 Z"/>
+    <path d="M-50 620 C 300 560, 980 560, 1330 620 L 1330 645 C 980 585, 300 585, -50 645 Z"/>
+  </g>
+  <rect x="0" y="400" width="1280" height="100" fill="#1a1a1a"/>
+  <rect x="0" y="520" width="1280" height="90" fill="#1a1a1a"/>
+  <path d="M0 720 H 1280 V 690 C 900 720, 380 720, 0 690 Z" fill="#295240"/>
+  <g id="hoop-assembly">
+    <path d="M600 720 L 610 600 L 710 600 L 720 720 Z" fill="#2d754c"/>
+    <path d="M610 600 L 620 540 L 700 540 L 710 600 Z" fill="#2d754c"/>
+    <path d="M635 540 L 640 500 C 640 450, 680 450, 680 500 L 685 540 Z" fill="#e0e0e0"/>
+    <path d="M640 500 C 640 450, 680 450, 680 500 L 675 510 C 675 460, 645 460, 645 510 Z" fill="#2d754c"/>
+    <rect x="635" y="290" width="160" height="210" fill="rgba(255,255,255,0.1)" stroke="#aaa" stroke-width="8"/>
+    <rect x="655" y="340" width="120" height="90" fill="none" stroke="#fff" stroke-width="4"/>
+    <ellipse cx="715" cy="450" rx="60" ry="15" fill="none" stroke="#e74c3c" stroke-width="6"/>
+    <path d="M660 450 C 670 490, 700 510, 715 510 S 760 490, 770 450" fill="none" stroke="#fff" stroke-width="2" opacity="0.8"/>
+    <g transform="translate(685 180)">
+      <rect x="-30" y="0" width="90" height="70" fill="#1c2833"/>
+      <path d="M0 5 a 15 15 0 1 1 0 50 a 15 15 0 1 1 0 -50 M30 5 a 15 15 0 1 1 0 50 a 15 15 0 1 1 0 -50" fill="#3498db" opacity="0.7"/>
+    </g>
+  </g>
+  <g id="man" transform="translate(950, 560)">
+    <path d="M0 0 C -20 -80, 20 -80, 40 0 L 50 140 L -10 140 Z" fill="#3498db"/>
+    <path d="M-5 0 C -15 -50, 5 -60, 15 -60 C 35 -60, 55 -50, 45 0 C 60 50, 50 100, 20 110 C -10 100, -20 50, -5 0 Z" fill="#e4bda1"/>
+    <path d="M 10 -60 c -5 -10, 15 -10, 10 0z" fill="#332211"/>
+    <rect x="-15" y="135" width="80" height="10" fill="#2c3e50"/>
+  </g>
+  <g id="woman" transform="translate(250, 200)">
+    <path d="M 0 520 L -30 200 C -20 150, 20 150, 30 200 L 90 520 L 70 520 L 30 250 L 10 520 Z" fill="#c0392b"/>
+    <line x1="30" y1="230" x2="30" y2="380" stroke="#f1f1f1" stroke-width="1.5" opacity="0.5"/>
+    <path d="M-50 150 C 50 -50, 150 -50, 250 150 C 150 250, 50 250, -50 150 Z" fill="#f1e4a2" filter="url(#blur)"/>
+    <path d="M-40 180 C -30 100, -10 80, 10 100 L 15 180 Z" fill="#e4bda1"/>
+    <path d="M 120 180 C 130 100, 150 80, 170 100 L 165 180 Z" fill="#e4bda1"/>
+    <circle cx="-35" cy="165" r="5" fill="none" stroke="#ccc" stroke-width="2"/>
+  </g>
+</svg>

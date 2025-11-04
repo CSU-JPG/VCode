@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="canGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF0000"/>
+      <stop offset="100%" stop-color="#CC0000"/>
+    </linearGradient>
+    <linearGradient id="cocaColaText" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#4B2E13"/>
+    </linearGradient>
+    <radialGradient id="sauceHighlight" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8B4513" stop-opacity="0.3"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Coca-Cola Can -->
+  <g transform="translate(10,10)">
+    <rect width="280" height="680" rx="20" ry="20" fill="url(#canGradient)" stroke="#CCCCCC" stroke-width="2"/>
+    <path d="M10,0 L270,0 L270,680 L10,680 Z" fill="url(#canGradient)" stroke="#CCCCCC" stroke-width="2"/>
+    <path d="M10,0 L270,0 L270,680 L10,680 Z" fill="url(#canGradient)" stroke="#CCCCCC" stroke-width="2"/>
+    <rect x="10" y="0" width="260" height="20" fill="#CCCCCC" stroke="#888888" stroke-width="1"/>
+    <path d="M10,20 Q140,100 270,20" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+    <path d="M10,20 Q140,100 270,20" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+    <text x="60" y="350" font-family="Arial" font-size="100" font-weight="bold" fill="url(#cocaColaText)" transform="rotate(-90 60,350)">Coca-Cola</text>
+    <text x="250" y="100" font-family="Arial" font-size="10" fill="#FFFFFF" transform="rotate(90 250,100)">Schutzmarken</text>
+    <circle cx="30" cy="600" r="20" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+    <text x="30" y="590" font-family="Arial" font-size="8" fill="#000000" text-anchor="middle">Kalorien</text>
+    <text x="30" y="605" font-family="Arial" font-size="10" fill="#000000" text-anchor="middle">105 kcal</text>
+    <text x="30" y="620" font-family="Arial" font-size="8" fill="#000000" text-anchor="middle">5%*</text>
+  </g>
+
+  <!-- Chicken Wings -->
+  <g transform="translate(300,0)">
+    <!-- Wing 1 -->
+    <path d="M300,150 C350,100 450,120 500,180 C550,240 520,300 480,350 C440,400 380,420 320,380 C260,340 240,280 280,220 Z" fill="url(#wingGradient)" stroke="#5C4033" stroke-width="1"/>
+    <path d="M300,150 C350,100 450,120 500,180 C550,240 520,300 480,350 C440,400 380,420 320,380 C260,340 240,280 280,220 Z" fill="url(#sauceHighlight)" stroke="none" opacity="0.6"/>
+    
+    <!-- Wing 2 -->
+    <path d="M400,250 C450,200 550,220 600,280 C650,340 620,400 580,450 C540,500 480,520 420,480 C360,440 340,380 380,320 Z" fill="url(#wingGradient)" stroke="#5C4033" stroke-width="1"/>
+    <path d="M400,250 C450,200 550,220 600,280 C650,340 620,400 580,450 C540,500 480,520 420,480 C360,440 340,380 380,320 Z" fill="url(#sauceHighlight)" stroke="none" opacity="0.6"/>
+    
+    <!-- Wing 3 -->
+    <path d="M500,50 C550,0 650,20 700,80 C750,140 720,200 680,250 C640,300 580,320 520,280 C460,240 440,180 480,120 Z" fill="url(#wingGradient)" stroke="#5C4033" stroke-width="1"/>
+    <path d="M500,50 C550,0 650,20 700,80 C750,140 720,200 680,250 C640,300 580,320 520,280 C460,240 440,180 480,120 Z" fill="url(#sauceHighlight)" stroke="none" opacity="0.6"/>
+    
+    <!-- Wing 4 -->
+    <path d="M600,350 C650,300 750,320 800,380 C850,440 820,500 780,550 C740,600 680,620 620,580 C560,540 540,480 580,420 Z" fill="url(#wingGradient)" stroke="#5C4033" stroke-width="1"/>
+    <path d="M600,350 C650,300 750,320 800,380 C850,440 820,500 780,550 C740,600 680,620 620,580 C560,540 540,480 580,420 Z" fill="url(#sauceHighlight)" stroke="none" opacity="0.6"/>
+    
+    <!-- Fork -->
+    <g transform="translate(700,500) rotate(45)">
+      <rect x="0" y="0" width="200" height="10" fill="#CCCCCC" stroke="#888888" stroke-width="1"/>
+      <rect x="0" y="15" width="10" height="50" fill="#CCCCCC" stroke="#888888" stroke-width="1"/>
+      <rect x="20" y="15" width="10" height="50" fill="#CCCCCC" stroke="#888888" stroke-width="1"/>
+      <rect x="40" y="15" width="10" height="50" fill="#CCCCCC" stroke="#888888" stroke-width="1"/>
+      <rect x="60" y="15" width="10" height="50" fill="#CCCCCC" stroke="#888888" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

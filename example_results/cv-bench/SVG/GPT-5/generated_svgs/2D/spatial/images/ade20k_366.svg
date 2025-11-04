@@ -1,0 +1,185 @@
+<svg viewBox="0 0 920 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3f7"/>
+      <stop offset="1" stop-color="#d9e0e5"/>
+    </linearGradient>
+    <linearGradient id="rightWallGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfd6db"/>
+      <stop offset="1" stop-color="#b9c1c7"/>
+    </linearGradient>
+    <linearGradient id="counterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9d3d8"/>
+      <stop offset="1" stop-color="#b8c3c8"/>
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfd7dc"/>
+      <stop offset="1" stop-color="#aab3b8"/>
+    </linearGradient>
+    <linearGradient id="sinkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9aa5ab"/>
+      <stop offset="0.5" stop-color="#808b92"/>
+      <stop offset="1" stop-color="#6e7980"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#723e18"/>
+      <stop offset="1" stop-color="#4e2a10"/>
+    </linearGradient>
+    <linearGradient id="woodEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b07b4a"/>
+      <stop offset="1" stop-color="#7e4f2a"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1418"/>
+      <stop offset="1" stop-color="#263036"/>
+    </linearGradient>
+    <radialGradient id="burnerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2b2f33"/>
+      <stop offset="0.6" stop-color="#111416"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="kettleBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f9fb"/>
+      <stop offset="1" stop-color="#e3e7eb"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9eef2"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <filter id="innerShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset dx="0" dy="1"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .6 0"/>
+      <feComposite in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background walls -->
+  <rect x="0" y="0" width="920" height="620" fill="url(#wallGrad)"/>
+  <polygon points="520,0 920,0 920,620 620,620" fill="url(#rightWallGrad)"/>
+
+  <!-- Upper shelf / trim -->
+  <polygon points="60,80 650,40 660,70 70,110" fill="#7a4b2a"/>
+  <polygon points="60,80 650,40 760,115 170,160" fill="#8b5a36" opacity="0.35"/>
+
+  <!-- Paper towel holder -->
+  <g transform="translate(650,110)">
+    <rect x="-4" y="-6" width="92" height="16" rx="8" fill="#c9cfd4"/>
+    <rect x="10" y="-12" width="64" height="24" rx="12" fill="url(#paperGrad)" stroke="#d1d7dc"/>
+  </g>
+
+  <!-- Countertop (L-shape) -->
+  <g>
+    <polygon points="40,150 700,95 720,140 340,220 50,260" fill="url(#counterGrad)" stroke="#9aa5ab"/>
+    <polygon points="340,220 720,140 890,200 520,280" fill="url(#counterGrad)" stroke="#9aa5ab"/>
+  </g>
+
+  <!-- Wooden cabinet faces under counter -->
+  <g>
+    <polygon points="50,260 340,220 345,420 52,470" fill="url(#woodGrad)"/>
+    <polygon points="345,420 340,220 520,280 525,485" fill="url(#woodGrad)"/>
+    <polygon points="50,260 340,220 350,205 60,245" fill="url(#woodEdge)"/>
+    <polygon points="340,220 720,140 735,130 350,205" fill="url(#woodEdge)"/>
+    <!-- Cabinet doors -->
+    <rect x="85" y="290" width="100" height="145" fill="#6a3a19" stroke="#3c1f0d"/>
+    <rect x="198" y="274" width="116" height="170" fill="#693918" stroke="#3c1f0d"/>
+    <circle cx="175" cy="365" r="5" fill="#d8c099"/>
+    <circle cx="305" cy="360" r="5" fill="#d8c099"/>
+  </g>
+
+  <!-- Double sink -->
+  <g transform="translate(120,175)">
+    <!-- Cutout rim -->
+    <rect x="0" y="0" width="185" height="85" rx="10" fill="url(#steelGrad)" stroke="#7e8a90"/>
+    <g transform="translate(10,10)">
+      <rect x="0" y="0" width="75" height="65" rx="10" fill="url(#sinkGrad)" filter="url(#innerShadow)"/>
+      <rect x="90" y="0" width="75" height="65" rx="10" fill="url(#sinkGrad)" filter="url(#innerShadow)"/>
+      <circle cx="38" cy="33" r="6" fill="#4a5257"/>
+      <circle cx="128" cy="33" r="6" fill="#4a5257"/>
+    </g>
+    <!-- Faucet -->
+    <path d="M165,10 q25,-25 55,-8 q18,8 28,30 l-16,6 q-10,-20 -20,-24 q-21,-9 -36,10 v40 h-11 z" fill="#b6c0c6" stroke="#7a8389"/>
+    <rect x="150" y="45" width="38" height="10" rx="5" fill="#9aa4aa"/>
+    <circle cx="152" cy="50" r="5" fill="#86b9e0"/>
+    <circle cx="186" cy="50" r="5" fill="#e79c9a"/>
+  </g>
+
+  <!-- Soap bottles on the back -->
+  <g transform="translate(260,125)">
+    <path d="M0,30 h24 v28 a10,10 0 0 1 -24,0 z" fill="#f1e7a9" stroke="#8b7e34"/>
+    <rect x="7" y="12" width="10" height="12" rx="2" fill="#d8d095" stroke="#8b7e34"/>
+    <rect x="4" y="8" width="16" height="5" rx="2" fill="#a2a2a2"/>
+  </g>
+  <g transform="translate(295,120)">
+    <path d="M0,30 h24 v30 a10,10 0 0 1 -24,0 z" fill="#c9f0d3" stroke="#4a8b59"/>
+    <rect x="7" y="12" width="10" height="12" rx="2" fill="#a6dbb5" stroke="#4a8b59"/>
+    <rect x="4" y="8" width="16" height="5" rx="2" fill="#a2a2a2"/>
+  </g>
+
+  <!-- Stove and oven block -->
+  <g transform="translate(560,210)">
+    <!-- Side steel top -->
+    <polygon points="0,0 180,-40 340,10 170,55" fill="url(#steelGrad)" stroke="#8a949a"/>
+    <!-- Cooktop surface -->
+    <polygon points="10,8 175,-30 320,10 155,48" fill="#8a959b" stroke="#6c757a"/>
+    <!-- Burners -->
+    <g transform="translate(60,-2)">
+      <circle cx="0" cy="0" r="26" fill="url(#burnerGlow)"/>
+      <circle cx="0" cy="0" r="18" fill="#2f3438"/>
+      <path d="M0,-14 l0,28 M-14,0 l28,0 M-10,-10 l20,20 M-10,10 l20,-20" stroke="#555" stroke-width="2"/>
+    </g>
+    <g transform="translate(140,18)">
+      <circle cx="0" cy="0" r="22" fill="url(#burnerGlow)"/>
+      <circle cx="0" cy="0" r="15" fill="#2f3438"/>
+      <path d="M0,-12 l0,24 M-12,0 l24,0 M-9,-9 l18,18 M-9,9 l18,-18" stroke="#555" stroke-width="2"/>
+    </g>
+    <g transform="translate(220,-22)">
+      <circle cx="0" cy="0" r="24" fill="url(#burnerGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="#2f3438"/>
+      <path d="M0,-12 l0,24 M-12,0 l24,0 M-9,-9 l18,18 M-9,9 l18,-18" stroke="#555" stroke-width="2"/>
+    </g>
+
+    <!-- Kettle -->
+    <g transform="translate(200,-46)" filter="url(#softShadow)">
+      <ellipse cx="28" cy="30" rx="38" ry="28" fill="url(#kettleBody)" stroke="#c6ccd1"/>
+      <path d="M6,10 q28,-18 54,0" fill="none" stroke="#e9edf0" stroke-width="4"/>
+      <path d="M10,-6 q18,-18 36,0" fill="none" stroke="#202427" stroke-width="8"/>
+      <circle cx="46" cy="-8" r="6" fill="#202427"/>
+      <path d="M57,20 q22,10 26,0 q-4,14 -20,6" fill="#dfe6eb" stroke="#a0a9af"/>
+    </g>
+
+    <!-- Front oven face -->
+    <polygon points="-15,40 170,-7 175,170 -20,220" fill="#3b3f43" stroke="#1e2124"/>
+    <!-- Control panel -->
+    <polygon points="-12,48 166,2 167,32 -10,78" fill="#5b6166"/>
+    <!-- Knobs -->
+    <g transform="translate(-2,10)">
+      <circle cx="30" cy="55" r="10" fill="#c9cfd4" stroke="#7b848a"/>
+      <circle cx="70" cy="45" r="10" fill="#c9cfd4" stroke="#7b848a"/>
+      <circle cx="110" cy="35" r="10" fill="#c9cfd4" stroke="#7b848a"/>
+      <rect x="25" y="49" width="3" height="12" fill="#5a6166"/>
+      <rect x="65" y="39" width="3" height="12" fill="#5a6166"/>
+      <rect x="105" y="29" width="3" height="12" fill="#5a6166"/>
+    </g>
+    <!-- Oven door -->
+    <g transform="translate(20,70)">
+      <rect x="-10" y="0" width="130" height="86" rx="6" fill="#1f2327" stroke="#0e1113"/>
+      <rect x="-2" y="10" width="114" height="58" rx="4" fill="url(#glassGrad)"/>
+      <rect x="30" y="-16" width="50" height="8" rx="4" fill="#cdd3d8"/>
+    </g>
+  </g>
+
+  <!-- Counter corner seam -->
+  <path d="M340,220 L520,280" stroke="#8f9aa0" stroke-width="2"/>
+
+  <!-- Light reflections/highlights on counter -->
+  <path d="M60,172 L325,135" stroke="#e6edf1" stroke-width="4" opacity="0.35"/>
+  <path d="M355,205 L690,140" stroke="#e6edf1" stroke-width="3" opacity="0.25"/>
+
+  <!-- Floor hint -->
+  <polygon points="0,500 920,620 920,620 0,620" fill="#a7adb2" opacity="0.35"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#4a4a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="resinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffde7a;" />
+      <stop offset="50%" style="stop-color:#e8960c;" />
+      <stop offset="100%" style="stop-color:#c46f06;" />
+    </linearGradient>
+    <linearGradient id="resinHighlightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff7e0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ffcc4d;stop-opacity:0.3" />
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#grad1)"/>
+  <g id="background_bark" filter="url(#blur)" opacity="0.6">
+    <path d="M200,0 V600 H500 V0 Z" fill="#383025"/>
+    <path d="M150,0 V600 H350 V0 Z" fill="#453823"/>
+  </g>
+  <g id="bark">
+    <path d="M165 0 C 180 150, 220 300, 230 600 L 550 600 C 500 350, 480 150, 470 0 Z" fill="#211d18"/>
+    <path d="M240 0 C 245 180, 260 400, 270 600 L 480 600 C 460 380, 440 180, 450 0 Z" fill="#3e362d" opacity="0.8"/>
+    <path d="M230 0 C 280 150, 290 350, 280 600" fill="none" stroke="#1a1612" stroke-width="15"/>
+    <path d="M460 0 C 420 180, 410 400, 430 600" fill="none" stroke="#1a1612" stroke-width="12"/>
+    <path d="M300 250 C 350 300, 320 400, 310 450" fill="none" stroke="#504538" stroke-width="4"/>
+    <path d="M455 520 Q 400 550 350 590" fill="none" stroke="#6e5b42" stroke-width="3"/>
+    <path d="M240 100 C 200 150, 230 250, 250 300" fill="none" stroke="#1c1814" stroke-width="3"/>
+  </g>
+  <g id="resin" transform="translate(30, 20)">
+    <path d="M281 50 C 210 120, 200 280, 280 320 C 360 360, 380 200, 330 80 C 310 30, 290 35, 281 50 Z" fill="#8c5a0e" opacity="0.4"/>
+    <path d="M290 300 C 220 370, 200 480, 290 530 C 380 580, 400 450, 340 330 C 320 280, 305 290, 290 300 Z" fill="#8c5a0e" opacity="0.5"/>
+    <path d="M230,120 C 190,160 180,220 230,260 C 280,300 300,200 260,140 C 250,120 240,115, 230,120Z" fill="url(#resinGrad)" opacity="0.9"/>
+    <path d="M300,315 C 250,380 250,490 320,525 C 390,560 400,450 350,355 C 330,320 315,310, 300,315Z" fill="url(#resinGrad)" opacity="0.95"/>
+    <path d="M280,40 C 240,120 250,280 300,310 C 350,340 370,220 330,90 C 315,40 290,30, 280,40Z" fill="url(#resinGrad)" opacity="0.9"/>
+    <path d="M280,40 C 260,80 270,150 290,170 C 320,200 340,150 320,80 C 310,40,290,30, 280,40Z" fill="#a06b0a" opacity="0.7"/>
+    <path d="M305,325 C 285,380 290,450 315,475 C 340,500 360,450 345,375 C 335,330 315,320, 305,325Z" fill="#a06b0a" opacity="0.7"/>
+    <path d="M205,150 C 190,170 190,200 210,215 C 230,230 245,200 230,170 C 220,150, 215,145, 205,150Z" fill="url(#resinHighlightGrad)"/>
+    <path d="M280,380 C 270,420 280,470 310,480 C 340,490 355,440 335,400 C 320,370, 290,360, 280,380Z" fill="url(#resinHighlightGrad)"/>
+    <path d="M265,75 C 260,95 270,120 285,125 C 300,130 310,110 300,90 C 290,75, 270,70, 265,75Z" fill="url(#resinHighlightGrad)"/>
+    <path d="M350,250 C 345,270 350,290,360,295 C 370,300,378,285,372,270 C 368,255, 355,245, 350,250Z" fill="url(#resinGrad)" opacity="0.8"/>
+  </g>
+</svg>

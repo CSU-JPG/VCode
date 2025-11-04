@@ -1,0 +1,112 @@
+<svg viewBox="0 0 920 1220" xmlns="http://www.w3.org/2000/svg">
+  <!-- BOOK table -->
+  <rect x="30" y="60" width="500" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="175" y1="60" x2="175" y2="120" stroke="black" stroke-width="2"/>
+  <line x1="275" y1="60" x2="275" y2="120" stroke="black" stroke-width="2"/>
+  <text x="102" y="95" font-family="Arial" font-size="20" text-anchor="middle">Book_id</text>
+  <text x="225" y="95" font-family="Arial" font-size="20" text-anchor="middle">Title</text>
+  <text x="402" y="95" font-family="Arial" font-size="20" text-anchor="middle">Publisher_name</text>
+  <text x="30" y="45" font-family="Arial" font-size="24" font-weight="bold">BOOK</text>
+  
+  <!-- BOOK_AUTHORS table -->
+  <rect x="30" y="240" width="375" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="175" y1="240" x2="175" y2="300" stroke="black" stroke-width="2"/>
+  <text x="102" y="275" font-family="Arial" font-size="20" text-anchor="middle">Book_id</text>
+  <text x="285" y="275" font-family="Arial" font-size="20" text-anchor="middle">Author_name</text>
+  <text x="30" y="225" font-family="Arial" font-size="24" font-weight="bold">BOOK_AUTHORS</text>
+  
+  <!-- PUBLISHER table -->
+  <rect x="30" y="415" width="426" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="152" y1="415" x2="152" y2="475" stroke="black" stroke-width="2"/>
+  <line x1="304" y1="415" x2="304" y2="475" stroke="black" stroke-width="2"/>
+  <text x="91" y="450" font-family="Arial" font-size="20" text-anchor="middle">Name</text>
+  <text x="228" y="450" font-family="Arial" font-size="20" text-anchor="middle">Address</text>
+  <text x="380" y="450" font-family="Arial" font-size="20" text-anchor="middle">Phone</text>
+  <text x="30" y="400" font-family="Arial" font-size="24" font-weight="bold">PUBLISHER</text>
+  
+  <!-- BOOK_COPIES table -->
+  <rect x="30" y="585" width="585" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="175" y1="585" x2="175" y2="645" stroke="black" stroke-width="2"/>
+  <line x1="340" y1="585" x2="340" y2="645" stroke="black" stroke-width="2"/>
+  <text x="102" y="620" font-family="Arial" font-size="20" text-anchor="middle">Book_id</text>
+  <text x="257" y="620" font-family="Arial" font-size="20" text-anchor="middle">Branch_id</text>
+  <text x="457" y="620" font-family="Arial" font-size="20" text-anchor="middle">No_of_copies</text>
+  <text x="30" y="570" font-family="Arial" font-size="24" font-weight="bold">BOOK_COPIES</text>
+  
+  <!-- BOOK_LOANS table -->
+  <rect x="30" y="760" width="830" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="175" y1="760" x2="175" y2="820" stroke="black" stroke-width="2"/>
+  <line x1="340" y1="760" x2="340" y2="820" stroke="black" stroke-width="2"/>
+  <line x1="490" y1="760" x2="490" y2="820" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="760" x2="650" y2="820" stroke="black" stroke-width="2"/>
+  <text x="102" y="795" font-family="Arial" font-size="20" text-anchor="middle">Book_id</text>
+  <text x="257" y="795" font-family="Arial" font-size="20" text-anchor="middle">Branch_id</text>
+  <text x="415" y="795" font-family="Arial" font-size="20" text-anchor="middle">Card_no</text>
+  <text x="570" y="795" font-family="Arial" font-size="20" text-anchor="middle">Date_out</text>
+  <text x="740" y="795" font-family="Arial" font-size="20" text-anchor="middle">Due_date</text>
+  <text x="30" y="745" font-family="Arial" font-size="24" font-weight="bold">BOOK_LOANS</text>
+  
+  <!-- LIBRARY_BRANCH table -->
+  <rect x="30" y="935" width="570" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="202" y1="935" x2="202" y2="995" stroke="black" stroke-width="2"/>
+  <line x1="428" y1="935" x2="428" y2="995" stroke="black" stroke-width="2"/>
+  <text x="116" y="970" font-family="Arial" font-size="20" text-anchor="middle">Branch_id</text>
+  <text x="315" y="970" font-family="Arial" font-size="20" text-anchor="middle">Branch_name</text>
+  <text x="514" y="970" font-family="Arial" font-size="20" text-anchor="middle">Address</text>
+  <text x="30" y="920" font-family="Arial" font-size="24" font-weight="bold">LIBRARY_BRANCH</text>
+  
+  <!-- BORROWER table -->
+  <rect x="30" y="1110" width="612" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="180" y1="1110" x2="180" y2="1170" stroke="black" stroke-width="2"/>
+  <line x1="337" y1="1110" x2="337" y2="1170" stroke="black" stroke-width="2"/>
+  <line x1="494" y1="1110" x2="494" y2="1170" stroke="black" stroke-width="2"/>
+  <text x="105" y="1145" font-family="Arial" font-size="20" text-anchor="middle">Card_no</text>
+  <text x="258" y="1145" font-family="Arial" font-size="20" text-anchor="middle">Name</text>
+  <text x="415" y="1145" font-family="Arial" font-size="20" text-anchor="middle">Address</text>
+  <text x="573" y="1145" font-family="Arial" font-size="20" text-anchor="middle">Phone</text>
+  <text x="30" y="1095" font-family="Arial" font-size="24" font-weight="bold">BORROWER</text>
+  
+  <!-- Relationships -->
+  <!-- BOOK to BOOK_AUTHORS -->
+  <polyline points="102,120 102,160 102,240" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <polyline points="115,120 115,160 115,240" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <polyline points="128,120 128,160 128,240" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- BOOK to PUBLISHER -->
+  <polyline points="420,120 420,200 91,200 91,415" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- BOOK to BOOK_COPIES -->
+  <polyline points="520,90 890,90 890,615 615,615" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- BOOK_AUTHORS to BOOK -->
+  <polyline points="102,300 102,330 430,330" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- BOOK_COPIES to BOOK -->
+  <polyline points="102,645 102,680 890,680 890,90 530,90" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- BOOK_COPIES to LIBRARY_BRANCH -->
+  <polyline points="257,645 257,935" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- BOOK_LOANS to BOOK -->
+  <polyline points="102,820 102,850 890,850 890,90 530,90" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- BOOK_LOANS to LIBRARY_BRANCH -->
+  <polyline points="257,820 257,935" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- BOOK_LOANS to BORROWER -->
+  <polyline points="415,820 415,880 105,880 105,1110" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- LIBRARY_BRANCH to BOOK_COPIES (two arrows) -->
+  <polyline points="116,995 116,1030 110,1030 110,1060 890,1060 890,615 615,615" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <polyline points="130,995 130,1030 124,1030 124,1070 900,1070 900,615 615,615" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- BORROWER to BOOK_LOANS -->
+  <polyline points="105,1170 105,1190 415,1190 415,820" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+</svg>

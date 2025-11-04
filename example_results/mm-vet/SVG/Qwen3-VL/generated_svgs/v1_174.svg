@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#fff"/>
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a3a2a"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8e6d9"/>
+      <stop offset="100%" stop-color="#e0c8b7"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1000" height="1000" fill="#ddd"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="url(#shirt)"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="url(#skin)"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="url(#hair)"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="#fff"/>
+</svg>

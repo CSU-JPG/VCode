@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50,50 C100,100 300,150 350,250" fill="none" stroke="black" stroke-width="5"/>
+  <circle cx="300" cy="200" r="15" stroke="black" fill="none"/>
+  <line x1="285" y1="185" x2="315" y2="215" stroke="black"/>
+  <line x1="315" y1="185" x2="285" y2="215" stroke="black"/>
+  <circle cx="50" cy="50" r="5" fill="black"/>
+  <text x="50" y="50" font-size="12" text-anchor="middle" fill="white">1</text>
+  <circle cx="300" cy="200" r="5" fill="black"/>
+  <text x="300" y="200" font-size="12" text-anchor="middle" fill="white">2</text>
+  <text x="200" y="100" font-size="14" text-anchor="middle">Constant-diameter pipe</text>
+  <text x="200" y="280" font-size="14" text-anchor="middle">Fig. P3.133</text>
+</svg>

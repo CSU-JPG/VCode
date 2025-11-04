@@ -1,0 +1,31 @@
+<svg viewBox="0 0 520 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="160" fill="#f5f5f5"/>
+  
+  <rect x="10" y="10" width="500" height="35" fill="#7b5c8a"/>
+  <text x="30" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Present Value</text>
+  <text x="155" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Years</text>
+  <text x="260" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Interest Rate</text>
+  <text x="400" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Future Value</text>
+  
+  <rect x="10" y="45" width="500" height="25" fill="#e8dfd5"/>
+  <text x="20" y="63" font-family="Arial, sans-serif" font-size="13" fill="#333">$</text>
+  <text x="80" y="63" font-family="Arial, sans-serif" font-size="13" fill="#333">625</text>
+  <text x="290" y="63" font-family="Arial, sans-serif" font-size="13" fill="#333">7%</text>
+  <text x="400" y="63" font-family="Arial, sans-serif" font-size="13" fill="#333">$</text>
+  <text x="440" y="63" font-family="Arial, sans-serif" font-size="13" fill="#333">1,284</text>
+  
+  <rect x="10" y="70" width="500" height="25" fill="#d4c4b0"/>
+  <text x="80" y="88" font-family="Arial, sans-serif" font-size="13" fill="#333">810</text>
+  <text x="180" y="88" font-family="Arial, sans-serif" font-size="13" fill="#333">12</text>
+  <text x="440" y="88" font-family="Arial, sans-serif" font-size="13" fill="#333">4,341</text>
+  
+  <rect x="10" y="95" width="500" height="25" fill="#e8dfd5"/>
+  <text x="60" y="113" font-family="Arial, sans-serif" font-size="13" fill="#333">16,500</text>
+  <text x="180" y="113" font-family="Arial, sans-serif" font-size="13" fill="#333">17</text>
+  <text x="425" y="113" font-family="Arial, sans-serif" font-size="13" fill="#333">402,662</text>
+  
+  <rect x="10" y="120" width="500" height="25" fill="#d4c4b0"/>
+  <text x="60" y="138" font-family="Arial, sans-serif" font-size="13" fill="#333">21,500</text>
+  <text x="185" y="138" font-family="Arial, sans-serif" font-size="13" fill="#333">8</text>
+  <text x="425" y="138" font-family="Arial, sans-serif" font-size="13" fill="#333">147,350</text>
+</svg>

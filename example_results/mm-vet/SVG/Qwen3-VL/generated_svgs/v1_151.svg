@@ -1,0 +1,210 @@
+<svg viewBox="0 0 1000 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="900" fill="white"/>
+  
+  <!-- Title -->
+  <text x="500" y="60" font-family="Arial" font-size="48" text-anchor="middle" fill="black">My Handwriting In Exams</text>
+  
+  <!-- Section 1: First two pages -->
+  <rect x="0" y="120" width="1000" height="80" fill="black"/>
+  <text x="500" y="170" font-family="Arial" font-size="48" text-anchor="middle" fill="white">First two pages</text>
+  <text x="20" y="240" font-family="Courier" font-size="36" fill="blue">
+    Global warming is definitely a very huge
+    <tspan x="20" dy="45">issue in front of this entire World.</tspan>
+    <tspan x="20" dy="45">It's causing several disturbances in the</tspan>
+  </text>
+  
+  <!-- Section 2: Middle pages -->
+  <rect x="0" y="400" width="1000" height="80" fill="black"/>
+  <text x="500" y="450" font-family="Arial" font-size="48" text-anchor="middle" fill="white">Middle pages</text>
+  <text x="20" y="520" font-family="Courier" font-size="36" fill="blue">
+    Also it causes the melt down of
+    <tspan x="20" dy="45">glaciers and magnifies ocean water</tspan>
+    <tspan x="20" dy="45">pollution and thus magnify the</tspan>
+  </text>
+  
+  <!-- Section 3: Last two pages -->
+  <rect x="0" y="700" width="1000" height="80" fill="black"/>
+  <text x="500" y="750" font-family="Arial" font-size="48" text-anchor="middle" fill="white">Last two pages</text>
+  
+  <!-- ECG-like graph -->
+  <g transform="translate(20,790)">
+    <!-- Grid lines -->
+    <g stroke="#ccc" stroke-width="0.5">
+      <!-- Vertical grid lines -->
+      <line x1="0" y1="0" x2="0" y2="100"/>
+      <line x1="20" y1="0" x2="20" y2="100"/>
+      <line x1="40" y1="0" x2="40" y2="100"/>
+      <line x1="60" y1="0" x2="60" y2="100"/>
+      <line x1="80" y1="0" x2="80" y2="100"/>
+      <line x1="100" y1="0" x2="100" y2="100"/>
+      <line x1="120" y1="0" x2="120" y2="100"/>
+      <line x1="140" y1="0" x2="140" y2="100"/>
+      <line x1="160" y1="0" x2="160" y2="100"/>
+      <line x1="180" y1="0" x2="180" y2="100"/>
+      <line x1="200" y1="0" x2="200" y2="100"/>
+      <line x1="220" y1="0" x2="220" y2="100"/>
+      <line x1="240" y1="0" x2="240" y2="100"/>
+      <line x1="260" y1="0" x2="260" y2="100"/>
+      <line x1="280" y1="0" x2="280" y2="100"/>
+      <line x1="300" y1="0" x2="300" y2="100"/>
+      <line x1="320" y1="0" x2="320" y2="100"/>
+      <line x1="340" y1="0" x2="340" y2="100"/>
+      <line x1="360" y1="0" x2="360" y2="100"/>
+      <line x1="380" y1="0" x2="380" y2="100"/>
+      <line x1="400" y1="0" x2="400" y2="100"/>
+      <line x1="420" y1="0" x2="420" y2="100"/>
+      <line x1="440" y1="0" x2="440" y2="100"/>
+      <line x1="460" y1="0" x2="460" y2="100"/>
+      <line x1="480" y1="0" x2="480" y2="100"/>
+      <line x1="500" y1="0" x2="500" y2="100"/>
+      <line x1="520" y1="0" x2="520" y2="100"/>
+      <line x1="540" y1="0" x2="540" y2="100"/>
+      <line x1="560" y1="0" x2="560" y2="100"/>
+      <line x1="580" y1="0" x2="580" y2="100"/>
+      <line x1="600" y1="0" x2="600" y2="100"/>
+      <line x1="620" y1="0" x2="620" y2="100"/>
+      <line x1="640" y1="0" x2="640" y2="100"/>
+      <line x1="660" y1="0" x2="660" y2="100"/>
+      <line x1="680" y1="0" x2="680" y2="100"/>
+      <line x1="700" y1="0" x2="700" y2="100"/>
+      <line x1="720" y1="0" x2="720" y2="100"/>
+      <line x1="740" y1="0" x2="740" y2="100"/>
+      <line x1="760" y1="0" x2="760" y2="100"/>
+      <line x1="780" y1="0" x2="780" y2="100"/>
+      <line x1="800" y1="0" x2="800" y2="100"/>
+      <line x1="820" y1="0" x2="820" y2="100"/>
+      <line x1="840" y1="0" x2="840" y2="100"/>
+      <line x1="860" y1="0" x2="860" y2="100"/>
+      <line x1="880" y1="0" x2="880" y2="100"/>
+      <line x1="900" y1="0" x2="900" y2="100"/>
+      <line x1="920" y1="0" x2="920" y2="100"/>
+      <line x1="940" y1="0" x2="940" y2="100"/>
+      <line x1="960" y1="0" x2="960" y2="100"/>
+      <line x1="980" y1="0" x2="980" y2="100"/>
+      
+      <!-- Horizontal grid lines -->
+      <line x1="0" y1="0" x2="980" y2="0"/>
+      <line x1="0" y1="20" x2="980" y2="20"/>
+      <line x1="0" y1="40" x2="980" y2="40"/>
+      <line x1="0" y1="60" x2="980" y2="60"/>
+      <line x1="0" y1="80" x2="980" y2="80"/>
+      <line x1="0" y1="100" x2="980" y2="100"/>
+    </g>
+    
+    <!-- ECG line - simplified representation -->
+    <path d="M0,50 
+             L10,45 
+             L20,55 
+             L30,40 
+             L40,50 
+             L50,30 
+             L60,50 
+             L70,45 
+             L80,55 
+             L90,40 
+             L100,50 
+             L110,30 
+             L120,50 
+             L130,45 
+             L140,55 
+             L150,40 
+             L160,50 
+             L170,30 
+             L180,50 
+             L190,45 
+             L200,55 
+             L210,40 
+             L220,50 
+             L230,30 
+             L240,50 
+             L250,45 
+             L260,55 
+             L270,40 
+             L280,50 
+             L290,30 
+             L300,50 
+             L310,45 
+             L320,55 
+             L330,40 
+             L340,50 
+             L350,30 
+             L360,50 
+             L370,45 
+             L380,55 
+             L390,40 
+             L400,50 
+             L410,30 
+             L420,50 
+             L430,45 
+             L440,55 
+             L450,40 
+             L460,50 
+             L470,30 
+             L480,50 
+             L490,45 
+             L500,55 
+             L510,40 
+             L520,50 
+             L530,30 
+             L540,50 
+             L550,45 
+             L560,55 
+             L570,40 
+             L580,50 
+             L590,30 
+             L600,50 
+             L610,45 
+             L620,55 
+             L630,40 
+             L640,50 
+             L650,30 
+             L660,50 
+             L670,45 
+             L680,55 
+             L690,40 
+             L700,50 
+             L710,30 
+             L720,50 
+             L730,45 
+             L740,55 
+             L750,40 
+             L760,50 
+             L770,30 
+             L780,50 
+             L790,45 
+             L800,55 
+             L810,40 
+             L820,50 
+             L830,30 
+             L840,50 
+             L850,45 
+             L860,55 
+             L870,40 
+             L880,50 
+             L890,30 
+             L900,50 
+             L910,45 
+             L920,55 
+             L930,40 
+             L940,50 
+             L950,30 
+             L960,50 
+             L970,45 
+             L980,55" 
+          fill="none" stroke="black" stroke-width="1"/>
+    
+    <!-- Labels for ECG leads -->
+    <text x="0" y="115" font-family="Arial" font-size="8" fill="black">I</text>
+    <text x="20" y="115" font-family="Arial" font-size="8" fill="black">II</text>
+    <text x="40" y="115" font-family="Arial" font-size="8" fill="black">III</text>
+    <text x="60" y="115" font-family="Arial" font-size="8" fill="black">aVR</text>
+    <text x="80" y="115" font-family="Arial" font-size="8" fill="black">aVL</text>
+    <text x="100" y="115" font-family="Arial" font-size="8" fill="black">aVF</text>
+    <text x="120" y="115" font-family="Arial" font-size="8" fill="black">V1</text>
+    <text x="140" y="115" font-family="Arial" font-size="8" fill="black">V2</text>
+    <text x="160" y="115" font-family="Arial" font-size="8" fill="black">V3</text>
+    <text x="180" y="115" font-family="Arial" font-size="8" fill="black">V4</text>
+    <text x="200" y="115" font-family="Arial" font-size="8" fill="black">V5</text>
+    <text x="220" y="115" font-family="Arial" font-size="8" fill="black">V6</text>
+  </g>
+</svg>

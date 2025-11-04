@@ -1,0 +1,89 @@
+<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Truth Table -->
+  <rect x="20" y="80" width="95" height="40" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="115" y="80" width="95" height="40" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="210" y="80" width="95" height="40" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="305" y="80" width="95" height="40" fill="none" stroke="black" stroke-width="2"/>
+  
+  <text x="67.5" y="105" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">A</text>
+  <text x="162.5" y="105" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">B</text>
+  <text x="257.5" y="105" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Sum</text>
+  <text x="352.5" y="105" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Carry</text>
+  
+  <!-- Row 1 -->
+  <rect x="20" y="120" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="115" y="120" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="210" y="120" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="305" y="120" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <text x="67.5" y="143" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  <text x="162.5" y="143" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  <text x="257.5" y="143" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  <text x="352.5" y="143" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  
+  <!-- Row 2 -->
+  <rect x="20" y="155" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="115" y="155" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="210" y="155" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="305" y="155" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <text x="67.5" y="178" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  <text x="162.5" y="178" text-anchor="middle" font-family="Arial" font-size="18">1</text>
+  <text x="257.5" y="178" text-anchor="middle" font-family="Arial" font-size="18">1</text>
+  <text x="352.5" y="178" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  
+  <!-- Row 3 -->
+  <rect x="20" y="190" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="115" y="190" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="210" y="190" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="305" y="190" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <text x="67.5" y="213" text-anchor="middle" font-family="Arial" font-size="18">1</text>
+  <text x="162.5" y="213" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  <text x="257.5" y="213" text-anchor="middle" font-family="Arial" font-size="18">1</text>
+  <text x="352.5" y="213" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  
+  <!-- Row 4 -->
+  <rect x="20" y="225" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="115" y="225" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="210" y="225" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="305" y="225" width="95" height="35" fill="none" stroke="black" stroke-width="2"/>
+  <text x="67.5" y="248" text-anchor="middle" font-family="Arial" font-size="18">1</text>
+  <text x="162.5" y="248" text-anchor="middle" font-family="Arial" font-size="18">1</text>
+  <text x="257.5" y="248" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+  <text x="352.5" y="248" text-anchor="middle" font-family="Arial" font-size="18">1</text>
+  
+  <!-- Circuit Diagram -->
+  <!-- Input A -->
+  <line x1="270" y1="110" x2="330" y2="110" stroke="black" stroke-width="2"/>
+  <text x="265" y="115" text-anchor="end" font-family="Arial" font-size="16">A</text>
+  <circle cx="330" cy="110" r="3" fill="black"/>
+  <line x1="330" y1="110" x2="420" y2="110" stroke="black" stroke-width="2"/>
+  
+  <!-- Input B -->
+  <line x1="270" y1="140" x2="330" y2="140" stroke="black" stroke-width="2"/>
+  <text x="265" y="145" text-anchor="end" font-family="Arial" font-size="16">B</text>
+  <circle cx="330" cy="140" r="3" fill="black"/>
+  <line x1="330" y1="140" x2="360" y2="140" stroke="black" stroke-width="2"/>
+  <line x1="360" y1="140" x2="360" y2="165" stroke="black" stroke-width="2"/>
+  <line x1="360" y1="165" x2="420" y2="165" stroke="black" stroke-width="2"/>
+  
+  <!-- XOR Gate -->
+  <path d="M 420 95 Q 430 95 440 110 Q 450 125 440 140 Q 430 155 420 155 L 420 95" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 415 95 Q 425 110 425 125 Q 425 140 415 155" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 420 95 Q 430 110 430 125 Q 430 140 420 155" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="440" y1="125" x2="510" y2="125" stroke="black" stroke-width="2"/>
+  <text x="515" y="130" font-family="Arial" font-size="16">Sum</text>
+  
+  <!-- Label for XOR gate -->
+  <text x="480" y="55" font-family="Arial" font-size="14">Exclusive OR gate</text>
+  
+  <!-- AND Gate (for Carry) -->
+  <line x1="330" y1="110" x2="330" y2="220" stroke="black" stroke-width="2"/>
+  <line x1="330" y1="220" x2="345" y2="220" stroke="black" stroke-width="2"/>
+  <line x1="330" y1="140" x2="330" y2="245" stroke="black" stroke-width="2"/>
+  <line x1="330" y1="245" x2="345" y2="245" stroke="black" stroke-width="2"/>
+  
+  <!-- AND gate body -->
+  <rect x="345" y="210" width="30" height="45" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 375 210 L 375 255 Q 375 265 365 265 Q 355 265 355 255 L 355 210" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="365" y1="232.5" x2="365" y2="290" stroke="black" stroke-width="2"/>
+  <text x="345" y="305" text-anchor="middle" font-family="Arial" font-size="16">Carry</text>
+</svg>

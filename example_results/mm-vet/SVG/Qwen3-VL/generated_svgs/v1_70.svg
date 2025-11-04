@@ -1,0 +1,33 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#f5f5f5"/>
+  <circle cx="250" cy="250" r="240" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  <circle cx="250" cy="250" r="220" fill="#8b0000" opacity="0.7"/>
+  <g fill="#fff">
+    <rect x="100" y="100" width="60" height="60" rx="5" ry="5"/>
+    <rect x="180" y="90" width="60" height="60" rx="5" ry="5"/>
+    <rect x="260" y="110" width="60" height="60" rx="5" ry="5"/>
+    <rect x="340" y="130" width="60" height="60" rx="5" ry="5"/>
+    <rect x="60" y="160" width="60" height="60" rx="5" ry="5"/>
+    <rect x="140" y="170" width="60" height="60" rx="5" ry="5"/>
+    <rect x="220" y="190" width="60" height="60" rx="5" ry="5"/>
+    <rect x="300" y="210" width="60" height="60" rx="5" ry="5"/>
+    <rect x="380" y="230" width="60" height="60" rx="5" ry="5"/>
+    <rect x="80" y="250" width="60" height="60" rx="5" ry="5"/>
+    <rect x="160" y="270" width="60" height="60" rx="5" ry="5"/>
+    <rect x="240" y="290" width="60" height="60" rx="5" ry="5"/>
+    <rect x="320" y="310" width="60" height="60" rx="5" ry="5"/>
+    <rect x="100" y="350" width="60" height="60" rx="5" ry="5"/>
+    <rect x="180" y="370" width="60" height="60" rx="5" ry="5"/>
+    <rect x="260" y="390" width="60" height="60" rx="5" ry="5"/>
+  </g>
+  <g fill="#006400">
+    <path d="M200 330L230 280L220 270L190 320Z"/>
+    <path d="M210 340L240 290L230 280L200 330Z"/>
+    <path d="M220 350L250 300L240 290L210 340Z"/>
+    <path d="M230 360L260 310L250 300L220 350Z"/>
+    <path d="M240 370L270 320L260 310L230 360Z"/>
+    <path d="M250 380L280 330L270 320L240 370Z"/>
+    <path d="M260 390L290 340L280 330L250 380Z"/>
+    <path d="M270 400L300 350L290 340L260 390Z"/>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efefef"/>
+      <stop offset="60%" stop-color="#e4e2dd"/>
+      <stop offset="100%" stop-color="#d8d3cb"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c59a6a"/>
+      <stop offset="50%" stop-color="#b38458"/>
+      <stop offset="100%" stop-color="#9a6f49"/>
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cfd2d6"/>
+      <stop offset="50%" stop-color="#9ca1a6"/>
+      <stop offset="100%" stop-color="#d7d9db"/>
+    </linearGradient>
+    <linearGradient id="windowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8dd07a"/>
+      <stop offset="100%" stop-color="#3b6d3a"/>
+    </linearGradient>
+    <linearGradient id="rugGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e7e4de"/>
+      <stop offset="100%" stop-color="#cbc6be"/>
+    </linearGradient>
+    <linearGradient id="couchGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b3a89b"/>
+      <stop offset="100%" stop-color="#90877c"/>
+    </linearGradient>
+    <linearGradient id="woodTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c38343"/>
+      <stop offset="100%" stop-color="#a7662d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background wall and ceiling -->
+  <rect x="0" y="0" width="1024" height="520" fill="url(#wallGrad)"/>
+
+  <!-- Floor -->
+  <polygon points="0,470 1024,600 1024,768 0,768" fill="url(#floorGrad)"/>
+
+  <!-- Window on right -->
+  <polygon points="950,340 1005,350 1000,620 940,610" fill="url(#windowGrad)" stroke="#dfe6ea" stroke-width="4"/>
+
+  <!-- Kitchen area (tilted/perspective) -->
+  <!-- Upper white cabinets -->
+  <polygon points="560,330 948,400 942,475 560,405" fill="#f7f7f7" stroke="#d6d6d6" stroke-width="2"/>
+  <line x1="640" y1="343" x2="638" y2="415" stroke="#e1e1e1" stroke-width="2"/>
+  <line x1="720" y1="357" x2="718" y2="429" stroke="#e1e1e1" stroke-width="2"/>
+  <line x1="800" y1="371" x2="798" y2="443" stroke="#e1e1e1" stroke-width="2"/>
+  <line x1="880" y1="385" x2="878" y2="456" stroke="#e1e1e1" stroke-width="2"/>
+
+  <!-- Metallic backsplash -->
+  <polygon points="600,420 950,480 944,520 600,465" fill="url(#steelGrad)"/>
+
+  <!-- Wood countertop -->
+  <polygon points="570,430 988,505 980,520 565,445" fill="url(#woodTop)"/>
+
+  <!-- Lower cabinets -->
+  <polygon points="565,445 980,520 960,660 560,580" fill="#fbfbfb" stroke="#d2d2d2" stroke-width="2"/>
+  <line x1="650" y1="460" x2="635" y2="587" stroke="#cfcfcf" stroke-width="2"/>
+  <line x1="725" y1="473" x2="713" y2="602" stroke="#cfcfcf" stroke-width="2"/>
+  <line x1="800" y1="486" x2="790" y2="618" stroke="#cfcfcf" stroke-width="2"/>
+  <line x1="875" y1="499" x2="868" y2="635" stroke="#cfcfcf" stroke-width="2"/>
+
+  <!-- Fridge on far right -->
+  <polygon points="980,460 1016,466 1012,690 972,680" fill="#e9edf1" stroke="#cfd3d7" stroke-width="3"/>
+
+  <!-- Sofa -->
+  <polygon points="110,480 520,540 500,675 100,620" fill="url(#couchGrad)" stroke="#8b847b" stroke-width="2"/>
+  <!-- Sofa cushions -->
+  <polygon points="160,505 250,515 240,585 152,573" fill="#9e968b"/>
+  <polygon points="248,515 340,528 330,598 240,585" fill="#9e968b"/>
+  <polygon points="338,528 430,540 420,610 330,598" fill="#9e968b"/>
+  <polygon points="428,540 520,552 510,622 420,610" fill="#9e968b"/>
+  <!-- Side table -->
+  <polygon points="82,520 120,526 116,590 77,584" fill="#dfdfdf" stroke="#c5c5c5" stroke-width="2"/>
+
+  <!-- Rug -->
+  <polygon points="40,620 450,690 560,740 70,700" fill="url(#rugGrad)" stroke="#cfc9c0" stroke-width="2"/>
+
+  <!-- Bar-like thin wood shelf (yellow line in photo) -->
+  <rect x="270" y="360" width="600" height="20" fill="none" stroke="#f2bf29" stroke-width="8" transform="rotate(10 570 370)"/>
+
+  <!-- Analysis overlay rectangles -->
+  <rect x="80" y="410" width="470" height="240" fill="none" stroke="#e1261c" stroke-width="8" transform="rotate(10 315 530)"/>
+  <rect x="200" y="430" width="680" height="140" fill="none" stroke="#2952e5" stroke-width="6" transform="rotate(10 540 500)"/>
+  <rect x="800" y="350" width="130" height="260" fill="none" stroke="#6e59a6" stroke-width="6" transform="rotate(10 865 480)"/>
+</svg>

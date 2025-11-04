@@ -1,0 +1,54 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="600" height="600" fill="#EAEAEA"/>
+  <path d="M0 320 C 150 280, 450 360, 600 320 L 600 600 L 0 600 Z" fill="#FFFFFF"/>
+  <path d="M0 250 L200 600" stroke="#000000" stroke-opacity="0.04" stroke-width="100"/>
+
+  <g transform="translate(300, 430)" filter="url(#shadow)">
+    <!-- Legs and Feet -->
+    <path d="M -15,20 C -40,30 -60,70 -40,80 L -10,75 C -5,60 -15,40 -15,20 Z" fill="#88D869"/>
+    <path d="M 15,20 C 40,30 60,70 40,80 L 10,75 C 5,60 15,40 15,20 Z" fill="#88D869"/>
+    <path d="M -40 80 L -45 95 L -35 92 L -25 97 L -15 92 L -5 97 L -10 75 Z" fill="#6fbf4a"/>
+    <path d="M 40 80 L 45 95 L 35 92 L 25 97 L 15 92 L 5 97 L 10 75 Z" fill="#6fbf4a"/>
+
+    <!-- Body -->
+    <path d="M -40,30 C -60,-10 -50,-60 0,-70 C 50,-60 60,-10 40,30 C 20,50 -20,50 -40,30 Z" fill="#6fbf4a"/>
+    
+    <!-- Arms -->
+    <path d="M -35 -10 C -70 -20, -70 -80, -25 -85 C -40 -60, -45 -30, -35 -10 Z" fill="#6fbf4a"/>
+    <path d="M 35 -10 C 70 -20, 70 -80, 25 -85 C 40 -60, 45 -30, 35 -10 Z" fill="#6fbf4a"/>
+
+    <!-- Head features -->
+    <g transform="translate(0, -70)">
+      <path d="M -25 -5 Q 0 30 25 -5 Q 0 20 -25 -5 Z" fill="#e54a5f"/>
+      <path d="M -15 0 Q 0 20 15 0 Q 0 10 -15 0 Z" fill="#d1384e"/>
+      <ellipse cx="-15" cy="-20" rx="12" ry="14" fill="#FFFFFF"/>
+      <ellipse cx="15" cy="-20" rx="12" ry="14" fill="#FFFFFF"/>
+      <ellipse cx="-15" cy="-18" rx="3" ry="5" fill="#000000"/>
+      <ellipse cx="15" cy="-18" rx="3" ry="5" fill="#000000"/>
+    </g>
+  </g>
+
+  <text style="font-family: Arial, Helvetica, sans-serif; font-size: 34px; fill: #000000;">
+    <tspan x="40" y="60" font-weight="bold">Me:</tspan>
+    <tspan x="110" y="60">I'll do it at 8</tspan>
+    <tspan x="40" y="115" font-weight="bold">Time:</tspan>
+    <tspan x="140" y="115">8.05</tspan>
+    <tspan x="40" y="170" font-weight="bold">Me:</tspan>
+    <tspan x="110" y="170">looks like I gotta wait till 9 now</tspan>
+  </text>
+  
+  <text x="445" y="585" style="font-family: Arial, sans-serif; font-size: 14px; fill: #B0B0B0;">boredpanda.com</text>
+</svg>

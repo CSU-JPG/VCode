@@ -1,0 +1,232 @@
+<svg viewBox="0 0 1600 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Staff lines -->
+  <line x1="50" y1="60" x2="1550" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="75" x2="1550" y2="75" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="90" x2="1550" y2="90" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="105" x2="1550" y2="105" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="120" x2="1550" y2="120" stroke="black" stroke-width="1"/>
+  
+  <!-- Treble clef -->
+  <path d="M 65 85 Q 70 45 80 55 Q 85 65 82 85 Q 80 100 75 110 Q 70 125 68 140 Q 67 150 70 155 Q 73 158 76 155 Q 80 150 82 140 Q 85 120 83 100 Q 80 75 75 65 Q 72 58 68 62 Q 65 68 67 75 Q 70 82 75 85" fill="black"/>
+  <circle cx="70" cy="120" r="3" fill="black"/>
+  
+  <!-- First measure - eighth notes -->
+  <ellipse cx="110" cy="105" rx="6" ry="4.5" fill="black" transform="rotate(-20 110 105)"/>
+  <line x1="116" y1="105" x2="116" y2="55" stroke="black" stroke-width="2"/>
+  
+  <ellipse cx="135" cy="97.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 135 97.5)"/>
+  <line x1="141" y1="97.5" x2="141" y2="47.5" stroke="black" stroke-width="2"/>
+  <path d="M 116 55 Q 125 50 141 47.5" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Natural sign -->
+  <line x1="155" y1="93" x2="155" y2="103" stroke="black" stroke-width="1.5"/>
+  <line x1="160" y1="91" x2="160" y2="101" stroke="black" stroke-width="1.5"/>
+  <line x1="155" y1="97" x2="160" y2="95" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="172" cy="97.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 172 97.5)"/>
+  <line x1="178" y1="97.5" x2="178" y2="47.5" stroke="black" stroke-width="2"/>
+  
+  <!-- Sharp sign -->
+  <line x1="192" y1="88" x2="192" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="197" y1="86" x2="197" y2="98" stroke="black" stroke-width="1"/>
+  <line x1="190" y1="91" x2="199" y2="89" stroke="black" stroke-width="1.5"/>
+  <line x1="190" y1="95" x2="199" y2="93" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="209" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 209 90)"/>
+  <line x1="215" y1="90" x2="215" y2="40" stroke="black" stroke-width="2"/>
+  
+  <!-- Slur -->
+  <path d="M 220 85 Q 250 70 280 85" stroke="black" stroke-width="1.5" fill="none"/>
+  
+  <!-- Sharp and note -->
+  <line x1="240" y1="81" x2="240" y2="93" stroke="black" stroke-width="1"/>
+  <line x1="245" y1="79" x2="245" y2="91" stroke="black" stroke-width="1"/>
+  <line x1="238" y1="84" x2="247" y2="82" stroke="black" stroke-width="1.5"/>
+  <line x1="238" y1="88" x2="247" y2="86" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="257" cy="82.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 257 82.5)"/>
+  <line x1="263" y1="82.5" x2="263" y2="32.5" stroke="black" stroke-width="2"/>
+  
+  <!-- Triplet bracket -->
+  <line x1="295" y1="135" x2="295" y2="145" stroke="black" stroke-width="1"/>
+  <line x1="295" y1="140" x2="380" y2="140" stroke="black" stroke-width="1"/>
+  <line x1="380" y1="135" x2="380" y2="145" stroke="black" stroke-width="1"/>
+  <text x="332" y="138" font-family="serif" font-size="14" font-style="italic">3</text>
+  
+  <!-- Triplet notes with flats -->
+  <text x="285" y="118" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="297" cy="112.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 297 112.5)"/>
+  <line x1="303" y1="112.5" x2="303" y2="62.5" stroke="black" stroke-width="2"/>
+  
+  <text x="315" y="125" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="327" cy="120" rx="6" ry="4.5" fill="black" transform="rotate(-20 327 120)"/>
+  <line x1="333" y1="120" x2="333" y2="70" stroke="black" stroke-width="2"/>
+  
+  <text x="350" y="118" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="362" cy="112.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 362 112.5)"/>
+  <line x1="368" y1="112.5" x2="368" y2="62.5" stroke="black" stroke-width="2"/>
+  
+  <!-- Beam for triplet -->
+  <path d="M 303 62.5 L 333 70 L 368 62.5" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- Triplet bracket 2 -->
+  <line x1="395" y1="30" x2="395" y2="20" stroke="black" stroke-width="1"/>
+  <line x1="395" y1="25" x2="480" y2="25" stroke="black" stroke-width="1"/>
+  <line x1="480" y1="30" x2="480" y2="20" stroke="black" stroke-width="1"/>
+  <text x="432" y="20" font-family="serif" font-size="14" font-style="italic">3</text>
+  
+  <!-- Second triplet -->
+  <text x="385" y="125" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="397" cy="120" rx="6" ry="4.5" fill="black" transform="rotate(-20 397 120)"/>
+  <line x1="403" y1="120" x2="403" y2="70" stroke="black" stroke-width="2"/>
+  
+  <text x="415" y="118" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="427" cy="112.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 427 112.5)"/>
+  <line x1="433" y1="112.5" x2="433" y2="62.5" stroke="black" stroke-width="2"/>
+  
+  <text x="445" y="125" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="457" cy="120" rx="6" ry="4.5" fill="black" transform="rotate(-20 457 120)"/>
+  <line x1="463" y1="120" x2="463" y2="70" stroke="black" stroke-width="2"/>
+  
+  <path d="M 403 70 L 433 62.5 L 463 70" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- Quarter note with dot -->
+  <text x="475" y="130" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="487" cy="127.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 487 127.5)"/>
+  <line x1="493" y1="127.5" x2="493" y2="77.5" stroke="black" stroke-width="2"/>
+  <circle cx="500" cy="127.5" r="2" fill="black"/>
+  
+  <!-- More notes continuing the phrase -->
+  <text x="525" y="118" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="537" cy="112.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 537 112.5)"/>
+  <line x1="543" y1="112.5" x2="543" y2="162.5" stroke="black" stroke-width="2"/>
+  
+  <ellipse cx="565" cy="97.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 565 97.5)"/>
+  <line x1="571" y1="97.5" x2="571" y2="47.5" stroke="black" stroke-width="2"/>
+  
+  <!-- Slur -->
+  <path d="M 575 95 Q 620 75 650 90" stroke="black" stroke-width="1.5" fill="none"/>
+  
+  <!-- Accidentals and notes -->
+  <line x1="592" y1="88" x2="592" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="597" y1="86" x2="597" y2="98" stroke="black" stroke-width="1"/>
+  <line x1="590" y1="91" x2="599" y2="89" stroke="black" stroke-width="1.5"/>
+  <line x1="590" y1="95" x2="599" y2="93" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="609" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 609 90)"/>
+  <line x1="615" y1="90" x2="615" y2="40" stroke="black" stroke-width="2"/>
+  
+  <text x="625" y="103" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="637" cy="97.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 637 97.5)"/>
+  <line x1="643" y1="97.5" x2="643" y2="47.5" stroke="black" stroke-width="2"/>
+  
+  <!-- Eighth notes -->
+  <ellipse cx="667" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 667 90)"/>
+  <line x1="673" y1="90" x2="673" y2="40" stroke="black" stroke-width="2"/>
+  
+  <line x1="692" y1="81" x2="692" y2="93" stroke="black" stroke-width="1"/>
+  <line x1="697" y1="79" x2="697" y2="91" stroke="black" stroke-width="1"/>
+  <line x1="690" y1="84" x2="699" y2="82" stroke="black" stroke-width="1.5"/>
+  <line x1="690" y1="88" x2="699" y2="86" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="709" cy="82.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 709 82.5)"/>
+  <line x1="715" y1="82.5" x2="715" y2="32.5" stroke="black" stroke-width="2"/>
+  <path d="M 673 40 Q 690 35 715 32.5" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Triplet bracket 3 -->
+  <line x1="745" y1="30" x2="745" y2="20" stroke="black" stroke-width="1"/>
+  <line x1="745" y1="25" x2="830" y2="25" stroke="black" stroke-width="1"/>
+  <line x1="830" y1="30" x2="830" y2="20" stroke="black" stroke-width="1"/>
+  <text x="782" y="20" font-family="serif" font-size="14" font-style="italic">3</text>
+  
+  <!-- Third triplet -->
+  <text x="735" y="118" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="747" cy="112.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 747 112.5)"/>
+  <line x1="753" y1="112.5" x2="753" y2="162.5" stroke="black" stroke-width="2"/>
+  
+  <ellipse cx="777" cy="97.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 777 97.5)"/>
+  <line x1="783" y1="97.5" x2="783" y2="47.5" stroke="black" stroke-width="2"/>
+  
+  <text x="795" y="110" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="807" cy="105" rx="6" ry="4.5" fill="black" transform="rotate(-20 807 105)"/>
+  <line x1="813" y1="105" x2="813" y2="55" stroke="black" stroke-width="2"/>
+  
+  <!-- Beam -->
+  <path d="M 753 162.5 Q 768 70 783 47.5 Q 798 55 813 55" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- More notes -->
+  <ellipse cx="847" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 847 90)"/>
+  <line x1="853" y1="90" x2="853" y2="140" stroke="black" stroke-width="2"/>
+  
+  <line x1="872" y1="88" x2="872" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="877" y1="86" x2="877" y2="98" stroke="black" stroke-width="1"/>
+  <line x1="870" y1="91" x2="879" y2="89" stroke="black" stroke-width="1.5"/>
+  <line x1="870" y1="95" x2="879" y2="93" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="889" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 889 90)"/>
+  <line x1="895" y1="90" x2="895" y2="40" stroke="black" stroke-width="2"/>
+  
+  <!-- Natural sign -->
+  <line x1="910" y1="86" x2="910" y2="96" stroke="black" stroke-width="1.5"/>
+  <line x1="915" y1="84" x2="915" y2="94" stroke="black" stroke-width="1.5"/>
+  <line x1="910" y1="90" x2="915" y2="88" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="927" cy="82.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 927 82.5)"/>
+  <line x1="933" y1="82.5" x2="933" y2="32.5" stroke="black" stroke-width="2"/>
+  
+  <text x="945" y="95" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="957" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 957 90)"/>
+  <line x1="963" y1="90" x2="963" y2="40" stroke="black" stroke-width="2"/>
+  
+  <!-- More eighth notes -->
+  <ellipse cx="987" cy="82.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 987 82.5)"/>
+  <line x1="993" y1="82.5" x2="993" y2="32.5" stroke="black" stroke-width="2"/>
+  
+  <line x1="1012" y1="88" x2="1012" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="1017" y1="86" x2="1017" y2="98" stroke="black" stroke-width="1"/>
+  <line x1="1010" y1="91" x2="1019" y2="89" stroke="black" stroke-width="1.5"/>
+  <line x1="1010" y1="95" x2="1019" y2="93" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="1029" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 1029 90)"/>
+  <line x1="1035" y1="90" x2="1035" y2="40" stroke="black" stroke-width="2"/>
+  <path d="M 993 32.5 Q 1010 30 1035 40" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Sharp sign -->
+  <line x1="1052" y1="81" x2="1052" y2="93" stroke="black" stroke-width="1"/>
+  <line x1="1057" y1="79" x2="1057" y2="91" stroke="black" stroke-width="1"/>
+  <line x1="1050" y1="84" x2="1059" y2="82" stroke="black" stroke-width="1.5"/>
+  <line x1="1050" y1="88" x2="1059" y2="86" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="1069" cy="82.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 1069 82.5)"/>
+  <line x1="1075" y1="82.5" x2="1075" y2="32.5" stroke="black" stroke-width="2"/>
+  
+  <line x1="1092" y1="88" x2="1092" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="1097" y1="86" x2="1097" y2="98" stroke="black" stroke-width="1"/>
+  <line x1="1090" y1="91" x2="1099" y2="89" stroke="black" stroke-width="1.5"/>
+  <line x1="1090" y1="95" x2="1099" y2="93" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="1109" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 1109 90)"/>
+  <line x1="1115" y1="90" x2="1115" y2="40" stroke="black" stroke-width="2"/>
+  
+  <line x1="1132" y1="81" x2="1132" y2="93" stroke="black" stroke-width="1"/>
+  <line x1="1137" y1="79" x2="1137" y2="91" stroke="black" stroke-width="1"/>
+  <line x1="1130" y1="84" x2="1139" y2="82" stroke="black" stroke-width="1.5"/>
+  <line x1="1130" y1="88" x2="1139" y2="86" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="1149" cy="82.5" rx="6" ry="4.5" fill="black" transform="rotate(-20 1149 82.5)"/>
+  <line x1="1155" y1="82.5" x2="1155" y2="32.5" stroke="black" stroke-width="2"/>
+  
+  <!-- Slur -->
+  <path d="M 1160 85 Q 1190 70 1220 85" stroke="black" stroke-width="1.5" fill="none"/>
+  
+  <ellipse cx="1179" cy="90" rx="6" ry="4.5" fill="black" transform="rotate(-20 1179 90)"/>
+  <line x1="1185" y1="90" x2="1185" y2="40" stroke="black" stroke-width="2"/>
+  
+  <text x="1195" y="125" font-family="serif" font-size="20">♭</text>
+  <ellipse cx="1207" cy="120" rx="6" ry="4.5" fill="black" transform="rotate(-20 1207 120)"/>
+  <line x1="1213" y1="120" x2="1213" y2="70" stroke="black" stroke-width="2"/>
+  
+  <!-- Final barline -->
+  <line x1="1240" y1="60" x2="1240" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="1245" y1="60" x2="1245" y2="120" stroke="black" stroke-width="3"/>
+</svg>

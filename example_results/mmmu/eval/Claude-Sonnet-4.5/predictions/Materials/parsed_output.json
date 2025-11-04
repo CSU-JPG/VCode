@@ -1,0 +1,76 @@
+[
+    {
+        "id": "dev_Materials_1",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "Hc = 0lb; Vc = 85lb;Mc = 1125 lb.ft",
+            "B": "Hc = 0lb; Vc = 95lb;Mc = 1125 lb.ft",
+            "C": "Hc = 0lb; Vc = 105lb;Mc = 1125 lb.ft",
+            "D": "Hc = 0lb; Vc = 75lb;Mc = 1125 lb.ft"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_2",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "29.0 ksi",
+            "B": "20.9 ksi",
+            "C": "25.9 ksi",
+            "D": "15.9 ksi"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_3",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "true",
+            "B": "false"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "I",
+        "parsed_pred": "I",
+        "index2ans": {
+            "A": "SC {100}",
+            "B": "BCC {100}",
+            "C": "FCC {100}",
+            "D": "SC {110}",
+            "E": "BCC {110}",
+            "F": "FCC {110}",
+            "G": "SC {111}",
+            "H": "BCC {111}",
+            "I": "FCC {111}"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_5",
+        "question_type": "multiple-choice",
+        "answer": "E",
+        "response": "E",
+        "parsed_pred": "E",
+        "index2ans": {
+            "A": "Au",
+            "B": "Cu",
+            "C": "Ni",
+            "D": "Fe",
+            "E": "Na"
+        },
+        "judge": "Correct"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "id": "dev_Literature_1",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "Writing-in-role",
+            "B": "Challenge",
+            "C": "Banning",
+            "D": "Hot Seat"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Literature_3",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "Theme",
+            "B": "Shape",
+            "C": "Covers",
+            "D": "Motif"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Literature_4",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "News Program",
+            "B": "Readers Theatre",
+            "C": "Hot Seat",
+            "D": "News"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Literature_5",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "verbal irony",
+            "B": "situational irony",
+            "C": "foreshadowing",
+            "D": "dramatic irony"
+        },
+        "judge": "Correct"
+    }
+]

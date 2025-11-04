@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#1a52b8"/>
+  
+  <!-- Title -->
+  <text x="500" y="60" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" font-weight="bold">5 STEPS TO WRITING AN SOP</text>
+  
+  <!-- Step 1: Create a list of processes -->
+  <circle cx="250" cy="300" r="70" fill="#27ae60"/>
+  <path d="M240 260 h20 v10 h-20 z M240 275 h20 v10 h-20 z M240 290 h20 v10 h-20 z" fill="white"/>
+  <path d="M250 255 a5 5 0 0 1 5 5 h-10 a5 5 0 0 1 5 -5" fill="white"/>
+  <text x="250" y="400" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">CREATE A LIST OF PROCESSES</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M320 300 L360 300" stroke="white" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Identify your audience -->
+  <circle cx="480" cy="300" r="70" fill="#3498db"/>
+  <path d="M460 280 a10 10 0 0 1 20 0 M490 280 a10 10 0 0 1 20 0 M520 280 a10 10 0 0 1 20 0 M470 295 a15 15 0 0 1 10 15 M500 295 a15 15 0 0 1 10 15 M530 295 a15 15 0 0 1 10 15" fill="white"/>
+  <text x="480" y="400" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">IDENTIFY YOUR AUDIENCE</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M550 300 L590 300" stroke="white" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Define the objectives -->
+  <circle cx="680" cy="300" r="70" fill="#e74c3c"/>
+  <path d="M680 300 a50 50 0 0 1 0 0 M680 300 a40 40 0 0 1 0 0 M680 300 a30 30 0 0 1 0 0 M680 300 a20 20 0 0 1 0 0 M680 300 a10 10 0 0 1 0 0" fill="none" stroke="white" stroke-width="3"/>
+  <path d="M680 270 L695 285" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <text x="680" y="400" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">DEFINE THE OBJECTIVES</text>
+  
+  <!-- Curved arrow from step 3 to step 5 -->
+  <path d="M750 300 Q800 400 700 480" stroke="white" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: Choose a format -->
+  <circle cx="580" cy="500" r="60" fill="#f1c40f"/>
+  <path d="M560 490 L575 505 L600 480" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="580" y="600" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">CHOOSE A FORMAT</text>
+  
+  <!-- Arrow 4 (left) -->
+  <path d="M520 500 L480 500" stroke="white" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Write the SOP -->
+  <circle cx="380" cy="500" r="60" fill="#3498db"/>
+  <text x="380" y="500" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">SOP</text>
+  <text x="380" y="600" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">WRITE THE SOP</text>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white"/>
+    </marker>
+  </defs>
+  
+  <!-- Logo -->
+  <text x="900" y="650" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold">fre√vo</text>
+</svg>

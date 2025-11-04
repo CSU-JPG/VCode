@@ -1,0 +1,170 @@
+<svg viewBox="0 0 561 427" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9edf1"/>
+      <stop offset="1" stop-color="#f6f7f9"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cacfd6"/>
+      <stop offset="1" stop-color="#9aa1a8"/>
+    </linearGradient>
+    <linearGradient id="deskWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcb77a"/>
+      <stop offset="1" stop-color="#bf9556"/>
+    </linearGradient>
+    <linearGradient id="bottleGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8d36a"/>
+      <stop offset="1" stop-color="#3b6b2d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall -->
+  <rect x="0" y="0" width="561" height="300" fill="url(#wallGrad)"/>
+
+  <!-- Floor -->
+  <path d="M0,275 L561,250 L561,427 L0,427 Z" fill="url(#floorGrad)"/>
+
+  <!-- Window/bright area on far left -->
+  <rect x="10" y="15" width="55" height="95" fill="#ffffff" stroke="#dbe2ea"/>
+
+  <!-- Left shelf/monitor stack -->
+  <rect x="85" y="145" width="30" height="45" fill="#2d2f33" rx="3"/>
+  <rect x="118" y="150" width="24" height="38" fill="#3b3e45" rx="3"/>
+
+  <!-- Bulletin board with blue frame (with blue bounding rectangle as in image) -->
+  <g transform="translate(208,50)">
+    <rect x="-7" y="-7" width="138" height="168" fill="none" stroke="#2e5bc9" stroke-width="5"/>
+    <rect x="0" y="0" width="124" height="154" fill="#2e5bc9" rx="6"/>
+    <rect x="10" y="10" width="104" height="134" fill="#3c6be0" rx="4"/>
+    <rect x="35" y="18" width="54" height="62" fill="#f6f7f9" stroke="#e2e5ec"/>
+    <!-- push pins -->
+    <g fill="#ffd35a">
+      <circle cx="18" cy="20" r="4"/>
+      <circle cx="106" cy="20" r="4"/>
+      <circle cx="18" cy="140" r="4"/>
+      <circle cx="106" cy="140" r="4"/>
+      <circle cx="62" cy="80" r="4"/>
+    </g>
+  </g>
+
+  <!-- Clocks on right wall -->
+  <g transform="translate(360,34)">
+    <circle cx="24" cy="24" r="24" fill="#1f2226"/>
+    <line x1="24" y1="24" x2="24" y2="10" stroke="#ffffff" stroke-width="2"/>
+    <line x1="24" y1="24" x2="38" y2="24" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <g transform="translate(410,37)">
+    <circle cx="22" cy="22" r="22" fill="#ffffff" stroke="#c8ccd2"/>
+    <line x1="22" y1="22" x2="22" y2="8" stroke="#222" stroke-width="2"/>
+    <line x1="22" y1="22" x2="34" y2="22" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- Right wall whiteboard area -->
+  <rect x="420" y="85" width="120" height="95" fill="#f6f7f9" stroke="#e0e4ea"/>
+  <rect x="470" y="190" width="60" height="40" fill="#ffffff" stroke="#d8dde4" rx="3"/>
+
+  <!-- Back posters -->
+  <rect x="320" y="105" width="55" height="85" fill="#cfd4dd" stroke="#b9c1cb"/>
+  <rect x="485" y="115" width="20" height="25" fill="#f2d1d1" stroke="#c9a6a6"/>
+
+  <!-- Desks and chairs cluster (left) -->
+  <g opacity="0.98">
+    <!-- Back-left desk -->
+    <g transform="translate(70,200) rotate(-6)">
+      <rect x="-40" y="-18" width="115" height="40" fill="url(#deskWood)" rx="6" stroke="#9b7b45"/>
+      <g fill="#5a5f66">
+        <rect x="-35" y="22" width="6" height="35"/>
+        <rect x="65" y="22" width="6" height="35"/>
+      </g>
+      <rect x="20" y="-10" width="56" height="16" fill="#95c96d" stroke="#6aa348" rx="3"/>
+    </g>
+
+    <!-- Chair near back-left -->
+    <g transform="translate(128,230) rotate(-8)">
+      <ellipse cx="0" cy="0" rx="28" ry="24" fill="#9ad07a" stroke="#6aa348"/>
+      <rect x="-4" y="18" width="8" height="38" fill="#5a5f66"/>
+      <rect x="18" y="18" width="8" height="38" fill="#5a5f66"/>
+    </g>
+
+    <!-- Center desk (with bottle) -->
+    <g transform="translate(250,255) rotate(2)">
+      <rect x="-60" y="-22" width="140" height="44" fill="url(#deskWood)" rx="6" stroke="#9b7b45"/>
+      <g fill="#5a5f66">
+        <rect x="-55" y="25" width="7" height="40"/>
+        <rect x="65" y="25" width="7" height="40"/>
+      </g>
+    </g>
+
+    <!-- Chair near center -->
+    <g transform="translate(225,270) rotate(12)">
+      <ellipse cx="0" cy="0" rx="30" ry="26" fill="#8fc86b" stroke="#5ea149"/>
+      <rect x="-5" y="16" width="10" height="42" fill="#5a5f66"/>
+      <rect x="18" y="16" width="10" height="42" fill="#5a5f66"/>
+    </g>
+
+    <!-- Right desk -->
+    <g transform="translate(425,250) rotate(-8)">
+      <rect x="-60" y="-22" width="140" height="44" fill="url(#deskWood)" rx="6" stroke="#9b7b45"/>
+      <g fill="#5a5f66">
+        <rect x="-55" y="25" width="7" height="40"/>
+        <rect x="65" y="25" width="7" height="40"/>
+      </g>
+      <rect x="25" y="-12" width="60" height="16" fill="#8fb1e0" stroke="#6a86b5" rx="3"/>
+    </g>
+
+    <!-- Front-right desk stack -->
+    <g transform="translate(360,340) rotate(-4)">
+      <rect x="-60" y="-24" width="140" height="48" fill="url(#deskWood)" rx="6" stroke="#9b7b45"/>
+      <rect x="-20" y="-12" width="55" height="18" fill="#3f7bd1" rx="3"/>
+      <rect x="38" y="-12" width="55" height="18" fill="#2f4f63" rx="3" opacity="0.75"/>
+      <g fill="#5a5f66">
+        <rect x="-55" y="26" width="7" height="44"/>
+        <rect x="65" y="26" width="7" height="44"/>
+      </g>
+    </g>
+
+    <!-- Front-left desk -->
+    <g transform="translate(140,330) rotate(6)">
+      <rect x="-60" y="-24" width="140" height="48" fill="url(#deskWood)" rx="6" stroke="#9b7b45"/>
+      <rect x="-22" y="-12" width="60" height="18" fill="#8ccf74" rx="3"/>
+      <g fill="#5a5f66">
+        <rect x="-55" y="26" width="7" height="44"/>
+        <rect x="65" y="26" width="7" height="44"/>
+      </g>
+    </g>
+
+    <!-- Front-left chair -->
+    <g transform="translate(105,320) rotate(10)">
+      <ellipse cx="0" cy="0" rx="30" ry="26" fill="#98cd77" stroke="#5ea149"/>
+      <rect x="-5" y="16" width="10" height="42" fill="#5a5f66"/>
+      <rect x="18" y="16" width="10" height="42" fill="#5a5f66"/>
+    </g>
+  </g>
+
+  <!-- Green bottle on center desk -->
+  <g transform="translate(290,260)">
+    <!-- Red bounding rectangle (as in original image) -->
+    <rect x="-30" y="-40" width="60" height="100" fill="none" stroke="#d21f26" stroke-width="4"/>
+    <!-- Bottle -->
+    <g transform="translate(0,10)">
+      <rect x="-10" y="-30" width="20" height="58" rx="6" fill="url(#bottleGlass)" stroke="#244d1d"/>
+      <rect x="-7" y="-42" width="14" height="14" rx="3" fill="#2f4f2a" stroke="#244d1d"/>
+      <rect x="-6" y="-46" width="12" height="6" rx="2" fill="#9db6cb"/>
+      <rect x="-10" y="-6" width="20" height="10" fill="#2b4a24" opacity="0.35"/>
+    </g>
+  </g>
+
+  <!-- Books stack at very front -->
+  <g transform="translate(325,390)">
+    <rect x="-60" y="-18" width="120" height="26" fill="#1b4796" stroke="#0f2a56" rx="3"/>
+    <rect x="-50" y="-28" width="100" height="16" fill="#2e7ad1" stroke="#1e528d" rx="2"/>
+    <rect x="-35" y="-40" width="70" height="14" fill="#aeb3bb" stroke="#8b9097" rx="2"/>
+  </g>
+
+  <!-- Misc small accessories -->
+  <rect x="476" y="250" width="24" height="34" fill="#6a90c8" stroke="#4d6d98" rx="4"/>
+  <rect x="505" y="250" width="28" height="14" fill="#cfa35d" stroke="#9a7437" rx="3"/>
+
+  <!-- Subtle vignette -->
+  <rect x="0" y="0" width="561" height="427" fill="none" stroke="#cfd4db"/>
+</svg>

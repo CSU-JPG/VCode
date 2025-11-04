@@ -1,0 +1,80 @@
+<svg viewBox="0 0 500 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background for top text -->
+  <rect x="0" y="0" width="500" height="120" fill="#F5F5DC"/>
+  
+  <!-- Top Text: "This is why I have trust issues" -->
+  <text x="250" y="55" font-family="monospace, Courier" font-size="28" text-anchor="middle" fill="#222">
+    This is why I have
+  </text>
+  <text x="250" y="90" font-family="monospace, Courier" font-size="28" text-anchor="middle" fill="#222">
+    trust issues
+  </text>
+
+  <!-- Panel 1: Iceland -->
+  <g id="iceland_panel">
+    <!-- Sky -->
+    <rect x="0" y="120" width="500" height="150" fill="#3B5998"/>
+    <!-- Clouds -->
+    <path d="M -20,180 Q 80,140 180,190 T 350,180 T 520,200 L 520,120 L -20,120 Z" fill="#6c7a89"/>
+    <path d="M 0,220 Q 150,190 250,230 T 450,210 L 500,270 L 0,270 Z" fill="#4c5e70"/>
+
+    <!-- Far Mountains -->
+    <path d="M -5,270 L 50,240 L 120,270 L 180,230 L 250,280 L 330,220 L 410,270 L 460,240 L 505,270 L 505,300 L -5,300 Z" fill="#524375"/>
+    <!-- Snow on mountains -->
+    <path d="M 45,245 L 50,240 L 55,245 Z" fill="#fff"/>
+    <path d="M 175,235 L 180,230 L 185,235 Z" fill="#fff"/>
+    <path d="M 325,225 L 330,220 L 335,225 Z" fill="#fff"/>
+    <path d="M 455,245 L 460,240 L 465,245 Z" fill="#fff"/>
+    
+    <!-- Green Hills -->
+    <path d="M 200,460 C 220,300 280,300 300,460 Z" fill="#2E7D32"/>
+    <path d="M -5,460 L -5,350 C 50,300 150,310 230,380 L 200,460 Z" fill="#388E3C"/>
+    <path d="M 505,460 L 505,350 C 450,300 350,310 270,380 L 300,460 Z" fill="#43A047"/>
+    
+    <!-- Valley floor -->
+    <path d="M -5,460 L 210,360 C 250,340 290,340 320,370 L 505,460 Z" fill="#66BB6A"/>
+    
+    <!-- River -->
+    <path d="M 250,345 C 230,365 270,385 250,405 C 230,425 280,445 270,460 L 290,460 C 300,440 250,420 270,400 C 290,380 250,360 270,345 Z" fill="#AED6F1"/>
+    
+    <!-- "Iceland" Text -->
+    <text x="250" y="420" font-family="monospace, Courier" font-weight="bold" font-size="50" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="2" paint-order="stroke">
+      Iceland
+    </text>
+  </g>
+
+  <!-- Panel 2: Greenland -->
+  <g id="greenland_panel">
+    <!-- Sky -->
+    <rect x="0" y="460" width="500" height="150" fill="#757F9A"/>
+    <!-- Clouds -->
+    <path d="M -20,520 Q 80,480 180,530 T 350,520 T 520,540 L 520,460 L -20,460 Z" fill="#ABB7B7"/>
+    <path d="M 0,560 Q 150,530 250,570 T 450,550 L 500,610 L 0,610 Z" fill="#8395A7"/>
+    
+    <!-- Snow Landscape -->
+    <path d="M 0,800 L 0,600 C 150,550 350,550 500,600 L 500,800 Z" fill="#EAECEE"/>
+    <path d="M 0,800 L 0,650 C 100,620 200,640 250,680 C 300,640 400,620 500,650 L 500,800 Z" fill="#F8F9F9"/>
+    <path d="M 400,560 L 450,550 L 460,570 L 420,580 Z" fill="#D5D8DC"/>
+    
+    <!-- Blue Ice -->
+    <path d="M 120,780 Q 150,720 180,780 C 160,760 140,760 120,780 Z" fill="#2980B9"/>
+    <path d="M 130,750 Q 150,700 170,750 C 160,730 140,730 130,750 Z" fill="#3498DB"/>
+    
+    <!-- Hiker -->
+    <g transform="translate(430, 545) rotate(10)">
+      <rect x="0" y="0" width="12" height="18" fill="#C0392B"/>
+      <rect x="2" y="18" width="8" height="10" fill="#2C3E50"/>
+      <circle cx="6" cy="-3" r="4" fill="#2C3E50"/>
+      <rect x="-5" y="5" width="8" height="10" transform="rotate(-20 0 5)" fill="#922B21"/>
+      <line x1="-10" y1="25" x2="10" y2="5" stroke="#2C3E50" stroke-width="1.5"/>
+    </g>
+    
+    <!-- Text bar -->
+    <rect x="0" y="680" width="500" height="120" fill="#333" opacity="0.75"/>
+    
+    <!-- "Greenland" Text -->
+    <text x="250" y="755" font-family="monospace, Courier" font-weight="bold" font-size="50" text-anchor="middle" fill="#fff">
+      Greenland
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 450 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Subfigure (a) -->
+  <!-- Black edges -->
+  <line x1="100" y1="50" x2="200" y2="100" stroke="black"/>
+  <line x1="100" y1="50" x2="100" y2="200" stroke="black"/>
+  <line x1="200" y1="100" x2="200" y2="200" stroke="black"/>
+  <line x1="0" y1="100" x2="100" y2="200" stroke="black"/>
+  <!-- Red edges -->
+  <line x1="100" y1="50" x2="0" y2="100" stroke="red"/>
+  <line x1="0" y1="100" x2="200" y2="100" stroke="red"/>
+  <line x1="200" y1="100" x2="100" y2="200" stroke="red"/>
+  <line x1="100" y1="200" x2="200" y2="200" stroke="red"/>
+  <!-- Nodes -->
+  <circle cx="100" cy="50" r="10" fill="white" stroke="black"/>
+  <text x="100" y="50" text-anchor="middle" alignment-baseline="middle">1</text>
+  <circle cx="200" cy="100" r="10" fill="white" stroke="black"/>
+  <text x="200" y="100" text-anchor="middle" alignment-baseline="middle">2</text>
+  <circle cx="100" cy="200" r="10" fill="white" stroke="black"/>
+  <text x="100" y="200" text-anchor="middle" alignment-baseline="middle">3</text>
+  <circle cx="0" cy="100" r="10" fill="white" stroke="black"/>
+  <text x="0" y="100" text-anchor="middle" alignment-baseline="middle">4</text>
+  <circle cx="200" cy="200" r="10" fill="white" stroke="black"/>
+  <text x="200" y="200" text-anchor="middle" alignment-baseline="middle">5</text>
+  
+  <!-- Subfigure (b) -->
+  <!-- Black edges -->
+  <line x1="300" y1="50" x2="400" y2="100" stroke="black"/>
+  <line x1="400" y1="100" x2="300" y2="200" stroke="black"/>
+  <line x1="200" y1="100" x2="300" y2="200" stroke="black"/>
+  <!-- Red edges -->
+  <line x1="300" y1="50" x2="200" y2="100" stroke="red"/>
+  <line x1="200" y1="100" x2="400" y2="100" stroke="red"/>
+  <line x1="400" y1="100" x2="400" y2="200" stroke="red"/>
+  <line x1="400" y1="200" x2="300" y2="200" stroke="red"/>
+  <line x1="300" y1="200" x2="300" y2="50" stroke="red"/>
+  <!-- Nodes -->
+  <circle cx="300" cy="50" r="10" fill="white" stroke="black"/>
+  <text x="300" y="50" text-anchor="middle" alignment-baseline="middle">1</text>
+  <circle cx="400" cy="100" r="10" fill="white" stroke="black"/>
+  <text x="400" y="100" text-anchor="middle" alignment-baseline="middle">2</text>
+  <circle cx="300" cy="200" r="10" fill="white" stroke="black"/>
+  <text x="300" y="200" text-anchor="middle" alignment-baseline="middle">3</text>
+  <circle cx="200" cy="100" r="10" fill="white" stroke="black"/>
+  <text x="200" y="100" text-anchor="middle" alignment-baseline="middle">4</text>
+  <circle cx="400" cy="200" r="10" fill="white" stroke="black"/>
+  <text x="400" y="200" text-anchor="middle" alignment-baseline="middle">5</text>
+  
+  <!-- Labels -->
+  <text x="100" y="220" text-anchor="middle">(a)</text>
+  <text x="300" y="220" text-anchor="middle">(b)</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg viewBox="-5 -5 610 460" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .wall-ext { stroke: black; stroke-width: 5; fill: none; }
+    .wall-int { stroke: black; stroke-width: 2.5; fill: none; }
+    .fixture { stroke: black; stroke-width: 1.5; fill: none; }
+    .window { stroke: black; stroke-width: 1.5; fill: white; }
+    .label { font: 10px sans-serif; text-anchor: middle; }
+    .dim { font: 8px sans-serif; text-anchor: middle; }
+</style>
+
+<g id="walls">
+    <path class="wall-ext" d="M2,175 V2 H425 V80 H598 V285 H570 V390 H480 L470 415 L460 390 H350 L340 415 L330 390 H220 L210 415 L200 390 H100 L90 415 L80 390 H2 V175 Z"/>
+    <path class="wall-int" d="M2,90 H155 V2 M2,150 H155 V90 M75,90 V150"/>
+    <path class="wall-int" d="M155,90 H195 V150 H330 V210 H195 V150"/>
+    <path class="wall-int" d="M195,2 V90 H280 V2 M280,90 H425"/>
+    <path class="wall-int" d="M280,90V150 M230,150V210 M280,150V180 H330 M280,180V210"/>
+    <path class="wall-int" d="M330,210 V270 H2 M185,270 V390"/>
+    <path class="wall-int" d="M425,80 V270"/>
+    <rect class="wall-int" x="280" y="2" width="225" height="122"/>
+    <path class="wall-int" d="M570,285 V240 H550 V210 H570"/>
+    <path class="wall-ext" d="M330,390 v50 H480 v-50"/>
+    <rect x="335" y="435" width="5" height="5" class="wall-ext"/>
+    <rect x="470" y="435" width="5" height="5" class="wall-ext"/>
+</g>
+
+<g id="windows-and-doors">
+    <rect class="window" x="-0.5" y="40" width="5" height="15"/><path d="M2,40 v15 M2,47.5 h-1" class="fixture"/>
+    <rect class="window" x="230" y="0" width="15" height="4"/><path d="M230,2 h15 M237.5,2 v-1" class="fixture"/>
+    <rect class="window" x="330" y="0" width="15" height="4"/><path d="M330,2 h15 M337.5,2 v-1" class="fixture"/>
+    <rect class="window" x="595.5" y="160" width="5" height="20"/><path d="M598,160 v20 M598,170 h-1" class="fixture"/>
+    <rect class="window" x="495" y="387.5" width="20" height="5"/><path d="M495,390 h20 M505,390 v2" class="fixture"/>
+    <rect class="window" x="525" y="387.5" width="20" height="5"/><path d="M525,390 h20 M535,390 v2" class="fixture"/>
+    <rect class="window" x="555" y="387.5" width="20" height="5"/><path d="M555,390 h20 M565,390 v2" class="fixture"/>
+    <path d="M425,100 h30" stroke="white" stroke-width="6"/>
+    <path class="fixture" d="M426,100 h14 l-4 4 M454,100 h-14 l4-4"/>
+    <path d="M75,105 v-25" stroke="white" stroke-width="3.5"/><path class="fixture" d="M75,105 a25,25 0 0 0-25-25"/>
+    <path d="M175,90 h-20" stroke="white" stroke-width="3.5"/><path class="fixture" d="M175,90 a20,20 0 0 0-17-15"/>
+    <path d="M155,140 v-20" stroke="white" stroke-width="3.5"/><path class="fixture" d="M155,140 a20,20 0 0 1 20-18"/>
+    <path d="M230,160 v20" stroke="white" stroke-width="3.5"/><path class="fixture" d="M230,160 a25,25 0 0 1 25,20"/>
+    <path d="M205,90 h-10" stroke="white" stroke-width="3.5"/><path class="fixture" d="M205,90 a20,20 0 0 0-15-15"/>
+    <path d="M270,90 h10" stroke="white" stroke-width="3.5"/><path class="fixture" d="M270,90 a20,20 0 0 1 15-15"/>
+    <path d="M280,170 v-20" stroke="white" stroke-width="3.5"/><path class="fixture" d="M280,170 a20,20 0 0 1-20-18"/>
+    <path d="M260,270 h-20" stroke="white" stroke-width="3.5"/><path class="fixture" d="M260,270 a25,25 0 0 1-20,15"/>
+    <path d="M165,270 h20" stroke="white" stroke-width="3.5"/><path class="fixture" d="M165,270 a25,25 0 0 0 20,15"/>
+    <path d="M380,390 v-30" stroke="white" stroke-width="6"/><path class="fixture" d="M380,360 a30,30 0 0 1 -30,30"/>
+    <path d="M430,390 v-30" stroke="white" stroke-width="6"/><path class="fixture" d="M430,360 a30,30 0 0 0 30,30"/>
+    <path class="fixture" d="M290,90 h30 M290,90 l15 5 l-15 5 M320,90 l-15 5 l15 5"/>
+    <path class="fixture" d="M200,90 h30 M200,90 l15 5 l-15 5 M230,90 l-15 5 l15 5"/>
+    <path class="fixture" d="M290,210 h30 M290,210 l15 5 l-15 5 M320,210 l-15 5 l15 5"/>
+</g>
+
+<g id="fixtures">
+    <path class="fixture" d="M10,120 h12 v20 h-12 z"/><ellipse class="fixture" cx="16" cy="115" rx="5" ry="3"/>
+    <path class="fixture" d="M30,147.5 h40"/><ellipse class="fixture" cx="40" cy="145" rx="5" ry="3"/><ellipse class="fixture" cx="60" cy="145" rx="5" ry="3"/>
+    <path class="fixture" d="M220,152.5 h-15 v20 h15 z"/><ellipse class="fixture" cx="212.5" cy="157.5" rx="5" ry="3"/>
+    <path class="fixture" d="M197.5,152.5 h20"/><ellipse class="fixture" cx="207.5" cy="150" rx="5" ry="3"/>
+    <rect class="fixture" x="197.5" y="180" width="30" height="25"/><rect class="fixture" rx="5" x="200" y="182.5" width="25" height="20"/>
+    <path class="fixture" d="M422.5,82.5 h-40 v50"/>
+    <rect class="fixture" x="400" y="85" width="20" height="15"/><rect class="fixture" x="402" y="87" width="6" height="11"/><rect class="fixture" x="412" y="87" width="6" height="11"/>
+    <rect class="fixture" x="385" y="110" width="25" height="20"/>
+    <circle class="fixture" cx="391" cy="116" r="2.5"/><circle class="fixture" cx="403" cy="116" r="2.5"/><circle class="fixture" cx="391" cy="124" r="2.5"/><circle class="fixture" cx="403" cy="124" r="2.5"/>
+    <rect class="fixture" x="460" y="140" width="30" height="60"/>
+</g>
+
+<g id="labels">
+    <text x="80" y="45" class="label">MASTER BEDROOM</text><text x="80" y="58" class="dim">19 X 15</text>
+    <text x="235" y="45" class="label">BEDROOM</text><text x="235" y="58" class="dim">12 X 11.5</text>
+    <text x="350" y="45" class="label">BEDROOM</text><text x="350" y="58" class="dim">12 X 11.5</text>
+    <text x="40" y="115" class="label">BATHROOM</text>
+    <text x="115" y="125" class="label">CLOSET</text>
+    <text x="200" y="170" class="label">BATHROOM</text>
+    <text x="305" y="165" class="label">UTILITY</text>
+    <text x="305" y="195" class="label">CLOSET</text>
+    <text x="90" y="320" class="label">SINGLE GARAGE</text><text x="90" y="333" class="dim">14 X 23.25</text>
+    <text x="275" y="320" class="label">DOUBLE GARAGE</text><text x="275" y="333" class="dim">19 X 21.25</text>
+    <text x="140" y="370" class="dim">(773 SQ FT)</text>
+    <text x="405" y="430" class="label">PORCH</text>
+    <text x="390" y="60" class="label">PATIO</text><text x="390" y="73" class="dim">21 X 12</text>
+    <text x="380" y="160" class="label">KITCHEN</text>
+    <text x="510" y="210" class="label">DINING ROOM</text><text x="510" y="223" class="dim">12 X 12.5</text>
+    <text x="510" y="320" class="label">LIVING ROOM</text><text x="510" y="333" class="dim">21.5 X 18.5</text>
+</g>
+</svg>

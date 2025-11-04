@@ -1,0 +1,94 @@
+<svg viewBox="0 0 380 260" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="20" text-anchor="middle" font-size="14">POPULATION MOVEMENTS, 1947–1951</text>
+  
+  <!-- Header Row -->
+  <rect x="0" y="40" width="100" height="30" stroke="black" fill="none"/>
+  <text x="50" y="55" text-anchor="middle" font-size="12">Migrated From</text>
+  
+  <rect x="100" y="40" width="180" height="30" stroke="black" fill="none"/>
+  <text x="190" y="55" text-anchor="middle" font-size="12">Migrated To</text>
+  
+  <rect x="280" y="40" width="80" height="30" stroke="black" fill="none"/>
+  <text x="320" y="55" text-anchor="middle" font-size="12">Total Out Migration</text>
+  
+  <!-- Subheader Row -->
+  <rect x="0" y="70" width="100" height="30" stroke="black" fill="none"/>
+  
+  <rect x="100" y="70" width="60" height="30" stroke="black" fill="none"/>
+  <text x="130" y="85" text-anchor="middle" font-size="12">West Pakistan</text>
+  
+  <rect x="160" y="70" width="60" height="30" stroke="black" fill="none"/>
+  <text x="190" y="85" text-anchor="middle" font-size="12">East Pakistan</text>
+  
+  <rect x="220" y="70" width="60" height="30" stroke="black" fill="none"/>
+  <text x="250" y="85" text-anchor="middle" font-size="12">India</text>
+  
+  <rect x="280" y="70" width="80" height="30" stroke="black" fill="none"/>
+  
+  <!-- India Row -->
+  <rect x="0" y="100" width="100" height="30" stroke="black" fill="none"/>
+  <text x="50" y="115" text-anchor="middle" font-size="12">India</text>
+  
+  <rect x="100" y="100" width="60" height="30" stroke="black" fill="none"/>
+  <text x="130" y="115" text-anchor="middle" font-size="12">6.5<tspan dy="-2">*</tspan></text>
+  
+  <rect x="160" y="100" width="60" height="30" stroke="black" fill="none"/>
+  <text x="190" y="115" text-anchor="middle" font-size="12">0.7<tspan dy="-2">*</tspan></text>
+  
+  <rect x="220" y="100" width="60" height="30" stroke="black" fill="none"/>
+  <text x="250" y="115" text-anchor="middle" font-size="12">-</text>
+  
+  <rect x="280" y="100" width="80" height="30" stroke="black" fill="none"/>
+  <text x="320" y="115" text-anchor="middle" font-size="12">7.2</text>
+  
+  <!-- West Pakistan Row -->
+  <rect x="0" y="130" width="100" height="30" stroke="black" fill="none"/>
+  <text x="50" y="145" text-anchor="middle" font-size="12">West Pakistan</text>
+  
+  <rect x="100" y="130" width="60" height="30" stroke="black" fill="none"/>
+  <text x="130" y="145" text-anchor="middle" font-size="12">-</text>
+  
+  <rect x="160" y="130" width="60" height="30" stroke="black" fill="none"/>
+  <text x="190" y="145" text-anchor="middle" font-size="12">-</text>
+  
+  <rect x="220" y="130" width="60" height="30" stroke="black" fill="none"/>
+  <text x="250" y="145" text-anchor="middle" font-size="12">4.7<tspan dy="-2">**</tspan></text>
+  
+  <rect x="280" y="130" width="80" height="30" stroke="black" fill="none"/>
+  <text x="320" y="145" text-anchor="middle" font-size="12">4.7</text>
+  
+  <!-- East Pakistan Row -->
+  <rect x="0" y="160" width="100" height="30" stroke="black" fill="none"/>
+  <text x="50" y="175" text-anchor="middle" font-size="12">East Pakistan</text>
+  
+  <rect x="100" y="160" width="60" height="30" stroke="black" fill="none"/>
+  <text x="130" y="175" text-anchor="middle" font-size="12">-</text>
+  
+  <rect x="160" y="160" width="60" height="30" stroke="black" fill="none"/>
+  <text x="190" y="175" text-anchor="middle" font-size="12">-</text>
+  
+  <rect x="220" y="160" width="60" height="30" stroke="black" fill="none"/>
+  <text x="250" y="175" text-anchor="middle" font-size="12">2.6<tspan dy="-2">**</tspan></text>
+  
+  <rect x="280" y="160" width="80" height="30" stroke="black" fill="none"/>
+  <text x="320" y="175" text-anchor="middle" font-size="12">2.6</text>
+  
+  <!-- Total In Migration Row -->
+  <rect x="0" y="190" width="100" height="30" stroke="black" fill="none"/>
+  <text x="50" y="205" text-anchor="middle" font-size="12">Total In Migration</text>
+  
+  <rect x="100" y="190" width="60" height="30" stroke="black" fill="none"/>
+  <text x="130" y="205" text-anchor="middle" font-size="12">6.5</text>
+  
+  <rect x="160" y="190" width="60" height="30" stroke="black" fill="none"/>
+  <text x="190" y="205" text-anchor="middle" font-size="12">0.7</text>
+  
+  <rect x="220" y="190" width="60" height="30" stroke="black" fill="none"/>
+  <text x="250" y="205" text-anchor="middle" font-size="12">7.3</text>
+  
+  <rect x="280" y="190" width="80" height="30" stroke="black" fill="none"/>
+  
+  <!-- Footnotes -->
+  <text x="10" y="230" font-size="10">*primarily Muslim populations</text>
+  <text x="10" y="245" font-size="10">**primarily Hindu or Sikh populations</text>
+</svg>

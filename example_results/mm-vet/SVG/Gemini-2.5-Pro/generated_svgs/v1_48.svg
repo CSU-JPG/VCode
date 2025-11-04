@@ -1,0 +1,178 @@
+<svg viewBox="0 0 970 780" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .label { font: bold 20px sans-serif; }
+      .dim { font: 16px sans-serif; }
+      .small-label { font: 14px sans-serif; }
+      .walls { fill: #000; stroke: none; }
+      .lines { fill: none; stroke: #000; stroke-width: 1; }
+      .thin-lines { fill: none; stroke: #000; stroke-width: 0.75; }
+      .dashed-lines { fill: none; stroke: #000; stroke-width: 1; stroke-dasharray: 5, 5; }
+      .window-hatch { fill: none; stroke: #000; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Walls -->
+  <g class="walls">
+    <!-- Outer boundary and major divisions -->
+    <path d="M125,565 L125,290 L140,290 L140,110 L125,110 L125,95 L395,95 L395,110 L410,110 L410,175 L155,175 L155,190 L410,190 L410,210 L155,210 L155,290 L410,290 L410,305 L445,305 L445,210 L790,210 L790,225 L880,225 L880,535 L865,535 L865,570 L790,570 L790,555 L690,555 L690,535 L675,535 L675,570 L605,570 L605,555 L580,555 L580,570 L520,570 L520,555 L505,555 L505,630 L520,630 L520,645 L580,645 L580,630 L595,630 L595,715 L520,715 L520,700 L250,700 L250,715 L140,715 L140,565 L125,565 Z"/>
+    <!-- Central wall block -->
+    <path d="M425,305 L445,305 L445,525 L505,525 L505,505 L520,505 L520,555 L425,555 L425,305 Z"/>
+    <!-- Wall between second bedroom and master bedroom -->
+    <path d="M675,225 L690,225 L690,535 L675,535 L675,225 Z"/>
+    <!-- Master bath area walls -->
+    <path d="M605,570 L675,570 L675,670 L605,670 L605,570 Z"/>
+    <!-- Foyer right wall -->
+    <path d="M595,630 L675,630 L675,645 L595,645 L595,630 Z"/>
+  </g>
+
+  <!-- Thin Lines, Doors, and Windows -->
+  <g class="lines">
+    <!-- Terrace sliding door -->
+    <path d="M155,175 L155,190 M165,175 L165,190 M277,175 L277,190 M287,175 L287,190"/>
+    <rect x="165" y="175" width="112" height="15" fill="none" stroke="#000" stroke-width="1"/>
+    
+    <!-- Windows -->
+    <g class="window-hatch">
+      <path d="M125,410 L140,410 M125,420 L140,420 M125,430 L140,430 M125,440 L140,440 M125,450 L140,450"/>
+      <path d="M445,210 L445,225 M455,210 L455,225 M465,210 L465,225 M475,210 L475,225 M485,210 L485,225"/>
+      <path d="M690,210 L690,225 M700,210 L700,225 M710,210 L710,225 M720,210 L720,225 M730,210 L730,225"/>
+    </g>
+
+    <!-- Dashed Lines (openings) -->
+    <path class="dashed-lines" d="M140,290 L140,320"/>
+    <path class="dashed-lines" d="M380,320 A 40 40 0 0 1 410,290"/>
+    <path class="dashed-lines" d="M425,440 L425,480"/>
+    <path class="dashed-lines" d="M505,600 L520,600"/>
+    <path class="dashed-lines" d="M605,570 L605,600"/>
+    <path class="dashed-lines" d="M690,535 L690,505"/>
+  </g>
+  
+  <!-- Kitchen Fixtures -->
+  <g>
+    <path class="lines" d="M305,290 L305,450 L410,450"/>
+    <rect x="305" y="325" width="45" height="45" class="lines"/>
+    <circle cx="318" cy="338" r="5" class="lines"/>
+    <circle cx="340" cy="338" r="5" class="lines"/>
+    <circle cx="318" cy="360" r="5" class="lines"/>
+    <circle cx="340" cy="360" r="5" class="lines"/>
+    <rect x="355" y="420" width="50" height="30" class="lines"/>
+    <rect x="357" y="422" width="46" height="26" class="thin-lines"/>
+    <rect x="382" y="365" width="28" height="30" class="lines"/>
+    <line x1="382" y1="380" x2="410" y2="380" class="lines"/>
+    <line x1="396" y1="365" x2="396" y2="395" class="lines"/>
+    <path d="M425,370 L430,375 L425,380 L430,385 L425,390 L430,395 M427.5,367.5 L427.5,397.5 M422.5,382.5 L432.5,382.5" class="lines"/>
+  </g>
+
+  <!-- Bathroom Fixtures -->
+  <g class="lines">
+    <!-- WC -->
+    <path d="M455,525 C 475 525, 475 545, 455 545 Z"/>
+    <rect x="450" y="505" width="10" height="20"/>
+    <rect x="475" y="508" width="25" height="12"/>
+    <ellipse cx="487.5" cy="514" rx="8" ry="4"/>
+    
+    <!-- Master Bathroom -->
+    <path d="M610,640 Q 610 665, 625 665 L 660 665 Q 675 665, 675 640 L 675 580 Q 675 575, 660 575 L 625 575 Q 610 575, 610 580 Z"/>
+    <path d="M785,570 L785,585 L735,585 L735,570"/>
+    <ellipse cx="760" cy="577.5" rx="15" ry="6"/>
+    <path d="M700,580 C 720 580, 720 600, 700 600 Z"/>
+    <rect x="695" y="560" width="10" height="20"/>
+
+    <!-- Bath (main) -->
+    <path d="M615,605 C 615 625, 630 635, 645 635 C 660 635, 675 625, 675 605 C 675 585, 660 575, 645 575 C 630 575, 615 585, 615 605 Z"/>
+    <path d="M690,650 C 710 650, 710 670, 690 670 Z"/>
+    <rect x="685" y="630" width="10" height="20"/>
+    <rect x="715" y="633" width="60" height="15"/>
+    <ellipse cx="745" cy="640.5" rx="20" ry="5"/>
+  </g>
+
+  <!-- Closet Lines -->
+  <g class="lines">
+    <!-- CL -->
+    <path d="M445,305 L445,525 M 435,305 L435,525"/>
+    <!-- LC -->
+    <path d="M520,645 L580,645 M 520,655 L580,655"/>
+    <!-- CL Master -->
+    <path d="M690,535 L790,535 M 690,545 L790,545"/>
+    <path d="M740,535 L740,555 M 750,535 L750,555"/>
+  </g>
+
+  <!-- Entrance -->
+  <g>
+    <path d="M650,700 L685,700 M650,705 L685,705" class="lines"/>
+    <path d="M650,700 L640,695 M650,700 L640,705 M650,705 L640,700 M650,705 L640,710" fill="none" stroke="#000" stroke-width="1.5"/>
+    <text x="695" y="708" class="label" font-size="16px">Entrance</text>
+  </g>
+
+  <!-- Text Labels -->
+  <g text-anchor="middle">
+    <!-- Living Room -->
+    <text x="270" y="590" class="label">LIVING ROOM</text>
+    <text x="270" y="615" class="dim">14'6" x 20'5"</text>
+    
+    <!-- Dining Area -->
+    <text x="270" y="240" class="label">DINING AREA</text>
+    <text x="270" y="265" class="dim">9'10" x 13'0"</text>
+    
+    <!-- Terrace -->
+    <text x="270" y="130" class="label">TERRACE</text>
+    <text x="270" y="155" class="dim">21'6" x 8'0"</text>
+
+    <!-- Kitchen -->
+    <text x="357.5" y="315" class="dim" transform="rotate(270, 357.5, 315)">7'5" x 12'3"</text>
+    <text x="375" y="340" class="label" transform="rotate(270, 375, 340)">KITCHEN</text>
+    <text x="327.5" y="385" class="small-label">oven</text>
+    <text x="382.5" y="440" class="small-label">DW</text>
+
+    <!-- Built-in -->
+    <text x="435" y="495" class="small-label">Built-in</text>
+    
+    <!-- Foyer -->
+    <text x="547.5" y="665" class="label">FOYER</text>
+    <text x="547.5" y="690" class="dim">6'0" x 6'3"</text>
+
+    <!-- Second Bedroom -->
+    <text x="560" y="370" class="label">SECOND BEDROOM</text>
+    <text x="560" y="395" class="dim">10'10" x 14'7"</text>
+    
+    <!-- Master Bedroom -->
+    <text x="780" y="370" class="label">MASTER BEDROOM</text>
+    <text x="780" y="395" class="dim">12'10" x 17'9"</text>
+
+    <!-- WC -->
+    <text x="465" y="570" class="label">WC</text>
+    <text x="465" y="590" class="dim">5'2" x 5'2"</text>
+    
+    <!-- Bath -->
+    <text x="645" y="595" class="label">BATH</text>
+    
+    <!-- Master Bathroom -->
+    <text x="780" y="625" class="label" transform="rotate(270, 780, 625)">MASTER</text>
+    <text x="795" y="625" class="label" transform="rotate(270, 795, 625)">BATHROOM</text>
+    <text x="815" y="625" class="dim" transform="rotate(270, 815, 625)">4'11" x 6'10"</text>
+
+    <!-- Closets -->
+    <text x="435" y="415" class="label" transform="rotate(270, 435, 415)">CL</text>
+    <text x="455" y="415" class="dim" transform="rotate(270, 455, 415)">8'4" x 2'7"</text>
+    <text x="550" y="640" class="label">LC</text>
+    <text x="730" y="525" class="label">CL</text>
+    <text x="730" y="545" class="dim" >2'11" x 6'11"</text>
+  </g>
+
+  <!-- Arrows for closet measurements -->
+  <g class="thin-lines">
+    <path d="M480 305 L480 525 M 477 308 L 480 305 L 483 308 M 477 522 L 480 525 L 483 522" />
+    <path d="M690 562 L790 562 M 693 559 L 690 562 L 693 565 M 787 559 L 790 562 L 787 565" />
+  </g>
+
+  <!-- Compass -->
+  <g text-anchor="middle">
+    <circle cx="850" y="700" r="30" class="lines"/>
+    <path d="M850 675 L830 715 L870 715 Z" class="lines"/>
+    <text x="850" y="705" class="label" font-size="18px">N</text>
+  </g>
+
+  <!-- Disclaimer -->
+  <text x="850" y="755" class="dim" font-size="12px" text-anchor="middle">For illustration purposes only</text>
+</svg>

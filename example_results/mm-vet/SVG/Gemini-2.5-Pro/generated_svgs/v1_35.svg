@@ -1,0 +1,160 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#EADFCF"/>
+  <g stroke="#3E352F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Title Section -->
+    <g id="title">
+      <path d="M 180 30 C 250 25, 550 25, 620 30 L 650 60 L 620 90 C 550 95, 250 95, 180 90 L 150 60 Z" fill="#8FC7B4"/>
+      <path d="M 150 60 L 180 90 L 180 70 L 150 60 Z" fill="#76A997"/>
+      <path d="M 650 60 L 620 90 L 620 70 L 650 60 Z" fill="#76A997"/>
+      <path d="M 330 110 C 350 105, 450 105, 470 110 L 475 118 L 325 118 Z" fill="#FCE182"/>
+      <path d="M 330 110 C 350 115, 450 115, 470 110" fill="#D78135" stroke-width="2"/>
+      <path d="M 355 114 L 360 108" stroke="#D78135" stroke-width="2"/>
+      <path d="M 385 114 L 390 108" stroke="#D78135" stroke-width="2"/>
+      <path d="M 415 114 L 420 108" stroke="#D78135" stroke-width="2"/>
+      <path d="M 445 114 L 450 108" stroke="#D78135" stroke-width="2"/>
+      <path d="M 310 112 L 315 115" stroke-width="1"/>
+      <path d="M 305 115 L 310 118" stroke-width="1"/>
+      <path d="M 485 112 L 490 115" stroke-width="1"/>
+      <path d="M 495 115 L 490 118" stroke-width="1"/>
+    </g>
+
+    <!-- Step 1 -->
+    <g id="step1">
+      <circle cx="50" cy="180" r="10" fill="#EADFCF"/>
+      <path d="M 115 170 C 120 172, 125 178, 125 185 C 125 192, 120 198, 115 200" fill="#ADD9D3"/>
+      <path d="M 80 200 L 130 200 Q 140 200 140 190 L 140 170 Q 140 160 130 160 L 80 160 Z" fill="none"/>
+      <path d="M 140 185 C 150 185, 155 180, 155 175 L 140 175 Z" fill="none"/>
+      <rect x="85" y="165" width="40" height="30" fill="#ADD9D3"/>
+      <path d="M 170 240 L 230 230" fill="none"/>
+      <path d="M 230 230 C 240 232, 245 240, 240 245 C 235 250, 225 245, 222 238 Z" fill="#FFFFFF"/>
+      <path d="M 223 239 C 225 241, 230 243, 235 242" fill="none" stroke-width="1"/>
+      <path d="M 190 280 H 230 V 320 H 190 Z" fill="#DDB89A"/>
+      <path d="M 200 295 C 205 292, 215 292, 220 295 L 222 305 L 198 305 Z" fill="#FCE182"/>
+      <path d="M 200 295 C 205 298, 215 298, 220 295" fill="#D78135"/>
+    </g>
+
+    <!-- Step 2 -->
+    <g id="step2">
+      <circle cx="310" cy="180" r="10" fill="#EADFCF"/>
+      <path d="M 340 200 C 340 180, 380 180, 380 200 C 390 220, 390 240, 380 250 L 340 250 C 330 240, 330 220, 340 200 Z" fill="#8DA15F"/>
+      <path d="M 345 205 C 345 190, 375 190, 375 205 C 380 215, 380 225, 375 235 L 345 235 C 340 225, 340 215, 345 205 Z" fill="#FCE182"/>
+      <path d="M 390 225 C 400 220, 410 230, 405 240" fill="none"/>
+      <path d="M 398 225 C 400 220, 405 220, 407 225" fill="#6A7141" stroke="none"/>
+      <path d="M 405 230 C 410 225, 415 228, 412 233" fill="#6A7141" stroke="none"/>
+      <path d="M 370 275 C 375 277, 380 283, 380 290 C 380 297, 375 303, 370 305" fill="#FFFFFF"/>
+      <path d="M 335 305 L 385 305 Q 395 305 395 295 L 395 275 Q 395 265 385 265 L 335 265 Z" fill="none"/>
+      <path d="M 395 290 C 405 290, 410 285, 410 280 L 395 280 Z" fill="none"/>
+      <rect x="340" y="270" width="40" height="30" fill="#FFFFFF"/>
+      <path d="M 420 330 L 480 320" fill="none"/>
+      <path d="M 480 320 C 490 322, 495 330, 490 335 C 485 340, 475 335, 472 328 Z" fill="#FFFFFF"/>
+      <path d="M 473 329 C 475 331, 480 333, 485 332" fill="none" stroke-width="1"/>
+    </g>
+
+    <!-- Step 3 -->
+    <g id="step3">
+      <circle cx="510" cy="180" r="10" fill="#EADFCF"/>
+      <path d="M 540 230 L 580 230 L 590 280 L 530 280 Z" fill="#B48B6F"/>
+      <path d="M 540 230 C 550 220, 570 220, 580 230" fill="#FFFFFF"/>
+      <path d="M 535 280 C 550 285, 570 285, 585 280" fill="#FFFFFF"/>
+      <path d="M 600 280 C 620 270, 680 270, 700 280 C 720 290, 680 310, 660 300 C 640 290, 620 295, 600 280 Z" fill="#FAD4B9"/>
+      <path d="M 605 280 C 620 260, 660 260, 675 280 L 680 300 Q 650 315 620 300 L 615 280" fill="#FAD4B9"/>
+      <path d="M 610 265 L 615 250 M 625 260 L 630 245 M 640 260 L 645 245 M 655 260 L 660 245" fill="none"/>
+      <path d="M 670 280 C 690 260, 730 260, 745 280 L 750 300 Q 720 315 690 300 L 685 280" fill="#FAD4B9"/>
+      <path d="M 680 265 L 685 250 M 695 260 L 700 245 M 710 260 L 715 245 M 725 260 L 730 245" fill="none"/>
+    </g>
+
+    <!-- Step 4 -->
+    <g id="step4">
+      <circle cx="50" cy="400" r="10" fill="#EADFCF"/>
+      <path d="M 80 470 C 130 480, 230 480, 280 470 L 270 450 H 90 Z" fill="#ADD9D3"/>
+      <path d="M 80 450 C 100 420, 260 420, 280 450 C 280 460, 80 460, 80 450" fill="#E8484B"/>
+      <g fill="#FFFFFF" stroke="none">
+        <circle cx="100" cy="445" r="4"/><circle cx="130" cy="440" r="4"/><circle cx="160" cy="448" r="4"/>
+        <circle cx="190" cy="442" r="4"/><circle cx="220" cy="445" r="4"/><circle cx="250" cy="440" r="4"/>
+        <circle cx="115" cy="430" r="4"/><circle cx="145" cy="428" r="4"/><circle cx="175" cy="433" r="4"/>
+        <circle cx="205" cy="430" r="4"/><circle cx="235" cy="432" r="4"/>
+      </g>
+    </g>
+
+    <!-- Step 5 -->
+    <g id="step5">
+      <circle cx="310" cy="400" r="10" fill="#EADFCF"/>
+      <path d="M 330 470 L 530 470 L 525 480 L 335 480 Z" fill="#CC4539"/>
+      <path d="M 340 460 C 360 455, 500 455, 520 460 L 525 470 L 335 470 Z" fill="#FAD4B9"/>
+      <path d="M 340 460 C 360 465, 500 465, 520 460" fill="none"/>
+    </g>
+
+    <!-- Step 6 -->
+    <g id="step6">
+      <circle cx="560" cy="400" r="10" fill="#EADFCF"/>
+      <path d="M 580 470 L 780 470 L 775 480 L 585 480 Z" fill="#CC4539"/>
+      <path d="M 590 460 C 610 455, 750 455, 770 460 L 775 470 L 585 470 Z" fill="#FCE182"/>
+      <path d="M 590 460 C 610 465, 750 465, 770 460" fill="#D78135" stroke-width="2"/>
+      <path d="M 625 464 L 630 458" stroke="#D78135" stroke-width="2"/>
+      <path d="M 665 464 L 670 458" stroke="#D78135" stroke-width="2"/>
+      <path d="M 705 464 L 710 458" stroke="#D78135" stroke-width="2"/>
+      <path d="M 745 464 L 750 458" stroke="#D78135" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <g font-family="sans-serif" font-size="14" fill="#3E352F" style="font-family: 'Comic Sans MS', cursive, sans-serif; letter-spacing: -0.5px;">
+    <!-- Title Text -->
+    <text x="260" y="70" font-size="36" font-weight="bold">Homemade baguette</text>
+
+    <!-- Step 1 Text -->
+    <g text-anchor="middle">
+        <text x="50" y="185" fill="#3E352F" font-size="12" font-weight="bold">1</text>
+    </g>
+    <text x="70" y="150" font-size="16">Pour into a larger bowl:</text>
+    <text x="90" y="225" font-size="12">* 200 ml of</text>
+    <text x="90" y="240" font-size="12">lukewarm water</text>
+    <text x="140" y="265" font-size="12">* 1 tablespoon</text>
+    <text x="140" y="280" font-size="12">of sugar</text>
+    <text x="140" y="335" font-size="12">* 10 g of dry yeast</text>
+
+    <!-- Step 2 Text -->
+    <g text-anchor="middle">
+        <text x="310" y="185" fill="#3E352F" font-size="12" font-weight="bold">2</text>
+    </g>
+    <text x="330" y="150" font-size="16">After 5 minutes, add:</text>
+    <text x="350" y="200" font-size="12">* 50 ml of</text>
+    <text x="350" y="215" font-size="12">olive oil</text>
+    <text x="340" y="260" font-size="12">* 2 tablespoon</text>
+    <text x="340" y="275" font-size="12">of yogurt</text>
+    <text x="390" y="350" font-size="12">* 1 teaspoon of salt</text>
+
+    <!-- Step 3 Text -->
+    <g text-anchor="middle">
+        <text x="510" y="185" fill="#3E352F" font-size="12" font-weight="bold">3</text>
+    </g>
+    <text x="530" y="200" font-size="16">Add 350 g of all purpose flour</text>
+    <text x="610" y="325" font-size="16">Knead for a few minutes</text>
+    <text x="610" y="345" font-size="16">to get a smooth dough</text>
+
+    <!-- Step 4 Text -->
+    <g text-anchor="middle">
+        <text x="50" y="405" fill="#3E352F" font-size="12" font-weight="bold">4</text>
+    </g>
+    <text x="70" y="390" font-size="16">Cover with a kitchen towel</text>
+    <text x="70" y="410" font-size="16">and leave for half an hour</text>
+
+    <!-- Step 5 Text -->
+    <g text-anchor="middle">
+        <text x="310" y="405" fill="#3E352F" font-size="12" font-weight="bold">5</text>
+    </g>
+    <text x="330" y="390" font-size="16">Shape the baguette, place</text>
+    <text x="330" y="410" font-size="16">in a baking tray and leave</text>
+    <text x="330" y="430" font-size="16">for another hour and</text>
+    <text x="330" y="450" font-size="16">a half to rise</text>
+
+    <!-- Step 6 Text -->
+    <g text-anchor="middle">
+        <text x="560" y="405" fill="#3E352F" font-size="12" font-weight="bold">6</text>
+    </g>
+    <text x="580" y="390" font-size="16">Bake in a preheated oven</text>
+    <text x="580" y="410" font-size="16">at 230 degrees for approximately</text>
+    <text x="580" y="430" font-size="16">20-30 minutes and it's</text>
+    <text x="580" y="450" font-size="16">smeared oil-baked bread</text>
+  </g>
+</svg>

@@ -1,0 +1,194 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ea0ff"/>
+      <stop offset="60%" stop-color="#7fc1ff"/>
+      <stop offset="100%" stop-color="#a8d3ff"/>
+    </linearGradient>
+
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfe7ef"/>
+      <stop offset="100%" stop-color="#cfd7de"/>
+    </linearGradient>
+
+    <linearGradient id="concrete" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6e6ea"/>
+      <stop offset="100%" stop-color="#c9c9cf"/>
+    </linearGradient>
+
+    <linearGradient id="brown" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a4c3d"/>
+      <stop offset="100%" stop-color="#924f42"/>
+    </linearGradient>
+
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f5f2d"/>
+      <stop offset="100%" stop-color="#1f4a1e"/>
+    </linearGradient>
+
+    <pattern id="win-small" width="22" height="22" patternUnits="userSpaceOnUse">
+      <rect width="22" height="22" fill="none"/>
+      <rect x="4" y="4" width="14" height="14" rx="1" ry="1" fill="#9fb3c4"/>
+    </pattern>
+
+    <pattern id="win-brown" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="none"/>
+      <rect x="5" y="5" width="18" height="18" rx="2" ry="2" fill="#caa887"/>
+    </pattern>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+
+    <radialGradient id="tree" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#2a6a2a"/>
+      <stop offset="100%" stop-color="#164d1b"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="768" fill="url(#sky)"/>
+
+  <!-- distant mountains -->
+  <path d="M0 470 L80 460 L130 465 L200 455 L270 470 L340 462 L410 475 L480 462 L560 470 L630 458 L720 470 L800 460 L880 472 L1024 460 L1024 520 L0 520 Z" fill="#97b6d6" opacity="0.55"/>
+
+  <!-- plaza foreground -->
+  <rect x="0" y="610" width="1024" height="158" fill="#7e8a93"/>
+  <path d="M0 610 L1024 610 L1024 580 L870 580 L820 590 L680 590 L600 580 L460 580 L420 590 L260 590 L200 580 L0 580 Z" fill="#2b2f33" opacity="0.75"/>
+  <rect x="86" y="585" width="380" height="130" fill="url(#grass)"/>
+  <rect x="494" y="585" width="520" height="130" fill="url(#grass)"/>
+  <path d="M350 585 L370 585 L370 768 L350 768 Z" fill="#6a6a70" opacity="0.5"/>
+  <path d="M820 585 L842 585 L842 768 L820 768 Z" fill="#6a6a70" opacity="0.5"/>
+
+  <!-- left orange museum-like building -->
+  <rect x="0" y="260" width="190" height="280" fill="#b4622d" filter="url(#shadow)"/>
+  <rect x="24" y="300" width="18" height="200" fill="#2a2a2a" opacity="0.25"/>
+  <rect x="60" y="300" width="10" height="205" fill="#2a2a2a" opacity="0.22"/>
+
+  <!-- center Adobe tower -->
+  <g filter="url(#shadow)">
+    <rect x="390" y="158" width="140" height="300" fill="url(#glass)" stroke="#bfc7cf" stroke-width="2"/>
+    <rect x="392" y="160" width="136" height="296" fill="url(#win-small)"/>
+    <rect x="472" y="110" width="20" height="50" fill="#d0d6dc"/>
+    <rect x="430" y="120" width="80" height="38" fill="#d0d6dc"/>
+    <rect x="424" y="106" width="92" height="16" fill="#d0d6dc"/>
+  </g>
+
+  <!-- background light gray tower to right of Adobe -->
+  <g filter="url(#shadow)">
+    <rect x="548" y="192" width="130" height="240" fill="url(#glass)" stroke="#bfc7cf" stroke-width="2"/>
+    <rect x="550" y="194" width="126" height="236" fill="url(#win-small)"/>
+  </g>
+
+  <!-- brown tower on far right -->
+  <g filter="url(#shadow)">
+    <rect x="758" y="160" width="180" height="270" rx="8" fill="url(#brown)"/>
+    <rect x="768" y="176" width="160" height="238" fill="url(#win-brown)"/>
+    <rect x="830" y="154" width="80" height="16" fill="#7a4c3d"/>
+  </g>
+
+  <!-- right front low concrete building -->
+  <g filter="url(#shadow)">
+    <rect x="680" y="326" width="344" height="160" fill="url(#concrete)"/>
+    <rect x="708" y="350" width="86" height="76" fill="#c1c5c9"/>
+    <rect x="820" y="350" width="86" height="76" fill="#c1c5c9"/>
+    <rect x="932" y="350" width="70" height="76" fill="#c1c5c9"/>
+  </g>
+
+  <!-- central white/gray structure with "Scott's" -->
+  <g filter="url(#shadow)">
+    <path d="M500 290 L590 290 L590 430 L470 430 L470 330 Z" fill="#e7e7eb"/>
+    <path d="M510 266 L578 266 L592 290 L496 290 Z" fill="#c5c5cb"/>
+    <rect x="502" y="308" width="84" height="48" rx="6" fill="#2a2a2e"/>
+    <text x="544" y="340" font-family="Verdana, Arial" font-size="18" fill="#ffffff" text-anchor="middle">Scott's</text>
+  </g>
+
+  <!-- left line of palm trees -->
+  <g>
+    <rect x="186" y="438" width="18" height="120" fill="#8b5a2b"/>
+    <rect x="226" y="438" width="16" height="120" fill="#8b5a2b"/>
+    <rect x="262" y="450" width="14" height="110" fill="#8b5a2b"/>
+    <rect x="298" y="452" width="12" height="108" fill="#8b5a2b"/>
+    <rect x="330" y="460" width="10" height="100" fill="#8b5a2b"/>
+
+    <circle cx="195" cy="420" r="40" fill="url(#tree)"/>
+    <circle cx="235" cy="418" r="36" fill="url(#tree)"/>
+    <circle cx="268" cy="430" r="32" fill="url(#tree)"/>
+    <circle cx="302" cy="430" r="30" fill="url(#tree)"/>
+    <circle cx="335" cy="438" r="26" fill="url(#tree)"/>
+  </g>
+
+  <!-- small street trees right -->
+  <g>
+    <rect x="706" y="440" width="12" height="74" fill="#6e4a2e"/>
+    <circle cx="712" cy="420" r="30" fill="url(#tree)"/>
+    <rect x="774" y="436" width="12" height="78" fill="#6e4a2e"/>
+    <circle cx="780" cy="416" r="32" fill="url(#tree)"/>
+  </g>
+
+  <!-- road and lane lines -->
+  <rect x="0" y="520" width="1024" height="70" fill="#3a3f45"/>
+  <rect x="180" y="552" width="80" height="6" fill="#dcdcdc"/>
+  <rect x="320" y="552" width="80" height="6" fill="#dcdcdc"/>
+  <rect x="460" y="552" width="80" height="6" fill="#dcdcdc"/>
+  <rect x="600" y="552" width="80" height="6" fill="#dcdcdc"/>
+  <rect x="740" y="552" width="80" height="6" fill="#dcdcdc"/>
+  <rect x="880" y="552" width="80" height="6" fill="#dcdcdc"/>
+
+  <!-- traffic lights -->
+  <rect x="255" y="506" width="8" height="83" fill="#2d2f33"/>
+  <rect x="250" y="500" width="20" height="28" rx="2" fill="#35383d"/>
+  <circle cx="260" cy="508" r="5" fill="#2b2b2b"/>
+  <circle cx="260" cy="516" r="5" fill="#f2d23c"/>
+  <circle cx="260" cy="524" r="5" fill="#47c05d"/>
+
+  <rect x="778" y="506" width="8" height="83" fill="#2d2f33"/>
+  <rect x="772" y="500" width="20" height="28" rx="2" fill="#35383d"/>
+  <circle cx="782" cy="508" r="5" fill="#e64a3b"/>
+  <circle cx="782" cy="516" r="5" fill="#e1bf3a"/>
+  <circle cx="782" cy="524" r="5" fill="#2dc04f"/>
+
+  <!-- bollards -->
+  <g fill="#8d9096">
+    <circle cx="150" cy="650" r="12"/>
+    <circle cx="260" cy="650" r="12"/>
+    <circle cx="370" cy="650" r="12"/>
+    <circle cx="480" cy="650" r="12"/>
+    <circle cx="590" cy="650" r="12"/>
+    <circle cx="700" cy="650" r="12"/>
+    <circle cx="810" cy="650" r="12"/>
+    <circle cx="920" cy="650" r="12"/>
+    <circle cx="60" cy="710" r="12"/>
+    <circle cx="220" cy="710" r="12"/>
+    <circle cx="380" cy="710" r="12"/>
+    <circle cx="540" cy="710" r="12"/>
+    <circle cx="700" cy="710" r="12"/>
+    <circle cx="860" cy="710" r="12"/>
+  </g>
+
+  <!-- subtle foreground tile lines -->
+  <g stroke="#a2a9b0" stroke-width="2" opacity="0.4">
+    <line x1="0" y1="640" x2="1024" y2="640"/>
+    <line x1="0" y1="680" x2="1024" y2="680"/>
+    <line x1="100" y1="610" x2="80" y2="768"/>
+    <line x1="220" y1="610" x2="200" y2="768"/>
+    <line x1="340" y1="610" x2="320" y2="768"/>
+    <line x1="460" y1="610" x2="440" y2="768"/>
+    <line x1="580" y1="610" x2="560" y2="768"/>
+    <line x1="700" y1="610" x2="680" y2="768"/>
+    <line x1="820" y1="610" x2="800" y2="768"/>
+    <line x1="940" y1="610" x2="920" y2="768"/>
+  </g>
+
+  <!-- small cars as rectangles -->
+  <g>
+    <rect x="392" y="510" width="46" height="20" rx="4" fill="#ffffff" stroke="#c7c7c7"/>
+    <rect x="446" y="512" width="40" height="18" rx="4" fill="#d6e1f2" stroke="#b8c6d8"/>
+    <rect x="500" y="512" width="46" height="18" rx="4" fill="#f3f3f3" stroke="#c7c7c7"/>
+    <circle cx="404" cy="532" r="5" fill="#2f2f33"/>
+    <circle cx="428" cy="532" r="5" fill="#2f2f33"/>
+    <circle cx="454" cy="532" r="5" fill="#2f2f33"/>
+    <circle cx="482" cy="532" r="5" fill="#2f2f33"/>
+    <circle cx="512" cy="532" r="5" fill="#2f2f33"/>
+    <circle cx="536" cy="532" r="5" fill="#2f2f33"/>
+  </g>
+</svg>

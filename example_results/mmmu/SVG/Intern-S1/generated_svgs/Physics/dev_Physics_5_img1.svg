@@ -1,0 +1,18 @@
+<svg viewBox="0 0 150 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="20" y1="30" x2="20" y2="50" />
+  <line x1="30" y1="35" x2="30" y2="45" />
+  <circle cx="40" cy="40" r="5" />
+  <text x="40" y="40" text-anchor="middle" alignment-baseline="middle">A</text>
+  <path d="M50,40 L55,35 L60,40 L65,35 L70,40" />
+  <line x1="70" y1="40" x2="70" y2="20" />
+  <path d="M70,20 L75,15 L80,20 L85,15 L90,20" />
+  <line x1="90" y1="20" x2="90" y2="40" />
+  <line x1="70" y1="40" x2="70" y2="60" />
+  <path d="M70,60 L75,65 L80,60 L85,65 L90,60" />
+  <line x1="90" y1="60" x2="90" y2="40" />
+  <line x1="90" y1="40" x2="100" y2="40" />
+  <line x1="110" y1="40" x2="120" y2="40" />
+  <line x1="105" y1="40" x2="110" y2="45" />
+  <text x="115" y="40" text-anchor="start" alignment-baseline="middle">s</text>
+  <line x1="120" y1="40" x2="30" y2="40" />
+</svg>

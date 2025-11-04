@@ -1,0 +1,122 @@
+<svg viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bf8a47"/>
+      <stop offset="0.5" stop-color="#c99353"/>
+      <stop offset="1" stop-color="#b77f3e"/>
+    </linearGradient>
+    <pattern id="grain" patternUnits="userSpaceOnUse" width="32" height="32">
+      <rect width="32" height="32" fill="none"/>
+      <path d="M0 6h32M0 26h32" stroke="#8f5f29" stroke-opacity="0.18" stroke-width="2"/>
+      <path d="M-2 14h36" stroke="#a67034" stroke-opacity="0.14" stroke-width="1.5"/>
+      <path d="M4 0v32" stroke="#7a4f22" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feOffset dx="0" dy="10" in="SourceAlpha" result="off"/>
+      <feGaussianBlur in="off" stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0.28 0" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="plateGrad" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#f7f7f7"/>
+      <stop offset="1" stop-color="#ececec"/>
+    </radialGradient>
+    <linearGradient id="breadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6d8c6"/>
+      <stop offset="1" stop-color="#cbb89f"/>
+    </linearGradient>
+    <linearGradient id="crustGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a6b3a"/>
+      <stop offset="1" stop-color="#6e4522"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8dde3"/>
+      <stop offset="0.5" stop-color="#b9c0c8"/>
+      <stop offset="1" stop-color="#e6e9ee"/>
+    </linearGradient>
+    <linearGradient id="napkinGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#faf7f2"/>
+      <stop offset="1" stop-color="#e9e4dc"/>
+    </linearGradient>
+    <radialGradient id="coffeeGrad" cx="50%" cy="48%" r="48%">
+      <stop offset="0" stop-color="#2b1f1b"/>
+      <stop offset="1" stop-color="#0f0b0a"/>
+    </radialGradient>
+    <radialGradient id="lidGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#dfe6ea" stop-opacity="0.9"/>
+    </radialGradient>
+    <linearGradient id="strawGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1aa85b"/>
+      <stop offset="1" stop-color="#0b8748"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="640" fill="url(#wood)"/>
+  <rect width="640" height="640" fill="url(#grain)" opacity="0.4"/>
+
+  <!-- Iced coffee cup (top-left) -->
+  <g transform="translate(80,70)">
+    <circle cx="0" cy="0" r="78" fill="url(#lidGrad)" filter="url(#ds)"/>
+    <circle cx="0" cy="0" r="62" fill="url(#coffeeGrad)"/>
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#2c2c2c" stroke-opacity="0.3" stroke-width="2"/>
+    <rect x="-8" y="-90" width="16" height="180" rx="8" fill="url(#strawGrad)"/>
+    <circle cx="0" cy="0" r="18" fill="white" opacity="0.85"/>
+    <circle cx="0" cy="0" r="12" fill="#1a8f4a" opacity="0.9"/>
+  </g>
+
+  <!-- Napkin (right) -->
+  <g filter="url(#ds)">
+    <rect x="480" y="320" width="120" height="220" rx="6" fill="url(#napkinGrad)" transform="rotate(4 540 430)"/>
+  </g>
+
+  <!-- Utensils on napkin -->
+  <g transform="translate(520,325)">
+    <!-- Knife -->
+    <g>
+      <path d="M0 0 C 8 5, 16 14, 20 26 L 20 220 C 20 228, 12 234, 6 234 C 0 234, -6 228, -6 220 L -6 26 C -2 14, 6 5, 14 0 Z" fill="url(#metalGrad)"/>
+      <path d="M-6 40 L 20 40" stroke="#aeb6bf" stroke-width="1" opacity="0.6"/>
+    </g>
+    <!-- Fork -->
+    <g transform="translate(55,0)">
+      <rect x="-10" y="38" width="20" height="196" rx="10" fill="url(#metalGrad)"/>
+      <path d="M-18 24 L-12 24 L-12 0 C-12 -6, -6 -6, -6 0 L-6 24 L-2 24 L-2 0 C-2 -6, 4 -6, 4 0 L4 24 L8 24 L8 0 C8 -6, 14 -6, 14 0 L14 24 L20 24" fill="url(#metalGrad)"/>
+      <path d="M-12 38 L-12 24 M-6 38 L-6 24 M0 38 L0 24 M6 38 L6 24" stroke="#aeb6bf" stroke-width="1" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Plate with sandwiches -->
+  <g filter="url(#ds)" transform="rotate(-10 320 340)">
+    <rect x="150" y="200" width="360" height="300" rx="70" fill="url(#plateGrad)"/>
+    <!-- Starbucks-like mark -->
+    <g transform="translate(350,215)">
+      <circle r="18" fill="#158a4c"/>
+      <path d="M0 -10 L2 -3 L10 -3 L4 1 L6 9 L0 5 L-6 9 L-4 1 L-10 -3 L-2 -3 Z" fill="white"/>
+    </g>
+
+    <!-- Sandwich 1 -->
+    <g transform="translate(230,335)">
+      <path d="M-80 -70 L 60 -70 L 0 30 Z" fill="url(#breadGrad)" stroke="#b8a88f" stroke-width="2"/>
+      <path d="M-62 -24 L 24 -24 L 0 16 L -20 12 Z" fill="url(#crustGrad)"/>
+      <path d="M-70 -42 L 52 -42" stroke="#cbb89f" stroke-width="3" opacity="0.6"/>
+      <path d="M-55 -52 L 30 -52" stroke="#cbb89f" stroke-width="2" opacity="0.5"/>
+    </g>
+
+    <!-- Sandwich 2 -->
+    <g transform="translate(360,395)">
+      <path d="M-70 -90 L 70 -90 L 0 26 Z" fill="url(#breadGrad)" stroke="#b8a88f" stroke-width="2"/>
+      <path d="M-50 -46 L 40 -46 L 6 10 L -10 8 Z" fill="url(#crustGrad)"/>
+      <path d="M-58 -60 L 60 -60" stroke="#cbb89f" stroke-width="3" opacity="0.6"/>
+      <path d="M-44 -70 L 46 -70" stroke="#cbb89f" stroke-width="2" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Soft ambient shadows -->
+  <ellipse cx="330" cy="520" rx="200" ry="34" fill="#000" opacity="0.12"/>
+  <ellipse cx="535" cy="540" rx="65" ry="18" fill="#000" opacity="0.10"/>
+  <ellipse cx="80" cy="170" rx="95" ry="20" fill="#000" opacity="0.10"/>
+</svg>

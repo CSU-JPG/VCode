@@ -1,0 +1,158 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f5f7"/>
+      <stop offset="100%" stop-color="#dfe4e8"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b8d91"/>
+      <stop offset="80%" stop-color="#5e5f64"/>
+      <stop offset="100%" stop-color="#4c4d51"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6ea06a"/>
+      <stop offset="100%" stop-color="#4f7d4e"/>
+    </linearGradient>
+    <linearGradient id="bldgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5c5f66"/>
+      <stop offset="100%" stop-color="#3c3e43"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="1400" height="800" fill="url(#skyGrad)"/>
+
+  <!-- distant highrise -->
+  <g opacity="0.55">
+    <rect x="460" y="10" width="360" height="260" fill="#cfd3d9" stroke="#b9bcc2" stroke-width="2"/>
+    <g fill="#e9ecef" stroke="#c2c6cc" stroke-width="1">
+      <!-- vertical bays -->
+      <rect x="470" y="20" width="25" height="240"/>
+      <rect x="500" y="20" width="25" height="240"/>
+      <rect x="530" y="20" width="25" height="240"/>
+      <rect x="560" y="20" width="25" height="240"/>
+      <rect x="590" y="20" width="25" height="240"/>
+      <rect x="620" y="20" width="25" height="240"/>
+      <rect x="650" y="20" width="25" height="240"/>
+      <rect x="680" y="20" width="25" height="240"/>
+      <rect x="710" y="20" width="25" height="240"/>
+    </g>
+  </g>
+
+  <!-- right building block -->
+  <g>
+    <rect x="900" y="90" width="500" height="520" fill="url(#bldgGrad)"/>
+    <!-- canopy -->
+    <polygon points="960,210 1390,120 1390,145 960,235" fill="#7a7e84"/>
+    <polygon points="960,235 1390,145 1390,165 960,255" fill="#696d73"/>
+    <!-- glass wall -->
+    <rect x="950" y="310" width="380" height="170" fill="#99a4a9" opacity="0.45" stroke="#7b858a" stroke-width="4"/>
+    <!-- entrance -->
+    <rect x="1160" y="360" width="70" height="150" fill="#2a2d31" opacity="0.85"/>
+    <!-- yellow pipe -->
+    <rect x="1295" y="310" width="12" height="210" fill="#e0b400"/>
+    <!-- sign -->
+    <g transform="translate(1205,310)">
+      <rect x="0" y="0" width="170" height="36" rx="5" fill="#e6ecef" stroke="#c7cdd2" stroke-width="2"/>
+      <text x="85" y="24" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#2f3337">IN  CAR PARK  OUT</text>
+    </g>
+  </g>
+
+  <!-- road -->
+  <polygon points="0,800 1400,800 1100,450 300,450" fill="url(#roadGrad)"/>
+  <!-- center line -->
+  <polygon points="690,800 710,800 702,455 698,455" fill="#ffffff" opacity="0.95"/>
+
+  <!-- left grass and path -->
+  <polygon points="0,520 0,320 250,320 300,450 220,500 70,530" fill="url(#grassGrad)"/>
+  <polygon points="300,450 260,475 180,495 0,520 0,540 240,515 290,495 320,480" fill="#b7b9bb" opacity="0.6"/>
+  <!-- right grass near building -->
+  <polygon points="1100,450 1400,450 1400,650 1250,660 1160,600" fill="url(#grassGrad)"/>
+
+  <!-- curb edges along road -->
+  <polyline points="300,450 260,470 210,485 160,495 110,505 60,515" fill="none" stroke="#d6d8da" stroke-width="6" opacity="0.75"/>
+  <polyline points="1100,450 1150,485 1210,520 1280,560 1360,600" fill="none" stroke="#aeb1b5" stroke-width="6" opacity="0.6"/>
+
+  <!-- street lamp -->
+  <g transform="translate(820,190)">
+    <rect x="0" y="0" width="10" height="280" fill="#6e7177"/>
+    <path d="M6,10 C60,-20 110,15 140,30" fill="none" stroke="#7a7d81" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="146" cy="34" r="8" fill="#8b8f94"/>
+  </g>
+
+  <!-- trees on the left -->
+  <g>
+    <g transform="translate(210,120)">
+      <rect x="0" y="200" width="16" height="170" fill="#6b533a"/>
+      <circle cx="8" cy="190" r="80" fill="#3e5f3e"/>
+      <circle cx="40" cy="170" r="65" fill="#3b5a3b"/>
+      <circle cx="-30" cy="170" r="65" fill="#3b5a3b"/>
+    </g>
+    <g transform="translate(120,180) scale(0.85)">
+      <rect x="0" y="200" width="14" height="170" fill="#6b533a"/>
+      <circle cx="7" cy="190" r="70" fill="#3e5f3e"/>
+      <circle cx="35" cy="170" r="55" fill="#3b5a3b"/>
+      <circle cx="-25" cy="170" r="55" fill="#3b5a3b"/>
+    </g>
+    <g transform="translate(320,200) scale(0.8)">
+      <rect x="0" y="200" width="14" height="150" fill="#6b533a"/>
+      <circle cx="7" cy="190" r="65" fill="#3e5f3e"/>
+      <circle cx="35" cy="170" r="50" fill="#3b5a3b"/>
+      <circle cx="-25" cy="170" r="50" fill="#3b5a3b"/>
+    </g>
+    <g transform="translate(410,230) scale(0.7)">
+      <rect x="0" y="200" width="12" height="150" fill="#6b533a"/>
+      <circle cx="6" cy="190" r="60" fill="#3e5f3e"/>
+      <circle cx="34" cy="170" r="45" fill="#3b5a3b"/>
+      <circle cx="-22" cy="170" r="45" fill="#3b5a3b"/>
+    </g>
+  </g>
+
+  <!-- trees near the right sidewalk -->
+  <g transform="translate(1060,110)">
+    <rect x="0" y="220" width="18" height="250" fill="#6b533a"/>
+    <circle cx="9" cy="210" r="85" fill="#3e5f3e"/>
+    <circle cx="45" cy="200" r="65" fill="#3b5a3b"/>
+    <circle cx="-30" cy="205" r="70" fill="#3b5a3b"/>
+  </g>
+
+  <!-- hydrant -->
+  <g transform="translate(20,560)">
+    <circle cx="18" cy="10" r="8" fill="#c43c3c"/>
+    <rect x="12" y="10" width="12" height="30" fill="#c43c3c"/>
+  </g>
+
+  <!-- distant cyclists/objects silhouette -->
+  <circle cx="615" cy="468" r="6" fill="#2a2d31" opacity="0.6"/>
+  <rect x="610" y="470" width="10" height="18" fill="#2a2d31" opacity="0.6"/>
+
+  <!-- car and person detection boxes -->
+  <rect x="455" y="480" width="52" height="36" fill="none" stroke="#ff3d3d" stroke-width="4"/>
+  <rect x="690" y="470" width="46" height="86" fill="none" stroke="#2e6bff" stroke-width="4"/>
+  <rect x="725" y="470" width="24" height="62" fill="none" stroke="#2e6bff" stroke-width="4"/>
+
+  <!-- building windows stroke segments to hint reflections -->
+  <g stroke="#9aa3a8" stroke-width="3" opacity="0.45">
+    <line x1="970" y1="330" x2="970" y2="470"/>
+    <line x1="1005" y1="330" x2="1005" y2="470"/>
+    <line x1="1040" y1="330" x2="1040" y2="470"/>
+    <line x1="1075" y1="330" x2="1075" y2="470"/>
+    <line x1="1110" y1="330" x2="1110" y2="470"/>
+    <line x1="1145" y1="330" x2="1145" y2="470"/>
+    <line x1="1180" y1="330" x2="1180" y2="470"/>
+    <line x1="1215" y1="330" x2="1215" y2="470"/>
+    <line x1="1250" y1="330" x2="1250" y2="470"/>
+    <line x1="1285" y1="330" x2="1285" y2="470"/>
+  </g>
+
+  <!-- left sidewalk glass-like panels -->
+  <g opacity="0.4">
+    <rect x="945" y="470" width="50" height="110" fill="#9aa4a9"/>
+    <rect x="995" y="470" width="50" height="110" fill="#9aa4a9"/>
+    <rect x="1045" y="470" width="50" height="110" fill="#9aa4a9"/>
+  </g>
+
+  <!-- subtle shadows along road edges -->
+  <polygon points="300,450 1100,450 1120,465 280,465" fill="#000" opacity="0.06"/>
+
+</svg>

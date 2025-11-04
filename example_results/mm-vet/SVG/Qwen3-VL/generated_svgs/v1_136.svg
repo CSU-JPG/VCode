@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#2c4a6d"/>
+  <rect y="780" width="1000" height="220" fill="#f0e68c"/>
+  <path d="M235 50 Q500 150 750 50 Q900 150 1000 200" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 100 Q500 200 750 100 Q900 200 1000 250" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 150 Q500 250 750 150 Q900 250 1000 300" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 200 Q500 300 750 200 Q900 300 1000 350" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 250 Q500 350 750 250 Q900 350 1000 400" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 300 Q500 400 750 300 Q900 400 1000 450" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 350 Q500 450 750 350 Q900 450 1000 500" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 400 Q500 500 750 400 Q900 500 1000 550" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 450 Q500 550 750 450 Q900 550 1000 600" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 500 Q500 600 750 500 Q900 600 1000 650" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 550 Q500 650 750 550 Q900 650 1000 700" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 600 Q500 700 750 600 Q900 700 1000 750" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 650 Q500 750 750 650 Q900 750 1000 800" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 700 Q500 800 750 700 Q900 800 1000 850" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 750 Q500 850 750 750 Q900 850 1000 900" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 800 Q500 900 750 800 Q900 900 1000 950" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <path d="M235 850 Q500 950 750 850 Q900 950 1000 1000" fill="none" stroke="#1a2b3c" stroke-width="100"/>
+  <rect x="90" y="320" width="320" height="680" fill="#87ceeb"/>
+  <rect x="280" y="450" width="470" height="550" fill="#8b7355"/>
+  <rect x="450" y="320" width="670" height="680" fill="#ffffff"/>
+  <rect x="600" y="450" width="820" height="550" fill="#4a7c59"/>
+  <rect x="790" y="260" width="1000" height="740" fill="#9932cc"/>
+  <circle cx="190" cy="220" r="40" fill="#ff7f50"/>
+  <circle cx="390" cy="310" r="40" fill="#ff7f50"/>
+  <circle cx="550" cy="210" r="40" fill="#ff7f50"/>
+  <circle cx="730" cy="320" r="40" fill="#ff7f50"/>
+  <circle cx="940" cy="140" r="40" fill="#ff7f50"/>
+  <ellipse cx="230" cy="270" rx="10" ry="15" fill="#000000"/>
+  <ellipse cx="410" cy="360" rx="10" ry="15" fill="#000000"/>
+  <ellipse cx="570" cy="260" rx="10" ry="15" fill="#000000"/>
+  <ellipse cx="750" cy="370" rx="10" ry="15" fill="#000000"/>
+  <ellipse cx="960" cy="190" rx="10" ry="15" fill="#000000"/>
+  <line x1="230" y1="270" x2="260" y2="270" stroke="#000000" stroke-width="2"/>
+  <line x1="410" y1="360" x2="440" y2="360" stroke="#000000" stroke-width="2"/>
+  <line x1="570" y1="260" x2="600" y2="260" stroke="#000000" stroke-width="2"/>
+  <line x1="750" y1="370" x2="780" y2="370" stroke="#000000" stroke-width="2"/>
+  <line x1="960" y1="190" x2="990" y2="190" stroke="#000000" stroke-width="2"/>
+  <polygon points="230,270 240,280 250,270" fill="#000000"/>
+  <polygon points="410,360 420,370 430,360" fill="#000000"/>
+  <polygon points="570,260 580,270 590,260" fill="#000000"/>
+  <polygon points="750,370 760,380 770,370" fill="#000000"/>
+  <polygon points="960,190 970,200 980,190" fill="#000000"/>
+  <rect x="100" y="330" width="300" height="660" fill="#87ceeb"/>
+  <rect x="290" y="460" width="450" height="530" fill="#8b7355"/>
+  <rect x="460" y="330" width="650" height="660" fill="#ffffff"/>
+  <rect x="610" y="460" width="800" height="530" fill="#4a7c59"/>
+  <rect x="800" y="270" width="980" height="720" fill="#9932cc"/>
+</svg>

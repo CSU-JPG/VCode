@@ -1,0 +1,158 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#fff"/>
+  <defs>
+    <linearGradient id="blackGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d2d2d"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="woodGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5e3c"/>
+      <stop offset="100%" stop-color="#6b4226"/>
+    </linearGradient>
+    <linearGradient id="metalGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcdcdc"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+    <linearGradient id="glassGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Kitchen walls and floor -->
+  <rect x="0" y="0" width="1000" height="800" fill="#f0f0f0"/>
+  <rect x="0" y="0" width="400" height="600" fill="url(#blackGradient)"/>
+  <rect x="400" y="0" width="600" height="600" fill="#ffffff"/>
+  <rect x="0" y="600" width="1000" height="200" fill="#8b5e3c"/>
+  
+  <!-- Dining table -->
+  <rect x="0" y="600" width="1000" height="200" fill="url(#woodGradient)"/>
+  
+  <!-- Table settings -->
+  <g stroke="#000" stroke-width="1">
+    <!-- Plates with food -->
+    <circle cx="180" cy="740" r="30" fill="#fff" stroke="#333"/>
+    <circle cx="390" cy="740" r="30" fill="#fff" stroke="#333"/>
+    <circle cx="550" cy="740" r="30" fill="#fff" stroke="#333"/>
+    <circle cx="780" cy="700" r="25" fill="#fff" stroke="#333"/>
+    <circle cx="130" cy="670" r="25" fill="#fff" stroke="#333"/>
+    <circle cx="360" cy="680" r="25" fill="#fff" stroke="#333"/>
+    <circle cx="590" cy="680" r="25" fill="#fff" stroke="#333"/>
+    
+    <!-- Centerpiece with grapes -->
+    <ellipse cx="570" cy="650" rx="60" ry="20" fill="#8b5e3c" stroke="#333"/>
+    <circle cx="570" cy="620" r="50" fill="#8b5e3c" stroke="#333"/>
+    <circle cx="570" cy="620" r="45" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="40" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="35" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="30" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="25" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="20" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="15" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="10" fill="#ff6b6b" stroke="#8b5e3c"/>
+    <circle cx="570" cy="620" r="5" fill="#ff6b6b" stroke="#8b5e3c"/>
+    
+    <!-- Black vase -->
+    <path d="M230 600 C250 550 270 550 290 600 C290 650 270 700 250 700 C230 700 210 650 230 600" fill="#000"/>
+    
+    <!-- Cups -->
+    <circle cx="310" cy="750" r="15" fill="#000"/>
+    <circle cx="660" cy="750" r="15" fill="#000"/>
+    <circle cx="700" cy="680" r="10" fill="#000"/>
+    <circle cx="510" cy="680" r="10" fill="#000"/>
+    <circle cx="270" cy="680" r="10" fill="#000"/>
+    <circle cx="20" cy="680" r="10" fill="#000"/>
+    <circle cx="20" cy="680" r="10" fill="#000"/>
+    
+    <!-- Cutlery -->
+    <line x1="250" y1="750" x2="270" y2="770" stroke="#333" stroke-width="2"/>
+    <line x1="610" y1="750" x2="630" y2="770" stroke="#333" stroke-width="2"/>
+    <line x1="150" y1="740" x2="170" y2="760" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <!-- Chairs -->
+  <rect x="170" y="570" width="80" height="60" rx="5" fill="#222"/>
+  <rect x="370" y="570" width="80" height="60" rx="5" fill="#222"/>
+  <rect x="570" y="570" width="80" height="60" rx="5" fill="#222"/>
+  
+  <!-- Kitchen counter and appliances -->
+  <rect x="400" y="450" width="600" height="150" fill="#333"/>
+  <rect x="650" y="450" width="350" height="150" fill="#eee"/>
+  <rect x="650" y="450" width="350" height="150" fill="#eee"/>
+  
+  <!-- Sink area -->
+  <rect x="800" y="480" width="150" height="40" fill="#ddd"/>
+  <rect x="800" y="480" width="150" height="40" fill="#ddd"/>
+  <rect x="850" y="485" width="50" height="30" fill="#bbb"/>
+  <rect x="850" y="485" width="50" height="30" fill="#bbb"/>
+  
+  <!-- Coffee machine -->
+  <rect x="920" y="450" width="80" height="100" fill="#333"/>
+  <rect x="920" y="450" width="80" height="100" fill="#333"/>
+  <rect x="930" y="460" width="60" height="30" fill="#555"/>
+  <rect x="930" y="460" width="60" height="30" fill="#555"/>
+  
+  <!-- Stove and hood -->
+  <rect x="500" y="480" width="100" height="30" fill="#222"/>
+  <rect x="500" y="480" width="100" height="30" fill="#222"/>
+  <rect x="450" y="420" width="200" height="60" fill="#444"/>
+  <rect x="450" y="420" width="200" height="60" fill="#444"/>
+  <rect x="470" y="360" width="160" height="60" fill="#555"/>
+  <rect x="470" y="360" width="160" height="60" fill="#555"/>
+  
+  <!-- Hanging pots and pans (highlighted area) -->
+  <g stroke="#333" stroke-width="2">
+    <line x1="500" y1="360" x2="500" y2="390" stroke="#333"/>
+    <line x1="520" y1="360" x2="520" y2="390" stroke="#333"/>
+    <line x1="540" y1="360" x2="540" y2="390" stroke="#333"/>
+    <line x1="560" y1="360" x2="560" y2="390" stroke="#333"/>
+    <line x1="580" y1="360" x2="580" y2="390" stroke="#333"/>
+    <line x1="600" y1="360" x2="600" y2="390" stroke="#333"/>
+    <line x1="620" y1="360" x2="620" y2="390" stroke="#333"/>
+    
+    <!-- Pots and pans -->
+    <circle cx="500" cy="400" r="15" fill="#888"/>
+    <circle cx="520" cy="400" r="15" fill="#888"/>
+    <circle cx="540" cy="400" r="15" fill="#888"/>
+    <circle cx="560" cy="400" r="15" fill="#888"/>
+    <circle cx="580" cy="400" r="15" fill="#888"/>
+    <circle cx="600" cy="400" r="15" fill="#888"/>
+    <circle cx="620" cy="400" r="15" fill="#888"/>
+  </g>
+  
+  <!-- Windows -->
+  <rect x="550" y="200" width="150" height="150" fill="#fff"/>
+  <rect x="550" y="200" width="150" height="150" fill="#fff"/>
+  <rect x="550" y="200" width="150" height="150" fill="#fff"/>
+  
+  <!-- Doors -->
+  <rect x="260" y="350" width="20" height="150" fill="#ddd"/>
+  <rect x="0" y="300" width="20" height="200" fill="#ddd"/>
+  
+  <!-- Ceiling lights -->
+  <g fill="none" stroke="#ccc" stroke-width="2">
+    <circle cx="300" cy="150" r="10" fill="#fff"/>
+    <circle cx="600" cy="150" r="10" fill="#fff"/>
+    <circle cx="500" cy="100" r="5" fill="#fff"/>
+    <circle cx="650" cy="120" r="5" fill="#fff"/>
+    <circle cx="350" cy="180" r="5" fill="#fff"/>
+  </g>
+  
+  <!-- Pendant lights -->
+  <g fill="none" stroke="#999" stroke-width="2">
+    <path d="M300 0 L300 200" stroke="#999"/>
+    <path d="M600 0 L600 200" stroke="#999"/>
+  </g>
+  
+  <!-- Light bulbs (glass effect) -->
+  <g fill="url(#glassGradient)" stroke="#666" stroke-width="1">
+    <ellipse cx="300" cy="200" rx="15" ry="30" fill="url(#glassGradient)"/>
+    <ellipse cx="600" cy="200" rx="15" ry="30" fill="url(#glassGradient)"/>
+  </g>
+  
+  <!-- Highlighted area (red box) -->
+  <rect x="390" y="350" width="220" height="180" fill="none" stroke="red" stroke-width="3"/>
+  
+  <!-- Blue square in ceiling -->
+  <rect x="170" y="40" width="40" height="40" fill="blue" opacity="0.3"/>
+</svg>

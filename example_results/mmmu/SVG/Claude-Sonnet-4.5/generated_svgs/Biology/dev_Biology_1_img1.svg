@@ -1,0 +1,6 @@
+<svg viewBox="0 0 480 380" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 25 210 L 180 210 L 180 100 Q 180 80 200 80 L 350 80 L 350 30 Q 350 10 370 10 L 425 10 L 425 60 L 370 60 Q 350 60 350 80 L 350 130 L 425 130 L 425 180 L 370 180 Q 350 180 350 200 L 350 340 L 425 340" fill="none" stroke="#666" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="445" y="45" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#666">B</text>
+  <text x="445" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#666">C</text>
+  <text x="445" y="345" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#666">A</text>
+</svg>

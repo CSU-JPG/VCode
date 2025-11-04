@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blurFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="560" fill="#6b5b4b"/>
+  <rect x="0" y="0" width="800" height="190" fill="#3f3329"/>
+  <rect x="250" y="0" width="300" height="180" fill="#1e1814" opacity="0.6"/>
+
+  <!-- Rug -->
+  <path d="M 20 550 C 150 400, 650 400, 780 550 L 790 250 C 600 200, 200 200, 10 250 Z" fill="#c3b5a1"/>
+  <path d="M 120 530 C 200 450, 600 450, 680 530 L 690 320 C 600 280, 200 280, 110 320 Z" fill="#9b9a9f" opacity="0.4"/>
+  <path d="M 250 510 C 300 480, 500 480, 550 510 L 560 350 C 500 330, 300 330, 240 350 Z" fill="#c3b5a1"/>
+  <path d="M 330 490 C 350 470, 450 470, 470 490 L 480 380 C 450 370, 350 370, 320 380 Z" fill="#a48c78" opacity="0.5"/>
+
+  <!-- Furniture -->
+  <path d="M -10 0 h 220 v 210 c 0 50 -80 60 -80 60 l -20 -140 l -30 150 s -70 10 -70 -60 z" fill="#1c2c4c"/>
+  <path d="M 170 60 C 170 150, 280 200, 280 200 L 290 50 L 190 60 Z" fill="#a88c52"/>
+  <path d="M 175 190 s -10 50, 10 70 s 40 10, 40 10 l -10 -60 z" fill="#111" opacity="0.3"/>
+  <path d="M 680 120 h 120 v 440 h -100 l -10-300 c 0-50 -10-80 -10-80z" fill="#3a251a"/>
+  <path d="M 720 125 h 80 v 20 l -90 10 z" fill="#2a1a11"/>
+
+  <!-- Cat -->
+  <g transform="translate(30 20)">
+    <path d="M 380 410 C 350 320, 370 200, 430 180 C 490 200, 510 320, 480 410 C 470 440, 400 440, 380 410 Z" fill="#d97925"/>
+    <path d="M 430 180 C 420 160, 440 150, 450 155 L 455 170 C 445 180, 435 185, 430 180 Z" fill="#d97925"/>
+    <path d="M 415 175 v -15 l 10 5 z" fill="#d97925"/>
+    <path d="M 435 180 C 440 220, 442 260, 442 260 L 420 250 C 420 250, 425 210, 435 180 Z" fill="#f0f0f0"/>
+    <path d="M 478 390 L 460 395 L 465 415 L 483 410 Z" fill="#f0f0f0"/>
+    <path d="M 360 400 C 450 410, 500 370, 580 390 C 585 385, 520 350, 450 360 C 380 370, 355 395, 360 400 Z" fill="#e48f4a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Puppy -->
+  <g transform="translate(0 20)">
+    <path d="M 320 290 c -10 20 -20 40 -40 50 s -40 10 -60 0 s -30 -40 -30 -60 c 0 -20 10 -40 30 -50 c 20 -10 40 0 50 10 c 10 10 20 25 30 30 c 15 10 25 5 25 5" fill="#f0f0f0"/>
+    <path d="M 325 300 c -20 10 -40 5 -50 -10 s -10 -35 0 -50 s 30 -20 50 -15 c 20 5 35 20 40 40 c 5 20 -5 35 -20 40 c -10 0 -15 -2 -20 -5" fill="#c8925a"/>
+    <path d="M 345 270 a 15 12 0 1 1 -30 0 a 15 12 0 1 1 30 0" fill="#c8925a"/>
+    <path d="M 342 270 a 8 8 0 1 1 -16 0 a 8 8 0 1 1 16 0" fill="#111"/>
+    <path d="M 346 280 c 2 0 3 -5 0 -6 s -5 -1 -5 2 s 2 4 5 4" fill="#f0f0f0" />
+    <path d="M 348 273 a 1 1 0 1 1 -2 0 a 1 1 0 1 1 2 0" fill="#fff" />
+    <path d="M 190 310 l 30 5 l 5 -30 l -30 -5 z" fill="#c8925a"/>
+    <path d="M 195 310 l -5 10 l -10 -5 Z" fill="#f0f0f0"/>
+    <g filter="url(#blurFilter)">
+       <path d="M 300 350 c -10 0 -20-10 -10-20 s 20-10 30-5 s 10 20 0 25 s -10 0 -20 0" fill="#f0f0f0" opacity="0.8"/>
+       <path d="M 230 360 c -10 0 -20-10 -10-20 s 20-10 30-5 s 10 20 0 25 s -10 0 -20 0" fill="#f0f0f0" opacity="0.8"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff"/>
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5e6d3"/>
+      <stop offset="100%" stop-color="#d9c7b8"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#c0c0c0"/>
+    </linearGradient>
+    <linearGradient id="tie" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="1" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background elements -->
+  <rect x="0" y="0" width="1000" height="800" fill="#888"/>
+  <rect x="0" y="0" width="300" height="600" fill="#444"/>
+  <rect x="800" y="0" width="200" height="600" fill="#aaa"/>
+  <rect x="800" y="500" width="200" height="100" fill="#999"/>
+  <rect x="800" y="600" width="200" height="200" fill="#777"/>
+  
+  <!-- Man's body and clothing -->
+  <path d="M100 340 C150 320 250 310 350 330 C450 350 550 360 650 350 C750 340 850 320 900 340 L900 800 L100 800 Z" fill="url(#suit)" stroke="#666" stroke-width="1"/>
+  
+  <!-- Shirt collar -->
+  <path d="M460 390 C480 380 520 380 540 390 C560 400 570 420 570 440 C570 460 560 480 540 490 C520 500 480 500 460 490 C440 480 430 460 430 440 C430 420 440 400 460 390 Z" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  
+  <!-- Tie -->
+  <path d="M500 490 C510 500 515 520 515 540 C515 560 510 580 500 590 C490 600 480 610 470 610 C460 610 450 600 440 590 C430 580 425 560 425 540 C425 520 430 500 440 490 C450 480 460 470 470 470 C480 470 490 480 500 490 Z" fill="url(#tie)" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Head and face -->
+  <ellipse cx="550" cy="200" rx="150" ry="180" fill="url(#skin)" stroke="#555" stroke-width="1"/>
+  
+  <!-- Hair -->
+  <path d="M380 20 C400 10 450 0 500 0 C550 0 600 10 620 20 C640 30 650 50 650 70 C650 90 640 110 630 130 C620 150 600 170 580 180 C560 190 540 200 520 200 C500 200 480 190 460 180 C440 170 420 150 410 130 C400 110 390 90 390 70 C390 50 400 30 420 20 Z" fill="#333"/>
+  
+  <!-- Eyes -->
+  <circle cx="490" cy="210" r="10" fill="#fff"/>
+  <circle cx="570" cy="200" r="10" fill="#fff"/>
+  <circle cx="490" cy="210" r="5" fill="#000"/>
+  <circle cx="570" cy="200" r="5" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M470 190 C480 185 490 180 500 180 C510 180 520 185 530 190" stroke="#333" stroke-width="3" fill="none"/>
+  <path d="M550 180 C560 175 570 170 580 170 C590 170 600 175 610 180" stroke="#333" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M520 230 C530 240 535 250 535 260 C535 270 530 280 520 290 C510 300 500 310 490 310 C480 310 470 300 460 290 C450 280 445 270 445 260 C445 250 450 240 460 230 C470 220 480 215 490 215 C500 215 510 220 520 230 Z" fill="url(#skin)" stroke="#555" stroke-width="1"/>
+  
+  <!-- Mouth -->
+  <path d="M500 340 C510 345 520 350 530 350 C540 350 550 345 560 340 C570 335 580 330 590 330 C600 330 610 335 620 340" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Hands clasped on table -->
+  <path d="M180 660 C200 680 230 700 260 710 C290 720 320 720 350 710 C380 700 400 680 410 660 C420 640 410 620 400 610 C390 600 370 590 350 590 C330 590 310 600 300 610 C290 620 280 640 270 660 C260 680 240 700 220 710 C200 720 180 720 160 710 C140 700 130 680 130 660 C130 640 140 620 160 610 C180 600 200 590 220 590 C240 590 260 600 280 610 C300 620 310 640 310 660 C310 680 300 700 280 710 C260 720 240 720 220 710 C200 700 190 680 180 660 Z" fill="url(#skin)" stroke="#555" stroke-width="1"/>
+  
+  <!-- Fingers details -->
+  <path d="M200 700 C210 710 220 720 230 720 C240 720 250 710 260 700" stroke="#555" stroke-width="1" fill="none"/>
+  <path d="M220 680 C230 690 240 700 250 700 C260 700 270 690 280 680" stroke="#555" stroke-width="1" fill="none"/>
+  <path d="M240 660 C250 670 260 680 270 680 C280 680 290 670 300 660" stroke="#555" stroke-width="1" fill="none"/>
+  <path d="M260 640 C270 650 280 660 290 660 C300 660 310 650 320 640" stroke="#555" stroke-width="1" fill="none"/>
+  
+  <!-- Ring on finger -->
+  <circle cx="260" cy="780" r="5" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  
+  <!-- Table surface -->
+  <rect x="0" y="750" width="1000" height="50" fill="#ddd" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Background frame with text -->
+  <rect x="40" y="10" width="250" height="450" fill="#eee" stroke="#888" stroke-width="2"/>
+  <text x="150" y="150" font-family="serif" font-size="20" text-anchor="middle" fill="#555">WITNESS</text>
+  
+  <!-- Chair back (partial) -->
+  <rect x="850" y="700" width="150" height="100" fill="#777" stroke="#555" stroke-width="1"/>
+  <rect x="870" y="710" width="10" height="80" fill="#555"/>
+  <rect x="890" y="710" width="10" height="80" fill="#555"/>
+  <rect x="910" y="710" width="10" height="80" fill="#555"/>
+  <rect x="930" y="710" width="10" height="80" fill="#555"/>
+  <rect x="950" y="710" width="10" height="80" fill="#555"/>
+  
+  <!-- Add subtle shadows for depth -->
+  <g filter="url(#shadow)">
+    <path d="M100 340 C150 320 250 310 350 330 C450 350 550 360 650 350 C750 340 850 320 900 340 L900 800 L100 800 Z" fill="none"/>
+    <ellipse cx="550" cy="200" rx="150" ry="180" fill="none"/>
+  </g>
+</svg>

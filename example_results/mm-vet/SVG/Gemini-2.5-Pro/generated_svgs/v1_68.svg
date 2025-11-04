@@ -1,0 +1,45 @@
+<svg viewBox="0 0 500 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="appleSkin" cx="50%" cy="50%" r="55%" fx="65%" fy="45%">
+      <stop offset="0%" stop-color="#f5e689"/>
+      <stop offset="25%" stop-color="#f7b97c"/>
+      <stop offset="50%" stop-color="#e86a6a"/>
+      <stop offset="100%" stop-color="#d14a51"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#f6f6f6"/>
+  <g>
+    <path d="M250,450 C100,470 20,350 70,200 C110,80 210,50 250,70 C290,50 390,80 430,200 C480,350 400,470 250,450 Z" fill="url(#appleSkin)"/>
+    <g fill="#f5eec9" fill-opacity="0.8">
+      <circle cx="166" cy="144" r="1.5"/><circle cx="149" cy="177" r="1.5"/><circle cx="137" cy="222" r="1.5"/><circle cx="129" cy="275" r="1.5"/><circle cx="140" cy="323" r="1.5"/><circle cx="160" cy="365" r="1.5"/><circle cx="194" cy="397" r="1.5"/><circle cx="245" cy="415" r="1.5"/><circle cx="304" cy="407" r="1.5"/><circle cx="355" cy="380" r="1.5"/><circle cx="395" cy="345" r="1.5"/><circle cx="421" cy="298" r="1.5"/><circle cx="431" cy="245" r="1.5"/><circle cx="417" cy="195" r="1.5"/><circle cx="388" cy="151" r="1.5"/><circle cx="347" cy="120" r="1.5"/><circle cx="230" cy="98" r="1.5"/><circle cx="280" cy="105" r="1.5"/><circle cx="320" cy="280" r="1.5"/><circle cx="341" cy="235" r="1.5"/><circle cx="357" cy="198" r="1.5"/><circle cx="300" cy="158" r="1.5"/><circle cx="200" cy="190" r="1.5"/><circle cx="180" cy="240" r="1.5"/><circle cx="190" cy="290" r="1.5"/><circle cx="225" cy="330" r="1.5"/><circle cx="275" cy="350" r="1.5"/><circle cx="325" cy="335" r="1.5"/><circle cx="360" cy="300" r="1.5"/><circle cx="260" cy="200" r="1.5"/><circle cx="295" cy="225" r="1.5"/><circle cx="245" cy="255" r="1.5"/><circle cx="288" cy="295" r="1.5"/><circle cx="177" cy="333" r="1.5"/><circle cx="333" cy="177" r="1.5"/><circle cx="400" cy="220" r="1.5"/>
+    </g>
+  </g>
+  <g transform="translate(160 115) rotate(-12)">
+    <path d="M 55,10 C 25,10 5,30 5,55 V 125 H 105 V 55 C 105,30 85,10 55,10 Z" fill="#fff" stroke="#3c8d40" stroke-width="6"/>
+    <path d="M 55,10 C 25,10 5,30 5,55 V 60 C 15,55 25,60 35,58 C 45,56 65,56 75,58 C 85,60 95,55 105,60 V 55 C 105,30 85,10 55,10 Z" fill="#3c8d40"/>
+    <g transform="translate(55 30)">
+      <path d="M0-4 q-2,3 0,6 q2,3 0-6 M0-4 q2,3 0,6 q-2,3 0-6" fill="white" transform="scale(1.2)"/>
+    </g>
+    <text x="55" y="22" font-family="Arial, sans-serif" font-size="7" fill="white" text-anchor="middle">CERTIFIED</text>
+    <text x="55" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="9" fill="white" text-anchor="middle">organic</text>
+    <text x="38" y="70" font-family="Arial, sans-serif" font-weight="900" font-size="14" fill="black">FUJI</text>
+    <text x="38" y="88" font-family="Arial, sans-serif" font-weight="900" font-size="20" fill="black">94131</text>
+    <text x="38" y="100" font-family="Arial, sans-serif" font-size="10" fill="black">USA</text>
+    <g fill="black" transform="translate(12 105)">
+      <g id="barcode-left">
+        <rect y="0" width="38" height="3.5"/>
+        <rect y="5" width="38" height="1.5"/>
+        <rect y="8" width="38" height="2"/>
+        <rect y="11.5" width="38" height="1.5"/>
+        <rect y="14.5" width="38" height="3"/>
+      </g>
+      <g id="barcode-right" transform="translate(43 0)">
+        <rect y="0" width="38" height="2"/>
+        <rect y="3.5" width="38" height="2"/>
+        <rect y="7" width="38" height="4"/>
+        <rect y="12.5" width="38" height="1.5"/>
+        <rect y="15.5" width="38" height="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

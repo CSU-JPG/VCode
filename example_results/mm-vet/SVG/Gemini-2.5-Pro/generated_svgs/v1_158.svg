@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="soupGradient" cx="50%" cy="50%" r="50%" fx="40%" fy="40%">
+      <stop offset="0%" stop-color="#EBCDB2"/>
+      <stop offset="60%" stop-color="#D9B48F"/>
+      <stop offset="100%" stop-color="#C59D73"/>
+    </radialGradient>
+    <linearGradient id="woodGrain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B4513" />
+      <stop offset="50%" stop-color="#A0522D" />
+      <stop offset="100%" stop-color="#8B4513" />
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+    </filter>
+    <clipPath id="bowlClip">
+      <path d="M-100,0 C-100,500 900,500 900,0 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#woodGrain)"/>
+  <rect width="800" height="600" fill="url(#noise)" opacity="0.08"/>
+
+  <!-- Bowl -->
+  <path d="M-150,-20 C-150,550 950,550 950,-20 L950,650 L-150,650 Z" fill="#282828"/>
+  <path d="M-120,0 C-120,520 920,520 920,0 L900,0 C900,500 -100,500 -100,0 Z" fill="#3D3D3D"/>
+  <path d="M680,10 C750,150 740,300 690,400" stroke="#4F4F4F" stroke-width="5" fill="none" opacity="0.6"/>
+
+  <!-- Soup Base -->
+  <path d="M-100,0 C-100,500 900,500 900,0 Z" fill="url(#soupGradient)"/>
+
+  <!-- Ingredients -->
+  <g clip-path="url(#bowlClip)">
+    <!-- Mushrooms -->
+    <path d="M285,250 c -20,0 -35,25 -30,45 s 20,35 40,35 s 30,-10 35,-30 c 10,-30 -10,-50 -45,-50 z" fill="#8B5E3C"/>
+    <path d="M290,290 c 0,20 20,30 35,25 l 10,-35 l -30,-5 z" fill="#D4C0A5"/>
+    <path d="M440,140 a 40 40 0 0 1 -30 40 l -70 5 a 30 30 0 0 0 -20 -35 l 60 -30 a 50 50 0 0 1 60 20 z" fill="#7A5230"/>
+    <path d="M155,370 c 20,-40 70,-30 80,0 s -10,60 -50,65 s -50,-5 -30,-65 z" fill="#A47854"/>
+    <path d="M190,400 c 0,15 20,25 35,20 l 5,-25 l -30,-5 z" fill="#EADBC5"/>
+    <path d="M470,270 c 0,40 50,70 90,60 l 30,-80 c -20,-30 -80,-30 -120,20 z" fill="#9F734E"/>
+    <path d="M480,310 c 0,20 30,30 50,20 l 10,-40 l -45,-10 z" fill="#F0E2D0"/>
+    <path d="M650,500 c 30,-30 80,-10 90,30 l -40,50 c -40,10 -80,-20 -50,-80 z" fill="#885F40"/>
+    <path d="M660,520 l 40,30 l 10,-40 l-40,-15z" fill="#DDCBAA"/>
+    <path d="M200,90 l 100,-20 c 20,20 10,50 -20,60 l -90,0 c -10,-20 10,-40 10,-40 z" fill="#7A5230" opacity="0.7"/>
+
+    <!-- Potato/Onion Chunks -->
+    <path d="M440,100 c 10,-30 60,-20 70,10 s -10,50 -50,55 s -50,-5 -20,-65 z" fill="#EFE8D8" opacity="0.9"/>
+    <path d="M180,200 c 40,-30 90,0 80,40 s -70,50 -100,30 s -20,-60 20,-70 z" fill="#F5F0E0"/>
+    <path d="M550,450 c 20,-20 60,-5 60,20 s -30,40 -60,35 s -20,-35 0,-55 z" fill="#EAE0CF"/>
+
+    <!-- Herbs (Parsley/Dill) -->
+    <path d="M300,240 c -5,5 -15,0 -10,-10 s 15,-5 10,5 z m 5,5 c -5,5 -15,0 -10,-10 s 15,-5 10,5 z" fill="#2E6B23"/>
+    <path d="M210,130 c 10,0 15,10 5,15 s -15,-5 -5,-15 z m -5,5 c 10,0 15,10 5,15 s -15,-5 -5,-15 z" fill="#3E8E34"/>
+    <path d="M580,500 c -5,5 -15,0 -10,-10 s 15,-5 10,5 z m 5,5 c -5,5 -15,0 -10,-10 s 15,-5 10,5 z" fill="#2E6B23"/>
+    <path d="M620,180 c 0,10 -10,15 -15,5 s 5,-15 15,-5 z" fill="#3E8E34"/>
+    <path d="M120,480 c 5,5 0,15 -10,10 s 5,-15 10,-10 z m 5,5 c 5,5 0,15 -10,10 s 5,-15 10,-10 z" fill="#2E6B23"/>
+    <path d="M400,500 c 0,10 10,15 15,5 s -5,-15 -15,-5 z" fill="#3E8E34"/>
+    <path d="M380,80 c -5,5 -15,0 -10,-10 s 15,-5 10,5 z m 5,5 c -5,5 -15,0 -10,-10 s 15,-5 10,5 z" fill="#2E6B23"/>
+    <path d="M500,220 c 0,10 10,15 15,5 s -5,-15 -15,-5 z m 5,5 c 0,10 10,15 15,5 s -5,-15 -15,-5 z" fill="#3E8E34"/>
+
+    <!-- Spices &amp;amp;amp; Texture -->
+    <circle cx="250" cy="150" r="1.5" fill="#4A2F1A"/>
+    <circle cx="280" cy="450" r="2" fill="#4A2F1A"/>
+    <circle cx="450" cy="480" r="1" fill="#4A2F1A" opacity="0.8"/>
+    <circle cx="500" cy="80" r="1.5" fill="#5D4037"/>
+    <circle cx="150" cy="300" r="2" fill="#4A2F1A"/>
+    <circle cx="600" cy="300" r="1.5" fill="#4A2F1A"/>
+    <circle cx="400" cy="180" r="1" fill="#5D4037"/>
+    <circle cx="330" cy="200" r="1.5" fill="#4A2F1A"/>
+    <circle cx="200" cy="400" r="1.5" fill="#5D4037"/>
+    <path d="M420,380 l 5 1" stroke="#4A2F1A" stroke-width="2"/>
+    <path d="M530,150 l 4 2" stroke="#4A2F1A" stroke-width="2.5"/>
+    <path d="M180,180 l 3 3" stroke="#5D4037" stroke-width="2"/>
+    <path d="M630,420 l -2 4" stroke="#4A2F1A" stroke-width="2"/>
+    <path d="M350,510 l 5 -1" stroke="#5D4037" stroke-width="2.5"/>
+
+    <!-- Highlights and Shadows -->
+    <path d="M200,210 c 40,-30 90,0 80,40" fill="white" opacity="0.1"/>
+    <path d="M450,150 a 40 40 0 0 1 -30 40" fill="white" opacity="0.15"/>
+    <path d="M480,310 c 0,20 30,30 50,20" fill="white" opacity="0.12"/>
+    <path d="M285,250 c -20,0 -35,25 -30,45" fill="#A52A2A" opacity="0.08"/>
+    <path d="M470,270 c 0,40 50,70 90,60" fill="#A52A2A" opacity="0.1"/>
+  </g>
+</svg>

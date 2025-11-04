@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="400" y="30" font-family="serif" font-size="18" text-anchor="middle" font-style="italic">Time of Arrival</text>
+  
+  <!-- Horizontal line below title -->
+  <line x1="50" y1="45" x2="750" y2="45" stroke="black" stroke-width="1"/>
+  
+  <!-- Column Headers -->
+  <text x="150" y="70" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">Vehicle</text>
+  <text x="400" y="70" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">Section XX</text>
+  <text x="650" y="70" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">Section YY</text>
+  
+  <!-- Horizontal line below headers -->
+  <line x1="50" y1="80" x2="750" y2="80" stroke="black" stroke-width="1"/>
+  
+  <!-- Row A -->
+  <text x="150" y="110" font-family="serif" font-size="16" text-anchor="middle">A</text>
+  <text x="400" y="110" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="400" y="115" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="650" y="110" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="650" y="115" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="680" y="110" font-family="serif" font-size="16" text-anchor="middle">+ 7.58 sec</text>
+  
+  <!-- Row B -->
+  <text x="150" y="140" font-family="serif" font-size="16" text-anchor="middle">B</text>
+  <text x="400" y="140" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="400" y="145" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="430" y="140" font-family="serif" font-size="16" text-anchor="middle">+ 3 sec</text>
+  <text x="650" y="140" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="650" y="145" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="680" y="140" font-family="serif" font-size="16" text-anchor="middle">+ 9.18 sec</text>
+  
+  <!-- Row C -->
+  <text x="150" y="170" font-family="serif" font-size="16" text-anchor="middle">C</text>
+  <text x="400" y="170" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="400" y="175" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="430" y="170" font-family="serif" font-size="16" text-anchor="middle">+ 6 sec</text>
+  <text x="650" y="170" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="650" y="175" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="685" y="170" font-family="serif" font-size="16" text-anchor="middle">+ 12.36 sec</text>
+  
+  <!-- Bottom line -->
+  <line x1="50" y1="185" x2="750" y2="185" stroke="black" stroke-width="1"/>
+  
+  <!-- Row D -->
+  <text x="150" y="205" font-family="serif" font-size="16" text-anchor="middle">D</text>
+  <text x="400" y="205" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="400" y="210" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="435" y="205" font-family="serif" font-size="16" text-anchor="middle">+ 12 sec</text>
+  <text x="650" y="205" font-family="serif" font-size="16" text-anchor="middle" font-style="italic">T</text>
+  <text x="650" y="210" font-family="serif" font-size="12" text-anchor="middle" font-style="italic">0</text>
+  <text x="685" y="205" font-family="serif" font-size="16" text-anchor="middle">+ 21.74 sec</text>
+</svg>

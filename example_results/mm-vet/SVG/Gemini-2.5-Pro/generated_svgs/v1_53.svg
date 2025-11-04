@@ -1,0 +1,47 @@
+<svg viewBox="0 0 450 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#465945"/>
+
+  <!-- Shapes -->
+  <ellipse cx="225" cy="50" rx="85" ry="30" fill="#a6b87b" stroke="black" stroke-width="1"/>
+  <rect x="145" y="110" width="160" height="50" fill="#fef4b6" stroke="black" stroke-width="1"/>
+  <rect x="145" y="190" width="160" height="60" fill="#fef4b6" stroke="black" stroke-width="1"/>
+  <polygon points="225,280 315,320 225,360 135,320" fill="#f7b77b" stroke="black" stroke-width="1"/>
+  <rect x="330" y="295" width="90" height="50" fill="#fef4b6" stroke="black" stroke-width="1"/>
+  <rect x="145" y="390" width="160" height="70" fill="#fef4b6" stroke="black" stroke-width="1"/>
+  <rect x="145" y="490" width="160" height="50" fill="#fef4b6" stroke="black" stroke-width="1"/>
+  <rect x="145" y="570" width="160" height="60" fill="#fef4b6" stroke="black" stroke-width="1"/>
+  <ellipse cx="225" cy="690" rx="85" ry="30" fill="#f79494" stroke="black" stroke-width="1"/>
+
+  <!-- Text -->
+  <text x="225" y="52" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Start</text>
+  <text x="225" y="135" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Turn on kettle</text>
+  <text x="225" y="212" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Wait for kettle</text>
+  <text x="225" y="228" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">to boil</text>
+  <text x="225" y="322" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Water boiled?</text>
+  <text x="375" y="320" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Wait</text>
+  <text x="225" y="410" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Pour water on</text>
+  <text x="225" y="426" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">teabag in cup</text>
+  <text x="225" y="515" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Wait 2-3 min</text>
+  <text x="225" y="592" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Add milk</text>
+  <text x="225" y="608" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">and sugar</text>
+  <text x="225" y="692" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Stop</text>
+  <text x="205" y="375" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">Y</text>
+  <text x="322" y="310" font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle" dominant-baseline="middle">N</text>
+
+  <!-- Connectors -->
+  <line x1="225" y1="80" x2="225" y2="100" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="225" y1="160" x2="225" y2="180" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="225" y1="250" x2="225" y2="270" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="225" y1="360" x2="225" y2="380" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="315" y1="320" x2="320" y2="320" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 330 320 L 315 320 L 315 220 L 305 220" stroke="black" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <line x1="225" y1="460" x2="225" y2="480" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="225" y1="540" x2="225" y2="560" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="225" y1="630" x2="225" y2="650" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>

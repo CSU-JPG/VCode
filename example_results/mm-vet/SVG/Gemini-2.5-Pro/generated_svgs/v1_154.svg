@@ -1,0 +1,89 @@
+<svg viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .foliage-1 { fill: #2E4A25; }
+      .foliage-2 { fill: #4A753C; opacity: 0.8; }
+      .kyle-hair { fill: #3D2314; }
+      .kyle-skin { fill: #D69D80; }
+      .kyle-earring { fill: #FBC02D; }
+      .kyle-eye { fill: #FFFFFF; }
+      .kyle-pupil { fill: #22110A; }
+      .taylor-hair { fill: #FDEEAA; }
+      .taylor-skin { fill: #F2C3A5; }
+      .taylor-top { fill: #111111; }
+      .taylor-mouth { fill: #6E2624; }
+      .taylor-teeth { fill: #FFFFFF; }
+      .taylor-tongue { fill: #E88D87; }
+      .taylor-eye-line { fill: #422619; }
+      .cat-body { fill: #F5F5F5; }
+      .cat-shadow { fill: #D0D0D0; }
+      .cat-eye { stroke: #333333; stroke-width: 3; fill: none; }
+      .cat-nose { fill: #F4D3D3; }
+      .cat-mouth-line { stroke: #333333; stroke-width: 2; fill: none; }
+      .salad-green-1 { fill: #5C823B; }
+      .salad-green-2 { fill: #8DBA61; }
+      .salad-purple { fill: #4D2D52; }
+      .glass { fill: #DDE5E8; opacity: 0.6; }
+      .glass-water { fill: #FFFFFF; opacity: 0.4; }
+    </style>
+  </defs>
+
+  <!-- Left Panel: The Women -->
+  <rect x="0" y="0" width="480" height="480" fill="#0A1434"/>
+  <path d="M0 0 H 250 C 200 50, 150 20, 0 80 Z" class="foliage-1"/>
+  <path d="M50 0 H 300 C 280 60, 200 40, 50 100 Z" class="foliage-2"/>
+
+  <!-- Kyle Richards -->
+  <g id="kyle">
+    <path d="M280 120 C 480 100, 480 350, 400 480 H 480 V 100 C 450 50, 350 80, 280 120 Z" class="kyle-hair"/>
+    <path d="M300 170 C 350 160, 400 200, 395 260 C 390 320, 320 340, 300 290 C 280 240, 280 190, 300 170 Z" class="kyle-skin"/>
+    <path d="M375 220 C 380 235, 370 245, 360 240 C 350 235, 355 225, 375 220 Z" class="kyle-eye"/>
+    <path d="M365 233 m -3, 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" class="kyle-pupil"/>
+    <path d="M350 310 C 365 300, 375 315, 360 330 Q 340 340 330 320 C 320 310 340 315 350 310 Z" class="kyle-earring"/>
+  </g>
+
+  <!-- Taylor Armstrong -->
+  <g id="taylor">
+    <path d="M 50 50 C 150 -20, 350 0, 320 180 C 400 250, 250 480, 100 480 C 0 450, -50 250, 50 50 Z" class="taylor-hair"/>
+    <path d="M250 350 L 150 480 H 420 L 480 270 L 460 260 C 350 300 300 320 250 350Z" class="taylor-top"/>
+    <path d="M120 160 C 200 150, 280 190, 260 270 L 250 300 L 210 305 L 150 280 L 130 250 C 100 210, 80 180, 120 160Z" class="taylor-skin"/>
+    <path d="M 230 360 C 300 350, 450 320, 470 280 L 475 260 L 460 255 C 440 265, 300 290, 220 330 Z" class="taylor-skin"/>
+    <path d="M160 280 C 145 320, 180 355, 230 350 C 280 345, 275 310, 260 290 C 245 270, 170 255, 160 280 Z" class="taylor-mouth"/>
+    <path d="M165 285 C 200 275, 240 275, 255 290 V 298 H 170 V 285 Z" class="taylor-teeth"/>
+    <path d="M175 345 C 200 350, 220 350, 230 342 V 335 H 180 V 345 Z" class="taylor-teeth"/>
+    <path d="M180 320 C 175 335, 220 340, 225 325 C 230 310, 185 305, 180 320 Z" class="taylor-tongue"/>
+    <path d="M140 230 C 160 220, 180 225, 185 240 C 187 245, 175 250, 165 245 C 155 240, 135 235, 140 230 Z" class="taylor-eye-line"/>
+  </g>
+
+  <!-- Right Panel: The Cat -->
+  <rect x="480" y="0" width="480" height="480" fill="#1A1A1A"/>
+  <path d="M500 150 H 960 V 440 H 500 Z" fill="#0A0A0A"/>
+  <rect x="480" y="420" width="480" height="60" fill="#2B2118"/>
+
+  <!-- Glass -->
+  <path d="M520 230 V 420 H 600 V 230 C 600 210, 520 210, 520 230 Z" class="glass"/>
+  <path d="M525 280 V 415 H 595 V 280 C 595 265, 525 265, 525 280 Z" class="glass-water"/>
+
+  <!-- Plate and Salad -->
+  <path d="M620 425 C 620 380, 920 380, 920 425 L 940 460 C 940 500, 600 500, 600 460 Z" fill="#FFFFFF"/>
+  <path d="M630 428 C 630 390, 910 390, 910 428 L 925 455 C 925 490, 615 490, 615 455 Z" fill="#EFEFEF"/>
+  <g id="salad">
+    <path d="M800 390 C 850 380, 880 400, 860 420 S 780 430, 800 390Z" class="salad-green-1"/>
+    <path d="M720 400 C 760 385, 800 410, 770 425 S 700 410, 720 400Z" class="salad-green-2"/>
+    <path d="M680 410 C 700 400, 720 415, 700 425 S 670 415, 680 410Z" class="salad-green-1"/>
+    <path d="M740 415 C 750 410, 760 415, 755 425 S 735 425, 740 415Z" class="salad-purple"/>
+  </g>
+
+  <!-- Smudge the Cat -->
+  <g id="cat">
+    <path d="M700 430 C 690 350, 720 300, 730 280 L 740 270 L 770 295 L 800 270 L 810 280 C 820 300, 850 350, 840 430 Z" class="cat-shadow"/>
+    <path d="M705 430 C 695 355, 725 305, 735 285 L 745 275 L 770 300 L 795 275 L 805 285 C 815 305, 845 355, 835 430 Z" class="cat-body"/>
+    <path d="M745 345 C 750 352, 760 352, 765 345" class="cat-eye"/>
+    <path d="M785 345 C 790 352, 800 352, 805 345" class="cat-eye"/>
+    <path d="M775 365 L 780 370 L 770 370 Z" class="cat-nose"/>
+    <path d="M760 378 C 770 385, 780 385, 785 375" class="cat-mouth-line"/>
+  </g>
+  
+  <!-- Hand on Chair -->
+  <path d="M640 210 C 680 190, 740 210, 720 260 L 700 280 C 650 290, 620 250, 640 210Z" fill="#E0B698"/>
+</svg>

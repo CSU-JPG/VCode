@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1366 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd8e2"/>
+      <stop offset="50%" stop-color="#dfe6ee"/>
+      <stop offset="100%" stop-color="#b9c3cf"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a9bdc9"/>
+      <stop offset="100%" stop-color="#7f97a7"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3c3f43"/>
+      <stop offset="100%" stop-color="#2a2d31"/>
+    </linearGradient>
+    <pattern id="windows" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="12" height="12" fill="#e8eef4" stroke="#c8d0d8" stroke-width="1"/>
+    </pattern>
+    <pattern id="stripes" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#373737"/>
+      <rect x="6" width="6" height="18" fill="#5a5a5a"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#sky)"/>
+
+  <!-- Distant horizon buildings silhouettes -->
+  <rect x="980" y="100" width="18" height="120" fill="#6a7380" opacity="0.5"/>
+  <rect x="1010" y="90" width="12" height="140" fill="#6a7380" opacity="0.5"/>
+  <rect x="1040" y="110" width="8" height="120" fill="#6a7380" opacity="0.5"/>
+
+  <!-- Left blocky building with stripes -->
+  <rect x="0" y="210" width="260" height="330" fill="url(#stripes)"/>
+  <rect x="20" y="210" width="220" height="30" fill="#515151" opacity="0.7"/>
+
+  <!-- Large mid-left white building with many windows -->
+  <rect x="160" y="100" width="520" height="420" fill="#e3e8ee" stroke="#cbd3db" stroke-width="2"/>
+  <rect x="170" y="110" width="500" height="400" fill="url(#windows)" opacity="0.9"/>
+
+  <!-- Central glass tower -->
+  <rect x="820" y="80" width="230" height="310" fill="url(#glass)" stroke="#8193a1"/>
+  <g opacity="0.25" stroke="#ffffff">
+    <line x1="820" y1="120" x2="1050" y2="120"/>
+    <line x1="820" y1="170" x2="1050" y2="170"/>
+    <line x1="820" y1="220" x2="1050" y2="220"/>
+    <line x1="820" y1="270" x2="1050" y2="270"/>
+    <line x1="860" y1="80" x2="860" y2="390"/>
+    <line x1="900" y1="80" x2="900" y2="390"/>
+    <line x1="940" y1="80" x2="940" y2="390"/>
+    <line x1="980" y1="80" x2="980" y2="390"/>
+  </g>
+
+  <!-- Right mid building base -->
+  <rect x="1080" y="280" width="240" height="140" fill="#545e68" opacity="0.7"/>
+
+  <!-- Road area -->
+  <polygon points="0,440 1366,440 1366,768 0,768" fill="url(#road)"/>
+
+  <!-- Median islands -->
+  <rect x="540" y="425" width="120" height="22" fill="#5a5a4f"/>
+  <rect x="600" y="405" width="40" height="45" fill="#5a5a4f"/>
+
+  <!-- Overhead traffic mast arm -->
+  <rect x="650" y="180" width="14" height="130" fill="#2d3137"/>
+  <rect x="664" y="215" width="330" height="10" fill="#2d3137"/>
+  <!-- Traffic signal heads -->
+  <g>
+    <rect x="652" y="216" width="44" height="88" rx="6" fill="#0e1013" stroke="#30343a"/>
+    <circle cx="674" cy="250" r="10" fill="#1a1a1a"/>
+    <circle cx="674" cy="280" r="10" fill="#2ed36b"/>
+  </g>
+  <g>
+    <rect x="744" y="216" width="44" height="88" rx="6" fill="#0e1013" stroke="#30343a"/>
+    <circle cx="766" cy="250" r="10" fill="#1a1a1a"/>
+    <circle cx="766" cy="280" r="10" fill="#2ed36b"/>
+  </g>
+  <g>
+    <rect x="1000" y="210" width="36" height="78" rx="6" fill="#0e1013" stroke="#30343a"/>
+    <circle cx="1018" cy="240" r="9" fill="#1a1a1a"/>
+    <circle cx="1018" cy="270" r="9" fill="#2ed36b"/>
+  </g>
+
+  <!-- Street poles and small signals in distance -->
+  <rect x="560" y="330" width="6" height="60" fill="#3b4048" opacity="0.8"/>
+  <rect x="560" y="320" width="40" height="6" fill="#3b4048" opacity="0.8"/>
+  <rect x="600" y="326" width="16" height="24" fill="#0e1013"/>
+  <circle cx="608" cy="338" r="5" fill="#2ed36b"/>
+
+  <!-- Vehicles -->
+  <!-- Left mid small sedan -->
+  <g transform="translate(720,430)">
+    <rect x="-80" y="-12" width="120" height="50" rx="10" fill="#e9eef2" stroke="#c1c7cd"/>
+    <ellipse cx="-50" cy="44" rx="18" ry="12" fill="#1d2024"/>
+    <ellipse cx="20" cy="44" rx="18" ry="12" fill="#1d2024"/>
+  </g>
+
+  <!-- Box truck in center -->
+  <g id="truck" transform="translate(880,400)">
+    <rect x="-70" y="-50" width="150" height="90" rx="6" fill="#cfd5d9" stroke="#9aa4ab"/>
+    <rect x="-20" y="-62" width="60" height="22" fill="#aab2b9" stroke="#8f98a0"/>
+    <rect x="-58" y="-30" width="78" height="16" fill="#9aa2a9"/>
+    <circle cx="-20" cy="50" r="18" fill="#1d2024"/>
+    <circle cx="54" cy="50" r="18" fill="#1d2024"/>
+  </g>
+
+  <!-- Right foreground car (rear view) -->
+  <g transform="translate(1080,500)">
+    <path d="M-120,10 q40,-60 120,-60 q80,0 130,60 v40 h-250z" fill="#f2f4f7" stroke="#c7cdd3"/>
+    <rect x="-110" y="-10" width="220" height="28" rx="10" fill="#d0d7dd"/>
+    <ellipse cx="-60" cy="58" rx="26" ry="18" fill="#1d2024"/>
+    <ellipse cx="60" cy="58" rx="26" ry="18" fill="#1d2024"/>
+    <rect x="-40" y="-26" width="80" height="10" rx="5" fill="#b7bec6"/>
+  </g>
+
+  <!-- Sidewalk/right person silhouette -->
+  <rect x="1180" y="420" width="18" height="46" fill="#3a3a3a"/>
+  <circle cx="1189" cy="410" r="12" fill="#3a3a3a"/>
+
+  <!-- Additional distant cars -->
+  <g transform="translate(640,412)" opacity="0.8">
+    <rect x="-34" y="-10" width="68" height="28" rx="6" fill="#dfe5ea" stroke="#b7c0c8"/>
+    <circle cx="-18" cy="24" r="8" fill="#23272b"/>
+    <circle cx="18" cy="24" r="8" fill="#23272b"/>
+  </g>
+  <g transform="translate(696,404)" opacity="0.6">
+    <rect x="-26" y="-10" width="52" height="24" rx="5" fill="#e5eaee" stroke="#c3cbd2"/>
+  </g>
+
+  <!-- Crosswalk/road markings -->
+  <g opacity="0.25" fill="#e5ebf2">
+    <rect x="240" y="476" width="60" height="6"/>
+    <rect x="320" y="476" width="60" height="6"/>
+    <rect x="400" y="476" width="60" height="6"/>
+    <rect x="480" y="476" width="60" height="6"/>
+    <rect x="560" y="476" width="60" height="6"/>
+    <rect x="640" y="476" width="60" height="6"/>
+    <rect x="720" y="476" width="60" height="6"/>
+    <rect x="800" y="476" width="60" height="6"/>
+    <rect x="880" y="476" width="60" height="6"/>
+    <rect x="960" y="476" width="60" height="6"/>
+  </g>
+
+  <!-- Bounding boxes as in the photo -->
+  <!-- Blue box around truck -->
+  <rect x="810" y="325" width="190" height="140" fill="none" stroke="#2d5cff" stroke-width="4"/>
+  <!-- Small blue box near the truck front wheel -->
+  <rect x="842" y="425" width="48" height="40" fill="none" stroke="#2d5cff" stroke-width="4"/>
+  <!-- Green small box near center-left -->
+  <rect x="610" y="390" width="40" height="64" fill="none" stroke="#38d463" stroke-width="4"/>
+  <!-- Red box around right-side pedestrian -->
+  <rect x="1170" y="386" width="40" height="100" fill="none" stroke="#ff3b30" stroke-width="4"/>
+
+  <!-- Foreground subtle shadow gradient -->
+  <rect x="0" y="600" width="1366" height="168" fill="url(#road)" opacity="0.6"/>
+</svg>

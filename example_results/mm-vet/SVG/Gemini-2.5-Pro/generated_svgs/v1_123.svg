@@ -1,0 +1,131 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-velvet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8860B; stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E4A010; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C98910; stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blue-velvet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A4A7A; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5F73B8; stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="button-wood">
+      <stop offset="10%" stop-color="#A07848" />
+      <stop offset="95%" stop-color="#6F4F28" />
+    </radialGradient>
+    <pattern id="herringbone" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="rotate(45)">
+      <rect width="40" height="40" fill="#E5E5E5"/>
+      <path d="M-10,10 l20,-20 M0,40 l40,-40 M30,50 l20,-20" stroke="black" stroke-width="5"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Bedding -->
+  <rect width="800" height="600" fill="#2E3B55"/>
+  <path d="M0 600 C 150 550, 250 580, 400 550 S 600 500, 800 520 V 600 H 0 Z" fill="#273248" opacity="0.7"/>
+  <path d="M800 0 C 600 50, 550 20, 400 60 S 200 100, 0 80 V 0 H 800 Z" fill="#273248" opacity="0.7"/>
+
+  <!-- Pillows -->
+  <path d="M280,0 C 250,150 350,280 480,350 L 800,420 V 0 H 280 Z" fill="url(#blue-velvet)"/>
+  <path d="M-20, -20 Q 250, -50, 400, 150 L 350, 280 Q 100, 350, -20, 280 Z" fill="url(#yellow-velvet)"/>
+  <circle cx="390" cy="50" r="30" fill="#B8860B"/>
+  <circle cx="430" cy="95" r="30" fill="#B8860B"/>
+  
+  <g transform="translate(560, 50)">
+    <path d="M0,0 Q 150, -20, 240, 60 Q 280, 200, 150, 280 Q -20, 250, 0, 0 Z" fill="#8C8C8C"/>
+    <path d="M70,20 C 80,100 75,180 85,250" stroke="#707070" stroke-width="25" fill="none" stroke-linecap="round"/>
+    <path d="M120,30 C 110,110 125,190 115,260" stroke="#707070" stroke-width="25" fill="none" stroke-linecap="round"/>
+    <circle cx="195" cy="110" r="18" fill="url(#button-wood)"/>
+    <circle cx="195" cy="110" r="6" fill="#4a3419"/>
+    <path d="M220, 220 L 250, 190" stroke="#606060" stroke-width="8" />
+  </g>
+  
+  <!-- Herringbone Blanket -->
+  <path d="M-10, 500 C 100, 450, 250, 650, 450, 500 V 610 H -10 Z" fill="url(#herringbone)" />
+  <path d="M-10,600 L 450, 600" stroke="#E5E5E5" stroke-width="20" stroke-dasharray="0 10" stroke-linecap="round"/>
+
+  <!-- Tray -->
+  <g transform="translate(480, 360)">
+    <rect x="0" y="0" width="280" height="200" rx="10" fill="#8D94A8"/>
+    <rect x="10" y="10" width="260" height="180" rx="5" fill="#7C8494" stroke="#707888" stroke-width="2"/>
+    
+    <!-- Coffee -->
+    <g transform="translate(170, 30)">
+      <circle cx="30" cy="30" r="30" fill="#AAB0BE"/>
+      <path d="M58, 20 C 75,30 70,55 55,60" stroke="#AAB0BE" stroke-width="12" fill="none"/>
+      <circle cx="30" cy="30" r="25" fill="#1A110D"/>
+      <ellipse cx="25" cy="25" rx="5" ry="3" fill="#3C2F2F" opacity="0.5"/>
+    </g>
+
+    <!-- Cookies -->
+    <g fill="#8B5A2B">
+      <circle cx="120" cy="90" r="30" />
+      <circle cx="80" cy="130" r="30" />
+      <circle cx="150" cy="135" r="30" />
+    </g>
+    <g fill="#5C3317">
+      <circle cx="125" cy="85" r="3"/><circle cx="105" cy="95" r="4"/><circle cx="130" cy="100" r="2"/>
+      <circle cx="88" cy="122" r="4"/><circle cx="70" cy="135" r="3"/><circle cx="95" cy="140" r="2"/>
+      <circle cx="160" cy="125" r="3"/><circle cx="140" cy="138" r="4"/><circle cx="165" cy="145" r="2"/>
+    </g>
+
+    <!-- Candle &amp;amp;amp; Lavender -->
+    <path d="M170, 100 L 200, 170 L 140, 180 L 110, 110 Z" fill="#C3B49E"/>
+    <ellipse cx="155" cy="115" rx="35" ry="15" fill="#EEDDCC"/>
+    <g filter="url(#glow)">
+        <ellipse cx="155" cy="115" rx="8" ry="5" fill="orange"/>
+        <ellipse cx="155" cy="115" rx="4" ry="3" fill="yellow"/>
+    </g>
+    <line x1="60" y1="170" x2="140" y2="150" stroke="#A07848" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(180, 90)" fill="#705090">
+      <path d="M0,0 C 10, -40 30, -50 40,-70"/>
+      <path d="M5,5 C 15, -30 40, -40 50,-60"/>
+      <circle cx="39.5" cy="-70" r="3"/><circle cx="42" cy="-65" r="2"/><circle cx="37" cy="-62" r="2.5"/>
+      <circle cx="49.5" cy="-60" r="3"/><circle cx="52" cy="-55" r="2"/><circle cx="47" cy="-52" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- Book -->
+  <g transform="translate(260, 250)">
+    <path d="M0,0 L210,50 L200,250 L-10,200 Z" fill="#2F2F2F"/>
+    <path d="M5,5 L100,20 L95,210 L0,195 Z" fill="#F5F5DC"/>
+    <path d="M105,22 L205,52 L200,245 L100,212 Z" fill="#F5F5DC"/>
+    <path d="M100,21 L105,215" stroke="#D3D3D3" stroke-width="4"/>
+    <g stroke="#B0B0B0" stroke-width="1.5" stroke-linecap="round">
+      <path d="M20,30 L 80,40 M 20,40 L 80,50 M 20,50 L 80,60 M 20,60 L 80,70 M 20,70 L 80,80 M 20,80 L 80,90 M 20,90 L 80,100 M 20,100 L 80,110 M 20,110 L 80,120 M 20,120 L 80,130 M 20,130 L 80,140 M 20,140 L 80,150 M 20,150 L 80,160 M 20,160 L 80,170 M 20,170 L 80,180"/>
+      <path d="M125,50 L 185,60 M 125,60 L 185,70 M 125,70 L 185,80 M 125,80 L 185,90 M 125,90 L 185,100 M 125,100 L 185,110 M 125,110 L 185,120 M 125,120 L 185,130 M 125,130 L 185,140 M 125,140 L 185,150 M 125,150 L 185,160 M 125,160 L 185,170 M 125,170 L 185,180 M 125,180 L 185,190 M 125,190 L 185,200"/>
+    </g>
+  </g>
+  
+  <!-- Cat -->
+  <g transform="translate(100, 200)">
+    <path d="M 50,200 C 0,250 -50,350 50,380 C 150,420 250,350 220,250 C 200,200 150,150 100,180 Z" fill="#D2691E" />
+    <path d="M 80,180 C 50,150 120,50 180,100 C 250,150 200,220 150,250 C 120,260 100,220 80,180 Z" fill="#CD5C5C" />
+    <path d="M 80,180 C 100,120 180,130 180,100 Q 150,40 100,80 Q 50,130 80,180 Z" fill="#E9967A" />
+    
+    <!-- Face -->
+    <path d="M100,80 L160,110 L140,140 L80,120 Z" fill="#F5DEB3"/>
+    <circle cx="105" cy="110" r="8" fill="#ADFF2F"/>
+    <circle cx="105" cy="110" r="4" fill="black"/>
+    <circle cx="135" cy="120" r="8" fill="#ADFF2F"/>
+    <circle cx="135" cy="120" r="4" fill="black"/>
+    <path d="M 120,130 L 122,135 L 118,135 Z" fill="#FFB6C1"/>
+
+    <!-- Ears -->
+    <path d="M 80,85 L 50,40 L 90,70 Z" fill="#CD5C5C"/>
+    <path d="M 75,78 L 60,50 L 85,72 Z" fill="#FFE4E1"/>
+    <path d="M 110,75 L 150,40 L 125,75 Z" fill="#CD5C5C"/>
+    <path d="M 115,74 L 140,50 L 125,73 Z" fill="#FFE4E1"/>
+    
+    <!-- Paws on Book -->
+    <path d="M 160, 200 C 170, 180, 210, 190, 210, 210 L 190,230 C 180,235, 165,220, 160,200 Z" fill="#E9967A" />
+    <path d="M 230, 180 C 240, 160, 280, 170, 280, 190 L 260,210 C 250,215, 235,200, 230,180 Z" fill="#E9967A" />
+    <path d="M275, 175 L 285, 165 L 290, 175 Z" fill="#8B4513" transform="rotate(-15, 280, 170)"/>
+  </g>
+</svg>

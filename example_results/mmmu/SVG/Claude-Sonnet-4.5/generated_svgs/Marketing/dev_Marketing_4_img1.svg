@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="45" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Powder</text>
+  <text x="341" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Machine Made</text>
+  <text x="808" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Hard Packed</text>
+  
+  <!-- Grid lines -->
+  <line x1="20" y1="80" x2="1180" y2="80" stroke="#000" stroke-width="2"/>
+  <line x1="315" y1="20" x2="315" y2="440" stroke="#000" stroke-width="2"/>
+  <line x1="780" y1="20" x2="780" y2="440" stroke="#000" stroke-width="2"/>
+  <line x1="20" y1="20" x2="20" y2="440" stroke="#000" stroke-width="2"/>
+  <line x1="1180" y1="20" x2="1180" y2="440" stroke="#000" stroke-width="2"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="20" y1="20" x2="1180" y2="20" stroke="#000" stroke-width="2"/>
+  <line x1="20" y1="145" x2="1180" y2="145" stroke="#d3d3d3" stroke-width="1"/>
+  <line x1="20" y1="210" x2="1180" y2="210" stroke="#d3d3d3" stroke-width="1"/>
+  <line x1="20" y1="275" x2="1180" y2="275" stroke="#d3d3d3" stroke-width="1"/>
+  <line x1="20" y1="340" x2="1180" y2="340" stroke="#d3d3d3" stroke-width="1"/>
+  <line x1="20" y1="405" x2="1180" y2="405" stroke="#d3d3d3" stroke-width="1"/>
+  <line x1="20" y1="440" x2="1180" y2="440" stroke="#000" stroke-width="2"/>
+  
+  <!-- Row 1 -->
+  <text x="45" y="122" font-family="Arial, sans-serif" font-size="24">1,210</text>
+  <text x="341" y="122" font-family="Arial, sans-serif" font-size="24">2,107</text>
+  <text x="808" y="122" font-family="Arial, sans-serif" font-size="24">2,846</text>
+  
+  <!-- Row 2 -->
+  <text x="45" y="187" font-family="Arial, sans-serif" font-size="24">1,080</text>
+  <text x="341" y="187" font-family="Arial, sans-serif" font-size="24">1,149</text>
+  <text x="808" y="187" font-family="Arial, sans-serif" font-size="24">1,638</text>
+  
+  <!-- Row 3 -->
+  <text x="45" y="252" font-family="Arial, sans-serif" font-size="24">1,537</text>
+  <text x="341" y="252" font-family="Arial, sans-serif" font-size="24">862</text>
+  <text x="808" y="252" font-family="Arial, sans-serif" font-size="24">2,019</text>
+  
+  <!-- Row 4 -->
+  <text x="45" y="317" font-family="Arial, sans-serif" font-size="24">941</text>
+  <text x="341" y="317" font-family="Arial, sans-serif" font-size="24">1,870</text>
+  <text x="808" y="317" font-family="Arial, sans-serif" font-size="24">1,178</text>
+  
+  <!-- Row 5 -->
+  <text x="341" y="382" font-family="Arial, sans-serif" font-size="24">1,528</text>
+  <text x="808" y="382" font-family="Arial, sans-serif" font-size="24">2,233</text>
+  
+  <!-- Row 6 -->
+  <text x="341" y="427" font-family="Arial, sans-serif" font-size="24">1,382</text>
+  
+  <!-- Table label -->
+  <text x="30" y="480" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Table 12.38</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <line x1="60" y1="20" x2="60" y2="280" stroke="#4169E1" stroke-width="3"/>
+  <line x1="60" y1="280" x2="380" y2="280" stroke="#4169E1" stroke-width="3"/>
+  
+  <!-- Axis labels -->
+  <text x="30" y="130" font-family="serif" font-size="32" font-weight="bold" fill="#333">P</text>
+  <text x="320" y="310" font-family="serif" font-size="32" font-weight="bold" fill="#333">V</text>
+  
+  <!-- Triangle -->
+  <line x1="160" y1="220" x2="280" y2="80" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="280" y1="80" x2="280" y2="220" stroke="#333" stroke-width="2.5"/>
+  <line x1="160" y1="220" x2="280" y2="220" stroke="#333" stroke-width="2"/>
+  
+  <!-- Dashed lines -->
+  <line x1="60" y1="220" x2="160" y2="220" stroke="#333" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="160" y1="220" x2="160" y2="280" stroke="#333" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <!-- Right angle marker -->
+  <rect x="270" y="210" width="10" height="10" fill="none" stroke="#333" stroke-width="1"/>
+  <line x1="270" y1="214" x2="274" y2="214" stroke="#333" stroke-width="1"/>
+  <line x1="274" y1="214" x2="274" y2="210" stroke="#333" stroke-width="1"/>
+  
+  <!-- Point labels -->
+  <text x="140" y="215" font-family="serif" font-size="16" fill="#333">A(P,V)</text>
+  <text x="285" y="235" font-family="serif" font-size="16" fill="#333">C(P,2V)</text>
+  <text x="288" y="75" font-family="serif" font-size="16" fill="#333">B(2P,2V)</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

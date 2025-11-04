@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ground line -->
+  <line x1="20" y1="120" x2="380" y2="120" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Pole A (tilted) -->
+  <line x1="30" y1="40" x2="150" y2="100" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Horizontal beam BC -->
+  <line x1="150" y1="100" x2="370" y2="100" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Orange dashed line AC -->
+  <line x1="30" y1="40" x2="370" y2="100" stroke="#FFA500" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Angle arc at A -->
+  <path d="M 50 40 Q 52 48 45 52" fill="none" stroke="#000" stroke-width="1"/>
+  <line x1="30" y1="40" x2="60" y2="40" stroke="#000" stroke-width="1"/>
+  
+  <!-- Point labels -->
+  <text x="30" y="35" font-family="serif" font-size="16" font-style="italic">A</text>
+  <text x="150" y="115" font-family="serif" font-size="16" font-style="italic">B</text>
+  <text x="375" y="105" font-family="serif" font-size="16" font-style="italic">C</text>
+  
+  <!-- Angle measurement -->
+  <text x="35" y="30" font-family="serif" font-size="14">-20°</text>
+  
+  <!-- Distance label AB (3 m) -->
+  <text x="75" y="75" font-family="serif" font-size="14">3 m</text>
+  
+  <!-- Distance label BC (4 m) -->
+  <text x="240" y="90" font-family="serif" font-size="14">4 m</text>
+  
+  <!-- Vertical markers at B and C -->
+  <line x1="150" y1="100" x2="150" y2="120" stroke="#000" stroke-width="1.5"/>
+  <line x1="370" y1="100" x2="370" y2="120" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Small perpendicular marks -->
+  <line x1="148" y1="105" x2="152" y2="105" stroke="#000" stroke-width="1.5"/>
+  <line x1="368" y1="105" x2="372" y2="105" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Distance bracket for BC -->
+  <line x1="150" y1="130" x2="370" y2="130" stroke="#000" stroke-width="1"/>
+  <line x1="150" y1="125" x2="150" y2="135" stroke="#000" stroke-width="1"/>
+  <line x1="370" y1="125" x2="370" y2="135" stroke="#000" stroke-width="1"/>
+</svg>

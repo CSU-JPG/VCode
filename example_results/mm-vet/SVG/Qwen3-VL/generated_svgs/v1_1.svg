@@ -1,0 +1,12 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; }
+    .equation { font-family: Arial, sans-serif; font-size: 20px; }
+    .number { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; }
+  </style>
+  <text x="10" y="30" class="title">Solve the following equations:</text>
+  <text x="10" y="80" class="number">1)</text>
+  <text x="40" y="80" class="equation">8x + 11 = 4x + 14</text>
+  <text x="10" y="140" class="number">2)</text>
+  <text x="40" y="140" class="equation">7d - 4 = 11d - 9</text>
+</svg>

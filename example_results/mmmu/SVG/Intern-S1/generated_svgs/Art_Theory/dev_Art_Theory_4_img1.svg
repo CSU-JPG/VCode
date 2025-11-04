@@ -1,0 +1,31 @@
+<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f0e6"/>
+  <g transform="translate(100,100)">
+    <circle cx="150" cy="150" r="50" fill="white" stroke="#8b7d6b" stroke-width="2"/>
+    <path d="M100 200 Q120 180 150 200 Q180 180 200 200 V 400 Q180 420 150 400 Q120 420 100 400 Z" fill="#c0a8c8"/>
+    <path d="M120 250 Q140 230 160 250 Q180 230 200 250 V 400 Q180 420 160 400 Q140 420 120 400 Z" fill="#87ceeb"/>
+    <path d="M100 300 Q150 350 200 300 Q150 250 100 300 Z" fill="#8b7d6b"/>
+  </g>
+  <g transform="translate(350,100)">
+    <circle cx="150" cy="150" r="50" fill="white" stroke="#8b7d6b" stroke-width="2"/>
+    <path d="M100 200 Q150 150 200 200 V 400 Q180 420 150 400 Q120 420 100 400 Z" fill="#8b0000"/>
+    <path d="M120 220 Q160 180 200 220 V 400 Q180 420 150 400 Q120 420 100 400 Z" fill="#00008b"/>
+    <path d="M100 300 Q150 350 200 300 Q150 250 100 300 Z" fill="#8b7d6b"/>
+  </g>
+  <g transform="translate(600,100)">
+    <circle cx="150" cy="150" r="50" fill="white" stroke="#8b7d6b" stroke-width="2"/>
+    <path d="M100 200 Q120 180 150 200 Q180 180 200 200 V 400 Q180 420 150 400 Q120 420 100 400 Z" fill="#90ee90"/>
+    <path d="M120 250 Q140 230 160 250 Q180 230 200 250 V 400 Q180 420 160 400 Q140 420 120 400 Z" fill="#00008b"/>
+    <path d="M100 300 Q150 350 200 300 Q150 250 100 300 Z" fill="#8b7d6b"/>
+  </g>
+  <rect x="300" y="400" width="300" height="50" fill="#8b4513"/>
+  <circle cx="450" cy="425" r="25" fill="#8b0000"/>
+  <path d="M450 450 Q430 500 450 550 Q470 500 450 450 Z" fill="#8b0000"/>
+  <rect x="450" y="550" width="10" height="50" fill="#8b0000"/>
+  <path d="M300 550 Q320 570 350 550 Q380 570 400 550 V 600 Q380 620 350 600 Q320 620 300 600 Z" fill="#8b4513"/>
+  <path d="M600 550 Q580 570 550 550 Q520 570 500 550 V 600 Q520 620 550 600 Q580 620 600 600 Z" fill="#8b4513"/>
+  <rect x="100" y="50" width="50" height="150" fill="#8b7d6b"/>
+  <path d="M125 50 Q125 25 150 25 Q175 25 175 50 V 200" stroke="#8b7d6b" fill="none"/>
+  <circle cx="500" cy="100" r="50" fill="#228b22"/>
+  <path d="M490 50 Q500 30 510 50 H 510 Q520 30 530 50 V 200" stroke="#8b7d6b" fill="none"/>
+</svg>

@@ -1,0 +1,154 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#55CCF2"/>
+      <stop offset="100%" stop-color="#39B7E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#skyGradient)"/>
+
+  <path d="M-50,800 C150,600 300,650 500,550 L850,650 L850,800 Z" fill="#FFFFFF" fill-opacity="0.1"/>
+  <path d="M-50,550 C100,500 250,520 400,450 C550,380 700,420 850,380 V 500 H-50 Z" fill="#FFFFFF" fill-opacity="0.1"/>
+
+  <!-- Background spears -->
+  <g fill="#4A93B2" opacity="0.8">
+    <path d="M280,380 L290,370 L295,500 L285,500 Z"/>
+    <path d="M270,385 L280,375 L285,500 L275,500 Z"/>
+    <path d="M260,390 L270,380 L275,500 L265,500 Z"/>
+    <path d="M520,380 L510,370 L505,500 L515,500 Z"/>
+    <path d="M530,385 L520,375 L515,500 L525,500 Z"/>
+    <path d="M540,390 L530,380 L525,500 L535,500 Z"/>
+  </g>
+
+  <g id="characters" filter="url(#shadow)">
+    <!-- Gaul (Vercingetorix) -->
+    <g id="gaul">
+      <path d="M310,480 a10,10 0 0 1 -20,0 a40,40 0 0 1 20,-30 a20,20 0 0 0 0,-10 a40,40 0 0 0 -40,10 v40 h50 z" fill="#5E432E"/>
+      <path d="M305,445 a45,45 0 0 1 -60,0 v-15 a40,40 0 0 1 60,0 z" fill="#B0B0B0"/>
+      <path d="M245,430 a40,40 0 0 1 -10,-20 a20,20 0 0 1 20,0 a40,40 0 0 1 -10,20 z" fill="#FFFFFF"/>
+      <path d="M305,430 a40,40 0 0 0 10,-20 a20,20 0 0 0 -20,0 a40,40 0 0 0 10,20 z" fill="#FFFFFF"/>
+      <path d="M250,450 h50 v20 h-50 z" fill="#F0E68C"/>
+      <path d="M275,445 a25,25 0 0 0 0,25 a15,15 0 0 0 0,-25" fill="#F0E68C"/>
+      <path d="M275,445 a20,20 0 0 1 0,20 l-2,0 a22,22 0 0 0 0,-20 z" fill="#D4AF37"/>
+      <path d="M270,440 a20,20 0 0 0 -20,-5 l5,10 a15,15 0 0 1 15,-5 z" fill="#808080"/>
+      <path d="M275,470 v50 l-20,10 v-50 z" fill="#556B2F"/>
+      <path d="M275,470 v50 l20,10 v-50 z" fill="#6B8E23"/>
+      <path d="M275,520 l-20,10 v20 l20,-10 z" fill="#8B4513"/>
+      <path d="M275,520 l20,10 v20 l-20,-10 z" fill="#A0522D"/>
+      <path d="M290,480 a30,30 0 1 1 0,60 a30,30 0 0 1 0,-60" fill="#CD7F32"/>
+      <path d="M290,490 a5,5 0 1 1 0,40 a5,5 0 0 1 0,-40" fill="#B87333"/>
+      <path d="M240,500 l15,10 l-15,100 l-10,-5 z" fill="#808080"/>
+      <path d="M245,515 l-10,0 l-5,90 l10,-5 z" fill="#A9A9A9"/>
+    </g>
+
+    <!-- Child Knight -->
+    <g id="knight">
+      <path d="M230,500 a20,20 0 0 1 40,0 v-15 a20,20 0 0 0 -40,0 z" fill="#D3D3D3"/>
+      <path d="M235,490 h30 v-20 h-30 z" fill="#F0E68C"/>
+      <path d="M250,485 v-20 h-5 v20 z" fill="#A9A9A9"/>
+      <path d="M230,500 h40 v30 h-40 z" fill="#A9A9A9"/>
+      <path d="M250,500 v30" stroke="#808080" stroke-width="2"/>
+      <path d="M225,530 l5,20 l10,-20 z" fill="#808080"/>
+      <path d="M265,530 l-5,20 l-10,-20 z" fill="#808080"/>
+      <path d="M220,520 l-10,5 l-5,50 l10,-5 z" fill="#A9A9A9"/>
+      <path d="M210,525 l-3,45 l8,-3 z" fill="#D3D3D3"/>
+    </g>
+
+    <!-- Louis XIV -->
+    <g id="louis">
+      <path d="M570,480 a30,30 0 0 1 0,-40 a20,20 0 0 1 10,0 l5,10 a30,30 0 0 0 -5,30 l-10,10 a30,30 0 0 1 0,-10 z" fill="#5E432E"/>
+      <path d="M570,450 a25,25 0 1 1 50,0 a25,25 0 0 1 -50,0" fill="#F0E68C"/>
+      <path d="M580,460 a2,2 0 1 1 4,0 2,2 0 0 1 -4,0" fill="black"/>
+      <path d="M605,460 a2,2 0 1 1 4,0 2,2 0 0 1 -4,0" fill="black"/>
+      <path d="M595,468 a5,5 0 0 1 0,4" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M570,475 h50 v50 a10,10 0 0 1 -50,0 z" fill="#4169E1"/>
+      <path d="M575,485 l5,5 l-2.5,5 z M585,485 l5,5 l-2.5,5 z M595,485 l5,5 l-2.5,5 z" fill="#FFD700"/>
+      <path d="M580,505 l-5,5 l-2.5,5 z M590,505 l-5,5 l-2.5,5 z M600,505 l-5,5 l-2.5,5 z" fill="#FFD700"/>
+      <path d="M580,480 h30 v25 l-15,10 l-15,-10 z" fill="#FFFFFF"/>
+      <path d="M610,470 l5,-50 l5,50 l-2,50 l-5,-48 z" fill="#FFD700"/>
+      <path d="M615,420 l-5,5 l5,5 l5,-5 z" fill="#D4AF37"/>
+    </g>
+
+    <!-- Marianne -->
+    <g id="marianne">
+      <path d="M470,430 a40,40 0 0 1 80,10 v-30 a40,40 0 0 0 -80,-10 z" fill="#D2691E"/>
+      <path d="M500,410 a30,30 0 0 1 60,0 v-15 a30,30 0 0 0 -60,0 z" fill="#E53B3B"/>
+      <path d="M510,430 a25,25 0 1 1 50,0 a25,25 0 0 1 -50,0" fill="#F0E68C"/>
+      <path d="M520,440 a2,2 0 1 1 4,0 2,2 0 0 1 -4,0" fill="black"/>
+      <path d="M545,440 a2,2 0 1 1 4,0 2,2 0 0 1 -4,0" fill="black"/>
+      <path d="M535,448 a5,5 0 0 1 0,4" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M490,460 h80 l-10,90 h-60 z" fill="#F7C144"/>
+      <path d="M560,460 l10,0 l-10,90 z" fill="#F4A460"/>
+      <path d="M490,460 h80 v10 h-80 z" fill="#F4A460"/>
+      <path d="M480,420 l20,-100 l-10,0 l-20,100 z" fill="#A0522D"/>
+      <g id="flag">
+        <path d="M490,320 v120 h20 v-120 z" fill="#0055A4"/>
+        <path d="M510,320 v120 h20 v-120 z" fill="#FFFFFF"/>
+        <path d="M530,320 v120 h20 v-120 z" fill="#EF4135"/>
+      </g>
+    </g>
+
+    <!-- Napoleon -->
+    <g id="napoleon">
+      <path d="M350,420 a50,50 0 0 1 100,0 v-25 a50,50 0 0 0 -100,0 z" fill="#1C1C1C"/>
+      <path d="M355,415 h90 a5,5 0 0 1 0,10 h-90 a5,5 0 0 1 0,-10 z" fill="#F0E68C" stroke="#A0522D" stroke-width="1"/>
+      <path d="M400,380 l5,10 l5,-10 l-5,-5z" fill="#D93F3C"/>
+      <path d="M400,380 l-5,10 l-5,-10 l5,-5z" fill="#0055A4"/>
+      <path d="M400,380 l5,10 l-10,0 l5,-10z" fill="#FFFFFF"/>
+      <path d="M370,425 a25,25 0 1 1 60,0 a25,25 0 0 1 -60,0" fill="#F0E68C"/>
+      <path d="M380,435 a2,2 0 1 1 4,0 2,2 0 0 1 -4,0" fill="black"/>
+      <path d="M405,435 a2,2 0 1 1 4,0 2,2 0 0 1 -4,0" fill="black"/>
+      <path d="M395,443 a5,5 0 0 1 0,4" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M360,420 a30,30 0 0 0 -10,-10 v20 a30,30 0 0 1 10,-10 z" fill="#5E432E"/>
+      <path d="M440,420 a30,30 0 0 1 10,-10 v20 a30,30 0 0 0 -10,-10 z" fill="#5E432E"/>
+      <path d="M340,455 h120 l-20,100 h-80 z" fill="#586373"/>
+      <path d="M440,455 l20,0 l-20,100 z" fill="#485363"/>
+      <path d="M340,455 h120 v20 h-120 z" fill="#E53B3B"/>
+      <path d="M345,460 h110 v10 h-110 z" fill="#D4AF37"/>
+      <path d="M350,475 v20 h100 v-20 z" fill="#FFFFFF"/>
+      <path d="M330,470 l-15,-5 l-5,25 l20,-15 z" fill="#D4AF37"/>
+      <path d="M470,470 l15,-5 l5,25 l-20,-15 z" fill="#D4AF37"/>
+      <path d="M400,485 a10,10 0 1 1 0.1,0" fill="#D4AF37"/>
+      <path d="M400,485 l-5,-5 l5,-5 l5,5 l-5,5 z" fill="#C0C0C0"/>
+      <path d="M370,550 l-10,20 h50 l-10,-20 z" fill="#FFFFFF"/>
+      <path d="M350,550 l-10,40 l20,-5 v-35 z" fill="#1C1C1C"/>
+      <path d="M340,480 l-20,10 l-5,50 l25,-55 z" fill="#B22222"/>
+    </g>
+  </g>
+
+  <!-- Ground -->
+  <g id="ground">
+    <path d="M200,650 C250,620 350,620 400,650 C450,620 550,620 600,650 L620,700 L180,700 Z" fill="#999999"/>
+    <path d="M220,600 C270,580 320,580 370,600 L430,590 C480,590 530,600 580,610 L590,660 L210,660 Z" fill="#A9A9A9"/>
+    <path d="M250,570 C300,560 350,560 400,570 L470,560 C520,560 550,570 570,580 L560,620 L260,620 Z" fill="#B9B9B9"/>
+  </g>
+
+  <!-- Text -->
+  <g fill="white" text-anchor="middle">
+    <text x="400" y="150" font-family="sans-serif" font-size="70" font-weight="bold" letter-spacing="2">HISTOIRE</text>
+    <text x="400" y="230" font-family="sans-serif" font-size="70" font-weight="bold" letter-spacing="2">DE FRANCE</text>
+    <text x="400" y="280" font-family="'Brush Script MT', cursive" font-size="28">De la Préhistoire à nos jours</text>
+  </g>
+
+  <!-- Logo -->
+  <g id="logo" transform="translate(620, 680)">
+    <circle cx="25" cy="25" r="25" fill-opacity="0" />
+    <g fill="white">
+      <path d="M25,5 A20,20 0 1 0 25,45 A20,20 0 0 0 25,5 M25,9 A16,16 0 1 1 25,41 A16,16 0 0 1 25,9 Z"/>
+      <path d="M18,15 a10,10 0 1 1 10,10 h-5 a5,5 0 1 0 -5,-5 v-5 M33,28 l-5,5 l0,5 h-3 l0,-12 h3 l-3,3 5,-5 Z"/>
+    </g>
+    <text x="25" y="65" font-family="sans-serif" font-size="14" text-anchor="middle" fill="white">Quelle Histoire</text>
+  </g>
+</svg>

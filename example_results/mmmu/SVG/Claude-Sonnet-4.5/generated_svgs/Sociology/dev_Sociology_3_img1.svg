@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1363 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1363" height="900" fill="#7dd4b4"/>
+  
+  <!-- Main title box -->
+  <rect x="38" y="20" width="1287" height="220" rx="25" fill="#f5f0e8" stroke="#000" stroke-width="4"/>
+  
+  <!-- Title -->
+  <text x="681" y="95" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#000">SOCIAL CONTROL</text>
+  
+  <!-- Subtitle -->
+  <text x="681" y="155" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#333">Social control is a concept referring to rules and restrictions that shape, supervise, and</text>
+  <text x="681" y="195" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#333">regulate the behaviors of individuals and societies.</text>
+  
+  <!-- Left box (Types) -->
+  <rect x="50" y="270" width="580" height="600" rx="25" fill="#f5f0e8" stroke="#000" stroke-width="4"/>
+  
+  <!-- Types header -->
+  <rect x="170" y="285" width="340" height="90" rx="45" fill="#f5f0e8" stroke="#000" stroke-width="4"/>
+  <text x="340" y="345" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#000">TYPES</text>
+  
+  <!-- Informal social control -->
+  <text x="340" y="445" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="#000">Informal social control</text>
+  
+  <text x="340" y="495" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">Refers to strategies adopted in</text>
+  <text x="340" y="530" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">interpersonal relationships, such as shaming</text>
+  <text x="340" y="565" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">or praising someone.</text>
+  
+  <!-- Formal social control -->
+  <text x="340" y="650" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="#000">Formal social control</text>
+  
+  <text x="340" y="705" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">Refers to laws, rules, and regulations</text>
+  <text x="340" y="740" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">enforced officially by social and political</text>
+  <text x="340" y="775" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">authorities.</text>
+  
+  <!-- Right box (Examples) -->
+  <rect x="733" y="270" width="580" height="600" rx="25" fill="#f5f0e8" stroke="#000" stroke-width="4"/>
+  
+  <!-- Examples header -->
+  <rect x="818" y="285" width="410" height="90" rx="45" fill="#f5f0e8" stroke="#000" stroke-width="4"/>
+  <text x="1023" y="345" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#000">EXAMPLES</text>
+  
+  <!-- Example 1 -->
+  <text x="790" y="470" font-family="Arial, sans-serif" font-size="36" fill="#666">1</text>
+  <text x="860" y="470" font-family="Arial, sans-serif" font-size="36" fill="#000">Shaming</text>
+  <line x1="860" y1="480" x2="1220" y2="480" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Example 2 -->
+  <text x="790" y="535" font-family="Arial, sans-serif" font-size="36" fill="#666">2</text>
+  <text x="860" y="535" font-family="Arial, sans-serif" font-size="36" fill="#000">Praising</text>
+  <line x1="860" y1="545" x2="1220" y2="545" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Example 3 -->
+  <text x="790" y="600" font-family="Arial, sans-serif" font-size="36" fill="#666">3</text>
+  <text x="860" y="600" font-family="Arial, sans-serif" font-size="36" fill="#000">Curfews</text>
+  <line x1="860" y1="610" x2="1220" y2="610" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Example 4 -->
+  <text x="790" y="665" font-family="Arial, sans-serif" font-size="36" fill="#666">4</text>
+  <text x="860" y="665" font-family="Arial, sans-serif" font-size="36" fill="#000">Stigmatization</text>
+  <line x1="860" y1="675" x2="1220" y2="675" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Example 5 -->
+  <text x="790" y="730" font-family="Arial, sans-serif" font-size="36" fill="#666">5</text>
+  <text x="860" y="730" font-family="Arial, sans-serif" font-size="36" fill="#000">Dress codes</text>
+  <line x1="860" y1="740" x2="1220" y2="740" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Example 6 -->
+  <text x="790" y="795" font-family="Arial, sans-serif" font-size="36" fill="#666">6</text>
+  <text x="860" y="795" font-family="Arial, sans-serif" font-size="36" fill="#000">Censorship</text>
+  <line x1="860" y1="805" x2="1220" y2="805" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>

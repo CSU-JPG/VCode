@@ -1,0 +1,152 @@
+<svg viewBox="-20 -20 1406 808" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd6df"/>
+      <stop offset="60%" stop-color="#e4e8ec"/>
+      <stop offset="100%" stop-color="#f3f4f7"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9aa0a6"/>
+      <stop offset="100%" stop-color="#737980"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6ea450"/>
+      <stop offset="100%" stop-color="#4f8b3e"/>
+    </linearGradient>
+    <clipPath id="hatchedZoneClip">
+      <path d="M525 520 L690 500 L870 520 L865 555 L620 570 L540 565 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- sky -->
+  <rect x="-20" y="-20" width="1406" height="808" fill="url(#sky)"/>
+
+  <!-- distant background buildings (right) -->
+  <g opacity="0.85">
+    <rect x="1120" y="380" width="170" height="120" fill="#b7b3b0"/>
+    <rect x="1105" y="395" width="190" height="14" fill="#a69f9c"/>
+    <g fill="#6b8a9e">
+      <rect x="1135" y="415" width="18" height="28"/>
+      <rect x="1160" y="415" width="18" height="28"/>
+      <rect x="1185" y="415" width="18" height="28"/>
+      <rect x="1210" y="415" width="18" height="28"/>
+      <rect x="1235" y="415" width="18" height="28"/>
+    </g>
+  </g>
+
+  <!-- big tree canopies -->
+  <g fill="#2f5b2e" opacity="0.95">
+    <ellipse cx="980" cy="90" rx="420" ry="160"/>
+    <ellipse cx="780" cy="120" rx="260" ry="135"/>
+    <ellipse cx="520" cy="90" rx="250" ry="120"/>
+    <ellipse cx="280" cy="100" rx="230" ry="110"/>
+  </g>
+  <!-- tree trunks -->
+  <g fill="#3b3a2f">
+    <path d="M975 220 c-12 120 -40 200 -52 265 l28 -10 c15 -62 42 -153 71 -210 12 -23 16 -42 9 -56 -7 -14 -27 -12 -56 11z"/>
+    <rect x="320" y="130" width="18" height="310" rx="9"/>
+    <rect x="612" y="240" width="16" height="160" rx="8"/>
+  </g>
+
+  <!-- left grass hill -->
+  <path d="M-20 160 L360 115 L470 170 L470 230 L380 285 L220 380 L120 470 L50 560 L-20 620 Z" fill="url(#grass)"/>
+
+  <!-- median grass island and right hill -->
+  <path d="M780 315 L910 300 L980 370 L1130 420 L1240 420 L1320 460 L1386 520 L1386 740 L1020 620 L880 560 L835 520 L800 490 L780 460 Z" fill="#558a44"/>
+
+  <!-- road body -->
+  <path d="M210 740 L1180 740 L1366 630 L1185 560 L1040 535 L945 510 L885 475 L845 455 L760 440 L660 442 L560 455 L460 480 L375 520 L310 560 Z" fill="url(#roadGrad)"/>
+
+  <!-- left brick walkway and curb -->
+  <path d="M165 740 L305 580 L375 535 L420 520 L455 510 L395 560 L290 655 L215 720 Z" fill="#8b5f4a"/>
+  <path d="M300 585 L380 530 L460 497 L500 490 L480 505 L410 530 L340 575 L285 630 Z" fill="#c7a58e" opacity="0.6"/>
+
+  <!-- guardrail on right -->
+  <g>
+    <path d="M930 550 L1366 660 L1366 685 L930 575 Z" fill="#a4a9ad"/>
+    <path d="M930 545 L1366 655" stroke="#7c8288" stroke-width="8" stroke-linecap="round"/>
+    <g fill="#757a7f">
+      <rect x="1005" y="565" width="10" height="38"/>
+      <rect x="1105" y="592" width="10" height="38"/>
+      <rect x="1210" y="620" width="10" height="38"/>
+      <rect x="1310" y="647" width="10" height="38"/>
+    </g>
+  </g>
+
+  <!-- lane edge (right white line) -->
+  <path d="M765 515 Q 1000 630 1220 788" stroke="#e9eef2" stroke-width="12" fill="none" opacity="0.95"/>
+
+  <!-- center fork lane white arrow -->
+  <g stroke="#f5f8fa" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.95">
+    <path d="M690 565 Q 820 580 900 575"/>
+    <path d="M715 562 l-18 22"/>
+    <path d="M715 562 l22 18"/>
+  </g>
+
+  <!-- yellow hatched zone -->
+  <g clip-path="url(#hatchedZoneClip)">
+    <rect x="520" y="500" width="360" height="90" fill="#efc13b" opacity="0.35"/>
+    <g stroke="#efc13b" stroke-width="6">
+      <line x1="530" y1="500" x2="595" y2="585"/>
+      <line x1="560" y1="500" x2="625" y2="585"/>
+      <line x1="590" y1="500" x2="655" y2="585"/>
+      <line x1="620" y1="500" x2="685" y2="585"/>
+      <line x1="650" y1="500" x2="715" y2="585"/>
+      <line x1="680" y1="500" x2="745" y2="585"/>
+      <line x1="710" y1="500" x2="775" y2="585"/>
+      <line x1="740" y1="500" x2="805" y2="585"/>
+      <line x1="770" y1="500" x2="835" y2="585"/>
+    </g>
+  </g>
+
+  <!-- road edge left (curb) -->
+  <path d="M270 610 Q 360 560 470 520" stroke="#585a5d" stroke-width="14" fill="none"/>
+
+  <!-- street lamps -->
+  <g stroke="#cfd3d9" stroke-width="6" fill="none">
+    <path d="M325 150 Q 324 260 330 410"/>
+    <path d="M330 150 q 60 -20 130 -45" opacity="0.6"/>
+  </g>
+  <g stroke="#cfd3d9" stroke-width="5" fill="none" opacity="0.9">
+    <path d="M464 260 Q 466 340 470 420"/>
+    <path d="M470 260 q 38 -15 74 -28"/>
+  </g>
+
+  <!-- signboards -->
+  <g>
+    <rect x="535" y="400" width="26" height="88" fill="#e9ecef"/>
+    <rect x="510" y="420" width="28" height="70" fill="#e9ecef" opacity="0.7"/>
+  </g>
+
+  <!-- small car ahead -->
+  <g transform="translate(750 372)">
+    <rect x="0" y="14" width="84" height="28" rx="6" fill="#627d89"/>
+    <rect x="10" y="0" width="64" height="20" rx="8" fill="#7d99a5"/>
+    <circle cx="18" cy="46" r="8" fill="#2e3438"/>
+    <circle cx="66" cy="46" r="8" fill="#2e3438"/>
+    <rect x="-5" y="-10" width="94" height="70" fill="none" stroke="#d11b1b" stroke-width="4"/>
+  </g>
+
+  <!-- pedestrian left of center -->
+  <g transform="translate(430 420)">
+    <rect x="-10" y="-20" width="85" height="160" fill="none" stroke="#2451ff" stroke-width="5"/>
+    <circle cx="28" cy="22" r="10" fill="#d9c7b6"/>
+    <rect x="20" y="32" width="16" height="42" rx="6" fill="#2c2a2a"/>
+    <path d="M28 74 l-18 32 M28 74 l18 32" stroke="#2c2a2a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M36 44 l22 16 M20 44 l-22 16" stroke="#2c2a2a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- scattered parked cars to the right (simplified) -->
+  <g opacity="0.55">
+    <rect x="1000" y="430" width="70" height="26" rx="6" fill="#a44c34"/>
+    <rect x="1045" y="425" width="80" height="30" rx="6" fill="#514b47"/>
+    <rect x="1090" y="428" width="74" height="26" rx="6" fill="#8f6246"/>
+  </g>
+
+  <!-- distant foliage details -->
+  <g fill="#3f6a3b" opacity="0.95">
+    <ellipse cx="575" cy="310" rx="80" ry="45"/>
+    <ellipse cx="655" cy="315" rx="70" ry="40"/>
+    <ellipse cx="735" cy="305" rx="85" ry="48"/>
+  </g>
+</svg>

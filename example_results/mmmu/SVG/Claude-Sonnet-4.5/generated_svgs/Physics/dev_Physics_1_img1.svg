@@ -1,0 +1,36 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main circle -->
+  <circle cx="250" cy="225" r="180" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Curved arrow on left side of circle -->
+  <path d="M 180 120 A 140 140 0 0 0 120 200" fill="none" stroke="black" stroke-width="3"/>
+  <polygon points="115,195 105,210 130,205" fill="black"/>
+  
+  <!-- Center point -->
+  <circle cx="350" cy="225" r="5" fill="black"/>
+  
+  <!-- Arrow A (bottom) -->
+  <line x1="350" y1="225" x2="320" y2="300" stroke="black" stroke-width="3"/>
+  <polygon points="320,300 310,285 330,288" fill="black"/>
+  <text x="305" y="330" font-family="Arial" font-size="28" fill="black">A</text>
+  
+  <!-- Arrow B (left) -->
+  <line x1="350" y1="225" x2="240" y2="225" stroke="black" stroke-width="3"/>
+  <polygon points="240,225 255,235 255,215" fill="black"/>
+  <text x="220" y="235" font-family="Arial" font-size="28" fill="black">B</text>
+  
+  <!-- Arrow C (upper middle) -->
+  <line x1="350" y1="225" x2="320" y2="150" stroke="black" stroke-width="3"/>
+  <polygon points="320,150 315,165 330,163" fill="black"/>
+  <text x="310" y="140" font-family="Arial" font-size="28" fill="black">C</text>
+  
+  <!-- Arrow D (upper right) -->
+  <line x1="350" y1="225" x2="420" y2="110" stroke="black" stroke-width="3"/>
+  <polygon points="420,110 410,120 425,125" fill="black"/>
+  <text x="425" y="115" font-family="Arial" font-size="28" fill="black">D</text>
+  
+  <!-- Arrow E (right) -->
+  <line x1="350" y1="225" x2="480" y2="225" stroke="black" stroke-width="3"/>
+  <polygon points="480,225 465,215 465,235" fill="black"/>
+  <text x="490" y="235" font-family="Arial" font-size="28" fill="black">E</text>
+</svg>

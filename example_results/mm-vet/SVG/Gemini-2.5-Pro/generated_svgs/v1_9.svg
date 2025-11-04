@@ -1,0 +1,117 @@
+<svg viewBox="0 0 380 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="red-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood result="flood" flood-color="#FF1111" flood-opacity="0.8"/>
+      <feComposite in="flood" result="mask" in2="SourceAlpha" operator="in"/>
+      <feGaussianBlur in="mask" stdDeviation="4" result="blurred"/>
+      <feMerge>
+        <feMergeNode in="blurred"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="green-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood result="flood" flood-color="#11FF11" flood-opacity="0.8"/>
+      <feComposite in="flood" result="mask" in2="SourceAlpha" operator="in"/>
+      <feGaussianBlur in="mask" stdDeviation="4" result="blurred"/>
+      <feMerge>
+        <feMergeNode in="blurred"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- 7-Segment paths -->
+    <path id="seg-a" d="M 6,4 H 34"/>
+    <path id="seg-b" d="M 36,6 V 34"/>
+    <path id="seg-c" d="M 36,38 V 66"/>
+    <path id="seg-d" d="M 6,68 H 34"/>
+    <path id="seg-e" d="M 4,38 V 66"/>
+    <path id="seg-f" d="M 4,6 V 34"/>
+    <path id="seg-g" d="M 6,36 H 34"/>
+    <g id="digit-base" stroke-width="8" stroke-linecap="round">
+      <use href="#seg-a"/>
+      <use href="#seg-b"/>
+      <use href="#seg-c"/>
+      <use href="#seg-d"/>
+      <use href="#seg-e"/>
+      <use href="#seg-f"/>
+      <use href="#seg-g"/>
+    </g>
+    <!-- Digits -->
+    <g id="digit-0" stroke-width="8" stroke-linecap="round"><use href="#seg-a"/><use href="#seg-b"/><use href="#seg-c"/><use href="#seg-d"/><use href="#seg-e"/><use href="#seg-f"/></g>
+    <g id="digit-1" stroke-width="8" stroke-linecap="round"><use href="#seg-b"/><use href="#seg-c"/></g>
+    <g id="digit-2" stroke-width="8" stroke-linecap="round"><use href="#seg-a"/><use href="#seg-b"/><use href="#seg-g"/><use href="#seg-e"/><use href="#seg-d"/></g>
+    <g id="digit-3" stroke-width="8" stroke-linecap="round"><use href="#seg-a"/><use href="#seg-b"/><use href="#seg-g"/><use href="#seg-c"/><use href="#seg-d"/></g>
+    <g id="digit-4" stroke-width="8" stroke-linecap="round"><use href="#seg-f"/><use href="#seg-g"/><use href="#seg-b"/><use href="#seg-c"/></g>
+    <g id="digit-5" stroke-width="8" stroke-linecap="round"><use href="#seg-a"/><use href="#seg-f"/><use href="#seg-g"/><use href="#seg-c"/><use href="#seg-d"/></g>
+    <g id="digit-6" stroke-width="8" stroke-linecap="round"><use href="#seg-a"/><use href="#seg-f"/><use href="#seg-e"/><use href="#seg-d"/><use href="#seg-c"/><use href="#seg-g"/></g>
+    <g id="digit-9" stroke-width="8" stroke-linecap="round"><use href="#seg-a"/><use href="#seg-b"/><use href="#seg-c"/><use href="#seg-d"/><use href="#seg-f"/><use href="#seg-g"/></g>
+    <circle id="dot" cx="0" cy="68" r="4"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="380" height="620" fill="#666677"/>
+  
+  <!-- Main Sign Body -->
+  <rect x="10" y="10" width="360" height="500" fill="#0033A0" rx="10"/>
+  <rect x="10" y="10" width="360" height="60" fill="#0033A0"/>
+  
+  <!-- Header Text -->
+  <text x="75" y="48" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="28" fill="white" text-anchor="middle">Gasoline</text>
+  <text x="280" y="48" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="28" fill="white" text-anchor="middle">Self Serve</text>
+  <line x1="10" y1="70" x2="370" y2="70" stroke="#104EBF" stroke-width="2"/>
+
+  <!-- Price Panels -->
+  <!-- Regular Panel -->
+  <rect x="25" y="85" width="330" height="110" fill="#0044CC" rx="5"/>
+  <rect x="160" y="95" width="205" height="90" fill="#1a1a1a" rx="5"/>
+  <text x="90" y="145" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32" fill="white" text-anchor="middle">Regular</text>
+  
+  <!-- Plus Panel -->
+  <rect x="25" y="210" width="330" height="110" fill="#0044CC" rx="5"/>
+  <rect x="160" y="220" width="205" height="90" fill="#1a1a1a" rx="5"/>
+  <text x="90" y="270" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32" fill="white" text-anchor="middle">Plus</text>
+  
+  <!-- Supreme Panel -->
+  <rect x="25" y="335" width="330" height="110" fill="#0044CC" rx="5"/>
+  <rect x="160" y="345" width="205" height="90" fill="#1a1a1a" rx="5"/>
+  <text x="90" y="395" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32" fill="white" text-anchor="middle">Supreme</text>
+  
+  <!-- Red Digital Prices -->
+  <g fill="#FF0000" stroke="#FF0000" filter="url(#red-glow)">
+    <!-- Regular: 3.49 9/10 -->
+    <use href="#digit-3" x="160" y="100"/>
+    <use href="#dot" x="210" y="100"/>
+    <use href="#digit-4" x="215" y="100"/>
+    <use href="#digit-9" x="260" y="100"/>
+    <use href="#digit-9" x="305" y="110" transform="scale(0.7)"/>
+    
+    <!-- Plus: 3.55 9/10 -->
+    <use href="#digit-3" x="160" y="225"/>
+    <use href="#dot" x="210" y="225"/>
+    <use href="#digit-5" x="215" y="225"/>
+    <use href="#digit-5" x="260" y="225"/>
+    <use href="#digit-9" x="305" y="235" transform="scale(0.7)"/>
+
+    <!-- Supreme: 3.65 9/10 -->
+    <use href="#digit-3" x="160" y="350"/>
+    <use href="#dot" x="210" y="350"/>
+    <use href="#digit-6" x="215" y="350"/>
+    <use href="#digit-5" x="260" y="350"/>
+    <use href="#digit-9" x="305" y="360" transform="scale(0.7)"/>
+  </g>
+  
+  <!-- Diesel Sign Body -->
+  <rect x="10" y="480" width="360" height="130" fill="#005522" rx="10"/>
+  <rect x="160" y="495" width="205" height="105" fill="#1a1a1a" rx="5"/>
+  <text x="85" y="535" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32" fill="white" text-anchor="middle">Diesel</text>
+  <text x="85" y="570" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32" fill="white" text-anchor="middle">No.2</text>
+  
+  <!-- Green Digital Price -->
+  <g fill="#00FF00" stroke="#00FF00" filter="url(#green-glow)">
+    <!-- Diesel: 3.60 9/10 -->
+    <use href="#digit-3" x="160" y="510"/>
+    <use href="#dot" x="210" y="510"/>
+    <use href="#digit-6" x="215" y="510"/>
+    <use href="#digit-0" x="260" y="510"/>
+    <use href="#digit-9" x="305" y="520" transform="scale(0.7)"/>
+  </g>
+</svg>

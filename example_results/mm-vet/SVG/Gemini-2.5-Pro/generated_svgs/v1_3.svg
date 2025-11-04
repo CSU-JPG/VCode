@@ -1,0 +1,41 @@
+<svg viewBox="0 0 420 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card {
+        fill: white;
+        stroke: black;
+        stroke-width: 1.5;
+        rx: 4;
+      }
+      .problem {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: black;
+      }
+    </style>
+  </defs>
+
+  <!-- Row 1 -->
+  <rect x="5" y="5" width="200" height="100" style="fill:white; stroke:black; stroke-width:2;"/>
+  <text x="105" y="55" class="problem">4 + 7 =</text>
+
+  <rect x="215" y="5" width="200" height="100" style="fill:white; stroke:black; stroke-width:2;"/>
+  <text x="315" y="55" class="problem">7 + 2 =</text>
+
+  <!-- Row 2 -->
+  <rect x="5" y="115" width="200" height="100" style="fill:white; stroke:black; stroke-width:2;"/>
+  <text x="105" y="165" class="problem">2 + 2 =</text>
+
+  <rect x="215" y="115" width="200" height="100" style="fill:white; stroke:black; stroke-width:2;"/>
+  <text x="315" y="165" class="problem">6 + 1 =</text>
+
+  <!-- Row 3 -->
+  <rect x="5" y="225" width="200" height="100" style="fill:white; stroke:black; stroke-width:2;"/>
+  <text x="105" y="275" class="problem">9 + 3 =</text>
+
+  <rect x="215" y="225" width="200" height="100" style="fill:white; stroke:black; stroke-width:2;"/>
+  <text x="315" y="275" class="problem">3 + 8 =</text>
+</svg>

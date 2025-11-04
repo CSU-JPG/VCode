@@ -1,0 +1,72 @@
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header row -->
+  <rect x="5" y="5" width="710" height="40" fill="#E8531E"/>
+  <text x="360" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">RATING OF LOGISTICS PROVIDERS</text>
+  
+  <!-- Second header row -->
+  <rect x="5" y="45" width="145" height="40" fill="#E8531E"/>
+  <text x="77" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">CRITERION</text>
+  
+  <rect x="150" y="45" width="120" height="40" fill="#E8531E"/>
+  <text x="210" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">WEIGHT</text>
+  
+  <rect x="270" y="45" width="145" height="40" fill="#E8531E"/>
+  <text x="342" y="62" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">OVERNIGHT</text>
+  <text x="342" y="78" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">SHIPPING</text>
+  
+  <rect x="415" y="45" width="145" height="40" fill="#E8531E"/>
+  <text x="487" y="62" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">WORLDWIDE</text>
+  <text x="487" y="78" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">DELIVERY</text>
+  
+  <rect x="560" y="45" width="155" height="40" fill="#E8531E"/>
+  <text x="637" y="62" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">UNITED</text>
+  <text x="637" y="78" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">FREIGHT</text>
+  
+  <!-- Quality row -->
+  <rect x="5" y="85" width="145" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="17" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">Quality</text>
+  
+  <rect x="150" y="85" width="120" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="210" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">5</text>
+  
+  <rect x="270" y="85" width="145" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="342" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">90</text>
+  
+  <rect x="415" y="85" width="145" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="487" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">80</text>
+  
+  <rect x="560" y="85" width="155" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="637" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">75</text>
+  
+  <!-- Delivery row -->
+  <rect x="5" y="125" width="145" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="17" y="150" font-family="Arial, sans-serif" font-size="15" fill="#333">Delivery</text>
+  
+  <rect x="150" y="125" width="120" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="210" y="150" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">3</text>
+  
+  <rect x="270" y="125" width="145" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="342" y="150" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">70</text>
+  
+  <rect x="415" y="125" width="145" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="487" y="150" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">85</text>
+  
+  <rect x="560" y="125" width="155" height="40" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="637" y="150" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">70</text>
+  
+  <!-- Cost row -->
+  <rect x="5" y="165" width="145" height="40" fill="#E8E8E8" stroke="#999" stroke-width="1"/>
+  <text x="17" y="190" font-family="Arial, sans-serif" font-size="15" fill="#333">Cost</text>
+  
+  <rect x="150" y="165" width="120" height="40" fill="#E8E8E8" stroke="#999" stroke-width="1"/>
+  <text x="210" y="190" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">2</text>
+  
+  <rect x="270" y="165" width="145" height="40" fill="#E8E8E8" stroke="#999" stroke-width="1"/>
+  <text x="342" y="190" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">70</text>
+  
+  <rect x="415" y="165" width="145" height="40" fill="#E8E8E8" stroke="#999" stroke-width="1"/>
+  <text x="487" y="190" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">80</text>
+  
+  <rect x="560" y="165" width="155" height="40" fill="#E8E8E8" stroke="#999" stroke-width="1"/>
+  <text x="637" y="190" font-family="Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle">95</text>
+</svg>

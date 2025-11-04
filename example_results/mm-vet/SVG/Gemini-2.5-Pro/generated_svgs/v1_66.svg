@@ -1,0 +1,176 @@
+<svg viewBox="0 0 1010 490" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="hair-sg" d="M118,25 C100,10 70,5 45,15 C20,25 5,50 5,80 C5,100 15,120 30,135 L40,125 C30,115 25,100 25,85 C25,60 40,40 60,35 C80,30 100,35 110,50 L115,55 C125,70 125,90 120,105 L125,115 C135,95 135,70 125,50 L120,40 Z M130,28 C140,20 155,20 165,30 C175,40 180,55 175,70 L160,70 C165,55 160,45 155,40 C150,35 140,35 135,40 Z"/>
+    <path id="hair-aj" d="M10,60 C0,80 5,140 30,170 L50,150 C30,130 25,90 35,70 L40,60 C60,40 90,30 120,40 C150,50 170,70 180,100 L190,120 C195,140 190,160 180,175 L170,190 L175,210 L195,190 C200,170 205,140 195,110 C185,80 165,55 140,45 C115,35 90,40 70,60 Z"/>
+    <path id="hair-jb" d="M30,35 C20,50 20,70 30,85 L40,90 C50,110 70,120 95,120 C120,120 140,110 150,90 L160,85 C170,70 170,50 160,35 C150,20 130,10 100,10 C70,10 50,20 30,35 Z"/>
+    <path id="hair-sh" d="M40,30 C20,40 10,70 15,100 C20,130 40,150 60,160 L70,150 C55,145 40,130 35,105 C30,80 35,55 50,45 L60,40 C80,30 110,30 130,40 L140,45 C155,55 160,80 155,105 C150,130 135,145 120,150 L130,160 C150,150 170,130 165,100 C160,70 150,40 130,30 C110,20 80,20 60,25 Z"/>
+    <path id="hair-dj" d="M175,40 C185,60 185,90 175,110 L160,130 C150,150 130,160 110,160 L80,160 C60,160 40,150 30,130 L15,110 C5,90 5,60 15,40 C25,20 50,10 85,10 L105,10 C140,10 165,20 175,40 Z"/>
+    <path id="hair-ts" d="M15,80 C5,100 5,130 20,150 L30,165 C40,180 60,190 80,190 L110,190 C130,190 150,180 160,165 L170,150 C185,130 185,100 175,80 L165,60 C155,40 135,25 110,20 L80,20 C55,25 35,40 25,60 Z M20,60 C30,40 50,25 75,20 L115,20 C140,25 160,40 170,60 L180,80 C190,100 190,130 175,150 L165,165 C155,180 140,185 120,185 L70,185 C50,185 35,180 25,165 L15,150 C0,130 0,100 10,80 Z"/>
+    <path id="hair-b" d="M10,80 C0,110 10,150 40,170 L50,160 C25,145 20,115 25,90 L35,60 C50,30 80,10 110,15 C140,20 160,40 170,70 L175,90 C180,115 175,145 150,160 L160,170 C190,150 200,110 190,80 C180,50 160,25 130,15 C100,5 65,20 50,50 Z"/>
+    <path id="hair-kk" d="M30,50 C20,70 20,100 30,120 L40,140 C50,160 70,170 95,170 C120,170 140,160 150,140 L160,120 C170,100 170,70 160,50 C150,30 130,20 100,20 C70,20 50,30 30,50 Z"/>
+    <path id="hair-r" d="M110,0 L80,0 C60,0 45,10 35,25 C25,40 25,60 35,75 L45,85 C35,100 30,120 40,140 L50,170 L140,170 L150,140 C160,120 155,100 145,85 L155,75 C165,60 165,40 155,25 C145,10 130,0 110,0 Z M95,10 C110,10 120,15 125,25 C130,35 125,45 120,50 C115,45 110,35 110,25 C110,15 105,10 95,10Z M65,25 C70,15 80,10 95,10 C85,10 80,15 75,25 C70,35 75,45 80,50 C75,45 70,35 65,25Z"/>
+    <path id="hair-jd" d="M35,40 C25,55 25,75 35,90 L45,110 C50,120 60,130 75,135 L125,135 C140,130 150,120 155,110 L165,90 C175,75 175,55 165,40 C155,25 135,15 100,15 C65,15 45,25 35,40 Z"/>
+    <path id="face-outline" d="M45,80 C25,100 20,140 40,170 C60,200 130,200 150,170 C170,140 165,100 145,80 C125,60 65,60 45,80 Z"/>
+    <path id="eye" d="M-12,0 C-12,5 -8,8 0,8 C8,8 12,5 12,0 C12,-5 8,-8 0,-8 C-8,-8 -12,-5 -12,0 Z"/>
+    <circle id="pupil" r="3" fill="#222"/>
+  </defs>
+
+  <rect width="1010" height="490" fill="#fef200"/>
+
+  <!-- Selena Gomez -->
+  <g transform="translate(5, 5)">
+    <rect width="196" height="237.5" fill="#f9a8d4"/>
+    <path d="M120,237 C110,190 70,180 50,200 L70,237 Z" fill="#e4c5b1"/>
+    <use href="#hair-sg" fill="#d4aa7a"/>
+    <use href="#hair-sg" transform="scale(0.9) translate(10, 20)" fill="#b48a6a"/>
+    <use href="#face-outline" fill="#f3d9c6" transform="translate(4, 5)"/>
+    <path d="M45,170 C70,180 120,180 145,170 L140,237 L50,237 Z" fill="#f3d9c6"/>
+    <path d="M70,110 L60,120 M130,110 L140,120" stroke="#a16207" stroke-width="4" fill="none"/>
+    <g transform="translate(80 130)"> <use href="#eye" fill="#6b4629"/> <use href="#pupil"/> </g>
+    <g transform="translate(120 130)"> <use href="#eye" fill="#6b4629"/> <use href="#pupil"/> </g>
+    <path d="M95,145 C100,150 105,150 105,145" stroke="#c48a73" stroke-width="2"/>
+    <path d="M85,160 C95,168 110,168 115,160" stroke="#d97a95" stroke-width="3" fill="none"/>
+    <circle cx="35" cy="110" r="12" fill="none" stroke="#e1a26a" stroke-width="3"/>
+  </g>
+
+  <!-- Angelina Jolie -->
+  <g transform="translate(206, 5)">
+    <rect width="196" height="237.5" fill="#111"/>
+    <use href="#hair-aj" fill="#4a3b33"/>
+    <use href="#hair-aj" transform="translate(5,5) scale(0.9)" fill="#3a2b23"/>
+    <use href="#face-outline" fill="#e6c3a1" transform="translate(5, 10)"/>
+    <path d="M45,175 C70,190 120,190 145,175 L140,237 L50,237 Z" fill="#000"/>
+    <path d="M70,115 L60,125 M130,115 L140,125" stroke="#5c4033" stroke-width="4" fill="none"/>
+    <g transform="translate(80 135)"> <use href="#eye" fill="#5a634e"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 135)"> <use href="#eye" fill="#5a634e"/> <use href="#pupil"/> </g>
+    <path d="M98,150 C100,153 102,153 102,150" stroke="#b38a6a" stroke-width="2"/>
+    <path d="M75,165 C90,175 115,175 125,165 C120,170 110,172 100,172 C90,172 80,170 75,165 Z" fill="#f08080"/>
+    <path d="M85,167 H115" stroke="#fff" stroke-width="4"/>
+  </g>
+
+  <!-- Justin Bieber -->
+  <g transform="translate(407, 5)">
+    <rect width="196" height="237.5" fill="#a3e635"/>
+    <path d="M-10,0 H206 V237.5 H-10Z" fill="#22c55e" clip-path="url(#jb-bg)"/>
+    <defs><clipPath id="jb-bg"><path d="M100,0 C200,50 200,150 100,237.5 C0,150 0,50 100,0 Z"/></clipPath></defs>
+    <use href="#face-outline" fill="#fde0c5" transform="translate(5, 15)"/>
+    <path d="M45,180 C70,195 120,195 145,180 L160,237 L30,237 Z" fill="#18181b"/>
+    <use href="#hair-jb" fill="#f5d693"/>
+    <use href="#hair-jb" transform="scale(0.95) translate(5,10)" fill="#e4c382"/>
+    <path d="M70,115 L60,125 M130,115 L140,125" stroke="#b48a6a" stroke-width="4" fill="none"/>
+    <g transform="translate(80 140)"> <use href="#eye" fill="#a16207"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 140)"> <use href="#eye" fill="#a16207"/> <use href="#pupil"/> </g>
+    <path d="M98,155 C100,158 102,158 102,155" stroke="#e6b89a" stroke-width="2"/>
+    <path d="M80,170 C90,180 115,180 125,170" stroke="#fca5a5" stroke-width="3" fill="none"/>
+    <path d="M85,172 H115" stroke="#fff" stroke-width="4"/>
+    <path d="M160,80 C170,100 170,150 150,170" stroke="#fff" stroke-width="4" fill="none"/>
+    <circle cx="160" cy="80" r="3" fill="#fff"/>
+  </g>
+
+  <!-- Sam Heughan -->
+  <g transform="translate(608, 5)">
+    <rect width="196" height="237.5" fill="#1c1917"/>
+    <use href="#face-outline" fill="#fce1d1" transform="translate(5, 10)"/>
+    <path d="M45,175 C70,190 120,190 145,175 L160,237 L30,237 Z" fill="#0c243c"/>
+    <path d="M95,185 L105,185 L115,237 L75,237 Z" fill="#fff"/>
+    <use href="#hair-sh" fill="#b45309"/>
+    <use href="#hair-sh" transform="scale(0.9) translate(10, 10)" fill="#9a3412"/>
+    <path d="M70,120 L60,130 M130,120 L140,130" stroke="#a16207" stroke-width="4" fill="none"/>
+    <g transform="translate(80 140)"> <use href="#eye" fill="#2563eb"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 140)"> <use href="#eye" fill="#2563eb"/> <use href="#pupil"/> </g>
+    <path d="M98,155 C100,158 102,158 102,155" stroke="#d9a083" stroke-width="2"/>
+    <path d="M80,170 C90,180 115,180 125,170" stroke="#fca5a5" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Dakota Johnson -->
+  <g transform="translate(809, 5)">
+    <rect width="196" height="237.5" fill="#333"/>
+    <use href="#hair-dj" fill="#866d58"/>
+    <use href="#hair-dj" transform="translate(0, 5) scale(0.95)" fill="#6e5a49"/>
+    <use href="#face-outline" fill="#fae5d3" transform="translate(5, 15)"/>
+    <path d="M45,180 C70,195 120,195 145,180 L150,237 L40,237 Z" fill="#dc2626"/>
+    <path d="M70,120 L60,130 M130,120 L140,130" stroke="#a16207" stroke-width="4" fill="none"/>
+    <g transform="translate(80 140)"> <use href="#eye" fill="#86a5a8"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 140)"> <use href="#eye" fill="#86a5a8"/> <use href="#pupil"/> </g>
+    <path d="M98,155 C100,158 102,158 102,155" stroke="#d9b49e" stroke-width="2"/>
+    <path d="M85,170 C95,175 110,175 115,170" stroke="#e11d48" stroke-width="3" fill="none"/>
+    <path d="M60,180 C80,195 120,195 140,180 C135,190 115,192 100,192 C85,192 65,190 60,180" fill="#e5e7eb"/>
+    <path d="M65,182 C80,195 120,195 135,182" fill="#d1d5db"/>
+  </g>
+
+  <!-- Taylor Swift -->
+  <g transform="translate(5, 247.5)">
+    <rect width="196" height="237.5" fill="#111827"/>
+    <use href="#face-outline" fill="#fee2e2" transform="translate(5, 20)"/>
+    <path d="M45,185 C70,200 120,200 145,185 L140,237 L50,237 Z" fill="#000"/>
+    <use href="#hair-ts" fill="#fde047"/>
+    <use href="#hair-ts" transform="scale(0.95, 0.9) translate(5, 15)" fill="#eab308"/>
+    <path d="M70,125 L60,135 M130,125 L140,135" stroke="#ca8a04" stroke-width="4" fill="none"/>
+    <g transform="translate(80 145)"> <use href="#eye" fill="#60a5fa"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 145)"> <use href="#eye" fill="#60a5fa"/> <use href="#pupil"/> </g>
+    <path d="M80,170 C95,175 110,175 120,170 C110,180 95,180 85,172 Z" fill="#be123c"/>
+    <path d="M20,160 C30,150 40,155 45,165 C50,175 45,190 35,195 L20,180 Z" fill="#166534"/>
+    <circle cx="35" cy="155" r="15" fill="#16a34a"/>
+  </g>
+
+  <!-- Beyoncé -->
+  <g transform="translate(206, 247.5)">
+    <rect width="196" height="237.5" fill="#dc2626"/>
+    <use href="#face-outline" fill="#d59b67" transform="translate(5, 20)"/>
+    <path d="M45,185 C70,200 120,200 145,185 L140,237 L50,237 Z" fill="#dc2626"/>
+    <path d="M50,190 C70,220 120,220 140,190 C130,210 115,215 100,215 C85,215 70,210 50,190" fill="#e5e7eb"/>
+    <path d="M55,195 C70,220 120,220 135,195 C125,212 113,215 100,215 C87,215 75,212 55,195" fill="#d1d5db"/>
+    <use href="#hair-b" fill="#d4aa7a"/>
+    <use href="#hair-b" transform="scale(0.9) translate(10, 10)" fill="#b48a6a"/>
+    <path d="M70,125 L60,135 M130,125 L140,135" stroke="#8c5a2b" stroke-width="4" fill="none"/>
+    <g transform="translate(80 145)"> <use href="#eye" fill="#854d0e"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 145)"> <use href="#eye" fill="#854d0e"/> <use href="#pupil"/> </g>
+    <path d="M98,160 C100,163 102,163 102,160" stroke="#a26b3e" stroke-width="2"/>
+    <path d="M80,175 C90,185 115,185 125,175" stroke="#fca5a5" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Kim Kardashian -->
+  <g transform="translate(407, 247.5)">
+    <rect width="196" height="237.5" fill="#d1d5db"/>
+    <use href="#face-outline" fill="#e6bf9e" transform="translate(5, 20)"/>
+    <path d="M45,185 C70,200 120,200 145,185 L140,237 L50,237 Z" fill="#000"/>
+    <use href="#hair-kk" fill="#e2d6c3"/>
+    <use href="#hair-kk" transform="scale(0.95) translate(5, 10)" fill="#d1c5b2"/>
+    <path d="M70,125 L60,135 M130,125 L140,135" stroke="#a16207" stroke-width="4" fill="none"/>
+    <g transform="translate(80 145)"> <use href="#eye" fill="#78350f"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 145)"> <use href="#eye" fill="#78350f"/> <use href="#pupil"/> </g>
+    <path d="M98,160 C100,163 102,163 102,160" stroke="#c48a73" stroke-width="2"/>
+    <path d="M85,175 C95,182 110,182 115,175" stroke="#d97a95" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Rihanna -->
+  <g transform="translate(608, 247.5)">
+    <rect width="196" height="237.5" fill="#f3f4f6"/>
+    <use href="#face-outline" fill="#c38e66" transform="translate(5, 25)"/>
+    <path d="M45,190 C70,205 120,205 145,190 L140,237 L50,237 Z" fill="#4b5563"/>
+    <path d="M48,193 C70,225 120,225 142,193 C130,215 115,220 100,220 C85,220 70,215 48,193" fill="#e5e7eb"/>
+    <path d="M53,198 C70,225 120,225 137,198 C125,217 113,220 100,220 C87,220 75,217 53,198" fill="#d1d5db"/>
+    <use href="#hair-r" fill="#1c1917"/>
+    <path d="M70,130 L60,140 M130,130 L140,140" stroke="#7f461a" stroke-width="4" fill="none"/>
+    <g transform="translate(80 150)"> <use href="#eye" fill="#a3a33b"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 150)"> <use href="#eye" fill="#a3a33b"/> <use href="#pupil"/> </g>
+    <path d="M98,165 C100,168 102,168 102,165" stroke="#a26b3e" stroke-width="2"/>
+    <path d="M85,180 C95,187 110,187 115,180" stroke="#ec4899" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Jamie Dornan -->
+  <g transform="translate(809, 247.5)">
+    <rect width="196" height="237.5" fill="#b91c1c"/>
+    <use href="#face-outline" fill="#fde6d8" transform="translate(5, 20)"/>
+    <path d="M45,185 C70,200 120,200 145,185 L160,237 L30,237 Z" fill="#fff"/>
+    <path d="M90,195 L110,195 L105,215 L95,215Z" fill="#000"/>
+    <path d="M90,195 l-10,10 l20,0 l-10,10 l-10,-10 l20,0 z" fill="#000"/>
+    <use href="#hair-jd" fill="#3a2b23"/>
+    <path d="M45,140 C40,160 50,180 70,185 L130,185 C150,180 160,160 155,140" fill="#5c4033"/>
+    <path d="M70,125 L60,135 M130,125 L140,135" stroke="#78350f" stroke-width="4" fill="none"/>
+    <g transform="translate(80 145)"> <use href="#eye" fill="#ca8a04"/> <use href="#pupil"/> </g>
+    <g transform="translate(125 145)"> <use href="#eye" fill="#ca8a04"/> <use href="#pupil"/> </g>
+    <path d="M98,160 C100,163 102,163 102,160" stroke="#d9a083" stroke-width="2"/>
+    <path d="M80,175 C90,185 115,185 125,175" stroke="#fca5a5" stroke-width="3" fill="none"/>
+  </g>
+</svg>

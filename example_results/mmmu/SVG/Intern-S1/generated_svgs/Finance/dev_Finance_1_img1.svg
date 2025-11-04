@@ -1,0 +1,22 @@
+<svg viewBox="0 0 350 120" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="20" font-size="12">Case</text>
+  <text x="100" y="20" font-size="12">Opportunity cost, r</text>
+  <text x="220" y="20" font-size="12">Number of periods, n</text>
+  <line x1="10" y1="30" x2="330" y2="30" stroke="black"/>
+  <text x="20" y="40" font-size="12">A</text>
+  <text x="100" y="40" font-size="12">2%</text>
+  <text x="220" y="40" font-size="12">4</text>
+  <line x1="10" y1="50" x2="330" y2="50" stroke="black"/>
+  <text x="20" y="60" font-size="12">B</text>
+  <text x="100" y="60" font-size="12">10</text>
+  <text x="220" y="60" font-size="12">2</text>
+  <line x1="10" y1="70" x2="330" y2="70" stroke="black"/>
+  <text x="20" y="80" font-size="12">C</text>
+  <text x="100" y="80" font-size="12">5</text>
+  <text x="220" y="80" font-size="12">3</text>
+  <line x1="10" y1="90" x2="330" y2="90" stroke="black"/>
+  <text x="20" y="100" font-size="12">D</text>
+  <text x="100" y="100" font-size="12">13</text>
+  <text x="220" y="100" font-size="12">2</text>
+  <line x1="10" y1="110" x2="330" y2="110" stroke="black"/>
+</svg>

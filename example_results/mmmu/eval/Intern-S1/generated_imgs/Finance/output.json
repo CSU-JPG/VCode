@@ -1,0 +1,100 @@
+[
+  {
+    "id": "dev_Finance_1",
+    "question": "Without referring to the preprogrammed function on your financial calculator, use the basic formula for present value, along with the given opportunity cost, r, and the number of periods, n, to calculate the present value of $1 in case C shown in the following table. <image 1>",
+    "question_type": "open",
+    "options": [],
+    "answer": "0.8638",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Finance/dev_Finance_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Finance_2",
+    "question": "Upton Computers makes bulk purchases of small computers, stocks them in conveniently located warehouses, ships them to its chain of retail stores, and has a staff to advise customers and help them set up their new computers. Upton's balance sheet as of December 31, 2010, is shown here (millions of dollars): <image 1> Sales for 2010 were $350 million and net income for the year was $10.5 million, so the firm's profit margin was 3.0%. Upton paid dividends of $4.2 million to common stockholders, so its payout ratio was 40%. Its tax rate is 40%, and it operated at full capacity. Assume that all assets/sales ratios, spontaneous liabilities/sales ratios, the profit margin, and the payout ratio remain constant in 2011. Using the AFN equation, determine Upton's self-supporting growth rate. That is, what is the maximum growth rate the firm can achieve without having to employ nonspontaneous external funds?",
+    "question_type": "open",
+    "options": [],
+    "answer": "6.38",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Finance/dev_Finance_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Finance_3",
+    "question": "Clare Jaccard has $5,000 to invest. Because she is only 25 years old, she is not concerned about the length of the investment's life. What she is sensitive to is the rate of return she will earn on the investment. With the help of her financial advisor, Clare has isolated four equally risky investments, each providing a single amount at the end of its life, as shown in the following table. All the investments require an initial $5,000 payment. <image 1> Calculate, to the nearest 1%, the rate of return on investment D available to Clare.",
+    "question_type": "multiple-choice",
+    "options": [
+      "11%",
+      "8%",
+      "10%",
+      "9%"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "11%",
+      "B": "8%",
+      "C": "10%",
+      "D": "9%"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Finance/dev_Finance_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Finance_4",
+    "question": "For case E in the following table: <image 1>. Calculate the present value of the annuity, assuming that it is an ordinary annuity",
+    "question_type": "multiple-choice",
+    "options": [
+      "$2,822",
+      "$374,598",
+      "$85,293",
+      "$31,492",
+      "$810,092"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "$2,822",
+      "B": "$374,598",
+      "C": "$85,293",
+      "D": "$31,492",
+      "E": "$810,092"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Finance/dev_Finance_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Finance_5",
+    "question": "The financial statements of Lioi Steel Fabricators are shown below — both the actual results for 2010 and the projections for 2011. Free cash flow is expected to grow at a 6% rate after 2011. The weighted average cost of capital is 11%. <image 1> What is the total value of the company as of 12/31/2010 (in million)?",
+    "question_type": "open",
+    "options": [],
+    "answer": "749.10",
+    "all_choices": [],
+    "index2ans": {},
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Finance/dev_Finance_5_img1.png"
+    ],
+    "response": ""
+  }
+]

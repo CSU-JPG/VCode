@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="black"/>
+    </marker>
+  </defs>
+  <g>
+    <rect x="50" y="50" width="250" height="120" fill="none" stroke="black"/>
+    <text x="60" y="70" font-weight="bold">BOOK</text>
+    <text x="60" y="90">Book_id</text>
+    <text x="120" y="90">Title</text>
+    <text x="180" y="90">Publisher_name</text>
+  </g>
+  <g>
+    <rect x="50" y="180" width="200" height="80" fill="none" stroke="black"/>
+    <text x="60" y="200" font-weight="bold">BOOK_AUTHORS</text>
+    <text x="60" y="220">Book_id</text>
+    <text x="120" y="220">Author_name</text>
+  </g>
+  <g>
+    <rect x="300" y="100" width="200" height="100" fill="none" stroke="black"/>
+    <text x="310" y="120" font-weight="bold">PUBLISHER</text>
+    <text x="310" y="140">Name</text>
+    <text x="370" y="140">Address</text>
+    <text x="430" y="140">Phone</text>
+  </g>
+  <g>
+    <rect x="50" y="270" width="250" height="100" fill="none" stroke="black"/>
+    <text x="60" y="290" font-weight="bold">BOOK_COPIES</text>
+    <text x="60" y="310">Book_id</text>
+    <text x="120" y="310">Branch_id</text>
+    <text x="180" y="310">No_of_copies</text>
+  </g>
+  <g>
+    <rect x="350" y="350" width="200" height="100" fill="none" stroke="black"/>
+    <text x="360" y="370" font-weight="bold">LIBRARY_BRANCH</text>
+    <text x="360" y="390">Branch_id</text>
+    <text x="420" y="390">Branch_name</text>
+    <text x="480" y="390">Address</text>
+  </g>
+  <g>
+    <rect x="200" y="450" width="350" height="120" fill="none" stroke="black"/>
+    <text x="210" y="470" font-weight="bold">BOOK_LOANS</text>
+    <text x="210" y="490">Book_id</text>
+    <text x="270" y="490">Branch_id</text>
+    <text x="330" y="490">Card_no</text>
+    <text x="390" y="490">Date_out</text>
+    <text x="450" y="490">Due_date</text>
+  </g>
+  <g>
+    <rect x="450" y="550" width="250" height="100" fill="none" stroke="black"/>
+    <text x="460" y="570" font-weight="bold">BORROWER</text>
+    <text x="460" y="590">Card_no</text>
+    <text x="520" y="590">Name</text>
+    <text x="580" y="590">Address</text>
+    <text x="640" y="590">Phone</text>
+  </g>
+  <line x1="80" y1="90" x2="80" y2="220" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="200" y1="90" x2="310" y2="140" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="80" y1="90" x2="80" y2="310" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="140" y1="310" x2="380" y2="390" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="80" y1="310" x2="230" y2="490" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="140" y1="310" x2="290" y2="490" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="380" y1="390" x2="290" y2="490" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="350" y1="490" x2="480" y2="590" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="400" y1="390" x2="500" y2="590" stroke="black" marker-end="url(#arrow)"/>
+</svg>

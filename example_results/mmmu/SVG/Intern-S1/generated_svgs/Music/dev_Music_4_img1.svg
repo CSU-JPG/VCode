@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <line y1="20" y2="20" x1="0" x2="800" stroke="black"/>
+  <line y1="40" y2="40" x1="0" x2="800" stroke="black"/>
+  <line y1="60" y2="60" x1="0" x2="800" stroke="black"/>
+  <line y1="80" y2="80" x1="0" x2="800" stroke="black"/>
+  <line y1="100" y2="100" x1="0" x2="800" stroke="black"/>
+  <path d="M20 100 Q30 60 40 60 Q50 60 60 100 L60 40" fill="none" stroke="black"/>
+  <line x1="70" y1="15" x2="75" y2="25" stroke="black"/>
+  <line x1="75" y1="15" x2="70" y2="25" stroke="black"/>
+  <line x1="90" y1="65" x2="95" y2="75" stroke="black"/>
+  <line x1="95" y1="65" x2="90" y2="75" stroke="black"/>
+  <text x="110" y="50" font-size="12">4</text>
+  <text x="110" y="70" font-size="12">4</text>
+  <circle cx="140" cy="60" r="5" fill="black"/>
+  <line x1="140" y1="60" x2="140" y2="80" stroke="black"/>
+  <circle cx="180" cy="40" r="5" fill="black"/>
+  <line x1="180" y1="40" x2="180" y2="20" stroke="black"/>
+  <circle cx="220" cy="50" r="5" fill="black"/>
+  <line x1="220" y1="50" x2="220" y2="20" stroke="black"/>
+  <line x1="220" y1="20" x2="230" y2="15" stroke="black"/>
+  <circle cx="260" cy="60" r="5" fill="black"/>
+  <line x1="260" y1="60" x2="260" y2="80" stroke="black"/>
+  <circle cx="300" cy="70" r="5" fill="black"/>
+  <line x1="300" y1="70" x2="300" y2="80" stroke="black"/>
+  <line x1="260" y1="80" x2="300" y2="80" stroke="black"/>
+  <circle cx="340" cy="40" r="5" fill="none" stroke="black"/>
+  <line x1="340" y1="40" x2="340" y2="20" stroke="black"/>
+  <circle cx="380" cy="20" r="5" fill="black"/>
+  <line x1="380" y1="20" x2="380" y2="0" stroke="black"/>
+  <line x1="360" y1="15" x2="365" y2="25" stroke="black"/>
+  <line x1="365" y1="15" x2="360" y2="25" stroke="black"/>
+  <circle cx="420" cy="60" r="5" fill="none" stroke="black"/>
+  <circle cx="460" cy="60" r="5" fill="black"/>
+  <line x1="460" y1="60" x2="460" y2="80" stroke="black"/>
+  <line x1="440" y1="55" x2="445" y2="65" stroke="black"/>
+  <line x1="445" y1="55" x2="440" y2="65" stroke="black"/>
+  <line x1="450" y1="55" x2="455" y2="65" stroke="black"/>
+  <line x1="455" y1="55" x2="450" y2="65" stroke="black"/>
+</svg>

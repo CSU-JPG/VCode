@@ -1,0 +1,168 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe3e6"/>
+      <stop offset="0.5" stop-color="#eef1f3"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d6f75"/>
+      <stop offset="1" stop-color="#4c4f54"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#73824a"/>
+      <stop offset="1" stop-color="#3a4a2a"/>
+    </linearGradient>
+    <linearGradient id="bush" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f3e2e"/>
+      <stop offset="1" stop-color="#1e2a1e"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#aeb6bc"/>
+      <stop offset="1" stop-color="#c7cdd1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1400" height="460" fill="url(#sky)"/>
+
+  <!-- Distant tree canopy silhouette -->
+  <path d="M0,95 C90,40 170,10 230,0 L245,0 C360,120 520,140 690,55 
+           C930,-30 1220,110 1400,15 L1400,210 
+           C1260,270 1200,260 1105,230 
+           C1000,200 940,215 875,255 
+           C800,300 705,280 650,240 
+           C610,210 520,180 430,240 
+           C350,295 305,300 240,260 
+           C160,210 75,220 0,260 Z"
+        fill="#22322a" opacity="0.6"/>
+
+  <!-- Mid-ground trees and trunks -->
+  <g fill="#253425">
+    <path d="M250,135 c-40,50 -50,120 -30,185 s95,40 125,-10 s-10,-120 -95,-175z" opacity="0.75"/>
+    <path d="M1020,160 c-35,40 -40,95 -10,150 s90,35 110,-5 s-5,-105 -100,-145z" opacity="0.7"/>
+  </g>
+  <g stroke="#3b3f3a" stroke-width="8">
+    <line x1="680" y1="100" x2="670" y2="390"/>
+    <line x1="980" y1="120" x2="975" y2="410"/>
+    <line x1="1090" y1="80" x2="1086" y2="420"/>
+  </g>
+
+  <!-- Left building -->
+  <g transform="translate(35,180)">
+    <rect x="0" y="-120" width="260" height="210" fill="url(#building)" opacity="0.9"/>
+    <g stroke="#e8eff2" stroke-width="6">
+      <line x1="40" y1="-120" x2="40" y2="90"/>
+      <line x1="95" y1="-120" x2="95" y2="90"/>
+      <line x1="150" y1="-120" x2="150" y2="90"/>
+      <line x1="205" y1="-120" x2="205" y2="90"/>
+    </g>
+  </g>
+
+  <!-- Grass verge and parking area -->
+  <path d="M170,360 C280,350 380,330 500,340 
+           C620,350 740,355 820,350 
+           C910,345 1010,345 1120,360 
+           C1230,375 1330,380 1400,380 
+           L1400,430 L0,430 L0,395 
+           C60,390 110,375 170,360 Z"
+        fill="url(#grass)"/>
+
+  <!-- Bushes in front of parking -->
+  <path d="M720,375 c-40,0 -85,35 -85,75 s75,40 120,10 s20,-85 -35,-85z" fill="url(#bush)"/>
+  <path d="M915,395 c-35,0 -70,30 -70,60 s65,35 100,10 s15,-70 -30,-70z" fill="url(#bush)"/>
+
+  <!-- Parking lot cars -->
+  <g transform="translate(520,360)">
+    <g>
+      <rect x="-40" y="20" rx="8" ry="8" width="85" height="28" fill="#9aa1a7"/>
+      <rect x="-34" y="10" rx="6" ry="6" width="72" height="22" fill="#737b83"/>
+      <circle cx="-20" cy="50" r="6" fill="#2b2d31"/>
+      <circle cx="25" cy="50" r="6" fill="#2b2d31"/>
+    </g>
+    <g transform="translate(90,0)">
+      <rect x="-40" y="20" rx="8" ry="8" width="85" height="28" fill="#a3aab1"/>
+      <rect x="-34" y="10" rx="6" ry="6" width="72" height="22" fill="#7c848b"/>
+      <circle cx="-20" cy="50" r="6" fill="#2b2d31"/>
+      <circle cx="25" cy="50" r="6" fill="#2b2d31"/>
+    </g>
+    <g transform="translate(180,2)">
+      <rect x="-40" y="20" rx="8" ry="8" width="85" height="28" fill="#c6c6cc"/>
+      <rect x="-34" y="10" rx="6" ry="6" width="72" height="22" fill="#8b8f95"/>
+      <circle cx="-20" cy="50" r="6" fill="#2b2d31"/>
+      <circle cx="25" cy="50" r="6" fill="#2b2d31"/>
+    </g>
+    <g transform="translate(270,4)">
+      <rect x="-40" y="20" rx="8" ry="8" width="85" height="28" fill="#b25454"/>
+      <rect x="-34" y="10" rx="6" ry="6" width="72" height="22" fill="#8a3c3c"/>
+      <circle cx="-20" cy="50" r="6" fill="#2b2d31"/>
+      <circle cx="25" cy="50" r="6" fill="#2b2d31"/>
+    </g>
+    <g transform="translate(360,8)">
+      <rect x="-40" y="20" rx="8" ry="8" width="85" height="28" fill="#6d7e8d"/>
+      <rect x="-34" y="10" rx="6" ry="6" width="72" height="22" fill="#55626f"/>
+      <circle cx="-20" cy="50" r="6" fill="#2b2d31"/>
+      <circle cx="25" cy="50" r="6" fill="#2b2d31"/>
+    </g>
+  </g>
+
+  <!-- Right front car (boxed in blue) -->
+  <g transform="translate(1035,470)">
+    <path d="M-70,35 h130 a15,15 0 0 0 10,-10 v-10 a25,25 0 0 0 -25,-25 h-90 a25,25 0 0 0 -25,25 v10 a15,15 0 0 0 10,10 z" fill="#6f7c84"/>
+    <rect x="-60" y="-5" width="70" height="22" rx="6" ry="6" fill="#3a424a"/>
+    <circle cx="-40" cy="40" r="7" fill="#202428"/>
+    <circle cx="35" cy="40" r="7" fill="#202428"/>
+  </g>
+
+  <!-- Road -->
+  <path d="M0,415 C220,490 430,530 720,640 
+           C960,730 1180,770 1400,760 L1400,800 L0,800 Z" fill="url(#road)"/>
+
+  <!-- Curb line along grass -->
+  <path d="M40,440 C240,450 470,470 660,520 
+           C840,565 1010,605 1260,600"
+        fill="none" stroke="#a4a7a8" stroke-width="10" opacity="0.6"/>
+
+  <!-- White road markings -->
+  <g fill="#e9ecef" opacity="0.9">
+    <polygon points="390,540 700,700 740,685 430,525"/>
+    <rect x="80" y="500" width="140" height="20" transform="skewX(-20)" />
+    <rect x="250" y="525" width="150" height="18" transform="skewX(-20)" />
+  </g>
+
+  <!-- Lamp posts (right) -->
+  <g stroke="#80868b" stroke-width="6" fill="none">
+    <line x1="1088" y1="220" x2="1088" y2="455"/>
+    <path d="M1088,80 Q1100,40 1140,35" stroke-width="7"/>
+    <line x1="964" y1="245" x2="964" y2="460"/>
+  </g>
+
+  <!-- Parking sign boards -->
+  <g fill="#cdd3d8" stroke="#56616a" stroke-width="3">
+    <rect x="990" y="295" width="34" height="45"/>
+    <rect x="987" y="345" width="42" height="20" fill="#adb7bf"/>
+    <rect x="1132" y="316" width="34" height="45"/>
+    <rect x="1128" y="366" width="42" height="20" fill="#adb7bf"/>
+  </g>
+
+  <!-- Bus on left -->
+  <g transform="translate(10,395)">
+    <rect x="0" y="-70" rx="12" ry="12" width="190" height="95" fill="#b7bdc3" stroke="#8e969d" stroke-width="4"/>
+    <rect x="18" y="-60" width="110" height="40" rx="6" ry="6" fill="#6a747e"/>
+    <circle cx="48" cy="35" r="12" fill="#2a2d31"/>
+    <circle cx="150" cy="35" r="12" fill="#2a2d31"/>
+    <rect x="140" y="-62" width="30" height="44" rx="5" ry="5" fill="#8a9299"/>
+  </g>
+
+  <!-- Small hedge near left -->
+  <path d="M170,410 c-30,10 -55,30 -55,50 s35,35 70,20 s30,-55 -15,-70z" fill="url(#bush)"/>
+
+  <!-- Red bounding box (person near bus) -->
+  <rect x="160" y="400" width="20" height="78" fill="none" stroke="#ff2a2a" stroke-width="4"/>
+
+  <!-- Blue bounding box (car) -->
+  <rect x="980" y="450" width="130" height="90" fill="none" stroke="#2d4cff" stroke-width="5"/>
+
+  <!-- Foreground shadow edge -->
+  <path d="M0,738 C210,690 520,720 860,795 L0,795 Z" fill="#3f4247" opacity="0.35"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hairGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#666"/>
+      <stop offset="100%" stop-color="#ccc"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#fff"/>
+  <g transform="translate(50,50)">
+    <ellipse cx="450" cy="450" rx="400" ry="400" fill="#ddd" opacity="0.7"/>
+    <path d="M450 80 C400 100, 350 150, 300 200 C250 250, 200 300, 150 350 C100 400, 50 450, 50 500 C50 550, 100 600, 150 650 C200 700, 250 750, 300 800 C350 850, 400 900, 450 950 C500 900, 550 850, 600 800 C650 750, 700 700, 750 650 C800 600, 850 550, 850 500 C850 450, 800 400, 750 350 C700 300, 650 250, 600 200 C550 150, 500 100, 450 80 Z" fill="#222"/>
+    <path d="M450 150 C400 170, 350 200, 300 250 C250 300, 200 350, 150 400 C100 450, 50 500, 50 550 C50 600, 100 650, 150 700 C200 750, 250 800, 300 850 C350 900, 400 950, 450 1000 C500 950, 550 900, 600 850 C650 800, 700 750, 750 700 C800 650, 850 600, 850 550 C850 500, 800 450, 750 400 C700 350, 650 300, 600 250 C550 200, 500 170, 450 150 Z" fill="#fff"/>
+    <path d="M450 150 C400 170, 350 200, 300 250 C250 300, 200 350, 150 400 C100 450, 50 500, 50 550 C50 600, 100 650, 150 700 C200 750, 250 800, 300 850 C350 900, 400 950, 450 1000 C500 950, 550 900, 600 850 C650 800, 700 750, 750 700 C800 650, 850 600, 850 550 C850 500, 800 450, 750 400 C700 350, 650 300, 600 250 C550 200, 500 170, 450 150 Z" fill="url(#hairGradient)" opacity="0.8"/>
+    <circle cx="450" cy="300" r="10" fill="#000"/>
+    <circle cx="550" cy="300" r="10" fill="#000"/>
+    <path d="M450 450 C470 470, 500 470, 520 450" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 500 C470 520, 500 520, 520 500" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 550 C470 570, 500 570, 520 550" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 600 C470 620, 500 620, 520 600" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 650 C470 670, 500 670, 520 650" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 700 C470 720, 500 720, 520 700" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 750 C470 770, 500 770, 520 750" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 800 C470 820, 500 820, 520 800" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 850 C470 870, 500 870, 520 850" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 900 C470 920, 500 920, 520 900" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 950 C470 970, 500 970, 520 950" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M450 1000 C470 1020, 500 1020, 520 1000" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+</svg>

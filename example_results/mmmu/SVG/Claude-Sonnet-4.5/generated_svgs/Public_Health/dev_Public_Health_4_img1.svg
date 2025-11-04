@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Timeline line -->
+  <line x1="80" y1="380" x2="1120" y2="380" stroke="#0099CC" stroke-width="3"/>
+  
+  <!-- Timeline dots -->
+  <circle cx="230" cy="380" r="18" fill="#0099CC"/>
+  <circle cx="510" cy="380" r="18" fill="#0099CC"/>
+  <circle cx="850" cy="380" r="18" fill="#0099CC"/>
+  <circle cx="1010" cy="380" r="18" fill="#0099CC"/>
+  
+  <!-- First box (9/22) -->
+  <rect x="70" y="50" width="560" height="280" rx="30" fill="#0099CC"/>
+  <text x="100" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">9/22 - 48 year old male admitted</text>
+  <text x="100" y="135" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">to ICU comatose after drug</text>
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">overdose, temp 102, blood and</text>
+  <text x="100" y="215" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">urine cultures collected, UC+</text>
+  <text x="100" y="255" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">&gt;100,000 cfu/ml <tspan font-style="italic">E. coli</tspan>, blood</text>
+  <text x="100" y="295" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">cultures negative; CL and <tspan text-decoration="underline">foley</tspan></text>
+  <text x="100" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="black" text-decoration="underline" dx="385">___</text>
+  <text x="100" y="315" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">inserted</text>
+  
+  <!-- Second box (9/30) -->
+  <rect x="205" y="430" width="390" height="230" rx="30" fill="#0099CC"/>
+  <text x="235" y="475" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">9/30 – temp increases</text>
+  <text x="235" y="515" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">to 100.6, urine culture</text>
+  <text x="235" y="555" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">positive for &gt;100,000</text>
+  <text x="235" y="595" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black" font-style="italic">cfu/ml Klebsiella</text>
+  <text x="235" y="635" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black" font-style="italic">pneumoniae</text>
+  
+  <!-- Third box (10/3) -->
+  <rect x="690" y="430" width="320" height="230" rx="30" fill="#0099CC"/>
+  <text x="720" y="475" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">10/3 – <tspan text-decoration="underline">foley</tspan> and</text>
+  <text x="720" y="515" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">CL removed,</text>
+  <text x="720" y="555" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">patient transferred</text>
+  <text x="720" y="595" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">to med/surg unit</text>
+  
+  <!-- Fourth box (10/5) -->
+  <rect x="870" y="160" width="280" height="110" rx="30" fill="#0099CC"/>
+  <text x="900" y="205" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">10/5 – patient</text>
+  <text x="900" y="245" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="black">discharged</text>
+</svg>

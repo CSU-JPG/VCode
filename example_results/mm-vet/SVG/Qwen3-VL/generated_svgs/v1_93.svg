@@ -1,0 +1,13 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#4B3621"/>
+  <rect x="20" y="100" width="960" height="600" rx="20" ry="20" fill="#E8E0D0" stroke="#5A7C9F" stroke-width="2"/>
+  <path d="M20 100 C0 100 0 120 0 140 L0 700 C0 720 0 740 20 740" fill="#E8E0D0" stroke="#5A7C9F" stroke-width="2"/>
+  <path d="M980 100 C1000 100 1000 120 1000 140 L1000 700 C1000 720 1000 740 980 740" fill="#E8E0D0" stroke="#5A7C9F" stroke-width="2"/>
+  <path d="M20 100 Q0 80 0 100 Q0 120 20 100" fill="#E8E0D0" stroke="#5A7C9F" stroke-width="2"/>
+  <path d="M980 100 Q1000 80 1000 100 Q1000 120 980 100" fill="#E8E0D0" stroke="#5A7C9F" stroke-width="2"/>
+  <text x="500" y="200" font-family="Georgia, serif" font-size="48" text-anchor="middle" fill="#2B1B11">Connecticut Law of 1642</text>
+  <text x="500" y="300" font-family="Georgia, serif" font-size="36" text-anchor="middle" fill="#2B1B11">If any man or woman be a witch—</text>
+  <text x="500" y="370" font-family="Georgia, serif" font-size="36" text-anchor="middle" fill="#2B1B11">that is, hath or consulteth with a</text>
+  <text x="500" y="440" font-family="Georgia, serif" font-size="36" text-anchor="middle" fill="#2B1B11">familiar spirit—they shall be put to</text>
+  <text x="500" y="510" font-family="Georgia, serif" font-size="42" text-anchor="middle" fill="#2B1B11">death</text>
+</svg>

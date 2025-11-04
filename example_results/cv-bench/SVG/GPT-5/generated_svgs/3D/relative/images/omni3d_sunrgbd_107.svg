@@ -1,0 +1,125 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e9e0d3"/>
+      <stop offset="60%" stop-color="#efe7da"/>
+      <stop offset="100%" stop-color="#f4eee4"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c7b59a"/>
+      <stop offset="100%" stop-color="#a28e73"/>
+    </linearGradient>
+    <linearGradient id="tableGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7fc16b"/>
+      <stop offset="100%" stop-color="#4e9b52"/>
+    </linearGradient>
+    <linearGradient id="tableYellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe190"/>
+      <stop offset="100%" stop-color="#f0c252"/>
+    </linearGradient>
+    <linearGradient id="cabinet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3a2e"/>
+      <stop offset="100%" stop-color="#2f241c"/>
+    </linearGradient>
+    <radialGradient id="rug" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3b5db8"/>
+      <stop offset="60%" stop-color="#20418e"/>
+      <stop offset="100%" stop-color="#0e2d76"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Wall and floor -->
+  <rect x="0" y="0" width="600" height="280" fill="url(#wall)"/>
+  <rect x="0" y="280" width="600" height="170" fill="url(#floor)"/>
+
+  <!-- Left bulletin area -->
+  <g transform="translate(15,30)">
+    <rect x="0" y="0" width="110" height="190" fill="#d8e0f7" stroke="#8aa3d6" stroke-width="2"/>
+    <g transform="translate(10,10)" fill="#ffffff">
+      <rect x="0" y="0" width="90" height="20" rx="3"/>
+      <rect x="0" y="28" width="90" height="20" rx="3"/>
+      <rect x="0" y="56" width="90" height="20" rx="3"/>
+      <rect x="0" y="84" width="90" height="20" rx="3"/>
+      <rect x="0" y="112" width="90" height="20" rx="3"/>
+      <rect x="0" y="140" width="90" height="20" rx="3"/>
+    </g>
+    <rect x="130" y="10" width="80" height="110" fill="#fff2cc" stroke="#e0c46c" stroke-width="3"/>
+    <circle cx="170" cy="30" r="20" fill="#dd4e4e"/>
+  </g>
+
+  <!-- Center counter and cabinets -->
+  <g transform="translate(250,145)">
+    <rect x="0" y="50" width="190" height="70" fill="#c77b2d" stroke="#91561f" stroke-width="3" rx="6"/>
+    <rect x="10" y="80" width="40" height="40" fill="#2a2a2a" rx="5"/>
+    <rect x="55" y="80" width="40" height="40" fill="#2a2a2a" rx="5"/>
+    <rect x="100" y="80" width="40" height="40" fill="#2a2a2a" rx="5"/>
+    <rect x="150" y="80" width="30" height="40" fill="#4f3c2c" rx="5"/>
+    <rect x="220" y="0" width="90" height="110" fill="url(#cabinet)"/>
+    <rect x="225" y="8" width="34" height="30" fill="#f7f6ef"/>
+    <rect x="264" y="8" width="34" height="30" fill="#f7f6ef"/>
+    <rect x="225" y="43" width="34" height="30" fill="#f7f6ef"/>
+    <rect x="264" y="43" width="34" height="30" fill="#f7f6ef"/>
+  </g>
+
+  <!-- Small shelves right -->
+  <g transform="translate(495,170)">
+    <rect x="0" y="0" width="85" height="95" fill="#5b3f2a" rx="6"/>
+    <rect x="8" y="10" width="69" height="20" fill="#f2efe6"/>
+    <rect x="8" y="40" width="69" height="20" fill="#f2efe6"/>
+    <rect x="8" y="70" width="69" height="20" fill="#f2efe6"/>
+  </g>
+
+  <!-- Blue tray on counter -->
+  <rect x="362" y="226" width="70" height="18" rx="4" fill="#2a6fd0"/>
+
+  <!-- Round classroom rug -->
+  <ellipse cx="215" cy="330" rx="160" ry="80" fill="url(#rug)"/>
+  <ellipse cx="215" cy="330" rx="140" ry="65" fill="none" stroke="#d43e2a" stroke-width="10"/>
+  <g fill="#ffd166" opacity="0.9">
+    <circle cx="145" cy="330" r="10"/>
+    <circle cx="200" cy="320" r="10"/>
+    <circle cx="260" cy="345" r="10"/>
+    <circle cx="175" cy="355" r="10"/>
+    <circle cx="240" cy="310" r="10"/>
+  </g>
+
+  <!-- Green table right -->
+  <ellipse cx="445" cy="285" rx="105" ry="45" fill="url(#tableGreen)" stroke="#2d6b35" stroke-width="3"/>
+  <!-- Papers on green table -->
+  <rect x="418" y="262" width="50" height="24" fill="#ffe9d6" stroke="#d8b79a"/>
+  <rect x="462" y="270" width="60" height="24" fill="#ffe9d6" stroke="#d8b79a"/>
+  <polygon points="466,273 490,273 480,265" fill="#cae5f8"/>
+
+  <!-- Chairs around green table -->
+  <g fill="#173955">
+    <rect x="520" y="305" width="36" height="50" rx="6"/>
+    <rect x="395" y="305" width="36" height="50" rx="6"/>
+    <rect x="435" y="328" width="36" height="50" rx="6"/>
+  </g>
+
+  <!-- Yellow table front -->
+  <polygon points="185,360 315,360 360,412 130,412" fill="url(#tableYellow)" stroke="#d2a43e" stroke-width="3"/>
+  <!-- Table items -->
+  <ellipse cx="255" cy="390" rx="40" ry="16" fill="#3f7cd8"/>
+  <rect x="238" y="381" width="35" height="12" rx="3" fill="#a6c8ff"/>
+  <rect x="150" y="370" width="55" height="25" rx="3" fill="#fff2cc"/>
+  <rect x="318" y="372" width="55" height="25" rx="3" fill="#fff2cc"/>
+
+  <!-- Small chairs near front -->
+  <g fill="#eec267">
+    <rect x="80" y="388" width="40" height="40" rx="8"/>
+    <rect x="410" y="388" width="40" height="40" rx="8"/>
+  </g>
+
+  <!-- Extra shelves left-mid -->
+  <g transform="translate(160,210)">
+    <rect x="0" y="0" width="120" height="60" fill="#5b3f2a" rx="6"/>
+    <rect x="8" y="10" width="104" height="18" fill="#f2efe6"/>
+    <rect x="8" y="34" width="104" height="18" fill="#f2efe6"/>
+  </g>
+
+  <!-- Colored outline boxes (as seen in reference) -->
+  <rect x="470" y="235" width="115" height="150" fill="none" stroke="#35c24a" stroke-width="6"/>
+  <rect x="340" y="150" width="160" height="70" fill="none" stroke="#2d42ff" stroke-width="6"/>
+  <rect x="242" y="205" width="56" height="56" fill="none" stroke="#ff3a22" stroke-width="6"/>
+</svg>

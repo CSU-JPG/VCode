@@ -1,0 +1,60 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#8B4513"/>
+  <ellipse cx="250" cy="250" rx="240" ry="230" fill="#F5F5F5" stroke="#D3D3D3" stroke-width="5"/>
+  <g transform="translate(250,250) rotate(15)">
+    <!-- Layered Caprese Salad -->
+    <!-- Tomato slices -->
+    <circle cx="-80" cy="-60" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="-40" cy="-80" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="0" cy="-90" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="40" cy="-80" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="80" cy="-60" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="100" cy="-20" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="80" cy="20" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="40" cy="40" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="0" cy="50" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="-40" cy="40" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="-80" cy="20" r="40" fill="#FF4500" opacity="0.8"/>
+    <circle cx="-100" cy="-20" r="40" fill="#FF4500" opacity="0.8"/>
+    
+    <!-- Mozzarella slices -->
+    <circle cx="-80" cy="-60" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="-40" cy="-80" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="0" cy="-90" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="40" cy="-80" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="80" cy="-60" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="100" cy="-20" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="80" cy="20" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="40" cy="40" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="0" cy="50" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="-40" cy="40" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="-80" cy="20" r="35" fill="#FFF8DC" opacity="0.9"/>
+    <circle cx="-100" cy="-20" r="35" fill="#FFF8DC" opacity="0.9"/>
+    
+    <!-- Basil leaves (simplified as green ovals) -->
+    <ellipse cx="-85" cy="-70" rx="10" ry="15" fill="#2E8B57" transform="rotate(-30 -85 -70)"/>
+    <ellipse cx="-35" cy="-90" rx="10" ry="15" fill="#2E8B57" transform="rotate(20 -35 -90)"/>
+    <ellipse cx="5" cy="-100" rx="10" ry="15" fill="#2E8B57" transform="rotate(-10 5 -100)"/>
+    <ellipse cx="45" cy="-90" rx="10" ry="15" fill="#2E8B57" transform="rotate(15 45 -90)"/>
+    <ellipse cx="85" cy="-70" rx="10" ry="15" fill="#2E8B57" transform="rotate(-25 85 -70)"/>
+    <ellipse cx="105" cy="-30" rx="10" ry="15" fill="#2E8B57" transform="rotate(30 105 -30)"/>
+    <ellipse cx="85" cy="10" rx="10" ry="15" fill="#2E8B57" transform="rotate(-15 85 10)"/>
+    <ellipse cx="45" cy="30" rx="10" ry="15" fill="#2E8B57" transform="rotate(25 45 30)"/>
+    <ellipse cx="5" cy="40" rx="10" ry="15" fill="#2E8B57" transform="rotate(-20 5 40)"/>
+    <ellipse cx="-35" cy="30" rx="10" ry="15" fill="#2E8B57" transform="rotate(10 -35 30)"/>
+    <ellipse cx="-85" cy="10" rx="10" ry="15" fill="#2E8B57" transform="rotate(-30 -85 10)"/>
+    <ellipse cx="-105" cy="-30" rx="10" ry="15" fill="#2E8B57" transform="rotate(20 -105 -30)"/>
+    
+    <!-- Balsamic drizzle (brown curved lines) -->
+    <path d="M-120,-100 Q-80,-130 -40,-120" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M-80,-140 Q-40,-160 0,-150" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M40,-140 Q80,-160 120,-140" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M140,-100 Q160,-60 140,-20" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M140,20 Q160,60 140,100" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M120,140 Q80,160 40,150" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M0,160 Q-40,180 -80,160" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M-120,140 Q-160,120 -160,80" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M-160,40 Q-160,0 -140,-40" stroke="#5C4033" stroke-width="3" fill="none"/>
+    <path d="M-120,-80 Q-100,-100 -80,-80" stroke="#5C4033" stroke-width="3" fill="none"/>
+  </g>
+</svg>

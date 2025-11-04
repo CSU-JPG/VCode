@@ -1,0 +1,391 @@
+<svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="roofGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4e4e"/>
+      <stop offset="1" stop-color="#2d2f30"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2326"/>
+      <stop offset="0.55" stop-color="#2e3639"/>
+      <stop offset="1" stop-color="#1b1f21"/>
+    </linearGradient>
+    <linearGradient id="bedShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0f0d" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#0b0f0d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1f1b"/>
+      <stop offset="1" stop-color="#0c0f0d"/>
+    </linearGradient>
+    <linearGradient id="walkGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a2324"/>
+      <stop offset="0.6" stop-color="#2b3537"/>
+      <stop offset="1" stop-color="#56686c"/>
+    </linearGradient>
+
+    <radialGradient id="leafGrad" cx="0.4" cy="0.4" r="0.9">
+      <stop offset="0" stop-color="#a9c35d"/>
+      <stop offset="1" stop-color="#4f6b2c"/>
+    </radialGradient>
+    <radialGradient id="leafGrad2" cx="0.5" cy="0.5" r="0.9">
+      <stop offset="0" stop-color="#d6e37a"/>
+      <stop offset="1" stop-color="#5a6a2a"/>
+    </radialGradient>
+
+    <radialGradient id="pinkGrad" cx="0.4" cy="0.4" r="0.9">
+      <stop offset="0" stop-color="#ffd1ea"/>
+      <stop offset="1" stop-color="#d83e7e"/>
+    </radialGradient>
+    <radialGradient id="whiteGrad" cx="0.5" cy="0.5" r="0.9">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7c7c7"/>
+    </radialGradient>
+    <radialGradient id="burgGrad" cx="0.5" cy="0.5" r="0.9">
+      <stop offset="0" stop-color="#ffb8c2"/>
+      <stop offset="1" stop-color="#6a0f19"/>
+    </radialGradient>
+
+    <symbol id="leaf" viewBox="-3 -2 6 4">
+      <ellipse cx="0" cy="0" rx="3" ry="2" fill="url(#leafGrad)" />
+    </symbol>
+    <symbol id="leaf2" viewBox="-3 -2 6 4">
+      <ellipse cx="0" cy="0" rx="3" ry="2" fill="url(#leafGrad2)" />
+    </symbol>
+    <symbol id="bloomPink" viewBox="-3 -3 6 6">
+      <circle cx="0" cy="0" r="2.3" fill="url(#pinkGrad)"/>
+      <circle cx="-1.2" cy="-1" r="0.7" fill="#ffffff" opacity="0.5"/>
+    </symbol>
+    <symbol id="bloomWhite" viewBox="-3 -3 6 6">
+      <circle cx="0" cy="0" r="2.2" fill="url(#whiteGrad)"/>
+      <circle cx="0.9" cy="-0.6" r="0.6" fill="#ffe8e8" opacity="0.5"/>
+    </symbol>
+    <symbol id="bloomBurg" viewBox="-3 -3 6 6">
+      <circle cx="0" cy="0" r="2.2" fill="url(#burgGrad)"/>
+      <circle cx="-0.8" cy="0.4" r="0.7" fill="#ffdee3" opacity="0.45"/>
+    </symbol>
+
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- backdrop -->
+  <rect x="0" y="0" width="520" height="390" fill="#111312"/>
+
+  <!-- roof lip -->
+  <rect x="0" y="0" width="520" height="20" fill="#e6e8e6"/>
+  <rect x="0" y="20" width="520" height="18" fill="url(#roofGrad)"/>
+
+  <!-- greenhouse glass -->
+  <rect x="10" y="38" width="500" height="160" rx="2" ry="2" fill="url(#glassGrad)"/>
+
+  <!-- horizontal frame lines -->
+  <rect x="10" y="80" width="500" height="3" fill="#1a1f21"/>
+  <rect x="10" y="117" width="500" height="3" fill="#1a1f21"/>
+  <rect x="10" y="154" width="500" height="3" fill="#1a1f21"/>
+
+  <!-- vertical pillars -->
+  <rect x="178" y="20" width="20" height="320" fill="#202527"/>
+  <rect x="496" y="20" width="14" height="320" fill="#1b2021"/>
+
+  <!-- reflections on glass -->
+  <path d="M24,50 l118,0 0,140 -10,0 0,-130 -108,0 z" fill="#ffffff" opacity="0.05"/>
+  <path d="M200,56 l90,0 0,125 -8,0 0,-115 -82,0 z" fill="#ffffff" opacity="0.04"/>
+  <path d="M335,60 l120,0 0,110 -10,0 0,-100 -110,0 z" fill="#ffffff" opacity="0.03"/>
+
+  <!-- flower beds -->
+  <!-- top pink band -->
+  <rect x="0" y="188" width="520" height="10" fill="url(#bedShadow)"/>
+  <g transform="translate(0,168)">
+    <rect x="0" y="16" width="520" height="30" fill="url(#soil)"/>
+    <g filter="url(#soften)">
+      <g>
+        <use href="#bloomPink" x="20" y="28"/>
+        <use href="#bloomPink" x="36" y="24"/>
+        <use href="#bloomPink" x="55" y="26"/>
+        <use href="#bloomPink" x="73" y="29"/>
+        <use href="#bloomPink" x="92" y="24"/>
+        <use href="#bloomPink" x="110" y="28"/>
+        <use href="#bloomPink" x="128" y="22"/>
+        <use href="#bloomPink" x="146" y="27"/>
+        <use href="#bloomPink" x="164" y="24"/>
+        <use href="#bloomPink" x="182" y="28"/>
+        <use href="#bloomPink" x="200" y="24"/>
+        <use href="#bloomPink" x="218" y="27"/>
+        <use href="#bloomPink" x="236" y="23"/>
+        <use href="#bloomPink" x="254" y="29"/>
+        <use href="#bloomPink" x="272" y="25"/>
+        <use href="#bloomPink" x="290" y="27"/>
+        <use href="#bloomPink" x="308" y="25"/>
+        <use href="#bloomPink" x="326" y="28"/>
+        <use href="#bloomPink" x="344" y="23"/>
+        <use href="#bloomPink" x="362" y="27"/>
+        <use href="#bloomPink" x="380" y="24"/>
+        <use href="#bloomPink" x="398" y="29"/>
+        <use href="#bloomPink" x="416" y="24"/>
+        <use href="#bloomPink" x="434" y="27"/>
+        <use href="#bloomPink" x="452" y="24"/>
+        <use href="#bloomPink" x="470" y="29"/>
+        <use href="#bloomPink" x="488" y="26"/>
+      </g>
+      <g opacity="0.85">
+        <use href="#bloomPink" x="29" y="34"/>
+        <use href="#bloomPink" x="47" y="34"/>
+        <use href="#bloomPink" x="66" y="34"/>
+        <use href="#bloomPink" x="84" y="33"/>
+        <use href="#bloomPink" x="102" y="34"/>
+        <use href="#bloomPink" x="120" y="34"/>
+        <use href="#bloomPink" x="139" y="34"/>
+        <use href="#bloomPink" x="157" y="33"/>
+        <use href="#bloomPink" x="175" y="34"/>
+        <use href="#bloomPink" x="193" y="34"/>
+        <use href="#bloomPink" x="211" y="33"/>
+        <use href="#bloomPink" x="229" y="34"/>
+        <use href="#bloomPink" x="247" y="33"/>
+        <use href="#bloomPink" x="265" y="34"/>
+        <use href="#bloomPink" x="283" y="34"/>
+        <use href="#bloomPink" x="301" y="33"/>
+        <use href="#bloomPink" x="319" y="34"/>
+        <use href="#bloomPink" x="337" y="33"/>
+        <use href="#bloomPink" x="355" y="34"/>
+        <use href="#bloomPink" x="373" y="34"/>
+        <use href="#bloomPink" x="391" y="33"/>
+        <use href="#bloomPink" x="409" y="34"/>
+        <use href="#bloomPink" x="427" y="33"/>
+        <use href="#bloomPink" x="445" y="34"/>
+        <use href="#bloomPink" x="463" y="34"/>
+        <use href="#bloomPink" x="481" y="33"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- mixed white/burgundy band -->
+  <g transform="translate(0,184)">
+    <rect x="0" y="22" width="520" height="32" fill="url(#soil)"/>
+    <g filter="url(#soften)">
+      <g>
+        <use href="#bloomWhite" x="24" y="38"/>
+        <use href="#bloomBurg"  x="38" y="36"/>
+        <use href="#bloomWhite" x="54" y="39"/>
+        <use href="#bloomBurg"  x="70" y="38"/>
+        <use href="#bloomWhite" x="86" y="37"/>
+        <use href="#bloomBurg"  x="102" y="39"/>
+        <use href="#bloomWhite" x="118" y="38"/>
+        <use href="#bloomBurg"  x="134" y="39"/>
+        <use href="#bloomWhite" x="150" y="37"/>
+        <use href="#bloomBurg"  x="166" y="38"/>
+        <use href="#bloomWhite" x="182" y="39"/>
+        <use href="#bloomBurg"  x="198" y="36"/>
+        <use href="#bloomWhite" x="214" y="38"/>
+        <use href="#bloomBurg"  x="230" y="39"/>
+        <use href="#bloomWhite" x="246" y="37"/>
+        <use href="#bloomBurg"  x="262" y="38"/>
+        <use href="#bloomWhite" x="278" y="39"/>
+        <use href="#bloomBurg"  x="294" y="36"/>
+        <use href="#bloomWhite" x="310" y="38"/>
+        <use href="#bloomBurg"  x="326" y="39"/>
+        <use href="#bloomWhite" x="342" y="37"/>
+        <use href="#bloomBurg"  x="358" y="39"/>
+        <use href="#bloomWhite" x="374" y="38"/>
+        <use href="#bloomBurg"  x="390" y="39"/>
+        <use href="#bloomWhite" x="406" y="37"/>
+        <use href="#bloomBurg"  x="422" y="39"/>
+        <use href="#bloomWhite" x="438" y="36"/>
+        <use href="#bloomBurg"  x="454" y="39"/>
+        <use href="#bloomWhite" x="470" y="38"/>
+        <use href="#bloomBurg"  x="486" y="37"/>
+      </g>
+      <g opacity="0.9">
+        <use href="#bloomWhite" x="32" y="46" />
+        <use href="#bloomBurg"  x="48" y="47" />
+        <use href="#bloomWhite" x="64" y="46" />
+        <use href="#bloomBurg"  x="80" y="47" />
+        <use href="#bloomWhite" x="96" y="46" />
+        <use href="#bloomBurg"  x="112" y="47" />
+        <use href="#bloomWhite" x="128" y="46" />
+        <use href="#bloomBurg"  x="144" y="47" />
+        <use href="#bloomWhite" x="160" y="46" />
+        <use href="#bloomBurg"  x="176" y="47" />
+        <use href="#bloomWhite" x="192" y="46" />
+        <use href="#bloomBurg"  x="208" y="47" />
+        <use href="#bloomWhite" x="224" y="46" />
+        <use href="#bloomBurg"  x="240" y="47" />
+        <use href="#bloomWhite" x="256" y="46" />
+        <use href="#bloomBurg"  x="272" y="47" />
+        <use href="#bloomWhite" x="288" y="46" />
+        <use href="#bloomBurg"  x="304" y="47" />
+        <use href="#bloomWhite" x="320" y="46" />
+        <use href="#bloomBurg"  x="336" y="47" />
+        <use href="#bloomWhite" x="352" y="46" />
+        <use href="#bloomBurg"  x="368" y="47" />
+        <use href="#bloomWhite" x="384" y="46" />
+        <use href="#bloomBurg"  x="400" y="47" />
+        <use href="#bloomWhite" x="416" y="46" />
+        <use href="#bloomBurg"  x="432" y="47" />
+        <use href="#bloomWhite" x="448" y="46" />
+        <use href="#bloomBurg"  x="464" y="47" />
+        <use href="#bloomWhite" x="480" y="46" />
+      </g>
+    </g>
+  </g>
+
+  <!-- dense green foliage band -->
+  <g transform="translate(0,210)">
+    <rect x="0" y="30" width="520" height="70" fill="url(#soil)"/>
+    <!-- scatter leaves -->
+    <g filter="url(#soften)">
+      <!-- back layer -->
+      <g opacity="0.9">
+        <use href="#leaf2" x="14" y="42" transform="rotate(-12,14,42)"/>
+        <use href="#leaf"  x="28" y="46" transform="rotate(8,28,46)"/>
+        <use href="#leaf2" x="42" y="50" transform="rotate(-18,42,50)"/>
+        <use href="#leaf"  x="58" y="44" transform="rotate(6,58,44)"/>
+        <use href="#leaf2" x="72" y="48" transform="rotate(-22,72,48)"/>
+        <use href="#leaf"  x="88" y="46" transform="rotate(12,88,46)"/>
+        <use href="#leaf2" x="104" y="50" transform="rotate(-10,104,50)"/>
+        <use href="#leaf"  x="120" y="44" transform="rotate(16,120,44)"/>
+        <use href="#leaf2" x="136" y="47" transform="rotate(-14,136,47)"/>
+        <use href="#leaf"  x="152" y="45" transform="rotate(10,152,45)"/>
+        <use href="#leaf2" x="168" y="51" transform="rotate(-16,168,51)"/>
+        <use href="#leaf"  x="184" y="43" transform="rotate(14,184,43)"/>
+        <use href="#leaf2" x="200" y="48" transform="rotate(-18,200,48)"/>
+        <use href="#leaf"  x="216" y="46" transform="rotate(10,216,46)"/>
+        <use href="#leaf2" x="232" y="49" transform="rotate(-20,232,49)"/>
+        <use href="#leaf"  x="248" y="45" transform="rotate(11,248,45)"/>
+        <use href="#leaf2" x="264" y="51" transform="rotate(-16,264,51)"/>
+        <use href="#leaf"  x="280" y="44" transform="rotate(15,280,44)"/>
+        <use href="#leaf2" x="296" y="49" transform="rotate(-18,296,49)"/>
+        <use href="#leaf"  x="312" y="46" transform="rotate(8,312,46)"/>
+        <use href="#leaf2" x="328" y="50" transform="rotate(-21,328,50)"/>
+        <use href="#leaf"  x="344" y="45" transform="rotate(13,344,45)"/>
+        <use href="#leaf2" x="360" y="49" transform="rotate(-18,360,49)"/>
+        <use href="#leaf"  x="376" y="47" transform="rotate(10,376,47)"/>
+        <use href="#leaf2" x="392" y="50" transform="rotate(-20,392,50)"/>
+        <use href="#leaf"  x="408" y="45" transform="rotate(12,408,45)"/>
+        <use href="#leaf2" x="424" y="49" transform="rotate(-18,424,49)"/>
+        <use href="#leaf"  x="440" y="44" transform="rotate(9,440,44)"/>
+        <use href="#leaf2" x="456" y="50" transform="rotate(-22,456,50)"/>
+        <use href="#leaf"  x="472" y="46" transform="rotate(12,472,46)"/>
+        <use href="#leaf2" x="488" y="49" transform="rotate(-16,488,49)"/>
+      </g>
+      <!-- middle dense layer -->
+      <g>
+        <use href="#leaf"  x="18" y="62" transform="rotate(20,18,62)"/>
+        <use href="#leaf2" x="34" y="58" transform="rotate(-12,34,58)"/>
+        <use href="#leaf"  x="50" y="66" transform="rotate(16,50,66)"/>
+        <use href="#leaf2" x="66" y="60" transform="rotate(-10,66,60)"/>
+        <use href="#leaf"  x="82" y="64" transform="rotate(12,82,64)"/>
+        <use href="#leaf2" x="98" y="61" transform="rotate(-18,98,61)"/>
+        <use href="#leaf"  x="114" y="67" transform="rotate(16,114,67)"/>
+        <use href="#leaf2" x="130" y="62" transform="rotate(-14,130,62)"/>
+        <use href="#leaf"  x="146" y="66" transform="rotate(13,146,66)"/>
+        <use href="#leaf2" x="162" y="61" transform="rotate(-19,162,61)"/>
+        <use href="#leaf"  x="178" y="68" transform="rotate(19,178,68)"/>
+        <use href="#leaf2" x="194" y="62" transform="rotate(-12,194,62)"/>
+        <use href="#leaf"  x="210" y="66" transform="rotate(14,210,66)"/>
+        <use href="#leaf2" x="226" y="61" transform="rotate(-16,226,61)"/>
+        <use href="#leaf"  x="242" y="67" transform="rotate(16,242,67)"/>
+        <use href="#leaf2" x="258" y="62" transform="rotate(-14,258,62)"/>
+        <use href="#leaf"  x="274" y="66" transform="rotate(12,274,66)"/>
+        <use href="#leaf2" x="290" y="61" transform="rotate(-18,290,61)"/>
+        <use href="#leaf"  x="306" y="68" transform="rotate(15,306,68)"/>
+        <use href="#leaf2" x="322" y="62" transform="rotate(-12,322,62)"/>
+        <use href="#leaf"  x="338" y="66" transform="rotate(17,338,66)"/>
+        <use href="#leaf2" x="354" y="61" transform="rotate(-19,354,61)"/>
+        <use href="#leaf"  x="370" y="67" transform="rotate(16,370,67)"/>
+        <use href="#leaf2" x="386" y="62" transform="rotate(-13,386,62)"/>
+        <use href="#leaf"  x="402" y="66" transform="rotate(12,402,66)"/>
+        <use href="#leaf2" x="418" y="61" transform="rotate(-17,418,61)"/>
+        <use href="#leaf"  x="434" y="68" transform="rotate(18,434,68)"/>
+        <use href="#leaf2" x="450" y="62" transform="rotate(-12,450,62)"/>
+        <use href="#leaf"  x="466" y="66" transform="rotate(14,466,66)"/>
+        <use href="#leaf2" x="482" y="61" transform="rotate(-18,482,61)"/>
+      </g>
+      <!-- front highlights -->
+      <g opacity="0.95">
+        <use href="#leaf2" x="24" y="78" transform="rotate(-8,24,78)"/>
+        <use href="#leaf"  x="44" y="82" transform="rotate(10,44,82)"/>
+        <use href="#leaf2" x="64" y="80" transform="rotate(-14,64,80)"/>
+        <use href="#leaf"  x="84" y="83" transform="rotate(9,84,83)"/>
+        <use href="#leaf2" x="104" y="82" transform="rotate(-10,104,82)"/>
+        <use href="#leaf"  x="124" y="84" transform="rotate(12,124,84)"/>
+        <use href="#leaf2" x="144" y="80" transform="rotate(-12,144,80)"/>
+        <use href="#leaf"  x="164" y="84" transform="rotate(11,164,84)"/>
+        <use href="#leaf2" x="184" y="80" transform="rotate(-12,184,80)"/>
+        <use href="#leaf"  x="204" y="85" transform="rotate(13,204,85)"/>
+        <use href="#leaf2" x="224" y="80" transform="rotate(-10,224,80)"/>
+        <use href="#leaf"  x="244" y="85" transform="rotate(15,244,85)"/>
+        <use href="#leaf2" x="264" y="80" transform="rotate(-12,264,80)"/>
+        <use href="#leaf"  x="284" y="85" transform="rotate(13,284,85)"/>
+        <use href="#leaf2" x="304" y="81" transform="rotate(-11,304,81)"/>
+        <use href="#leaf"  x="324" y="85" transform="rotate(12,324,85)"/>
+        <use href="#leaf2" x="344" y="81" transform="rotate(-12,344,81)"/>
+        <use href="#leaf"  x="364" y="85" transform="rotate(14,364,85)"/>
+        <use href="#leaf2" x="384" y="80" transform="rotate(-12,384,80)"/>
+        <use href="#leaf"  x="404" y="84" transform="rotate(10,404,84)"/>
+        <use href="#leaf2" x="424" y="81" transform="rotate(-12,424,81)"/>
+        <use href="#leaf"  x="444" y="85" transform="rotate(15,444,85)"/>
+        <use href="#leaf2" x="464" y="81" transform="rotate(-10,464,81)"/>
+        <use href="#leaf"  x="484" y="84" transform="rotate(11,484,84)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- dark separator edge -->
+  <rect x="0" y="285" width="520" height="4" fill="#0a0d0c"/>
+
+  <!-- front-most low foliage and walkway -->
+  <g transform="translate(0,240)">
+    <rect x="0" y="50" width="520" height="54" fill="#0f130f"/>
+    <g filter="url(#soften)">
+      <use href="#leaf"  x="18" y="72" transform="rotate(20,18,72)"/>
+      <use href="#leaf2" x="34" y="68" transform="rotate(-12,34,68)"/>
+      <use href="#leaf"  x="50" y="76" transform="rotate(12,50,76)"/>
+      <use href="#leaf2" x="66" y="71" transform="rotate(-16,66,71)"/>
+      <use href="#leaf"  x="82" y="77" transform="rotate(17,82,77)"/>
+      <use href="#leaf2" x="98" y="72" transform="rotate(-14,98,72)"/>
+      <use href="#leaf"  x="114" y="78" transform="rotate(13,114,78)"/>
+      <use href="#leaf2" x="130" y="72" transform="rotate(-12,130,72)"/>
+      <use href="#leaf"  x="146" y="79" transform="rotate(18,146,79)"/>
+      <use href="#leaf2" x="162" y="73" transform="rotate(-14,162,73)"/>
+      <use href="#leaf"  x="178" y="79" transform="rotate(15,178,79)"/>
+      <use href="#leaf2" x="194" y="73" transform="rotate(-12,194,73)"/>
+      <use href="#leaf"  x="210" y="80" transform="rotate(14,210,80)"/>
+      <use href="#leaf2" x="226" y="73" transform="rotate(-13,226,73)"/>
+      <use href="#leaf"  x="242" y="80" transform="rotate(15,242,80)"/>
+      <use href="#leaf2" x="258" y="73" transform="rotate(-12,258,73)"/>
+      <use href="#leaf"  x="274" y="79" transform="rotate(12,274,79)"/>
+      <use href="#leaf2" x="290" y="72" transform="rotate(-12,290,72)"/>
+      <use href="#leaf"  x="306" y="80" transform="rotate(18,306,80)"/>
+      <use href="#leaf2" x="322" y="72" transform="rotate(-12,322,72)"/>
+      <use href="#leaf"  x="338" y="80" transform="rotate(14,338,80)"/>
+      <use href="#leaf2" x="354" y="72" transform="rotate(-13,354,72)"/>
+      <use href="#leaf"  x="370" y="79" transform="rotate(12,370,79)"/>
+      <use href="#leaf2" x="386" y="71" transform="rotate(-14,386,71)"/>
+      <use href="#leaf"  x="402" y="79" transform="rotate(16,402,79)"/>
+      <use href="#leaf2" x="418" y="71" transform="rotate(-13,418,71)"/>
+      <use href="#leaf"  x="434" y="78" transform="rotate(16,434,78)"/>
+      <use href="#leaf2" x="450" y="72" transform="rotate(-12,450,72)"/>
+      <use href="#leaf"  x="466" y="80" transform="rotate(17,466,80)"/>
+      <use href="#leaf2" x="482" y="72" transform="rotate(-12,482,72)"/>
+      <use href="#leaf"  x="498" y="78" transform="rotate(12,498,78)"/>
+    </g>
+
+    <!-- slanted walkway edge at bottom right -->
+    <path d="M300,94 L508,66 L520,91 L312,119 Z" fill="url(#walkGrad)"/>
+    <path d="M300,94 L312,119" stroke="#0a0d0d" stroke-width="3"/>
+    <path d="M508,66 L520,91" stroke="#0a0d0d" stroke-width="3"/>
+  </g>
+
+  <!-- plant bed rims and depth lines -->
+  <rect x="0" y="200" width="520" height="6" fill="#0a0e0d" opacity="0.9"/>
+  <rect x="0" y="234" width="520" height="6" fill="#0a0e0d" opacity="0.9"/>
+  <rect x="0" y="270" width="520" height="6" fill="#0a0e0d" opacity="0.9"/>
+
+  <!-- yellow tag stick in flowers -->
+  <rect x="350" y="182" width="4" height="24" fill="#b2a55b"/>
+  <rect x="352" y="175" width="28" height="12" rx="2" ry="2" fill="#ffd32a" stroke="#caa31a" stroke-width="1"/>
+
+  <!-- red overlay rectangle in bottom-right corner -->
+  <rect x="300" y="320" width="210" height="56" fill="none" stroke="#e5252a" stroke-width="4" rx="2" ry="2"/>
+</svg>

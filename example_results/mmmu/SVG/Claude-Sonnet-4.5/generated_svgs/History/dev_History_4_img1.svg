@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#1a1a1a"/>
+  
+  <!-- Water reflection -->
+  <rect y="300" width="800" height="300" fill="#0a0a0a"/>
+  
+  <!-- Moon -->
+  <circle cx="720" cy="80" r="35" fill="#ffffff" opacity="0.9"/>
+  <circle cx="730" cy="75" r="35" fill="#1a1a1a" opacity="0.3"/>
+  
+  <!-- Water wheels - left side -->
+  <g transform="translate(100, 200)">
+    <!-- Wheel structure -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#4a4a4a" stroke-width="3"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="15" fill="#2a2a2a" stroke="#4a4a4a" stroke-width="2"/>
+    <!-- Spokes -->
+    <line x1="-60" y1="0" x2="60" y2="0" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="0" y1="-60" x2="0" y2="60" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="-42" y1="-42" x2="42" y2="42" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="-42" y1="42" x2="42" y2="-42" stroke="#4a4a4a" stroke-width="2"/>
+    <!-- Paddles -->
+    <rect x="-65" y="-8" width="10" height="16" fill="#3a3a3a"/>
+    <rect x="55" y="-8" width="10" height="16" fill="#3a3a3a"/>
+    <rect x="-8" y="-65" width="16" height="10" fill="#3a3a3a"/>
+    <rect x="-8" y="55" width="16" height="10" fill="#3a3a3a"/>
+  </g>
+  
+  <g transform="translate(180, 220)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#4a4a4a" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#2a2a2a" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="-50" y1="0" x2="50" y2="0" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="0" y1="-50" x2="0" y2="50" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="-35" y1="-35" x2="35" y2="35" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="-35" y1="35" x2="35" y2="-35" stroke="#4a4a4a" stroke-width="2"/>
+  </g>
+  
+  <!-- Buildings -->
+  <!-- Left building -->
+  <polygon points="260,280 260,180 300,160 340,180 340,280" fill="#5a5a5a" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="270" y="200" width="20" height="25" fill="#2a2a2a"/>
+  <rect x="310" y="200" width="20" height="25" fill="#2a2a2a"/>
+  
+  <!-- Main central building -->
+  <rect x="340" y="240" width="140" height="60" fill="#6a6a6a" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M 340 240 L 410 200 L 480 240 Z" fill="#7a7a7a" stroke="#3a3a3a" stroke-width="2"/>
+  
+  <!-- Arched entrance -->
+  <path d="M 380 280 Q 380 250 410 250 Q 440 250 440 280 Z" fill="#2a2a2a"/>
+  <rect x="380" y="280" width="60" height="20" fill="#2a2a2a"/>
+  
+  <!-- Windows -->
+  <rect x="350" y="255" width="15" height="20" fill="#3a3a3a"/>
+  <rect x="455" y="255" width="15" height="20" fill="#3a3a3a"/>
+  
+  <!-- Dome structures on roof -->
+  <ellipse cx="370" cy="235" rx="18" ry="25" fill="#8a8a8a" stroke="#4a4a4a" stroke-width="1.5"/>
+  <ellipse cx="410" cy="195" rx="20" ry="28" fill="#9a9a9a" stroke="#4a4a4a" stroke-width="1.5"/>
+  <ellipse cx="450" cy="235" rx="18" ry="25" fill="#8a8a8a" stroke="#4a4a4a" stroke-width="1.5"/>
+  
+  <!-- Right building complex -->
+  <rect x="480" y="220" width="100" height="80" fill="#6a6a6a" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="500" y="240" width="25" height="30" fill="#3a3a3a"/>
+  <rect x="545" y="240" width="25" height="30" fill="#3a3a3a"/>
+  
+  <!-- Tower -->
+  <rect x="580" y="180" width="40" height="120" fill="#7a7a7a" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="575" y="170" width="50" height="15" fill="#8a8a8a" stroke="#4a4a4a" stroke-width="1.5"/>
+  <rect x="590" y="200" width="20" height="25" fill="#3a3a3a"/>
+  
+  <!-- Water line -->
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#2a2a2a" stroke-width="2"/>
+  
+  <!-- Reflections in water -->
+  <g opacity="0.4">
+    <!-- Wheel reflections -->
+    <ellipse cx="100" cy="400" rx="60" ry="40" fill="#3a3a3a"/>
+    <ellipse cx="180" cy="380" rx="50" ry="35" fill="#3a3a3a"/>
+    
+    <!-- Building reflections -->
+    <polygon points="260,320 260,420 300,440 340,420 340,320" fill="#3a3a3a"/>
+    <rect x="340" y="320" width="140" height="80" fill="#4a4a4a"/>
+    <rect x="480" y="320" width="100" height="100" fill="#4a4a4a"/>
+    <rect x="580" y="320" width="40" height="150" fill="#4a4a4a"/>
+    
+    <!-- Dome reflections -->
+    <ellipse cx="370" cy="365" rx="18" ry="20" fill="#5a5a5a"/>
+    <ellipse cx="410" cy="405" rx="20" ry="23" fill="#5a5a5a"/>
+    <ellipse cx="450" cy="365" rx="18" ry="20" fill="#5a5a5a"/>
+  </g>
+  
+  <!-- Water ripples -->
+  <ellipse cx="100" cy="450" rx="80" ry="15" fill="none" stroke="#2a2a2a" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="300" cy="420" rx="100" ry="20" fill="none" stroke="#2a2a2a" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="500" cy="470" rx="90" ry="18" fill="none" stroke="#2a2a2a" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Stone wall/embankment -->
+  <path d="M 0 290 L 50 295 L 100 292 L 150 297 L 200 293 L 250 295 L 800 295 L 800 300 L 0 300 Z" fill="#4a4a4a"/>
+  
+  <!-- Additional architectural details -->
+  <rect x="620" y="245" width="50" height="55" fill="#6a6a6a" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="645" cy="265" r="8" fill="#3a3a3a"/>
+</svg>

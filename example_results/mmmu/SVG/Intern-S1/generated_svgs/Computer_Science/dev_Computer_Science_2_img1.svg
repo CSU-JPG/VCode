@@ -1,0 +1,51 @@
+<svg viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Table Grid -->
+  <line x1="0" y1="0" x2="0" y2="120" stroke="black"/>
+  <line x1="50" y1="0" x2="50" y2="120" stroke="black"/>
+  <line x1="100" y1="0" x2="100" y2="120" stroke="black"/>
+  <line x1="150" y1="0" x2="150" y2="120" stroke="black"/>
+  <line x1="200" y1="0" x2="200" y2="120" stroke="black"/>
+  <line x1="0" y1="0" x2="200" y2="0" stroke="black"/>
+  <line x1="0" y1="30" x2="200" y2="30" stroke="black"/>
+  <line x1="0" y1="60" x2="200" y2="60" stroke="black"/>
+  <line x1="0" y1="90" x2="200" y2="90" stroke="black"/>
+  <line x1="0" y1="120" x2="200" y2="120" stroke="black"/>
+  <!-- Table Text -->
+  <text x="25" y="15" font-size="12" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="75" y="15" font-size="12" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="125" y="15" font-size="12" text-anchor="middle" dominant-baseline="middle">Sum</text>
+  <text x="175" y="15" font-size="12" text-anchor="middle" dominant-baseline="middle">Carry</text>
+  <text x="25" y="45" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="75" y="45" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="125" y="45" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="175" y="45" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="25" y="75" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="75" y="75" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
+  <text x="125" y="75" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
+  <text x="175" y="75" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="25" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
+  <text x="75" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="125" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
+  <text x="175" y="105" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="25" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
+  <text x="75" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
+  <text x="125" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle">0</text>
+  <text x="175" y="135" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
+  <!-- Diagram -->
+  <text x="190" y="50" font-size="12" fill="black">A</text>
+  <text x="190" y="100" font-size="12" fill="black">B</text>
+  <!-- XOR Gate -->
+  <path d="M 250 40 L 280 40 Q 290 50 280 60 L 250 60" fill="none" stroke="black"/>
+  <line x1="280" y1="50" x2="350" y2="50" stroke="black"/>
+  <text x="360" y="50" font-size="12" fill="black">Sum</text>
+  <text x="290" y="30" font-size="12" fill="black">Exclusive OR gate</text>
+  <!-- AND Gate -->
+  <path d="M 250 80 L 280 80 A 10 20 0 0 1 280 100 L 250 100" fill="none" stroke="black"/>
+  <line x1="280" y1="90" x2="350" y2="90" stroke="black"/>
+  <text x="360" y="90" font-size="12" fill="black">Carry</text>
+  <!-- Input Connections -->
+  <line x1="200" y1="50" x2="250" y2="50" stroke="black"/>
+  <line x1="200" y1="50" x2="250" y2="90" stroke="black"/>
+  <line x1="200" y1="100" x2="250" y2="60" stroke="black"/>
+  <line x1="200" y1="100" x2="250" y2="100" stroke="black"/>
+</svg>

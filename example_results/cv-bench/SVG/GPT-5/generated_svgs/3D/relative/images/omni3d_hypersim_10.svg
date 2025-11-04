@@ -1,0 +1,125 @@
+<svg viewBox="0 0 1100 820" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#f3ede2"/>
+		<stop offset="1" stop-color="#e7dcc8"/>
+	</linearGradient>
+	<linearGradient id="floor" x1="0" y1="0" x2="1" y2="1">
+		<stop offset="0" stop-color="#caa577"/>
+		<stop offset="1" stop-color="#a5794e"/>
+	</linearGradient>
+	<linearGradient id="brick" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#c79a77"/>
+		<stop offset="1" stop-color="#b98158"/>
+	</linearGradient>
+	<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+		<feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+	</filter>
+	<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+		<rect width="28" height="28" fill="#e9eef2"/>
+		<path d="M28 0H0M0 0V28" stroke="#9aa6ad" stroke-width="1" opacity="0.5"/>
+	</pattern>
+</defs>
+
+<!-- background walls and ceiling -->
+<rect x="0" y="0" width="1100" height="820" fill="url(#bg)"/>
+
+<!-- right brick wall -->
+<rect x="770" y="80" width="300" height="500" fill="url(#brick)"/>
+<!-- simple brick lines -->
+<g stroke="#a96f49" stroke-width="2" opacity="0.25">
+	<g>
+		<path d="M770 120H1070M770 160H1070M770 200H1070M770 240H1070M770 280H1070M770 320H1070M770 360H1070M770 400H1070M770 440H1070M770 480H1070M770 520H1070"/>
+	</g>
+</g>
+
+<!-- window band -->
+<rect x="320" y="140" width="420" height="210" fill="url(#grid)" stroke="#3d4a52" stroke-width="6"/>
+<!-- middle mullions -->
+<g stroke="#3d4a52" stroke-width="6">
+	<line x1="430" y1="140" x2="430" y2="350"/>
+	<line x1="540" y1="140" x2="540" y2="350"/>
+	<line x1="650" y1="140" x2="650" y2="350"/>
+</g>
+
+<!-- left black frame/TV table area -->
+<rect x="70" y="350" width="210" height="210" fill="#1d1f23" opacity="0.25"/>
+<rect x="100" y="460" width="150" height="80" rx="6" fill="#0b0f12" filter="url(#softShadow)"/>
+
+<!-- staircase -->
+<g>
+	<path d="M520 40 L1060 260" stroke="#2a2f34" stroke-width="14"/>
+	<g fill="#d8d8d8" stroke="#2a2f34" stroke-width="4">
+		<rect x="860" y="180" width="60" height="14" transform="rotate(22 890 187)"/>
+		<rect x="820" y="165" width="60" height="14" transform="rotate(22 850 172)"/>
+		<rect x="780" y="150" width="60" height="14" transform="rotate(22 810 157)"/>
+		<rect x="740" y="135" width="60" height="14" transform="rotate(22 770 142)"/>
+		<rect x="700" y="120" width="60" height="14" transform="rotate(22 730 127)"/>
+		<rect x="660" y="105" width="60" height="14" transform="rotate(22 690 112)"/>
+		<rect x="620" y="90" width="60" height="14" transform="rotate(22 650 97)"/>
+		<rect x="580" y="75" width="60" height="14" transform="rotate(22 610 82)"/>
+	</g>
+</g>
+
+<!-- floor -->
+<polygon points="0,560 1100,520 1100,820 0,820" fill="url(#floor)"/>
+
+<!-- rug -->
+<polygon points="350,600 640,580 650,665 330,690" fill="#2aa55f" opacity="0.65"/>
+
+<!-- sectional sofa -->
+<g fill="#bdbec1" stroke="#7b7d82" stroke-width="3" filter="url(#softShadow)">
+	<rect x="320" y="520" width="170" height="80" rx="10"/>
+	<rect x="470" y="545" width="220" height="90" rx="10"/>
+	<rect x="300" y="545" width="70" height="70" rx="10"/>
+</g>
+
+<!-- coffee table -->
+<rect x="470" y="620" width="120" height="56" rx="10" fill="#393c41" stroke="#22262b" stroke-width="3" filter="url(#softShadow)"/>
+<circle cx="525" cy="645" r="9" fill="#7bc97f"/>
+
+<!-- pendant lights -->
+<g stroke="#2a2f34" stroke-width="4">
+	<line x1="190" y1="80" x2="190" y2="300"/>
+	<line x1="140" y1="80" x2="140" y2="300"/>
+</g>
+<g>
+	<ellipse cx="190" cy="305" rx="48" ry="24" fill="#c59b6d" stroke="#8a6a46" stroke-width="3"/>
+	<ellipse cx="140" cy="305" rx="48" ry="24" fill="#c59b6d" stroke="#8a6a46" stroke-width="3"/>
+</g>
+
+<!-- framed pictures -->
+<rect x="260" y="360" width="70" height="110" fill="#f2f5f7" stroke="#9aa3a9" stroke-width="4"/>
+<rect x="740" y="360" width="60" height="90" fill="#f2f5f7" stroke="#9aa3a9" stroke-width="4"/>
+
+<!-- tall narrow cabinet (highlighted in red in the photo) -->
+<rect x="700" y="470" width="56" height="160" rx="4" fill="#23282e" stroke="#161a1f" stroke-width="3"/>
+
+<!-- side plant pot -->
+<g>
+	<rect x="810" y="560" width="70" height="30" rx="8" fill="#e8c38f" stroke="#9c7a50" stroke-width="3"/>
+	<circle cx="845" cy="540" r="28" fill="#6fbf5e"/>
+</g>
+
+<!-- table and chairs (simplified) -->
+<g transform="translate(250,630) scale(1)">
+	<rect x="-110" y="-20" width="140" height="14" rx="6" fill="#9a7a5b" stroke="#6b523e" stroke-width="3"/>
+	<circle cx="-60" cy="10" r="18" fill="#c5c7c9" stroke="#818488" stroke-width="3"/>
+	<circle cx="10" cy="10" r="18" fill="#c5c7c9" stroke="#818488" stroke-width="3"/>
+</g>
+
+<!-- TV blue annotation box -->
+<rect x="90" y="450" width="170" height="100" fill="none" stroke="#2a6df6" stroke-width="6"/>
+
+<!-- large green annotation box around seating area -->
+<rect x="250" y="520" width="520" height="210" fill="none" stroke="#11c26b" stroke-width="8"/>
+
+<!-- small green annotation (right of couch) -->
+<rect x="645" y="540" width="60" height="140" fill="none" stroke="#11c26b" stroke-width="6"/>
+
+<!-- red annotation box around tall cabinet -->
+<rect x="692" y="465" width="70" height="180" fill="none" stroke="#e0322c" stroke-width="6"/>
+
+<!-- subtle vignette -->
+<rect x="0" y="0" width="1100" height="820" fill="none" stroke="#000" stroke-opacity="0.08" stroke-width="20"/>
+</svg>

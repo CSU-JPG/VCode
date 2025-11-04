@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Sky and ground -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#79c8ff"/>
+      <stop offset="60%" stop-color="#aee3ff"/>
+      <stop offset="100%" stop-color="#cfefff"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5fb844"/>
+      <stop offset="60%" stop-color="#44a43a"/>
+      <stop offset="100%" stop-color="#2f8b2f"/>
+    </linearGradient>
+
+    <!-- Stone textures -->
+    <pattern id="stone" patternUnits="userSpaceOnUse" width="26" height="18">
+      <rect width="26" height="18" fill="#8f7568"/>
+      <rect x="0" y="0" width="26" height="18" fill="rgba(0,0,0,0.05)"/>
+      <rect x="0" y="0" width="13" height="9" fill="#9e8678"/>
+      <rect x="13" y="0" width="13" height="9" fill="#7e665a"/>
+      <rect x="6" y="9" width="13" height="9" fill="#a78f81"/>
+      <rect x="19" y="9" width="7" height="9" fill="#7a6054"/>
+      <rect x="0" y="9" width="6" height="9" fill="#6f584e"/>
+      <rect x="0" y="8" width="26" height="2" fill="rgba(255,255,255,0.12)"/>
+      <rect x="12" y="0" width="2" height="18" fill="rgba(0,0,0,0.12)"/>
+    </pattern>
+    <pattern id="slate" patternUnits="userSpaceOnUse" width="10" height="8">
+      <rect width="10" height="8" fill="#3f454b"/>
+      <rect y="3.8" width="10" height="0.4" fill="#2c3136"/>
+      <rect x="5" width="0.6" height="8" fill="#2c3136"/>
+    </pattern>
+
+    <!-- Arch shading -->
+    <radialGradient id="archShade" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#4b3a32"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+
+    <!-- Small window cutout shape -->
+    <symbol id="lozenge" viewBox="0 0 20 30">
+      <path d="M10 0 L18 10 L10 30 L2 10 Z" fill="white"/>
+    </symbol>
+
+    <!-- Simple person silhouette -->
+    <symbol id="person" viewBox="0 0 20 60">
+      <circle cx="10" cy="8" r="7" fill="#12202a"/>
+      <rect x="8" y="15" width="4" height="18" rx="2" fill="#1a2b36"/>
+      <path d="M10 33 L4 55 L8 55 L12 42 L14 55 L18 55 Z" fill="#1a2b36"/>
+      <path d="M8 22 L2 35 L6 36 L10 26 Z" fill="#1a2b36"/>
+      <path d="M12 22 L18 35 L14 36 L10 26 Z" fill="#1a2b36"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="650" fill="url(#sky)"/>
+  <!-- Distant hills -->
+  <path d="M0 410 C120 360, 220 380, 310 410 S520 450, 610 420 770 370, 870 405 1000 420, 1000 420 L1000 520 L0 520 Z" fill="#82b86f" opacity="0.6"/>
+  <path d="M0 430 C140 390, 260 420, 360 440 S600 470, 740 440 860 400, 1000 430 L1000 520 L0 520 Z" fill="#6ea75c" opacity="0.7"/>
+
+  <!-- Ground -->
+  <rect x="0" y="480" width="1000" height="170" fill="url(#grass)"/>
+  <ellipse cx="520" cy="560" rx="420" ry="70" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- Right white cottages -->
+  <g transform="translate(820,455)">
+    <rect x="0" y="-40" width="70" height="40" fill="#f6fbff" stroke="#d9e6f2"/>
+    <polygon points="0,-40 35,-65 70,-40" fill="#2b5f8e"/>
+    <rect x="48" y="-25" width="16" height="14" fill="#b7d1e6"/>
+    <rect x="10" y="-25" width="16" height="14" fill="#b7d1e6"/>
+  </g>
+
+  <!-- Abbey ruins group -->
+  <g transform="translate(210,300)">
+    <!-- Left broken gable -->
+    <path d="M-60 20 L-30 -35 L0 20 L0 110 L-60 110 Z" fill="url(#stone)" stroke="#5f4a40" stroke-width="3"/>
+    <!-- Main central block with small gable roof -->
+    <path d="M0 110 L0 0 L120 0 L120 110 Z" fill="url(#stone)" stroke="#5f4a40" stroke-width="3"/>
+    <polygon points="25,-40 95,-40 120,0 0,0" fill="url(#slate)" stroke="#40464c" stroke-width="2"/>
+    <!-- Windows on central block -->
+    <use href="#lozenge" x="20" y="25" width="30" height="45"/>
+    <use href="#lozenge" x="70" y="35" width="30" height="45"/>
+
+    <!-- Right high gable with arch -->
+    <path d="M120 110 L120 -20 L160 -80 L200 -20 L200 110 Z" fill="url(#stone)" stroke="#5f4a40" stroke-width="3"/>
+    <polygon points="128,-28 192,-28 160,-80" fill="url(#stone)" opacity="0.7"/>
+    <use href="#lozenge" x="145" y="-5" width="30" height="45"/>
+
+    <!-- Nave/arch opening to the far right -->
+    <path d="M200 110 L200 10 L330 10 L330 110 Z" fill="url(#stone)" stroke="#5f4a40" stroke-width="3"/>
+    <path d="M220 110 A45 45 0 0 1 310 110 L310 110 L310 110 Z" fill="url(#archShade)" opacity="0.6"/>
+    <path d="M218 110 A52 52 0 0 1 312 110 A46 46 0 0 0 218 110 Z" fill="#5e4a40" opacity="0.25"/>
+
+    <!-- Low wall stretching leftwards -->
+    <path d="M-100 110 L-140 110 L-160 60 L-100 60 Z" fill="url(#stone)" stroke="#5f4a40" stroke-width="3"/>
+
+    <!-- Ground shadows -->
+    <ellipse cx="70" cy="125" rx="115" ry="18" fill="rgba(0,0,0,0.18)"/>
+    <ellipse cx="265" cy="125" rx="95" ry="14" fill="rgba(0,0,0,0.18)"/>
+
+    <!-- Person near arch -->
+    <use href="#person" x="182" y="88" width="24" height="72"/>
+  </g>
+
+  <!-- Foreground color variation on grass -->
+  <path d="M0 590 C220 560, 420 600, 640 580 S940 560, 1000 600 L1000 650 L0 650 Z" fill="rgba(0,0,0,0.06)"/>
+</svg>

@@ -1,0 +1,91 @@
+<svg viewBox="0 0 800 533" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#4a2c2a"/>
+      <stop offset="100%" stop-color="#2a1a19"/>
+    </linearGradient>
+    <radialGradient id="sparks" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff5e1" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffcc00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="533" fill="url(#bg)"/>
+  <circle cx="350" cy="100" r="100" fill="url(#sparks)" opacity="0.6"/>
+  <circle cx="450" cy="80" r="120" fill="url(#sparks)" opacity="0.5"/>
+  <circle cx="200" cy="150" r="80" fill="url(#sparks)" opacity="0.3"/>
+  <circle cx="600" cy="180" r="90" fill="url(#sparks)" opacity="0.4"/>
+  <g id="players">
+    <g id="far-background-players">
+      <path d="M15,280 C30,220 80,210 95,280 L90,533 L20,533 Z" fill="#75AADB"/>
+      <path d="M150,290 C160,240 200,230 210,290 L200,533 L155,533 Z" fill="#75AADB"/>
+      <path d="M690,270 C705,210 755,200 770,270 L765,533 L695,533 Z" fill="#75AADB"/>
+      <path d="M780,290 C790,240 820,230 830,290 L820,533 L785,533 Z" fill="#75AADB"/>
+      <path d="M220,250 C230,200 280,190 290,250 L285,533 L225,533 Z" fill="#75AADB"/>
+    </g>
+    <g id="midground-players">
+      <path d="M60,300 C80,240 130,230 150,300 V 533 H60 Z" fill="#FFFFFF"/>
+      <path d="M85,300 V 533" stroke="#75AADB" stroke-width="20"/>
+      <path d="M115,300 V 533" stroke="#75AADB" stroke-width="20"/>
+      <circle cx="105" cy="270" r="30" fill="#f0c8a1"/>
+      <path d="M650,290 C670,230 720,220 740,290 V 533 H650 Z" fill="#FFFFFF"/>
+      <path d="M675,290 V 533" stroke="#75AADB" stroke-width="20"/>
+      <path d="M705,290 V 533" stroke="#75AADB" stroke-width="20"/>
+      <circle cx="695" cy="260" r="30" fill="#e4b998"/>
+      <path d="M500,280 C520,220 570,210 590,280 V 533 H500 Z" fill="#98FB98"/>
+      <circle cx="545" cy="250" r="30" fill="#f3c9a9"/>
+    </g>
+    <g id="foreground-players">
+      <path d="M250,320 C270,250 320,240 340,320 V 533 H250 Z" fill="#FFFFFF"/>
+      <path d="M275,320 V 533" stroke="#75AADB" stroke-width="25"/>
+      <path d="M310,320 V 533" stroke="#75AADB" stroke-width="25"/>
+      <circle cx="295" cy="285" r="35" fill="#e9c3a3"/>
+      <path d="M285,305 a10,5 0 1,1 20,0" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <circle cx="290" cy="480" r="15" fill="#FFD700" stroke="#C9A300" stroke-width="2"/>
+      <path d="M160,350 C180,280 230,270 250,350 V 533 H160 Z" fill="#FFFFFF"/>
+      <path d="M185,350 V 533" stroke="#75AADB" stroke-width="25"/>
+      <path d="M220,350 V 533" stroke="#75AADB" stroke-width="25"/>
+      <circle cx="205" cy="315" r="35" fill="#f5d0b0"/>
+      <path d="M195,335 a10,5 0 1,1 20,0" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <circle cx="205" cy="490" r="15" fill="#FFD700" stroke="#C9A300" stroke-width="2"/>
+      <path d="M30,360 C50,290 100,280 120,360 V 533 H30 Z" fill="#FFFFFF"/>
+      <path d="M55,360 V 533" stroke="#75AADB" stroke-width="25"/>
+      <path d="M90,360 V 533" stroke="#75AADB" stroke-width="25"/>
+      <circle cx="75" cy="325" r="35" fill="#f8d8b8"/>
+      <path d="M65,345 a10,5 0 1,1 20,0" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <path d="M590,340 C610,270 660,260 680,340 V 533 H590 Z" fill="#FFFFFF"/>
+      <path d="M615,340 V 533" stroke="#75AADB" stroke-width="25"/>
+      <path d="M650,340 V 533" stroke="#75AADB" stroke-width="25"/>
+      <circle cx="635" cy="305" r="35" fill="#f0c8a1"/>
+      <path d="M625,325 a10,5 0 1,1 20,0" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <path d="M680,360 C700,290 750,280 770,360 V 533 H680 Z" fill="#FFFFFF"/>
+      <path d="M705,360 V 533" stroke="#75AADB" stroke-width="25"/>
+      <path d="M740,360 V 533" stroke="#75AADB" stroke-width="25"/>
+      <circle cx="725" cy="325" r="35" fill="#e4b998"/>
+      <path d="M715,345 a10,5 0 1,1 20,0" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g id="messi-and-center-players">
+      <path d="M470,330 C490,260 540,250 560,330 V 533 H470 Z" fill="#FFFFFF"/>
+      <path d="M495,330 V 533" stroke="#75AADB" stroke-width="25"/>
+      <path d="M530,330 V 533" stroke="#75AADB" stroke-width="25"/>
+      <circle cx="515" cy="295" r="35" fill="#f5d0b0"/>
+      <path d="M505,315 a10,5 0 1,1 20,0" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <circle cx="510,485" r="15" fill="#FFD700" stroke="#C9A300" stroke-width="2"/>
+      <circle cx="520,495" r="15" fill="#FFD700" stroke="#C9A300" stroke-width="2"/>
+      <path d="M330,300 C340,200 460,200 470,300 V 533 H330 Z" fill="#FFFFFF"/>
+      <path d="M365,300 V 533" stroke="#75AADB" stroke-width="30"/>
+      <path d="M400,300 V 533" stroke="#75AADB" stroke-width="30"/>
+      <path d="M435,300 V 533" stroke="#75AADB" stroke-width="30"/>
+      <path d="M320,290 C340,190 480,190 500,290 L480,533 L340,533 Z" fill="#111111" opacity="0.8"/>
+      <circle cx="400" cy="240" r="40" fill="#e4b998"/>
+      <path d="M380,245 a20,10 0 1,0 40,0" fill="#5c3c21"/>
+      <path d="M390,260 a10,5 0 1,1 20,0" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <circle cx="390,470" r="15" fill="#FFD700" stroke="#C9A300" stroke-width="2"/>
+      <circle cx="410,470" r="15" fill="#FFD700" stroke="#C9A300" stroke-width="2"/>
+    </g>
+    <g id="trophy">
+      <path d="M400,220 L370,100 C370,60 430,60 430,100 L400,220 M380,120 C360,140 360,180 380,200 M420,120 C440,140 440,180 420,200" fill="#FFD700" stroke="#C9A300" stroke-width="4"/>
+      <path d="M400,220 C380,230 420,230 400,220 Z" fill="#4CAF50"/>
+      <path d="M390,230 Q400,240 410,230 L405,245 L395,245 Z" fill="#daa520"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#2a346d"/>
+  
+  <!-- Yellow pillow -->
+  <path d="M0,0 Q300,50 400,150 Q350,300 200,400 Q100,450 0,450 Z" fill="#d4a017"/>
+  <circle cx="400" cy="10" r="30" fill="#b8860b"/>
+  <circle cx="430" cy="40" r="25" fill="#b8860b"/>
+  <circle cx="450" cy="70" r="20" fill="#b8860b"/>
+  
+  <!-- Gray knitted blanket -->
+  <path d="M670,0 Q900,50 1000,150 Q950,300 800,400 Q700,450 670,500 Z" fill="#696969"/>
+  <circle cx="925" cy="220" r="20" fill="#8b7355"/>
+  <circle cx="925" cy="220" r="10" fill="#4b3621"/>
+  <circle cx="995" cy="410" r="15" fill="#8b7355"/>
+  <circle cx="995" cy="410" r="7" fill="#4b3621"/>
+  
+  <!-- Book -->
+  <rect x="320" y="335" width="590" height="250" rx="5" ry="5" fill="#fff"/>
+  <rect x="320" y="335" width="590" height="250" rx="5" ry="5" fill="none" stroke="#333" stroke-width="1"/>
+  <line x1="320" y1="335" x2="320" y2="585" stroke="#333" stroke-width="1"/>
+  <line x1="320" y1="360" x2="910" y2="360" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="385" x2="910" y2="385" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="410" x2="910" y2="410" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="435" x2="910" y2="435" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="460" x2="910" y2="460" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="485" x2="910" y2="485" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="510" x2="910" y2="510" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="535" x2="910" y2="535" stroke="#333" stroke-width="0.5"/>
+  <line x1="320" y1="560" x2="910" y2="560" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Cat -->
+  <ellipse cx="300" cy="700" rx="150" ry="100" fill="#d2691e"/>
+  <ellipse cx="280" cy="650" rx="120" ry="80" fill="#cd853f"/>
+  <ellipse cx="250" cy="600" rx="100" ry="60" fill="#ff7f50"/>
+  <ellipse cx="220" cy="550" rx="80" ry="50" fill="#ffa500"/>
+  <ellipse cx="200" cy="500" rx="60" ry="40" fill="#ffd700"/>
+  <ellipse cx="180" cy="450" rx="50" ry="30" fill="#ff8c00"/>
+  <ellipse cx="160" cy="400" rx="40" ry="25" fill="#ff6347"/>
+  <ellipse cx="140" cy="350" rx="30" ry="20" fill="#ff4500"/>
+  <ellipse cx="120" cy="300" rx="20" ry="15" fill="#ff2400"/>
+  <ellipse cx="100" cy="250" rx="10" ry="10" fill="#ff0000"/>
+  
+  <!-- Cat ears -->
+  <polygon points="140,600 160,550 180,600" fill="#fff"/>
+  <polygon points="220,600 240,550 260,600" fill="#fff"/>
+  
+  <!-- Cat eyes -->
+  <circle cx="250" cy="650" r="10" fill="#ffff00"/>
+  <circle cx="270" cy="700" r="10" fill="#ffff00"/>
+  <circle cx="250" cy="650" r="5" fill="#000"/>
+  <circle cx="270" cy="700" r="5" fill="#000"/>
+  
+  <!-- Cat nose -->
+  <ellipse cx="290" cy="680" rx="5" ry="3" fill="#ff69b4"/>
+  
+  <!-- Cat paws -->
+  <ellipse cx="360" cy="450" rx="20" ry="15" fill="#cd853f"/>
+  <ellipse cx="450" cy="450" rx="20" ry="15" fill="#cd853f"/>
+  
+  <!-- Tray -->
+  <rect x="530" y="400" width="300" height="350" rx="10" ry="10" fill="#4682b4" stroke="#333" stroke-width="2"/>
+  <line x1="530" y1="450" x2="830" y2="450" stroke="#333" stroke-width="1"/>
+  <line x1="530" y1="500" x2="830" y2="500" stroke="#333" stroke-width="1"/>
+  <line x1="530" y1="550" x2="830" y2="550" stroke="#333" stroke-width="1"/>
+  <line x1="530" y1="600" x2="830" y2="600" stroke="#333" stroke-width="1"/>
+  <line x1="530" y1="650" x2="830" y2="650" stroke="#333" stroke-width="1"/>
+  <line x1="530" y1="700" x2="830" y2="700" stroke="#333" stroke-width="1"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="740" cy="520" rx="40" ry="30" fill="#fff"/>
+  <rect x="700" y="500" width="80" height="40" fill="#fff"/>
+  <path d="M700,500 Q690,480 680,500 L680,540 Q690,560 700,540 Z" fill="#fff"/>
+  <ellipse cx="740" cy="520" rx="30" ry="20" fill="#000"/>
+  
+  <!-- Cookies -->
+  <ellipse cx="680" cy="640" rx="30" ry="25" fill="#654321"/>
+  <ellipse cx="610" cy="710" rx="30" ry="25" fill="#654321"/>
+  <ellipse cx="690" cy="680" rx="30" ry="25" fill="#654321"/>
+  
+  <!-- Candle -->
+  <ellipse cx="710" cy="820" rx="30" ry="25" fill="#ffdead"/>
+  <ellipse cx="710" cy="810" rx="20" ry="15" fill="#ff8c00"/>
+  <ellipse cx="710" cy="805" rx="10" ry="8" fill="#ffff00"/>
+  
+  <!-- Dried flowers -->
+  <path d="M750,650 Q760,660 770,650 Q780,640 790,650" fill="none" stroke="#4b0082" stroke-width="2"/>
+  <path d="M760,640 Q770,650 780,640" fill="none" stroke="#4b0082" stroke-width="2"/>
+  <path d="M770,630 Q780,640 790,630" fill="none" stroke="#4b0082" stroke-width="2"/>
+  <path d="M780,620 Q790,630 800,620" fill="none" stroke="#4b0082" stroke-width="2"/>
+  
+  <!-- Herringbone blanket -->
+  <rect x="0" y="670" width="200" height="130" fill="#4682b4"/>
+  <path d="M0,670 L20,690 M20,670 L40,690 M40,670 L60,690 M60,670 L80,690 M80,670 L100,690 M100,670 L120,690 M120,670 L140,690 M140,670 L160,690 M160,670 L180,690 M180,670 L200,690 M0,690 L20,710 M20,690 L40,710 M40,690 L60,710 M60,690 L80,710 M80,690 L100,710 M100,690 L120,710 M120,690 L140,710 M140,690 L160,710 M160,690 L180,710 M180,690 L200,710 M0,710 L20,730 M20,710 L40,730 M40,710 L60,730 M60,710 L80,730 M80,710 L100,730 M100,710 L120,730 M120,710 L140,730 M140,710 L160,730 M160,710 L180,730 M180,710 L200,730 M0,730 L20,750 M20,730 L40,750 M40,730 L60,750 M60,730 L80,750 M80,730 L100,750 M100,730 L120,750 M120,730 L140,750 M140,730 L160,750 M160,730 L180,750 M180,730 L200,750 M0,750 L20,770 M20,750 L40,770 M40,750 L60,770 M60,750 L80,770 M80,750 L100,770 M100,750 L120,770 M120,750 L140,770 M140,750 L160,770 M160,750 L180,770 M180,750 L200,770" stroke="#fff" stroke-width="2"/>
+</svg>

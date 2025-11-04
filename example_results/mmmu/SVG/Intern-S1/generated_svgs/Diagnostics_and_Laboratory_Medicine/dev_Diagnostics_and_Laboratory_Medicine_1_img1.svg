@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFB6C1"/>
+  <path d="M200 150 Q300 50 400 150 T600 150 Q700 50 800 150 T1000 150" fill="#FFC0CB" stroke="#800080" stroke-width="2"/>
+  <path d="M100 400 Q200 300 300 400 T500 400 Q600 300 700 400 T900 400" fill="#FFC0CB" stroke="#800080" stroke-width="2"/>
+  <circle cx="100" cy="100" r="5" fill="#800080"/>
+  <circle cx="150" cy="120" r="4" fill="#800080"/>
+  <circle cx="200" cy="80" r="3" fill="#800080"/>
+  <circle cx="250" cy="130" r="5" fill="#800080"/>
+  <circle cx="300" cy="110" r="4" fill="#800080"/>
+  <circle cx="350" cy="90" r="3" fill="#800080"/>
+  <circle cx="400" cy="120" r="5" fill="#800080"/>
+  <circle cx="450" cy="100" r="4" fill="#800080"/>
+  <circle cx="500" cy="130" r="3" fill="#800080"/>
+  <circle cx="550" cy="110" r="5" fill="#800080"/>
+  <circle cx="600" cy="90" r="4" fill="#800080"/>
+  <circle cx="650" cy="120" r="3" fill="#800080"/>
+  <circle cx="700" cy="100" r="5" fill="#800080"/>
+  <circle cx="750" cy="130" r="4" fill="#800080"/>
+  <circle cx="800" cy="110" r="3" fill="#800080"/>
+  <circle cx="120" cy="200" r="5" fill="#800080"/>
+  <circle cx="170" cy="220" r="4" fill="#800080"/>
+  <circle cx="220" cy="180" r="3" fill="#800080"/>
+  <circle cx="270" cy="230" r="5" fill="#800080"/>
+  <circle cx="320" cy="210" r="4" fill="#800080"/>
+  <circle cx="370" cy="190" r="3" fill="#800080"/>
+  <circle cx="420" cy="220" r="5" fill="#800080"/>
+  <circle cx="470" cy="200" r="4" fill="#800080"/>
+  <circle cx="520" cy="230" r="3" fill="#800080"/>
+  <circle cx="570" cy="210" r="5" fill="#800080"/>
+  <circle cx="620" cy="190" r="4" fill="#800080"/>
+  <circle cx="670" cy="220" r="3" fill="#800080"/>
+  <circle cx="720" cy="200" r="5" fill="#800080"/>
+  <circle cx="770" cy="230" r="4" fill="#800080"/>
+  <circle cx="820" cy="210" r="3" fill="#800080"/>
+  <circle cx="50" cy="300" r="5" fill="#FF0000"/>
+  <circle cx="100" cy="350" r="4" fill="#FF0000"/>
+  <circle cx="150" cy="300" r="3" fill="#FF0000"/>
+  <circle cx="200" cy="350" r="5" fill="#FF0000"/>
+  <circle cx="250" cy="300" r="4" fill="#FF0000"/>
+  <circle cx="300" cy="350" r="3" fill="#FF0000"/>
+  <circle cx="350" cy="300" r="5" fill="#FF0000"/>
+  <circle cx="400" cy="350" r="4" fill="#FF0000"/>
+  <circle cx="450" cy="300" r="3" fill="#FF0000"/>
+  <circle cx="500" cy="350" r="5" fill="#FF0000"/>
+  <circle cx="550" cy="300" r="4" fill="#FF0000"/>
+  <circle cx="600" cy="350" r="3" fill="#FF0000"/>
+  <circle cx="650" cy="300" r="5" fill="#FF0000"/>
+  <circle cx="700" cy="350" r="4" fill="#FF0000"/>
+  <circle cx="750" cy="300" r="3" fill="#FF0000"/>
+</svg>

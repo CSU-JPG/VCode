@@ -1,0 +1,17 @@
+<svg viewBox="-4 -4 8 8" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+<path d="M3,3 L0,0 L6,3 L0,6 Z" fill="black"/>
+</marker>
+</defs>
+<circle cx="0" cy="0" r="1" fill="red" stroke="black"/>
+<circle cx="2" cy="0" r="1" fill="red" stroke="black"/>
+<circle cx="0" cy="2" r="1" fill="red" stroke="black"/>
+<circle cx="-2" cy="0" r="1" fill="red" stroke="black"/>
+<circle cx="0" cy="-2" r="1" fill="red" stroke="black"/>
+<line x1="0" y1="0" x2="2" y2="0" stroke="black" marker-end="url(#arrow)"/>
+<line x1="0" y1="0" x2="0" y2="2" stroke="black" marker-end="url(#arrow)"/>
+<text x="0" y="0.2" text-anchor="middle" font-size="0.6">a√2</text>
+<text x="1" y="-0.2" text-anchor="middle" font-size="0.5">a√2</text>
+<text x="0.2" y="1" text-anchor="start" font-size="0.5">a</text>
+</svg>

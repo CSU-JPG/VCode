@@ -1,0 +1,52 @@
+<svg viewBox="0 0 960 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background and Frame -->
+  <rect width="960" height="900" fill="#7C7F86"/>
+  <rect x="30" y="145" width="900" height="610" fill="#6A6D74"/>
+  <rect x="30" y="40" width="900" height="105" fill="#6A6D74"/>
+  <text x="480" y="110" font-family="Arial, sans-serif" font-weight="bold" font-size="52" fill="white" text-anchor="middle">This Sale</text>
+  <rect x="30" y="755" width="900" height="105" fill="#6A6D74"/>
+  <text x="480" y="825" font-family="Arial, sans-serif" font-weight="bold" font-size="52" fill="white" text-anchor="middle">Gallons</text>
+
+  <!-- Screen -->
+  <rect x="50" y="165" width="860" height="570" fill="#40434A"/>
+  <rect x="70" y="185" width="820" height="530" fill="#CBD3CA"/>
+
+  <defs>
+    <!-- 7-Segment Digit Paths (100x200 unit box) -->
+    <path id="s_a" d="M12,20 L20,12 L80,12 L88,20 L80,28 L20,28 Z"/>
+    <path id="s_b" d="M90,22 L98,30 L98,90 L90,98 L82,90 L82,30 Z"/>
+    <path id="s_c" d="M90,112 L98,120 L98,180 L90,188 L82,180 L82,120 Z"/>
+    <path id="s_d" d="M12,190 L20,182 L80,182 L88,190 L80,198 L20,198 Z"/>
+    <path id="s_e" d="M10,112 L18,120 L18,180 L10,188 L2,180 L2,120 Z"/>
+    <path id="s_f" d="M10,22 L18,30 L18,90 L10,98 L2,90 L2,30 Z"/>
+    <path id="s_g" d="M12,105 L20,97 L80,97 L88,105 L80,113 L20,113 Z"/>
+    <!-- Digit Definitions -->
+    <g id="d0" fill="#1A1A1A"><use href="#s_a"/><use href="#s_b"/><use href="#s_c"/><use href="#s_d"/><use href="#s_e"/><use href="#s_f"/></g>
+    <g id="d1" fill="#1A1A1A"><use href="#s_b"/><use href="#s_c"/></g>
+    <g id="d2" fill="#1A1A1A"><use href="#s_a"/><use href="#s_b"/><use href="#s_g"/><use href="#s_e"/><use href="#s_d"/></g>
+    <g id="d4" fill="#1A1A1A"><use href="#s_f"/><use href="#s_g"/><use href="#s_b"/><use href="#s_c"/></g>
+    <g id="d5" fill="#1A1A1A"><use href="#s_a"/><use href="#s_f"/><use href="#s_g"/><use href="#s_c"/><use href="#s_d"/></g>
+    <g id="d6" fill="#1A1A1A"><use href="#s_a"/><use href="#s_f"/><use href="#s_e"/><use href="#s_c"/><use href="#s_d"/><use href="#s_g"/></g>
+    <g id="d8" fill="#1A1A1A"><use href="#s_a"/><use href="#s_b"/><use href="#s_c"/><use href="#s_d"/><use href="#s_e"/><use href="#s_f"/><use href="#s_g"/></g>
+    <rect id="dec" x="0" y="182" width="20" height="20" fill="#1A1A1A"/>
+  </defs>
+
+  <!-- Number Display -->
+  <!-- Top Row: 62.85 -->
+  <g transform="translate(135, 210) scale(1.35)">
+    <use href="#d6" x="0" y="0"/>
+    <use href="#d2" x="120" y="0"/>
+    <use href="#dec" x="240" y="0"/>
+    <use href="#d8" x="270" y="0"/>
+    <use href="#d5" x="390" y="0"/>
+  </g>
+  <!-- Bottom Row: 14.620 -->
+  <g transform="translate(200, 490) scale(1)">
+    <use href="#d1" x="0" y="0"/>
+    <use href="#d4" x="120" y="0"/>
+    <use href="#dec" x="240" y="0"/>
+    <use href="#d6" x="270" y="0"/>
+    <use href="#d2" x="390" y="0"/>
+    <use href="#d0" x="510" y="0"/>
+  </g>
+</svg>

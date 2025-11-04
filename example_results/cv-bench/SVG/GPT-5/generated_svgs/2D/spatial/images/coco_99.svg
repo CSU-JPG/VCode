@@ -1,0 +1,98 @@
+<svg viewBox="0 0 520 395" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#f4e6b6"/>
+		<stop offset="1" stop-color="#e3ce8f"/>
+	</linearGradient>
+	<linearGradient id="beamGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#8b5f33"/>
+		<stop offset="1" stop-color="#5e3d22"/>
+	</linearGradient>
+	<linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#3a4a59"/>
+		<stop offset="1" stop-color="#1e2a33"/>
+	</linearGradient>
+	<linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#b3a47e" stop-opacity="0.35"/>
+		<stop offset="1" stop-color="#6e6246" stop-opacity="0.6"/>
+	</linearGradient>
+	<pattern id="siding" patternUnits="userSpaceOnUse" width="520" height="20">
+		<rect width="520" height="20" fill="url(#wallGrad)"/>
+		<line x1="0" y1="19" x2="520" y2="19" stroke="#a58e5d" stroke-width="2" stroke-opacity="0.65"/>
+	</pattern>
+	<pattern id="netPattern" patternUnits="userSpaceOnUse" width="18" height="18">
+		<path d="M0 0H18M0 0V18" fill="none" stroke="#6a6557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+	</pattern>
+	<clipPath id="rightHalf">
+		<rect x="220" y="12" width="285" height="371" rx="2"/>
+	</clipPath>
+	<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+		<feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+	</filter>
+</defs>
+
+<!-- background wall with horizontal siding -->
+<rect x="8" y="8" width="504" height="379" fill="url(#siding)" stroke="#7f6a3e" stroke-opacity="0.4"/>
+
+<!-- left window -->
+<g filter="url(#softShadow)">
+	<rect x="24" y="20" width="120" height="145" fill="#51432a" stroke="#3d2f1b" stroke-width="6"/>
+	<rect x="31" y="27" width="106" height="131" fill="url(#glassGrad)"/>
+	<line x1="31" y1="80" x2="137" y2="80" stroke="#2b3741" stroke-opacity="0.6"/>
+</g>
+
+<!-- vertical wood beam between wall panels -->
+<rect x="248" y="8" width="22" height="379" fill="url(#beamGrad)" stroke="#3b2414" stroke-opacity="0.6"/>
+
+<!-- ground shadow along bottom -->
+<rect x="8" y="340" width="504" height="47" fill="url(#groundGrad)"/>
+
+<!-- person silhouette on left -->
+<g>
+	<!-- arm reaching -->
+	<path d="M150 242c-34-3-62 15-86 33v45c26 16 60 22 92 10 8-3 16-7 22-12 9-7 15-17 11-28-4-12-18-17-39-16z" fill="#2c2c2c" opacity="0.95"/>
+	<path d="M198 214c-10 9-20 18-26 33-3 8 14 16 23 11 18-11 31-22 40-37 3-6-3-10-10-10-9 0-18 1-27 3z" fill="#3a3a3a"/>
+	<!-- hand -->
+	<circle cx="236" cy="216" r="8" fill="#c89e7a"/>
+	<!-- head and torso -->
+	<path d="M108 214c-18 7-27 29-36 49-6 12-12 24-12 37 0 10 5 16 12 21 9 6 21 9 37 9 23 0 39-6 47-16 10-12 10-32 6-51-4-18-12-36-26-47-7-5-18-6-28-2z" fill="#2c2c2c"/>
+	<circle cx="126" cy="206" r="18" fill="#4a3f39"/>
+	<!-- book in left hand -->
+	<rect x="70" y="312" width="54" height="28" rx="3" fill="#d9cdb7" stroke="#a7997a"/>
+	<line x1="76" y1="316" x2="76" y2="336" stroke="#b7aa8d"/>
+	<line x1="118" y1="316" x2="118" y2="336" stroke="#b7aa8d"/>
+	<!-- railing -->
+	<path d="M18 322c70-18 140-18 210 0" fill="none" stroke="#2b5f54" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+</g>
+
+<!-- giraffe on right side (stylized) -->
+<g clip-path="url(#rightHalf)">
+	<!-- neck -->
+	<path d="M520 120c-40 0-74 12-104 30-24 15-43 34-58 56-7 10-9 19 1 26 10 7 26 4 36-4 11-8 21-20 31-33 17-23 36-45 61-60 11-7 24-12 33-15" fill="#a5743d" opacity="0.95"/>
+	<!-- head -->
+	<path d="M428 147c20-13 48-12 74-2 9 3 16 8 20 14 6 8 5 16-2 22-7 7-18 10-31 13-16 4-33 7-45 1-10-5-17-16-20-26-3-9-1-16 4-22z" fill="#b27a44" stroke="#6e4a25" stroke-width="2"/>
+	<!-- muzzle -->
+	<path d="M487 186c9 3 18 10 18 16 0 8-12 12-23 12-10 0-23-3-29-8 6-10 19-16 34-20z" fill="#2f2a2a"/>
+	<!-- ear/ossicone -->
+	<path d="M468 143c4-7 10-12 18-14 5-1 10 1 12 5 2 5-2 10-7 13-6 3-13 4-21 3z" fill="#c89e7a" stroke="#6e4a25" stroke-width="2"/>
+	<circle cx="470" cy="170" r="3.5" fill="#1b1b1b"/>
+	<!-- spots -->
+	<g fill="#6b4627" opacity="0.9">
+		<circle cx="456" cy="162" r="7"/>
+		<circle cx="435" cy="176" r="8"/>
+		<circle cx="410" cy="192" r="9"/>
+		<circle cx="384" cy="212" r="8"/>
+		<circle cx="474" cy="196" r="6"/>
+	</g>
+	<!-- tongue reaching left -->
+	<path d="M365 214c22 16 46 18 70 4 6-4 12-9 16-14-25 8-55 2-86-6z" fill="#252226"/>
+</g>
+
+<!-- net in front -->
+<rect x="220" y="12" width="285" height="371" fill="url(#netPattern)" opacity="0.9" stroke="#534e41" stroke-width="3"/>
+
+<!-- highlights and small details -->
+<path d="M250 12v371" stroke="#2b1b0e" stroke-opacity="0.3"/>
+<rect x="8" y="8" width="504" height="379" fill="none" stroke="#2a2417" stroke-opacity="0.25"/>
+
+</svg>

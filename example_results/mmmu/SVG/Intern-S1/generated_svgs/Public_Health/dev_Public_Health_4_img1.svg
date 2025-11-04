@@ -1,0 +1,25 @@
+<svg viewBox="0 0 700 250" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 100 100 L 550 100" stroke="black" stroke-width="2"/>
+  <circle cx="100" cy="100" r="5" fill="blue"/>
+  <circle cx="250" cy="100" r="5" fill="blue"/>
+  <circle cx="400" cy="100" r="5" fill="blue"/>
+  <circle cx="550" cy="100" r="5" fill="blue"/>
+  <rect x="10" y="30" width="180" height="90" rx="10" ry="10" fill="blue"/>
+  <text x="15" y="40" fill="white" font-size="12">
+    <tspan x="15" dy="0">9/22 - 48 year old male admitted to ICU comatose after drug overdose, temp 102,</tspan>
+    <tspan x="15" dy="14">blood and urine cultures collected, UC+ >100,000 cfu/ml E. coli, blood cultures negative;</tspan>
+    <tspan x="15" dy="14">CL and foley inserted</tspan>
+  </text>
+  <rect x="160" y="120" width="180" height="60" rx="10" ry="10" fill="blue"/>
+  <text x="165" y="130" fill="white" font-size="12">
+    <tspan x="165" dy="0">9/30 - temp increases to 100.6, urine culture positive for >100,000 cfu/ml Klebsiella pneumoniae</tspan>
+  </text>
+  <rect x="310" y="120" width="180" height="40" rx="10" ry="10" fill="blue"/>
+  <text x="315" y="130" fill="white" font-size="12">
+    <tspan x="315" dy="0">10/3 - foley and CL removed, patient transferred to med/surg unit</tspan>
+  </text>
+  <rect x="560" y="30" width="120" height="40" rx="10" ry="10" fill="blue"/>
+  <text x="565" y="40" fill="white" font-size="12">
+    <tspan x="565" dy="0">10/5 - patient discharged</tspan>
+  </text>
+</svg>

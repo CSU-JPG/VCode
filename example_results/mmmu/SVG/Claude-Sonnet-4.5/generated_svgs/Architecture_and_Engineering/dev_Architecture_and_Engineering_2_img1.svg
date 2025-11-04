@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="30" font-family="Arial, sans-serif" font-size="16">∠A = 54°12'25"</text>
+  <text x="20" y="60" font-family="Arial, sans-serif" font-size="16">∠B = 48°46'16.25"</text>
+  <text x="20" y="90" font-family="Arial, sans-serif" font-size="16">∠C = 77°02'10.83"</text>
+  
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="16">Weight = 8</text>
+  <text x="250" y="60" font-family="Arial, sans-serif" font-size="16">Weight = 4</text>
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="16">Weight = 6</text>
+</svg>

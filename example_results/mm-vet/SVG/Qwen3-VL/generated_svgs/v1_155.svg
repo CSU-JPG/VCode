@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Character head -->
+  <ellipse cx="200" cy="150" rx="100" ry="120" fill="white" stroke="black" stroke-width="3"/>
+  
+  <!-- Hair strands -->
+  <path d="M180 60 Q200 40 220 60" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M170 50 Q200 30 230 50" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M160 40 Q200 20 240 40" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="170" cy="160" rx="15" ry="10" fill="#888"/>
+  <ellipse cx="230" cy="160" rx="15" ry="10" fill="#888"/>
+  
+  <!-- Mouth -->
+  <path d="M180 200 Q200 210 220 200" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Body outline -->
+  <path d="M100 270 L100 350 Q200 370 300 350 L300 270 Z" fill="black"/>
+  
+  <!-- Text -->
+  <text x="200" y="400" font-family="Arial" font-size="20" text-anchor="middle" fill="black">
+    除了睡觉时间不想睡觉
+  </text>
+  <text x="200" y="430" font-family="Arial" font-size="20" text-anchor="middle" fill="black">
+    其他时间都想睡觉
+  </text>
+</svg>

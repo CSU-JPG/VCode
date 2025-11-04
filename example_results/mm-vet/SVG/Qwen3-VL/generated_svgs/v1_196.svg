@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="strawberryRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3b3b"/>
+      <stop offset="100%" stop-color="#d40000"/>
+    </linearGradient>
+    <linearGradient id="strawberryGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8fd756"/>
+      <stop offset="100%" stop-color="#4a9e2b"/>
+    </linearGradient>
+    <linearGradient id="strawberryGrey" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a0a0a0"/>
+      <stop offset="100%" stop-color="#606060"/>
+    </linearGradient>
+    <radialGradient id="leafHighlight" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="1000" height="1000" fill="#6c5b4a"/>
+  
+  <path d="M0 0 Q250 100 500 0 Q750 100 1000 0" fill="#3a7d34"/>
+  <path d="M0 200 Q250 300 500 200 Q750 300 1000 200" fill="#3a7d34"/>
+  <path d="M0 400 Q250 500 500 400 Q750 500 1000 400" fill="#3a7d34"/>
+  <path d="M0 600 Q250 700 500 600 Q750 700 1000 600" fill="#3a7d34"/>
+  <path d="M0 800 Q250 900 500 800 Q750 900 1000 800" fill="#3a7d34"/>
+  
+  <g transform="translate(250, 150)">
+    <path d="M0 0 Q100 50 200 0" fill="#8fbc8f"/>
+    <path d="M0 100 Q100 150 200 100" fill="#8fbc8f"/>
+    <path d="M0 200 Q100 250 200 200" fill="#8fbc8f"/>
+    <path d="M0 300 Q100 350 200 300" fill="#8fbc8f"/>
+    <path d="M0 400 Q100 450 200 400" fill="#8fbc8f"/>
+  </g>
+  
+  <g transform="translate(600, 100)">
+    <path d="M0 0 Q100 50 200 0" fill="#8fbc8f"/>
+    <path d="M0 100 Q100 150 200 100" fill="#8fbc8f"/>
+    <path d="M0 200 Q100 250 200 200" fill="#8fbc8f"/>
+    <path d="M0 300 Q100 350 200 300" fill="#8fbc8f"/>
+    <path d="M0 400 Q100 450 200 400" fill="#8fbc8f"/>
+  </g>
+  
+  <g transform="translate(700, 300)">
+    <path d="M0 0 Q100 50 200 0" fill="#8fbc8f"/>
+    <path d="M0 100 Q100 150 200 100" fill="#8fbc8f"/>
+    <path d="M0 200 Q100 250 200 200" fill="#8fbc8f"/>
+    <path d="M0 300 Q100 350 200 300" fill="#8fbc8f"/>
+    <path d="M0 400 Q100 450 200 400" fill="#8fbc8f"/>
+  </g>
+  
+  <g transform="translate(50, 650)">
+    <path d="M0 0 Q50 25 100 0" fill="#8fbc8f"/>
+    <path d="M0 50 Q50 75 100 50" fill="#8fbc8f"/>
+    <path d="M0 100 Q50 125 100 100" fill="#8fbc8f"/>
+    <path d="M0 150 Q50 175 100 150" fill="#8fbc8f"/>
+    <path d="M0 200 Q50 225 100 200" fill="#8fbc8f"/>
+  </g>
+  
+  <g transform="translate(300, 200)">
+    <ellipse cx="0" cy="0" rx="100" ry="80" fill="url(#strawberryRed)"/>
+    <path d="M-50 -30 Q0 -10 50 -30" fill="#8fbc8f"/>
+    <path d="M-30 -10 Q0 0 30 -10" fill="#8fbc8f"/>
+    <path d="M-10 10 Q0 20 10 10" fill="#8fbc8f"/>
+    <path d="M10 30 Q0 40 -10 30" fill="#8fbc8f"/>
+    <path d="M30 50 Q0 60 -30 50" fill="#8fbc8f"/>
+  </g>
+  
+  <g transform="translate(500, 700)">
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="url(#strawberryRed)"/>
+    <path d="M-40 -20 Q0 -5 40 -20" fill="#8fbc8f"/>
+    <path d="M-20 -5 Q0 0 20 -5" fill="#8fbc8f"/>
+    <path d="M-5 5 Q0 10 5 5" fill="#8fbc8f"/>
+    <path d="M5 15 Q0 20 -5 15" fill="#8fbc8f"/>
+    <path d="M20 25 Q0 30 -20 25" fill="#8fbc8f"/>
+  </g>
+  
+  <g transform="translate(600, 500)">
+    <ellipse cx="0" cy="0" rx="70" ry="50" fill="url(#strawberryGrey)"/>
+    <path d="M-35 -15 Q0 -5 35 -15" fill="#8fbc8f"/>
+    <path d="M-15 -5 Q0 0 15 -5" fill="#8fbc8f"/>
+    <path d="M-5 5 Q0 10 5 5" fill="#8fbc8f"/>
+    <path d="M5 15 Q0 20 -5 15" fill="#8fbc8f"/>
+    <path d="M15 25 Q0 30 -15 25" fill="#8fbc8f"/>
+  </g>
+</svg>

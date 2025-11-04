@@ -1,0 +1,23 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+    </filter>
+  </defs>
+  <rect width="1000" height="1000" fill="#000" />
+  <g filter="url(#blur)">
+    <path d="M500 0 L500 1000" stroke="#FFF" stroke-width="10" opacity="0.3"/>
+    <path d="M0 500 L1000 500" stroke="#FFF" stroke-width="10" opacity="0.3"/>
+    <path d="M100 100 L900 100 L900 900 L100 900 Z" fill="none" stroke="#FFF" stroke-width="20" opacity="0.5"/>
+    <path d="M150 150 L850 150 L850 850 L150 850 Z" fill="none" stroke="#FFF" stroke-width="15" opacity="0.4"/>
+    <path d="M200 200 L800 200 L800 800 L200 800 Z" fill="none" stroke="#FFF" stroke-width="10" opacity="0.3"/>
+    <path d="M250 250 L750 250 L750 750 L250 750 Z" fill="none" stroke="#FFF" stroke-width="5" opacity="0.2"/>
+    <path d="M300 300 L700 300 L700 700 L300 700 Z" fill="none" stroke="#FFF" stroke-width="3" opacity="0.1"/>
+    <path d="M350 350 L650 350 L650 650 L350 650 Z" fill="none" stroke="#FFF" stroke-width="2" opacity="0.05"/>
+    <path d="M400 400 L600 400 L600 600 L400 600 Z" fill="none" stroke="#FFF" stroke-width="1" opacity="0.02"/>
+    <path d="M450 450 L550 450 L550 550 L450 550 Z" fill="none" stroke="#FFF" stroke-width="1" opacity="0.01"/>
+    <path d="M500 500 L500 500" fill="none" stroke="#FFF" stroke-width="1" opacity="0.005"/>
+  </g>
+  <text x="950" y="20" font-family="Arial" font-size="30" fill="#FFF" text-anchor="end">Γ</text>
+  <text x="950" y="5" font-family="Arial" font-size="15" fill="#FFF" text-anchor="end">ETA</text>
+</svg>

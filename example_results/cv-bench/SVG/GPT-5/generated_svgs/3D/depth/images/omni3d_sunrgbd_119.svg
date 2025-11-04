@@ -1,0 +1,142 @@
+<svg viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f1e9"/>
+      <stop offset="100%" stop-color="#e9e4da"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8c3bb"/>
+      <stop offset="100%" stop-color="#aca59c"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b2f22"/>
+      <stop offset="100%" stop-color="#2f1d15"/>
+    </linearGradient>
+    <linearGradient id="mattressTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e7e7e7"/>
+    </linearGradient>
+    <linearGradient id="mattressSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6e6e6"/>
+      <stop offset="100%" stop-color="#cfcfcf"/>
+    </linearGradient>
+    <linearGradient id="blueTextile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2f69b2"/>
+      <stop offset="100%" stop-color="#0c4e98"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="82%" cy="25%" r="18%">
+      <stop offset="0%" stop-color="#fff6d8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background wall -->
+  <rect x="0" y="0" width="900" height="460" fill="url(#wallGrad)"/>
+  <!-- Right lamp glow -->
+  <rect x="600" y="60" width="300" height="220" fill="url(#lampGlow)"/>
+
+  <!-- Floor -->
+  <path d="M0,430 L900,520 L900,650 L0,650 Z" fill="url(#floorGrad)"/>
+
+  <!-- Left nightstand -->
+  <g>
+    <rect x="60" y="380" width="200" height="170" rx="6" fill="url(#woodGrad)"/>
+    <rect x="75" y="395" width="170" height="30" rx="4" fill="#3b241a"/>
+    <rect x="75" y="440" width="170" height="40" rx="4" fill="#3b241a"/>
+    <rect x="75" y="490" width="170" height="45" rx="4" fill="#3b241a"/>
+    <rect x="155" y="455" width="20" height="8" rx="2" fill="#a98f7f"/>
+    <rect x="110" y="520" width="80" height="10" rx="2" fill="#d05050"/>
+  </g>
+
+  <!-- Left table lamp (simplified) -->
+  <g>
+    <polygon points="95,305 225,305 205,360 115,360" fill="#f0efe9" stroke="#d7d3c8"/>
+    <rect x="154" y="360" width="12" height="26" fill="#c7c3b8"/>
+    <rect x="145" y="386" width="30" height="6" rx="3" fill="#d8d4c9"/>
+  </g>
+
+  <!-- Headboard behind main bed -->
+  <g opacity="0.95">
+    <path d="M190,310 L640,300 L630,350 L205,360 Z" fill="url(#woodGrad)"/>
+  </g>
+
+  <!-- Main bed: mattress -->
+  <!-- Top surface -->
+  <polygon points="240,340 620,330 575,460 210,450" fill="url(#mattressTop)" stroke="#d9d9d9"/>
+  <!-- Side front -->
+  <polygon points="210,450 575,460 560,500 190,490" fill="url(#mattressSide)"/>
+  <!-- Side left -->
+  <polygon points="240,340 210,450 190,490 215,380" fill="#dadada"/>
+
+  <!-- Subtle quilt patterns on mattress -->
+  <g opacity="0.28" fill="none" stroke="#cfcfcf">
+    <path d="M280,380 C310,355 350,355 380,380 C410,405 450,405 480,380" stroke-width="2"/>
+    <path d="M300,410 C330,385 365,385 395,410 C425,435 465,435 495,410" stroke-width="2"/>
+    <path d="M255,390 C270,365 310,365 335,390" stroke-width="1.5"/>
+    <path d="M435,365 C465,350 505,355 525,380" stroke-width="1.5"/>
+  </g>
+
+  <!-- Blue pillows -->
+  <g>
+    <rect x="320" y="345" width="145" height="40" rx="20" fill="url(#blueTextile)" stroke="#0c4487"/>
+    <rect x="450" y="345" width="130" height="36" rx="18" fill="url(#blueTextile)" stroke="#0c4487"/>
+  </g>
+
+  <!-- Bed frame base -->
+  <polygon points="170,480 565,505 545,570 150,540" fill="#2a1a13"/>
+  <rect x="145" y="530" width="430" height="12" fill="#1b100c"/>
+
+  <!-- Foreground folded blue cover at right bottom -->
+  <path d="M520,520 L860,435 L900,470 L730,585 Q640,620 560,590 Z" fill="url(#blueTextile)" stroke="#0c4487"/>
+
+  <!-- Right secondary bed rail (simplified) -->
+  <g>
+    <polygon points="610,380 885,410 875,520 600,490" fill="#1f2630"/>
+    <rect x="640" y="410" width="225" height="12" rx="6" fill="#cfd6dc"/>
+    <rect x="635" y="442" width="233" height="12" rx="6" fill="#cfd6dc"/>
+    <rect x="630" y="475" width="240" height="12" rx="6" fill="#cfd6dc"/>
+  </g>
+
+  <!-- Right lamp on small table -->
+  <g>
+    <rect x="765" y="170" width="120" height="60" rx="6" fill="#f2f0e8" stroke="#dcd7cc"/>
+    <rect x="820" y="230" width="10" height="40" fill="#cec8ba"/>
+    <rect x="808" y="270" width="34" height="8" rx="4" fill="#e6dfd0"/>
+  </g>
+
+  <!-- Right wood dresser backing -->
+  <path d="M690,245 L810,260 L800,330 L675,315 Z" fill="url(#woodGrad)"/>
+
+  <!-- Picture frames -->
+  <g>
+    <!-- Left tall frame -->
+    <rect x="60" y="50" width="100" height="150" fill="#1f1c1a" rx="4"/>
+    <rect x="70" y="60" width="80" height="130" fill="#c8c0af"/>
+    <!-- Middle big frame -->
+    <rect x="320" y="0" width="180" height="160" fill="#1f1c1a" rx="6"/>
+    <rect x="332" y="12" width="156" height="136" fill="#cfc9bc"/>
+    <!-- Narrow frame -->
+    <rect x="560" y="30" width="90" height="140" fill="#1f1c1a" rx="6"/>
+    <rect x="570" y="40" width="70" height="120" fill="#cfc9bc"/>
+    <!-- Right horse frame -->
+    <rect x="680" y="0" width="170" height="170" fill="#1f1c1a" rx="8"/>
+    <rect x="692" y="12" width="146" height="146" fill="#c9c2b5"/>
+  </g>
+
+  <!-- Small price tags on wall -->
+  <g fill="#e7edf6" stroke="#b6c1cc" stroke-width="0.8">
+    <rect x="250" y="160" width="16" height="22" rx="2"/>
+    <rect x="505" y="165" width="16" height="22" rx="2"/>
+    <rect x="620" y="175" width="16" height="22" rx="2"/>
+    <rect x="210" y="240" width="16" height="22" rx="2"/>
+    <rect x="705" y="200" width="16" height="22" rx="2"/>
+  </g>
+
+  <!-- Highlight rectangles per instruction -->
+  <rect x="760" y="155" width="150" height="130" fill="none" stroke="#ff2a2a" stroke-width="6"/>
+  <rect x="470" y="385" width="200" height="120" fill="none" stroke="#2a53ff" stroke-width="6"/>
+
+  <!-- Subtle shadows -->
+  <ellipse cx="380" cy="520" rx="210" ry="28" fill="#000" opacity="0.12"/>
+  <ellipse cx="780" cy="520" rx="180" ry="22" fill="#000" opacity="0.08"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg viewBox="0 0 5 5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="0.1" markerHeight="0.1" refX="0.05" refY="0.05" orient="auto">
+      <path d="M0,0 L0.1,0.05 L0,0.1 Z" fill="black"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="1.4" width="3.5" height="1.0" fill="none" stroke="black"/>
+  <rect x="1.25" y="0.9" width="2.0" height="0.5" fill="none" stroke="black"/>
+  <rect x="2.05" y="0.5" width="0.4" height="0.4" fill="none" stroke="black"/>
+  <line x1="2.25" y1="0.5" x2="2.25" y2="0.7" stroke="black" marker-end="url(#arrow)"/>
+  <path d="M2.25 0.5 A0.1 0.1 0 0 1 2.35 0.4" stroke="black" fill="none"/>
+  <rect x="0.5" y="2.9" width="3.5" height="2.0" fill="none" stroke="black"/>
+  <rect x="2.05" y="3.7" width="0.4" height="0.4" fill="none" stroke="black"/>
+</svg>

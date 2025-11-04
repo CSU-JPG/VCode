@@ -1,0 +1,138 @@
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Table border -->
+  <rect x="10" y="10" width="880" height="380" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Header row -->
+  <rect x="10" y="10" width="60" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="10" width="280" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="10" width="160" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="10" width="220" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="10" width="160" height="30" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Header text -->
+  <text x="40" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Rank</text>
+  <text x="210" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Name of disease</text>
+  <text x="430" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Number of cases</text>
+  <text x="620" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Name of disease</text>
+  <text x="810" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Number of deaths</text>
+  
+  <!-- Row 1 -->
+  <rect x="10" y="40" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="40" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="40" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="40" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="40" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="62" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">1</text>
+  <text x="80" y="62" font-family="Arial, sans-serif" font-size="12">Viral hepatitis</text>
+  <text x="430" y="62" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">1223021</text>
+  <text x="520" y="62" font-family="Arial, sans-serif" font-size="12">AIDS</text>
+  <text x="810" y="62" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">12030</text>
+  
+  <!-- Row 2 -->
+  <rect x="10" y="75" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="75" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="75" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="75" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="75" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="97" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">2</text>
+  <text x="80" y="97" font-family="Arial, sans-serif" font-size="12">Tuberculosis</text>
+  <text x="430" y="97" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">889381</text>
+  <text x="520" y="97" font-family="Arial, sans-serif" font-size="12">Tuberculosis</text>
+  <text x="810" y="97" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">2240</text>
+  
+  <!-- Row 3 -->
+  <rect x="10" y="110" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="110" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="110" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="110" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="110" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="132" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">3</text>
+  <text x="80" y="132" font-family="Arial, sans-serif" font-size="12">Syphilis</text>
+  <text x="430" y="132" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">419091</text>
+  <text x="520" y="132" font-family="Arial, sans-serif" font-size="12">Rabies</text>
+  <text x="810" y="132" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">854</text>
+  
+  <!-- Row 4 -->
+  <rect x="10" y="145" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="145" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="145" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="145" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="145" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="167" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">4</text>
+  <text x="80" y="167" font-family="Arial, sans-serif" font-size="12">Bacterial and amoebic dysentery</text>
+  <text x="430" y="167" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">153585</text>
+  <text x="520" y="167" font-family="Arial, sans-serif" font-size="12">Viral hepatitis</text>
+  <text x="810" y="167" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">515</text>
+  
+  <!-- Row 5 -->
+  <rect x="10" y="180" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="180" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="180" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="180" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="180" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="202" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">5</text>
+  <text x="80" y="202" font-family="Arial, sans-serif" font-size="12">Gonorrhea</text>
+  <text x="430" y="202" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">95473</text>
+  <text x="520" y="202" font-family="Arial, sans-serif" font-size="12">Human H7N9 avian influenza</text>
+  <text x="810" y="202" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">135</text>
+  
+  <!-- Row 6 -->
+  <rect x="10" y="215" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="215" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="215" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="215" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="215" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="237" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">6</text>
+  <text x="80" y="237" font-family="Arial, sans-serif" font-size="12">Brucellosis</text>
+  <text x="430" y="237" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">57222</text>
+  <text x="520" y="237" font-family="Arial, sans-serif" font-size="12">epidemic haemorrhagic fever</text>
+  <text x="810" y="237" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">79</text>
+  
+  <!-- Row 7 -->
+  <rect x="10" y="250" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="250" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="250" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="250" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="250" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="272" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">7</text>
+  <text x="80" y="272" font-family="Arial, sans-serif" font-size="12">Scarlet fever</text>
+  <text x="430" y="272" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">54247</text>
+  <text x="520" y="272" font-family="Arial, sans-serif" font-size="12">Syphilis</text>
+  <text x="810" y="272" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">69</text>
+  
+  <!-- Row 8 -->
+  <rect x="10" y="285" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="285" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="285" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="285" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="285" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="307" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">8</text>
+  <text x="80" y="307" font-family="Arial, sans-serif" font-size="12">Measles</text>
+  <text x="430" y="307" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">52628</text>
+  <text x="520" y="307" font-family="Arial, sans-serif" font-size="12">Epidemic encephalitis B</text>
+  <text x="810" y="307" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">29</text>
+  
+  <!-- Row 9 -->
+  <rect x="10" y="320" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="320" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="320" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="320" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="320" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="342" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">9</text>
+  <text x="80" y="342" font-family="Arial, sans-serif" font-size="12">Dengue fever</text>
+  <text x="430" y="342" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">46864</text>
+  <text x="520" y="342" font-family="Arial, sans-serif" font-size="12">Measles</text>
+  <text x="810" y="342" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">28</text>
+  
+  <!-- Row 10 -->
+  <rect x="10" y="355" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="70" y="355" width="280" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="350" y="355" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="510" y="355" width="220" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="730" y="355" width="160" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <text x="40" y="377" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">10</text>
+  <text x="80" y="377" font-family="Arial, sans-serif" font-size="12">AIDS</text>
+  <text x="430" y="377" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">45145</text>
+  <text x="520" y="377" font-family="Arial, sans-serif" font-size="12">Malaria</text>
+  <text x="810" y="377" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">24</text>
+</svg>

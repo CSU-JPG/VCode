@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .container { fill: #f9f9f9; stroke: #666; stroke-width: 2; }
+    .lid { fill: #aaa; stroke: #666; stroke-width: 1; }
+    .particle { stroke: #333; stroke-width: 1; }
+    .green-particle { fill: #4CAF50; }
+    .blue-particle { fill: #2196F3; }
+    .motion-lines { stroke: #666; stroke-width: 1.5; stroke-linecap: round; }
+    .label { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; }
+    .sub-label { font-family: Arial, sans-serif; font-size: 14px; text-anchor: start; }
+  </style>
+
+  <!-- Sample A Container -->
+  <rect x="50" y="100" width="200" height="300" rx="20" ry="20" class="container"/>
+  <rect x="70" y="90" width="160" height="20" rx="5" ry="5" class="lid"/>
+  <text x="150" y="420" class="label">Sample A</text>
+  <text x="50" y="450" class="sub-label">Mass of each particle: 44 u</text>
+  <text x="50" y="480" class="sub-label">Average particle speed: 830 m/s</text>
+
+  <!-- Green Particles in Sample A -->
+  <circle cx="80" cy="150" r="15" class="particle green-particle"/>
+  <path d="M85,140 C90,135 95,135 100,140" class="motion-lines"/>
+  <path d="M75,160 C70,165 65,165 60,160" class="motion-lines"/>
+
+  <circle cx="120" cy="200" r="15" class="particle green-particle"/>
+  <path d="M125,190 C130,185 135,185 140,190" class="motion-lines"/>
+  <path d="M115,210 C110,215 105,215 100,210" class="motion-lines"/>
+
+  <circle cx="160" cy="130" r="15" class="particle green-particle"/>
+  <path d="M165,120 C170,115 175,115 180,120" class="motion-lines"/>
+  <path d="M155,140 C150,145 145,145 140,140" class="motion-lines"/>
+
+  <circle cx="200" cy="180" r="15" class="particle green-particle"/>
+  <path d="M205,170 C210,165 215,165 220,170" class="motion-lines"/>
+  <path d="M195,190 C190,195 185,195 180,190" class="motion-lines"/>
+
+  <circle cx="90" cy="250" r="15" class="particle green-particle"/>
+  <path d="M95,240 C100,235 105,235 110,240" class="motion-lines"/>
+  <path d="M85,260 C80,265 75,265 70,260" class="motion-lines"/>
+
+  <circle cx="140" cy="280" r="15" class="particle green-particle"/>
+  <path d="M145,270 C150,265 155,265 160,270" class="motion-lines"/>
+  <path d="M135,290 C130,295 125,295 120,290" class="motion-lines"/>
+
+  <circle cx="180" cy="250" r="15" class="particle green-particle"/>
+  <path d="M185,240 C190,235 195,235 200,240" class="motion-lines"/>
+  <path d="M175,260 C170,265 165,265 160,260" class="motion-lines"/>
+
+  <circle cx="100" cy="320" r="15" class="particle green-particle"/>
+  <path d="M105,310 C110,305 115,305 120,310" class="motion-lines"/>
+  <path d="M95,330 C90,335 85,335 80,330" class="motion-lines"/>
+
+  <circle cx="160" cy="330" r="15" class="particle green-particle"/>
+  <path d="M165,320 C170,315 175,315 180,320" class="motion-lines"/>
+  <path d="M155,340 C150,345 145,345 140,340" class="motion-lines"/>
+
+  <circle cx="210" cy="300" r="15" class="particle green-particle"/>
+  <path d="M215,290 C220,285 225,285 230,290" class="motion-lines"/>
+  <path d="M205,310 C200,315 195,315 190,310" class="motion-lines"/>
+
+  <!-- Sample B Container -->
+  <rect x="450" y="100" width="200" height="300" rx="20" ry="20" class="container"/>
+  <rect x="470" y="90" width="160" height="20" rx="5" ry="5" class="lid"/>
+  <text x="550" y="420" class="label">Sample B</text>
+  <text x="450" y="450" class="sub-label">Mass of each particle: 36 u</text>
+  <text x="450" y="480" class="sub-label">Average particle speed: 690 m/s</text>
+
+  <!-- Blue Particles in Sample B -->
+  <circle cx="480" cy="150" r="12" class="particle blue-particle"/>
+  <path d="M485,145 C490,140 495,140 500,145" class="motion-lines"/>
+
+  <circle cx="520" cy="190" r="12" class="particle blue-particle"/>
+  <path d="M525,185 C530,180 535,180 540,185" class="motion-lines"/>
+
+  <circle cx="560" cy="140" r="12" class="particle blue-particle"/>
+  <path d="M565,135 C570,130 575,130 580,135" class="motion-lines"/>
+
+  <circle cx="500" cy="230" r="12" class="particle blue-particle"/>
+  <path d="M505,225 C510,220 515,220 520,225" class="motion-lines"/>
+
+  <circle cx="540" cy="260" r="12" class="particle blue-particle"/>
+  <path d="M545,255 C550,250 555,250 560,255" class="motion-lines"/>
+
+  <circle cx="580" cy="220" r="12" class="particle blue-particle"/>
+  <path d="M585,215 C590,210 595,210 600,215" class="motion-lines"/>
+
+  <circle cx="490" cy="300" r="12" class="particle blue-particle"/>
+  <path d="M495,295 C500,290 505,290 510,295" class="motion-lines"/>
+
+  <circle cx="530" cy="320" r="12" class="particle blue-particle"/>
+  <path d="M535,315 C540,310 545,310 550,315" class="motion-lines"/>
+
+  <circle cx="570" cy="290" r="12" class="particle blue-particle"/>
+  <path d="M575,285 C580,280 585,280 590,285" class="motion-lines"/>
+
+  <circle cx="510" cy="350" r="12" class="particle blue-particle"/>
+  <path d="M515,345 C520,340 525,340 530,345" class="motion-lines"/>
+
+  <!-- Title Text -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles.
+  </text>
+</svg>

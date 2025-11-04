@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue circle -->
+  <circle cx="500" cy="300" r="240" fill="#1a4d9f"/>
+  
+  <!-- Red triangle -->
+  <polygon points="200,150 200,450 550,300" fill="none" stroke="#c41e3a" stroke-width="8"/>
+  
+  <!-- Text: Self-Identity -->
+  <text x="100" y="290" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#c41e3a" text-anchor="middle">Self-</text>
+  <text x="100" y="330" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#c41e3a" text-anchor="middle">Identity</text>
+  
+  <!-- Text inside circle -->
+  <text x="500" y="110" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="white" text-anchor="middle">Values</text>
+  
+  <text x="380" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Habits</text>
+  
+  <text x="640" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Physical</text>
+  <text x="640" y="230" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Features</text>
+  
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Personality</text>
+  
+  <text x="320" y="270" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Career</text>
+  
+  <text x="620" y="280" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Goals</text>
+  
+  <text x="450" y="310" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="white" text-anchor="middle">Emotion</text>
+  
+  <text x="350" y="350" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Beliefs</text>
+  
+  <text x="620" y="360" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Dreams</text>
+  
+  <text x="410" y="400" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Interests</text>
+  
+  <text x="600" y="430" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Talents</text>
+  
+  <text x="450" y="470" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">Principles</text>
+</svg>

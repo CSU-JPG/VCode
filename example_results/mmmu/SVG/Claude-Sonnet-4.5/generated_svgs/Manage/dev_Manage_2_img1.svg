@@ -1,0 +1,83 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="white"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Number Unemployed, by Level of Education</text>
+  
+  <!-- Chart border -->
+  <rect x="100" y="80" width="650" height="450" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Horizontal grid lines -->
+  <line x1="100" y1="530" x2="750" y2="530" stroke="#cccccc" stroke-width="1"/>
+  <line x1="100" y1="455" x2="750" y2="455" stroke="#cccccc" stroke-width="1"/>
+  <line x1="100" y1="380" x2="750" y2="380" stroke="#cccccc" stroke-width="1"/>
+  <line x1="100" y1="305" x2="750" y2="305" stroke="#cccccc" stroke-width="1"/>
+  <line x1="100" y1="230" x2="750" y2="230" stroke="#cccccc" stroke-width="1"/>
+  <line x1="100" y1="155" x2="750" y2="155" stroke="#cccccc" stroke-width="1"/>
+  <line x1="100" y1="80" x2="750" y2="80" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Y-axis labels -->
+  <text x="80" y="535" font-family="Arial, sans-serif" font-size="16" text-anchor="end">0</text>
+  <text x="80" y="460" font-family="Arial, sans-serif" font-size="16" text-anchor="end">2</text>
+  <text x="80" y="385" font-family="Arial, sans-serif" font-size="16" text-anchor="end">4</text>
+  <text x="80" y="310" font-family="Arial, sans-serif" font-size="16" text-anchor="end">6</text>
+  <text x="80" y="235" font-family="Arial, sans-serif" font-size="16" text-anchor="end">8</text>
+  <text x="80" y="160" font-family="Arial, sans-serif" font-size="16" text-anchor="end">10</text>
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="16" text-anchor="end">12</text>
+  <text x="80" y="72" font-family="Arial, sans-serif" font-size="16" text-anchor="end">14</text>
+  
+  <!-- Y-axis label -->
+  <text x="30" y="305" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" transform="rotate(-90 30 305)">Unemployed workers (thousands)</text>
+  
+  <!-- X-axis labels -->
+  <text x="165" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">June</text>
+  <text x="295" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">July</text>
+  <text x="425" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">August</text>
+  <text x="555" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">September</text>
+  <text x="685" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">October</text>
+  
+  <!-- Less than high school diploma line (diamonds) -->
+  <polyline points="165,117 295,110 425,137 555,157 685,123" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 165,107 L 175,117 L 165,127 L 155,117 Z" fill="black"/>
+  <path d="M 295,100 L 305,110 L 295,120 L 285,110 Z" fill="black"/>
+  <path d="M 425,127 L 435,137 L 425,147 L 415,137 Z" fill="black"/>
+  <path d="M 555,147 L 565,157 L 555,167 L 545,157 Z" fill="black"/>
+  <path d="M 685,113 L 695,123 L 685,133 L 675,123 Z" fill="black"/>
+  
+  <!-- High school diploma, no college line (squares) -->
+  <polyline points="165,242 295,223 425,218 555,223 685,235" fill="none" stroke="black" stroke-width="2"/>
+  <rect x="157" y="234" width="16" height="16" fill="black"/>
+  <rect x="287" y="215" width="16" height="16" fill="black"/>
+  <rect x="417" y="210" width="16" height="16" fill="black"/>
+  <rect x="547" y="215" width="16" height="16" fill="black"/>
+  <rect x="677" y="227" width="16" height="16" fill="black"/>
+  
+  <!-- Some college line (triangles) -->
+  <polyline points="165,282 295,298 425,312 555,318 685,305" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 165,292 L 155,277 L 175,277 Z" fill="black"/>
+  <path d="M 295,308 L 285,293 L 305,293 Z" fill="black"/>
+  <path d="M 425,322 L 415,307 L 435,307 Z" fill="black"/>
+  <path d="M 555,328 L 545,313 L 565,313 Z" fill="black"/>
+  <path d="M 685,315 L 675,300 L 695,300 Z" fill="black"/>
+  
+  <!-- Bachelor's degree and higher line (circles) -->
+  <polyline points="165,380 295,380 425,380 555,380 685,387" fill="none" stroke="black" stroke-width="2"/>
+  <circle cx="165" cy="380" r="6" fill="black"/>
+  <circle cx="295" cy="380" r="6" fill="black"/>
+  <circle cx="425" cy="380" r="6" fill="black"/>
+  <circle cx="555" cy="380" r="6" fill="black"/>
+  <circle cx="685" cy="387" r="6" fill="black"/>
+  
+  <!-- Legend -->
+  <text x="485" y="120" font-family="Arial, sans-serif" font-size="14" text-anchor="start">Less than a high school</text>
+  <text x="485" y="138" font-family="Arial, sans-serif" font-size="14" text-anchor="start">diploma</text>
+  
+  <text x="485" y="185" font-family="Arial, sans-serif" font-size="14" text-anchor="start">High school diploma, no</text>
+  <text x="485" y="203" font-family="Arial, sans-serif" font-size="14" text-anchor="start">college</text>
+  
+  <text x="485" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="start">Some college</text>
+  
+  <text x="485" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="start">Bachelor's degree and</text>
+  <text x="485" y="333" font-family="Arial, sans-serif" font-size="14" text-anchor="start">higher</text>
+</svg>

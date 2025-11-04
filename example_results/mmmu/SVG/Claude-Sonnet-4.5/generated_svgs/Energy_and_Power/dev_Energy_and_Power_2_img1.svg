@@ -1,0 +1,67 @@
+<svg viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pipe outline -->
+  <path d="M 50 30 L 180 180 L 170 188 L 40 38 Z" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Dotted pattern inside pipe -->
+  <g>
+    <circle cx="60" cy="50" r="1" fill="black"/>
+    <circle cx="70" cy="58" r="1" fill="black"/>
+    <circle cx="80" cy="66" r="1" fill="black"/>
+    <circle cx="90" cy="74" r="1" fill="black"/>
+    <circle cx="100" cy="82" r="1" fill="black"/>
+    <circle cx="110" cy="90" r="1" fill="black"/>
+    <circle cx="120" cy="98" r="1" fill="black"/>
+    <circle cx="130" cy="106" r="1" fill="black"/>
+    <circle cx="140" cy="114" r="1" fill="black"/>
+    <circle cx="150" cy="122" r="1" fill="black"/>
+    <circle cx="160" cy="130" r="1" fill="black"/>
+    <circle cx="170" cy="138" r="1" fill="black"/>
+    
+    <circle cx="55" cy="55" r="1" fill="black"/>
+    <circle cx="65" cy="63" r="1" fill="black"/>
+    <circle cx="75" cy="71" r="1" fill="black"/>
+    <circle cx="85" cy="79" r="1" fill="black"/>
+    <circle cx="95" cy="87" r="1" fill="black"/>
+    <circle cx="105" cy="95" r="1" fill="black"/>
+    <circle cx="115" cy="103" r="1" fill="black"/>
+    <circle cx="125" cy="111" r="1" fill="black"/>
+    <circle cx="135" cy="119" r="1" fill="black"/>
+    <circle cx="145" cy="127" r="1" fill="black"/>
+    <circle cx="155" cy="135" r="1" fill="black"/>
+    <circle cx="165" cy="143" r="1" fill="black"/>
+    <circle cx="175" cy="151" r="1" fill="black"/>
+    
+    <circle cx="68" cy="45" r="1" fill="black"/>
+    <circle cx="78" cy="53" r="1" fill="black"/>
+    <circle cx="88" cy="61" r="1" fill="black"/>
+    <circle cx="98" cy="69" r="1" fill="black"/>
+    <circle cx="108" cy="77" r="1" fill="black"/>
+    <circle cx="118" cy="85" r="1" fill="black"/>
+    <circle cx="128" cy="93" r="1" fill="black"/>
+    <circle cx="138" cy="101" r="1" fill="black"/>
+    <circle cx="148" cy="109" r="1" fill="black"/>
+    <circle cx="158" cy="117" r="1" fill="black"/>
+    <circle cx="168" cy="125" r="1" fill="black"/>
+    <circle cx="178" cy="133" r="1" fill="black"/>
+  </g>
+  
+  <!-- Top circle with 1 -->
+  <circle cx="60" cy="25" r="12" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="60" y="30" font-family="serif" font-size="14" text-anchor="middle" fill="black">1</text>
+  
+  <!-- Bottom circle with 2 -->
+  <circle cx="185" cy="180" r="12" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="185" y="185" font-family="serif" font-size="14" text-anchor="middle" fill="black">2</text>
+  
+  <!-- Arrow pointing to bottom circle -->
+  <path d="M 195 195 L 185 200 L 175 195" fill="none" stroke="black" stroke-width="1"/>
+  <text x="195" y="210" font-family="serif" font-size="11" text-anchor="start" fill="black">A</text>
+  
+  <!-- Text label -->
+  <text x="200" y="80" font-family="serif" font-size="12" text-anchor="start" fill="black">Constant-</text>
+  <text x="200" y="93" font-family="serif" font-size="12" text-anchor="start" fill="black">diameter</text>
+  <text x="200" y="106" font-family="serif" font-size="12" text-anchor="start" fill="black">pipe</text>
+  
+  <!-- Figure label -->
+  <text x="45" y="235" font-family="serif" font-size="14" font-weight="bold" text-anchor="start" fill="black">Fig. P3.133</text>
+</svg>

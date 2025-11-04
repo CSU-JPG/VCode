@@ -1,0 +1,162 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Floor -->
+  <rect width="1400" height="800" fill="#f5f5f5"/>
+  
+  <!-- Wall Background -->
+  <rect x="0" y="0" width="1400" height="600" fill="#fff8e6"/>
+  
+  <!-- Vertical Slats -->
+  <g fill="#d2b48c">
+    <rect x="0" y="0" width="2" height="600"/>
+    <rect x="20" y="0" width="2" height="600"/>
+    <rect x="40" y="0" width="2" height="600"/>
+    <rect x="60" y="0" width="2" height="600"/>
+    <rect x="80" y="0" width="2" height="600"/>
+    <rect x="100" y="0" width="2" height="600"/>
+    <rect x="120" y="0" width="2" height="600"/>
+    <rect x="140" y="0" width="2" height="600"/>
+    <rect x="160" y="0" width="2" height="600"/>
+    <rect x="180" y="0" width="2" height="600"/>
+    <rect x="200" y="0" width="2" height="600"/>
+    <rect x="220" y="0" width="2" height="600"/>
+    <rect x="240" y="0" width="2" height="600"/>
+    <rect x="260" y="0" width="2" height="600"/>
+    <rect x="280" y="0" width="2" height="600"/>
+    <rect x="300" y="0" width="2" height="600"/>
+    <rect x="320" y="0" width="2" height="600"/>
+    <rect x="340" y="0" width="2" height="600"/>
+    <rect x="360" y="0" width="2" height="600"/>
+    <rect x="380" y="0" width="2" height="600"/>
+    <rect x="400" y="0" width="2" height="600"/>
+    <rect x="420" y="0" width="2" height="600"/>
+    <rect x="440" y="0" width="2" height="600"/>
+    <rect x="460" y="0" width="2" height="600"/>
+    <rect x="480" y="0" width="2" height="600"/>
+    <rect x="500" y="0" width="2" height="600"/>
+    <rect x="520" y="0" width="2" height="600"/>
+    <rect x="540" y="0" width="2" height="600"/>
+    <rect x="560" y="0" width="2" height="600"/>
+    <rect x="580" y="0" width="2" height="600"/>
+    <rect x="600" y="0" width="2" height="600"/>
+    <rect x="620" y="0" width="2" height="600"/>
+    <rect x="640" y="0" width="2" height="600"/>
+    <rect x="660" y="0" width="2" height="600"/>
+    <rect x="680" y="0" width="2" height="600"/>
+    <rect x="700" y="0" width="2" height="600"/>
+    <rect x="720" y="0" width="2" height="600"/>
+    <rect x="740" y="0" width="2" height="600"/>
+    <rect x="760" y="0" width="2" height="600"/>
+    <rect x="780" y="0" width="2" height="600"/>
+    <rect x="800" y="0" width="2" height="600"/>
+    <rect x="820" y="0" width="2" height="600"/>
+    <rect x="840" y="0" width="2" height="600"/>
+    <rect x="860" y="0" width="2" height="600"/>
+    <rect x="880" y="0" width="2" height="600"/>
+    <rect x="900" y="0" width="2" height="600"/>
+    <rect x="920" y="0" width="2" height="600"/>
+    <rect x="940" y="0" width="2" height="600"/>
+    <rect x="960" y="0" width="2" height="600"/>
+    <rect x="980" y="0" width="2" height="600"/>
+    <rect x="1000" y="0" width="2" height="600"/>
+    <rect x="1020" y="0" width="2" height="600"/>
+    <rect x="1040" y="0" width="2" height="600"/>
+    <rect x="1060" y="0" width="2" height="600"/>
+    <rect x="1080" y="0" width="2" height="600"/>
+    <rect x="1100" y="0" width="2" height="600"/>
+    <rect x="1120" y="0" width="2" height="600"/>
+    <rect x="1140" y="0" width="2" height="600"/>
+    <rect x="1160" y="0" width="2" height="600"/>
+    <rect x="1180" y="0" width="2" height="600"/>
+    <rect x="1200" y="0" width="2" height="600"/>
+    <rect x="1220" y="0" width="2" height="600"/>
+    <rect x="1240" y="0" width="2" height="600"/>
+    <rect x="1260" y="0" width="2" height="600"/>
+    <rect x="1280" y="0" width="2" height="600"/>
+    <rect x="1300" y="0" width="2" height="600"/>
+    <rect x="1320" y="0" width="2" height="600"/>
+    <rect x="1340" y="0" width="2" height="600"/>
+    <rect x="1360" y="0" width="2" height="600"/>
+    <rect x="1380" y="0" width="2" height="600"/>
+  </g>
+  
+  <!-- Wave Pattern -->
+  <path d="M0 200 Q 200 100 400 200 T 800 200 T 1200 200 T 1400 200 V 0 H 0 Z" fill="white" opacity="0.8"/>
+  
+  <!-- Ceiling -->
+  <rect y="0" width="1400" height="100" fill="#0077be"/>
+  
+  <!-- Ceiling Lights -->
+  <g fill="white">
+    <circle cx="100" cy="50" r="4"/>
+    <circle cx="150" cy="50" r="4"/>
+    <circle cx="200" cy="50" r="4"/>
+    <circle cx="250" cy="50" r="4"/>
+    <circle cx="300" cy="50" r="4"/>
+    <circle cx="350" cy="50" r="4"/>
+    <circle cx="400" cy="50" r="4"/>
+    <circle cx="450" cy="50" r="4"/>
+    <circle cx="500" cy="50" r="4"/>
+    <circle cx="550" cy="50" r="4"/>
+    <circle cx="600" cy="50" r="4"/>
+    <circle cx="650" cy="50" r="4"/>
+    <circle cx="700" cy="50" r="4"/>
+    <circle cx="750" cy="50" r="4"/>
+    <circle cx="800" cy="50" r="4"/>
+    <circle cx="850" cy="50" r="4"/>
+    <circle cx="900" cy="50" r="4"/>
+    <circle cx="950" cy="50" r="4"/>
+    <circle cx="1000" cy="50" r="4"/>
+    <circle cx="1050" cy="50" r="4"/>
+    <circle cx="1100" cy="50" r="4"/>
+    <circle cx="1150" cy="50" r="4"/>
+    <circle cx="1200" cy="50" r="4"/>
+    <circle cx="1250" cy="50" r="4"/>
+    <circle cx="1300" cy="50" r="4"/>
+    <circle cx="1350" cy="50" r="4"/>
+  </g>
+  
+  <!-- Booths -->
+  <g fill="#ffcc00">
+    <rect x="0" y="580" width="400" height="120"/>
+    <rect x="420" y="580" width="400" height="120"/>
+    <rect x="840" y="580" width="400" height="120"/>
+  </g>
+  
+  <!-- Tables -->
+  <g fill="#e0e0e0">
+    <rect x="50" y="650" width="80" height="80"/>
+    <rect x="250" y="650" width="80" height="80"/>
+    <rect x="470" y="650" width="80" height="80"/>
+    <rect x="670" y="650" width="80" height="80"/>
+    <rect x="890" y="650" width="80" height="80"/>
+    <rect x="1090" y="650" width="80" height="80"/>
+  </g>
+  
+  <!-- Chairs -->
+  <g fill="#d2b48c">
+    <rect x="130" y="650" width="40" height="120"/>
+    <rect x="330" y="650" width="40" height="120"/>
+    <rect x="550" y="650" width="40" height="120"/>
+    <rect x="750" y="650" width="40" height="120"/>
+    <rect x="970" y="650" width="40" height="120"/>
+    <rect x="1170" y="650" width="40" height="120"/>
+  </g>
+  
+  <!-- Counter -->
+  <rect x="1200" y="500" width="200" height="100" fill="#ffcc00"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="680" r="5" fill="#0077be"/>
+  <circle cx="200" cy="680" r="5" fill="#0077be"/>
+  <circle cx="300" cy="680" r="5" fill="#0077be"/>
+  <circle cx="400" cy="680" r="5" fill="#0077be"/>
+  <circle cx="500" cy="680" r="5" fill="#0077be"/>
+  <circle cx="600" cy="680" r="5" fill="#0077be"/>
+  <circle cx="700" cy="680" r="5" fill="#0077be"/>
+  <circle cx="800" cy="680" r="5" fill="#0077be"/>
+  <circle cx="900" cy="680" r="5" fill="#0077be"/>
+  <circle cx="1000" cy="680" r="5" fill="#0077be"/>
+  <circle cx="1100" cy="680" r="5" fill="#0077be"/>
+  <circle cx="1200" cy="680" r="5" fill="#0077be"/>
+  <circle cx="1300" cy="680" r="5" fill="#0077be"/>
+</svg>

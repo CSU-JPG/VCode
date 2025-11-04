@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashed rectangle -->
+  <rect x="120" y="20" width="200" height="100" fill="none" stroke="black" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- Proton circle with plus sign -->
+  <circle cx="30" cy="70" r="15" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="30" y1="62" x2="30" y2="78" stroke="black" stroke-width="2"/>
+  <line x1="22" y1="70" x2="38" y2="70" stroke="black" stroke-width="2"/>
+  
+  <!-- Proton label -->
+  <text x="15" y="115" font-family="Arial" font-size="16" font-weight="bold">Proton</text>
+  
+  <!-- Arrow from proton to box -->
+  <line x1="50" y1="70" x2="110" y2="70" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- v label on arrow -->
+  <text x="75" y="65" font-family="Arial" font-size="14" font-style="italic">v</text>
+  
+  <!-- E label inside box -->
+  <text x="250" y="50" font-family="Arial" font-size="18" font-weight="bold">E</text>
+  
+  <!-- Upward arrows inside box -->
+  <line x1="170" y1="95" x2="170" y2="40" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="210" y1="95" x2="210" y2="40" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="250" y1="95" x2="250" y2="40" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="290" y1="95" x2="290" y2="40" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <linearGradient id="roomGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfcfcf"/>
+      <stop offset="1" stop-color="#a9a9a9"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#c7c7c7"/>
+    </linearGradient>
+    <linearGradient id="doorFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8ebef"/>
+      <stop offset="1" stop-color="#c9cfd6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background wall -->
+  <rect x="0" y="0" width="1024" height="520" fill="url(#wallGrad)"/>
+
+  <!-- Ceiling diagonal (soft) -->
+  <path d="M0,62 L1024,0" stroke="#dcdcdc" stroke-width="4" opacity="0.6"/>
+
+  <!-- Floor -->
+  <rect x="0" y="520" width="1024" height="248" fill="url(#floorGrad)"/>
+  <!-- Subtle floor boards -->
+  <g stroke="#d5d5d5" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="560" x2="1024" y2="560"/>
+    <line x1="0" y1="600" x2="1024" y2="600"/>
+    <line x1="0" y1="640" x2="1024" y2="640"/>
+    <line x1="0" y1="680" x2="1024" y2="680"/>
+    <line x1="0" y1="720" x2="1024" y2="720"/>
+  </g>
+
+  <!-- Recessed opening -->
+  <rect x="248" y="74" width="364" height="548" fill="#f7f7f7" stroke="#d0d0d0" stroke-width="2"/>
+  <rect x="278" y="104" width="304" height="488" fill="url(#roomGrad)"/>
+
+  <!-- Simple back wall art and sofa silhouettes (minimal, abstract) -->
+  <rect x="380" y="210" width="150" height="100" fill="#bcbcbc" opacity="0.6"/>
+  <rect x="410" y="330" width="210" height="100" rx="8" fill="#8e8e8e" opacity="0.6"/>
+  <rect x="300" y="360" width="90" height="80" rx="8" fill="#7d7d7d" opacity="0.6"/>
+  <rect x="530" y="360" width="50" height="80" rx="8" fill="#7d7d7d" opacity="0.6"/>
+
+  <!-- Green highlighted shelf with red top/bottom -->
+  <rect x="286" y="300" width="180" height="184" fill="none" stroke="#19c11f" stroke-width="8"/>
+  <line x1="286" y1="300" x2="466" y2="300" stroke="#e31b1b" stroke-width="8"/>
+  <line x1="286" y1="484" x2="466" y2="484" stroke="#e31b1b" stroke-width="8"/>
+
+  <!-- Tall leaning panel with blue outline -->
+  <polygon points="616,34 694,6 720,560 602,542" fill="url(#doorFill)" stroke="#2b5fff" stroke-width="8"/>
+  <!-- Panel details -->
+  <rect x="635" y="96" width="38" height="100" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  <rect x="646" y="258" width="42" height="140" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+</svg>

@@ -1,0 +1,194 @@
+<svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2efe7"/>
+      <stop offset="100%" stop-color="#e6e1d6"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9d9d9"/>
+      <stop offset="100%" stop-color="#bfbfbf"/>
+    </linearGradient>
+    <radialGradient id="rugGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2b61a8"/>
+      <stop offset="70%" stop-color="#1f4e8a"/>
+      <stop offset="100%" stop-color="#1a3f72"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Wall and floor -->
+  <rect x="0" y="0" width="900" height="550" fill="url(#wallGrad)"/>
+  <rect x="0" y="310" width="900" height="240" fill="url(#floorGrad)"/>
+
+  <!-- Bulletin strip on wall -->
+  <g opacity="0.9">
+    <rect x="40" y="40" width="820" height="16" fill="#d98a8a"/>
+    <g transform="translate(50,44)">
+      <rect x="0" y="0" width="18" height="8" fill="#4b79b6"/>
+      <rect x="26" y="0" width="18" height="8" fill="#f2c85b"/>
+      <rect x="52" y="0" width="18" height="8" fill="#70b36b"/>
+      <rect x="78" y="0" width="18" height="8" fill="#cf6b6b"/>
+      <rect x="104" y="0" width="18" height="8" fill="#7e6db8"/>
+      <rect x="130" y="0" width="18" height="8" fill="#f29b4b"/>
+      <rect x="156" y="0" width="18" height="8" fill="#4b79b6"/>
+      <rect x="182" y="0" width="18" height="8" fill="#f2c85b"/>
+      <rect x="208" y="0" width="18" height="8" fill="#70b36b"/>
+      <rect x="234" y="0" width="18" height="8" fill="#cf6b6b"/>
+      <rect x="260" y="0" width="18" height="8" fill="#7e6db8"/>
+      <rect x="286" y="0" width="18" height="8" fill="#f29b4b"/>
+      <rect x="312" y="0" width="18" height="8" fill="#4b79b6"/>
+      <rect x="338" y="0" width="18" height="8" fill="#f2c85b"/>
+      <rect x="364" y="0" width="18" height="8" fill="#70b36b"/>
+      <rect x="390" y="0" width="18" height="8" fill="#cf6b6b"/>
+      <rect x="416" y="0" width="18" height="8" fill="#7e6db8"/>
+      <rect x="442" y="0" width="18" height="8" fill="#f29b4b"/>
+      <rect x="468" y="0" width="18" height="8" fill="#4b79b6"/>
+      <rect x="494" y="0" width="18" height="8" fill="#f2c85b"/>
+      <rect x="520" y="0" width="18" height="8" fill="#70b36b"/>
+      <rect x="546" y="0" width="18" height="8" fill="#cf6b6b"/>
+      <rect x="572" y="0" width="18" height="8" fill="#7e6db8"/>
+      <rect x="598" y="0" width="18" height="8" fill="#f29b4b"/>
+      <rect x="624" y="0" width="18" height="8" fill="#4b79b6"/>
+      <rect x="650" y="0" width="18" height="8" fill="#f2c85b"/>
+      <rect x="676" y="0" width="18" height="8" fill="#70b36b"/>
+    </g>
+  </g>
+
+  <!-- Back shelves -->
+  <g transform="translate(360,245)">
+    <rect x="0" y="20" width="420" height="95" fill="#8a6136" stroke="#6e4a29" stroke-width="3" rx="6"/>
+    <line x1="0" y1="50" x2="420" y2="50" stroke="#6e4a29" stroke-width="3"/>
+    <!-- vertical dividers -->
+    <g stroke="#6e4a29" stroke-width="3">
+      <line x1="60" y1="20" x2="60" y2="115"/>
+      <line x1="120" y1="20" x2="120" y2="115"/>
+      <line x1="180" y1="20" x2="180" y2="115"/>
+      <line x1="240" y1="20" x2="240" y2="115"/>
+      <line x1="300" y1="20" x2="300" y2="115"/>
+      <line x1="360" y1="20" x2="360" y2="115"/>
+    </g>
+    <!-- books -->
+    <g transform="translate(10,28)">
+      <rect x="0" y="0" width="12" height="18" fill="#3e7acb"/>
+      <rect x="16" y="2" width="14" height="16" fill="#efbd48"/>
+      <rect x="34" y="3" width="10" height="15" fill="#65b96a"/>
+    </g>
+    <g transform="translate(70,28)">
+      <rect x="0" y="0" width="14" height="18" fill="#d46a6a"/>
+      <rect x="18" y="2" width="10" height="16" fill="#825fd1"/>
+      <rect x="32" y="4" width="10" height="14" fill="#4aa4d8"/>
+    </g>
+    <g transform="translate(130,28)">
+      <rect x="0" y="0" width="12" height="18" fill="#4aa4d8"/>
+      <rect x="16" y="2" width="10" height="16" fill="#f0912d"/>
+      <rect x="30" y="4" width="12" height="14" fill="#70b36b"/>
+    </g>
+    <g transform="translate(190,28)">
+      <rect x="0" y="0" width="12" height="18" fill="#3e7acb"/>
+      <rect x="16" y="2" width="10" height="16" fill="#efbd48"/>
+      <rect x="30" y="4" width="12" height="14" fill="#65b96a"/>
+    </g>
+    <g transform="translate(250,28)">
+      <rect x="0" y="0" width="14" height="18" fill="#d46a6a"/>
+      <rect x="18" y="2" width="10" height="16" fill="#825fd1"/>
+      <rect x="32" y="4" width="10" height="14" fill="#4aa4d8"/>
+    </g>
+    <g transform="translate(310,28)">
+      <rect x="0" y="0" width="12" height="18" fill="#4aa4d8"/>
+      <rect x="16" y="2" width="10" height="16" fill="#f0912d"/>
+      <rect x="30" y="4" width="12" height="14" fill="#70b36b"/>
+    </g>
+  </g>
+
+  <!-- Right black bin on shelf -->
+  <rect x="710" y="248" width="70" height="40" rx="6" fill="#1f1f1f"/>
+  <!-- Green bounding box around bin -->
+  <rect x="705" y="240" width="82" height="56" fill="none" stroke="#3ad14e" stroke-width="6"/>
+
+  <!-- Easel/whiteboard -->
+  <g transform="translate(290,220)">
+    <rect x="0" y="0" width="90" height="70" fill="#ffffff" stroke="#cfcfcf" stroke-width="4" rx="6"/>
+    <line x1="15" y1="70" x2="0" y2="115" stroke="#8a6e3b" stroke-width="6"/>
+    <line x1="75" y1="70" x2="95" y2="115" stroke="#8a6e3b" stroke-width="6"/>
+  </g>
+
+  <!-- Colorful rug -->
+  <ellipse cx="540" cy="320" rx="235" ry="115" fill="url(#rugGrad)" stroke="#d43a3a" stroke-width="24"/>
+  <ellipse cx="540" cy="320" rx="195" ry="95" fill="none" stroke="#e2c04d" stroke-width="8" opacity="0.5"/>
+  <g fill="#f5f5f5" opacity="0.8">
+    <circle cx="540" cy="320" r="10"/>
+    <circle cx="450" cy="320" r="7"/>
+    <circle cx="630" cy="320" r="7"/>
+    <circle cx="540" cy="280" r="7"/>
+    <circle cx="540" cy="360" r="7"/>
+    <circle cx="485" cy="285" r="6"/>
+    <circle cx="595" cy="355" r="6"/>
+  </g>
+
+  <!-- Left side low table -->
+  <g transform="translate(80,320) rotate(-6)">
+    <ellipse cx="0" cy="0" rx="115" ry="40" fill="#cdbb83" stroke="#b29f6d" stroke-width="6"/>
+  </g>
+
+  <!-- Center dark table -->
+  <ellipse cx="240" cy="360" rx="185" ry="85" fill="#2f3b4d" stroke="#1f2733" stroke-width="6"/>
+
+  <!-- Items on center table -->
+  <rect x="170" y="335" width="120" height="40" rx="6" fill="#1e5aa6"/>
+  <rect x="128" y="340" width="90" height="20" fill="#f29b4b" opacity="0.9"/>
+  <rect x="270" y="345" width="80" height="22" fill="#f29b4b" opacity="0.9"/>
+  <ellipse cx="205" cy="327" rx="22" ry="10" fill="#e1d35a"/>
+  <path d="M192,333 q12,-22 26,0 l-3,5 h-20 z" fill="#d8c14a"/>
+
+  <!-- Blue bounding box around tray area -->
+  <rect x="140" y="314" width="200" height="78" fill="none" stroke="#1e5aa6" stroke-width="8"/>
+
+  <!-- Chairs around center table -->
+  <g>
+    <g transform="translate(110,430) rotate(8)">
+      <rect x="-22" y="-16" width="44" height="32" rx="4" fill="#1a2640"/>
+      <rect x="-18" y="-45" width="36" height="26" rx="4" fill="#22324f"/>
+      <line x1="-18" y1="20" x2="-26" y2="48" stroke="#9a9a9a" stroke-width="5"/>
+      <line x1="18" y1="20" x2="26" y2="48" stroke="#9a9a9a" stroke-width="5"/>
+    </g>
+    <g transform="translate(240,440) rotate(4)">
+      <rect x="-22" y="-16" width="44" height="32" rx="4" fill="#1a2640"/>
+      <rect x="-18" y="-45" width="36" height="26" rx="4" fill="#22324f"/>
+      <line x1="-18" y1="20" x2="-26" y2="48" stroke="#9a9a9a" stroke-width="5"/>
+      <line x1="18" y1="20" x2="26" y2="48" stroke="#9a9a9a" stroke-width="5"/>
+    </g>
+    <g id="frontChair" transform="translate(360,415) rotate(12)">
+      <rect x="-24" y="-18" width="48" height="36" rx="4" fill="#1a2640"/>
+      <rect x="-20" y="-50" width="40" height="28" rx="4" fill="#22324f"/>
+      <line x1="-20" y1="22" x2="-28" y2="54" stroke="#9a9a9a" stroke-width="5"/>
+      <line x1="20" y1="22" x2="28" y2="54" stroke="#9a9a9a" stroke-width="5"/>
+    </g>
+  </g>
+
+  <!-- Red bounding box around front chair -->
+  <rect x="320" y="352" width="120" height="130" fill="none" stroke="#d73737" stroke-width="8"/>
+
+  <!-- Right round table -->
+  <ellipse cx="760" cy="390" rx="115" ry="70" fill="#f1d271" stroke="#d1b15a" stroke-width="6"/>
+  <rect x="720" y="360" width="80" height="22" fill="#f29b4b" opacity="0.9"/>
+
+  <!-- Small side table and chairs on left -->
+  <g transform="translate(45,410)">
+    <ellipse cx="0" cy="0" rx="95" ry="55" fill="#2f3b4d" stroke="#1f2733" stroke-width="6"/>
+    <g transform="translate(-70,40) rotate(-6)">
+      <rect x="-18" y="-14" width="36" height="28" rx="4" fill="#1a2640"/>
+      <rect x="-14" y="-38" width="28" height="22" rx="4" fill="#22324f"/>
+    </g>
+    <g transform="translate(70,40) rotate(6)">
+      <rect x="-18" y="-14" width="36" height="28" rx="4" fill="#1a2640"/>
+      <rect x="-14" y="-38" width="28" height="22" rx="4" fill="#22324f"/>
+    </g>
+  </g>
+
+  <!-- Right-side cubbies -->
+  <g transform="translate(810,220)">
+    <rect x="-60" y="0" width="90" height="110" fill="#332a1f" rx="6"/>
+    <rect x="-55" y="10" width="80" height="22" fill="#222" rx="4"/>
+    <rect x="-55" y="40" width="80" height="22" fill="#222" rx="4"/>
+    <rect x="-55" y="70" width="80" height="22" fill="#222" rx="4"/>
+  </g>
+</svg>

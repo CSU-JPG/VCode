@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base/mounting blocks -->
+  <ellipse cx="150" cy="320" rx="45" ry="25" fill="#b0b0b0" stroke="#404040" stroke-width="2"/>
+  <rect x="105" y="320" width="90" height="80" fill="#c0c0c0" stroke="#404040" stroke-width="2"/>
+  <ellipse cx="150" cy="400" rx="45" ry="25" fill="#d0d0d0" stroke="#404040" stroke-width="2"/>
+  
+  <ellipse cx="350" cy="360" rx="45" ry="25" fill="#b0b0b0" stroke="#404040" stroke-width="2"/>
+  <rect x="305" y="360" width="90" height="80" fill="#c0c0c0" stroke="#404040" stroke-width="2"/>
+  <ellipse cx="350" cy="440" rx="45" ry="25" fill="#d0d0d0" stroke="#404040" stroke-width="2"/>
+  
+  <!-- Steel shaft -->
+  <ellipse cx="150" cy="320" rx="25" ry="15" fill="#8c8c8c" stroke="#404040" stroke-width="2"/>
+  <rect x="125" y="250" width="50" height="70" fill="#9c9c9c" stroke="#404040" stroke-width="2"/>
+  <ellipse cx="150" cy="250" rx="25" ry="15" fill="#aaa" stroke="#404040" stroke-width="2"/>
+  
+  <rect x="125" y="250" width="400" height="30" fill="#9c9c9c" stroke="#404040" stroke-width="2"/>
+  <ellipse cx="525" cy="265" rx="15" ry="15" fill="#aaa" stroke="#404040" stroke-width="2"/>
+  
+  <ellipse cx="350" cy="360" rx="25" ry="15" fill="#8c8c8c" stroke="#404040" stroke-width="2"/>
+  <rect x="325" y="265" width="50" height="95" fill="#9c9c9c" stroke="#404040" stroke-width="2"/>
+  <ellipse cx="350" cy="265" rx="25" ry="15" fill="#aaa" stroke="#404040" stroke-width="2"/>
+  
+  <!-- Grinding wheel -->
+  <ellipse cx="620" cy="265" rx="120" ry="120" fill="#505050" stroke="#303030" stroke-width="3"/>
+  <g id="grooves">
+    <line x1="500" y1="265" x2="740" y2="265" stroke="#707070" stroke-width="1"/>
+    <line x1="620" y1="145" x2="620" y2="385" stroke="#707070" stroke-width="1"/>
+    <line x1="535" y1="180" x2="705" y2="350" stroke="#707070" stroke-width="1"/>
+    <line x1="535" y1="350" x2="705" y2="180" stroke="#707070" stroke-width="1"/>
+  </g>
+  <circle cx="620" cy="265" r="110" fill="none" stroke="#606060" stroke-width="2"/>
+  <circle cx="620" cy="265" r="90" fill="none" stroke="#606060" stroke-width="1"/>
+  <circle cx="620" cy="265" r="70" fill="none" stroke="#606060" stroke-width="1"/>
+  <circle cx="620" cy="265" r="50" fill="none" stroke="#606060" stroke-width="1"/>
+  
+  <!-- Center hub -->
+  <ellipse cx="620" cy="265" rx="35" ry="35" fill="#707070" stroke="#303030" stroke-width="2"/>
+  <ellipse cx="620" cy="265" rx="15" ry="15" fill="#404040" stroke="#303030" stroke-width="2"/>
+  
+  <!-- Dimension lines and arrows -->
+  <line x1="100" y1="500" x2="200" y2="500" stroke="#000" stroke-width="1.5" marker-end="url(#arrowhead)" marker-start="url(#arrowhead2)"/>
+  <text x="150" y="520" font-family="Arial" font-size="14" text-anchor="middle" fill="#000">20 in</text>
+  
+  <line x1="250" y1="520" x2="400" y2="520" stroke="#000" stroke-width="1.5" marker-end="url(#arrowhead)" marker-start="url(#arrowhead2)"/>
+  <text x="325" y="540" font-family="Arial" font-size="14" text-anchor="middle" fill="#000">12 in</text>
+  
+  <!-- Labels -->
+  <text x="150" y="200" font-family="Arial" font-size="13" text-anchor="middle" fill="#000">Pillow block</text>
+  <text x="150" y="215" font-family="Arial" font-size="13" text-anchor="middle" fill="#000">bearing</text>
+  <line x1="150" y1="220" x2="150" y2="240" stroke="#000" stroke-width="1"/>
+  
+  <text x="300" y="200" font-family="Arial" font-size="13" text-anchor="start" fill="#000">Steel shaft</text>
+  <line x1="295" y1="205" x2="250" y2="265" stroke="#000" stroke-width="1"/>
+  
+  <text x="680" y="180" font-family="Arial" font-size="13" text-anchor="start" fill="#000">Grinding wheel,</text>
+  <text x="680" y="195" font-family="Arial" font-size="13" text-anchor="start" fill="#000">60 lb</text>
+  <line x1="675" y1="200" x2="650" y2="230" stroke="#000" stroke-width="1"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#000"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="1" refY="3" orient="auto">
+      <polygon points="10 0, 0 3, 10 6" fill="#000"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#1a1a1a"/>
+  <rect x="100" y="100" width="800" height="800" fill="#222" stroke="#333" stroke-width="20"/>
+  <text x="500" y="220" font-family="serif" font-size="140" fill="#e6e6e6" text-anchor="middle" letter-spacing="5">HAVE</text>
+  <text x="500" y="340" font-family="cursive" font-size="160" fill="#e6e6e6" text-anchor="middle">yourself</text>
+  <text x="500" y="430" font-family="serif" font-size="120" fill="#e6e6e6" text-anchor="middle">A</text>
+  <text x="500" y="550" font-family="serif" font-size="180" fill="#e6e6e6" text-anchor="middle" letter-spacing="5">MERRY</text>
+  <text x="500" y="670" font-family="serif" font-size="100" fill="#e6e6e6" text-anchor="middle">LITTLE</text>
+  <text x="500" y="790" font-family="cursive" font-size="160" fill="#e6e6e6" text-anchor="middle">Christmas</text>
+  
+  <!-- Holly decorations -->
+  <g fill="#2e8b57">
+    <polygon points="530,150 550,160 560,180 550,200 530,210 510,200 500,180 510,160"/>
+    <polygon points="570,160 590,170 600,190 590,210 570,220 550,210 540,190 550,170"/>
+    <polygon points="600,180 620,190 630,210 620,230 600,240 580,230 570,210 580,190"/>
+  </g>
+  <g fill="#cc0000">
+    <circle cx="540" cy="240" r="10"/>
+    <circle cx="560" cy="250" r="10"/>
+    <circle cx="580" cy="240" r="10"/>
+  </g>
+  
+  <g fill="#2e8b57">
+    <polygon points="630,600 650,610 660,630 650,650 630,660 610,650 600,630 610,610"/>
+    <polygon points="670,610 690,620 700,640 690,660 670,670 650,660 640,640 650,620"/>
+    <polygon points="700,630 720,640 730,660 720,680 700,690 680,680 670,660 680,640"/>
+  </g>
+  <g fill="#cc0000">
+    <circle cx="650" cy="710" r="10"/>
+    <circle cx="670" cy="720" r="10"/>
+    <circle cx="690" cy="710" r="10"/>
+  </g>
+  
+  <!-- Berries on left -->
+  <g fill="#cc0000">
+    <circle cx="290" cy="290" r="8"/>
+    <circle cx="300" cy="310" r="8"/>
+    <circle cx="310" cy="330" r="8"/>
+    <circle cx="320" cy="350" r="8"/>
+    <circle cx="330" cy="370" r="8"/>
+  </g>
+  <g fill="#2e8b57">
+    <polygon points="270,300 280,310 290,330 280,350 270,360 260,350 250,330 260,310"/>
+    <polygon points="290,320 300,330 310,350 300,370 290,380 280,370 270,350 280,330"/>
+    <polygon points="310,340 320,350 330,370 320,390 310,400 300,390 290,370 300,350"/>
+  </g>
+  
+  <!-- Swirls -->
+  <path d="M160,220 C140,250 140,300 160,330 C180,360 200,400 220,430" fill="none" stroke="#e6e6e6" stroke-width="4"/>
+  <path d="M160,670 C140,640 140,590 160,560 C180,530 200,490 220,460" fill="none" stroke="#e6e6e6" stroke-width="4"/>
+  <path d="M840,220 C860,250 860,300 840,330 C820,360 800,400 780,430" fill="none" stroke="#e6e6e6" stroke-width="4"/>
+  <path d="M840,670 C860,640 860,590 840,560 C820,530 800,490 780,460" fill="none" stroke="#e6e6e6" stroke-width="4"/>
+  
+  <!-- Small leaf at bottom left -->
+  <g fill="#2e8b57">
+    <polygon points="150,780 170,790 180,810 170,830 150,840 130,830 120,810 130,790"/>
+  </g>
+</svg>

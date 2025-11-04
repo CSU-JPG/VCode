@@ -1,0 +1,33 @@
+<svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Battery -->
+  <rect x="20" y="60" width="5" height="20" fill="none" stroke="black"/>
+  <rect x="30" y="55" width="5" height="30" fill="none" stroke="black"/>
+  <!-- Left Resistor -->
+  <path d="M40 60 l10 -10 l10 10 l10 -10 l10 10 l10 -10 l10 10" stroke="black" fill="none"/>
+  <!-- Left Coil Core -->
+  <rect x="80" y="50" width="160" height="20" fill="none" stroke="black"/>
+  <!-- Left Coil Path -->
+  <path d="M80 60 q20 -20 40 0 q20 20 40 0 q20 -20 40 0 q20 20 40 0" stroke="black" fill="none"/>
+  <!-- Wires Left -->
+  <line x1="35" y1="60" x2="40" y2="60" stroke="black"/>
+  <line x1="90" y1="60" x2="80" y2="60" stroke="black"/>
+  <line x1="240" y1="60" x2="20" y2="60" stroke="black"/>
+  
+  <!-- Right Coil Core -->
+  <rect x="260" y="50" width="80" height="20" fill="none" stroke="black"/>
+  <!-- Right Coil Path -->
+  <path d="M260 60 q20 -20 40 0 q20 20 40 0" stroke="black" fill="none"/>
+  <!-- Right Resistor -->
+  <path d="M360 60 l10 -10 l10 10 l10 -10 l10 10" stroke="black" fill="none"/>
+  <!-- Current Source -->
+  <circle cx="420" cy="60" r="10" fill="none" stroke="black"/>
+  <line x1="420" y1="50" x2="420" y2="70" stroke="black"/>
+  <polygon points="420,50 415,55 425,55" fill="black"/>
+  <!-- Wires Right -->
+  <line x1="340" y1="60" x2="360" y2="60" stroke="black"/>
+  <line x1="400" y1="60" x2="420" y2="60" stroke="black"/>
+  
+  <!-- Labels -->
+  <text x="50" y="140" font-size="12">R_Left</text>
+  <text x="370" y="140" font-size="12">R_right</text>
+</svg>

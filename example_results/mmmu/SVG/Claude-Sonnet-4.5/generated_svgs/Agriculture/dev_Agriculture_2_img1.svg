@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="leafGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a8b896;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#9db084;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#8da872;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7a9660;stop-opacity:1" />
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" />
+    </filter>
+  </defs>
+  
+  <!-- Base leaf shape -->
+  <ellipse cx="600" cy="400" rx="550" ry="380" fill="url(#leafGradient)" opacity="0.95"/>
+  
+  <!-- Leaf veins -->
+  <line x1="600" y1="30" x2="600" y2="770" stroke="#7a9660" stroke-width="4" opacity="0.6"/>
+  <line x1="600" y1="200" x2="300" y2="350" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="300" x2="250" y2="450" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="400" x2="200" y2="500" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="500" x2="250" y2="600" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="600" x2="300" y2="700" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="200" x2="900" y2="350" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="300" x2="950" y2="450" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="400" x2="1000" y2="500" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="500" x2="950" y2="600" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  <line x1="600" y1="600" x2="900" y2="700" stroke="#7a9660" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Brown spots - varied sizes and positions -->
+  <circle cx="400" cy="250" r="12" fill="#6b4423" opacity="0.7"/>
+  <circle cx="450" cy="280" r="8" fill="#5a3315" opacity="0.6"/>
+  <circle cx="520" cy="320" r="15" fill="#6b4423" opacity="0.75"/>
+  <circle cx="600" cy="360" r="20" fill="#5a3315" opacity="0.8"/>
+  <circle cx="650" cy="380" r="10" fill="#6b4423" opacity="0.65"/>
+  <circle cx="720" cy="420" r="14" fill="#5a3315" opacity="0.7"/>
+  <circle cx="800" cy="340" r="11" fill="#6b4423" opacity="0.6"/>
+  <circle cx="350" cy="400" r="9" fill="#5a3315" opacity="0.65"/>
+  <circle cx="480" cy="450" r="16" fill="#6b4423" opacity="0.75"/>
+  <circle cx="580" cy="480" r="13" fill="#5a3315" opacity="0.7"/>
+  <circle cx="670" cy="510" r="10" fill="#6b4423" opacity="0.65"/>
+  <circle cx="420" cy="520" r="12" fill="#5a3315" opacity="0.7"/>
+  <circle cx="550" cy="580" r="14" fill="#6b4423" opacity="0.75"/>
+  <circle cx="750" cy="550" r="9" fill="#5a3315" opacity="0.6"/>
+  <circle cx="300" cy="320" r="8" fill="#6b4423" opacity="0.6"/>
+  <circle cx="900" cy="380" r="11" fill="#5a3315" opacity="0.65"/>
+  
+  <!-- More clustered spots in center -->
+  <circle cx="560" cy="380" r="6" fill="#5a3315" opacity="0.7"/>
+  <circle cx="570" cy="395" r="7" fill="#6b4423" opacity="0.65"/>
+  <circle cx="590" cy="410" r="9" fill="#5a3315" opacity="0.75"/>
+  <circle cx="615" cy="390" r="8" fill="#6b4423" opacity="0.7"/>
+  <circle cx="630" cy="405" r="7" fill="#5a3315" opacity="0.65"/>
+  <circle cx="610" cy="425" r="10" fill="#6b4423" opacity="0.7"/>
+  <circle cx="580" cy="430" r="6" fill="#5a3315" opacity="0.65"/>
+  
+  <!-- Additional scattered spots -->
+  <circle cx="380" cy="340" r="7" fill="#6b4423" opacity="0.6"/>
+  <circle cx="820" cy="460" r="8" fill="#5a3315" opacity="0.65"/>
+  <circle cx="460" cy="600" r="10" fill="#6b4423" opacity="0.7"/>
+  <circle cx="740" cy="280" r="9" fill="#5a3315" opacity="0.65"/>
+  <circle cx="330" cy="480" r="11" fill="#6b4423" opacity="0.7"/>
+  <circle cx="880" cy="520" r="7" fill="#5a3315" opacity="0.6"/>
+  
+  <!-- White/light spots for texture -->
+  <circle cx="420" cy="300" r="5" fill="#d4ddc8" opacity="0.6" filter="url(#blur1)"/>
+  <circle cx="680" cy="350" r="6" fill="#d4ddc8" opacity="0.5" filter="url(#blur1)"/>
+  <circle cx="540" cy="500" r="7" fill="#d4ddc8" opacity="0.6" filter="url(#blur1)"/>
+  <circle cx="750" cy="480" r="5" fill="#d4ddc8" opacity="0.5" filter="url(#blur1)"/>
+  <circle cx="370" cy="420" r="6" fill="#d4ddc8" opacity="0.6" filter="url(#blur1)"/>
+  <circle cx="850" cy="400" r="5" fill="#d4ddc8" opacity="0.5" filter="url(#blur1)"/>
+  
+  <!-- Darker patches for disease effect -->
+  <ellipse cx="580" cy="380" rx="80" ry="60" fill="#7a8468" opacity="0.4" filter="url(#blur2)"/>
+  <ellipse cx="420" cy="480" rx="60" ry="50" fill="#7a8468" opacity="0.35" filter="url(#blur2)"/>
+  <ellipse cx="720" cy="440" rx="70" ry="55" fill="#7a8468" opacity="0.38" filter="url(#blur2)"/>
+  
+  <!-- Edge browning -->
+  <ellipse cx="180" cy="380" rx="40" ry="80" fill="#8b7355" opacity="0.3" filter="url(#blur2)"/>
+  <ellipse cx="1020" cy="420" rx="40" ry="80" fill="#8b7355" opacity="0.3" filter="url(#blur2)"/>
+</svg>

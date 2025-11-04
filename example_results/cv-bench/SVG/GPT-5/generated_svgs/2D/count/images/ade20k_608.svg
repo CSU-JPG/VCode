@@ -1,0 +1,184 @@
+<svg viewBox="0 0 660 500" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0%" stop-color="#e7e8ea"/>
+		<stop offset="55%" stop-color="#d3d5d8"/>
+		<stop offset="100%" stop-color="#c6c9cd"/>
+	</linearGradient>
+	<linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0%" stop-color="#c1c3c5"/>
+		<stop offset="100%" stop-color="#a7a9ac"/>
+	</linearGradient>
+	<pattern id="hazard" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+		<rect width="16" height="16" fill="#f2d030"/>
+		<path d="M-8 0 H24 M-8 8 H24 M-8 16 H24" stroke="#1a1a1a" stroke-width="8"/>
+	</pattern>
+	<linearGradient id="railYellow" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0%" stop-color="#ffd84d"/>
+		<stop offset="100%" stop-color="#e6b800"/>
+	</linearGradient>
+	<linearGradient id="carSilver" x1="0" y1="0" x2="1" y2="0">
+		<stop offset="0%" stop-color="#bfc6cc"/>
+		<stop offset="50%" stop-color="#e7edf2"/>
+		<stop offset="100%" stop-color="#9aa2a8"/>
+	</linearGradient>
+	<linearGradient id="carBlue" x1="0" y1="0" x2="1" y2="0">
+		<stop offset="0%" stop-color="#0b3e88"/>
+		<stop offset="50%" stop-color="#1557c9"/>
+		<stop offset="100%" stop-color="#0a2b61"/>
+	</linearGradient>
+	<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0%" stop-color="#b9d7ea" stop-opacity="0.9"/>
+		<stop offset="100%" stop-color="#6f8fa3" stop-opacity="0.9"/>
+	</linearGradient>
+	<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+		<feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+	</filter>
+</defs>
+
+<!-- Background ceiling/walls -->
+<rect x="0" y="0" width="660" height="220" fill="url(#bg)"/>
+
+<!-- Overhead gantry -->
+<g>
+	<rect x="380" y="60" width="210" height="24" rx="4" fill="#e7812b"/>
+	<rect x="390" y="84" width="8" height="46" fill="#e7812b"/>
+	<rect x="560" y="84" width="8" height="60" fill="#e7812b"/>
+	<rect x="405" y="144" width="22" height="16" rx="2" fill="#e7812b"/>
+	<rect x="555" y="152" width="28" height="18" rx="2" fill="#e7812b"/>
+</g>
+
+<!-- Upper detail lines and panels -->
+<g stroke="#9aa1a6" stroke-width="3" opacity="0.9">
+	<line x1="0" y1="40" x2="660" y2="40"/>
+	<line x1="0" y1="110" x2="660" y2="110"/>
+</g>
+<g fill="#d7dadc">
+	<rect x="32" y="120" width="70" height="48" rx="4"/>
+	<rect x="116" y="118" width="60" height="40" rx="4"/>
+	<rect x="196" y="116" width="68" height="42" rx="4"/>
+	<rect x="278" y="120" width="56" height="36" rx="4"/>
+	<rect x="462" y="118" width="60" height="40" rx="4"/>
+</g>
+
+<!-- Mid wall rail -->
+<rect x="0" y="200" width="660" height="14" fill="#6b7480"/>
+
+<!-- Floor -->
+<rect x="0" y="214" width="660" height="286" fill="url(#floorGrad)"/>
+
+<!-- Left hazard walkway -->
+<g>
+	<rect x="0" y="232" width="140" height="248" fill="url(#hazard)"/>
+	<rect x="140" y="232" width="8" height="248" fill="#333941"/>
+</g>
+
+<!-- Conveyor lane -->
+<g filter="url(#softShadow)">
+	<rect x="180" y="252" width="300" height="16" fill="#454c52"/>
+	<rect x="178" y="268" width="304" height="116" fill="#2b3036"/>
+	<rect x="188" y="276" width="284" height="32" fill="#b62f2e"/>
+	<rect x="188" y="316" width="284" height="8" fill="#6c1c1b"/>
+	<rect x="188" y="326" width="284" height="6" fill="#4a1919" opacity="0.7"/>
+</g>
+
+<!-- Safety rails -->
+<g fill="url(#railYellow)" stroke="#a67c00" stroke-width="2">
+	<rect x="462" y="250" width="12" height="130" rx="2"/>
+	<rect x="474" y="250" width="110" height="14" rx="2"/>
+	<rect x="474" y="358" width="110" height="14" rx="2"/>
+	<rect x="584" y="250" width="12" height="130" rx="2"/>
+	<circle cx="468" cy="368" r="4" fill="#a67c00"/>
+	<circle cx="590" cy="368" r="4" fill="#a67c00"/>
+</g>
+
+<!-- Machines/control posts on left of conveyor -->
+<g>
+	<rect x="148" y="250" width="24" height="140" rx="3" fill="#ffd84d" stroke="#a67c00" stroke-width="2"/>
+	<rect x="152" y="258" width="16" height="24" rx="2" fill="#3c9bd8"/>
+	<circle cx="160" cy="292" r="4" fill="#e33"/>
+	<circle cx="160" cy="304" r="4" fill="#3c3"/>
+</g>
+
+<!-- Distant cars on line -->
+<g transform="translate(200,260)">
+	<!-- Blue car 1 (mid) -->
+	<g transform="translate(30,36) scale(0.95)" filter="url(#softShadow)">
+		<path d="M0,28 C18,10 54,4 86,6 C108,7 132,14 150,26 C158,31 160,36 160,44 L160,58 C160,64 154,68 148,68 L14,68 C8,68 0,64 0,58 Z" fill="url(#carBlue)" stroke="#07224a" stroke-width="2"/>
+		<!-- trunk cover -->
+		<rect x="18" y="28" width="70" height="16" rx="6" fill="#e9ecef" stroke="#bfc3c7"/>
+		<!-- lights -->
+		<rect x="6" y="50" width="12" height="6" rx="2" fill="#ff6b6b"/>
+		<rect x="142" y="50" width="12" height="6" rx="2" fill="#ffd66b"/>
+		<!-- wheels -->
+		<circle cx="34" cy="66" r="10" fill="#1a1a1a"/>
+		<circle cx="34" cy="66" r="5" fill="#7f8489"/>
+		<circle cx="126" cy="66" r="10" fill="#1a1a1a"/>
+		<circle cx="126" cy="66" r="5" fill="#7f8489"/>
+		<!-- raised hood -->
+		<path d="M28,10 C54,-6 96,-4 120,8 L120,16 C100,8 56,10 32,22 Z" fill="#0a2b61"/>
+	</g>
+
+	<!-- Blue car 2 (further back) -->
+	<g transform="translate(-30,-4) scale(0.8)" opacity="0.85" filter="url(#softShadow)">
+		<path d="M0,28 C18,10 54,4 86,6 C108,7 132,14 150,26 C158,31 160,36 160,44 L160,58 C160,64 154,68 148,68 L14,68 C8,68 0,64 0,58 Z" fill="url(#carBlue)" stroke="#07224a" stroke-width="2"/>
+		<rect x="18" y="28" width="70" height="16" rx="6" fill="#e9ecef" stroke="#bfc3c7"/>
+		<rect x="6" y="50" width="12" height="6" rx="2" fill="#ff6b6b"/>
+		<rect x="142" y="50" width="12" height="6" rx="2" fill="#ffd66b"/>
+		<circle cx="34" cy="66" r="9" fill="#1a1a1a"/>
+		<circle cx="34" cy="66" r="4" fill="#7f8489"/>
+		<circle cx="126" cy="66" r="9" fill="#1a1a1a"/>
+		<circle cx="126" cy="66" r="4" fill="#7f8489"/>
+		<path d="M28,10 C54,-6 96,-4 120,8 L120,16 C100,8 56,10 32,22 Z" fill="#0a2b61"/>
+	</g>
+</g>
+
+<!-- Right foreground car (silver convertible) -->
+<g transform="translate(340,320) scale(1.15)" filter="url(#softShadow)">
+	<!-- body -->
+	<path d="M0,38 C18,16 66,4 108,6 C140,7 170,18 190,34 C198,40 202,46 202,54 L202,70 C202,78 196,84 186,84 L16,84 C6,84 0,78 0,70 Z" fill="url(#carSilver)" stroke="#6f7a82" stroke-width="2"/>
+	<!-- door line and handle -->
+	<path d="M92,50 C110,50 130,56 148,66" stroke="#8e979e" stroke-width="2" fill="none" opacity="0.7"/>
+	<rect x="122" y="60" width="12" height="4" rx="2" fill="#9aa2a8"/>
+	<!-- wheels -->
+	<circle cx="48" cy="84" r="14" fill="#111"/>
+	<circle cx="48" cy="84" r="7" fill="#8f969d"/>
+	<circle cx="162" cy="84" r="14" fill="#111"/>
+	<circle cx="162" cy="84" r="7" fill="#8f969d"/>
+	<!-- front light -->
+	<rect x="188" y="66" width="10" height="6" rx="2" fill="#ffd66b"/>
+	<!-- windshield and soft top -->
+	<path d="M36,30 C60,18 92,16 122,20 C140,22 156,28 168,36 L168,52 L36,52 Z" fill="#1d1f24"/>
+	<path d="M44,34 C66,24 94,22 120,26 C136,28 150,32 158,36 L158,50 L44,50 Z" fill="url(#glass)" opacity="0.75"/>
+	<!-- mirror -->
+	<ellipse cx="172" cy="58" rx="6" ry="4" fill="#cdd3d8" stroke="#7e8790" stroke-width="1"/>
+</g>
+
+<!-- Right-side parked dark car silhouette -->
+<g transform="translate(520,260)">
+	<path d="M0,72 C8,52 24,38 48,32 C78,24 106,32 126,48 C134,54 138,60 138,68 L138,84 L6,84 C2,84 0,82 0,78 Z" fill="#1c2228" opacity="0.85"/>
+	<circle cx="36" cy="84" r="10" fill="#0b0f13"/>
+	<circle cx="108" cy="84" r="10" fill="#0b0f13"/>
+</g>
+
+<!-- Scatter of control screens and lights -->
+<g>
+	<rect x="30" y="230" width="20" height="24" rx="2" fill="#e6eef6" stroke="#748391"/>
+	<circle cx="40" cy="262" r="4" fill="#38c172"/>
+	<rect x="82" y="226" width="28" height="22" rx="3" fill="#e6eef6" stroke="#748391"/>
+	<circle cx="96" cy="254" r="4" fill="#e3342f"/>
+	<rect x="256" y="226" width="24" height="20" rx="3" fill="#e6eef6" stroke="#748391"/>
+	<circle cx="268" cy="252" r="4" fill="#ffed4a"/>
+</g>
+
+<!-- People silhouettes (abstract, non-identifiable) -->
+<g fill="#444b52" opacity="0.35">
+	<circle cx="258" cy="252" r="6"/>
+	<rect x="254" y="258" width="8" height="16" rx="2"/>
+	<circle cx="310" cy="248" r="5"/>
+	<rect x="306" y="253" width="8" height="14" rx="2"/>
+</g>
+
+<!-- Foreground floor edging -->
+<rect x="0" y="472" width="660" height="6" fill="#7f858c"/>
+</svg>

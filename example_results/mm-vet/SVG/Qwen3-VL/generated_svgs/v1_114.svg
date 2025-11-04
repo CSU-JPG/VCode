@@ -1,0 +1,159 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f5f5f5"/>
+  
+  <!-- Desk surface -->
+  <rect x="0" y="400" width="1000" height="400" fill="#ffffff"/>
+  
+  <!-- Pizza box (open) -->
+  <rect x="0" y="80" width="700" height="950" fill="#d4a373" transform="rotate(-10 0 80)"/>
+  <rect x="0" y="80" width="700" height="60" fill="#d4a373" transform="rotate(-10 0 80)"/>
+  
+  <!-- Pizza inside box -->
+  <ellipse cx="350" cy="700" rx="280" ry="180" fill="#e6b87c"/>
+  <path d="M70,650 Q150,600 250,600 Q350,600 450,600 Q550,600 630,650 Q700,700 630,750 Q550,800 450,800 Q350,800 250,800 Q150,800 70,750 Z" fill="#e6b87c"/>
+  
+  <!-- Pizza toppings -->
+  <circle cx="300" cy="650" r="10" fill="#000000"/>
+  <circle cx="320" cy="670" r="8" fill="#000000"/>
+  <circle cx="280" cy="680" r="10" fill="#000000"/>
+  <circle cx="250" cy="660" r="8" fill="#000000"/>
+  <circle cx="220" cy="640" r="10" fill="#000000"/>
+  <circle cx="200" cy="680" r="8" fill="#000000"/>
+  <circle cx="180" cy="660" r="10" fill="#000000"/>
+  <circle cx="160" cy="640" r="8" fill="#000000"/>
+  <circle cx="140" cy="670" r="10" fill="#000000"/>
+  <circle cx="120" cy="690" r="8" fill="#000000"/>
+  <circle cx="100" cy="710" r="10" fill="#000000"/>
+  <circle cx="150" cy="730" r="8" fill="#000000"/>
+  <circle cx="180" cy="750" r="10" fill="#000000"/>
+  <circle cx="220" cy="770" r="8" fill="#000000"/>
+  <circle cx="260" cy="780" r="10" fill="#000000"/>
+  <circle cx="300" cy="770" r="8" fill="#000000"/>
+  <circle cx="340" cy="760" r="10" fill="#000000"/>
+  <circle cx="380" cy="750" r="8" fill="#000000"/>
+  <circle cx="420" cy="740" r="10" fill="#000000"/>
+  <circle cx="460" cy="730" r="8" fill="#000000"/>
+  <circle cx="500" cy="720" r="10" fill="#000000"/>
+  <circle cx="540" cy="710" r="8" fill="#000000"/>
+  <circle cx="580" cy="700" r="10" fill="#000000"/>
+  <circle cx="560" cy="680" r="8" fill="#000000"/>
+  <circle cx="540" cy="660" r="10" fill="#000000"/>
+  <circle cx="520" cy="640" r="8" fill="#000000"/>
+  <circle cx="500" cy="620" r="10" fill="#000000"/>
+  <circle cx="480" cy="600" r="8" fill="#000000"/>
+  <circle cx="460" cy="580" r="10" fill="#000000"/>
+  <circle cx="440" cy="560" r="8" fill="#000000"/>
+  <circle cx="420" cy="540" r="10" fill="#000000"/>
+  <circle cx="400" cy="520" r="8" fill="#000000"/>
+  <circle cx="380" cy="500" r="10" fill="#000000"/>
+  <circle cx="360" cy="480" r="8" fill="#000000"/>
+  <circle cx="340" cy="460" r="10" fill="#000000"/>
+  <circle cx="320" cy="440" r="8" fill="#000000"/>
+  <circle cx="300" cy="420" r="10" fill="#000000"/>
+  <circle cx="280" cy="400" r="8" fill="#000000"/>
+  <circle cx="260" cy="380" r="10" fill="#000000"/>
+  <circle cx="240" cy="360" r="8" fill="#000000"/>
+  <circle cx="220" cy="340" r="10" fill="#000000"/>
+  <circle cx="200" cy="320" r="8" fill="#000000"/>
+  <circle cx="180" cy="300" r="10" fill="#000000"/>
+  <circle cx="160" cy="280" r="8" fill="#000000"/>
+  <circle cx="140" cy="260" r="10" fill="#000000"/>
+  <circle cx="120" cy="240" r="8" fill="#000000"/>
+  <circle cx="100" cy="220" r="10" fill="#000000"/>
+  <circle cx="80" cy="200" r="8" fill="#000000"/>
+  <circle cx="60" cy="180" r="10" fill="#000000"/>
+  <circle cx="40" cy="160" r="8" fill="#000000"/>
+  <circle cx="20" cy="140" r="10" fill="#000000"/>
+  <circle cx="0" cy="120" r="8" fill="#000000"/>
+  
+  <!-- Red pepperoni slices -->
+  <ellipse cx="300" cy="600" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="250" cy="620" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="200" cy="640" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="150" cy="660" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="100" cy="680" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="120" cy="720" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="170" cy="740" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="220" cy="760" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="270" cy="780" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="320" cy="760" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="370" cy="740" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="420" cy="720" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="470" cy="700" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="520" cy="680" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="570" cy="660" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="550" cy="640" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="530" cy="620" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="510" cy="600" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="490" cy="580" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="470" cy="560" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="450" cy="540" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="430" cy="520" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="410" cy="500" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="390" cy="480" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="370" cy="460" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="350" cy="440" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="330" cy="420" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="310" cy="400" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="290" cy="380" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="270" cy="360" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="250" cy="340" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="230" cy="320" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="210" cy="300" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="190" cy="280" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="170" cy="260" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="150" cy="240" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="130" cy="220" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="110" cy="200" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="90" cy="180" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="70" cy="160" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="50" cy="140" rx="15" ry="10" fill="#cc0000"/>
+  <ellipse cx="30" cy="120" rx="15" ry="10" fill="#cc0000"/>
+  
+  <!-- Yellow peppers -->
+  <rect x="280" y="620" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="260" y="640" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="240" y="660" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="220" y="680" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="200" y="700" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="180" y="720" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="160" y="740" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="140" y="760" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="120" y="780" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="100" y="800" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="80" y="820" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="60" y="840" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="40" y="860" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="20" y="880" width="20" height="5" rx="2" fill="#ffff00"/>
+  <rect x="0" y="900" width="20" height="5" rx="2" fill="#ffff00"/>
+  
+  <!-- Laptop -->
+  <rect x="310" y="100" width="250" height="180" fill="#cccccc" rx="5"/>
+  <rect x="320" y="110" width="230" height="160" fill="#ffffff"/>
+  <rect x="310" y="280" width="250" height="80" fill="#333333"/>
+  <rect x="320" y="290" width="230" height="60" fill="#ffffff"/>
+  
+  <!-- Coca-Cola cans -->
+  <rect x="410" y="360" width="40" height="80" fill="#ff0000" rx="5"/>
+  <rect x="690" y="330" width="40" height="80" fill="#ff0000" rx="5"/>
+  
+  <!-- Closed pizza box -->
+  <rect x="540" y="440" width="460" height="100" fill="#d4a373"/>
+  <rect x="540" y="540" width="460" height="20" fill="#d4a373"/>
+  
+  <!-- Plant -->
+  <rect x="700" y="280" width="80" height="40" fill="#c8c8c8"/>
+  <rect x="710" y="240" width="60" height="40" fill="#80c080"/>
+  <rect x="720" y="200" width="40" height="40" fill="#80c080"/>
+  <rect x="730" y="160" width="20" height="40" fill="#80c080"/>
+  <rect x="740" y="120" width="10" height="40" fill="#80c080"/>
+  <rect x="750" y="80" width="5" height="40" fill="#80c080"/>
+  
+  <!-- Text on boxes -->
+  <text x="380" y="780" font-family="Arial" font-size="20" fill="#333333">regalpan.ro</text>
+  <text x="660" y="600" font-family="Arial" font-size="20" fill="#333333">regalpan.ro</text>
+  
+  <!-- Phone and notebook -->
+  <rect x="780" y="360" width="80" height="20" fill="#cccccc"/>
+  <rect x="780" y="380" width="100" height="30" fill="#ffffff"/>
+</svg>

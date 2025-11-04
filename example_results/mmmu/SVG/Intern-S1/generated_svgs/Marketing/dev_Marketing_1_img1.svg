@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="0" x2="0" y2="180" stroke="black"/>
+  <line x1="100" y1="0" x2="100" y2="180" stroke="black"/>
+  <line x1="200" y1="0" x2="200" y2="180" stroke="black"/>
+  <line x1="0" y1="0" x2="200" y2="0" stroke="black"/>
+  <line x1="0" y1="30" x2="200" y2="30" stroke="black"/>
+  <line x1="0" y1="60" x2="200" y2="60" stroke="black"/>
+  <line x1="0" y1="90" x2="200" y2="90" stroke="black"/>
+  <line x1="0" y1="120" x2="200" y2="120" stroke="black"/>
+  <line x1="0" y1="150" x2="200" y2="150" stroke="black"/>
+  <line x1="0" y1="180" x2="200" y2="180" stroke="black"/>
+  <text x="50" y="15" text-anchor="middle" dy="0.3em">X</text>
+  <text x="150" y="15" text-anchor="middle" dy="0.3em">Freq.</text>
+  <text x="50" y="45" text-anchor="middle" dy="0.3em">1</text>
+  <text x="150" y="45" text-anchor="middle" dy="0.3em">1</text>
+  <text x="50" y="75" text-anchor="middle" dy="0.3em">2</text>
+  <text x="150" y="75" text-anchor="middle" dy="0.3em">7</text>
+  <text x="50" y="105" text-anchor="middle" dy="0.3em">3</text>
+  <text x="150" y="105" text-anchor="middle" dy="0.3em">18</text>
+  <text x="50" y="135" text-anchor="middle" dy="0.3em">4</text>
+  <text x="150" y="135" text-anchor="middle" dy="0.3em">7</text>
+  <text x="50" y="165" text-anchor="middle" dy="0.3em">5</text>
+  <text x="150" y="165" text-anchor="middle" dy="0.3em">6</text>
+</svg>

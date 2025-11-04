@@ -1,0 +1,49 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Table headers -->
+  <text x="15" y="25" font-family="serif" font-size="16" fill="black">Country</text>
+  <line x1="85" y1="10" x2="85" y2="30" stroke="black" stroke-width="1"/>
+  
+  <text x="110" y="25" font-family="serif" font-size="16" fill="black">Shoes</text>
+  <line x1="170" y1="10" x2="170" y2="30" stroke="black" stroke-width="1"/>
+  
+  <text x="190" y="25" font-family="serif" font-size="16" fill="black">Glasses</text>
+  <line x1="265" y1="10" x2="265" y2="30" stroke="black" stroke-width="1"/>
+  
+  <!-- Horizontal line under headers -->
+  <line x1="10" y1="32" x2="290" y2="32" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 1: Mexico -->
+  <text x="15" y="55" font-family="serif" font-size="16" fill="black">Mexico</text>
+  <line x1="85" y1="40" x2="85" y2="60" stroke="black" stroke-width="1"/>
+  
+  <text x="110" y="55" font-family="serif" font-size="16" fill="black">10</text>
+  <line x1="145" y1="40" x2="145" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="170" y1="40" x2="170" y2="60" stroke="black" stroke-width="1"/>
+  
+  <text x="190" y="55" font-family="serif" font-size="16" fill="black">12</text>
+  <line x1="225" y1="40" x2="225" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="265" y1="40" x2="265" y2="60" stroke="black" stroke-width="1"/>
+  
+  <!-- Horizontal line after Mexico -->
+  <line x1="10" y1="62" x2="290" y2="62" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 2: Nigeria -->
+  <text x="15" y="85" font-family="serif" font-size="16" fill="black">Nigeria</text>
+  <line x1="85" y1="70" x2="85" y2="90" stroke="black" stroke-width="1"/>
+  
+  <text x="110" y="85" font-family="serif" font-size="16" fill="black">18</text>
+  <line x1="145" y1="70" x2="145" y2="90" stroke="black" stroke-width="1"/>
+  <line x1="170" y1="70" x2="170" y2="90" stroke="black" stroke-width="1"/>
+  
+  <text x="205" y="85" font-family="serif" font-size="16" fill="black">5</text>
+  <line x1="225" y1="70" x2="225" y2="90" stroke="black" stroke-width="1"/>
+  <line x1="265" y1="70" x2="265" y2="90" stroke="black" stroke-width="1"/>
+  
+  <!-- Bottom horizontal line -->
+  <line x1="10" y1="92" x2="290" y2="92" stroke="black" stroke-width="1"/>
+  
+  <!-- Arrows on the right -->
+  <text x="275" y="25" font-family="serif" font-size="16" fill="black">←</text>
+  <text x="275" y="55" font-family="serif" font-size="16" fill="black">←</text>
+  <text x="275" y="85" font-family="serif" font-size="16" fill="black">←</text>
+</svg>

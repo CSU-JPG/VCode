@@ -1,0 +1,153 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ef"/>
+      <stop offset="1" stop-color="#e3ded8"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e3b8"/>
+      <stop offset="1" stop-color="#d9c38d"/>
+    </linearGradient>
+    <pattern id="carpet" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#6a6a6a"/>
+      <rect x="0" y="0" width="12" height="12" fill="#5e5e5e"/>
+      <rect x="12" y="12" width="12" height="12" fill="#5e5e5e"/>
+      <rect x="0" y="12" width="12" height="12" fill="#747474" opacity="0.5"/>
+      <rect x="12" y="0" width="12" height="12" fill="#747474" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Wall and floor -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#wallGrad)"/>
+  <rect x="0" y="310" width="800" height="290" fill="url(#carpet)"/>
+  <rect x="0" y="300" width="800" height="12" fill="#c9c3bb"/>
+
+  <!-- Window -->
+  <g transform="translate(210,40)">
+    <rect x="0" y="0" width="190" height="135" fill="#222" stroke="#bfbfbf" stroke-width="6"/>
+    <line x1="0" y1="45" x2="190" y2="45" stroke="#444" stroke-width="3"/>
+    <line x1="0" y1="90" x2="190" y2="90" stroke="#444" stroke-width="3"/>
+    <line x1="95" y1="0" x2="95" y2="135" stroke="#444" stroke-width="3"/>
+  </g>
+
+  <!-- Long desk -->
+  <path d="M40,260 L260,245 L520,235 L760,270 L745,298 L520,285 L290,295 L180,300 L55,288 Z"
+        fill="url(#wood)" stroke="#b59764" stroke-width="4"/>
+
+  <!-- Desk supports and cabinets -->
+  <g fill="#d6d0c6" stroke="#a59c8f" stroke-width="3">
+    <rect x="85" y="285" width="55" height="55"/>
+    <rect x="155" y="285" width="55" height="55"/>
+    <rect x="320" y="285" width="60" height="60"/>
+    <rect x="555" y="290" width="70" height="60"/>
+    <rect x="640" y="290" width="55" height="60"/>
+  </g>
+
+  <!-- Small items on desk -->
+  <g>
+    <rect x="150" y="250" width="35" height="12" rx="2" ry="2" fill="#3c3c3c"/>
+    <rect x="300" y="244" width="48" height="14" rx="2" ry="2" fill="#3c3c3c"/>
+    <rect x="470" y="245" width="38" height="15" rx="2" ry="2" fill="#3c3c3c"/>
+  </g>
+
+  <!-- Monitor near center (also inside blue box) -->
+  <g transform="translate(445,170)">
+    <rect x="0" y="0" width="48" height="40" rx="4" fill="#111" stroke="#dadada" stroke-width="4"/>
+    <rect x="10" y="8" width="28" height="22" fill="#0b0b0b"/>
+    <rect x="18" y="40" width="12" height="8" fill="#333"/>
+    <rect x="12" y="46" width="24" height="6" fill="#777"/>
+  </g>
+
+  <!-- Chairs -->
+  <!-- Red chair in front -->
+  <g transform="translate(225,330)">
+    <ellipse cx="50" cy="20" rx="62" ry="28" fill="#9d2e2e" stroke="#6e1b1b" stroke-width="4"/>
+    <rect x="20" y="-35" width="60" height="55" rx="12" fill="#b33a3a" stroke="#6e1b1b" stroke-width="4"/>
+    <rect x="10" y="0" width="80" height="10" rx="5" fill="#3c3c3c"/>
+    <line x1="50" y1="10" x2="50" y2="55" stroke="#2e2e2e" stroke-width="6"/>
+    <g stroke="#2e2e2e" stroke-width="6">
+      <line x1="50" y1="55" x2="15" y2="82"/>
+      <line x1="50" y1="55" x2="85" y2="82"/>
+      <line x1="50" y1="55" x2="50" y2="90"/>
+    </g>
+    <g fill="#222">
+      <circle cx="15" cy="82" r="8"/>
+      <circle cx="85" cy="82" r="8"/>
+      <circle cx="50" cy="90" r="8"/>
+    </g>
+  </g>
+
+  <!-- Black chair behind desk -->
+  <g transform="translate(360,280)">
+    <rect x="18" y="-10" width="40" height="45" rx="10" fill="#3d3d3d" stroke="#242424" stroke-width="4"/>
+    <ellipse cx="38" cy="42" rx="34" ry="16" fill="#303030" stroke="#1d1d1d" stroke-width="4"/>
+    <line x1="38" y1="50" x2="38" y2="82" stroke="#1d1d1d" stroke-width="6"/>
+    <g stroke="#1d1d1d" stroke-width="6">
+      <line x1="38" y1="82" x2="12" y2="102"/>
+      <line x1="38" y1="82" x2="64" y2="102"/>
+    </g>
+    <g fill="#1b1b1b">
+      <circle cx="12" cy="102" r="8"/>
+      <circle cx="64" cy="102" r="8"/>
+    </g>
+  </g>
+
+  <!-- Right-side chair -->
+  <g transform="translate(585,310)">
+    <rect x="10" y="-40" width="60" height="70" rx="12" fill="#474747" stroke="#2d2d2d" stroke-width="4"/>
+    <ellipse cx="40" cy="40" rx="40" ry="18" fill="#3f3f3f" stroke="#222" stroke-width="4"/>
+    <line x1="40" y1="50" x2="40" y2="88" stroke="#222" stroke-width="6"/>
+    <g stroke="#222" stroke-width="6">
+      <line x1="40" y1="88" x2="15" y2="108"/>
+      <line x1="40" y1="88" x2="65" y2="108"/>
+    </g>
+    <g fill="#191919">
+      <circle cx="15" cy="108" r="8"/>
+      <circle cx="65" cy="108" r="8"/>
+    </g>
+  </g>
+
+  <!-- Trash bin on left (inside green box) -->
+  <g transform="translate(110,340)">
+    <ellipse cx="40" cy="0" rx="42" ry="10" fill="#2f4b93" opacity="0.7"/>
+    <rect x="-2" y="0" width="84" height="58" rx="8" fill="#2e5bd6" opacity="0.85"/>
+    <ellipse cx="40" cy="58" rx="42" ry="10" fill="#254aa0" opacity="0.8"/>
+  </g>
+
+  <!-- Shelf on right with books -->
+  <g transform="translate(660,20)">
+    <rect x="0" y="0" width="120" height="180" rx="6" fill="#d8d6d3" stroke="#bbb7b2" stroke-width="4"/>
+    <rect x="10" y="20" width="100" height="6" fill="#bdbab5"/>
+    <rect x="10" y="80" width="100" height="6" fill="#bdbab5"/>
+    <rect x="10" y="140" width="100" height="6" fill="#bdbab5"/>
+    <!-- books -->
+    <rect x="14" y="26" width="16" height="48" fill="#9dc1d6"/>
+    <rect x="34" y="26" width="14" height="48" fill="#cfa7a7"/>
+    <rect x="52" y="26" width="18" height="48" fill="#b0c49c"/>
+    <rect x="74" y="26" width="12" height="48" fill="#e2c58a"/>
+    <rect x="90" y="26" width="16" height="48" fill="#9f9ad8"/>
+    <rect x="20" y="86" width="20" height="48" fill="#94cbd3"/>
+    <rect x="44" y="86" width="14" height="48" fill="#d7a19d"/>
+    <rect x="62" y="86" width="20" height="48" fill="#99c18e"/>
+    <rect x="86" y="86" width="18" height="48" fill="#d9c77f"/>
+    <rect x="16" y="146" width="16" height="26" fill="#b0afd6"/>
+    <rect x="36" y="146" width="20" height="26" fill="#d7b79a"/>
+    <rect x="60" y="146" width="14" height="26" fill="#8ec1a8"/>
+    <rect x="78" y="146" width="22" height="26" fill="#c0b1e3"/>
+  </g>
+
+  <!-- Whiteboard leaning near shelf -->
+  <g transform="translate(610,70) rotate(-6 65 80)">
+    <rect x="0" y="0" width="130" height="170" rx="6" fill="#ffffff" stroke="#cfcfcf" stroke-width="6"/>
+    <circle cx="102" cy="92" r="10" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Blue bounding box -->
+  <rect x="430" y="150" width="90" height="90" fill="none" stroke="#1a4fff" stroke-width="6"/>
+
+  <!-- Red bounding box -->
+  <rect x="585" y="35" width="150" height="210" fill="none" stroke="#ff2b2b" stroke-width="6"/>
+
+  <!-- Green bounding box -->
+  <rect x="90" y="320" width="140" height="110" fill="none" stroke="#00ff40" stroke-width="6"/>
+</svg>

@@ -1,0 +1,155 @@
+<svg viewBox="0 0 800 1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2aa6a3"/>
+      <stop offset="1" stop-color="#1f8f8c"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9d0c3"/>
+      <stop offset="1" stop-color="#cdbfae"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4d140a"/>
+      <stop offset="0.5" stop-color="#5e1b0f"/>
+      <stop offset="1" stop-color="#3c0d07"/>
+    </linearGradient>
+    <radialGradient id="lightGlow" cx="70%" cy="4%" r="30%">
+      <stop offset="0" stop-color="rgba(255,255,220,0.9)"/>
+      <stop offset="0.6" stop-color="rgba(255,255,220,0.35)"/>
+      <stop offset="1" stop-color="rgba(255,255,220,0)"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Walls -->
+  <rect x="0" y="0" width="800" height="1100" fill="url(#wallGrad)"/>
+  <!-- Ceiling hint -->
+  <rect x="0" y="0" width="800" height="60" fill="#1e8684" opacity="0.6"/>
+
+  <!-- Floor with gentle curve up left (perspective) -->
+  <path d="M0,820 C160,790 340,780 520,790 C650,797 740,810 800,828 L800,1100 L0,1100 Z" fill="url(#floorGrad)"/>
+  <!-- Baseboard -->
+  <path d="M0,808 C160,776 340,768 520,777 C650,783 740,798 800,816 L800,835 C740,817 650,802 520,795 C340,786 160,794 0,826 Z" fill="#f4f5f0" opacity="0.95"/>
+
+  <!-- Left doorway edge to imply frame -->
+  <rect x="8" y="0" width="20" height="1100" fill="#ffffff" opacity="0.7"/>
+
+  <!-- Window frame -->
+  <rect x="80" y="200" width="360" height="170" rx="6" ry="6" fill="#e9ecef" stroke="#ffffff" stroke-width="10"/>
+  <!-- Inner window recess -->
+  <rect x="98" y="218" width="324" height="134" fill="#cfd6db" stroke="#aab3b9" stroke-width="3"/>
+
+  <!-- Blinds -->
+  <g stroke="#f8f9fb" stroke-width="6">
+    <line x1="104" y1="230" x2="416" y2="230"/>
+    <line x1="104" y1="242" x2="416" y2="242"/>
+    <line x1="104" y1="254" x2="416" y2="254"/>
+    <line x1="104" y1="266" x2="416" y2="266"/>
+    <line x1="104" y1="278" x2="416" y2="278"/>
+    <line x1="104" y1="290" x2="416" y2="290"/>
+    <line x1="104" y1="302" x2="416" y2="302"/>
+    <line x1="104" y1="314" x2="416" y2="314"/>
+    <line x1="104" y1="326" x2="416" y2="326"/>
+    <line x1="104" y1="338" x2="416" y2="338"/>
+  </g>
+  <!-- Window sill shadow -->
+  <rect x="80" y="370" width="360" height="10" fill="#8aa0a4" opacity="0.35"/>
+
+  <!-- Headboard (rear) -->
+  <g>
+    <rect x="120" y="560" width="540" height="130" rx="14" ry="14" fill="url(#woodGrad)"/>
+    <rect x="150" y="590" width="480" height="85" fill="#441109" opacity="0.5"/>
+    <rect x="140" y="575" width="500" height="8" fill="#2d0a06" opacity="0.7"/>
+  </g>
+
+  <!-- Wall-mounted lamp -->
+  <g transform="translate(415,410)">
+    <circle cx="-10" cy="-22" r="10" fill="#9aa6aa"/>
+    <rect x="-16" y="-22" width="12" height="46" rx="6" fill="#9aa6aa"/>
+    <path d="M5,0 c28,0 36,15 36,34 c0,10 -10,20 -22,20 c-12,0 -25,-8 -30,-20 c-4,-10 4,-34 16,-34z" fill="#eaecec" stroke="#c9cdcf" stroke-width="2"/>
+  </g>
+
+  <!-- Small glass shelf on right wall -->
+  <g opacity="0.6" transform="translate(510,520)">
+    <rect x="0" y="0" width="140" height="8" rx="4" fill="#b8e3e1" stroke="#7dc7c3" stroke-width="2"/>
+  </g>
+
+  <!-- Mattress -->
+  <path d="M70,740 
+           C130,712 206,700 310,698 
+           C420,696 520,708 610,726 
+           L610,760 
+           C520,744 430,736 320,738 
+           C210,740 150,752 90,774 
+           L70,760 Z" fill="#f2f5f4" stroke="#e5e7e8" stroke-width="3"/>
+
+  <!-- Footboard (front, sleigh style) -->
+  <g>
+    <!-- Body -->
+    <path d="M110,760 
+             C110,742 125,728 145,728 
+             L660,728 
+             C682,728 706,748 706,770 
+             L706,920 
+             C706,944 686,964 662,964 
+             L150,964 
+             C126,964 106,944 106,920 
+             Z" fill="url(#woodGrad)"/>
+    <!-- Top rolled edge -->
+    <path d="M115,752 
+             C140,734 164,730 200,730 
+             L630,730 
+             C672,730 704,744 716,760 
+             L706,770 
+             C692,754 672,746 630,746 
+             L200,746 
+             C166,746 142,750 120,764 Z" fill="#3b0e08" opacity="0.85"/>
+    <!-- Panels -->
+    <rect x="180" y="792" width="460" height="120" fill="#4a140b" opacity="0.65" stroke="#2a0806" stroke-width="4"/>
+    <rect x="160" y="780" width="500" height="150" fill="none" stroke="#2a0806" stroke-width="6" opacity="0.6"/>
+    <!-- Feet -->
+    <rect x="120" y="950" width="60" height="14" fill="#2b0a06"/>
+    <rect x="640" y="950" width="60" height="14" fill="#2b0a06"/>
+  </g>
+
+  <!-- Picture frame on right wall -->
+  <g transform="translate(650,330)">
+    <rect x="0" y="0" width="110" height="140" fill="#0f0f13" rx="6"/>
+    <rect x="10" y="10" width="90" height="120" fill="#dfe7ea"/>
+    <!-- Simple seascape -->
+    <rect x="12" y="12" width="86" height="40" fill="#78b6e3"/>
+    <rect x="12" y="52" width="86" height="24" fill="#9ed9ea"/>
+    <path d="M12,76 Q30,68 48,76 T84,76" stroke="#5aa2c7" stroke-width="3" fill="none"/>
+    <polygon points="70,18 84,44 56,44" fill="#f7f7f7"/>
+  </g>
+
+  <!-- Ceiling fan and lights -->
+  <g transform="translate(640,80)">
+    <!-- Glow -->
+    <circle cx="0" cy="0" r="180" fill="url(#lightGlow)"/>
+    <!-- Blades -->
+    <g fill="#e2e2e2" stroke="#c7c7c7" stroke-width="2">
+      <ellipse cx="-120" cy="-10" rx="110" ry="22" transform="rotate(10)"/>
+      <ellipse cx="120" cy="10" rx="110" ry="22" transform="rotate(10)"/>
+      <ellipse cx="-10" cy="-120" rx="22" ry="110" transform="rotate(10)"/>
+      <ellipse cx="10" cy="120" rx="22" ry="110" transform="rotate(10)"/>
+      <ellipse cx="-90" cy="80" rx="100" ry="20" transform="rotate(-40)"/>
+    </g>
+    <!-- Hub -->
+    <circle cx="0" cy="0" r="16" fill="#d1b38a" stroke="#9a7e5b" stroke-width="3"/>
+    <!-- Lamp cluster -->
+    <g fill="#fff7d6" stroke="#d3c4a0" stroke-width="2">
+      <path d="M-20,18 q20,8 0,22 q-14,6 -26,-4 q-10,-8 0,-18 q12,-10 26,0z"/>
+      <path d="M20,18 q-20,8 0,22 q14,6 26,-4 q10,-8 0,-18 q-12,-10 -26,0z"/>
+      <path d="M0,20 q-8,20 12,20 q12,0 16,-12 q4,-10 -8,-16 q-10,-6 -20,8z"/>
+    </g>
+    <rect x="-2" y="-40" width="4" height="40" fill="#d1b38a"/>
+  </g>
+
+  <!-- Subtle shadow under footboard -->
+  <ellipse cx="390" cy="980" rx="320" ry="26" fill="#000000" opacity="0.14"/>
+
+  <!-- Right wall outlet hint -->
+  <rect x="762" y="600" width="18" height="22" fill="#ececec" stroke="#c8c8c8" stroke-width="2" rx="3"/>
+  <circle cx="769" cy="610" r="2" fill="#a0a0a0"/>
+  <circle cx="774" cy="610" r="2" fill="#a0a0a0"/>
+</svg>

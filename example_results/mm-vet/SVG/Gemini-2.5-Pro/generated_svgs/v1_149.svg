@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 820" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 60px sans-serif; text-anchor: middle; }
+    .label { font: 40px sans-serif; text-anchor: middle; }
+    .neon-text { font: 50px 'Brush Script MT', cursive; fill: #FF69B4; stroke: #FFB6C1; stroke-width: 2; }
+  </style>
+
+  <rect x="0" y="0" width="800" height="820" fill="#FFFFFF"/>
+
+  <text x="400" y="60" class="title">Studying online</text>
+
+  <!-- Panel 1: Zoom -->
+  <g transform="translate(0, 100)">
+    <text x="200" y="50" class="label">Zoom</text>
+    <g>
+      <!-- Money -->
+      <rect x="50" y="100" width="25" height="12" fill="#4CAF50" transform="rotate(-20 50 100)"/>
+      <rect x="80" y="150" width="25" height="12" fill="#4CAF50" transform="rotate(30 80 150)"/>
+      <rect x="120" y="90" width="25" height="12" fill="#4CAF50" transform="rotate(10 120 90)"/>
+      <rect x="250" y="110" width="25" height="12" fill="#4CAF50" transform="rotate(-30 250 110)"/>
+      <rect x="300" y="160" width="25" height="12" fill="#4CAF50" transform="rotate(45 300 160)"/>
+      <rect x="330" y="210" width="25" height="12" fill="#4CAF50" transform="rotate(-15 330 210)"/>
+      <rect x="60" y="250" width="25" height="12" fill="#4CAF50" transform="rotate(25 60 250)"/>
+      <rect x="150" y="280" width="25" height="12" fill="#4CAF50" transform="rotate(5 150 280)"/>
+      <rect x="280" y="260" width="25" height="12" fill="#4CAF50" transform="rotate(-40 280 260)"/>
+      <!-- Person -->
+      <path d="M 150 220 L 150 300 L 250 300 L 250 220 L 220 180 L 180 180 Z" fill="#212121"/>
+      <path d="M 150 220 L 110 150 L 130 140 Z" fill="#212121"/>
+      <path d="M 250 220 L 290 150 L 270 140 Z" fill="#212121"/>
+      <circle cx="200" cy="160" r="30" fill="#F5DEB3"/>
+      <path d="M 190 170 Q 200 180 210 170" stroke="black" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Panel 2: Teacher -->
+  <g transform="translate(400, 100)">
+    <text x="200" y="50" class="label">Teacher</text>
+    <rect x="20" y="80" width="360" height="250" fill="#E0E0E0"/>
+    <!-- Chair -->
+    <path d="M 100 280 L 120 180 L 280 180 L 300 280 L 260 290 L 140 290 Z" fill="#424242"/>
+    <!-- Person -->
+    <path d="M 150 150 C 130 170, 130 220, 150 240 L 250 240 C 270 220, 270 170, 250 150 Z" fill="#BDBDBD"/>
+    <!-- Stripes -->
+    <path d="M 150 165 L 250 165 M 145 190 L 255 190 M 140 215 L 260 215" stroke="#757575" stroke-width="10" fill="none"/>
+    <circle cx="200" cy="135" r="30" fill="#A1887F"/>
+    <path d="M 190 145 Q 200 155 210 145" stroke="black" stroke-width="2" fill="none"/>
+    <path d="M 175 125 L 140 160 M 225 125 L 260 160" stroke="#A1887F" stroke-width="15" fill="none"/>
+  </g>
+
+  <!-- Panel 3: Wifi company -->
+  <g transform="translate(0, 450)">
+    <text x="200" y="50" class="label">Wifi company</text>
+    <rect x="20" y="80" width="360" height="250" fill="#87CEEB"/>
+    <!-- Money -->
+    <rect x="40" y="120" width="25" height="12" fill="#4CAF50" transform="rotate(15 40 120)"/>
+    <rect x="90" y="160" width="25" height="12" fill="#4CAF50" transform="rotate(-25 90 160)"/>
+    <rect x="70" y="240" width="25" height="12" fill="#4CAF50" transform="rotate(35 70 240)"/>
+    <rect x="330" y="110" width="25" height="12" fill="#4CAF50" transform="rotate(-10 330 110)"/>
+    <rect x="290" y="170" width="25" height="12" fill="#4CAF50" transform="rotate(20 290 170)"/>
+    <rect x="310" y="250" width="25" height="12" fill="#4CAF50" transform="rotate(-30 310 250)"/>
+    <!-- Person (Tony Stark) -->
+    <path d="M 150 220 L 150 300 L 250 300 L 250 220 L 215 220 L 200 240 L 185 220 Z" fill="#212121"/>
+    <polygon points="185,220 215,220 200,200" fill="#FFFFFF"/>
+    <polygon points="190,220 210,220 200,235" fill="#42A5F5"/>
+    <path d="M 150 220 L 50 230 L 60 250 Z" fill="#212121"/>
+    <path d="M 250 220 L 350 230 L 340 250 Z" fill="#212121"/>
+    <circle cx="200" cy="180" r="30" fill="#F5DEB3"/>
+    <path d="M 195 195 L 205 195 L 200 205 Z" fill="#424242"/>
+  </g>
+
+  <!-- Panel 4: Students -->
+  <g transform="translate(400, 450)">
+    <text x="200" y="50" class="label">Students</text>
+    <rect x="20" y="80" width="360" height="250" fill="#4A235A"/>
+    <!-- Mirror -->
+    <path d="M 50 100 C 50 80, 350 80, 350 100 L 350 310 C 350 330, 50 330, 50 310 Z" fill="#212121" opacity="0.5"/>
+    <!-- Mirror Lights -->
+    <circle cx="65" cy="130" r="8" fill="#FFFDE7"/>
+    <circle cx="65" cy="170" r="8" fill="#FFFDE7"/>
+    <circle cx="65" cy="210" r="8" fill="#FFFDE7"/>
+    <circle cx="65" cy="250" r="8" fill="#FFFDE7"/>
+    <circle cx="65" cy="290" r="8" fill="#FFFDE7"/>
+    <!-- Joker -->
+    <path d="M 220 220 L 220 310 L 330 310 L 330 220 L 300 180 L 250 180 Z" fill="#C62828"/>
+    <path d="M 260 180 L 290 180 L 275 200 Z" fill="#1A237E" />
+    <circle cx="275" cy="160" r="35" fill="#FFFFFF"/>
+    <path d="M 250 140 L 275 110 L 300 140" stroke="#00C853" stroke-width="8" fill="none"/>
+    <polygon points="265,150 275,165 285,150 275,135" fill="#448AFF"/>
+    <polygon points="265,175 275,160 285,175 275,190" fill="#448AFF"/>
+    <circle cx="275" cy="165" r="5" fill="#D32F2F"/>
+    <path d="M 245 180 C 275 210, 305 180, 305 180" stroke="#D32F2F" stroke-width="4" fill="none"/>
+    <!-- Neon Text -->
+    <g transform="translate(110, 160) rotate(-10)">
+      <text x="0" y="0" class="neon-text">Put on a</text>
+      <text x="15" y="60" class="neon-text">HAPPY</text>
+    </g>
+  </g>
+</svg>

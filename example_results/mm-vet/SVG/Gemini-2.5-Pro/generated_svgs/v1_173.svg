@@ -1,0 +1,141 @@
+<svg viewBox="0 0 800 533" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#c1bba8"/>
+      <stop offset="100%" stop-color="#d4c9b3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <g id="background">
+    <rect x="0" y="0" width="800" height="533" fill="url(#sky)"/>
+    <path d="M0 200 C100 150, 200 180, 300 160 L450 120 L600 150 C700 170, 800 140, 800 140 V0 H0 Z" fill="#b0a690"/>
+    <path d="M0 250 C50 220, 150 260, 250 230 L400 180 L550 220 C650 240, 800 200, 800 200 V140 H0 Z" fill="#a19883"/>
+    <path d="M280 0 L300 20 L315 50 L310 80 L325 120 L340 160 L350 230 L330 232 L315 150 L300 110 L295 70 L285 30 Z" fill="#e1e1e1" opacity="0.8"/>
+  </g>
+
+  <!-- Midground Scenery -->
+  <g id="scenery">
+    <path d="M450 110 L800 110 L800 533 L450 533 Z" fill="#3a3229"/>
+    <path d="M455,100 L795,100 L625,533 L455,533 Z" fill="#251e17"/>
+    <path d="M450 110 L800 110 C750 180, 680 250, 625 350 L625 100 Z" fill="#7d6a48" opacity="0.6"/>
+    <path d="M450 110 L800 110 C720 220, 600 350, 500 450 L450 400 Z" fill="#7d6a48" opacity="0.4"/>
+    <path d="M470 115 L780 115 L760 160 L730 200 L680 250 L620 310 L560 380 L500 460 L470 470 Z" fill="#8c7856"/>
+    <path d="M480 125 L770 125 L750 165 L720 205 L670 255 L610 315 L550 385 L490 460 L480 465 Z" fill="#9c8763"/>
+    <path d="M-10 150 L180 160 C150 250, 100 350, 20 450 L-10 420 Z" fill="#4d4c3a"/>
+    <path d="M-10 150 C 30 155, 70 165, 120 180 L 100 240 L 60 280 L 30 260 L 10 210 Z" fill="#4a503f"/>
+    <path d="M10 200 C 50 190, 80 220, 110 230 L 130 300 L 90 320 L 50 300 L 20 250 Z" fill="#3d4233"/>
+    <path d="M0 450 H400 L380 480 L350 500 L300 520 L200 533 H0 Z" fill="#6b665b"/>
+    <path d="M0 400 H450 V533 H0 Z" fill="#585249"/>
+  </g>
+  
+  <!-- Rohirrim on Horse -->
+  <g id="rohirrim_and_horse">
+    <path d="M660 410 L680 400 L700 415 L720 440 L710 480 L680 533 L640 533 L630 480 L645 440 Z" fill="#2a241e"/>
+    <path d="M685 410 L700 400 L720 420 L725 450 L700 460 L680 440 Z" fill="#3c352d" />
+    <path d="M705 408 L715 403 L718 412 L708 417 Z" fill="#111"/>
+    <path d="M708 410 L712 407 L710 405 L702 402 L700 405 L704 408 Z" fill="#555"/>
+    <path d="M580 300 L600 310 L630 360 L650 450 L630 533 L550 533 L530 460 L540 380 L560 320 Z" fill="#3a2e23"/>
+    <path d="M580 290 L670 290 L660 320 L620 310 L585 295 Z" fill="#4a3e33"/>
+    <path d="M650 260 L750 260 L740 533 H650 V260 Z" fill="#4a3e33"/>
+    <g id="rider">
+      <path d="M620 250 L680 250 L670 450 L610 450 Z" fill="#333"/>
+      <path d="M610 260 L680 260 L670 320 L610 320 Z" fill="#666" />
+      <path d="M620 265 L670 265 L665 315 L625 315 Z" fill="#555" />
+      <path d="M600 250 L700 250 L680 280 L620 280 Z" fill="#424d38"/>
+      <path d="M635 230 L665 230 L668 255 L632 255 Z" fill="#555"/>
+      <path d="M638 232 L662 232 L660 252 L640 252 Z" fill="#333"/>
+      <path d="M640 235 L660 235 L658 245 L642 245 Z" fill="#b8a034" opacity="0.7"/>
+      <path d="M648 220 L652 255" stroke="#ccc" stroke-width="2"/>
+      <path d="M630 260 L600 265 L580 350 L610 350 L625 290 Z" fill="#333"/>
+      <path d="M680 260 L780 250 L770 280 L690 280 Z" stroke="#ad946d" stroke-width="8" fill="none" transform="rotate(-5 730 265)"/>
+    </g>
+  </g>
+
+  <!-- Main Characters -->
+  <g id="characters" filter="url(#shadow)">
+    <!-- Aragorn -->
+    <g id="aragorn">
+      <path d="M420 200 L510 200 L500 533 L410 533 Z" fill="#1a1a1a"/>
+      <path d="M430 220 L490 220 L480 280 L440 280 Z" fill="#101010"/>
+      <path d="M430 200 C435 190, 485 190, 490 200 L470 240 L450 240 Z" fill="#a47a5a"/>
+      <path d="M435 200 L485 200 L475 220 L445 220 Z" fill="#3a2e23"/>
+      <path d="M455 240 L465 240 L463 248 L457 248 Z" fill="#aaa"/>
+      <path d="M458 247 L462 247 L460 255 L458 254 Z" fill="#ddd"/>
+      <path d="M450 250 L470 250 L475 350 L445 350 Z" fill="#222"/>
+      <path d="M480 320 L500 330 L495 400 L475 390 Z" fill="#111"/>
+      <path d="M485 325 L495 330 L492 350 L482 345 Z" fill="#888" />
+    </g>
+
+    <!-- Man behind Aragorn -->
+    <g id="man_behind">
+        <path d="M490 210 L530 210 L525 280 L495 280 Z" fill="#4a3e33"/>
+        <path d="M495 210 C498 200, 522 200, 525 210 L515 230 L505 230 Z" fill="#9a7050"/>
+        <path d="M490 200 L530 200 L520 215 L500 215 Z" fill="#5c4a3a"/>
+    </g>
+
+    <!-- Gandalf -->
+    <g id="gandalf">
+      <path d="M280 200 L440 200 L430 533 L290 533 Z" fill="#e0e0e0"/>
+      <path d="M300 200 L420 200 L410 280 L310 280 Z" fill="#f5f5f5"/>
+      <path d="M320 200 C325 180, 395 180, 400 200 L380 260 L340 260 Z" fill="#f0e8e0"/>
+      <path d="M325 200 L395 200 L390 215 L330 215 Z" fill="#ffffff"/>
+      <path d="M330 210 L390 210 L370 230 L350 230 Z" fill="#ffffff" opacity="0.8"/>
+      <path d="M330 215 L390 260 L330 260 Z" fill="#ffffff"/>
+      <path d="M320 260 L410 260 L400 533 L330 533 Z" fill="#dcdcdc"/>
+      <path d="M340 400 L420 400 L410 533 L350 533 Z" fill="#ebebeb"/>
+      <path d="M300 250 L320 530" stroke="#f0f0f0" stroke-width="6"/>
+      <path d="M350 250 L420 280" stroke="#d0d0d0" stroke-width="4" />
+      <path d="M380 250 L350 533" stroke="#d5d5d5" stroke-width="5" />
+      <path d="M360 260 L365 270 L355 270 Z" fill="#b0c4de" />
+      <path d="M362 265 L358 275" stroke="#e0ffff" stroke-width="1" />
+      <!-- Staff -->
+      <path d="M290 240 L370 533" stroke="#f5f5dc" stroke-width="5" transform="rotate(5 330 386)"/>
+      <path d="M293 245 L290 230 L305 235 L300 250 Z" fill="#ffffff"/>
+      <path d="M297 238 C292 233, 303 233, 298 238 L302 248 L293 248 Z" fill="#e0e0e0"/>
+      <!-- Sword -->
+      <path d="M350 260 L340 450" stroke="#aaaaaa" stroke-width="6" transform="rotate(-3 345 355)"/>
+      <path d="M352 262 L342 448" stroke="#ffffff" stroke-width="2" transform="rotate(-3 347 355)"/>
+      <path d="M340 260 L360 260 L350 275 Z" fill="#808080"/>
+      <path d="M345 275 L355 275 L353 280 L347 280 Z" fill="#c0c0c0"/>
+    </g>
+
+    <!-- Legolas -->
+    <g id="legolas">
+      <path d="M200 180 L320 180 L310 533 L190 533 Z" fill="#5d5448"/>
+      <path d="M210 180 C215 160, 285 160, 290 180 L270 220 L230 220 Z" fill="#f0e2b6"/>
+      <path d="M215 160 L285 160 L275 180 L225 180 Z" fill="#fff8dc"/>
+      <path d="M220 175 L280 175 L250 160 Z" fill="#fff8dc" opacity="0.8"/>
+      <path d="M220 220 L280 220 L270 240 L230 240 Z" fill="#6c7b8b"/>
+      <path d="M200 220 L310 220 L300 300 L210 300 Z" fill="#7d6a48"/>
+      <path d="M200 240 L230 240 L225 350 L195 350 Z" fill="#333"/>
+      <path d="M280 240 L310 240 L305 350 L285 350 Z" fill="#111"/>
+      <path d="M210 500 L300 500 L290 533 L220 533 Z" fill="#222"/>
+      <!-- Quiver and Bow -->
+      <path d="M280 170 L300 190 L260 400 L240 380 Z" fill="#694b33"/>
+      <path d="M270 175 L290 195 L285 220 L265 200 Z" fill="#ffdf00" opacity="0.3"/>
+      <path d="M275 178 L295 198" stroke="#e6c300" stroke-width="1.5" />
+      <path d="M278 182 L298 202" stroke="#e6c300" stroke-width="1.5" />
+      <path d="M281 186 L301 206" stroke="#e6c300" stroke-width="1.5" />
+      <path d="M220 260 C200 350, 210 450, 230 510" stroke="#8b4513" stroke-width="8" fill="none"/>
+      <path d="M225 260 C240 350, 230 450, 235 510" stroke="#a0522d" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Foreground -->
+  <g id="foreground">
+    <path d="M0 450 L800 450 L800 533 H0 Z" fill="#524a41"/>
+    <path d="M0 430 L450 430 L400 533 H0 Z" fill="#686058"/>
+    <rect x="0" y="420" width="450" height="40" fill="#444" opacity="0.5" transform="skewY(-5)"/>
+    <rect x="10" y="440" width="50" height="20" fill="#777"/>
+    <rect x="70" y="435" width="40" height="25" fill="#6a6a6a"/>
+    <rect x="120" y="445" width="60" height="15" fill="#808080"/>
+    <rect x="190" y="430" width="45" height="30" fill="#606060"/>
+    <rect x="450" y="450" width="350" height="83" fill="#4a423a"/>
+    <rect x="680" y="480" width="100" height="53" fill="#604020"/>
+    <rect x="690" y="490" width="80" height="43" fill="#5a3a1a"/>
+  </g>
+</svg>

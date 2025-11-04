@@ -1,0 +1,107 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#B7947A"/>
+  
+  <!-- Title -->
+  <text x="500" y="60" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="#5C3D2E">CHOCOLATE CAKE RECIPE</text>
+  
+  <!-- Step 1: Mixing ingredients -->
+  <circle cx="300" cy="250" r="120" fill="white"/>
+  <text x="300" y="390" font-family="Arial" font-size="24" text-anchor="middle" fill="#5C3D2E">1</text>
+  
+  <!-- Bowl with ingredients -->
+  <ellipse cx="300" cy="280" rx="60" ry="30" fill="#E0E0E0"/>
+  <rect x="260" y="270" width="80" height="10" fill="#D0D0D0"/>
+  <ellipse cx="300" cy="270" rx="50" ry="25" fill="#F0F0F0"/>
+  
+  <!-- Flour bag -->
+  <rect x="220" y="210" width="40" height="30" fill="#D2B48C" rx="5"/>
+  <text x="240" y="230" font-family="Arial" font-size="10" text-anchor="middle" fill="#5C3D2E">FLOUR</text>
+  
+  <!-- Eggs -->
+  <circle cx="280" cy="230" r="8" fill="#FFD700"/>
+  <circle cx="300" cy="220" r="8" fill="#FFD700"/>
+  <circle cx="320" cy="230" r="8" fill="#FFD700"/>
+  
+  <!-- Milk carton -->
+  <rect x="360" y="210" width="30" height="40" fill="#FFF"/>
+  <rect x="360" y="210" width="30" height="10" fill="#4A90E2"/>
+  <text x="375" y="225" font-family="Arial" font-size="8" text-anchor="middle" fill="white">MILK</text>
+  
+  <!-- Butter stick -->
+  <rect x="380" y="190" width="20" height="15" fill="#FFE082"/>
+  <rect x="380" y="190" width="20" height="5" fill="#FFD700"/>
+  
+  <!-- Step 2: Adding sugar and cocoa -->
+  <circle cx="700" cy="250" r="120" fill="white"/>
+  <text x="700" y="390" font-family="Arial" font-size="24" text-anchor="middle" fill="#5C3D2E">2</text>
+  
+  <!-- Bowl with batter -->
+  <ellipse cx="700" cy="280" rx="60" ry="30" fill="#E0E0E0"/>
+  <rect x="660" y="270" width="80" height="10" fill="#D0D0D0"/>
+  <ellipse cx="700" cy="270" rx="50" ry="25" fill="#6A4A3A"/>
+  
+  <!-- Sugar box -->
+  <rect x="620" y="210" width="30" height="30" fill="#F5F5DC" rx="3"/>
+  <text x="635" y="225" font-family="Arial" font-size="8" text-anchor="middle" fill="#5C3D2E">SUGAR</text>
+  
+  <!-- Cocoa powder -->
+  <rect x="680" y="200" width="30" height="30" fill="#8B4513" rx="3"/>
+  <text x="695" y="215" font-family="Arial" font-size="8" text-anchor="middle" fill="white">COCOA</text>
+  
+  <!-- Spoon -->
+  <path d="M730 240 Q740 230, 750 250" stroke="#5C3D2E" stroke-width="3" fill="none"/>
+  <rect x="748" y="248" width="4" height="12" fill="#5C3D2E"/>
+  
+  <!-- Step 3: Pouring into pan -->
+  <circle cx="300" cy="550" r="120" fill="white"/>
+  <text x="300" y="690" font-family="Arial" font-size="24" text-anchor="middle" fill="#5C3D2E">3</text>
+  
+  <!-- Cake pan -->
+  <rect x="250" y="580" width="100" height="40" rx="5" fill="#666"/>
+  <rect x="255" y="585" width="90" height="30" rx="3" fill="#555"/>
+  
+  <!-- Batter pouring -->
+  <path d="M300 480 L280 540 L320 540 Z" fill="#6A4A3A"/>
+  <path d="M280 540 L260 570 L340 570 L320 540 Z" fill="#6A4A3A"/>
+  
+  <!-- Step 4: Baking in oven -->
+  <circle cx="500" cy="550" r="120" fill="white"/>
+  <text x="500" y="690" font-family="Arial" font-size="24" text-anchor="middle" fill="#5C3D2E">4</text>
+  
+  <!-- Oven -->
+  <rect x="420" y="500" width="160" height="100" rx="10" fill="#8B4513"/>
+  <rect x="430" y="510" width="140" height="80" rx="5" fill="#6A4A3A"/>
+  <rect x="440" y="520" width="120" height="60" fill="#E0E0E0"/>
+  <rect x="440" y="520" width="120" height="60" fill="#C0C0C0"/>
+  
+  <!-- Oven door glass -->
+  <rect x="450" y="530" width="100" height="40" fill="#808080" opacity="0.5"/>
+  
+  <!-- Cake inside oven -->
+  <rect x="460" y="540" width="80" height="20" rx="5" fill="#8B4513"/>
+  <rect x="465" y="545" width="70" height="10" fill="#6A4A3A"/>
+  
+  <!-- Timer -->
+  <circle cx="580" cy="520" r="20" fill="white"/>
+  <circle cx="580" cy="520" r="18" fill="none" stroke="#5C3D2E" stroke-width="2"/>
+  <text x="580" y="525" font-family="Arial" font-size="10" text-anchor="middle" fill="#5C3D2E">180°C</text>
+  
+  <!-- Step 5: Finished cake -->
+  <circle cx="700" cy="550" r="120" fill="white"/>
+  <text x="700" y="690" font-family="Arial" font-size="24" text-anchor="middle" fill="#5C3D2E">5</text>
+  
+  <!-- Chocolate cake -->
+  <rect x="650" y="560" width="100" height="40" rx="5" fill="#5C3D2E"/>
+  <rect x="655" y="565" width="90" height="30" rx="3" fill="#4B3621"/>
+  <rect x="660" y="570" width="80" height="20" rx="2" fill="#3E2723"/>
+  
+  <!-- Frosting -->
+  <rect x="650" y="560" width="100" height="10" rx="5" fill="#6A4A3A"/>
+  
+  <!-- Decorations -->
+  <circle cx="680" cy="550" r="5" fill="#FF69B4"/>
+  <circle cx="700" cy="550" r="5" fill="#FF69B4"/>
+  <circle cx="720" cy="550" r="5" fill="#FF69B4"/>
+  <circle cx="690" cy="540" r="3" fill="#FFD700"/>
+  <circle cx="710" cy="540" r="3" fill="#FFD700"/>
+</svg>

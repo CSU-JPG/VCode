@@ -1,0 +1,22 @@
+<svg viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ivoryGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffaf0"/>
+      <stop offset="100%" stop-color="#f5deb3"/>
+    </radialGradient>
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5deb3"/>
+      <stop offset="100%" stop-color="#d2b48c"/>
+    </linearGradient>
+  </defs>
+  <rect x="45" y="175" width="30" height="15" fill="url(#baseGrad)" stroke="#8b4513" stroke-width="0.5"/>
+  <circle cx="60" cy="190" r="10" fill="url(#baseGrad)" stroke="#8b4513" stroke-width="0.5"/>
+  <path d="M50 175 Q45 160 40 145 L45 100 Q50 80 55 100 L60 145 Q55 160 50 175" fill="url(#ivoryGrad)" stroke="#8b4513" stroke-width="0.5"/>
+  <path d="M50 50 Q45 40 40 50 Q45 60 50 50 M50 50 Q55 40 60 50 Q55 60 50 50" fill="none" stroke="#8b4513" stroke-width="0.5"/>
+  <path d="M48 35 Q50 30 52 35" stroke="#8b4513" stroke-width="0.5"/>
+  <path d="M45 65 H55" stroke="#8b4513" stroke-width="0.5"/>
+  <path d="M42 100 Q35 90 35 80 Q35 70 45 60 L55 60 Q65 70 65 80 Q65 90 58 100" fill="url(#ivoryGrad)" stroke="#8b4513" stroke-width="0.5"/>
+  <circle cx="50" cy="70" r="5" fill="url(#ivoryGrad)" stroke="#8b4513" stroke-width="0.5"/>
+  <path d="M47 75 L53 75" stroke="#8b4513" stroke-width="0.5"/>
+  <path d="M48 60 Q45 55 48 50 Q51 55 50 60" fill="none" stroke="#8b4513" stroke-width="0.5"/>
+</svg>

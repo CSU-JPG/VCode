@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#6B4C3A"/>
+  <rect x="0" y="0" width="1000" height="300" fill="#2E5D87"/>
+  <text x="500" y="60" font-family="Arial" font-size="24" fill="white" text-anchor="middle">PROMOTOCROSS.COM</text>
+  <rect x="540" y="90" width="880" height="200" fill="white"/>
+  <text x="700" y="170" font-family="Arial" font-weight="bold" font-size="70" fill="#CC2229">LUCAS OIL</text>
+  <text x="450" y="280" font-family="Arial" font-weight="bold" font-size="100" fill="white">MOTO</text>
+  <text x="880" y="280" font-family="Arial" font-weight="bold" font-size="100" fill="white">SS</text>
+  <path d="M130 50 C180 30, 220 30, 270 50 C320 70, 320 120, 270 140 C220 160, 180 160, 130 140 C80 120, 80 70, 130 50 Z" fill="white"/>
+  <text x="190" y="100" font-family="Arial" font-weight="bold" font-size="40" fill="#CC2229">LUCAS</text>
+  <text x="160" y="150" font-family="Arial" font-size="20" fill="black">OIL PRODUCTS</text>
+  <text x="220" y="180" font-family="Arial" font-size="20" fill="black">INC.</text>
+  <polygon points="0,80 50,100 0,120" fill="#CC2229"/>
+  <g>
+    <rect x="0" y="440" width="50" height="120" fill="yellow"/>
+    <rect x="0" y="560" width="50" height="20" fill="green"/>
+  </g>
+  <g>
+    <rect x="40" y="480" width="100" height="140" fill="red"/>
+    <text x="80" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="white">17</text>
+  </g>
+  <g>
+    <rect x="100" y="470" width="120" height="150" fill="yellow"/>
+    <text x="150" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="black">17</text>
+  </g>
+  <g>
+    <rect x="150" y="460" width="140" height="160" fill="green"/>
+    <text x="200" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="white">9</text>
+  </g>
+  <g>
+    <rect x="220" y="450" width="160" height="170" fill="yellow"/>
+    <text x="280" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="black">16</text>
+  </g>
+  <g>
+    <rect x="300" y="440" width="180" height="180" fill="red"/>
+    <text x="370" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="white">23</text>
+  </g>
+  <g>
+    <rect x="400" y="430" width="200" height="190" fill="orange"/>
+    <text x="480" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="white">25</text>
+  </g>
+  <g>
+    <rect x="520" y="420" width="220" height="200" fill="blue"/>
+    <text x="600" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="white">21</text>
+  </g>
+  <g>
+    <rect x="650" y="410" width="240" height="210" fill="lightblue"/>
+    <text x="750" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="black">51</text>
+  </g>
+  <g>
+    <rect x="800" y="400" width="260" height="220" fill="white"/>
+    <text x="900" y="550" font-family="Arial" font-weight="bold" font-size="20" fill="black">15</text>
+  </g>
+  <g>
+    <circle cx="25" cy="300" r="20" fill="black"/>
+    <rect x="10" y="320" width="30" height="40" fill="red"/>
+  </g>
+  <g>
+    <circle cx="90" cy="330" r="20" fill="black"/>
+    <rect x="75" y="350" width="30" height="40" fill="green"/>
+  </g>
+  <g>
+    <circle cx="180" cy="350" r="20" fill="black"/>
+    <rect x="165" y="370" width="30" height="40" fill="green"/>
+  </g>
+  <g>
+    <circle cx="270" cy="360" r="20" fill="black"/>
+    <rect x="255" y="380" width="30" height="40" fill="yellow"/>
+  </g>
+  <g>
+    <circle cx="340" cy="340" r="20" fill="black"/>
+    <rect x="325" y="360" width="30" height="40" fill="red"/>
+  </g>
+  <g>
+    <circle cx="430" cy="350" r="20" fill="black"/>
+    <rect x="415" y="370" width="30" height="40" fill="red"/>
+  </g>
+  <g>
+    <circle cx="560" cy="380" r="20" fill="black"/>
+    <rect x="545" y="400" width="30" height="40" fill="orange"/>
+  </g>
+  <g>
+    <circle cx="650" cy="360" r="20" fill="black"/>
+    <rect x="635" y="380" width="30" height="40" fill="blue"/>
+  </g>
+  <g>
+    <circle cx="760" cy="350" r="20" fill="black"/>
+    <rect x="745" y="370" width="30" height="40" fill="blue"/>
+  </g>
+  <g>
+    <circle cx="900" cy="350" r="20" fill="black"/>
+    <rect x="885" y="370" width="30" height="40" fill="white"/>
+  </g>
+  <g>
+    <circle cx="940" cy="350" r="20" fill="black"/>
+    <rect x="925" y="370" width="30" height="40" fill="black"/>
+  </g>
+</svg>

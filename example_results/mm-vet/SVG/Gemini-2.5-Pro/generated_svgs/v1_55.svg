@@ -1,0 +1,79 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: bold; font-family: serif; fill: #262626; }
+      .legend-text { font-size: 13px; font-family: serif; fill: #404040; }
+      .axis-label { font-size: 13px; font-family: serif; fill: #404040; }
+      .tick-label { font-size: 12px; font-family: sans-serif; fill: #404040; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="30" y="30" class="title">US Nationwide:</text>
+
+  <!-- Legend -->
+  <circle cx="40" cy="56" r="6" fill="#2E75B5"/>
+  <text x="52" y="60" class="legend-text">Median House Price</text>
+  <circle cx="195" cy="56" r="6" fill="#ED7D31"/>
+  <text x="207" y="60" class="legend-text">Median Gross Rent per Month</text>
+  <circle cx="40" cy="76" r="6" fill="#FF0000"/>
+  <text x="52" y="80" class="legend-text">Median Household Income</text>
+
+  <!-- Y-Axis -->
+  <text x="30" y="105" class="axis-label">Growth rate:</text>
+  <line x1="45" y1="280" x2="480" y2="280" stroke="#666666" stroke-width="1"/>
+  <line x1="45" y1="207" x2="480" y2="207" stroke="#D9D9D9" stroke-width="1"/>
+  <line x1="45" y1="133" x2="480" y2="133" stroke="#D9D9D9" stroke-width="1"/>
+  <line x1="45" y1="60" x2="480" y2="60" stroke="#D9D9D9" stroke-width="1"/>
+
+  <text x="35" y="284" text-anchor="end" class="tick-label">0</text>
+  <text x="35" y="211" text-anchor="end" class="tick-label">50%</text>
+  <text x="35" y="137" text-anchor="end" class="tick-label">100%</text>
+  <text x="35" y="64" text-anchor="end" class="tick-label">150%</text>
+
+  <!-- X-Axis Labels -->
+  <text x="60" y="300" text-anchor="middle" class="tick-label">1960</text>
+  <text x="115" y="300" text-anchor="middle" class="tick-label">1970</text>
+  <text x="170" y="300" text-anchor="middle" class="tick-label">1980</text>
+  <text x="225" y="300" text-anchor="middle" class="tick-label">1990</text>
+  <text x="280" y="300" text-anchor="middle" class="tick-label">2000</text>
+  <text x="345" y="300" text-anchor="middle" class="tick-label">2008</text>
+  <text x="380" y="300" text-anchor="middle" class="tick-label">2010</text>
+  <text x="460" y="300" text-anchor="middle" class="tick-label">2017</text>
+
+  <!-- Data Lines -->
+  <path d="M 60,280 C 80,280 95,260 115,260 C 140,260 145,243 170,243 C 195,243 200,221 225,221 C 250,221 255,218 280,218 C 305,218 310,196 345,196 C 360,196 365,193 380,193 C 410,193 430,181 460,181" stroke="#ED7D31" stroke-width="2" fill="none"/>
+  <path d="M 60,280 C 80,280 95,264 115,264 C 140,264 145,271 170,271 C 195,271 200,256 225,256 C 250,256 255,245 280,245 C 305,245 315,246 345,246 C 360,246 365,262 380,262 C 410,262 430,249 460,249" stroke="#FF0000" stroke-width="2" fill="none"/>
+  <path d="M 60,280 C 80,280 95,273 115,273 C 140,273 140,215 170,215 C 200,215 210,209 225,209 C 245,209 250,175 280,175 C 310,175 315,100 345,100 C 360,100 365,134 380,134 C 410,134 430,115 460,115" stroke="#2E75B5" stroke-width="2" fill="none"/>
+
+  <!-- Data Points -->
+  <!-- Median House Price (Blue) -->
+  <circle cx="60" cy="280" r="4.5" fill="#2E75B5"/>
+  <circle cx="115" cy="273" r="4.5" fill="#2E75B5"/>
+  <circle cx="170" cy="215" r="4.5" fill="#2E75B5"/>
+  <circle cx="225" cy="209" r="4.5" fill="#2E75B5"/>
+  <circle cx="280" cy="175" r="4.5" fill="#2E75B5"/>
+  <circle cx="345" cy="100" r="4.5" fill="#2E75B5"/>
+  <circle cx="380" cy="134" r="4.5" fill="#2E75B5"/>
+  <circle cx="460" cy="115" r="4.5" fill="#2E75B5"/>
+
+  <!-- Median Gross Rent (Orange) -->
+  <circle cx="60" cy="280" r="4.5" fill="#ED7D31"/>
+  <circle cx="115" cy="260" r="4.5" fill="#ED7D31"/>
+  <circle cx="170" cy="243" r="4.5" fill="#ED7D31"/>
+  <circle cx="225" cy="221" r="4.5" fill="#ED7D31"/>
+  <circle cx="280" cy="218" r="4.5" fill="#ED7D31"/>
+  <circle cx="345" cy="196" r="4.5" fill="#ED7D31"/>
+  <circle cx="380" cy="193" r="4.5" fill="#ED7D31"/>
+  <circle cx="460" cy="181" r="4.5" fill="#ED7D31"/>
+
+  <!-- Median Household Income (Red) -->
+  <circle cx="60" cy="280" r="4.5" fill="#FF0000"/>
+  <circle cx="115" cy="264" r="4.5" fill="#FF0000"/>
+  <circle cx="170" cy="271" r="4.5" fill="#FF0000"/>
+  <circle cx="225" cy="256" r="4.5" fill="#FF0000"/>
+  <circle cx="280" cy="245" r="4.5" fill="#FF0000"/>
+  <circle cx="345" cy="246" r="4.5" fill="#FF0000"/>
+  <circle cx="380" cy="262" r="4.5" fill="#FF0000"/>
+  <circle cx="460" cy="249" r="4.5" fill="#FF0000"/>
+</svg>

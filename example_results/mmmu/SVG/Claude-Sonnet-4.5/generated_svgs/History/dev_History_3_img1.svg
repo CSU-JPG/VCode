@@ -1,0 +1,71 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#2a2a2a"/>
+  
+  <!-- Base/pedestal -->
+  <rect x="140" y="520" width="120" height="60" fill="#8a8a8a" stroke="#666" stroke-width="2"/>
+  <path d="M 140 520 L 150 510 L 250 510 L 260 520 Z" fill="#9a9a9a" stroke="#666" stroke-width="1"/>
+  
+  <!-- Lower body/torso -->
+  <ellipse cx="200" cy="480" rx="45" ry="50" fill="#b8b8b8" stroke="#888" stroke-width="2"/>
+  <path d="M 155 480 Q 155 460 175 445 Q 200 435 225 445 Q 245 460 245 480" fill="#c8c8c8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Arms holding baby -->
+  <path d="M 170 440 Q 165 460 175 480 L 185 475 Q 180 455 175 440 Z" fill="#a8a8a8" stroke="#777" stroke-width="1"/>
+  <path d="M 230 440 Q 235 460 225 480 L 215 475 Q 220 455 225 440 Z" fill="#a8a8a8" stroke="#777" stroke-width="1"/>
+  
+  <!-- Baby figure -->
+  <ellipse cx="200" cy="465" rx="18" ry="22" fill="#b0b0b0" stroke="#888" stroke-width="1"/>
+  <circle cx="200" cy="450" r="12" fill="#c0c0c0" stroke="#888" stroke-width="1"/>
+  <circle cx="198" cy="448" r="2" fill="#444"/>
+  <circle cx="202" cy="448" r="2" fill="#444"/>
+  <path d="M 197 453 Q 200 455 203 453" stroke="#444" stroke-width="1" fill="none"/>
+  
+  <!-- Breasts -->
+  <circle cx="185" cy="410" r="16" fill="#b8b8b8" stroke="#888" stroke-width="1"/>
+  <circle cx="215" cy="410" r="16" fill="#b8b8b8" stroke="#888" stroke-width="1"/>
+  <circle cx="185" cy="410" r="5" fill="#a0a0a0"/>
+  <circle cx="215" cy="410" r="5" fill="#a0a0a0"/>
+  
+  <!-- Neck -->
+  <rect x="190" y="375" width="20" height="25" rx="3" fill="#a8a8a8" stroke="#888" stroke-width="1"/>
+  <path d="M 190 380 L 210 380 L 208 390 L 192 390 Z" fill="#b8b8b8"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="320" rx="50" ry="60" fill="#c8c8c8" stroke="#888" stroke-width="2"/>
+  <path d="M 150 320 Q 150 280 175 265 Q 200 255 225 265 Q 250 280 250 320" fill="#d8d8d8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Ear -->
+  <ellipse cx="160" cy="320" rx="10" ry="18" fill="#b0b0b0" stroke="#888" stroke-width="1"/>
+  <ellipse cx="162" cy="320" rx="5" ry="10" fill="#a0a0a0"/>
+  
+  <!-- Facial features -->
+  <ellipse cx="185" cy="310" rx="8" ry="10" fill="#fff" stroke="#666" stroke-width="1"/>
+  <circle cx="185" cy="312" r="4" fill="#333"/>
+  
+  <ellipse cx="215" cy="310" rx="8" ry="10" fill="#fff" stroke="#666" stroke-width="1"/>
+  <circle cx="215" cy="312" r="4" fill="#333"/>
+  
+  <!-- Nose -->
+  <path d="M 200 320 Q 198 335 195 340" stroke="#888" stroke-width="2" fill="none"/>
+  <ellipse cx="193" cy="342" rx="3" ry="4" fill="#999"/>
+  
+  <!-- Mouth - slight smile -->
+  <path d="M 185 350 Q 200 358 215 350" stroke="#666" stroke-width="2" fill="none"/>
+  <path d="M 188 352 L 192 354 M 195 355 L 205 355 M 208 354 L 212 352" stroke="#888" stroke-width="1"/>
+  
+  <!-- Hair/head detail -->
+  <ellipse cx="200" cy="270" rx="45" ry="20" fill="#b8b8b8" stroke="#888" stroke-width="1"/>
+  
+  <!-- Forehead marks/scarification -->
+  <line x1="180" y1="285" x2="190" y2="283" stroke="#777" stroke-width="1.5"/>
+  <line x1="185" y1="290" x2="195" y2="288" stroke="#777" stroke-width="1.5"/>
+  <line x1="205" y1="288" x2="215" y2="290" stroke="#777" stroke-width="1.5"/>
+  <line x1="210" y1="283" x2="220" y2="285" stroke="#777" stroke-width="1.5"/>
+  
+  <!-- Highlights for glossy ivory effect -->
+  <ellipse cx="180" cy="295" rx="15" ry="20" fill="#fff" opacity="0.3"/>
+  <ellipse cx="220" cy="340" rx="20" ry="25" fill="#fff" opacity="0.2"/>
+  <ellipse cx="170" cy="430" rx="12" ry="15" fill="#fff" opacity="0.25"/>
+  <ellipse cx="230" cy="470" rx="15" ry="18" fill="#fff" opacity="0.2"/>
+</svg>

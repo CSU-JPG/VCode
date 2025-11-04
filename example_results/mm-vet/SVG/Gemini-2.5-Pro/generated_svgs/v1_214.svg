@@ -1,0 +1,138 @@
+<svg viewBox="0 0 1000 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 26px sans-serif; fill: #008080; text-anchor: middle; }
+      .chart-label { font: 16px sans-serif; fill: #333333; text-anchor: middle; }
+      .value-label { font: bold 16px sans-serif; fill: white; text-anchor: middle; }
+      .value-label-dark { font: bold 14px sans-serif; fill: black; text-anchor: middle; }
+      .legend-text { font: 14px sans-serif; fill: #333333; alignment-baseline: middle; }
+    </style>
+  </defs>
+
+  <!-- Titles -->
+  <text x="500" y="40" class="title">Units Of electricity by fuel source in Australia</text>
+  <text x="500" y="460" class="title">Units of electricity by fuel source in France</text>
+
+  <!-- Australia 1980 -->
+  <g id="australia-1980">
+    <ellipse cx="250" cy="230" rx="120" ry="100" fill="#666"/>
+    <g transform="translate(0, -20)">
+      <!-- Slices -->
+      <path d="M 250 230 L 370 230 A 120 100 0 1 1 250 130 Z" fill="#50a14f"/> <!-- Coal 50 -->
+      <path d="M 250 230 L 250 130 A 120 100 0 0 1 144.1 160.6 Z" fill="#ffc800"/> <!-- Oil 10 -->
+      <path d="M 250 230 L 144.1 160.6 A 120 100 0 0 1 156.4 298.8 Z" fill="#001f7e"/> <!-- Natural Gas 20 -->
+      <path d="M 250 230 L 156.4 298.8 A 120 100 0 0 1 370 230 Z" fill="#e60000"/> <!-- Hydro Power 20 -->
+      <!-- Labels -->
+      <text x="310" y="180" class="value-label">50</text>
+      <text x="180" y="155" class="value-label">10</text>
+      <text x="170" y="250" class="value-label">20</text>
+      <text x="310" y="280" class="value-label">20</text>
+    </g>
+    <text x="250" y="380" class="chart-label">1980</text>
+    <text x="250" y="400" class="chart-label">Total Production:</text>
+    <text x="250" y="420" class="chart-label">100 units</text>
+  </g>
+
+  <!-- Australia 2000 -->
+  <g id="australia-2000">
+    <ellipse cx="700" cy="230" rx="120" ry="100" fill="#666"/>
+    <g transform="translate(0, -20)">
+      <!-- Slices -->
+      <path d="M 700 230 L 700 130 A 120 100 0 1 1 581.3 252.1 Z" fill="#50a14f"/> <!-- Coal 130 -->
+      <path d="M 700 230 L 581.3 252.1 A 120 100 0 0 1 659.5 131.2 Z" fill="#e60000"/> <!-- Hydro Power 36 -->
+      <path d="M 700 230 L 659.5 131.2 A 120 100 0 0 1 672.2 130.4 Z" fill="#001f7e"/> <!-- Natural Gas 2 -->
+      <path d="M 700 230 L 672.2 130.4 A 120 100 0 0 1 700 130 Z" fill="#ffc800"/> <!-- Oil 2 -->
+      <!-- Labels -->
+      <text x="700" y="250" class="value-label">130</text>
+      <text x="610" y="180" class="value-label">36</text>
+    </g>
+    <!-- Leader Lines for small values -->
+    <path d="M 665.9 140.3 L 640 110 L 620 110" stroke="#333" fill="none"/>
+    <rect x="590" y="102" width="28" height="18" fill="#001f7e" rx="2"/>
+    <text x="604" y="116" class="value-label">2</text>
+    <path d="M 685.9 140.2 L 710 110 L 730 110" stroke="#333" fill="none"/>
+    <rect x="732" y="102" width="28" height="18" fill="#ffc800" rx="2"/>
+    <text x="746" y="116" class="value-label-dark">2</text>
+    <text x="700" y="380" class="chart-label">2000</text>
+    <text x="700" y="400" class="chart-label">Total Production:</text>
+    <text x="700" y="420" class="chart-label">170 units</text>
+  </g>
+
+  <!-- France 1980 -->
+  <g id="france-1980">
+    <ellipse cx="250" cy="630" rx="120" ry="100" fill="#666"/>
+    <g transform="translate(0, -20)">
+      <!-- Slices -->
+      <path d="M 250 630 L 334.8 554.8 A 120 100 0 0 1 349.3 665.2 Z" fill="#ffc800"/> <!-- Oil 20 -->
+      <path d="M 250 630 L 349.3 665.2 A 120 100 0 0 1 291.6 726.6 Z" fill="#8B4513"/> <!-- Nuclear Power 15 -->
+      <path d="M 250 630 L 291.6 726.6 A 120 100 0 0 1 259.9 729.5 Z" fill="#e60000"/> <!-- Hydro Power 5 -->
+      <path d="M 250 630 L 259.9 729.5 A 120 100 0 0 1 165.2 554.8 Z" fill="#001f7e"/> <!-- Natural Gas 25 -->
+      <path d="M 250 630 L 165.2 554.8 A 120 100 0 0 1 334.8 554.8 Z" fill="#50a14f"/> <!-- Coal 25 -->
+      <!-- Labels -->
+      <text x="250" y="570" class="value-label">25</text>
+      <text x="350" y="610" class="value-label">20</text>
+      <text x="310" y="690" class="value-label">15</text>
+      <text x="270" y="725" class="value-label">5</text>
+      <text x="180" y="640" class="value-label">25</text>
+    </g>
+    <text x="250" y="780" class="chart-label">1980</text>
+    <text x="250" y="800" class="chart-label">Total Production:</text>
+    <text x="250" y="820" class="chart-label">90 units</text>
+  </g>
+
+  <!-- France 2000 -->
+  <g id="france-2000">
+    <ellipse cx="700" cy="630" rx="120" ry="100" fill="#666"/>
+    <g transform="translate(0, -20)">
+      <!-- Slices -->
+      <path d="M 700 630 L 610.1 532.5 A 120 100 0 1 1 583.4 679.6 Z" fill="#8B4513"/> <!-- Nuclear Power 126 -->
+      <path d="M 700 630 L 583.4 679.6 A 120 100 0 0 1 610.1 532.5 Z" fill="#50a14f"/> <!-- Coal 25 -->
+      <path d="M 700 630 L 610.1 532.5 A 120 100 0 0 1 650.7 530.5 Z" fill="#ffc800"/> <!-- Oil 25 -->
+      <path d="M 700 630 L 650.7 530.5 A 120 100 0 0 1 659.5 531.2 Z" fill="#001f7e"/> <!-- Natural Gas 2 -->
+      <path d="M 700 630 L 659.5 531.2 A 120 100 0 0 1 610.1 532.5 Z" fill="#e60000"/> <!-- Hydro Power 2 -->
+      <!-- Labels -->
+      <text x="700" y="650" class="value-label">126</text>
+      <text x="600" y="600" class="value-label">25</text>
+      <text x="630" y="550" class="value-label">25</text>
+    </g>
+    <!-- Leader Lines for small values -->
+    <path d="M 655.1 541.0 L 640 510 L 620 510" stroke="#333" fill="none"/>
+    <rect x="590" y="502" width="28" height="18" fill="#e60000" rx="2"/>
+    <text x="604" y="516" class="value-label">2</text>
+    <path d="M 655.1 541.0 L 670 510 L 690 510" stroke="#333" fill="none"/>
+    <rect x="692" y="502" width="28" height="18" fill="#001f7e" rx="2"/>
+    <text x="706" y="516" class="value-label">2</text>
+    <text x="700" y="780" class="chart-label">2000</text>
+    <text x="700" y="800" class="chart-label">Total Production:</text>
+    <text x="700" y="820" class="chart-label">180 units</text>
+  </g>
+  
+  <!-- Legends -->
+  <g id="legend1" transform="translate(400, 580)">
+    <rect x="-10" y="-10" width="130" height="135" fill="none" stroke="#ccc"/>
+    <rect x="0" y="0" width="15" height="15" fill="#001f7e"/>
+    <text x="25" y="7.5" class="legend-text">Natural Gas</text>
+    <rect x="0" y="25" width="15" height="15" fill="#ffc800"/>
+    <text x="25" y="32.5" class="legend-text">Oil</text>
+    <rect x="0" y="50" width="15" height="15" fill="#50a14f"/>
+    <text x="25" y="57.5" class="legend-text">Coal</text>
+    <rect x="0" y="75" width="15" height="15" fill="#8B4513"/>
+    <text x="25" y="82.5" class="legend-text">Nuclear Power</text>
+    <rect x="0" y="100" width="15" height="15" fill="#e60000"/>
+    <text x="25" y="107.5" class="legend-text">Hydro Power</text>
+  </g>
+  <g id="legend2" transform="translate(850, 580)">
+    <rect x="-10" y="-10" width="130" height="135" fill="none" stroke="#ccc"/>
+    <rect x="0" y="0" width="15" height="15" fill="#001f7e"/>
+    <text x="25" y="7.5" class="legend-text">Natural Gas</text>
+    <rect x="0" y="25" width="15" height="15" fill="#ffc800"/>
+    <text x="25" y="32.5" class="legend-text">Oil</text>
+    <rect x="0" y="50" width="15" height="15" fill="#50a14f"/>
+    <text x="25" y="57.5" class="legend-text">Coal</text>
+    <rect x="0" y="75" width="15" height="15" fill="#8B4513"/>
+    <text x="25" y="82.5" class="legend-text">Nuclear Power</text>
+    <rect x="0" y="100" width="15" height="15" fill="#e60000"/>
+    <text x="25" y="107.5" class="legend-text">Hydro Power</text>
+  </g>
+
+</svg>

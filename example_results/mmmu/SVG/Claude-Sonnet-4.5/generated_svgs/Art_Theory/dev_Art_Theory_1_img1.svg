@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7355;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#C4A574;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#E8D4A8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4C4A4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#554433;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#332211;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="20%">
+      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:0.9" />
+      <stop offset="40%" style="stop-color:#F4E4C1;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#C4A574;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B8E9F;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#4A6B7A;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2D4552;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background sky -->
+  <rect width="1200" height="800" fill="url(#skyGrad)"/>
+  
+  <!-- Sun glow -->
+  <ellipse cx="600" cy="150" rx="400" ry="300" fill="url(#sunGlow)"/>
+  
+  <!-- Distant mountain peaks -->
+  <path d="M 0,350 Q 200,200 400,280 L 500,350 Z" fill="#B8A890" opacity="0.4"/>
+  <path d="M 350,300 Q 500,120 650,250 L 750,350 Z" fill="#C4B4A0" opacity="0.5"/>
+  <path d="M 600,280 Q 750,100 900,240 L 1000,350 Z" fill="#D4C4B0" opacity="0.4"/>
+  
+  <!-- Left cliff/waterfall -->
+  <path d="M 0,200 L 50,180 L 120,250 L 180,350 L 200,450 L 180,550 L 0,500 Z" fill="url(#mountainGrad)"/>
+  <path d="M 120,250 L 140,280 L 160,380 L 180,450 L 180,350 Z" fill="#221100" opacity="0.6"/>
+  
+  <!-- Waterfall -->
+  <path d="M 120,250 L 125,260 Q 130,350 135,450 Q 137,500 140,530" 
+        stroke="#B8D4E0" stroke-width="8" fill="none" opacity="0.7"/>
+  <path d="M 135,260 L 140,270 Q 145,360 150,460 Q 152,510 155,540" 
+        stroke="#D4E8F0" stroke-width="5" fill="none" opacity="0.5"/>
+  
+  <!-- Right mountains -->
+  <path d="M 800,200 L 900,150 L 1000,220 L 1100,300 L 1200,280 L 1200,500 L 800,500 Z" 
+        fill="#6B5544" opacity="0.7"/>
+  <path d="M 900,250 L 1000,200 L 1100,280 L 1200,320 L 1200,500 L 900,500 Z" 
+        fill="#5B4534" opacity="0.8"/>
+  
+  <!-- Center mountains with mist -->
+  <path d="M 300,300 Q 450,200 600,280 Q 750,220 900,300 L 900,500 L 300,500 Z" 
+        fill="#8B7B6B" opacity="0.6"/>
+  
+  <!-- Water/lake -->
+  <ellipse cx="600" cy="550" rx="550" ry="80" fill="url(#waterGrad)"/>
+  <path d="M 100,530 Q 600,500 1100,540 L 1100,580 Q 600,550 100,570 Z" 
+        fill="#4A6B7A" opacity="0.6"/>
+  
+  <!-- Water reflections -->
+  <ellipse cx="600" cy="540" rx="500" ry="30" fill="#8BA8B8" opacity="0.3"/>
+  <ellipse cx="400" cy="550" rx="150" ry="20" fill="#C4D4E4" opacity="0.4"/>
+  <ellipse cx="800" cy="555" rx="120" ry="15" fill="#C4D4E4" opacity="0.3"/>
+  
+  <!-- Foreground trees (right side) -->
+  <ellipse cx="950" cy="520" rx="45" ry="80" fill="#2B4B3B"/>
+  <rect x="940" y="520" width="20" height="80" fill="#3B2B1B"/>
+  <ellipse cx="900" cy="530" rx="40" ry="75" fill="#3B5B4B"/>
+  <rect x="890" y="530" width="20" height="70" fill="#4B3B2B"/>
+  <ellipse cx="1000" cy="540" rx="35" ry="65" fill="#2B4B3B"/>
+  <rect x="992" y="540" width="16" height="60" fill="#3B2B1B"/>
+  
+  <!-- Foreground trees (left-center) -->
+  <ellipse cx="250" cy="530" rx="40" ry="70" fill="#3B5B4B"/>
+  <rect x="240" y="530" width="20" height="70" fill="#4B3B2B"/>
+  <ellipse cx="300" cy="540" rx="35" ry="65" fill="#2B4B3B"/>
+  <rect x="292" y="540" width="16" height="65" fill="#3B2B1B"/>
+  <ellipse cx="350" cy="535" rx="38" ry="68" fill="#3B5B4B"/>
+  <rect x="340" y="535" width="20" height="68" fill="#4B3B2B"/>
+  
+  <!-- Meadow/grass foreground -->
+  <path d="M 0,580 Q 300,560 600,570 Q 900,565 1200,585 L 1200,800 L 0,800 Z" 
+        fill="#4B6B3B"/>
+  <path d="M 0,600 Q 300,580 600,590 Q 900,585 1200,605 L 1200,800 L 0,800 Z" 
+        fill="#3B5B2B"/>
+  
+  <!-- Deer silhouettes -->
+  <ellipse cx="520" cy="630" rx="8" ry="10" fill="#2B1B0B"/>
+  <rect x="518" y="630" width="4" height="15" fill="#2B1B0B"/>
+  <line x1="520" y1="625" x2="517" y2="618" stroke="#2B1B0B" stroke-width="1.5"/>
+  <line x1="520" y1="625" x2="523" y2="618" stroke="#2B1B0B" stroke-width="1.5"/>
+  
+  <ellipse cx="560" cy="635" rx="7" ry="9" fill="#2B1B0B"/>
+  <rect x="558" y="635" width="4" height="14" fill="#2B1B0B"/>
+  
+  <ellipse cx="590" cy="633" rx="8" ry="10" fill="#2B1B0B"/>
+  <rect x="588" y="633" width="4" height="15" fill="#2B1B0B"/>
+  
+  <ellipse cx="620" cy="637" rx="7" ry="9" fill="#2B1B0B"/>
+  <rect x="618" y="637" width="4" height="13" fill="#2B1B0B"/>
+  
+  <!-- Atmospheric mist layers -->
+  <ellipse cx="600" cy="350" rx="500" ry="150" fill="#E8E4D8" opacity="0.2"/>
+  <ellipse cx="400" cy="300" rx="300" ry="100" fill="#F4F0E4" opacity="0.15"/>
+  <ellipse cx="800" cy="320" rx="350" ry="120" fill="#F4F0E4" opacity="0.15"/>
+</svg>

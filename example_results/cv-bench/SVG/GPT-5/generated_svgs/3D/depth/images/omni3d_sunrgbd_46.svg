@@ -1,0 +1,93 @@
+<svg viewBox="-10 -10 581 447" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe1c7"/>
+      <stop offset="1" stop-color="#dcc6a6"/>
+    </linearGradient>
+    <linearGradient id="mirrorGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9aa6b1"/>
+      <stop offset="1" stop-color="#cfd5dd"/>
+    </linearGradient>
+    <linearGradient id="counterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4434"/>
+      <stop offset="1" stop-color="#4b2f25"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall background -->
+  <rect x="-10" y="-10" width="581" height="447" fill="url(#wall)"/>
+
+  <!-- Window with blinds (top-left) -->
+  <rect x="8" y="8" width="205" height="145" fill="#ffffff" stroke="#b9b9b9" stroke-width="3"/>
+  <rect x="8" y="8" width="205" height="18" fill="#e8e8e8" stroke="#b9b9b9" stroke-width="3"/>
+  <g stroke="#d0d0d0" stroke-width="2">
+    <line x1="12" y1="36" x2="209" y2="36"/>
+    <line x1="12" y1="52" x2="209" y2="52"/>
+    <line x1="12" y1="68" x2="209" y2="68"/>
+    <line x1="12" y1="84" x2="209" y2="84"/>
+    <line x1="12" y1="100" x2="209" y2="100"/>
+    <line x1="12" y1="116" x2="209" y2="116"/>
+    <line x1="12" y1="132" x2="209" y2="132"/>
+  </g>
+
+  <!-- Tall mirror in the middle-left -->
+  <rect x="225" y="8" width="95" height="230" fill="url(#mirrorGrad)" stroke="#7b7b7b" stroke-width="3"/>
+  <rect x="219" y="4" width="107" height="238" fill="none" stroke="#d9d9d9" stroke-width="6"/>
+
+  <!-- Cabinets -->
+  <rect x="120" y="250" width="420" height="170" fill="#c6aa82" stroke="#9a876f" stroke-width="3"/>
+  <!-- Vertical cabinet fronts and handles -->
+  <g stroke="#8d7a64" stroke-width="3">
+    <line x1="210" y1="250" x2="210" y2="420"/>
+    <line x1="300" y1="250" x2="300" y2="420"/>
+    <line x1="390" y1="250" x2="390" y2="420"/>
+  </g>
+  <g fill="#514838">
+    <rect x="195" y="330" width="8" height="30" rx="4"/>
+    <rect x="285" y="330" width="8" height="30" rx="4"/>
+    <rect x="375" y="330" width="8" height="30" rx="4"/>
+    <rect x="465" y="330" width="8" height="30" rx="4"/>
+  </g>
+
+  <!-- Countertop with perspective -->
+  <path d="M200 198 L548 180 L548 240 L185 260 Z" fill="url(#counterGrad)" stroke="#3a251d" stroke-width="3"/>
+
+  <!-- Backsplash -->
+  <rect x="300" y="170" width="250" height="20" fill="#2e1e19" opacity="0.4"/>
+
+  <!-- Tissue box on counter -->
+  <rect x="340" y="210" width="90" height="48" rx="4" fill="#9fb1bf" stroke="#6d7b87" stroke-width="2"/>
+  <polygon points="385,185 372,210 398,210" fill="#e9efe9" opacity="0.95"/>
+
+  <!-- Soap bar -->
+  <rect x="305" y="232" width="68" height="28" rx="12" fill="#f4f4f4" stroke="#cfcfcf"/>
+
+  <!-- Sink bowl -->
+  <ellipse cx="435" cy="290" rx="100" ry="45" fill="#f4f2ee" stroke="#b7aaa0" stroke-width="3"/>
+  <ellipse cx="435" cy="292" rx="80" ry="30" fill="#e8e1d9" opacity="0.6"/>
+
+  <!-- Faucet base and spout -->
+  <rect x="505" y="245" width="16" height="48" rx="4" fill="#b5b0a6" stroke="#7f7a72"/>
+  <path d="M520 250 Q520 205 470 210 Q455 212 455 230" fill="none" stroke="#a8a39a" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="455" cy="230" r="8" fill="#8f8a81"/>
+
+  <!-- Cup/soap dispenser near faucet -->
+  <rect x="420" y="232" width="24" height="42" rx="5" fill="#7e7e86" stroke="#66686d"/>
+  <rect x="418" y="222" width="28" height="12" rx="3" fill="#aab0b8"/>
+
+  <!-- Trash/hamper on left -->
+  <rect x="34" y="190" width="130" height="110" rx="8" fill="#c6c0bb" stroke="#9d9a95"/>
+  <rect x="30" y="214" width="138" height="16" rx="6" fill="#a8a6a1" stroke="#8b8985"/>
+  <rect x="92" y="222" width="18" height="140" fill="#c8c4bf"/>
+  <rect x="56" y="306" width="90" height="60" rx="6" fill="#9f9389" opacity="0.7"/>
+
+  <!-- Detection rectangles -->
+  <rect x="52" y="146" width="165" height="180" fill="none" stroke="#ff2d2d" stroke-width="6"/>
+  <rect x="412" y="196" width="78" height="45" fill="none" stroke="#2d6dff" stroke-width="6"/>
+  <rect x="465" y="192" width="96" height="150" fill="none" stroke="#2d6dff" stroke-width="6"/>
+
+  <!-- Subtle counter items shadows -->
+  <ellipse cx="345" cy="263" rx="55" ry="10" fill="#000" opacity="0.1"/>
+  <ellipse cx="385" cy="260" rx="40" ry="8" fill="#000" opacity="0.08"/>
+  <ellipse cx="510" cy="300" rx="28" ry="10" fill="#000" opacity="0.08"/>
+</svg>

@@ -1,0 +1,122 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFE5CC"/>
+  <text x="500" y="70" font-family="Arial" font-size="48" fill="#E66A6A" text-anchor="middle">Pancake recipe</text>
+  
+  <!-- Step 1 -->
+  <circle cx="150" cy="200" r="90" fill="white"/>
+  <text x="70" y="130" font-family="Arial" font-size="24" fill="#E66A6A">1</text>
+  <rect x="100" y="110" width="60" height="70" rx="10" fill="#B0C4D9"/>
+  <rect x="120" y="130" width="20" height="30" rx="5" fill="#B0C4D9"/>
+  <rect x="100" y="180" width="40" height="40" rx="10" fill="#F0F0F0"/>
+  <rect x="50" y="200" width="30" height="50" rx="10" fill="#E0E0E0"/>
+  <rect x="80" y="270" width="140" height="60" rx="20" fill="#FF5555"/>
+  <rect x="130" y="280" width="40" height="10" fill="#FFFFFF"/>
+  <line x1="200" y1="150" x2="250" y2="180" stroke="#888" stroke-width="3"/>
+  <circle cx="250" cy="180" r="5" fill="#888"/>
+  
+  <!-- Step 2 -->
+  <circle cx="500" cy="200" r="90" fill="white"/>
+  <text x="420" y="130" font-family="Arial" font-size="24" fill="#E66A6A">2</text>
+  <rect x="420" y="180" width="30" height="30" rx="15" fill="#FFD700"/>
+  <rect x="450" y="170" width="30" height="30" rx="15" fill="#FFD700"/>
+  <rect x="430" y="270" width="140" height="60" rx="20" fill="#FF5555"/>
+  <rect x="480" y="280" width="40" height="10" fill="#FFFFAA"/>
+  <path d="M480 140 L520 180 L500 220 L460 180 Z" fill="#888"/>
+  <path d="M490 150 L510 170 L490 190 L470 170 Z" fill="#FFF"/>
+  <rect x="580" y="160" width="60" height="40" rx="20" fill="#FFD700"/>
+  <rect x="590" y="170" width="40" height="20" rx="10" fill="#FFEEAA"/>
+  
+  <!-- Step 3 -->
+  <circle cx="850" cy="200" r="90" fill="white"/>
+  <text x="770" y="130" font-family="Arial" font-size="24" fill="#E66A6A">3</text>
+  <rect x="800" y="140" width="60" height="80" rx="10" fill="#ADD8E6"/>
+  <rect x="810" y="150" width="40" height="60" rx="5" fill="#BFEFFF"/>
+  <rect x="760" y="270" width="140" height="60" rx="20" fill="#FF5555"/>
+  <rect x="810" y="280" width="40" height="10" fill="#FFFFAA"/>
+  <path d="M790 130 L830 170 L810 210 L770 170 Z" fill="#888"/>
+  <path d="M800 140 L820 160 L800 180 L780 160 Z" fill="#FFF"/>
+  
+  <!-- Step 4 -->
+  <circle cx="150" cy="500" r="90" fill="white"/>
+  <text x="70" y="430" font-family="Arial" font-size="24" fill="#E66A6A">4</text>
+  <rect x="90" y="520" width="120" height="40" rx="20" fill="#333"/>
+  <rect x="210" y="530" width="80" height="20" rx="10" fill="#D2B48C"/>
+  <rect x="150" y="450" width="60" height="40" rx="20" fill="#FFD700"/>
+  <rect x="160" y="460" width="40" height="20" rx="10" fill="#FFEEAA"/>
+  <circle cx="150" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="130" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="110" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="90" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="70" cy="510" r="5" fill="#FFD700"/>
+  
+  <!-- Step 5 -->
+  <circle cx="500" cy="500" r="90" fill="white"/>
+  <text x="420" y="430" font-family="Arial" font-size="24" fill="#E66A6A">5</text>
+  <rect x="430" y="450" width="60" height="40" rx="20" fill="#FF5555"/>
+  <rect x="440" y="460" width="40" height="20" rx="10" fill="#FFFFAA"/>
+  <rect x="430" y="520" width="120" height="40" rx="20" fill="#333"/>
+  <rect x="550" y="530" width="80" height="20" rx="10" fill="#D2B48C"/>
+  <path d="M540 380 L600 480 L560 500 L520 480 Z" fill="#333"/>
+  <rect x="550" y="480" width="40" height="20" rx="10" fill="#FFFFAA"/>
+  <circle cx="460" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="480" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="500" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="520" cy="510" r="5" fill="#FFD700"/>
+  <circle cx="540" cy="510" r="5" fill="#FFD700"/>
+  
+  <!-- Step 6 -->
+  <circle cx="850" cy="500" r="90" fill="white"/>
+  <text x="770" y="430" font-family="Arial" font-size="24" fill="#E66A6A">6</text>
+  <rect x="730" y="470" width="120" height="80" rx="40" fill="#333"/>
+  <rect x="850" y="480" width="80" height="20" rx="10" fill="#D2B48C"/>
+  <rect x="760" y="500" width="60" height="40" rx="20" fill="#FFD700"/>
+  <rect x="770" y="510" width="40" height="20" rx="10" fill="#FFEEAA"/>
+  <circle cx="860" cy="450" r="20" fill="#FFF"/>
+  <circle cx="860" cy="450" r="15" fill="#EEE"/>
+  <line x1="860" y1="450" x2="870" y2="430" stroke="#333" stroke-width="2"/>
+  <line x1="860" y1="450" x2="850" y2="440" stroke="#333" stroke-width="2"/>
+  
+  <!-- Step 7 -->
+  <circle cx="150" cy="800" r="90" fill="white"/>
+  <text x="70" y="730" font-family="Arial" font-size="24" fill="#E66A6A">7</text>
+  <rect x="80" y="790" width="120" height="40" rx="20" fill="#333"/>
+  <rect x="200" y="800" width="80" height="20" rx="10" fill="#D2B48C"/>
+  <rect x="120" y="700" width="80" height="30" rx="15" fill="#FFD700"/>
+  <rect x="130" y="710" width="60" height="10" rx="5" fill="#FFEEAA"/>
+  
+  <!-- Step 8 -->
+  <circle cx="500" cy="800" r="90" fill="white"/>
+  <text x="420" y="730" font-family="Arial" font-size="24" fill="#E66A6A">8</text>
+  <rect x="450" y="770" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="460" y="780" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="450" y="790" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="460" y="800" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="450" y="810" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="460" y="820" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="450" y="830" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="460" y="840" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="450" y="850" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="460" y="860" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="420" y="870" width="140" height="20" rx="10" fill="#FF5555"/>
+  <rect x="540" y="710" width="60" height="40" rx="20" fill="#FFD700"/>
+  <rect x="550" y="720" width="40" height="20" rx="10" fill="#FFEEAA"/>
+  <path d="M540 720 L560 740 L550 750 L530 730 Z" fill="#FF5555"/>
+  
+  <!-- Step 9 -->
+  <circle cx="850" cy="800" r="90" fill="white"/>
+  <text x="770" y="730" font-family="Arial" font-size="24" fill="#E66A6A">9</text>
+  <rect x="770" y="750" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="780" y="760" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="770" y="770" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="780" y="780" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="770" y="790" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="780" y="800" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="770" y="810" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="780" y="820" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="770" y="830" width="80" height="40" rx="20" fill="#FFD700"/>
+  <rect x="780" y="840" width="60" height="20" rx="10" fill="#FFEEAA"/>
+  <rect x="720" y="850" width="140" height="20" rx="10" fill="#FF5555"/>
+  <rect x="800" y="730" width="40" height="20" rx="10" fill="#FFD700"/>
+  <rect x="810" y="740" width="20" height="10" rx="5" fill="#FFEEAA"/>
+  <path d="M800 740 L820 760 L810 770 L790 750 Z" fill="#FFD700"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg viewBox="-10 40 220 120" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="100" x2="200" y2="100" stroke="black"/>
+  <line x1="100" y1="50" x2="100" y2="150" stroke="black"/>
+  <text x="205" y="100" text-anchor="start">A</text>
+  <text x="100" y="50" text-anchor="middle" dy="-5">B</text>
+  <text x="100" y="150" text-anchor="middle" dy="5">C</text>
+</svg>

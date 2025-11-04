@@ -1,0 +1,141 @@
+<svg viewBox="0 0 902 912" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-font { font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 48px; text-anchor: middle; fill: #222; }
+      .subtitle-font { font-family: Arial, Helvetica, sans-serif; font-size: 18px; text-anchor: middle; fill: #444; }
+      .credit-font { font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-anchor: middle; fill: #666; }
+      .cell-title-font { font-family: Arial, Helvetica, sans-serif; font-size: 24px; text-anchor: middle; fill: #222; }
+      .illustration-stroke { stroke: #3a3a3a; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A3D6E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B4E0B3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Header -->
+  <g id="header">
+    <rect x="1" y="1" width="900" height="150" fill="#ffffff" />
+    <text x="451" y="60" class="title-font">Strategies to Build</text>
+    <text x="451" y="105" class="title-font">Working Memory</text>
+    <text x="320" y="135" class="subtitle-font">www.thepathway2success.com</text>
+    <text x="700" y="135" class="credit-font">Clipart by Kate Hadfield</text>
+    
+    <!-- Logo -->
+    <g transform="translate(820, 60)">
+      <circle cx="0" cy="0" r="38" fill="url(#logo-gradient)" />
+      <path d="M -20 -15 Q 0 0, 20 15" stroke="#FDEE3A" stroke-width="6" fill="none" />
+      <text x="0" y="-8" font-family="sans-serif" font-size="12" font-weight="bold" fill="#005688" text-anchor="middle">Pathway</text>
+      <text x="0" y="8" font-family="sans-serif" font-size="12" font-weight="bold" fill="#005688" text-anchor="middle">2 Success</text>
+    </g>
+    <path d="M 1 151 H 901" stroke="#000000" stroke-width="2"/>
+  </g>
+
+  <!-- Grid -->
+  <g id="grid" transform="translate(1, 151)">
+    <!-- Row 1 -->
+    <g id="cell-1-make-lists">
+      <rect x="0" y="0" width="300" height="250" fill="#F6C7E2" />
+      <text x="150" y="40" class="cell-title-font">Make Lists</text>
+      <g transform="translate(110, 70)">
+        <path class="illustration-stroke" fill="#FFFFFF" d="M 0 5 h 80 v 120 h -80 z"/>
+        <path class="illustration-stroke" fill="#D3D3D3" d="M 10 0 h 60 v 15 h -60 z"/>
+        <text x="40" y="12" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#000">TO DO LIST</text>
+        <path class="illustration-stroke" d="M 5 25 h 70 M 5 40 h 70 M 5 55 h 70 M 5 70 h 70 M 5 85 h 70 M 5 100 h 70 M 5 115 h 70" fill="none"/>
+      </g>
+    </g>
+    <g id="cell-2-make-connections">
+      <rect x="300" y="0" width="300" height="250" fill="#A3D6E9" />
+      <text x="450" y="30" class="cell-title-font" dy="0">Make Meaningful</text>
+      <text x="450" y="30" class="cell-title-font" dy="1.2em">Connections</text>
+      <g transform="translate(410, 85)">
+         <path class="illustration-stroke" fill="#F0E48C" d="M 40,90 C 40,110 20,120 20,120 L 60,120 C 60,120 40,110 40,90 M 40,90 C 5,60 10,10 40,0 C 70,10 75,60 40,90 Z" />
+         <path class="illustration-stroke" fill="#D3D3D3" d="M 20 120 h 40 v 8 h -40 z m 2 8 h 36 v 6 h -36 z m 3 6 h 30 v 6 h -30 z"/>
+         <path class="illustration-stroke" fill="none" d="M 35 60 C 30 50, 40 40, 40 30 M 45 60 C 50 50, 40 40, 40 30"/>
+      </g>
+    </g>
+    <g id="cell-3-chunk-information">
+      <rect x="600" y="0" width="300" height="250" fill="#FDF3C9" />
+      <text x="750" y="40" class="cell-title-font">Chunk Information</text>
+      <g transform="translate(660, 75)">
+        <path class="illustration-stroke" fill="#FFFFFF" d="M 0 10 L 80 0 L 180 15 L 100 25 Z" />
+        <path class="illustration-stroke" fill="#FFFFFF" d="M 85 5 L 185 20 L 180 115 L 80 100 Z" />
+        <path d="M 80 0 L 85 5 L 80 100" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+        <circle cx="82.5" cy="15" r="3" class="illustration-stroke" fill="#D3D3D3"/>
+        <circle cx="82.5" cy="30" r="3" class="illustration-stroke" fill="#D3D3D3"/>
+        <circle cx="82.5" cy="45" r="3" class="illustration-stroke" fill="#D3D3D3"/>
+        <circle cx="82.5" cy="60" r="3" class="illustration-stroke" fill="#D3D3D3"/>
+        <circle cx="82.5" cy="75" r="3" class="illustration-stroke" fill="#D3D3D3"/>
+        <circle cx="82.5" cy="90" r="3" class="illustration-stroke" fill="#D3D3D3"/>
+        <text x="40" y="30" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle">TODAY</text>
+        <text x="135" y="35" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle">TOMORROW</text>
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <g id="cell-4-mnemonics">
+      <rect x="0" y="250" width="300" height="250" fill="#FDF3C9" />
+      <text x="150" y="280" class="cell-title-font" dy="0">Use Mnemonics and</text>
+      <text x="150" y="280" class="cell-title-font" dy="1.2em">Acronyms</text>
+      <g transform="translate(90, 340) rotate(-15)">
+        <path class="illustration-stroke" fill="#F0E48C" d="M 40 0 C 60 0 60 20 40 20 L 10 20 C -10 20 -10 0 10 0 Z M 25 20 L 25 30 L 50 30 L 50 80 L 60 80 L 60 90 L 70 90 L 70 80 L 80 80 L 80 70 L 90 70 L 90 60 L 50 60 L 50 30" />
+        <path class="illustration-stroke" fill="#D3D3D3" d="M 25 0 A 20 20 0 1 1 25 -0.1 Z" />
+        <rect x="20" y="-3" width="10" height="6" fill="#D3D3D3" />
+      </g>
+    </g>
+    <g id="cell-5-games-puzzles">
+      <rect x="300" y="250" width="300" height="250" fill="#CFA0E8" />
+      <text x="450" y="280" class="cell-title-font" dy="0">Use Games and</text>
+      <text x="450" y="280" class="cell-title-font" dy="1.2em">Puzzles</text>
+      <g transform="translate(370, 340)">
+        <path class="illustration-stroke" fill="#ff4d4d" d="M 0 20 v 40 h 20 c 0 10 20 10 20 0 h 20 v -40 h -20 c 0 -10 -20 -10 -20 0 z" transform="rotate(-20 30 40)"/>
+        <path class="illustration-stroke" fill="#ffaa3b" d="M 60 60 v 40 h 20 c 0 10 20 10 20 0 h 20 v -40 h -20 c 0 -10 -20 -10 -20 0 z" transform="rotate(10 90 80)"/>
+        <path class="illustration-stroke" fill="#59c959" d="M 120 20 v 40 h -20 c 0 10 -20 10 -20 0 h -20 v -40 h 20 c 0 -10 20 -10 20 0 z" transform="rotate(25 90 40)"/>
+      </g>
+    </g>
+    <g id="cell-6-mental-math">
+      <rect x="600" y="250" width="300" height="250" fill="#B4E0B3" />
+      <text x="750" y="290" class="cell-title-font">Practice Mental Math</text>
+      <g transform="translate(675, 340)">
+        <path class="illustration-stroke" fill="#FBC2D3" d="M 75 0 C 30 0 0 30 0 60 C 0 90 30 110 60 110 C 65 110 70 105 70 100 C 65 90 75 80 85 85 C 95 90 100 100 110 105 C 120 110 140 110 150 90 C 160 70 150 40 130 20 C 110 0 100 0 75 0 Z"/>
+        <path class="illustration-stroke" fill="none" d="M 75 10 C 85 20 80 30 70 35 C 60 40 60 50 70 55 C 80 60 90 55 95 50 M 30 60 C 25 50 35 40 45 40 C 55 40 60 45 60 55 M 120 30 C 125 40 120 50 110 55 C 100 60 100 70 110 75 C 120 80 130 75 135 70"/>
+      </g>
+    </g>
+
+    <!-- Row 3 -->
+    <g id="cell-7-exercise">
+      <rect x="0" y="500" width="300" height="250" fill="#C7E2B5" />
+      <text x="150" y="530" class="cell-title-font" dy="0">Exercise Before &amp;amp;amp;</text>
+      <text x="150" y="530" class="cell-title-font" dy="1.2em">During Learning</text>
+      <g transform="translate(65, 600)">
+        <path class="illustration-stroke" fill="#C0C0C0" d="M 0 15 h 30 v 30 h -30 z M 140 15 h 30 v 30 h -30 z M 25 20 v 20 h 120 v -20 z" />
+        <path class="illustration-stroke" fill="#A9A9A9" d="M 30 25 h 110 v 10 h -110 z" />
+      </g>
+    </g>
+    <g id="cell-8-visualize">
+      <rect x="300" y="500" width="300" height="250" fill="#F6C7E2" />
+      <text x="450" y="540" class="cell-title-font">Visualize</text>
+      <g transform="translate(360, 580)">
+        <path class="illustration-stroke" fill="#555555" d="M 20 0 C 0 0 0 40 20 40 L 60 40 C 80 40 80 0 60 0 Z M 120 0 C 100 0 100 40 120 40 L 160 40 C 180 40 180 0 160 0 Z M 70 15 h 40"/>
+        <path class="illustration-stroke" fill="#FFFFFF" d="M 20 5 C 5 5 5 35 20 35 L 60 35 C 75 35 75 5 60 5 Z M 120 5 C 105 5 105 35 120 35 L 160 35 C 175 35 175 5 160 5 Z"/>
+      </g>
+    </g>
+    <g id="cell-9-make-a-song">
+      <rect x="600" y="500" width="300" height="250" fill="#A3D6E9" />
+      <text x="750" y="540" class="cell-title-font">Make a Song</text>
+      <g transform="translate(680, 580)">
+         <rect x="40" y="30" width="80" height="10" class="illustration-stroke" fill="#3a3a3a"/>
+         <rect x="40" y="40" width="8" height="60" class="illustration-stroke" fill="#3a3a3a"/>
+         <rect x="112" y="40" width="8" height="60" class="illustration-stroke" fill="#3a3a3a"/>
+         <ellipse cx="44" cy="100" rx="18" ry="12" class="illustration-stroke" fill="#ff7f50"/>
+         <ellipse cx="116" cy="100" rx="18" ry="12" class="illustration-stroke" fill="#3a3a3a"/>
+      </g>
+    </g>
+    
+    <!-- Grid Lines -->
+    <path d="M 300 0 V 750 M 600 0 V 750 M 0 250 H 900 M 0 500 H 900" stroke="#000000" stroke-width="2"/>
+  </g>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="900" height="910" fill="none" stroke="#000000" stroke-width="2"/>
+</svg>

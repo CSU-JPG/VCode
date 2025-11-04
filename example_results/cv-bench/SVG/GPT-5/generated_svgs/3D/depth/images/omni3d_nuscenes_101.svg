@@ -1,0 +1,171 @@
+<svg viewBox="0 0 1366 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd6da"/>
+      <stop offset="55%" stop-color="#aeb5ba"/>
+      <stop offset="100%" stop-color="#5a6066"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4d5358"/>
+      <stop offset="100%" stop-color="#262a2f"/>
+    </linearGradient>
+    <radialGradient id="fogRad" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="white" stop-opacity="0.23"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="buildingR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a7f85"/>
+      <stop offset="100%" stop-color="#4d5156"/>
+    </linearGradient>
+    <linearGradient id="buildingL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c5644"/>
+      <stop offset="100%" stop-color="#4a342b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background misty sky -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#sky)"/>
+
+  <!-- Distant mid towers -->
+  <g opacity="0.5">
+    <rect x="610" y="60" width="180" height="250" fill="#aeb5bb"/>
+    <rect x="540" y="120" width="80" height="210" fill="#b9c0c6"/>
+    <rect x="800" y="110" width="60" height="220" fill="#b3bac0"/>
+  </g>
+
+  <!-- Left building block -->
+  <rect x="0" y="0" width="430" height="768" fill="url(#buildingL)"/>
+  <g opacity="0.35">
+    <rect x="35" y="70" width="38" height="38" fill="#232628"/>
+    <rect x="110" y="70" width="38" height="38" fill="#232628"/>
+    <rect x="185" y="70" width="38" height="38" fill="#232628"/>
+    <rect x="260" y="70" width="38" height="38" fill="#232628"/>
+    <rect x="335" y="70" width="38" height="38" fill="#232628"/>
+
+    <rect x="35" y="150" width="38" height="38" fill="#232628"/>
+    <rect x="110" y="150" width="38" height="38" fill="#232628"/>
+    <rect x="185" y="150" width="38" height="38" fill="#232628"/>
+    <rect x="260" y="150" width="38" height="38" fill="#232628"/>
+    <rect x="335" y="150" width="38" height="38" fill="#232628"/>
+
+    <rect x="35" y="230" width="38" height="38" fill="#232628"/>
+    <rect x="110" y="230" width="38" height="38" fill="#232628"/>
+    <rect x="185" y="230" width="38" height="38" fill="#232628"/>
+    <rect x="260" y="230" width="38" height="38" fill="#232628"/>
+    <rect x="335" y="230" width="38" height="38" fill="#232628"/>
+
+    <rect x="35" y="310" width="38" height="38" fill="#232628"/>
+    <rect x="110" y="310" width="38" height="38" fill="#232628"/>
+    <rect x="185" y="310" width="38" height="38" fill="#232628"/>
+    <rect x="260" y="310" width="38" height="38" fill="#232628"/>
+    <rect x="335" y="310" width="38" height="38" fill="#232628"/>
+
+    <rect x="35" y="390" width="38" height="38" fill="#232628"/>
+    <rect x="110" y="390" width="38" height="38" fill="#232628"/>
+    <rect x="185" y="390" width="38" height="38" fill="#232628"/>
+    <rect x="260" y="390" width="38" height="38" fill="#232628"/>
+    <rect x="335" y="390" width="38" height="38" fill="#232628"/>
+  </g>
+
+  <!-- Right building block -->
+  <rect x="950" y="0" width="416" height="768" fill="url(#buildingR)"/>
+  <g opacity="0.3">
+    <rect x="980" y="80" width="44" height="46" fill="#202326"/>
+    <rect x="1040" y="80" width="44" height="46" fill="#202326"/>
+    <rect x="1100" y="80" width="44" height="46" fill="#202326"/>
+    <rect x="1160" y="80" width="44" height="46" fill="#202326"/>
+    <rect x="1220" y="80" width="44" height="46" fill="#202326"/>
+    <rect x="1280" y="80" width="44" height="46" fill="#202326"/>
+
+    <rect x="980" y="160" width="44" height="46" fill="#202326"/>
+    <rect x="1040" y="160" width="44" height="46" fill="#202326"/>
+    <rect x="1100" y="160" width="44" height="46" fill="#202326"/>
+    <rect x="1160" y="160" width="44" height="46" fill="#202326"/>
+    <rect x="1220" y="160" width="44" height="46" fill="#202326"/>
+    <rect x="1280" y="160" width="44" height="46" fill="#202326"/>
+  </g>
+
+  <!-- Mid street canyon buildings -->
+  <g opacity="0.8">
+    <rect x="430" y="0" width="230" height="460" fill="#7e858e"/>
+    <rect x="660" y="0" width="290" height="460" fill="#8a9199"/>
+    <g opacity="0.4">
+      <rect x="455" y="60" width="40" height="40" fill="#30363b"/>
+      <rect x="505" y="60" width="40" height="40" fill="#30363b"/>
+      <rect x="555" y="60" width="40" height="40" fill="#30363b"/>
+
+      <rect x="455" y="120" width="40" height="40" fill="#30363b"/>
+      <rect x="505" y="120" width="40" height="40" fill="#30363b"/>
+      <rect x="555" y="120" width="40" height="40" fill="#30363b"/>
+    </g>
+  </g>
+
+  <!-- Road -->
+  <polygon points="220,768 1146,768 900,420 466,420" fill="url(#roadGrad)"/>
+  <!-- Sidewalks -->
+  <polygon points="0,768 220,768 440,420 430,420 0,520" fill="#3c4146"/>
+  <polygon points="1146,768 1366,768 1366,520 980,420 900,420" fill="#3c4146"/>
+
+  <!-- Center yellow lane markings -->
+  <g stroke="#e6b52e" stroke-width="10" stroke-linecap="round" opacity="0.9">
+    <polyline points="650,430 560,560 450,720" fill="none"/>
+    <polyline points="720,430 810,560 920,720" fill="none"/>
+  </g>
+
+  <!-- Vehicles -->
+  <!-- Left SUV -->
+  <g transform="translate(110,550)">
+    <rect x="10" y="30" width="360" height="90" rx="12" fill="#1f262a"/>
+    <polygon points="50,30 290,30 330,60 10,60" fill="#21292e"/>
+    <rect x="70" y="40" width="110" height="35" rx="6" fill="#3a4850"/>
+    <rect x="190" y="40" width="110" height="35" rx="6" fill="#3a4850"/>
+    <circle cx="95" cy="130" r="34" fill="#121518"/>
+    <circle cx="300" cy="130" r="34" fill="#121518"/>
+    <circle cx="95" cy="130" r="16" fill="#3e4145"/>
+    <circle cx="300" cy="130" r="16" fill="#3e4145"/>
+    <ellipse cx="60" cy="86" rx="26" ry="12" fill="#f7fbff" opacity="0.85"/>
+    <ellipse cx="338" cy="86" rx="20" ry="10" fill="#f7fbff" opacity="0.85"/>
+  </g>
+
+  <!-- Right mid truck -->
+  <g id="truck" transform="translate(880,470)">
+    <rect x="0" y="10" width="125" height="110" rx="6" fill="#cfd6dc"/>
+    <rect x="10" y="20" width="105" height="50" rx="4" fill="#8e9aa4"/>
+    <rect x="35" y="80" width="55" height="18" rx="3" fill="#2a2f33"/>
+    <circle cx="28" cy="120" r="17" fill="#171a1e"/>
+    <circle cx="100" cy="120" r="17" fill="#171a1e"/>
+    <circle cx="28" cy="120" r="7" fill="#3c4046"/>
+    <circle cx="100" cy="120" r="7" fill="#3c4046"/>
+    <ellipse cx="112" cy="65" rx="8" ry="4" fill="#f8ffff" opacity="0.9"/>
+  </g>
+
+  <!-- Small center car -->
+  <g id="smallCar" transform="translate(655,430)">
+    <rect x="0" y="15" width="60" height="30" rx="5" fill="#4b5860"/>
+    <rect x="8" y="0" width="44" height="20" rx="5" fill="#6a7a84"/>
+    <circle cx="15" cy="50" r="7" fill="#1b1f23"/>
+    <circle cx="45" cy="50" r="7" fill="#1b1f23"/>
+    <ellipse cx="4" cy="36" rx="5" ry="3" fill="#f7fbff" opacity="0.9"/>
+    <ellipse cx="56" cy="36" rx="5" ry="3" fill="#f7fbff" opacity="0.9"/>
+  </g>
+
+  <!-- Bounding boxes -->
+  <rect x="880" y="470" width="125" height="130" fill="none" stroke="#ff2a2a" stroke-width="5"/>
+  <rect x="650" y="420" width="72" height="60" fill="none" stroke="#3b77ff" stroke-width="5"/>
+
+  <!-- Fog overlay -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#fogRad)"/>
+
+  <!-- Light rain streaks -->
+  <g stroke="white" stroke-width="1.2" opacity="0.15">
+    <line x1="80" y1="90" x2="40" y2="140"/>
+    <line x1="130" y1="40" x2="90" y2="92"/>
+    <line x1="300" y1="20" x2="250" y2="78"/>
+    <line x1="520" y1="40" x2="470" y2="98"/>
+    <line x1="860" y1="60" x2="820" y2="115"/>
+    <line x1="1040" y1="20" x2="1000" y2="76"/>
+    <line x1="1240" y1="50" x2="1200" y2="110"/>
+    <line x1="1180" y1="120" x2="1130" y2="178"/>
+  </g>
+</svg>

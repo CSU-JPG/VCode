@@ -1,0 +1,70 @@
+<svg viewBox="0 0 640 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid lines -->
+  <line x1="100" y1="450" x2="620" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="410" x2="620" y2="410" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="370" x2="620" y2="370" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="330" x2="620" y2="330" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="290" x2="620" y2="290" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="250" x2="620" y2="250" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="210" x2="620" y2="210" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="170" x2="620" y2="170" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="130" x2="620" y2="130" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="90" x2="620" y2="90" stroke="#ccc" stroke-width="1"/>
+  <line x1="100" y1="50" x2="620" y2="50" stroke="#ccc" stroke-width="1"/>
+  
+  <line x1="100" y1="50" x2="100" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="152" y1="50" x2="152" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="204" y1="50" x2="204" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="256" y1="50" x2="256" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="308" y1="50" x2="308" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="360" y1="50" x2="360" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="412" y1="50" x2="412" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="464" y1="50" x2="464" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="516" y1="50" x2="516" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="568" y1="50" x2="568" y2="450" stroke="#ccc" stroke-width="1"/>
+  <line x1="620" y1="50" x2="620" y2="450" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Axes -->
+  <line x1="100" y1="450" x2="620" y2="450" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="50" x2="100" y2="450" stroke="#000" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="80" y="454" font-family="Arial" font-size="16" text-anchor="end">0</text>
+  <text x="80" y="414" font-family="Arial" font-size="16" text-anchor="end">5</text>
+  <text x="80" y="374" font-family="Arial" font-size="16" text-anchor="end">10</text>
+  <text x="80" y="334" font-family="Arial" font-size="16" text-anchor="end">15</text>
+  <text x="80" y="294" font-family="Arial" font-size="16" text-anchor="end">20</text>
+  <text x="80" y="254" font-family="Arial" font-size="16" text-anchor="end">25</text>
+  <text x="80" y="214" font-family="Arial" font-size="16" text-anchor="end">30</text>
+  <text x="80" y="174" font-family="Arial" font-size="16" text-anchor="end">35</text>
+  <text x="80" y="134" font-family="Arial" font-size="16" text-anchor="end">40</text>
+  
+  <!-- X-axis labels -->
+  <text x="152" y="470" font-family="Arial" font-size="16" text-anchor="middle">0.002</text>
+  <text x="256" y="470" font-family="Arial" font-size="16" text-anchor="middle">0.004</text>
+  <text x="360" y="470" font-family="Arial" font-size="16" text-anchor="middle">0.006</text>
+  <text x="464" y="470" font-family="Arial" font-size="16" text-anchor="middle">0.008</text>
+  <text x="568" y="470" font-family="Arial" font-size="16" text-anchor="middle">0.010</text>
+  
+  <!-- Axis titles -->
+  <text x="50" y="30" font-family="Arial" font-size="18" text-anchor="middle">σ (ksi)</text>
+  <text x="580" y="490" font-family="Arial" font-size="18" text-anchor="middle">ε (in./in.)</text>
+  
+  <!-- Curve -->
+  <path d="M 100 450 
+           C 110 440, 115 430, 120 420
+           C 125 410, 130 398, 138 385
+           C 146 372, 154 360, 162 348
+           C 172 334, 182 322, 194 310
+           C 206 298, 218 286, 230 276
+           C 244 266, 258 258, 272 250
+           C 288 242, 304 234, 320 228
+           C 336 222, 352 216, 368 212
+           C 384 208, 400 204, 416 200
+           C 432 196, 448 193, 464 190
+           C 480 187, 496 184, 512 182
+           C 528 180, 544 178, 560 176
+           C 576 174, 592 172, 604 170
+           L 620 168" 
+           stroke="#cd7f32" stroke-width="3" fill="none"/>
+</svg>

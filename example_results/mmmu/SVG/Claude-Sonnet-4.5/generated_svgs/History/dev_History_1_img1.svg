@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1200 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title 1 -->
+  <text x="600" y="40" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle">
+    WORLD SILVER FLOWS, 1600–1650 C.E., METRIC TONS PER YEAR (average)
+  </text>
+  
+  <!-- First diagram -->
+  <g id="diagram1">
+    <!-- Western Europe oval -->
+    <ellipse cx="250" cy="150" rx="120" ry="60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="250" y="140" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Western Europe</text>
+    <text x="250" y="160" font-family="serif" font-size="14" text-anchor="middle">Import: 158 Tons</text>
+    <text x="250" y="175" font-family="serif" font-size="14" text-anchor="middle">Re-export: 110 Tons</text>
+    
+    <!-- Rest of Europe oval -->
+    <ellipse cx="550" cy="150" rx="140" ry="60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="550" y="135" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Rest of Europe</text>
+    <text x="550" y="155" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">and the Middle East</text>
+    <text x="550" y="175" font-family="serif" font-size="14" text-anchor="middle">Import: 94 Tons</text>
+    
+    <!-- Japan box -->
+    <rect x="850" y="110" width="180" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <text x="940" y="135" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Japan</text>
+    <text x="940" y="155" font-family="serif" font-size="14" text-anchor="middle">Export: 59 Tons</text>
+    <text x="940" y="175" font-family="serif" font-size="14" text-anchor="middle">Use: Unknown</text>
+    
+    <!-- Americas box -->
+    <rect x="50" y="280" width="180" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <text x="140" y="305" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Americas</text>
+    <text x="140" y="325" font-family="serif" font-size="14" text-anchor="middle">Export: 302 Tons</text>
+    <text x="140" y="345" font-family="serif" font-size="14" text-anchor="middle">Use: 66 Tons</text>
+    
+    <!-- East and South Asia oval -->
+    <ellipse cx="550" cy="380" rx="140" ry="60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="550" y="370" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">East and South Asia</text>
+    <text x="550" y="390" font-family="serif" font-size="14" text-anchor="middle">Import: 109 Tons</text>
+    
+    <!-- Arrows and labels -->
+    <!-- Americas to Western Europe -->
+    <line x1="230" y1="300" x2="250" y2="210" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="200" y="250" font-family="serif" font-size="14">268 Tons</text>
+    
+    <!-- Western Europe to Rest of Europe -->
+    <line x1="370" y1="140" x2="410" y2="140" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="390" y="125" font-family="serif" font-size="14" text-anchor="middle">94</text>
+    <text x="390" y="140" font-family="serif" font-size="14" text-anchor="middle">Tons</text>
+    
+    <!-- Western Europe to East Asia (Southern African Route) -->
+    <path d="M 250 210 Q 350 280 450 360" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="280" y="270" font-family="serif" font-size="13">Southern African Route</text>
+    <text x="310" y="285" font-family="serif" font-size="13">16 Tons</text>
+    
+    <!-- Japan to East Asia -->
+    <line x1="850" y1="160" x2="690" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="780" y="240" font-family="serif" font-size="14">59 Tons</text>
+    
+    <!-- Americas to East Asia (Pacific Route) -->
+    <path d="M 140 360 Q 140 480 450 420" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="250" y="500" font-family="serif" font-size="14" text-anchor="middle">The Pacific Route</text>
+    <text x="250" y="520" font-family="serif" font-size="14" text-anchor="middle">34 Tons</text>
+  </g>
+  
+  <!-- Title 2 -->
+  <text x="600" y="620" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle">
+    WORLD SILVER FLOWS, 1725–1750 C.E., METRIC TONS PER YEAR (average)
+  </text>
+  
+  <!-- Second diagram -->
+  <g id="diagram2" transform="translate(0, 580)">
+    <!-- Western Europe oval -->
+    <ellipse cx="250" cy="150" rx="120" ry="60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="250" y="140" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Western Europe</text>
+    <text x="250" y="160" font-family="serif" font-size="14" text-anchor="middle">Import: 230 Tons</text>
+    <text x="250" y="175" font-family="serif" font-size="14" text-anchor="middle">Re-export: 270 Tons</text>
+    
+    <!-- Rest of Europe oval -->
+    <ellipse cx="550" cy="150" rx="140" ry="60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="550" y="135" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Rest of Europe</text>
+    <text x="550" y="155" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">and the Middle East</text>
+    <text x="550" y="175" font-family="serif" font-size="14" text-anchor="middle">Import: 110 Tons</text>
+    
+    <!-- Japan box -->
+    <rect x="850" y="110" width="180" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <text x="940" y="135" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Japan</text>
+    <text x="940" y="155" font-family="serif" font-size="14" text-anchor="middle">Export: 0 Tons</text>
+    <text x="940" y="175" font-family="serif" font-size="14" text-anchor="middle">Use: Unknown</text>
+    
+    <!-- Americas box -->
+    <rect x="50" y="280" width="180" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <text x="140" y="305" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">Americas</text>
+    <text x="140" y="325" font-family="serif" font-size="14" text-anchor="middle">Export: 533 Tons</text>
+    <text x="140" y="345" font-family="serif" font-size="14" text-anchor="middle">Use: 117 Tons</text>
+    
+    <!-- East and South Asia oval -->
+    <ellipse cx="550" cy="380" rx="140" ry="60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="550" y="370" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle">East and South Asia</text>
+    <text x="550" y="390" font-family="serif" font-size="14" text-anchor="middle">Import: 193 Tons</text>
+    
+    <!-- Arrows and labels -->
+    <!-- Americas to Western Europe -->
+    <line x1="230" y1="300" x2="250" y2="210" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="200" y="250" font-family="serif" font-size="14">500 Tons</text>
+    
+    <!-- Western Europe to Rest of Europe -->
+    <line x1="370" y1="140" x2="410" y2="140" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="390" y="125" font-family="serif" font-size="14" text-anchor="middle">110</text>
+    <text x="390" y="140" font-family="serif" font-size="14" text-anchor="middle">Tons</text>
+    
+    <!-- Western Europe to East Asia (Southern African Route) -->
+    <path d="M 250 210 Q 350 280 450 360" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="280" y="270" font-family="serif" font-size="13">Southern African Route</text>
+    <text x="310" y="285" font-family="serif" font-size="13">160 Tons</text>
+    
+    <!-- Japan to East Asia -->
+    <line x1="850" y1="160" x2="690" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="780" y="240" font-family="serif" font-size="14">0 Tons</text>
+    
+    <!-- Americas to East Asia (Pacific Route) -->
+    <path d="M 140 360 Q 140 480 450 420" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="250" y="500" font-family="serif" font-size="14" text-anchor="middle">The Pacific Route</text>
+    <text x="250" y="520" font-family="serif" font-size="14" text-anchor="middle">33 Tons</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+</svg>

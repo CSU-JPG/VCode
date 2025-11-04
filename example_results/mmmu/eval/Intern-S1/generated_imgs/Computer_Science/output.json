@@ -1,0 +1,133 @@
+[
+  {
+    "id": "dev_Computer_Science_1",
+    "question": "What is the key attribute for the CUSTOMER entity in the entity-relationship (ER) diagram in <image 1>?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Phone",
+      "Ssn",
+      "Name",
+      "Addr",
+      "None of the other answers"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Phone",
+      "B": "Ssn",
+      "C": "Name",
+      "D": "Addr",
+      "E": "None of the other answers"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Computer_Science/dev_Computer_Science_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Computer_Science_2",
+    "question": "The <image 1> shows the truth table and calculation circuit diagram for the addition of 1-digit integers. What is the simple circuit that the diagram represents usually called?",
+    "question_type": "multiple-choice",
+    "options": [
+      "half adder",
+      "full adder"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "half adder",
+      "B": "full adder"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Computer_Science/dev_Computer_Science_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Computer_Science_3",
+    "question": "How many context switches are required in the last row of <image 1>?",
+    "question_type": "multiple-choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "None of the other answers"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "None of the other answers"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Computer_Science/dev_Computer_Science_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Computer_Science_4",
+    "question": "The <image 1> is Typical details of the upstream and downstream channels in North America. .Are downstream channels and upstream channels managed in the same way?",
+    "question_type": "multiple-choice",
+    "options": [
+      "same",
+      "not the same"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "same",
+      "B": "not the same"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Computer_Science/dev_Computer_Science_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Computer_Science_5",
+    "question": "What tables do you have to reference to connect a BOOK instance to a BORROWER instance in the relational database schema for <image 1>?",
+    "question_type": "multiple-choice",
+    "options": [
+      "BOOK_AUTHORS",
+      "PUBLISHER",
+      "BOOK_LOANS",
+      "LIBRARY_BRANCH"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "BOOK_AUTHORS",
+      "B": "PUBLISHER",
+      "C": "BOOK_LOANS",
+      "D": "LIBRARY_BRANCH"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Computer_Science/dev_Computer_Science_5_img1.png"
+    ],
+    "response": ""
+  }
+]

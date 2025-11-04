@@ -1,0 +1,127 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: 'Arial Black', sans-serif; font-size: 60px; text-anchor: middle; }
+    .subtitle { font-family: Arial, sans-serif; font-size: 24px; text-anchor: middle; }
+    .box-title { font-family: Arial, sans-serif; font-size: 28px; font-weight: bold; }
+    .box-text { font-family: Arial, sans-serif; font-size: 20px; }
+    .clipart-credit { font-family: Arial, sans-serif; font-size: 20px; }
+  </style>
+
+  <!-- Title -->
+  <text x="500" y="70" class="title">Strategies to Build Working Memory</text>
+  
+  <!-- Website and credit -->
+  <text x="500" y="180" class="subtitle">www.thepathway2success.com</text>
+  <text x="850" y="180" class="clipart-credit">Clipart by Kate Hadfield</text>
+
+  <!-- Logo placeholder (circular with text) -->
+  <circle cx="920" cy="80" r="60" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <text x="920" y="70" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">Pathway 2 Success</text>
+
+  <!-- Grid of 9 boxes -->
+  <!-- Row 1 -->
+  <!-- Box 1: Make Lists -->
+  <rect x="10" y="200" width="320" height="280" fill="#FF9ACD" stroke="#000" stroke-width="2"/>
+  <text x="170" y="240" class="box-title">Make Lists</text>
+  <rect x="100" y="270" width="120" height="180" fill="#FFF" stroke="#000"/>
+  <text x="160" y="290" font-family="Arial" font-size="16" text-anchor="middle">TO DO LIST</text>
+  <line x1="100" y1="300" x2="220" y2="300" stroke="#000"/>
+  <line x1="100" y1="320" x2="220" y2="320" stroke="#000"/>
+  <line x1="100" y1="340" x2="220" y2="340" stroke="#000"/>
+  <line x1="100" y1="360" x2="220" y2="360" stroke="#000"/>
+  <line x1="100" y1="380" x2="220" y2="380" stroke="#000"/>
+  <line x1="100" y1="400" x2="220" y2="400" stroke="#000"/>
+  <line x1="100" y1="420" x2="220" y2="420" stroke="#000"/>
+  <line x1="100" y1="440" x2="220" y2="440" stroke="#000"/>
+
+  <!-- Box 2: Make Meaningful Connections -->
+  <rect x="340" y="200" width="320" height="280" fill="#66CCFF" stroke="#000" stroke-width="2"/>
+  <text x="500" y="240" class="box-title">Make Meaningful Connections</text>
+  <!-- Lightbulb drawing -->
+  <ellipse cx="500" cy="350" rx="40" ry="60" fill="#FFF" stroke="#000"/>
+  <path d="M460,350 Q500,310 540,350 Q500,390 460,350 Z" fill="#FFF" stroke="#000"/>
+  <line x1="490" y1="370" x2="510" y2="370" stroke="#000"/>
+  <line x1="500" y1="370" x2="500" y2="390" stroke="#000"/>
+  <line x1="490" y1="390" x2="510" y2="390" stroke="#000"/>
+
+  <!-- Box 3: Chunk Information -->
+  <rect x="670" y="200" width="320" height="280" fill="#FFFACD" stroke="#000" stroke-width="2"/>
+  <text x="830" y="240" class="box-title">Chunk Information</text>
+  <!-- Notebook drawing -->
+  <rect x="720" y="270" width="240" height="180" fill="#FFF" stroke="#000"/>
+  <line x1="840" y1="270" x2="840" y2="450" stroke="#000" stroke-width="3"/>
+  <text x="770" y="290" font-family="Arial" font-size="18">TODAY</text>
+  <text x="880" y="290" font-family="Arial" font-size="18">TOMORROW</text>
+  <!-- Spiral binding -->
+  <circle cx="840" cy="290" r="5" fill="#000"/>
+  <circle cx="840" cy="310" r="5" fill="#000"/>
+  <circle cx="840" cy="330" r="5" fill="#000"/>
+  <circle cx="840" cy="350" r="5" fill="#000"/>
+  <circle cx="840" cy="370" r="5" fill="#000"/>
+  <circle cx="840" cy="390" r="5" fill="#000"/>
+  <circle cx="840" cy="410" r="5" fill="#000"/>
+  <circle cx="840" cy="430" r="5" fill="#000"/>
+
+  <!-- Row 2 -->
+  <!-- Box 4: Use Mnemonics and Acronyms -->
+  <rect x="10" y="500" width="320" height="280" fill="#FFFACD" stroke="#000" stroke-width="2"/>
+  <text x="170" y="540" class="box-title">Use Mnemonics and Acronyms</text>
+  <!-- Key drawing -->
+  <rect x="100" y="580" width="40" height="120" fill="#FFF" stroke="#000"/>
+  <circle cx="120" cy="580" r="20" fill="#FFD700" stroke="#000"/>
+  <path d="M120,560 L120,580 M120,580 L100,600 M100,600 L100,620 M100,620 L120,640" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M120,640 L140,660 M140,660 L140,680 M140,680 L120,700" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Box 5: Use Games and Puzzles -->
+  <rect x="340" y="500" width="320" height="280" fill="#BB66FF" stroke="#000" stroke-width="2"/>
+  <text x="500" y="540" class="box-title">Use Games and Puzzles</text>
+  <!-- Puzzle pieces -->
+  <path d="M400,600 L450,600 L470,580 L500,580 L500,620 L470,620 L450,640 L400,640 Z" fill="#FF4500" stroke="#000"/>
+  <path d="M450,600 L500,600 L520,580 L550,580 L550,620 L520,620 L500,640 L450,640 Z" fill="#FFA500" stroke="#000"/>
+  <path d="M500,600 L550,600 L570,580 L600,580 L600,620 L570,620 L550,640 L500,640 Z" fill="#32CD32" stroke="#000"/>
+
+  <!-- Box 6: Practice Mental Math -->
+  <rect x="670" y="500" width="320" height="280" fill="#7FFFD4" stroke="#000" stroke-width="2"/>
+  <text x="830" y="540" class="box-title">Practice Mental Math</text>
+  <!-- Brain drawing -->
+  <path d="M800,600 C780,580 760,580 750,600 C740,620 750,640 770,640 C790,640 810,640 820,620 C830,600 820,580 800,600 Z" fill="#FF69B4" stroke="#000"/>
+  <path d="M800,600 C810,610 820,610 830,600 C840,590 830,580 820,580 C810,580 800,580 790,590 C780,600 790,610 800,600 Z" fill="#FF69B4" stroke="#000"/>
+  <path d="M780,620 C770,630 760,630 750,620 C740,610 750,600 760,600 C770,600 780,600 790,610 C800,620 790,630 780,620 Z" fill="#FF69B4" stroke="#000"/>
+  <path d="M820,620 C830,630 840,630 850,620 C860,610 850,600 840,600 C830,600 820,600 810,610 C800,620 810,630 820,620 Z" fill="#FF69B4" stroke="#000"/>
+
+  <!-- Row 3 -->
+  <!-- Box 7: Exercise Before &amp; During Learning -->
+  <rect x="10" y="800" width="320" height="280" fill="#7FFFD4" stroke="#000" stroke-width="2"/>
+  <text x="170" y="840" class="box-title">Exercise Before &amp; During Learning</text>
+  <!-- Dumbbell drawing -->
+  <rect x="60" y="900" width="240" height="40" fill="#A9A9B0" stroke="#000"/>
+  <rect x="50" y="880" width="60" height="80" fill="#A9A9B0" stroke="#000"/>
+  <rect x="250" y="880" width="60" height="80" fill="#A9A9B0" stroke="#000"/>
+  <circle cx="80" cy="920" r="10" fill="#000"/>
+  <circle cx="270" cy="920" r="10" fill="#000"/>
+
+  <!-- Box 8: Visualize -->
+  <rect x="340" y="800" width="320" height="280" fill="#FF9ACD" stroke="#000" stroke-width="2"/>
+  <text x="500" y="840" class="box-title">Visualize</text>
+  <!-- Glasses drawing -->
+  <rect x="380" y="900" width="240" height="60" fill="#FFF" stroke="#000" stroke-width="5"/>
+  <line x1="380" y1="900" x2="360" y2="880" stroke="#000" stroke-width="5"/>
+  <line x1="620" y1="900" x2="640" y2="880" stroke="#000" stroke-width="5"/>
+  <line x1="380" y1="960" x2="360" y2="980" stroke="#000" stroke-width="5"/>
+  <line x1="620" y1="960" x2="640" y2="980" stroke="#000" stroke-width="5"/>
+  <circle cx="400" cy="930" r="10" fill="#000"/>
+  <circle cx="600" cy="930" r="10" fill="#000"/>
+
+  <!-- Box 9: Make a Song -->
+  <rect x="670" y="800" width="320" height="280" fill="#66CCFF" stroke="#000" stroke-width="2"/>
+  <text x="830" y="840" class="box-title">Make a Song</text>
+  <!-- Music notes -->
+  <circle cx="770" cy="920" r="10" fill="#FF4500" stroke="#000"/>
+  <line x1="770" y1="920" x2="770" y2="900" stroke="#000" stroke-width="3"/>
+  <line x1="770" y1="900" x2="760" y2="880" stroke="#000" stroke-width="3"/>
+  <circle cx="850" cy="940" r="10" fill="#FF8C00" stroke="#000"/>
+  <line x1="850" y1="940" x2="850" y2="920" stroke="#000" stroke-width="3"/>
+  <line x1="850" y1="920" x2="840" y2="900" stroke="#000" stroke-width="3"/>
+  <line x1="840" y1="900" x2="830" y2="880" stroke="#000" stroke-width="3"/>
+  <line x1="830" y1="880" x2="820" y2="860" stroke="#000" stroke-width="3"/>
+</svg>

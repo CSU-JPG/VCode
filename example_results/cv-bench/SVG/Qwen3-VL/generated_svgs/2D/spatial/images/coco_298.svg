@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1000" height="1000" fill="#f0e6d2"/>
+  <polygon points="0,0 1000,0 1000,1000 0,1000" fill="#f0e6d2"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="black" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="red" stroke-width="4"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="blue" stroke-width="2"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="green" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="yellow" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="purple" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="orange" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="pink" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="brown" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="gray" stroke-width="1"/>
+  <rect x="0" y="0" width="1000" height="1000" fill="none" stroke="white" stroke-width="1"/>
+</svg>

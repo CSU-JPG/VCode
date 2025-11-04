@@ -1,0 +1,61 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashed circle -->
+  <circle cx="150" cy="150" r="100" fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,3"/>
+  
+  <!-- Three blades -->
+  <!-- Top blade -->
+  <line x1="150" y1="150" x2="150" y2="40" stroke="black" stroke-width="2"/>
+  <line x1="145" y1="40" x2="155" y2="40" stroke="black" stroke-width="2"/>
+  <line x1="145" y1="40" x2="145" y2="50" stroke="black" stroke-width="1.5"/>
+  <line x1="155" y1="40" x2="155" y2="50" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Bottom-left blade -->
+  <line x1="150" y1="150" x2="65" y2="220" stroke="black" stroke-width="2"/>
+  <line x1="60" y1="215" x2="70" y2="225" stroke="black" stroke-width="2"/>
+  
+  <!-- Bottom-right blade -->
+  <line x1="150" y1="150" x2="235" y2="220" stroke="black" stroke-width="2"/>
+  <line x1="230" y1="225" x2="240" y2="215" stroke="black" stroke-width="2"/>
+  
+  <!-- Central hub -->
+  <circle cx="150" cy="150" r="15" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Angle theta at top -->
+  <path d="M 150 40 Q 140 30 135 25" fill="none" stroke="black" stroke-width="1"/>
+  <text x="132" y="22" font-family="serif" font-size="14" font-style="italic">θ</text>
+  
+  <!-- Dashed line at top -->
+  <line x1="130" y1="20" x2="170" y2="20" stroke="black" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- Angle theta at bottom-left -->
+  <path d="M 50 230 Q 55 225 60 220" fill="none" stroke="black" stroke-width="1"/>
+  <text x="42" y="245" font-family="serif" font-size="14" font-style="italic">θ</text>
+  
+  <!-- Dashed line at bottom-left -->
+  <line x1="30" y1="235" x2="70" y2="235" stroke="black" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- Angle theta at bottom-right -->
+  <path d="M 240 220 Q 245 225 250 230" fill="none" stroke="black" stroke-width="1"/>
+  <text x="255" y="245" font-family="serif" font-size="14" font-style="italic">θ</text>
+  
+  <!-- Dashed line at bottom-right -->
+  <line x1="230" y1="235" x2="270" y2="235" stroke="black" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- Dimension line for d = 7mm -->
+  <line x1="165" y1="40" x2="165" y2="150" stroke="black" stroke-width="0.8"/>
+  <line x1="160" y1="40" x2="170" y2="40" stroke="black" stroke-width="0.8"/>
+  <line x1="160" y1="150" x2="170" y2="150" stroke="black" stroke-width="0.8"/>
+  <text x="175" y="95" font-family="sans-serif" font-size="12">d = 7mm</text>
+  
+  <!-- Dimension for 14cm -->
+  <line x1="65" y1="165" x2="150" y2="165" stroke="black" stroke-width="0.8"/>
+  <line x1="65" y1="160" x2="65" y2="170" stroke="black" stroke-width="0.8"/>
+  <line x1="150" y1="160" x2="150" y2="170" stroke="black" stroke-width="0.8"/>
+  <text x="95" y="180" font-family="sans-serif" font-size="12">14cm</text>
+  
+  <!-- R label -->
+  <text x="40" y="200" font-family="serif" font-size="14" font-style="italic">R</text>
+  
+  <!-- Figure label -->
+  <text x="100" y="305" font-family="sans-serif" font-size="16" font-weight="bold">Fig. P3.114</text>
+</svg>

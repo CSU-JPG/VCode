@@ -1,0 +1,145 @@
+[
+  {
+    "id": "dev_Psychology_1",
+    "question": "A group of psychologists wanted to develop an intelligence test that would be quicker to administer than the one they were using, which was a standardized test that required answering as many questions correctly as possible in a given time. The existing test was considered valid and reliable. In the psychologists' new test, participants had to find an image hidden in a visual display as quickly as possible. The psychologists collected data to determine the relation between the number of items the participants answered correctly on the original standardized test and the time it took them to spot the hidden image on the new test. The graph below displays the results. <image 1> Based on the graph, which of the following would most likely be used to assess the relation between the participants' scores on the two tests?",
+    "question_type": "multiple-choice",
+    "options": [
+      "A t test",
+      "A correlation",
+      "Analysis of variance",
+      "Descriptive statistics",
+      "Factor analysis"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "A t test",
+      "B": "A correlation",
+      "C": "Analysis of variance",
+      "D": "Descriptive statistics",
+      "E": "Factor analysis"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Psychology/dev_Psychology_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Psychology_2",
+    "question": "Individuals diagnosed with cancer often experience significant amounts of stress. Some patients cope with stress by adopting unhealthy habits (like drinking, smoking, or withdrawing from social relationships), which can increase symptom severity and result in poor quality of life both during and after cancer treatment. Conversely, individuals who manage stress with healthy techniques can experience symptom relief and improved quality of life. A group of oncologists hope to promote healthy stress reduction and decide to focus their efforts on deep breathing. They postulate that a deep breathing exercise will induce the relaxation response, a physical state of deep rest that is the physiological opposite of a stress response (or fight or flight). They believe that when patients learn to breathe more slowly and deeply, their muscles will relax, blood pressure will decrease, and heart rates will slow down (all characteristics of the relaxation response). When testing the exercise with two patients they notice significant decreases in blood pressure, muscle tension, and heart rate. They conclude that the exercise could decrease select physical symptoms of stress. The oncologists decide to expand their testing, and develop several deep-breathing exercises to be delivered in a group format. They believe that the combined exercises will help patients cope during times of stress. The program consists of 30-minute guided group breathing classes that occur biweekly for 8 weeks. Patients are also asked to complete home deep breathing practices. To test their theory, they recruit 10 adult cancer patients to participate in their program. The patient group is homogenous in type and stage of cancer. All patients have recently received their cancer diagnosis. The patients are all between 45 and 55 years old (mean age 48.6) and there are equal numbers of men and women in the group. Each patient completes a stress symptom checklist both before and after the intervention. The stress symptoms checklist can be found in Table 1. The symptom checklist is divided into four categories, with six possible symptoms in each category. Patients are instructed to circle any and all symptoms they are currently experiencing. The results from the study can be found in Figure 1 <image 1>. Given the information in the passage and the results from Figure 1, which of the following is the least problematic aspect of the study?",
+    "question_type": "multiple-choice",
+    "options": [
+      "The oncologists recruited patients from a sample that was too homogenous, which makes the results of the program difficult to generalize.",
+      "The oncologists did not control for group social support, which could lead to decreases in some of the emotional and cognitive symptoms of stress on the checklist.",
+      "The oncologists used the stress checklist to measure stress, which did not provide a sensitive measurement of stress and had overlap between and within categories of symptoms.",
+      "The oncologists did not control for side effects of cancer treatment, which could lead to increases in some of the behavioral and physical symptoms of stress on the checklist."
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The oncologists recruited patients from a sample that was too homogenous, which makes the results of the program difficult to generalize.",
+      "B": "The oncologists did not control for group social support, which could lead to decreases in some of the emotional and cognitive symptoms of stress on the checklist.",
+      "C": "The oncologists used the stress checklist to measure stress, which did not provide a sensitive measurement of stress and had overlap between and within categories of symptoms.",
+      "D": "The oncologists did not control for side effects of cancer treatment, which could lead to increases in some of the behavioral and physical symptoms of stress on the checklist."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Psychology/dev_Psychology_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Psychology_3",
+    "question": "Jeff has two cats, Whiskers and Tiger. Jeff wants to play with both of them using a laser pointer, but the cats respond very differently to playtime. Whiskers is an active cat and loves to chase the red dot, but he sometimes gets so excited by playtime that he becomes overly agitated and attacks Jeff. Tiger is very lazy - he loves to look out the window from his bed and lounge in the sun; he is almost never interested in playing with the laser pointer. Jeff wants both of his cats to be equally active and healthy, so he decides to use principles from behaviorism to teach his cats better play behavior. He has two goals - to increase Tiger's playtime, and to decrease Whisker's aggressive playtime. He uses a variety of different strategies with his cats: he tries giving each cats treats when they play nicely, taking away Tiger's bed to increase playtime, putting the cats in a carrier when they do not play nicely, and loudly yelling \"No!\" if Whiskers becomes aggressive. Jeff notices that the cats respond well to the treats, so he decides to vary when and how Whiskers and Tiger receive their treats. Table 1 outlines the different schedules of reinforcement that Jeff tries with Whiskers and Tiger. <image 1> Jeff has been successfully increasing the number of times Whiskers has to play nicely before he receives a treat, until finally he decides he can stop giving treats during playtime all together. Whiskers suddenly becomes ultra-aggressive - he bites, hisses, and scratches at an increased rate when playing with the laser pointer. Which of the following best describes Whisker's behavior?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Whiskers only responds to continuous reinforcement.",
+      "Whisker's aggressive behavior has become generalized.",
+      "Whiskers' behavior has been shaped to be aggressive.",
+      "Whiskers is experiencing an extinction burst."
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Whiskers only responds to continuous reinforcement.",
+      "B": "Whisker's aggressive behavior has become generalized.",
+      "C": "Whiskers' behavior has been shaped to be aggressive.",
+      "D": "Whiskers is experiencing an extinction burst."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Psychology/dev_Psychology_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Psychology_4",
+    "question": "Vampire bats (Desmodus rotundus) are social mammals, which naturally determine kinship differences, form dyadic relationships that remain consistent over time, and practice food sharing with roost-mates who were unable to feed. These dyadic relationships occur between both kin and non-kin. Vampire bats can die if unable to feed for more than 70 hours. Roost-mates may regurgitate food into the mouth of the unfed roost-mate. An experiment was conducted on 20 vampire bats (11M, 9F) over a 2-year period to determine whether this food sharing behavior was altruistic. The bats were housed in a flight cage, large enough to allow the bats to freely associate, for more than 2 years before the beginning of the study. The bats were removed, fasted for 24 hours, re-introduced into the roost, and their social interactions were recorded for two hours after reintroduction. None of the bats tested showed signs of parasite infestation. Researchers examined food sharing (licking the roost-mate's mouth for more than 5 seconds with > 5 seconds between bouts of licking) and subsequent allogrooming (licking locations other than the roost-mate's mouth). The bat's behavior was monitored to determine subsequent interactions. The coefficient of determination values for food donated, donor sex, allogrooming, and relatedness are shown in Figure 1. Sharing happened most often between females; males were not recorded sharing food with other males. Donors initiated food sharing more often than fasted bats and three donors, on average, fed each of the fasted bats. There was no relation found between recipient (age or size) and donations or allogrooming received. Some donors rejected certain begging (harassing) recipients; however, some fasted subjects rejected food sharing from certain perspective donors. Figure 1: Relative variation in food donated; 38% of the variation in the amount of food donated can be explained by this model. Food donated (p < 0.0002), donor sex (p < 0.0002), and allogrooming (p < 0.0002) received were all significant; however, relatedness was not (p = 0.16). <image 1> Which conclusion describes the correlation of allogrooming and social bonding in vampire bats?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Some vampire bats refused food from certain perspective donors.",
+      "Allogrooming was higher on non-test days between food sharing dyads and was consistent throughout the experiment.",
+      "Allogrooming was highest between vampire bats infested with parasites and was consistent throughout the experiment.",
+      "Male-male dyads were observed performing allogrooming after sharing food."
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Some vampire bats refused food from certain perspective donors.",
+      "B": "Allogrooming was higher on non-test days between food sharing dyads and was consistent throughout the experiment.",
+      "C": "Allogrooming was highest between vampire bats infested with parasites and was consistent throughout the experiment.",
+      "D": "Male-male dyads were observed performing allogrooming after sharing food."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Psychology/dev_Psychology_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Psychology_5",
+    "question": "Elizabeth Loftus is widely known as one of the leading experts in the field of false memories, especially regarding childhood sexual abuse. However, this particular topic is deeply controversial, with many experts divided over whether these memories are truly false, or if they are instead repressed to protect the individual from reliving further trauma. Loftus is most famous for her theory of the misinformation effect, which refers to the phenomenon in which exposure to incorrect information between the encoding of a memory and its later recall causes impairment to the memory. That is to say, if you witnessed a hit-and-run car accident, and heard a radio commercial for Ford before giving your testimony to the police, you might incorrectly recall that the offending vehicle was a Ford, even if it was not. Loftus' research has been used in many cases of eyewitness testimony in high-profile court cases to demonstrate the malleability of the human memory. To test this theory, researchers in New York City set up a \"crime\" for participants to \"witness\" (unbeknownst to them). 175 local female college students were recruited to participate in a study about memory, and were directed to complete some computer tasks involving word and picture recall in a room overlooking an alley. While completing the computer tasks, participants witnessed a young woman being \"mugged\" by a young man in the alley outside the lab-both individuals were confederates of the researchers. After reporting the \"crime\" to the researchers, participants were escorted out of the lab and told that this crime would be reported to the local police, and that they might be called back in to give a testimony. For half of the participants, a research confederate acting as a custodial worker was present as they were being escorted out. For the other half, no decoys were present. Participants were randomly assigned to either the decoy or control group. Participants who did not report the \"crime\" to the researchers were excluded from the study (25 women were excluded). One week later, participants were called back to the lab to give their testimony to a police officer - another confederate. Participants were told that the police had several leads on who the mugger might be, and were asked to pick out the suspect from five different photo options. Included in the photo set were photos of the mugger, the custodial worker, and three neutral faces chosen to be similar to the two experimental faces. After recalling the event to the police officer and choosing a face, participants were debriefed (they were told that the mugging was fake) and awarded course credit for their participation. The results of this study are summarized in Table 1. <image 1> What type of memory is used in a multiple-choice test, such as this one?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Recall",
+      "Recognition",
+      "Repressed",
+      "Deja vu"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Recall",
+      "B": "Recognition",
+      "C": "Repressed",
+      "D": "Deja vu"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Psychology/dev_Psychology_5_img1.png"
+    ],
+    "response": ""
+  }
+]

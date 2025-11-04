@@ -1,0 +1,116 @@
+<svg viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pink background section -->
+  <rect x="0" y="0" width="1000" height="90" fill="#ffcccc"/>
+  
+  <!-- Blue background section -->
+  <rect x="0" y="90" width="1000" height="80" fill="#cce5ff"/>
+  
+  <!-- Pink background section bottom -->
+  <rect x="0" y="170" width="1000" height="90" fill="#ffcccc"/>
+  
+  <!-- Text labels on left -->
+  <text x="15" y="45" font-family="serif" font-size="14" fill="#333">1. Irradiated recipient mice</text>
+  <text x="15" y="135" font-family="serif" font-size="14" fill="#333">2. Reconstituted recipient</text>
+  <text x="30" y="155" font-family="serif" font-size="14" fill="#333">mice with:</text>
+  <text x="15" y="205" font-family="serif" font-size="14" fill="#333">3. Measured ability of recipient</text>
+  <text x="30" y="225" font-family="serif" font-size="14" fill="#333">mice to mount an antibody</text>
+  <text x="30" y="245" font-family="serif" font-size="14" fill="#333">response to a T-dependent</text>
+  
+  <!-- Mouse 1 -->
+  <g transform="translate(320, 30)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="35" ry="25" fill="#999" stroke="#666" stroke-width="1"/>
+    <!-- Head -->
+    <circle cx="-30" cy="-8" r="18" fill="#999" stroke="#666" stroke-width="1"/>
+    <!-- Ear -->
+    <path d="M -40,-18 L -45,-25 L -35,-22 Z" fill="#999" stroke="#666" stroke-width="1"/>
+    <!-- Eye -->
+    <circle cx="-35" cy="-10" r="3" fill="#000"/>
+    <!-- Nose -->
+    <circle cx="-42" cy="-5" r="2" fill="#333"/>
+    <!-- Whiskers -->
+    <line x1="-42" y1="-8" x2="-55" y2="-10" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-5" x2="-55" y2="-5" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-2" x2="-55" y2="0" stroke="#333" stroke-width="0.5"/>
+    <!-- Tail -->
+    <path d="M 35,5 Q 50,0 60,-5" fill="none" stroke="#666" stroke-width="2"/>
+    <!-- Lightning bolt -->
+    <path d="M 10,-35 L 5,-20 L 12,-20 L 7,-5" fill="#ffeb3b" stroke="#ff9800" stroke-width="1"/>
+  </g>
+  
+  <!-- Mouse 2 -->
+  <g transform="translate(495, 30)">
+    <ellipse cx="0" cy="0" rx="35" ry="25" fill="#999" stroke="#666" stroke-width="1"/>
+    <circle cx="-30" cy="-8" r="18" fill="#999" stroke="#666" stroke-width="1"/>
+    <path d="M -40,-18 L -45,-25 L -35,-22 Z" fill="#999" stroke="#666" stroke-width="1"/>
+    <circle cx="-35" cy="-10" r="3" fill="#000"/>
+    <circle cx="-42" cy="-5" r="2" fill="#333"/>
+    <line x1="-42" y1="-8" x2="-55" y2="-10" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-5" x2="-55" y2="-5" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-2" x2="-55" y2="0" stroke="#333" stroke-width="0.5"/>
+    <path d="M 35,5 Q 50,0 60,-5" fill="none" stroke="#666" stroke-width="2"/>
+    <path d="M 10,-35 L 5,-20 L 12,-20 L 7,-5" fill="#ffeb3b" stroke="#ff9800" stroke-width="1"/>
+  </g>
+  
+  <!-- Mouse 3 -->
+  <g transform="translate(695, 30)">
+    <ellipse cx="0" cy="0" rx="35" ry="25" fill="#999" stroke="#666" stroke-width="1"/>
+    <circle cx="-30" cy="-8" r="18" fill="#999" stroke="#666" stroke-width="1"/>
+    <path d="M -40,-18 L -45,-25 L -35,-22 Z" fill="#999" stroke="#666" stroke-width="1"/>
+    <circle cx="-35" cy="-10" r="3" fill="#000"/>
+    <circle cx="-42" cy="-5" r="2" fill="#333"/>
+    <line x1="-42" y1="-8" x2="-55" y2="-10" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-5" x2="-55" y2="-5" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-2" x2="-55" y2="0" stroke="#333" stroke-width="0.5"/>
+    <path d="M 35,5 Q 50,0 60,-5" fill="none" stroke="#666" stroke-width="2"/>
+    <path d="M 10,-35 L 5,-20 L 12,-20 L 7,-5" fill="#ffeb3b" stroke="#ff9800" stroke-width="1"/>
+  </g>
+  
+  <!-- Mouse 4 -->
+  <g transform="translate(895, 30)">
+    <ellipse cx="0" cy="0" rx="35" ry="25" fill="#999" stroke="#666" stroke-width="1"/>
+    <circle cx="-30" cy="-8" r="18" fill="#999" stroke="#666" stroke-width="1"/>
+    <path d="M -40,-18 L -45,-25 L -35,-22 Z" fill="#999" stroke="#666" stroke-width="1"/>
+    <circle cx="-35" cy="-10" r="3" fill="#000"/>
+    <circle cx="-42" cy="-5" r="2" fill="#333"/>
+    <line x1="-42" y1="-8" x2="-55" y2="-10" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-5" x2="-55" y2="-5" stroke="#333" stroke-width="0.5"/>
+    <line x1="-42" y1="-2" x2="-55" y2="0" stroke="#333" stroke-width="0.5"/>
+    <path d="M 35,5 Q 50,0 60,-5" fill="none" stroke="#666" stroke-width="2"/>
+    <path d="M 10,-35 L 5,-20 L 12,-20 L 7,-5" fill="#ffeb3b" stroke="#ff9800" stroke-width="1"/>
+  </g>
+  
+  <!-- Column labels -->
+  <text x="300" y="115" font-family="serif" font-size="13" fill="#333" text-anchor="middle">Nothing</text>
+  
+  <text x="455" y="115" font-family="serif" font-size="13" fill="#333" text-anchor="middle">Bone marrow</text>
+  <text x="455" y="135" font-family="serif" font-size="13" fill="#333" text-anchor="middle">cells alone</text>
+  
+  <text x="695" y="115" font-family="serif" font-size="13" fill="#333" text-anchor="middle">Thymus</text>
+  <text x="695" y="135" font-family="serif" font-size="13" fill="#333" text-anchor="middle">cells alone</text>
+  
+  <text x="895" y="115" font-family="serif" font-size="13" fill="#333" text-anchor="middle">Bone marrow</text>
+  <text x="895" y="135" font-family="serif" font-size="13" fill="#333" text-anchor="middle">and thymus cells</text>
+  
+  <!-- Arrows -->
+  <path d="M 320,85 L 320,175" stroke="#4a9eff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 495,85 L 495,175" stroke="#4a9eff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 695,85 L 695,175" stroke="#4a9eff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 895,85 L 895,175" stroke="#4a9eff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#4a9eff"/>
+    </marker>
+  </defs>
+  
+  <!-- Results -->
+  <text x="300" y="215" font-family="serif" font-size="18" fill="#333" text-anchor="middle">− −</text>
+  <text x="495" y="215" font-family="serif" font-size="18" fill="#333" text-anchor="middle">− −</text>
+  <text x="695" y="215" font-family="serif" font-size="18" fill="#333" text-anchor="middle">− −</text>
+  <text x="895" y="215" font-family="serif" font-size="18" fill="#333" text-anchor="middle">+ +</text>
+  
+  <!-- Bottom text continuation -->
+  <text x="30" y="258" font-family="serif" font-size="14" fill="#333">antigen (sheep red blood cells)</text>
+</svg>

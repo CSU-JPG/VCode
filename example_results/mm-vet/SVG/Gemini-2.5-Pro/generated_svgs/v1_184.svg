@@ -1,0 +1,114 @@
+<svg viewBox="0 0 820 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a4641"/>
+      <stop offset="50%" stop-color="#67625c"/>
+      <stop offset="100%" stop-color="#55514b"/>
+    </linearGradient>
+    <linearGradient id="greenDressGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#004e1a"/>
+      <stop offset="50%" stop-color="#006422"/>
+      <stop offset="100%" stop-color="#005a1f"/>
+    </linearGradient>
+    <radialGradient id="mirrorGradient">
+      <stop offset="10%" stop-color="#a3b8c5"/>
+      <stop offset="95%" stop-color="#3b4248"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="820" height="1000" fill="#3d3a36"/>
+  <rect x="150" y="0" width="670" height="700" fill="url(#wallGradient)"/>
+  <path d="M 0 0 H 820 V 100 L 0 120 Z" fill="#6b4f38"/>
+  <path d="M 0 700 H 820 V 1000 H 0 Z" fill="#8d735b"/>
+  <path d="M 160 700 H 820 L 820 1000 H 160 Z" fill="#7a624a"/>
+
+  <!-- Window -->
+  <path d="M 170 115 H 280 V 500 H 170 Z" fill="#222"/>
+  <path d="M 175 120 H 275 V 495 H 175 Z" fill="#c3d0d8"/>
+  <rect x="175" y="120" width="100" height="185" fill="#a4b4bf"/>
+  <rect x="175" y="305" width="100" height="190" fill="#a4b4bf"/>
+  <path d="M 225 120 V 495" stroke="#333" stroke-width="6"/>
+  <path d="M 175 305 H 275" stroke="#333" stroke-width="6"/>
+  <path d="M 175 120 H 275 V 125 H 175 Z" fill="#6b4f38" />
+  <path d="M 170 500 H 280 L 275 520 H 175 Z" fill="#6b4f38"/>
+
+  <!-- Bed -->
+  <path d="M 600 100 H 820 V 780 H 750 C 650 780 650 600 600 600 Z" fill="#9e1b21"/>
+  <path d="M 620 100 H 820 V 250 A 300 300 0 0 1 620 280 Z" fill="#b02a2f"/>
+
+  <!-- Chest and Oranges -->
+  <rect x="165" y="520" width="120" height="80" fill="#5c442d"/>
+  <circle cx="200" cy="515" r="8" fill="#f47820"/>
+  <circle cx="220" cy="515" r="8" fill="#f47820"/>
+  <circle cx="210" cy="505" r="8" fill="#f47820"/>
+
+  <!-- Chandelier -->
+  <g fill="#d4a017" stroke="#8c680a" stroke-width="2">
+    <path d="M 450 120 V 200 H 460 V 120 Z" />
+    <path d="M 400 200 H 510 L 500 210 H 410 Z" />
+    <path d="M 455 210 C 420 280 490 280 455 210 Z" />
+    <path d="M 410 215 C 380 230 400 260 415 250" fill="none" stroke-width="4"/>
+    <path d="M 500 215 C 530 230 510 260 495 250" fill="none" stroke-width="4"/>
+  </g>
+
+  <!-- Mirror and Signature -->
+  <circle cx="455" cy="310" r="45" fill="#50382b"/>
+  <circle cx="455" cy="310" r="35" fill="url(#mirrorGradient)"/>
+  <path d="M 410 280 C 440 270 470 270 500 280" fill="none" stroke="#2a2725" stroke-width="1.5" />
+
+  <!-- Woman -->
+  <g>
+    <!-- Blue underdress -->
+    <path d="M 550 420 C 530 500 530 650 550 680 L 500 700 L 480 680 L 480 430 Z" fill="#2d5c88"/>
+    <path d="M 670 420 C 690 500 690 600 670 630 L 640 640 L 620 620 V 430 Z" fill="#2d5c88"/>
+    <!-- Green Gown -->
+    <path d="M 480 430 C 550 400 650 400 690 430 V 630 C 700 800 600 980 500 980 S 300 800 480 630 Z" fill="url(#greenDressGradient)"/>
+    <!-- Fur trim -->
+    <path d="M 485 435 C 550 405 650 405 685 435 V 630 C 695 780 600 970 505 970 S 315 780 485 630 Z" fill="none" stroke="#e0d6c1" stroke-width="15"/>
+    <!-- Hands -->
+    <path d="M 560 520 C 570 515 585 520 585 530 L 570 545 C 560 540 555 530 560 520" fill="#fbe5d6"/>
+    <path d="M 530 490 C 520 485 505 490 505 500 L 520 515 C 530 510 535 500 530 490" fill="#fbe5d6"/>
+    <!-- Head and Headdress -->
+    <path d="M 600 370 C 580 350 570 380 580 420 H 640 C 650 380 640 350 620 370 Z" fill="#fbe5d6"/>
+    <path d="M 580 330 C 570 370 650 370 640 330 L 630 420 L 590 420 Z" fill="#f2f2f2"/>
+    <path d="M 580 330 C 570 370 650 370 640 330 L 635 320 Q 610 300 585 320 Z" fill="#fff" opacity="0.8"/>
+  </g>
+
+  <!-- Man -->
+  <g>
+    <!-- Cloak -->
+    <path d="M 290 270 C 250 500 250 700 290 750 H 500 C 540 700 540 500 500 270 Z" fill="#3b2e3e"/>
+    <path d="M 295 275 C 260 500 260 700 295 745 H 495 C 530 700 530 500 495 275 Z" fill="none" stroke="#6b5543" stroke-width="20"/>
+    <!-- Hand -->
+    <path d="M 370 380 C 390 370 410 390 400 420 L 370 410 C 360 395 360 385 370 380 Z" fill="#fbe5d6"/>
+    <!-- Head -->
+    <path d="M 360 250 C 340 230 330 260 340 300 H 400 C 410 260 400 230 380 250 Z" fill="#fbe5d6"/>
+    <!-- Hat -->
+    <path d="M 300 280 C 300 220 440 220 440 280 Z" fill="#1a1a1a"/>
+    <path d="M 320 180 H 420 V 230 H 320 Z" fill="#1a1a1a"/>
+    <ellipse cx="370" cy="180" rx="50" ry="15" fill="#1a1a1a"/>
+    <!-- Legs -->
+    <path d="M 350 730 L 330 800 L 350 810 L 370 730 Z" fill="#29294a"/>
+    <path d="M 400 730 L 380 800 L 400 810 L 420 730 Z" fill="#29294a"/>
+  </g>
+
+  <!-- Hands Joined -->
+  <path d="M 490 500 L 525 510 L 520 520 L 485 510 Z" fill="#fbe5d6"/>
+  <path d="M 485 510 L 520 520 L 515 530 L 480 520 Z" fill="#fbe5d6"/>
+
+  <!-- Shoes (Pattens) -->
+  <path d="M 180 850 L 280 870 L 270 890 L 170 870 Z" fill="#a18870"/>
+  <path d="M 185 855 L 205 850 L 210 870 L 190 875 Z" fill="#333"/>
+  <path d="M 160 880 L 260 900 L 250 920 L 150 900 Z" fill="#a18870"/>
+  <path d="M 165 885 L 185 880 L 190 900 L 170 905 Z" fill="#333"/>
+
+  <!-- Dog -->
+  <g>
+    <path d="M 400 830 C 380 850 380 900 400 920 H 480 C 500 900 500 850 480 830 Z" fill="#a37b4f"/>
+    <path d="M 410 835 C 395 850 395 890 410 910 H 470 C 485 890 485 850 470 835 Z" fill="#8c683c"/>
+    <path d="M 420 825 C 410 840 430 845 440 835 Z" fill="#a37b4f"/>
+    <path d="M 460 825 C 450 840 470 845 480 835 Z" fill="#a37b4f"/>
+    <circle cx="445" cy="855" r="5" fill="#222"/>
+  </g>
+</svg>

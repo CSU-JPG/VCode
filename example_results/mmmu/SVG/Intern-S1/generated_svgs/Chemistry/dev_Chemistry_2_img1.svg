@@ -1,0 +1,43 @@
+<svg viewBox="-2 -60 18 190" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="-50" x2="14" y2="-50" stroke="#ccc"/>
+  <line x1="0" y1="-25" x2="14" y2="-25" stroke="#ccc"/>
+  <line x1="0" y1="0" x2="14" y2="0" stroke="#ccc"/>
+  <line x1="0" y1="25" x2="14" y2="25" stroke="#ccc"/>
+  <line x1="0" y1="50" x2="14" y2="50" stroke="#ccc"/>
+  <line x1="0" y1="75" x2="14" y2="75" stroke="#ccc"/>
+  <line x1="0" y1="100" x2="14" y2="100" stroke="#ccc"/>
+  <line x1="0" y1="125" x2="14" y2="125" stroke="#ccc"/>
+  <line x1="0" y1="-50" x2="0" y2="125" stroke="#ccc"/>
+  <line x1="2" y1="-50" x2="2" y2="125" stroke="#ccc"/>
+  <line x1="4" y1="-50" x2="4" y2="125" stroke="#ccc"/>
+  <line x1="6" y1="-50" x2="6" y2="125" stroke="#ccc"/>
+  <line x1="8" y1="-50" x2="8" y2="125" stroke="#ccc"/>
+  <line x1="10" y1="-50" x2="10" y2="125" stroke="#ccc"/>
+  <line x1="12" y1="-50" x2="12" y2="125" stroke="#ccc"/>
+  <line x1="14" y1="-50" x2="14" y2="125" stroke="#ccc"/>
+  <line x1="0" y1="0" x2="14" y2="0" stroke="black"/>
+  <line x1="0" y1="-50" x2="0" y2="125" stroke="black"/>
+  <path d="M0,-50 L2,0 L4,75 L10,75 L12,75 L14,125" stroke="red" fill="none"/>
+  <circle cx="0" cy="-50" r="2" fill="blue"/>
+  <circle cx="2" cy="0" r="2" fill="blue"/>
+  <circle cx="4" cy="75" r="2" fill="blue"/>
+  <circle cx="10" cy="75" r="2" fill="blue"/>
+  <circle cx="12" cy="75" r="2" fill="blue"/>
+  <circle cx="14" cy="125" r="2" fill="blue"/>
+  <text x="0" y="5" text-anchor="middle" font-size="2">0</text>
+  <text x="2" y="5" text-anchor="middle" font-size="2">2</text>
+  <text x="4" y="5" text-anchor="middle" font-size="2">4</text>
+  <text x="6" y="5" text-anchor="middle" font-size="2">6</text>
+  <text x="8" y="5" text-anchor="middle" font-size="2">8</text>
+  <text x="10" y="5" text-anchor="middle" font-size="2">10</text>
+  <text x="12" y="5" text-anchor="middle" font-size="2">12</text>
+  <text x="14" y="5" text-anchor="middle" font-size="2">14</text>
+  <text x="-1" y="-50" text-anchor="end" alignment-baseline="middle" font-size="2">-50</text>
+  <text x="-1" y="-25" text-anchor="end" alignment-baseline="middle" font-size="2">-25</text>
+  <text x="-1" y="0" text-anchor="end" alignment-baseline="middle" font-size="2">0</text>
+  <text x="-1" y="25" text-anchor="end" alignment-baseline="middle" font-size="2">25</text>
+  <text x="-1" y="50" text-anchor="end" alignment-baseline="middle" font-size="2">50</text>
+  <text x="-1" y="75" text-anchor="end" alignment-baseline="middle" font-size="2">75</text>
+  <text x="-1" y="100" text-anchor="end" alignment-baseline="middle" font-size="2">100</text>
+  <text x="-1" y="125" text-anchor="end" alignment-baseline="middle" font-size="2">125</text>
+</svg>

@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#e8e4dc"/>
+  
+  <!-- Upper decorative band -->
+  <rect x="20" y="80" width="760" height="40" fill="#d4cfc4"/>
+  <text x="400" y="105" font-family="serif" font-size="10" fill="#8b7d6b" text-anchor="middle">IVNDVM VVCVMII ANNIS MIHIQVIRIVM APRATILES VTAVRELINCITVS HABOLVMVIITCASITEIEVIBIO ETVEATIO COSS</text>
+  
+  <!-- Decorative molding -->
+  <rect x="20" y="120" width="760" height="15" fill="#c9c3b8"/>
+  <rect x="20" y="135" width="760" height="8" fill="#b8b0a3"/>
+  
+  <!-- Upper relief register -->
+  <rect x="30" y="150" width="740" height="180" fill="#d9d5cc"/>
+  
+  <!-- Upper register figures (simplified grouped figures) -->
+  <ellipse cx="80" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="65" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="140" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="125" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="200" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="185" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="260" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="245" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="320" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="305" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="380" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="365" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="440" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="425" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="500" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="485" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="560" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="545" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="620" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="605" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="680" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="665" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <ellipse cx="730" cy="210" rx="15" ry="20" fill="#bfb9ae"/>
+  <rect x="715" y="230" width="30" height="70" rx="3" fill="#c9c3b8"/>
+  
+  <!-- Dividing band -->
+  <rect x="20" y="335" width="760" height="12" fill="#b8b0a3"/>
+  
+  <!-- Lower relief register with arches -->
+  <rect x="30" y="350" width="740" height="200" fill="#d9d5cc"/>
+  
+  <!-- Arches -->
+  <path d="M 80 530 Q 80 390, 160 390 Q 160 530, 160 530 Z" fill="#ccc6bb" stroke="#9d9282" stroke-width="2"/>
+  <path d="M 200 530 Q 200 390, 280 390 Q 280 530, 280 530 Z" fill="#ccc6bb" stroke="#9d9282" stroke-width="2"/>
+  <path d="M 320 530 Q 320 390, 400 390 Q 400 530, 400 530 Z" fill="#ccc6bb" stroke="#9d9282" stroke-width="2"/>
+  <path d="M 440 530 Q 440 390, 520 390 Q 520 530, 520 530 Z" fill="#ccc6bb" stroke="#9d9282" stroke-width="2"/>
+  <path d="M 560 530 Q 560 390, 640 390 Q 640 530, 640 530 Z" fill="#ccc6bb" stroke="#9d9282" stroke-width="2"/>
+  <path d="M 680 530 Q 680 390, 740 390 Q 740 530, 740 530 Z" fill="#ccc6bb" stroke="#9d9282" stroke-width="2"/>
+  
+  <!-- Lower register figures in arches -->
+  <ellipse cx="100" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="88" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="140" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="128" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="220" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="208" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="260" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="248" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="340" cy="440" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="328" y="456" width="24" height="50" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="380" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="368" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="460" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="448" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="500" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="488" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="580" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="568" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="620" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="608" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <ellipse cx="700" cy="430" rx="12" ry="16" fill="#bfb9ae"/>
+  <rect x="688" y="446" width="24" height="60" rx="2" fill="#c9c3b8"/>
+  
+  <!-- Columns between arches -->
+  <rect x="40" y="380" width="8" height="150" fill="#a39888"/>
+  <rect x="170" y="380" width="8" height="150" fill="#a39888"/>
+  <rect x="290" y="380" width="8" height="150" fill="#a39888"/>
+  <rect x="410" y="380" width="8" height="150" fill="#a39888"/>
+  <rect x="530" y="380" width="8" height="150" fill="#a39888"/>
+  <rect x="650" y="380" width="8" height="150" fill="#a39888"/>
+  
+  <!-- Base -->
+  <rect x="20" y="555" width="760" height="25" fill="#a39888"/>
+</svg>

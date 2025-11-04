@@ -1,0 +1,146 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#f5f5f5"/>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <filter id="sparkle" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <!-- Background sparkles -->
+  <g opacity="0.7">
+    <circle cx="150" cy="100" r="3" fill="white" filter="url(#sparkle)"/>
+    <circle cx="200" cy="80" r="2" fill="white" filter="url(#sparkle)"/>
+    <circle cx="250" cy="120" r="4" fill="white" filter="url(#sparkle)"/>
+    <circle cx="300" cy="90" r="3" fill="white" filter="url(#sparkle)"/>
+    <circle cx="350" cy="110" r="2" fill="white" filter="url(#sparkle)"/>
+    <circle cx="850" cy="100" r="3" fill="white" filter="url(#sparkle)"/>
+    <circle cx="900" cy="80" r="2" fill="white" filter="url(#sparkle)"/>
+    <circle cx="950" cy="120" r="4" fill="white" filter="url(#sparkle)"/>
+  </g>
+
+  <!-- Players -->
+  <!-- Central player holding trophy -->
+  <g transform="translate(480, 150)">
+    <rect x="-40" y="0" width="80" height="120" rx="5" fill="#000" opacity="0.8"/>
+    <circle cx="0" cy="10" r="30" fill="#FFD700" stroke="#B8860B" stroke-width="2"/>
+    <text x="0" y="35" font-family="Arial" font-size="12" fill="white" text-anchor="middle">10</text>
+    <path d="M-20,100 L0,130 L20,100" fill="#FFD700"/>
+    <circle cx="0" cy="140" r="10" fill="gold"/>
+  </g>
+
+  <!-- Player 11 -->
+  <g transform="translate(200, 300)">
+    <rect x="-40" y="0" width="80" height="120" rx="5" fill="#66A3E0"/>
+    <rect x="-35" y="5" width="70" height="110" rx="3" fill="#FFFFFF"/>
+    <rect x="-30" y="10" width="60" height="100" rx="2" fill="#66A3E0"/>
+    <text x="0" y="80" font-family="Arial" font-size="24" fill="black" text-anchor="middle">11</text>
+    <circle cx="0" cy="110" r="8" fill="gold"/>
+  </g>
+
+  <!-- Player 17 -->
+  <g transform="translate(50, 320)">
+    <rect x="-40" y="0" width="80" height="120" rx="5" fill="#66A3E0"/>
+    <rect x="-35" y="5" width="70" height="110" rx="3" fill="#FFFFFF"/>
+    <rect x="-30" y="10" width="60" height="100" rx="2" fill="#66A3E0"/>
+    <text x="0" y="80" font-family="Arial" font-size="24" fill="black" text-anchor="middle">17</text>
+    <circle cx="0" cy="110" r="8" fill="gold"/>
+  </g>
+
+  <!-- Player 22 -->
+  <g transform="translate(800, 350)">
+    <rect x="-40" y="0" width="80" height="120" rx="5" fill="#66A3E0"/>
+    <rect x="-35" y="5" width="70" height="110" rx="3" fill="#FFFFFF"/>
+    <rect x="-30" y="10" width="60" height="100" rx="2" fill="#66A3E0"/>
+    <text x="0" y="80" font-family="Arial" font-size="24" fill="black" text-anchor="middle">22</text>
+    <circle cx="0" cy="110" r="8" fill="gold"/>
+  </g>
+
+  <!-- Other players (simplified) -->
+  <g transform="translate(100, 250)">
+    <rect x="-30" y="0" width="60" height="80" rx="5" fill="#66A3E0"/>
+    <rect x="-25" y="5" width="50" height="70" rx="3" fill="#FFFFFF"/>
+    <rect x="-20" y="10" width="40" height="60" rx="2" fill="#66A3E0"/>
+  </g>
+
+  <g transform="translate(300, 220)">
+    <rect x="-30" y="0" width="60" height="80" rx="5" fill="#66A3E0"/>
+    <rect x="-25" y="5" width="50" height="70" rx="3" fill="#FFFFFF"/>
+    <rect x="-20" y="10" width="40" height="60" rx="2" fill="#66A3E0"/>
+  </g>
+
+  <g transform="translate(600, 280)">
+    <rect x="-30" y="0" width="60" height="80" rx="5" fill="#66A3E0"/>
+    <rect x="-25" y="5" width="50" height="70" rx="3" fill="#FFFFFF"/>
+    <rect x="-20" y="10" width="40" height="60" rx="2" fill="#66A3E0"/>
+  </g>
+
+  <g transform="translate(700, 230)">
+    <rect x="-30" y="0" width="60" height="80" rx="5" fill="#66A3E0"/>
+    <rect x="-25" y="5" width="50" height="70" rx="3" fill="#FFFFFF"/>
+    <rect x="-20" y="10" width="40" height="60" rx="2" fill="#66A3E0"/>
+  </g>
+
+  <g transform="translate(900, 200)">
+    <rect x="-30" y="0" width="60" height="80" rx="5" fill="#66A3E0"/>
+    <rect x="-25" y="5" width="50" height="70" rx="3" fill="#FFFFFF"/>
+    <rect x="-20" y="10" width="40" height="60" rx="2" fill="#66A3E0"/>
+  </g>
+
+  <g transform="translate(900, 300)">
+    <rect x="-30" y="0" width="60" height="80" rx="5" fill="#66A3E0"/>
+    <rect x="-25" y="5" width="50" height="70" rx="3" fill="#FFFFFF"/>
+    <rect x="-20" y="10" width="40" height="60" rx="2" fill="#66A3E0"/>
+  </g>
+
+  <!-- Goalkeeper (green jersey) -->
+  <g transform="translate(580, 200)">
+    <rect x="-35" y="0" width="70" height="90" rx="5" fill="#00CC00"/>
+    <rect x="-30" y="5" width="60" height="80" rx="3" fill="#FFFFFF"/>
+    <rect x="-25" y="10" width="50" height="70" rx="2" fill="#00CC00"/>
+  </g>
+
+  <!-- Trophy -->
+  <g transform="translate(480, 50)">
+    <path d="M-15,0 L15,0 L10,-30 L-10,-30 Z" fill="url(#gold)" stroke="#B8860B" stroke-width="1"/>
+    <path d="M-10,-30 L0,-45 L10,-30" fill="url(#gold)" stroke="#B8860B" stroke-width="1"/>
+    <path d="M-15,0 L-10,-30" stroke="#B8860B" stroke-width="1"/>
+    <path d="M15,0 L10,-30" stroke="#B8860B" stroke-width="1"/>
+    <circle cx="0" cy="-50" r="15" fill="url(#gold)" stroke="#B8860B" stroke-width="1"/>
+    <path d="M-15,-50 L15,-50" stroke="#B8860B" stroke-width="1"/>
+  </g>
+
+  <!-- Medals -->
+  <g transform="translate(200, 380)">
+    <circle cx="0" cy="0" r="10" fill="gold"/>
+    <path d="M-10,0 L-15,-15 M10,0 L15,-15" stroke="red" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(800, 430)">
+    <circle cx="0" cy="0" r="10" fill="gold"/>
+    <path d="M-10,0 L-15,-15 M10,0 L15,-15" stroke="red" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(480, 230)">
+    <circle cx="0" cy="0" r="10" fill="gold"/>
+    <path d="M-10,0 L-15,-15 M10,0 L15,-15" stroke="red" stroke-width="1"/>
+  </g>
+
+  <!-- Celebration gestures -->
+  <path d="M480,150 L450,100" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M480,150 L510,100" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M200,300 L180,250" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M800,350 L820,300" stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- Crowd background (simplified) -->
+  <g opacity="0.3">
+    <rect x="0" y="0" width="1000" height="200" fill="#FFA500"/>
+    <rect x="0" y="50" width="1000" height="100" fill="#FF8C00"/>
+    <rect x="0" y="100" width="1000" height="50" fill="#FF6347"/>
+  </g>
+</svg>

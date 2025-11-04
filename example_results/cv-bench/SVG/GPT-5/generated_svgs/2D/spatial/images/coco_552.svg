@@ -1,0 +1,135 @@
+<svg viewBox="0 0 440 660" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efe4d4"/>
+      <stop offset="55%" stop-color="#7a8594"/>
+      <stop offset="100%" stop-color="#3a4353"/>
+    </linearGradient>
+
+    <radialGradient id="bokeh1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="bottleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#49634a"/>
+      <stop offset="35%" stop-color="#33623a"/>
+      <stop offset="36%" stop-color="#f7f6f4"/>
+      <stop offset="62%" stop-color="#bd1414"/>
+      <stop offset="100%" stop-color="#8a0f0f"/>
+    </linearGradient>
+
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="wineGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161219"/>
+      <stop offset="100%" stop-color="#2b0f18"/>
+    </linearGradient>
+
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfa57a"/>
+      <stop offset="100%" stop-color="#9b6c3f"/>
+    </linearGradient>
+
+    <linearGradient id="bunGradTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4d8b8"/>
+      <stop offset="60%" stop-color="#e2b987"/>
+      <stop offset="100%" stop-color="#bb8550"/>
+    </linearGradient>
+
+    <linearGradient id="bunGradBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6b77f"/>
+      <stop offset="100%" stop-color="#a9693d"/>
+    </linearGradient>
+
+    <linearGradient id="pattyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a5b4d"/>
+      <stop offset="50%" stop-color="#6a4f44"/>
+      <stop offset="100%" stop-color="#4a362f"/>
+    </linearGradient>
+
+    <linearGradient id="mayoGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff2b6"/>
+      <stop offset="100%" stop-color="#e8d580"/>
+    </linearGradient>
+
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="3.8"/>
+    </filter>
+    <filter id="softShadow">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="tinyBlur">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="440" height="660" fill="url(#bgGrad)"/>
+
+  <circle cx="110" cy="120" r="140" fill="url(#bokeh1)"/>
+  <circle cx="350" cy="110" r="120" fill="url(#bokeh1)" opacity="0.6"/>
+  <circle cx="220" cy="220" r="160" fill="url(#bokeh1)" opacity="0.35"/>
+
+  <g transform="translate(30,70)" opacity="0.9" filter="url(#blur2)">
+    <rect x="0" y="0" width="110" height="235" rx="10" fill="url(#bottleGrad)"/>
+    <rect x="10" y="10" width="90" height="30" rx="6" fill="#586a32" opacity="0.5"/>
+    <rect x="10" y="90" width="90" height="60" rx="8" fill="#ffffff" opacity="0.7"/>
+    <rect x="10" y="155" width="90" height="55" rx="8" fill="#cf2f2f" opacity="0.75"/>
+    <rect x="40" y="-30" width="30" height="40" rx="6" fill="#40503f"/>
+  </g>
+
+  <g transform="translate(275,70)">
+    <g filter="url(#blur2)" opacity="0.95">
+      <ellipse cx="55" cy="105" rx="60" ry="55" fill="url(#glassGrad)" />
+      <ellipse cx="55" cy="120" rx="48" ry="28" fill="url(#wineGrad)"/>
+      <rect x="50" y="155" width="10" height="65" fill="url(#glassGrad)"/>
+      <ellipse cx="55" cy="225" rx="40" ry="10" fill="url(#glassGrad)"/>
+      <ellipse cx="55" cy="225" rx="32" ry="7" fill="#ffffff" opacity="0.25"/>
+    </g>
+  </g>
+
+  <rect x="30" y="485" width="380" height="120" rx="16" fill="url(#woodGrad)"/>
+  <g opacity="0.25">
+    <path d="M45 525 C95 505, 145 540, 195 520 S295 512, 355 540" fill="none" stroke="#7f5633" stroke-width="2"/>
+    <path d="M60 560 C120 540, 160 570, 220 555 S320 555, 380 575" fill="none" stroke="#7b4f2c" stroke-width="1.5"/>
+    <path d="M40 598 C120 585, 200 605, 360 595" fill="none" stroke="#8c5c34" stroke-width="1.2"/>
+  </g>
+
+  <ellipse cx="220" cy="560" rx="120" ry="28" fill="#000" opacity="0.25" filter="url(#softShadow)"/>
+
+  <g transform="translate(0,0)">
+    <ellipse cx="220" cy="540" rx="115" ry="38" fill="url(#bunGradBottom)"/>
+    <ellipse cx="220" cy="540" rx="115" ry="38" fill="#000" opacity="0.15" filter="url(#tinyBlur)"/>
+    <ellipse cx="220" cy="505" rx="108" ry="58" fill="url(#pattyGrad)"/>
+
+    <ellipse cx="220" cy="523" rx="112" ry="34" fill="none" stroke="url(#mayoGrad)" stroke-width="9" opacity="0.95"/>
+
+    <g opacity="0.35">
+      <circle cx="185" cy="485" r="5" fill="#c09c84"/>
+      <circle cx="240" cy="502" r="4" fill="#b29078"/>
+      <circle cx="210" cy="515" r="3.5" fill="#b7947b"/>
+      <circle cx="260" cy="490" r="4.5" fill="#a8816b"/>
+      <circle cx="155" cy="504" r="4.8" fill="#a98469"/>
+      <circle cx="290" cy="515" r="3.8" fill="#a5826b"/>
+    </g>
+
+    <ellipse cx="220" cy="456" rx="118" ry="64" fill="url(#bunGradTop)"/>
+    <ellipse cx="205" cy="442" rx="70" ry="28" fill="#ffffff" opacity="0.25" filter="url(#tinyBlur)"/>
+
+    <path d="M130 448 q12 -10 20 -6 t22 1 q14 4 28 0 t28 -3 q14 -1 28 5 t28 6 q14 0 28 -8 q-7 20 -24 31.5t-43 14.5q-26 3 -55 -1q-28 -5 -45 -17t-15 -23z" fill="#000" opacity="0.15" filter="url(#tinyBlur)"/>
+
+    <g opacity="0.4">
+      <circle cx="156" cy="430" r="3" fill="#f7e8d4"/>
+      <circle cx="178" cy="446" r="2.3" fill="#f7e8d4"/>
+      <circle cx="250" cy="438" r="2.7" fill="#f7e8d4"/>
+      <circle cx="270" cy="452" r="2.1" fill="#f7e8d4"/>
+      <circle cx="226" cy="428" r="2.5" fill="#f7e8d4"/>
+    </g>
+  </g>
+
+  <rect x="0" y="630" width="440" height="30" fill="#000"/>
+  <text x="220" y="650" fill="#ffffff" font-size="16" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">lospadellatore.blogspot.com</text>
+</svg>

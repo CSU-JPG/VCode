@@ -1,0 +1,124 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; }
+    .subtitle { font-family: Arial, sans-serif; font-size: 20px; }
+    .legend-text { font-family: Arial, sans-serif; font-size: 14px; }
+    .bar-label { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .value-label { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; fill: black; }
+    .category-label { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    .section-label { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; text-anchor: middle; }
+  </style>
+
+  <!-- Title -->
+  <text x="500" y="30" class="title" text-anchor="middle">Energy price cap update</text>
+  <text x="500" y="60" class="subtitle" text-anchor="middle">ICAEW chart of the week</text>
+
+  <!-- Legend -->
+  <rect x="50" y="150" width="20" height="20" fill="#d4edda"/>
+  <rect x="50" y="175" width="20" height="20" fill="#c3e6cb"/>
+  <rect x="50" y="200" width="20" height="20" fill="#b1dfbb"/>
+  <rect x="90" y="150" width="20" height="20" fill="#e2d4e7"/>
+  <rect x="90" y="175" width="20" height="20" fill="#d0b8d7"/>
+  <rect x="90" y="200" width="20" height="20" fill="#bd9ec7"/>
+  <rect x="130" y="150" width="20" height="20" fill="#f8d7da"/>
+  <rect x="130" y="175" width="20" height="20" fill="#f5c6cb"/>
+  <rect x="130" y="200" width="20" height="20" fill="#f2b5a3"/>
+
+  <text x="155" y="165" class="legend-text">Gas price/kWh</text>
+  <text x="155" y="190" class="legend-text">Electricity price/kWh</text>
+  <text x="155" y="215" class="legend-text">Standing charges</text>
+
+  <!-- Historical Data Bars (Left Side) -->
+  <!-- Q4-Q1 2020-2021 -->
+  <rect x="50" y="900" width="40" height="50" fill="#b1dfbb"/>
+  <rect x="50" y="850" width="40" height="50" fill="#c3e6cb"/>
+  <rect x="50" y="800" width="40" height="50" fill="#d4edda"/>
+  <text x="70" y="780" class="value-label">£1,042</text>
+  <text x="70" y="915" class="category-label">Q4-Q1 2020-2021</text>
+  <text x="70" y="815" class="bar-label">3.0p</text>
+  <text x="70" y="865" class="bar-label">17.2p</text>
+  <text x="70" y="915" class="bar-label">£184</text>
+
+  <!-- Q2-Q3 2021 -->
+  <rect x="110" y="890" width="40" height="60" fill="#b1dfbb"/>
+  <rect x="110" y="830" width="40" height="60" fill="#c3e6cb"/>
+  <rect x="110" y="770" width="40" height="60" fill="#d4edda"/>
+  <text x="130" y="750" class="value-label">£1,138</text>
+  <text x="130" y="915" class="category-label">Q2-Q3 2021</text>
+  <text x="130" y="785" class="bar-label">3.3p</text>
+  <text x="130" y="845" class="bar-label">19.0p</text>
+  <text x="130" y="915" class="bar-label">£188</text>
+
+  <!-- Q4-Q1 2021-2022 -->
+  <rect x="170" y="880" width="40" height="70" fill="#b1dfbb"/>
+  <rect x="170" y="810" width="40" height="70" fill="#c3e6cb"/>
+  <rect x="170" y="740" width="40" height="70" fill="#d4edda"/>
+  <text x="190" y="720" class="value-label">£1,277</text>
+  <text x="190" y="915" class="category-label">Q4-Q1 2021-2022</text>
+  <text x="190" y="755" class="bar-label">4.1p</text>
+  <text x="190" y="825" class="bar-label">20.8p</text>
+  <text x="190" y="915" class="bar-label">£186</text>
+
+  <!-- Q2-Q3 2022 -->
+  <rect x="230" y="850" width="40" height="100" fill="#b1dfbb"/>
+  <rect x="230" y="750" width="40" height="100" fill="#c3e6cb"/>
+  <rect x="230" y="650" width="40" height="100" fill="#d4edda"/>
+  <text x="250" y="630" class="value-label">£1,971</text>
+  <text x="250" y="915" class="category-label">Q2-Q3 2022</text>
+  <text x="250" y="665" class="bar-label">7.4p</text>
+  <text x="250" y="765" class="bar-label">28.3p</text>
+  <text x="250" y="915" class="bar-label">£265</text>
+
+  <!-- Q4 2022 -->
+  <rect x="290" y="800" width="40" height="150" fill="#b1dfbb"/>
+  <rect x="290" y="650" width="40" height="150" fill="#c3e6cb"/>
+  <rect x="290" y="500" width="40" height="150" fill="#d4edda"/>
+  <text x="310" y="480" class="value-label">£3,549</text>
+  <text x="310" y="915" class="category-label">Q4 2022</text>
+  <text x="310" y="515" class="bar-label">14.8p</text>
+  <text x="310" y="665" class="bar-label">51.9p</text>
+  <text x="310" y="915" class="bar-label">£273</text>
+
+  <!-- Industry Forecasts (Right Side) -->
+  <text x="750" y="170" class="section-label">Industry forecasts</text>
+
+  <!-- Q1 2023 -->
+  <rect x="550" y="500" width="40" height="200" fill="#f8d7da"/>
+  <rect x="550" y="300" width="40" height="200" fill="#f5c6cb"/>
+  <rect x="550" y="100" width="40" height="200" fill="#f2b5a3"/>
+  <text x="570" y="80" class="value-label">£5,390</text>
+  <text x="570" y="915" class="category-label">Q1 2023</text>
+  <text x="570" y="115" class="bar-label">23.2p</text>
+  <text x="570" y="315" class="bar-label">80.5p</text>
+  <text x="570" y="915" class="bar-label">£275</text>
+
+  <!-- Q2 2023 -->
+  <rect x="610" y="500" width="40" height="200" fill="#f8d7da"/>
+  <rect x="610" y="300" width="40" height="200" fill="#f5c6cb"/>
+  <rect x="610" y="100" width="40" height="200" fill="#f2b5a3"/>
+  <text x="630" y="80" class="value-label">£6,620</text>
+  <text x="630" y="915" class="category-label">Q2 2023</text>
+  <text x="630" y="115" class="bar-label">30.8p</text>
+  <text x="630" y="315" class="bar-label">91.8p</text>
+  <text x="630" y="915" class="bar-label">£280</text>
+
+  <!-- Q3 2023 -->
+  <rect x="670" y="500" width="40" height="200" fill="#f8d7da"/>
+  <rect x="670" y="300" width="40" height="200" fill="#f5c6cb"/>
+  <rect x="670" y="100" width="40" height="200" fill="#f2b5a3"/>
+  <text x="690" y="80" class="value-label">£5,900</text>
+  <text x="690" y="915" class="category-label">Q3 2023</text>
+  <text x="690" y="115" class="bar-label">27.9p</text>
+  <text x="690" y="315" class="bar-label">78.3p</text>
+  <text x="690" y="915" class="bar-label">£280</text>
+
+  <!-- Q4 2023 -->
+  <rect x="730" y="500" width="40" height="200" fill="#f8d7da"/>
+  <rect x="730" y="300" width="40" height="200" fill="#f5c6cb"/>
+  <rect x="730" y="100" width="40" height="200" fill="#f2b5a3"/>
+  <text x="750" y="80" class="value-label">£5,890</text>
+  <text x="750" y="915" class="category-label">Q4 2023</text>
+  <text x="750" y="115" class="bar-label">27.8p</text>
+  <text x="750" y="315" class="bar-label">79.8p</text>
+  <text x="750" y="915" class="bar-label">£250</text>
+</svg>

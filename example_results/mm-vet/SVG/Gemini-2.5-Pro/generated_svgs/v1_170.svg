@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0E0E0"/>
+      <stop offset="100%" stop-color="#B0B0B0"/>
+    </linearGradient>
+    <radialGradient id="faceShade" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#444444" stop-opacity="0.3"/>
+    </radialGradient>
+    <linearGradient id="hairGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#B8CC44"/>
+      <stop offset="50%" stop-color="#7A8B22"/>
+      <stop offset="100%" stop-color="#4D5715"/>
+    </linearGradient>
+    <linearGradient id="coatGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#6A2A8A"/>
+      <stop offset="100%" stop-color="#3A0A5A"/>
+    </linearGradient>
+    <linearGradient id="gloveGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#602080"/>
+      <stop offset="100%" stop-color="#400A60"/>
+    </linearGradient>
+    <pattern id="shirtPattern" patternUnits="userSpaceOnUse" width="8" height="8">
+      <path d="M0 0 L8 8 M8 0 L0 8" stroke="#454555" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <!-- Body &amp;amp;amp; Clothing -->
+  <g id="body">
+    <path id="coat" d="M350 350 L850 350 L850 650 L0 650 L0 450 C 150 480, 250 420, 350 350 Z" fill="url(#coatGradient)"/>
+    <path id="lapel" d="M360 370 C 370 480, 420 520, 430 600 L550 600 L500 350 C 450 350, 400 360, 360 370 Z" fill="#4C1A6C"/>
+    <path id="shirt" d="M390 480 C 420 530, 430 580, 440 600 H 510 C 500 550, 490 500, 480 480 C 470 470, 440 470, 390 480 Z" fill="#333333"/>
+    <rect x="390" y="480" width="120" height="120" fill="url(#shirtPattern)" />
+    <path id="tie" d="M435 485 C 440 520, 450 580, 455 600 H 475 C 470 580, 460 520, 455 485 L 465 480 L 435 480 Z" fill="#1A1A1A"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <!-- Hair -->
+    <path id="hair" d="M280 100 C 180 120, 250 250, 320 300 C 400 180, 500 80, 650 100 C 680 180, 650 300, 600 350 C 550 250, 580 150, 600 80 C 500 40, 400 50, 320 80 C 300 120, 280 100, 280 100 Z" fill="url(#hairGradient)"/>
+    <path d="M300,90 C350,150 320,220 350,250 C 400,200 450,150 480,120 C 450,80 400,80 350,90 Z" fill="#A8BC33" opacity="0.6"/>
+    <path d="M500,100 C550,180 520,250 580,280 C 620,220 650,150 640,110 C 600,80 550,80 500,100 Z" fill="#98AC30" opacity="0.7"/>
+
+    <!-- Face Shape -->
+    <path id="face" d="M320 150 C 280 300, 300 500, 450 550 C 600 500, 620 300, 580 150 C 500 100, 400 100, 320 150 Z" fill="#E8E8E8"/>
+
+    <!-- Makeup and Features -->
+    <g id="makeup">
+      <!-- Eye Sockets (Black) -->
+      <path d="M360 250 C 320 280, 350 350, 410 340 C 440 330, 450 280, 420 250 C 400 230, 380 230, 360 250 Z" fill="#101010" opacity="0.9"/>
+      <path d="M480 250 C 450 280, 460 350, 520 340 C 550 330, 580 280, 550 250 C 530 230, 500 230, 480 250 Z" fill="#101010" opacity="0.9"/>
+      <!-- Eyes -->
+      <ellipse cx="385" cy="295" rx="15" ry="12" fill="#3A3A3A"/>
+      <ellipse cx="515" cy="295" rx="15" ry="12" fill="#3A3A3A"/>
+      <circle cx="383" cy="293" r="5" fill="#111"/>
+      <circle cx="517" cy="293" r="5" fill="#111"/>
+      <circle cx="384" cy="292" r="1.5" fill="#FFFFFF"/>
+      <circle cx="516" cy="292" r="1.5" fill="#FFFFFF"/>
+
+      <!-- Smile (Red) -->
+      <path d="M330 400 C 350 450, 450 480, 580 430 C 590 410, 570 380, 560 380 C 450 440, 350 420, 340 390 Z" fill="#A00000"/>
+      <path d="M340 395 C 350 435, 450 460, 570 415 C 575 400, 560 385, 550 385 C 450 430, 360 410, 350 390 Z" fill="#D00000"/>
+
+      <!-- Scars &amp;amp;amp; Wrinkles -->
+      <path d="M330 400 C 290 410, 320 440, 345 420" fill="none" stroke="#6B2E2E" stroke-width="3" opacity="0.7"/>
+      <path d="M580 430 C 620 420, 590 450, 565 440" fill="none" stroke="#6B2E2E" stroke-width="3" opacity="0.7"/>
+      <path d="M350 210 C 400 200, 450 205, 500 215" fill="none" stroke="#666" stroke-width="2" opacity="0.3"/>
+      <path d="M360 195 C 410 185, 460 190, 510 200" fill="none" stroke="#666" stroke-width="2.5" opacity="0.3"/>
+
+      <!-- Teeth -->
+      <path d="M400 425 H 510 C 505 435, 495 440, 455 440 C 415 440, 405 435, 400 425 Z" fill="#DDC57B"/>
+      <path d="M420 425 V 438 M440 425 V 439 M460 425 V 440 M480 425 V 439 M500 425 V 438" fill="none" stroke="#554422" stroke-width="1" opacity="0.5"/>
+    </g>
+    <!-- Face Shading -->
+    <path d="M320 150 C 280 300, 300 500, 450 550 C 600 500, 620 300, 580 150 C 500 100, 400 100, 320 150 Z" fill="url(#faceShade)"/>
+  </g>
+
+  <!-- Hand and Card -->
+  <g id="hand-and-card">
+    <!-- Glove -->
+    <path id="glove" d="M150 380 C 100 450, 150 550, 250 520 L 300 480 C 280 430, 250 360, 200 370 Z" fill="url(#gloveGradient)"/>
+    <path id="thumb" d="M220 380 C 250 370, 280 390, 280 420 C 270 430, 240 430, 230 410 C 220 400, 210 390, 220 380 Z" fill="#501570"/>
+    
+    <!-- Card -->
+    <g transform="translate(190 280) rotate(-15)">
+      <rect x="0" y="0" width="100" height="140" fill="#F8F8F0" stroke="#AAAAAA" stroke-width="1" rx="5"/>
+      <!-- Card Details (Simplified) -->
+      <text x="8" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold">JOKER</text>
+      <text x="8" y="132" font-family="Arial, sans-serif" font-size="12" font-weight="bold">JOKER</text>
+      <g transform="translate(30, 30) scale(0.4)">
+        <path d="M50 0 C 40 0, 35 10, 35 20 L 65 20 C 65 10, 60 0, 50 0 Z" fill="#D4AF37"/>
+        <path d="M35 20 L 20 40 L 30 60 L 40 100 L 60 100 L 70 60 L 80 40 L 65 20 Z" fill="#6A0DAD"/>
+        <circle cx="50" cy="15" r="10" fill="#F0E68C"/>
+        <path d="M30 60 L 70 60 L 70 70 L 30 70 Z" fill="#D4AF37"/>
+      </g>
+      <path d="M60 45 C 70 50, 80 65, 75 80 C 70 70, 65 60, 60 45 Z" fill="#B22222" opacity="0.8" transform="translate(190 280) rotate(-15) scale(0.6) translate(-270, -420)"/>
+    </g>
+  </g>
+</svg>

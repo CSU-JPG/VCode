@@ -1,0 +1,118 @@
+<svg viewBox="0 0 1044 788" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f1f3"/>
+      <stop offset="55%" stop-color="#e7eaed"/>
+      <stop offset="100%" stop-color="#dfe3e7"/>
+    </linearGradient>
+
+    <pattern id="planks" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+      <rect width="26" height="26" fill="none"/>
+      <line x1="0" y1="0" x2="0" y2="26" stroke="#cfd5da" stroke-width="2" opacity="0.6"/>
+    </pattern>
+
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f4f6f8"/>
+      <stop offset="60%" stop-color="#e9eef2"/>
+      <stop offset="100%" stop-color="#d8dde2"/>
+    </linearGradient>
+
+    <linearGradient id="tvgrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3c434b"/>
+      <stop offset="100%" stop-color="#14181d"/>
+    </linearGradient>
+
+    <linearGradient id="cabinet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eef1f5"/>
+    </linearGradient>
+
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9a6c49"/>
+      <stop offset="100%" stop-color="#7e5438"/>
+    </linearGradient>
+
+    <radialGradient id="shine" cx="80%" cy="15%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background ceiling/walls -->
+  <rect x="0" y="0" width="1044" height="788" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1044" height="788" fill="url(#planks)" opacity="0.35"/>
+
+  <!-- Slanted roof beam -->
+  <polygon points="400,0 590,0 560,120 370,120" fill="#e7eaee" opacity="0.9"/>
+
+  <!-- Back wall niche/shelf area -->
+  <polygon points="120,230 420,295 435,185 135,120" fill="#cfd5db" opacity="0.65"/>
+  <rect x="155" y="180" width="255" height="110" fill="#1c1f23" opacity="0.8" rx="6"/>
+
+  <!-- Floor -->
+  <polygon points="0,450 1044,620 1044,788 0,788" fill="url(#floorGrad)"/>
+  <rect x="0" y="450" width="1044" height="338" fill="url(#planks)" opacity="0.25"/>
+
+  <!-- Desk at back -->
+  <rect x="460" y="390" width="240" height="70" fill="url(#wood)" rx="6"/>
+  <rect x="455" y="460" width="30" height="65" fill="#7b6b61" opacity="0.4"/>
+  <rect x="662" y="460" width="30" height="65" fill="#7b6b61" opacity="0.4"/>
+
+  <!-- TV and cabinet -->
+  <rect x="760" y="360" width="170" height="170" rx="8" fill="url(#tvgrad)"/>
+  <rect x="825" y="530" width="40" height="20" fill="#585e66" rx="4"/>
+  <polygon points="650,520 1030,610 1030,755 650,665" fill="url(#cabinet)"/>
+  <rect x="865" y="610" width="70" height="10" fill="#cfd5db" opacity="0.7"/>
+
+  <!-- Vase on cabinet -->
+  <ellipse cx="902" cy="555" rx="36" ry="48" fill="#6a7b41" opacity="0.8"/>
+  <line x1="900" y1="505" x2="960" y2="430" stroke="#6a7b41" stroke-width="3" opacity="0.7"/>
+
+  <!-- Chair (simplified wireframe) -->
+  <g opacity="0.75" transform="translate(540,470)">
+    <path d="M0,0 L70,-25 L110,10 L95,150 L25,150 Z" fill="#5b5b5b"/>
+    <path d="M20,20 L25,140 M40,10 L45,140 M60,0 L65,140 M80,5 L85,140" stroke="#2a2a2a" stroke-width="4" fill="none"/>
+    <rect x="18" y="145" width="85" height="12" fill="#2a2a2a"/>
+  </g>
+
+  <!-- Left sofa block (suggestion) -->
+  <polygon points="10,420 220,480 220,540 10,500" fill="#e5e9ed" opacity="0.9" />
+
+  <!-- Ottoman/low table (within blue box) -->
+  <polygon points="100,540 370,570 345,700 90,655" fill="#b08153" opacity="0.95"/>
+  <ellipse cx="250" cy="585" rx="110" ry="22" fill="#6e6e6e" opacity="0.6"/>
+
+  <!-- Tray, book and spoon within the red box -->
+  <g>
+    <rect x="205" y="545" width="180" height="70" rx="10" fill="#f2f2f2" stroke="#c8c8c8" stroke-width="2" opacity="0.9"/>
+    <ellipse cx="255" cy="580" rx="60" ry="12" fill="#b9b9b9"/>
+    <rect x="230" y="553" width="70" height="20" rx="4" fill="#d9d9d9"/>
+    <rect x="310" y="560" width="55" height="8" rx="4" fill="#afafaf"/>
+  </g>
+
+  <!-- Hanging chain (stylized) -->
+  <g transform="translate(840,-10) rotate(6)">
+    <g fill="none" stroke="#2b2f34" stroke-width="10" stroke-linecap="round">
+      <ellipse cx="50" cy="60" rx="8" ry="22"/>
+      <ellipse cx="50" cy="110" rx="8" ry="22"/>
+      <ellipse cx="50" cy="160" rx="8" ry="22"/>
+      <ellipse cx="50" cy="210" rx="8" ry="22"/>
+      <ellipse cx="50" cy="260" rx="8" ry="22"/>
+      <ellipse cx="50" cy="310" rx="8" ry="22"/>
+      <ellipse cx="50" cy="360" rx="8" ry="22"/>
+      <ellipse cx="50" cy="410" rx="8" ry="22"/>
+      <ellipse cx="50" cy="460" rx="8" ry="22"/>
+      <ellipse cx="50" cy="510" rx="8" ry="22"/>
+      <ellipse cx="50" cy="560" rx="8" ry="22"/>
+      <ellipse cx="50" cy="610" rx="8" ry="22"/>
+    </g>
+  </g>
+
+  <!-- Light sheen -->
+  <rect x="0" y="0" width="1044" height="788" fill="url(#shine)" pointer-events="none"/>
+
+  <!-- Bounding boxes from the image -->
+  <rect x="126" y="156" width="295" height="143" fill="none" stroke="#2fd35f" stroke-width="6" rx="8"/>
+  <rect x="96" y="490" width="300" height="200" fill="none" stroke="#2e59ff" stroke-width="6" rx="10"/>
+  <rect x="186" y="526" width="230" height="90" fill="none" stroke="#ff3b2f" stroke-width="6" rx="8"/>
+</svg>

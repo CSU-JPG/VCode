@@ -1,0 +1,130 @@
+<svg viewBox="0 0 512 384" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#77b9f5"/>
+      <stop offset="70%" stop-color="#bfe1ff"/>
+      <stop offset="100%" stop-color="#d9ecff"/>
+    </linearGradient>
+    <linearGradient id="snowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f1f1"/>
+    </linearGradient>
+    <linearGradient id="rockGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3f46"/>
+      <stop offset="100%" stop-color="#22262c"/>
+    </linearGradient>
+    <linearGradient id="axeMetal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dadde2"/>
+      <stop offset="100%" stop-color="#9aa0a9"/>
+    </linearGradient>
+    <linearGradient id="strapGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7e4ab4"/>
+      <stop offset="100%" stop-color="#5a2a9a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="512" height="384" fill="url(#skyGrad)"/>
+
+  <!-- Clouds -->
+  <g fill="#ffffff" opacity="0.8">
+    <ellipse cx="95" cy="55" rx="55" ry="18"/>
+    <ellipse cx="135" cy="60" rx="45" ry="15"/>
+    <ellipse cx="280" cy="50" rx="60" ry="20" opacity="0.75"/>
+    <ellipse cx="325" cy="58" rx="40" ry="14" opacity="0.7"/>
+  </g>
+
+  <!-- Distant dark rock ridge -->
+  <path d="M0,120 L35,105 L90,120 L145,108 L205,125 L280,115 L340,130 L400,116 L460,130 L512,120 L512,150 L0,150 Z" fill="url(#rockGrad)"/>
+
+  <!-- Mid rocks on left -->
+  <g>
+    <path d="M10,150 L70,135 L120,150 L95,170 L30,165 Z" fill="#444b53"/>
+    <path d="M130,150 L180,138 L220,150 L200,168 L150,166 Z" fill="#3b424a"/>
+  </g>
+
+  <!-- Snow slope -->
+  <path d="M0,210 C110,190 175,195 250,180 C330,165 400,150 512,135 L512,384 L0,384 Z"
+        fill="url(#snowGrad)"/>
+
+  <!-- Dirt/grit on snow -->
+  <g fill="#c9b7a1" opacity="0.5">
+    <ellipse cx="120" cy="270" rx="8" ry="3"/>
+    <ellipse cx="150" cy="255" rx="6" ry="2.5"/>
+    <ellipse cx="210" cy="240" rx="7" ry="2.8"/>
+    <ellipse cx="260" cy="230" rx="5" ry="2"/>
+    <ellipse cx="305" cy="220" rx="9" ry="3.2"/>
+    <ellipse cx="350" cy="210" rx="7" ry="2.5"/>
+    <ellipse cx="390" cy="205" rx="10" ry="3.5"/>
+    <ellipse cx="80" cy="290" rx="9" ry="3.2"/>
+    <ellipse cx="190" cy="310" rx="10" ry="3.5"/>
+    <ellipse cx="240" cy="300" rx="7" ry="2.4"/>
+    <ellipse cx="310" cy="285" rx="8" ry="3"/>
+    <ellipse cx="360" cy="270" rx="6" ry="2.2"/>
+    <ellipse cx="420" cy="250" rx="10" ry="3.5"/>
+  </g>
+
+  <!-- Foreground ice axe (left) -->
+  <g transform="translate(45,180) rotate(-25)">
+    <!-- Shaft -->
+    <rect x="-10" y="-20" width="18" height="190" rx="8" fill="#7b6aa8"/>
+    <rect x="-7" y="80" width="12" height="90" rx="6" fill="#6b5aa0"/>
+    <!-- Pick head -->
+    <path d="M-25,-15 C30,-35 100,-28 150,-10 L145,5 C100,-10 25,-8 -5,0 Z" fill="url(#axeMetal)" stroke="#7e838a" stroke-width="1.5"/>
+    <!-- Spike at bottom -->
+    <path d="M3,170 L8,190 L-2,190 Z" fill="url(#axeMetal)" stroke="#7e838a" stroke-width="1.2"/>
+    <!-- Leash/strap -->
+    <path d="M-2,40 C-40,80 -55,130 -25,165" fill="none" stroke="url(#strapGrad)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-5,65 C-30,95 -38,125 -20,150" fill="none" stroke="#5a2a9a" stroke-width="4" stroke-linecap="round"/>
+    <!-- Strap tag with subtle text -->
+    <rect x="-55" y="150" width="18" height="42" rx="3" fill="url(#strapGrad)"/>
+    <text x="-46" y="175" font-size="8" fill="#e8defa" transform="rotate(-90 -46 175)" font-family="Verdana">VIA</text>
+  </g>
+
+  <!-- Left glove (simplified) near axe -->
+  <g transform="translate(78,142) rotate(-15)">
+    <path d="M0,0 C18,-6 35,2 42,16 C46,24 45,35 37,40 C26,48 10,48 0,40 Z" fill="#b9c2cc" stroke="#8f979f" stroke-width="1.2"/>
+    <path d="M10,10 C20,6 28,8 32,16 C35,22 30,30 22,32 C15,34 7,28 6,22 Z" fill="#a7b0ba"/>
+    <rect x="32" y="10" width="12" height="18" rx="4" fill="#42286e"/>
+  </g>
+
+  <!-- Climber on slope (right) -->
+  <g transform="translate(380,138)">
+    <!-- Body -->
+    <path d="M0,0 C-6,8 -10,22 -9,35 C-8,46 2,50 12,45 C22,40 26,28 25,18 C24,8 14,-6 0,0 Z" fill="#c23a35"/>
+    <!-- Head -->
+    <circle cx="5" cy="-10" r="6.5" fill="#f4c7a1" stroke="#d2a984" stroke-width="1"/>
+    <!-- Hat -->
+    <path d="M-1,-14 C8,-20 16,-18 20,-14 C17,-12 8,-10 -1,-12 Z" fill="#1b1e27"/>
+    <!-- Left leg -->
+    <path d="M-6,34 L-20,54 L-12,58 L0,40 Z" fill="#1f2030"/>
+    <!-- Right leg -->
+    <path d="M10,38 L28,60 L36,58 L16,34 Z" fill="#26293a"/>
+    <!-- Boots -->
+    <rect x="-20" y="54" width="12" height="6" fill="#3e3f4b"/>
+    <rect x="28" y="60" width="12" height="6" fill="#3e3f4b"/>
+    <!-- Backpack -->
+    <path d="M-10,-5 C-18,2 -20,14 -16,26 L-2,24 C0,16 2,2 -2,-6 Z" fill="#4b2f7c"/>
+    <!-- Skis on pack -->
+    <g transform="rotate(30 0 0)">
+      <rect x="10" y="-70" width="8" height="130" rx="4" fill="#ff8a00" stroke="#e36d00" stroke-width="1"/>
+      <rect x="22" y="-70" width="8" height="130" rx="4" fill="#ffa319" stroke="#e36d00" stroke-width="1"/>
+    </g>
+    <!-- Poles -->
+    <line x1="-18" y1="40" x2="-40" y2="70" stroke="#7e838a" stroke-width="3"/>
+    <line x1="26" y1="42" x2="50" y2="74" stroke="#7e838a" stroke-width="3"/>
+  </g>
+
+  <!-- Rocky outcrop near person -->
+  <path d="M320,160 L380,140 L420,150 L408,170 L350,180 Z" fill="#3e444c"/>
+
+  <!-- Red annotation rectangle (top-left) -->
+  <rect x="6" y="18" width="235" height="138" fill="none" stroke="#ff2a2a" stroke-width="6" />
+
+  <!-- Foreground snow texture highlights -->
+  <g opacity="0.35" fill="#ffffff">
+    <ellipse cx="120" cy="235" rx="40" ry="10"/>
+    <ellipse cx="220" cy="220" rx="35" ry="8"/>
+    <ellipse cx="330" cy="200" rx="30" ry="7"/>
+  </g>
+</svg>

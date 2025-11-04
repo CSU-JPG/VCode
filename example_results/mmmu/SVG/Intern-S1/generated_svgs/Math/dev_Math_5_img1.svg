@@ -1,0 +1,22 @@
+<svg viewBox="0 0 15 3" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="0" width="1" height="1" fill="red"/><text x="1.5" y="0.5" text-anchor="middle" alignment-baseline="middle">R</text>
+<rect x="0" y="1" width="1" height="1" fill="green"/><text x="0.5" y="1.5" text-anchor="middle" alignment-baseline="middle">G</text>
+<rect x="1" y="1" width="1" height="1" fill="blue"/><text x="1.5" y="1.5" text-anchor="middle" alignment-baseline="middle">B</text>
+<rect x="2" y="1" width="1" height="1" fill="yellow"/><text x="2.5" y="1.5" text-anchor="middle" alignment-baseline="middle">Y</text>
+<rect x="1" y="2" width="1" height="1" fill="red"/><text x="1.5" y="2.5" text-anchor="middle" alignment-baseline="middle">R</text>
+<rect x="5" y="0" width="1" height="1" fill="green"/><text x="5.5" y="0.5" text-anchor="middle" alignment-baseline="middle">G</text>
+<rect x="4" y="1" width="1" height="1" fill="yellow"/><text x="4.5" y="1.5" text-anchor="middle" alignment-baseline="middle">Y</text>
+<rect x="5" y="1" width="1" height="1" fill="green"/><text x="5.5" y="1.5" text-anchor="middle" alignment-baseline="middle">G</text>
+<rect x="6" y="1" width="1" height="1" fill="red"/><text x="6.5" y="1.5" text-anchor="middle" alignment-baseline="middle">R</text>
+<rect x="5" y="2" width="1" height="1" fill="yellow"/><text x="5.5" y="2.5" text-anchor="middle" alignment-baseline="middle">Y</text>
+<rect x="9" y="0" width="1" height="1" fill="yellow"/><text x="9.5" y="0.5" text-anchor="middle" alignment-baseline="middle">Y</text>
+<rect x="8" y="1" width="1" height="1" fill="green"/><text x="8.5" y="1.5" text-anchor="middle" alignment-baseline="middle">G</text>
+<rect x="9" y="1" width="1" height="1" fill="red"/><text x="9.5" y="1.5" text-anchor="middle" alignment-baseline="middle">R</text>
+<rect x="10" y="1" width="1" height="1" fill="green"/><text x="10.5" y="1.5" text-anchor="middle" alignment-baseline="middle">G</text>
+<rect x="9" y="2" width="1" height="1" fill="blue"/><text x="9.5" y="2.5" text-anchor="middle" alignment-baseline="middle">B</text>
+<rect x="13" y="0" width="1" height="1" fill="red"/><text x="13.5" y="0.5" text-anchor="middle" alignment-baseline="middle">R</text>
+<rect x="12" y="1" width="1" height="1" fill="yellow"/><text x="12.5" y="1.5" text-anchor="middle" alignment-baseline="middle">Y</text>
+<rect x="13" y="1" width="1" height="1" fill="yellow"/><text x="13.5" y="1.5" text-anchor="middle" alignment-baseline="middle">Y</text>
+<rect x="14" y="1" width="1" height="1" fill="green"/><text x="14.5" y="1.5" text-anchor="middle" alignment-baseline="middle">G</text>
+<rect x="13" y="2" width="1" height="1" fill="green"/><text x="13.5" y="2.5" text-anchor="middle" alignment-baseline="middle">G</text>
+</svg>

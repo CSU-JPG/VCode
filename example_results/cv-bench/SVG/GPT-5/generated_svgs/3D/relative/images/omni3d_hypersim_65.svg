@@ -1,0 +1,130 @@
+<svg viewBox="-20 -20 1064 808" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9d9d9"/>
+      <stop offset="100%" stop-color="#bdbdbd"/>
+    </linearGradient>
+    <linearGradient id="gFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfcfcf"/>
+      <stop offset="100%" stop-color="#a9a9a9"/>
+    </linearGradient>
+    <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6e4a2d"/>
+      <stop offset="50%" stop-color="#8a5c36"/>
+      <stop offset="100%" stop-color="#5a3c22"/>
+    </linearGradient>
+    <linearGradient id="gDesk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b57542"/>
+      <stop offset="100%" stop-color="#8a542d"/>
+    </linearGradient>
+    <radialGradient id="gWindow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e6f0ff"/>
+    </radialGradient>
+    <linearGradient id="gMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#424242"/>
+      <stop offset="100%" stop-color="#1d1d1d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back wall -->
+  <rect x="0" y="0" width="1024" height="510" fill="url(#gWall)"/>
+
+  <!-- Sloped ceiling on right -->
+  <polygon points="640,0 1024,0 1024,250 780,210" fill="#e3e3e3" opacity="0.8"/>
+  <!-- subtle plank lines -->
+  <g stroke="#d5d5d5" stroke-width="1">
+    <line x1="660" y1="10" x2="1024" y2="70"/>
+    <line x1="650" y1="40" x2="1024" y2="110"/>
+    <line x1="640" y1="70" x2="1024" y2="150"/>
+    <line x1="630" y1="100" x2="1024" y2="190"/>
+    <line x1="620" y1="130" x2="1024" y2="230"/>
+  </g>
+
+  <!-- Floor -->
+  <rect x="0" y="510" width="1024" height="258" fill="url(#gFloor)"/>
+  <!-- floor plank lines -->
+  <g stroke="#b8b8b8" stroke-width="2" opacity="0.5">
+    <line x1="0" y1="540" x2="1024" y2="540"/>
+    <line x1="0" y1="575" x2="1024" y2="575"/>
+    <line x1="0" y1="610" x2="1024" y2="610"/>
+    <line x1="0" y1="645" x2="1024" y2="645"/>
+    <line x1="0" y1="680" x2="1024" y2="680"/>
+    <line x1="0" y1="715" x2="1024" y2="715"/>
+  </g>
+
+  <!-- Window -->
+  <rect x="558" y="60" width="120" height="170" fill="url(#gWindow)" stroke="#ffffff" stroke-width="8" rx="6"/>
+
+  <!-- Picture frames -->
+  <g fill="#ededed" stroke="#777" stroke-width="3">
+    <rect x="468" y="55" width="40" height="52"/>
+    <rect x="485" y="115" width="40" height="52"/>
+    <rect x="638" y="110" width="62" height="74"/>
+    <rect x="712" y="120" width="42" height="52"/>
+  </g>
+
+  <!-- Shelf under frames -->
+  <rect x="435" y="158" width="230" height="54" fill="#444" rx="8"/>
+  <rect x="435" y="158" width="230" height="10" fill="#666" opacity="0.5"/>
+
+  <!-- Desk -->
+  <rect x="650" y="285" width="300" height="150" fill="url(#gDesk)" rx="6"/>
+  <rect x="615" y="320" width="340" height="16" fill="#c88a56" opacity="0.8" rx="4"/>
+
+  <!-- Sofa (left) -->
+  <g>
+    <rect x="0" y="420" width="520" height="140" fill="#efefef" stroke="#d0d0d0" stroke-width="3" rx="12"/>
+    <rect x="20" y="430" width="150" height="110" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="3" rx="12"/>
+    <rect x="175" y="430" width="165" height="110" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="3" rx="12"/>
+    <rect x="345" y="430" width="145" height="110" fill="#f6f6f6" stroke="#d9d9d9" stroke-width="3" rx="12"/>
+  </g>
+
+  <!-- Coffee table (wood trapezoid with wheels) -->
+  <g>
+    <polygon points="170,540 480,520 485,395 185,415" fill="url(#gWood)" stroke="#3f2a18" stroke-width="4"/>
+    <polygon points="190,420 470,402 472,390 195,408" fill="#5d3f25" opacity="0.35"/>
+    <!-- wheels -->
+    <g fill="#222">
+      <circle cx="210" cy="560" r="14"/>
+      <circle cx="430" cy="550" r="14"/>
+    </g>
+  </g>
+
+  <!-- Tray and items on table -->
+  <g transform="translate(265,430)">
+    <rect x="0" y="0" width="210" height="36" fill="#2a2a2a" stroke="#111" stroke-width="3" rx="6"/>
+    <rect x="12" y="-4" width="42" height="14" fill="#6f6f6f" rx="3"/>
+    <circle cx="80" cy="18" r="9" fill="#cfcfcf" stroke="#9a9a9a" stroke-width="2"/>
+    <rect x="100" y="10" width="40" height="14" fill="#7f7f7f" rx="3"/>
+    <rect x="148" y="8" width="26" height="18" fill="#3d3d3d" rx="3"/>
+  </g>
+
+  <!-- Rustic chair silhouette -->
+  <g transform="translate(560,250)">
+    <ellipse cx="50" cy="140" rx="70" ry="35" fill="#2b2b2b" opacity="0.6"/>
+    <rect x="35" y="40" width="28" height="210" fill="#2b2b2b"/>
+    <rect x="15" y="80" width="28" height="170" fill="#2b2b2b" opacity="0.85"/>
+    <rect x="55" y="90" width="28" height="160" fill="#2b2b2b" opacity="0.85"/>
+    <ellipse cx="50" cy="60" rx="70" ry="30" fill="#3a3a3a"/>
+  </g>
+
+  <!-- Chain -->
+  <g stroke="url(#gMetal)" fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M600,0 C600,40 600,60 600,100
+             C600,140 600,160 600,200
+             C600,240 600,260 600,300
+             C600,340 600,360 600,400
+             C600,440 600,460 600,500
+             C600,540 600,560 600,600
+             C600,640 600,660 600,700" />
+  </g>
+
+  <!-- Highlight rectangles as in the reference image -->
+  <rect x="430" y="120" width="190" height="70" fill="none" stroke="#0b5cff" stroke-width="8" rx="6"/>
+  <rect x="150" y="360" width="380" height="180" fill="none" stroke="#12d84a" stroke-width="8" rx="6"/>
+  <rect x="250" y="415" width="240" height="70" fill="none" stroke="#ff2b2b" stroke-width="8" rx="6"/>
+
+  <!-- subtle vignette -->
+  <rect x="-20" y="-20" width="1064" height="808" fill="none" stroke="#000" stroke-opacity="0.06" stroke-width="20"/>
+</svg>

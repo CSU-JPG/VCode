@@ -1,0 +1,112 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .blue { fill: #0000FF; stroke: #0000FF; }
+    .green { fill: #00FF00; stroke: #00FF00; }
+    .black { fill: black; stroke: black; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; }
+  </style>
+
+  <!-- Title -->
+  <text x="20" y="20" class="text">INCOMING INFORMATION</text>
+
+  <!-- Satellite -->
+  <circle cx="50" cy="70" r="15" class="green"/>
+  <line x1="50" y1="70" x2="70" y2="60" class="green"/>
+  <line x1="50" y1="70" x2="70" y2="80" class="green"/>
+  <text x="20" y="100" class="text">Satellite</text>
+
+  <!-- Radar -->
+  <rect x="30" y="180" width="20" height="10" class="green"/>
+  <circle cx="40" cy="195" r="10" class="green"/>
+  <line x1="40" y1="195" x2="60" y2="185" class="green"/>
+  <text x="20" y="220" class="text">Radar</text>
+
+  <!-- Digital buoy -->
+  <rect x="30" y="300" width="10" height="30" class="green"/>
+  <line x1="35" y1="300" x2="35" y2="280" class="green"/>
+  <text x="10" y="350" class="text">Digital buoy</text>
+
+  <!-- Analysis &amp; Forecasting Section -->
+  <text x="250" y="20" class="text">ANALYSIS &amp; FORECASTING</text>
+  
+  <!-- Satellite photo -->
+  <rect x="230" y="50" width="120" height="100" class="green" fill="none" stroke-width="2"/>
+  <line x1="230" y1="70" x2="350" y2="70" class="green"/>
+  <line x1="230" y1="100" x2="350" y2="100" class="green"/>
+  <line x1="260" y1="50" x2="260" y2="150" class="green"/>
+  <line x1="290" y1="50" x2="290" y2="150" class="green"/>
+  <text x="230" y="160" class="text">Satellite photo</text>
+
+  <!-- Radar screen -->
+  <rect x="230" y="180" width="120" height="100" class="green" fill="none" stroke-width="2"/>
+  <circle cx="290" cy="230" r="40" class="green"/>
+  <line x1="290" y1="180" x2="290" y2="280" class="green"/>
+  <line x1="230" y1="230" x2="350" y2="230" class="green"/>
+  <text x="230" y="290" class="text">Radar screen</text>
+
+  <!-- Synoptic chart -->
+  <rect x="230" y="310" width="120" height="100" class="green" fill="none" stroke-width="2"/>
+  <path d="M250,330 C270,320 290,340 310,330" class="green"/>
+  <path d="M240,340 C260,330 280,350 300,340" class="green"/>
+  <path d="M260,350 C280,340 300,360 320,350" class="green"/>
+  <text x="230" y="420" class="text">Synoptic chart</text>
+
+  <!-- Preparing the Broadcast Section -->
+  <text x="400" y="100" class="text">PREPARING THE BROADCAST</text>
+  
+  <!-- Computer -->
+  <rect x="450" y="150" width="100" height="60" class="blue" fill="none" stroke-width="2"/>
+  <rect x="450" y="210" width="100" height="20" class="green"/>
+  <rect x="550" y="220" width="20" height="10" class="green"/>
+  <line x1="450" y1="210" x2="550" y2="210" class="green"/>
+  <line x1="450" y1="230" x2="550" y2="230" class="green"/>
+
+  <!-- Broadcast Section -->
+  <text x="600" y="20" class="text">BROADCAST</text>
+
+  <!-- TV newsreader -->
+  <rect x="600" y="50" width="80" height="60" class="green" fill="none" stroke-width="2"/>
+  <circle cx="640" cy="80" r="15" class="green"/>
+  <text x="600" y="120" class="text">TV newsreader</text>
+
+  <!-- Radio -->
+  <rect x="600" y="180" width="60" height="30" class="blue"/>
+  <line x1="600" y1="195" x2="570" y2="175" class="green"/>
+  <text x="600" y="220" class="text">Radio</text>
+
+  <!-- Recorded announcement -->
+  <rect x="600" y="300" width="40" height="30" class="green" rx="5" ry="5"/>
+  <line x1="610" y1="310" x2="620" y2="310" class="blue"/>
+  <line x1="610" y1="320" x2="620" y2="320" class="blue"/>
+  <text x="600" y="340" class="text">Recorded announcement</text>
+
+  <!-- Arrows from incoming info to analysis -->
+  <line x1="65" y1="70" x2="230" y2="100" class="blue" stroke-width="3"/>
+  <polygon points="230,100 220,95 220,105" class="blue"/>
+  
+  <line x1="60" y1="195" x2="230" y2="230" class="blue" stroke-width="3"/>
+  <polygon points="230,230 220,225 220,235" class="blue"/>
+  
+  <line x1="35" y1="300" x2="230" y2="360" class="blue" stroke-width="3"/>
+  <polygon points="230,360 220,355 220,365" class="blue"/>
+
+  <!-- Arrows from analysis to broadcast prep -->
+  <line x1="350" y1="100" x2="450" y2="180" class="blue" stroke-width="3"/>
+  <polygon points="450,180 440,175 440,185" class="blue"/>
+  
+  <line x1="350" y1="230" x2="450" y2="210" class="blue" stroke-width="3"/>
+  <polygon points="450,210 440,205 440,215" class="blue"/>
+  
+  <line x1="350" y1="360" x2="450" y2="230" class="blue" stroke-width="3"/>
+  <polygon points="450,230 440,225 440,235" class="blue"/>
+
+  <!-- Arrows from broadcast prep to outputs -->
+  <line x1="550" y1="180" x2="600" y2="80" class="blue" stroke-width="3"/>
+  <polygon points="600,80 590,75 590,85" class="blue"/>
+  
+  <line x1="550" y1="210" x2="600" y2="195" class="blue" stroke-width="3"/>
+  <polygon points="600,195 590,190 590,200" class="blue"/>
+  
+  <line x1="550" y1="230" x2="600" y2="315" class="blue" stroke-width="3"/>
+  <polygon points="600,315 590,310 590,320" class="blue"/>
+</svg>

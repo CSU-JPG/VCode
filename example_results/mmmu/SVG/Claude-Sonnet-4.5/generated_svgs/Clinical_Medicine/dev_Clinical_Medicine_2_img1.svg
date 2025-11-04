@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#1a237e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000051;stop-opacity:1" />
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+    </filter>
+  </defs>
+  
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <ellipse cx="400" cy="280" rx="380" ry="80" fill="#c4a574" opacity="0.9"/>
+  
+  <ellipse cx="380" cy="275" rx="360" ry="75" fill="#d4b58a" opacity="0.8"/>
+  
+  <path d="M 50 260 Q 200 240 400 250 T 750 270" fill="none" stroke="#9d7f5c" stroke-width="140" stroke-linecap="round" opacity="0.7"/>
+  
+  <ellipse cx="150" cy="240" rx="45" ry="35" fill="#6b5840" opacity="0.6" filter="url(#blur1)"/>
+  <ellipse cx="220" cy="260" rx="35" ry="28" fill="#5a4838" opacity="0.5" filter="url(#blur1)"/>
+  <ellipse cx="320" cy="255" rx="50" ry="40" fill="#7d6548" opacity="0.65" filter="url(#blur1)"/>
+  <ellipse cx="280" cy="275" rx="38" ry="30" fill="#6b5840" opacity="0.55" filter="url(#blur1)"/>
+  <ellipse cx="450" cy="265" rx="55" ry="42" fill="#7a6346" opacity="0.7" filter="url(#blur1)"/>
+  <ellipse cx="520" cy="270" rx="42" ry="35" fill="#5d4a38" opacity="0.6" filter="url(#blur1)"/>
+  <ellipse cx="600" cy="280" rx="48" ry="38" fill="#6e5841" opacity="0.62" filter="url(#blur1)"/>
+  <ellipse cx="400" cy="285" rx="40" ry="32" fill="#5a4836" opacity="0.58" filter="url(#blur1)"/>
+  
+  <ellipse cx="180" cy="265" rx="25" ry="20" fill="#4a3828" opacity="0.7" filter="url(#blur2)"/>
+  <ellipse cx="360" cy="270" rx="30" ry="24" fill="#4d3a2a" opacity="0.65" filter="url(#blur2)"/>
+  <ellipse cx="490" cy="275" rx="28" ry="22" fill="#463528" opacity="0.68" filter="url(#blur2)"/>
+  <ellipse cx="650" cy="285" rx="32" ry="26" fill="#4a3828" opacity="0.66" filter="url(#blur2)"/>
+  
+  <ellipse cx="250" cy="250" rx="20" ry="15" fill="#8d7556" opacity="0.4" filter="url(#blur1)"/>
+  <ellipse cx="550" cy="260" rx="22" ry="16" fill="#8d7556" opacity="0.35" filter="url(#blur1)"/>
+  
+  <path d="M 50 260 Q 200 235 400 245 T 750 265" fill="none" stroke="#e6c9a8" stroke-width="2" opacity="0.3"/>
+  <path d="M 70 280 Q 220 265 400 270 T 730 290" fill="none" stroke="#a68966" stroke-width="1.5" opacity="0.25"/>
+</svg>

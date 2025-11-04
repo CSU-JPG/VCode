@@ -1,0 +1,199 @@
+<svg viewBox="0 0 800 533" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="redAppleGradient" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" style="stop-color:rgb(220,50,50);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(150,0,0);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="greenAppleGradient" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" style="stop-color:rgb(160,220,60);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(80,150,0);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="orangeGradient" cx="50%" cy="50%" r="50%" fx="35%" fy="35%">
+      <stop offset="0%" style="stop-color:rgb(255,180,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(240,120,0);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="tomatoGradient" cx="50%" cy="50%" r="50%" fx="35%" fy="35%">
+      <stop offset="0%" style="stop-color:rgb(255,80,60);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(200,30,20);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="grapeGradient" cx="50%" cy="50%" r="50%" fx="40%" fy="40%">
+      <stop offset="0%" style="stop-color:rgb(120,50,150);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(70,10,90);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="kiwiGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(140,110,80);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(100,80,50);stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="cucumberGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#3E7C17" />
+      <stop offset="100%" style="stop-color:#2C541D" />
+    </linearGradient>
+    <linearGradient id="bananaGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#FFEB3B" />
+      <stop offset="100%" style="stop-color:#FBC02D" />
+    </linearGradient>
+     <radialGradient id="strawberryGradient" cx="50%" cy="50%" r="50%" fx="60%" fy="40%">
+      <stop offset="0%" style="stop-color:rgb(255,80,80);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(180,20,20);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="cauliflowerGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#F5F5DC;" />
+      <stop offset="100%" style="stop-color:#E0E0B8;" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Shadow -->
+  <rect x="0" y="0" width="800" height="533" fill="#212121"/>
+
+  <!-- Produce -->
+  <!-- Cauliflower -->
+  <g id="cauliflowers">
+    <path d="M 310,10 L 490,10 L 480,180 L 320,180 z" fill="#1B5E20"/>
+    <circle cx="350" cy="80" r="50" fill="url(#cauliflowerGradient)"/>
+    <circle cx="430" cy="80" r="55" fill="url(#cauliflowerGradient)"/>
+    <circle cx="390" cy="140" r="45" fill="url(#cauliflowerGradient)"/>
+  </g>
+  <!-- Apples -->
+  <g id="apples">
+    <g id="red-apples">
+      <circle cx="590" cy="220" r="30" fill="url(#redAppleGradient)"/>
+      <circle cx="640" cy="230" r="32" fill="url(#redAppleGradient)"/>
+      <circle cx="550" cy="240" r="31" fill="url(#redAppleGradient)"/>
+      <circle cx="600" cy="270" r="30" fill="url(#redAppleGradient)"/>
+      <circle cx="660" cy="275" r="33" fill="url(#redAppleGradient)"/>
+    </g>
+    <g id="green-apples">
+      <circle cx="700" cy="240" r="30" fill="url(#greenAppleGradient)"/>
+      <circle cx="740" cy="250" r="32" fill="url(#greenAppleGradient)"/>
+      <circle cx="690" cy="280" r="31" fill="url(#greenAppleGradient)"/>
+      <circle cx="750" cy="290" r="30" fill="url(#greenAppleGradient)"/>
+    </g>
+  </g>
+  <!-- Pears &amp;amp;amp; Lemons -->
+  <g id="pears-lemons">
+    <ellipse cx="440" cy="300" rx="25" ry="30" fill="#F0E68C"/>
+    <ellipse cx="490" cy="290" rx="25" ry="30" fill="#FFFACD"/>
+    <ellipse cx="540" cy="310" rx="25" ry="30" fill="#F0E68C"/>
+    <ellipse cx="680" cy="380" rx="35" ry="28" fill="#FFD700"/>
+    <ellipse cx="740" cy="390" rx="35" ry="28" fill="#FFD700"/>
+    <ellipse cx="710" cy="430" rx="35" ry="28" fill="#FFD700"/>
+  </g>
+  <!-- Peppers -->
+  <g id="peppers">
+    <path d="M 60,30 C 40,50 40,90 60,110 L 80,110 C 100,90 100,50 80,30 z" fill="#E53935"/>
+    <path d="M 120,30 C 100,50 100,90 120,110 L 140,110 C 160,90 160,50 140,30 z" fill="#E53935"/>
+    <path d="M 90,100 C 70,120 70,160 90,180 L 110,180 C 130,160 130,120 110,100 z" fill="#E53935"/>
+    <path d="M 220,40 C 210,60 210,80 220,90 L 230,90 C 240,80 240,60 230,40 z" fill="#FDD835"/>
+    <path d="M 220,100 C 210,120 210,140 220,150 L 230,150 C 240,140 240,120 230,100 z" fill="#FDD835"/>
+  </g>
+  <!-- Cucumbers -->
+  <g id="cucumbers">
+    <rect x="50" y="220" width="180" height="30" rx="15" fill="url(#cucumberGradient)"/>
+    <rect x="60" y="250" width="180" height="30" rx="15" fill="url(#cucumberGradient)"/>
+    <rect x="55" y="280" width="180" height="30" rx="15" fill="url(#cucumberGradient)"/>
+    <rect x="70" y="310" width="180" height="30" rx="15" fill="url(#cucumberGradient)"/>
+  </g>
+  <!-- Tomatoes -->
+  <g id="tomatoes">
+    <g id="tomatoes-on-vine">
+      <circle cx="280" cy="250" r="20" fill="url(#tomatoGradient)"/>
+      <circle cx="320" cy="240" r="20" fill="url(#tomatoGradient)"/>
+      <circle cx="360" cy="255" r="20" fill="url(#tomatoGradient)"/>
+      <circle cx="310" cy="280" r="20" fill="url(#tomatoGradient)"/>
+      <circle cx="350" cy="290" r="20" fill="url(#tomatoGradient)"/>
+    </g>
+    <g id="cherry-tomatoes">
+      <circle cx="100" cy="400" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="130" cy="390" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="160" cy="405" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="110" cy="430" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="145" cy="435" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="180" cy="425" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="90" y="450" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="125" cy="460" r="15" fill="url(#tomatoGradient)"/>
+      <circle cx="160" cy="465" r="15" fill="url(#tomatoGradient)"/>
+    </g>
+  </g>
+  <!-- Kiwis -->
+  <g id="kiwis">
+    <ellipse cx="280" cy="450" rx="25" ry="20" fill="url(#kiwiGradient)"/>
+    <ellipse cx="320" cy="440" rx="25" ry="20" fill="url(#kiwiGradient)"/>
+    <ellipse cx="360" cy="455" rx="25" ry="20" fill="url(#kiwiGradient)"/>
+    <ellipse cx="310" cy="480" rx="25" ry="20" fill="url(#kiwiGradient)"/>
+    <ellipse cx="350" cy="490" rx="25" ry="20" fill="url(#kiwiGradient)"/>
+  </g>
+  <!-- Oranges -->
+  <g id="oranges">
+    <circle cx="500" cy="400" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="560" cy="390" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="620" cy="410" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="480" cy="450" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="540" cy="460" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="600" cy="470" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="660" cy="450" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="570" cy="510" r="35" fill="url(#orangeGradient)"/>
+    <circle cx="630" cy="515" r="35" fill="url(#orangeGradient)"/>
+  </g>
+   <!-- Grapes -->
+  <g id="grapes">
+    <circle cx="410" cy="360" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="425" cy="365" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="405" cy="375" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="420" cy="380" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="435" cy="378" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="580" cy="360" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="595" cy="365" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="575" cy="375" r="8" fill="url(#grapeGradient)"/>
+    <circle cx="590" cy="380" r="8" fill="url(#grapeGradient)"/>
+  </g>
+  <!-- Bananas -->
+  <g id="bananas">
+    <path d="M 680 460 Q 720 450, 750 480 Q 730 490, 690 470 Z" fill="url(#bananaGradient)" transform="rotate(-10 715 470)"/>
+    <path d="M 690 470 Q 730 460, 760 490 Q 740 500, 700 480 Z" fill="url(#bananaGradient)" transform="rotate(-5 725 480)"/>
+    <path d="M 700 480 Q 740 470, 770 500 Q 750 510, 710 490 Z" fill="url(#bananaGradient)" transform="rotate(0 735 490)"/>
+    <path d="M 710 490 Q 750 480, 780 510 Q 760 520, 720 500 Z" fill="url(#bananaGradient)" transform="rotate(5 745 500)"/>
+  </g>
+  <!-- Strawberries -->
+  <g id="strawberries">
+    <path d="M 650 500 C 640 510, 640 525, 655 530 C 670 525, 670 510, 660 500 z" fill="url(#strawberryGradient)"/>
+    <path d="M 680 505 C 670 515, 670 530, 685 535 C 700 530, 700 515, 690 505 z" fill="url(#strawberryGradient)"/>
+    <path d="M 710 500 C 700 510, 700 525, 715 530 C 730 525, 730 510, 720 500 z" fill="url(#strawberryGradient)"/>
+    <path d="M 740 505 C 730 515, 730 530, 745 535 C 760 530, 760 515, 750 505 z" fill="url(#strawberryGradient)"/>
+    <path d="M 770 500 C 760 510, 760 525, 775 530 C 790 525, 790 510, 780 500 z" fill="url(#strawberryGradient)"/>
+  </g>
+
+  <!-- Price Signs -->
+  <g fill="#000055" font-family="cursive" font-size="24" text-anchor="middle" font-weight="bold">
+    <g id="price-sign-1">
+      <path d="M 50 150 L 150 160 L 140 210 L 40 200 z" fill="white" stroke="gray"/>
+      <line x1="95" y1="210" x2="85" y2="250" stroke="silver" stroke-width="2"/>
+      <text x="95" y="190">7.00</text>
+    </g>
+    <g id="price-sign-2">
+      <path d="M 280 180 L 380 170 L 390 220 L 290 230 z" fill="white" stroke="gray"/>
+      <line x1="335" y1="230" x2="330" y2="260" stroke="silver" stroke-width="2"/>
+      <text x="335" y="210">8.00</text>
+    </g>
+    <g id="price-sign-3">
+      <path d="M 100 320 L 200 310 L 210 360 L 110 370 z" fill="white" stroke="gray"/>
+      <line x1="155" y1="370" x2="145" y2="400" stroke="silver" stroke-width="2"/>
+      <text x="155" y="350">8.00</text>
+    </g>
+    <g id="price-sign-4">
+      <path d="M 330 350 L 430 360 L 420 410 L 320 400 z" fill="white" stroke="gray"/>
+       <line x1="375" y1="410" x2="365" y2="450" stroke="silver" stroke-width="2"/>
+      <text x="375" y="390">9.00</text>
+    </g>
+    <g id="price-sign-5">
+      <path d="M 550,450 L 670,440 L 680,490 L 560,500 z" fill="white" stroke="gray"/>
+      <line x1="615" y1="500" x2="600" y2="525" stroke="silver" stroke-width="2"/>
+      <text x="615" y="480">12.00</text>
+    </g>
+    <g id="price-sign-6">
+      <path d="M 600,150 L 700,160 L 690,210 L 590,200 z" fill="white" stroke="gray"/>
+      <line x1="645" y1="210" x2="635" y2="240" stroke="silver" stroke-width="2"/>
+      <text x="645" y="190">7.00</text>
+    </g>
+  </g>
+
+</svg>

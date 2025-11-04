@@ -1,0 +1,76 @@
+[
+    {
+        "id": "dev_Agriculture_1",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "Neither are pest of potato",
+            "B": "The one with black coloured antennae",
+            "C": "The one with tan coloured antennae",
+            "D": "Both are pests of potato"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Agriculture_2",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "One pathogen",
+            "B": "Two pathogens",
+            "C": "Three pathogens",
+            "D": "There is no pathogen involved",
+            "E": "I don't know and I don't want to guess"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Agriculture_3",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "Don't know or not sure",
+            "B": "Physiological stress",
+            "C": "Bacterial disease",
+            "D": "Harvesting damage when cutting with knives",
+            "E": "Fungal gummosis"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Agriculture_4",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "Laboratory work with micro manipulators can mimic the transmission of viruses.",
+            "B": "All plant feeding insects can transmit viruses.",
+            "C": "All plant viruses can be transmitted by insects.",
+            "D": "Most viruses have a specific relationship with their vectors.",
+            "E": "I don't know and I don't want to guess"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Agriculture_5",
+        "question_type": "multiple-choice",
+        "answer": "E",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "Physiological problems",
+            "B": "Phytoplasma infection",
+            "C": "I don't know and don't want to guess.",
+            "D": "Animal damage",
+            "E": "Bacteria"
+        },
+        "judge": "Wrong"
+    }
+]

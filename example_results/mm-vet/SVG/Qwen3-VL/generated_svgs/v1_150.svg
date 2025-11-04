@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f5f5"/>
+  
+  <!-- Top text -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#333">
+    This is why I have
+  </text>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#333">
+    trust issues
+  </text>
+  
+  <!-- Iceland image section -->
+  <rect x="0" y="150" width="800" height="450" fill="#333"/>
+  <!-- Simulated Iceland landscape -->
+  <rect x="0" y="150" width="800" height="450" fill="#2c3e50"/>
+  <polygon points="0,150 800,150 800,450 0,450" fill="#2c3e50"/>
+  <!-- Mountains -->
+  <polygon points="0,300 200,250 400,200 600,250 800,300 800,450 0,450" fill="#34495e"/>
+  <!-- Green valley -->
+  <polygon points="0,350 800,350 800,450 0,450" fill="#2ecc71"/>
+  <!-- River winding through valley -->
+  <path d="M50,450 Q200,400 350,480 Q500,400 650,480 Q750,450 800,450" fill="none" stroke="#bdc3c7" stroke-width="8"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="200" rx="150" ry="80" fill="#bdc3c7" opacity="0.7"/>
+  <ellipse cx="600" cy="180" rx="180" ry="90" fill="#bdc3c7" opacity="0.7"/>
+  <!-- Iceland label -->
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="white">
+    Iceland
+  </text>
+  
+  <!-- Greenland image section -->
+  <rect x="0" y="600" width="800" height="450" fill="#ecf0f1"/>
+  <!-- Snowy landscape -->
+  <rect x="0" y="600" width="800" height="450" fill="#ecf0f1"/>
+  <!-- Snow hills -->
+  <polygon points="0,750 200,700 400,650 600,700 800,750 800,1050 0,1050" fill="#ffffff"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="650" rx="200" ry="100" fill="#95a5a6" opacity="0.8"/>
+  <ellipse cx="600" cy="680" rx="220" ry="120" fill="#95a5a6" opacity="0.8"/>
+  <!-- Hiker figure -->
+  <circle cx="720" cy="780" r="8" fill="#c0392b"/>
+  <line x1="710" y1="780" x2="730" y2="780" stroke="#c0392b" stroke-width="4"/>
+  <line x1="720" y1="772" x2="720" y2="788" stroke="#c0392b" stroke-width="4"/>
+  <!-- Greenland label -->
+  <text x="400" y="1140" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="white">
+    Greenland
+  </text>
+</svg>

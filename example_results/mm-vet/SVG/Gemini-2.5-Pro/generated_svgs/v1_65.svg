@@ -1,0 +1,77 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFFFE0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC400;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="#422d0a"/>
+  <path d="M 120 0 L 200 0 L 120 300 L 40 300 Z" fill="#b08d57"/>
+  <path d="M 180 0 L 260 0 L 180 300 L 100 300 Z" fill="#b08d57"/>
+
+  <!-- Body and Dress -->
+  <g id="figure">
+    <!-- Skin -->
+    <path d="M165,115 C160,130 155,140 155,165 L150,220 L125,220 L118,160 C118,140 125,120 135,110 L145,100 C155,95 160,100 165,115 Z" fill="#e4b99f"/>
+    <path d="M170,110 L175,100 C185,90 200,95 210,110 L218,140 L210,145 L200,115 Z" fill="#e4b99f"/>
+    <path d="M152,140 L150,160 L195,160 L198,140 C198,125 190,120 180,120 C170,120 160,125 152,140 Z" fill="#e4b99f"/>
+
+    <!-- Dress -->
+    <path d="M118,160 C120,175 125,185 150,185 L150,230 L110,230 Z" fill="#f0f0f0"/>
+    <path d="M150,185 C175,185 180,175 182,160 L218,140 L220,150 L190,190 C180,210 160,215 150,215 Z" fill="#f0f0f0"/>
+    <path d="M110,230 C120,240 140,250 160,250 L160,300 L100,300 Z" fill="#f0f0f0"/>
+    <path d="M160,215 C180,215 200,225 210,240 L210,300 L160,300 Z" fill="#f0f0f0"/>
+    <path d="M150,140 L195,140 C198,125 190,120 180,120 C170,120 160,125 152,140 Z" fill="#ffffff" fill-opacity="0.3"/>
+
+    <!-- Dress Feathers -->
+    <path d="M120,165 l-5,5 l5,-5 l-5,8" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+    <path d="M130,175 l-8,3 l8,-3 l-7,6" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+    <path d="M145,182 l-6,2 l6,-2 l-5,7" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+    <path d="M160,183 l8,2 l-8,-2 l7,6" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+    <path d="M175,178 l6,3 l-6,-3 l5,8" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+    <path d="M185,165 l5,5 l-5,-5 l5,8" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+    <path d="M210,240 l8,-10 l-8,10 l10,-8" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+    <path d="M205,250 l10,-5 l-10,5 l12,-3" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+
+
+    <!-- Head -->
+    <path d="M125,120 C105,90 120,50 150,55 C180,50 195,90 175,120 C170,125 155,130 150,128 C145,130 130,125 125,120 Z" fill="#e4b99f"/>
+    <!-- Hair -->
+    <path d="M110,120 Q95,60 140,40 Q190,35 200,80 Q210,130 175,150 L170,180 L160,185 L150,150 L130,170 L115,140 Z" fill="#2a1f1c"/>
+    <path d="M140,45 Q150,42 160,45" stroke="#4a3f3c" stroke-width="3" fill="none"/>
+
+    <!-- Face Features -->
+    <path d="M132,88 Q140,84 148,88" stroke="#2a1f1c" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M158,88 Q166,84 174,88" stroke="#2a1f1c" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M135,98 C140,102 145,102 150,98" fill="#ffffff" stroke="#a0a0a0" stroke-width="0.5"/>
+    <path d="M155,98 C160,102 165,102 170,98" fill="#ffffff" stroke="#a0a0a0" stroke-width="0.5"/>
+    <path d="M135,108 Q150,120 170,108 Q150,112 135,108 Z" fill="#ffffff"/>
+    <path d="M135,108 Q150,112 170,108" stroke="#d49a9a" stroke-width="1" fill="none"/>
+
+    <!-- Jewelry -->
+    <path d="M120,60 Q150,45 185,60" stroke="#d0d0d0" stroke-width="2.5" fill="none"/>
+    <path d="M208,100 L203,115 L208,110 L205,120 Z" fill="#e0e0e0"/>
+    <path d="M148,130 L152,126 L156,130 L152,134 Z" fill="#ffffff" stroke="#c0c0c0" stroke-width="0.5"/>
+  </g>
+
+  <!-- Oscar -->
+  <g id="oscar">
+    <path d="M180,210 C175,220 175,280 180,290 L195,290 C200,280 200,220 195,210 Z" fill="url(#gold)"/>
+    <path d="M182,215 L193,215 L193,205 L182,205 Z" fill="url(#gold)"/>
+    <circle cx="187.5" cy="205" r="7" fill="url(#gold)"/>
+    <path d="M175,290 L200,290 L200,295 L175,295 Z" fill="#1a1a1a"/>
+    <path d="M170,295 L205,295 L205,300 L170,300 Z" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Hands -->
+  <path d="M190,240 C185,240 180,245 180,250 L180,285 L195,285 L195,250 C195,245 190,240 190,240 Z" fill="#e4b99f"/>
+  <path d="M145,125 C155,130 160,140 155,150 L145,148 C140,135 142,128 145,125 Z" fill="#e4b99f"/>
+  <path d="M146,126 L144,132 L146,136" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M148,125 L146,131 L148,135" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+
+  <!-- Microphone -->
+  <path d="M165,220 L160,300 L155,300 L160,220 Z" fill="#111"/>
+  <circle cx="162.5" cy="210" r="12" fill="#222"/>
+</svg>

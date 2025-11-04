@@ -1,0 +1,189 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradWall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3f4f6"/>
+      <stop offset="1" stop-color="#d9dde2"/>
+    </linearGradient>
+    <linearGradient id="gradFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8ecef"/>
+      <stop offset="1" stop-color="#cfd6db"/>
+    </linearGradient>
+    <linearGradient id="gradCabinet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6eaef"/>
+    </linearGradient>
+    <linearGradient id="gradTV" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="gradScreenGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#757d85" stop-opacity="0.15"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="0.7" stop-color="#bfc6cc" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="gradVase" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#93b074"/>
+      <stop offset="0.6" stop-color="#6e8c52"/>
+      <stop offset="1" stop-color="#445a38"/>
+    </radialGradient>
+    <linearGradient id="gradWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7b4d2e"/>
+      <stop offset="0.5" stop-color="#9b6742"/>
+      <stop offset="1" stop-color="#6c3f25"/>
+    </linearGradient>
+    <linearGradient id="gradWoodTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6734c"/>
+      <stop offset="1" stop-color="#845837"/>
+    </linearGradient>
+    <pattern id="planks" width="60" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <rect width="60" height="12" fill="url(#gradWall)"/>
+      <path d="M0,11 L60,11" stroke="#c9ced4" stroke-width="1"/>
+      <path d="M0,6 L60,6" stroke="#e3e7ec" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="floorLines" width="80" height="8" patternUnits="userSpaceOnUse" patternTransform="skewX(-8)">
+      <rect width="80" height="8" fill="none"/>
+      <path d="M0,7 L80,7" stroke="#d7dfe6" stroke-width="1"/>
+    </pattern>
+    <filter id="shadowBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <!-- Wall / ceiling with slanted planks -->
+  <rect x="-20" y="-20" width="1240" height="520" fill="url(#planks)"/>
+
+  <!-- Floor plank area -->
+  <g>
+    <polygon points="-40,420 1200,280 1240,840 -40,840" fill="url(#gradFloor)"/>
+    <polygon points="-40,420 1200,280 1240,840 -40,840" fill="url(#floorLines)" opacity="0.5"/>
+  </g>
+
+  <!-- Left picture frames (simplified) -->
+  <g transform="translate(50,130) rotate(-10)">
+    <rect x="0" y="0" width="120" height="90" fill="#e8ecef" stroke="#aab2bb" stroke-width="6"/>
+    <rect x="140" y="20" width="100" height="70" fill="#e8ecef" stroke="#aab2bb" stroke-width="6"/>
+    <rect x="90" y="-80" width="260" height="190" fill="#e8ecef" stroke="#aab2bb" stroke-width="8"/>
+  </g>
+
+  <!-- Radiator under window -->
+  <g transform="translate(120,430)">
+    <rect x="0" y="0" width="260" height="80" fill="#cfd6dc" stroke="#aab2bb" stroke-width="3"/>
+    <g>
+      <rect x="12" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="36" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="60" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="84" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="108" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="132" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="156" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="180" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="204" y="10" width="18" height="60" fill="#b6c0c8"/>
+      <rect x="228" y="10" width="18" height="60" fill="#b6c0c8"/>
+    </g>
+  </g>
+
+  <!-- Small desk and chair on left -->
+  <g transform="translate(330,480) rotate(-8)">
+    <rect x="-40" y="-30" width="240" height="28" fill="#e3e7ec" stroke="#c8ced6" stroke-width="3"/>
+    <rect x="160" y="-30" width="26" height="140" fill="#a55632"/>
+    <rect x="108" y="0" width="50" height="120" rx="8" ry="8" fill="#222831"/>
+    <rect x="114" y="8" width="38" height="70" fill="#0b0f13"/>
+    <g>
+      <rect x="86" y="70" width="76" height="12" fill="#2c3137"/>
+      <rect x="86" y="76" width="6" height="80" fill="#2c3137"/>
+      <rect x="156" y="76" width="6" height="80" fill="#2c3137"/>
+    </g>
+  </g>
+
+  <!-- Long white cabinet on right -->
+  <g transform="translate(690,490)">
+    <polygon points="0,0 380,-30 400,70 -20,90" fill="url(#gradCabinet)" stroke="#cfd5dc" stroke-width="2"/>
+    <!-- TV set -->
+    <g transform="translate(70,-120) rotate(-3)">
+      <rect x="0" y="0" width="210" height="140" rx="6" ry="6" fill="#3c3f45" opacity="0.6"/>
+      <rect x="12" y="-8" width="210" height="140" rx="8" ry="8" fill="#aeb4bb"/>
+      <rect x="22" y="2" width="190" height="120" rx="6" ry="6" fill="url(#gradTV)"/>
+      <rect x="22" y="2" width="48" height="120" fill="url(#gradScreenGlow)"/>
+      <ellipse cx="118" cy="138" rx="52" ry="6" fill="#aeb4bb" opacity="0.5"/>
+    </g>
+    <!-- Big vase -->
+    <g transform="translate(300,-60)">
+      <ellipse cx="56" cy="64" rx="60" ry="48" fill="url(#gradVase)"/>
+      <rect x="52" y="-40" width="8" height="64" fill="#5c7a4a"/>
+      <path d="M56,-36 C70,-20 86,-6 96,18" stroke="#6b8c55" stroke-width="3" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Foreground distressed chair -->
+  <g transform="translate(860,520) rotate(6)">
+    <!-- seat -->
+    <rect x="-40" y="40" width="170" height="28" rx="6" ry="6" fill="#333532"/>
+    <!-- legs -->
+    <path d="M-28,68 L-12,190" stroke="#222421" stroke-width="10"/>
+    <path d="M112,68 L126,200" stroke="#222421" stroke-width="10"/>
+    <path d="M22,70 L34,200" stroke="#222421" stroke-width="10"/>
+    <path d="M70,70 L82,200" stroke="#222421" stroke-width="10"/>
+    <!-- foot ring -->
+    <ellipse cx="48" cy="160" rx="80" ry="18" fill="none" stroke="#3a3c3a" stroke-width="8"/>
+    <!-- back frame -->
+    <path d="M-10,-110 C20,-140 120,-140 140,-110 L140,70 L120,70 L120,-80 C98,-92 44,-92 -4,-80 L-4,70 L-20,70 Z" fill="#2e302e"/>
+    <!-- spindles -->
+    <g stroke="#1f211e" stroke-width="8">
+      <path d="M10,-84 L10,60"/>
+      <path d="M36,-86 L36,60"/>
+      <path d="M64,-88 L64,60"/>
+      <path d="M92,-86 L92,60"/>
+    </g>
+    <!-- wear speckles -->
+    <g opacity="0.35" fill="#cfa787">
+      <circle cx="20" cy="-50" r="6"/>
+      <circle cx="88" cy="-70" r="8"/>
+      <circle cx="122" cy="-20" r="5"/>
+      <circle cx="96" cy="18" r="4"/>
+      <circle cx="40" cy="12" r="3"/>
+      <circle cx="60" cy="54" r="5"/>
+      <circle cx="12" cy="78" r="4"/>
+      <circle cx="128" cy="90" r="4"/>
+    </g>
+  </g>
+
+  <!-- Wood block table in foreground -->
+  <g transform="translate(170,620) rotate(-6)">
+    <!-- body -->
+    <rect x="-160" y="0" width="540" height="200" rx="6" ry="6" fill="url(#gradWood)" stroke="#5d3722" stroke-width="6"/>
+    <!-- top highlight -->
+    <rect x="-160" y="0" width="540" height="36" fill="url(#gradWoodTop)" opacity="0.9"/>
+    <!-- subtle grain -->
+    <g opacity="0.2" stroke="#3e2717" stroke-width="2">
+      <path d="M-140,22 C-100,10 -60,30 -20,22"/>
+      <path d="M60,18 C90,36 130,10 170,22"/>
+      <path d="M250,14 C300,34 360,6 420,22"/>
+    </g>
+
+    <!-- books and gadgets on table -->
+    <g transform="translate(120,40)">
+      <polygon points="-140,60 -40,10 140,4 28,60" fill="#d2d8dd" stroke="#9da6ae" stroke-width="3"/>
+      <rect x="-120" y="44" width="80" height="28" fill="#c5ccd3" stroke="#8e98a1" stroke-width="2"/>
+      <rect x="-34" y="32" width="110" height="26" fill="#e6ecef" stroke="#9aa4ad" stroke-width="2"/>
+      <rect x="86" y="24" width="40" height="20" fill="#a1b4c2" stroke="#7c8a96" stroke-width="2"/>
+      <rect x="-8" y="12" width="72" height="16" fill="#4b6c7c"/>
+      <rect x="92" y="38" width="26" height="8" fill="#2a3035"/>
+      <!-- little pens -->
+      <rect x="-98" y="70" width="28" height="6" fill="#2c3137"/>
+      <rect x="-64" y="68" width="22" height="6" fill="#5b8aa8"/>
+    </g>
+
+    <!-- red highlight rectangle -->
+    <rect x="0" y="30" width="300" height="120" fill="none" stroke="#d21e11" stroke-width="10" rx="6" ry="6"/>
+  </g>
+
+  <!-- Subtle floor reflections -->
+  <g opacity="0.18" filter="url(#softGlow)">
+    <ellipse cx="920" cy="640" rx="160" ry="24" fill="#adb5bd"/>
+    <ellipse cx="380" cy="700" rx="220" ry="28" fill="#c1c8cf"/>
+  </g>
+</svg>

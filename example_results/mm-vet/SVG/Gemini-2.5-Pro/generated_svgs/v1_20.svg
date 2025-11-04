@@ -1,0 +1,64 @@
+<svg viewBox="0 0 500 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grass" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </linearGradient>
+    <linearGradient id="trees" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1B5E20"/>
+      <stop offset="100%" stop-color="#003300"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="750" fill="url(#trees)"/>
+  <path d="M-10 280 Q 50 250, 100 280 T 200 250 T 300 280 T 400 250 T 510 280 V 750 H -10 Z" fill="url(#grass)"/>
+  <path d="M80 300 L90 150 L100 300 M130 310 L125 100 L135 310 M250 290 L265 80 L280 290 M350 320 L340 120 L355 320 M420 300 L430 150 L440 300 M20 290 L30 180 L35 290" stroke="#212121" stroke-width="4" opacity="0.4"/>
+
+  <!-- Man -->
+  <g>
+    <!-- Right Leg &amp;amp;amp; Shoe -->
+    <path d="M290 625 L320 635 L330 655 L300 650 Z" fill="#D32F2F"/>
+    <path d="M290 625 C 290 580, 350 550, 390 550 L420 640 L330 655 Z" fill="#303F9F"/>
+    
+    <!-- Left Leg &amp;amp;amp; Shoe -->
+    <path d="M140 660 L180 665 L170 690 L130 685 Z" fill="#F44336"/>
+    <path d="M170 680 C 200 600, 250 550, 290 550 L290 625 L140 660 Z" fill="#283593"/>
+    <path d="M140 660 L290 550 L270 540 C 230 540, 180 580, 160 650 Z" fill="#C69F89"/>
+
+    <!-- Torso and Right Arm -->
+    <path d="M410 520 L440 540 L445 620 L390 640 L390 550 C 380 500, 400 510, 410 520 Z" fill="#D32F2F"/>
+    <path d="M440 540 L460 550 L465 520 L440 510 Z" fill="#D6A789"/>
+
+    <!-- Main Body, Left Arm, Head -->
+    <path d="M280 470 C 250 470, 220 520, 220 560 L250 630 L290 625 L290 550 C 350 550, 380 500, 380 480 C 350 440, 300 450, 280 470 Z" fill="#C62828"/>
+    <path d="M220 560 C 200 550, 180 520, 190 490 L230 480 L250 520 Z" fill="#D6A789"/>
+    <path d="M380 480 L370 450 L390 440 L415 470 C 400 490, 385 485, 380 480Z" fill="#D6A789"/>
+    <path d="M370 450 C 380 420, 410 420, 420 440 L400 460 L390 440 Z" fill="#FFFFFF"/>
+    <path d="M387 460 L375 465 L370 450 L380 448 Z" fill="#D6A789"/>
+  </g>
+
+  <!-- Dog -->
+  <g>
+    <!-- Black Body -->
+    <path d="M220 420 C 190 350, 250 250, 300 230 C 350 210, 380 250, 400 300 L 450 320 C 480 340, 460 400, 440 430 L 450 480 L 380 510 L 300 490 L260 460 Z" fill="#111111"/>
+    
+    <!-- White Markings -->
+    <path d="M295 230 C 300 250, 280 280, 270 290 C 250 340, 260 440, 265 460 L 300 490 L 330 480 C 320 400, 340 300, 320 260 C 310 240, 300 225, 295 230 Z" fill="#FFFFFF"/>
+    <path d="M270 290 L275 300 L260 305 Z" fill="#212121" />
+    <path d="M260 400 L265 460 L240 450 L230 420 Z" fill="#FFFFFF"/>
+    <path d="M450 320 L480 340 L470 350 L455 330 Z" fill="#FFFFFF"/>
+
+    <!-- Head Details -->
+    <path d="M270 290 C 265 270, 280 245, 295 230 L 305 235 C 290 255, 275 275, 270 290Z" fill="#111111"/>
+    <path d="M275 295 C 270 310, 280 320, 290 320 C 300 315, 290 300, 275 295Z" fill="#F48FB1"/>
+    <path d="M288 316 L283 318 L285 310 L290 312Z" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Frisbee -->
+  <g>
+    <ellipse cx="170" cy="180" rx="60" ry="25" fill="#FF8F00"/>
+    <ellipse cx="170" cy="178" rx="52" ry="20" fill="#FFB300"/>
+    <ellipse cx="170" cy="177" rx="20" ry="8" fill="#FF8F00"/>
+  </g>
+</svg>

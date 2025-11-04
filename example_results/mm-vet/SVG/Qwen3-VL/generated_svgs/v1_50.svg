@@ -1,0 +1,145 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .room-label { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; dominant-baseline: middle; }
+    .dimension { font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; }
+    .door { stroke: black; stroke-width: 1; fill: none; }
+    .wall { stroke: black; stroke-width: 2; fill: none; }
+    .window { stroke: black; stroke-width: 1; fill: none; }
+    .fixture { stroke: black; stroke-width: 1; fill: none; }
+  </style>
+
+  <!-- Master Bedroom -->
+  <rect x="10" y="10" width="250" height="200" class="wall"/>
+  <text x="135" y="100" class="room-label">MASTER BEDROOM</text>
+  <text x="135" y="120" class="dimension">19 X 15</text>
+
+  <!-- Bedroom 1 -->
+  <rect x="260" y="10" width="200" height="150" class="wall"/>
+  <text x="360" y="80" class="room-label">BEDROOM</text>
+  <text x="360" y="100" class="dimension">12 X 11.5</text>
+
+  <!-- Bedroom 2 -->
+  <rect x="460" y="10" width="200" height="150" class="wall"/>
+  <text x="560" y="80" class="room-label">BEDROOM</text>
+  <text x="560" y="100" class="dimension">12 X 11.5</text>
+
+  <!-- Patio -->
+  <rect x="660" y="10" width="200" height="150" class="wall"/>
+  <text x="760" y="80" class="room-label">PATIO</text>
+  <text x="760" y="100" class="dimension">21 X 12</text>
+
+  <!-- Bathroom (Master) -->
+  <rect x="10" y="210" width="100" height="100" class="wall"/>
+  <text x="60" y="260" class="room-label">BATHROOM</text>
+  <!-- Toilet and sink fixtures -->
+  <circle cx="25" cy="240" r="5" class="fixture"/>
+  <rect x="40" y="250" width="20" height="5" class="fixture"/>
+  <rect x="70" y="250" width="20" height="5" class="fixture"/>
+
+  <!-- Closet (Master) -->
+  <rect x="110" y="210" width="80" height="100" class="wall"/>
+  <text x="150" y="260" class="room-label">CLOSET</text>
+
+  <!-- Bathroom (Shared) -->
+  <rect x="190" y="210" width="100" height="100" class="wall"/>
+  <text x="240" y="260" class="room-label">BATHROOM</text>
+  <!-- Tub and sink -->
+  <rect x="200" y="230" width="80" height="30" rx="5" ry="5" class="fixture"/>
+  <rect x="210" y="240" width="10" height="5" class="fixture"/>
+
+  <!-- Utility -->
+  <rect x="290" y="210" width="80" height="100" class="wall"/>
+  <text x="330" y="260" class="room-label">UTILITY</text>
+
+  <!-- Kitchen -->
+  <rect x="660" y="160" width="200" height="150" class="wall"/>
+  <text x="760" y="230" class="room-label">KITCHEN</text>
+  <!-- Stove and sink -->
+  <rect x="680" y="180" width="10" height="20" class="fixture"/>
+  <rect x="700" y="180" width="10" height="20" class="fixture"/>
+  <rect x="720" y="180" width="10" height="20" class="fixture"/>
+  <rect x="740" y="180" width="10" height="20" class="fixture"/>
+  <rect x="760" y="180" width="30" height="10" class="fixture"/>
+
+  <!-- Dining Room -->
+  <rect x="660" y="310" width="200" height="150" class="wall"/>
+  <text x="760" y="380" class="room-label">DINING ROOM</text>
+  <text x="760" y="400" class="dimension">12 X 12.5</text>
+
+  <!-- Living Room -->
+  <rect x="460" y="310" width="200" height="200" class="wall"/>
+  <text x="560" y="410" class="room-label">LIVING ROOM</text>
+  <text x="560" y="430" class="dimension">21.5 X 18.5</text>
+
+  <!-- Double Garage -->
+  <rect x="190" y="310" width="270" height="200" class="wall"/>
+  <text x="325" y="410" class="room-label">DOUBLE GARAGE</text>
+  <text x="325" y="430" class="dimension">19 X 21.25</text>
+  <text x="325" y="450" class="dimension">(775 SQ FT)</text>
+
+  <!-- Single Garage -->
+  <rect x="10" y="310" width="180" height="200" class="wall"/>
+  <text x="100" y="410" class="room-label">SINGLE GARAGE</text>
+  <text x="100" y="430" class="dimension">14 X 23.25</text>
+
+  <!-- Porch -->
+  <rect x="460" y="510" width="200" height="150" class="wall"/>
+  <text x="560" y="585" class="room-label">PORCH</text>
+
+  <!-- Doors (simplified as arcs or lines) -->
+  <!-- Master bedroom door to hallway -->
+  <path d="M260 100 A50 50 0 0 1 260 150" class="door"/>
+  <!-- Bedroom 1 door to hallway -->
+  <path d="M460 80 A50 50 0 0 1 460 130" class="door"/>
+  <!-- Bedroom 2 door to hallway -->
+  <path d="M660 80 A50 50 0 0 1 660 130" class="door"/>
+  <!-- Bathroom door (Master) -->
+  <line x1="10" y1="260" x2="30" y2="260" class="door"/>
+  <!-- Closet door (Master) -->
+  <line x1="110" y1="260" x2="130" y2="260" class="door"/>
+  <!-- Shared bathroom door -->
+  <line x1="190" y1="260" x2="210" y2="260" class="door"/>
+  <!-- Utility door -->
+  <line x1="290" y1="260" x2="310" y2="260" class="door"/>
+  <!-- Kitchen door from dining -->
+  <line x1="660" y1="385" x2="680" y2="385" class="door"/>
+  <!-- Living room door from hallway -->
+  <path d="M460 410 A50 50 0 0 1 460 460" class="door"/>
+  <!-- Garage doors (simplified) -->
+  <line x1="10" y1="410" x2="30" y2="410" class="door"/>
+  <line x1="190" y1="410" x2="210" y2="410" class="door"/>
+  <!-- Porch door -->
+  <path d="M460 585 A50 50 0 0 1 460 635" class="door"/>
+
+  <!-- Windows (simplified as small rectangles on exterior walls) -->
+  <!-- Master bedroom window -->
+  <rect x="10" y="50" width="10" height="30" class="window"/>
+  <rect x="250" y="50" width="10" height="30" class="window"/>
+  <!-- Bedroom 1 windows -->
+  <rect x="260" y="50" width="10" height="30" class="window"/>
+  <rect x="450" y="50" width="10" height="30" class="window"/>
+  <!-- Bedroom 2 windows -->
+  <rect x="460" y="50" width="10" height="30" class="window"/>
+  <rect x="650" y="50" width="10" height="30" class="window"/>
+  <!-- Patio windows/doors -->
+  <rect x="660" y="50" width="10" height="30" class="window"/>
+  <rect x="850" y="50" width="10" height="30" class="window"/>
+  <!-- Kitchen windows -->
+  <rect x="660" y="230" width="10" height="30" class="window"/>
+  <rect x="850" y="230" width="10" height="30" class="window"/>
+  <!-- Dining room windows -->
+  <rect x="660" y="380" width="10" height="30" class="window"/>
+  <rect x="850" y="380" width="10" height="30" class="window"/>
+  <!-- Living room windows -->
+  <rect x="460" y="410" width="10" height="30" class="window"/>
+  <rect x="650" y="410" width="10" height="30" class="window"/>
+  <!-- Garage windows -->
+  <rect x="10" y="410" width="10" height="30" class="window"/>
+  <rect x="180" y="410" width="10" height="30" class="window"/>
+  <rect x="190" y="410" width="10" height="30" class="window"/>
+  <rect x="450" y="410" width="10" height="30" class="window"/>
+  <!-- Porch windows -->
+  <rect x="460" y="585" width="10" height="30" class="window"/>
+  <rect x="650" y="585" width="10" height="30" class="window"/>
+
+</svg>

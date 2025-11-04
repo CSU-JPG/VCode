@@ -1,0 +1,65 @@
+<svg viewBox="0 0 190 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header Row -->
+  <rect x="0" y="0" width="30" height="25" stroke="black" fill="none"/>
+  <rect x="30" y="0" width="120" height="25" stroke="black" fill="none"/>
+  <rect x="150" y="0" width="40" height="25" stroke="black" fill="none"/>
+  <text x="15" y="12.5" text-anchor="middle" alignment-baseline="middle">ACTIVITY</text>
+  <text x="90" y="12.5" text-anchor="middle" alignment-baseline="middle">IMMEDIATE PREDECESSOR(S)</text>
+  <text x="170" y="12.5" text-anchor="middle" alignment-baseline="middle">TIME (DAYS)</text>
+  
+  <!-- Row 1: A -->
+  <rect x="0" y="25" width="30" height="25" stroke="black" fill="none"/>
+  <text x="15" y="37.5" text-anchor="middle" alignment-baseline="middle">A</text>
+  <rect x="30" y="25" width="120" height="25" stroke="black" fill="none"/>
+  <text x="90" y="37.5" text-anchor="middle" alignment-baseline="middle">—</text>
+  <rect x="150" y="25" width="40" height="25" stroke="black" fill="none"/>
+  <text x="170" y="37.5" text-anchor="middle" alignment-baseline="middle">2</text>
+  
+  <!-- Row 2: B -->
+  <rect x="0" y="50" width="30" height="25" stroke="black" fill="none"/>
+  <text x="15" y="62.5" text-anchor="middle" alignment-baseline="middle">B</text>
+  <rect x="30" y="50" width="120" height="25" stroke="black" fill="none"/>
+  <text x="90" y="62.5" text-anchor="middle" alignment-baseline="middle">—</text>
+  <rect x="150" y="50" width="40" height="25" stroke="black" fill="none"/>
+  <text x="170" y="62.5" text-anchor="middle" alignment-baseline="middle">5</text>
+  
+  <!-- Row 3: C -->
+  <rect x="0" y="75" width="30" height="25" stroke="black" fill="none"/>
+  <text x="15" y="87.5" text-anchor="middle" alignment-baseline="middle">C</text>
+  <rect x="30" y="75" width="120" height="25" stroke="black" fill="none"/>
+  <text x="90" y="87.5" text-anchor="middle" alignment-baseline="middle">—</text>
+  <rect x="150" y="75" width="40" height="25" stroke="black" fill="none"/>
+  <text x="170" y="87.5" text-anchor="middle" alignment-baseline="middle">1</text>
+  
+  <!-- Row 4: D -->
+  <rect x="0" y="100" width="30" height="25" stroke="black" fill="none"/>
+  <text x="15" y="112.5" text-anchor="middle" alignment-baseline="middle">D</text>
+  <rect x="30" y="100" width="120" height="25" stroke="black" fill="none"/>
+  <text x="90" y="112.5" text-anchor="middle" alignment-baseline="middle">B</text>
+  <rect x="150" y="100" width="40" height="25" stroke="black" fill="none"/>
+  <text x="170" y="112.5" text-anchor="middle" alignment-baseline="middle">10</text>
+  
+  <!-- Row 5: E -->
+  <rect x="0" y="125" width="30" height="25" stroke="black" fill="none"/>
+  <text x="15" y="137.5" text-anchor="middle" alignment-baseline="middle">E</text>
+  <rect x="30" y="125" width="120" height="25" stroke="black" fill="none"/>
+  <text x="90" y="137.5" text-anchor="middle" alignment-baseline="middle">A, D</text>
+  <rect x="150" y="125" width="40" height="25" stroke="black" fill="none"/>
+  <text x="170" y="137.5" text-anchor="middle" alignment-baseline="middle">3</text>
+  
+  <!-- Row 6: F -->
+  <rect x="0" y="150" width="30" height="25" stroke="black" fill="none"/>
+  <text x="15" y="162.5" text-anchor="middle" alignment-baseline="middle">F</text>
+  <rect x="30" y="150" width="120" height="25" stroke="black" fill="none"/>
+  <text x="90" y="162.5" text-anchor="middle" alignment-baseline="middle">C</text>
+  <rect x="150" y="150" width="40" height="25" stroke="black" fill="none"/>
+  <text x="170" y="162.5" text-anchor="middle" alignment-baseline="middle">6</text>
+  
+  <!-- Row 7: G -->
+  <rect x="0" y="175" width="30" height="25" stroke="black" fill="none"/>
+  <text x="15" y="187.5" text-anchor="middle" alignment-baseline="middle">G</text>
+  <rect x="30" y="175" width="120" height="25" stroke="black" fill="none"/>
+  <text x="90" y="187.5" text-anchor="middle" alignment-baseline="middle">E, F</text>
+  <rect x="150" y="175" width="40" height="25" stroke="black" fill="none"/>
+  <text x="170" y="187.5" text-anchor="middle" alignment-baseline="middle">8</text>
+</svg>

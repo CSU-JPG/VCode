@@ -1,0 +1,97 @@
+<svg viewBox="0 0 581 447" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6cdd6"/>
+      <stop offset="1" stop-color="#e1e6ec"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfaa7a"/>
+      <stop offset="1" stop-color="#b98f5f"/>
+    </linearGradient>
+    <linearGradient id="deskTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2f1ea"/>
+      <stop offset="1" stop-color="#d7d4c9"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b6a44"/>
+      <stop offset="1" stop-color="#7f5234"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background wall -->
+  <rect x="0" y="0" width="581" height="447" fill="url(#wall)"/>
+
+  <!-- Attic sloped ceiling on right -->
+  <polygon points="340,0 581,0 581,160 430,120" fill="#d9dde3"/>
+
+  <!-- Floor with perspective -->
+  <polygon points="0,245 581,270 581,447 0,447" fill="url(#floor)"/>
+
+  <!-- Dark pillar/edge on far left -->
+  <rect x="0" y="0" width="60" height="447" fill="#2e2f3a"/>
+
+  <!-- Window area -->
+  <polygon points="95,25 275,25 255,140 80,140" fill="#ffffff" opacity="0.95"/>
+  <rect x="105" y="35" width="55" height="85" fill="#eaf2fb" stroke="#cfd9e6" stroke-width="2"/>
+  <rect x="170" y="35" width="55" height="85" fill="#eaf2fb" stroke="#cfd9e6" stroke-width="2"/>
+  <line x1="105" y1="77" x2="225" y2="77" stroke="#cfd9e6" stroke-width="2"/>
+  <line x1="160" y1="35" x2="160" y2="120" stroke="#cfd9e6" stroke-width="2"/>
+
+  <!-- Desk on left -->
+  <rect x="70" y="190" width="240" height="85" rx="6" fill="url(#deskTop)"/>
+  <rect x="70" y="270" width="240" height="150" fill="url(#wood)"/>
+  <rect x="290" y="270" width="20" height="110" fill="#5b3d2a" opacity="0.8"/>
+  <rect x="84" y="280" width="210" height="120" fill="#8a5b3e" opacity="0.25"/>
+  <!-- Desk monitor silhouette -->
+  <path d="M140,128 l40,-3 35,70 -25,4 -10,12 -45,2 z" fill="#232635"/>
+  <rect x="180" y="199" width="55" height="9" fill="#232635"/>
+
+  <!-- Playpen / baby gate center -->
+  <rect x="235" y="210" width="160" height="105" fill="#cde6f3" stroke="#6eb2d1" stroke-width="6"/>
+  <rect x="240" y="215" width="150" height="95" fill="none" stroke="#ff3b3b" stroke-width="10"/>
+  <rect x="275" y="240" width="80" height="60" fill="#ffe26b" opacity="0.9"/>
+  <polygon points="315,245 330,280 300,280" fill="#ffcd2e"/>
+
+  <!-- Chair right of playpen -->
+  <ellipse cx="400" cy="255" rx="30" ry="14" fill="#203249" opacity="0.35"/>
+  <rect x="380" y="220" width="90" height="35" rx="6" fill="#2c3e55"/>
+  <rect x="425" y="240" width="25" height="95" fill="#6a3e21"/>
+  <rect x="390" y="245" width="60" height="35" rx="6" fill="#203249"/>
+  <rect x="445" y="260" width="18" height="75" fill="#6a3e21"/>
+
+  <!-- Cabinet/bookcase on right -->
+  <rect x="495" y="0" width="70" height="220" fill="#1f2330"/>
+  <rect x="505" y="20" width="50" height="8" fill="#3a4254"/>
+  <rect x="505" y="55" width="50" height="8" fill="#3a4254"/>
+  <rect x="505" y="90" width="50" height="8" fill="#3a4254"/>
+  <rect x="505" y="125" width="50" height="8" fill="#3a4254"/>
+
+  <!-- Low cabinet under sloped wall -->
+  <rect x="410" y="160" width="140" height="65" fill="#8c6f4f" opacity="0.85"/>
+  <rect x="418" y="170" width="55" height="45" fill="#a7855f"/>
+  <rect x="477" y="170" width="65" height="45" fill="#a7855f"/>
+
+  <!-- Small rug/pillow on right floor -->
+  <ellipse cx="540" cy="330" rx="35" ry="22" fill="#bca38a"/>
+  <path d="M505,315 q35,35 75,0 q-8,25 -37,34 q-28,-6 -38,-34 z" fill="#d8c1a6" opacity="0.8"/>
+
+  <!-- Small table item near desk left edge -->
+  <rect x="90" y="235" width="35" height="25" rx="3" fill="#d6d6d6" stroke="#bfbfbf"/>
+
+  <!-- Blue storage cube -->
+  <rect x="300" y="175" width="80" height="50" fill="#3a6fa1" opacity="0.9"/>
+
+  <!-- Colored annotation boxes -->
+  <rect x="120" y="120" width="80" height="160" fill="none" stroke="#39d24a" stroke-width="6"/>
+  <rect x="350" y="155" width="160" height="190" fill="none" stroke="#2b63ff" stroke-width="6"/>
+  <rect x="410" y="80" width="120" height="100" fill="none" stroke="#ff3b30" stroke-width="6"/>
+
+  <!-- Top-right small objects within red box -->
+  <rect x="422" y="95" width="40" height="35" fill="#1c2840"/>
+  <rect x="468" y="95" width="35" height="50" fill="#ffffff" stroke="#cfd4dc" stroke-width="2"/>
+  <rect x="472" y="102" width="26" height="15" fill="#e6eef7"/>
+  <rect x="472" y="121" width="26" height="18" fill="#e6eef7"/>
+
+  <!-- Subtle scene shading -->
+  <rect x="60" y="0" width="521" height="447" fill="#000000" opacity="0.05"/>
+</svg>

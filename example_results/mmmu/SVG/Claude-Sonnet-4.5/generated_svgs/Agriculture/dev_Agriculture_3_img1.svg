@@ -1,0 +1,82 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky/background -->
+  <rect width="800" height="1200" fill="#8B9B7A"/>
+  
+  <!-- Ground -->
+  <ellipse cx="400" cy="1100" rx="400" ry="100" fill="#A89968"/>
+  
+  <!-- Scattered leaves on ground -->
+  <ellipse cx="150" cy="1050" rx="15" ry="8" fill="#C4B896" opacity="0.7"/>
+  <ellipse cx="280" cy="1080" rx="12" ry="7" fill="#C4B896" opacity="0.7"/>
+  <ellipse cx="520" cy="1070" rx="14" ry="8" fill="#C4B896" opacity="0.7"/>
+  <ellipse cx="650" cy="1090" rx="13" ry="7" fill="#C4B896" opacity="0.7"/>
+  <ellipse cx="380" cy="1100" rx="11" ry="6" fill="#C4B896" opacity="0.7"/>
+  
+  <!-- Tree trunk base with white paint -->
+  <path d="M 380 1000 Q 390 950 390 850 L 410 850 Q 410 950 420 1000 Z" fill="#A8B89C"/>
+  <path d="M 380 1000 Q 390 950 390 900 L 410 900 Q 410 950 420 1000 Z" fill="#D4E8E8" opacity="0.8"/>
+  
+  <!-- Left main branch -->
+  <path d="M 390 850 Q 350 800 280 750 Q 260 740 250 730" fill="none" stroke="#A8B89C" stroke-width="35"/>
+  <path d="M 390 850 Q 350 800 280 750 Q 260 740 250 730" fill="none" stroke="#D4E8E8" stroke-width="30" opacity="0.7"/>
+  
+  <!-- Center-left branch -->
+  <path d="M 395 830 Q 370 780 340 720 Q 330 700 325 680" fill="none" stroke="#A8B89C" stroke-width="32"/>
+  <path d="M 395 830 Q 370 780 340 720 Q 330 700 325 680" fill="none" stroke="#D4E8E8" stroke-width="27" opacity="0.7"/>
+  
+  <!-- Center trunk -->
+  <path d="M 400 850 L 400 550 Q 400 450 395 350" fill="none" stroke="#8B9473" stroke-width="38"/>
+  <path d="M 400 850 L 400 650 Q 400 550 395 450" fill="none" stroke="#C8D8D4" stroke-width="32" opacity="0.6"/>
+  
+  <!-- Center-right branch -->
+  <path d="M 405 830 Q 430 780 460 720 Q 470 700 475 680" fill="none" stroke="#A8B89C" stroke-width="32"/>
+  <path d="M 405 830 Q 430 780 460 720 Q 470 700 475 680" fill="none" stroke="#D4E8E8" stroke-width="27" opacity="0.7"/>
+  
+  <!-- Right main branch -->
+  <path d="M 410 850 Q 450 800 520 750 Q 540 740 550 730" fill="none" stroke="#A8B89C" stroke-width="35"/>
+  <path d="M 410 850 Q 450 800 520 750 Q 540 740 550 730" fill="none" stroke="#D4E8E8" stroke-width="30" opacity="0.7"/>
+  
+  <!-- Gum/resin drips on left branch -->
+  <ellipse cx="310" cy="770" rx="18" ry="28" fill="#8B4513"/>
+  <ellipse cx="295" cy="755" rx="12" ry="20" fill="#A0522D"/>
+  <ellipse cx="330" cy="790" rx="15" ry="25" fill="#8B4513"/>
+  
+  <!-- Gum/resin on center-left -->
+  <ellipse cx="360" cy="760" rx="16" ry="24" fill="#8B4513"/>
+  <ellipse cx="345" cy="745" rx="14" ry="22" fill="#A0522D"/>
+  
+  <!-- Gum/resin on center trunk -->
+  <ellipse cx="395" cy="700" rx="20" ry="35" fill="#8B4513"/>
+  <ellipse cx="405" cy="720" rx="18" ry="30" fill="#A0522D"/>
+  <ellipse cx="398" cy="650" rx="16" ry="28" fill="#8B4513"/>
+  
+  <!-- Gum/resin on center-right -->
+  <ellipse cx="440" cy="760" rx="16" ry="24" fill="#8B4513"/>
+  <ellipse cx="455" cy="745" rx="14" ry="22" fill="#A0522D"/>
+  
+  <!-- Gum/resin on right branch -->
+  <ellipse cx="490" cy="770" rx="18" ry="28" fill="#8B4513"/>
+  <ellipse cx="505" cy="755" rx="12" ry="20" fill="#A0522D"/>
+  <ellipse cx="470" cy="790" rx="15" ry="25" fill="#8B4513"/>
+  
+  <!-- Foliage clusters -->
+  <ellipse cx="250" cy="650" rx="80" ry="60" fill="#6B7A54" opacity="0.7"/>
+  <ellipse cx="325" cy="600" rx="70" ry="55" fill="#7A8B5F" opacity="0.7"/>
+  <ellipse cx="400" cy="280" rx="90" ry="70" fill="#6B7A54" opacity="0.7"/>
+  <ellipse cx="475" cy="600" rx="70" ry="55" fill="#7A8B5F" opacity="0.7"/>
+  <ellipse cx="550" cy="650" rx="80" ry="60" fill="#6B7A54" opacity="0.7"/>
+  
+  <!-- Additional foliage depth -->
+  <ellipse cx="280" cy="680" rx="60" ry="50" fill="#8B9B6F" opacity="0.6"/>
+  <ellipse cx="370" cy="450" rx="75" ry="60" fill="#7A8B5F" opacity="0.6"/>
+  <ellipse cx="430" cy="450" rx="75" ry="60" fill="#8B9B6F" opacity="0.6"/>
+  <ellipse cx="520" cy="680" rx="60" ry="50" fill="#7A8B5F" opacity="0.6"/>
+  
+  <!-- Light spots (sunlight filtering through) -->
+  <ellipse cx="200" cy="400" rx="40" ry="30" fill="#FFFFFF" opacity="0.3"/>
+  <ellipse cx="600" cy="450" rx="45" ry="35" fill="#FFFFFF" opacity="0.3"/>
+  <ellipse cx="400" cy="200" rx="50" ry="40" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="350" cy="950" r="25" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="450" cy="980" r="30" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="500" cy="920" r="20" fill="#FFFFFF" opacity="0.4"/>
+</svg>

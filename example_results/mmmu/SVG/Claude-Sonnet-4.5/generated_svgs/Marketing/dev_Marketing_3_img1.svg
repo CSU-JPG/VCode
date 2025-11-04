@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1260 430" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer border -->
+  <rect x="13" y="15" width="1234" height="365" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <!-- Header row -->
+  <rect x="13" y="15" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="423" y="15" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="833" y="15" width="414" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <!-- Data rows -->
+  <rect x="13" y="75" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="423" y="75" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="833" y="75" width="414" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <rect x="13" y="135" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="423" y="135" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="833" y="135" width="414" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <rect x="13" y="195" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="423" y="195" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="833" y="195" width="414" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <rect x="13" y="255" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="423" y="255" width="410" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="833" y="255" width="414" height="60" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <rect x="13" y="315" width="410" height="65" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="423" y="315" width="410" height="65" fill="none" stroke="#000" stroke-width="1"/>
+  <rect x="833" y="315" width="414" height="65" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <!-- Header text -->
+  <text x="39" y="53" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#000">Group A</text>
+  <text x="449" y="53" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#000">Group B</text>
+  <text x="860" y="53" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#000">Group C</text>
+  
+  <!-- Data text -->
+  <text x="39" y="113" font-family="Arial, sans-serif" font-size="24" fill="#000">101</text>
+  <text x="449" y="113" font-family="Arial, sans-serif" font-size="24" fill="#000">151</text>
+  <text x="860" y="113" font-family="Arial, sans-serif" font-size="24" fill="#000">101</text>
+  
+  <text x="39" y="173" font-family="Arial, sans-serif" font-size="24" fill="#000">108</text>
+  <text x="449" y="173" font-family="Arial, sans-serif" font-size="24" fill="#000">149</text>
+  <text x="860" y="173" font-family="Arial, sans-serif" font-size="24" fill="#000">109</text>
+  
+  <text x="39" y="233" font-family="Arial, sans-serif" font-size="24" fill="#000">98</text>
+  <text x="449" y="233" font-family="Arial, sans-serif" font-size="24" fill="#000">160</text>
+  <text x="860" y="233" font-family="Arial, sans-serif" font-size="24" fill="#000">198</text>
+  
+  <text x="39" y="293" font-family="Arial, sans-serif" font-size="24" fill="#000">107</text>
+  <text x="449" y="293" font-family="Arial, sans-serif" font-size="24" fill="#000">112</text>
+  <text x="860" y="293" font-family="Arial, sans-serif" font-size="24" fill="#000">186</text>
+  
+  <text x="39" y="353" font-family="Arial, sans-serif" font-size="24" fill="#000">111</text>
+  <text x="449" y="353" font-family="Arial, sans-serif" font-size="24" fill="#000">126</text>
+  <text x="860" y="353" font-family="Arial, sans-serif" font-size="24" fill="#000">160</text>
+  
+  <!-- Table caption -->
+  <text x="25" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#000">Table 12.16</text>
+</svg>

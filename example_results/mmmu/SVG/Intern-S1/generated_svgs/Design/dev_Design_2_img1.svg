@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8e8c8"/>
+  <rect x="10" y="10" width="1180" height="580" fill="#fff8e0" stroke="#c08040" stroke-width="8"/>
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" width="390" height="560" fill="#e0e0e0" stroke="#808080" stroke-width="2"/>
+    <rect x="30" y="30" width="330" height="480" fill="#f0f0f0"/>
+    <circle cx="100" cy="200" r="40" fill="#404040"/>
+    <rect x="60" y="250" width="80" height="150" fill="#202020"/>
+    <rect x="150" y="250" width="80" height="150" fill="#804040"/>
+    <rect x="120" y="180" width="150" height="30" fill="#a0a0a0"/>
+    <text x="100" y="320" fill="#fff" font-size="14">?</text>
+    <text x="150" y="320" fill="#fff" font-size="14">?</text>
+  </g>
+  <g transform="translate(410,20)">
+    <rect x="0" y="0" width="390" height="560" fill="#f8f0e0" stroke="#808080" stroke-width="2"/>
+    <rect x="30" y="30" width="330" height="480" fill="#fff0e0"/>
+    <circle cx="100" cy="250" r="50" fill="#80a0ff"/>
+    <rect x="60" y="200" width="80" height="180" fill="#4060ff"/>
+    <rect x="150" y="200" width="80" height="180" fill="#ff4040"/>
+    <rect x="120" y="380" width="150" height="40" fill="#e0e0e0"/>
+    <circle cx="180" cy="320" r="20" fill="#c0c0c0"/>
+    <text x="100" y="380" fill="#000" font-size="14">?</text>
+    <text x="150" y="380" fill="#000" font-size="14">?</text>
+  </g>
+  <g transform="translate(800,20)">
+    <rect x="0" y="0" width="390" height="560" fill="#e8e8e8" stroke="#808080" stroke-width="2"/>
+    <rect x="30" y="30" width="330" height="480" fill="#f0f0f0"/>
+    <circle cx="100" cy="250" r="40" fill="#604020"/>
+    <rect x="60" y="290" width="80" height="150" fill="#402010"/>
+    <rect x="150" y="290" width="80" height="150" fill="#201008"/>
+    <rect x="120" y="180" width="150" height="30" fill="#a0a0a0"/>
+    <text x="100" y="320" fill="#fff" font-size="14">?</text>
+    <text x="150" y="320" fill="#fff" font-size="14">?</text>
+  </g>
+</svg>

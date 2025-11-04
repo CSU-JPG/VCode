@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="white"/>
+  
+  <!-- Ceiling and beams -->
+  <rect y="0" width="1200" height="150" fill="#f5f5f5"/>
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="#333" stroke-width="4"/>
+  <line x1="0" y1="70" x2="1200" y2="70" stroke="#333" stroke-width="4"/>
+  <line x1="0" y1="110" x2="1200" y2="110" stroke="#333" stroke-width="4"/>
+  
+  <!-- Staircase structure -->
+  <path d="M600 50 L1200 50 L1200 800 L1150 800 L1150 100 L600 100 Z" fill="#333"/>
+  <path d="M600 50 L1200 50 L1200 800 L1150 800 L1150 100 L600 100 Z" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Windows and black frame structure -->
+  <rect x="390" y="350" width="380" height="120" fill="#000"/>
+  <rect x="390" y="350" width="380" height="120" fill="none" stroke="#fff" stroke-width="2"/>
+  <line x1="430" y1="350" x2="430" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="470" y1="350" x2="470" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="510" y1="350" x2="510" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="550" y1="350" x2="550" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="590" y1="350" x2="590" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="630" y1="350" x2="630" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="670" y1="350" x2="670" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="710" y1="350" x2="710" y2="470" stroke="#fff" stroke-width="2"/>
+  <line x1="750" y1="350" x2="750" y2="470" stroke="#fff" stroke-width="2"/>
+  
+  <!-- TV area (blue box) -->
+  <rect x="100" y="480" width="180" height="100" fill="#000" stroke="blue" stroke-width="3"/>
+  <rect x="105" y="485" width="170" height="90" fill="#111"/>
+  
+  <!-- Sofa area (green box) -->
+  <rect x="330" y="570" width="340" height="100" fill="#d4d4d4" stroke="green" stroke-width="3"/>
+  <rect x="335" y="575" width="330" height="90" fill="#c0c0c0"/>
+  <rect x="350" y="580" width="300" height="80" fill="#b0b0b0"/>
+  
+  <!-- Red box area (near stairs) -->
+  <rect x="700" y="540" width="80" height="120" fill="#e0e0e0" stroke="red" stroke-width="3"/>
+  <rect x="705" y="545" width="70" height="110" fill="#d0d0d0"/>
+  
+  <!-- Dining table -->
+  <rect x="0" y="650" width="300" height="100" fill="#8b4513" stroke="#000" stroke-width="2"/>
+  <rect x="5" y="655" width="290" height="90" fill="#a0522d"/>
+  
+  <!-- Chairs around dining table -->
+  <rect x="0" y="680" width="80" height="100" fill="#f5deb3" stroke="#000" stroke-width="2"/>
+  <rect x="10" y="685" width="70" height="90" fill="#fff"/>
+  <rect x="220" y="680" width="80" height="100" fill="#f5deb3" stroke="#000" stroke-width="2"/>
+  <rect x="230" y="685" width="70" height="90" fill="#fff"/>
+  <rect x="80" y="620" width="60" height="80" fill="#f5deb3" stroke="#000" stroke-width="2"/>
+  <rect x="85" y="625" width="50" height="70" fill="#fff"/>
+  <rect x="160" y="620" width="60" height="80" fill="#f5deb3" stroke="#000" stroke-width="2"/>
+  <rect x="165" y="625" width="50" height="70" fill="#fff"/>
+  
+  <!-- Pendant lights above dining table -->
+  <circle cx="50" cy="400" r="20" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+  <line x1="50" y1="400" x2="50" y2="650" stroke="#000" stroke-width="2"/>
+  <circle cx="150" cy="400" r="20" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+  <line x1="150" y1="400" x2="150" y2="650" stroke="#000" stroke-width="2"/>
+  <circle cx="250" cy="400" r="20" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+  <line x1="250" y1="400" x2="250" y2="650" stroke="#000" stroke-width="2"/>
+  
+  <!-- Potted plant near stairs -->
+  <rect x="850" y="580" width="40" height="60" fill="#8b4513" stroke="#000" stroke-width="2"/>
+  <circle cx="870" cy="550" r="30" fill="#00aa00" stroke="#000" stroke-width="2"/>
+  
+  <!-- Basket near stairs -->
+  <rect x="980" y="700" width="60" height="80" fill="#8b4513" stroke="#000" stroke-width="2"/>
+  <rect x="985" y="705" width="50" height="70" fill="#d2b48c"/>
+  
+  <!-- Wall art on brick wall -->
+  <rect x="870" y="450" width="40" height="60" fill="#ffffff" stroke="#000" stroke-width="2"/>
+  <rect x="920" y="450" width="40" height="60" fill="#ffffff" stroke="#000" stroke-width="2"/>
+</svg>

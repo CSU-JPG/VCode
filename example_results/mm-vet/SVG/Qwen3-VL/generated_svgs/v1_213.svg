@@ -1,0 +1,83 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .data { font-family: Arial, sans-serif; font-size: 12px; }
+    .row-even { fill: #f0f0f0; }
+    .row-odd { fill: #ffffff; }
+    .border { stroke: #333; stroke-width: 1; }
+    .title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; text-anchor: middle; }
+  </style>
+
+  <!-- Title -->
+  <text x="250" y="20" class="title">Percentage of national consumer expenditure by category - 2002</text>
+
+  <!-- Table structure -->
+  <rect x="50" y="40" width="400" height="220" fill="none" class="border"/>
+
+  <!-- Header row -->
+  <rect x="50" y="40" width="100" height="30" class="row-even border"/>
+  <rect x="150" y="40" width="100" height="30" class="row-even border"/>
+  <rect x="250" y="40" width="100" height="30" class="row-even border"/>
+  <rect x="350" y="40" width="100" height="30" class="row-even border"/>
+
+  <text x="100" y="60" class="header" text-anchor="middle">Country</text>
+  <text x="200" y="60" class="header" text-anchor="middle">Food/Drinks/Tobacco</text>
+  <text x="300" y="60" class="header" text-anchor="middle">Clothing/Footwear</text>
+  <text x="400" y="60" class="header" text-anchor="middle">Leisure/Education</text>
+
+  <!-- Data rows -->
+  <!-- Ireland -->
+  <rect x="50" y="70" width="100" height="30" class="row-odd border"/>
+  <rect x="150" y="70" width="100" height="30" class="row-odd border"/>
+  <rect x="250" y="70" width="100" height="30" class="row-odd border"/>
+  <rect x="350" y="70" width="100" height="30" class="row-odd border"/>
+
+  <text x="100" y="90" class="data" text-anchor="middle">Ireland</text>
+  <text x="200" y="90" class="data" text-anchor="middle">28.91%</text>
+  <text x="300" y="90" class="data" text-anchor="middle">6.43%</text>
+  <text x="400" y="90" class="data" text-anchor="middle">2.21%</text>
+
+  <!-- Italy -->
+  <rect x="50" y="100" width="100" height="30" class="row-even border"/>
+  <rect x="150" y="100" width="100" height="30" class="row-even border"/>
+  <rect x="250" y="100" width="100" height="30" class="row-even border"/>
+  <rect x="350" y="100" width="100" height="30" class="row-even border"/>
+
+  <text x="100" y="120" class="data" text-anchor="middle">Italy</text>
+  <text x="200" y="120" class="data" text-anchor="middle">18.36%</text>
+  <text x="300" y="120" class="data" text-anchor="middle">9.00%</text>
+  <text x="400" y="120" class="data" text-anchor="middle">3.20%</text>
+
+  <!-- Spain -->
+  <rect x="50" y="130" width="100" height="30" class="row-odd border"/>
+  <rect x="150" y="130" width="100" height="30" class="row-odd border"/>
+  <rect x="250" y="130" width="100" height="30" class="row-odd border"/>
+  <rect x="350" y="130" width="100" height="30" class="row-odd border"/>
+
+  <text x="100" y="150" class="data" text-anchor="middle">Spain</text>
+  <text x="200" y="150" class="data" text-anchor="middle">18.80%</text>
+  <text x="300" y="150" class="data" text-anchor="middle">6.51%</text>
+  <text x="400" y="150" class="data" text-anchor="middle">1.98%</text>
+
+  <!-- Sweden -->
+  <rect x="50" y="160" width="100" height="30" class="row-even border"/>
+  <rect x="150" y="160" width="100" height="30" class="row-even border"/>
+  <rect x="250" y="160" width="100" height="30" class="row-even border"/>
+  <rect x="350" y="160" width="100" height="30" class="row-even border"/>
+
+  <text x="100" y="180" class="data" text-anchor="middle">Sweden</text>
+  <text x="200" y="180" class="data" text-anchor="middle">15.77%</text>
+  <text x="300" y="180" class="data" text-anchor="middle">5.40%</text>
+  <text x="400" y="180" class="data" text-anchor="middle">3.22%</text>
+
+  <!-- Turkey -->
+  <rect x="50" y="190" width="100" height="30" class="row-odd border"/>
+  <rect x="150" y="190" width="100" height="30" class="row-odd border"/>
+  <rect x="250" y="190" width="100" height="30" class="row-odd border"/>
+  <rect x="350" y="190" width="100" height="30" class="row-odd border"/>
+
+  <text x="100" y="210" class="data" text-anchor="middle">Turkey</text>
+  <text x="200" y="210" class="data" text-anchor="middle">32.14%</text>
+  <text x="300" y="210" class="data" text-anchor="middle">6.63%</text>
+  <text x="400" y="210" class="data" text-anchor="middle">4.35%</text>
+</svg>

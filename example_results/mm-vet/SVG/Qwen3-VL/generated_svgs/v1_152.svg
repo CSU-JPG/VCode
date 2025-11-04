@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="20" y="60" font-family="Arial" font-size="50" fill="black">Professor: "Good morni..."</text>
+  <text x="20" y="250" font-family="Arial" font-size="50" fill="black">Freshmen:</text>
+  
+  <!-- Background -->
+  <rect x="30" y="320" width="940" height="650" fill="#00008B"/>
+  
+  <!-- Tent -->
+  <polygon points="520,320 970,320 970,850 520,850" fill="#FFD700" stroke="#8B4513" stroke-width="3"/>
+  <polygon points="520,320 970,320 970,850 520,850" fill="#FFD700" stroke="#8B4513" stroke-width="3"/>
+  <circle cx="680" cy="370" r="80" fill="#87CEEB" stroke="#000" stroke-width="3"/>
+  <line x1="680" y1="290" x2="680" y2="370" stroke="#8B4513" stroke-width="5"/>
+  
+  <!-- SpongeBob -->
+  <rect x="270" y="550" width="200" height="200" rx="20" ry="20" fill="#FFD700" stroke="#000" stroke-width="3"/>
+  <circle cx="320" cy="600" r="20" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="370" cy="600" r="20" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <ellipse cx="320" cy="600" rx="5" ry="8" fill="#000"/>
+  <ellipse cx="370" cy="600" rx="5" ry="8" fill="#000"/>
+  <path d="M300,650 Q345,670 390,650" fill="none" stroke="#000" stroke-width="3"/>
+  <rect x="290" y="750" width="160" height="30" fill="#A0522D" stroke="#000" stroke-width="2"/>
+  <rect x="310" y="780" width="120" height="20" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  <rect x="200" y="570" width="100" height="50" fill="#000" stroke="#000" stroke-width="2"/>
+  <rect x="220" y="570" width="60" height="40" fill="#00FFFF" stroke="#000" stroke-width="2"/>
+  <rect x="290" y="570" width="100" height="50" fill="#000" stroke="#000" stroke-width="2"/>
+  <rect x="310" y="570" width="60" height="40" fill="#00FFFF" stroke="#000" stroke-width="2"/>
+  <rect x="270" y="750" width="30" height="100" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <rect x="440" y="750" width="30" height="100" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  
+  <!-- Patrick -->
+  <path d="M580,460 L680,700 L780,460 Z" fill="#FF69B4" stroke="#000" stroke-width="3"/>
+  <circle cx="630" cy="580" r="20" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="680" cy="580" r="20" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <ellipse cx="630" cy="580" rx="5" ry="8" fill="#000"/>
+  <ellipse cx="680" cy="580" rx="5" ry="8" fill="#000"/>
+  <path d="M630,620 Q655,630 680,620" fill="none" stroke="#000" stroke-width="3"/>
+  <rect x="580" y="700" width="100" height="80" fill="#3CB371" stroke="#000" stroke-width="2"/>
+  <rect x="580" y="700" width="100" height="80" fill="#3CB371" stroke="#000" stroke-width="2"/>
+  <rect x="600" y="720" width="60" height="40" fill="#FFFFFF" stroke="#000" stroke-width="2"/>
+  <rect x="600" y="720" width="60" height="40" fill="#FFFFFF" stroke="#000" stroke-width="2"/>
+  <rect x="580" y="780" width="30" height="100" fill="#FF69B4" stroke="#000" stroke-width="2"/>
+  <rect x="750" y="780" width="30" height="100" fill="#FF69B4" stroke="#000" stroke-width="2"/>
+  
+  <!-- Campfire -->
+  <rect x="100" y="750" width="80" height="20" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  <path d="M100,750 Q140,700 180,750" fill="#FFA500" stroke="#000" stroke-width="2"/>
+  <path d="M110,740 Q140,680 170,740" fill="#FF4500" stroke="#000" stroke-width="2"/>
+  <path d="M120,730 Q140,660 160,730" fill="#FF8C00" stroke="#000" stroke-width="2"/>
+  
+  <!-- Text overlay -->
+  <text x="190" y="870" font-family="Arial" font-size="40" fill="white" stroke="black" stroke-width="2" font-weight="bold">Write that down,</text>
+  <text x="190" y="920" font-family="Arial" font-size="40" fill="white" stroke="black" stroke-width="2" font-weight="bold">write that down!</text>
+  
+  <!-- Underwater flowers -->
+  <path d="M50,340 Q100,300 150,340 Q100,380 50,340" fill="#8A2BE2" stroke="#000" stroke-width="2"/>
+  <path d="M250,380 Q350,320 450,380 Q350,440 250,380" fill="#4169E1" stroke="#000" stroke-width="2"/>
+  <path d="M480,650 Q520,620 560,650 Q520,680 480,650" fill="#9400D3" stroke="#000" stroke-width="2"/>
+</svg>

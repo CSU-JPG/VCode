@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect width="1200" height="900" fill="#3a4158"/>
+  
+  <!-- Upper shelf -->
+  <rect x="400" y="150" width="400" height="15" fill="#5a4a3a"/>
+  <rect x="400" y="165" width="400" height="8" fill="#4a3a2a"/>
+  
+  <!-- Shelf items -->
+  <ellipse cx="470" cy="145" rx="12" ry="18" fill="#2a2a2a"/>
+  <rect x="458" y="130" width="24" height="15" fill="#2a2a2a"/>
+  
+  <ellipse cx="550" cy="140" rx="15" ry="20" fill="#4a3a2a"/>
+  <rect x="535" y="125" width="30" height="15" fill="#3a2a1a"/>
+  
+  <ellipse cx="650" cy="145" rx="18" ry="22" fill="#e8d8c8"/>
+  <rect x="632" y="125" width="36" height="20" fill="#c8b8a8"/>
+  
+  <ellipse cx="730" cy="145" rx="20" ry="15" fill="#6a5a4a"/>
+  <rect x="710" y="135" width="40" height="10" fill="#5a4a3a"/>
+  
+  <!-- White tablecloth -->
+  <path d="M 50 280 L 350 280 L 350 300 L 330 320 L 70 320 L 50 300 Z" fill="#e8e8e8"/>
+  
+  <!-- Table surface -->
+  <ellipse cx="600" cy="480" rx="550" ry="80" fill="#2a3a4a"/>
+  
+  <!-- Coins on table -->
+  <g>
+    <ellipse cx="520" cy="470" rx="8" ry="6" fill="#d4a574"/>
+    <ellipse cx="535" cy="475" rx="7" ry="5" fill="#c49564"/>
+    <ellipse cx="550" cy="472" rx="8" ry="6" fill="#d4a574"/>
+    <ellipse cx="565" cy="478" rx="7" ry="5" fill="#c49564"/>
+    <ellipse cx="580" cy="475" rx="8" ry="6" fill="#d4a574"/>
+    <ellipse cx="595" cy="480" rx="7" ry="5" fill="#c49564"/>
+    <ellipse cx="610" cy="476" rx="8" ry="6" fill="#d4a574"/>
+    <ellipse cx="625" cy="482" rx="7" ry="5" fill="#c49564"/>
+  </g>
+  
+  <!-- Playing cards on table -->
+  <rect x="280" y="440" width="40" height="60" rx="3" fill="#f5f5f5" transform="rotate(-15 300 470)"/>
+  <rect x="920" y="460" width="45" height="65" rx="3" fill="#f5f5f5" transform="rotate(20 942 492)"/>
+  
+  <!-- Figure 1 (left, child) -->
+  <ellipse cx="150" cy="420" rx="35" ry="40" fill="#f5d5b5"/>
+  <rect x="130" y="450" width="40" height="80" fill="#8a5a3a"/>
+  <path d="M 130 450 L 170 450 L 180 480 L 120 480 Z" fill="#c8a888"/>
+  
+  <!-- Figure 2 (left center, woman in white) -->
+  <ellipse cx="250" cy="400" rx="40" ry="45" fill="#f5d5b5"/>
+  <path d="M 230 390 L 270 390 L 280 410 L 220 410 Z" fill="#d8c8b8"/>
+  <rect x="220" y="440" width="60" height="100" fill="#e8e8e8"/>
+  <path d="M 220 440 L 280 440 L 290 470 L 210 470 Z" fill="#c8b8a8"/>
+  
+  <!-- Figure 3 (back left, man with hat) -->
+  <ellipse cx="350" cy="340" rx="45" ry="50" fill="#d5b595"/>
+  <ellipse cx="350" cy="300" rx="50" ry="25" fill="#1a1a1a"/>
+  <rect x="310" y="385" width="80" height="120" fill="#4a5a3a"/>
+  <rect x="330" y="360" width="40" height="30" fill="#8a3a2a"/>
+  
+  <!-- Figure 4 (center, woman with white headdress) -->
+  <ellipse cx="480" cy="380" rx="42" ry="48" fill="#f5d5b5"/>
+  <path d="M 450 360 L 510 360 L 520 390 L 440 390 Z" fill="#e8e8e8"/>
+  <rect x="450" y="425" width="60" height="95" fill="#c8c8c8"/>
+  <path d="M 450 425 L 510 425 L 520 455 L 440 455 Z" fill="#a8a8a8"/>
+  
+  <!-- Figure 5 (center right, woman with white headdress) -->
+  <ellipse cx="620" cy="370" rx="40" ry="46" fill="#f5d5b5"/>
+  <path d="M 590 350 L 650 350 L 660 380 L 580 380 Z" fill="#e8e8e8"/>
+  <rect x="590" y="415" width="60" height="100" fill="#d8d8d8"/>
+  
+  <!-- Figure 6 (back center, dark figure) -->
+  <ellipse cx="740" cy="360" rx="38" ry="44" fill="#c5a585"/>
+  <rect x="710" y="400" width="60" height="100" fill="#2a2a2a"/>
+  
+  <!-- Figure 7 (right, man in brown/red) -->
+  <ellipse cx="850" cy="390" rx="42" ry="48" fill="#e5c5a5"/>
+  <ellipse cx="850" cy="360" rx="48" ry="22" fill="#8a3a2a"/>
+  <rect x="820" y="435" width="60" height="100" fill="#7a4a3a"/>
+  <path d="M 820 435 L 880 435 L 890 465 L 810 465 Z" fill="#a85a3a"/>
+  
+  <!-- Figure 8 (far right, man with long hair) -->
+  <ellipse cx="980" cy="400" rx="40" ry="46" fill="#e5c5a5"/>
+  <path d="M 960 390 L 970 420 L 960 440" stroke="#4a3a2a" stroke-width="8" fill="none"/>
+  <path d="M 1000 390 L 990 420 L 1000 440" stroke="#4a3a2a" stroke-width="8" fill="none"/>
+  <rect x="950" y="445" width="60" height="100" fill="#6a4a3a"/>
+  
+  <!-- Card details -->
+  <ellipse cx="295" cy="465" rx="4" ry="6" fill="#c83a3a" transform="rotate(-15 295 465)"/>
+  <ellipse cx="305" cy="475" rx="4" ry="6" fill="#c83a3a" transform="rotate(-15 305 475)"/>
+  
+  <rect x="935" y="480" width="15" height="20" fill="#fff" transform="rotate(20 942 490)"/>
+  
+  <!-- Wooden column (right side) -->
+  <rect x="1050" y="0" width="80" height="900" fill="#b89a6a"/>
+  <line x1="1070" y1="0" x2="1070" y2="900" stroke="#a88a5a" stroke-width="2"/>
+  <line x1="1090" y1="0" x2="1090" y2="900" stroke="#a88a5a" stroke-width="2"/>
+  <line x1="1110" y1="0" x2="1110" y2="900" stroke="#a88a5a" stroke-width="2"/>
+</svg>

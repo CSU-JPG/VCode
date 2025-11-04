@@ -1,0 +1,221 @@
+<svg viewBox="0 0 740 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gWall" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#fafafa"/>
+      <stop offset="60%" stop-color="#efefef"/>
+      <stop offset="100%" stop-color="#e6e6e6"/>
+    </radialGradient>
+    <linearGradient id="gTable" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b67a4b"/>
+      <stop offset="50%" stop-color="#a86434"/>
+      <stop offset="100%" stop-color="#8f5128"/>
+    </linearGradient>
+    <linearGradient id="gScreen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0c0c0f"/>
+      <stop offset="100%" stop-color="#222428"/>
+    </linearGradient>
+    <linearGradient id="gKey" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#1d1d1d"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.2"/>
+      <feOffset dx="0" dy="1" result="off"/>
+      <feMerge>
+        <feMergeNode in="off"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Room background -->
+  <rect x="0" y="0" width="740" height="360" fill="url(#gWall)"/>
+
+  <!-- Side walls vignette -->
+  <rect x="0" y="0" width="24" height="360" fill="#d9d9d9"/>
+  <rect x="716" y="0" width="24" height="360" fill="#d9d9d9"/>
+
+  <!-- Aisles (dark strips) -->
+  <rect x="348" y="100" width="44" height="250" fill="#5a4841" opacity="0.55"/>
+  <rect x="180" y="150" width="32" height="200" fill="#5a4841" opacity="0.45"/>
+  <rect x="540" y="150" width="32" height="200" fill="#5a4841" opacity="0.45"/>
+
+  <!-- Rows of chairs -->
+  <g id="row1" fill="#d8ecdd" stroke="#b9d0c3" stroke-width="2">
+    <ellipse cx="60"  cy="120" rx="26" ry="20"/>
+    <ellipse cx="120" cy="120" rx="26" ry="20"/>
+    <ellipse cx="180" cy="120" rx="26" ry="20"/>
+    <ellipse cx="240" cy="120" rx="26" ry="20"/>
+    <ellipse cx="300" cy="120" rx="26" ry="20"/>
+    <ellipse cx="360" cy="120" rx="26" ry="20"/>
+    <ellipse cx="420" cy="120" rx="26" ry="20"/>
+    <ellipse cx="480" cy="120" rx="26" ry="20"/>
+    <ellipse cx="540" cy="120" rx="26" ry="20"/>
+    <ellipse cx="600" cy="120" rx="26" ry="20"/>
+    <ellipse cx="660" cy="120" rx="26" ry="20"/>
+  </g>
+
+  <g fill="#d8ecdd" stroke="#b9d0c3" stroke-width="2">
+    <ellipse cx="60"  cy="145" rx="28" ry="21"/>
+    <ellipse cx="120" cy="145" rx="28" ry="21"/>
+    <ellipse cx="180" cy="145" rx="28" ry="21"/>
+    <ellipse cx="240" cy="145" rx="28" ry="21"/>
+    <ellipse cx="300" cy="145" rx="28" ry="21"/>
+    <ellipse cx="360" cy="145" rx="28" ry="21"/>
+    <ellipse cx="420" cy="145" rx="28" ry="21"/>
+    <ellipse cx="480" cy="145" rx="28" ry="21"/>
+    <ellipse cx="540" cy="145" rx="28" ry="21"/>
+    <ellipse cx="600" cy="145" rx="28" ry="21"/>
+    <ellipse cx="660" cy="145" rx="28" ry="21"/>
+
+    <ellipse cx="60"  cy="175" rx="30" ry="22"/>
+    <ellipse cx="120" cy="175" rx="30" ry="22"/>
+    <ellipse cx="180" cy="175" rx="30" ry="22"/>
+    <ellipse cx="240" cy="175" rx="30" ry="22"/>
+    <ellipse cx="300" cy="175" rx="30" ry="22"/>
+    <ellipse cx="360" cy="175" rx="30" ry="22"/>
+    <ellipse cx="420" cy="175" rx="30" ry="22"/>
+    <ellipse cx="480" cy="175" rx="30" ry="22"/>
+    <ellipse cx="540" cy="175" rx="30" ry="22"/>
+    <ellipse cx="600" cy="175" rx="30" ry="22"/>
+    <ellipse cx="660" cy="175" rx="30" ry="22"/>
+
+    <ellipse cx="60"  cy="205" rx="32" ry="23"/>
+    <ellipse cx="120" cy="205" rx="32" ry="23"/>
+    <ellipse cx="180" cy="205" rx="32" ry="23"/>
+    <ellipse cx="240" cy="205" rx="32" ry="23"/>
+    <ellipse cx="300" cy="205" rx="32" ry="23"/>
+    <ellipse cx="360" cy="205" rx="32" ry="23"/>
+    <ellipse cx="420" cy="205" rx="32" ry="23"/>
+    <ellipse cx="480" cy="205" rx="32" ry="23"/>
+    <ellipse cx="540" cy="205" rx="32" ry="23"/>
+    <ellipse cx="600" cy="205" rx="32" ry="23"/>
+    <ellipse cx="660" cy="205" rx="32" ry="23"/>
+
+    <ellipse cx="60"  cy="238" rx="34" ry="24"/>
+    <ellipse cx="120" cy="238" rx="34" ry="24"/>
+    <ellipse cx="180" cy="238" rx="34" ry="24"/>
+    <ellipse cx="240" cy="238" rx="34" ry="24"/>
+    <ellipse cx="300" cy="238" rx="34" ry="24"/>
+    <ellipse cx="360" cy="238" rx="34" ry="24"/>
+    <ellipse cx="420" cy="238" rx="34" ry="24"/>
+    <ellipse cx="480" cy="238" rx="34" ry="24"/>
+    <ellipse cx="540" cy="238" rx="34" ry="24"/>
+    <ellipse cx="600" cy="238" rx="34" ry="24"/>
+    <ellipse cx="660" cy="238" rx="34" ry="24"/>
+
+    <ellipse cx="60"  cy="272" rx="36" ry="26"/>
+    <ellipse cx="120" cy="272" rx="36" ry="26"/>
+    <ellipse cx="180" cy="272" rx="36" ry="26"/>
+    <ellipse cx="240" cy="272" rx="36" ry="26"/>
+    <ellipse cx="300" cy="272" rx="36" ry="26"/>
+    <ellipse cx="360" cy="272" rx="36" ry="26"/>
+    <ellipse cx="420" cy="272" rx="36" ry="26"/>
+    <ellipse cx="480" cy="272" rx="36" ry="26"/>
+    <ellipse cx="540" cy="272" rx="36" ry="26"/>
+    <ellipse cx="600" cy="272" rx="36" ry="26"/>
+    <ellipse cx="660" cy="272" rx="36" ry="26"/>
+
+    <ellipse cx="60"  cy="306" rx="38" ry="28"/>
+    <ellipse cx="120" cy="306" rx="38" ry="28"/>
+    <ellipse cx="180" cy="306" rx="38" ry="28"/>
+    <ellipse cx="240" cy="306" rx="38" ry="28"/>
+    <ellipse cx="300" cy="306" rx="38" ry="28"/>
+    <ellipse cx="360" cy="306" rx="38" ry="28"/>
+    <ellipse cx="420" cy="306" rx="38" ry="28"/>
+    <ellipse cx="480" cy="306" rx="38" ry="28"/>
+    <ellipse cx="540" cy="306" rx="38" ry="28"/>
+    <ellipse cx="600" cy="306" rx="38" ry="28"/>
+    <ellipse cx="660" cy="306" rx="38" ry="28"/>
+
+    <ellipse cx="60"  cy="338" rx="40" ry="29"/>
+    <ellipse cx="120" cy="338" rx="40" ry="29"/>
+    <ellipse cx="180" cy="338" rx="40" ry="29"/>
+    <ellipse cx="240" cy="338" rx="40" ry="29"/>
+    <ellipse cx="300" cy="338" rx="40" ry="29"/>
+    <ellipse cx="360" cy="338" rx="40" ry="29"/>
+    <ellipse cx="420" cy="338" rx="40" ry="29"/>
+    <ellipse cx="480" cy="338" rx="40" ry="29"/>
+    <ellipse cx="540" cy="338" rx="40" ry="29"/>
+    <ellipse cx="600" cy="338" rx="40" ry="29"/>
+    <ellipse cx="660" cy="338" rx="40" ry="29"/>
+  </g>
+
+  <!-- Table -->
+  <rect x="0" y="360" width="740" height="180" fill="url(#gTable)"/>
+  <rect x="0" y="360" width="740" height="8" fill="#d49769" opacity="0.75"/>
+
+  <!-- Monitor and keyboard on table -->
+  <g filter="url(#soft)">
+    <!-- Monitor body -->
+    <rect x="135" y="372" width="230" height="150" rx="6" ry="6" fill="#2d2d2d" stroke="#151515" stroke-width="2"/>
+    <rect x="145" y="382" width="210" height="110" rx="4" ry="4" fill="url(#gScreen)"/>
+    <rect x="145" y="499" width="210" height="10" fill="#1c1c1c"/>
+    <!-- Keyboard -->
+    <rect x="90" y="482" width="270" height="44" rx="6" ry="6" fill="url(#gKey)" stroke="#0f0f0f" stroke-width="2"/>
+    <!-- simple keys -->
+    <g fill="#444" opacity="0.9">
+      <rect x="100" y="490" width="16" height="10" rx="2"/>
+      <rect x="120" y="490" width="16" height="10" rx="2"/>
+      <rect x="140" y="490" width="16" height="10" rx="2"/>
+      <rect x="160" y="490" width="16" height="10" rx="2"/>
+      <rect x="180" y="490" width="16" height="10" rx="2"/>
+      <rect x="200" y="490" width="16" height="10" rx="2"/>
+      <rect x="220" y="490" width="16" height="10" rx="2"/>
+      <rect x="240" y="490" width="16" height="10" rx="2"/>
+      <rect x="260" y="490" width="16" height="10" rx="2"/>
+      <rect x="280" y="490" width="16" height="10" rx="2"/>
+
+      <rect x="100" y="505" width="24" height="10" rx="2"/>
+      <rect x="128" y="505" width="24" height="10" rx="2"/>
+      <rect x="156" y="505" width="24" height="10" rx="2"/>
+      <rect x="184" y="505" width="24" height="10" rx="2"/>
+      <rect x="212" y="505" width="24" height="10" rx="2"/>
+      <rect x="240" y="505" width="24" height="10" rx="2"/>
+      <rect x="268" y="505" width="24" height="10" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Cables -->
+  <path d="M330 470 C350 462 360 450 380 452" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+  <path d="M90 470 C60 465 50 455 28 448" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+
+  <!-- Paper on right side -->
+  <rect x="470" y="390" width="150" height="96" rx="4" ry="4" fill="#f7f7f7" stroke="#e0e0e0"/>
+  <g stroke="#cfcfcf">
+    <line x1="480" y1="410" x2="610" y2="410"/>
+    <line x1="480" y1="424" x2="610" y2="424"/>
+    <line x1="480" y1="438" x2="610" y2="438"/>
+    <line x1="480" y1="452" x2="610" y2="452"/>
+  </g>
+
+  <!-- Mouse -->
+  <ellipse cx="352" cy="432" rx="22" ry="14" fill="#191919" stroke="#0c0c0c"/>
+  <path d="M348 430 v-8" stroke="#2c2c2c" stroke-width="2"/>
+  <path d="M330 434 C316 430 310 424 300 414" stroke="#141414" stroke-width="2" fill="none"/>
+
+  <!-- Outlet panel at table front -->
+  <rect x="290" y="506" width="180" height="40" rx="4" ry="4" fill="#f2f2f2" stroke="#c9c9c9"/>
+  <rect x="302" y="516" width="28" height="18" rx="2" fill="#ffffff" stroke="#bfbfbf"/>
+  <circle cx="317" cy="525" r="3" fill="#666"/>
+  <circle cx="310" cy="525" r="3" fill="#666"/>
+  <rect x="340" y="516" width="28" height="18" rx="2" fill="#ffffff" stroke="#bfbfbf"/>
+  <circle cx="355" cy="525" r="3" fill="#666"/>
+  <circle cx="348" cy="525" r="3" fill="#666"/>
+  <rect x="378" y="516" width="28" height="18" rx="2" fill="#ffffff" stroke="#bfbfbf"/>
+  <circle cx="393" cy="525" r="3" fill="#666"/>
+  <circle cx="386" cy="525" r="3" fill="#666"/>
+  <rect x="416" y="516" width="44" height="18" rx="2" fill="#e6f4ff" stroke="#bfbfbf"/>
+  <rect x="463" y="516" width="6" height="18" fill="#cfcfcf"/>
+
+  <!-- Highlight rectangles -->
+  <rect x="98" y="364" width="300" height="170" fill="none" stroke="#2f46d1" stroke-width="6"/>
+  <rect x="320" y="408" width="60" height="50" fill="none" stroke="#e31b1b" stroke-width="6"/>
+  <rect x="490" y="210" width="170" height="185" fill="none" stroke="#30c651" stroke-width="8"/>
+
+  <!-- Front two large chairs to enhance perspective -->
+  <g fill="#d8ecdd" stroke="#b9d0c3" stroke-width="3">
+    <ellipse cx="240" cy="360" rx="46" ry="32"/>
+    <ellipse cx="540" cy="360" rx="46" ry="32"/>
+  </g>
+</svg>

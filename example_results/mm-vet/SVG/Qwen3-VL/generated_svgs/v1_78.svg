@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#f5f5f5"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="800" fill="url(#skyGradient)"/>
+  
+  <!-- Cityscape background -->
+  <g fill="#e0e0e0" stroke="#cccccc" stroke-width="0.5">
+    <!-- Simplified buildings in the distance -->
+    <rect x="600" y="690" width="15" height="40" rx="2"/>
+    <rect x="620" y="680" width="20" height="50" rx="2"/>
+    <rect x="650" y="670" width="25" height="60" rx="2"/>
+    <rect x="680" y="660" width="30" height="70" rx="2"/>
+    <rect x="720" y="650" width="35" height="80" rx="2"/>
+    <rect x="760" y="640" width="40" height="90" rx="2"/>
+    <rect x="800" y="630" width="45" height="100" rx="2"/>
+    <rect x="850" y="620" width="50" height="110" rx="2"/>
+    <rect x="900" y="610" width="55" height="120" rx="2"/>
+    <rect x="960" y="600" width="60" height="130" rx="2"/>
+    
+    <!-- Midground buildings -->
+    <rect x="700" y="700" width="80" height="60" rx="3"/>
+    <rect x="790" y="700" width="100" height="70" rx="3"/>
+    <rect x="900" y="710" width="90" height="60" rx="3"/>
+    <rect x="800" y="720" width="70" height="50" rx="3"/>
+    <rect x="880" y="730" width="60" height="40" rx="3"/>
+    <rect x="950" y="740" width="50" height="30" rx="3"/>
+  </g>
+  
+  <!-- Trees and foliage -->
+  <g fill="#8b7d5c">
+    <!-- Left side trees -->
+    <path d="M0 500 Q50 550 100 520 Q150 500 200 550 Q250 600 300 550 Q350 500 400 550 Q450 600 500 550 Q550 500 600 550 Q650 600 700 550 Q750 500 800 550 Q850 600 900 550 Q950 500 1000 550"/>
+    <path d="M0 550 Q50 600 100 570 Q150 550 200 600 Q250 650 300 600 Q350 550 400 600 Q450 650 500 600 Q550 550 600 600 Q650 650 700 600 Q750 550 800 600 Q850 650 900 600 Q950 550 1000 600"/>
+    <path d="M0 600 Q50 650 100 620 Q150 600 200 650 Q250 700 300 650 Q350 600 400 650 Q450 700 500 650 Q550 600 600 650 Q650 700 700 650 Q750 600 800 650 Q850 700 900 650 Q950 600 1000 650"/>
+  </g>
+  
+  <!-- Green tree in foreground -->
+  <circle cx="300" cy="800" r="150" fill="#2e8b57"/>
+  <circle cx="280" cy="780" r="140" fill="#3cb371"/>
+  <circle cx="320" cy="790" r="130" fill="#228b22"/>
+  <circle cx="290" cy="810" r="120" fill="#32cd32"/>
+  
+  <!-- Baren trees on right -->
+  <g fill="#8b7d5c">
+    <path d="M650 680 Q670 700 690 680 Q710 660 730 680 Q750 700 770 680 Q790 660 810 680 Q830 700 850 680 Q870 660 890 680 Q910 700 930 680 Q950 660 970 680"/>
+    <path d="M650 700 Q670 720 690 700 Q710 680 730 700 Q750 720 770 700 Q790 680 810 700 Q830 720 850 700 Q870 680 890 700 Q910 720 930 700 Q950 680 970 700"/>
+    <path d="M650 720 Q670 740 690 720 Q710 700 730 720 Q750 740 770 720 Q790 700 810 720 Q830 740 850 720 Q870 700 890 720 Q910 740 930 720 Q950 700 970 720"/>
+  </g>
+  
+  <!-- Baochu Pagoda -->
+  <g fill="#a0a0a0" stroke="#808080" stroke-width="0.5">
+    <!-- Base of pagoda -->
+    <rect x="230" y="500" width="80" height="20" rx="2"/>
+    
+    <!-- Main body - tiered structure -->
+    <rect x="235" y="480" width="70" height="20" rx="2"/>
+    <rect x="240" y="460" width="60" height="20" rx="2"/>
+    <rect x="245" y="440" width="50" height="20" rx="2"/>
+    <rect x="250" y="420" width="40" height="20" rx="2"/>
+    <rect x="255" y="400" width="30" height="20" rx="2"/>
+    <rect x="260" y="380" width="20" height="20" rx="2"/>
+    <rect x="265" y="360" width="10" height="20" rx="2"/>
+    
+    <!-- Windows on each level -->
+    <rect x="238" y="485" width="5" height="10" fill="#606060"/>
+    <rect x="258" y="485" width="5" height="10" fill="#606060"/>
+    <rect x="243" y="465" width="5" height="10" fill="#606060"/>
+    <rect x="253" y="465" width="5" height="10" fill="#606060"/>
+    <rect x="248" y="445" width="5" height="10" fill="#606060"/>
+    <rect x="258" y="445" width="5" height="10" fill="#606060"/>
+    <rect x="253" y="425" width="5" height="10" fill="#606060"/>
+    <rect x="263" y="425" width="5" height="10" fill="#606060"/>
+    <rect x="258" y="405" width="5" height="10" fill="#606060"/>
+    <rect x="268" y="405" width="5" height="10" fill="#606060"/>
+    <rect x="263" y="385" width="5" height="10" fill="#606060"/>
+    <rect x="273" y="385" width="5" height="10" fill="#606060"/>
+    
+    <!-- Spire at top -->
+    <polygon points="270,360 275,340 280,360" fill="#909090"/>
+    <rect x="272" y="340" width="6" height="20" fill="#909090"/>
+    <rect x="273" y="320" width="4" height="20" fill="#909090"/>
+    <rect x="274" y="300" width="2" height="20" fill="#909090"/>
+    
+    <!-- Finial at very top -->
+    <circle cx="275" cy="295" r="3" fill="#ffcc00"/>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#fff"/>
+  
+  <!-- Walls -->
+  <rect x="0" y="0" width="430" height="750" fill="#f8f8f8"/>
+  <rect x="430" y="0" width="570" height="750" fill="#f8f8f8"/>
+  
+  <!-- Floor -->
+  <rect y="750" width="1000" height="50" fill="#d0c0b0"/>
+  
+  <!-- Window frames -->
+  <rect x="80" y="110" width="260" height="280" fill="#fff" stroke="#999" stroke-width="2"/>
+  <rect x="790" y="30" width="200" height="250" fill="#fff" stroke="#999" stroke-width="2"/>
+  
+  <!-- Window panes -->
+  <line x1="130" y1="110" x2="130" y2="390" stroke="#999" stroke-width="2"/>
+  <line x1="220" y1="110" x2="220" y2="390" stroke="#999" stroke-width="2"/>
+  <line x1="80" y1="250" x2="340" y2="250" stroke="#999" stroke-width="2"/>
+  
+  <line x1="850" y1="30" x2="850" y2="280" stroke="#999" stroke-width="2"/>
+  <line x1="950" y1="30" x2="950" y2="280" stroke="#999" stroke-width="2"/>
+  <line x1="790" y1="155" x2="990" y2="155" stroke="#999" stroke-width="2"/>
+  
+  <!-- Curtains -->
+  <rect x="10" y="35" width="140" height="720" fill="url(#curtainPattern)"/>
+  <rect x="325" y="85" width="100" height="680" fill="url(#curtainPattern)"/>
+  <rect x="645" y="25" width="100" height="535" fill="url(#curtainPattern)"/>
+  
+  <!-- Curtain rods -->
+  <rect x="0" y="15" width="400" height="15" fill="#a07040" rx="5"/>
+  <rect x="610" y="5" width="390" height="15" fill="#a07040" rx="5"/>
+  
+  <!-- Bed -->
+  <rect y="670" width="800" height="130" fill="#0066cc"/>
+  <rect y="670" width="800" height="130" fill="#008080" opacity="0.3"/>
+  <rect y="670" width="800" height="130" fill="#0066cc" opacity="0.2"/>
+  
+  <!-- Wooden paneling -->
+  <rect x="120" y="520" width="330" height="100" fill="#c08040"/>
+  <rect x="650" y="700" width="350" height="50" fill="#c08040"/>
+  
+  <!-- Dressing table -->
+  <rect x="420" y="500" width="650" height="730" fill="#a06040"/>
+  <rect x="420" y="500" width="650" height="730" fill="#804020" opacity="0.2"/>
+  
+  <!-- Mirror -->
+  <rect x="480" y="310" width="580" height="500" fill="#a06040"/>
+  <rect x="480" y="310" width="580" height="500" fill="#804020" opacity="0.2"/>
+  
+  <!-- Lamp -->
+  <rect x="550" y="400" width="600" height="520" fill="#fff"/>
+  <rect x="550" y="400" width="600" height="520" fill="#804020" opacity="0.2"/>
+  
+  <!-- Bottle -->
+  <rect x="445" y="430" width="460" height="510" fill="#60a040"/>
+  <rect x="445" y="430" width="460" height="510" fill="#804020" opacity="0.2"/>
+  
+  <!-- Chair -->
+  <rect x="345" y="530" width="510" height="700" fill="#a06040"/>
+  <rect x="345" y="530" width="510" height="700" fill="#804020" opacity="0.2"/>
+  
+  <!-- Blanket on chair -->
+  <rect x="345" y="530" width="450" height="650" fill="#404080"/>
+  <rect x="345" y="530" width="450" height="650" fill="#804020" opacity="0.2"/>
+  
+  <!-- Statue on windowsill -->
+  <rect x="850" y="350" width="910" height="470" fill="#c0a080"/>
+  <rect x="850" y="350" width="910" height="470" fill="#804020" opacity="0.2"/>
+  
+  <!-- Windowsill -->
+  <rect x="730" y="470" width="990" height="500" fill="#c08040"/>
+  <rect x="730" y="470" width="990" height="500" fill="#804020" opacity="0.2"/>
+  
+  <!-- Electrical outlet -->
+  <rect x="700" y="650" width="720" height="670" fill="#e0e0e0"/>
+  <rect x="700" y="650" width="720" height="670" fill="#804020" opacity="0.2"/>
+  
+  <!-- Pattern definition for curtains -->
+  <defs>
+    <pattern id="curtainPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <path d="M0,0 L40,40 M40,0 L0,40" stroke="#408040" stroke-width="1"/>
+      <circle cx="20" cy="20" r="5" fill="#408040"/>
+    </pattern>
+  </defs>
+</svg>

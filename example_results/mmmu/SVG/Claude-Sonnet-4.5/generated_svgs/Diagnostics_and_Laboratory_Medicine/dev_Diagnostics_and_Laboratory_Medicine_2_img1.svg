@@ -1,0 +1,22 @@
+<svg viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Upper tissue sample -->
+  <ellipse cx="140" cy="45" rx="55" ry="35" fill="#e8c5e8" opacity="0.7"/>
+  <ellipse cx="150" cy="40" rx="45" ry="30" fill="#d9b3d9" opacity="0.8"/>
+  <ellipse cx="130" cy="50" rx="40" ry="25" fill="#c99ec9" opacity="0.6"/>
+  <path d="M 100 35 Q 120 20 150 30 Q 180 35 190 50 Q 185 65 160 70 Q 130 72 110 60 Q 95 50 100 35 Z" fill="#ddb3dd" opacity="0.75"/>
+  <ellipse cx="145" cy="45" rx="15" ry="12" fill="#f0d5f0" opacity="0.9"/>
+  <ellipse cx="155" cy="52" rx="18" ry="10" fill="#e0c0e0" opacity="0.7"/>
+  <circle cx="125" cy="42" r="8" fill="#f5e0f5" opacity="0.8"/>
+  <ellipse cx="170" cy="48" rx="12" ry="8" fill="#d4aed4" opacity="0.6"/>
+  
+  <!-- Lower tissue sample -->
+  <ellipse cx="65" cy="120" rx="50" ry="45" fill="#e8c5e8" opacity="0.7"/>
+  <ellipse cx="75" cy="115" rx="42" ry="38" fill="#d9b3d9" opacity="0.8"/>
+  <ellipse cx="55" cy="125" rx="38" ry="35" fill="#c99ec9" opacity="0.6"/>
+  <path d="M 30 100 Q 50 85 80 95 Q 105 105 110 125 Q 105 145 80 150 Q 50 152 35 135 Q 25 120 30 100 Z" fill="#ddb3dd" opacity="0.75"/>
+  <ellipse cx="70" cy="120" rx="20" ry="18" fill="#f0d5f0" opacity="0.9"/>
+  <ellipse cx="80" cy="128" rx="22" ry="15" fill="#e0c0e0" opacity="0.7"/>
+  <circle cx="55" cy="112" r="10" fill="#f5e0f5" opacity="0.8"/>
+  <ellipse cx="90" cy="118" rx="15" ry="12" fill="#d4aed4" opacity="0.6"/>
+  <ellipse cx="62" cy="135" rx="18" ry="14" fill="#e5c0e5" opacity="0.65"/>
+</svg>

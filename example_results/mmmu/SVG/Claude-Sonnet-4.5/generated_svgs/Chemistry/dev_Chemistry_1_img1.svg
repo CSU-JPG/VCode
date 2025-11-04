@@ -1,0 +1,53 @@
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <line x1="60" y1="20" x2="60" y2="560" stroke="black" stroke-width="2"/>
+  <line x1="60" y1="560" x2="680" y2="560" stroke="black" stroke-width="2"/>
+  
+  <!-- Y-axis label -->
+  <text x="25" y="300" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" transform="rotate(-90 25 300)">Pressure</text>
+  
+  <!-- X-axis label -->
+  <text x="370" y="595" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Temperature</text>
+  
+  <!-- Curve path -->
+  <path d="M 100 120 Q 220 280 360 340 Q 420 320 500 240 Q 560 180 620 140" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Lower curve -->
+  <path d="M 60 520 Q 200 440 360 340" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Point 1 -->
+  <circle cx="100" cy="120" r="5" fill="black"/>
+  <text x="100" y="105" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">1</text>
+  
+  <!-- Point 2 -->
+  <circle cx="160" cy="360" r="5" fill="black"/>
+  <text x="145" y="360" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">2</text>
+  
+  <!-- Point 3 -->
+  <circle cx="240" cy="280" r="5" fill="black"/>
+  <text x="255" y="285" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">3</text>
+  
+  <!-- Point 4 -->
+  <circle cx="380" cy="205" r="5" fill="black"/>
+  <text x="365" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">4</text>
+  
+  <!-- Point 5 -->
+  <circle cx="645" cy="140" r="5" fill="black"/>
+  <text x="645" y="125" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">5</text>
+  
+  <!-- Point 6 -->
+  <circle cx="560" cy="240" r="5" fill="black"/>
+  <text x="575" y="245" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">6</text>
+  
+  <!-- Point 7 -->
+  <circle cx="390" cy="340" r="5" fill="black"/>
+  <text x="390" y="365" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">7</text>
+  
+  <!-- Point 8 -->
+  <circle cx="220" cy="450" r="5" fill="black"/>
+  <text x="220" y="475" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">8</text>
+  
+  <!-- Point 9 -->
+  <circle cx="470" cy="490" r="5" fill="black"/>
+  <text x="455" y="495" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">9</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 380" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <line x1="110" y1="40" x2="110" y2="340" stroke="black" stroke-width="2"/>
+  <line x1="110" y1="340" x2="390" y2="340" stroke="black" stroke-width="2"/>
+  
+  <!-- Y-axis label -->
+  <text x="30" y="200" font-family="serif" font-size="20" fill="black">pH</text>
+  
+  <!-- X-axis label -->
+  <text x="210" y="370" font-family="serif" font-size="20" fill="black">Base Added</text>
+  
+  <!-- Titration curve -->
+  <path d="M 110,310 L 140,308 L 170,306 L 200,304 L 220,300 L 240,280 L 260,200 L 280,140 L 300,70 L 320,50 L 390,45" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Point A -->
+  <circle cx="110" cy="310" r="5" fill="black"/>
+  <text x="125" y="320" font-family="serif" font-size="18" fill="black">(A)</text>
+  
+  <!-- Point B -->
+  <circle cx="200" cy="304" r="5" fill="black"/>
+  <text x="165" y="295" font-family="serif" font-size="18" fill="black">(B)</text>
+  
+  <!-- Point C -->
+  <circle cx="240" cy="280" r="5" fill="black"/>
+  <text x="255" y="275" font-family="serif" font-size="18" fill="black">(C)</text>
+  
+  <!-- Point D -->
+  <circle cx="280" cy="140" r="5" fill="black"/>
+  <text x="295" y="150" font-family="serif" font-size="18" fill="black">(D)</text>
+  
+  <!-- Point E -->
+  <circle cx="320" cy="50" r="5" fill="black"/>
+  <text x="335" y="60" font-family="serif" font-size="18" fill="black">(E)</text>
+</svg>

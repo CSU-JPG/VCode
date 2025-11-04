@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="red"/>
+    </marker>
+    <marker id="arrowBlack" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="black"/>
+    </marker>
+  </defs>
+  <polygon points="100,170 300,185 500,185 500,215 300,215 100,230" fill="lightblue" stroke="black"/>
+  <path d="M100,200 L500,200" stroke="black" stroke-dasharray="5,5"/>
+  <line x1="100" y1="170" x2="100" y2="230" stroke="black"/>
+  <path d="M300,200 L250,200" stroke="red" marker-end="url(#arrowRed)" />
+  <text x="275" y="190" fill="red">P</text>
+  <path d="M500,200 L550,200" stroke="red" marker-end="url(#arrowRed)" />
+  <text x="525" y="190" fill="red">2P</text>
+  <path d="M300,200 L350,200" stroke="black" marker-end="url(#arrowBlack)" />
+  <text x="325" y="190" fill="black">δ_B</text>
+  <path d="M500,200 L550,200" stroke="black" marker-end="url(#arrowBlack)" />
+  <text x="525" y="190" fill="black">δ_C</text>
+  <rect x="600" y="150" width="30" height="10" fill="lightblue" stroke="black"/>
+  <text x="635" y="160" fill="black">b(x)</text>
+  <text x="600" y="140" fill="black">t</text>
+  <text x="100" y="165" fill="black">b2</text>
+  <text x="400" y="180" fill="black">b1</text>
+  <text x="200" y="220" fill="black">L/2</text>
+  <text x="400" y="220" fill="black">L/2</text>
+  <path d="M100,230 L120,230" stroke="black" marker-end="url(#arrowBlack)" />
+  <text x="125" y="235" fill="black">x</text>
+</svg>

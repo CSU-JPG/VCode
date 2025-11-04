@@ -1,0 +1,70 @@
+<svg viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: Georgia, serif; font-size: 14px; }
+    .amount { text-anchor: end; }
+    .underline { fill: none; stroke: black; stroke-width: 1; }
+    .double-underline { fill: none; stroke: black; stroke-width: 1; }
+  </style>
+  
+  <!-- Left side -->
+  <text x="20" y="25">Cash</text>
+  <text x="140" y="25" class="amount">$</text>
+  <text x="195" y="25" class="amount">3.5</text>
+  
+  <text x="20" y="50">Receivables</text>
+  <text x="195" y="50" class="amount">26.0</text>
+  
+  <text x="20" y="75">Inventories</text>
+  <text x="195" y="75" class="amount">58.0</text>
+  
+  <line x1="120" y1="82" x2="195" y2="82" class="underline"/>
+  
+  <text x="30" y="105">Total current assets</text>
+  <text x="140" y="105" class="amount">$</text>
+  <text x="195" y="105" class="amount">87.5</text>
+  
+  <text x="20" y="130">Net fixed assets</text>
+  <text x="195" y="130" class="amount">35.0</text>
+  
+  <text x="20" y="175">Total assets</text>
+  <text x="140" y="175" class="amount">$</text>
+  <text x="195" y="175" class="amount">122.5</text>
+  
+  <line x1="120" y1="180" x2="195" y2="180" class="double-underline"/>
+  <line x1="120" y1="184" x2="195" y2="184" class="double-underline"/>
+  
+  <!-- Right side -->
+  <text x="300" y="25">Accounts payable</text>
+  <text x="520" y="25" class="amount">$</text>
+  <text x="575" y="25" class="amount">9.0</text>
+  
+  <text x="300" y="50">Notes payable</text>
+  <text x="575" y="50" class="amount">18.0</text>
+  
+  <text x="300" y="75">Accruals</text>
+  <text x="575" y="75" class="amount">8.5</text>
+  
+  <line x1="500" y1="82" x2="575" y2="82" class="underline"/>
+  
+  <text x="310" y="105">Total current liabilities</text>
+  <text x="520" y="105" class="amount">$</text>
+  <text x="575" y="105" class="amount">35.5</text>
+  
+  <text x="300" y="130">Mortgage loan</text>
+  <text x="575" y="130" class="amount">6.0</text>
+  
+  <text x="300" y="155">Common stock</text>
+  <text x="575" y="155" class="amount">15.0</text>
+  
+  <text x="300" y="180">Retained earnings</text>
+  <text x="575" y="180" class="amount">66.0</text>
+  
+  <line x1="500" y1="187" x2="575" y2="187" class="underline"/>
+  
+  <text x="310" y="210">Total liabilities and equity</text>
+  <text x="520" y="210" class="amount">$</text>
+  <text x="575" y="210" class="amount">122.5</text>
+  
+  <line x1="500" y1="215" x2="575" y2="215" class="double-underline"/>
+  <line x1="500" y1="219" x2="575" y2="219" class="double-underline"/>
+</svg>

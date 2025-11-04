@@ -1,0 +1,143 @@
+<svg viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a46e3a"/>
+      <stop offset="1" stop-color="#744a26"/>
+    </linearGradient>
+    <radialGradient id="plateGrad" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#f9f7f2"/>
+      <stop offset="1" stop-color="#e5e0d7"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#cfcac1" stop-opacity="0.8"/>
+    </linearGradient>
+    <radialGradient id="bananaGrad" cx="40%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#ffe67a"/>
+      <stop offset="1" stop-color="#e0b93c"/>
+    </radialGradient>
+    <radialGradient id="orangeGrad" cx="35%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#ffd36b"/>
+      <stop offset="1" stop-color="#f09a1a"/>
+    </radialGradient>
+    <radialGradient id="appleGrad" cx="35%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#d64a4a"/>
+      <stop offset="1" stop-color="#7e0d12"/>
+    </radialGradient>
+    <radialGradient id="waxGrad" cx="40%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#ff5a55"/>
+      <stop offset="1" stop-color="#a22024"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="2" dy="3" result="off"/>
+      <feGaussianBlur in="off" stdDeviation="4" result="blur"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .35 0" in="blur" result="shadow"/>
+      <feBlend in="SourceGraphic" in2="shadow" mode="normal"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .25 0" in="b"/>
+    </filter>
+  </defs>
+
+  <!-- background table -->
+  <rect x="0" y="0" width="520" height="360" fill="url(#wood)"/>
+
+  <!-- plate -->
+  <g transform="translate(35,34)">
+    <rect x="0" y="0" width="450" height="290" rx="28" fill="url(#plateGrad)"/>
+    <!-- subtle rim highlight -->
+    <rect x="6" y="6" width="438" height="278" rx="24" fill="none" stroke="url(#rim)" stroke-width="6" opacity="0.5"/>
+    <!-- soft shadow of plate -->
+    <rect x="0" y="0" width="450" height="290" rx="28" fill="none" filter="url(#softShadow)"/>
+  </g>
+
+  <!-- fruits -->
+  <g filter="url(#shadow)">
+    <!-- bananas cluster -->
+    <g transform="translate(85,72)">
+      <path d="M0,25 C32,10 63,9 88,20 C95,23 97,33 86,34 C62,36 29,45 3,37 C-5,35 -6,29 0,25 Z" fill="url(#bananaGrad)"/>
+      <path d="M11,5 C41,-5 69,-7 90,7 C98,12 98,22 88,22 C65,23 37,30 13,23 C3,20 2,9 11,5 Z" fill="url(#bananaGrad)"/>
+      <path d="M20,38 C48,27 74,27 96,38 C103,41 104,51 93,52 C69,54 44,61 22,54 C13,51 11,43 20,38 Z" fill="url(#bananaGrad)"/>
+      <!-- banana stem -->
+      <path d="M95,16 c12,0 18,10 12,17 c-6,7 -16,3 -22,-2 c-4,-3 -6,-9 -3,-12 c4,-3 8,-3 13,-3 z" fill="#5a8b2a"/>
+      <!-- spots -->
+      <g fill="#6b4b23" opacity="0.6">
+        <circle cx="33" cy="13" r="2"/>
+        <circle cx="48" cy="46" r="2.2"/>
+        <circle cx="70" cy="12" r="1.8"/>
+        <circle cx="55" cy="28" r="1.6"/>
+        <circle cx="22" cy="30" r="1.8"/>
+      </g>
+    </g>
+
+    <!-- oranges -->
+    <g>
+      <circle cx="285" cy="112" r="36" fill="url(#orangeGrad)"/>
+      <circle cx="340" cy="145" r="38" fill="url(#orangeGrad)"/>
+      <circle cx="318" cy="206" r="40" fill="url(#orangeGrad)"/>
+      <!-- pores -->
+      <g fill="#b87311" opacity="0.25">
+        <circle cx="270" cy="110" r="2"/>
+        <circle cx="297" cy="124" r="1.6"/>
+        <circle cx="332" cy="134" r="1.8"/>
+        <circle cx="353" cy="160" r="2"/>
+        <circle cx="305" cy="200" r="1.8"/>
+        <circle cx="332" cy="210" r="1.6"/>
+        <circle cx="308" cy="222" r="1.4"/>
+      </g>
+      <!-- stems -->
+      <g fill="#2f6b22">
+        <rect x="278" y="96" width="3" height="10" rx="1"/>
+        <rect x="338" y="128" width="3" height="10" rx="1"/>
+        <rect x="316" y="188" width="3" height="10" rx="1"/>
+      </g>
+      <!-- highlights -->
+      <g fill="white" opacity="0.25">
+        <ellipse cx="272" cy="100" rx="12" ry="8"/>
+        <ellipse cx="327" cy="132" rx="12" ry="8"/>
+        <ellipse cx="306" cy="192" rx="13" ry="9"/>
+      </g>
+    </g>
+
+    <!-- apples -->
+    <g>
+      <circle cx="412" cy="82" r="46" fill="url(#appleGrad)"/>
+      <circle cx="468" cy="108" r="50" fill="url(#appleGrad)"/>
+      <!-- stems -->
+      <path d="M407,36 c-4,-10 12,-15 17,-6 c2,4 -7,9 -17,6 z" fill="#5a331c"/>
+      <path d="M464,62 c-5,-11 12,-19 18,-9 c2,4 -8,12 -18,9 z" fill="#5a331c"/>
+      <!-- highlights -->
+      <ellipse cx="395" cy="76" rx="14" ry="10" fill="white" opacity="0.25"/>
+      <ellipse cx="452" cy="102" rx="16" ry="12" fill="white" opacity="0.23"/>
+    </g>
+
+    <!-- wax apples / bell peppers -->
+    <g>
+      <path d="M140,240
+               C118,218 118,186 147,170
+               C174,155 212,165 218,188
+               C224,211 214,243 190,255
+               C173,263 153,256 140,240 Z"
+            fill="url(#waxGrad)"/>
+      <path d="M205,260
+               C185,240 186,210 214,196
+               C248,178 280,205 275,232
+               C270,258 248,280 224,280
+               C216,280 210,276 205,260 Z"
+            fill="url(#waxGrad)"/>
+      <!-- indentations -->
+      <path d="M172,236 c10,-8 24,-9 34,0 c-10,6 -24,7 -34,0 z" fill="#6e1c1f" opacity="0.8"/>
+      <path d="M229,262 c8,-7 20,-8 28,0 c-9,5 -20 6 -28 0 z" fill="#6e1c1f" opacity="0.8"/>
+      <!-- subtle highlights -->
+      <ellipse cx="170" cy="198" rx="16" ry="10" fill="white" opacity="0.22"/>
+      <ellipse cx="240" cy="214" rx="14" ry="9" fill="white" opacity="0.2"/>
+      <!-- small stems -->
+      <circle cx="150" cy="174" r="6" fill="#2f6b22"/>
+      <circle cx="218" cy="196" r="6" fill="#2f6b22"/>
+    </g>
+  </g>
+
+  <!-- plate shadow on table -->
+  <ellipse cx="260" cy="300" rx="220" ry="28" fill="#000" opacity="0.15" filter="url(#softShadow)"/>
+</svg>

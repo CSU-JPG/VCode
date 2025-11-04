@@ -1,0 +1,210 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8ecf2"/>
+      <stop offset="60%" stop-color="#d6dde6"/>
+      <stop offset="100%" stop-color="#c2c9d4"/>
+    </linearGradient>
+    <linearGradient id="ceilingGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3f6fa"/>
+      <stop offset="100%" stop-color="#dfe6ee"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e9edf2"/>
+      <stop offset="100%" stop-color="#cfd6df"/>
+    </linearGradient>
+    <linearGradient id="beamGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f8fb"/>
+      <stop offset="100%" stop-color="#d6dde6"/>
+    </linearGradient>
+    <linearGradient id="shelfGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a6d71"/>
+      <stop offset="100%" stop-color="#18484a"/>
+    </linearGradient>
+    <linearGradient id="innerShelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#274e50"/>
+      <stop offset="100%" stop-color="#1b3e40"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbff" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#eaf2fa" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#d8e6f3" stop-opacity="0.7"/>
+    </linearGradient>
+    <radialGradient id="lightCone" cx="0.42" cy="0.25" r="0.8">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <linearGradient id="couchGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7ebef"/>
+      <stop offset="100%" stop-color="#c9cfd6"/>
+    </linearGradient>
+    <linearGradient id="pillowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94c8cf"/>
+      <stop offset="100%" stop-color="#5f99a0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall background -->
+  <rect x="0" y="0" width="1024" height="768" fill="url(#wallGrad)"/>
+
+  <!-- Ceiling band -->
+  <rect x="0" y="0" width="1024" height="140" fill="url(#ceilingGrad)"/>
+
+  <!-- Large diagonal beam (left) -->
+  <polygon points="126,768 194,0 260,0 190,768" fill="url(#beamGrad)" opacity="0.9"/>
+  <!-- Roof rafters -->
+  <rect x="0" y="100" width="1024" height="10" fill="#dee4ec"/>
+  <rect x="0" y="40" width="1024" height="12" fill="#e5eaf1"/>
+  <rect x="0" y="70" width="1024" height="10" fill="#e1e7ee"/>
+
+  <!-- Floor -->
+  <polygon points="0,520 1024,560 1024,768 0,768" fill="url(#floorGrad)"/>
+  <!-- Floor tile lines -->
+  <g stroke="#c1c8d2" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="600" x2="1024" y2="630"/>
+    <line x1="0" y1="640" x2="1024" y2="670"/>
+    <line x1="0" y1="680" x2="1024" y2="710"/>
+    <line x1="140" y1="540" x2="100" y2="768"/>
+    <line x1="280" y1="548" x2="250" y2="768"/>
+    <line x1="420" y1="556" x2="400" y2="768"/>
+    <line x1="560" y1="564" x2="560" y2="768"/>
+    <line x1="700" y1="572" x2="720" y2="768"/>
+    <line x1="840" y1="580" x2="880" y2="768"/>
+  </g>
+
+  <!-- Right built-in bookshelf -->
+  <rect x="720" y="0" width="304" height="768" fill="url(#shelfGrad)"/>
+  <rect x="740" y="40" width="264" height="688" fill="url(#innerShelf)"/>
+  <!-- Shelf divisions -->
+  <g fill="#224243">
+    <rect x="740" y="40" width="264" height="8"/>
+    <rect x="740" y="160" width="264" height="8"/>
+    <rect x="740" y="320" width="264" height="8"/>
+    <rect x="740" y="520" width="264" height="8"/>
+    <rect x="740" y="680" width="264" height="8"/>
+  </g>
+
+  <!-- Books on top shelf -->
+  <g transform="translate(756,56)">
+    <rect width="10" height="86" fill="#814f3f"/>
+    <rect x="12" width="12" height="86" fill="#9c6049"/>
+    <rect x="26" width="14" height="86" fill="#6c3e2e"/>
+    <rect x="42" width="8" height="86" fill="#5c7a9b"/>
+    <rect x="52" width="16" height="86" fill="#b56a4d"/>
+    <rect x="70" width="10" height="86" fill="#7a4a38"/>
+    <rect x="82" width="12" height="86" fill="#cfa173"/>
+    <rect x="96" width="8" height="86" fill="#6a8b4e"/>
+    <rect x="106" width="10" height="86" fill="#b55f63"/>
+    <rect x="118" width="14" height="86" fill="#7a5448"/>
+    <rect x="134" width="12" height="86" fill="#9c7a5d"/>
+    <rect x="148" width="10" height="86" fill="#6b5b9c"/>
+    <rect x="160" width="8" height="86" fill="#b48a63"/>
+    <rect x="170" width="16" height="86" fill="#aa5c3f"/>
+    <rect x="188" width="12" height="86" fill="#7f4734"/>
+    <rect x="202" width="10" height="86" fill="#af7c56"/>
+    <rect x="214" width="12" height="86" fill="#6c8c96"/>
+    <rect x="228" width="12" height="86" fill="#955b47"/>
+  </g>
+
+  <!-- Lower shelf accents (a few objects) -->
+  <g transform="translate(760,360)">
+    <rect x="8" y="28" width="46" height="22" rx="2" fill="#2f6b6d"/>
+    <rect x="62" y="20" width="10" height="30" fill="#5c4637"/>
+    <circle cx="180" cy="25" r="18" fill="#2b3236"/>
+    <rect x="206" y="36" width="60" height="12" fill="#374b4c"/>
+  </g>
+
+  <!-- Window group -->
+  <g transform="translate(310,140)">
+    <!-- Left wall-frame post -->
+    <rect x="-120" y="0" width="24" height="360" fill="#e4e9ef" />
+    <!-- Outer frame -->
+    <rect x="0" y="0" width="240" height="280" fill="#f2f6fa" stroke="#cdd5de" stroke-width="3"/>
+    <!-- Inner glass region -->
+    <rect x="18" y="16" width="204" height="248" fill="url(#glassGrad)" stroke="#c9d2db" stroke-width="3"/>
+    <!-- Grid lines -->
+    <g stroke="#c9d2db" stroke-width="4">
+      <line x1="18" y1="78" x2="222" y2="78"/>
+      <line x1="18" y1="140" x2="222" y2="140"/>
+      <line x1="18" y1="202" x2="222" y2="202"/>
+      <line x1="80" y1="16" x2="80" y2="264"/>
+      <line x1="142" y1="16" x2="142" y2="264"/>
+    </g>
+    <!-- Left shutter (closed) -->
+    <rect x="-36" y="0" width="36" height="280" fill="#e7edf3" stroke="#cfd7e0" stroke-width="2"/>
+    <!-- Right shutter (open, angled) -->
+    <polygon points="240,0 240,280 300,260 300,20" fill="#e9eff5" stroke="#cfd7e0" stroke-width="2"/>
+  </g>
+
+  <!-- Light cone from window -->
+  <polygon points="330,180 520,220 620,510 260,560" fill="url(#lightCone)" />
+
+  <!-- Picture frames with butterflies -->
+  <g transform="translate(598,250)">
+    <rect x="0" y="0" width="120" height="140" fill="#f5f0ea" stroke="#d8cfc4" stroke-width="6"/>
+    <path d="M20,54 q20,-30 40,0 q-20,6 -40,0z" fill="#5b5b5b" opacity="0.9"/>
+    <path d="M70,94 q16,-16 32,0 q-16,4 -32,0z" fill="#d3856e" opacity="0.9"/>
+  </g>
+
+  <!-- Couch -->
+  <g transform="translate(600,520)">
+    <rect x="0" y="0" width="220" height="70" rx="10" fill="url(#couchGrad)" stroke="#bfc6ce"/>
+    <rect x="0" y="-40" width="160" height="50" rx="12" fill="#dfe4ea" stroke="#c3c9d1"/>
+    <rect x="160" y="-24" width="60" height="40" rx="8" fill="url(#pillowGrad)"/>
+    <rect x="150" y="50" width="70" height="40" rx="6" fill="#8e856f" opacity="0.8"/>
+    <ellipse cx="20" cy="80" rx="30" ry="8" fill="#b7bec8" opacity="0.6"/>
+    <ellipse cx="190" cy="80" rx="40" ry="8" fill="#b7bec8" opacity="0.6"/>
+  </g>
+
+  <!-- Small side shelf modules under big shelf -->
+  <g transform="translate(690,590)">
+    <rect x="0" y="0" width="60" height="120" fill="#3a5b5d" stroke="#1f3839"/>
+    <rect x="70" y="0" width="50" height="120" fill="#3a5b5d" stroke="#1f3839"/>
+    <rect x="130" y="0" width="60" height="120" fill="#3a5b5d" stroke="#1f3839"/>
+  </g>
+
+  <!-- Small table near window -->
+  <g transform="translate(420,512)">
+    <rect x="0" y="0" width="110" height="18" rx="4" fill="#828c96"/>
+    <rect x="8" y="18" width="10" height="70" fill="#7a838d"/>
+    <rect x="92" y="18" width="10" height="70" fill="#7a838d"/>
+    <rect x="44" y="18" width="10" height="60" fill="#7a838d"/>
+    <rect x="4" y="88" width="100" height="6" rx="3" fill="#6e7781" opacity="0.6"/>
+    <!-- Two small cups -->
+    <rect x="30" y="-10" width="16" height="10" rx="2" fill="#4f6f83"/>
+    <rect x="50" y="-12" width="18" height="12" rx="2" fill="#39586b"/>
+  </g>
+
+  <!-- Vase with dry twig -->
+  <g transform="translate(375,530)">
+    <rect x="0" y="8" width="20" height="54" rx="6" fill="#6f8c90"/>
+    <path d="M10,-30 C-10,-5,-5,5,6,20 C-6,16,-10,10,-12,4" stroke="#9b8f84" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Basket on floor -->
+  <g transform="translate(300,580)">
+    <rect x="0" y="0" width="80" height="60" rx="8" fill="#a78057"/>
+    <rect x="8" y="8" width="64" height="44" rx="6" fill="#b88f66"/>
+    <path d="M10,10 L70,50 M70,10 L10,50" stroke="#a77d52" opacity="0.6"/>
+  </g>
+
+  <!-- Vertical wall seam lines to suggest panels -->
+  <g stroke="#d6dde6" stroke-width="6" opacity="0.75">
+    <line x1="80" y1="0" x2="80" y2="768"/>
+    <line x1="260" y1="0" x2="260" y2="768"/>
+  </g>
+
+  <!-- Subtle right-side shadow for shelf -->
+  <rect x="980" y="0" width="44" height="768" fill="#0e1617" opacity="0.35"/>
+
+  <!-- Ground shadows for furniture -->
+  <ellipse cx="475" cy="598" rx="90" ry="12" fill="#aeb6c1" opacity="0.35" filter="url(#softShadow)"/>
+  <ellipse cx="660" cy="600" rx="120" ry="14" fill="#aeb6c1" opacity="0.35" filter="url(#softShadow)"/>
+
+  <!-- Window highlight on wall -->
+  <rect x="500" y="120" width="200" height="260" fill="#ffffff" opacity="0.05"/>
+</svg>

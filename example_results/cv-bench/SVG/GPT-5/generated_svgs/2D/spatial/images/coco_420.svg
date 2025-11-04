@@ -1,0 +1,77 @@
+<svg viewBox="0 0 520 395" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#201b12"/>
+		<stop offset="1" stop-color="#3b3626"/>
+	</linearGradient>
+	<linearGradient id="remoteShade" x1="0" y1="0" x2="1" y2="0">
+		<stop offset="0" stop-color="#ffffff"/>
+		<stop offset="1" stop-color="#e7e7ea"/>
+	</linearGradient>
+	<linearGradient id="bevel" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+		<stop offset="0.5" stop-color="#ffffff" stop-opacity="0.2"/>
+		<stop offset="1" stop-color="#aeb0b6" stop-opacity="0.35"/>
+	</linearGradient>
+	<radialGradient id="screenGrad" cx="50%" cy="50%" r="75%">
+		<stop offset="0" stop-color="#ffffff"/>
+		<stop offset="1" stop-color="#e8e8ff"/>
+	</radialGradient>
+	<filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+		<feGaussianBlur stdDeviation="10"/>
+	</filter>
+	<filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+		<feOffset dx="0" dy="6" result="off"/>
+		<feGaussianBlur in="off" stdDeviation="6" result="blur"/>
+		<feColorMatrix in="blur" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0.35 0" result="shadow"/>
+		<feMerge>
+			<feMergeNode in="shadow"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+</defs>
+
+<rect x="0" y="0" width="520" height="395" fill="url(#bg)"/>
+
+<g transform="rotate(-8 420 260)">
+	<rect x="320" y="170" width="185" height="140" rx="8" fill="#0a0a0a"/>
+	<rect x="334" y="184" width="157" height="112" rx="6" fill="#0f0f10"/>
+	<rect x="338" y="188" width="149" height="104" rx="5" fill="url(#screenGrad)"/>
+	<rect x="338" y="188" width="149" height="104" rx="5" fill="#ffffff" opacity="0.55" filter="url(#glow)"/>
+</g>
+
+<g transform="translate(36,46) rotate(18)" filter="url(#shadow)">
+	<rect x="0" y="0" width="270" height="112" rx="20" fill="url(#remoteShade)" stroke="#dcdce1"/>
+	<rect x="1.5" y="1.5" width="267" height="109" rx="19" fill="none" stroke="url(#bevel)" stroke-width="3" opacity="0.7"/>
+
+	<g fill="#cfd2d9">
+		<circle cx="24" cy="22" r="2.1"/>
+		<circle cx="36" cy="22" r="2.1"/>
+		<circle cx="48" cy="22" r="2.1"/>
+		<circle cx="24" cy="34" r="2.1"/>
+		<circle cx="36" cy="34" r="2.1"/>
+		<circle cx="48" cy="34" r="2.1"/>
+	</g>
+
+	<circle cx="128" cy="46" r="16" fill="#ececf2" stroke="#c9c9cf"/>
+	<circle cx="128" cy="46" r="8.5" fill="#e3e5ec"/>
+
+	<g fill="#e9ebf0" stroke="#c9ccd4">
+		<rect x="206" y="34" width="16" height="40" rx="4"/>
+		<rect x="192" y="48" width="44" height="16" rx="4"/>
+	</g>
+
+	<g transform="translate(86,78)" fill="#e9ebf0" stroke="#c9ccd4">
+		<rect x="0" y="10" width="34" height="10" rx="3"/>
+		<rect x="12" y="0" width="10" height="34" rx="3"/>
+	</g>
+
+	<circle cx="92" cy="22" r="4.2" fill="#b8c3d7"/>
+	<circle cx="170" cy="22" r="4.2" fill="#b8c3d7"/>
+	<rect x="70" y="18" width="8" height="8" rx="2" fill="#aeb7c7"/>
+
+	<rect x="250" y="14" width="8" height="84" rx="4" fill="#eff0f4" stroke="#c9ccd4"/>
+</g>
+
+<rect x="0" y="0" width="520" height="395" fill="none" stroke="rgba(0,0,0,0.12)"/>
+</svg>

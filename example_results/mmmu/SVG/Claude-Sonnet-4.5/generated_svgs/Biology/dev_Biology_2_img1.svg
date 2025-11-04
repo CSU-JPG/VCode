@@ -1,0 +1,114 @@
+<svg viewBox="0 0 1500 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Acetabularia mediterranea -->
+  <g>
+    <!-- Rhizoid -->
+    <path d="M 200 610 Q 180 620 170 625 Q 160 630 155 632" stroke="#8B9E5F" stroke-width="3" fill="none"/>
+    <path d="M 200 610 Q 210 620 220 625 Q 230 630 240 632" stroke="#8B9E5F" stroke-width="3" fill="none"/>
+    <path d="M 200 610 Q 195 625 190 635" stroke="#8B9E5F" stroke-width="2.5" fill="none"/>
+    <path d="M 200 610 Q 205 625 210 635" stroke="#8B9E5F" stroke-width="2.5" fill="none"/>
+    
+    <!-- Stalk -->
+    <path d="M 200 610 Q 205 450 210 290 Q 212 200 215 110" stroke="#A4B86E" stroke-width="8" fill="none"/>
+    
+    <!-- Cap umbrella -->
+    <ellipse cx="265" cy="95" rx="130" ry="85" fill="#D4E8B4" stroke="#A4B86E" stroke-width="2"/>
+    <ellipse cx="265" cy="95" rx="100" ry="65" fill="#E8F5D4" stroke="#A4B86E" stroke-width="1.5"/>
+    <ellipse cx="265" cy="95" rx="30" ry="20" fill="#D4E8B4" stroke="#A4B86E" stroke-width="1"/>
+    
+    <!-- Radial lines on cap -->
+    <line x1="265" y1="95" x2="150" y2="60" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="170" y2="45" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="190" y2="30" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="215" y2="25" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="240" y2="20" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="265" y2="15" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="290" y2="20" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="315" y2="25" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="340" y2="30" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="360" y2="45" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="380" y2="60" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="390" y2="85" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="390" y2="105" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="380" y2="130" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="360" y2="145" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="340" y2="160" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="315" y2="165" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="290" y2="170" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="240" y2="170" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="215" y2="165" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="190" y2="160" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="170" y2="145" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="150" y2="130" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+    <line x1="265" y1="95" x2="140" y2="105" stroke="#B8C98A" stroke-width="1" opacity="0.6"/>
+  </g>
+  
+  <!-- Acetabularia crenulata -->
+  <g>
+    <!-- Rhizoid -->
+    <path d="M 770 610 Q 750 620 740 625 Q 730 630 725 632" stroke="#4A8B8B" stroke-width="3" fill="none"/>
+    <path d="M 770 610 Q 780 620 790 625 Q 800 630 810 632" stroke="#4A8B8B" stroke-width="3" fill="none"/>
+    <path d="M 770 610 Q 765 625 760 635" stroke="#4A8B8B" stroke-width="2.5" fill="none"/>
+    <path d="M 770 610 Q 775 625 780 635" stroke="#4A8B8B" stroke-width="2.5" fill="none"/>
+    
+    <!-- Stalk -->
+    <path d="M 770 610 Q 775 450 780 290 Q 782 200 785 110" stroke="#5FA4A4" stroke-width="8" fill="none"/>
+    
+    <!-- Flower-like cap -->
+    <!-- Center -->
+    <circle cx="785" cy="110" r="18" fill="#8FC4D4" stroke="#5FA4A4" stroke-width="2"/>
+    
+    <!-- Petals -->
+    <ellipse cx="785" cy="55" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2"/>
+    <ellipse cx="825" cy="70" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(40 825 70)"/>
+    <ellipse cx="845" cy="100" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(70 845 100)"/>
+    <ellipse cx="840" cy="135" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(100 840 135)"/>
+    <ellipse cx="815" cy="160" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(130 815 160)"/>
+    <ellipse cx="785" cy="170" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(160 785 170)"/>
+    <ellipse cx="755" cy="160" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(210 755 160)"/>
+    <ellipse cx="730" cy="135" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(250 730 135)"/>
+    <ellipse cx="725" cy="100" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(290 725 100)"/>
+    <ellipse cx="745" cy="70" rx="22" ry="35" fill="#A4D8E8" stroke="#5FA4A4" stroke-width="2" transform="rotate(320 745 70)"/>
+  </g>
+  
+  <!-- Graft A -->
+  <g>
+    <!-- Rhizoid -->
+    <path d="M 1140 610 Q 1120 620 1110 625 Q 1100 630 1095 632" stroke="#8B9E5F" stroke-width="3" fill="none"/>
+    <path d="M 1140 610 Q 1150 620 1160 625 Q 1170 630 1180 632" stroke="#8B9E5F" stroke-width="3" fill="none"/>
+    <path d="M 1140 610 Q 1135 625 1130 635" stroke="#8B9E5F" stroke-width="2.5" fill="none"/>
+    <path d="M 1140 610 Q 1145 625 1150 635" stroke="#8B9E5F" stroke-width="2.5" fill="none"/>
+    
+    <!-- Stalk - green bottom -->
+    <path d="M 1140 610 Q 1143 510 1145 410" stroke="#A4B86E" stroke-width="7" fill="none"/>
+    
+    <!-- Graft junction -->
+    <rect x="1137" y="380" width="16" height="30" fill="#B8C98A" stroke="#8B9E5F" stroke-width="1.5"/>
+    
+    <!-- Stalk - blue top -->
+    <path d="M 1145 380 Q 1147 290 1150 200 Q 1152 150 1155 100" stroke="#5FA4A4" stroke-width="7" fill="none"/>
+  </g>
+  
+  <!-- Graft B -->
+  <g>
+    <!-- Rhizoid -->
+    <path d="M 1410 610 Q 1390 620 1380 625 Q 1370 630 1365 632" stroke="#4A8B8B" stroke-width="3" fill="none"/>
+    <path d="M 1410 610 Q 1420 620 1430 625 Q 1440 630 1450 632" stroke="#4A8B8B" stroke-width="3" fill="none"/>
+    <path d="M 1410 610 Q 1405 625 1400 635" stroke="#4A8B8B" stroke-width="2.5" fill="none"/>
+    <path d="M 1410 610 Q 1415 625 1420 635" stroke="#4A8B8B" stroke-width="2.5" fill="none"/>
+    
+    <!-- Stalk - blue bottom -->
+    <path d="M 1410 610 Q 1413 510 1415 410" stroke="#5FA4A4" stroke-width="7" fill="none"/>
+    
+    <!-- Graft junction -->
+    <rect x="1407" y="380" width="16" height="30" fill="#8FC4D4" stroke="#5FA4A4" stroke-width="1.5"/>
+    
+    <!-- Stalk - green top -->
+    <path d="M 1415 380 Q 1417 290 1420 200 Q 1422 150 1425 100" stroke="#A4B86E" stroke-width="7" fill="none"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="265" y="700" font-family="Arial, sans-serif" font-size="38" font-style="italic" text-anchor="middle" fill="#000">Acetabularia mediterranea</text>
+  <text x="785" y="700" font-family="Arial, sans-serif" font-size="38" font-style="italic" text-anchor="middle" fill="#000">Acetabularia crenulata</text>
+  <text x="1145" y="700" font-family="Arial, sans-serif" font-size="38" text-anchor="middle" fill="#000">graft A</text>
+  <text x="1415" y="700" font-family="Arial, sans-serif" font-size="38" text-anchor="middle" fill="#000">graft B</text>
+</svg>

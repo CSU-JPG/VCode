@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#2c2c2c"/>
+  <g fill="#4a4a4a">
+    <rect x="50" y="50" width="700" height="500" rx="10" ry="10"/>
+    <circle cx="100" cy="100" r="20"/>
+    <circle cx="150" cy="100" r="20"/>
+    <circle cx="200" cy="100" r="20"/>
+    <circle cx="250" cy="100" r="20"/>
+    <circle cx="300" cy="100" r="20"/>
+    <circle cx="350" cy="100" r="20"/>
+    <circle cx="400" cy="100" r="20"/>
+    <circle cx="450" cy="100" r="20"/>
+    <circle cx="500" cy="100" r="20"/>
+    <circle cx="550" cy="100" r="20"/>
+    <circle cx="600" cy="100" r="20"/>
+    <circle cx="650" cy="100" r="20"/>
+  </g>
+  <g fill="#d3d3d3">
+    <rect x="300" y="300" width="200" height="150" rx="5" ry="5"/>
+    <circle cx="400" cy="350" r="30"/>
+  </g>
+  <g fill="#f0f0f0">
+    <rect x="350" y="320" width="100" height="120"/>
+    <circle cx="370" cy="340" r="10"/>
+    <circle cx="430" cy="340" r="10"/>
+  </g>
+  <g fill="#fff">
+    <rect x="320" y="280" width="160" height="40"/>
+    <circle cx="340" cy="290" r="5"/>
+    <circle cx="360" cy="290" r="5"/>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Benzene ring -->
+  <path d="M 80 80 L 120 60 L 160 80 L 160 120 L 120 140 L 80 120 Z" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Double bonds in ring -->
+  <line x1="86" y1="85" x2="114" y2="70" stroke="black" stroke-width="2"/>
+  <line x1="154" y1="85" x2="154" y2="115" stroke="black" stroke-width="2"/>
+  <line x1="126" y1="135" x2="94" y2="115" stroke="black" stroke-width="2"/>
+  
+  <!-- SO2 group (bottom right) -->
+  <line x1="160" y1="120" x2="190" y2="140" stroke="black" stroke-width="2"/>
+  <text x="195" y="145" font-family="Arial" font-size="20" fill="black">S</text>
+  <line x1="210" y1="135" x2="225" y2="125" stroke="black" stroke-width="2"/>
+  <line x1="212" y1="138" x2="227" y2="128" stroke="black" stroke-width="2"/>
+  <text x="225" y="125" font-family="Arial" font-size="20" fill="black">O</text>
+  <line x1="210" y1="150" x2="225" y2="160" stroke="black" stroke-width="2"/>
+  <line x1="212" y1="147" x2="227" y2="157" stroke="black" stroke-width="2"/>
+  <text x="225" y="170" font-family="Arial" font-size="20" fill="black">O</text>
+  
+  <!-- CO group (top right) -->
+  <line x1="160" y1="80" x2="190" y2="60" stroke="black" stroke-width="2"/>
+  <text x="195" y="65" font-family="Arial" font-size="20" fill="black">C</text>
+  <line x1="210" y1="55" x2="225" y2="45" stroke="black" stroke-width="2"/>
+  <line x1="212" y1="58" x2="227" y2="48" stroke="black" stroke-width="2"/>
+  <text x="225" y="45" font-family="Arial" font-size="20" fill="black">O</text>
+  
+  <!-- NH group -->
+  <line x1="210" y1="65" x2="235" y2="80" stroke="black" stroke-width="2"/>
+  <text x="235" y="85" font-family="Arial" font-size="20" fill="black">N</text>
+  <line x1="250" y1="80" x2="270" y2="80" stroke="black" stroke-width="2"/>
+  <text x="270" y="85" font-family="Arial" font-size="20" fill="black">H</text>
+  
+  <!-- Hydrogen atoms on benzene -->
+  <!-- Top H -->
+  <line x1="120" y1="60" x2="120" y2="35" stroke="black" stroke-width="2"/>
+  <text x="115" y="30" font-family="Arial" font-size="20" fill="black">H</text>
+  
+  <!-- Top left H -->
+  <line x1="80" y1="80" x2="55" y2="70" stroke="black" stroke-width="2"/>
+  <text x="40" y="75" font-family="Arial" font-size="20" fill="black">H</text>
+  
+  <!-- Bottom left H -->
+  <line x1="80" y1="120" x2="55" y2="130" stroke="black" stroke-width="2"/>
+  <text x="40" y="135" font-family="Arial" font-size="20" fill="black">H</text>
+  
+  <!-- Bottom H -->
+  <line x1="120" y1="140" x2="120" y2="165" stroke="black" stroke-width="2"/>
+  <text x="115" y="180" font-family="Arial" font-size="20" fill="black">H</text>
+</svg>

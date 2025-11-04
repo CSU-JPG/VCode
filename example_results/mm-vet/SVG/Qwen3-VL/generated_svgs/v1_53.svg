@@ -1,0 +1,42 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#3a5f40"/>
+  <ellipse cx="200" cy="50" rx="80" ry="40" fill="#b5d59e" stroke="#000" stroke-width="2"/>
+  <text x="200" y="55" font-family="Arial" font-size="20" text-anchor="middle" fill="#000">Start</text>
+  <line x1="200" y1="90" x2="200" y2="120" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="120" y="120" width="160" height="60" fill="#fff799" stroke="#000" stroke-width="2"/>
+  <text x="200" y="155" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">Turn on kettle</text>
+  <line x1="200" y1="180" x2="200" y2="210" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="120" y="210" width="160" height="60" fill="#fff799" stroke="#000" stroke-width="2"/>
+  <text x="200" y="235" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">Wait for kettle</text>
+  <text x="200" y="255" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">to boil</text>
+  <line x1="200" y1="270" x2="200" y2="300" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="200,300 240,340 200,380 160,340" fill="#ffa555" stroke="#000" stroke-width="2"/>
+  <text x="200" y="330" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">Water</text>
+  <text x="200" y="350" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">boiled?</text>
+  <line x1="240" y1="340" x2="300" y2="340" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="270" y="330" font-family="Arial" font-size="16" fill="#000">N</text>
+  <rect x="300" y="310" width="120" height="60" fill="#fff799" stroke="#000" stroke-width="2"/>
+  <text x="360" y="345" font-family="Arial" font-size="20" text-anchor="middle" fill="#000">Wait</text>
+  <line x1="360" y1="370" x2="360" y2="400" stroke="#000" stroke-width="2"/>
+  <line x1="360" y1="400" x2="200" y2="270" stroke="#000" stroke-width="2"/>
+  <line x1="160" y1="340" x2="160" y2="370" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="150" y="360" font-family="Arial" font-size="16" fill="#000">Y</text>
+  <rect x="120" y="370" width="160" height="60" fill="#fff799" stroke="#000" stroke-width="2"/>
+  <text x="200" y="395" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">Pour water on</text>
+  <text x="200" y="415" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">teabag in cup</text>
+  <line x1="200" y1="430" x2="200" y2="460" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="120" y="460" width="160" height="60" fill="#fff799" stroke="#000" stroke-width="2"/>
+  <text x="200" y="495" font-family="Arial" font-size="20" text-anchor="middle" fill="#000">Wait 2-3 min</text>
+  <line x1="200" y1="520" x2="200" y2="550" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="120" y="550" width="160" height="60" fill="#fff799" stroke="#000" stroke-width="2"/>
+  <text x="200" y="575" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">Add milk</text>
+  <text x="200" y="595" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">and sugar</text>
+  <line x1="200" y1="610" x2="200" y2="640" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+  <ellipse cx="200" cy="700" rx="80" ry="40" fill="#ffb6b6" stroke="#000" stroke-width="2"/>
+  <text x="200" y="705" font-family="Arial" font-size="20" text-anchor="middle" fill="#000">Stop</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>

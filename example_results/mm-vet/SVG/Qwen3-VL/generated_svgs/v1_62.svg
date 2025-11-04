@@ -1,0 +1,193 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { fill: #008000; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+    .income-header { fill: #ffff00; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: start; dominant-baseline: middle; }
+    .label { font-family: Arial, sans-serif; font-size: 14px; text-anchor: start; dominant-baseline: middle; }
+    .value { font-family: Arial, sans-serif; font-size: 14px; text-anchor: end; dominant-baseline: middle; }
+    .total-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: start; dominant-baseline: middle; }
+    .total-value { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: end; dominant-baseline: middle; }
+    .border { stroke: black; stroke-width: 1; fill: none; }
+  </style>
+
+  <!-- Grid lines and background -->
+  <rect x="0" y="0" width="1000" height="600" fill="white" />
+
+  <!-- Column headers -->
+  <g>
+    <rect x="0" y="0" width="150" height="40" class="header" />
+    <text x="75" y="20" class="header">INCOME</text>
+    <rect x="150" y="0" width="100" height="40" class="header" />
+    <text x="200" y="20" class="header">JAN</text>
+    <rect x="250" y="0" width="100" height="40" class="header" />
+    <text x="300" y="20" class="header">FEB</text>
+    <rect x="350" y="0" width="100" height="40" class="header" />
+    <text x="400" y="20" class="header">MAR</text>
+    <rect x="450" y="0" width="100" height="40" class="header" />
+    <text x="500" y="20" class="header">APR</text>
+    <rect x="550" y="0" width="100" height="40" class="header" />
+    <text x="600" y="20" class="header">MAY</text>
+    <rect x="650" y="0" width="100" height="40" class="header" />
+    <text x="700" y="20" class="header">JUN</text>
+    <rect x="750" y="0" width="100" height="40" class="header" />
+    <text x="800" y="20" class="header">Total</text>
+    <rect x="850" y="0" width="150" height="40" class="header" />
+    <text x="925" y="20" class="header">Average</text>
+  </g>
+
+  <!-- Row 1: Salary -->
+  <g>
+    <rect x="0" y="40" width="150" height="40" fill="white" />
+    <text x="10" y="60" class="label">Salary</text>
+    <rect x="150" y="40" width="100" height="40" fill="white" />
+    <text x="245" y="60" class="value">$5,000</text>
+    <rect x="250" y="40" width="100" height="40" fill="white" />
+    <text x="345" y="60" class="value">$5,000</text>
+    <rect x="350" y="40" width="100" height="40" fill="white" />
+    <text x="445" y="60" class="value">$5,000</text>
+    <rect x="450" y="40" width="100" height="40" fill="white" />
+    <text x="545" y="60" class="value">$5,000</text>
+    <rect x="550" y="40" width="100" height="40" fill="white" />
+    <text x="645" y="60" class="value">$5,000</text>
+    <rect x="650" y="40" width="100" height="40" fill="white" />
+    <text x="745" y="60" class="value">$5,000</text>
+    <rect x="750" y="40" width="100" height="40" fill="white" />
+    <text x="845" y="60" class="value">$30,000</text>
+    <rect x="850" y="40" width="150" height="40" fill="white" />
+    <text x="995" y="60" class="value">$5,000</text>
+  </g>
+
+  <!-- Row 2: Business -->
+  <g>
+    <rect x="0" y="80" width="150" height="40" fill="white" />
+    <text x="10" y="100" class="label">Business</text>
+    <rect x="150" y="80" width="100" height="40" fill="white" />
+    <text x="245" y="100" class="value">$4,000</text>
+    <rect x="250" y="80" width="100" height="40" fill="white" />
+    <text x="345" y="100" class="value">$4,200</text>
+    <rect x="350" y="80" width="100" height="40" fill="white" />
+    <text x="445" y="100" class="value">$3,800</text>
+    <rect x="450" y="80" width="100" height="40" fill="white" />
+    <text x="545" y="100" class="value">$3,400</text>
+    <rect x="550" y="80" width="100" height="40" fill="white" />
+    <text x="645" y="100" class="value">$4,000</text>
+    <rect x="650" y="80" width="100" height="40" fill="white" />
+    <text x="745" y="100" class="value">$3,600</text>
+    <rect x="750" y="80" width="100" height="40" fill="white" />
+    <text x="845" y="100" class="value">$23,000</text>
+    <rect x="850" y="80" width="150" height="40" fill="white" />
+    <text x="995" y="100" class="value">$3,833</text>
+  </g>
+
+  <!-- Row 3: Dividends -->
+  <g>
+    <rect x="0" y="120" width="150" height="40" fill="white" />
+    <text x="10" y="140" class="label">Dividends</text>
+    <rect x="150" y="120" width="100" height="40" fill="white" />
+    <text x="245" y="140" class="value">0</text>
+    <rect x="250" y="120" width="100" height="40" fill="white" />
+    <text x="345" y="140" class="value">0</text>
+    <rect x="350" y="120" width="100" height="40" fill="white" />
+    <text x="445" y="140" class="value">0</text>
+    <rect x="450" y="120" width="100" height="40" fill="white" />
+    <text x="545" y="140" class="value">0</text>
+    <rect x="550" y="120" width="100" height="40" fill="white" />
+    <text x="645" y="140" class="value">0</text>
+    <rect x="650" y="120" width="100" height="40" fill="white" />
+    <text x="745" y="140" class="value">0</text>
+    <rect x="750" y="120" width="100" height="40" fill="white" />
+    <text x="845" y="140" class="value">$0</text>
+    <rect x="850" y="120" width="150" height="40" fill="white" />
+    <text x="995" y="140" class="value">$0</text>
+  </g>
+
+  <!-- Row 4: Interest Income -->
+  <g>
+    <rect x="0" y="160" width="150" height="40" fill="white" />
+    <text x="10" y="180" class="label">Interest Income</text>
+    <rect x="150" y="160" width="100" height="40" fill="white" />
+    <text x="245" y="180" class="value">$50</text>
+    <rect x="250" y="160" width="100" height="40" fill="white" />
+    <text x="345" y="180" class="value">$50</text>
+    <rect x="350" y="160" width="100" height="40" fill="white" />
+    <text x="445" y="180" class="value">$50</text>
+    <rect x="450" y="160" width="100" height="40" fill="white" />
+    <text x="545" y="180" class="value">$50</text>
+    <rect x="550" y="160" width="100" height="40" fill="white" />
+    <text x="645" y="180" class="value">$50</text>
+    <rect x="650" y="160" width="100" height="40" fill="white" />
+    <text x="745" y="180" class="value">$50</text>
+    <rect x="750" y="160" width="100" height="40" fill="white" />
+    <text x="845" y="180" class="value">$300</text>
+    <rect x="850" y="160" width="150" height="40" fill="white" />
+    <text x="995" y="180" class="value">$50</text>
+  </g>
+
+  <!-- Row 5: Others -->
+  <g>
+    <rect x="0" y="200" width="150" height="40" fill="white" />
+    <text x="10" y="220" class="label">Others</text>
+    <rect x="150" y="200" width="100" height="40" fill="white" />
+    <text x="245" y="220" class="value">$0</text>
+    <rect x="250" y="200" width="100" height="40" fill="white" />
+    <text x="345" y="220" class="value">$0</text>
+    <rect x="350" y="200" width="100" height="40" fill="white" />
+    <text x="445" y="220" class="value">$20</text>
+    <rect x="450" y="200" width="100" height="40" fill="white" />
+    <text x="545" y="220" class="value">$0</text>
+    <rect x="550" y="200" width="100" height="40" fill="white" />
+    <text x="645" y="220" class="value">$30</text>
+    <rect x="650" y="200" width="100" height="40" fill="white" />
+    <text x="745" y="220" class="value">$0</text>
+    <rect x="750" y="200" width="100" height="40" fill="white" />
+    <text x="845" y="220" class="value">$50</text>
+    <rect x="850" y="200" width="150" height="40" fill="white" />
+    <text x="995" y="220" class="value">$8</text>
+  </g>
+
+  <!-- Row 6: Total -->
+  <g>
+    <rect x="0" y="240" width="150" height="40" fill="white" />
+    <text x="10" y="260" class="total-label">Total</text>
+    <rect x="150" y="240" width="100" height="40" fill="white" />
+    <text x="245" y="260" class="total-value">$9,050</text>
+    <rect x="250" y="240" width="100" height="40" fill="white" />
+    <text x="345" y="260" class="total-value">$9,250</text>
+    <rect x="350" y="240" width="100" height="40" fill="white" />
+    <text x="445" y="260" class="total-value">$8,870</text>
+    <rect x="450" y="240" width="100" height="40" fill="white" />
+    <text x="545" y="260" class="total-value">$8,450</text>
+    <rect x="550" y="240" width="100" height="40" fill="white" />
+    <text x="645" y="260" class="total-value">$9,080</text>
+    <rect x="650" y="240" width="100" height="40" fill="white" />
+    <text x="745" y="260" class="total-value">$8,650</text>
+    <rect x="750" y="240" width="100" height="40" fill="white" />
+    <text x="845" y="260" class="total-value">$53,350</text>
+    <rect x="850" y="240" width="150" height="40" fill="white" />
+    <text x="995" y="260" class="total-value">$8,892</text>
+  </g>
+
+  <!-- Draw borders for all cells -->
+  <g>
+    <!-- Horizontal lines -->
+    <line x1="0" y1="0" x2="1000" y2="0" class="border" />
+    <line x1="0" y1="40" x2="1000" y2="40" class="border" />
+    <line x1="0" y1="80" x2="1000" y2="80" class="border" />
+    <line x1="0" y1="120" x2="1000" y2="120" class="border" />
+    <line x1="0" y1="160" x2="1000" y2="160" class="border" />
+    <line x1="0" y1="200" x2="1000" y2="200" class="border" />
+    <line x1="0" y1="240" x2="1000" y2="240" class="border" />
+    <line x1="0" y1="280" x2="1000" y2="280" class="border" />
+
+    <!-- Vertical lines -->
+    <line x1="0" y1="0" x2="0" y2="280" class="border" />
+    <line x1="150" y1="0" x2="150" y2="280" class="border" />
+    <line x1="250" y1="0" x2="250" y2="280" class="border" />
+    <line x1="350" y1="0" x2="350" y2="280" class="border" />
+    <line x1="450" y1="0" x2="450" y2="280" class="border" />
+    <line x1="550" y1="0" x2="550" y2="280" class="border" />
+    <line x1="650" y1="0" x2="650" y2="280" class="border" />
+    <line x1="750" y1="0" x2="750" y2="280" class="border" />
+    <line x1="850" y1="0" x2="850" y2="280" class="border" />
+    <line x1="1000" y1="0" x2="1000" y2="280" class="border" />
+  </g>
+</svg>

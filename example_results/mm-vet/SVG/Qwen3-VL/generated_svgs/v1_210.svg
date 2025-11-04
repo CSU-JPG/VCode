@@ -1,0 +1,109 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: Arial; font-size: 16px; text-anchor: middle; }
+    .label { font-family: Arial; font-size: 12px; }
+    .axis-label { font-family: Arial; font-size: 12px; text-anchor: middle; }
+    .legend-box { fill: white; stroke: black; stroke-width: 1; }
+    .legend-text { font-family: Arial; font-size: 12px; }
+    .bar-blue { fill: #4682B4; }
+    .bar-red { fill: #FF6347; }
+    .bar-darkgray { fill: #696969; }
+    .grid { stroke: #ccc; stroke-width: 1; }
+  </style>
+
+  <!-- Top Chart: Number of marriages and divorces in the USA, 1970-2000 -->
+  <text x="300" y="30" class="title">Number of marriages and divorces in the USA,</text>
+  <text x="300" y="50" class="title">1970-2000</text>
+
+  <!-- Y-axis labels for top chart -->
+  <text x="20" y="120" class="label" transform="rotate(-90,20,120)">millions</text>
+  <line x1="60" y1="80" x2="550" y2="80" class="grid"/>
+  <line x1="60" y1="140" x2="550" y2="140" class="grid"/>
+  <line x1="60" y1="200" x2="550" y2="200" class="grid"/>
+  <line x1="60" y1="260" x2="550" y2="260" class="grid"/>
+  <line x1="60" y1="320" x2="550" y2="320" class="grid"/>
+  <text x="50" y="325" class="label">0</text>
+  <text x="50" y="265" class="label">0.5</text>
+  <text x="50" y="205" class="label">1</text>
+  <text x="50" y="145" class="label">1.5</text>
+  <text x="50" y="85" class="label">2</text>
+  <text x="50" y="55" class="label">2.5</text>
+  <text x="50" y="25" class="label">3</text>
+
+  <!-- X-axis labels for top chart -->
+  <text x="120" y="360" class="axis-label">1970</text>
+  <text x="220" y="360" class="axis-label">1980</text>
+  <text x="320" y="360" class="axis-label">1990</text>
+  <text x="420" y="360" class="axis-label">2000</text>
+
+  <!-- Bars for top chart -->
+  <!-- 1970 -->
+  <rect x="100" y="80" width="30" height="180" class="bar-blue"/> <!-- Marriages: ~2.5M -->
+  <rect x="135" y="200" width="30" height="60" class="bar-red"/> <!-- Divorces: ~1.0M -->
+  <!-- 1980 -->
+  <rect x="200" y="80" width="30" height="180" class="bar-blue"/> <!-- Marriages: ~2.5M -->
+  <rect x="235" y="150" width="30" height="110" class="bar-red"/> <!-- Divorces: ~1.4M -->
+  <!-- 1990 -->
+  <rect x="300" y="100" width="30" height="160" class="bar-blue"/> <!-- Marriages: ~2.3M -->
+  <rect x="335" y="170" width="30" height="90" class="bar-red"/> <!-- Divorces: ~1.1M -->
+  <!-- 2000 -->
+  <rect x="400" y="140" width="30" height="120" class="bar-blue"/> <!-- Marriages: ~2.0M -->
+  <rect x="435" y="200" width="30" height="60" class="bar-red"/> <!-- Divorces: ~1.0M -->
+
+  <!-- Legend for top chart -->
+  <rect x="480" y="100" width="100" height="50" class="legend-box"/>
+  <rect x="490" y="110" width="15" height="15" class="bar-blue"/>
+  <text x="510" y="122" class="legend-text">Marriages</text>
+  <rect x="490" y="130" width="15" height="15" class="bar-red"/>
+  <text x="510" y="142" class="legend-text">Divorces</text>
+
+  <!-- Bottom Chart: Marital status of adult Americans, 1970 and 2000 -->
+  <text x="300" y="430" class="title">Marital status of adult Americans,</text>
+  <text x="300" y="450" class="title">1970 and 2000</text>
+
+  <!-- Y-axis labels for bottom chart -->
+  <text x="20" y="520" class="label" transform="rotate(-90,20,520)">Percentages of adults</text>
+  <line x1="60" y1="480" x2="550" y2="480" class="grid"/>
+  <line x1="60" y1="520" x2="550" y2="520" class="grid"/>
+  <line x1="60" y1="560" x2="550" y2="560" class="grid"/>
+  <line x1="60" y1="600" x2="550" y2="600" class="grid"/>
+  <line x1="60" y1="640" x2="550" y2="640" class="grid"/>
+  <line x1="60" y1="680" x2="550" y2="680" class="grid"/>
+  <line x1="60" y1="720" x2="550" y2="720" class="grid"/>
+  <text x="50" y="725" class="label">0</text>
+  <text x="50" y="685" class="label">10</text>
+  <text x="50" y="645" class="label">20</text>
+  <text x="50" y="605" class="label">30</text>
+  <text x="50" y="565" class="label">40</text>
+  <text x="50" y="525" class="label">50</text>
+  <text x="50" y="485" class="label">60</text>
+  <text x="50" y="445" class="label">70</text>
+  <text x="50" y="405" class="label">80</text>
+
+  <!-- X-axis labels for bottom chart -->
+  <text x="100" y="760" class="axis-label">Never Married</text>
+  <text x="250" y="760" class="axis-label">Married</text>
+  <text x="400" y="760" class="axis-label">Widowed</text>
+  <text x="550" y="760" class="axis-label">Divorced</text>
+
+  <!-- Bars for bottom chart -->
+  <!-- Never Married -->
+  <rect x="80" y="640" width="20" height="40" class="bar-blue"/> <!-- 1970: ~16% -->
+  <rect x="105" y="600" width="20" height="80" class="bar-darkgray"/> <!-- 2000: ~20% -->
+  <!-- Married -->
+  <rect x="230" y="480" width="20" height="160" class="bar-blue"/> <!-- 1970: ~70% -->
+  <rect x="255" y="520" width="20" height="120" class="bar-darkgray"/> <!-- 2000: ~60% -->
+  <!-- Widowed -->
+  <rect x="380" y="680" width="20" height="20" class="bar-blue"/> <!-- 1970: ~8% -->
+  <rect x="405" y="700" width="20" height="20" class="bar-darkgray"/> <!-- 2000: ~6% -->
+  <!-- Divorced -->
+  <rect x="530" y="720" width="20" height="10" class="bar-blue"/> <!-- 1970: ~3% -->
+  <rect x="555" y="680" width="20" height="50" class="bar-darkgray"/> <!-- 2000: ~10% -->
+
+  <!-- Legend for bottom chart -->
+  <rect x="480" y="500" width="100" height="50" class="legend-box"/>
+  <rect x="490" y="510" width="15" height="15" class="bar-blue"/>
+  <text x="510" y="522" class="legend-text">1970</text>
+  <rect x="490" y="530" width="15" height="15" class="bar-darkgray"/>
+  <text x="510" y="542" class="legend-text">2000</text>
+</svg>

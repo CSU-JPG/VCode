@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#8dd3c7"/>
+  <rect x="0" y="0" width="1000" height="500" fill="#e6e6e6"/>
+  <rect x="50" y="50" width="900" height="400" fill="#f0f0f0"/>
+  <polygon points="0,500 1000,500 800,300 200,300" fill="#d2b48c"/>
+  <polygon points="100,450 900,450 750,350 250,350" fill="#cd853f"/>
+  <circle cx="500" cy="350" r="50" fill="#ffffff"/>
+  <rect x="450" y="300" width="100" height="100" fill="#ffffff"/>
+  <polygon points="400,350 500,350 450,400" fill="#ffffff"/>
+  <polygon points="500,350 600,350 550,400" fill="#ffffff"/>
+  <rect x="100" y="100" width="80" height="120" fill="#d2b48c"/>
+  <rect x="820" y="100" width="80" height="120" fill="#d2b48c"/>
+  <rect x="300" y="80" width="100" height="150" fill="#d2b48c"/>
+  <rect x="600" y="80" width="100" height="150" fill="#d2b48c"/>
+  <rect x="450" y="50" width="100" height="180" fill="#d2b48c"/>
+  <rect x="480" y="100" width="40" height="80" fill="#ffffff"/>
+  <rect x="120" y="120" width="40" height="80" fill="#ffffff"/>
+  <rect x="840" y="120" width="40" height="80" fill="#ffffff"/>
+  <rect x="320" y="100" width="60" height="100" fill="#ffffff"/>
+  <rect x="620" y="100" width="60" height="100" fill="#ffffff"/>
+</svg>

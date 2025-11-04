@@ -1,0 +1,55 @@
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rectangles for table cells -->
+  <rect x="0" y="0" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="100" y="0" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="200" y="0" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="300" y="0" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="400" y="0" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="0" y="30" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="100" y="30" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="200" y="30" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="300" y="30" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="400" y="30" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="0" y="60" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="100" y="60" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="200" y="60" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="300" y="60" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="400" y="60" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="0" y="90" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="100" y="90" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="200" y="90" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="300" y="90" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="400" y="90" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="0" y="120" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="100" y="120" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="200" y="120" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="300" y="120" width="100" height="30" stroke="black" fill="none"/>
+  <rect x="400" y="120" width="100" height="30" stroke="black" fill="none"/>
+  
+  <!-- Text elements -->
+  <text x="50" y="15" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Revenues</text>
+  <text x="150" y="15" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Company A</text>
+  <text x="250" y="15" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Company B</text>
+  <text x="350" y="15" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Company C</text>
+  <text x="450" y="15" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Company D</text>
+  <text x="50" y="45" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Expenses</text>
+  <text x="150" y="45" font-size="12" text-anchor="middle" dy=".3em">$455,490</text>
+  <text x="250" y="45" font-size="12" text-anchor="middle" dy=".3em">$1,480,500</text>
+  <text x="350" y="45" font-size="12" text-anchor="middle" dy=".3em">$103,950</text>
+  <text x="450" y="45" font-size="12" text-anchor="middle" dy=".3em">$1,054,116</text>
+  <text x="50" y="75" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Gains</text>
+  <text x="150" y="75" font-size="12" text-anchor="middle" dy=".3em">0</text>
+  <text x="250" y="75" font-size="12" text-anchor="middle" dy=".3em">?</text>
+  <text x="350" y="75" font-size="12" text-anchor="middle" dy=".3em">4,725</text>
+  <text x="450" y="75" font-size="12" text-anchor="middle" dy=".3em">8,505</text>
+  <text x="50" y="105" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Losses</text>
+  <text x="150" y="105" font-size="12" text-anchor="middle" dy=".3em">32,760</text>
+  <text x="250" y="105" font-size="12" text-anchor="middle" dy=".3em">0</text>
+  <text x="350" y="105" font-size="12" text-anchor="middle" dy=".3em">5,670</text>
+  <text x="450" y="105" font-size="12" text-anchor="middle" dy=".3em">39,312</text>
+  <text x="50" y="135" font-size="12" text-anchor="middle" dy=".3em" font-weight="bold">Net Income or (Loss)</text>
+  <text x="150" y="135" font-size="12" text-anchor="middle" dy=".3em">32,130</text>
+  <text x="250" y="135" font-size="12" text-anchor="middle" dy=".3em">39,690</text>
+  <text x="350" y="135" font-size="12" text-anchor="middle" dy=".3em">?</text>
+  <text x="450" y="135" font-size="12" text-anchor="middle" dy=".3em">(58,275)</text>
+</svg>

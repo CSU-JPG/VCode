@@ -1,0 +1,35 @@
+<svg viewBox="-50 -50 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="4" markerHeight="4" refX="2" refY="2" orient="auto">
+      <path d="M0,0 L4,2 L0,4 Z" fill="black"/>
+    </marker>
+  </defs>
+  <!-- Axes at B -->
+  <line x1="-50" y1="0" x2="200" y2="0" stroke="black"/>
+  <line x1="0" y1="-50" x2="0" y2="150" stroke="black"/>
+  <!-- Line BC -->
+  <line x1="0" y1="0" x2="-8.68" y2="49.24" stroke="black"/>
+  <!-- Line BA -->
+  <line x1="0" y1="0" x2="42.26" y2="90.63" stroke="black"/>
+  <!-- Line AD -->
+  <line x1="42.26" y1="90.63" x2="180.34" y2="32.02" stroke="black"/>
+  <!-- Axes at A -->
+  <line x1="42.26" y1="90.63" x2="42.26" y2="120" stroke="black"/>
+  <!-- Axes at D -->
+  <line x1="180.34" y1="32.02" x2="200" y2="32.02" stroke="black"/>
+  <!-- Angle indicators -->
+  <path d="M0,10 A10,10 0 0 1 -1.736,9.848" marker-end="url(#arrow)" fill="none" stroke="black"/>
+  <path d="M15,0 A15,15 0 0 1 6.339,13.5945" marker-end="url(#arrow)" fill="none" stroke="black"/>
+  <path d="M42.26,105.63 A15,15 0 0 0 56.0675,84.7695" marker-end="url(#arrow)" fill="none" stroke="black"/>
+  <path d="M195.34,32.02 A15,15 0 0 1 194.1475,37.8805" marker-end="url(#arrow)" fill="none" stroke="black"/>
+  <!-- Text labels -->
+  <text x="-10" y="50" font-size="10">C</text>
+  <text x="0" y="-10" font-size="10">B</text>
+  <text x="45" y="90" font-size="10">A</text>
+  <text x="185" y="30" font-size="10">D</text>
+  <text x="42.26" y="125" font-size="10">N</text>
+  <text x="-5" y="5" font-size="10">10°</text>
+  <text x="10" y="5" font-size="10">65°</text>
+  <text x="45" y="105" font-size="10">67°</text>
+  <text x="190" y="35" font-size="10">θ</text>
+</svg>

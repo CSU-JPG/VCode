@@ -1,0 +1,12 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(20 50 50) scale(0.95)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(40 50 50) scale(0.9)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(60 50 50) scale(0.85)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(80 50 50) scale(0.8)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(100 50 50) scale(0.75)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(120 50 50) scale(0.7)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(140 50 50) scale(0.65)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(160 50 50) scale(0.6)" fill="#4169e1"/>
+  <path d="M50,20 C65,30 65,50 50,60 C35,50 35,30 50,20" transform="rotate(180 50 50) scale(0.55)" fill="#4169e1"/>
+</svg>

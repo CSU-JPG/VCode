@@ -1,0 +1,159 @@
+<svg viewBox="0 0 1080 810" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0%" stop-color="#f5f1ea"/>
+		<stop offset="70%" stop-color="#eee7dd"/>
+		<stop offset="100%" stop-color="#e6dccf"/>
+	</linearGradient>
+	<linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0%" stop-color="#d7b895"/>
+		<stop offset="100%" stop-color="#b48e68"/>
+	</linearGradient>
+	<linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0%" stop-color="#bfe0ff"/>
+		<stop offset="70%" stop-color="#eaf6ff"/>
+		<stop offset="100%" stop-color="#ffffff"/>
+	</linearGradient>
+	<linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+		<stop offset="0%" stop-color="#f8fcff" stop-opacity="0.9"/>
+		<stop offset="100%" stop-color="#b9d5ff" stop-opacity="0.6"/>
+	</linearGradient>
+	<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+		<feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+		<feOffset dx="0" dy="2" result="off"/>
+		<feMerge>
+			<feMergeNode in="off"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<pattern id="planks" width="36" height="10" patternUnits="userSpaceOnUse">
+		<rect width="36" height="10" fill="url(#floorGrad)"/>
+		<path d="M0 0 H36" stroke="#a07e5a" stroke-opacity="0.25"/>
+	</pattern>
+</defs>
+
+<!-- Walls/ceiling base -->
+<rect x="0" y="0" width="1080" height="810" fill="url(#wallGrad)"/>
+
+<!-- Ceiling beams and skylights (stylized) -->
+<g opacity="0.9">
+	<!-- Long diagonal beam -->
+	<polygon points="50,160 1010,15 1040,60 85,210" fill="#e9e6e0" stroke="#d6d2cb"/>
+	<!-- Secondary beam -->
+	<polygon points="220,210 970,70 990,105 245,245" fill="#ece8e2" stroke="#d6d2cb"/>
+	<!-- Tri skylight panes -->
+	<polygon points="520,50 660,20 740,110 600,140" fill="url(#glassGrad)" stroke="#cfd8e6"/>
+	<polygon points="740,110 885,80 930,150 795,185" fill="url(#glassGrad)" stroke="#cfd8e6"/>
+	<polygon points="360,90 505,55 560,115 415,155" fill="url(#glassGrad)" stroke="#cfd8e6"/>
+</g>
+
+<!-- Large right windows -->
+<g transform="skewX(-12)">
+	<rect x="790" y="250" width="300" height="330" fill="url(#skyGrad)" stroke="#cfd8e6" stroke-width="2"/>
+	<!-- muntins -->
+	<g stroke="#e7ecef" stroke-width="6">
+		<line x1="790" y1="300" x2="1090" y2="300"/>
+		<line x1="790" y1="360" x2="1090" y2="360"/>
+		<line x1="790" y1="420" x2="1090" y2="420"/>
+		<line x1="790" y1="480" x2="1090" y2="480"/>
+		<line x1="790" y1="540" x2="1090" y2="540"/>
+		<line x1="840" y1="250" x2="840" y2="580"/>
+		<line x1="895" y1="250" x2="895" y2="580"/>
+		<line x1="950" y1="250" x2="950" y2="580"/>
+		<line x1="1005" y1="250" x2="1005" y2="580"/>
+		<line x1="1060" y1="250" x2="1060" y2="580"/>
+	</g>
+</g>
+
+<!-- Left tall window -->
+<g>
+	<rect x="230" y="315" width="200" height="290" rx="4" fill="url(#skyGrad)" stroke="#cfd8e6" stroke-width="2"/>
+	<g stroke="#e7ecef" stroke-width="6">
+		<line x1="230" y1="380" x2="430" y2="380"/>
+		<line x1="230" y1="445" x2="430" y2="445"/>
+		<line x1="230" y1="510" x2="430" y2="510"/>
+		<line x1="280" y1="315" x2="280" y2="605"/>
+		<line x1="330" y1="315" x2="330" y2="605"/>
+		<line x1="380" y1="315" x2="380" y2="605"/>
+	</g>
+</g>
+
+<!-- Bookshelf wall -->
+<g filter="url(#softShadow)">
+	<rect x="610" y="340" width="360" height="220" fill="#f2f2ef" stroke="#d7d5d1"/>
+	<!-- shelves -->
+	<g stroke="#dcd9d6" stroke-width="6">
+		<line x1="620" y1="385" x2="960" y2="385"/>
+		<line x1="620" y1="430" x2="960" y2="430"/>
+		<line x1="620" y1="475" x2="960" y2="475"/>
+		<line x1="620" y1="520" x2="960" y2="520"/>
+	</g>
+	<!-- books (blocks) -->
+	<g>
+		<rect x="640" y="362" width="18" height="20" fill="#c6a76f"/>
+		<rect x="662" y="362" width="12" height="22" fill="#9c7d56"/>
+		<rect x="678" y="362" width="24" height="22" fill="#b99a6c"/>
+		<rect x="720" y="408" width="14" height="20" fill="#7a6b6a"/>
+		<rect x="738" y="408" width="30" height="22" fill="#a58e7c"/>
+		<rect x="820" y="450" width="22" height="24" fill="#b18e6b"/>
+		<rect x="846" y="450" width="10" height="24" fill="#7f5f43"/>
+		<rect x="860" y="450" width="28" height="24" fill="#c2a078"/>
+		<rect x="760" y="495" width="26" height="22" fill="#cba772"/>
+		<rect x="790" y="495" width="14" height="22" fill="#8a6e53"/>
+		<rect x="808" y="495" width="20" height="22" fill="#a98662"/>
+	</g>
+</g>
+
+<!-- Floor -->
+<polygon points="0,520 1080,430 1080,810 0,810" fill="url(#planks)"/>
+<!-- Floor seams -->
+<g stroke="#916c4b" stroke-opacity="0.35">
+	<line x1="0" y1="560" x2="1080" y2="520"/>
+	<line x1="0" y1="610" x2="1080" y2="580"/>
+	<line x1="0" y1="660" x2="1080" y2="640"/>
+	<line x1="0" y1="710" x2="1080" y2="700"/>
+</g>
+
+<!-- Table (minimal) -->
+<g filter="url(#softShadow)">
+	<rect x="680" y="500" width="240" height="18" rx="3" fill="#3b3b3d"/>
+	<rect x="700" y="515" width="16" height="80" fill="#2e2f31"/>
+	<rect x="880" y="515" width="16" height="80" fill="#2e2f31"/>
+</g>
+
+<!-- Chair (stylized) -->
+<g filter="url(#softShadow)">
+	<path d="M635 520 q40 -20 60 10 l15 40 q10 25 -8 35 l-55 30 q-22 12 -32 -8 l-18 -34 q-8 -16 8 -26 z" fill="#1e2328"/>
+	<rect x="620" y="558" width="20" height="70" fill="#161a1e"/>
+</g>
+
+<!-- Floor couch block (green) -->
+<rect x="730" y="570" width="260" height="60" rx="10" fill="#4aa66a" opacity="0.8" filter="url(#softShadow)"/>
+
+<!-- Standing lamp near shelves -->
+<g filter="url(#softShadow)">
+	<rect x="760" y="440" width="12" height="90" fill="#bfbfc1"/>
+	<rect x="740" y="470" width="50" height="26" rx="6" fill="#a4a5a8"/>
+</g>
+
+<!-- Hanging ceiling lamp -->
+<g filter="url(#softShadow)">
+	<rect x="736" y="120" width="8" height="140" fill="#cfd3d8"/>
+	<ellipse cx="740" cy="275" rx="85" ry="26" fill="#87c28d" stroke="#5aa16a"/>
+	<ellipse cx="740" cy="270" rx="70" ry="12" fill="#e9f7ea" opacity="0.45"/>
+</g>
+
+<!-- Radiators under left window -->
+<g fill="#dfd8cd" stroke="#c4bdb0">
+	<rect x="260" y="600" width="80" height="70" rx="6"/>
+	<rect x="350" y="600" width="70" height="60" rx="6"/>
+</g>
+
+<!-- Red bounding box around lamp -->
+<rect x="645" y="95" width="220" height="190" fill="none" stroke="#e62929" stroke-width="6"/>
+
+<!-- Blue bounding boxes near chair -->
+<rect x="585" y="525" width="125" height="115" fill="none" stroke="#2a68ff" stroke-width="6"/>
+<rect x="640" y="480" width="70" height="35" fill="none" stroke="#2a68ff" stroke-width="6"/>
+
+</svg>

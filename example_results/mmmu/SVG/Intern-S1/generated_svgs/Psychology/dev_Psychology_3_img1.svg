@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  <rect x="0" y="0" width="800" height="30" fill="#f0f0f0"/>
+  <text x="50" y="15" font-size="12" text-anchor="middle" dy="0.3em">Schedule</text>
+  <text x="150" y="15" font-size="12" text-anchor="middle" dy="0.3em">Cat</text>
+  <text x="500" y="15" font-size="12" text-anchor="middle" dy="0.3em">Strategy</text>
+  
+  <rect x="0" y="30" width="800" height="30" fill="#f9f9f9"/>
+  <text x="50" y="45" font-size="12" text-anchor="middle" dy="0.3em">A</text>
+  <text x="150" y="45" font-size="12" text-anchor="middle" dy="0.3em">Tiger</text>
+  <text x="220" y="45" font-size="12" dy="0.3em">1 treat for every 3 minutes of play</text>
+  
+  <rect x="0" y="60" width="800" height="30" fill="white"/>
+  <text x="50" y="75" font-size="12" text-anchor="middle" dy="0.3em">B</text>
+  <text x="150" y="75" font-size="12" text-anchor="middle" dy="0.3em">Tiger</text>
+  <text x="220" y="75" font-size="12" dy="0.3em">1 treat after a random amount of time of play</text>
+  
+  <rect x="0" y="90" width="800" height="30" fill="#f9f9f9"/>
+  <text x="50" y="105" font-size="12" text-anchor="middle" dy="0.3em">C</text>
+  <text x="150" y="105" font-size="12" text-anchor="middle" dy="0.3em">Whiskers</text>
+  <text x="220" y="105" font-size="12" dy="0.3em">1 treat every time play is non-</text>
+  <tspan x="220" dy="1.2em" font-size="12">aggressive</tspan>
+  
+  <rect x="0" y="120" width="800" height="30" fill="white"/>
+  <text x="50" y="135" font-size="12" text-anchor="middle" dy="0.3em">D</text>
+  <text x="150" y="135" font-size="12" text-anchor="middle" dy="0.3em">Whiskers</text>
+  <text x="220" y="135" font-size="12" dy="0.3em">1 treat after a random number of non-</text>
+  <tspan x="220" dy="1.2em" font-size="12">aggressive plays</tspan>
+</svg>

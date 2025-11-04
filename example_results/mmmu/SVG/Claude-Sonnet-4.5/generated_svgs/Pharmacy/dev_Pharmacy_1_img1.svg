@@ -1,0 +1,114 @@
+<svg viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Starting compound (1,2-dichlorobenzene) -->
+  <g id="compound1">
+    <!-- Benzene ring -->
+    <path d="M 40,180 L 60,165 L 60,135 L 40,120 L 20,135 L 20,165 Z" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M 55,168 L 55,132" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Cl substituents -->
+    <text x="8" y="125" font-family="Arial" font-size="16" font-weight="bold">Cl</text>
+    <text x="8" y="185" font-family="Arial" font-size="16" font-weight="bold">Cl</text>
+  </g>
+
+  <!-- Glutaric anhydride reagent -->
+  <g id="reagent1">
+    <!-- Five-membered ring -->
+    <ellipse cx="170" cy="50" rx="15" ry="20" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="155" y1="50" x2="155" y2="65" stroke="black" stroke-width="2"/>
+    <line x1="185" y1="50" x2="185" y2="65" stroke="black" stroke-width="2"/>
+    <line x1="155" y1="65" x2="170" y2="70" stroke="black" stroke-width="2"/>
+    <line x1="185" y1="65" x2="170" y2="70" stroke="black" stroke-width="2"/>
+    
+    <!-- Carbonyls -->
+    <text x="152" y="30" font-family="Arial" font-size="16">O</text>
+    <line x1="160" y1="35" x2="165" y2="42" stroke="black" stroke-width="2"/>
+    <line x1="162" y1="35" x2="167" y2="42" stroke="black" stroke-width="2"/>
+    
+    <text x="165" y="85" font-family="Arial" font-size="16">O</text>
+    <line x1="170" y1="70" x2="172" y2="75" stroke="black" stroke-width="2"/>
+    <line x1="172" y1="70" x2="174" y2="75" stroke="black" stroke-width="2"/>
+    
+    <!-- O in ring -->
+    <text x="163" y="55" font-family="Arial" font-size="16">O</text>
+    
+    <!-- AlCl3 -->
+    <text x="165" y="110" font-family="Arial" font-size="14" font-weight="bold">AlCl</text>
+    <text x="197" y="114" font-family="Arial" font-size="11">3</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g id="arrow1">
+    <line x1="85" y1="150" x2="215" y2="150" stroke="black" stroke-width="2"/>
+    <polygon points="215,150 205,145 205,155" fill="black"/>
+    <text x="135" y="140" font-family="Arial" font-size="14" fill="blue" font-weight="bold">Step 1</text>
+  </g>
+
+  <!-- Intermediate compound -->
+  <g id="compound2">
+    <!-- Benzene ring -->
+    <path d="M 280,180 L 300,165 L 300,135 L 280,120 L 260,135 L 260,165 Z" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M 295,168 L 295,132" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Cl substituents -->
+    <text x="248" y="125" font-family="Arial" font-size="16" font-weight="bold">Cl</text>
+    <text x="248" y="185" font-family="Arial" font-size="16" font-weight="bold">Cl</text>
+    
+    <!-- Side chain with ketone -->
+    <line x1="300" y1="150" x2="320" y2="150" stroke="black" stroke-width="2"/>
+    <line x1="320" y1="150" x2="330" y2="170" stroke="black" stroke-width="2"/>
+    <line x1="330" y1="170" x2="350" y2="180" stroke="black" stroke-width="2"/>
+    <line x1="350" y1="180" x2="370" y2="170" stroke="black" stroke-width="2"/>
+    
+    <!-- Ketone -->
+    <text x="270" y="205" font-family="Arial" font-size="16">O</text>
+    <line x1="278" y1="195" x2="320" y2="165" stroke="black" stroke-width="2"/>
+    <line x1="280" y1="197" x2="322" y2="167" stroke="black" stroke-width="2"/>
+    
+    <!-- Carboxylic acid -->
+    <text x="265" y="55" font-family="Arial" font-size="16" font-weight="bold">HO</text>
+    <text x="288" y="60" font-family="Arial" font-size="12">2</text>
+    <text x="296" y="55" font-family="Arial" font-size="16" font-weight="bold">C</text>
+    <line x1="308" y1="60" x2="320" y2="80" stroke="black" stroke-width="2"/>
+    <line x1="320" y1="80" x2="330" y2="100" stroke="black" stroke-width="2"/>
+    <line x1="330" y1="100" x2="340" y2="120" stroke="black" stroke-width="2"/>
+    <line x1="340" y1="120" x2="345" y2="140" stroke="black" stroke-width="2"/>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g id="arrow2">
+    <line x1="395" y1="150" x2="475" y2="150" stroke="black" stroke-width="2"/>
+    <polygon points="475,150 465,145 465,155" fill="black"/>
+    <text x="415" y="140" font-family="Arial" font-size="14" fill="blue" font-weight="bold">Step 2</text>
+    
+    <!-- Reagents -->
+    <text x="385" y="115" font-family="Arial" font-size="14" font-weight="bold">NaBH</text>
+    <text x="425" y="119" font-family="Arial" font-size="11">4</text>
+    <text x="385" y="175" font-family="Arial" font-size="14" font-weight="bold">NaOH</text>
+  </g>
+
+  <!-- Final product -->
+  <g id="compound3">
+    <!-- Benzene ring -->
+    <path d="M 530,180 L 550,165 L 550,135 L 530,120 L 510,135 L 510,165 Z" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M 545,168 L 545,132" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Cl substituents -->
+    <text x="498" y="125" font-family="Arial" font-size="16" font-weight="bold">Cl</text>
+    <text x="498" y="185" font-family="Arial" font-size="16" font-weight="bold">Cl</text>
+    
+    <!-- Lactone ring -->
+    <line x1="550" y1="150" x2="570" y2="150" stroke="black" stroke-width="2"/>
+    <line x1="570" y1="150" x2="580" y2="130" stroke="black" stroke-width="2"/>
+    <line x1="580" y1="130" x2="575" y2="110" stroke="black" stroke-width="2"/>
+    <line x1="575" y1="110" x2="560" y2="95" stroke="black" stroke-width="2"/>
+    <line x1="560" y1="95" x2="545" y2="105" stroke="black" stroke-width="2"/>
+    
+    <!-- Carbonyl in lactone -->
+    <text x="530" y="40" font-family="Arial" font-size="16">O</text>
+    <line x1="538" y1="45" x2="550" y2="90" stroke="black" stroke-width="2"/>
+    <line x1="540" y1="45" x2="552" y2="90" stroke="black" stroke-width="2"/>
+    
+    <!-- O in lactone -->
+    <text x="553" y="90" font-family="Arial" font-size="16">O</text>
+  </g>
+</svg>

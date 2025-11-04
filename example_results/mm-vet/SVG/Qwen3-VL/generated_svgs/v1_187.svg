@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="500" fill="#e8d8b8"/>
+  <!-- Left side figures -->
+  <g fill="#f0f0f0">
+    <rect x="30" y="250" width="20" height="120" rx="5"/>
+    <circle cx="40" cy="230" r="10"/>
+    <rect x="150" y="250" width="20" height="120" rx="5"/>
+    <circle cx="160" cy="230" r="10"/>
+    <rect x="270" y="250" width="20" height="120" rx="5"/>
+    <circle cx="280" cy="230" r="10"/>
+  </g>
+  <!-- Central figure in red -->
+  <g fill="#d00000">
+    <rect x="300" y="200" width="40" height="150" rx="5"/>
+    <circle cx="320" cy="180" r="15"/>
+    <rect x="310" y="220" width="20" height="10" rx="2"/>
+  </g>
+  <!-- Right side procession -->
+  <g fill="#e04040">
+    <rect x="500" y="250" width="20" height="100" rx="5"/>
+    <circle cx="510" cy="230" r="10"/>
+    <rect x="540" y="250" width="20" height="100" rx="5"/>
+    <circle cx="550" cy="230" r="10"/>
+    <rect x="580" y="250" width="20" height="100" rx="5"/>
+    <circle cx="590" cy="230" r="10"/>
+    <rect x="620" y="250" width="20" height="100" rx="5"/>
+    <circle cx="630" cy="230" r="10"/>
+    <rect x="660" y="250" width="20" height="100" rx="5"/>
+    <circle cx="670" cy="230" r="10"/>
+    <rect x="700" y="250" width="20" height="100" rx="5"/>
+    <circle cx="710" cy="230" r="10"/>
+    <rect x="740" y="250" width="20" height="100" rx="5"/>
+    <circle cx="750" cy="230" r="10"/>
+    <rect x="780" y="250" width="20" height="100" rx="5"/>
+    <circle cx="790" cy="230" r="10"/>
+    <rect x="820" y="250" width="20" height="100" rx="5"/>
+    <circle cx="830" cy="230" r="10"/>
+    <rect x="860" y="250" width="20" height="100" rx="5"/>
+    <circle cx="870" cy="230" r="10"/>
+  </g>
+  <!-- Central figure in procession -->
+  <g fill="#b06000">
+    <rect x="600" y="200" width="30" height="120" rx="5"/>
+    <circle cx="615" cy="180" r="12"/>
+  </g>
+  <!-- Umbrellas and banners -->
+  <g fill="#408040">
+    <rect x="520" y="100" width="60" height="80" rx="10"/>
+    <rect x="600" y="100" width="60" height="80" rx="10"/>
+    <rect x="680" y="100" width="60" height="80" rx="10"/>
+  </g>
+  <!-- Red banner -->
+  <rect x="850" y="30" width="100" height="40" fill="#d00000"/>
+  <!-- Chinese characters (simplified representation) -->
+  <text x="400" y="50" font-family="serif" font-size="12" fill="#800000">步辇图</text>
+  <!-- Seals (simplified) -->
+  <rect x="50" y="50" width="20" height="20" fill="#d00000" rx="5"/>
+  <rect x="100" y="70" width="20" height="20" fill="#d00000" rx="5"/>
+  <rect x="900" y="300" width="10" height="10" fill="#d00000" rx="2"/>
+  <rect x="920" y="320" width="10" height="10" fill="#d00000" rx="2"/>
+</svg>

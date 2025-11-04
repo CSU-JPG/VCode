@@ -1,0 +1,2 @@
+,know_gen_rec,rec,spat_ocr,math_spat_ocr,spat_rec,ocr,math_ocr,know_rec,ocr_gen_spat_rec,ocr_gen_know_rec,ocr_spat_rec,ocr_rec,know_spat_ocr,know_spat_rec,gen_spat_ocr,ocr_math_spat_rec,total,std,runs
+gpt-4o-mini,2.3,29.2,61.5,63.6,8.3,61.7,44.5,12.2,58.7,48.8,14.3,100.0,0.0,50.0,80.0,0.0,31.1,0.0,[np.float64(31.1)]

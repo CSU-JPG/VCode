@@ -1,0 +1,107 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sofaGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#81C784"/>
+    </linearGradient>
+    <pattern id="herringbone" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#333"/>
+      <path d="M0,0 L5,5 M5,0 L0,5 M10,0 L5,5 M5,0 L10,5" stroke="#FFF" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="woodTexture" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="50%" stop-color="#333"/>
+      <stop offset="100%" stop-color="#222"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1000" fill="#F5F5F5"/>
+
+  <rect x="0" y="0" width="460" height="140" fill="#FFB74D"/>
+  <rect x="460" y="0" width="540" height="710" fill="#FFF"/>
+  <rect x="710" y="0" width="290" height="710" fill="#E3F2FD"/>
+
+  <rect x="0" y="600" width="1000" height="400" fill="#D7CCC8"/>
+
+  <rect x="0" y="600" width="950" height="400" fill="#EEE" stroke="#BBB" stroke-width="1"/>
+
+  <rect x="0" y="600" width="950" height="400" fill="url(#sofaGradient)" rx="30" ry="30"/>
+
+  <rect x="0" y="140" width="80" height="320" fill="url(#herringbone)"/>
+  <rect x="35" y="110" width="300" height="370" fill="#D7CCC8" rx="15" ry="15"/>
+  <path d="M35,110 L335,110 L335,480 L35,480 Z" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M100,150 L270,150 L270,440 L100,440 Z" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M185,150 L185,440" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M100,295 L270,295" fill="none" stroke="#888" stroke-width="1"/>
+
+  <rect x="300" y="230" width="760" height="920" fill="url(#woodTexture)" rx="5" ry="5"/>
+  <rect x="300" y="230" width="760" height="10" fill="#111"/>
+  <rect x="300" y="240" width="760" height="10" fill="#111"/>
+
+  <rect x="470" y="420" width="20" height="300" fill="#111"/>
+  <rect x="550" y="420" width="20" height="300" fill="#111"/>
+  <rect x="650" y="420" width="20" height="300" fill="#111"/>
+  <rect x="730" y="420" width="20" height="300" fill="#111"/>
+
+  <rect x="300" y="700" width="760" height="20" fill="#111"/>
+  <rect x="300" y="900" width="760" height="20" fill="#111"/>
+
+  <rect x="470" y="700" width="20" height="20" fill="#111"/>
+  <rect x="550" y="700" width="20" height="20" fill="#111"/>
+  <rect x="650" y="700" width="20" height="20" fill="#111"/>
+  <rect x="730" y="700" width="20" height="20" fill="#111"/>
+
+  <rect x="470" y="900" width="20" height="20" fill="#111"/>
+  <rect x="550" y="900" width="20" height="20" fill="#111"/>
+  <rect x="650" y="900" width="20" height="20" fill="#111"/>
+  <rect x="730" y="900" width="20" height="20" fill="#111"/>
+
+  <rect x="430" y="235" width="140" height="140" fill="#E64A19" rx="5" ry="5"/>
+  <rect x="430" y="285" width="140" height="140" fill="#E64A19" rx="5" ry="5"/>
+  <text x="445" y="280" font-family="Arial" font-size="30" fill="#FFF">prime</text>
+  <text x="450" y="330" font-family="Arial" font-size="30" fill="#FFF">day</text>
+  <path d="M440,345 Q470,355 500,345" fill="none" stroke="#FFF" stroke-width="2"/>
+
+  <rect x="530" y="240" width="120" height="120" fill="#FFB74D" rx="60" ry="60"/>
+  <rect x="570" y="180" width="20" height="60" fill="#FFB74D" rx="10" ry="10"/>
+  <rect x="500" y="70" width="180" height="150" fill="#FFF8E1" rx="30" ry="30"/>
+  <circle cx="570" cy="270" r="5" fill="#FFD700"/>
+
+  <rect x="460" y="0" width="540" height="710" fill="#FFF"/>
+  <rect x="710" y="0" width="290" height="710" fill="#E3F2FD"/>
+  <rect x="0" y="600" width="1000" height="400" fill="#D7CCC8"/>
+  <rect x="0" y="600" width="950" height="400" fill="#EEE" stroke="#BBB" stroke-width="1"/>
+  <rect x="0" y="600" width="950" height="400" fill="url(#sofaGradient)" rx="30" ry="30"/>
+  <rect x="0" y="140" width="80" height="320" fill="url(#herringbone)"/>
+  <rect x="35" y="110" width="300" height="370" fill="#D7CCC8" rx="15" ry="15"/>
+  <path d="M35,110 L335,110 L335,480 L35,480 Z" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M100,150 L270,150 L270,440 L100,440 Z" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M185,150 L185,440" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M100,295 L270,295" fill="none" stroke="#888" stroke-width="1"/>
+  <rect x="300" y="230" width="760" height="920" fill="url(#woodTexture)" rx="5" ry="5"/>
+  <rect x="300" y="230" width="760" height="10" fill="#111"/>
+  <rect x="300" y="240" width="760" height="10" fill="#111"/>
+  <rect x="470" y="420" width="20" height="300" fill="#111"/>
+  <rect x="550" y="420" width="20" height="300" fill="#111"/>
+  <rect x="650" y="420" width="20" height="300" fill="#111"/>
+  <rect x="730" y="420" width="20" height="300" fill="#111"/>
+  <rect x="300" y="700" width="760" height="20" fill="#111"/>
+  <rect x="300" y="900" width="760" height="20" fill="#111"/>
+  <rect x="470" y="700" width="20" height="20" fill="#111"/>
+  <rect x="550" y="700" width="20" height="20" fill="#111"/>
+  <rect x="650" y="700" width="20" height="20" fill="#111"/>
+  <rect x="730" y="700" width="20" height="20" fill="#111"/>
+  <rect x="470" y="900" width="20" height="20" fill="#111"/>
+  <rect x="550" y="900" width="20" height="20" fill="#111"/>
+  <rect x="650" y="900" width="20" height="20" fill="#111"/>
+  <rect x="730" y="900" width="20" height="20" fill="#111"/>
+  <rect x="430" y="235" width="140" height="140" fill="#E64A19" rx="5" ry="5"/>
+  <rect x="430" y="285" width="140" height="140" fill="#E64A19" rx="5" ry="5"/>
+  <text x="445" y="280" font-family="Arial" font-size="30" fill="#FFF">prime</text>
+  <text x="450" y="330" font-family="Arial" font-size="30" fill="#FFF">day</text>
+  <path d="M440,345 Q470,355 500,345" fill="none" stroke="#FFF" stroke-width="2"/>
+  <rect x="530" y="240" width="120" height="120" fill="#FFB74D" rx="60" ry="60"/>
+  <rect x="570" y="180" width="20" height="60" fill="#FFB74D" rx="10" ry="10"/>
+  <rect x="500" y="70" width="180" height="150" fill="#FFF8E1" rx="30" ry="30"/>
+  <circle cx="570" cy="270" r="5" fill="#FFD700"/>
+</svg>

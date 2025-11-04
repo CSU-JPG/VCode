@@ -1,0 +1,13 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="80" width="480" height="140" rx="10" fill="#f0f0f0" stroke="#ccc" stroke-width="2"/>
+  <rect x="20" y="90" width="460" height="120" rx="5" fill="white" stroke="#999" stroke-width="1"/>
+  <text x="30" y="120" font-family="Arial, sans-serif" font-size="30" font-weight="bold">PORK BELLY</text>
+  <text x="300" y="110" font-family="Arial, sans-serif" font-size="12">Shelf life</text>
+  <text x="300" y="125" font-family="Arial, sans-serif" font-size="12">September 1</text>
+  <line x1="30" y1="135" x2="470" y2="135" stroke="#333" stroke-width="1"/>
+  <rect x="30" y="145" width="100" height="50" fill="black"/>
+  <text x="40" y="180" font-family="Arial, sans-serif" font-size="35" fill="white">30%</text>
+  <text x="95" y="180" font-family="Arial, sans-serif" font-size="25" fill="white">↓</text>
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="50" font-weight="bold">9.80</text>
+  <rect x="25" y="100" width="10" height="20" rx="3" fill="#666"/>
+</svg>

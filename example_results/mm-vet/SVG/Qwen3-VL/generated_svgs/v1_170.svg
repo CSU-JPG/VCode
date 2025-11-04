@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0e6e6"/>
+      <stop offset="100%" stop-color="#e0d6d6"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9acd32"/>
+      <stop offset="100%" stop-color="#6b8e23"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a0dad"/>
+      <stop offset="100%" stop-color="#4b0082"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="800" fill="#333"/>
+  
+  <!-- Face -->
+  <ellipse cx="500" cy="400" rx="220" ry="280" fill="url(#skin)"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="380" cy="400" rx="40" ry="30" fill="black"/>
+  <ellipse cx="520" cy="400" rx="40" ry="30" fill="black"/>
+  
+  <!-- Eyebrows -->
+  <path d="M330 350 Q380 330 420 350" stroke="black" stroke-width="8" fill="none"/>
+  <path d="M500 350 Q550 330 590 350" stroke="black" stroke-width="8" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M360 550 Q500 650 640 550" stroke="#ff4500" stroke-width="20" fill="none"/>
+  <path d="M370 560 Q500 640 630 560" fill="#ff4500"/>
+  
+  <!-- Teeth -->
+  <rect x="420" y="590" width="20" height="10" fill="yellow"/>
+  <rect x="445" y="590" width="20" height="10" fill="yellow"/>
+  <rect x="470" y="590" width="20" height="10" fill="yellow"/>
+  <rect x="495" y="590" width="20" height="10" fill="yellow"/>
+  <rect x="520" y="590" width="20" height="10" fill="yellow"/>
+  
+  <!-- Hair -->
+  <path d="M250 10 Q350 50 400 10 Q450 50 500 10 Q550 50 600 10 Q650 50 700 10 Q750 50 800 10 Q850 50 900 10 Q950 50 1000 10" fill="url(#hair)"/>
+  <path d="M250 10 Q300 100 350 50 Q400 150 450 100 Q500 200 550 150 Q600 250 650 200 Q700 300 750 250 Q800 350 850 300 Q900 400 950 350 Q1000 450 1050 400" fill="url(#hair)"/>
+  
+  <!-- Coat -->
+  <rect x="100" y="400" width="800" height="400" fill="url(#coat)"/>
+  
+  <!-- Glove -->
+  <path d="M0 600 Q50 650 100 600 Q150 650 200 600 Q250 650 300 600" fill="#4b0082"/>
+  
+  <!-- Card -->
+  <rect x="70" y="410" width="120" height="180" fill="white" stroke="black" stroke-width="2"/>
+  <text x="80" y="440" font-family="Arial" font-size="12" fill="black">JOKER</text>
+  <text x="170" y="580" font-family="Arial" font-size="12" fill="black" transform="rotate(90 170,580)">JOKER</text>
+  
+  <!-- Joker on card -->
+  <path d="M110 460 Q120 450 130 460 Q140 450 150 460" fill="purple"/>
+  <path d="M110 460 Q115 470 120 460 Q125 470 130 460 Q135 470 140 460 Q145 470 150 460" fill="yellow"/>
+  <path d="M115 480 Q120 475 125 480 Q130 475 135 480 Q140 475 145 480" fill="purple"/>
+  <path d="M120 500 Q125 495 130 500 Q135 495 140 500" fill="black"/>
+  <path d="M125 520 Q130 515 135 520" fill="black"/>
+</svg>

@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f0f0f0"/>
+  
+  <!-- Classroom elements -->
+  <rect x="50" y="50" width="80" height="100" fill="#d0d0d0" stroke="#888"/>
+  <rect x="170" y="240" width="60" height="80" fill="#e0e0e0" stroke="#888"/>
+  <rect x="240" y="240" width="60" height="80" fill="#e0e0e0" stroke="#888"/>
+  
+  <!-- Desks and chairs -->
+  <g>
+    <rect x="100" y="450" width="250" height="80" rx="10" fill="#f5d79b" stroke="#333"/>
+    <rect x="100" y="490" width="250" height="5" fill="#333"/>
+    <polygon points="100,490 120,550 350,550 330,490" fill="#333"/>
+    <circle cx="150" cy="520" r="10" fill="#333"/>
+    <circle cx="300" cy="520" r="10" fill="#333"/>
+  </g>
+  
+  <g>
+    <rect x="400" y="550" width="250" height="80" rx="10" fill="#f5d79b" stroke="#333"/>
+    <rect x="400" y="590" width="250" height="5" fill="#333"/>
+    <polygon points="400,590 420,650 650,650 630,590" fill="#333"/>
+    <circle cx="450" cy="620" r="10" fill="#333"/>
+    <circle cx="600" cy="620" r="10" fill="#333"/>
+  </g>
+  
+  <g>
+    <rect x="700" y="450" width="250" height="80" rx="10" fill="#f5d79b" stroke="#333"/>
+    <rect x="700" y="490" width="250" height="5" fill="#333"/>
+    <polygon points="700,490 720,550 950,550 930,490" fill="#333"/>
+    <circle cx="750" cy="520" r="10" fill="#333"/>
+    <circle cx="900" cy="520" r="10" fill="#333"/>
+  </g>
+  
+  <g>
+    <rect x="400" y="350" width="250" height="80" rx="10" fill="#f5d79b" stroke="#333"/>
+    <rect x="400" y="390" width="250" height="5" fill="#333"/>
+    <polygon points="400,390 420,450 650,450 630,390" fill="#333"/>
+    <circle cx="450" cy="420" r="10" fill="#333"/>
+    <circle cx="600" cy="420" r="10" fill="#333"/>
+  </g>
+  
+  <g>
+    <rect x="100" y="350" width="250" height="80" rx="10" fill="#f5d79b" stroke="#333"/>
+    <rect x="100" y="390" width="250" height="5" fill="#333"/>
+    <polygon points="100,390 120,450 350,450 330,390" fill="#333"/>
+    <circle cx="150" cy="420" r="10" fill="#333"/>
+    <circle cx="300" cy="420" r="10" fill="#333"/>
+  </g>
+  
+  <!-- Chairs -->
+  <rect x="150" y="420" width="80" height="40" rx="10" fill="#8dd35f" stroke="#333"/>
+  <rect x="350" y="460" width="80" height="40" rx="10" fill="#8dd35f" stroke="#333"/>
+  <rect x="450" y="520" width="80" height="40" rx="10" fill="#8dd35f" stroke="#333"/>
+  <rect x="650" y="560" width="80" height="40" rx="10" fill="#8dd35f" stroke="#333"/>
+  <rect x="750" y="420" width="80" height="40" rx="10" fill="#8dd35f" stroke="#333"/>
+  <rect x="950" y="460" width="80" height="40" rx="10" fill="#8dd35f" stroke="#333"/>
+  <rect x="800" y="700" width="80" height="40" rx="10" fill="#8dd35f" stroke="#333"/>
+  
+  <!-- Whiteboard area -->
+  <rect x="400" y="50" width="550" height="250" fill="#fff" stroke="#333"/>
+  <circle cx="620" cy="90" r="30" fill="#fff" stroke="#333"/>
+  <circle cx="680" cy="90" r="30" fill="#fff" stroke="#333"/>
+  <rect x="850" y="70" width="80" height="40" fill="#ffd0d0" stroke="#333"/>
+  <rect x="680" y="180" width="60" height="40" fill="#fff" stroke="#333"/>
+  <rect x="750" y="180" width="60" height="40" fill="#fff" stroke="#333"/>
+  
+  <!-- Bulletin board (blue box) -->
+  <rect x="320" y="80" width="200" height="200" fill="#4a90e2" stroke="#333" stroke-width="3"/>
+  <rect x="340" y="100" width="160" height="160" fill="#fff" stroke="#333"/>
+  <rect x="330" y="90" width="180" height="180" fill="none" stroke="blue" stroke-width="4"/>
+  
+  <!-- Green bottle (red box) -->
+  <rect x="450" y="500" width="40" height="120" rx="5" fill="#4caf50" stroke="#333"/>
+  <rect x="445" y="495" width="50" height="130" fill="none" stroke="red" stroke-width="3"/>
+  
+  <!-- Other items on desks -->
+  <rect x="150" y="460" width="120" height="20" rx="5" fill="#66bb6a" stroke="#333"/>
+  <rect x="280" y="520" width="20" height="80" rx="5" fill="#333" stroke="#333"/>
+  <rect x="620" y="520" width="20" height="80" rx="5" fill="#ff5252" stroke="#333"/>
+  <rect x="810" y="460" width="20" height="80" rx="5" fill="#42a5f5" stroke="#333"/>
+  
+  <!-- Books on desk -->
+  <rect x="520" y="650" width="150" height="30" rx="5" fill="#333" stroke="#333"/>
+  <rect x="520" y="680" width="150" height="30" rx="5" fill="#2c3e50" stroke="#333"/>
+  <rect x="520" y="710" width="150" height="30" rx="5" fill="#1a237e" stroke="#333"/>
+  
+  <!-- Book cover details -->
+  <rect x="530" y="660" width="130" height="20" fill="#ffc107" stroke="#333"/>
+  <rect x="540" y="670" width="110" height="10" fill="#2196f3" stroke="#333"/>
+</svg>

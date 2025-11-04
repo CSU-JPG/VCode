@@ -1,0 +1,19 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="black"/>
+    </marker>
+  </defs>
+  <circle cx="100" cy="100" r="20" stroke="black" fill="none"/>
+  <text x="95" y="95" font-size="12">+</text>
+  <text x="105" y="105" font-size="12">-</text>
+  <text x="80" y="120" font-size="14">v_C</text>
+  <line x1="200" y1="100" x2="200" y2="150" stroke="black"/>
+  <line x1="210" y1="100" x2="210" y2="150" stroke="black"/>
+  <text x="220" y="125" font-size="14">C=10^{-5} F</text>
+  <path d="M 230 100 L 230 150" stroke="black" marker-end="url(#arrow)"/>
+  <text x="235" y="125" font-size="14">i</text>
+  <line x1="120" y1="100" x2="200" y2="100" stroke="black"/>
+  <line x1="200" y1="150" x2="80" y2="150" stroke="black"/>
+  <line x1="80" y1="150" x2="80" y2="100" stroke="black"/>
+</svg>

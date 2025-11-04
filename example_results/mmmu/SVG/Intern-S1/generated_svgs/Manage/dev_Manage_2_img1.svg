@@ -1,0 +1,54 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="white"/>
+  <line x1="100" y1="100" x2="100" y2="600" stroke="black"/>
+  <line x1="100" y1="600" x2="500" y2="600" stroke="black"/>
+  <line x1="100" y1="600" x2="500" y2="600" stroke="black"/>
+  <line x1="100" y1="528.57" x2="500" y2="528.57" stroke="black" stroke-dasharray="2,2"/>
+  <line x1="100" y1="457.14" x2="500" y2="457.14" stroke="black" stroke-dasharray="2,2"/>
+  <line x1="100" y1="385.71" x2="500" y2="385.71" stroke="black" stroke-dasharray="2,2"/>
+  <line x1="100" y1="314.29" x2="500" y2="314.29" stroke="black" stroke-dasharray="2,2"/>
+  <line x1="100" y1="242.86" x2="500" y2="242.86" stroke="black" stroke-dasharray="2,2"/>
+  <line x1="100" y1="171.43" x2="500" y2="171.43" stroke="black" stroke-dasharray="2,2"/>
+  <line x1="100" y1="100" x2="500" y2="100" stroke="black"/>
+  <text x="90" y="600" text-anchor="end" font-size="12">0</text>
+  <text x="90" y="528.57" text-anchor="end" font-size="12">2</text>
+  <text x="90" y="457.14" text-anchor="end" font-size="12">4</text>
+  <text x="90" y="385.71" text-anchor="end" font-size="12">6</text>
+  <text x="90" y="314.29" text-anchor="end" font-size="12">8</text>
+  <text x="90" y="242.86" text-anchor="end" font-size="12">10</text>
+  <text x="90" y="171.43" text-anchor="end" font-size="12">12</text>
+  <text x="90" y="100" text-anchor="end" font-size="12">14</text>
+  <text x="100" y="620" text-anchor="middle" font-size="12">June</text>
+  <text x="200" y="620" text-anchor="middle" font-size="12">July</text>
+  <text x="300" y="620" text-anchor="middle" font-size="12">August</text>
+  <text x="400" y="620" text-anchor="middle" font-size="12">September</text>
+  <text x="500" y="620" text-anchor="middle" font-size="12">October</text>
+  <path d="M100,153.57 L200,142.86 L300,171.43 L400,207.14 L500,171.43" stroke="black" fill="none"/>
+  <polygon points="100,148.57 105,153.57 100,158.57 95,153.57" fill="black"/>
+  <polygon points="200,137.86 205,142.86 200,147.86 195,142.86" fill="black"/>
+  <polygon points="300,166.43 305,171.43 300,176.43 295,171.43" fill="black"/>
+  <polygon points="400,202.14 405,207.14 400,212.14 395,207.14" fill="black"/>
+  <polygon points="500,166.43 505,171.43 500,176.43 495,171.43" fill="black"/>
+  <path d="M100,296.43 L200,285.71 L300,285.71 L400,296.43 L500,303.57" stroke="black" fill="none"/>
+  <rect x="97.5" y="293.93" width="5" height="5" fill="black"/>
+  <rect x="197.5" y="283.21" width="5" height="5" fill="black"/>
+  <rect x="297.5" y="283.21" width="5" height="5" fill="black"/>
+  <rect x="397.5" y="293.93" width="5" height="5" fill="black"/>
+  <rect x="497.5" y="301.07" width="5" height="5" fill="black"/>
+  <path d="M100,332.14 L200,350 L300,367.86 L400,375 L500,367.86" stroke="black" fill="none"/>
+  <polygon points="100,327.14 104,337.14 96,337.14" fill="black"/>
+  <polygon points="200,345 204,355 196,355" fill="black"/>
+  <polygon points="300,362.86 304,372.86 296,372.86" fill="black"/>
+  <polygon points="400,370 404,380 396,380" fill="black"/>
+  <polygon points="500,362.86 504,372.86 496,372.86" fill="black"/>
+  <path d="M100,457.14 L200,457.14 L300,457.14 L400,457.14 L500,464.29" stroke="black" fill="none"/>
+  <circle cx="100" cy="457.14" r="3" fill="black"/>
+  <circle cx="200" cy="457.14" r="3" fill="black"/>
+  <circle cx="300" cy="457.14" r="3" fill="black"/>
+  <circle cx="400" cy="457.14" r="3" fill="black"/>
+  <circle cx="500" cy="464.29" r="3" fill="black"/>
+  <text x="520" y="171.43" font-size="12">Less than a high school diploma</text>
+  <text x="520" y="303.57" font-size="12">High school diploma, no college</text>
+  <text x="520" y="367.86" font-size="12">Some college</text>
+  <text x="520" y="464.29" font-size="12">Bachelor's degree and higher</text>
+</svg>

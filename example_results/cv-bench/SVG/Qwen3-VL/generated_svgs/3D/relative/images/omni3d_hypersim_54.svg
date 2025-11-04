@@ -1,0 +1,38 @@
+<svg viewBox="-50 -50 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+  
+  <!-- TV in blue box -->
+  <rect x="190" y="460" width="120" height="80" fill="black" stroke="blue" stroke-width="4"/>
+  
+  <!-- Living room furniture in green box -->
+  <rect x="300" y="580" width="450" height="200" fill="none" stroke="green" stroke-width="4"/>
+  
+  <!-- Table and chairs -->
+  <rect x="0" y="600" width="350" height="150" fill="#8B4513" stroke="black"/>
+  <rect x="100" y="670" width="100" height="100" fill="#F5F5DC" stroke="black"/>
+  <rect x="250" y="670" width="100" height="100" fill="#F5F5DC" stroke="black"/>
+  <rect x="400" y="650" width="100" height="100" fill="#F5F5DC" stroke="black"/>
+  <rect x="550" y="650" width="100" height="100" fill="#F5F5DC" stroke="black"/>
+  
+  <!-- Sofa -->
+  <rect x="400" y="600" width="250" height="100" fill="#D2B48C" stroke="black"/>
+  <rect x="500" y="600" width="150" height="80" fill="#D2B48C" stroke="black"/>
+  
+  <!-- Chairs -->
+  <rect x="0" y="700" width="100" height="100" fill="#F5F5DC" stroke="black"/>
+  <rect x="350" y="700" width="100" height="100" fill="#F5F5DC" stroke="black"/>
+  
+  <!-- Stairs -->
+  <polygon points="550,0 900,0 900,300 550,300" fill="#333" stroke="black"/>
+  
+  <!-- Windows -->
+  <rect x="400" y="350" width="400" height="150" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Plants -->
+  <circle cx="850" cy="650" r="20" fill="green"/>
+  <circle cx="320" cy="550" r="15" fill="green"/>
+  
+  <!-- Pictures on wall -->
+  <rect x="850" y="500" width="50" height="70" fill="white" stroke="black"/>
+  <rect x="920" y="500" width="50" height="70" fill="white" stroke="black"/>
+</svg>

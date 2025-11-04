@@ -1,0 +1,92 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="900" fill="#f5f5dc"/>
+  
+  <!-- Map border -->
+  <rect x="50" y="50" width="700" height="550" fill="#e8e8d8" stroke="#333" stroke-width="3"/>
+  <rect x="60" y="60" width="680" height="530" fill="none" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Water bodies -->
+  <path d="M 60 80 Q 150 75 200 90 L 200 150 Q 180 140 150 145 Q 120 150 100 130 Z" fill="#d4e8f0" stroke="#666" stroke-width="0.5"/>
+  <text x="130" y="120" font-family="serif" font-size="10" fill="#555" font-style="italic">BRITISH CHANNEL</text>
+  
+  <path d="M 60 400 L 150 420 Q 180 440 160 480 L 100 520 Q 70 500 60 470 Z" fill="#d4e8f0" stroke="#666" stroke-width="0.5"/>
+  <text x="90" y="460" font-family="serif" font-size="9" fill="#555" font-style="italic">BAY OF</text>
+  <text x="85" y="472" font-family="serif" font-size="9" fill="#555" font-style="italic">BISCAY</text>
+  
+  <path d="M 400 550 Q 500 560 600 540 L 650 520 Q 680 500 700 520 L 720 550 L 600 580 Q 500 590 400 580 Z" fill="#d4e8f0" stroke="#666" stroke-width="0.5"/>
+  <text x="530" y="565" font-family="serif" font-size="10" fill="#555" font-style="italic">MEDITERRANEAN SEA</text>
+  
+  <!-- France mainland with departments grid -->
+  <g stroke="#888" stroke-width="0.3" fill="none">
+    <!-- Vertical lines -->
+    <line x1="200" y1="100" x2="220" y2="500"/>
+    <line x1="250" y1="90" x2="270" y2="520"/>
+    <line x1="300" y1="85" x2="320" y2="540"/>
+    <line x1="350" y1="80" x2="370" y2="550"/>
+    <line x1="400" y1="85" x2="420" y2="540"/>
+    <line x1="450" y1="90" x2="470" y2="530"/>
+    <line x1="500" y1="100" x2="520" y2="520"/>
+    <line x1="550" y1="110" x2="570" y2="510"/>
+    <line x1="600" y1="120" x2="620" y2="500"/>
+    <line x1="650" y1="130" x2="670" y2="490"/>
+    
+    <!-- Horizontal lines -->
+    <line x1="180" y1="120" x2="680" y2="140"/>
+    <line x1="170" y1="160" x2="690" y2="180"/>
+    <line x1="165" y1="200" x2="695" y2="220"/>
+    <line x1="160" y1="240" x2="700" y2="260"/>
+    <line x1="160" y1="280" x2="700" y2="300"/>
+    <line x1="165" y1="320" x2="695" y2="340"/>
+    <line x1="170" y1="360" x2="690" y2="380"/>
+    <line x1="180" y1="400" x2="680" y2="420"/>
+    <line x1="200" y1="440" x2="660" y2="460"/>
+    <line x1="230" y1="480" x2="630" y2="500"/>
+  </g>
+  
+  <!-- Rivers -->
+  <path d="M 400 100 Q 380 200 360 300 Q 340 400 300 480" stroke="#a0c8d8" stroke-width="1.5" fill="none"/>
+  <path d="M 600 150 Q 560 250 520 350 Q 480 450 440 520" stroke="#a0c8d8" stroke-width="1.5" fill="none"/>
+  
+  <!-- Department names (sample) -->
+  <g font-family="serif" font-size="7" fill="#444">
+    <text x="230" y="150">CALVADOS</text>
+    <text x="320" y="170">EURE</text>
+    <text x="280" y="220">SARTHE</text>
+    <text x="350" y="240">PARIS</text>
+    <text x="420" y="200">MARNE</text>
+    <text x="290" y="280">INDRE</text>
+    <text x="380" y="320">NIEVRE</text>
+    <text x="460" y="340">JURA</text>
+    <text x="250" y="360">VIENNE</text>
+    <text x="340" y="400">CREUSE</text>
+    <text x="450" y="420">RHONE</text>
+    <text x="280" y="450">DORDOGNE</text>
+    <text x="380" y="480">LOT</text>
+    <text x="500" y="490">PROVENCE</text>
+  </g>
+  
+  <!-- Cartouche -->
+  <rect x="90" y="280" width="120" height="140" fill="#f8f8f0" stroke="#333" stroke-width="1.5"/>
+  <text x="150" y="310" font-family="serif" font-size="11" text-anchor="middle" font-weight="bold">A NEW MAP</text>
+  <text x="150" y="328" font-family="serif" font-size="11" text-anchor="middle">of</text>
+  <text x="150" y="346" font-family="serif" font-size="13" text-anchor="middle" font-weight="bold">FRANCE</text>
+  <text x="150" y="364" font-family="serif" font-size="9" text-anchor="middle">Divided into</text>
+  <text x="150" y="380" font-family="serif" font-size="10" text-anchor="middle" font-weight="bold">EIGHTY THREE DEPARTMENTS</text>
+  <text x="150" y="395" font-family="serif" font-size="8" text-anchor="middle">According to the decree</text>
+  <text x="150" y="407" font-family="serif" font-size="8" text-anchor="middle">of the NATIONAL ASSEMBLY</text>
+  <text x="150" y="419" font-family="serif" font-size="8" text-anchor="middle">in 1790</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="710" cy="560" r="25" fill="#f8f8f0" stroke="#333" stroke-width="1"/>
+  <path d="M 710 540 L 720 550 L 710 560 L 700 550 Z" fill="none" stroke="#333" stroke-width="1"/>
+  
+  <!-- Scale indicator -->
+  <line x1="100" y1="560" x2="200" y2="560" stroke="#333" stroke-width="2"/>
+  <text x="150" y="575" font-family="serif" font-size="8" text-anchor="middle">Scale</text>
+  
+  <!-- Title below map -->
+  <text x="400" y="680" font-family="serif" font-size="26" text-anchor="middle" font-style="italic">A new map of France, divided into 83 departments,</text>
+  <text x="400" y="720" font-family="serif" font-size="26" text-anchor="middle" font-style="italic">according to the decree of the National Assembly in</text>
+  <text x="400" y="760" font-family="serif" font-size="26" text-anchor="middle" font-style="italic">1790</text>
+</svg>

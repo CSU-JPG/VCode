@@ -1,0 +1,202 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe1ef"/>
+      <stop offset="70%" stop-color="#e9f0f7"/>
+      <stop offset="100%" stop-color="#f4f6fb"/>
+    </linearGradient>
+
+    <pattern id="brick" patternUnits="userSpaceOnUse" width="24" height="12">
+      <rect width="24" height="12" fill="#a9533a"/>
+      <path d="M0 6 H24" stroke="#f3d7c7" stroke-width="1"/>
+      <path d="M6 0 V12 M18 0 V12" stroke="#e7c4b0" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="cobble" patternUnits="userSpaceOnUse" width="28" height="28">
+      <rect width="28" height="28" fill="#d8cfba"/>
+      <ellipse cx="8" cy="6" rx="5" ry="3" fill="#bdb39f"/>
+      <ellipse cx="20" cy="10" rx="6" ry="3" fill="#c7beaa"/>
+      <ellipse cx="12" cy="18" rx="6" ry="3" fill="#bdb39f"/>
+      <ellipse cx="3" cy="22" rx="5" ry="3" fill="#c7beaa"/>
+      <ellipse cx="25" cy="22" rx="4" ry="2.5" fill="#b4aa95"/>
+    </pattern>
+
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9c9ab"/>
+      <stop offset="100%" stop-color="#b7a382"/>
+    </linearGradient>
+
+    <linearGradient id="slate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8ea1b4"/>
+      <stop offset="100%" stop-color="#667887"/>
+    </linearGradient>
+
+    <symbol id="merlon" viewBox="0 0 20 20">
+      <rect x="0" y="0" width="20" height="12" fill="#8a3f2e" stroke="#6e2f23" stroke-width="1"/>
+    </symbol>
+
+    <symbol id="buttress" viewBox="0 0 30 220">
+      <polygon points="10,0 20,0 30,20 30,220 0,220 0,20" fill="url(#stone)" stroke="#8e7b60" stroke-width="1"/>
+      <rect x="4" y="160" width="22" height="10" fill="#cfb48e"/>
+    </symbol>
+
+    <symbol id="tallWindow" viewBox="0 0 40 150">
+      <path d="M6,150 V30 Q20,10 34,30 V150 Z" fill="#2a3d55" opacity="0.7" stroke="#d6c5a2" stroke-width="3"/>
+      <line x1="20" y1="30" x2="20" y2="150" stroke="#cdb48b" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="smallWin" viewBox="0 0 40 28">
+      <rect x="2" y="2" width="36" height="24" rx="2" ry="2" fill="#2a3d55" opacity="0.8" stroke="#d9c6a6" stroke-width="3"/>
+      <line x1="2" y1="14" x2="38" y2="14" stroke="#cdb48b" stroke-width="2"/>
+    </symbol>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1000" height="650" fill="url(#skyGrad)"/>
+
+  <!-- Ground / Courtyard -->
+  <path d="M0,450 L1000,450 L1000,650 L0,650 Z" fill="url(#cobble)"/>
+
+  <!-- Right Great Hall -->
+  <g id="rightHall">
+    <rect x="440" y="170" width="520" height="340" fill="url(#brick)" stroke="#7e3a2a" stroke-width="2"/>
+    <!-- Roof with spires -->
+    <path d="M440,170 L960,170 L960,160 L952,160 L942,150 L932,160 L922,150 L912,160 L902,150 L892,160 L882,150 L872,160 L862,150 L852,160 L842,150 L832,160 L822,150 L812,160 L802,150 L792,160 L782,150 L772,160 L762,150 L752,160 L742,150 L732,160 L722,150 L712,160 L702,150 L692,160 L682,150 L672,160 L662,150 L652,160 L642,150 L632,160 L622,150 L612,160 L602,150 L592,160 L582,150 L572,160 L562,150 L552,160 L542,150 L532,160 L522,150 L512,160 L502,150 L492,160 L482,150 L472,160 L462,150 L452,160 L440,160 Z" fill="url(#slate)" stroke="#586472" stroke-width="2"/>
+    <!-- Buttresses -->
+    <g transform="translate(455,170)">
+      <use href="#buttress" x="0" y="0"/>
+      <use href="#buttress" x="55" y="0"/>
+      <use href="#buttress" x="110" y="0"/>
+      <use href="#buttress" x="165" y="0"/>
+      <use href="#buttress" x="220" y="0"/>
+      <use href="#buttress" x="275" y="0"/>
+      <use href="#buttress" x="330" y="0"/>
+      <use href="#buttress" x="385" y="0"/>
+      <use href="#buttress" x="440" y="0"/>
+      <use href="#buttress" x="495" y="0"/>
+    </g>
+    <!-- Tall windows between buttresses -->
+    <g transform="translate(470,190)">
+      <use href="#tallWindow" x="0" y="0"/>
+      <use href="#tallWindow" x="55" y="0"/>
+      <use href="#tallWindow" x="110" y="0"/>
+      <use href="#tallWindow" x="165" y="0"/>
+      <use href="#tallWindow" x="220" y="0"/>
+      <use href="#tallWindow" x="275" y="0"/>
+      <use href="#tallWindow" x="330" y="0"/>
+      <use href="#tallWindow" x="385" y="0"/>
+      <use href="#tallWindow" x="440" y="0"/>
+    </g>
+    <!-- Lower small windows -->
+    <g transform="translate(465,430)">
+      <use href="#smallWin" x="0" y="0"/>
+      <use href="#smallWin" x="55" y="0"/>
+      <use href="#smallWin" x="110" y="0"/>
+      <use href="#smallWin" x="165" y="0"/>
+      <use href="#smallWin" x="220" y="0"/>
+      <use href="#smallWin" x="275" y="0"/>
+      <use href="#smallWin" x="330" y="0"/>
+      <use href="#smallWin" x="385" y="0"/>
+      <use href="#smallWin" x="440" y="0"/>
+    </g>
+  </g>
+
+  <!-- Left Tudor Range and Gatehouse -->
+  <g id="leftBlock">
+    <!-- Main wall -->
+    <rect x="40" y="200" width="360" height="300" fill="url(#brick)" stroke="#7e3a2a" stroke-width="2"/>
+    <!-- Crenellations -->
+    <g transform="translate(46,180)">
+      <use href="#merlon" x="0" y="0"/>
+      <use href="#merlon" x="28" y="0"/>
+      <use href="#merlon" x="56" y="0"/>
+      <use href="#merlon" x="84" y="0"/>
+      <use href="#merlon" x="112" y="0"/>
+      <use href="#merlon" x="140" y="0"/>
+      <use href="#merlon" x="168" y="0"/>
+      <use href="#merlon" x="196" y="0"/>
+      <use href="#merlon" x="224" y="0"/>
+      <use href="#merlon" x="252" y="0"/>
+      <use href="#merlon" x="280" y="0"/>
+      <use href="#merlon" x="308" y="0"/>
+    </g>
+
+    <!-- Gatehouse tower -->
+    <g id="gatehouse" filter="url(#shadow)">
+      <rect x="220" y="140" width="120" height="360" fill="url(#brick)" stroke="#713525" stroke-width="2"/>
+      <!-- projecting turrets -->
+      <rect x="208" y="160" width="24" height="220" fill="url(#brick)" stroke="#6b3224" stroke-width="2"/>
+      <rect x="340" y="160" width="24" height="220" fill="url(#brick)" stroke="#6b3224" stroke-width="2"/>
+      <!-- arched passage -->
+      <path d="M245,360 Q280,300 315,360 V480 H245 Z" fill="#2a1e16" opacity="0.9" stroke="#cdb48b" stroke-width="3"/>
+      <path d="M252,360 Q280,310 308,360" fill="none" stroke="#d9c6a6" stroke-width="4"/>
+      <!-- clock -->
+      <g transform="translate(280,210)">
+        <circle cx="0" cy="0" r="40" fill="#ead7b2" stroke="#8f7a5b" stroke-width="4"/>
+        <circle cx="0" cy="0" r="30" fill="#37536b" opacity="0.8" stroke="#d8c6a4" stroke-width="3"/>
+        <line x1="0" y1="0" x2="15" y2="-18" stroke="#f1e8cf" stroke-width="3"/>
+        <line x1="0" y1="0" x2="-20" y2="10" stroke="#f1e8cf" stroke-width="2"/>
+        <circle cx="0" cy="0" r="3" fill="#f6f1dc"/>
+      </g>
+      <!-- small windows -->
+      <rect x="258" y="280" width="44" height="28" fill="#2a3d55" opacity="0.8" stroke="#d6c5a2" stroke-width="3" rx="3"/>
+    </g>
+
+    <!-- Left side doors/windows -->
+    <g>
+      <rect x="70" y="430" width="45" height="60" fill="#1b1b1b" stroke="#cbb28f" stroke-width="3"/>
+      <rect x="130" y="420" width="55" height="40" fill="#2a3d55" opacity="0.8" stroke="#d7c3a4" stroke-width="3"/>
+      <rect x="130" y="360" width="55" height="40" fill="#2a3d55" opacity="0.8" stroke="#d7c3a4" stroke-width="3"/>
+      <rect x="320" y="410" width="50" height="45" fill="#2a3d55" opacity="0.8" stroke="#d7c3a4" stroke-width="3"/>
+    </g>
+
+    <!-- Left crenellated turret edge -->
+    <g transform="translate(40,170)">
+      <use href="#merlon" x="0" y="0"/>
+      <use href="#merlon" x="28" y="0"/>
+      <use href="#merlon" x="56" y="0"/>
+      <use href="#merlon" x="84" y="0"/>
+    </g>
+  </g>
+
+  <!-- Junction wall between left and hall (shadowed) -->
+  <rect x="400" y="220" width="40" height="280" fill="url(#brick)" opacity="0.8" stroke="#6f3426" stroke-width="2"/>
+
+  <!-- Courtyard shadow near buildings -->
+  <path d="M40,500 L380,500 Q400,520 430,520 L960,520 L960,540 L40,540 Z" fill="#bfb6a5" opacity="0.6"/>
+
+  <!-- People silhouettes -->
+  <g id="people" transform="translate(0,0)" fill="#2b2b2b" stroke="#111" stroke-width="0.5">
+    <!-- Pair walking -->
+    <g transform="translate(480,505)">
+      <circle cx="0" cy="-18" r="6"/>
+      <path d="M-4,-12 L4,-12 L4,10 L-4,10 Z" fill="#2b2b2b"/>
+      <path d="M0,10 L-6,28 M0,10 L6,28" stroke="#2b2b2b" stroke-width="3"/>
+      <path d="M-4,-8 L-14,6 M4,-8 L14,6" stroke="#2b2b2b" stroke-width="3"/>
+    </g>
+    <g transform="translate(505,505)">
+      <circle cx="0" cy="-18" r="6"/>
+      <path d="M-4,-12 L4,-12 L4,10 L-4,10 Z" fill="#2b2b2b"/>
+      <path d="M0,10 L-6,28 M0,10 L6,28" stroke="#2b2b2b" stroke-width="3"/>
+      <path d="M-4,-8 L-14,6 M4,-8 L14,6" stroke="#2b2b2b" stroke-width="3"/>
+    </g>
+    <!-- Two visitors in red coats -->
+    <g transform="translate(760,500)">
+      <circle cx="-20" cy="-18" r="6" fill="#231f20"/>
+      <rect x="-30" y="-12" width="20" height="26" fill="#b01919"/>
+      <path d="M-20,14 L-28,30 M-20,14 L-12,30" stroke="#231f20" stroke-width="3"/>
+    </g>
+    <g transform="translate(795,500)">
+      <circle cx="-20" cy="-18" r="6" fill="#231f20"/>
+      <rect x="-30" y="-12" width="20" height="26" fill="#c52222"/>
+      <path d="M-20,14 L-28,30 M-20,14 L-12,30" stroke="#231f20" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Subtle vignette -->
+  <rect x="0" y="0" width="1000" height="650" fill="none" stroke="#000" stroke-opacity="0.15" stroke-width="6"/>
+</svg>

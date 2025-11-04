@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="80" y1="30" x2="80" y2="70" stroke="black"/>
+  <line x1="120" y1="30" x2="120" y2="70" stroke="black"/>
+  <path d="M 80 30 A 20 10 0 0 1 80 50" stroke="black" fill="none"/>
+  <path d="M 80 50 A 20 10 0 0 1 80 70" stroke="black" fill="none"/>
+  <path d="M 120 30 A 20 10 0 0 0 120 50" stroke="black" fill="none"/>
+  <path d="M 120 50 A 20 10 0 0 0 120 70" stroke="black" fill="none"/>
+  <line x1="80" y1="30" x2="60" y2="30" stroke="black"/>
+  <line x1="60" y1="30" x2="60" y2="20" stroke="black"/>
+  <line x1="80" y1="70" x2="60" y2="70" stroke="black"/>
+  <line x1="60" y1="70" x2="60" y2="80" stroke="black"/>
+  <line x1="120" y1="30" x2="140" y2="30" stroke="black"/>
+  <polyline points="140,30 150,20 160,30 170,20 180,30" stroke="black" fill="none"/>
+  <line x1="180" y1="30" x2="180" y2="70" stroke="black"/>
+  <line x1="180" y1="70" x2="120" y2="70" stroke="black"/>
+  <text x="50" y="20" font-size="12">u₁</text>
+  <text x="130" y="20" font-size="12">u₂</text>
+  <text x="185" y="50" font-size="12">R_L=8Ω</text>
+  <text x="55" y="20" font-size="10">+</text>
+  <text x="55" y="80" font-size="10">-</text>
+</svg>

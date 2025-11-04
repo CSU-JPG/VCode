@@ -1,0 +1,95 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/>
+      <stop offset="50%" style="stop-color:#F5F5F5"/>
+      <stop offset="100%" style="stop-color:#9E9E9E"/>
+    </linearGradient>
+    <filter id="fluffy">
+      <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="3" result="turbulence"/>
+      <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <!-- Background Placemat -->
+  <rect width="600" height="400" fill="#EAE4D9"/>
+  <path d="M0,20 H600 M0,24 H600 M0,40 H600 M0,44 H600 M0,360 H600 M0,364 H600 M0,380 H600 M0,384 H600" stroke="#D7D2C9" stroke-width="0.5"/>
+
+  <!-- Napkin and Cutlery -->
+  <g id="table-setting-left">
+    <rect x="25" y="25" width="180" height="350" fill="#F1EDE4" stroke="#DCD7CF" stroke-width="1"/>
+    <path d="M205,25 V375" stroke="#000000" stroke-opacity="0.05" stroke-width="1"/>
+    
+    <!-- Fork -->
+    <g transform="translate(60 45)">
+      <rect y="110" width="20" height="190" rx="3" ry="3" fill="#333333"/>
+      <path d="M0,115 C0,90 10,85 10,60 L10,0 L2,0 L2,60 C2,85 0,90 0,115 Z M20,115 C20,90 10,85 10,60 V0 L18,0 V60 C18,85 20,90 20,115 Z M6,110 C6,100 8,95 8,70 V0 L12,0 V70 C12,95 14,100 14,110 Z" fill="url(#metal)"/>
+    </g>
+    <!-- Knife -->
+    <g transform="translate(100 45)">
+      <rect y="110" width="20" height="190" rx="3" ry="3" fill="#333333"/>
+      <path d="M0,115 L20,115 Q22,110 22,100 L22,10 C20,0 10,0 0,10 L0,115Z" fill="url(#metal)"/>
+    </g>
+    <!-- Spoon -->
+    <g transform="translate(140 45)">
+      <rect y="110" width="20" height="190" rx="3" ry="3" fill="#333333"/>
+      <path d="M10,115 C15,90 15,70 10,65 C-5,40 -5,0 10,0 C25,0 25,40 10,65 C5,70 5,90 10,115 Z" fill="url(#metal)"/>
+    </g>
+  </g>
+
+  <!-- Salt &amp;amp;amp; Pepper Shakers -->
+  <g id="shakers" transform="translate(225 10)">
+    <g id="shaker1">
+      <rect width="28" height="40" rx="5" ry="5" fill="url(#metal)"/>
+      <rect width="28" height="10" rx="3" ry="3" fill="#424242"/>
+    </g>
+    <g id="shaker2" transform="translate(35 0)">
+      <rect width="28" height="40" rx="5" ry="5" fill="url(#metal)"/>
+      <rect width="28" height="10" rx="3" ry="3" fill="#424242"/>
+    </g>
+  </g>
+
+  <!-- Plate -->
+  <g id="plate">
+    <circle cx="410" cy="210" r="160" fill="#E5E0D8"/>
+    <circle cx="410" cy="210" r="150" fill="#F3EEE6" stroke="#DAD5CB" stroke-width="1"/>
+  </g>
+
+  <!-- Glass of Milk -->
+  <g id="glass" transform="translate(520 40)">
+    <path d="M5,15 V110 Q25,125 45,110 V15 Z" fill="#FFFFFF" opacity="0.4"/>
+    <path d="M7,17 V108 Q25,120 43,108 V17 Z" fill="#FCFCFC"/>
+    <ellipse cx="25" cy="15" rx="20" ry="7" fill="#E0E0E0" opacity="0.6"/>
+    <ellipse cx="25" cy="16" rx="18" ry="5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Food -->
+  <g id="food" transform="translate(250 80)">
+    <!-- Main Dish -->
+    <g id="main-dish">
+      <path d="M115,100 L70,140 Q80,180 130,190 L180,160 Q170,120 115,100Z" fill="#A5ACA1" stroke="#878D83" stroke-width="1"/>
+      <path d="M160,195 L120,230 Q140,260 190,250 L230,210 Q210,190 160,195Z" fill="#A5ACA1" stroke="#878D83" stroke-width="1"/>
+      <!-- Specks -->
+      <circle cx="100" cy="120" r="1.5" fill="#B25B57"/><circle cx="150" cy="140" r="1" fill="#B25B57"/><circle cx="125" cy="165" r="2" fill="#B25B57"/>
+      <circle cx="160" cy="220" r="1.5" fill="#B25B57"/><circle cx="200" cy="230" r="2" fill="#B25B57"/><circle cx="180" cy="205" r="1" fill="#B25B57"/>
+      <circle cx="130" cy="130" r="1" fill="#5D635B"/><circle cx="165" cy="150" r="1.5" fill="#5D635B"/><circle cx="95" cy="155" r="1" fill="#5D635B"/>
+      <circle cx="140" cy="240" r="1.5" fill="#5D635B"/><circle cx="210" cy="225" r="1" fill="#5D635B"/><circle cx="185" cy="240" r="1.5" fill="#5D635B"/>
+    </g>
+    
+    <!-- Side dish 1 (Green Beans) -->
+    <g id="green-beans" fill="#8A9A70" stroke="#798861" stroke-width="1">
+      <path d="M160,50 L220,70 L215,80 L155,60 Z" transform="rotate(10, 190, 65)"/>
+      <path d="M170,65 L230,85 L225,95 L165,75 Z" transform="rotate(20, 200, 80)"/>
+      <path d="M150,70 L210,90 L205,100 L145,80 Z" transform="rotate(-5, 180, 85)"/>
+      <path d="M180,80 L240,100 L235,110 L175,90 Z" transform="rotate(15, 210, 95)"/>
+      <path d="M165,90 L225,110 L220,120 L160,100 Z" transform="rotate(-10, 195, 105)"/>
+    </g>
+
+    <!-- Side dish 2 (Mashed Potatoes/Cottage Cheese) -->
+    <g id="white-side-dish" filter="url(#fluffy)">
+      <path d="M200,100 C180,120 190,150 210,160 C240,170 260,150 260,120 C250,90 220,90 200,100Z" fill="#FDFDFD"/>
+      <path d="M230,130 C210,150 220,180 240,190 C270,200 290,180 290,150 C280,120 250,120 230,130Z" fill="#FFFFFF"/>
+      <path d="M260,95 C250,110 260,130 275,135 C295,140 310,125 305,105 C300,85 275,85 260,95Z" fill="#FAFAFA"/>
+    </g>
+  </g>
+</svg>

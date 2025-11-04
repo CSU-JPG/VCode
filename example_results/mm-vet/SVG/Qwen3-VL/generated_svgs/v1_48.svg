@@ -1,0 +1,161 @@
+<svg viewBox="170 90 830 860" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .room-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .dim-label { font-family: Arial, sans-serif; font-size: 12px; }
+    .note { font-family: Arial, sans-serif; font-size: 10px; }
+    .compass { font-family: Arial, sans-serif; font-size: 10px; }
+  </style>
+
+  <!-- Walls and structure -->
+  <path d="M185 100 H485 V250 H185 Z" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M185 250 H485 V820 H185 Z" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M485 250 H800 V820 H485 Z" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M185 820 H485 V840 H185 Z" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M485 820 H800 V840 H485 Z" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Terrace -->
+  <rect x="185" y="100" width="300" height="150" fill="none" stroke="black" stroke-width="2"/>
+  <text x="285" y="180" class="room-label">TERRACE</text>
+  <text x="285" y="200" class="dim-label">21'6" x 8'0"</text>
+
+  <!-- Dining Area -->
+  <rect x="185" y="250" width="150" height="150" fill="none" stroke="black" stroke-width="2"/>
+  <text x="200" y="320" class="room-label">DINING AREA</text>
+  <text x="200" y="340" class="dim-label">9'10" x 13'0"</text>
+
+  <!-- Kitchen -->
+  <rect x="335" y="250" width="50" height="150" fill="none" stroke="black" stroke-width="2"/>
+  <text x="345" y="265" class="room-label">KITCHEN</text>
+  <text x="345" y="285" class="dim-label">7'5" x 12'3"</text>
+
+  <!-- Living Room -->
+  <rect x="185" y="400" width="300" height="420" fill="none" stroke="black" stroke-width="2"/>
+  <text x="250" y="600" class="room-label">LIVING ROOM</text>
+  <text x="250" y="620" class="dim-label">14'6" x 20'5"</text>
+
+  <!-- Second Bedroom -->
+  <rect x="485" y="250" width="150" height="200" fill="none" stroke="black" stroke-width="2"/>
+  <text x="500" y="320" class="room-label">SECOND BEDROOM</text>
+  <text x="500" y="340" class="dim-label">10'10" x 14'7"</text>
+
+  <!-- Master Bedroom -->
+  <rect x="650" y="250" width="150" height="200" fill="none" stroke="black" stroke-width="2"/>
+  <text x="660" y="320" class="room-label">MASTER BEDROOM</text>
+  <text x="660" y="340" class="dim-label">12'10" x 17'9"</text>
+
+  <!-- WC -->
+  <rect x="485" y="450" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="495" y="470" class="room-label">WC</text>
+  <text x="495" y="490" class="dim-label">5'2" x 5'2"</text>
+
+  <!-- Foyer -->
+  <rect x="485" y="700" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="495" y="720" class="room-label">FOYER</text>
+  <text x="495" y="740" class="dim-label">6'0" x 6'34"</text>
+
+  <!-- Bath -->
+  <rect x="600" y="550" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="610" y="570" class="room-label">BATH</text>
+
+  <!-- Master Bathroom -->
+  <rect x="700" y="550" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="710" y="570" class="room-label">MASTER BATHROOM</text>
+  <text x="710" y="590" class="dim-label">4'11" x 6'10"</text>
+
+  <!-- Built-in -->
+  <rect x="335" y="400" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="345" y="420" class="room-label">Built-in</text>
+
+  <!-- CL -->
+  <rect x="485" y="300" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="495" y="320" class="room-label">CL</text>
+  <text x="495" y="340" class="dim-label">8'4" x 2'7"</text>
+
+  <!-- CL (second) -->
+  <rect x="600" y="600" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="610" y="620" class="room-label">CL</text>
+  <text x="610" y="640" class="dim-label">2'11" x 6'11"</text>
+
+  <!-- LC -->
+  <rect x="550" y="650" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="560" y="670" class="room-label">LC</text>
+
+  <!-- Entrance arrow -->
+  <path d="M550 750 L570 750 L560 740 L560 760 L570 750" fill="black"/>
+  <text x="620" y="750" class="room-label">Entrance</text>
+
+  <!-- Compass -->
+  <circle cx="860" cy="750" r="20" fill="none" stroke="black"/>
+  <line x1="860" y1="750" x2="860" y2="730" stroke="black"/>
+  <text x="855" y="725" class="compass">N</text>
+
+  <!-- Note -->
+  <text x="810" y="800" class="note">For illustration purposes only</text>
+
+  <!-- Symbols -->
+  <!-- Oven -->
+  <rect x="340" y="350" width="10" height="10" fill="none" stroke="black"/>
+  <text x="342" y="360" class="dim-label">oven</text>
+
+  <!-- DW -->
+  <rect x="355" y="350" width="10" height="10" fill="none" stroke="black"/>
+  <text x="357" y="360" class="dim-label">DW</text>
+
+  <!-- Sink -->
+  <rect x="370" y="350" width="10" height="10" fill="none" stroke="black"/>
+  <text x="372" y="360" class="dim-label">*</text>
+
+  <!-- Toilet -->
+  <rect x="610" y="660" width="5" height="10" fill="none" stroke="black"/>
+
+  <!-- Bathtub -->
+  <rect x="680" y="660" width="10" height="10" fill="none" stroke="black"/>
+
+  <!-- Shower -->
+  <rect x="710" y="660" width="5" height="10" fill="none" stroke="black"/>
+
+  <!-- Door symbols -->
+  <path d="M185 250 L195 250 L195 260 L185 260 Z" fill="none" stroke="black"/>
+  <path d="M185 400 L195 400 L195 410 L185 410 Z" fill="none" stroke="black"/>
+  <path d="M185 820 L195 820 L195 830 L185 830 Z" fill="none" stroke="black"/>
+  <path d="M485 250 L495 250 L495 260 L485 260 Z" fill="none" stroke="black"/>
+  <path d="M485 450 L495 450 L495 460 L485 460 Z" fill="none" stroke="black"/>
+  <path d="M485 700 L495 700 L495 710 L485 710 Z" fill="none" stroke="black"/>
+  <path d="M650 250 L660 250 L660 260 L650 260 Z" fill="none" stroke="black"/>
+  <path d="M650 450 L660 450 L660 460 L650 460 Z" fill="none" stroke="black"/>
+  <path d="M650 700 L660 700 L660 710 L650 710 Z" fill="none" stroke="black"/>
+  <path d="M800 250 L810 250 L810 260 L800 260 Z" fill="none" stroke="black"/>
+  <path d="M800 450 L810 450 L810 460 L800 460 Z" fill="none" stroke="black"/>
+  <path d="M800 700 L810 700 L810 710 L800 710 Z" fill="none" stroke="black"/>
+
+  <!-- Windows -->
+  <rect x="185" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="200" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="215" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="230" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="245" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="260" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="275" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="290" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="305" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="320" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="335" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="350" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="365" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="380" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="395" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="410" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="425" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="440" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="455" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+  <rect x="470" y="100" width="10" height="10" fill="none" stroke="black" stroke-dasharray="2,2"/>
+
+  <!-- Stairs -->
+  <path d="M185 750 L195 750 L195 760 L185 760 Z" fill="none" stroke="black"/>
+  <path d="M195 760 L205 760 L205 770 L195 770 Z" fill="none" stroke="black"/>
+  <path d="M205 770 L215 770 L215 780 L205 780 Z" fill="none" stroke="black"/>
+  <path d="M215 780 L225 780 L225 790 L215 790 Z" fill="none" stroke="black"/>
+  <path d="M225 790 L235 790 L235 800 L225 800 Z" fill="none" stroke="black"/>
+  <path d="M235 800 L245 800 L245 810 L235 810 Z" fill="none" stroke="black"/>
+  <path d="M245 810 L255 810 L255 820 L245 820 Z" fill="none" stroke="black"/>
+</svg>

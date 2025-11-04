@@ -1,0 +1,39 @@
+<svg viewBox="0 0 360 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bold-text { font-family: 'Helvetica', 'Arial', sans-serif; font-weight: bold; }
+      .normal-text { font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; }
+    </style>
+  </defs>
+  
+  <!-- Casing -->
+  <rect x="0" y="0" width="360" height="180" rx="10" ry="10" fill="#F0F2F5"/>
+  
+  <!-- Button/Sensor -->
+  <rect x="18" y="70" width="14" height="40" rx="7" ry="7" fill="#3D3D3D"/>
+  
+  <!-- Screen Area -->
+  <rect x="45" y="20" width="300" height="140" rx="5" ry="5" fill="#FCFCFC" stroke="#DCDCDC" stroke-width="1"/>
+  
+  <!-- Screen Content -->
+  <g fill="#000000">
+    <!-- Product Name -->
+    <text x="60" y="60" class="bold-text" font-size="32" letter-spacing="1">PORK BELLY</text>
+    
+    <!-- Shelf Life Info -->
+    <text x="330" y="48" class="normal-text" font-size="14" text-anchor="end">Shelf life</text>
+    <text x="330" y="66" class="normal-text" font-size="14" text-anchor="end">September 1</text>
+    
+    <!-- Separator Line -->
+    <line x1="60" y1="82" x2="330" y2="82" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Discount Section -->
+    <g>
+      <rect x="60" y="90" width="120" height="60" fill="#000000"/>
+      <text x="120" y="125" class="bold-text" font-size="34" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">30%<tspan font-size="30" dx="2">↓</tspan></text>
+    </g>
+    
+    <!-- Price Section -->
+    <text x="255" y="128" class="bold-text" font-size="54" text-anchor="middle" dominant-baseline="middle">9.80</text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 250 240" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="100" height="200" fill="white" stroke="black"/>
+  <rect x="55" y="60" width="10" height="100" fill="black"/>
+  <rect x="120" y="10" width="100" height="200" fill="white" stroke="black"/>
+  <rect x="120" y="70" width="20" height="120" fill="black"/>
+  <rect x="160" y="10" width="20" height="180" fill="black"/>
+  <rect x="200" y="50" width="20" height="140" fill="black"/>
+  <text x="130" y="210" font-size="14" text-anchor="middle">A</text>
+  <text x="170" y="210" font-size="14" text-anchor="middle">B</text>
+  <text x="210" y="210" font-size="14" text-anchor="middle">C</text>
+</svg>

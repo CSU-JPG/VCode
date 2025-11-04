@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#222"/>
+  <text x="400" y="220" font-family="Arial" font-size="120" fill="#FF69B4" text-anchor="middle">PIZZA</text>
+  <text x="450" y="320" font-family="Arial" font-size="30" fill="white">MARGHERITA 5,10€</text>
+  <text x="450" y="360" font-family="Arial" font-size="30" fill="white">CAPRICCIO SA 8,50€</text>
+  <text x="450" y="400" font-family="Arial" font-size="30" fill="white">DIAVOLA 7,90€</text>
+  <text x="450" y="440" font-family="Arial" font-size="30" fill="white">4 STAGIONI 8,50€</text>
+  <text x="450" y="480" font-family="Arial" font-size="30" fill="white">4 FORMAGGI 8,50€</text>
+  <text x="450" y="520" font-family="Arial" font-size="30" fill="white">MARINARA 5,10€</text>
+  <text x="450" y="560" font-family="Arial" font-size="30" fill="white">SAPORITA 8,50€</text>
+  <text x="450" y="600" font-family="Arial" font-size="30" fill="white">VURSTEL 7,10€</text>
+  <text x="450" y="640" font-family="Arial" font-size="30" fill="white">CAPRESE 9,50€</text>
+  <text x="450" y="680" font-family="Arial" font-size="30" fill="white">PROSCIUTTO 7,90€</text>
+  <text x="450" y="720" font-family="Arial" font-size="30" fill="white">GORGONZOLA 7,90€</text>
+  <text x="450" y="760" font-family="Arial" font-size="30" fill="white">VEGETARIANA 8,50€</text>
+  <text x="450" y="800" font-family="Arial" font-size="30" fill="white">FUNGHI 6,90€</text>
+  <text x="500" y="900" font-family="Arial" font-size="80" fill="#FFA500" text-anchor="middle">CALZONE 14,00</text>
+  <text x="850" y="150" font-family="Arial" font-size="60" fill="lightgreen" transform="rotate(-45 850 150)">WIFI FREE</text>
+  <text x="800" y="200" font-family="Arial" font-size="40" fill="lightgreen" transform="rotate(-45 800 200)">IN 3.0€</text>
+</svg>

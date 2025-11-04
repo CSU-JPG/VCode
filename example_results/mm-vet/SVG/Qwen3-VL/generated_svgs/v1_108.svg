@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f9f9f9"/>
+  
+  <!-- Window with lace curtain -->
+  <rect x="0" y="0" width="300" height="500" fill="#fff"/>
+  <rect x="0" y="0" width="300" height="500" fill="url(#laceCurtain)" opacity="0.7"/>
+  
+  <!-- Lace pattern definition -->
+  <defs>
+    <pattern id="laceCurtain" patternUnits="userSpaceOnUse" width="40" height="40">
+      <path d="M0,0 h40 v40 h-40 z" fill="#fff"/>
+      <circle cx="20" cy="20" r="5" fill="#f0f0f0"/>
+      <path d="M10,10 L30,30 M30,10 L10,30" stroke="#e0e0e0" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Beige curtain -->
+  <rect x="290" y="0" width="200" height="500" fill="#f0e0d0"/>
+  
+  <!-- White couch -->
+  <rect x="0" y="500" width="660" height="300" fill="#fff" rx="10" ry="10"/>
+  
+  <!-- Striped pillows -->
+  <rect x="80" y="660" width="180" height="100" fill="#f0e0d0" rx="5" ry="5"/>
+  <rect x="500" y="650" width="180" height="100" fill="#f0e0d0" rx="5" ry="5"/>
+  
+  <!-- Pillow stripes -->
+  <g stroke-width="2" stroke="#a08070">
+    <line x1="90" y1="670" x2="250" y2="670"/>
+    <line x1="90" y1="685" x2="250" y2="685"/>
+    <line x1="90" y1="700" x2="250" y2="700"/>
+    <line x1="90" y1="715" x2="250" y2="715"/>
+    <line x1="510" y1="660" x2="670" y2="660"/>
+    <line x1="510" y1="675" x2="670" y2="675"/>
+    <line x1="510" y1="690" x2="670" y2="690"/>
+    <line x1="510" y1="705" x2="670" y2="705"/>
+  </g>
+  
+  <!-- Elderly man -->
+  <g transform="translate(180, 230)">
+    <!-- Head and hair -->
+    <circle cx="150" cy="50" r="45" fill="#f0e0d0"/>
+    <path d="M105,50 C120,30 135,20 150,20 C165,20 180,30 195,50 C190,70 180,80 150,80 C120,80 110,70 105,50" fill="#e0d0c0"/>
+    
+    <!-- Face features -->
+    <circle cx="135" cy="45" r="3" fill="#333"/>
+    <circle cx="165" cy="45" r="3" fill="#333"/>
+    <path d="M130,60 Q150,70 170,60" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Body -->
+    <rect x="70" y="80" width="160" height="120" fill="#f8f8f8" rx="10" ry="10"/>
+    <rect x="90" y="200" width="120" height="80" fill="#000"/>
+    
+    <!-- Shirt details -->
+    <rect x="100" y="90" width="140" height="100" fill="#f8f8f8" rx="5" ry="5"/>
+    <rect x="120" y="100" width="100" height="80" fill="#c0c0e0"/>
+    <path d="M170,100 L170,180" stroke="#8080a0" stroke-width="2"/>
+    <circle cx="170" cy="140" r="3" fill="#8080a0"/>
+  </g>
+  
+  <!-- Caregiver woman -->
+  <g transform="translate(480, 50)">
+    <!-- Head and hair -->
+    <ellipse cx="100" cy="50" rx="30" ry="25" fill="#f0e0d0"/>
+    <path d="M70,50 C80,30 90,20 100,20 C110,20 120,30 130,50 C125,70 115,80 100,80 C85,80 75,70 70,50" fill="#f0d080"/>
+    
+    <!-- Face features -->
+    <circle cx="85" cy="45" r="3" fill="#333"/>
+    <circle cx="115" cy="45" r="3" fill="#333"/>
+    <path d="M90,60 Q100,65 110,60" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Body -->
+    <rect x="50" y="80" width="100" height="150" fill="#fff" rx="5" ry="5"/>
+    <rect x="60" y="230" width="80" height="100" fill="#101030"/>
+    
+    <!-- Arms -->
+    <rect x="40" y="100" width="20" height="100" fill="#fff" rx="5" ry="5"/>
+    <rect x="130" y="100" width="20" height="100" fill="#fff" rx="5" ry="5"/>
+    
+    <!-- Hands -->
+    <ellipse cx="50" cy="200" rx="10" ry="8" fill="#f0e0d0"/>
+    <ellipse cx="140" cy="200" rx="10" ry="8" fill="#f0e0d0"/>
+  </g>
+  
+  <!-- Walker (mobility aid) -->
+  <g transform="translate(850, 550)">
+    <rect x="0" y="0" width="150" height="250" fill="none" stroke="#808080" stroke-width="4" rx="5" ry="5"/>
+    <line x1="0" y1="100" x2="150" y2="100" stroke="#808080" stroke-width="4"/>
+    <line x1="0" y1="200" x2="150" y2="200" stroke="#808080" stroke-width="4"/>
+    <rect x="0" y="200" width="30" height="50" fill="#808080" rx="3" ry="3"/>
+    <rect x="120" y="200" width="30" height="50" fill="#808080" rx="3" ry="3"/>
+  </g>
+  
+  <!-- "HOME" sign on shelf -->
+  <g transform="translate(550, 20)">
+    <rect x="0" y="0" width="150" height="100" fill="#fff" stroke="#ddd" stroke-width="2"/>
+    <text x="75" y="60" font-family="Arial" font-size="30" text-anchor="middle" fill="#eee">HOME</text>
+  </g>
+</svg>

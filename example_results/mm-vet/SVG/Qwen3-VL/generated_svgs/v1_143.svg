@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#f0e6d2"/>
+  
+  <!-- Bakery display case -->
+  <rect x="200" y="400" width="600" height="300" fill="#ffffff" rx="10"/>
+  <rect x="200" y="400" width="600" height="300" fill="#cccccc" opacity="0.5"/>
+  <rect x="205" y="405" width="590" height="290" fill="#ffffff" rx="8"/>
+  
+  <!-- Shelves with pastries -->
+  <rect x="210" y="420" width="580" height="40" fill="#e0e0e0"/>
+  <rect x="210" y="470" width="580" height="40" fill="#e0e0e0"/>
+  <rect x="210" y="520" width="580" height="40" fill="#e0e0e0"/>
+  <rect x="210" y="570" width="580" height="40" fill="#e0e0e0"/>
+  <rect x="210" y="620" width="580" height="40" fill="#e0e0e0"/>
+  
+  <!-- Pastries on shelves (simplified representation) -->
+  <circle cx="250" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="270" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="290" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="310" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="330" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="350" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="370" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="390" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="410" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="430" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="450" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="470" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="490" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="510" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="530" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="550" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="570" cy="440" r="8" fill="#d4a373"/>
+  <circle cx="590" cy="440" r="8" fill="#d4a373"/>
+  
+  <!-- More pastries on other shelves -->
+  <rect x="220" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="240" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="260" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="280" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="300" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="320" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="340" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="360" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="380" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="400" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="420" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="440" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="460" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="480" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="500" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="520" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="540" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="560" y="490" width="15" height="10" fill="#c8a063"/>
+  <rect x="580" y="490" width="15" height="10" fill="#c8a063"/>
+  
+  <!-- Upper display area -->
+  <rect x="200" y="200" width="600" height="200" fill="#ffffff" rx="10"/>
+  <rect x="205" y="205" width="590" height="190" fill="#ffffff" rx="8"/>
+  
+  <!-- Baked goods in upper display -->
+  <rect x="300" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="325" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="350" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="375" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="400" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="425" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="450" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="475" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="500" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="525" y="230" width="20" height="5" fill="#b8860b"/>
+  <rect x="550" y="230" width="20" height="5" fill="#b8860b"/>
+  
+  <!-- Left side character -->
+  <circle cx="150" cy="100" r="40" fill="#333333"/>
+  <rect x="100" y="140" width="100" height="150" fill="#c0c0c0"/>
+  <rect x="100" y="290" width="100" height="100" fill="#c0c0c0"/>
+  <rect x="100" y="390" width="100" height="100" fill="#c0c0c0"/>
+  <rect x="100" y="490" width="100" height="100" fill="#c0c0c0"/>
+  <rect x="100" y="590" width="100" height="100" fill="#c0c0c0"/>
+  <rect x="100" y="690" width="100" height="10" fill="#c0c0c0"/>
+  
+  <!-- Black purse -->
+  <rect x="120" y="200" width="80" height="120" fill="#000000" rx="10"/>
+  <path d="M160 200 L160 150 L180 150 L180 200" fill="#000000"/>
+  <circle cx="170" cy="150" r="5" fill="#ffffff"/>
+  
+  <!-- Right side characters -->
+  <!-- Man -->
+  <circle cx="700" cy="220" r="30" fill="#333333"/>
+  <rect x="650" y="250" width="100" height="150" fill="#333333"/>
+  <rect x="650" y="400" width="100" height="100" fill="#808080"/>
+  <rect x="650" y="500" width="100" height="100" fill="#808080"/>
+  <rect x="650" y="600" width="100" height="100" fill="#808080"/>
+  <rect x="650" y="700" width="100" height="10" fill="#808080"/>
+  
+  <!-- Woman next to man -->
+  <circle cx="800" cy="280" r="25" fill="#ffcc00"/>
+  <rect x="750" y="305" width="100" height="100" fill="#ff0000"/>
+  <rect x="750" y="405" width="100" height="50" fill="#ffffff"/>
+  <rect x="750" y="455" width="100" height="50" fill="#0066cc"/>
+  <rect x="750" y="505" width="100" height="100" fill="#0066cc"/>
+  <rect x="750" y="605" width="100" height="100" fill="#0066cc"/>
+  <rect x="750" y="705" width="100" height="10" fill="#0066cc"/>
+  
+  <!-- Background elements -->
+  <rect x="600" y="50" width="300" height="100" fill="#f0f0f0"/>
+  <rect x="900" y="150" width="100" height="300" fill="#ffffff"/>
+  <rect x="905" y="155" width="90" height="290" fill="#eeeeee"/>
+  <text x="910" y="170" font-family="Arial" font-size="12" fill="#000000">Frozen Food</text>
+  
+  <!-- Ceiling light -->
+  <rect x="620" y="10" width="200" height="30" fill="#ffffcc"/>
+  
+  <!-- Clock on wall -->
+  <circle cx="650" y="220" r="20" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <line x1="650" y1="200" x2="650" y2="220" stroke="#000000" stroke-width="2"/>
+  <line x1="650" y1="220" x2="670" y2="220" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Counter area -->
+  <rect x="600" y="550" width="300" height="150" fill="#ffffff"/>
+  <rect x="600" y="550" width="300" height="20" fill="#333333"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="700" width="1000" height="100" fill="#999999"/>
+</svg>

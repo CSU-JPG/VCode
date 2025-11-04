@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#4a4a4a"/>
+  <rect x="400" y="0" width="200" height="700" fill="#6b6b6b"/>
+  <rect x="485" y="420" width="10" height="120" fill="#8c8c8c"/>
+  <circle cx="670" cy="940" r="8" fill="#8c8c8c"/>
+  <polygon points="120,160 460,160 460,700 120,700" fill="#7d4f4f"/>
+  <polygon points="610,50 960,50 960,700 610,700" fill="#5a1e2a"/>
+  <rect x="700" y="400" width="150" height="200" fill="#ffffff"/>
+  <rect x="680" y="500" width="80" height="100" fill="#6b4a4a"/>
+  <rect x="680" y="500" width="80" height="100" transform="rotate(45 720 550)" fill="#4a6b4a"/>
+  <rect x="680" y="500" width="80" height="100" transform="rotate(-45 720 550)" fill="#4a6b4a"/>
+  <rect x="680" y="500" width="80" height="100" transform="rotate(135 720 550)" fill="#4a6b4a"/>
+  <rect x="680" y="500" width="80" height="100" transform="rotate(-135 720 550)" fill="#4a6b4a"/>
+  <ellipse cx="340" cy="750" rx="40" ry="20" fill="#d4af37"/>
+  <path d="M300 730 Q320 740 340 750" stroke="#d4af37" fill="none" stroke-width="2"/>
+  <path d="M340 750 Q360 740 380 730" stroke="#d4af37" fill="none" stroke-width="2"/>
+</svg>

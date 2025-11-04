@@ -1,0 +1,38 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="100" height="30" fill="#800080"/>
+  <text x="5" y="15" fill="white" font-size="12" text-anchor="start">Present Value</text>
+  <rect x="100" y="0" width="50" height="30" fill="#800080"/>
+  <text x="105" y="15" fill="white" font-size="12" text-anchor="start">Years</text>
+  <rect x="150" y="0" width="80" height="30" fill="#800080"/>
+  <text x="155" y="15" fill="white" font-size="12" text-anchor="start">Interest Rate</text>
+  <rect x="230" y="0" width="120" height="30" fill="#800080"/>
+  <text x="235" y="15" fill="white" font-size="12" text-anchor="start">Future Value</text>
+  <rect x="0" y="30" width="100" height="30" fill="#f0e68c"/>
+  <text x="95" y="45" fill="black" font-size="12" text-anchor="end">$625</text>
+  <rect x="100" y="30" width="50" height="30" fill="#f0e68c"/>
+  <rect x="150" y="30" width="80" height="30" fill="#f0e68c"/>
+  <text x="225" y="45" fill="black" font-size="12" text-anchor="end">7%</text>
+  <rect x="230" y="30" width="120" height="30" fill="#f0e68c"/>
+  <text x="345" y="45" fill="black" font-size="12" text-anchor="end">$1,284</text>
+  <rect x="0" y="60" width="100" height="30" fill="#f0e68c"/>
+  <text x="95" y="75" fill="black" font-size="12" text-anchor="end">810</text>
+  <rect x="100" y="60" width="50" height="30" fill="#f0e68c"/>
+  <rect x="150" y="60" width="80" height="30" fill="#f0e68c"/>
+  <text x="225" y="75" fill="black" font-size="12" text-anchor="end">12</text>
+  <rect x="230" y="60" width="120" height="30" fill="#f0e68c"/>
+  <text x="345" y="75" fill="black" font-size="12" text-anchor="end">4,341</text>
+  <rect x="0" y="90" width="100" height="30" fill="#f0e68c"/>
+  <text x="95" y="105" fill="black" font-size="12" text-anchor="end">16,500</text>
+  <rect x="100" y="90" width="50" height="30" fill="#f0e68c"/>
+  <rect x="150" y="90" width="80" height="30" fill="#f0e68c"/>
+  <text x="225" y="105" fill="black" font-size="12" text-anchor="end">17</text>
+  <rect x="230" y="90" width="120" height="30" fill="#f0e68c"/>
+  <text x="345" y="105" fill="black" font-size="12" text-anchor="end">402,662</text>
+  <rect x="0" y="120" width="100" height="30" fill="#f0e68c"/>
+  <text x="95" y="135" fill="black" font-size="12" text-anchor="end">21,500</text>
+  <rect x="100" y="120" width="50" height="30" fill="#f0e68c"/>
+  <rect x="150" y="120" width="80" height="30" fill="#f0e68c"/>
+  <text x="225" y="135" fill="black" font-size="12" text-anchor="end">8</text>
+  <rect x="230" y="120" width="120" height="30" fill="#f0e68c"/>
+  <text x="345" y="135" fill="black" font-size="12" text-anchor="end">147,350</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <path d="M100 500 Q200 400 300 450 T500 400 Q600 350 700 400 T850 500 L800 600 Q750 650 650 600 T400 650 Q250 600 100 500" fill="#f0c0c0" stroke="#c08080" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 100 Q350 50 450 100 T650 150 Q700 200 600 250 T400 300 Q300 250 250 200" fill="#e0d0b0" stroke="#d0a0a0" stroke-width="2"/>
+  <path d="M200 350 Q250 300 350 350 T500 400 Q550 450 450 500 T250 550" fill="#d0a0a0" opacity="0.8"/>
+  <path d="M600 400 Q650 450 700 400 T750 350 Q700 300 650 350" fill="#e0d0b0" stroke="#d0a0a0" stroke-width="1.5"/>
+</svg>

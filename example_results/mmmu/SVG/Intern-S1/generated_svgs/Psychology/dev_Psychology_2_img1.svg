@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <text x="50" y="30" font-weight="bold" font-size="14">Emotional</text>
+  <text x="250" y="30" font-weight="bold" font-size="14">Physical</text>
+  <text x="450" y="30" font-weight="bold" font-size="14">Cognitive</text>
+  <text x="650" y="30" font-weight="bold" font-size="14">Behavioral</text>
+  <line x1="0" y1="40" x2="800" y2="40" stroke="black"/>
+  <line x1="0" y1="70" x2="800" y2="70" stroke="black"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="black"/>
+  <line x1="0" y1="130" x2="800" y2="130" stroke="black"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="black"/>
+  <line x1="0" y1="190" x2="800" y2="190" stroke="black"/>
+  <line x1="0" y1="220" x2="800" y2="220" stroke="black"/>
+  <line x1="200" y1="40" x2="200" y2="220" stroke="black"/>
+  <line x1="400" y1="40" x2="400" y2="220" stroke="black"/>
+  <line x1="600" y1="40" x2="600" y2="220" stroke="black"/>
+  <line x1="800" y1="40" x2="800" y2="220" stroke="black"/>
+  <text x="50" y="60" font-size="12">Frustration</text>
+  <text x="250" y="60" font-size="12">Decreased energy</text>
+  <text x="450" y="60" font-size="12">Frequent anxiety or worry</text>
+  <text x="650" y="60" font-size="12">Changes in appetite</text>
+  <text x="50" y="90" font-size="12">Moodiness</text>
+  <text x="250" y="90" font-size="12">Headaches</text>
+  <text x="450" y="90" font-size="12">Poor concentration</text>
+  <text x="650" y="90" font-size="12">Changes in sleep</text>
+  <text x="50" y="120" font-size="12">Agitation</text>
+  <text x="250" y="120" font-size="12">
+    <tspan x="250" dy="0">Diarrhea, constipation,</tspan>
+    <tspan x="250" dy="1.2em">or general stomach</tspan>
+    <tspan x="250" dy="1.2em">upset</tspan>
+  </text>
+  <text x="450" y="120" font-size="12">Forgetfulness</text>
+  <text x="650" y="120" font-size="12">Procrastination</text>
+  <text x="50" y="150" font-size="12">Feeling overwhelmed</text>
+  <text x="250" y="150" font-size="12">
+    <tspan x="250" dy="0">Chest pain, rapid heart</tspan>
+    <tspan x="250" dy="1.2em">beat</tspan>
+  </text>
+  <text x="450" y="150" font-size="12">
+    <tspan x="450" dy="0">Inability to focus or</tspan>
+    <tspan x="450" dy="1.2em">concentrate</tspan>
+  </text>
+  <text x="650" y="150" font-size="12">
+    <tspan x="650" dy="0">Nervous habits (nail</tspan>
+    <tspan x="650" dy="1.2em">biting or fidgeting)</tspan>
+  </text>
+  <text x="50" y="180" font-size="12">Low self-esteem</text>
+  <text x="250" y="180" font-size="12">Loss of sex drive</text>
+  <text x="450" y="180" font-size="12">Negativity</text>
+  <text x="650" y="180" font-size="12">
+    <tspan x="650" dy="0">Increased substance</tspan>
+    <tspan x="650" dy="1.2em">use or abuse</tspan>
+  </text>
+  <text x="50" y="210" font-size="12">Loneliness or Isolation</text>
+  <text x="250" y="210" font-size="12">Frequent colds</text>
+  <text x="450" y="210" font-size="12">Poor judgment</text>
+  <text x="650" y="210" font-size="12">Isolation from others</text>
+  <text x="400" y="280" font-weight="bold" font-size="14">Figure 1</text>
+  <text x="20" y="440" font-weight="bold" font-size="12" transform="rotate(-90 20,440)">Mean Number of Symptoms Reported</text>
+  <line x1="40" y1="300" x2="40" y2="580" stroke="black"/>
+  <line x1="40" y1="580" x2="600" y2="580" stroke="black"/>
+  <line x1="40" y1="580" x2="780" y2="580" stroke="lightgray"/>
+  <line x1="40" y1="540" x2="780" y2="540" stroke="lightgray"/>
+  <line x1="40" y1="500" x2="780" y2="500" stroke="lightgray"/>
+  <line x1="40" y1="460" x2="780" y2="460" stroke="lightgray"/>
+  <line x1="40" y1="420" x2="780" y2="420" stroke="lightgray"/>
+  <line x1="40" y1="380" x2="780" y2="380" stroke="lightgray"/>
+  <line x1="40" y1="340" x2="780" y2="340" stroke="lightgray"/>
+  <line x1="40" y1="300" x2="780" y2="300" stroke="lightgray"/>
+  <text x="40" y="580" font-size="12">0</text>
+  <text x="40" y="540" font-size="12">1</text>
+  <text x="40" y="500" font-size="12">2</text>
+  <text x="40" y="460" font-size="12">3</text>
+  <text x="40" y="420" font-size="12">4</text>
+  <text x="40" y="380" font-size="12">5</text>
+  <text x="40" y="340" font-size="12">6</text>
+  <text x="40" y="300" font-size="12">7</text>
+  <rect x="50" y="340" width="30" height="240" fill="#8B0000"/>
+  <rect x="100" y="500" width="30" height="80" fill="#FFB6C1"/>
+  <rect x="200" y="340" width="30" height="240" fill="#8B0000"/>
+  <rect x="250" y="460" width="30" height="120" fill="#FFB6C1"/>
+  <rect x="350" y="380" width="30" height="200" fill="#8B0000"/>
+  <rect x="400" y="420" width="30" height="160" fill="#FFB6C1"/>
+  <rect x="500" y="380" width="30" height="200" fill="#8B0000"/>
+  <rect x="550" y="340" width="30" height="240" fill="#FFB6C1"/>
+  <text x="75" y="590" font-size="12" text-anchor="middle">Emotional</text>
+  <text x="225" y="590" font-size="12" text-anchor="middle">Cognitive</text>
+  <text x="375" y="590" font-size="12" text-anchor="middle">Behavioral</text>
+  <text x="525" y="590" font-size="12" text-anchor="middle">Physical</text>
+  <rect x="650" y="300" width="20" height="20" fill="#8B0000"/>
+  <text x="680" y="315" font-size="12">Pre Intervention</text>
+  <rect x="650" y="330" width="20" height="20" fill="#FFB6C1"/>
+  <text x="680" y="345" font-size="12">Post Intervention</text>
+</svg>

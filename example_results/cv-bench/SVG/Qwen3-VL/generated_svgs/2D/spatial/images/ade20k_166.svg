@@ -1,0 +1,116 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="400" fill="#1a1a1a"/>
+  <rect x="0" y="100" width="500" height="300" fill="#2d5b48"/>
+  
+  <!-- Upper cabinets -->
+  <rect x="20" y="100" width="260" height="100" fill="#c99a5e"/>
+  <rect x="20" y="100" width="80" height="100" fill="#c99a5e"/>
+  <rect x="100" y="100" width="80" height="100" fill="#c99a5e"/>
+  <rect x="180" y="100" width="80" height="100" fill="#c99a5e"/>
+  
+  <!-- Cabinet doors with arched tops -->
+  <path d="M25,100 Q60,70 95,100 L95,200 H25 Z" fill="#c99a5e" stroke="#8b6a3f" stroke-width="1"/>
+  <path d="M105,100 Q140,70 175,100 L175,200 H105 Z" fill="#c99a5e" stroke="#8b6a3f" stroke-width="1"/>
+  <path d="M185,100 Q220,70 255,100 L255,200 H185 Z" fill="#c99a5e" stroke="#8b6a3f" stroke-width="1"/>
+  
+  <!-- Corner cabinet -->
+  <rect x="280" y="100" width="100" height="100" fill="#c99a5e"/>
+  <path d="M285,100 Q315,70 345,100 L345,200 H285 Z" fill="#c99a5e" stroke="#8b6a3f" stroke-width="1"/>
+  
+  <!-- Open shelves in corner cabinet -->
+  <rect x="350" y="110" width="80" height="10" fill="#c99a5e"/>
+  <rect x="350" y="140" width="80" height="10" fill="#c99a5e"/>
+  <rect x="350" y="170" width="80" height="10" fill="#c99a5e"/>
+  
+  <!-- Shelf items -->
+  <circle cx="360" cy="115" r="5" fill="#ffffff"/>
+  <circle cx="370" cy="115" r="5" fill="#ffffff"/>
+  <circle cx="380" cy="115" r="5" fill="#ffffff"/>
+  <rect x="395" y="110" width="10" height="10" fill="#ffffff"/>
+  <rect x="410" y="110" width="10" height="10" fill="#ffffff"/>
+  <rect x="425" y="110" width="10" height="10" fill="#ffffff"/>
+  <rect x="360" y="145" width="10" height="10" fill="#ffffff"/>
+  <rect x="375" y="145" width="10" height="10" fill="#ffffff"/>
+  <rect x="390" y="145" width="10" height="10" fill="#ffffff"/>
+  <rect x="405" y="145" width="10" height="10" fill="#ffffff"/>
+  <rect x="420" y="145" width="10" height="10" fill="#ffffff"/>
+  <rect x="360" y="175" width="10" height="10" fill="#ffffff"/>
+  <rect x="375" y="175" width="10" height="10" fill="#ffffff"/>
+  <rect x="390" y="175" width="10" height="10" fill="#ffffff"/>
+  
+  <!-- Range hood -->
+  <rect x="80" y="200" width="120" height="20" fill="#ffffff"/>
+  <rect x="85" y="205" width="110" height="10" fill="#cccccc"/>
+  
+  <!-- Stove -->
+  <rect x="70" y="220" width="140" height="180" fill="#333333"/>
+  <rect x="75" y="225" width="130" height="60" fill="#666666"/>
+  <rect x="80" y="230" width="120" height="50" fill="#000000"/>
+  <rect x="85" y="235" width="110" height="40" fill="#ffffff"/>
+  
+  <!-- Burners -->
+  <circle cx="100" cy="250" r="5" fill="#ffffff"/>
+  <circle cx="120" cy="250" r="5" fill="#ffffff"/>
+  <circle cx="140" cy="250" r="5" fill="#ffffff"/>
+  <circle cx="160" cy="250" r="5" fill="#ffffff"/>
+  
+  <!-- Oven door -->
+  <rect x="75" y="290" width="130" height="100" fill="#000000"/>
+  <rect x="80" y="295" width="120" height="90" fill="#111111"/>
+  <rect x="130" y="330" width="20" height="5" fill="#ffffff"/>
+  
+  <!-- Lower cabinets -->
+  <rect x="0" y="300" width="500" height="100" fill="#c99a5e"/>
+  <rect x="0" y="300" width="80" height="100" fill="#c99a5e"/>
+  <rect x="80" y="300" width="80" height="100" fill="#c99a5e"/>
+  <rect x="160" y="300" width="80" height="100" fill="#c99a5e"/>
+  <rect x="240" y="300" width="80" height="100" fill="#c99a5e"/>
+  <rect x="320" y="300" width="80" height="100" fill="#c99a5e"/>
+  <rect x="400" y="300" width="100" height="100" fill="#c99a5e"/>
+  
+  <!-- Cabinet handles -->
+  <rect x="35" y="340" width="10" height="2" fill="#8b6a3f"/>
+  <rect x="115" y="340" width="10" height="2" fill="#8b6a3f"/>
+  <rect x="195" y="340" width="10" height="2" fill="#8b6a3f"/>
+  <rect x="275" y="340" width="10" height="2" fill="#8b6a3f"/>
+  <rect x="355" y="340" width="10" height="2" fill="#8b6a3f"/>
+  <rect x="435" y="340" width="10" height="2" fill="#8b6a3f"/>
+  
+  <!-- Countertop -->
+  <rect x="0" y="300" width="500" height="20" fill="#f0f0f0"/>
+  
+  <!-- Sink area -->
+  <rect x="380" y="310" width="120" height="40" fill="#ffffff"/>
+  <rect x="385" y="315" width="110" height="30" fill="#eeeeee"/>
+  <rect x="390" y="320" width="100" height="20" fill="#ffffff"/>
+  
+  <!-- Faucet -->
+  <rect x="460" y="310" width="5" height="15" fill="#aaaaaa"/>
+  <rect x="455" y="315" width="15" height="5" fill="#aaaaaa"/>
+  
+  <!-- Countertop items -->
+  <rect x="200" y="310" width="20" height="30" fill="#ffffff"/>
+  <rect x="225" y="310" width="20" height="30" fill="#ffffff"/>
+  <rect x="250" y="310" width="20" height="30" fill="#ffffff"/>
+  <rect x="275" y="310" width="20" height="30" fill="#ffffff"/>
+  <rect x="300" y="310" width="20" height="30" fill="#ffffff"/>
+  <rect x="325" y="310" width="20" height="30" fill="#ffffff"/>
+  <rect x="350" y="310" width="20" height="30" fill="#ffffff"/>
+  
+  <!-- Knife block -->
+  <rect x="320" y="305" width="30" height="25" fill="#8b6a3f"/>
+  <rect x="325" y="305" width="5" height="25" fill="#ffffff"/>
+  <rect x="335" y="305" width="5" height="25" fill="#ffffff"/>
+  <rect x="345" y="305" width="5" height="25" fill="#ffffff"/>
+  
+  <!-- Window area -->
+  <rect x="460" y="0" width="40" height="300" fill="#ffffff"/>
+  <rect x="465" y="5" width="30" height="290" fill="#ffffff"/>
+  <rect x="470" y="10" width="20" height="280" fill="#eeeeee"/>
+  
+  <!-- Plant on windowsill -->
+  <rect x="465" y="280" width="30" height="5" fill="#8b6a3f"/>
+  <circle cx="480" cy="275" r="8" fill="#33aa33"/>
+  <circle cx="475" cy="270" r="5" fill="#33aa33"/>
+  <circle cx="485" cy="270" r="5" fill="#33aa33"/>
+</svg>

@@ -1,0 +1,88 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left wall -->
+  <rect x="40" y="60" width="15" height="180" fill="#333"/>
+  
+  <!-- Tapered beam section (trapezoid) -->
+  <path d="M 55 80 L 380 120 L 380 180 L 55 220 Z" fill="#87CEEB" stroke="#000" stroke-width="2"/>
+  
+  <!-- Water/fill lines -->
+  <line x1="55" y1="80" x2="380" y2="120" stroke="#000" stroke-width="1.5"/>
+  <line x1="55" y1="220" x2="380" y2="180" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Horizontal centerline (dashed) -->
+  <line x1="55" y1="150" x2="380" y2="150" stroke="#666" stroke-width="1.5" stroke-dasharray="8,4"/>
+  
+  <!-- Point labels -->
+  <text x="42" y="155" font-family="serif" font-size="20" font-style="italic" fill="#000">A</text>
+  <text x="205" y="155" font-family="serif" font-size="20" font-style="italic" fill="#000">B</text>
+  <text x="372" y="155" font-family="serif" font-size="20" font-style="italic" fill="#000">C</text>
+  
+  <!-- Width labels b2 and b1 -->
+  <text x="140" y="70" font-family="serif" font-size="20" font-style="italic" fill="#000">b</text>
+  <text x="152" y="75" font-family="serif" font-size="14" fill="#000">2</text>
+  <text x="360" y="105" font-family="serif" font-size="20" font-style="italic" fill="#000">b</text>
+  <text x="372" y="110" font-family="serif" font-size="14" fill="#000">1</text>
+  
+  <!-- Length labels L/2 -->
+  <text x="125" y="135" font-family="serif" font-size="18" font-style="italic" fill="#000">L/2</text>
+  <text x="275" y="135" font-family="serif" font-size="18" font-style="italic" fill="#000">L/2</text>
+  
+  <!-- Arrows showing dimensions -->
+  <!-- Top arrows -->
+  <path d="M 150 90 L 120 90 L 125 87 M 120 90 L 125 93" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M 120 90 L 90 90" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <path d="M 340 110 L 370 110 L 365 107 M 370 110 L 365 113" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M 370 110 L 400 110" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <!-- Bottom arrows -->
+  <path d="M 150 210 L 120 210 L 125 207 M 120 210 L 125 213" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M 120 210 L 90 210" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <path d="M 340 190 L 370 190 L 365 187 M 370 190 L 365 193" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M 370 190 L 400 190" stroke="#000" stroke-width="1.5" fill="none"/>
+  
+  <!-- Force P at B (red arrow pointing left) -->
+  <path d="M 240 150 L 200 150" stroke="red" stroke-width="3" fill="none" marker-end="url(#arrowred)"/>
+  <text x="245" y="145" font-family="serif" font-size="20" font-style="italic" fill="#000">P</text>
+  
+  <!-- Force 2P at C (red arrow pointing right) -->
+  <path d="M 390 150 L 550 150" stroke="red" stroke-width="3" fill="none" marker-end="url(#arrowred2)"/>
+  <text x="460" y="145" font-family="serif" font-size="20" font-style="italic" fill="#000">2P</text>
+  
+  <!-- Displacement delta_B -->
+  <path d="M 215 260 L 255 260" stroke="#000" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="215" y="280" font-family="serif" font-size="18" font-style="italic" fill="#000">δ</text>
+  <text x="228" y="285" font-family="serif" font-size="14" font-style="italic" fill="#000">B</text>
+  
+  <!-- Displacement delta_C -->
+  <path d="M 380 260 L 450 260" stroke="#000" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="385" y="280" font-family="serif" font-size="18" font-style="italic" fill="#000">δ</text>
+  <text x="398" y="285" font-family="serif" font-size="14" font-style="italic" fill="#000">C</text>
+  
+  <!-- x-axis arrow -->
+  <path d="M 55 240 L 130 240" stroke="#000" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="135" y="245" font-family="serif" font-size="18" font-style="italic" fill="#000">x</text>
+  
+  <!-- Right side beam cross-section -->
+  <text x="620" y="60" font-family="serif" font-size="20" font-style="italic" fill="#000">t</text>
+  <rect x="615" y="80" width="40" height="140" fill="#B0E0E6" stroke="#000" stroke-width="2"/>
+  <text x="590" y="155" font-family="serif" font-size="18" font-style="italic" fill="#000">b(x)</text>
+  
+  <!-- Vertical lines at B and C -->
+  <line x1="215" y1="110" x2="215" y2="190" stroke="#000" stroke-width="1.5"/>
+  <line x1="380" y1="120" x2="380" y2="180" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="red"/>
+    </marker>
+    <marker id="arrowred2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="red"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,196 @@
+<svg viewBox="0 0 1366 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e2e6ea"/>
+      <stop offset="60%" stop-color="#cfd3d8"/>
+      <stop offset="100%" stop-color="#bcc0c6"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c3136"/>
+      <stop offset="100%" stop-color="#1f2428"/>
+    </linearGradient>
+    <linearGradient id="sidewalkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9aa0a6"/>
+      <stop offset="100%" stop-color="#7f858c"/>
+    </linearGradient>
+    <radialGradient id="leafGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2f5f2f"/>
+      <stop offset="100%" stop-color="#193f1e"/>
+    </radialGradient>
+    <style>
+      .thin{stroke:#2b2b2b;stroke-width:2}
+      .wire{stroke:#5b5f63;stroke-width:1.2}
+    </style>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#skyGrad)"/>
+
+  <!-- Distant cloud bands -->
+  <ellipse cx="320" cy="120" rx="220" ry="50" fill="#ffffff" opacity="0.15"/>
+  <ellipse cx="860" cy="110" rx="260" ry="60" fill="#ffffff" opacity="0.12"/>
+  <ellipse cx="620" cy="170" rx="280" ry="70" fill="#ffffff" opacity="0.10"/>
+
+  <!-- Right building block -->
+  <rect x="960" y="250" width="300" height="220" fill="#8c9096"/>
+  <rect x="960" y="250" width="300" height="24" fill="#7d8086"/>
+  <rect x="990" y="270" width="240" height="180" fill="#a1a5aa" opacity="0.6"/>
+
+  <!-- Left industrial building -->
+  <rect x="0" y="310" width="500" height="190" fill="#e6e9ec"/>
+  <rect x="0" y="310" width="500" height="22" fill="#d3d7db"/>
+
+  <!-- Sidewalks -->
+  <polygon points="0,520 0,768 560,768 610,430 400,462" fill="url(#sidewalkGrad)"/>
+  <polygon points="760,430 960,470 1366,680 1366,768 760,768" fill="url(#sidewalkGrad)"/>
+
+  <!-- Road -->
+  <polygon points="0,768 1366,768 760,430 610,430" fill="url(#roadGrad)"/>
+
+  <!-- Right edge white line -->
+  <polyline points="1366,768 760,430" fill="none" stroke="#f0f3f6" stroke-width="5" opacity="0.9"/>
+
+  <!-- Center double yellow lines -->
+  <polyline points="500,768 670,520 685,430" fill="none" stroke="#f1d24c" stroke-width="6"/>
+  <polyline points="517,768 688,520 703,430" fill="none" stroke="#f1d24c" stroke-width="6"/>
+
+  <!-- Distant mid-rise grid building -->
+  <g opacity="0.9">
+    <rect x="620" y="360" width="220" height="90" fill="#dfe3e7" stroke="#c8ccd0" stroke-width="2"/>
+    <g stroke="#c4c8cc" stroke-width="1">
+      <line x1="630" y1="360" x2="630" y2="450"/>
+      <line x1="650" y1="360" x2="650" y2="450"/>
+      <line x1="670" y1="360" x2="670" y2="450"/>
+      <line x1="690" y1="360" x2="690" y2="450"/>
+      <line x1="710" y1="360" x2="710" y2="450"/>
+      <line x1="730" y1="360" x2="730" y2="450"/>
+      <line x1="750" y1="360" x2="750" y2="450"/>
+      <line x1="770" y1="360" x2="770" y2="450"/>
+      <line x1="790" y1="360" x2="790" y2="450"/>
+      <line x1="810" y1="360" x2="810" y2="450"/>
+      <line x1="620" y1="375" x2="840" y2="375"/>
+      <line x1="620" y1="395" x2="840" y2="395"/>
+      <line x1="620" y1="415" x2="840" y2="415"/>
+      <line x1="620" y1="435" x2="840" y2="435"/>
+    </g>
+  </g>
+
+  <!-- Utility poles -->
+  <g stroke="#5b5e63" stroke-width="6" stroke-linecap="round">
+    <line x1="210" y1="95" x2="185" y2="520"/>
+    <line x1="330" y1="170" x2="320" y2="470" stroke-width="4"/>
+  </g>
+
+  <!-- Overhead wires -->
+  <g class="wire">
+    <path d="M185,140 C370,220 700,220 965,180" fill="none"/>
+    <path d="M190,160 C420,250 820,250 1090,190" fill="none"/>
+    <path d="M200,185 C470,285 900,285 1180,210" fill="none"/>
+  </g>
+
+  <!-- Fence in front of left building -->
+  <g opacity="0.85">
+    <line x1="0" y1="470" x2="500" y2="470" stroke="#2f3336" stroke-width="4"/>
+    <g stroke="#363a3e" stroke-width="3">
+      <line x1="20" y1="470" x2="20" y2="520"/>
+      <line x1="60" y1="470" x2="60" y2="520"/>
+      <line x1="100" y1="470" x2="100" y2="520"/>
+      <line x1="140" y1="470" x2="140" y2="520"/>
+      <line x1="180" y1="470" x2="180" y2="520"/>
+      <line x1="220" y1="470" x2="220" y2="520"/>
+      <line x1="260" y1="470" x2="260" y2="520"/>
+      <line x1="300" y1="470" x2="300" y2="520"/>
+      <line x1="340" y1="470" x2="340" y2="520"/>
+      <line x1="380" y1="470" x2="380" y2="520"/>
+      <line x1="420" y1="470" x2="420" y2="520"/>
+      <line x1="460" y1="470" x2="460" y2="520"/>
+    </g>
+  </g>
+
+  <!-- Parked cars on the right -->
+  <g>
+    <!-- Car 1 (closest SUV) -->
+    <g transform="translate(1085,520)">
+      <rect x="0" y="0" width="220" height="70" rx="12" ry="12" fill="#b7bcc0" stroke="#8a8f94" stroke-width="3"/>
+      <rect x="25" y="8" width="120" height="32" rx="6" ry="6" fill="#8c9298"/>
+      <circle cx="55" cy="68" r="14" fill="#2b2f33"/>
+      <circle cx="170" cy="68" r="14" fill="#2b2f33"/>
+    </g>
+    <!-- Car 2 -->
+    <g transform="translate(1000,510) scale(0.85)">
+      <rect x="0" y="0" width="160" height="60" rx="10" ry="10" fill="#c3c8cc" stroke="#8f9498" stroke-width="3"/>
+      <rect x="20" y="8" width="90" height="28" rx="6" ry="6" fill="#8a9096"/>
+      <circle cx="40" cy="60" r="12" fill="#2b2f33"/>
+      <circle cx="130" cy="60" r="12" fill="#2b2f33"/>
+    </g>
+    <!-- Car 3 -->
+    <g transform="translate(940,505) scale(0.8)">
+      <rect x="0" y="0" width="150" height="60" rx="10" ry="10" fill="#cfd3d6" stroke="#91969a" stroke-width="3"/>
+      <rect x="18" y="8" width="85" height="26" rx="5" ry="5" fill="#8a9096"/>
+      <circle cx="35" cy="60" r="11" fill="#2b2f33"/>
+      <circle cx="120" cy="60" r="11" fill="#2b2f33"/>
+    </g>
+  </g>
+
+  <!-- Moving truck near center-left -->
+  <g transform="translate(540,460)">
+    <rect x="-10" y="35" width="140" height="52" rx="8" ry="8" fill="#6b6f73" stroke="#43464a" stroke-width="3"/>
+    <rect x="0" y="0" width="120" height="54" rx="8" ry="8" fill="#aa6c3b" stroke="#73492b" stroke-width="3"/>
+    <rect x="10" y="12" width="80" height="22" rx="4" ry="4" fill="#d88342"/>
+    <rect x="84" y="10" width="28" height="28" rx="6" ry="6" fill="#81878d"/>
+    <circle cx="20" cy="90" r="11" fill="#1c1f23"/>
+    <circle cx="102" cy="90" r="11" fill="#1c1f23"/>
+  </g>
+
+  <!-- Small car ahead of the truck -->
+  <g transform="translate(610,470) scale(0.6)">
+    <rect x="0" y="30" width="110" height="40" rx="10" ry="10" fill="#6f767c" stroke="#3e4348" stroke-width="3"/>
+    <rect x="10" y="0" width="85" height="40" rx="10" ry="10" fill="#8e949a"/>
+    <circle cx="25" cy="72" r="10" fill="#262a2f"/>
+    <circle cx="90" cy="72" r="10" fill="#262a2f"/>
+  </g>
+
+  <!-- Trees along the right sidewalk -->
+  <g>
+    <g transform="translate(980,330)">
+      <rect x="24" y="120" width="14" height="60" fill="#5a3e27"/>
+      <circle cx="30" cy="120" r="48" fill="url(#leafGrad)"/>
+      <circle cx="60" cy="130" r="30" fill="url(#leafGrad)"/>
+    </g>
+    <g transform="translate(1050,320)">
+      <rect x="24" y="120" width="14" height="65" fill="#5a3e27"/>
+      <circle cx="30" cy="120" r="50" fill="url(#leafGrad)"/>
+      <circle cx="62" cy="132" r="32" fill="url(#leafGrad)"/>
+    </g>
+    <g transform="translate(1120,320)">
+      <rect x="24" y="120" width="14" height="68" fill="#5a3e27"/>
+      <circle cx="30" cy="120" r="50" fill="url(#leafGrad)"/>
+      <circle cx="65" cy="130" r="28" fill="url(#leafGrad)"/>
+    </g>
+    <g transform="translate(1200,325)">
+      <rect x="24" y="120" width="14" height="70" fill="#5a3e27"/>
+      <circle cx="30" cy="120" r="52" fill="url(#leafGrad)"/>
+      <circle cx="66" cy="134" r="30" fill="url(#leafGrad)"/>
+    </g>
+  </g>
+
+  <!-- Parking sign -->
+  <g transform="translate(910,430)">
+    <circle cx="0" cy="0" r="16" fill="#2e3f5a"/>
+    <text x="-6" y="6" font-size="18" font-family="Arial" fill="#ffffff">P</text>
+  </g>
+
+  <!-- Left-side small parked cars behind fence (silhouettes) -->
+  <g opacity="0.55" fill="#3b3f43">
+    <rect x="80" y="485" width="110" height="40" rx="8" ry="8"/>
+    <rect x="210" y="488" width="120" height="42" rx="8" ry="8"/>
+  </g>
+
+  <!-- Colored annotation boxes -->
+  <rect x="90" y="402" width="120" height="75" fill="none" stroke="#e53c3c" stroke-width="6"/>
+  <rect x="178" y="382" width="120" height="80" fill="none" stroke="#2b55ff" stroke-width="6"/>
+  <rect x="628" y="414" width="22" height="44" fill="none" stroke="#2ee66a" stroke-width="6"/>
+
+  <!-- Subtle vignette -->
+  <rect x="0" y="0" width="1366" height="768" fill="none" stroke="#000000" stroke-opacity="0.08" stroke-width="24"/>
+</svg>

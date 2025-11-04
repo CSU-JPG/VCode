@@ -1,0 +1,80 @@
+<svg viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ground symbol -->
+  <line x1="120" y1="320" x2="120" y2="330" stroke="black" stroke-width="2"/>
+  <line x1="110" y1="330" x2="130" y2="330" stroke="black" stroke-width="2"/>
+  <line x1="113" y1="335" x2="127" y2="335" stroke="black" stroke-width="1.5"/>
+  <line x1="116" y1="340" x2="124" y2="340" stroke="black" stroke-width="1"/>
+  
+  <!-- Input voltage source v1 -->
+  <circle cx="60" cy="270" r="25" stroke="black" stroke-width="2" fill="none"/>
+  <text x="35" y="275" font-family="Arial" font-size="16" font-style="italic">v</text>
+  <text x="48" y="278" font-family="Arial" font-size="12">1</text>
+  <text x="35" y="260" font-family="Arial" font-size="18">+</text>
+  
+  <!-- Wires from voltage source -->
+  <line x1="60" y1="245" x2="60" y2="210" stroke="black" stroke-width="2"/>
+  <line x1="60" y1="295" x2="60" y2="320" stroke="black" stroke-width="2"/>
+  <line x1="60" y1="320" x2="280" y2="320" stroke="black" stroke-width="2"/>
+  
+  <!-- Transistor -->
+  <line x1="120" y1="210" x2="120" y2="280" stroke="black" stroke-width="3"/>
+  <line x1="90" y1="240" x2="120" y2="240" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="220" x2="150" y2="190" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="260" x2="150" y2="290" stroke="black" stroke-width="2"/>
+  <polygon points="120,255 115,265 125,260" fill="black"/>
+  <line x1="60" y1="210" x2="90" y2="210" stroke="black" stroke-width="2"/>
+  <line x1="90" y1="210" x2="90" y2="240" stroke="black" stroke-width="2"/>
+  
+  <!-- Collector resistor Rc -->
+  <line x1="150" y1="190" x2="150" y2="200" stroke="black" stroke-width="2"/>
+  <path d="M 150 200 l -3 5 l 6 10 l -6 10 l 6 10 l -6 10 l 6 10 l -6 10 l 3 5" stroke="black" stroke-width="2" fill="none"/>
+  <line x1="150" y1="260" x2="150" y2="270" stroke="black" stroke-width="2"/>
+  <text x="160" y="235" font-family="Arial" font-size="16" font-style="italic">R</text>
+  <text x="175" y="240" font-family="Arial" font-size="12">c</text>
+  
+  <!-- Wire to Vcc -->
+  <line x1="150" y1="190" x2="150" y2="50" stroke="black" stroke-width="2"/>
+  
+  <!-- Vcc label -->
+  <text x="135" y="35" font-family="Arial" font-size="16" font-style="italic">V</text>
+  <text x="150" y="40" font-family="Arial" font-size="12">CC</text>
+  <circle cx="150" cy="45" r="4" stroke="black" stroke-width="2" fill="white"/>
+  
+  <!-- Horizontal wire to capacitor -->
+  <line x1="150" y1="270" x2="240" y2="270" stroke="black" stroke-width="2"/>
+  
+  <!-- Current Ic arrow -->
+  <polygon points="170,140 175,150 165,150" fill="black"/>
+  <text x="180" y="145" font-family="Arial" font-size="16" font-style="italic">I</text>
+  <text x="192" y="150" font-family="Arial" font-size="12">c</text>
+  
+  <!-- Capacitor C -->
+  <line x1="240" y1="260" x2="240" y2="280" stroke="black" stroke-width="3"/>
+  <line x1="245" y1="260" x2="245" y2="280" stroke="black" stroke-width="3"/>
+  <line x1="240" y1="270" x2="230" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="245" y1="270" x2="280" y2="270" stroke="black" stroke-width="2"/>
+  <text x="255" y="275" font-family="Arial" font-size="16" font-style="italic">C</text>
+  
+  <!-- Load resistor RL -->
+  <line x1="280" y1="270" x2="280" y2="280" stroke="black" stroke-width="2"/>
+  <path d="M 280 280 l -3 5 l 6 10 l -6 10 l 6 10 l -6 10 l 6 10 l -6 10 l 3 5" stroke="black" stroke-width="2" fill="none"/>
+  <line x1="280" y1="340" x2="280" y2="320" stroke="black" stroke-width="2"/>
+  <text x="295" y="310" font-family="Arial" font-size="16" font-style="italic">R</text>
+  <text x="310" y="315" font-family="Arial" font-size="12">L</text>
+  
+  <!-- Output label -->
+  <text x="305" y="275" font-family="Arial" font-size="14">(output)</text>
+  
+  <!-- Emitter wire to ground -->
+  <line x1="150" y1="290" x2="150" y2="320" stroke="black" stroke-width="2"/>
+  <line x1="150" y1="320" x2="120" y2="320" stroke="black" stroke-width="2"/>
+  
+  <!-- Circuit parameters -->
+  <text x="265" y="335" font-family="Arial" font-size="14" font-style="italic">V</text>
+  <text x="280" y="340" font-family="Arial" font-size="11">CC</text>
+  <text x="295" y="335" font-family="Arial" font-size="14">= 5 V</text>
+  
+  <text x="265" y="355" font-family="Arial" font-size="14" font-style="italic">R</text>
+  <text x="280" y="360" font-family="Arial" font-size="11">C</text>
+  <text x="293" y="355" font-family="Arial" font-size="14">= 5 kΩ</text>
+</svg>

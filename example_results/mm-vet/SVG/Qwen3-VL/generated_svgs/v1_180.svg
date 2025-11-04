@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="moonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFFF99"/>
+    </radialGradient>
+    <radialGradient id="starGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFFF99"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky with swirling patterns -->
+  <rect width="1000" height="800" fill="#1E3A8A"/>
+  
+  <!-- Swirling sky patterns -->
+  <path d="M0,0 C200,100 400,50 600,200 C800,350 1000,400 1000,800 L0,800 Z" fill="none" stroke="#87CEEB" stroke-width="80" stroke-opacity="0.3"/>
+  <path d="M0,800 C200,700 400,750 600,600 C800,450 1000,400 1000,0 L0,0 Z" fill="none" stroke="#87CEEB" stroke-width="80" stroke-opacity="0.3"/>
+  <path d="M0,400 C300,200 700,600 1000,400 L1000,800 L0,800 Z" fill="none" stroke="#87CEEB" stroke-width="60" stroke-opacity="0.4"/>
+  <path d="M0,400 C300,600 700,200 1000,400 L1000,0 L0,0 Z" fill="none" stroke="#87CEEB" stroke-width="60" stroke-opacity="0.4"/>
+  
+  <!-- Moon -->
+  <circle cx="930" cy="150" r="80" fill="url(#moonGradient)" opacity="0.8"/>
+  <path d="M930,150 A80,80 0 0,1 850,150 A80,80 0 0,1 930,150" fill="#FFD700" opacity="0.9"/>
+  
+  <!-- Stars -->
+  <circle cx="240" cy="130" r="25" fill="url(#starGradient)" opacity="0.9"/>
+  <circle cx="330" cy="300" r="20" fill="url(#starGradient)" opacity="0.8"/>
+  <circle cx="360" cy="520" r="35" fill="url(#starGradient)" opacity="0.9"/>
+  <circle cx="120" cy="470" r="22" fill="url(#starGradient)" opacity="0.8"/>
+  <circle cx="30" cy="440" r="18" fill="url(#starGradient)" opacity="0.7"/>
+  <circle cx="630" cy="45" r="30" fill="url(#starGradient)" opacity="0.8"/>
+  <circle cx="730" cy="210" r="25" fill="url(#starGradient)" opacity="0.8"/>
+  <circle cx="420" cy="25" r="20" fill="url(#starGradient)" opacity="0.7"/>
+  
+  <!-- Hills in background -->
+  <path d="M0,650 C200,600 400,550 600,600 C800,650 1000,600 1000,500 L1000,800 L0,800 Z" fill="#2E4053"/>
+  <path d="M0,680 C300,630 700,650 1000,600 L1000,800 L0,800 Z" fill="#1F3B5C"/>
+  
+  <!-- Village -->
+  <g fill="#4B5563">
+    <rect x="400" y="700" width="30" height="60"/>
+    <rect x="440" y="710" width="40" height="50"/>
+    <rect x="490" y="720" width="35" height="40"/>
+    <rect x="530" y="700" width="45" height="60"/>
+    <rect x="580" y="710" width="30" height="50"/>
+    <rect x="620" y="720" width="40" height="40"/>
+    <rect x="670" y="710" width="35" height="50"/>
+    <rect x="710" y="700" width="40" height="60"/>
+    <rect x="760" y="720" width="30" height="40"/>
+    <rect x="800" y="710" width="35" height="50"/>
+    <rect x="840" y="700" width="40" height="60"/>
+    <rect x="890" y="720" width="30" height="40"/>
+  </g>
+  
+  <!-- Church steeple -->
+  <polygon points="570,630 580,700 590,630" fill="#E0E0E0"/>
+  <rect x="575" y="700" width="10" height="100" fill="#E0E0E0"/>
+  <polygon points="570,700 580,720 590,700" fill="#E0E0E0"/>
+  
+  <!-- Trees and vegetation -->
+  <path d="M120,800 C180,600 220,400 240,200 C260,0 280,0 300,0 C320,0 340,0 360,0 C380,0 400,0 420,0 C440,0 460,0 480,0 C500,0 520,0 540,0 C560,0 580,0 600,0 C620,0 640,0 660,0 C680,0 700,0 720,0 C740,0 760,0 780,0 C800,0 820,0 840,0 C860,0 880,0 900,0 C920,0 940,0 960,0 C980,0 1000,0 1000,500 C980,500 960,500 940,500 C920,500 900,500 880,500 C860,500 840,500 820,500 C800,500 780,500 760,500 C740,500 720,500 700,500 C680,500 660,500 640,500 C620,500 600,500 580,500 C560,500 540,500 520,500 C500,500 480,500 460,500 C440,500 420,500 400,500 C380,500 360,500 340,500 C320,500 300,500 280,500 C260,500 240,500 220,500 C200,500 180,500 160,500 C140,500 120,500 100,500 C80,500 60,500 40,500 C20,500 0,500 0,800 Z" fill="#2E4053"/>
+  
+  <!-- Cypress tree (left side) -->
+  <path d="M120,800 C150,600 180,400 210,200 C220,100 230,50 240,20 C250,0 260,0 270,0 C280,0 290,0 300,0 C310,0 320,0 330,0 C340,0 350,0 360,0 C370,0 380,0 390,0 C400,0 410,0 420,0 C430,0 440,0 450,0 C460,0 470,0 480,0 C490,0 500,0 510,0 C520,0 530,0 540,0 C550,0 560,0 570,0 C580,0 590,0 600,0 C610,0 620,0 630,0 C640,0 650,0 660,0 C670,0 680,0 690,0 C700,0 710,0 720,0 C730,0 740,0 750,0 C760,0 770,0 780,0 C790,0 800,0 810,0 C820,0 830,0 840,0 C850,0 860,0 870,0 C880,0 890,0 900,0 C910,0 920,0 930,0 C940,0 950,0 960,0 C970,0 980,0 990,0 C1000,0 1000,800 1000,800 Z" fill="#002B00"/>
+  
+  <!-- Window lights in village -->
+  <rect x="410" y="720" width="8" height="8" fill="#FFD700"/>
+  <rect x="450" y="730" width="8" height="8" fill="#FFD700"/>
+  <rect x="500" y="740" width="8" height="8" fill="#FFD700"/>
+  <rect x="540" y="720" width="8" height="8" fill="#FFD700"/>
+  <rect x="590" y="730" width="8" height="8" fill="#FFD700"/>
+  <rect x="630" y="740" width="8" height="8" fill="#FFD700"/>
+  <rect x="680" y="730" width="8" height="8" fill="#FFD700"/>
+  <rect x="720" y="720" width="8" height="8" fill="#FFD700"/>
+  <rect x="770" y="740" width="8" height="8" fill="#FFD700"/>
+  <rect x="810" y="730" width="8" height="8" fill="#FFD700"/>
+  <rect x="850" y="720" width="8" height="8" fill="#FFD700"/>
+  <rect x="900" y="740" width="8" height="8" fill="#FFD700"/>
+</svg>

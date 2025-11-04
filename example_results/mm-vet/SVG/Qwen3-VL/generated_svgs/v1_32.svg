@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: 'Comic Sans MS', cursive; font-size: 60px; fill: #8B5E3C; font-weight: bold; }
+    .subtitle { font-family: 'Comic Sans MS', cursive; font-size: 24px; fill: #D2691E; }
+    .label { font-family: 'Comic Sans MS', cursive; font-size: 18px; fill: #8B5E3C; }
+    .bowl { fill: #6495ED; stroke: #4682B4; stroke-width: 2; }
+    .dough { fill: #FFDAB9; stroke: #DEB887; stroke-width: 1; }
+    .hands { fill: #F4A460; stroke: #CD853F; stroke-width: 1; }
+    .rollingPin { fill: #D2B48C; stroke: #8B4513; stroke-width: 1; }
+    .oven { fill: #6495ED; stroke: #4682B4; stroke-width: 2; }
+    .bread { fill: #DEB887; stroke: #8B4513; stroke-width: 1; }
+  </style>
+
+  <!-- Top row -->
+  <g transform="translate(50,50)">
+    <text x="0" y="-20" class="label">WATER</text>
+    <text x="100" y="-20" class="label">YEAST</text>
+    <text x="200" y="-20" class="label">SUGAR</text>
+    <rect x="0" y="0" width="50" height="30" rx="5" fill="#6495ED"/>
+    <circle cx="120" cy="10" r="5" fill="#FFF"/>
+    <circle cx="220" cy="10" r="5" fill="#FFF"/>
+    <path d="M150 10 Q160 30 170 10" stroke="#8B4513" stroke-width="3" fill="none"/>
+    <ellipse cx="150" cy="150" rx="100" ry="80" class="bowl"/>
+  </g>
+
+  <g transform="translate(350,50)">
+    <text x="0" y="-20" class="label">OIL</text>
+    <text x="150" y="-20" class="label">SALT</text>
+    <text x="200" y="-20" class="label">FLOUR</text>
+    <rect x="0" y="0" width="30" height="40" rx="5" fill="#FFD700"/>
+    <rect x="150" y="0" width="20" height="30" rx="5" fill="#F5F5DC"/>
+    <rect x="200" y="0" width="60" height="40" rx="5" fill="#F5F5DC"/>
+    <ellipse cx="150" cy="150" rx="100" ry="80" class="bowl"/>
+  </g>
+
+  <g transform="translate(650,50)">
+    <text x="0" y="-20" class="label">KNEAD</text>
+    <text x="0" y="10" class="label">dough</text>
+    <ellipse cx="150" cy="100" rx="100" ry="80" class="dough"/>
+    <path d="M100 50 Q150 100 200 50" stroke="#F4A460" stroke-width="20" fill="none"/>
+    <path d="M100 150 Q150 100 200 150" stroke="#F4A460" stroke-width="20" fill="none"/>
+  </g>
+
+  <!-- Middle row -->
+  <g transform="translate(50,350)">
+    <rect x="50" y="50" width="100" height="60" rx="10" fill="#FF6347"/>
+    <text x="70" y="85" class="label">1h</text>
+    <text x="0" y="130" class="label">PUT IN WARM</text>
+    <text x="0" y="150" class="label">PLACE</text>
+  </g>
+
+  <g transform="translate(350,350)">
+    <text x="0" y="60" class="title">MAKING</text>
+    <text x="0" y="120" class="title">BREAD</text>
+    <text x="0" y="160" class="subtitle">at home</text>
+  </g>
+
+  <g transform="translate(650,350)">
+    <text x="0" y="-20" class="label">DIVIDE DOUGH</text>
+    <text x="0" y="120" class="label">... INTO</text>
+    <text x="0" y="140" class="label">PIECES</text>
+    <ellipse cx="150" cy="100" rx="100" ry="80" class="dough"/>
+    <rect x="100" y="80" width="80" height="20" rx="5" fill="#6495ED"/>
+    <rect x="180" y="80" width="20" height="10" rx="5" fill="#8B4513"/>
+  </g>
+
+  <!-- Bottom row -->
+  <g transform="translate(50,650)">
+    <text x="0" y="-20" class="label">PRESS EACH</text>
+    <text x="0" y="0" class="label">PIECE</text>
+    <text x="0" y="120" class="label">... INTO A FLAT DISK</text>
+    <ellipse cx="150" cy="100" rx="100" ry="80" class="dough"/>
+    <rect x="100" y="50" width="40" height="100" rx="10" class="rollingPin"/>
+  </g>
+
+  <g transform="translate(350,650)">
+    <text x="0" y="-20" class="label">BAKE ON EACH SIDE</text>
+    <rect x="50" y="50" width="200" height="100" rx="10" class="oven"/>
+    <circle cx="100" cy="80" r="20" fill="#FFEBCD"/>
+    <circle cx="150" cy="80" r="20" fill="#FFEBCD"/>
+    <circle cx="200" cy="80" r="20" fill="#FFEBCD"/>
+    <circle cx="100" cy="120" r="20" fill="#FFEBCD"/>
+    <circle cx="150" cy="120" r="20" fill="#FFEBCD"/>
+    <circle cx="200" cy="120" r="20" fill="#FFEBCD"/>
+    <path d="M150 30 Q160 50 170 30" stroke="#FFF" stroke-width="2" fill="none"/>
+    <path d="M150 20 Q160 40 170 20" stroke="#FFF" stroke-width="2" fill="none"/>
+    <text x="500" y="30" class="label">C°</text>
+  </g>
+
+  <g transform="translate(650,650)">
+    <text x="0" y="180" class="label">WELL DONE</text>
+    <ellipse cx="150" cy="100" rx="80" ry="60" class="bread"/>
+    <rect x="180" y="80" width="40" height="60" rx="5" class="bread"/>
+  </g>
+</svg>

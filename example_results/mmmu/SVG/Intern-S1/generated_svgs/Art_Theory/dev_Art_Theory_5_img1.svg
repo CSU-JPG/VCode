@@ -1,0 +1,83 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f5dc"/>
+  <g fill="#333">
+    <text x="450" y="50" font-size="12" text-anchor="middle" letter-spacing="1">IVN BASSVS VC QVI VIXIT ANNIS XLIM MEN... etc.</text>
+  </g>
+  <g transform="translate(20, 80)">
+    <path d="M0 0h860v200h-860z" fill="none" stroke="#333" stroke-width="2"/>
+    <g>
+      <rect x="20" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="30" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="70" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="80" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="120" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="130" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="170" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="180" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="220" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="230" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="270" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="280" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="320" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="330" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="370" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="380" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="420" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="430" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="470" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="480" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="520" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="530" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="570" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="580" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="620" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="630" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="670" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="680" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="720" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="730" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="770" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="780" cy="40" r="8" fill="#f5f5dc"/>
+      <rect x="820" y="20" width="40" height="120" fill="#f5f5dc"/>
+      <circle cx="830" cy="40" r="8" fill="#f5f5dc"/>
+    </g>
+  </g>
+  <g transform="translate(20, 280)">
+    <path d="M0 0h860v200h-860z" fill="none" stroke="#333" stroke-width="2"/>
+    <g>
+      <path d="M20 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="40" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M100 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="120" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M180 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="200" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M260 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="280" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M340 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="360" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M420 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="440" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M500 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="520" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M580 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="600" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M660 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="680" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M740 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="760" cy="140" r="8" fill="#f5f5dc"/>
+      <path d="M820 120h60v80h-60z" fill="#f5f5dc"/>
+      <circle cx="840" cy="140" r="8" fill="#f5f5dc"/>
+    </g>
+    <g stroke="#333" stroke-width="2">
+      <path d="M0 0 Q 50 -50 100 0"/>
+      <path d="M100 0 Q 150 -50 200 0"/>
+      <path d="M200 0 Q 250 -50 300 0"/>
+      <path d="M300 0 Q 350 -50 400 0"/>
+      <path d="M400 0 Q 450 -50 500 0"/>
+      <path d="M500 0 Q 550 -50 600 0"/>
+      <path d="M600 0 Q 650 -50 700 0"/>
+      <path d="M700 0 Q 750 -50 800 0"/>
+      <path d="M800 0 Q 850 -50 900 0"/>
+    </g>
+  </g>
+</svg>

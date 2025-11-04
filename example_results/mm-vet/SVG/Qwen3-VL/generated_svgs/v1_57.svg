@@ -1,0 +1,158 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; }
+    .subtitle { font-family: Arial, sans-serif; font-size: 16px; }
+    .label { font-family: Arial, sans-serif; font-size: 14px; }
+    .legend-text { font-family: Arial, sans-serif; font-size: 14px; }
+    .axis-label { font-family: Arial, sans-serif; font-size: 12px; }
+    .tick { stroke: #999; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .olympic-rings { fill: none; stroke: #ccc; stroke-width: 8; }
+    .logo-text { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; }
+    .source { font-family: Arial, sans-serif; font-size: 12px; }
+  </style>
+
+  <!-- Title and Subtitle -->
+  <text x="20" y="30" class="title">Team GB's most successful Olympic sports</text>
+  <text x="20" y="60" class="subtitle">Gold medals won by Team GB at the Summer Olympics (1996-2016)</text>
+
+  <!-- Legend -->
+  <rect x="150" y="100" width="15" height="15" fill="#e41a1c"/>
+  <text x="170" y="112" class="legend-text">Rowing</text>
+  <rect x="250" y="100" width="15" height="15" fill="#ff7f00"/>
+  <text x="270" y="112" class="legend-text">Cycling</text>
+  <rect x="350" y="100" width="15" height="15" fill="#ffd700"/>
+  <text x="370" y="112" class="legend-text">Athletics</text>
+  <rect x="450" y="100" width="15" height="15" fill="#1f77b4"/>
+  <text x="470" y="112" class="legend-text">Sailing</text>
+  <rect x="550" y="100" width="15" height="15" fill="#33a02c"/>
+  <text x="570" y="112" class="legend-text">Boxing</text>
+
+  <!-- Y-axis -->
+  <line x1="100" y1="150" x2="100" y2="650" stroke="#000" stroke-width="1"/>
+  <!-- Y-axis labels and grid lines -->
+  <g>
+    <text x="80" y="650" class="axis-label">0</text>
+    <line x1="100" y1="650" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="590" class="axis-label">1</text>
+    <line x1="100" y1="590" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="530" class="axis-label">2</text>
+    <line x1="100" y1="530" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="470" class="axis-label">3</text>
+    <line x1="100" y1="470" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="410" class="axis-label">4</text>
+    <line x1="100" y1="410" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="350" class="axis-label">5</text>
+    <line x1="100" y1="350" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="290" class="axis-label">6</text>
+    <line x1="100" y1="290" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="230" class="axis-label">7</text>
+    <line x1="100" y1="230" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="170" class="axis-label">8</text>
+    <line x1="100" y1="170" x2="950" stroke="#ddd" stroke-width="1"/>
+    <text x="80" y="110" class="axis-label">9</text>
+    <line x1="100" y1="110" x2="950" stroke="#ddd" stroke-width="1"/>
+  </g>
+
+  <!-- X-axis -->
+  <line x1="100" y1="650" x2="950" y2="650" stroke="#000" stroke-width="1"/>
+  <!-- X-axis labels -->
+  <g>
+    <image x="100" y="670" width="20" height="20" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTEwIDBMMCAxMCBMMTAgMjAgTDIwIDEwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNSAxMCBMNiA4IEw4IDkgTDcgMTAgTDUgMTIgTDQgMTAgTDUgOCIvPjxwYXRoIGQ9Ik0xMCAxMiBMOSAxMSBMOCAxMiBMOSAxMyBMMTAgMTIgTDEwIDEyIi8+PC9nPjwvc3ZnPg=="/>
+    <text x="100" y="700" class="axis-label">Atlanta<br/>1996</text>
+    <image x="250" y="670" width="20" height="20" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTEwIDBMMCAxMCBMMTAgMjAgTDIwIDEwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNSAxMCBMNiA4IEw4IDkgTDcgMTAgTDUgMTIgTDQgMTAgTDUgOCIvPjxwYXRoIGQ9Ik0xMCAxMiBMOSAxMSBMOCAxMiBMOSAxMyBMMTAgMTIgTDEwIDEyIi8+PC9nPjwvc3ZnPg=="/>
+    <text x="250" y="700" class="axis-label">Sydney<br/>2000</text>
+    <image x="400" y="670" width="20" height="20" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTEwIDBMMCAxMCBMMTAgMjAgTDIwIDEwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNSAxMCBMNiA4IEw4IDkgTDcgMTAgTDUgMTIgTDQgMTAgTDUgOCIvPjxwYXRoIGQ9Ik0xMCAxMiBMOSAxMSBMOCAxMiBMOSAxMyBMMTAgMTIgTDEwIDEyIi8+PC9nPjwvc3ZnPg=="/>
+    <text x="400" y="700" class="axis-label">Athens<br/>2004</text>
+    <image x="550" y="670" width="20" height="20" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTEwIDBMMCAxMCBMMTAgMjAgTDIwIDEwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNSAxMCBMNiA4IEw4IDkgTDcgMTAgTDUgMTIgTDQgMTAgTDUgOCIvPjxwYXRoIGQ9Ik0xMCAxMiBMOSAxMSBMOCAxMiBMOSAxMyBMMTAgMTIgTDEwIDEyIi8+PC9nPjwvc3ZnPg=="/>
+    <text x="550" y="700" class="axis-label">Beijing<br/>2008</text>
+    <image x="700" y="670" width="20" height="20" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTEwIDBMMCAxMCBMMTAgMjAgTDIwIDEwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNSAxMCBMNiA4IEw4IDkgTDcgMTAgTDUgMTIgTDQgMTAgTDUgOCIvPjxwYXRoIGQ9Ik0xMCAxMiBMOSAxMSBMOCAxMiBMOSAxMyBMMTAgMTIgTDEwIDEyIi8+PC9nPjwvc3ZnPg=="/>
+    <text x="700" y="700" class="axis-label">London<br/>2012</text>
+    <image x="850" y="670" width="20" height="20" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTEwIDBMMCAxMCBMMTAgMjAgTDIwIDEwIFoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNSAxMCBMNiA4IEw4IDkgTDcgMTAgTDUgMTIgTDQgMTAgTDUgOCIvPjxwYXRoIGQ9Ik0xMCAxMiBMOSAxMSBMOCAxMiBMOSAxMyBMMTAgMTIgTDEwIDEyIi8+PC9nPjwvc3ZnPg=="/>
+    <text x="850" y="700" class="axis-label">Rio<br/>2016</text>
+  </g>
+
+  <!-- Olympic Rings (background) -->
+  <g class="olympic-rings">
+    <circle cx="150" cy="300" r="40"/>
+    <circle cx="200" cy="300" r="40"/>
+    <circle cx="250" cy="300" r="40"/>
+    <circle cx="300" cy="300" r="40"/>
+    <circle cx="350" cy="300" r="40"/>
+  </g>
+
+  <!-- Data Lines -->
+  <!-- Rowing (Red) -->
+  <polyline points="100,600 250,540 400,570 550,510 700,450 850,510" fill="none" stroke="#e41a1c" stroke-width="3"/>
+  <circle cx="100" cy="600" r="4" fill="#e41a1c"/>
+  <circle cx="250" cy="540" r="4" fill="#e41a1c"/>
+  <circle cx="400" cy="570" r="4" fill="#e41a1c"/>
+  <circle cx="550" cy="510" r="4" fill="#e41a1c"/>
+  <circle cx="700" cy="450" r="4" fill="#e41a1c"/>
+  <circle cx="850" cy="510" r="4" fill="#e41a1c"/>
+
+  <!-- Cycling (Orange) -->
+  <polyline points="100,650 250,590 400,530 550,350 700,350 850,470" fill="none" stroke="#ff7f00" stroke-width="3"/>
+  <circle cx="100" cy="650" r="4" fill="#ff7f00"/>
+  <circle cx="250" cy="590" r="4" fill="#ff7f00"/>
+  <circle cx="400" cy="530" r="4" fill="#ff7f00"/>
+  <circle cx="550" cy="350" r="4" fill="#ff7f00"/>
+  <circle cx="700" cy="350" r="4" fill="#ff7f00"/>
+  <circle cx="850" cy="470" r="4" fill="#ff7f00"/>
+
+  <!-- Athletics (Yellow) -->
+  <polyline points="100,650 250,570 400,510 550,470 700,410 850,470" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <circle cx="100" cy="650" r="4" fill="#ffd700"/>
+  <circle cx="250" cy="570" r="4" fill="#ffd700"/>
+  <circle cx="400" cy="510" r="4" fill="#ffd700"/>
+  <circle cx="550" cy="470" r="4" fill="#ffd700"/>
+  <circle cx="700" cy="410" r="4" fill="#ffd700"/>
+  <circle cx="850" cy="470" r="4" fill="#ffd700"/>
+
+  <!-- Sailing (Blue) -->
+  <polyline points="100,650 250,510 400,530 550,410 700,470 850,530" fill="none" stroke="#1f77b4" stroke-width="3"/>
+  <circle cx="100" cy="650" r="4" fill="#1f77b4"/>
+  <circle cx="250" cy="510" r="4" fill="#1f77b4"/>
+  <circle cx="400" cy="530" r="4" fill="#1f77b4"/>
+  <circle cx="550" cy="410" r="4" fill="#1f77b4"/>
+  <circle cx="700" cy="470" r="4" fill="#1f77b4"/>
+  <circle cx="850" cy="530" r="4" fill="#1f77b4"/>
+
+  <!-- Boxing (Green) -->
+  <polyline points="100,650 250,590 400,650 550,530 700,510 850,590" fill="none" stroke="#33a02c" stroke-width="3"/>
+  <circle cx="100" cy="650" r="4" fill="#33a02c"/>
+  <circle cx="250" cy="590" r="4" fill="#33a02c"/>
+  <circle cx="400" cy="650" r="4" fill="#33a02c"/>
+  <circle cx="550" cy="530" r="4" fill="#33a02c"/>
+  <circle cx="700" cy="510" r="4" fill="#33a02c"/>
+  <circle cx="850" cy="590" r="4" fill="#33a02c"/>
+
+  <!-- Icons for each sport -->
+  <g transform="translate(850, 470)">
+    <circle r="10" fill="white" stroke="#333" stroke-width="1"/>
+    <path d="M-5,-5 L5,5 M5,-5 L-5,5" stroke="#333" stroke-width="2"/>
+  </g>
+  <g transform="translate(850, 510)">
+    <circle r="10" fill="white" stroke="#333" stroke-width="1"/>
+    <path d="M0,-8 L-4,0 L0,8 M0,-8 L4,0 L0,8" stroke="#333" stroke-width="2"/>
+  </g>
+  <g transform="translate(850, 530)">
+    <circle r="10" fill="white" stroke="#333" stroke-width="1"/>
+    <path d="M-5,0 L5,0 M0,-5 L0,5" stroke="#333" stroke-width="2"/>
+  </g>
+  <g transform="translate(850, 590)">
+    <circle r="10" fill="white" stroke="#333" stroke-width="1"/>
+    <path d="M-5,-5 L5,5 M5,-5 L-5,5" stroke="#333" stroke-width="2"/>
+  </g>
+  <g transform="translate(850, 410)">
+    <circle r="10" fill="white" stroke="#333" stroke-width="1"/>
+    <path d="M-5,-5 L5,5 M5,-5 L-5,5" stroke="#333" stroke-width="2"/>
+  </g>
+
+  <!-- Source and Logos -->
+  <text x="20" y="750" class="source">@StatistaCharts Source: BBC</text>
+  <text x="500" y="750" class="logo-text" fill="#e41a1c">indy100</text>
+  <text x="650" y="750" class="logo-text" fill="#000">The INDEPENDENT</text>
+  <text x="800" y="750" class="logo-text" fill="#000">statista</text>
+  <rect x="950" y="740" width="20" height="20" fill="#000"/>
+</svg>

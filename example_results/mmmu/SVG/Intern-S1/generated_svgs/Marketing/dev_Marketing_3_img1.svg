@@ -1,0 +1,51 @@
+<svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Group A Header -->
+  <rect x="0" y="0" width="100" height="30" fill="white" stroke="black"/>
+  <text x="50" y="15" text-anchor="middle" dominant-baseline="middle">Group A</text>
+  <!-- Group B Header -->
+  <rect x="100" y="0" width="100" height="30" fill="white" stroke="black"/>
+  <text x="150" y="15" text-anchor="middle" dominant-baseline="middle">Group B</text>
+  <!-- Group C Header -->
+  <rect x="200" y="0" width="100" height="30" fill="white" stroke="black"/>
+  <text x="250" y="15" text-anchor="middle" dominant-baseline="middle">Group C</text>
+  
+  <!-- Row 1 -->
+  <rect x="0" y="30" width="100" height="30" fill="white" stroke="black"/>
+  <text x="50" y="45" text-anchor="middle" dominant-baseline="middle">101</text>
+  <rect x="100" y="30" width="100" height="30" fill="white" stroke="black"/>
+  <text x="150" y="45" text-anchor="middle" dominant-baseline="middle">151</text>
+  <rect x="200" y="30" width="100" height="30" fill="white" stroke="black"/>
+  <text x="250" y="45" text-anchor="middle" dominant-baseline="middle">101</text>
+  
+  <!-- Row 2 -->
+  <rect x="0" y="60" width="100" height="30" fill="white" stroke="black"/>
+  <text x="50" y="75" text-anchor="middle" dominant-baseline="middle">108</text>
+  <rect x="100" y="60" width="100" height="30" fill="white" stroke="black"/>
+  <text x="150" y="75" text-anchor="middle" dominant-baseline="middle">149</text>
+  <rect x="200" y="60" width="100" height="30" fill="white" stroke="black"/>
+  <text x="250" y="75" text-anchor="middle" dominant-baseline="middle">109</text>
+  
+  <!-- Row 3 -->
+  <rect x="0" y="90" width="100" height="30" fill="white" stroke="black"/>
+  <text x="50" y="105" text-anchor="middle" dominant-baseline="middle">98</text>
+  <rect x="100" y="90" width="100" height="30" fill="white" stroke="black"/>
+  <text x="150" y="105" text-anchor="middle" dominant-baseline="middle">160</text>
+  <rect x="200" y="90" width="100" height="30" fill="white" stroke="black"/>
+  <text x="250" y="105" text-anchor="middle" dominant-baseline="middle">198</text>
+  
+  <!-- Row 4 -->
+  <rect x="0" y="120" width="100" height="30" fill="white" stroke="black"/>
+  <text x="50" y="135" text-anchor="middle" dominant-baseline="middle">107</text>
+  <rect x="100" y="120" width="100" height="30" fill="white" stroke="black"/>
+  <text x="150" y="135" text-anchor="middle" dominant-baseline="middle">112</text>
+  <rect x="200" y="120" width="100" height="30" fill="white" stroke="black"/>
+  <text x="250" y="135" text-anchor="middle" dominant-baseline="middle">186</text>
+  
+  <!-- Row 5 -->
+  <rect x="0" y="150" width="100" height="30" fill="white" stroke="black"/>
+  <text x="50" y="165" text-anchor="middle" dominant-baseline="middle">111</text>
+  <rect x="100" y="150" width="100" height="30" fill="white" stroke="black"/>
+  <text x="150" y="165" text-anchor="middle" dominant-baseline="middle">126</text>
+  <rect x="200" y="150" width="100" height="30" fill="white" stroke="black"/>
+  <text x="250" y="165" text-anchor="middle" dominant-baseline="middle">160</text>
+</svg>

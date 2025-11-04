@@ -1,0 +1,171 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#8B4513"/>
+  <rect x="30" y="0" width="970" height="760" rx="20" fill="#A0C4E0" opacity="0.8"/>
+  
+  <!-- Sushi rolls -->
+  <g transform="translate(200, 20)">
+    <!-- Row 1 -->
+    <g>
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(60, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(120, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(180, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(240, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(300, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(360, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(420, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+  </g>
+  
+  <g transform="translate(230, 60)">
+    <!-- Row 2 -->
+    <g>
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(60, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(120, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(180, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(240, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(300, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(360, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(420, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+  </g>
+  
+  <g transform="translate(260, 100)">
+    <!-- Row 3 -->
+    <g>
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(60, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(120, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(180, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(240, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(300, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(360, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+    <g transform="translate(420, 0)">
+      <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#222" stroke-width="8"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#D0F0C0"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#FFD700" opacity="0.3"/>
+      <rect x="-15" y="5" width="30" height="10" fill="#FF6347" opacity="0.3"/>
+    </g>
+  </g>
+  
+  <!-- Wasabi dish -->
+  <circle cx="120" cy="600" r="60" fill="#FFF" stroke="#222" stroke-width="2"/>
+  <path d="M80,580 Q100,560 120,580 Q140,600 120,620 Q100,640 80,620 Z" fill="#DAA520" opacity="0.7"/>
+  <path d="M90,570 Q105,555 120,570 Q135,585 120,600 Q105,615 90,600 Z" fill="#DAA520" opacity="0.7"/>
+  <path d="M100,560 Q110,550 120,560 Q130,570 120,580 Q110,590 100,580 Z" fill="#DAA520" opacity="0.7"/>
+  <path d="M110,550 Q115,545 120,550 Q125,555 120,560 Q115,565 110,560 Z" fill="#DAA520" opacity="0.7"/>
+  <path d="M130,570 Q145,555 160,570 Q175,585 160,600 Q145,615 130,600 Z" fill="#DAA520" opacity="0.7"/>
+  <path d="M140,560 Q150,550 160,560 Q170,570 160,580 Q150,590 140,580 Z" fill="#DAA520" opacity="0.7"/>
+  <path d="M150,550 Q155,545 160,550 Q165,555 160,560 Q155,565 150,560 Z" fill="#DAA520" opacity="0.7"/>
+</svg>

@@ -1,0 +1,115 @@
+<svg viewBox="200 70 800 930" xmlns="http://www.w3.org/2000/svg">
+  <rect x="200" y="70" width="600" height="860" fill="white" rx="10"/>
+  
+  <!-- Nutrition Facts -->
+  <rect x="240" y="110" width="200" height="350" fill="white" stroke="#333" stroke-width="1"/>
+  <text x="250" y="130" font-family="Arial" font-size="14" font-weight="bold">Nutrition Facts</text>
+  <text x="250" y="145" font-family="Arial" font-size="10">about 11 servings per container</text>
+  <text x="250" y="155" font-family="Arial" font-size="10">Serving size 3/4 cup (79g)</text>
+  <text x="250" y="170" font-family="Arial" font-size="10">Amount per serving</text>
+  <text x="250" y="185" font-family="Arial" font-size="14" font-weight="bold">Calories 25</text>
+  <line x1="250" y1="195" x2="430" y2="195" stroke="#333" stroke-width="1"/>
+  
+  <!-- Nutritional details -->
+  <text x="250" y="205" font-family="Arial" font-size="10">Total Fat 0g</text>
+  <text x="410" y="205" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="215" font-family="Arial" font-size="10">Saturated Fat 0g</text>
+  <text x="410" y="215" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="225" font-family="Arial" font-size="10">Trans Fat 0g</text>
+  <text x="410" y="225" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="235" font-family="Arial" font-size="10">Cholesterol 0mg</text>
+  <text x="410" y="235" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="245" font-family="Arial" font-size="10">Sodium 10mg</text>
+  <text x="410" y="245" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="255" font-family="Arial" font-size="10">Total Carbohydrate 4g</text>
+  <text x="410" y="255" font-family="Arial" font-size="10">1%</text>
+  <text x="250" y="265" font-family="Arial" font-size="10">Dietary Fiber 1g</text>
+  <text x="410" y="265" font-family="Arial" font-size="10">4%</text>
+  <text x="250" y="275" font-family="Arial" font-size="10">Total Sugars 2g</text>
+  <text x="410" y="275" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="285" font-family="Arial" font-size="10">Includes 0g Added Sugars</text>
+  <text x="410" y="285" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="295" font-family="Arial" font-size="10">Protein 1g</text>
+  <text x="410" y="295" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="305" font-family="Arial" font-size="10">Vitamin D 0mcg</text>
+  <text x="410" y="305" font-family="Arial" font-size="10">0%</text>
+  <text x="250" y="315" font-family="Arial" font-size="10">Calcium 20mg</text>
+  <text x="410" y="315" font-family="Arial" font-size="10">2%</text>
+  <text x="250" y="325" font-family="Arial" font-size="10">Iron 0.4mg</text>
+  <text x="410" y="325" font-family="Arial" font-size="10">2%</text>
+  <text x="250" y="335" font-family="Arial" font-size="10">Potassium 160mg</text>
+  <text x="410" y="335" font-family="Arial" font-size="10">4%</text>
+  
+  <text x="250" y="350" font-family="Arial" font-size="8">*The % Daily Value tells you how much a nutrient in a serving of</text>
+  <text x="250" y="358" font-family="Arial" font-size="8">food contributes to a daily diet. 2,000 calories a day is used for</text>
+  <text x="250" y="366" font-family="Arial" font-size="8">general nutrition advice.</text>
+  
+  <text x="250" y="380" font-family="Arial" font-size="10">INGREDIENTS: ZUCCHINI, CARROTS,</text>
+  <text x="250" y="390" font-family="Arial" font-size="10">CAULIFLOWER, ITALIAN GREEN BEANS,</text>
+  <text x="250" y="400" font-family="Arial" font-size="10">LIMA BEANS, RED BELL PEPPER.</text>
+  
+  <text x="250" y="420" font-family="Arial" font-size="8">DISTRIBUTED BY</text>
+  <text x="250" y="430" font-family="Arial" font-size="8">JR. SIMPLOT COMPANY</text>
+  <text x="250" y="440" font-family="Arial" font-size="8">P.O. BOX 9386</text>
+  <text x="250" y="450" font-family="Arial" font-size="8">BOISE, ID 83707</text>
+  <text x="250" y="460" font-family="Arial" font-size="8">1800.572.7783</text>
+  <text x="250" y="470" font-family="Arial" font-size="8">www.simplotfoods.com</text>
+  
+  <text x="310" y="490" font-family="Arial" font-size="8">P-18875-00-E</text>
+  
+  <!-- Barcode -->
+  <rect x="290" y="500" width="120" height="60" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="295" y="555" font-family="Arial" font-size="8">0 71179 18875 2</text>
+  
+  <!-- Cooking Instructions -->
+  <rect x="500" y="110" width="250" height="350" fill="white" stroke="#333" stroke-width="1"/>
+  <text x="510" y="130" font-family="Arial" font-size="14" font-weight="bold">COOKING INSTRUCTIONS</text>
+  <text x="510" y="145" font-family="Arial" font-size="10">KEEP FROZEN UNTIL READY TO USE</text>
+  <text x="510" y="160" font-family="Arial" font-size="8">FOR FOOD SAFETY AND QUALITY,</text>
+  <text x="510" y="170" font-family="Arial" font-size="8">COOK TO A TEMPERATURE OF 165°F.</text>
+  <text x="510" y="180" font-family="Arial" font-size="8">TO SERVE COLD, PREPARE</text>
+  <text x="510" y="190" font-family="Arial" font-size="8">VEGETABLES AS STATED BELOW,</text>
+  <text x="510" y="200" font-family="Arial" font-size="8">THEN COOL AS RAPIDLY AS POSSIBLE</text>
+  <text x="510" y="210" font-family="Arial" font-size="8">TO REFRIGERATED TEMPERATURE.</text>
+  
+  <text x="510" y="230" font-family="Arial" font-size="10" font-weight="bold">STOVE TOP</text>
+  <text x="510" y="245" font-family="Arial" font-size="8">1. Bring 5 quarts of water</text>
+  <text x="510" y="255" font-family="Arial" font-size="8">to a boil on HIGH.</text>
+  <text x="510" y="265" font-family="Arial" font-size="8">2. Add one bag of frozen</text>
+  <text x="510" y="275" font-family="Arial" font-size="8">vegetables and cook for</text>
+  <text x="510" y="285" font-family="Arial" font-size="8">7 minutes, stirring as</text>
+  <text x="510" y="295" font-family="Arial" font-size="8">needed.</text>
+  
+  <text x="510" y="315" font-family="Arial" font-size="10" font-weight="bold">STEAMER</text>
+  <text x="510" y="330" font-family="Arial" font-size="8">1. Arrange one bag of</text>
+  <text x="510" y="340" font-family="Arial" font-size="8">frozen vegetables in a</text>
+  <text x="510" y="350" font-family="Arial" font-size="8">slotted full-size steam</text>
+  <text x="510" y="360" font-family="Arial" font-size="8">table pan.</text>
+  <text x="510" y="370" font-family="Arial" font-size="8">2. Steam for 5 minutes.</text>
+  
+  <text x="510" y="390" font-family="Arial" font-size="10" font-weight="bold">MICROWAVE (1100 WATTS)</text>
+  <text x="510" y="405" font-family="Arial" font-size="8">1. Place one bag of frozen</text>
+  <text x="510" y="415" font-family="Arial" font-size="8">vegetables in a</text>
+  <text x="510" y="425" font-family="Arial" font-size="8">microwave safe dish.</text>
+  <text x="510" y="435" font-family="Arial" font-size="8">2. Add 2 tbsp of water</text>
+  <text x="510" y="445" font-family="Arial" font-size="8">and cover.</text>
+  <text x="510" y="455" font-family="Arial" font-size="8">3. Cook on HIGH for</text>
+  <text x="510" y="465" font-family="Arial" font-size="8">15 minutes, stirring</text>
+  <text x="510" y="475" font-family="Arial" font-size="8">halfway through</text>
+  <text x="510" y="485" font-family="Arial" font-size="8">cook time.</text>
+  
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="veggiePattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="10" fill="#FFA500" opacity="0.3"/>
+      <circle cx="10" cy="10" r="5" fill="#228B22" opacity="0.3"/>
+      <circle cx="30" cy="30" r="5" fill="#FF4500" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <rect x="200" y="70" width="600" height="860" fill="url(#veggiePattern)" opacity="0.5"/>
+  
+  <!-- Product info at bottom -->
+  <text x="280" y="770" font-family="Arial" font-size="8">389 NOV 18 20 10 14:22</text>
+  <text x="280" y="780" font-family="Arial" font-size="8">PRODUCT OF USA/MEXICO</text>
+</svg>

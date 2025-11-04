@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 571" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feOffset in="blur" dx="2" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.25" result="flood"/>
+      <feComposite in="flood" in2="offsetBlur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="tree" d="M0,-8 L-7,5 L-2,5 L-4,10 L4,10 L2,5 L7,5 Z" fill="#4CAF50"/>
+    <path id="jimmy" d="M-5,0 L5,0" stroke-width="4" stroke-linecap="round"/>
+  </defs>
+
+  <rect width="800" height="571" fill="#E6E2DA"/>
+  <path d="M-50,571 C 200,450 450,650 850,500 L 850,571 Z" fill="#000" opacity="0.03"/>
+  <path d="M-50,0 C 150,150 400,-50 850,100 L 850,0 Z" fill="#FFF" opacity="0.04"/>
+
+  <!-- Back-most cookie (top edge) -->
+  <path d="M-10,40 A60,60 0 0 1 150,40 L150,50 A70,70 0 0 0 -10,50 Z" fill="#4E342E" transform="translate(0 -30)"/>
+  <path d="M-10,40 A60,60 0 0 1 150,40 L150,42 A62,62 0 0 0 -10,42 Z" fill="#6D4C41" transform="translate(0 -30)"/>
+  <path d="M0,0 L30,0" stroke="#00695C" stroke-width="4" transform="translate(10, 8)"/>
+  <path d="M0,0 L30,0" stroke="#00695C" stroke-width="4" transform="translate(60, 8)"/>
+  
+  <!-- Cookie top left (red sugar) -->
+  <g transform="translate(100 85)" filter="url(#shadow)">
+    <path d="M-50,5 C-20,20 20,20 50,5 A60,60 0 0 0 -50,5Z" fill="#5D4037"/>
+    <ellipse cx="0" cy="5" rx="65" ry="65" fill="#4E342E"/>
+    <circle cx="0" cy="0" r="65" fill="#6D4C41"/>
+    <path d="M-50 -25 A 55 55 0 0 1 20 -50 L 15 -45 A 45 45 0 0 0 -45 -20 Z" fill="#FFF" opacity="0.1"/>
+    <g>
+      <circle cx="-30" cy="-30" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-25" cy="-35" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-20" cy="-32" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-15" cy="-40" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-5" cy="-38" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="5" cy="-42" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="15" cy="-35" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="25" cy="-30" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="35" cy="-20" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="40" cy="-10" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="45" cy="0" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="40" cy="10" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="30" cy="20" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="20" cy="30" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="10" cy="35" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="0" cy="40" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-10" cy="38" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-20" cy="35" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-30" cy="25" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-40" cy="15" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-45" cy="0" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-42" cy="-15" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="0" cy="0" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="10" cy="5" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-10" cy="-5" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="20" cy="-15" r="1.5" fill="#D32F2F" opacity="0.8"/><circle cx="-20" cy="15" r="1.5" fill="#D32F2F" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- Cookie top right -->
+  <g transform="translate(680 80)" filter="url(#shadow)">
+    <path d="M-60,5 C-30,22 30,22 60,5 A70,70 0 0 0 -60,5Z" fill="#5D4037"/>
+    <ellipse cx="0" cy="5" rx="65" ry="65" fill="#4E342E"/>
+    <circle cx="0" cy="0" r="65" fill="#6D4C41"/>
+    <g>
+      <circle cx="-30" cy="-20" r="4" fill="#F5F5F5"/><circle cx="0" cy="-35" r="4" fill="#F5F5F5"/><circle cx="30" cy="-25" r="4" fill="#F5F5F5"/><circle cx="45" cy="10" r="4" fill="#F5F5F5"/><circle cx="10" cy="40" r="4" fill="#F5F5F5"/><circle cx="-40" cy="20" r="4" fill="#F5F5F5"/><use href="#jimmy" stroke="#C62828" transform="translate(0 0) rotate(45)"/><use href="#jimmy" stroke="#2E7D32" transform="translate(-20 25) rotate(-30)"/><use href="#jimmy" stroke="#2E7D32" transform="translate(20, 10) rotate(10)"/>
+    </g>
+  </g>
+
+  <!-- Cookie middle top (mixed sprinkles) -->
+  <g transform="translate(360 130)" filter="url(#shadow)">
+    <path d="M-75,8 C-40,28 40,28 75,8 A85,85 0 0 0 -75,8Z" fill="#5D4037"/>
+    <ellipse cx="0" cy="8" rx="80" ry="80" fill="#4E342E"/>
+    <circle cx="0" cy="0" r="80" fill="#6D4C41"/>
+    <path d="M-60 -30 A 70 70 0 0 1 30 -60 L 25 -55 A 60 60 0 0 0 -55 -25 Z" fill="#FFF" opacity="0.1"/>
+    <g>
+        <circle cx="-50" cy="-20" r="4" fill="#F5F5F5"/><circle cx="-30" cy="-45" r="4" fill="#C62828"/><circle cx="-5" cy="-55" r="4" fill="#F5F5F5"/><circle cx="25" cy="-50" r="4" fill="#2E7D32"/><circle cx="50" cy="-30" r="4" fill="#F5F5F5"/><circle cx="60" cy="0" r="4" fill="#C62828"/><circle cx="50" cy="30" r="4" fill="#F5F5F5"/><circle cx="20" cy="50" r="4" fill="#2E7D32"/><circle cx="-15" cy="55" r="4" fill="#C62828"/><circle cx="-50" cy="30" r="4" fill="#F5F5F5"/>
+        <use href="#jimmy" stroke="#2E7D32" transform="translate(-30, -5) rotate(20)"/><use href="#jimmy" stroke="#C62828" transform="translate(0, -20) rotate(-10)"/><use href="#jimmy" stroke="#F5F5F5" transform="translate(30, -10) rotate(30)"/><use href="#jimmy" stroke="#2E7D32" transform="translate(30, 25) rotate(-25)"/><use href="#jimmy" stroke="#C62828" transform="translate(0, 30) rotate(15)"/><use href="#jimmy" stroke="#F5F5F5" transform="translate(-30, 30) rotate(45)"/>
+    </g>
+  </g>
+
+  <!-- Cookie mid right -->
+  <g transform="translate(580 280)" filter="url(#shadow)">
+    <path d="M-75,8 C-40,28 40,28 75,8 A85,85 0 0 0 -75,8Z" fill="#5D4037"/>
+    <ellipse cx="0" cy="8" rx="80" ry="80" fill="#4E342E"/>
+    <circle cx="0" cy="0" r="80" fill="#6D4C41"/>
+    <path d="M-60 -30 A 70 70 0 0 1 30 -60 L 25 -55 A 60 60 0 0 0 -55 -25 Z" fill="#FFF" opacity="0.1"/>
+    <g>
+        <use href="#jimmy" stroke="#2E7D32" transform="translate(-40, -30) rotate(80)"/><use href="#jimmy" stroke="#C62828" transform="translate(-10, -50) rotate(10)"/><use href="#jimmy" stroke="#F5F5F5" transform="translate(30, -40) rotate(-40)"/><use href="#jimmy" stroke="#2E7D32" transform="translate(50, -10) rotate(5)"/><use href="#jimmy" stroke="#C62828" transform="translate(45, 25) rotate(60)"/><use href="#jimmy" stroke="#F5F5F5" transform="translate(10, 45) rotate(-15)"/><use href="#jimmy" stroke="#2E7D32" transform="translate(-30, 40) rotate(25)"/><use href="#jimmy" stroke="#C62828" transform="translate(-50, 10) rotate(-50)"/>
+    </g>
+  </g>
+  
+  <!-- Cookie left (mixed sprinkles) -->
+  <g transform="translate(140 280)" filter="url(#shadow)">
+    <path d="M-80,10 C-40,30 40,30 80,10 A90,90 0 0 0 -80,10Z" fill="#5D4037"/>
+    <ellipse cx="0" cy="9" rx="85" ry="85" fill="#4E342E"/>
+    <circle cx="0" cy="0" r="85" fill="#6D4C41"/>
+    <path d="M-65 -35 A 75 75 0 0 1 35 -65 L 30 -60 A 65 65 0 0 0 -60 -30 Z" fill="#FFF" opacity="0.1"/>
+    <g>
+        <circle cx="-60" cy="-20" r="4" fill="#F5F5F5"/><circle cx="-30" cy="-55" r="4" fill="#C62828"/><circle cx="5" cy="-65" r="4" fill="#F5F5F5"/><circle cx="45" cy="-50" r="4" fill="#2E7D32"/><circle cx="65" cy="-20" r="4" fill="#F5F5F5"/><circle cx="70" cy="20" r="4" fill="#C62828"/><circle cx="50" cy="50" r="4" fill="#F5F5F5"/><circle cx="10" cy="65" r="4" fill="#2E7D32"/><circle cx="-35" cy="60" r="4" fill="#C62828"/><circle cx="-65" cy="30" r="4" fill="#F5F5F5"/>
+        <use href="#jimmy" stroke="#2E7D32" transform="translate(-40, 5) rotate(40)"/><use href="#jimmy" stroke="#2E7D32" transform="translate(0, -25) rotate(0)"/><use href="#jimmy" stroke="#F5F5F5" transform="translate(40, -15) rotate(50)"/><use href="#jimmy" stroke="#2E7D32" transform="translate(40, 30) rotate(-15)"/><use href="#jimmy" stroke="#C62828" transform="translate(0, 40) rotate(35)"/><use href="#jimmy" stroke="#F5F5F5" transform="translate(-40, 40) rotate(65)"/>
+    </g>
+  </g>
+  
+  <!-- Main Foreground Cookie (green trees) -->
+  <g transform="translate(360 440)" filter="url(#shadow)">
+    <path d="M-95,10 C-60,35 60,35 95,10 A105,105 0 0 0 -95,10Z" fill="#5D4037"/>
+    <ellipse cx="0" cy="10" rx="95" ry="95" fill="#4E342E"/>
+    <circle cx="0" cy="0" r="95" fill="#795548"/>
+    <path d="M-75 -40 A 85 85 0 0 1 40 -75 L 35 -70 A 75 75 0 0 0 -70 -35 Z" fill="#FFF" opacity="0.1"/>
+    <g transform="scale(1.2)">
+        <use href="#tree" transform="translate(-50, -50) rotate(-20)"/><use href="#tree" transform="translate(-20, -65) rotate(10)"/><use href="#tree" transform="translate(15, -55) rotate(30)"/><use href="#tree" transform="translate(50, -40) rotate(-10)"/><use href="#tree" transform="translate(65, -5) rotate(5)"/><use href="#tree" transform="translate(55, 25) rotate(20)"/><use href="#tree" transform="translate(25, 50) rotate(-15)"/><use href="#tree" transform="translate(-10, 60) rotate(45)"/><use href="#tree" transform="translate(-45, 40) rotate(-35)"/><use href="#tree" transform="translate(-70, 10) rotate(15)"/><use href="#tree" transform="translate(-55, -15) rotate(80)"/><use href="#tree" transform="translate(0, -10) rotate(-5)"/><use href="#tree" transform="translate(30, 10) rotate(90)"/><use href="#tree" transform="translate(-20, 20) rotate(-60)"/><use href="#tree" transform="translate(5, 30) rotate(180)"/>
+    </g>
+  </g>
+
+  <!-- Far right partial cookie -->
+  <g transform="translate(770 470)" filter="url(#shadow)">
+      <path d="M-80,10 C-40,30 40,30 80,10 A90,90 0 0 0 -80,10Z" fill="#5D4037"/>
+      <ellipse cx="0" cy="10" rx="85" ry="85" fill="#4E342E"/>
+      <circle cx="0" cy="0" r="85" fill="#6D4C41"/>
+  </g>
+
+  <!-- Stray elements -->
+  <path d="M250,250 C 252,255 258,256 260,252" fill="#5D4037"/>
+  <circle cx="500" cy="500" r="1.5" fill="#D32F2F" opacity="0.8"/>
+  <use href="#jimmy" stroke="#2E7D32" transform="translate(550, 150) rotate(10)"/>
+
+  <!-- Bottom right partial cookie -->
+  <g transform="translate(650 571)">
+    <path d="M-95,10 C-60,35 60,35 95,10 A105,105 0 0 1 95,-40 L-95,-40 A105,105 0 0 1 -95,10Z" fill="#5D4037"/>
+    <path d="M-95,0 A95,95 0 0 1 95,0 L95,-50 L-95,-50Z" fill="#795548"/>
+  </g>
+</svg>

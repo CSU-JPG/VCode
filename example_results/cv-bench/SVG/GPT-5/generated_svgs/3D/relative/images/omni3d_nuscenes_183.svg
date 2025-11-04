@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1400 820" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd6dc"/>
+      <stop offset="60%" stop-color="#e8edf1"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7b7b7b"/>
+      <stop offset="40%" stop-color="#666666"/>
+      <stop offset="100%" stop-color="#505050"/>
+    </linearGradient>
+    <linearGradient id="guardGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c5cbd2"/>
+      <stop offset="100%" stop-color="#8f969d"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3c5a2d"/>
+      <stop offset="100%" stop-color="#2e4b23"/>
+    </linearGradient>
+    <clipPath id="chevronZone">
+      <polygon points="590,560 970,560 1000,604 600,604"/>
+    </clipPath>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1400" height="820" fill="url(#skyGrad)"/>
+
+  <!-- Far tree canopies -->
+  <path d="M720,28 C950,-30 1250,10 1385,170 C1410,230 1360,320 1230,365 C1115,405 985,418 895,398 C815,380 760,338 742,298 C716,238 705,160 720,28 Z" fill="#2a3c25"/>
+  <path d="M0,0 C180,10 360,100 418,200 C458,260 430,324 324,360 C210,398 96,380 0,320 Z" fill="#293b22" opacity="0.92"/>
+
+  <!-- Left hillside -->
+  <path d="M0,160 L180,220 L270,310 L260,420 L160,520 L0,600 Z" fill="url(#grassGrad)"/>
+  <path d="M0,600 L220,520 L360,560 L420,600 L280,660 L100,720 L0,720 Z" fill="#355228"/>
+
+  <!-- Right embankment and greenery -->
+  <path d="M820,520 L980,520 L1140,520 L1260,540 L1400,560 L1400,460 L1360,370 L1180,340 L1020,360 L900,400 Z" fill="#334f28" opacity="0.9"/>
+  <rect x="1070" y="470" width="260" height="60" fill="#1b6d3a" opacity="0.35"/>
+
+  <!-- Buildings mid-right -->
+  <g opacity="0.6">
+    <rect x="1150" y="450" width="140" height="90" fill="#9aa0a6"/>
+    <rect x="1130" y="458" width="20" height="82" fill="#838a90"/>
+    <rect x="1290" y="470" width="40" height="70" fill="#8f969d"/>
+  </g>
+
+  <!-- Road surface -->
+  <path d="M60,700 L1300,820 L1400,740 L1400,640 L1040,570 L760,540 L530,560 L260,620 L60,700 Z" fill="url(#roadGrad)"/>
+
+  <!-- Right guardrail -->
+  <path d="M980,560 L1388,596 L1388,640 L960,600 Z" fill="url(#guardGrad)"/>
+  <path d="M980,560 L1388,592 L1388,604 L980,572 Z" fill="#cfd6dc"/>
+  <g fill="#2a7a44" opacity="0.8">
+    <rect x="1010" y="590" width="8" height="40"/>
+    <rect x="1080" y="596" width="8" height="40"/>
+    <rect x="1150" y="602" width="8" height="38"/>
+    <rect x="1220" y="606" width="8" height="36"/>
+    <rect x="1290" y="610" width="8" height="34"/>
+    <rect x="1360" y="612" width="8" height="30"/>
+  </g>
+
+  <!-- Lane markings -->
+  <path d="M130,760 C450,700 720,650 1020,720" stroke="#f3f3f3" stroke-width="14" stroke-opacity="0.65" fill="none"/>
+  <path d="M380,780 C760,720 1000,675 1280,820" stroke="#efefef" stroke-width="18" stroke-opacity="0.7" fill="none"/>
+
+  <!-- Yellow chevron zone -->
+  <g clip-path="url(#chevronZone)">
+    <rect x="590" y="560" width="420" height="50" fill="#6f6f6f" opacity="0.25"/>
+    <g stroke="#f0c52a" stroke-width="8">
+      <line x1="590" y1="604" x2="610" y2="560"/>
+      <line x1="614" y1="604" x2="634" y2="560"/>
+      <line x1="638" y1="604" x2="658" y2="560"/>
+      <line x1="662" y1="604" x2="682" y2="560"/>
+      <line x1="686" y1="604" x2="706" y2="560"/>
+      <line x1="710" y1="604" x2="730" y2="560"/>
+      <line x1="734" y1="604" x2="754" y2="560"/>
+      <line x1="758" y1="604" x2="778" y2="560"/>
+      <line x1="782" y1="604" x2="802" y2="560"/>
+      <line x1="806" y1="604" x2="826" y2="560"/>
+      <line x1="830" y1="604" x2="850" y2="560"/>
+      <line x1="854" y1="604" x2="874" y2="560"/>
+      <line x1="878" y1="604" x2="898" y2="560"/>
+      <line x1="902" y1="604" x2="922" y2="560"/>
+      <line x1="926" y1="604" x2="946" y2="560"/>
+      <line x1="950" y1="604" x2="970" y2="560"/>
+      <line x1="974" y1="604" x2="994" y2="560"/>
+    </g>
+  </g>
+
+  <!-- Left sidewalk/curb suggestion -->
+  <path d="M0,720 L60,700 L260,620 L280,636 L70,724 L0,742 Z" fill="#7a746c" opacity="0.55"/>
+
+  <!-- Street lamps -->
+  <g stroke="#dfe4ea" stroke-width="6" fill="none">
+    <path d="M330,220 Q310,420 312,520" />
+    <circle cx="336" cy="214" r="10" fill="#e9eef2"/>
+    <path d="M1290,160 Q1276,360 1278,520" />
+    <circle cx="1296" cy="156" r="10" fill="#e9eef2"/>
+    <path d="M590,380 Q582,470 584,560"/>
+    <circle cx="595" cy="374" r="8" fill="#e9eef2"/>
+  </g>
+
+  <!-- Signpost near center -->
+  <g>
+    <rect x="740" y="470" width="8" height="80" fill="#6e746f"/>
+    <rect x="728" y="448" width="34" height="28" fill="#b7d0e6" stroke="#3a5a7a" stroke-width="2"/>
+  </g>
+
+  <!-- Simple tree trunks and small trees near middle ground -->
+  <g fill="#2b3f25">
+    <rect x="870" y="392" width="12" height="68"/>
+    <circle cx="876" cy="380" r="28" fill="#2f4a2b"/>
+    <rect x="600" y="410" width="10" height="60" fill="#2b3f25"/>
+    <circle cx="605" cy="400" r="22" fill="#304d2e"/>
+  </g>
+
+  <!-- Detection bounding boxes (as in the original image) -->
+  <rect x="422" y="426" width="58" height="118" fill="none" stroke="#31d116" stroke-width="4"/>
+  <rect x="648" y="470" width="46" height="62" fill="none" stroke="#224cda" stroke-width="4"/>
+  <rect x="699" y="474" width="50" height="54" fill="none" stroke="#e22525" stroke-width="4"/>
+
+  <!-- Subtle road arrow -->
+  <path d="M620,610 l20,-28 l20,28 m-20,-28 v48" stroke="#ffffff" stroke-width="6" stroke-opacity="0.55" fill="none"/>
+
+</svg>

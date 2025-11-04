@@ -1,0 +1,18 @@
+<svg viewBox="0 0 840 640" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(20,20)">
+    <path d="M50 50 L100 50 L100 300 L50 300 Z" fill="white" stroke="black"/>
+    <path d="M120 50 L150 50 L150 280 L120 280 Z" fill="white" stroke="black"/>
+    <circle cx="170" cy="100" r="10" fill="white" stroke="black"/>
+    <circle cx="190" cy="120" r="8" fill="white" stroke="black"/>
+    <line x1="210" y1="150" x2="260" y2="200" stroke="black"/>
+    <line x1="220" y1="140" x2="270" y2="190" stroke="black"/>
+  </g>
+  <g transform="translate(420,20)">
+    <rect x="10" y="50" width="50" height="20" fill="white" stroke="black"/>
+    <rect x="10" y="80" width="50" height="20" fill="white" stroke="black"/>
+    <line x1="20" y1="120" x2="20" y2="200" stroke="black"/>
+    <line x1="40" y1="120" x2="40" y2="200" stroke="black"/>
+    <line x1="20" y1="200" x2="30" y2="250" stroke="black"/>
+    <line x1="40" y1="200" x2="50" y2="250" stroke="black"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e0f7e9"/>
+  <text x="400" y="50" font-size="24" text-anchor="middle" font-weight="bold">SOCIAL CONTROL</text>
+  <text x="400" y="90" text-anchor="middle" font-size="14">
+    <tspan x="400" dy="0">Social control is a concept referring to rules and restrictions that shape, supervise, and</tspan>
+    <tspan x="400" dy="16">regulate the behaviors of individuals and societies.</tspan>
+  </text>
+  <rect x="50" y="150" width="380" height="400" fill="white" stroke="black"/>
+  <text x="240" y="170" font-size="20" font-weight="bold">TYPES</text>
+  <text x="100" y="220" font-size="16" font-weight="bold">Informal social control</text>
+  <text x="100" y="240" font-size="14">Refers to strategies adopted in interpersonal relationships, such as shaming or praising someone.</text>
+  <text x="100" y="280" font-size="16" font-weight="bold">Formal social control</text>
+  <text x="100" y="300" font-size="14">Refers to laws, rules, and regulations enforced officially by social and political authorities.</text>
+  <rect x="450" y="150" width="380" height="400" fill="white" stroke="black"/>
+  <text x="640" y="170" font-size="20" font-weight="bold">EXAMPLES</text>
+  <text x="470" y="200" font-size="14">1. Shaming</text>
+  <text x="470" y="220" font-size="14">2. Praising</text>
+  <text x="470" y="240" font-size="14">3. Curfews</text>
+  <text x="470" y="260" font-size="14">4. Stigmatization</text>
+  <text x="470" y="280" font-size="14">5. Dress codes</text>
+  <text x="470" y="300" font-size="14">6. Censorship</text>
+</svg>

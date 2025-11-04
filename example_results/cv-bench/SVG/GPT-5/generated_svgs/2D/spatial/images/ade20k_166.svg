@@ -1,0 +1,205 @@
+<svg viewBox="-4 -4 264 264" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122224"/>
+      <stop offset="0.45" stop-color="#0d3c3d"/>
+      <stop offset="1" stop-color="#0a2f30"/>
+    </linearGradient>
+    <linearGradient id="ceiling" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfde9"/>
+      <stop offset="1" stop-color="#e8ead8"/>
+    </linearGradient>
+    <linearGradient id="counter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#cfcfcf"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c98a3b"/>
+      <stop offset="0.5" stop-color="#b9732d"/>
+      <stop offset="1" stop-color="#d6a25c"/>
+    </linearGradient>
+    <linearGradient id="woodLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2b06b"/>
+      <stop offset="1" stop-color="#bf7e37"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="0.5" stop-color="#c9c9c9"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blackGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset="1" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0" r="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ceiling and walls -->
+  <rect x="-4" y="-4" width="264" height="36" fill="url(#ceiling)"/>
+  <rect x="-4" y="32" width="264" height="228" fill="url(#wall)"/>
+
+  <!-- Upper cabinet run (background frame) -->
+  <rect x="8" y="44" width="178" height="70" rx="3" fill="url(#wood)" stroke="#9a5c1d" stroke-width="1.2"/>
+  <!-- Door divisions -->
+  <g stroke="#9a5c1d" stroke-width="1">
+    <line x1="50" y1="44" x2="50" y2="114"/>
+    <line x1="92" y1="44" x2="92" y2="114"/>
+    <line x1="134" y1="44" x2="134" y2="114"/>
+  </g>
+
+  <!-- Door panels with arches -->
+  <g fill="url(#woodLight)" stroke="#8f5a27" stroke-width="0.8">
+    <!-- door 1 -->
+    <path d="M14 58
+             L14 106
+             L46 106
+             L46 58
+             Q30 48 14 58 Z"/>
+    <!-- door 2 -->
+    <path d="M56 58
+             L56 106
+             L88 106
+             L88 58
+             Q72 48 56 58 Z"/>
+    <!-- door 3 -->
+    <path d="M98 58
+             L98 106
+             L130 106
+             L130 58
+             Q114 48 98 58 Z"/>
+    <!-- door 4 -->
+    <path d="M140 58
+             L140 106
+             L172 106
+             L172 58
+             Q156 48 140 58 Z"/>
+  </g>
+
+  <!-- Corner and right upper cabinets -->
+  <path d="M176 44 L214 44 Q222 44 222 52 L222 110 Q222 114 218 116 L182 116 Z"
+        fill="url(#wood)" stroke="#9a5c1d" stroke-width="1.2"/>
+  <!-- Open curved shelves -->
+  <path d="M222 66 Q244 70 246 88 Q244 106 222 110 Z" fill="url(#woodLight)" stroke="#8f5a27" stroke-width="0.8"/>
+  <path d="M222 86 Q242 90 244 102 Q242 112 222 114 Z" fill="url(#woodLight)" stroke="#8f5a27" stroke-width="0.8"/>
+
+  <!-- Range hood -->
+  <g>
+    <rect x="44" y="92" width="92" height="18" rx="3" fill="url(#metal)" stroke="#cfcfcf" stroke-width="0.8"/>
+    <rect x="44" y="110" width="92" height="6" fill="#efefef" stroke="#d5d5d5" stroke-width="0.6"/>
+    <circle cx="52" cy="114" r="1.4" fill="#bfbfbf"/>
+    <circle cx="126" cy="114" r="1.4" fill="#bfbfbf"/>
+  </g>
+
+  <!-- Backsplash highlight under cabinets -->
+  <rect x="8" y="118" width="240" height="14" fill="#0d6e63" opacity="0.45"/>
+
+  <!-- Countertop -->
+  <path d="M0 148 H162 L202 176 H256 V196 H148 L100 160 H0 Z" fill="url(#counter)" stroke="#bdbdbd" stroke-width="0.8"/>
+  <!-- Counter lip shadow -->
+  <rect x="0" y="148" width="256" height="4" fill="url(#shadow)" opacity="0.6"/>
+
+  <!-- Stove/oven -->
+  <g>
+    <rect x="36" y="150" width="96" height="84" fill="url(#blackGlass)" stroke="#222" stroke-width="1.2" rx="2"/>
+    <rect x="36" y="150" width="96" height="12" fill="#e9e9e9" stroke="#cfcfcf" stroke-width="0.8"/>
+    <rect x="42" y="162" width="84" height="66" fill="#0b0b0b" stroke="#3a3a3a" stroke-width="0.8"/>
+    <!-- Oven trim -->
+    <rect x="40" y="162" width="88" height="2.5" fill="#f6f6f6" opacity="0.9"/>
+    <rect x="40" y="226.5" width="88" height="2.5" fill="#f6f6f6" opacity="0.9"/>
+    <!-- Cooktop -->
+    <rect x="32" y="144" width="104" height="12" fill="#dedede" stroke="#bdbdbd" stroke-width="0.6"/>
+    <!-- Burners -->
+    <g fill="#111" stroke="#efefef" stroke-width="0.6">
+      <circle cx="48" cy="150" r="6"/>
+      <circle cx="84" cy="150" r="6"/>
+      <circle cx="100" cy="150" r="6"/>
+      <circle cx="116" cy="150" r="6"/>
+    </g>
+    <!-- Knobs -->
+    <g fill="#eaeaea" stroke="#bdbdbd" stroke-width="0.6">
+      <circle cx="60" cy="168" r="2.2"/>
+      <circle cx="74" cy="168" r="2.2"/>
+      <circle cx="88" cy="168" r="2.2"/>
+      <circle cx="102" cy="168" r="2.2"/>
+    </g>
+  </g>
+
+  <!-- Small appliances on counter -->
+  <!-- Canisters -->
+  <g transform="translate(138,154)">
+    <rect x="0" y="0" width="10" height="18" rx="2" fill="#ececec" stroke="#cfcfcf" stroke-width="0.6"/>
+    <rect x="12" y="0" width="10" height="18" rx="2" fill="#ececec" stroke="#cfcfcf" stroke-width="0.6"/>
+    <rect x="24" y="-1" width="10" height="20" rx="2" fill="#ececec" stroke="#cfcfcf" stroke-width="0.6"/>
+    <rect x="0" y="-3" width="34" height="3" fill="#d8d8d8"/>
+  </g>
+
+  <!-- Coffee maker -->
+  <g transform="translate(168,156)">
+    <rect x="0" y="0" width="20" height="24" rx="2" fill="#e9e9e9" stroke="#cfcfcf" stroke-width="0.6"/>
+    <rect x="3" y="8" width="14" height="12" rx="1.5" fill="#bcd3d7" stroke="#9fb3b7" stroke-width="0.6"/>
+    <rect x="2" y="-4" width="16" height="6" rx="1.5" fill="#f7f7f7" stroke="#d9d9d9" stroke-width="0.6"/>
+  </g>
+
+  <!-- Knife block -->
+  <g transform="translate(186,162)">
+    <polygon points="0,22 18,8 28,14 10,28" fill="url(#woodLight)" stroke="#8f5a27" stroke-width="0.8"/>
+    <rect x="6" y="2" width="2" height="10" fill="#2a2a2a"/>
+    <rect x="10" y="0" width="2" height="12" fill="#2a2a2a"/>
+    <rect x="14" y="4" width="2" height="8" fill="#2a2a2a"/>
+  </g>
+
+  <!-- Window on the right -->
+  <g>
+    <rect x="200" y="52" width="52" height="60" fill="#ffffff" stroke="#dfe1e1" stroke-width="1.2"/>
+    <rect x="205" y="57" width="42" height="50" fill="#d7ebf6" stroke="#b8d1df" stroke-width="0.8"/>
+    <!-- Windowsill -->
+    <rect x="194" y="110" width="62" height="8" rx="1.5" fill="#f3f3f3" stroke="#dcdcdc" stroke-width="0.8"/>
+    <!-- Plant -->
+    <ellipse cx="214" cy="111" rx="6" ry="3" fill="#e5e5e5"/>
+    <rect x="208" y="104" width="12" height="8" rx="2" fill="#d9a87a" stroke="#c38d60" stroke-width="0.6"/>
+    <path d="M214 92 C208 90 208 82 214 80 C220 78 222 86 214 92 Z" fill="#2f7d44"/>
+    <path d="M214 96 C210 94 210 88 214 86 C218 84 220 91 214 96 Z" fill="#3ca356"/>
+  </g>
+
+  <!-- Sink -->
+  <g>
+    <rect x="118" y="170" width="58" height="24" rx="3" fill="#f8f8f8" stroke="#d9d9d9" stroke-width="0.8"/>
+    <rect x="124" y="176" width="44" height="12" rx="2" fill="#e9f3fb" stroke="#c6d8e5" stroke-width="0.6"/>
+    <!-- Faucet -->
+    <path d="M148 168 q8 -10 18 0 v4 h-4 v-2 q-7 -6 -10 0 v2 h-4 Z" fill="#d9d9d9" stroke="#bcbcbc" stroke-width="0.6"/>
+  </g>
+
+  <!-- Lower cabinets (under sink and along left) -->
+  <g>
+    <rect x="8" y="196" width="40" height="56" fill="url(#wood)" stroke="#9a5c1d" stroke-width="1.2"/>
+    <rect x="48" y="196" width="96" height="56" fill="url(#wood)" stroke="#9a5c1d" stroke-width="1.2"/>
+    <rect x="144" y="196" width="40" height="56" fill="url(#wood)" stroke="#9a5c1d" stroke-width="1.2"/>
+    <!-- Panels -->
+    <g fill="none" stroke="#8f5a27" stroke-width="0.8">
+      <rect x="12" y="200" width="32" height="48" rx="2"/>
+      <rect x="52" y="200" width="36" height="48" rx="2"/>
+      <rect x="92" y="200" width="36" height="48" rx="2"/>
+      <rect x="148" y="200" width="32" height="48" rx="2"/>
+    </g>
+    <!-- Handles -->
+    <g fill="#f4e8c9" stroke="#b69450" stroke-width="0.6">
+      <circle cx="28" cy="224" r="2"/>
+      <circle cx="70" cy="224" r="2"/>
+      <circle cx="110" cy="224" r="2"/>
+      <circle cx="164" cy="224" r="2"/>
+    </g>
+  </g>
+
+  <!-- Decorative items on open shelves -->
+  <g fill="#f6f3ef" stroke="#ded7cf" stroke-width="0.5">
+    <ellipse cx="235" cy="76" rx="6" ry="3"/>
+    <circle cx="228" cy="80" r="2.2"/>
+    <ellipse cx="238" cy="100" rx="5" ry="2.6"/>
+  </g>
+
+  <!-- Soft vignette -->
+  <rect x="-4" y="-4" width="264" height="264" fill="url(#shadow)"/>
+</svg>

@@ -1,0 +1,68 @@
+<svg viewBox="0 0 450 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header background -->
+  <rect x="0" y="0" width="450" height="30" fill="#6B4C7E"/>
+  
+  <!-- Header text -->
+  <text x="315" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2014</text>
+  <text x="380" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2015</text>
+  
+  <!-- Alternating row backgrounds -->
+  <rect x="0" y="30" width="450" height="28" fill="#F5F0E8"/>
+  <rect x="0" y="58" width="450" height="28" fill="#EBE3D5"/>
+  <rect x="0" y="86" width="450" height="28" fill="#F5F0E8"/>
+  <rect x="0" y="114" width="450" height="28" fill="#EBE3D5"/>
+  <rect x="0" y="142" width="450" height="28" fill="#F5F0E8"/>
+  <rect x="0" y="170" width="450" height="28" fill="#EBE3D5"/>
+  <rect x="0" y="198" width="450" height="28" fill="#F5F0E8"/>
+  <rect x="0" y="226" width="450" height="28" fill="#EBE3D5"/>
+  <rect x="0" y="254" width="450" height="28" fill="#F5F0E8"/>
+  <rect x="0" y="282" width="450" height="28" fill="#EBE3D5"/>
+  <rect x="0" y="310" width="450" height="28" fill="#F5F0E8"/>
+  <rect x="0" y="338" width="450" height="28" fill="#EBE3D5"/>
+  <rect x="0" y="366" width="450" height="28" fill="#F5F0E8"/>
+  
+  <!-- Row labels -->
+  <text x="15" y="48" font-family="Arial, sans-serif" font-size="14" fill="#333">Sales</text>
+  <text x="15" y="76" font-family="Arial, sans-serif" font-size="14" fill="#333">Depreciation</text>
+  <text x="15" y="104" font-family="Arial, sans-serif" font-size="14" fill="#333">Cost of goods sold</text>
+  <text x="15" y="132" font-family="Arial, sans-serif" font-size="14" fill="#333">Other expenses</text>
+  <text x="15" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">Interest</text>
+  <text x="15" y="188" font-family="Arial, sans-serif" font-size="14" fill="#333">Cash</text>
+  <text x="15" y="216" font-family="Arial, sans-serif" font-size="14" fill="#333">Accounts receivable</text>
+  <text x="15" y="244" font-family="Arial, sans-serif" font-size="14" fill="#333">Short-term notes payable</text>
+  <text x="15" y="272" font-family="Arial, sans-serif" font-size="14" fill="#333">Long-term debt</text>
+  <text x="15" y="300" font-family="Arial, sans-serif" font-size="14" fill="#333">Net fixed assets</text>
+  <text x="15" y="328" font-family="Arial, sans-serif" font-size="14" fill="#333">Accounts payable</text>
+  <text x="15" y="356" font-family="Arial, sans-serif" font-size="14" fill="#333">Inventory</text>
+  <text x="15" y="384" font-family="Arial, sans-serif" font-size="14" fill="#333">Dividends</text>
+  
+  <!-- 2014 values -->
+  <text x="300" y="48" font-family="Arial, sans-serif" font-size="14" fill="#333">$ 9,402</text>
+  <text x="315" y="76" font-family="Arial, sans-serif" font-size="14" fill="#333">1,350</text>
+  <text x="315" y="104" font-family="Arial, sans-serif" font-size="14" fill="#333">3,235</text>
+  <text x="330" y="132" font-family="Arial, sans-serif" font-size="14" fill="#333">767</text>
+  <text x="330" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">630</text>
+  <text x="315" y="188" font-family="Arial, sans-serif" font-size="14" fill="#333">4,931</text>
+  <text x="315" y="216" font-family="Arial, sans-serif" font-size="14" fill="#333">6,527</text>
+  <text x="330" y="244" font-family="Arial, sans-serif" font-size="14" fill="#333">933</text>
+  <text x="305" y="272" font-family="Arial, sans-serif" font-size="14" fill="#333">16,152</text>
+  <text x="305" y="300" font-family="Arial, sans-serif" font-size="14" fill="#333">41,346</text>
+  <text x="315" y="328" font-family="Arial, sans-serif" font-size="14" fill="#333">5,179</text>
+  <text x="305" y="356" font-family="Arial, sans-serif" font-size="14" fill="#333">11,604</text>
+  <text x="315" y="384" font-family="Arial, sans-serif" font-size="14" fill="#333">1,147</text>
+  
+  <!-- 2015 values -->
+  <text x="365" y="48" font-family="Arial, sans-serif" font-size="14" fill="#333">$ 10,091</text>
+  <text x="380" y="76" font-family="Arial, sans-serif" font-size="14" fill="#333">1,351</text>
+  <text x="380" y="104" font-family="Arial, sans-serif" font-size="14" fill="#333">3,672</text>
+  <text x="395" y="132" font-family="Arial, sans-serif" font-size="14" fill="#333">641</text>
+  <text x="395" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">724</text>
+  <text x="380" y="188" font-family="Arial, sans-serif" font-size="14" fill="#333">6,244</text>
+  <text x="380" y="216" font-family="Arial, sans-serif" font-size="14" fill="#333">7,332</text>
+  <text x="395" y="244" font-family="Arial, sans-serif" font-size="14" fill="#333">895</text>
+  <text x="370" y="272" font-family="Arial, sans-serif" font-size="14" fill="#333">19,260</text>
+  <text x="370" y="300" font-family="Arial, sans-serif" font-size="14" fill="#333">42,332</text>
+  <text x="380" y="328" font-family="Arial, sans-serif" font-size="14" fill="#333">5,022</text>
+  <text x="370" y="356" font-family="Arial, sans-serif" font-size="14" fill="#333">11,926</text>
+  <text x="380" y="384" font-family="Arial, sans-serif" font-size="14" fill="#333">1,261</text>
+</svg>

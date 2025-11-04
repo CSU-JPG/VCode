@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <!-- The Birth of Venus by Sandro Botticelli - SVG Rendition -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#b0d1d1"/>
+      <stop offset="100%" stop-color="#d4e6e3"/>
+    </linearGradient>
+    <pattern id="dressPattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <path d="M2,2 Q4,0 6,2 T10,2 M2,6 Q4,4 6,6 T10,6" stroke="#4a5b7c" stroke-width="0.5" fill="none"/>
+    </pattern>
+    <pattern id="cloakPattern" patternUnits="userSpaceOnUse" width="12" height="12">
+      <path d="M3,3 l2,2 M3,9 l2,-2 M9,3 l-2,2 M9,9 l-2,-2 M6,6 l-2,-2 l2,-2 l2,2 Z" fill="#222"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="520" fill="url(#skyGradient)"/>
+
+  <!-- Sea -->
+  <path d="M0 200 C 100 190, 200 210, 300 200 S 500 180, 600 200 S 800 210, 800 200 V 520 H 0 Z" fill="#3f726e"/>
+  <path d="M0 230 C 150 240, 300 220, 450 230 S 650 250, 800 240 V 520 H 0 Z" fill="#3a6965" opacity="0.7"/>
+  <!-- Sea Foam/Waves -->
+  <g fill="none" stroke="#e0f0f0" stroke-width="0.7" opacity="0.6">
+    <path d="M50 250 q 5 -5 10 0 t 10 0" /> <path d="M80 260 q 5 -5 10 0 t 10 0" />
+    <path d="M120 280 q 5 -5 10 0 t 10 0" /> <path d="M200 270 q 5 -5 10 0 t 10 0" />
+    <path d="M250 310 q 5 -5 10 0 t 10 0" /> <path d="M300 350 q 5 -5 10 0 t 10 0" />
+    <path d="M150 400 q 5 -5 10 0 t 10 0" /> <path d="M220 450 q 5 -5 10 0 t 10 0" />
+    <path d="M350 250 q 5 -5 10 0 t 10 0" /> <path d="M400 240 q 5 -5 10 0 t 10 0" />
+    <path d="M480 260 q 5 -5 10 0 t 10 0" /> <path d="M550 300 q 5 -5 10 0 t 10 0" />
+    <path d="M280 480 q 5 -5 10 0 t 10 0" /> <path d="M330 460 q 5 -5 10 0 t 10 0" />
+    <path d="M600 450 q 5 -5 10 0 t 10 0" /> <path d="M650 430 q 5 -5 10 0 t 10 0" />
+    <path d="M700 400 q 5 -5 10 0 t 10 0" /> <path d="M750 380 q 5 -5 10 0 t 10 0" />
+  </g>
+
+  <!-- Land and Trees (Right) -->
+  <g>
+    <path d="M580 220 C 600 240, 620 260, 620 290 L 630 400 L 800 430 V 200 L 780 200 C 750 205, 700 210, 650 215 C 620 215, 600 210, 580 220 Z" fill="#6a8a7a"/>
+    <path d="M630 400 L 800 430 V 520 H 600 Z" fill="#2d2d26"/>
+    <path d="M650 215 L 800 200 V 430 L 630 400 Z" fill="#353c35" opacity="0.4"/>
+    <g stroke="#1a211a" stroke-width="3">
+      <path d="M790 200 V 430" /> <path d="M775 200 V 425" /> <path d="M760 200 V 420" />
+      <path d="M745 200 V 415" /> <path d="M730 200 V 410" /> <path d="M715 200 V 405" />
+      <path d="M700 210 V 400" /> <path d="M685 215 V 395" /> <path d="M670 215 V 390" />
+    </g>
+    <path d="M660 80 C 700 70, 780 75, 800 85 V 200 H 660 Z" fill="#1a211a"/>
+  </g>
+
+  <!-- The Winds (Zephyrus and Chloris) -->
+  <g transform="translate(-20, 0)">
+    <path d="M60 90 C 100 10, 200 60, 260 110 C 280 150, 200 180, 150 200 C 100 220, 40 180, 60 90 Z" fill="#3e2d24" />
+    <path d="M120 180 C 100 250, 180 320, 240 300 C 280 285, 290 220, 260 200 C 200 150, 150 160, 120 180Z" fill="#e5c8ae" />
+    <path d="M150 170 C 120 240, 200 300, 280 280 L 320 220 C 300 180, 250 150, 220 160 C 200 165, 180 160, 150 170Z" fill="#f1e0c4" />
+    <path d="M110 80 C 150 160, 260 160, 300 80 L 260 60 C 200 70, 150 50, 110 80 Z" fill="#5e7a8c"/>
+    <path d="M150 200 C 120 250, 140 320, 160 380 L 260 360 C 230 300, 240 240, 220 220 Z" fill="#5e7a8c"/>
+    <path d="M180 165 C 200 140, 260 140, 280 160 C 270 190, 220 210, 185 190 Z" fill="#8d725f"/>
+  </g>
+
+  <!-- The Shell -->
+  <g>
+    <path d="M290 400 C 350 540, 550 540, 610 400 C 580 370, 500 350, 450 355 C 400 350, 320 370, 290 400 Z" fill="#f6f1e1"/>
+    <path d="M450 355 C 400 380, 350 450, 330 500" stroke="#d1c8b8" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M450 355 C 420 380, 390 450, 370 500" stroke="#d1c8b8" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M450 355 C 480 380, 510 450, 530 500" stroke="#d1c8b8" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M450 355 C 460 380, 465 450, 470 500" stroke="#d1c8b8" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M450 355 C 440 380, 435 450, 430 500" stroke="#d1c8b8" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M350 490 C 400 525, 500 525, 550 490 C 500 500, 400 500, 350 490 Z" fill="#a56847"/>
+  </g>
+
+  <!-- Venus -->
+  <g id="venus">
+    <!-- Body -->
+    <path d="M430 200 C 420 280, 420 380, 435 485 L 465 485 C 480 380, 480 280, 470 200 C 460 190, 440 190, 430 200 Z" fill="#f1e0c4"/>
+    <!-- Hair -->
+    <path d="M450 160 C 400 180, 410 280, 410 350 C 410 420, 440 450, 430 460 C 400 480, 390 400, 415 350 C 430 320, 420 250, 450 160 Z" fill="#e3a060"/>
+    <path d="M450 160 C 520 200, 500 300, 480 440 C 475 460, 460 480, 470 470 C 490 450, 510 350, 490 280 C 470 200, 455 170, 450 160 Z" fill="#d18f50"/>
+  </g>
+  
+  <!-- Hora (Nymph) -->
+  <g id="hora">
+    <!-- Body/Dress -->
+    <path d="M580 200 C 560 280, 570 400, 610 490 L 670 480 C 650 350, 640 250, 620 200 Z" fill="#f0f0e0"/>
+    <path d="M580 200 C 560 280, 570 400, 610 490 L 670 480 C 650 350, 640 250, 620 200 Z" fill="url(#dressPattern)"/>
+    <!-- Hair -->
+    <path d="M600 180 C 650 220, 700 300, 680 400 C 670 350, 650 250, 600 180 Z" fill="#a86448"/>
+    <!-- Cloak -->
+    <path d="M490 180 C 550 170, 620 250, 600 350 C 580 400, 550 450, 520 400 C 480 350, 470 250, 490 180 Z" fill="#c85158"/>
+    <path d="M490 180 C 550 170, 620 250, 600 350 C 580 400, 550 450, 520 400 C 480 350, 470 250, 490 180 Z" fill="url(#cloakPattern)"/>
+  </g>
+
+  <!-- Floating Flowers (Roses) -->
+  <g fill="#e8c4c8" stroke="#a14a52" stroke-width="0.5">
+    <g transform="translate(100 100) scale(0.8)"> <circle cx="0" cy="0" r="4"/> <circle cx="3" cy="-3" r="3"/> <circle cx="-3" cy="-3" r="3"/> <circle cx="0" cy="4" r="3"/> </g>
+    <g transform="translate(150 140) scale(1) rotate(20)"> <circle cx="0" cy="0" r="4"/> <circle cx="3" cy="-3" r="3"/> <circle cx="-3" cy="-3" r="3"/> <circle cx="0" cy="4" r="3"/> </g>
+    <g transform="translate(280 120) scale(0.7) rotate(-30)"> <circle cx="0" cy="0" r="4"/> <circle cx="3" cy="-3" r="3"/> <circle cx="-3" cy="-3" r="3"/> <circle cx="0" cy="4" r="3"/> </g>
+    <g transform="translate(250 220) scale(0.9) rotate(45)"> <circle cx="0" cy="0" r="4"/> <circle cx="3" cy="-3" r="3"/> <circle cx="-3" cy="-3" r="3"/> <circle cx="0" cy="4" r="3"/> </g>
+    <g transform="translate(180 300) scale(1.1) rotate(10)"> <circle cx="0" cy="0" r="4"/> <circle cx="3" cy="-3" r="3"/> <circle cx="-3" cy="-3" r="3"/> <circle cx="0" cy="4" r="3"/> </g>
+    <g transform="translate(320 330) scale(0.8) rotate(-15)"> <circle cx="0" cy="0" r="4"/> <circle cx="3" cy="-3" r="3"/> <circle cx="-3" cy="-3" r="3"/> <circle cx="0" cy="4" r="3"/> </g>
+    <g transform="translate(80 200) scale(0.9) rotate(90)"> <circle cx="0" cy="0" r="4"/> <circle cx="3" cy="-3" r="3"/> <circle cx="-3" cy="-3" r="3"/> <circle cx="0" cy="4" r="3"/> </g>
+  </g>
+
+  <!-- Reeds (Foreground Left) -->
+  <g stroke="#3a483a" stroke-width="1.5" fill="none" transform="translate(0, 20)">
+    <path d="M20 450 C 30 400, 35 350, 40 320" />
+    <path d="M30 450 C 40 400, 45 360, 50 340" />
+    <path d="M45 450 C 50 420, 55 380, 60 360" />
+    <path d="M60 450 C 65 420, 70 390, 75 370" />
+  </g>
+</svg>

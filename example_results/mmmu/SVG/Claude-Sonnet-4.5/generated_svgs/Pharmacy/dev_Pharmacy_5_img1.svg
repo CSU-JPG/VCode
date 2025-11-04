@@ -1,0 +1,24 @@
+<svg viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title row -->
+  <text x="90" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Antibiotic</text>
+  <text x="332" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Zone of Inhibition</text>
+  
+  <!-- Horizontal line under headers -->
+  <line x1="20" y1="35" x2="540" y2="35" stroke="#999" stroke-width="1"/>
+  
+  <!-- Row A -->
+  <text x="110" y="60" font-family="Arial, sans-serif" font-size="14" fill="#333">A</text>
+  <text x="368" y="60" font-family="Arial, sans-serif" font-size="14" fill="#666">15 mm</text>
+  
+  <!-- Row B -->
+  <text x="110" y="90" font-family="Arial, sans-serif" font-size="14" fill="#333">B</text>
+  <text x="375" y="90" font-family="Arial, sans-serif" font-size="14" fill="#666">0 mm</text>
+  
+  <!-- Row C -->
+  <text x="110" y="120" font-family="Arial, sans-serif" font-size="14" fill="#333">C</text>
+  <text x="375" y="120" font-family="Arial, sans-serif" font-size="14" fill="#666">7 mm</text>
+  
+  <!-- Row D -->
+  <text x="110" y="150" font-family="Arial, sans-serif" font-size="14" fill="#333">D</text>
+  <text x="368" y="150" font-family="Arial, sans-serif" font-size="14" fill="#666">15 mm</text>
+</svg>

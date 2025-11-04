@@ -1,0 +1,47 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Benzene ring double bonds -->
+  <line x1="200" y1="150" x2="175" y2="193.3" stroke="black"/>
+  <line x1="195" y1="155" x2="170" y2="198.3" stroke="black"/>
+  <line x1="125" y1="193.3" x2="100" y2="150" stroke="black"/>
+  <line x1="120" y1="198.3" x2="95" y2="155" stroke="black"/>
+  <line x1="125" y1="106.7" x2="175" y2="106.7" stroke="black"/>
+  <line x1="125" y1="104.7" x2="175" y2="104.7" stroke="black"/>
+  <!-- Benzene ring single bonds -->
+  <line x1="175" y1="193.3" x2="125" y2="193.3" stroke="black"/>
+  <line x1="100" y1="150" x2="125" y2="106.7" stroke="black"/>
+  <line x1="175" y1="106.7" x2="200" y2="150" stroke="black"/>
+  <!-- Hydrogen atoms on benzene ring -->
+  <line x1="200" y1="150" x2="220" y2="150" stroke="black"/>
+  <text x="225" y="150" font-size="12">H</text>
+  <line x1="175" y1="193.3" x2="185" y2="213.3" stroke="black"/>
+  <text x="185" y="218.3" font-size="12">H</text>
+  <line x1="125" y1="193.3" x2="115" y2="213.3" stroke="black"/>
+  <text x="110" y="218.3" font-size="12">H</text>
+  <line x1="100" y1="150" x2="80" y2="150" stroke="black"/>
+  <text x="75" y="150" font-size="12">H</text>
+  <line x1="125" y1="106.7" x2="115" y2="86.7" stroke="black"/>
+  <text x="110" y="81.7" font-size="12">H</text>
+  <line x1="175" y1="106.7" x2="185" y2="86.7" stroke="black"/>
+  <text x="185" y="81.7" font-size="12">H</text>
+  <!-- Carbonyl group -->
+  <line x1="175" y1="193.3" x2="200" y2="193.3" stroke="black"/>
+  <line x1="200" y1="193.3" x2="225" y2="193.3" stroke="black"/>
+  <line x1="200" y1="195.3" x2="225" y2="195.3" stroke="black"/>
+  <text x="227" y="193.3" font-size="12">O</text>
+  <!-- Nitrogen and its hydrogen -->
+  <line x1="200" y1="193.3" x2="200" y2="218.3" stroke="black"/>
+  <text x="200" y="223.3" font-size="12">N</text>
+  <line x1="200" y1="218.3" x2="200" y2="238.3" stroke="black"/>
+  <text x="200" y="243.3" font-size="12">H</text>
+  <!-- Sulfur and its bonds -->
+  <line x1="200" y1="218.3" x2="187.5" y2="162.5" stroke="black"/>
+  <line x1="187.5" y1="162.5" x2="175" y2="106.7" stroke="black"/>
+  <text x="185.5" y="162.5" font-size="12">S</text>
+  <!-- Sulfur double bonds to oxygen -->
+  <line x1="187.5" y1="162.5" x2="187.5" y2="142.5" stroke="black"/>
+  <line x1="185.5" y1="162.5" x2="185.5" y2="142.5" stroke="black"/>
+  <text x="187.5" y="137.5" font-size="12">O</text>
+  <line x1="187.5" y1="162.5" x2="187.5" y2="182.5" stroke="black"/>
+  <line x1="185.5" y1="162.5" x2="185.5" y2="182.5" stroke="black"/>
+  <text x="187.5" y="187.5" font-size="12">O</text>
+</svg>

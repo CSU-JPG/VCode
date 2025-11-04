@@ -1,0 +1,17 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="250" x2="250" y2="250" stroke="black"/>
+  <line x1="50" y1="250" x2="50" y2="50" stroke="black"/>
+  <path d="M50 250C80 240 120 220 100 220C130 210 170 180 150 150C180 120 220 90 200 80C220 60 240 50 250 50" fill="none" stroke="black"/>
+  <circle cx="50" cy="250" r="3" fill="black"/>
+  <text x="45" y="255" font-size="12">A</text>
+  <circle cx="100" cy="220" r="3" fill="black"/>
+  <text x="105" y="225" font-size="12">B</text>
+  <circle cx="150" cy="150" r="3" fill="black"/>
+  <text x="155" y="155" font-size="12">C</text>
+  <circle cx="200" cy="80" r="3" fill="black"/>
+  <text x="205" y="85" font-size="12">D</text>
+  <circle cx="250" cy="50" r="3" fill="black"/>
+  <text x="255" y="55" font-size="12">E</text>
+  <text x="250" y="265" font-size="12">Base Added</text>
+  <text x="40" y="40" font-size="12">pH</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="80" fill="blue"/>
+  <polygon points="20,100 100,60 100,140" fill="none" stroke="red" stroke-width="2"/>
+  <text x="100" y="20" text-anchor="middle" fill="white">Values</text>
+  <text x="140" y="30" text-anchor="middle" fill="white">Habits</text>
+  <text x="169" y="60" text-anchor="middle" fill="white">Personality</text>
+  <text x="180" y="100" text-anchor="middle" fill="white">Physical Features</text>
+  <text x="169" y="140" text-anchor="middle" fill="white">Goals</text>
+  <text x="140" y="170" text-anchor="middle" fill="white">Dreams</text>
+  <text x="100" y="180" text-anchor="middle" fill="white">Talents</text>
+  <text x="60" y="170" text-anchor="middle" fill="white">Principles</text>
+  <text x="30" y="140" text-anchor="middle" fill="white">Interests</text>
+  <text x="20" y="100" text-anchor="middle" fill="white">Beliefs</text>
+  <text x="30" y="60" text-anchor="middle" fill="white">Career</text>
+  <text x="60" y="30" text-anchor="middle" fill="white">Emotions</text>
+  <text x="10" y="100" text-anchor="end" fill="red" transform="rotate(-90 10 100)">Self-Identity</text>
+</svg>

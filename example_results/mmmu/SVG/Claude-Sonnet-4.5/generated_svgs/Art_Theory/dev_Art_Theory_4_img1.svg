@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background aged texture -->
+  <rect width="800" height="1000" fill="#d4c4a0"/>
+  <rect width="800" height="1000" fill="url(#aged)" opacity="0.3"/>
+  
+  <defs>
+    <pattern id="aged" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="30" r="1" fill="#8b7355"/>
+      <circle cx="60" cy="70" r="1.5" fill="#6b5d4f"/>
+      <circle cx="80" cy="20" r="1" fill="#8b7355"/>
+      <circle cx="40" cy="90" r="1" fill="#6b5d4f"/>
+    </pattern>
+    
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#f4d03f;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#c5a028;stop-opacity:1"/>
+    </linearGradient>
+    
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f4e4c1;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#d4af37;stop-opacity:0.3"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Architectural background elements -->
+  <rect x="50" y="80" width="100" height="180" fill="#c9b89a" stroke="#8b7355" stroke-width="2"/>
+  <rect x="60" y="100" width="30" height="40" fill="#5a4a3a"/>
+  <polygon points="75,80 50,100 100,100" fill="#a0826d"/>
+  
+  <rect x="650" y="120" width="80" height="160" fill="#c9b89a" stroke="#8b7355" stroke-width="2"/>
+  
+  <!-- Tree in background -->
+  <ellipse cx="420" cy="150" rx="40" ry="60" fill="#4a5d4a" opacity="0.6"/>
+  
+  <!-- Table/altar -->
+  <rect x="250" y="650" width="300" height="120" fill="#b89968" stroke="#8b7355" stroke-width="3"/>
+  <rect x="260" y="670" width="280" height="15" fill="#9d7d4f"/>
+  <rect x="270" y="740" width="260" height="20" fill="#9d7d4f"/>
+  
+  <!-- Chalice on table -->
+  <ellipse cx="400" cy="620" rx="30" ry="15" fill="#6d4c3d"/>
+  <path d="M 380 620 Q 390 650 400 670 Q 410 650 420 620" fill="#8b6d54" stroke="#5d4d3d" stroke-width="2"/>
+  <rect x="390" y="670" width="20" height="15" fill="#8b6d54"/>
+  
+  <!-- Left angel -->
+  <ellipse cx="180" cy="350" rx="70" ry="90" fill="url(#halo)" opacity="0.5"/>
+  <ellipse cx="180" cy="280" rx="45" ry="45" fill="url(#halo)"/>
+  
+  <path d="M 150 400 Q 140 500 150 600 L 180 650 L 210 600 Q 220 500 210 400 Z" fill="#c9a89a" stroke="#8b7355" stroke-width="1"/>
+  <path d="M 150 420 Q 160 480 170 550 L 190 550 Q 200 480 210 420 Z" fill="#e8d4c4" opacity="0.7"/>
+  
+  <path d="M 150 500 L 140 520 Q 130 550 135 580 L 150 600" fill="#b89080" stroke="#8b7355" stroke-width="1"/>
+  
+  <ellipse cx="180" cy="340" rx="30" ry="40" fill="#8b7355"/>
+  <ellipse cx="180" cy="355" rx="25" ry="30" fill="#a89080"/>
+  
+  <path d="M 110 350 Q 90 380 95 420 Q 100 380 120 360 Z" fill="url(#gold)" opacity="0.7"/>
+  <path d="M 250 350 Q 270 380 265 420 Q 260 380 240 360 Z" fill="url(#gold)" opacity="0.7"/>
+  
+  <rect x="140" y="630" width="80" height="100" fill="#7d9d7d" stroke="#5d7d5d" stroke-width="2"/>
+  <path d="M 150 650 L 160 680 L 170 650" fill="#6d8d6d"/>
+  
+  <!-- Center angel -->
+  <ellipse cx="400" cy="320" rx="80" ry="100" fill="url(#halo)" opacity="0.5"/>
+  <ellipse cx="400" cy="250" rx="50" ry="50" fill="url(#halo)"/>
+  
+  <path d="M 360 380 Q 350 490 360 590 L 400 640 L 440 590 Q 450 490 440 380 Z" fill="#8b5d5d" stroke="#6b4d4d" stroke-width="2"/>
+  <path d="M 370 400 Q 380 470 390 540 L 410 540 Q 420 470 430 400 Z" fill="#6d8dbd" opacity="0.8"/>
+  
+  <ellipse cx="400" cy="320" rx="35" ry="45" fill="#5d3d3d"/>
+  <ellipse cx="400" cy="335" rx="30" ry="35" fill="#8b7060"/>
+  
+  <path d="M 320 330 Q 300 360 305 410 Q 310 370 330 340 Z" fill="url(#gold)" opacity="0.7"/>
+  <path d="M 480 330 Q 500 360 495 410 Q 490 370 470 340 Z" fill="url(#gold)" opacity="0.7"/>
+  
+  <path d="M 360 380 L 340 420 Q 330 450 335 490 L 360 550" fill="#6d4d5d" stroke="#5d3d4d" stroke-width="2"/>
+  <path d="M 440 380 L 460 420 Q 470 450 465 490 L 440 550" fill="#6d4d5d" stroke="#5d3d4d" stroke-width="2"/>
+  
+  <rect x="360" y="610" width="80" height="110" fill="#8d6d5d" stroke="#6d4d4d" stroke-width="2"/>
+  
+  <!-- Right angel -->
+  <ellipse cx="620" cy="360" rx="70" ry="90" fill="url(#halo)" opacity="0.5"/>
+  <ellipse cx="620" cy="290" rx="45" ry="45" fill="url(#halo)"/>
+  
+  <path d="M 590 410 Q 580 510 590 610 L 620 660 L 650 610 Q 660 510 650 410 Z" fill="#a89890" stroke="#8b7355" stroke-width="1"/>
+  <path d="M 595 430 Q 605 490 610 560 L 630 560 Q 635 490 645 430 Z" fill="#7d9dad" opacity="0.8"/>
+  
+  <path d="M 650 510 L 660 530 Q 670 560 665 590 L 650 610" fill="#6d8d9d" stroke="#5d7d8d" stroke-width="1"/>
+  
+  <ellipse cx="620" cy="350" rx="30" ry="40" fill="#6d4d3d"/>
+  <ellipse cx="620" cy="365" rx="25" ry="30" fill="#9d8d7d"/>
+  
+  <path d="M 550 360 Q 530 390 535 430 Q 540 390 560 370 Z" fill="url(#gold)" opacity="0.7"/>
+  <path d="M 690 360 Q 710 390 705 430 Q 700 390 680 370 Z" fill="url(#gold)" opacity="0.7"/>
+  
+  <rect x="580" y="640" width="80" height="100" fill="#8dad8d" stroke="#6d8d6d" stroke-width="2"/>
+  <path d="M 590 660 L 600 690 L 610 660" fill="#7d9d7d"/>
+  
+  <!-- Staff elements -->
+  <line x1="130" y1="700" x2="130" y2="850" stroke="#8b7355" stroke-width="4"/>
+  <line x1="670" y1="700" x2="670" y2="850" stroke="#8b7355" stroke-width="4"/>
+  
+  <!-- Aging effects and damage -->
+  <rect width="800" height="1000" fill="none" stroke="#6b5d4f" stroke-width="8" opacity="0.3"/>
+  <path d="M 100 200 Q 120 210 140 200" fill="none" stroke="#4a3d2f" stroke-width="2" opacity="0.5"/>
+  <path d="M 650 450 Q 670 460 690 450" fill="none" stroke="#4a3d2f" stroke-width="2" opacity="0.5"/>
+  <circle cx="300" cy="150" r="3" fill="#3a2d1f" opacity="0.6"/>
+  <circle cx="550" cy="250" r="2" fill="#3a2d1f" opacity="0.6"/>
+  <circle cx="200" cy="800" r="2.5" fill="#3a2d1f" opacity="0.6"/>
+</svg>

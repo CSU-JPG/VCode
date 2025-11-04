@@ -1,0 +1,114 @@
+[
+  {
+    "id": "dev_Art_Theory_1",
+    "question": "The painting on the right focuses on the <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "contribution of Native Americans to landscape preservation",
+      "implementation of the Homestead Act",
+      "impact of the gold rush on landscape development",
+      "idea of Manifest Destiny"
+    ],
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "contribution of Native Americans to landscape preservation",
+      "B": "implementation of the Homestead Act",
+      "C": "impact of the gold rush on landscape development",
+      "D": "idea of Manifest Destiny"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Art_Theory/dev_Art_Theory_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Art_Theory_2",
+    "question": "The central enthroned figure of Christ recalls earlier depictions of a what? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Roman emperor",
+      "Greek philosopher",
+      "Carolingian king",
+      "Romanesque abbot"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Roman emperor",
+      "B": "Greek philosopher",
+      "C": "Carolingian king",
+      "D": "Romanesque abbot"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Art_Theory/dev_Art_Theory_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Art_Theory_4",
+    "question": "What does the work <image 1> reflects an interest in?",
+    "question_type": "multiple-choice",
+    "options": [
+      "accurately copying figures and subject matter from nature",
+      "aligning the Old Testament and the New Testament through typology",
+      "emphasizing the role of the saints in the church",
+      "asserting imperial authority over the church"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "accurately copying figures and subject matter from nature",
+      "B": "aligning the Old Testament and the New Testament through typology",
+      "C": "emphasizing the role of the saints in the church",
+      "D": "asserting imperial authority over the church"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Art_Theory/dev_Art_Theory_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Art_Theory_5",
+    "question": "The figural groups within the work are arranged in what? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "friezes",
+      "pediments",
+      "registers",
+      "polyptychs"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "friezes",
+      "B": "pediments",
+      "C": "registers",
+      "D": "polyptychs"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Art_Theory/dev_Art_Theory_5_img1.png"
+    ],
+    "response": ""
+  }
+]

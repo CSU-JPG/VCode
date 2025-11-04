@@ -1,0 +1,149 @@
+<svg viewBox="-20 -20 1405 808" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfe3e6"/>
+      <stop offset="60%" stop-color="#bfc5c9"/>
+      <stop offset="100%" stop-color="#a9b0b5"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7d8286"/>
+      <stop offset="60%" stop-color="#646a6f"/>
+      <stop offset="100%" stop-color="#3c4146"/>
+    </linearGradient>
+    <linearGradient id="pavementGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#868c90"/>
+      <stop offset="100%" stop-color="#6e7479"/>
+    </linearGradient>
+    <linearGradient id="buildingGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd4d8"/>
+      <stop offset="100%" stop-color="#aeb4b9"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b9c2c7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#93a0a8" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="mistGrad" cx="50%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="rain" patternUnits="userSpaceOnUse" width="16" height="16" patternTransform="rotate(25)">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+      <line x1="8" y1="0" x2="8" y2="16" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="-20" y="-20" width="1405" height="808" fill="url(#skyGrad)"/>
+
+  <!-- Distant buildings -->
+  <rect x="380" y="270" width="560" height="170" rx="4" fill="url(#buildingGrad)" stroke="#9aa1a6" stroke-opacity="0.4"/>
+  <!-- Windows (simplified) -->
+  <g fill="#7e868c" opacity="0.45">
+    <rect x="405" y="300" width="22" height="10"/>
+    <rect x="435" y="300" width="22" height="10"/>
+    <rect x="465" y="300" width="22" height="10"/>
+    <rect x="495" y="300" width="22" height="10"/>
+    <rect x="525" y="300" width="22" height="10"/>
+    <rect x="555" y="300" width="22" height="10"/>
+    <rect x="585" y="300" width="22" height="10"/>
+    <rect x="615" y="300" width="22" height="10"/>
+    <rect x="645" y="300" width="22" height="10"/>
+    <rect x="675" y="300" width="22" height="10"/>
+    <rect x="705" y="300" width="22" height="10"/>
+    <rect x="735" y="300" width="22" height="10"/>
+    <rect x="765" y="300" width="22" height="10"/>
+    <rect x="795" y="300" width="22" height="10"/>
+    <rect x="825" y="300" width="22" height="10"/>
+  </g>
+
+  <!-- Left glass building -->
+  <rect x="10" y="40" width="210" height="280" fill="url(#glassGrad)" stroke="#8a939a" stroke-opacity="0.6"/>
+  <g opacity="0.4" stroke="#6f7b82">
+    <line x1="10" y1="95" x2="220" y2="95"/>
+    <line x1="10" y1="150" x2="220" y2="150"/>
+    <line x1="10" y1="205" x2="220" y2="205"/>
+    <line x1="10" y1="260" x2="220" y2="260"/>
+    <line x1="60" y1="40" x2="60" y2="320"/>
+    <line x1="110" y1="40" x2="110" y2="320"/>
+    <line x1="160" y1="40" x2="160" y2="320"/>
+  </g>
+
+  <!-- Road and sidewalks -->
+  <polygon points="320,768 1045,768 820,430 540,430" fill="url(#roadGrad)"/>
+  <polygon points="0,520 300,768 320,768 540,430 360,430 0,470" fill="url(#pavementGrad)"/>
+  <polygon points="1045,768 1365,650 1365,470 1000,430 820,430" fill="url(#pavementGrad)"/>
+
+  <!-- Median island -->
+  <polygon points="650,768 710,768 735,590 705,470 655,470 635,590" fill="#6e7377" opacity="0.9"/>
+
+  <!-- Center dashed lane line (reflection-friendly) -->
+  <line x1="680" y1="450" x2="680" y2="768" stroke="#cfd6da" stroke-opacity="0.7" stroke-width="6" stroke-dasharray="24 20" stroke-linecap="round"/>
+
+  <!-- Trees right -->
+  <g>
+    <rect x="1015" y="360" width="22" height="180" fill="#3d3b39"/>
+    <rect x="1205" y="330" width="24" height="210" fill="#3d3b39"/>
+    <ellipse cx="1030" cy="330" rx="70" ry="60" fill="#2f3b34" opacity="0.95"/>
+    <ellipse cx="1215" cy="300" rx="85" ry="70" fill="#2f3b34" opacity="0.95"/>
+  </g>
+
+  <!-- Trees left -->
+  <g>
+    <rect x="250" y="250" width="18" height="210" fill="#3d3b39"/>
+    <ellipse cx="280" cy="220" rx="120" ry="95" fill="#2f3b34" opacity="0.92"/>
+  </g>
+
+  <!-- Traffic lights and poles -->
+  <g stroke="#8b8f93">
+    <rect x="646" y="220" width="12" height="220" fill="#9aa0a5"/>
+    <rect x="815" y="215" width="12" height="225" fill="#9aa0a5"/>
+    <line x1="500" y1="260" x2="925" y2="260" stroke="#9aa0a5" stroke-width="8"/>
+  </g>
+  <g>
+    <rect x="640" y="240" width="26" height="64" rx="4" fill="#2b2e31"/>
+    <circle cx="653" cy="255" r="8" fill="#2b2e31"/>
+    <circle cx="653" cy="272" r="8" fill="#2b2e31"/>
+    <circle cx="653" cy="290" r="8" fill="#45e06a"/>
+  </g>
+  <g>
+    <rect x="810" y="240" width="26" height="64" rx="4" fill="#2b2e31"/>
+    <circle cx="823" cy="255" r="8" fill="#2b2e31"/>
+    <circle cx="823" cy="272" r="8" fill="#2b2e31"/>
+    <circle cx="823" cy="290" r="8" fill="#45e06a"/>
+  </g>
+
+  <!-- Parked cars left (simplified) -->
+  <g fill="#c5c9cd" stroke="#9aa0a5" opacity="0.85">
+    <rect x="470" y="405" width="36" height="18" rx="3"/>
+    <rect x="505" y="404" width="38" height="19" rx="3"/>
+    <rect x="545" y="402" width="42" height="20" rx="3"/>
+  </g>
+
+  <!-- Moving car (center) -->
+  <g>
+    <rect x="642" y="544" width="96" height="40" rx="6" fill="#34373b"/>
+    <rect x="656" y="532" width="68" height="20" rx="6" fill="#3f4347"/>
+    <circle cx="662" cy="569" r="6" fill="#232528"/>
+    <circle cx="718" cy="569" r="6" fill="#232528"/>
+    <rect x="648" y="568" width="16" height="8" rx="2" fill="#ff5a4d"/>
+    <rect x="716" y="568" width="16" height="8" rx="2" fill="#ff5a4d"/>
+    <!-- reflection -->
+    <rect x="646" y="586" width="92" height="44" fill="#ff5a4d" opacity="0.08"/>
+  </g>
+
+  <!-- Bike rack lines on right sidewalk -->
+  <g stroke="#8e959a" stroke-width="5" opacity="0.9">
+    <path d="M1120,520 C1130,500 1160,500 1170,520" fill="none"/>
+    <path d="M1175,520 C1185,498 1215,498 1225,520" fill="none"/>
+  </g>
+
+  <!-- Blue and red bounding boxes (as in photo annotations) -->
+  <rect x="1060" y="330" width="150" height="210" fill="none" stroke="#2e6be6" stroke-width="6"/>
+  <rect x="1035" y="395" width="290" height="95" fill="none" stroke="#e43c2f" stroke-width="6"/>
+
+  <!-- Wet reflections and puddle sheen -->
+  <rect x="320" y="520" width="725" height="248" fill="white" opacity="0.04"/>
+  <rect x="-20" y="-20" width="1405" height="808" fill="url(#rain)"/>
+  <ellipse cx="200" cy="90" rx="260" ry="140" fill="url(#mistGrad)"/>
+  <ellipse cx="1160" cy="80" rx="240" ry="150" fill="url(#mistGrad)"/>
+</svg>

@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1920 960" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="texture" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feDiffuseLighting in="noise" lighting-color="#d4c8b0" surfaceScale="1">
+        <feDistantLight azimuth="45" elevation="60"/>
+      </feDiffuseLighting>
+      <feComposite operator="in" in2="SourceGraphic" result="textured"/>
+      <feBlend in="SourceGraphic" in2="textured" mode="multiply"/>
+    </filter>
+    <style>
+      .art { filter: url(#texture); }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#d4c8b0"/>
+  
+  <g class="art" opacity="0.9">
+    <!-- Background Mountains -->
+    <path fill="#c5bdb0" d="M0 450 L120 420 L250 480 L380 440 L450 500 L500 480 L0 520 Z"/>
+    <path fill="#c5bdb0" d="M1250 480 L1350 450 L1500 490 L1650 460 L1800 500 L1920 480 V550 L1200 550 Z"/>
+    <path fill="#c5bdb0" d="M750 460 L850 440 L950 470 L1050 430 L1150 480 L1100 510 L800 510 Z"/>
+    
+    <!-- Midground Hills -->
+    <path fill="#b8af9f" d="M600 500 C650 470, 750 470, 850 510 L1200 540 L1250 500 L1400 530 L1450 490 L1600 520 L1650 560 L600 580 Z"/>
+    <path fill="#b8af9f" d="M0 500 L100 480 L280 520 L400 490 L550 530 V600 L0 600 Z"/>
+    
+    <!-- Water Body -->
+    <path fill="#ccc2ac" d="M0 550 L1920 550 L1920 850 L0 850 Z"/>
+    
+    <!-- Distant Shore &amp;amp;amp; Village -->
+    <g>
+      <path fill="#b2a895" d="M950 600 C1100 580, 1300 580, 1550 620 L1800 640 L1920 630 V700 H900 Z"/>
+      <!-- Trees on distant shore -->
+      <path fill="#656055" d="M980 600 L975 580 L985 580 Z M1020 600 L1015 575 L1025 575 Z M1050 590 L1045 570 L1055 570 Z M1080 600 L1075 580 L1085 580 Z M1120 610 L1110 580 L1130 580 Z M1160 595 L1155 575 L1165 575 Z M1200 605 L1190 580 L1210 580 Z M1240 610 L1235 590 L1245 590 Z M1280 615 L1270 590 L1290 590 Z M1320 620 L1315 600 L1325 600 Z M1360 625 L1350 600 L1370 600 Z M1400 630 L1395 610 L1405 610 Z M1450 635 L1440 610 L1460 610 Z M1500 630 L1490 605 L1510 605 Z M1550 640 L1545 620 L1555 620 Z M1600 645 L1590 620 L1610 620 Z M1650 640 L1645 625 L1655 625 Z M1700 650 L1690 625 L1710 625 Z M1750 640 L1745 620 L1755 620 Z M1800 640 L1795 620 L1805 620 Z"/>
+      <!-- Village Houses -->
+      <rect x="1180" y="600" width="30" height="15" fill="#70685a"/>
+      <rect x="1220" y="605" width="25" height="12" fill="#70685a"/>
+      <rect x="1250" y="610" width="35" height="15" fill="#70685a"/>
+      <rect x="1300" y="615" width="30" height="15" fill="#70685a"/>
+    </g>
+    
+    <!-- Foreground Rocks &amp;amp;amp; Land -->
+    <path fill="#a9a090" d="M0 960 L0 750 L200 780 L400 750 L650 820 L700 960 Z"/>
+    <path fill="#9a9183" d="M1500 960 L1550 850 L1650 880 L1750 840 L1880 890 L1920 870 V960 Z"/>
+    <path fill="#8c8478" d="M1780 750 C1820 740, 1880 750, 1920 740 V800 H1750 Z"/>
+    
+    <!-- Main Mountain -->
+    <g>
+      <!-- Base shape and color wash -->
+      <path fill="#b0a898" d="M400 960 L350 800 C380 700, 250 400, 450 200 C550 100, 750 150, 800 300 C850 450, 750 650, 850 750 L950 850 L1000 960 H400 Z"/>
+      <path fill="#a0988a" opacity="0.7" d="M500 900 L450 750 C480 650, 400 500, 500 350 C550 250, 650 300, 700 400 C750 550, 700 700, 780 800 L850 900 Z"/>
+
+      <!-- Texture Strokes (Hemp-fiber strokes) -->
+      <g stroke="#504838" stroke-width="2" fill="none" stroke-linecap="round">
+        <path d="M550 250 C540 350, 560 450, 550 550 C545 650, 560 750, 550 850"/>
+        <path d="M600 280 C590 400, 610 500, 600 650 C595 750, 610 850, 600 920"/>
+        <path d="M650 320 C640 450, 660 550, 650 700 C645 800, 660 880, 650 940"/>
+        <path d="M700 350 C690 500, 710 600, 700 750 C695 850, 710 920, 700 960"/>
+        <path d="M500 300 C480 400, 500 500, 490 600"/>
+        <path d="M450 400 C440 500, 460 600, 450 700"/>
+        <path d="M750 450 C740 550, 760 650, 750 750"/>
+        <path d="M480 800 C490 850, 470 900, 480 950"/>
+      </g>
+      
+      <!-- Trees on Mountain -->
+      <g fill="#4a443a">
+        <path d="M600 700 L595 670 L605 670 Z M620 720 L615 690 L625 690 Z"/>
+        <path d="M450 780 L445 750 L455 750 Z M470 800 L465 770 L475 770 Z"/>
+        <path d="M750 600 L740 570 L760 570 L750 540 L750 600 Z"/>
+        <path d="M780 620 L770 590 L790 590 L780 560 L780 620 Z"/>
+        <path d="M820 680 L810 650 L830 650 L820 620 L820 680 Z"/>
+      </g>
+      
+      <!-- Dark Accents &amp;amp;amp; Moss Dots -->
+      <g fill="#252015">
+        <circle cx="580" cy="220" r="5"/> <circle cx="595" cy="215" r="7"/> <circle cx="610" cy="225" r="6"/>
+        <circle cx="630" cy="230" r="8"/> <circle cx="650" cy="220" r="5"/> <circle cx="665" cy="225" r="7"/>
+        <path d="M550 250 C570 240, 590 250, 580 260 Z"/>
+        <path d="M680 240 C700 230, 720 240, 710 250 Z"/>
+        <path d="M500 450 C510 445, 520 455, 510 460 Z"/>
+        <path d="M480 520 C490 515, 500 525, 490 530 Z"/>
+        <path d="M700 500 C710 495, 720 505, 710 510 Z"/>
+        <path d="M650 550 C660 545, 670 555, 660 560 Z"/>
+        <path d="M780 400 L800 390 L790 410 Z"/>
+      </g>
+      
+      <!-- Small structure on top -->
+      <path fill="#5a5245" d="M590 200 h 40 v -20 l -20 -15 l -20 15 z"/>
+    </g>
+
+    <!-- Foreground hill -->
+    <g>
+      <path fill="#b9b0a1" d="M500 960 L600 800 C700 750, 850 780, 950 820 L1050 960 Z"/>
+      <g stroke="#60584a" stroke-width="1.5" fill="none">
+        <path d="M750 820 C740 850, 760 880, 750 910"/>
+        <path d="M800 840 C790 870, 810 900, 800 930"/>
+        <path d="M850 860 C840 890, 860 920, 850 950"/>
+        <path d="M650 850 C640 880, 660 910, 650 940"/>
+      </g>
+    </g>
+    
+    <!-- Bridge and Figure -->
+    <g>
+        <path d="M900 700 L 960 710" stroke="#504838" stroke-width="4"/>
+        <path d="M925 700 v -20 l 5 5" stroke="#504838" stroke-width="2" fill="none"/>
+        <circle cx="930" cy="675" r="4" fill="#4a443a"/>
+        <path d="M930 679 v 10" stroke="#4a443a" stroke-width="2"/>
+    </g>
+
+  </g>
+</svg>

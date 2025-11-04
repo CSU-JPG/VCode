@@ -1,0 +1,108 @@
+<svg viewBox="0 0 512 384" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfd8e6"/>
+      <stop offset="1" stop-color="#b7c4d1"/>
+    </linearGradient>
+    <linearGradient id="umbGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6c4a1"/>
+      <stop offset="1" stop-color="#ac9470"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="512" height="384" fill="url(#skyGrad)"/>
+
+  <g opacity="0.9">
+    <path d="M0 128 C80 112, 150 132, 220 122 C300 110, 380 130, 512 108 L512 180 L0 180 Z" fill="#97a3ae"/>
+    <path d="M0 170 C60 160, 140 176, 220 168 C320 158, 420 176, 512 160 L512 198 L0 198 Z" fill="#85909a"/>
+  </g>
+
+  <path d="M18 200 C60 186, 115 182, 168 160 C190 152, 210 154, 230 164 C200 176, 170 190, 140 210 C100 234, 54 238, 18 230 Z" fill="#d8d7cf" opacity="0.6"/>
+
+  <g id="building">
+    <polygon points="316,156 400,120 506,152 506,160 316,160" fill="#6e6150"/>
+    <rect x="326" y="160" width="170" height="114" fill="#cfc3a2" stroke="#8e816e" stroke-width="1"/>
+    <rect x="326" y="186" width="170" height="6" fill="#b6aa8b"/>
+    <rect x="326" y="214" width="170" height="6" fill="#b6aa8b"/>
+    <g fill="#9fb0be">
+      <rect x="338" y="170" width="30" height="12"/>
+      <rect x="374" y="170" width="30" height="12"/>
+      <rect x="410" y="170" width="30" height="12"/>
+      <rect x="446" y="170" width="30" height="12"/>
+      <rect x="338" y="198" width="30" height="12"/>
+      <rect x="374" y="198" width="30" height="12"/>
+      <rect x="410" y="198" width="30" height="12"/>
+      <rect x="446" y="198" width="30" height="12"/>
+      <rect x="338" y="226" width="30" height="12"/>
+      <rect x="374" y="226" width="30" height="12"/>
+      <rect x="410" y="226" width="30" height="12"/>
+      <rect x="446" y="226" width="30" height="12"/>
+    </g>
+  </g>
+
+  <g id="leafless-branches" stroke="#5a4a3e" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M6 62 C56 70, 116 58, 180 76 C230 88, 256 104, 286 100"/>
+    <path d="M82 60 C94 52, 106 50, 118 54"/>
+    <path d="M136 70 C150 60, 162 60, 172 66"/>
+    <path d="M200 86 C208 78, 220 76, 232 82"/>
+  </g>
+
+  <g id="umb">
+    <ellipse cx="0" cy="0" rx="10" ry="3" fill="#6e604d"/>
+    <rect x="-1.5" y="-12" width="3" height="12" fill="#6e604d"/>
+    <polygon points="0,-100 -18,-10 18,-10" fill="url(#umbGrad)" stroke="#7e6f57" stroke-width="1"/>
+    <rect x="-8" y="-26" width="16" height="6" fill="#9d8a68" opacity="0.9"/>
+    <polygon points="0,-108 -4,-100 4,-100" fill="#7e6f57"/>
+    <path d="M0 -100 L0 -10" stroke="#9f9179" stroke-width="0.6" opacity="0.4"/>
+  </g>
+
+  <g id="umbrellas">
+    <use href="#umb" transform="translate(36,304) scale(0.95)"/>
+    <use href="#umb" transform="translate(70,310) scale(1.05)"/>
+    <use href="#umb" transform="translate(106,306) scale(1.02)"/>
+    <use href="#umb" transform="translate(142,300) scale(1.1)"/>
+    <use href="#umb" transform="translate(178,296) scale(1.08)"/>
+    <use href="#umb" transform="translate(214,294) scale(1.12)"/>
+    <use href="#umb" transform="translate(246,298) scale(1.0)"/>
+    <use href="#umb" transform="translate(278,300) scale(1.12)"/>
+    <use href="#umb" transform="translate(314,304) scale(1.05)"/>
+    <use href="#umb" transform="translate(352,308) scale(1.06)"/>
+    <use href="#umb" transform="translate(388,312) scale(1.02)"/>
+    <use href="#umb" transform="translate(424,316) scale(0.98)"/>
+    <use href="#umb" transform="translate(460,320) scale(0.94)"/>
+  </g>
+
+  <g id="foreground-grasses" stroke-linecap="round" fill="none" opacity="0.9">
+    <g stroke="#b7a06f" stroke-width="1.4">
+      <path d="M12 384 C18 360, 24 338, 32 320"/>
+      <path d="M26 384 C40 356, 54 338, 64 320"/>
+      <path d="M54 384 C66 360, 84 336, 96 316"/>
+      <path d="M84 384 C96 360, 118 332, 134 312"/>
+      <path d="M112 384 C130 356, 152 334, 168 314"/>
+      <path d="M144 384 C160 360, 186 334, 206 312"/>
+      <path d="M176 384 C194 360, 222 336, 242 314"/>
+      <path d="M208 384 C226 360, 256 338, 274 318"/>
+      <path d="M240 384 C258 362, 286 340, 306 318"/>
+      <path d="M272 384 C292 362, 320 340, 340 320"/>
+      <path d="M304 384 C324 360, 354 342, 372 324"/>
+      <path d="M336 384 C356 360, 386 342, 404 324"/>
+      <path d="M368 384 C388 360, 418 342, 436 324"/>
+      <path d="M400 384 C420 362, 448 346, 468 328"/>
+    </g>
+    <g stroke="#8e7a53" stroke-width="1.2" opacity="0.85">
+      <path d="M22 384 C40 362, 56 338, 70 320"/>
+      <path d="M60 384 C80 360, 98 336, 114 314"/>
+      <path d="M98 384 C118 358, 140 334, 156 312"/>
+      <path d="M138 384 C158 356, 184 334, 202 312"/>
+      <path d="M178 384 C198 356, 226 338, 244 318"/>
+      <path d="M218 384 C238 358, 266 338, 286 316"/>
+      <path d="M258 384 C278 360, 308 340, 330 318"/>
+      <path d="M298 384 C318 358, 348 340, 366 318"/>
+      <path d="M338 384 C358 362, 388 344, 408 322"/>
+      <path d="M378 384 C398 362, 430 346, 450 326"/>
+    </g>
+  </g>
+
+  <rect x="228" y="192" width="44" height="130" fill="none" stroke="#d22" stroke-width="3"/>
+  <rect x="0" y="0" width="512" height="384" fill="#ffffff" opacity="0.06"/>
+</svg>

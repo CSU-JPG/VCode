@@ -1,0 +1,44 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#b8d3e2"/>
+      <stop offset="100%" stop-color="#e0e8eb"/>
+    </linearGradient>
+    <linearGradient id="mainBranchGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a89a8e"/>
+      <stop offset="50%" stop-color="#8c7e72"/>
+      <stop offset="100%" stop-color="#73665a"/>
+    </linearGradient>
+    <radialGradient id="fruitRedGradient" cx="0.4" cy="0.4" r="0.6">
+      <stop offset="20%" stop-color="#9d3c34"/>
+      <stop offset="100%" stop-color="#5b201c"/>
+    </radialGradient>
+    <filter id="bgBlur">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="midBlur">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#skyGradient)"/>
+  <path d="M -20,130 L 290,200" stroke="#3d352e" stroke-width="7" filter="url(#bgBlur)" stroke-linecap="round"/>
+  <path d="M -20,490 L 230,440" stroke="#3d352e" stroke-width="5" filter="url(#bgBlur)" stroke-linecap="round"/>
+  <path d="M 240,-10 C 305,80 390,200 480,330 L 610,480 L 610,430 C 510,300 420,170 345,-10 Z" fill="url(#mainBranchGradient)" filter="url(#midBlur)"/>
+  <g filter="url(#midBlur)">
+    <path d="M 460,250 C 490,260 520,300 480,310 Z" fill="#6a5d51" opacity="0.8"/>
+    <ellipse cx="495" cy="285" rx="12" ry="18" fill="#dada4a" opacity="0.7"/>
+    <ellipse cx="510" cy="272" rx="5" ry="7" fill="#c0c050" opacity="0.6"/>
+  </g>
+  <path d="M 450,225 C 475,235 550,270 580,260" stroke="#52473d" stroke-width="8" fill="none" filter="url(#midBlur)" stroke-linecap="round"/>
+  <path d="M -10,520 C 150,510 400,530 610,550 L 610,580 C 400,560 150,540 -10,550 Z" fill="#9a8c7e"/>
+  <path d="M 250,515 L 260,505" stroke="#5c5044" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 70,518 L 60,510" stroke="#5c5044" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 290,280 C 310,260 360,210 375,200" stroke="#6b4c39" stroke-width="5" fill="none" stroke-linecap="round" filter="url(#midBlur)"/>
+  <path d="M 261,288 C 231,311 228,374 267,399 C 313,417 351,377 344,324 C 338,279 298,259 261,288 Z" fill="#d1c2a9"/>
+  <path d="M 261,288 C 238,305 235,355 264,385 C 285,360 295,315 261,288 Z" fill="url(#fruitRedGradient)"/>
+  <path d="M 255,295 C 270,305 275,325 260,330 C 245,325 240,305 255,295 Z" fill="#381511"/>
+  <path d="M 258,298 C 268,306 270,320 262,325 C 252,322 250,308 258,298 Z" fill="#200a08"/>
+  <path d="M 270,285 C 280,325 275,365 285,395" stroke="#c7b69a" stroke-width="8" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <path d="M 265,290 C 275,325 270,360 275,385" stroke="#9d3c34" stroke-width="6" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <path d="M 320,330 Q 330,320 335,335 M 300,380 Q 310,370 315,385" stroke="#a99a85" stroke-width="2" fill="none"/>
+</svg>

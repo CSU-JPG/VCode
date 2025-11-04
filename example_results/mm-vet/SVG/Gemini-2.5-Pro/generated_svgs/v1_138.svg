@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad_sweater" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b5b8ba;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d1d3d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b5b8ba;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="lattice" patternUnits="userSpaceOnUse" width="16" height="16">
+      <path d="M-4,20 l8,-8 M-4,4 l8,-8 M12,20 l8,-8" stroke="#3d4042" stroke-width="1.5" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" fill="#0a0807"/>
+  <path d="M0,0 H650 V450 H0Z" fill="#2d221c"/>
+  <path d="M0,130 H640 V420 H0Z" fill="#1b120f"/>
+  <path d="M10,0 H520 V380 H10Z" fill="#d7d0c5"/>
+
+  <!-- Windows -->
+  <g stroke="#1a1410" stroke-width="8">
+    <rect x="180" y="0" width="140" height="340" fill="#c0c5c9"/>
+    <rect x="340" y="0" width="140" height="340" fill="#c0c5c9"/>
+    <rect x="180" y="0" width="140" height="340" fill="url(#lattice)"/>
+    <rect x="340" y="0" width="140" height="340" fill="url(#lattice)"/>
+  </g>
+
+  <!-- Framed Pictures -->
+  <g fill="#5e4a32">
+    <rect x="25" y="20" width="130" height="100"/>
+    <rect x="25" y="145" width="130" height="100"/>
+    <rect x="185" y="210" width="80" height="100"/>
+    <rect x="345" y="60" width="100" height="70"/>
+    <rect x="345" y="145" width="100" height="120"/>
+    <rect x="530" y="0" width="100" height="90"/>
+    <rect x="530" y="110" width="60" height="80"/>
+  </g>
+  <g fill="#e0d6c5">
+    <rect x="35" y="30" width="110" height="80"/>
+    <rect x="35" y="155" width="110" height="80"/>
+    <rect x="192" y="217" width="66" height="86"/>
+    <rect x="352" y="67" width="86" height="56"/>
+    <rect x="352" y="152" width="86" height="106"/>
+    <rect x="537" y="7" width="86" height="76"/>
+    <rect x="537" y="117" width="46" height="66"/>
+  </g>
+
+  <!-- Bar area -->
+  <path d="M0,360 H650 V450 H0Z" fill="#211711"/>
+  <path d="M480,260 L800,260 V450 H480Z" fill="#211711"/>
+
+  <!-- Man -->
+  <path d="M540,240 C530,220 535,180 555,165 C580,150 600,160 610,180 L630,270 L600,290 L540,280Z" fill="url(#grad_sweater)"/>
+  <path d="M555,165 C580,150 600,160 610,180 L595,190 C585,175 570,165 555,170Z" fill="#897a70"/>
+  <path d="M570,230 h 50 v 15 h -50 z" fill="#aeb2b4"/>
+  <path d="M550,250 h 70 v 15 h -70 z" fill="#aeb2b4"/>
+  <path d="M570,180 C570,170 580,165 590,170 C600,175 605,185 600,195 C590,210 575,210 570,195 Z" fill="#e0c1a8"/>
+  <path d="M585,172 C590,170 595,172 593,178 L588,185 L580,180 Z" fill="#75675a"/>
+
+  <!-- Woman -->
+  <path d="M300,450 H550 L530,300 C520,200 480,140 420,130 C360,120 320,180 310,280 Z" fill="#0f1a2d"/>
+  <g> <!-- Shirt -->
+    <path d="M320,180 C320,160 380,120 420,130 C460,140 520,160 520,180 V320 H320Z" fill="#f5f5f5"/>
+    <path d="M350,220 h 140 v 90 h -140 z" fill="#00247d"/>
+    <path d="M350,220 L490,310 M350,310 L490,220" stroke="#fff" stroke-width="20"/>
+    <path d="M350,220 L490,310 M350,310 L490,220" stroke="#c8102e" stroke-width="10"/>
+    <path d="M350,265 h 140 v -0 z" stroke="#fff" stroke-width="28"/>
+    <path d="M420,220 v 90 z" stroke="#fff" stroke-width="28"/>
+    <path d="M350,265 h 140 v -0 z" stroke="#c8102e" stroke-width="18"/>
+    <path d="M420,220 v 90 z" stroke="#c8102e" stroke-width="18"/>
+    <path d="M320,180 C320,160 380,120 420,130 C460,140 520,160 520,180 V320 H320Z" fill="rgba(0,0,0,0.1)"/>
+  </g>
+  <path d="M300,180 L320,320 L300,325Z" fill="#f2d3b4" /> <!-- Left Arm -->
+  <path d="M520,320 L540,180 L555,325Z" fill="#f2d3b4" /> <!-- Right Arm -->
+  <path d="M380,105 C360,125 365,150 380,165 C390,175 450,175 460,165 C475,150 480,125 460,105 C440,80 400,80 380,105Z" fill="#f2d3b4"/> <!-- Face -->
+  <path d="M360,90 C360,60 480,60 480,90 L460,170 H380Z" fill="#f0e09d"/> <!-- Hair -->
+  <path d="M360,90 C360,60 480,60 480,90 L450,160 H390Z" fill="#e6cf8b"/>
+  <path d="M390,130 C395,120 405,120 410,125 L405,135 Z" fill="#222"/>
+  <path d="M430,130 C435,120 445,120 450,125 L445,135 Z" fill="#222"/>
+  <path d="M410,150 C420,155 430,155 440,150 L425,145 Z" fill="#c7807b"/>
+  <!-- Necklaces -->
+  <path d="M420,165 Q400,200 420,240 Q440,200 420,165" fill="none" stroke="#777" stroke-width="1"/>
+  <path d="M420,168 Q405,200 420,225 Q435,200 420,168" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="420" cy="240" r="4" fill="#aaa"/>
+  <path d="M415,225 L425,225 L420,232 Z" fill="#d4af37"/>
+
+  <!-- Bar -->
+  <path d="M640,290 H800 V310 H640 Z" fill="#5a3b2a"/>
+  <path d="M640,290 H800 V294 H640 Z" fill="#7d5b4a"/>
+  <path d="M650,310 H800 V450 H650 Z" fill="#1a110d"/>
+
+  <!-- Glasses -->
+  <path d="M750,290 L755,240 h20 l5,50 Z" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)"/>
+  <path d="M755,288 L759,250 h12 l4,38 Z" fill="#6e261f"/>
+  <path d="M759,250 C765,248 771,248 771,250 Z" fill="#eaddc5"/>
+  <path d="M700,310 L702,280 h36 l2,30 Z" fill="rgba(255,255,255,0.2)"/>
+  <path d="M702,308 h36 v -3 C728,300 712,300 702,305 Z" fill="rgba(255,255,255,0.7)"/>
+
+  <!-- Foreground Furniture -->
+  <path d="M0,320 L400,340 V450 H0Z" fill="#2a1d15"/>
+  <path d="M-10,322 l410,16 v2 h-410z" fill="#3f2e24"/>
+  <path d="M100,350 C120,300 250,300 250,350 V450 H100Z" fill="#150d0a"/>
+  <path d="M300,350 C320,320 400,320 400,350 V450 H300Z" fill="#301810"/>
+
+  <!-- Lighting overlay -->
+  <rect x="0" y="0" width="800" height="450" fill="rgba(255,230,190,0.15)"/>
+  <rect x="0" y="0" width="800" height="450" fill="radial-gradient(circle at 350px 150px, rgba(255,255,255,0.2), transparent 60%)"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coaxialGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d0d0d0"/>
+      <stop offset="100%" stop-color="#a0a0a0"/>
+    </linearGradient>
+  </defs>
+  <!-- ISP Box -->
+  <rect x="50" y="70" width="50" height="40" fill="#ffffff" stroke="#000000"/>
+  <text x="65" y="95" font-family="sans-serif" font-size="12">ISP</text>
+  
+  <!-- Fiber Line -->
+  <line x1="100" y1="90" x2="140" y2="90" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Head-end -->
+  <rect x="140" y="70" width="60" height="40" fill="#ffffff" stroke="#000000"/>
+  <text x="150" y="95" font-family="sans-serif" font-size="12">Head-end</text>
+  
+  <!-- Coaxial Cable -->
+  <rect x="200" y="50" width="400" height="80" fill="url(#coaxialGradient)" stroke="#000000"/>
+  <text x="210" y="40" font-family="sans-serif" font-size="10">Coaxial cable</text>
+  
+  <!-- Downstream Arrow -->
+  <path d="M210 90 L250 90 L250 85 L260 95 L250 105 L250 100 L210 100 Z" fill="#000000"/>
+  <text x="270" y="85" font-family="sans-serif" font-size="10">Downstream channel without contention: 27 Mbps using QAM-64 and 184-byte payloads</text>
+  
+  <!-- Upstream Arrow -->
+  <path d="M210 100 L250 100 L250 105 L260 95 L250 85 L250 90 L210 90 Z" fill="#000000"/>
+  <text x="270" y="110" font-family="sans-serif" font-size="10">Upstream channel with contention: 9 Mbps using QPSK and 8-byte minislots</text>
+  
+  <!-- Packets -->
+  <rect x="270" y="60" width="20" height="20" fill="#ffffff" stroke="#000000"/>
+  <rect x="300" y="60" width="20" height="20" fill="#ffffff" stroke="#000000"/>
+  <path d="M330 60 L350 60 L350 80 L330 80 Z" fill="#ffffff" stroke="#000000"/>
+  <path d="M360 60 L380 60 L380 80 L360 80 Z" fill="#ffffff" stroke="#000000"/>
+  
+  <!-- Modem -->
+  <rect x="600" y="70" width="50" height="40" fill="#ffffff" stroke="#000000"/>
+  <text x="610" y="95" font-family="sans-serif" font-size="12">Modem</text>
+  
+  <!-- Figure Caption -->
+  <text x="400" y="180" font-family="sans-serif" font-size="10" text-anchor="middle">
+    Figure 2-42. Typical details of the upstream and downstream channels in North America. QAM-64 (Quadrature Amplitude Modulation) allows 6 bits/Hz but works only at high frequencies. QPSK (Quadrature Phase Shift Keying) works at low frequencies but allows only 2 bits/Hz.
+  </text>
+</svg>

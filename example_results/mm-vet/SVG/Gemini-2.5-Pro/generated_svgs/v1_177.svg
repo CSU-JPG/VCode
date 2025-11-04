@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1024 576" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#b83030" />
+      <stop offset="100%" style="stop-color:#8e2020" />
+    </radialGradient>
+    <linearGradient id="yellowSilk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff8a8"/>
+      <stop offset="50%" stop-color="#f2c833"/>
+      <stop offset="100%" stop-color="#d4a02c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="576" fill="url(#bgGrad)"/>
+  <path d="M100 150 C 120 120, 160 120, 180 150 C 160 180, 120 180, 100 150 Z M250 180 C 270 150, 310 150, 330 180 C 310 210, 270 210, 250 180 Z M800 100 C 820 70, 860 70, 880 100 C 860 130, 820 130, 800 100 Z M650 220 C 670 190, 710 190, 730 220 C 710 250, 670 250, 650 220 Z M150 400 C 170 370, 210 370, 230 400 C 210 430, 170 430, 150 400 Z M850 450 C 870 420, 910 420, 930 450 C 910 480, 870 480, 850 450 Z M400 100 C 420 80, 450 80, 470 100 C 450 120, 420 120, 400 100 Z" fill="#9f282c" opacity="0.5"/>
+  <path d="M50 280 S 100 250 150 280 S 250 310 300 280 M400 350 S 450 320 500 350 S 600 380 650 350 M750 280 S 800 250 850 280 S 950 310 1000 280 M200 500 S 250 470 300 500 S 400 530 450 500 M600 520 S 650 490 700 520 S 800 550 850 520 M50 80 S 100 50 150 80 S 250 110 300 80" stroke="#a1424c" stroke-width="3" fill="none" opacity="0.4"/>
+  
+  <!-- Background performers -->
+  <g transform="translate(-20, 20)">
+    <path d="M500 400 C 500 350, 560 350, 560 400 V 576 H 500 Z" fill="#4a7c85"/>
+    <circle cx="530" cy="340" r="35" fill="#f0e0d0"/>
+    <path d="M530 330 Q 535 325 545 330 M515 330 Q 525 325 530 330" stroke="black" fill="none" stroke-width="2"/>
+    <path d="M520 345 C 530 355 540 345 520 345" fill="#c03030"/>
+    <path d="M510 310 h40 v-15 h-40z" fill="#a03030"/>
+  </g>
+  <g transform="translate(480, 50)">
+    <path d="M470 400 C 470 350, 530 350, 530 400 V 576 H 470 Z" fill="#4a7c85"/>
+    <circle cx="500" cy="340" r="35" fill="#f0e0d0"/>
+    <path d="M500 330 Q 505 325 515 330 M485 330 Q 495 325 500 330" stroke="black" fill="none" stroke-width="2"/>
+    <path d="M490 345 C 500 355 510 345 490 345" fill="#c03030"/>
+    <path d="M480 310 h40 v-15 h-40z" fill="#a03030"/>
+  </g>
+  <g transform="translate(-450, 30)">
+    <path d="M470 400 C 470 350, 530 350, 530 400 V 576 H 470 Z" fill="#4a7c85"/>
+    <circle cx="500" cy="340" r="35" fill="#f0e0d0"/>
+    <path d="M500 330 Q 505 325 515 330 M485 330 Q 495 325 500 330" stroke="black" fill="none" stroke-width="2"/>
+    <path d="M490 345 C 500 355 510 345 490 345" fill="#c03030"/>
+    <path d="M480 310 h40 v-15 h-40z" fill="#f07070"/>
+  </g>
+  
+  <!-- Right Character (Xiang Yu) -->
+  <g>
+    <!-- Costume -->
+    <path d="M600 350 C 620 450, 650 580, 950 580 L 980 400 C 900 350, 750 300, 680 280 Z" fill="#1a1a1a"/>
+    <path d="M680 280 L 750 300 L 980 400 L 950 580 L 1024 576 L 1024 350 Z" fill="#005040"/>
+    <!-- Gold sleeve details -->
+    <g fill="#d4af37" stroke="#4a3b00" stroke-width="1.5">
+      <path d="M800 450 C 850 440, 870 480, 850 500 L 880 520 C 900 480, 880 440, 850 430 Z"/>
+      <path d="M820 490 C 870 480, 890 520, 870 540 L 900 560 C 920 520, 900 480, 870 470 Z"/>
+      <path d="M840 530 C 890 520, 910 560, 890 580 L 920 576 C 940 560, 920 520, 890 510 Z"/>
+      <path d="M920 400 C 940 395, 950 420, 930 430 L 960 450 C 970 420, 950 390, 920 400 Z"/>
+      <path d="M930 440 C 950 435, 960 460, 940 470 L 970 490 C 980 460, 960 430, 930 440 Z"/>
+    </g>
+    <!-- Bird/Dragon cuff -->
+    <path d="M940 450 C 980 440, 1024 450, 1024 480 C 1024 510, 990 520, 950 510 C 960 490, 950 470, 940 450 Z" fill="#d4af37"/>
+    <circle cx="1000" cy="465" r="5" fill="#e04040"/>
+    <!-- Headpiece -->
+    <path d="M650 150 C 600 250, 700 350, 800 250 C 850 200, 800 100, 720 80 C 680 100, 660 140, 650 150 Z" fill="#333"/>
+    <path d="M720 80 C 700 70, 750 60, 800 80 L 780 250 L 680 250 Z" fill="#406080" />
+    <circle cx="720" cy="75" r="30" fill="#a0b0c0"/>
+    <circle cx="720" cy="75" r="25" fill="#c0d0e0"/>
+    <!-- Pearls -->
+    <g fill="white" stroke="grey" stroke-width="1">
+      <circle cx="650" cy="160" r="8"/><circle cx="640" cy="180" r="8"/><circle cx="635" cy="205" r="8"/><circle cx="635" cy="230" r="8"/><circle cx="640" cy="255" r="8"/>
+      <circle cx="800" cy="150" r="7"/><circle cx="810" cy="170" r="7"/><circle cx="815" cy="195" r="7"/><circle cx="815" cy="220" r="7"/>
+    </g>
+    <!-- Pompoms -->
+    <g fill="#1a1a1a">
+      <circle cx="650" cy="280" r="12"/><circle cx="670" cy="295" r="12"/><circle cx="780" cy="270" r="12"/>
+    </g>
+    <!-- Face -->
+    <path d="M680 280 C 690 200, 800 200, 810 280 C 780 310, 710 310, 680 280Z" fill="#ffffff"/>
+    <path d="M700 240 C 720 220, 780 220, 800 240 Q 780 270 750 290 Q 720 270 700 240 M 740 270 C 750 260 760 270 740 270 M 740 290 C 720 300, 780 300, 760 290" fill="#1a1a1a"/>
+    <path d="M705 240 C 700 250, 710 260, 720 260 S 715 230, 705 240" fill="#1a1a1a"/>
+    <path d="M795 240 C 800 250, 790 260, 780 260 S 785 230, 795 240" fill="#1a1a1a"/>
+    <!-- Beard -->
+    <path d="M680 300 C 650 400, 650 550, 750 576 C 850 550, 850 400, 820 300 C 780 330, 720 330, 680 300 Z" fill="#1a1a1a"/>
+    <path d="M800 300 h 20 a 10 10 0 0 1 0 20 h -20 z" fill="#f0f0f0"/>
+  </g>
+
+  <!-- Left Character (Concubine Yu) -->
+  <g>
+    <!-- Costume -->
+    <path d="M250 320 C 200 450, 200 576, 480 576 L 500 400 C 450 350, 350 300, 250 320Z" fill="#207080"/>
+    <path d="M380 400 C 420 420 450 480 400 520 C 350 480 360 420 380 400" fill="#d4af37" opacity="0.7"/>
+    <path d="M300 450 C 350 460 380 520 330 550 C 280 520 290 460 300 450" fill="#e05090" opacity="0.7"/>
+    <path d="M280 340 L 550 400 L 500 576 L 250 576 Z" fill="url(#yellowSilk)"/>
+    <!-- Headpiece -->
+    <path d="M250 200 C 220 250, 300 350, 400 280 C 430 240, 380 180, 320 150 C 280 160, 260 190, 250 200Z" fill="#2a2a2a"/>
+    <path d="M320 150 C 300 140, 350 130, 380 150 C 400 200, 350 250, 320 250 Z" fill="#d4af37"/>
+    <!-- Flower/Ornaments -->
+    <path d="M300 260 L 250 300 L 300 340 L 350 300 Z" fill="#a0d0a0"/>
+    <path d="M300 268 L 258 300 L 300 332 L 342 300 Z" fill="#80b080"/>
+    <circle cx="340" cy="220" r="5" fill="#4060c0"/><circle cx="355" cy="225" r="5" fill="#4060c0"/><circle cx="370" cy="230" r="5" fill="#4060c0"/>
+    <circle cx="330" cy="235" r="4" fill="#f0f0f0"/><circle cx="345" cy="240" r="4" fill="#f0f0f0"/>
+    <!-- Earring -->
+    <path d="M270 340 v 40" stroke="#a0a0a0" stroke-width="2"/>
+    <circle cx="270" cy="385" r="10" fill="#60a0b0"/>
+    <!-- Face -->
+    <path d="M280 320 C 300 240, 400 240, 410 320 C 380 350, 310 350, 280 320Z" fill="#ffffff"/>
+    <path d="M310 270 C 320 260, 380 260, 390 270 C 410 290, 400 320, 380 320 C 370 290, 310 290, 310 270Z" fill="#f080a0" opacity="0.8"/>
+    <path d="M310 270 Q 320 265 330 270 L 390 270 Q 380 265 370 270" stroke="black" stroke-width="3" fill="none"/>
+    <path d="M320 325 C 340 335, 360 335, 380 325" stroke="#d03030" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

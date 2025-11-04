@@ -1,0 +1,219 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c2c2f"/>
+      <stop offset="0.45" stop-color="#7c7f86"/>
+      <stop offset="1" stop-color="#d6d6d9"/>
+    </linearGradient>
+    <linearGradient id="leftWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f1f22"/>
+      <stop offset="1" stop-color="#3c3c40"/>
+    </linearGradient>
+    <linearGradient id="rightWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5e5ea"/>
+      <stop offset="1" stop-color="#bcbec4"/>
+    </linearGradient>
+    <linearGradient id="tableWood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b38352"/>
+      <stop offset="1" stop-color="#8a6137"/>
+    </linearGradient>
+    <linearGradient id="chairGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#222427"/>
+      <stop offset="1" stop-color="#111214"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64676d"/>
+      <stop offset="0.5" stop-color="#cfd2d7"/>
+      <stop offset="1" stop-color="#73767c"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#cfd8e0" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ede7db"/>
+      <stop offset="1" stop-color="#d8cfbf"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1024" height="768" fill="url(#bg)"/>
+
+  <!-- Left dark wall -->
+  <polygon points="0,0 560,0 520,420 0,360" fill="url(#leftWall)"/>
+
+  <!-- Right light wall -->
+  <polygon points="560,0 1024,0 1024,360 740,360 710,140 600,130 560,0" fill="url(#rightWall)" opacity="0.9"/>
+
+  <!-- Ceiling lights (recessed) -->
+  <rect x="448" y="18" width="30" height="18" rx="3" fill="#dedede" opacity="0.6"/>
+  <rect x="705" y="10" width="40" height="26" rx="4" fill="#f3f3f4" opacity="0.8"/>
+
+  <!-- Tall glossy right cabinets -->
+  <g opacity="0.9">
+    <rect x="830" y="30" width="160" height="290" fill="#bfc4c9"/>
+    <rect x="835" y="35" width="150" height="280" fill="#d9dde2"/>
+    <rect x="835" y="325" width="160" height="25" fill="#a5a9ae"/>
+  </g>
+
+  <!-- Countertops and lower cabinets -->
+  <rect x="590" y="365" width="320" height="24" fill="#eaeaea"/>
+  <rect x="740" y="390" width="300" height="24" fill="#ececec"/>
+  <rect x="600" y="390" width="130" height="26" fill="#eeeeee"/>
+  <rect x="600" y="416" width="460" height="120" fill="#2f2f33" opacity="0.9"/>
+  <rect x="870" y="430" width="120" height="90" fill="#3a3a3f" opacity="0.9"/>
+
+  <!-- Window -->
+  <rect x="620" y="120" width="110" height="300" fill="#ffffff"/>
+  <rect x="620" y="120" width="110" height="300" fill="none" stroke="#7b7b80" stroke-width="6"/>
+  <!-- Plants on sill -->
+  <g>
+    <ellipse cx="640" cy="315" rx="12" ry="8" fill="#2c2c2f"/>
+    <circle cx="640" cy="302" r="11" fill="#6bb354"/>
+    <ellipse cx="675" cy="320" rx="12" ry="8" fill="#2c2c2f"/>
+    <circle cx="675" cy="307" r="11" fill="#72c25f"/>
+    <ellipse cx="710" cy="315" rx="12" ry="8" fill="#2c2c2f"/>
+    <circle cx="710" cy="302" r="11" fill="#6dbf59"/>
+  </g>
+
+  <!-- Left black door and trim -->
+  <rect x="40" y="306" width="80" height="210" fill="#1b1b1e"/>
+  <rect x="52" y="318" width="56" height="186" fill="#26262a"/>
+
+  <!-- Pendant lights -->
+  <g>
+    <rect x="306" y="-20" width="6" height="170" fill="#a8a8a8" opacity="0.6"/>
+    <rect x="312" y="72" width="40" height="100" rx="8" fill="url(#glass)" stroke="#c0c6cc" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="605" y="-20" width="6" height="200" fill="#a8a8a8" opacity="0.6"/>
+    <rect x="606" y="82" width="60" height="130" rx="10" fill="url(#glass)" stroke="#c0c6cc" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="180" y="-20" width="6" height="110" fill="#a8a8a8" opacity="0.6"/>
+    <rect x="158" y="24" width="50" height="68" rx="10" fill="url(#glass)" stroke="#c0c6cc" stroke-width="2"/>
+  </g>
+
+  <!-- Hanging rack with pots -->
+  <g>
+    <rect x="468" y="240" width="210" height="24" rx="6" fill="url(#metal)"/>
+    <rect x="450" y="264" width="246" height="10" fill="#6e7075"/>
+    <!-- hooks -->
+    <g stroke="#43454b" stroke-width="3">
+      <path d="M492,274 v48" />
+      <path d="M520,274 v58" />
+      <path d="M548,274 v58" />
+      <path d="M576,274 v56" />
+      <path d="M604,274 v50" />
+      <path d="M632,274 v52" />
+    </g>
+    <!-- pans -->
+    <circle cx="520" cy="338" r="18" fill="#787b82"/>
+    <circle cx="576" cy="342" r="26" fill="#5c5f66"/>
+  </g>
+
+  <!-- Left shelving with small plants -->
+  <rect x="410" y="216" width="130" height="190" fill="#16161a" opacity="0.85"/>
+  <g>
+    <rect x="422" y="368" width="40" height="8" fill="#2a2a2e"/>
+    <ellipse cx="435" cy="372" rx="10" ry="6" fill="#242428"/>
+    <circle cx="435" cy="360" r="12" fill="#74bf60"/>
+    <rect x="464" y="368" width="40" height="8" fill="#2a2a2e"/>
+    <ellipse cx="477" cy="372" rx="10" ry="6" fill="#242428"/>
+    <circle cx="477" cy="360" r="12" fill="#6fbc5c"/>
+  </g>
+
+  <!-- Sofas/benches in front -->
+  <g>
+    <rect x="360" y="452" width="150" height="90" rx="8" fill="url(#chairGrad)" />
+    <rect x="502" y="442" width="130" height="80" rx="8" fill="url(#chairGrad)" />
+    <rect x="610" y="454" width="110" height="90" rx="8" fill="url(#chairGrad)" />
+  </g>
+
+  <!-- Dining table -->
+  <rect x="0" y="480" width="1024" height="288" fill="url(#tableWood)"/>
+  <!-- subtle wood lines -->
+  <g opacity="0.15" stroke="#6a4526" stroke-width="3">
+    <line x1="0" y1="508" x2="1024" y2="508"/>
+    <line x1="0" y1="540" x2="1024" y2="540"/>
+    <line x1="0" y1="572" x2="1024" y2="572"/>
+    <line x1="0" y1="604" x2="1024" y2="604"/>
+    <line x1="0" y1="636" x2="1024" y2="636"/>
+    <line x1="0" y1="668" x2="1024" y2="668"/>
+    <line x1="0" y1="700" x2="1024" y2="700"/>
+  </g>
+
+  <!-- Plates and small food pieces -->
+  <g>
+    <ellipse cx="120" cy="516" rx="62" ry="26" fill="url(#plate)"/>
+    <rect x="106" y="510" width="22" height="12" fill="#e0d09e" transform="rotate(-10 117 516)"/>
+  </g>
+  <g>
+    <ellipse cx="350" cy="578" rx="62" ry="26" fill="url(#plate)"/>
+    <rect x="338" y="571" width="24" height="14" fill="#e8d6a7" transform="rotate(-12 350 578)"/>
+  </g>
+  <g>
+    <ellipse cx="210" cy="704" rx="64" ry="28" fill="url(#plate)"/>
+    <rect x="196" y="696" width="28" height="16" fill="#e9d7a4" transform="rotate(8 210 704)"/>
+  </g>
+  <g>
+    <ellipse cx="812" cy="612" rx="60" ry="24" fill="url(#plate)"/>
+    <rect x="798" y="604" width="26" height="14" fill="#efe1b6"/>
+  </g>
+  <g>
+    <ellipse cx="448" cy="520" rx="58" ry="24" fill="url(#plate)"/>
+    <rect x="437" y="512" width="20" height="12" fill="#e8d9b2"/>
+  </g>
+
+  <!-- Cups and small items -->
+  <g>
+    <ellipse cx="305" cy="646" rx="24" ry="18" fill="#202225"/>
+    <ellipse cx="306" cy="642" rx="14" ry="8" fill="#0e0f10"/>
+  </g>
+  <g>
+    <ellipse cx="686" cy="640" rx="28" ry="20" fill="#111214"/>
+    <ellipse cx="686" cy="636" rx="16" ry="8" fill="#0a0b0c"/>
+  </g>
+  <g>
+    <ellipse cx="714" cy="592" rx="24" ry="22" fill="#2b2d31"/>
+    <ellipse cx="714" cy="588" rx="14" ry="8" fill="#1a1b1e"/>
+  </g>
+
+  <!-- Fruit bowl on table -->
+  <g>
+    <ellipse cx="540" cy="590" rx="66" ry="24" fill="url(#shadow)" opacity="0.35"/>
+    <ellipse cx="540" cy="570" rx="80" ry="28" fill="#d9d9de" stroke="#9aa0a8" stroke-width="3"/>
+    <ellipse cx="540" cy="564" rx="78" ry="18" fill="#c4c8cf" opacity="0.65"/>
+    <!-- grapes -->
+    <g>
+      <circle cx="510" cy="542" r="12" fill="#7ccc37"/>
+      <circle cx="525" cy="546" r="12" fill="#7acb38"/>
+      <circle cx="540" cy="548" r="12" fill="#79c93a"/>
+      <circle cx="555" cy="546" r="12" fill="#75c23a"/>
+      <circle cx="570" cy="540" r="12" fill="#72bd3b"/>
+      <circle cx="497" cy="555" r="12" fill="#7acb38"/>
+      <circle cx="514" cy="558" r="12" fill="#78c73a"/>
+      <circle cx="530" cy="560" r="12" fill="#76c43a"/>
+      <circle cx="546" cy="560" r="12" fill="#72bf39"/>
+      <circle cx="562" cy="557" r="12" fill="#6fba39"/>
+      <!-- red grapes -->
+      <circle cx="575" cy="572" r="12" fill="#b05046"/>
+      <circle cx="560" cy="574" r="12" fill="#a84b41"/>
+      <circle cx="545" cy="578" r="12" fill="#a4473d"/>
+      <circle cx="530" cy="580" r="12" fill="#9e433a"/>
+      <circle cx="515" cy="578" r="12" fill="#994039"/>
+      <circle cx="500" cy="573" r="12" fill="#8f3b35"/>
+    </g>
+  </g>
+
+  <!-- Blue rectangle (highlight) -->
+  <rect x="170" y="36" width="80" height="92" fill="none" stroke="#2a6bff" stroke-width="6"/>
+
+  <!-- Red rectangles (highlight regions) -->
+  <rect x="392" y="404" width="260" height="170" fill="none" stroke="#ff2a2a" stroke-width="6"/>
+  <rect x="496" y="528" width="90" height="76" fill="none" stroke="#ff2a2a" stroke-width="6"/>
+</svg>

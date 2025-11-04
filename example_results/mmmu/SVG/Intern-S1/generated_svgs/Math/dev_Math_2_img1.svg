@@ -1,0 +1,32 @@
+<svg viewBox="-1.2 -0.5 2.4 6" xmlns="http://www.w3.org/2000/svg">
+  <line x1="-1" y1="0" x2="1" y2="0" stroke="black"/>
+  <line x1="0" y1="0" x2="0" y2="5" stroke="black"/>
+  <g font-size="0.1" text-anchor="middle">
+    <line x1="-1" y1="0" x2="-1" y2="-0.1" stroke="black"/>
+    <text x="-1" y="-0.15">-1</text>
+    <line x1="0" y1="0" x2="0" y2="-0.1" stroke="black"/>
+    <text x="0" y="-0.15">0</text>
+    <line x1="0.5" y1="0" x2="0.5" y2="-0.1" stroke="black"/>
+    <text x="0.5" y="-0.15">0.5</text>
+    <line x1="0.75" y1="0" x2="0.75" y2="-0.1" stroke="black"/>
+    <text x="0.75" y="-0.15">0.75</text>
+    <line x1="1" y1="0" x2="1" y2="-0.1" stroke="black"/>
+    <text x="1" y="-0.15">1</text>
+  </g>
+  <g font-size="0.1" text-anchor="end">
+    <line x1="0" y1="1" x2="-0.1" y2="1" stroke="black"/>
+    <text x="-0.15" y="1">1</text>
+    <line x1="0" y1="2" x2="-0.1" y2="2" stroke="black"/>
+    <text x="-0.15" y="2">2</text>
+    <line x1="0" y1="3" x2="-0.1" y2="3" stroke="black"/>
+    <text x="-0.15" y="3">3</text>
+    <line x1="0" y1="4" x2="-0.1" y2="4" stroke="black"/>
+    <text x="-0.15" y="4">4</text>
+    <line x1="0" y1="5" x2="-0.1" y2="5" stroke="black"/>
+    <text x="-0.15" y="5">5</text>
+  </g>
+  <path d="M -1 0 Q -0.5 4 0 3 Q 0.63 0.6 1 2" fill="none" stroke="black"/>
+  <text x="0.63" y="0.6" dx="0.1" dy="0" font-size="0.1">063</text>
+  <text x="0.5" y="-0.3" font-size="0.15" text-anchor="middle">f(x) = 8x³ - 2x² -7x +3</text>
+  <text x="1" y="-0.3" font-size="0.1" text-anchor="end">Fig.1</text>
+</svg>

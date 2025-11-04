@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <text x="50" y="30" font-family="serif" font-size="14">Allegro molto e con brio</text>
+  <g id="staff1">
+    <line x1="50" y1="50" x2="750" y2="50" stroke="black"/>
+    <line x1="50" y1="70" x2="750" y2="70" stroke="black"/>
+    <line x1="50" y1="90" x2="750" y2="90" stroke="black"/>
+    <line x1="50" y1="110" x2="750" y2="110" stroke="black"/>
+    <line x1="50" y1="130" x2="750" y2="130" stroke="black"/>
+    <text x="60" y="80" font-family="serif" font-size="20">𝄞</text>
+    <ellipse cx="100" cy="90" rx="5" ry="7"/>
+    <line x1="100" y1="90" x2="100" y2="120" stroke="black"/>
+    <text x="150" y="150" font-family="serif" font-size="12">f</text>
+    <text x="300" y="150" font-family="serif" font-size="12">p</text>
+  </g>
+  <g id="staff2">
+    <line x1="50" y1="200" x2="750" y2="200" stroke="black"/>
+    <line x1="50" y1="220" x2="750" y2="220" stroke="black"/>
+    <line x1="50" y1="240" x2="750" y2="240" stroke="black"/>
+    <line x1="50" y1="260" x2="750" y2="260" stroke="black"/>
+    <line x1="50" y1="280" x2="750" y2="280" stroke="black"/>
+    <text x="60" y="250" font-family="serif" font-size="20">𝄢</text>
+    <ellipse cx="100" cy="240" rx="5" ry="7"/>
+    <line x1="100" y1="240" x2="100" y2="210" stroke="black"/>
+    <text x="150" y="290" font-family="serif" font-size="12">p</text>
+  </g>
+  <g id="staff3">
+    <line x1="50" y1="350" x2="750" y2="350" stroke="black"/>
+    <line x1="50" y1="370" x2="750" y2="370" stroke="black"/>
+    <line x1="50" y1="390" x2="750" y2="390" stroke="black"/>
+    <line x1="50" y1="410" x2="750" y2="410" stroke="black"/>
+    <line x1="50" y1="430" x2="750" y2="430" stroke="black"/>
+    <text x="150" y="360" font-family="serif" font-size="12">rinforzando</text>
+    <text x="300" y="360" font-family="serif" font-size="12">pp</text>
+  </g>
+  <g id="staff4">
+    <line x1="50" y1="500" x2="750" y2="500" stroke="black"/>
+    <line x1="50" y1="520" x2="750" y2="520" stroke="black"/>
+    <line x1="50" y1="540" x2="750" y2="540" stroke="black"/>
+    <line x1="50" y1="560" x2="750" y2="560" stroke="black"/>
+    <line x1="50" y1="580" x2="750" y2="580" stroke="black"/>
+    <text x="250" y="500" font-family="serif" font-size="12">ff</text>
+    <text x="400" y="500" font-family="serif" font-size="12">f</text>
+  </g>
+  <g id="staff5">
+    <line x1="50" y1="650" x2="750" y2="650" stroke="black"/>
+    <line x1="50" y1="670" x2="750" y2="670" stroke="black"/>
+    <line x1="50" y1="690" x2="750" y2="690" stroke="black"/>
+    <line x1="50" y1="710" x2="750" y2="710" stroke="black"/>
+    <line x1="50" y1="730" x2="750" y2="730" stroke="black"/>
+    <text x="500" y="650" font-family="serif" font-size="12">ff</text>
+  </g>
+</svg>

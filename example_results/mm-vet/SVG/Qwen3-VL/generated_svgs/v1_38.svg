@@ -1,0 +1,110 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: 'Comic Sans MS', cursive; font-size: 24px; fill: #FF6B6B; }
+    .subtitle { font-family: 'Comic Sans MS', cursive; font-size: 20px; fill: #4ECDC4; }
+    .step { font-family: Arial, sans-serif; font-size: 16px; fill: #333; }
+    .star { fill: #FFD700; stroke: #333; stroke-width: 0.5; }
+    .brush { fill: #FF6B6B; stroke: #333; stroke-width: 1; }
+    .palette { fill: #FFD700; stroke: #333; stroke-width: 1; }
+    .paint { fill: #4ECDC4; stroke: #333; stroke-width: 0.5; }
+    .hair { fill: #8B4513; stroke: #333; stroke-width: 1; }
+    .skin { fill: #FFEBCD; stroke: #333; stroke-width: 1; }
+    .clothes { fill: #9370DB; stroke: #333; stroke-width: 1; }
+    .eyes { fill: #000; stroke: #333; stroke-width: 1; }
+    .lips { fill: #FF69B4; stroke: #333; stroke-width: 1; }
+    .necklace { fill: #C0C0C0; stroke: #333; stroke-width: 1; }
+    .earring { fill: #00FF00; stroke: #333; stroke-width: 1; }
+  </style>
+
+  <!-- Border with stars -->
+  <rect x="10" y="10" width="580" height="780" fill="none" stroke="#333" stroke-width="2"/>
+  <g>
+    <polygon points="10,10 15,5 20,10 17.5,15 12.5,15" class="star"/>
+    <polygon points="580,10 585,5 590,10 587.5,15 582.5,15" class="star"/>
+    <polygon points="10,790 15,795 20,790 17.5,785 12.5,785" class="star"/>
+    <polygon points="580,790 585,795 590,790 587.5,785 582.5,785" class="star"/>
+    <polygon points="300,5 305,0 310,5 307.5,10 302.5,10" class="star"/>
+    <polygon points="300,795 305,800 310,795 307.5,790 302.5,790" class="star"/>
+    <polygon points="5,400 10,395 15,400 12.5,405 7.5,405" class="star"/>
+    <polygon points="595,400 600,395 605,400 602.5,405 597.5,405" class="star"/>
+  </g>
+
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" class="title">Multi-Step Portrait:</text>
+  <text x="300" y="70" text-anchor="middle" class="subtitle">Temporal Directions</text>
+
+  <!-- Instructions -->
+  <text x="50" y="120" class="step">1. Before you draw ears, draw</text>
+  <text x="50" y="140" class="step">long curly hair.</text>
+
+  <text x="50" y="180" class="step">2. Draw pink lips after you draw</text>
+  <text x="50" y="200" class="step">brown eyes.</text>
+
+  <text x="50" y="240" class="step">3. Color the hair brown before</text>
+  <text x="50" y="260" class="step">you draw eyeshadow.</text>
+
+  <text x="300" y="300" class="step">4. Draw a nose after you</text>
+  <text x="300" y="320" class="step">draw earrings.</text>
+
+  <text x="300" y="360" class="step">5. Before you draw a silver</text>
+  <text x="300" y="380" class="step">necklace, color the</text>
+  <text x="300" y="400" class="step">eyelashes green.</text>
+
+  <!-- Cartoon characters -->
+  <!-- Boy with paintbrush -->
+  <circle cx="500" cy="150" r="20" class="skin"/>
+  <path d="M480,170 Q500,190 520,170" class="hair"/>
+  <rect x="490" y="190" width="20" height="30" class="clothes"/>
+  <rect x="490" y="220" width="20" height="10" class="clothes"/>
+  <line x1="490" y1="230" x2="480" y2="250" stroke="#333" stroke-width="2"/>
+  <line x1="510" y1="230" x2="520" y2="250" stroke="#333" stroke-width="2"/>
+  <!-- Paintbrush held by boy -->
+  <rect x="470" y="100" width="10" height="50" fill="#8B4513"/>
+  <polygon points="470,100 460,90 480,90" class="brush"/>
+
+  <!-- Girl with paintbrush -->
+  <circle cx="100" cy="450" r="20" class="skin"/>
+  <path d="M80,470 Q100,490 120,470" class="hair"/>
+  <rect x="90" y="490" width="20" height="30" class="clothes"/>
+  <rect x="90" y="520" width="20" height="10" class="clothes"/>
+  <line x1="90" y1="530" x2="80" y2="550" stroke="#333" stroke-width="2"/>
+  <line x1="110" y1="530" x2="120" y2="550" stroke="#333" stroke-width="2"/>
+  <!-- Paintbrush held by girl -->
+  <rect x="60" y="400" width="10" height="50" fill="#8B4513"/>
+  <polygon points="60,400 50,390 70,390" class="brush"/>
+
+  <!-- Palette and brush -->
+  <ellipse cx="450" cy="600" rx="60" ry="40" class="palette"/>
+  <circle cx="430" cy="580" r="8" class="paint"/>
+  <circle cx="450" cy="580" r="8" class="paint"/>
+  <circle cx="470" cy="580" r="8" class="paint"/>
+  <circle cx="430" cy="600" r="8" class="paint"/>
+  <circle cx="450" cy="600" r="8" class="paint"/>
+  <circle cx="470" cy="600" r="8" class="paint"/>
+  <circle cx="430" cy="620" r="8" class="paint"/>
+  <circle cx="450" cy="620" r="8" class="paint"/>
+  <circle cx="470" cy="620" r="8" class="paint"/>
+  <!-- Brush next to palette -->
+  <rect x="500" y="570" width="10" height="50" fill="#8B4513"/>
+  <polygon points="500,570 490,560 510,560" class="brush"/>
+
+  <!-- Eyes for demonstration -->
+  <circle cx="490" cy="155" r="3" class="eyes"/>
+  <circle cx="510" cy="155" r="3" class="eyes"/>
+  <circle cx="90" cy="455" r="3" class="eyes"/>
+  <circle cx="110" cy="455" r="3" class="eyes"/>
+
+  <!-- Lips for demonstration -->
+  <path d="M495,165 Q500,170 505,165" class="lips"/>
+  <path d="M95,465 Q100,470 105,465" class="lips"/>
+
+  <!-- Necklace for demonstration -->
+  <ellipse cx="500" cy="200" rx="5" ry="3" class="necklace"/>
+  <ellipse cx="100" cy="500" rx="5" ry="3" class="necklace"/>
+
+  <!-- Earrings for demonstration -->
+  <circle cx="485" cy="170" r="2" class="earring"/>
+  <circle cx="515" cy="170" r="2" class="earring"/>
+  <circle cx="85" cy="470" r="2" class="earring"/>
+  <circle cx="115" cy="470" r="2" class="earring"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="black"/>
+    </marker>
+  </defs>
+  <circle cx="200" cy="200" r="50" fill="none" stroke="black"/>
+  <text x="200" y="80" text-anchor="middle" dominant-baseline="middle">THREAT OF NEW ENTRANTS</text>
+  <text x="320" y="200" text-anchor="middle" dominant-baseline="middle">BARGAINING POWER OF BUYERS</text>
+  <text x="200" y="320" text-anchor="middle" dominant-baseline="middle">THREAT OF SUBSTITUTE PRODUCTS OR SERVICES</text>
+  <text x="80" y="200" text-anchor="middle" dominant-baseline="middle">BARGAINING POWER OF SUPPLIERS</text>
+  <line x1="200" y1="80" x2="200" y2="150" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="320" y1="200" x2="250" y2="200" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="200" y1="320" x2="200" y2="250" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="80" y1="200" x2="150" y2="200" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="200" y1="80" x2="320" y2="200" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="320" y1="200" x2="200" y2="320" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="200" y1="320" x2="80" y2="200" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="80" y1="200" x2="200" y2="80" stroke="black" marker-end="url(#arrow)"/>
+</svg>

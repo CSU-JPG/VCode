@@ -1,0 +1,113 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background watermark -->
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="48" fill="#d0d0d0" text-anchor="middle" dominant-baseline="middle" opacity="0.3">CREATED BY STEMIC</text>
+  
+  <!-- Large central words -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#5a8ab5" text-anchor="middle">political</text>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#5a8ab5" text-anchor="middle">sociology</text>
+  
+  <!-- Top row of smaller words -->
+  <text x="320" y="50" font-family="Arial, sans-serif" font-size="28" fill="#8ba8c4" text-anchor="middle">organising</text>
+  <text x="450" y="65" font-family="Arial, sans-serif" font-size="32" fill="#8ba8c4" text-anchor="middle">society</text>
+  <text x="560" y="50" font-family="Arial, sans-serif" font-size="24" fill="#a8c4d8" text-anchor="middle">theoretical</text>
+  <text x="650" y="60" font-family="Arial, sans-serif" font-size="28" fill="#8ba8c4" text-anchor="middle">groups</text>
+  
+  <!-- Second row -->
+  <text x="180" y="100" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">domination</text>
+  <text x="350" y="110" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">dynamics</text>
+  <text x="450" y="100" font-family="Arial, sans-serif" font-size="26" fill="#8ba8c4" text-anchor="middle">analytic</text>
+  <text x="570" y="105" font-family="Arial, sans-serif" font-size="22" fill="#a8c4d8" text-anchor="middle">capitalist</text>
+  <text x="670" y="100" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">complexity</text>
+  
+  <!-- Third row -->
+  <text x="140" y="145" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">citizens</text>
+  <text x="250" y="150" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">stateinfo</text>
+  <text x="370" y="155" font-family="Arial, sans-serif" font-size="36" fill="#6a93b8" text-anchor="middle">difference</text>
+  <text x="520" y="145" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">arise</text>
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="26" fill="#8ba8c4" text-anchor="middle">restricted</text>
+  <text x="700" y="145" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">contest</text>
+  
+  <!-- Fourth row around "political" -->
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">globalization</text>
+  <text x="200" y="195" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">faceless</text>
+  <text x="280" y="190" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">reality</text>
+  <text x="600" y="175" font-family="Arial, sans-serif" font-size="26" fill="#8ba8c4" text-anchor="middle">cultural</text>
+  <text x="700" y="180" font-family="Arial, sans-serif" font-size="22" fill="#a8c4d8" text-anchor="middle">question</text>
+  
+  <!-- Fifth row -->
+  <text x="680" y="215" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">politics</text>
+  <text x="720" y="245" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">relations</text>
+  
+  <!-- Around "political" -->
+  <text x="60" y="240" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">rethinking</text>
+  <text x="130" y="235" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">organizational</text>
+  <text x="700" y="280" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">class</text>
+  <text x="730" y="310" font-family="Arial, sans-serif" font-size="28" fill="#8ba8c4" text-anchor="middle">research</text>
+  
+  <!-- Around middle -->
+  <text x="580" y="180" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#6a93b8" text-anchor="middle">knowledge</text>
+  <text x="700" y="195" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">sees</text>
+  <text x="720" y="330" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">macro</text>
+  <text x="750" y="360" font-family="Arial, sans-serif" font-size="22" fill="#a8c4d8" text-anchor="middle">exploring</text>
+  
+  <!-- Below sociology -->
+  <text x="350" y="430" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">vote</text>
+  <text x="420" y="435" font-family="Arial, sans-serif" font-size="26" fill="#8ba8c4" text-anchor="middle">social</text>
+  <text x="500" y="430" font-family="Arial, sans-serif" font-size="28" fill="#8ba8c4" text-anchor="middle">formal</text>
+  <text x="590" y="435" font-family="Arial, sans-serif" font-size="22" fill="#a8c4d8" text-anchor="middle">formation</text>
+  <text x="690" y="425" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">pragmatism</text>
+  <text x="720" y="455" font-family="Arial, sans-serif" font-size="22" fill="#a8c4d8" text-anchor="middle">concentrating</text>
+  
+  <!-- Left side bottom -->
+  <text x="30" y="440" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="start">political</text>
+  <text x="200" y="480" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">ethnicity</text>
+  <text x="300" y="485" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">framework</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">radical</text>
+  <text x="700" y="480" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">networks</text>
+  <text x="750" y="500" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">acy</text>
+  
+  <!-- Bottom section -->
+  <text x="140" y="510" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">psychology</text>
+  <text x="250" y="515" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">power</text>
+  <text x="340" y="510" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">sociologists</text>
+  <text x="450" y="515" font-family="Arial, sans-serif" font-size="26" fill="#8ba8c4" text-anchor="middle">gender</text>
+  <text x="550" y="510" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">structure</text>
+  <text x="660" y="515" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">capture</text>
+  <text x="730" y="530" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">bureaucracy</text>
+  
+  <text x="120" y="540" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">approach</text>
+  <text x="220" y="545" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">inequality</text>
+  <text x="320" y="540" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">analysis</text>
+  <text x="420" y="545" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">essence</text>
+  <text x="510" y="540" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">weakening</text>
+  <text x="620" y="545" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">couraging</text>
+  <text x="720" y="555" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">democracy</text>
+  
+  <!-- Bottom row -->
+  <text x="80" y="570" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">%</text>
+  <text x="130" y="570" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">trends</text>
+  <text x="210" y="575" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">emphasizes</text>
+  <text x="310" y="570" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">constraints</text>
+  <text x="410" y="575" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">managers</text>
+  <text x="520" y="570" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#6a93b8" text-anchor="middle">influences</text>
+  <text x="650" y="575" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">lops</text>
+  <text x="720" y="580" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">affect</text>
+  
+  <!-- Very bottom -->
+  <text x="160" y="540" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">elected</text>
+  <text x="220" y="490" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">representative</text>
+  <text x="340" y="545" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">operate</text>
+  <text x="420" y="550" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">society</text>
+  <text x="520" y="555" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">managerial</text>
+  <text x="620" y="550" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">concerned</text>
+  <text x="700" y="545" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">pluralism</text>
+  
+  <text x="250" y="525" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">personalities</text>
+  <text x="360" y="530" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">theory</text>
+  <text x="460" y="535" font-family="Arial, sans-serif" font-size="24" fill="#8ba8c4" text-anchor="middle">workplaces</text>
+  <text x="580" y="530" font-family="Arial, sans-serif" font-size="20" fill="#a8c4d8" text-anchor="middle">competing</text>
+  <text x="670" y="535" font-family="Arial, sans-serif" font-size="18" fill="#b8c8d8" text-anchor="middle">more</text>
+  
+  <text x="380" y="560" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#6a93b8" text-anchor="middle">elites</text>
+  <text x="440" y="565" font-family="Arial, sans-serif" font-size="22" fill="#8ba8c4" text-anchor="middle">split</text>
+</svg>

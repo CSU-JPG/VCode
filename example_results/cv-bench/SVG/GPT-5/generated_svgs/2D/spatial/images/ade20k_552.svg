@@ -1,0 +1,152 @@
+<svg viewBox="0 0 270 270" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#63a3ff"/>
+      <stop offset="60%" stop-color="#8fb9ff"/>
+      <stop offset="100%" stop-color="#c7dcff"/>
+    </linearGradient>
+
+    <linearGradient id="rightWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f3f7"/>
+      <stop offset="100%" stop-color="#d9dee6"/>
+    </linearGradient>
+
+    <linearGradient id="leftWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#142940"/>
+      <stop offset="100%" stop-color="#0c1a2a"/>
+    </linearGradient>
+
+    <linearGradient id="treeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f8f3f"/>
+      <stop offset="100%" stop-color="#1e6b2d"/>
+    </linearGradient>
+
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+    <filter id="softSmall" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+
+    <pattern id="winLight" patternUnits="userSpaceOnUse" width="6" height="8">
+      <rect width="6" height="8" fill="none"/>
+      <rect x="1" y="1.2" width="4" height="5.2" rx="0.4" fill="#9aa6b2"/>
+    </pattern>
+
+    <pattern id="midWin" patternUnits="userSpaceOnUse" width="5" height="7">
+      <rect width="5" height="7" fill="none"/>
+      <rect x="1" y="1" width="3" height="5" rx="0.4" fill="#6f7c8c"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="270" height="270" fill="url(#skyGrad)"/>
+
+  <!-- soft clouds -->
+  <g opacity="0.55" filter="url(#soft)">
+    <ellipse cx="86" cy="70" rx="40" ry="18" fill="#ffffff"/>
+    <ellipse cx="170" cy="62" rx="44" ry="16" fill="#ffffff"/>
+  </g>
+
+  <!-- Left dark tower -->
+  <g transform="translate(24,60)">
+    <rect x="0" y="4" width="88" height="182" fill="url(#leftWall)"/>
+    <!-- stepped inset lines to mimic facade -->
+    <g fill="none" stroke="#243a57" opacity="0.9">
+      <rect x="6" y="10" width="76" height="170" stroke-width="2"/>
+      <rect x="12" y="16" width="64" height="158" stroke-width="2"/>
+      <rect x="18" y="22" width="52" height="146" stroke-width="2"/>
+      <rect x="24" y="28" width="40" height="134" stroke-width="2"/>
+      <rect x="30" y="34" width="28" height="122" stroke-width="2"/>
+      <rect x="36" y="40" width="16" height="110" stroke-width="2"/>
+    </g>
+    <!-- faint vertical window grooves -->
+    <g stroke="#1e3048" opacity="0.6">
+      <line x1="14" y1="12" x2="14" y2="180"/>
+      <line x1="24" y1="12" x2="24" y2="180"/>
+      <line x1="34" y1="12" x2="34" y2="180"/>
+      <line x1="44" y1="12" x2="44" y2="180"/>
+      <line x1="54" y1="12" x2="54" y2="180"/>
+      <line x1="64" y1="12" x2="64" y2="180"/>
+      <line x1="74" y1="12" x2="74" y2="180"/>
+    </g>
+    <!-- roof box -->
+    <rect x="64" y="-6" width="18" height="8" fill="#6d7a8b" opacity="0.8" rx="1"/>
+  </g>
+
+  <!-- Mid block between towers -->
+  <g transform="translate(112,126)">
+    <rect x="0" y="10" width="34" height="72" fill="#bfc7d3"/>
+    <rect x="2" y="12" width="30" height="68" fill="url(#midWin)"/>
+    <rect x="9" y="2" width="16" height="12" fill="#bfc7d3" rx="1"/>
+    <rect x="11" y="4" width="12" height="8" fill="#6f7c8c" rx="1"/>
+  </g>
+
+  <!-- Right light tower base -->
+  <g transform="translate(150,56)">
+    <rect x="0" y="32" width="74" height="156" fill="url(#rightWall)" stroke="#cfd6df"/>
+    <!-- windows grid -->
+    <rect x="6" y="38" width="62" height="134" fill="url(#winLight)" opacity="0.85"/>
+    <!-- vertical corner accents -->
+    <rect x="0" y="32" width="6" height="156" fill="#e8edf4"/>
+    <rect x="68" y="32" width="6" height="156" fill="#e8edf4"/>
+    <!-- cornice -->
+    <rect x="0" y="26" width="74" height="8" fill="#dfe5ec" stroke="#cfd6df"/>
+    <rect x="3" y="22" width="68" height="4" fill="#eef2f7"/>
+    <!-- signage -->
+    <text x="6" y="92" font-family="sans-serif" font-size="6.2" letter-spacing="0.8" fill="#ffffff" paint-order="stroke" stroke="#8090a0" stroke-width="0.4">
+      MICHIGAN AVENUE
+    </text>
+    <text x="16" y="100" font-family="sans-serif" font-size="6.2" letter-spacing="0.8" fill="#ffffff" paint-order="stroke" stroke="#8090a0" stroke-width="0.4">
+      NATIONAL BANK
+    </text>
+
+    <!-- tower -->
+    <g transform="translate(18,-28)">
+      <rect x="0" y="0" width="38" height="56" fill="#e9eef5" stroke="#cfd6df"/>
+      <!-- narrow windows on tower -->
+      <g fill="#9aa6b2">
+        <rect x="6" y="6" width="4" height="10" rx="0.6"/>
+        <rect x="14" y="6" width="4" height="10" rx="0.6"/>
+        <rect x="22" y="6" width="4" height="10" rx="0.6"/>
+        <rect x="30" y="6" width="4" height="10" rx="0.6"/>
+        <rect x="6" y="22" width="4" height="10" rx="0.6"/>
+        <rect x="14" y="22" width="4" height="10" rx="0.6"/>
+        <rect x="22" y="22" width="4" height="10" rx="0.6"/>
+        <rect x="30" y="22" width="4" height="10" rx="0.6"/>
+        <rect x="6" y="38" width="4" height="10" rx="0.6"/>
+        <rect x="14" y="38" width="4" height="10" rx="0.6"/>
+        <rect x="22" y="38" width="4" height="10" rx="0.6"/>
+        <rect x="30" y="38" width="4" height="10" rx="0.6"/>
+      </g>
+      <!-- clock circle -->
+      <circle cx="19" cy="30" r="6.5" fill="#dfe6ee" stroke="#b9c6d3"/>
+      <circle cx="19" cy="30" r="4.2" fill="#ffffff" stroke="#b9c6d3"/>
+      <rect x="18.6" y="25.2" width="0.8" height="4.6" fill="#8b9aab"/>
+      <rect x="19.0" y="29.6" width="3.8" height="0.8" fill="#8b9aab"/>
+      <!-- green roof -->
+      <polygon points="0,-6 38,-6 33,-12 5,-12" fill="#6aa070" stroke="#507e5d"/>
+    </g>
+  </g>
+
+  <!-- Foreground trees -->
+  <g transform="translate(0,208)">
+    <rect x="0" y="30" width="270" height="40" fill="#2e8840"/>
+    <g>
+      <path d="M8,40 q12,-26 24,0 t24,0 t24,0 t24,0 t24,0 t24,0 t24,0 t24,0 t24,0" fill="url(#treeGrad)"/>
+      <g opacity="0.55" filter="url(#softSmall)">
+        <circle cx="40" cy="26" r="10" fill="#2e8f3f"/>
+        <circle cx="66" cy="24" r="11" fill="#2e8f3f"/>
+        <circle cx="98" cy="25" r="12" fill="#2e8f3f"/>
+        <circle cx="134" cy="24" r="12" fill="#2e8f3f"/>
+        <circle cx="168" cy="26" r="12" fill="#2e8f3f"/>
+        <circle cx="202" cy="25" r="12" fill="#2e8f3f"/>
+        <circle cx="236" cy="24" r="12" fill="#2e8f3f"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Subtle vignette -->
+  <rect x="0" y="0" width="270" height="270" fill="none" stroke="#000000" stroke-opacity="0.06"/>
+</svg>

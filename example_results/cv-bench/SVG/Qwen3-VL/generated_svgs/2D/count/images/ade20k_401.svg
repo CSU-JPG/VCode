@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#f5f5f5"/>
+  
+  <!-- Ceiling and structural elements -->
+  <rect x="0" y="0" width="1000" height="100" fill="#e8e8e8"/>
+  <rect x="0" y="100" width="1000" height="20" fill="#4a6b5c"/>
+  <rect x="0" y="130" width="1000" height="10" fill="#3a5a4a"/>
+  
+  <!-- Windows on back wall -->
+  <rect x="620" y="270" width="30" height="30" fill="#fff" stroke="#333"/>
+  <rect x="750" y="270" width="30" height="30" fill="#fff" stroke="#333"/>
+  <rect x="870" y="270" width="30" height="30" fill="#fff" stroke="#333"/>
+  
+  <!-- Floor area -->
+  <rect x="0" y="450" width="1000" height="250" fill="#d0d0d0"/>
+  
+  <!-- Seating areas -->
+  <!-- Left side seating -->
+  <rect x="50" y="550" width="100" height="80" rx="15" ry="15" fill="#5a3a5a"/>
+  <rect x="140" y="580" width="100" height="80" rx="15" ry="15" fill="#5a3a5a"/>
+  <rect x="350" y="530" width="100" height="80" rx="15" ry="15" fill="#5a3a5a"/>
+  <rect x="440" y="560" width="100" height="80" rx="15" ry="15" fill="#5a3a5a"/>
+  
+  <!-- Right side seating -->
+  <rect x="400" y="600" width="120" height="90" rx="15" ry="15" fill="#5a3a5a"/>
+  <rect x="550" y="620" width="120" height="90" rx="15" ry="15" fill="#5a3a5a"/>
+  <rect x="750" y="600" width="120" height="90" rx="15" ry="15" fill="#5a3a5a"/>
+  <rect x="880" y="580" width="120" height="90" rx="15" ry="15" fill="#5a3a5a"/>
+  
+  <!-- Tables -->
+  <rect x="480" y="570" width="120" height="80" fill="#c0a070"/>
+  <rect x="500" y="500" width="100" height="70" fill="#c0a070"/>
+  <rect x="470" y="520" width="80" height="60" fill="#c0a070"/>
+  <rect x="580" y="540" width="80" height="60" fill="#c0a070"/>
+  <rect x="680" y="570" width="100" height="70" fill="#c0a070"/>
+  
+  <!-- Chairs around tables -->
+  <rect x="450" y="550" width="40" height="50" fill="#806040"/>
+  <rect x="520" y="550" width="40" height="50" fill="#806040"/>
+  <rect x="470" y="580" width="40" height="50" fill="#806040"/>
+  <rect x="520" y="580" width="40" height="50" fill="#806040"/>
+  <rect x="600" y="520" width="40" height="50" fill="#806040"/>
+  <rect x="640" y="520" width="40" height="50" fill="#806040"/>
+  <rect x="680" y="550" width="40" height="50" fill="#806040"/>
+  <rect x="720" y="550" width="40" height="50" fill="#806040"/>
+  
+  <!-- People (simplified representation) -->
+  <circle cx="150" cy="540" r="20" fill="#333"/>
+  <circle cx="280" cy="560" r="20" fill="#333"/>
+  <circle cx="540" cy="480" r="20" fill="#333"/>
+  <circle cx="560" cy="480" r="20" fill="#333"/>
+  <circle cx="660" cy="490" r="20" fill="#333"/>
+  <circle cx="700" cy="490" r="20" fill="#333"/>
+  <circle cx="860" cy="640" r="20" fill="#333"/>
+  <circle cx="600" y="650" r="20" fill="#333"/>
+  
+  <!-- Railing/balcony structure -->
+  <rect x="0" y="550" width="1000" height="20" fill="#c0a070"/>
+  <rect x="0" y="570" width="1000" height="10" fill="#806040"/>
+  <rect x="0" y="580" width="1000" height="10" fill="#c0a070"/>
+  
+  <!-- Background wall with posters -->
+  <rect x="50" y="200" width="300" height="100" fill="#e0e0e0"/>
+  <rect x="350" y="200" width="80" height="100" fill="#d0d0d0"/>
+  <rect x="450" y="200" width="80" height="100" fill="#d0d0d0"/>
+  
+  <!-- Plant decoration -->
+  <ellipse cx="480" cy="260" rx="30" ry="40" fill="#3a7a3a"/>
+  <ellipse cx="470" cy="240" rx="25" ry="35" fill="#3a7a3a"/>
+  <ellipse cx="490" cy="240" rx="25" ry="35" fill="#3a7a3a"/>
+  
+  <!-- Lighting fixtures -->
+  <circle cx="550" cy="50" r="15" fill="#fff"/>
+  <circle cx="850" cy="100" r="5" fill="#fff"/>
+  <circle cx="900" cy="100" r="5" fill="#fff"/>
+  <circle cx="950" cy="100" r="5" fill="#fff"/>
+</svg>

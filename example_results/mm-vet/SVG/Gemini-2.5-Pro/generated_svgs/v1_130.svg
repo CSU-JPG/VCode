@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky-and-foliage" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#a8d5e5" />
+      <stop offset="15%" stop-color="#bce2d7" />
+      <stop offset="25%" stop-color="#9dc8a7" />
+    </linearGradient>
+    <filter id="water-texture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02 0.05" numOctaves="3" seed="10" stitchTiles="stitch"/>
+      <feDisplacementMap in="SourceGraphic" scale="5"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="800" fill="url(#sky-and-foliage)" />
+
+  <!-- Background Foliage -->
+  <path d="M0 250 C150 200, 300 280, 450 250 C600 220, 750 300, 900 260 C1050 220, 1200 280, 1200 280 V 550 H 0 Z" fill="#2E6B40"/>
+  <path d="M0 350 C100 320, 250 380, 400 340 C550 300, 700 390, 850 360 C1000 330, 1100 380, 1200 350 V 550 H 0 Z" fill="#4B8B5B" opacity="0.8"/>
+  <path d="M0 400 C200 380, 350 430, 500 400 C650 370, 800 450, 950 410 C1100 370, 1200 420, 1200 420 V 550 H 0 Z" fill="#154725" opacity="0.7"/>
+
+  <!-- Water -->
+  <path d="M0 540 C 300 550, 600 530, 900 555, 1200 560, 1200 560 V 620 H0Z" fill="#8A9A8D" />
+  <path d="M0 540 C 300 550, 600 530, 900 555, 1200 560, 1200 560 V 620 H0Z" fill="#B3C0B7" opacity="0.3" filter="url(#water-texture)"/>
+
+  <!-- Near Bank -->
+  <path d="M0 600 C 200 610, 500 590, 800 620, 1200 640, 1200 640 V 800 H0Z" fill="#D3C0A4"/>
+  <path d="M0 620 C 150 630, 400 615, 750 640, 1100 655, 1200 650, 1200 650 V 800 H0Z" fill="#BFA98E" opacity="0.6"/>
+
+  <!-- Flags -->
+  <g>
+    <rect x="940" y="380" width="5" height="260" fill="#D3D3D3"/>
+    <rect x="1020" y="380" width="5" height="260" fill="#D3D3D3"/>
+    <g transform="translate(945, 385)">
+      <path d="M0 0 L70 10 L70 50 L0 40 Z" fill="#CF142B"/>
+      <path d="M0 8 L70 16 L70 22 L0 14 Z" fill="#FFFFFF"/>
+      <path d="M0 32 L70 42 L70 38 L0 28 Z" fill="#FFFFFF"/>
+      <path d="M0 15 L70 23 L70 37 L0 27 Z" fill="#00247D"/>
+    </g>
+    <g transform="translate(1025, 385)">
+      <path d="M0 0 L60 5 L60 45 L0 40 Z" fill="#FFD700"/>
+    </g>
+  </g>
+
+  <!-- Trees -->
+  <g>
+    <!-- Left Tree -->
+    <path d="M120 200 V 630" stroke="#5C4033" stroke-width="20" />
+    <path d="M140 250 V 625" stroke="#4A3328" stroke-width="15" />
+    <ellipse cx="130" cy="200" rx="150" ry="100" fill="#6B8E23" opacity="0.8"/>
+    <ellipse cx="140" cy="180" rx="120" ry="80" fill="#556B2F" opacity="0.9"/>
+    <!-- Right Tree -->
+    <path d="M850 160 C 840 250, 860 350, 855 450" stroke="#A98C78" stroke-width="12" fill="none"/>
+    <path d="M855 250 C 880 240, 910 260, 900 280" stroke="#A98C78" stroke-width="6" fill="none"/>
+    <path d="M845 320 C 820 310, 790 330, 800 350" stroke="#A98C78" stroke-width="5" fill="none"/>
+    <ellipse cx="850" cy="160" rx="100" ry="60" fill="#F0E68C" opacity="0.7"/>
+    <ellipse cx="860" cy="150" rx="80" ry="50" fill="#DAA520" opacity="0.6"/>
+  </g>
+
+  <!-- Elephant -->
+  <g>
+    <!-- Main Body and Legs -->
+    <path fill="#605F6C" d="M840,790 C830,750 820,700 825,650 L840,550 C845,490 840,430 810,390 C780,350 730,350 680,380 C630,410 580,420 500,420 C400,420 310,390 260,370 C210,350 210,400 220,450 C230,500 220,600 230,680 L250,790 H380 L400,680 L420,790 H550 L570,670 L590,790 H700 L715,690 L730,790 H840Z"/>
+    <!-- Head and Trunk -->
+    <path fill="#727180" d="M260,370 C220,360 180,380 160,420 C140,460 160,510 180,520 L280,480 C320,440 310,390 260,370Z"/>
+    <path fill="#605F6C" d="M160,420 C150,450 140,500 150,550 C160,600 180,650 200,700 C210,740 200,780 200,780 C215,775 220,730 210,690 C200,640 180,590 170,540 C160,490 170,440 160,420Z"/>
+    <!-- Ear -->
+    <path fill="#504F5C" d="M280,480 C260,530 300,560 330,530 C360,500 340,460 280,480Z"/>
+    <!-- Eye -->
+    <ellipse cx="235" cy="460" rx="8" ry="5" fill="#202020"/>
+    <ellipse cx="236" cy="459" rx="2" ry="1" fill="#FFFFFF"/>
+    <!-- Tusks (small) -->
+    <!-- <path d="M190 525 q 10 15 25 10" fill="#F5F5DC" /> -->
+    <!-- Tail -->
+    <path d="M825,550 C 850,600 850,680 835,730" stroke="#605F6C" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M835,730 C 830,740 840,750 835,760 C 830,770 845,775 835,785" stroke="#3A3942" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- Saddle &amp;amp;amp; Harness -->
+    <path d="M340,520 C 450,480, 550,510, 650,540" stroke="#D9A692" stroke-width="30" fill="none" />
+    <path d="M600,380 L620,360 L680,365 L660,385 Z" fill="#8C5E4A" />
+    <path d="M580,380 C 620,360 680,365 720,390 L710,430 C670,405 610,400 570,420 Z" fill="#522629"/>
+    <path d="M570,420 C575,425 580,430 575,435 C570,440 575,445 570,450" stroke="#82443E" stroke-width="4" fill="none"/>
+    <path d="M710,430 C715,435 720,440 715,445 C710,450 715,455 710,460" stroke="#82443E" stroke-width="4" fill="none"/>
+    <path d="M600,380 Q 640,480 660,540" stroke="#A0522D" stroke-width="8" fill="none"/>
+  </g>
+
+  <!-- Rider -->
+  <g>
+    <!-- Body -->
+    <path fill="#5472AB" d="M520,320 C480,320 450,340 450,380 C450,420 480,450 540,460 C600,470 650,440 660,400 C670,360 630,320 580,320 C560,320 540,320 520,320Z" />
+    <path fill="#344F85" d="M530,455 C480,450 455,420 455,380 L470,380 C470,410 490,440 535,445Z"/>
+    <!-- Arms -->
+    <path d="M480,380 C460,390 460,410 480,420" stroke="#5472AB" stroke-width="25" fill="none" stroke-linecap="round"/>
+    <path d="M620,380 C640,390 640,410 620,420" stroke="#5472AB" stroke-width="25" fill="none" stroke-linecap="round"/>
+    <!-- Hands -->
+    <ellipse cx="480" cy="420" rx="15" ry="10" fill="#C49577"/>
+    <ellipse cx="620" cy="420" rx="15" ry="10" fill="#C49577"/>
+    <!-- Head and Hat -->
+    <ellipse cx="550" cy="335" rx="35" ry="40" fill="#C49577"/>
+    <path d="M550,280 C500,280 500,320 550,320 C600,320 600,280 550,280Z" fill="#D4C2A6"/>
+    <path d="M550,285 C510,285 510,315 550,315 C590,315 590,285 550,285Z" fill="none" stroke="#B9A589" stroke-width="3" stroke-dasharray="5 5"/>
+    <path d="M520,300 C550,295 580,300 580,300" fill="none" stroke="#A0522D" stroke-width="3" />
+    <!-- Face details -->
+    <ellipse cx="540" cy="330" rx="2" ry="1" fill="#000"/>
+    <ellipse cx="560" cy="330" rx="2" ry="1" fill="#000"/>
+    <path d="M545 345 q 5 5 10 0" stroke="#000" stroke-width="1" fill="none" />
+  </g>
+
+  <!-- Foreground Chain -->
+  <path d="M250,550 C450,530, 650,560, 850,590 C1050,620, 1200,580, 1200,580" fill="none" stroke="#404040" stroke-width="3" stroke-dasharray="10 5" opacity="0.7"/>
+
+</svg>

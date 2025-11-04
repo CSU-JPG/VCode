@@ -1,0 +1,8 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#808080"/>
+  <rect x="50" y="150" width="900" height="600" fill="#A0A0A0" rx="10"/>
+  <text x="500" y="140" font-family="Arial" font-size="60" text-anchor="middle" fill="white">This Sale</text>
+  <text x="500" y="840" font-family="Arial" font-size="60" text-anchor="middle" fill="white">Gallons</text>
+  <text x="500" y="350" font-family="Digital-7" font-size="250" text-anchor="middle" fill="black">62.85</text>
+  <text x="500" y="600" font-family="Digital-7" font-size="250" text-anchor="middle" fill="black">14.620</text>
+</svg>

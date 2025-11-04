@@ -1,0 +1,34 @@
+<svg viewBox="0 0 200 350" xmlns="http://www.w3.org/2000/svg">
+  <line x1="100" y1="20" x2="100" y2="70" stroke="black"/>
+  <line x1="100" y1="70" x2="100" y2="120" stroke="black"/>
+  <line x1="100" y1="120" x2="100" y2="170" stroke="black"/>
+  <line x1="100" y1="170" x2="100" y2="220" stroke="black"/>
+  <line x1="100" y1="220" x2="100" y2="270" stroke="black"/>
+  <line x1="100" y1="270" x2="100" y2="320" stroke="black"/>
+  <line x1="100" y1="20" x2="80" y2="20" stroke="black"/>
+  <line x1="100" y1="20" x2="120" y2="20" stroke="black"/>
+  <line x1="100" y1="22" x2="120" y2="22" stroke="black"/>
+  <line x1="100" y1="70" x2="80" y2="70" stroke="black"/>
+  <line x1="100" y1="70" x2="120" y2="70" stroke="black"/>
+  <line x1="100" y1="120" x2="80" y2="120" stroke="black"/>
+  <line x1="100" y1="120" x2="120" y2="120" stroke="black"/>
+  <line x1="100" y1="170" x2="80" y2="170" stroke="black"/>
+  <line x1="100" y1="170" x2="120" y2="170" stroke="black"/>
+  <line x1="100" y1="220" x2="80" y2="220" stroke="black"/>
+  <line x1="100" y1="220" x2="120" y2="220" stroke="black"/>
+  <line x1="100" y1="270" x2="80" y2="270" stroke="black"/>
+  <line x1="100" y1="270" x2="120" y2="270" stroke="black"/>
+  <text x="75" y="20" text-anchor="end">H</text>
+  <text x="125" y="20" text-anchor="start">O</text>
+  <text x="75" y="70" text-anchor="end">H</text>
+  <text x="125" y="70" text-anchor="start">OH</text>
+  <text x="75" y="120" text-anchor="end">OH</text>
+  <text x="125" y="120" text-anchor="start">H</text>
+  <text x="75" y="170" text-anchor="end">H</text>
+  <text x="125" y="170" text-anchor="start">OH</text>
+  <text x="75" y="220" text-anchor="end">H</text>
+  <text x="125" y="220" text-anchor="start">OH</text>
+  <text x="75" y="270" text-anchor="end">H</text>
+  <text x="125" y="270" text-anchor="start">OH</text>
+  <text x="100" y="330" text-anchor="middle">H</text>
+</svg>

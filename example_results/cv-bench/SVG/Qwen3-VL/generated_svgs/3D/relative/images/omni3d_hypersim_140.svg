@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+  
+  <!-- Brick walls -->
+  <rect x="0" y="0" width="1200" height="600" fill="#d4b895"/>
+  <rect x="0" y="0" width="1200" height="100" fill="#f5f5f5"/>
+  
+  <!-- Stairs -->
+  <path d="M200 100 L300 0 L350 50 L250 150 L200 100 Z" fill="#333"/>
+  <path d="M250 150 L350 50 L400 100 L300 200 L250 150 Z" fill="#333"/>
+  <path d="M300 200 L400 100 L450 150 L350 250 L300 200 Z" fill="#333"/>
+  <path d="M350 250 L450 150 L500 200 L400 300 L350 250 Z" fill="#333"/>
+  <path d="M400 300 L500 200 L550 250 L450 350 L400 300 Z" fill="#333"/>
+  <path d="M450 350 L550 250 L600 300 L500 400 L450 350 Z" fill="#333"/>
+  <path d="M500 400 L600 300 L650 350 L550 450 L500 400 Z" fill="#333"/>
+  <path d="M550 450 L650 350 L700 400 L600 500 L550 450 Z" fill="#333"/>
+  
+  <!-- Windows -->
+  <rect x="0" y="150" width="50" height="100" fill="#333"/>
+  <rect x="0" y="270" width="50" height="100" fill="#333"/>
+  <rect x="200" y="200" width="50" height="100" fill="#333"/>
+  <rect x="200" y="320" width="50" height="100" fill="#333"/>
+  <rect x="400" y="250" width="50" height="100" fill="#333"/>
+  <rect x="400" y="370" width="50" height="100" fill="#333"/>
+  <rect x="600" y="300" width="50" height="100" fill="#333"/>
+  <rect x="600" y="420" width="50" height="100" fill="#333"/>
+  
+  <!-- Sofa -->
+  <rect x="0" y="550" width="300" height="200" rx="20" ry="20" fill="#c0c0c0"/>
+  <rect x="50" y="570" width="60" height="40" rx="10" ry="10" fill="#d0d0d0"/>
+  <rect x="120" y="570" width="60" height="40" rx="10" ry="10" fill="#d0d0d0"/>
+  <rect x="190" y="570" width="60" height="40" rx="10" ry="10" fill="#d0d0d0"/>
+  
+  <!-- Coffee table -->
+  <rect x="350" y="650" width="100" height="50" rx="10" ry="10" fill="#a0a0a0"/>
+  <rect x="370" y="660" width="60" height="30" rx="5" ry="5" fill="#e0e0e0"/>
+  
+  <!-- Rug -->
+  <rect x="0" y="650" width="1200" height="150" fill="#8b4513"/>
+  <rect x="10" y="660" width="1180" height="130" fill="#fff" opacity="0.3"/>
+  
+  <!-- Dining area -->
+  <rect x="550" y="500" width="200" height="100" rx="10" ry="10" fill="#8b4513"/>
+  <rect x="570" y="520" width="160" height="60" rx="5" ry="5" fill="#e0e0e0"/>
+  <rect x="560" y="510" width="20" height="80" fill="#666"/>
+  <rect x="740" y="510" width="20" height="80" fill="#666"/>
+  <rect x="620" y="510" width="20" height="80" fill="#666"/>
+  <rect x="680" y="510" width="20" height="80" fill="#666"/>
+  
+  <!-- Kitchen counter -->
+  <rect x="800" y="500" width="200" height="100" rx="10" ry="10" fill="#666"/>
+  <rect x="820" y="520" width="160" height="60" rx="5" ry="5" fill="#e0e0e0"/>
+  <rect x="810" y="510" width="20" height="80" fill="#888"/>
+  <rect x="970" y="510" width="20" height="80" fill="#888"/>
+  
+  <!-- Shelves -->
+  <rect x="800" y="350" width="200" height="50" rx="5" ry="5" fill="#888"/>
+  <rect x="810" y="360" width="180" height="30" rx="3" ry="3" fill="#e0e0e0"/>
+  <rect x="820" y="370" width="20" height="10" fill="#666"/>
+  <rect x="850" y="370" width="20" height="10" fill="#666"/>
+  <rect x="880" y="370" width="20" height="10" fill="#666"/>
+  <rect x="910" y="370" width="20" height="10" fill="#666"/>
+  <rect x="940" y="370" width="20" height="10" fill="#666"/>
+  <rect x="970" y="370" width="20" height="10" fill="#666"/>
+  
+  <!-- Highlighted areas -->
+  <rect x="800" y="350" width="200" height="50" fill="none" stroke="green" stroke-width="3"/>
+  <rect x="800" y="500" width="200" height="100" fill="none" stroke="red" stroke-width="3"/>
+  <rect x="350" y="650" width="100" height="50" fill="none" stroke="blue" stroke-width="3"/>
+</svg>

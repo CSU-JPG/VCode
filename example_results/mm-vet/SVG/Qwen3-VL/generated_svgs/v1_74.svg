@@ -1,0 +1,18 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#e0e0e0"/>
+  <rect x="270" y="260" width="730" height="540" fill="#888"/>
+  <rect x="270" y="260" width="730" height="280" fill="#aaa"/>
+  <rect x="270" y="260" width="730" height="280" fill="none" stroke="#666" stroke-width="2"/>
+  <rect x="480" y="780" width="60" height="20" fill="#444"/>
+  <rect x="550" y="780" width="60" height="20" fill="#444"/>
+  <rect x="620" y="780" width="60" height="20" fill="#444"/>
+  <rect x="690" y="780" width="60" height="20" fill="#444"/>
+  <rect x="760" y="780" width="60" height="20" fill="#444"/>
+  <rect x="830" y="780" width="60" height="20" fill="#444"/>
+  <rect x="900" y="780" width="60" height="20" fill="#444"/>
+  <circle cx="590" cy="470" r="80" fill="#d00"/>
+  <text x="590" y="485" font-family="Arial" font-size="40" fill="white" text-anchor="middle">Leica</text>
+  <path d="M0,100 C100,200 200,300 300,400 C400,500 500,600 600,700 C700,800 800,900 900,1000" fill="none" stroke="#ccc" stroke-width="2"/>
+  <path d="M0,100 C50,150 100,200 150,250 C200,300 250,350 300,400 C350,450 400,500 450,550 C500,600 550,650 600,700 C650,750 700,800 750,850 C800,900 850,950 900,1000" fill="none" stroke="#ccc" stroke-width="2"/>
+  <path d="M0,100 C30,130 60,160 90,190 C120,220 150,250 180,280 C210,310 240,340 270,370 C300,400 330,430 360,460 C390,490 420,520 450,550 C480,580 510,610 540,640 C570,670 600,700 630,730 C660,760 690,790 720,820 C750,850 780,880 810,910 C840,940 870,970 900,1000" fill="none" stroke="#ccc" stroke-width="2"/>
+</svg>

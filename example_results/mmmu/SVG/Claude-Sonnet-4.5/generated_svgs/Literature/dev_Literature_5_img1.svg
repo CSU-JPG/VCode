@@ -1,0 +1,182 @@
+<svg viewBox="0 0 952 728" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="952" height="728" fill="#2a5f6f"/>
+  
+  <!-- Header section -->
+  <rect y="0" width="952" height="185" fill="#1e4d5f"/>
+  
+  <!-- Cloud with rain and lightning icon -->
+  <g transform="translate(50, 30)">
+    <!-- Cloud -->
+    <path d="M 60 40 Q 40 40 40 60 Q 40 80 60 80 L 140 80 Q 160 80 160 60 Q 160 40 140 40 Q 140 20 120 20 Q 100 20 100 40 Q 80 20 60 20 Q 40 20 40 40" fill="none" stroke="#d4af37" stroke-width="4"/>
+    <!-- Rain drops -->
+    <line x1="55" y1="85" x2="50" y2="105" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="85" x2="65" y2="105" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <line x1="85" y1="85" x2="80" y2="105" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <line x1="100" y1="95" x2="95" y2="115" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <line x1="115" y1="85" x2="110" y2="105" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <line x1="130" y1="85" x2="125" y2="105" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <line x1="145" y1="85" x2="140" y2="105" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <!-- Lightning bolt -->
+    <path d="M 100 90 L 90 110 L 100 110 L 90 135" fill="none" stroke="#d4af37" stroke-width="4" stroke-linejoin="miter"/>
+  </g>
+  
+  <!-- Equals sign -->
+  <rect x="295" y="65" width="50" height="8" fill="#d4af37"/>
+  <rect x="295" y="90" width="50" height="8" fill="#d4af37"/>
+  
+  <!-- Text "LOVELY WEATHER" -->
+  <text x="420" y="105" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#d4af37">LOVELY WEATHER</text>
+  
+  <!-- Dark separator bar -->
+  <rect y="185" width="952" height="35" fill="#1a1a1a"/>
+  
+  <!-- Main scene background gradient -->
+  <defs>
+    <linearGradient id="sceneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7fb8a8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a8d5c8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect y="220" width="952" height="508" fill="url(#sceneGrad)"/>
+  
+  <!-- Rain effect -->
+  <g opacity="0.6">
+    <line x1="50" y1="240" x2="40" y2="280" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="120" y1="250" x2="110" y2="290" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="180" y1="235" x2="170" y2="275" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="240" y1="245" x2="230" y2="285" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="300" y1="230" x2="290" y2="270" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="360" y1="255" x2="350" y2="295" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="420" y1="240" x2="410" y2="280" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="480" y1="250" x2="470" y2="290" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="540" y1="235" x2="530" y2="275" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="600" y1="245" x2="590" y2="285" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="660" y1="230" x2="650" y2="270" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="720" y1="255" x2="710" y2="295" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="780" y1="240" x2="770" y2="280" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="840" y1="250" x2="830" y2="290" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="900" y1="235" x2="890" y2="275" stroke="#d0e8e0" stroke-width="2"/>
+  </g>
+  
+  <!-- More rain layers -->
+  <g opacity="0.5">
+    <line x1="85" y1="300" x2="75" y2="350" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="155" y1="310" x2="145" y2="360" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="215" y1="295" x2="205" y2="345" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="275" y1="305" x2="265" y2="355" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="335" y1="290" x2="325" y2="340" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="395" y1="315" x2="385" y2="365" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="455" y1="300" x2="445" y2="350" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="515" y1="310" x2="505" y2="360" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="575" y1="295" x2="565" y2="345" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="635" y1="305" x2="625" y2="355" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="695" y1="290" x2="685" y2="340" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="755" y1="315" x2="745" y2="365" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="815" y1="300" x2="805" y2="350" stroke="#d0e8e0" stroke-width="2"/>
+    <line x1="875" y1="310" x2="865" y2="360" stroke="#d0e8e0" stroke-width="2"/>
+  </g>
+  
+  <!-- Background clouds -->
+  <ellipse cx="100" cy="420" rx="80" ry="40" fill="#5a9a88" opacity="0.7"/>
+  <ellipse cx="150" cy="410" rx="70" ry="35" fill="#5a9a88" opacity="0.7"/>
+  <ellipse cx="320" cy="450" rx="90" ry="45" fill="#5a9a88" opacity="0.7"/>
+  <ellipse cx="580" cy="430" rx="85" ry="40" fill="#5a9a88" opacity="0.7"/>
+  <ellipse cx="780" cy="460" rx="95" ry="48" fill="#5a9a88" opacity="0.7"/>
+  <ellipse cx="900" cy="440" rx="80" ry="40" fill="#5a9a88" opacity="0.7"/>
+  
+  <!-- Building silhouettes -->
+  <rect x="150" y="460" width="50" height="80" fill="#3d7768" opacity="0.6"/>
+  <rect x="210" y="450" width="40" height="90" fill="#3d7768" opacity="0.6"/>
+  <rect x="260" y="470" width="55" height="70" fill="#3d7768" opacity="0.6"/>
+  <rect x="650" y="455" width="45" height="85" fill="#3d7768" opacity="0.6"/>
+  <rect x="705" y="465" width="50" height="75" fill="#3d7768" opacity="0.6"/>
+  <rect x="765" y="450" width="40" height="90" fill="#3d7768" opacity="0.6"/>
+  
+  <!-- Left tree -->
+  <ellipse cx="60" cy="420" rx="35" ry="40" fill="#1a1a1a"/>
+  <rect x="52" y="420" width="16" height="80" fill="#8b4513"/>
+  
+  <!-- Right tree with fruit -->
+  <ellipse cx="870" cy="380" rx="40" ry="50" fill="#1a1a1a"/>
+  <rect x="860" y="380" width="20" height="100" fill="#8b4513"/>
+  <circle cx="850" cy="370" r="6" fill="#f4a742"/>
+  <circle cx="875" cy="355" r="6" fill="#f4a742"/>
+  
+  <!-- Ground bushes -->
+  <ellipse cx="50" cy="600" rx="60" ry="35" fill="#5a9a88"/>
+  <ellipse cx="130" cy="620" rx="70" ry="40" fill="#5a9a88"/>
+  <ellipse cx="220" cy="610" rx="65" ry="38" fill="#5a9a88"/>
+  <ellipse cx="750" cy="615" rx="68" ry="40" fill="#5a9a88"/>
+  <ellipse cx="850" cy="625" rx="75" ry="42" fill="#5a9a88"/>
+  
+  <!-- Red flowers left -->
+  <g transform="translate(170, 570)">
+    <circle cx="0" cy="0" r="8" fill="#e74c3c"/>
+    <circle cx="15" cy="-5" r="8" fill="#e74c3c"/>
+    <circle cx="8" cy="-12" r="8" fill="#e74c3c"/>
+  </g>
+  
+  <!-- Red flowers right -->
+  <g transform="translate(920, 590)">
+    <circle cx="0" cy="0" r="8" fill="#e74c3c"/>
+    <circle cx="15" cy="5" r="8" fill="#e74c3c"/>
+  </g>
+  
+  <!-- Yellow flowers right -->
+  <g transform="translate(800, 585)">
+    <circle cx="0" cy="0" r="7" fill="#f4a742"/>
+    <circle cx="12" cy="-8" r="7" fill="#f4a742"/>
+  </g>
+  
+  <!-- Character standing in center -->
+  <g transform="translate(476, 520)">
+    <!-- Ground platform -->
+    <ellipse cx="0" cy="80" rx="45" ry="15" fill="#7fb8a8" opacity="0.8"/>
+    
+    <!-- Legs -->
+    <rect x="-18" y="50" width="14" height="30" fill="#2c3e50" rx="7"/>
+    <rect x="4" y="50" width="14" height="30" fill="#2c3e50" rx="7"/>
+    
+    <!-- Body -->
+    <rect x="-25" y="10" width="50" height="45" fill="#c0392b" rx="8"/>
+    
+    <!-- Arms (raised) -->
+    <rect x="-50" y="15" width="25" height="12" fill="#c0392b" rx="6" transform="rotate(-20 -37.5 21)"/>
+    <rect x="25" y="15" width="25" height="12" fill="#c0392b" rx="6" transform="rotate(20 37.5 21)"/>
+    
+    <!-- Hands -->
+    <ellipse cx="-48" cy="18" rx="8" ry="10" fill="#f4c6a8"/>
+    <ellipse cx="48" cy="18" rx="8" ry="10" fill="#f4c6a8"/>
+    
+    <!-- Head -->
+    <rect x="-20" y="-25" width="40" height="40" fill="#f4c6a8" rx="20"/>
+    
+    <!-- Hair -->
+    <path d="M -20 -20 Q -25 -30 -18 -35 L -10 -32 L 0 -35 L 10 -32 L 18 -35 Q 25 -30 20 -20" fill="#2c3e50"/>
+    
+    <!-- Eyes (distressed) -->
+    <ellipse cx="-8" cy="-10" rx="4" ry="6" fill="#2c3e50"/>
+    <ellipse cx="8" cy="-10" rx="4" ry="6" fill="#2c3e50"/>
+    
+    <!-- Mouth (open/upset) -->
+    <ellipse cx="0" cy="5" rx="8" ry="10" fill="#8b4513"/>
+    
+    <!-- Eyebrows (worried) -->
+    <path d="M -14 -18 Q -8 -20 -2 -18" stroke="#2c3e50" stroke-width="2" fill="none"/>
+    <path d="M 2 -18 Q 8 -20 14 -18" stroke="#2c3e50" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- More rain in foreground -->
+  <g opacity="0.7">
+    <line x1="100" y1="380" x2="90" y2="440" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="200" y1="390" x2="190" y2="450" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="300" y1="370" x2="290" y2="430" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="400" y1="360" x2="390" y2="420" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="500" y1="375" x2="490" y2="435" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="600" y1="365" x2="590" y2="425" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="700" y1="380" x2="690" y2="440" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="800" y1="370" x2="790" y2="430" stroke="#d0e8e0" stroke-width="2.5"/>
+    <line x1="900" y1="390" x2="890" y2="450" stroke="#d0e8e0" stroke-width="2.5"/>
+  </g>
+</svg>

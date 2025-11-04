@@ -1,0 +1,38 @@
+<svg viewBox="0 0 350 250" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="0" x2="0" y2="210" stroke="black"/>
+  <line x1="100" y1="0" x2="100" y2="210" stroke="black"/>
+  <line x1="200" y1="0" x2="200" y2="210" stroke="black"/>
+  <line x1="300" y1="0" x2="300" y2="210" stroke="black"/>
+  <line x1="0" y1="0" x2="300" y2="0" stroke="black"/>
+  <line x1="0" y1="30" x2="300" y2="30" stroke="black"/>
+  <line x1="0" y1="60" x2="300" y2="60" stroke="black"/>
+  <line x1="0" y1="90" x2="300" y2="90" stroke="black"/>
+  <line x1="0" y1="120" x2="300" y2="120" stroke="black"/>
+  <line x1="0" y1="150" x2="300" y2="150" stroke="black"/>
+  <line x1="0" y1="180" x2="300" y2="180" stroke="black"/>
+  <line x1="0" y1="210" x2="300" y2="210" stroke="black"/>
+  <rect x="0" y="0" width="100" height="30" fill="#f0f0f0"/>
+  <rect x="100" y="0" width="100" height="30" fill="#f0f0f0"/>
+  <rect x="200" y="0" width="100" height="30" fill="#f0f0f0"/>
+  <text x="50" y="15" font-weight="bold" text-anchor="middle" dy=".3em">Price per Frisbee</text>
+  <text x="150" y="15" font-weight="bold" text-anchor="middle" dy=".3em">Quantity Demanded</text>
+  <text x="250" y="15" font-weight="bold" text-anchor="middle" dy=".3em">Quantity Supplied</text>
+  <text x="50" y="45" text-anchor="middle" dy=".3em">$11</text>
+  <text x="150" y="45" text-anchor="middle" dy=".3em">1 million Frisbees</text>
+  <text x="250" y="45" text-anchor="middle" dy=".3em">15 million Frisbees</text>
+  <text x="50" y="75" text-anchor="middle" dy=".3em">$10</text>
+  <text x="150" y="75" text-anchor="middle" dy=".3em">2</text>
+  <text x="250" y="75" text-anchor="middle" dy=".3em">12</text>
+  <text x="50" y="105" text-anchor="middle" dy=".3em">$9</text>
+  <text x="150" y="105" text-anchor="middle" dy=".3em">4</text>
+  <text x="250" y="105" text-anchor="middle" dy=".3em">9</text>
+  <text x="50" y="135" text-anchor="middle" dy=".3em">$8</text>
+  <text x="150" y="135" text-anchor="middle" dy=".3em">6</text>
+  <text x="250" y="135" text-anchor="middle" dy=".3em">6</text>
+  <text x="50" y="165" text-anchor="middle" dy=".3em">$7</text>
+  <text x="150" y="165" text-anchor="middle" dy=".3em">8</text>
+  <text x="250" y="165" text-anchor="middle" dy=".3em">3</text>
+  <text x="50" y="195" text-anchor="middle" dy=".3em">$6</text>
+  <text x="150" y="195" text-anchor="middle" dy=".3em">10</text>
+  <text x="250" y="195" text-anchor="middle" dy=".3em">1</text>
+</svg>

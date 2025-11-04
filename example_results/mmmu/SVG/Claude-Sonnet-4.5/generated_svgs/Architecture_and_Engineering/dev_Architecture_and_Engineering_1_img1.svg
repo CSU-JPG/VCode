@@ -1,0 +1,67 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- North arrow at A -->
+  <line x1="205" y1="90" x2="205" y2="30" stroke="black" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <text x="215" y="35" font-family="Arial, sans-serif" font-size="16" font-style="italic">N</text>
+  
+  <!-- Horizontal line through A -->
+  <line x1="145" y1="70" x2="265" y2="70" stroke="black" stroke-width="1"/>
+  
+  <!-- Point A -->
+  <circle cx="205" cy="70" r="2" fill="black"/>
+  <text x="212" y="65" font-family="Arial, sans-serif" font-size="14" font-style="italic">A</text>
+  
+  <!-- Horizontal line through C -->
+  <line x1="20" y1="95" x2="140" y2="95" stroke="black" stroke-width="1"/>
+  
+  <!-- Point C with arrow -->
+  <line x1="80" y1="55" x2="80" y2="105" stroke="black" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <circle cx="80" cy="95" r="2" fill="black"/>
+  <text x="67" y="90" font-family="Arial, sans-serif" font-size="14" font-style="italic">C</text>
+  
+  <!-- Point B with horizontal line and arrow -->
+  <line x1="40" y1="175" x2="160" y2="175" stroke="black" stroke-width="1"/>
+  <line x1="80" y1="135" x2="80" y2="185" stroke="black" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <circle cx="80" cy="175" r="2" fill="black"/>
+  <text x="73" y="190" font-family="Arial, sans-serif" font-size="14" font-style="italic">B</text>
+  
+  <!-- 10 degree angle arc at B -->
+  <path d="M 95 175 Q 95 167, 88 163" fill="none" stroke="black" stroke-width="0.8"/>
+  <line x1="85" y1="168" x2="75" y2="165" stroke="black" stroke-width="1"/>
+  <text x="25" y="160" font-family="Arial, sans-serif" font-size="12">10°</text>
+  
+  <!-- 65 degree angle label -->
+  <text x="85" y="140" font-family="Arial, sans-serif" font-size="12">65°</text>
+  
+  <!-- Line from B to A -->
+  <line x1="80" y1="175" x2="205" y2="70" stroke="black" stroke-width="1.5"/>
+  
+  <!-- 67 degree angle at A -->
+  <text x="175" y="85" font-family="Arial, sans-serif" font-size="12">67°</text>
+  
+  <!-- Point D with horizontal line and arrow -->
+  <line x1="270" y1="245" x2="390" y2="245" stroke="black" stroke-width="1"/>
+  <line x1="340" y1="205" x2="340" y2="255" stroke="black" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <circle cx="340" cy="245" r="2" fill="black"/>
+  <text x="347" y="250" font-family="Arial, sans-serif" font-size="14" font-style="italic">D</text>
+  
+  <!-- Theta angle at D -->
+  <line x1="330" y1="235" x2="340" y2="245" stroke="black" stroke-width="1"/>
+  <text x="355" y="230" font-family="Arial, sans-serif" font-size="14" font-style="italic">θ</text>
+  
+  <!-- Line from A to D -->
+  <line x1="205" y1="70" x2="340" y2="245" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Line from B to D -->
+  <line x1="80" y1="175" x2="340" y2="245" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Figure label -->
+  <rect x="155" y="280" width="90" height="25" fill="#cccccc" stroke="black" stroke-width="1"/>
+  <text x="167" y="297" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Fig. 5.10</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+</svg>

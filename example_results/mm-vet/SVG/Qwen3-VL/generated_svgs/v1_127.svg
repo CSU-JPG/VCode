@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenFeather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3CB371"/>
+      <stop offset="50%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="blueFeather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#009688"/>
+      <stop offset="50%" stop-color="#00BCD4"/>
+      <stop offset="100%" stop-color="#0097A7"/>
+    </linearGradient>
+    <linearGradient id="redFeather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F44336"/>
+      <stop offset="50%" stop-color="#E91E63"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+    <radialGradient id="eyeGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background blur effect -->
+  <rect width="100%" height="100%" fill="#8BC34A" opacity="0.7"/>
+
+  <!-- Woman's face (simplified and blurred) -->
+  <ellipse cx="500" cy="350" rx="200" ry="150" fill="#FFD700" opacity="0.3"/>
+  <circle cx="450" cy="300" r="20" fill="#000000" opacity="0.2"/>
+  <circle cx="600" cy="300" r="20" fill="#000000" opacity="0.2"/>
+  <path d="M480 450 Q500 500 520 450" stroke="#000000" stroke-width="3" fill="none" opacity="0.2"/>
+
+  <!-- Hand -->
+  <path d="M180 550 C200 580 250 600 300 620 C350 640 400 650 500 600 C550 580 580 550 580 500" fill="#FFDAB9" stroke="#CD853F" stroke-width="2"/>
+
+  <!-- Parrot body -->
+  <path d="M0 230 C50 200 150 210 250 250 C300 270 350 300 400 350 C450 400 480 450 480 500 C480 550 450 600 400 650 C350 700 300 750 250 800 C200 850 150 900 100 950 C50 1000 0 1050 -50 1100" fill="url(#greenFeather)" stroke="#000000" stroke-width="1"/>
+
+  <!-- Parrot wings -->
+  <path d="M0 230 C20 250 50 280 100 300 C150 320 200 350 250 380 C300 410 350 450 400 500" fill="url(#blueFeather)" stroke="#000000" stroke-width="1"/>
+
+  <!-- Parrot tail -->
+  <path d="M0 230 C-20 270 -50 300 -100 350 C-150 400 -200 450 -250 500" fill="url(#redFeather)" stroke="#000000" stroke-width="1"/>
+
+  <!-- Parrot head -->
+  <circle cx="450" cy="350" r="50" fill="#000000" opacity="0.8"/>
+  <circle cx="480" cy="400" r="10" fill="#FFFFFF"/>
+  <circle cx="480" cy="400" r="5" fill="url(#eyeGradient)"/>
+  <path d="M480 400 C500 410 520 420 530 430" fill="#000000" stroke="#000000" stroke-width="2"/>
+
+  <!-- Parrot feet -->
+  <path d="M200 600 C210 620 220 640 230 660" fill="#000000" stroke="#000000" stroke-width="2"/>
+  <path d="M250 600 C260 620 270 640 280 660" fill="#000000" stroke="#000000" stroke-width="2"/>
+</svg>

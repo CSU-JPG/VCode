@@ -1,0 +1,159 @@
+<svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#bfe2ff"/>
+		<stop offset="1" stop-color="#eaf6ff"/>
+	</linearGradient>
+	<linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#79c66b"/>
+		<stop offset="1" stop-color="#3ea84f"/>
+	</linearGradient>
+	<linearGradient id="pathGrad" x1="0" y1="0" x2="0" y2="1">
+		<stop offset="0" stop-color="#a7b0a0"/>
+		<stop offset="1" stop-color="#8c957f"/>
+	</linearGradient>
+	<radialGradient id="treeShade" cx="0.5" cy="0.6" r="0.6">
+		<stop offset="0" stop-color="#2d6b2f"/>
+		<stop offset="1" stop-color="#1e5222"/>
+	</radialGradient>
+	<radialGradient id="bush" cx="0.5" cy="0.5" r="0.6">
+		<stop offset="0" stop-color="#4aa34a"/>
+		<stop offset="1" stop-color="#247a2f"/>
+	</radialGradient>
+	<filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+		<feGaussianBlur stdDeviation="1.2"/>
+	</filter>
+</defs>
+
+<!-- background sky -->
+<rect x="0" y="0" width="960" height="640" fill="url(#sky)"/>
+
+<!-- distant tree line -->
+<g opacity="0.95">
+	<path d="M0,150 C80,110 120,120 180,155 C240,190 300,160 360,135 C420,110 470,130 520,160 C570,190 630,175 700,145 C770,115 830,130 900,160 C940,175 960,170 960,170 L960,260 L0,260 Z" fill="url(#treeShade)"/>
+	<!-- deeper layer -->
+	<path d="M0,175 C70,135 130,145 195,170 C260,195 315,185 370,160 C425,135 480,150 535,175 C590,200 660,190 720,165 C780,140 840,155 900,185 L960,210 L960,260 L0,260 Z" fill="#2b5e2b" opacity="0.65"/>
+</g>
+
+<!-- walkway -->
+<rect x="0" y="250" width="960" height="24" fill="url(#pathGrad)" opacity="0.8"/>
+
+<!-- shrubs along path -->
+<g transform="translate(0,238)">
+	<ellipse cx="90" cy="24" rx="38" ry="18" fill="url(#bush)"/>
+	<ellipse cx="160" cy="26" rx="28" ry="14" fill="url(#bush)"/>
+	<ellipse cx="230" cy="23" rx="34" ry="16" fill="url(#bush)"/>
+	<ellipse cx="310" cy="25" rx="40" ry="18" fill="url(#bush)"/>
+	<ellipse cx="420" cy="23" rx="36" ry="17" fill="url(#bush)"/>
+	<ellipse cx="520" cy="26" rx="30" ry="14" fill="url(#bush)"/>
+	<ellipse cx="620" cy="23" rx="42" ry="18" fill="url(#bush)"/>
+	<ellipse cx="720" cy="25" rx="36" ry="16" fill="url(#bush)"/>
+	<ellipse cx="820" cy="24" rx="34" ry="16" fill="url(#bush)"/>
+	<ellipse cx="900" cy="24" rx="30" ry="14" fill="url(#bush)"/>
+</g>
+
+<!-- grass field -->
+<rect x="0" y="260" width="960" height="380" fill="url(#grass)"/>
+
+<!-- scattered grass texture -->
+<g fill="#2f8f3f" opacity="0.25">
+	<path d="M60,580 l8,-22 l5,20 z"/>
+	<path d="M110,520 l10,-26 l6,22 z"/>
+	<path d="M200,560 l8,-22 l6,20 z"/>
+	<path d="M280,540 l9,-24 l6,22 z"/>
+	<path d="M360,585 l9,-24 l6,22 z"/>
+	<path d="M440,560 l9,-24 l6,22 z"/>
+	<path d="M520,540 l10,-26 l6,22 z"/>
+	<path d="M600,580 l8,-22 l6,20 z"/>
+	<path d="M680,560 l9,-24 l6,22 z"/>
+	<path d="M760,540 l10,-26 l6,22 z"/>
+	<path d="M840,580 l8,-22 l6,20 z"/>
+</g>
+
+<!-- left child with paddle -->
+<g transform="translate(115,370)">
+	<ellipse cx="0" cy="95" rx="26" ry="6" fill="#2a7a33" opacity="0.35" filter="url(#soft)"/>
+	<circle cx="-10" cy="-10" r="16" fill="#f0c8a8"/>
+	<rect x="-18" y="8" width="16" height="48" rx="6" fill="#cfd7dd"/>
+	<path d="M-10,56 c-8,8 -18,18 -22,30 c8,6 26,6 40,0 c-4,-10 -9,-20 -18,-30 z" fill="#e3e0d3"/>
+	<!-- T-shirt -->
+	<path d="M-30,12 c10,-8 40,-8 50,0 l-8,24 c-12,6 -22,6 -34,0 z" fill="#c9d9ff"/>
+	<!-- arm and paddle -->
+	<rect x="-46" y="20" width="20" height="10" rx="5" fill="#f0c8a8"/>
+	<ellipse cx="-58" cy="24" rx="16" ry="20" fill="#d11b28"/>
+	<circle cx="-61" cy="24" r="10" fill="#7b000e"/>
+	<!-- legs -->
+	<rect x="-14" y="64" width="10" height="28" rx="4" fill="#bfb8a9"/>
+	<rect x="2" y="64" width="10" height="28" rx="4" fill="#bfb8a9"/>
+	<rect x="-18" y="92" width="18" height="6" rx="3" fill="#5a503e"/>
+	<rect x="0" y="92" width="18" height="6" rx="3" fill="#5a503e"/>
+</g>
+
+<!-- middle child -->
+<g transform="translate(300,340)">
+	<ellipse cx="0" cy="96" rx="28" ry="6" fill="#2a7a33" opacity="0.35" filter="url(#soft)"/>
+	<circle cx="0" cy="-22" r="16" fill="#f3cfb3"/>
+	<!-- tank top -->
+	<path d="M-26,2 c8,-10 44,-10 52,0 l-6,28 c-14,6 -26,6 -40,0 z" fill="#8fb0c6"/>
+	<!-- shorts -->
+	<path d="M-18,40 h36 v20 c-12,6 -24,6 -36,0 z" fill="#5f87a0"/>
+	<!-- legs -->
+	<rect x="-12" y="60" width="12" height="30" rx="4" fill="#e8dccf"/>
+	<rect x="6" y="60" width="12" height="30" rx="4" fill="#e8dccf"/>
+	<rect x="-14" y="90" width="16" height="6" rx="3" fill="#5a503e"/>
+	<rect x="6" y="90" width="16" height="6" rx="3" fill="#5a503e"/>
+</g>
+
+<!-- adult facing away -->
+<g transform="translate(560,340)">
+	<ellipse cx="0" cy="115" rx="34" ry="8" fill="#2a7a33" opacity="0.35" filter="url(#soft)"/>
+	<!-- head (turned) -->
+	<circle cx="6" cy="-40" r="18" fill="#e7c1a2"/>
+	<path d="M-40,0 q40,-30 88,0 v10 q-44,24 -88,0 z" fill="#16324b"/>
+	<!-- torso -->
+	<path d="M-44,10 q20,-22 88,0 v70 q-44,18 -88,0 z" fill="#16324b"/>
+	<!-- arms -->
+	<rect x="-54" y="20" width="20" height="40" rx="10" fill="#16324b"/>
+	<rect x="44" y="20" width="20" height="40" rx="10" fill="#16324b"/>
+	<!-- shorts -->
+	<path d="M-40,80 q22,16 0,46 h32 q6,-22 0,-40 z" fill="#e08f7c"/>
+	<path d="M8,80 q22,16 0,46 h32 q6,-22 0,-40 z" fill="#e08f7c"/>
+	<!-- calves and feet -->
+	<rect x="-22" y="124" width="12" height="28" rx="5" fill="#e8dccf"/>
+	<rect x="18" y="124" width="12" height="28" rx="5" fill="#e8dccf"/>
+	<rect x="-24" y="152" width="22" height="8" rx="4" fill="#6f6b5e"/>
+	<rect x="16" y="152" width="22" height="8" rx="4" fill="#6f6b5e"/>
+</g>
+
+<!-- dog running -->
+<g transform="translate(810,380)">
+	<ellipse cx="-10" cy="74" rx="26" ry="6" fill="#2a7a33" opacity="0.35" filter="url(#soft)"/>
+	<!-- body -->
+	<ellipse cx="-20" cy="28" rx="46" ry="26" fill="#ffffff" stroke="#d9d9d9" stroke-width="2"/>
+	<!-- head -->
+	<ellipse cx="26" cy="20" rx="22" ry="18" fill="#ffffff" stroke="#d9d9d9" stroke-width="2"/>
+	<!-- ear patch -->
+	<path d="M36,12 q8,12 -2,22 q-12,10 -22,-2 q6,-18 24,-20 z" fill="#6b3c37"/>
+	<!-- eye -->
+	<circle cx="34" cy="18" r="3" fill="#202020"/>
+	<!-- nose and mouth -->
+	<circle cx="46" cy="26" r="3" fill="#202020"/>
+	<path d="M40,28 q8,6 16,4" stroke="#202020" stroke-width="2" fill="none"/>
+	<!-- legs -->
+	<rect x="-58" y="40" width="10" height="24" rx="4" fill="#ffffff" stroke="#d9d9d9" stroke-width="2" transform="skewX(-10)"/>
+	<rect x="-38" y="44" width="10" height="24" rx="4" fill="#ffffff" stroke="#d9d9d9" stroke-width="2" transform="skewX(-8)"/>
+	<rect x="0" y="44" width="10" height="24" rx="4" fill="#ffffff" stroke="#d9d9d9" stroke-width="2" transform="skewX(10)"/>
+	<rect x="-16" y="46" width="10" height="24" rx="4" fill="#ffffff" stroke="#d9d9d9" stroke-width="2" transform="skewX(8)"/>
+	<!-- tail -->
+	<path d="M-62,14 q-10,28 -30,12" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round"/>
+	<path d="M-62,14 q-10,28 -30,12" stroke="#d9d9d9" stroke-width="2" fill="none" stroke-linecap="round"/>
+	<!-- collar -->
+	<rect x="8" y="26" width="22" height="6" rx="3" fill="#6bb0ff"/>
+</g>
+
+<!-- playful red disc in flight -->
+<g>
+	<ellipse cx="380" cy="360" rx="16" ry="6" fill="#b30f1f"/>
+	<ellipse cx="380" cy="359" rx="12" ry="3" fill="#7a0010"/>
+</g>
+</svg>

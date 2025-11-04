@@ -1,0 +1,113 @@
+<svg viewBox="0 0 740 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f0f0"/>
+      <stop offset="100%" stop-color="#e6e6e6"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d6c6ad"/>
+      <stop offset="100%" stop-color="#b99e86"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2220"/>
+      <stop offset="100%" stop-color="#463b37"/>
+    </linearGradient>
+    <linearGradient id="bedspread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8b0b6"/>
+      <stop offset="100%" stop-color="#7f8a91"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c9cfd6"/>
+      <stop offset="100%" stop-color="#aeb6bf"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="0.8">
+      <stop offset="0%" stop-color="#fff9de" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff9de" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Wall background -->
+  <rect x="0" y="0" width="740" height="360" fill="url(#wallGrad)"/>
+
+  <!-- Floor -->
+  <rect x="0" y="340" width="740" height="200" fill="url(#floorGrad)"/>
+
+  <!-- Left tall shelf -->
+  <g>
+    <rect x="60" y="50" width="90" height="270" fill="url(#wood)" rx="4"/>
+    <rect x="68" y="70" width="74" height="4" fill="#1c1615"/>
+    <rect x="68" y="120" width="74" height="4" fill="#1c1615"/>
+    <rect x="68" y="170" width="74" height="4" fill="#1c1615"/>
+    <rect x="68" y="220" width="74" height="4" fill="#1c1615"/>
+    <rect x="68" y="270" width="74" height="4" fill="#1c1615"/>
+  </g>
+
+  <!-- Headboard panels -->
+  <g>
+    <rect x="350" y="140" width="80" height="160" fill="url(#wood)"/>
+    <rect x="430" y="140" width="90" height="160" fill="url(#wood)"/>
+    <rect x="520" y="140" width="80" height="160" fill="url(#wood)"/>
+  </g>
+
+  <!-- Middle low dresser -->
+  <g>
+    <rect x="230" y="190" width="210" height="120" fill="url(#wood)" rx="6"/>
+    <rect x="250" y="220" width="40" height="10" fill="#ddd" rx="3"/>
+    <rect x="330" y="220" width="40" height="10" fill="#ddd" rx="3"/>
+    <rect x="250" y="260" width="40" height="10" fill="#ddd" rx="3"/>
+    <rect x="330" y="260" width="40" height="10" fill="#ddd" rx="3"/>
+  </g>
+
+  <!-- Bed: mattress and bedding -->
+  <g>
+    <rect x="170" y="270" width="380" height="170" fill="url(#bedspread)" rx="10"/>
+    <path d="M170 300 H550 V330 H170 Z" fill="url(#sheet)"/>
+    <!-- Footboard with panels -->
+    <rect x="70" y="270" width="300" height="180" fill="url(#wood)"/>
+    <rect x="85" y="285" width="60" height="145" fill="#2a2220"/>
+    <rect x="155" y="285" width="60" height="145" fill="#2a2220"/>
+    <rect x="225" y="285" width="60" height="145" fill="#2a2220"/>
+    <rect x="295" y="285" width="60" height="145" fill="#2a2220"/>
+  </g>
+
+  <!-- Pillows -->
+  <g>
+    <rect x="480" y="245" width="120" height="70" rx="12" fill="#8b775f"/>
+    <rect x="425" y="240" width="100" height="60" rx="12" fill="#9b8a73"/>
+    <rect x="455" y="255" width="70" height="45" rx="10" fill="#c6b8a4"/>
+    <rect x="505" y="258" width="60" height="40" rx="9" fill="#b7aa95"/>
+  </g>
+
+  <!-- Lamps and glows -->
+  <g>
+    <!-- Left lamp -->
+    <circle cx="296" cy="160" r="46" fill="url(#lampGlow)"/>
+    <rect x="268" y="143" width="56" height="34" rx="6" fill="#fff3d1" stroke="#e7d7a7"/>
+    <rect x="292" y="177" width="10" height="15" fill="#2a2220"/>
+    <!-- Right lamp -->
+    <circle cx="660" cy="210" r="55" fill="url(#lampGlow)"/>
+    <rect x="614" y="192" width="92" height="40" rx="7" fill="#fff3d1" stroke="#e7d7a7"/>
+    <rect x="654" y="232" width="12" height="16" fill="#2a2220"/>
+  </g>
+
+  <!-- Right nightstand -->
+  <g>
+    <rect x="590" y="320" width="150" height="150" fill="url(#wood)" rx="8"/>
+    <rect x="620" y="355" width="26" height="8" fill="#ddd" rx="3"/>
+    <rect x="690" y="355" width="26" height="8" fill="#ddd" rx="3"/>
+    <rect x="620" y="395" width="26" height="8" fill="#ddd" rx="3"/>
+    <rect x="690" y="395" width="26" height="8" fill="#ddd" rx="3"/>
+  </g>
+
+  <!-- Blue bounding box (center dresser) -->
+  <rect x="210" y="170" width="250" height="160" fill="none" stroke="#2ea3ff" stroke-width="6"/>
+
+  <!-- Red bounding box (left shelf) -->
+  <rect x="40" y="18" width="130" height="260" fill="none" stroke="#ff3b30" stroke-width="6"/>
+
+  <!-- Green bounding box (right nightstand) -->
+  <rect x="530" y="260" width="200" height="200" fill="none" stroke="#20d44a" stroke-width="6"/>
+
+  <!-- Subtle vignette -->
+  <rect x="0" y="0" width="740" height="540" fill="none" stroke="#000" stroke-opacity="0.05"/>
+</svg>

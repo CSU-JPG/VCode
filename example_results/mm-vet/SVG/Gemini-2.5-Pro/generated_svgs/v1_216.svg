@@ -1,0 +1,78 @@
+<svg viewBox="0 0 842 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- Map Shapes (drawn from back to front) -->
+  <g id="map-areas">
+    <path id="industry" d="M 235,204 C 187,236 175,363 218,472 C 248,546 321,530 428,522 C 554,513 649,514 678,459 C 709,401 703,306 658,243 C 613,179 502,186 400,197 C 324,205 276,179 235,204 Z" fill="#4e1a17"/>
+    <path id="north-housing" d="M 318,193 C 334,183 442,186 477,197 C 496,220 485,248 458,259 C 427,271 350,262 330,249 C 304,232 297,206 318,193 Z" fill="#982c2a"/>
+    <path id="south-housing" d="M 324,500 C 347,489 448,493 497,500 C 518,514 509,532 478,535 C 440,539 360,536 335,528 C 308,518 303,510 324,500 Z" fill="#982c2a"/>
+    <path id="town-centre" d="M 380,348 C 354,374 355,427 392,453 C 428,478 505,476 532,447 C 564,413 563,361 519,344 C 476,327 411,317 380,348 Z" fill="#f5f4d9" stroke="black" stroke-width="1.5"/>
+  </g>
+
+  <!-- Outer Boundary (Countryside outline) -->
+  <path id="countryside-outline" d="M 131,182 C 95,243 91,405 102,481 C 114,568 269,548 381,539 C 506,530 680,541 715,487 C 748,435 737,325 706,257 C 674,186 521,169 402,176 C 283,182 169,120 131,182 Z" stroke="black" fill="none" stroke-width="2"/>
+
+  <!-- Transport Lines -->
+  <g id="transport">
+    <path id="railway" d="M 129,270 C 277,348 494,375 742,430" stroke="black" stroke-width="2" fill="none" stroke-dasharray="8, 4"/>
+    <path id="road-hindon" d="M 310,285 C 245,250 180,220 110,195" stroke="black" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <path id="road-bransdon" d="M 350,490 C 270,515 180,535 100,540" stroke="black" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+    <path id="road-cransdon" d="M 570,450 C 620,480 700,510 760,535" stroke="black" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- Location Labels -->
+  <g id="location-markers">
+    <circle cx="215" cy="285" r="30" fill="white" stroke="black" stroke-width="1.5"/>
+    <text x="215" y="292" font-family="sans-serif" font-size="20" text-anchor="middle" font-weight="bold">S1</text>
+    <circle cx="450" cy="405" r="30" fill="#f5f4d9" stroke="black" stroke-width="1.5"/>
+    <text x="450" y="412" font-family="sans-serif" font-size="20" text-anchor="middle" font-weight="bold">S2</text>
+  </g>
+
+  <!-- Title Box -->
+  <g id="title">
+    <rect x="180" y="30" width="220" height="70" fill="#f5f4d9" stroke="black" stroke-width="2"/>
+    <text x="290" y="65" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle">GARLSDON</text>
+    <text x="290" y="90" font-family="sans-serif" font-size="16" text-anchor="middle">Population 65,000</text>
+  </g>
+
+  <!-- Compass -->
+  <g id="compass">
+    <line x1="500" y1="70" x2="500" y2="120" stroke="black" stroke-width="2"/>
+    <path d="M 495,80 L 500,70 L 505,80 Z" fill="black"/>
+    <text x="500" y="65" font-family="sans-serif" font-size="20" text-anchor="middle" font-weight="bold">N</text>
+  </g>
+
+  <!-- Legend -->
+  <g id="legend" font-family="sans-serif" font-size="15">
+    <rect x="580" y="50" width="40" height="25" fill="white" stroke="black" stroke-width="1"/>
+    <text x="630" y="68" dominant-baseline="middle">Countryside</text>
+    <rect x="580" y="80" width="40" height="25" fill="#f5f4d9" stroke="black" stroke-width="1"/>
+    <text x="630" y="93" dominant-baseline="middle">Town Centre</text>
+    <text x="630" y="108" font-size="12">(no traffic zone)</text>
+    <rect x="580" y="125" width="40" height="25" fill="#982c2a" stroke="black" stroke-width="1"/>
+    <text x="630" y="143" dominant-baseline="middle">Housing</text>
+    <rect x="580" y="155" width="40" height="25" fill="#4e1a17" stroke="black" stroke-width="1"/>
+    <text x="630" y="173" dominant-baseline="middle">Industry</text>
+    <line x1="580" y1="195" x2="620" y2="195" stroke="black" stroke-width="2" stroke-dasharray="5, 3"/>
+    <text x="630" y="195" dominant-baseline="middle">Railway</text>
+    <path d="M 580 220 H 620" stroke="black" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="630" y="220" dominant-baseline="middle">Main roads</text>
+  </g>
+
+  <!-- External Town Info -->
+  <g id="town-info" font-family="sans-serif" font-size="16" text-anchor="middle">
+    <text x="115" y="170">12 km to Hindon</text>
+    <text x="115" y="190">population 10,000</text>
+    <text x="140" y="555">16 km to Bransdon</text>
+    <text x="140" y="575">population 15,000</text>
+    <text x="680" y="555">25 km to Cransdon</text>
+    <text x="680" y="575">population 29,000</text>
+  </g>
+</svg>

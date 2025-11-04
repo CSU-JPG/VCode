@@ -1,0 +1,123 @@
+<svg viewBox="0 0 850 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="cert-logos">
+      <!-- USDA Organic -->
+      <g transform="translate(0, 0)">
+        <circle cx="30" cy="30" r="28" fill="white" stroke="#3c6838" stroke-width="2"/>
+        <text x="30" y="28" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#3c6838">USDA</text>
+        <text x="30" y="42" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#3c6838">ORGANIC</text>
+      </g>
+      <!-- Non-GMO -->
+      <g transform="translate(70, 0)">
+        <rect x="2" y="2" width="56" height="56" fill="white" stroke="#333" stroke-width="1.5"/>
+        <path d="M 30,15 L 15,30 L 22,30 L 22,45 L 38,45 L 38,30 L 45,30 Z" fill="#4a90e2"/>
+        <text x="30" y="58" font-family="Arial, sans-serif" font-size="7" font-weight="bold" text-anchor="middle" fill="#333">NON</text>
+        <text x="30" y="66" font-family="Arial, sans-serif" font-size="7" font-weight="bold" text-anchor="middle" fill="#333">GMO</text>
+        <text x="30" y="8" font-family="Arial, sans-serif" font-size="7" font-weight="bold" text-anchor="middle" fill="#333">VERIFIED</text>
+      </g>
+      <!-- Vegan -->
+      <g transform="translate(140, 0)">
+         <rect x="2" y="2" width="56" height="56" fill="white" stroke="#333" stroke-width="1.5"/>
+        <text x="30" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#008000">V</text>
+        <path d="M 40 18 C 42 22, 42 26, 40 30" stroke="#008000" stroke-width="3" fill="none"/>
+        <text x="30" y="58" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#008000">VEGAN</text>
+      </g>
+    </g>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="850" height="800" fill="#f0f2f5"/>
+  <rect x="0" y="700" width="850" height="100" fill="white" stroke="#e0e0e0" stroke-width="2"/>
+  <path d="M 0 350 C 40 350, 40 700, 0 700 Z" fill="#ffffff" opacity="0.5"/>
+  <path d="M 850 400 C 800 400, 800 700, 850 700 Z" fill="#ffffff" opacity="0.3"/>
+
+  <!-- Carton 1: Oat -->
+  <g transform="translate(50, 100)">
+    <path d="M 0 0 H 220 V 600 H 0 Z" fill="#e6d5b8"/>
+    <path d="M 0 0 L 30 -30 H 190 L 220 0 Z" fill="#e6d5b8" stroke="#d3c2a5" stroke-width="1"/>
+    <path d="M 190 -30 H 250 L 220 0 H 190 Z" fill="#d3c2a5" stroke="#c0b093" stroke-width="1" transform="skewX(-15) translate(0, 15)"/>
+    <circle cx="70" cy="-25" r="35" fill="white"/>
+    <circle cx="70" cy="-25" r="30" fill="white" stroke="#e0e0e0" stroke-width="3"/>
+
+    <text x="110" y="80" font-family="Verdana, Geneva, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#5a4d41">unsweetened</text>
+    <circle cx="110" cy="200" r="100" fill="white"/>
+    <text x="110" y="170" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#bfab93">BETTER</text>
+    <text x="110" y="210" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#bfab93">THAN</text>
+    <text x="110" y="250" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#bfab93">MILK</text>
+
+    <path d="M 50 320 C 60 310, 80 315, 90 325 C 80 335, 60 340, 50 330 Z M 70 330 C 80 320, 100 325, 110 335 C 100 345, 80 350, 70 340 Z" fill="#d4b483"/>
+    <path d="M 60 322 h 20 m -25 5 h 20 m -15 5 h 20 M 80 332 h 20 m -25 5 h 20 m -15 5 h 20" stroke="#a1887f" stroke-width="1.5" fill="none"/>
+
+    <text x="110" y="370" font-family="Verdana, Geneva, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#5a4d41">organic</text>
+    <text x="110" y="405" font-family="Verdana, Geneva, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#5a4d41">OAT DRINK</text>
+    <text x="110" y="440" font-family="Verdana, Geneva, sans-serif" font-size="16" text-anchor="middle" fill="#5a4d41">dairy free</text>
+    <text x="110" y="465" font-family="Verdana, Geneva, sans-serif" font-size="16" text-anchor="middle" fill="#5a4d41">gluten free</text>
+
+    <path d="M 0 500 C 40 490, 80 510, 110 500 C 140 490, 180 510, 220 500 V 600 H 0 Z" fill="white"/>
+    <g transform="translate(10, 520) scale(0.6)">
+      <use href="#cert-logos"/>
+    </g>
+    <text x="110" y="585" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">33.8 FL OZ (1.06 QT) 1 LITER</text>
+  </g>
+
+  <!-- Carton 2: Rice -->
+  <g transform="translate(310, 100)">
+    <path d="M 0 0 H 220 V 600 H 0 Z" fill="#fca43c"/>
+    <path d="M 0 0 L 30 -30 H 190 L 220 0 Z" fill="#fca43c" stroke="#e8922a" stroke-width="1"/>
+    <path d="M 190 -30 H 250 L 220 0 H 190 Z" fill="#e8922a" stroke="#d48018" stroke-width="1" transform="skewX(-15) translate(0, 15)"/>
+    <circle cx="70" cy="-25" r="35" fill="white"/>
+    <circle cx="70" cy="-25" r="30" fill="white" stroke="#e0e0e0" stroke-width="3"/>
+    
+    <circle cx="110" cy="180" r="100" fill="white"/>
+    <text x="110" y="150" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#e8922a">BETTER</text>
+    <text x="110" y="190" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#e8922a">THAN</text>
+    <text x="110" y="230" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#e8922a">MILK</text>
+
+    <circle cx="75" cy="305" r="15" fill="#a1662f"/>
+    <path d="M 75 290 h 5 v 5 h -5 Z" fill="#d4aa7d"/>
+    <ellipse cx="95" cy="300" rx="4" ry="8" fill="#e0e0e0" transform="rotate(20 95 300)"/>
+    <ellipse cx="105" cy="305" rx="4" ry="8" fill="#e0e0e0" transform="rotate(20 105 305)"/>
+    <ellipse cx="90" cy="315" rx="4" ry="8" fill="#e0e0e0" transform="rotate(20 90 315)"/>
+
+    <text x="110" y="350" font-family="Verdana, Geneva, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#8c581c">organic</text>
+    <text x="110" y="385" font-family="Verdana, Geneva, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#8c581c">RICE DRINK</text>
+    <text x="110" y="415" font-family="Verdana, Geneva, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#8c581c">hazelnut</text>
+    <text x="110" y="440" font-family="Verdana, Geneva, sans-serif" font-size="16" text-anchor="middle" fill="#8c581c">dairy free</text>
+    <text x="110" y="465" font-family="Verdana, Geneva, sans-serif" font-size="16" text-anchor="middle" fill="#8c581c">gluten free</text>
+
+    <path d="M 0 500 C 40 490, 80 510, 110 500 C 140 490, 180 510, 220 500 V 600 H 0 Z" fill="white"/>
+    <g transform="translate(10, 520) scale(0.6)">
+      <use href="#cert-logos"/>
+    </g>
+    <text x="110" y="585" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">33.8 FL OZ (1.06 QT) 1 LITER</text>
+  </g>
+
+  <!-- Carton 3: Almond -->
+  <g transform="translate(570, 100)">
+    <path d="M 0 0 H 220 V 600 H 0 Z" fill="#0096a7"/>
+    <path d="M 0 0 L 30 -30 H 190 L 220 0 Z" fill="#0096a7" stroke="#007a88" stroke-width="1"/>
+    <path d="M 190 -30 H 250 L 220 0 H 190 Z" fill="#007a88" stroke="#00606a" stroke-width="1" transform="skewX(-15) translate(0, 15)"/>
+    <circle cx="70" cy="-25" r="35" fill="white"/>
+    <circle cx="70" cy="-25" r="30" fill="white" stroke="#e0e0e0" stroke-width="3"/>
+    
+    <circle cx="110" cy="180" r="100" fill="white"/>
+    <text x="110" y="150" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#0096a7">BETTER</text>
+    <text x="110" y="190" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="#0096a7">THAN</text>
+    <text x="110" y="230" font-family="Impact, Charcoal, sans-serif" font-size="40" text-anchor="middle" fill="white" stroke="#0096a7" stroke-width="1.5">MILK</text>
+
+    <path d="M 70 300 C 90 280, 130 280, 150 300 C 145 325, 120 335, 110 335 C 100 335, 75 325, 70 300 Z" fill="#c68642"/>
+    <path d="M 90 305 C 100 300, 110 300, 120 305 M 95 312 C 105 308, 115 308, 125 312" stroke="#a1662f" stroke-width="1.5" fill="none"/>
+
+    <text x="110" y="370" font-family="Verdana, Geneva, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">organic</text>
+    <text x="110" y="405" font-family="Verdana, Geneva, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="white">ALMOND</text>
+    <text x="110" y="435" font-family="Verdana, Geneva, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="white">DRINK</text>
+    <text x="110" y="470" font-family="Verdana, Geneva, sans-serif" font-size="16" text-anchor="middle" fill="white">dairy free</text>
+    <text x="110" y="495" font-family="Verdana, Geneva, sans-serif" font-size="16" text-anchor="middle" fill="white">gluten free</text>
+
+    <path d="M 0 515 C 40 505, 80 525, 110 515 C 140 505, 180 525, 220 515 V 600 H 0 Z" fill="white"/>
+    <g transform="translate(10, 520) scale(0.6)">
+      <use href="#cert-logos"/>
+    </g>
+    <text x="110" y="585" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">33.8 FL OZ (1.06 QT) 1 LITER</text>
+  </g>
+</svg>

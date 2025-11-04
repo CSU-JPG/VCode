@@ -1,0 +1,28 @@
+<svg viewBox="-3.5,-2.5,10,8" xmlns="http://www.w3.org/2000/svg">
+  <rect x="-3" y="-2" width="9" height="7" fill="#f5f5f5"/>
+  <rect x="-2.5" y="-1.5" width="8" height="6" fill="#d4b8a3"/>
+  <rect x="-2" y="-1" width="7" height="5" fill="#c0a080"/>
+  <rect x="-1.5" y="-0.5" width="6" height="4" fill="#a08060"/>
+  <rect x="-1" y="0" width="5" height="3" fill="#806040"/>
+  <rect x="-0.5" y="0.5" width="4" height="2" fill="#604020"/>
+  <rect x="0" y="1" width="3" height="1" fill="#402000"/>
+  <rect x="0.5" y="1.5" width="2" height="0.5" fill="#200000"/>
+  <rect x="1" y="2" width="1" height="0.25" fill="#000000"/>
+  <rect x="1.5" y="2.25" width="0.5" height="0.125" fill="#ffffff"/>
+  <rect x="2" y="2.375" width="0.25" height="0.0625" fill="#f0f0f0"/>
+  <rect x="2.5" y="2.4375" width="0.125" height="0.03125" fill="#e0e0e0"/>
+  <rect x="3" y="2.46875" width="0.0625" height="0.015625" fill="#d0d0d0"/>
+  <rect x="3.5" y="2.484375" width="0.03125" height="0.0078125" fill="#c0c0c0"/>
+  <rect x="4" y="2.4921875" width="0.015625" height="0.00390625" fill="#b0b0b0"/>
+  <rect x="4.5" y="2.49609375" width="0.0078125" height="0.001953125" fill="#a0a0a0"/>
+  <rect x="5" y="2.498046875" width="0.00390625" height="0.0009765625" fill="#909090"/>
+  <rect x="5.5" y="2.4990234375" width="0.001953125" height="0.00048828125" fill="#808080"/>
+  <rect x="6" y="2.49951171875" width="0.0009765625" height="0.000244140625" fill="#707070"/>
+  <rect x="6.5" y="2.499755859375" width="0.00048828125" height="0.0001220703125" fill="#606060"/>
+  <rect x="7" y="2.4998779296875" width="0.000244140625" height="0.00006103515625" fill="#505050"/>
+  <rect x="7.5" y="2.49993896484375" width="0.0001220703125" height="0.000030517578125" fill="#404040"/>
+  <rect x="8" y="2.499969482421875" width="0.00006103515625" height="0.0000152587890625" fill="#303030"/>
+  <rect x="8.5" y="2.4999847412109375" width="0.000030517578125" height="0.00000762939453125" fill="#202020"/>
+  <rect x="9" y="2.4999923706054688" width="0.0000152587890625" height="0.000003814697265625" fill="#101010"/>
+  <rect x="9.5" y="2.4999961853027344" width="0.00000762939453125" height="0.0000019073486328125" fill="#000000"/>
+</svg>

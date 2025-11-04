@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1000 900" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size: 48px; font-weight: bold; }
+    .subtitle { font-family: Arial, sans-serif; font-size: 24px; fill: #888; }
+    .label { font-family: Arial, sans-serif; font-size: 16px; fill: #555; }
+    .value { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+    .pink { fill: #ff69b4; }
+    .purple { fill: #9370db; }
+    .gray { fill: #aaa; }
+    .text-pink { fill: #ff69b4; }
+    .text-purple { fill: #9370db; }
+    .body-text { font-family: Arial, sans-serif; font-size: 18px; line-height: 1.4; }
+  </style>
+
+  <!-- Title and subtitle -->
+  <text x="50" y="50" class="title">Plastic Waste is Out of Control</text>
+  <text x="50" y="100" class="subtitle">In 2015, humans threw out almost as much plastic as they made.</text>
+
+  <!-- Section headers -->
+  <text x="130" y="270" class="label" fill="#ff69b4">Plastic made (metric tonnes)</text>
+  <text x="610" y="270" class="label" fill="#9370db">Plastic thrown out (metric tonnes)</text>
+
+  <!-- Left bar chart: Plastic made -->
+  <g transform="translate(100, 300)">
+    <text x="-20" y="0" class="label" text-anchor="end">Industrial Machines</text>
+    <rect x="0" y="-5" width="30" height="10" class="pink"/>
+    <text x="35" y="5" class="value">3M</text>
+
+    <text x="-20" y="40" class="label" text-anchor="end">Electronics</text>
+    <rect x="0" y="35" width="180" height="10" class="pink"/>
+    <text x="185" y="45" class="value">18M</text>
+
+    <text x="-20" y="80" class="label" text-anchor="end">Transportation</text>
+    <rect x="0" y="75" width="270" height="10" class="pink"/>
+    <text x="275" y="85" class="value">27M</text>
+
+    <text x="-20" y="120" class="label" text-anchor="end">Consumer Products</text>
+    <rect x="0" y="115" width="420" height="10" class="pink"/>
+    <text x="425" y="125" class="value">42M</text>
+
+    <text x="-20" y="160" class="label" text-anchor="end">Other</text>
+    <rect x="0" y="155" width="470" height="10" class="pink"/>
+    <text x="475" y="165" class="value">47M</text>
+
+    <text x="-20" y="200" class="label" text-anchor="end">Textiles</text>
+    <rect x="0" y="195" width="590" height="10" class="pink"/>
+    <text x="595" y="205" class="value">59M</text>
+
+    <text x="-20" y="240" class="label" text-anchor="end">Construction</text>
+    <rect x="0" y="235" width="650" height="10" class="pink"/>
+    <text x="655" y="245" class="value">65M</text>
+
+    <text x="-20" y="280" class="label" text-anchor="end">Packaging</text>
+    <rect x="0" y="275" width="1460" height="10" class="pink"/>
+    <text x="1465" y="285" class="value">146M</text>
+
+    <text x="-20" y="320" class="label" text-anchor="end">Total</text>
+    <rect x="0" y="315" width="4070" height="10" class="pink"/>
+    <text x="4075" y="325" class="value">407M</text>
+  </g>
+
+  <!-- Right bar chart: Plastic thrown out -->
+  <g transform="translate(550, 300)">
+    <text x="-20" y="0" class="label" text-anchor="end">1M</text>
+    <rect x="0" y="-5" width="10" height="10" class="purple"/>
+    <text x="15" y="5" class="value">1M</text>
+
+    <text x="-20" y="40" class="label" text-anchor="end">13M</text>
+    <rect x="0" y="35" width="130" height="10" class="purple"/>
+    <text x="135" y="45" class="value">13M</text>
+
+    <text x="-20" y="80" class="label" text-anchor="end">17M</text>
+    <rect x="0" y="75" width="170" height="10" class="purple"/>
+    <text x="175" y="85" class="value">17M</text>
+
+    <text x="-20" y="120" class="label" text-anchor="end">37M</text>
+    <rect x="0" y="115" width="370" height="10" class="purple"/>
+    <text x="375" y="125" class="value">37M</text>
+
+    <text x="-20" y="160" class="label" text-anchor="end">38M</text>
+    <rect x="0" y="155" width="380" height="10" class="purple"/>
+    <text x="385" y="165" class="value">38M</text>
+
+    <text x="-20" y="200" class="label" text-anchor="end">42M</text>
+    <rect x="0" y="195" width="420" height="10" class="purple"/>
+    <text x="425" y="205" class="value">42M</text>
+
+    <text x="-20" y="240" class="label" text-anchor="end">13M</text>
+    <rect x="0" y="235" width="130" height="10" class="purple"/>
+    <text x="135" y="245" class="value">13M</text>
+
+    <text x="-20" y="280" class="label" text-anchor="end">141M</text>
+    <rect x="0" y="275" width="1410" height="10" class="purple"/>
+    <text x="1415" y="285" class="value">141M</text>
+
+    <text x="-20" y="320" class="label" text-anchor="end">Total</text>
+    <rect x="0" y="315" width="3020" height="10" class="purple"/>
+    <text x="3025" y="325" class="value">302M</text>
+  </g>
+
+  <!-- Bottom explanatory text with icon -->
+  <g transform="translate(50, 750)">
+    <!-- Bottle icon -->
+    <path d="M40,80 L40,100 L35,105 L30,100 L30,80 L35,75 Z M35,75 L35,55 L40,50 L30,50 Z" class="gray"/>
+    <path d="M35,55 L35,40 L40,35 L30,35 Z" class="gray"/>
+
+    <text x="60" y="50" class="body-text">
+      In 2015, humans produced <tspan class="text-pink">407 million metric tons of new plastic</tspan>, continuing the trend of making more and more plastic each year. Meanwhile, <tspan class="text-purple">302 million metric tons was discarded as waste</tspan>, meaning it wasn't recycled or incinerated; it's just sitting in a dump or the ocean somewhere.
+    </text>
+  </g>
+</svg>

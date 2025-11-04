@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="400" fill="#87CEEB"/>
+  
+  <!-- Ground/Grass -->
+  <rect y="400" width="800" height="200" fill="#90C850"/>
+  
+  <!-- Pedestal -->
+  <rect x="150" y="420" width="500" height="30" fill="#B8B8B8"/>
+  <rect x="170" y="450" width="460" height="20" fill="#A0A0A0"/>
+  
+  <!-- Left Figure -->
+  <g>
+    <!-- Body -->
+    <path d="M 200 250 Q 210 280 200 380 L 180 450 L 220 450 L 230 380 Q 240 300 230 250 Z" fill="#2C2C2C"/>
+    <!-- Head -->
+    <ellipse cx="215" cy="235" rx="18" ry="22" fill="#3A3A3A"/>
+    <!-- Left arm raised -->
+    <path d="M 205 270 Q 180 240 160 220 L 155 230 Q 175 250 200 280 Z" fill="#2C2C2C"/>
+    <!-- Right arm -->
+    <path d="M 225 270 Q 240 300 245 340 L 235 342 Q 230 305 220 280 Z" fill="#2C2C2C"/>
+    <!-- Drapery details -->
+    <path d="M 210 290 Q 215 320 210 360" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+    <path d="M 220 300 Q 225 330 220 370" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Center Figure -->
+  <g>
+    <!-- Body -->
+    <path d="M 380 220 Q 390 260 385 350 L 370 450 L 410 450 L 420 350 Q 430 280 420 220 Z" fill="#2C2C2C"/>
+    <!-- Head bowed -->
+    <ellipse cx="400" cy="205" rx="20" ry="24" fill="#3A3A3A"/>
+    <!-- Left arm -->
+    <path d="M 385 250 Q 360 280 350 320 L 360 325 Q 370 290 390 260 Z" fill="#2C2C2C"/>
+    <!-- Right arm -->
+    <path d="M 415 250 Q 440 280 450 320 L 440 325 Q 430 290 410 260 Z" fill="#2C2C2C"/>
+    <!-- Hood/cloak -->
+    <path d="M 380 210 Q 390 190 400 185 Q 410 190 420 210 L 415 220 Q 410 205 400 200 Q 390 205 385 220 Z" fill="#2C2C2C"/>
+    <!-- Drapery folds -->
+    <path d="M 390 270 Q 395 310 390 360" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+    <path d="M 400 270 Q 405 310 400 360" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+    <path d="M 410 270 Q 415 310 410 360" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Right Figure -->
+  <g>
+    <!-- Body -->
+    <path d="M 560 240 Q 570 280 565 370 L 550 450 L 590 450 L 600 370 Q 610 300 600 240 Z" fill="#2C2C2C"/>
+    <!-- Head -->
+    <ellipse cx="580" cy="225" rx="19" ry="23" fill="#3A3A3A"/>
+    <!-- Left arm -->
+    <path d="M 565 270 Q 545 300 540 340 L 550 342 Q 555 305 570 280 Z" fill="#2C2C2C"/>
+    <!-- Right arm extended -->
+    <path d="M 595 270 Q 620 260 645 255 L 647 265 Q 620 270 600 280 Z" fill="#2C2C2C"/>
+    <!-- Hat/head covering -->
+    <ellipse cx="580" cy="215" rx="22" ry="12" fill="#3A3A3A"/>
+    <!-- Drapery details -->
+    <path d="M 570 290 Q 575 330 570 370" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+    <path d="M 580 300 Q 585 340 580 380" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Background foliage suggestions -->
+  <ellipse cx="700" cy="200" rx="60" ry="80" fill="#5A8A3A" opacity="0.6"/>
+  <ellipse cx="100" cy="180" rx="50" ry="70" fill="#5A8A3A" opacity="0.6"/>
+  <ellipse cx="750" cy="250" rx="40" ry="60" fill="#5A8A3A" opacity="0.5"/>
+  
+  <!-- Shadows on ground -->
+  <ellipse cx="200" cy="455" rx="35" ry="8" fill="#000000" opacity="0.3"/>
+  <ellipse cx="390" cy="455" rx="40" ry="8" fill="#000000" opacity="0.3"/>
+  <ellipse cx="575" cy="455" rx="35" ry="8" fill="#000000" opacity="0.3"/>
+</svg>

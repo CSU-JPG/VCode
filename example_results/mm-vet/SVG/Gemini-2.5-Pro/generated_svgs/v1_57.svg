@@ -1,0 +1,227 @@
+<svg viewBox="0 0 850 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+
+  <style>
+    .title { font: bold 28px sans-serif; }
+    .subtitle { font: 16px sans-serif; fill: #555; }
+    .legend-text { font: 14px sans-serif; fill: #333; }
+    .axis-label { font: 14px sans-serif; fill: #333; }
+    .xaxis-text { font: 12px sans-serif; fill: #333; text-anchor: middle; }
+    .footer-text { font: 12px sans-serif; fill: #555; }
+    .indy100 { font: bold 22px sans-serif; fill: #e52920; }
+    .independent { font: bold italic 14px serif; fill: #333; }
+    .statista { font: bold 16px sans-serif; fill: #00468B; }
+  </style>
+
+  <text x="50" y="50" class="title">Team GB's most successful Olympic sports</text>
+  <text x="50" y="75" class="subtitle">Gold medals won by Team GB at the Summer Olympics (1996-2016)</text>
+
+  <!-- Legend -->
+  <g transform="translate(180, 100)">
+    <rect x="0" y="0" width="15" height="15" fill="#d92d3c"/>
+    <text x="22" y="13" class="legend-text">Rowing</text>
+    <rect x="90" y="0" width="15" height="15" fill="#f07f2d"/>
+    <text x="112" y="13" class="legend-text">Cycling</text>
+    <rect x="190" y="0" width="15" height="15" fill="#f5c423"/>
+    <text x="212" y="13" class="legend-text">Athletics</text>
+    <rect x="295" y="0" width="15" height="15" fill="#2d94d3"/>
+    <text x="317" y="13" class="legend-text">Sailing</text>
+    <rect x="385" y="0" width="15" height="15" fill="#4caf50"/>
+    <text x="407" y="13" class="legend-text">Boxing</text>
+  </g>
+
+  <!-- Chart Area -->
+  <g id="chart-area">
+    <!-- Y-axis and Grid Lines -->
+    <g id="y-axis" class="axis-label" text-anchor="end">
+      <line x1="70" y1="520" x2="770" y2="520" stroke="#cccccc"/>
+      <text x="60" y="525">0</text>
+      <line x1="70" y1="478.9" x2="770" y2="478.9" stroke="#e0e0e0"/>
+      <text x="60" y="483.9">1</text>
+      <line x1="70" y1="437.8" x2="770" y2="437.8" stroke="#e0e0e0"/>
+      <text x="60" y="442.8">2</text>
+      <line x1="70" y1="396.7" x2="770" y2="396.7" stroke="#e0e0e0"/>
+      <text x="60" y="401.7">3</text>
+      <line x1="70" y1="355.6" x2="770" y2="355.6" stroke="#e0e0e0"/>
+      <text x="60" y="360.6">4</text>
+      <line x1="70" y1="314.4" x2="770" y2="314.4" stroke="#e0e0e0"/>
+      <text x="60" y="319.4">5</text>
+      <line x1="70" y1="273.3" x2="770" y2="273.3" stroke="#e0e0e0"/>
+      <text x="60" y="278.3">6</text>
+      <line x1="70" y1="232.2" x2="770" y2="232.2" stroke="#e0e0e0"/>
+      <text x="60" y="237.2">7</text>
+      <line x1="70" y1="191.1" x2="770" y2="191.1" stroke="#e0e0e0"/>
+      <text x="60" y="196.1">8</text>
+      <line x1="70" y1="150" x2="770" y2="150" stroke="#e0e0e0"/>
+      <text x="60" y="155">9</text>
+    </g>
+
+    <!-- X-axis -->
+    <g id="x-axis" class="xaxis-text">
+      <!-- Atlanta 1996 -->
+      <g transform="translate(100, 535)">
+        <g transform="translate(-15, 0)">
+            <rect width="30" height="20" fill="#002868"/>
+            <rect y="2" width="30" height="2" fill="#FFFFFF"/>
+            <rect y="6" width="30" height="2" fill="#FFFFFF"/>
+            <rect y="10" width="30" height="2" fill="#FFFFFF"/>
+            <rect y="14" width="30" height="2" fill="#FFFFFF"/>
+            <rect y="18" width="30" height="2" fill="#FFFFFF"/>
+            <rect x="0" y="0" width="14" height="12" fill="#BF0A30"/>
+            <rect x="1" y="1" width="12" height="10" fill="#002868"/>
+        </g>
+        <text y="35">Atlanta</text>
+        <text y="50">1996</text>
+      </g>
+      <!-- Sydney 2000 -->
+      <g transform="translate(214, 535)">
+        <g transform="translate(-15, 0)">
+          <rect width="30" height="20" fill="#00008B" />
+          <path d="M0,0 L15,10 M15,0 L0,10" stroke="#FFFFFF" stroke-width="4" />
+          <path d="M0,0 L15,10 M15,0 L0,10" stroke="#D70000" stroke-width="2" />
+          <path d="M7.5,0 V10 M0,5 H15" stroke="#FFFFFF" stroke-width="6" />
+          <path d="M7.5,0 V10 M0,5 H15" stroke="#D70000" stroke-width="4" />
+        </g>
+        <text y="35">Sydney</text>
+        <text y="50">2000</text>
+      </g>
+      <!-- Athens 2004 -->
+      <g transform="translate(328, 535)">
+        <g transform="translate(-15, 0)">
+            <rect width="30" height="20" fill="#0D5EAF"/>
+            <path stroke="#FFFFFF" stroke-width="2.2" d="M0 2.2 H30 M0 6.6 H30 M0 11 H30 M0 15.4 H30 M0 19.8 H30"/>
+            <rect x="0" y="0" width="11" height="11" fill="#0D5EAF"/>
+            <path stroke="#FFFFFF" stroke-width="2.2" d="M5.5 0 V11 M0 5.5 H11"/>
+        </g>
+        <text y="35">Athens</text>
+        <text y="50">2004</text>
+      </g>
+      <!-- Beijing 2008 -->
+      <g transform="translate(442, 535)">
+        <g transform="translate(-15, 0)">
+            <rect width="30" height="20" fill="#EE1C25"/>
+            <path fill="#FFFF00" d="M6 4 L7.5 0 L9 4 L12 4 L9.5 6 L10.5 9 L7.5 7 L4.5 9 L5.5 6 L3 4 Z"/>
+            <path fill="#FFFF00" transform="translate(12,2) rotate(20) scale(0.4)" d="M6 4 L7.5 0 L9 4 L12 4 L9.5 6 L10.5 9 L7.5 7 L4.5 9 L5.5 6 L3 4 Z"/>
+            <path fill="#FFFF00" transform="translate(14,5) rotate(45) scale(0.4)" d="M6 4 L7.5 0 L9 4 L12 4 L9.5 6 L10.5 9 L7.5 7 L4.5 9 L5.5 6 L3 4 Z"/>
+            <path fill="#FFFF00" transform="translate(14,8) rotate(65) scale(0.4)" d="M6 4 L7.5 0 L9 4 L12 4 L9.5 6 L10.5 9 L7.5 7 L4.5 9 L5.5 6 L3 4 Z"/>
+            <path fill="#FFFF00" transform="translate(12,10) rotate(85) scale(0.4)" d="M6 4 L7.5 0 L9 4 L12 4 L9.5 6 L10.5 9 L7.5 7 L4.5 9 L5.5 6 L3 4 Z"/>
+        </g>
+        <text y="35">Beijing</text>
+        <text y="50">2008</text>
+      </g>
+      <!-- London 2012 -->
+      <g transform="translate(556, 535)">
+        <g transform="translate(-15, 0)">
+          <rect width="30" height="20" fill="#012169" />
+          <path d="M0,0 L30,20 M30,0 L0,20" stroke="#FFFFFF" stroke-width="6" />
+          <path d="M0,0 L30,20 M30,0 L0,20" stroke="#C8102E" stroke-width="2" />
+          <path d="M15,0 V20 M0,10 H30" stroke="#FFFFFF" stroke-width="10" />
+          <path d="M15,0 V20 M0,10 H30" stroke="#C8102E" stroke-width="6" />
+        </g>
+        <text y="35">London</text>
+        <text y="50">2012</text>
+      </g>
+      <!-- Rio 2016 -->
+      <g transform="translate(670, 535)">
+        <g transform="translate(-15, 0)">
+            <rect width="30" height="20" fill="#009B3A"/>
+            <path d="M15 2 L28 10 L15 18 L2 10 Z" fill="#FFCC29"/>
+            <circle cx="15" cy="10" r="4.5" fill="#002776"/>
+        </g>
+        <text y="35">Rio</text>
+        <text y="50">2016</text>
+      </g>
+    </g>
+    
+    <!-- Olympic Rings Background -->
+    <g id="olympic-rings" stroke="#000000" stroke-opacity="0.1" stroke-width="12" fill="none">
+        <circle cx="280" cy="280" r="70"/>
+        <circle cx="440" cy="280" r="70"/>
+        <circle cx="600" cy="280" r="70"/>
+        <circle cx="360" cy="350" r="70"/>
+        <circle cx="520" cy="350" r="70"/>
+    </g>
+    
+    <!-- Data Lines -->
+    <g id="data-lines" stroke-width="3" fill="none">
+        <!-- Athletics (Yellow) -->
+        <g stroke="#f5c423">
+            <polyline points="100,520 214,437.8 328,396.7 442,478.9 556,355.6 670,437.8"/>
+            <circle cx="100" cy="520" r="4" fill="#f5c423"/><circle cx="214" cy="437.8" r="4" fill="#f5c423"/><circle cx="328" cy="396.7" r="4" fill="#f5c423"/><circle cx="442" cy="478.9" r="4" fill="#f5c423"/><circle cx="556" cy="355.6" r="4" fill="#f5c423"/><circle cx="670" cy="437.8" r="4" fill="#f5c423"/>
+        </g>
+        <!-- Boxing (Green) -->
+        <g stroke="#4caf50">
+            <polyline points="100,520 214,478.9 328,520 442,478.9 556,396.7 670,478.9"/>
+            <circle cx="100" cy="520" r="4" fill="#4caf50"/><circle cx="214" cy="478.9" r="4" fill="#4caf50"/><circle cx="328" cy="520" r="4" fill="#4caf50"/><circle cx="442" cy="478.9" r="4" fill="#4caf50"/><circle cx="556" cy="396.7" r="4" fill="#4caf50"/><circle cx="670" cy="478.9" r="4" fill="#4caf50"/>
+        </g>
+        <!-- Sailing (Blue) -->
+        <g stroke="#2d94d3">
+            <polyline points="100,520 214,396.7 328,478.9 442,355.6 556,478.9 670,437.8"/>
+            <circle cx="100" cy="520" r="4" fill="#2d94d3"/><circle cx="214" cy="396.7" r="4" fill="#2d94d3"/><circle cx="328" cy="478.9" r="4" fill="#2d94d3"/><circle cx="442" cy="355.6" r="4" fill="#2d94d3"/><circle cx="556" cy="478.9" r="4" fill="#2d94d3"/><circle cx="670" cy="437.8" r="4" fill="#2d94d3"/>
+        </g>
+        <!-- Rowing (Red) -->
+        <g stroke="#d92d3c">
+            <polyline points="100,478.9 214,437.8 328,478.9 442,437.8 556,355.6 670,396.7"/>
+            <circle cx="100" cy="478.9" r="4" fill="#d92d3c"/><circle cx="214" cy="437.8" r="4" fill="#d92d3c"/><circle cx="328" cy="478.9" r="4" fill="#d92d3c"/><circle cx="442" cy="437.8" r="4" fill="#d92d3c"/><circle cx="556" cy="355.6" r="4" fill="#d92d3c"/><circle cx="670" cy="396.7" r="4" fill="#d92d3c"/>
+        </g>
+        <!-- Cycling (Orange) -->
+        <g stroke="#f07f2d">
+            <polyline points="100,520 214,478.9 328,437.8 442,191.1 556,191.1 670,273.3"/>
+            <circle cx="100" cy="520" r="4" fill="#f07f2d"/><circle cx="214" cy="478.9" r="4" fill="#f07f2d"/><circle cx="328" cy="437.8" r="4" fill="#f07f2d"/><circle cx="442" cy="191.1" r="4" fill="#f07f2d"/><circle cx="556" cy="191.1" r="4" fill="#f07f2d"/><circle cx="670" cy="273.3" r="4" fill="#f07f2d"/>
+        </g>
+    </g>
+
+    <!-- End of line icons -->
+    <g id="sport-icons" fill="#555">
+        <!-- Cycling -->
+        <g transform="translate(700, 265) scale(1.2)">
+            <circle cx="5" cy="8" r="4" stroke="#555" stroke-width="1" fill="none"/>
+            <circle cx="15" cy="8" r="4" stroke="#555" stroke-width="1" fill="none"/>
+            <path d="M15 8 L11 4 L9 8 L5 8" stroke="#555" stroke-width="1" fill="none"/>
+            <circle cx="11" cy="4" r="1"/>
+        </g>
+        <!-- Rowing -->
+        <g transform="translate(700, 388) scale(1.2)">
+            <path d="M0 8 Q10 12 20 8 L18 10 L2 10 Z" fill="#555"/>
+            <path d="M10 2 L 12 0 L 14 2" stroke="#555" stroke-width="1" fill="none"/>
+            <circle cx="10" cy="4" r="2"/>
+            <line x1="2" y1="2" x2="18" y2="8" stroke="#555" stroke-width="1"/>
+        </g>
+        <!-- Athletics -->
+        <g transform="translate(700, 430) scale(1.2)">
+            <circle cx="10" cy="3" r="2"/>
+            <path d="M10 5 L8 10 L12 12" stroke="#555" stroke-width="1.5" fill="none"/>
+            <path d="M8 10 L5 15" stroke="#555" stroke-width="1.5" fill="none"/>
+            <path d="M12 7 L16 5" stroke="#555" stroke-width="1.5" fill="none"/>
+        </g>
+        <!-- Sailing -->
+        <g transform="translate(700, 460) scale(1.2)">
+            <path d="M2 12 Q10 15 18 12 L16 13 L4 13 Z" />
+            <path d="M10 12 L10 2 L16 10 L10 10" />
+        </g>
+        <!-- Boxing -->
+        <g transform="translate(700, 490) scale(1.2)">
+            <path d="M5 12 L5 6 C5 4, 7 2, 9 2 H13 C15 2, 17 4, 17 6 V10 C17 12, 15 14, 13 14 H10Z"/>
+            <rect x="2" y="12" width="5" height="3" rx="1"/>
+        </g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g id="footer" transform="translate(0, 560)">
+    <g transform="translate(50, 20)">
+      <circle cx="8" cy="8" r="8" stroke="#555" stroke-width="1.5" fill="none"/>
+      <path d="M11 5 A 4 4 0 0 0 7 4" stroke="#555" stroke-width="1.5" fill="none"/>
+      <path d="M11 11 A 4 4 0 0 1 7 12" stroke="#555" stroke-width="1.5" fill="none"/>
+      <circle cx="8" cy="8" r="1.5" fill="#555"/>
+      <text x="25" y="12" class="footer-text">@StatistaCharts</text>
+      <text x="140" y="12" class="footer-text">Source: BBC</text>
+    </g>
+    <g transform="translate(580, 20)">
+      <text x="0" y="12" class="indy100">indy100</text>
+      <text x="75" y="8" class="footer-text" font-size="9">from</text>
+      <text x="100" y="12" class="independent">The INDEPENDENT</text>
+      <text x="220" y="12" class="statista">statista</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Current Source -->
+  <circle cx="50" cy="200" r="20" stroke="black" fill="none"/>
+  <line x1="50" y1="180" x2="50" y2="220" stroke="black"/>
+  <polygon points="47,220 50,225 53,220" fill="black"/>
+  <text x="70" y="200" alignment-baseline="middle" font-size="12">sin t u(t)</text>
+  
+  <!-- Resistors -->
+  <rect x="100" y="200" width="50" height="20" fill="none" stroke="black"/>
+  <text x="160" y="210" font-size="12">1Ω</text>
+  <rect x="100" y="230" width="50" height="20" fill="none" stroke="black"/>
+  <text x="160" y="240" font-size="12">1Ω</text>
+  
+  <!-- Dependent Voltage Source (αv₂) -->
+  <path d="M160,240 L180,260 L200,240 L180,220 Z" fill="none" stroke="black"/>
+  <text x="180" y="240" text-anchor="middle" alignment-baseline="middle" font-size="12">αv₂</text>
+  
+  <!-- Dependent Current Source (βi₁) -->
+  <path d="M240,240 L260,260 L280,240 L260,220 Z" fill="none" stroke="black"/>
+  <line x1="260" y1="220" x2="260" y2="260" stroke="black"/>
+  <polygon points="257,260 260,265 263,260" fill="black"/>
+  <text x="260" y="240" text-anchor="middle" alignment-baseline="middle" font-size="12">βi₁</text>
+  
+  <!-- Resistor 1/2Ω -->
+  <rect x="300" y="240" width="50" height="20" fill="none" stroke="black"/>
+  <text x="360" y="250" font-size="12">1/2 Ω</text>
+  
+  <!-- Capacitor -->
+  <line x1="370" y1="240" x2="370" y2="260" stroke="black"/>
+  <line x1="380" y1="240" x2="380" y2="260" stroke="black"/>
+  <text x="390" y="250" font-size="12">2F</text>
+  
+  <!-- Voltage Source tu(t) -->
+  <circle cx="400" cy="250" r="10" stroke="black" fill="none"/>
+  <text x="400" y="245" text-anchor="middle" font-size="12">+</text>
+  <text x="400" y="255" text-anchor="middle" font-size="12">-</text>
+  <text x="420" y="250" font-size="12">tu(t)</text>
+  
+  <!-- Ground -->
+  <line x1="50" y1="350" x2="70" y2="350" stroke="black"/>
+  <line x1="55" y1="360" x2="65" y2="360" stroke="black"/>
+  <line x1="60" y1="370" x2="60" y2="370" stroke="black"/>
+  
+  <!-- Connections -->
+  <line x1="50" y1="200" x2="100" y2="200" stroke="black"/>
+  <line x1="150" y1="210" x2="240" y2="210" stroke="black"/>
+  <line x1="150" y1="240" x2="240" y2="240" stroke="black"/>
+  <line x1="280" y1="240" x2="300" y2="240" stroke="black"/>
+  <line x1="350" y1="250" x2="370" y2="250" stroke="black"/>
+  <line x1="380" y1="250" x2="400" y2="250" stroke="black"/>
+  <line x1="400" y1="260" x2="400" y2="350" stroke="black"/>
+  <line x1="50" y1="350" x2="400" y2="350" stroke="black"/>
+  
+  <!-- Labels -->
+  <text x="200" y="380" font-size="12">α=1</text>
+  <text x="250" y="380" font-size="12">β=2</text>
+</svg>

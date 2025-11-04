@@ -1,0 +1,163 @@
+<svg viewBox="0 0 1366 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd3d7"/>
+      <stop offset="60%" stop-color="#b7bcc1"/>
+      <stop offset="100%" stop-color="#a6aaae"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b6e71"/>
+      <stop offset="100%" stop-color="#565a5f"/>
+    </linearGradient>
+    <pattern id="windows-small" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#7c8086"/>
+      <rect x="2" y="3" width="14" height="6" fill="#d9e2ea" opacity="0.65"/>
+    </pattern>
+    <pattern id="windows-large" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#858a90"/>
+      <rect x="3" y="4" width="18" height="8" fill="#e8eef6" opacity="0.7"/>
+    </pattern>
+    <radialGradient id="glass" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#e9edf2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9aa5b0" stop-opacity="0.9"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#sky)"/>
+
+  <!-- Far skyline silhouettes -->
+  <g opacity="0.95">
+    <rect x="100" y="120" width="290" height="370" fill="#6e7072"/>
+    <rect x="160" y="60" width="60" height="430" fill="#4d4f52"/>
+    <rect x="225" y="50" width="55" height="442" fill="#5a5c60"/>
+    <rect x="455" y="0" width="50" height="250" fill="#b9bcc0"/>
+    <rect x="505" y="0" width="150" height="455" fill="#d5d7da"/>
+    <rect x="655" y="75" width="150" height="380" fill="#a3a7ac"/>
+    <rect x="880" y="65" width="120" height="360" fill="#a6abb1"/>
+    <rect x="1000" y="85" width="210" height="330" fill="url(#windows-large)"/>
+    <rect x="1220" y="0" width="146" height="520" fill="#80858c"/>
+  </g>
+
+  <!-- Layered foreground buildings with windows -->
+  <g opacity="0.95">
+    <rect x="190" y="150" width="260" height="335" fill="url(#windows-small)"/>
+    <rect x="470" y="170" width="110" height="270" fill="#2a2f33" opacity="0.6"/>
+    <rect x="1020" y="380" width="200" height="70" fill="#cdd2d6"/>
+  </g>
+
+  <!-- Bridge railings -->
+  <g opacity="0.95">
+    <rect x="80" y="565" width="500" height="35" fill="#6a6b6c"/>
+    <rect x="760" y="565" width="526" height="35" fill="#6a6b6c"/>
+    <rect x="80" y="590" width="500" height="12" fill="#3f4042"/>
+    <rect x="760" y="590" width="526" height="12" fill="#3f4042"/>
+    <!-- posts left -->
+    <g fill="#4a4b4e">
+      <rect x="120" y="520" width="10" height="70"/>
+      <rect x="200" y="515" width="10" height="75"/>
+      <rect x="280" y="510" width="10" height="80"/>
+      <rect x="360" y="505" width="10" height="85"/>
+      <rect x="440" y="500" width="10" height="90"/>
+      <rect x="520" y="495" width="10" height="95"/>
+    </g>
+    <!-- posts right -->
+    <g fill="#4a4b4e">
+      <rect x="800" y="505" width="10" height="85"/>
+      <rect x="880" y="510" width="10" height="80"/>
+      <rect x="960" y="515" width="10" height="75"/>
+      <rect x="1040" y="520" width="10" height="70"/>
+      <rect x="1120" y="525" width="10" height="65"/>
+      <rect x="1200" y="530" width="10" height="60"/>
+      <rect x="1280" y="535" width="10" height="55"/>
+    </g>
+  </g>
+
+  <!-- Road -->
+  <polygon points="0,768 1366,768 1140,595 682,440 226,595" fill="url(#road)"/>
+  <!-- Lane markings -->
+  <line x1="682" y1="440" x2="690" y2="465" stroke="#e9edef" stroke-width="4"/>
+  <line x1="690" y1="465" x2="705" y2="505" stroke="#e9edef" stroke-width="4"/>
+  <line x1="705" y1="505" x2="725" y2="555" stroke="#e9edef" stroke-width="4"/>
+  <line x1="725" y1="555" x2="750" y2="615" stroke="#e9edef" stroke-width="4"/>
+  <line x1="750" y1="615" x2="780" y2="690" stroke="#e9edef" stroke-width="4"/>
+
+  <!-- Side dashed line -->
+  <line x1="940" y1="560" x2="1100" y2="760" stroke="#e9edef" stroke-width="6" stroke-dasharray="18 18" opacity="0.8"/>
+
+  <!-- Street lights -->
+  <g fill="#3b3e41">
+    <rect x="170" y="155" width="18" height="320"/>
+    <rect x="210" y="160" width="18" height="310"/>
+    <rect x="1180" y="125" width="18" height="355"/>
+    <rect x="1080" y="300" width="12" height="110"/>
+    <rect x="720" y="300" width="12" height="110"/>
+  </g>
+  <!-- Lamp heads -->
+  <g>
+    <ellipse cx="179" cy="150" rx="22" ry="18" fill="#333639"/>
+    <ellipse cx="219" cy="145" rx="22" ry="18" fill="#333639"/>
+    <ellipse cx="1189" cy="120" rx="22" ry="18" fill="#333639"/>
+    <ellipse cx="1086" cy="295" rx="10" ry="8" fill="#333639"/>
+    <ellipse cx="726" cy="295" rx="10" ry="8" fill="#333639"/>
+  </g>
+
+  <!-- Traffic signal on left -->
+  <g transform="translate(28,210)">
+    <rect x="0" y="0" width="26" height="130" fill="#2b2e30" rx="6"/>
+    <circle cx="13" cy="20" r="10" fill="#2b2e30"/>
+    <circle cx="13" cy="55" r="13" fill="#38cc6a"/>
+    <circle cx="13" cy="95" r="10" fill="#2b2e30"/>
+  </g>
+
+  <!-- Cars -->
+  <!-- Center small car -->
+  <g transform="translate(665,442)">
+    <rect x="-18" y="0" width="36" height="18" rx="4" fill="#b9c1c7" stroke="#7b8388" stroke-width="2"/>
+    <rect x="-22" y="8" width="44" height="16" rx="4" fill="#8d9399"/>
+    <rect x="-16" y="2" width="32" height="10" rx="2" fill="url(#glass)"/>
+    <circle cx="-10" cy="26" r="4" fill="#2b2f33"/>
+    <circle cx="10" cy="26" r="4" fill="#2b2f33"/>
+  </g>
+
+  <!-- Van (inside red box) -->
+  <g transform="translate(462,420)">
+    <rect x="0" y="10" width="52" height="26" rx="4" fill="#cfd6da" stroke="#8b9094" stroke-width="2"/>
+    <rect x="6" y="0" width="40" height="18" rx="3" fill="url(#glass)"/>
+    <circle cx="12" cy="40" r="6" fill="#2b2f33"/>
+    <circle cx="40" cy="40" r="6" fill="#2b2f33"/>
+    <rect x="18" y="20" width="16" height="6" fill="#7c7f83"/>
+  </g>
+
+  <!-- Left cluster cars -->
+  <g transform="translate(325,438)">
+    <rect x="0" y="12" width="34" height="16" rx="3" fill="#aeb6bb" stroke="#7f878c" stroke-width="2"/>
+    <rect x="5" y="4" width="24" height="10" rx="2" fill="url(#glass)"/>
+    <circle cx="7" cy="32" r="4" fill="#2b2f33"/>
+    <circle cx="27" cy="32" r="4" fill="#2b2f33"/>
+  </g>
+
+  <!-- Traffic cones on right -->
+  <g transform="translate(1120,555)">
+    <polygon points="0,110 34,110 24,0 10,0" fill="#ef7f32"/>
+    <polygon points="5,50 29,50 27,30 7,30" fill="#f7f4ee"/>
+    <polygon points="2,80 31,80 30,65 3,65" fill="#f7f4ee"/>
+    <rect x="-12" y="108" width="58" height="14" rx="6" fill="#3c3f42"/>
+  </g>
+  <g transform="translate(1320,590) scale(0.6)">
+    <polygon points="0,110 34,110 24,0 10,0" fill="#ef7f32"/>
+    <polygon points="5,50 29,50 27,30 7,30" fill="#f7f4ee"/>
+    <polygon points="2,80 31,80 30,65 3,65" fill="#f7f4ee"/>
+    <rect x="-12" y="108" width="58" height="14" rx="6" fill="#3c3f42"/>
+  </g>
+
+  <!-- Welcome sign (stylized circle) -->
+  <g transform="translate(250,420)">
+    <circle cx="-20" cy="10" r="40" fill="#1f3c54"/>
+    <text x="-20" y="14" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e8f2ff" text-anchor="middle">WELCOME</text>
+  </g>
+
+  <!-- Bounding boxes -->
+  <rect x="180" y="415" width="180" height="90" fill="none" stroke="#2a6bff" stroke-width="4"/>
+  <rect x="438" y="404" width="78" height="72" fill="none" stroke="#ff2a2a" stroke-width="4"/>
+</svg>

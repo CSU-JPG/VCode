@@ -1,0 +1,164 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Ambient light -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9ecef"/>
+      <stop offset="0.45" stop-color="#f2efe9"/>
+      <stop offset="1" stop-color="#fffdf8"/>
+    </linearGradient>
+
+    <!-- Brick pattern -->
+    <pattern id="brick" patternUnits="userSpaceOnUse" width="28" height="14">
+      <rect width="28" height="14" fill="#d7b088"/>
+      <rect x="0" y="0" width="28" height="14" fill="none" stroke="#c89a6e" stroke-width="0.6"/>
+      <path d="M0 7 H28" stroke="#c08b62" stroke-width="0.8" opacity="0.6"/>
+      <path d="M0 0 V7 M14 7 V14" stroke="#b07c57" stroke-width="0.8" opacity="0.6"/>
+    </pattern>
+
+    <!-- Darker brick for depth -->
+    <pattern id="brickDark" patternUnits="userSpaceOnUse" width="26" height="13">
+      <rect width="26" height="13" fill="#cda177"/>
+      <rect x="0" y="0" width="26" height="13" fill="none" stroke="#b9865b" stroke-width="0.6"/>
+      <path d="M0 6.5 H26" stroke="#a56f4b" stroke-width="0.8" opacity="0.6"/>
+      <path d="M0 0 V6.5 M13 6.5 V13" stroke="#995f41" stroke-width="0.8" opacity="0.6"/>
+    </pattern>
+
+    <!-- Wood floor -->
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9b6b42"/>
+      <stop offset="0.5" stop-color="#b48052"/>
+      <stop offset="1" stop-color="#7f593c"/>
+    </linearGradient>
+
+    <pattern id="planks" patternUnits="userSpaceOnUse" width="80" height="22">
+      <rect width="80" height="22" fill="url(#wood)"/>
+      <path d="M0 1 H80 M0 21 H80" stroke="#6a4a36" stroke-width="0.6" opacity="0.25"/>
+      <path d="M0 0 V22 M40 0 V22" stroke="#6a4a36" stroke-width="0.7" opacity="0.35"/>
+      <path d="M10 0 V22 M70 0 V22" stroke="#6a4a36" stroke-width="0.3" opacity="0.18"/>
+    </pattern>
+
+    <!-- Glass sheen -->
+    <linearGradient id="glass" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#cfe1ef" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#8fb0c7" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- Metal -->
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2f35"/>
+      <stop offset="1" stop-color="#4b5056"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1024" height="768" fill="url(#bg)"/>
+
+  <!-- Right brick wall (perspective) -->
+  <polygon points="665,0 1024,0 1024,768 740,708 640,120" fill="url(#brick)"/>
+  <!-- Center brick column/wall -->
+  <polygon points="560,50 640,30 685,420 620,430" fill="url(#brickDark)"/>
+
+  <!-- Left brick wall behind windows -->
+  <polygon points="0,180 248,190 320,520 0,558" fill="url(#brickDark)"/>
+
+  <!-- Ceiling beams -->
+  <g fill="#f8f7f3">
+    <polygon points="130,150 380,160 370,188 120,178"/>
+    <polygon points="370,110 700,90 690,118 360,138"/>
+    <polygon points="5,120 250,132 245,150 0,140"/>
+  </g>
+
+  <!-- Upper window band and frames -->
+  <g stroke="black" stroke-opacity="0.7" stroke-width="6" fill="url(#glass)" filter="url(#softShadow)">
+    <polygon points="330,210 620,120 640,300 350,380"/>
+    <polygon points="352,220 387,208 402,332 366,350" fill="none"/>
+    <polygon points="412,205 450,192 466,318 430,333" fill="none"/>
+    <polygon points="475,184 512,170 530,304 494,318" fill="none"/>
+    <polygon points="540,162 575,148 592,286 558,299" fill="none"/>
+  </g>
+
+  <!-- Pendant light cables -->
+  <g stroke="#2b2b2b" stroke-width="3">
+    <line x1="460" y1="200" x2="480" y2="350"/>
+    <line x1="520" y1="182" x2="540" y2="342"/>
+  </g>
+  <!-- Pendant lamp shades -->
+  <g fill="#d1c6b8" stroke="#7a6a55" stroke-width="2" filter="url(#softShadow)">
+    <ellipse cx="485" cy="368" rx="42" ry="18"/>
+    <ellipse cx="545" cy="360" rx="42" ry="18"/>
+  </g>
+
+  <!-- Dining table area -->
+  <g stroke="#2f2f2f" stroke-width="5" fill="none">
+    <rect x="400" y="410" width="260" height="120" rx="4" ry="4"/>
+    <line x1="430" y1="530" x2="420" y2="590"/>
+    <line x1="630" y1="530" x2="640" y2="600"/>
+  </g>
+
+  <!-- Shelves on right wall -->
+  <g stroke="#333" stroke-width="4" fill="#d8d0c6">
+    <rect x="720" y="260" width="130" height="20"/>
+    <rect x="710" y="300" width="140" height="20"/>
+  </g>
+
+  <!-- Wooden floor with steps/platforms -->
+  <polygon points="0,560 1024,500 1024,768 0,768" fill="url(#planks)"/>
+  <!-- Step ledges -->
+  <g fill="#876142">
+    <polygon points="0,560 350,540 360,560 0,580"/>
+    <polygon points="300,580 800,540 810,560 310,600"/>
+  </g>
+
+  <!-- Left staircase (simplified) -->
+  <g fill="#1f2022">
+    <polygon points="40,220 70,220 150,520 120,520"/>
+    <polygon points="70,240 180,240 190,260 75,260"/>
+    <polygon points="90,280 210,280 220,300 95,300"/>
+    <polygon points="110,320 240,320 250,340 115,340"/>
+    <polygon points="130,360 270,360 280,380 135,380"/>
+    <polygon points="150,400 300,400 310,420 155,420"/>
+  </g>
+
+  <!-- Window grid on left -->
+  <g stroke="#0f0f10" stroke-width="8" fill="url(#glass)" filter="url(#softShadow)">
+    <rect x="160" y="210" width="180" height="210"/>
+    <line x1="250" y1="210" x2="250" y2="420"/>
+    <line x1="160" y1="310" x2="340" y2="310"/>
+  </g>
+
+  <!-- Front low table -->
+  <g filter="url(#softShadow)">
+    <rect x="50" y="630" width="200" height="70" rx="4" ry="4" fill="#c9b9a2" stroke="#6e5f4e" stroke-width="3"/>
+    <rect x="70" y="630" width="12" height="70" fill="#4c3e32"/>
+    <rect x="220" y="630" width="12" height="70" fill="#4c3e32"/>
+  </g>
+
+  <!-- Books on table -->
+  <g>
+    <rect x="92" y="650" width="96" height="14" fill="#f6f6f6" stroke="#bbbbbb"/>
+    <rect x="88" y="662" width="110" height="16" fill="#e9eefc" stroke="#8da3d9"/>
+    <rect x="96" y="678" width="84" height="14" fill="#ffffff" stroke="#cccccc"/>
+    <line x1="100" y1="656" x2="176" y2="656" stroke="#9cb2e8" stroke-width="2"/>
+  </g>
+
+  <!-- Small vase with flower on step -->
+  <g filter="url(#softShadow)">
+    <ellipse cx="72" cy="606" rx="18" ry="10" fill="#a6d1a8" stroke="#6ea06f"/>
+    <rect x="68" y="592" width="8" height="14" fill="#7fb27f"/>
+    <circle cx="72" cy="585" r="8" fill="#99cc66" stroke="#6ea06f"/>
+  </g>
+
+  <!-- Rug -->
+  <rect x="220" y="720" width="400" height="40" fill="#7b6d5b" opacity="0.35"/>
+
+  <!-- Blue highlighted rectangle around books -->
+  <rect x="60" y="640" width="180" height="70" fill="none" stroke="#2d55ff" stroke-width="6"/>
+
+  <!-- Red highlighted rectangles (upper area and pendant lights) -->
+  <rect x="342" y="180" width="320" height="170" fill="none" stroke="#ff2a2a" stroke-width="6"/>
+  <rect x="454" y="332" width="140" height="70" fill="none" stroke="#ff2a2a" stroke-width="6"/>
+</svg>

@@ -1,0 +1,80 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left coil/inductor -->
+  <ellipse cx="80" cy="50" rx="25" ry="15" fill="none" stroke="black" stroke-width="2"/>
+  <ellipse cx="320" cy="50" rx="25" ry="15" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Left coil body -->
+  <line x1="55" y1="50" x2="55" y2="70" stroke="black" stroke-width="2"/>
+  <line x1="345" y1="50" x2="345" y2="70" stroke="black" stroke-width="2"/>
+  <line x1="55" y1="70" x2="345" y2="70" stroke="black" stroke-width="2"/>
+  
+  <!-- Left coil windings -->
+  <path d="M 80,50 Q 80,30 95,30 Q 95,50 95,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 110,50 Q 110,30 125,30 Q 125,50 125,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 140,50 Q 140,30 155,30 Q 155,50 155,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 170,50 Q 170,30 185,30 Q 185,50 185,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 200,50 Q 200,30 215,30 Q 215,50 215,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 230,50 Q 230,30 245,30 Q 245,50 245,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 260,50 Q 260,30 275,30 Q 275,50 275,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 290,50 Q 290,30 305,30 Q 305,50 305,70" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Right coil/inductor -->
+  <ellipse cx="430" cy="50" rx="25" ry="15" fill="none" stroke="black" stroke-width="2"/>
+  <ellipse cx="560" cy="50" rx="25" ry="15" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Right coil body -->
+  <line x1="405" y1="50" x2="405" y2="70" stroke="black" stroke-width="2"/>
+  <line x1="585" y1="50" x2="585" y2="70" stroke="black" stroke-width="2"/>
+  <line x1="405" y1="70" x2="585" y2="70" stroke="black" stroke-width="2"/>
+  
+  <!-- Right coil windings -->
+  <path d="M 430,50 Q 430,30 445,30 Q 445,50 445,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 460,50 Q 460,30 475,30 Q 475,50 475,70" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 490,50 Q 490,30 505,30 Q 505,50 505,70" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Left circuit connections -->
+  <line x1="55" y1="70" x2="55" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="345" y1="70" x2="345" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- Left resistor -->
+  <path d="M 55,150 L 70,140 L 85,160 L 100,140 L 115,160 L 130,140 L 145,150" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Left capacitor -->
+  <line x1="145" y1="130" x2="145" y2="170" stroke="black" stroke-width="3"/>
+  <line x1="155" y1="130" x2="155" y2="170" stroke="black" stroke-width="3"/>
+  
+  <!-- Connection to bottom -->
+  <line x1="155" y1="150" x2="345" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="345" y1="150" x2="345" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- Bottom connection -->
+  <line x1="55" y1="250" x2="345" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- R_Left label -->
+  <text x="90" y="210" font-family="serif" font-size="18" font-weight="bold">R</text>
+  <text x="102" y="215" font-family="serif" font-size="14">Left</text>
+  
+  <!-- Right circuit connections -->
+  <line x1="405" y1="70" x2="405" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="585" y1="70" x2="585" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- Right current source (circle with arrow) -->
+  <circle cx="495" cy="180" r="25" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 495,165 L 495,190" stroke="black" stroke-width="2"/>
+  <path d="M 495,165 L 490,175 M 495,165 L 500,175" stroke="black" stroke-width="2"/>
+  
+  <!-- Right resistor (zigzag) -->
+  <path d="M 495,205 L 500,215 L 490,225 L 500,235 L 490,245 L 500,255 L 495,265" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Right circuit connections -->
+  <line x1="405" y1="150" x2="495" y2="150" stroke="black" stroke-width="2"/>
+  <line x1="495" y1="150" x2="495" y2="155" stroke="black" stroke-width="2"/>
+  <line x1="495" y1="265" x2="495" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="405" y1="270" x2="585" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="405" y1="150" x2="405" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="585" y1="70" x2="585" y2="270" stroke="black" stroke-width="2"/>
+  
+  <!-- R_right label -->
+  <text x="510" y="240" font-family="serif" font-size="18" font-weight="bold">R</text>
+  <text x="522" y="245" font-family="serif" font-size="14">right</text>
+</svg>

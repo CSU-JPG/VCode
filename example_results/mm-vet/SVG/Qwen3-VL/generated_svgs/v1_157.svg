@@ -1,0 +1,18 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <circle cx="250" cy="200" r="180" fill="#fff"/>
+  <circle cx="200" cy="150" r="40" fill="#000"/>
+  <circle cx="300" cy="150" r="40" fill="#000"/>
+  <ellipse cx="250" cy="300" rx="120" ry="100" fill="#000"/>
+  <text x="250" y="320" font-family="Arial" font-size="60" fill="#fff" text-anchor="middle">妈！</text>
+  <polygon points="180,100 160,70 140,90" fill="#000"/>
+  <polygon points="320,100 340,70 360,90" fill="#000"/>
+  <g stroke="#66ccff" stroke-width="3" fill="none">
+    <line x1="220" y1="180" x2="200" y2="160"/>
+    <line x1="230" y1="170" x2="210" y2="150"/>
+    <line x1="240" y1="160" x2="220" y2="140"/>
+    <line x1="260" y1="160" x2="280" y2="140"/>
+    <line x1="270" y1="170" x2="290" y2="150"/>
+    <line x1="280" y1="180" x2="300" y2="160"/>
+  </g>
+</svg>

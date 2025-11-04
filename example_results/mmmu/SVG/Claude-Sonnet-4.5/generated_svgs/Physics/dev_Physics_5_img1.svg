@@ -1,0 +1,62 @@
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Battery -->
+  <rect x="20" y="50" width="30" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="15" y1="70" x2="15" y2="90" stroke="black" stroke-width="3"/>
+  <line x1="10" y1="75" x2="10" y2="85" stroke="black" stroke-width="3"/>
+  <line x1="5" y1="78" x2="5" y2="82" stroke="black" stroke-width="2"/>
+  <text x="15" y="140" font-family="Arial" font-size="12">Battery</text>
+  
+  <!-- Wire from battery to ammeter -->
+  <line x1="50" y1="50" x2="80" y2="50" stroke="black" stroke-width="2"/>
+  
+  <!-- Ammeter (circle with A) -->
+  <circle cx="105" cy="50" r="18" fill="none" stroke="black" stroke-width="2"/>
+  <text x="98" y="57" font-family="Arial" font-size="16" font-weight="bold">A</text>
+  
+  <!-- Wire from ammeter to resistor -->
+  <line x1="123" y1="50" x2="180" y2="50" stroke="black" stroke-width="2"/>
+  
+  <!-- 20Ω Resistor (zigzag) -->
+  <path d="M 180 50 l 8 -8 l 8 16 l 8 -16 l 8 16 l 8 -16 l 8 16 l 8 -8" fill="none" stroke="black" stroke-width="2"/>
+  <text x="197" y="30" font-family="Arial" font-size="14">20Ω</text>
+  
+  <!-- Wire from resistor to junction -->
+  <line x1="236" y1="50" x2="270" y2="50" stroke="black" stroke-width="2"/>
+  
+  <!-- Junction point -->
+  <circle cx="270" cy="50" r="3" fill="black"/>
+  
+  <!-- Wire going right from junction -->
+  <line x1="270" y1="50" x2="380" y2="50" stroke="black" stroke-width="2"/>
+  
+  <!-- Wire going down from junction to 15Ω -->
+  <line x1="270" y1="50" x2="270" y2="100" stroke="black" stroke-width="2"/>
+  
+  <!-- 15Ω Resistor (zigzag vertical) -->
+  <path d="M 270 100 l -8 8 l 16 8 l -16 8 l 16 8 l -16 8 l 16 8 l -8 8" fill="none" stroke="black" stroke-width="2"/>
+  <text x="245" y="130" font-family="Arial" font-size="14">15Ω</text>
+  
+  <!-- Wire from 15Ω down -->
+  <line x1="270" y1="156" x2="270" y2="160" stroke="black" stroke-width="2"/>
+  
+  <!-- 30Ω Resistor (zigzag vertical) -->
+  <path d="M 340 50 l -8 8 l 16 8 l -16 8 l 16 8 l -16 8 l 16 8 l -8 8" fill="none" stroke="black" stroke-width="2"/>
+  <text x="315" y="80" font-family="Arial" font-size="14">30Ω</text>
+  
+  <!-- Wire from 30Ω down -->
+  <line x1="340" y1="106" x2="340" y2="160" stroke="black" stroke-width="2"/>
+  
+  <!-- Bottom wire junction to switch -->
+  <line x1="270" y1="160" x2="340" y2="160" stroke="black" stroke-width="2"/>
+  <circle cx="305" cy="160" r="3" fill="black"/>
+  
+  <!-- Switch -->
+  <line x1="305" y1="160" x2="315" y2="150" stroke="black" stroke-width="2"/>
+  <circle cx="305" cy="160" r="2" fill="black"/>
+  <circle cx="318" cy="148" r="2" fill="black"/>
+  <text x="315" y="175" font-family="Arial" font-size="14">S</text>
+  
+  <!-- Wire from switch back to battery -->
+  <line x1="50" y1="110" x2="50" y2="160" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="160" x2="305" y2="160" stroke="black" stroke-width="2"/>
+</svg>

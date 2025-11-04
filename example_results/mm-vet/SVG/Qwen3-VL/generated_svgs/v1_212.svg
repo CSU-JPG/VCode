@@ -1,0 +1,88 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font-weight: bold; fill: #333; font-family: Arial, sans-serif; }
+    .cell { fill: #333; font-family: Arial, sans-serif; }
+    .header-bg { fill: #e0e0e0; stroke: #333; stroke-width: 1; }
+    .cell-bg { fill: white; stroke: #333; stroke-width: 1; }
+    .title { font-size: 18px; font-weight: bold; fill: #333; font-family: Arial, sans-serif; text-anchor: middle; }
+  </style>
+
+  <!-- Title -->
+  <text x="250" y="25" class="title">Underground Railway Systems</text>
+
+  <!-- Table structure -->
+  <rect x="30" y="40" width="440" height="290" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <rect x="30" y="40" width="110" height="40" class="header-bg"/>
+  <rect x="140" y="40" width="110" height="40" class="header-bg"/>
+  <rect x="250" y="40" width="110" height="40" class="header-bg"/>
+  <rect x="360" y="40" width="110" height="40" class="header-bg"/>
+
+  <text x="85" y="65" class="header" text-anchor="middle">City</text>
+  <text x="195" y="65" class="header" text-anchor="middle">Date opened</text>
+  <text x="305" y="65" class="header" text-anchor="middle">Kilometres of route</text>
+  <text x="415" y="55" class="header" text-anchor="middle">Passengers per year</text>
+  <text x="415" y="75" class="header" text-anchor="middle">(in millions)</text>
+
+  <!-- Data rows -->
+  <!-- Row 1 -->
+  <rect x="30" y="80" width="110" height="40" class="cell-bg"/>
+  <rect x="140" y="80" width="110" height="40" class="cell-bg"/>
+  <rect x="250" y="80" width="110" height="40" class="cell-bg"/>
+  <rect x="360" y="80" width="110" height="40" class="cell-bg"/>
+  <text x="85" y="105" class="cell" text-anchor="middle">London</text>
+  <text x="195" y="105" class="cell" text-anchor="middle">1863</text>
+  <text x="305" y="105" class="cell" text-anchor="middle">394</text>
+  <text x="415" y="105" class="cell" text-anchor="middle">775</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="120" width="110" height="40" class="cell-bg"/>
+  <rect x="140" y="120" width="110" height="40" class="cell-bg"/>
+  <rect x="250" y="120" width="110" height="40" class="cell-bg"/>
+  <rect x="360" y="120" width="110" height="40" class="cell-bg"/>
+  <text x="85" y="145" class="cell" text-anchor="middle">Paris</text>
+  <text x="195" y="145" class="cell" text-anchor="middle">1900</text>
+  <text x="305" y="145" class="cell" text-anchor="middle">199</text>
+  <text x="415" y="145" class="cell" text-anchor="middle">1191</text>
+
+  <!-- Row 3 -->
+  <rect x="30" y="160" width="110" height="40" class="cell-bg"/>
+  <rect x="140" y="160" width="110" height="40" class="cell-bg"/>
+  <rect x="250" y="160" width="110" height="40" class="cell-bg"/>
+  <rect x="360" y="160" width="110" height="40" class="cell-bg"/>
+  <text x="85" y="185" class="cell" text-anchor="middle">Tokyo</text>
+  <text x="195" y="185" class="cell" text-anchor="middle">1927</text>
+  <text x="305" y="185" class="cell" text-anchor="middle">155</text>
+  <text x="415" y="185" class="cell" text-anchor="middle">1927</text>
+
+  <!-- Row 4 -->
+  <rect x="30" y="200" width="110" height="40" class="cell-bg"/>
+  <rect x="140" y="200" width="110" height="40" class="cell-bg"/>
+  <rect x="250" y="200" width="110" height="40" class="cell-bg"/>
+  <rect x="360" y="200" width="110" height="40" class="cell-bg"/>
+  <text x="85" y="225" class="cell" text-anchor="middle">Washington DC</text>
+  <text x="195" y="225" class="cell" text-anchor="middle">1976</text>
+  <text x="305" y="225" class="cell" text-anchor="middle">126</text>
+  <text x="415" y="225" class="cell" text-anchor="middle">144</text>
+
+  <!-- Row 5 -->
+  <rect x="30" y="240" width="110" height="40" class="cell-bg"/>
+  <rect x="140" y="240" width="110" height="40" class="cell-bg"/>
+  <rect x="250" y="240" width="110" height="40" class="cell-bg"/>
+  <rect x="360" y="240" width="110" height="40" class="cell-bg"/>
+  <text x="85" y="265" class="cell" text-anchor="middle">Kyoto</text>
+  <text x="195" y="265" class="cell" text-anchor="middle">1981</text>
+  <text x="305" y="265" class="cell" text-anchor="middle">11</text>
+  <text x="415" y="265" class="cell" text-anchor="middle">45</text>
+
+  <!-- Row 6 -->
+  <rect x="30" y="280" width="110" height="40" class="cell-bg"/>
+  <rect x="140" y="280" width="110" height="40" class="cell-bg"/>
+  <rect x="250" y="280" width="110" height="40" class="cell-bg"/>
+  <rect x="360" y="280" width="110" height="40" class="cell-bg"/>
+  <text x="85" y="305" class="cell" text-anchor="middle">Los Angeles</text>
+  <text x="195" y="305" class="cell" text-anchor="middle">2001</text>
+  <text x="305" y="305" class="cell" text-anchor="middle">28</text>
+  <text x="415" y="305" class="cell" text-anchor="middle">50</text>
+</svg>

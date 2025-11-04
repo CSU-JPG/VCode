@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(173,216,230);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,139);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" fill="#6B8E23" />
+  <path d="M0 450 C100 400, 200 440, 300 410 S 500 450, 600 420 S 800 450, 800 450 L800 250 C700 300, 600 260, 500 290 S 300 250, 200 280 S 0 250, 0 250 Z" fill="#556B2F" opacity="0.6"/>
+  <path d="M0 450 C150 420, 250 450, 350 430 S 550 440, 650 410 S 800 430, 800 450 Z" fill="#8FBC8F" opacity="0.5"/>
+  <g transform="translate(560, 260) scale(0.9)">
+    <path d="M60 170 C50 140, 40 120, 50 100 Q60 80, 80 85 C100 90, 115 80, 125 95 C135 110, 140 140, 130 170 L110 180 L80 185 Z" fill="#C4A484"/>
+    <path d="M80 85 C75 75, 80 65, 85 60 C90 65, 95 75, 90 85 Z" fill="#D2B48C"/>
+    <path d="M115 80 C120 70, 125 65, 130 65 C135 70, 130 75, 125 80 Z" fill="#D2B48C"/>
+    <path d="M125 95 C120 100, 110 105, 105 100 C100 95, 105 90, 110 95" fill="#2F1B13"/>
+    <path d="M90 110 L110 110 L100 125 Z" fill="#FAEBD7"/>
+    <path d="M65 110 C75 100, 85 105, 90 115" stroke="#2F1B13" stroke-width="3" fill="none"/>
+    <path d="M130 120 C120 110, 110 115, 105 125" stroke="#2F1B13" stroke-width="3" fill="none"/>
+    <path d="M60 140 C80 130, 120 130, 140 140" stroke="#2F1B13" stroke-width="4" fill="none"/>
+    <path d="M130 170 C120 180, 100 185, 80 185 C60 185, 40 180, 50 170" fill="#2F1B13" opacity="0.1"/>
+  </g>
+  <g transform="translate(180, 190)">
+    <path d="M80 50 C40 60, 20 100, 30 150 C40 200, 80 230, 120 230 C160 230, 190 200, 190 150 C190 100, 160 60, 120 50 L110 40 L90 40 Z" fill="#C0C0C0"/>
+    <path d="M80 50 C85 40, 95 30, 100 35 C105 40, 95 50, 90 55 Z" fill="#E5E4E2"/>
+    <path d="M120 50 C115 40, 105 30, 100 35 C95 40, 105 50, 110 55 Z" fill="#E5E4E2"/>
+    <path d="M100 35 C102 25, 100 15, 90 18 C80 21, 83 35, 85 40" fill="#F5F5DC"/>
+    <path d="M100 35 C98 25, 100 15, 110 18 C120 21, 117 35, 115 40" fill="#F5F5DC"/>
+    <path d="M30 150 C40 130, 60 120, 80 120 C100 120, 110 130, 110 150" stroke="#696969" stroke-width="10" fill="none"/>
+    <path d="M190 150 C180 130, 160 120, 140 120 C120 120, 110 130, 110 150" stroke="#696969" stroke-width="10" fill="none"/>
+    <path d="M70 80 L130 80 Q100 70, 70 80" stroke="#696969" stroke-width="8" fill="none"/>
+    <path d="M90 60 L110 60 L100 75 Z" fill="#696969"/>
+    <path d="M40 210 L180 210 C170 240, 50 240, 40 210" fill="#FFFFFF"/>
+    <path d="M90 230 L110 230 L100 200 Z" fill="#FFFFFF"/>
+    <path d="M80 110 C85 100, 95 100, 100 110 C100 115, 95 120, 85 118 Z" fill="url(#grad1)"/>
+    <path d="M120 110 C115 100, 105 100, 100 110 C100 115, 105 120, 115 118 Z" fill="url(#grad1)"/>
+    <circle cx="90" cy="112" r="3" fill="black"/>
+    <circle cx="110" cy="112" r="3" fill="black"/>
+    <path d="M100 130 L100 140 M95 135 L105 135" stroke="#FFC0CB" stroke-width="2"/>
+    <path d="M60 120 C30 120, 40 150, 60 150 M140 120 C170 120, 160 150, 140 150" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(400, 220)">
+    <path d="M80 50 C40 60, 20 100, 30 150 C40 200, 80 230, 120 230 C160 230, 190 200, 190 150 C190 100, 160 60, 120 50 L110 40 L90 40 Z" fill="#C4A484"/>
+    <path d="M80 50 C85 40, 95 30, 100 35 C105 40, 95 50, 90 55 Z" fill="#D2B48C"/>
+    <path d="M120 50 C115 40, 105 30, 100 35 C95 40, 105 50, 110 55 Z" fill="#D2B48C"/>
+    <path d="M100 35 C102 25, 100 15, 90 18 C80 21, 83 35, 85 40" fill="#F5F5DC"/>
+    <path d="M100 35 C98 25, 100 15, 110 18 C120 21, 117 35, 115 40" fill="#F5F5DC"/>
+    <path d="M30 150 C40 130, 60 120, 80 120 C100 120, 110 130, 110 150" stroke="#2F1B13" stroke-width="10" fill="none"/>
+    <path d="M190 150 C180 130, 160 120, 140 120 C120 120, 110 130, 110 150" stroke="#2F1B13" stroke-width="10" fill="none"/>
+    <path d="M70 80 L130 80 Q100 70, 70 80" stroke="#2F1B13" stroke-width="8" fill="none"/>
+    <path d="M90 60 L110 60 L100 75 Z" fill="#2F1B13"/>
+    <path d="M40 210 L180 210 C170 240, 50 240, 40 210" fill="#FFFFFF"/>
+    <path d="M90 230 L110 230 L100 200 Z" fill="#FFFFFF"/>
+    <path d="M80 110 C85 100, 95 100, 100 110 C100 115, 95 120, 85 118 Z" fill="url(#grad1)"/>
+    <path d="M120 110 C115 100, 105 100, 100 110 C100 115, 105 120, 115 118 Z" fill="url(#grad1)"/>
+    <circle cx="90" cy="112" r="3" fill="black"/>
+    <circle cx="110" cy="112" r="3" fill="black"/>
+    <path d="M100 130 L100 140 M95 135 L105 135" stroke="#FFC0CB" stroke-width="2"/>
+    <path d="M60 120 C30 120, 40 150, 60 150 M140 120 C170 120, 160 150, 140 150" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(300, 210)">
+    <path d="M80 50 C40 60, 20 100, 30 150 C40 200, 80 230, 120 230 C160 230, 190 200, 190 150 C190 100, 160 60, 120 50 L110 40 L90 40 Z" fill="#C0C0C0"/>
+    <path d="M80 50 C85 40, 95 30, 100 35 C105 40, 95 50, 90 55 Z" fill="#E5E4E2"/>
+    <path d="M120 50 C115 40, 105 30, 100 35 C95 40, 105 50, 110 55 Z" fill="#E5E4E2"/>
+    <path d="M100 35 C102 25, 100 15, 90 18 C80 21, 83 35, 85 40" fill="#F5F5DC"/>
+    <path d="M100 35 C98 25, 100 15, 110 18 C120 21, 117 35, 115 40" fill="#F5F5DC"/>
+    <path d="M30 150 C40 130, 60 120, 80 120 C100 120, 110 130, 110 150" stroke="#696969" stroke-width="10" fill="none"/>
+    <path d="M190 150 C180 130, 160 120, 140 120 C120 120, 110 130, 110 150" stroke="#696969" stroke-width="10" fill="none"/>
+    <path d="M70 80 L130 80 Q100 70, 70 80" stroke="#696969" stroke-width="8" fill="none"/>
+    <path d="M90 60 L110 60 L100 75 Z" fill="#696969"/>
+    <path d="M40 210 L180 210 C170 240, 50 240, 40 210" fill="#FFFFFF"/>
+    <path d="M90 230 L110 230 L100 200 Z" fill="#FFFFFF"/>
+    <path d="M80 110 C85 100, 95 100, 100 110 C100 115, 95 120, 85 118 Z" fill="url(#grad1)"/>
+    <path d="M120 110 C115 100, 105 100, 100 110 C100 115, 105 120, 115 118 Z" fill="url(#grad1)"/>
+    <circle cx="90" cy="112" r="3" fill="black"/>
+    <circle cx="110" cy="112" r="3" fill="black"/>
+    <path d="M100 130 L100 140 M95 135 L105 135" stroke="#FFC0CB" stroke-width="2"/>
+    <path d="M60 120 C30 120, 40 150, 60 150 M140 120 C170 120, 160 150, 140 150" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(30, 240)">
+    <path d="M60 170 C50 140, 40 120, 50 100 Q60 80, 80 85 C100 90, 130 100, 140 120 C150 140, 140 160, 130 180 L110 190 L80 195 Z" fill="#FFA500"/>
+    <path d="M80 85 C75 75, 80 65, 85 60 C90 65, 95 75, 90 85 Z" fill="#FFD700"/>
+    <path d="M50 100 C45 90, 50 80, 55 75 C60 80, 60 90, 55 100 Z" fill="#FFD700"/>
+    <path d="M140 120 C135 115, 125 110, 120 115 C115 120, 120 125, 125 120" fill="#D2691E"/>
+    <path d="M90 120 L110 120 L100 135 Z" fill="#FAEBD7"/>
+    <path d="M65 120 C75 110, 85 115, 90 125" stroke="#D2691E" stroke-width="3" fill="none"/>
+    <path d="M130 130 C120 120, 110 125, 105 135" stroke="#D2691E" stroke-width="3" fill="none"/>
+    <path d="M70 110 C75 100, 85 100, 90 110 C90 115, 85 120, 75 118 Z" fill="url(#grad1)"/>
+    <circle cx="82" cy="112" r="2" fill="black"/>
+    <path d="M60 170 C50 180, 70 195, 80 195 C90 195, 100 180, 110 180" fill="#D2691E" opacity="0.2"/>
+    <path d="M40 130 C20 130, 30 150, 40 150 M120 130 C140 130, 130 150, 120 150" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  <g>
+    <path d="M10 450 Q20 350 30 450" stroke="#3CB371" stroke-width="2" fill="none"/>
+    <path d="M50 450 Q60 380 70 450" stroke="#2E8B57" stroke-width="3" fill="none"/>
+    <path d="M100 450 Q105 390 110 450" stroke="#3CB371" stroke-width="2" fill="none"/>
+    <path d="M200 450 Q210 370 220 450" stroke="#2E8B57" stroke-width="2" fill="none"/>
+    <path d="M350 450 Q355 380 360 450" stroke="#3CB371" stroke-width="3" fill="none"/>
+    <path d="M450 450 Q460 360 470 450" stroke="#2E8B57" stroke-width="2" fill="none"/>
+    <path d="M550 450 Q555 390 560 450" stroke="#3CB371" stroke-width="2" fill="none"/>
+    <path d="M680 450 Q690 380 700 450" stroke="#2E8B57" stroke-width="3" fill="none"/>
+    <path d="M750 450 Q755 390 760 450" stroke="#3CB371" stroke-width="2" fill="none"/>
+  </g>
+</svg>

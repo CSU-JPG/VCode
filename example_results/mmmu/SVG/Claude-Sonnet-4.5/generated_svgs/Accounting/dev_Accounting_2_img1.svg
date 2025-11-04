@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="140" fill="#c9c9c9"/>
+  <text x="24" y="40" font-family="Arial, sans-serif" font-size="28" fill="#2d2d2d">Hudson Alexander, Capital Dec. 1</text>
+  <text x="552" y="40" font-family="Arial, sans-serif" font-size="28" fill="#2d2d2d" text-anchor="end">$175,300</text>
+  <text x="24" y="75" font-family="Arial, sans-serif" font-size="28" fill="#2d2d2d">Dec. revenue</text>
+  <text x="552" y="75" font-family="Arial, sans-serif" font-size="28" fill="#2d2d2d" text-anchor="end">56,400</text>
+  <text x="24" y="110" font-family="Arial, sans-serif" font-size="28" fill="#2d2d2d">Dec. expenses</text>
+  <text x="552" y="110" font-family="Arial, sans-serif" font-size="28" fill="#2d2d2d" text-anchor="end">59,800</text>
+</svg>

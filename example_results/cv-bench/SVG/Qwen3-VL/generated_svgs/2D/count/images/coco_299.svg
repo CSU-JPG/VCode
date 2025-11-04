@@ -1,0 +1,30 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f9f9f9"/>
+  <g transform="translate(50,50)">
+    <!-- Bananas -->
+    <path d="M100,120 Q200,100 300,150 Q350,180 320,220 Q280,260 200,280 Q150,290 100,250 Q70,220 80,180 Q90,140 100,120" fill="#ffe14d" stroke="#d4a017" stroke-width="2"/>
+    <path d="M80,180 Q150,160 250,200 Q280,220 260,250 Q240,280 180,300 Q130,310 80,270 Q50,240 60,200 Q70,160 80,180" fill="#ffe14d" stroke="#d4a017" stroke-width="2"/>
+    <path d="M60,240 Q120,220 200,260 Q230,280 210,310 Q190,340 140,350 Q100,360 60,320 Q30,290 40,260 Q50,230 60,240" fill="#ffe14d" stroke="#d4a017" stroke-width="2"/>
+    
+    <!-- Oranges -->
+    <circle cx="450" cy="200" r="80" fill="#ffb347" stroke="#ff8c00" stroke-width="2"/>
+    <circle cx="600" cy="250" r="75" fill="#ffb347" stroke="#ff8c00" stroke-width="2"/>
+    <circle cx="620" cy="450" r="85" fill="#ffb347" stroke="#ff8c00" stroke-width="2"/>
+    
+    <!-- Apples -->
+    <circle cx="780" cy="120" r="70" fill="#b22222" stroke="#8b0000" stroke-width="2"/>
+    <circle cx="820" cy="350" r="80" fill="#b22222" stem="#8b0000" stroke-width="2"/>
+    
+    <!-- Rose Apples -->
+    <path d="M100,400 Q150,350 200,380 Q250,410 250,450 Q250,500 200,530 Q150,560 100,520 Q50,480 80,430 Q90,410 100,400" fill="#ff3333" stroke="#cc0000" stroke-width="2"/>
+    <path d="M350,450 Q400,400 450,430 Q500,460 500,500 Q500,550 450,580 Q400,610 350,570 Q300,530 330,480 Q340,460 350,450" fill="#ff3333" stroke="#cc0000" stroke-width="2"/>
+    
+    <!-- Stems and details -->
+    <path d="M340,200 Q360,220 380,240" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M350,240 Q370,260 390,280" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M780,120 Q790,100 800,90" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M820,350 Q830,330 840,320" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M100,400 Q90,390 80,380" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M350,450 Q340,440 330,430" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+</svg>

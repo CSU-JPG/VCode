@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1000 950" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 16px; }
+    .number { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; }
+    .table { border-collapse: collapse; }
+    .table td, .table th { border: 1px solid black; padding: 8px; text-align: center; }
+  </style>
+
+  <!-- Question Text -->
+  <text x="20" y="30" class="label">1. Figure 1 shows the structure of the earth’s interior. Write the number showing</text>
+  <text x="70" y="55" class="label">each layer in the table below.</text>
+
+  <!-- Earth Diagram -->
+  <g transform="translate(500, 300)">
+    <!-- Crust (outermost) -->
+    <circle cx="0" cy="0" r="180" fill="#f0f0f0" stroke="black" stroke-width="1"/>
+    <!-- Mantle -->
+    <circle cx="0" cy="0" r="140" fill="#e0e0e0" stroke="black" stroke-width="1"/>
+    <!-- Outer Core -->
+    <circle cx="0" cy="0" r="100" fill="#d0d0d0" stroke="black" stroke-width="1"/>
+    <!-- Inner Core -->
+    <circle cx="0" cy="0" r="60" fill="#c0c0c0" stroke="black" stroke-width="1"/>
+
+    <!-- Labels -->
+    <text x="190" y="0" class="number">1</text>
+    <text x="120" y="0" class="number">2</text>
+    <text x="80" y="0" class="number">3</text>
+    <text x="40" y="0" class="number">4</text>
+
+    <!-- Arrow pointing to crust -->
+    <line x1="180" y1="0" x2="210" y2="0" stroke="black" stroke-width="1"/>
+    <polygon points="210,0 205,-5 205,5" fill="black"/>
+
+    <!-- Partial globe representation on left -->
+    <path d="M-180,0 A180,180 0 0,1 -180,0 L-180,-180 A180,180 0 0,1 -180,0 Z" fill="#666" stroke="black" stroke-width="1"/>
+    <path d="M-180,0 C-160,-40 -140,-60 -120,-80 C-100,-100 -80,-120 -60,-140 C-40,-160 -20,-170 0,-180" stroke="black" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- Figure 1 Label -->
+  <text x="470" y="620" class="label">Figure 1</text>
+
+  <!-- Table -->
+  <g transform="translate(20, 650)">
+    <rect x="0" y="0" width="960" height="250" fill="white" stroke="black"/>
+    
+    <!-- Table Header -->
+    <rect x="0" y="0" width="480" height="40" fill="white" stroke="black"/>
+    <rect x="480" y="0" width="480" height="40" fill="white" stroke="black"/>
+    <text x="240" y="25" class="label" text-anchor="middle">Layer</text>
+    <text x="720" y="25" class="label" text-anchor="middle">Number on figure 1</text>
+
+    <!-- Table Rows -->
+    <rect x="0" y="40" width="480" height="40" fill="white" stroke="black"/>
+    <rect x="480" y="40" width="480" height="40" fill="white" stroke="black"/>
+    <text x="240" y="65" class="label" text-anchor="middle">Outer core</text>
+    <text x="720" y="65" class="label" text-anchor="middle"></text>
+
+    <rect x="0" y="80" width="480" height="40" fill="white" stroke="black"/>
+    <rect x="480" y="80" width="480" height="40" fill="white" stroke="black"/>
+    <text x="240" y="105" class="label" text-anchor="middle">Mantle</text>
+    <text x="720" y="105" class="label" text-anchor="middle"></text>
+
+    <rect x="0" y="120" width="480" height="40" fill="white" stroke="black"/>
+    <rect x="480" y="120" width="480" height="40" fill="white" stroke="black"/>
+    <text x="240" y="145" class="label" text-anchor="middle">Crust</text>
+    <text x="720" y="145" class="label" text-anchor="middle"></text>
+
+    <rect x="0" y="160" width="480" height="40" fill="white" stroke="black"/>
+    <rect x="480" y="160" width="480" height="40" fill="white" stroke="black"/>
+    <text x="240" y="185" class="label" text-anchor="middle">Inner core</text>
+    <text x="720" y="185" class="label" text-anchor="middle"></text>
+
+    <!-- Bottom row for scoring -->
+    <rect x="0" y="200" width="960" height="50" fill="white" stroke="black"/>
+    <text x="920" y="235" class="label">(4)</text>
+  </g>
+</svg>

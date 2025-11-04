@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left beetle scene -->
+  <rect x="0" y="0" width="400" height="400" fill="#8BC34A"/>
+  
+  <!-- Left leaf -->
+  <ellipse cx="200" cy="200" rx="140" ry="100" fill="#7CB342" opacity="0.8"/>
+  <path d="M 60 180 Q 200 120 340 180" fill="none" stroke="#689F38" stroke-width="3"/>
+  <path d="M 80 220 Q 200 160 320 220" fill="none" stroke="#689F38" stroke-width="2"/>
+  
+  <!-- Left beetle body -->
+  <ellipse cx="200" cy="200" rx="65" ry="55" fill="#F9A825"/>
+  
+  <!-- Left beetle stripes on wing covers -->
+  <ellipse cx="180" cy="190" rx="28" ry="48" fill="#1A237E"/>
+  <ellipse cx="220" cy="190" rx="28" ry="48" fill="#1A237E"/>
+  <ellipse cx="165" cy="195" rx="22" ry="45" fill="#FDD835"/>
+  <ellipse cx="235" cy="195" rx="22" ry="45" fill="#FDD835"/>
+  <ellipse cx="152" cy="200" rx="18" ry="42" fill="#1A237E"/>
+  <ellipse cx="248" cy="200" rx="18" ry="42" fill="#1A237E"/>
+  
+  <!-- Left beetle head -->
+  <ellipse cx="200" cy="155" rx="35" ry="30" fill="#F57F17"/>
+  <circle cx="190" cy="150" r="4" fill="#000"/>
+  <circle cx="210" cy="150" r="4" fill="#000"/>
+  
+  <!-- Left beetle spots on head -->
+  <circle cx="185" cy="160" r="3" fill="#000"/>
+  <circle cx="200" cy="165" r="3" fill="#000"/>
+  <circle cx="215" cy="160" r="3" fill="#000"/>
+  <circle cx="195" cy="155" r="2" fill="#000"/>
+  <circle cx="205" cy="155" r="2" fill="#000"/>
+  
+  <!-- Left beetle antennae -->
+  <line x1="185" y1="145" x2="170" y2="130" stroke="#000" stroke-width="2"/>
+  <line x1="215" y1="145" x2="230" y2="130" stroke="#000" stroke-width="2"/>
+  <circle cx="170" cy="130" r="3" fill="#000"/>
+  <circle cx="230" cy="130" r="3" fill="#000"/>
+  
+  <!-- Left beetle legs -->
+  <path d="M 150 200 L 120 220 L 115 230" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 155 215 L 130 240 L 125 250" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 165 230 L 145 255 L 140 265" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 250 200 L 280 220 L 285 230" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 245 215 L 270 240 L 275 250" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 235 230 L 255 255 L 260 265" fill="none" stroke="#000" stroke-width="3"/>
+  
+  <!-- Right beetle scene -->
+  <rect x="400" y="0" width="400" height="400" fill="#7CB342"/>
+  
+  <!-- Right leaf texture -->
+  <ellipse cx="600" cy="200" rx="150" ry="110" fill="#689F38" opacity="0.6"/>
+  <path d="M 460 180 Q 600 140 740 180" fill="none" stroke="#558B2F" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Right beetle body -->
+  <ellipse cx="600" cy="210" rx="70" ry="58" fill="#D84315"/>
+  
+  <!-- Right beetle stripes -->
+  <ellipse cx="578" cy="200" rx="30" ry="50" fill="#1A237E"/>
+  <ellipse cx="622" cy="200" rx="30" ry="50" fill="#1A237E"/>
+  <ellipse cx="560" cy="205" rx="24" ry="48" fill="#FDD835"/>
+  <ellipse cx="640" cy="205" rx="24" ry="48" fill="#FDD835"/>
+  <ellipse cx="545" cy="210" rx="20" ry="45" fill="#1A237E"/>
+  <ellipse cx="655" cy="210" rx="20" ry="45" fill="#1A237E"/>
+  <ellipse cx="532" cy="215" rx="16" ry="42" fill="#FDD835"/>
+  <ellipse cx="668" cy="215" rx="16" ry="42" fill="#FDD835"/>
+  
+  <!-- Right beetle head -->
+  <ellipse cx="600" cy="160" rx="38" ry="32" fill="#BF360C"/>
+  <circle cx="588" cy="155" r="4" fill="#000"/>
+  <circle cx="612" cy="155" r="4" fill="#000"/>
+  
+  <!-- Right beetle antennae -->
+  <line x1="582" y1="148" x2="565" y2="130" stroke="#BF360C" stroke-width="2.5"/>
+  <line x1="618" y1="148" x2="635" y2="130" stroke="#BF360C" stroke-width="2.5"/>
+  <circle cx="565" cy="130" r="3.5" fill="#BF360C"/>
+  <circle cx="635" cy="130" r="3.5" fill="#BF360C"/>
+  
+  <!-- Right beetle legs -->
+  <path d="M 545 205 L 510 225 L 500 235" fill="none" stroke="#8D6E63" stroke-width="3.5"/>
+  <path d="M 548 225 L 515 248 L 508 258" fill="none" stroke="#8D6E63" stroke-width="3.5"/>
+  <path d="M 558 242 L 535 268 L 528 278" fill="none" stroke="#8D6E63" stroke-width="3.5"/>
+  <path d="M 655 205 L 690 225 L 700 235" fill="none" stroke="#8D6E63" stroke-width="3.5"/>
+  <path d="M 652 225 L 685 248 L 692 258" fill="none" stroke="#8D6E63" stroke-width="3.5"/>
+  <path d="M 642 242 L 665 268 L 672 278" fill="none" stroke="#8D6E63" stroke-width="3.5"/>
+</svg>

@@ -1,0 +1,117 @@
+<svg viewBox="0 0 600 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe7dd"/>
+      <stop offset="1" stop-color="#e1d6c9"/>
+    </linearGradient>
+    <linearGradient id="tableGrad" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#f6f0ea"/>
+      <stop offset="1" stop-color="#e9ded4"/>
+    </linearGradient>
+    <linearGradient id="chairGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e0e1e"/>
+      <stop offset="1" stop-color="#6f0a16"/>
+    </linearGradient>
+    <linearGradient id="topWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6c5a4a"/>
+      <stop offset="1" stop-color="#3e332b"/>
+    </linearGradient>
+    <linearGradient id="benchGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a2b1b"/>
+      <stop offset="1" stop-color="#3b1b10"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall background -->
+  <rect x="0" y="0" width="600" height="460" fill="url(#wallGrad)"/>
+
+  <!-- Left doorway -->
+  <g>
+    <rect x="12" y="50" width="78" height="220" fill="#f2ece5" stroke="#d4c9bd" stroke-width="3"/>
+    <rect x="24" y="65" width="54" height="190" fill="#d9d0c5"/>
+  </g>
+
+  <!-- Center arched doorway -->
+  <path d="M308 60 h84 v160 h-84 z" fill="#cfc6bb"/>
+  <path d="M300 60 h100 v170 h-100 z" fill="none" stroke="#b5a89b" stroke-width="4"/>
+  <path d="M300 60 a50 50 0 0 1 100 0" fill="#e6ddd2"/>
+
+  <!-- Right counter -->
+  <rect x="470" y="255" width="120" height="18" fill="#2d2b2f"/>
+  <rect x="470" y="270" width="120" height="70" fill="#3a383c"/>
+  <rect x="486" y="104" width="55" height="70" fill="#efe8de" stroke="#cfc4b6" stroke-width="3"/>
+  <rect x="545" y="50" width="28" height="42" fill="#efe8de" stroke="#cfc4b6" stroke-width="3"/>
+
+  <!-- Floor tiles (lower-left) -->
+  <rect x="0" y="345" width="280" height="115" fill="#bc8868"/>
+  <g opacity="0.9">
+    <rect x="8" y="352" width="60" height="60" fill="#1e1a18"/>
+    <rect x="68" y="352" width="60" height="60" fill="#9b7c63"/>
+    <rect x="128" y="352" width="60" height="60" fill="#1e1a18"/>
+    <rect x="188" y="352" width="60" height="60" fill="#9b7c63"/>
+    <rect x="38" y="412" width="60" height="40" fill="#9b7c63"/>
+    <rect x="98" y="412" width="60" height="40" fill="#1e1a18"/>
+    <rect x="158" y="412" width="60" height="40" fill="#9b7c63"/>
+  </g>
+
+  <!-- Side console table near lamp -->
+  <rect x="186" y="204" width="70" height="12" fill="url(#topWood)"/>
+  <rect x="192" y="216" width="10" height="44" fill="#2c2b30"/>
+  <rect x="236" y="216" width="10" height="44" fill="#2c2b30"/>
+
+  <!-- Lamp -->
+  <ellipse cx="222" cy="196" rx="10" ry="15" fill="#22252a"/>
+  <polygon points="202,150 242,150 257,188 187,188" fill="#f7f3ea" stroke="#d3c8ba" stroke-width="2"/>
+  <rect x="208" y="186" width="28" height="4" fill="#d8d0c5"/>
+
+  <!-- Framed art on right wall -->
+  <rect x="442" y="72" width="70" height="70" fill="#e8e0d5" stroke="#b8ab9c" stroke-width="6"/>
+  <rect x="522" y="72" width="30" height="40" fill="#e8e0d5" stroke="#b8ab9c" stroke-width="6"/>
+
+  <!-- Big dining table with cloth -->
+  <path d="M90 250 L520 250 L590 430 L125 430 Z" fill="url(#tableGrad)" stroke="#dfd3c6" stroke-width="2"/>
+
+  <!-- Chairs along left side -->
+  <g>
+    <path d="M140 260 q-8 -18 -4 -40 l22 -4 q10 18 12 44 v132 h-30 z" fill="url(#chairGrad)"/>
+    <path d="M178 260 q-8 -18 -4 -40 l22 -4 q10 18 12 44 v132 h-30 z" fill="url(#chairGrad)"/>
+    <path d="M216 260 q-8 -18 -4 -40 l22 -4 q10 18 12 44 v132 h-30 z" fill="url(#chairGrad)"/>
+    <path d="M254 260 q-8 -18 -4 -40 l22 -4 q10 18 12 44 v132 h-30 z" fill="url(#chairGrad)"/>
+  </g>
+
+  <!-- Magazine on lower-right corner of table -->
+  <rect x="490" y="408" width="70" height="28" fill="#e7b0a8" stroke="#c9958d" stroke-width="2"/>
+  <rect x="496" y="414" width="58" height="16" fill="#fff2ed"/>
+  <rect x="496" y="414" width="20" height="16" fill="#d23b3b" opacity="0.7"/>
+
+  <!-- Bench/platform in the middle-right -->
+  <rect x="350" y="240" width="160" height="18" fill="#b18d61"/>
+  <rect x="344" y="258" width="172" height="32" rx="6" ry="6" fill="url(#benchGrad)"/>
+
+  <!-- Folded towels -->
+  <g>
+    <rect x="310" y="220" width="64" height="28" rx="10" ry="10" fill="#b7b7b7"/>
+    <rect x="325" y="210" width="70" height="24" rx="12" ry="12" fill="#dbe0c9"/>
+    <rect x="385" y="232" width="96" height="30" rx="12" ry="12" fill="#7b4e4e"/>
+    <rect x="372" y="250" width="80" height="22" rx="10" ry="10" fill="#9c6c55"/>
+  </g>
+
+  <!-- Stack shadow -->
+  <ellipse cx="415" cy="294" rx="95" ry="12" fill="#000" opacity="0.15"/>
+
+  <!-- Blue bounding box around lamp -->
+  <rect x="160" y="90" width="120" height="110" fill="none" stroke="#2a56ff" stroke-width="4"/>
+
+  <!-- Red bounding box around folded towels on table -->
+  <rect x="275" y="150" width="200" height="120" fill="none" stroke="#cf2f2f" stroke-width="4"/>
+
+  <!-- Green bounding box around bench/platform -->
+  <rect x="320" y="198" width="200" height="90" fill="none" stroke="#35c43b" stroke-width="4"/>
+
+  <!-- Subtle vignette -->
+  <radialGradient id="v" cx="50%" cy="45%" r="70%">
+    <stop offset="60%" stop-color="rgba(0,0,0,0)"/>
+    <stop offset="100%" stop-color="rgba(0,0,0,0.12)"/>
+  </radialGradient>
+  <rect x="0" y="0" width="600" height="460" fill="url(#v)" pointer-events="none"/>
+</svg>

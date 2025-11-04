@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#EAE0D5"/>
+      <stop offset="100%" stop-color="#C6AC8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <path d="M1280 0 L1280 720 L0 720 L0 0 Z" fill="#2C2621" opacity="0.1"/>
+
+  <!-- Fredo Corleone (John Cazale) -->
+  <g id="fredo">
+    <path fill="#0F0F0F" d="M1280 410 C1260 400 1200 390 1150 400 L1080 390 V720 H1280 V410 Z"/>
+    <path fill="#FFFFFF" d="M1108 420 L1155 420 L1131 560 Z"/>
+    <path fill="#0F0F0F" d="M1100 405 L1160 405 L1145 435 L1115 435 Z"/>
+    <path fill="#B4A092" d="M1090 200 C1090 150 1200 150 1210 200 C1250 250 1230 410 1150 420 C1070 410 1050 250 1090 200 Z"/>
+    <path fill="#211915" d="M1090 200 C1080 160 1210 160 1200 200 C1210 210 1190 215 1150 210 C1110 215 1090 210 1090 200 Z"/>
+    <path fill="#000000" d="M1120 280 Q1130 275 1140 280 M1170 280 Q1180 275 1190 280" stroke="#000000" stroke-width="6"/>
+    <path fill="#A28F82" d="M1140 310 C1160 310 1165 340 1150 345 C1135 340 1120 310 1140 310 Z"/>
+    <path fill="#000000" d="M1130 380 Q1150 375 1170 380" stroke="#000000" stroke-width="4"/>
+  </g>
+
+  <!-- Michael Corleone (Al Pacino) -->
+  <g id="michael">
+    <path fill="#3D403A" d="M790 320 C780 330 760 340 760 400 V720 H1090 V380 C1080 340 1060 330 1050 320 L790 320 Z"/>
+    <path fill="#A39A8B" d="M890 380 L950 380 L920 450 Z M900 450 L940 450 V520 L920 530 L900 520 V450 Z"/>
+    <path fill="#2E312C" d="M760 220 C750 180 1000 180 1010 220 C1050 270 1020 400 920 400 C820 400 750 270 760 220 Z"/>
+    <path fill="#2E312C" d="M770 210 L990 210 C1010 260 920 280 830 280 C750 260 750 210 770 210 Z"/>
+    <path fill="#B19A8D" d="M830 270 C830 240 980 240 980 270 C1000 320 980 390 920 400 C860 390 840 320 830 270 Z"/>
+    <path fill="#211915" d="M840 275 C830 255 980 255 970 275 C980 280 950 285 920 280 C890 285 840 280 840 275 Z"/>
+    <rect x="830" y="550" width="180" height="30" fill="#2E312C"/>
+    <rect x="835" y="555" width="25" height="20" fill="#9F1F32"/>
+    <rect x="865" y="555" width="25" height="20" fill="#FFFFFF"/>
+    <rect x="895" y="555" width="25" height="20" fill="#2E3A87"/>
+    <rect x="925" y="555" width="25" height="20" fill="#D97800"/>
+    <rect x="955" y="555" width="25" height="20" fill="#6A0DAD"/>
+    <rect x="985" y="555" width="25" height="20" fill="#9F1F32"/>
+  </g>
+
+  <!-- Vito Corleone (Marlon Brando) -->
+  <g id="vito">
+    <path fill="#0F0F0F" d="M470 300 H800 V720 H470 V300 Z"/>
+    <path fill="#FFFFFF" d="M590 330 L670 330 L630 500 Z"/>
+    <path fill="#0F0F0F" d="M580 315 L680 315 L655 350 L605 350 Z"/>
+    <path fill="#C2A99D" d="M540 200 C530 150 720 150 730 200 C760 270 740 350 630 350 C520 350 510 270 540 200 Z"/>
+    <path fill="#9B887D" d="M580 290 Q630 330 680 290 C670 340 590 340 580 290 Z M 620 280 Q 630 275 640 280"/>
+    <path fill="#1A1A1A" d="M480 180 C470 140 730 140 740 180 C760 200 680 230 600 230 C520 230 470 200 480 180 Z"/>
+    <path fill="#0A0A0A" d="M490 170 C530 165 690 165 730 170 L700 180 L520 180 Z" />
+    <path fill="#C2A99D" d="M720 380 C710 370 700 370 690 380 L690 440 C700 450 720 460 740 450 L780 430 C790 420 780 390 760 380 Z"/>
+  </g>
+
+  <!-- Santino 'Sonny' Corleone (James Caan) -->
+  <g id="sonny">
+    <path fill="#0F0F0F" d="M0 290 H500 V720 H0 V290 Z"/>
+    <path fill="#FFFFFF" d="M210 320 L290 320 L250 520 Z"/>
+    <path fill="#0F0F0F" d="M200 305 L300 305 L275 340 L225 340 Z"/>
+    <path fill="#DDC1B4" d="M150 120 C140 80 350 80 360 120 C390 200 370 330 250 330 C130 330 120 200 150 120 Z"/>
+    <path fill="#2A1D16" d="M150 120 C130 90 370 90 350 120 C380 150 340 180 250 170 C160 180 120 150 150 120 Z"/>
+    <path fill="#BBA89B" d="M220 220 Q250 210 280 220 M 230 270 Q250 280 270 270"/>
+    <path d="M240 300 Q250 295 260 300" stroke="#000000" stroke-width="3" fill="none"/>
+  </g>
+</svg>

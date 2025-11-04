@@ -1,0 +1,142 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f0"/>
+  
+  <!-- Sky -->
+  <rect width="800" height="80" fill="#8b9db5"/>
+  
+  <!-- Base structure -->
+  <rect x="20" y="100" width="760" height="480" fill="#e8e4dc"/>
+  
+  <!-- Upper frieze background -->
+  <rect x="30" y="110" width="740" height="200" fill="#d8d4cc"/>
+  
+  <!-- Lower frieze background -->
+  <rect x="30" y="320" width="740" height="200" fill="#d8d4cc"/>
+  
+  <!-- Inscription band -->
+  <rect x="30" y="90" width="740" height="25" fill="#c8c4bc"/>
+  <text x="400" y="105" font-family="serif" font-size="8" fill="#444" text-anchor="middle" font-weight="bold">INREIQVACVMAIIANISEXIIMEQIIIIIAPAQATLEEVIAVELINCIHCIVSHADVM·VIICAISELEIVIQIOETVAIIOCOSS</text>
+  
+  <!-- Upper decorative border -->
+  <rect x="30" y="115" width="740" height="15" fill="#b8b4ac"/>
+  <circle cx="70" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="150" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="230" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="310" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="390" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="470" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="550" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="630" cy="122" r="4" fill="#9a958d"/>
+  <circle cx="710" cy="122" r="4" fill="#9a958d"/>
+  
+  <!-- Upper frieze figures (simplified representations) -->
+  <ellipse cx="80" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="70" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="130" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="120" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="180" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="170" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="230" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="220" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="280" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="270" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="340" cy="195" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="330" y="195" width="20" height="75" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="390" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="380" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="440" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="430" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="490" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="480" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="540" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="530" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="590" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="580" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="640" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="630" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="690" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="680" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="740" cy="200" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="730" y="200" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <!-- Arches between friezes -->
+  <path d="M 80 320 Q 80 340 100 350 Q 120 340 120 320" fill="none" stroke="#a8a4a0" stroke-width="3"/>
+  <path d="M 200 320 Q 200 340 220 350 Q 240 340 240 320" fill="none" stroke="#a8a4a0" stroke-width="3"/>
+  <path d="M 320 320 Q 320 340 340 350 Q 360 340 360 320" fill="none" stroke="#a8a4a0" stroke-width="3"/>
+  <path d="M 440 320 Q 440 340 460 350 Q 480 340 480 320" fill="none" stroke="#a8a4a0" stroke-width="3"/>
+  <path d="M 560 320 Q 560 340 580 350 Q 600 340 600 320" fill="none" stroke="#a8a4a0" stroke-width="3"/>
+  <path d="M 680 320 Q 680 340 700 350 Q 720 340 720 320" fill="none" stroke="#a8a4a0" stroke-width="3"/>
+  
+  <!-- Lower frieze figures -->
+  <ellipse cx="80" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="70" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="130" cy="420" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="120" y="420" width="20" height="60" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="180" cy="420" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="170" y="420" width="20" height="60" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="250" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="240" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="300" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="290" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="360" cy="415" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="350" y="415" width="20" height="65" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="410" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="400" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="460" cy="420" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="450" y="420" width="20" height="60" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="520" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="510" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="570" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="560" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="620" cy="420" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="610" y="420" width="20" height="60" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="670" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="660" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <ellipse cx="720" cy="410" rx="15" ry="25" fill="#c8c4bc"/>
+  <rect x="710" y="410" width="20" height="70" fill="#d0ccc4" rx="3"/>
+  
+  <!-- Column suggestions -->
+  <rect x="60" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="140" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="220" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="300" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="380" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="460" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="540" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="620" y="350" width="8" height="150" fill="#b8b4ac"/>
+  <rect x="700" y="350" width="8" height="150" fill="#b8b4ac"/>
+  
+  <!-- Fragments on top -->
+  <polygon points="350,20 380,15 400,25 420,18 430,35 410,50 380,55 360,45 340,38" fill="#e8e4dc"/>
+  <polygon points="550,30 580,25 600,40 590,60 570,65 545,55" fill="#e8e4dc"/>
+  
+  <!-- Shadows and depth -->
+  <rect x="30" y="300" width="740" height="5" fill="#00000015"/>
+  <rect x="30" y="510" width="740" height="5" fill="#00000015"/>
+</svg>

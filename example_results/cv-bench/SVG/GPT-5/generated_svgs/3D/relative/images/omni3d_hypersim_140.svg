@@ -1,0 +1,148 @@
+<svg viewBox="0 0 1100 820" xmlns="http://www.w3.org/2000/svg">
+	<title>Industrial loft interior (stylized SVG)</title>
+	<desc>Simplified vector rendition of a brick-walled loft with windows, stairs, sofa, rug, dining area, and three colored highlight rectangles.</desc>
+	<defs>
+		<linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#e8e6e3"/>
+			<stop offset="1" stop-color="#d9d4cf"/>
+		</linearGradient>
+
+		<pattern id="bricks" width="120" height="50" patternUnits="userSpaceOnUse">
+			<rect width="120" height="50" fill="#caa07d"/>
+			<rect x="0"   y="2"  width="28" height="22" fill="#a86c4b"/>
+			<rect x="30"  y="2"  width="28" height="22" fill="#a86c4b"/>
+			<rect x="60"  y="2"  width="28" height="22" fill="#a86c4b"/>
+			<rect x="90"  y="2"  width="28" height="22" fill="#a86c4b"/>
+			<rect x="15"  y="26" width="28" height="22" fill="#a86c4b"/>
+			<rect x="45"  y="26" width="28" height="22" fill="#a86c4b"/>
+			<rect x="75"  y="26" width="28" height="22" fill="#a86c4b"/>
+			<rect x="105" y="26" width="28" height="22" fill="#a86c4b"/>
+		</pattern>
+
+		<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#8ea3b5" stop-opacity="0.45"/>
+			<stop offset="1" stop-color="#dfe7ef" stop-opacity="0.8"/>
+		</linearGradient>
+
+		<linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" stop-color="#b4824f"/>
+			<stop offset="1" stop-color="#8a6037"/>
+		</linearGradient>
+
+		<pattern id="rugPattern" width="12" height="12" patternUnits="userSpaceOnUse">
+			<rect width="12" height="12" fill="#6e6572"/>
+			<path d="M0 0 L12 12 M12 0 L0 12" stroke="#9e97a3" stroke-width="0.8" opacity="0.5"/>
+		</pattern>
+
+		<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+			<feOffset dx="0" dy="3" result="off"/>
+			<feMerge>
+				<feMergeNode/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+	</defs>
+
+	<!-- Ceiling -->
+	<rect x="0" y="0" width="1100" height="160" fill="#f7f7f6"/>
+	<g fill="#ffffff">
+		<rect x="0" y="30" width="1100" height="12"/>
+		<rect x="0" y="70" width="1100" height="12"/>
+		<rect x="0" y="110" width="1100" height="12"/>
+	</g>
+
+	<!-- Brick walls -->
+	<rect x="0" y="140" width="1100" height="520" fill="url(#bricks)"/>
+
+	<!-- Central dark column -->
+	<rect x="560" y="150" width="40" height="480" fill="#3b3b3b" opacity="0.9"/>
+
+	<!-- Window groups -->
+	<g stroke="#121212" stroke-width="6" fill="url(#glass)">
+		<!-- Left tall windows -->
+		<rect x="60" y="180" width="90" height="360"/>
+		<rect x="170" y="180" width="90" height="360"/>
+		<rect x="280" y="180" width="90" height="360"/>
+		<rect x="390" y="180" width="90" height="360"/>
+		<!-- Doors below windows -->
+		<rect x="60" y="470" width="90" height="90" fill="#1e1e1e"/>
+		<rect x="170" y="470" width="90" height="90" fill="#1e1e1e"/>
+		<rect x="280" y="470" width="90" height="90" fill="#1e1e1e"/>
+		<rect x="390" y="470" width="90" height="90" fill="#1e1e1e"/>
+	</g>
+
+	<!-- Right upper windows -->
+	<g stroke="#121212" stroke-width="6" fill="url(#glass)">
+		<rect x="820" y="190" width="160" height="80"/>
+		<rect x="820" y="280" width="160" height="80"/>
+	</g>
+
+	<!-- Pendant lights -->
+	<g fill="#f3c47b" stroke="#a06f2a" stroke-width="2">
+		<circle cx="330" cy="250" r="12"/>
+		<circle cx="350" cy="285" r="10"/>
+		<circle cx="370" cy="265" r="9"/>
+		<line x1="330" y1="160" x2="330" y2="238" stroke="#2a2a2a" stroke-width="2"/>
+		<line x1="350" y1="160" x2="350" y2="273" stroke="#2a2a2a" stroke-width="2"/>
+		<line x1="370" y1="160" x2="370" y2="253" stroke="#2a2a2a" stroke-width="2"/>
+	</g>
+
+	<!-- Stairs (stylized) -->
+	<g stroke="#2c2c2c" stroke-width="5" fill="#2f2f2f">
+		<line x1="240" y1="140" x2="380" y2="280"/>
+		<line x1="260" y1="120" x2="400" y2="260"/>
+		<g fill="#444">
+			<rect x="300" y="180" width="70" height="10" transform="rotate(46 335 185)"/>
+			<rect x="320" y="200" width="70" height="10" transform="rotate(46 355 205)"/>
+			<rect x="340" y="220" width="70" height="10" transform="rotate(46 375 225)"/>
+			<rect x="360" y="240" width="70" height="10" transform="rotate(46 395 245)"/>
+			<rect x="380" y="260" width="70" height="10" transform="rotate(46 415 265)"/>
+		</g>
+	</g>
+
+	<!-- Platform / wood deck -->
+	<rect x="540" y="450" width="420" height="120" fill="url(#wood)" stroke="#6c482b" stroke-width="3"/>
+
+	<!-- Dining table and chairs (simplified) -->
+	<g fill="#2c2c2c" stroke="#1a1a1a" stroke-width="3">
+		<rect x="620" y="470" width="200" height="14" fill="#3a3a3a"/>
+		<rect x="610" y="484" width="220" height="8" fill="#2a2a2a"/>
+		<rect x="650" y="492" width="8" height="60"/>
+		<rect x="792" y="492" width="8" height="60"/>
+		<path d="M680 520 h40 v40 h-40 z" fill="#2d2d2d"/>
+		<path d="M744 520 h40 v40 h-40 z" fill="#2d2d2d"/>
+	</g>
+
+	<!-- Sofa area -->
+	<g filter="url(#shadow)">
+		<rect x="40" y="520" width="360" height="120" rx="16" fill="#b9b9b9" stroke="#8e8e8e" stroke-width="3"/>
+		<rect x="60" y="540" width="90" height="80" rx="12" fill="#c7c7c7"/>
+		<rect x="160" y="540" width="90" height="80" rx="12" fill="#c7c7c7"/>
+		<rect x="260" y="540" width="90" height="80" rx="12" fill="#c7c7c7"/>
+	</g>
+
+	<!-- Rug -->
+	<path d="M140 700 L490 700 L690 640 L320 640 Z" fill="url(#rugPattern)" stroke="#4f4a55" stroke-width="3" opacity="0.9"/>
+
+	<!-- Coffee table -->
+	<rect x="390" y="585" width="150" height="40" rx="6" fill="#d1d7de" stroke="#9aa6b4" stroke-width="3"/>
+
+	<!-- Plants and side cabinet (right) -->
+	<g>
+		<rect x="880" y="560" width="60" height="110" fill="#2e3942"/>
+		<rect x="810" y="540" width="60" height="30" fill="#8a5e34" stroke="#6d4928" stroke-width="3"/>
+		<circle cx="825" cy="535" r="12" fill="#5dbb63"/>
+	</g>
+
+	<!-- Highlight rectangles -->
+	<rect x="800" y="260" width="200" height="80" rx="8" fill="none" stroke="#34c759" stroke-width="8"/>
+	<rect x="740" y="420" width="270" height="130" rx="6" fill="none" stroke="#ff3b30" stroke-width="8"/>
+	<rect x="360" y="570" width="170" height="60" rx="6" fill="none" stroke="#0a84ff" stroke-width="8"/>
+
+	<!-- Foreground floor -->
+	<path d="M0 640 L1100 640 L1100 820 L0 820 Z" fill="url(#wood)" opacity="0.65"/>
+
+	<!-- Subtle vignette -->
+	<rect x="0" y="0" width="1100" height="820" fill="none" stroke="#000" stroke-opacity="0.08" stroke-width="20"/>
+</svg>

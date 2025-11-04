@@ -1,0 +1,29 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <g id="Acetabularia-mediterranea">
+    <circle cx="80" cy="120" r="40" fill="#a8e0a8" stroke="#556b2f" stroke-width="2"/>
+    <path d="M80,80 Q80,120 120,120" stroke="#556b2f" stroke-width="4" fill="none"/>
+    <path d="M80,160 Q80,200 60,240" stroke="#556b2f" stroke-width="4" fill="none"/>
+    <path d="M80,160 Q80,200 100,240" stroke="#556b2f" stroke-width="4" fill="none"/>
+    <path d="M80,160 Q80,220 40,260" stroke="#556b2f" stroke-width="3" fill="none"/>
+    <path d="M80,160 Q80,220 120,260" stroke="#556b2f" stroke-width="3" fill="none"/>
+  </g>
+  <g id="Acetabularia-crenulata" transform="translate(200,0)">
+    <path d="M120,80 Q100,100 100,120 Q100,140 120,160 Q140,140 140,120 Q140,100 120,80" fill="#add8e6" stroke="#008080" stroke-width="2"/>
+    <path d="M120,160 Q120,200 100,240" stroke="#008080" stroke-width="4" fill="none"/>
+    <path d="M120,160 Q120,200 140,240" stroke="#008080" stroke-width="4" fill="none"/>
+    <path d="M120,160 Q120,220 80,260" stroke="#008080" stroke-width="3" fill="none"/>
+    <path d="M120,160 Q120,220 160,260" stroke="#008080" stroke-width="3" fill="none"/>
+  </g>
+  <g id="graft-A" transform="translate(350,0)">
+    <path d="M50,100 Q50,150 40,200" stroke="#a8e0a8" stroke-width="6" fill="none"/>
+    <path d="M50,100 Q50,50 40,0" stroke="#add8e6" stroke-width="6" fill="none"/>
+    <path d="M50,200 Q50,220 30,240" stroke="#a8e0a8" stroke-width="4" fill="none"/>
+    <path d="M50,200 Q50,220 70,240" stroke="#a8e0a8" stroke-width="4" fill="none"/>
+  </g>
+  <g id="graft-B" transform="translate(470,0)">
+    <path d="M50,100 Q50,150 40,200" stroke="#add8e6" stroke-width="6" fill="none"/>
+    <path d="M50,100 Q50,50 40,0" stroke="#a8e0a8" stroke-width="6" fill="none"/>
+    <path d="M50,200 Q50,220 30,240" stroke="#add8e6" stroke-width="4" fill="none"/>
+    <path d="M50,200 Q50,220 70,240" stroke="#add8e6" stroke-width="4" fill="none"/>
+  </g>
+</svg>

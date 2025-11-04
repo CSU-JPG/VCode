@@ -1,0 +1,28 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eggrollGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#E6B800"/>
+      <stop offset="100%" stop-color="#CC9900"/>
+    </linearGradient>
+    <pattern id="texture" patternUnits="userSpaceOnUse" width="10" height="10">
+      <circle cx="2" cy="2" r="1" fill="#D4AF37"/>
+      <circle cx="7" cy="7" r="1" fill="#D4AF37"/>
+    </pattern>
+  </defs>
+  
+  <rect width="500" height="500" fill="#8B4513"/>
+  
+  <g transform="translate(25,25)">
+    <!-- Egg rolls -->
+    <path d="M50,50 C100,30 400,20 450,50 C470,70 470,150 450,170 C400,200 100,180 50,150 C30,130 30,70 50,50 Z" fill="url(#eggrollGradient)" stroke="#B8860B" stroke-width="2"/>
+    <path d="M100,100 C150,80 450,50 480,80 C500,100 500,180 480,200 C450,220 150,200 100,170 C80,150 80,120 100,100 Z" fill="url(#eggrollGradient)" stroke="#B8860B" stroke-width="2"/>
+    <path d="M30,150 C80,130 400,100 450,130 C470,150 470,230 450,250 C400,280 80,260 30,230 C10,210 10,170 30,150 Z" fill="url(#eggrollGradient)" stroke="#B8860B" stroke-width="2"/>
+    <path d="M80,200 C130,180 450,150 480,180 C500,200 500,280 480,300 C450,320 130,300 80,270 C60,250 60,220 80,200 Z" fill="url(#eggrollGradient)" stroke="#B8860B" stroke-width="2"/>
+    <path d="M50,250 C100,230 400,200 450,230 C470,250 470,330 450,350 C400,380 100,360 50,330 C30,310 30,270 50,250 Z" fill="url(#eggrollGradient)" stroke="#B8860B" stroke-width="2"/>
+    <path d="M100,300 C150,280 450,250 480,280 C500,300 500,380 480,400 C450,420 150,400 100,370 C80,350 80,320 100,300 Z" fill="url(#eggrollGradient)" stroke="#B8860B" stroke-width="2"/>
+    
+    <!-- Texture overlay -->
+    <rect width="450" height="450" fill="url(#texture)" opacity="0.3"/>
+  </g>
+</svg>

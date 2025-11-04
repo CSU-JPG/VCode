@@ -1,0 +1,96 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="640" height="480" fill="white"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#d0d0d0" stroke-width="1">
+    <!-- Vertical grid lines -->
+    <line x1="80" y1="40" x2="80" y2="440"/>
+    <line x1="120" y1="40" x2="120" y2="440"/>
+    <line x1="160" y1="40" x2="160" y2="440"/>
+    <line x1="200" y1="40" x2="200" y2="440"/>
+    <line x1="240" y1="40" x2="240" y2="440"/>
+    <line x1="280" y1="40" x2="280" y2="440"/>
+    <line x1="320" y1="40" x2="320" y2="440"/>
+    <line x1="360" y1="40" x2="360" y2="440"/>
+    <line x1="400" y1="40" x2="400" y2="440"/>
+    <line x1="440" y1="40" x2="440" y2="440"/>
+    <line x1="480" y1="40" x2="480" y2="440"/>
+    <line x1="520" y1="40" x2="520" y2="440"/>
+    <line x1="560" y1="40" x2="560" y2="440"/>
+    <line x1="600" y1="40" x2="600" y2="440"/>
+    
+    <!-- Horizontal grid lines -->
+    <line x1="40" y1="40" x2="600" y2="40"/>
+    <line x1="40" y1="73.33" x2="600" y2="73.33"/>
+    <line x1="40" y1="106.67" x2="600" y2="106.67"/>
+    <line x1="40" y1="140" x2="600" y2="140"/>
+    <line x1="40" y1="173.33" x2="600" y2="173.33"/>
+    <line x1="40" y1="206.67" x2="600" y2="206.67"/>
+    <line x1="40" y1="240" x2="600" y2="240"/>
+    <line x1="40" y1="273.33" x2="600" y2="273.33"/>
+    <line x1="40" y1="306.67" x2="600" y2="306.67"/>
+    <line x1="40" y1="340" x2="600" y2="340"/>
+    <line x1="40" y1="373.33" x2="600" y2="373.33"/>
+    <line x1="40" y1="406.67" x2="600" y2="406.67"/>
+    <line x1="40" y1="440" x2="600" y2="440"/>
+  </g>
+  
+  <!-- Axes -->
+  <g stroke="black" stroke-width="2" fill="none">
+    <line x1="40" y1="440" x2="600" y2="440"/>
+    <line x1="40" y1="40" x2="40" y2="440"/>
+  </g>
+  
+  <!-- Y-axis labels -->
+  <g font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="black">
+    <text x="32" y="444">0</text>
+    <text x="32" y="410.67">1</text>
+    <text x="32" y="377.33">2</text>
+    <text x="32" y="344">3</text>
+    <text x="32" y="310.67">4</text>
+    <text x="32" y="277.33">5</text>
+    <text x="32" y="244">6</text>
+    <text x="32" y="210.67">7</text>
+    <text x="32" y="177.33">8</text>
+    <text x="32" y="144">9</text>
+    <text x="32" y="110.67">10</text>
+    <text x="32" y="77.33">11</text>
+    <text x="32" y="44">12</text>
+  </g>
+  
+  <!-- X-axis labels -->
+  <g font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="black">
+    <text x="40" y="460">0</text>
+    <text x="80" y="460">1</text>
+    <text x="120" y="460">2</text>
+    <text x="160" y="460">3</text>
+    <text x="200" y="460">4</text>
+    <text x="240" y="460">5</text>
+    <text x="280" y="460">6</text>
+    <text x="320" y="460">7</text>
+    <text x="360" y="460">8</text>
+    <text x="400" y="460">9</text>
+    <text x="440" y="460">10</text>
+    <text x="480" y="460">11</text>
+    <text x="520" y="460">12</text>
+  </g>
+  
+  <!-- Axis labels -->
+  <text x="320" y="475" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="black" font-weight="bold">Quantity of Bagels</text>
+  <text x="15" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="black" font-weight="bold" transform="rotate(-90 15 240)">Price of Bagels ($)</text>
+  
+  <!-- Demand line (blue, downward sloping) -->
+  <line x1="40" y1="40" x2="600" y2="440" stroke="#1E90FF" stroke-width="3" fill="none"/>
+  
+  <!-- Supply line (brown/red, upward sloping) -->
+  <line x1="40" y1="306.67" x2="600" y2="40" stroke="#B8604C" stroke-width="3" fill="none"/>
+  
+  <!-- Equilibrium dashed line -->
+  <line x1="40" y1="240" x2="600" y2="240" stroke="black" stroke-width="1.5" stroke-dasharray="8,4" fill="none"/>
+  
+  <!-- Labels for lines -->
+  <text x="180" y="80" font-family="Arial, sans-serif" font-size="18" fill="#1E90FF" font-style="italic" font-weight="bold">Demand</text>
+  <text x="80" y="330" font-family="Arial, sans-serif" font-size="18" fill="#B8604C" font-style="italic" font-weight="bold">Supply</text>
+  <text x="380" y="233" font-family="Arial, sans-serif" font-size="16" fill="black" font-style="italic">Price with Free Trade</text>
+</svg>

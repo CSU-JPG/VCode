@@ -1,0 +1,134 @@
+<svg viewBox="0 0 1000 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Table 1 Title -->
+  <text x="30" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#333">Table 1</text>
+  
+  <!-- Table -->
+  <rect x="30" y="90" width="940" height="60" fill="#f5f5f5" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="150" width="940" height="80" fill="#fff" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="230" width="940" height="80" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="310" width="940" height="80" fill="#fff" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="390" width="940" height="80" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="470" width="940" height="80" fill="#fff" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="550" width="940" height="80" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Vertical lines -->
+  <line x1="265" y1="90" x2="265" y2="630" stroke="#999" stroke-width="1"/>
+  <line x1="500" y1="90" x2="500" y2="630" stroke="#999" stroke-width="1"/>
+  <line x1="735" y1="90" x2="735" y2="630" stroke="#999" stroke-width="1"/>
+  
+  <!-- Headers -->
+  <text x="50" y="125" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">Emotional</text>
+  <text x="285" y="125" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">Physical</text>
+  <text x="520" y="125" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">Cognitive</text>
+  <text x="755" y="125" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">Behavioral</text>
+  
+  <!-- Row 1 -->
+  <text x="50" y="190" font-family="Arial, sans-serif" font-size="18" fill="#333">Frustration</text>
+  <text x="285" y="190" font-family="Arial, sans-serif" font-size="18" fill="#333">Decreased energy</text>
+  <text x="520" y="190" font-family="Arial, sans-serif" font-size="18" fill="#333">Frequent anxiety or</text>
+  <text x="520" y="210" font-family="Arial, sans-serif" font-size="18" fill="#333">worry</text>
+  <text x="755" y="190" font-family="Arial, sans-serif" font-size="18" fill="#333">Changes in appetite</text>
+  
+  <!-- Row 2 -->
+  <text x="50" y="270" font-family="Arial, sans-serif" font-size="18" fill="#333">Moodiness</text>
+  <text x="285" y="270" font-family="Arial, sans-serif" font-size="18" fill="#333">Headaches</text>
+  <text x="520" y="270" font-family="Arial, sans-serif" font-size="18" fill="#333">Poor concentration</text>
+  <text x="755" y="270" font-family="Arial, sans-serif" font-size="18" fill="#333">Changes in sleep</text>
+  
+  <!-- Row 3 -->
+  <text x="50" y="350" font-family="Arial, sans-serif" font-size="18" fill="#333">Agitation</text>
+  <text x="285" y="340" font-family="Arial, sans-serif" font-size="18" fill="#333">Diarrhea, constipation,</text>
+  <text x="285" y="360" font-family="Arial, sans-serif" font-size="18" fill="#333">or general stomach</text>
+  <text x="285" y="380" font-family="Arial, sans-serif" font-size="18" fill="#333">upset</text>
+  <text x="520" y="350" font-family="Arial, sans-serif" font-size="18" fill="#333">Forgetfulness</text>
+  <text x="755" y="350" font-family="Arial, sans-serif" font-size="18" fill="#333">Procrastination</text>
+  
+  <!-- Row 4 -->
+  <text x="50" y="420" font-family="Arial, sans-serif" font-size="18" fill="#333">Feeling</text>
+  <text x="50" y="440" font-family="Arial, sans-serif" font-size="18" fill="#333">overwhelmed</text>
+  <text x="285" y="420" font-family="Arial, sans-serif" font-size="18" fill="#333">Chest pain, rapid heart</text>
+  <text x="285" y="440" font-family="Arial, sans-serif" font-size="18" fill="#333">beat</text>
+  <text x="520" y="420" font-family="Arial, sans-serif" font-size="18" fill="#333">Inability to focus or</text>
+  <text x="520" y="440" font-family="Arial, sans-serif" font-size="18" fill="#333">concentrate</text>
+  <text x="755" y="420" font-family="Arial, sans-serif" font-size="18" fill="#333">Nervous habits (nail</text>
+  <text x="755" y="440" font-family="Arial, sans-serif" font-size="18" fill="#333">biting or fidgeting)</text>
+  
+  <!-- Row 5 -->
+  <text x="50" y="510" font-family="Arial, sans-serif" font-size="18" fill="#333">Low self-esteem</text>
+  <text x="285" y="510" font-family="Arial, sans-serif" font-size="18" fill="#333">Loss of sex drive</text>
+  <text x="520" y="510" font-family="Arial, sans-serif" font-size="18" fill="#333">Negativity</text>
+  <text x="755" y="500" font-family="Arial, sans-serif" font-size="18" fill="#333">Increased substance</text>
+  <text x="755" y="520" font-family="Arial, sans-serif" font-size="18" fill="#333">use or abuse</text>
+  
+  <!-- Row 6 -->
+  <text x="50" y="590" font-family="Arial, sans-serif" font-size="18" fill="#333">Loneliness or</text>
+  <text x="50" y="610" font-family="Arial, sans-serif" font-size="18" fill="#333">Isolation</text>
+  <text x="285" y="590" font-family="Arial, sans-serif" font-size="18" fill="#333">Frequent colds</text>
+  <text x="520" y="590" font-family="Arial, sans-serif" font-size="18" fill="#333">Poor judgment</text>
+  <text x="755" y="590" font-family="Arial, sans-serif" font-size="18" fill="#333">Isolation from others</text>
+  
+  <!-- Figure 1 Title -->
+  <text x="30" y="710" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#333">Figure 1</text>
+  
+  <!-- Chart background -->
+  <rect x="60" y="770" width="760" height="500" fill="#fff" stroke="#999" stroke-width="2"/>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="780" x2="100" y2="1230" stroke="#333" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="70" y="1230" font-family="Arial, sans-serif" font-size="16" fill="#333">0</text>
+  <text x="70" y="1150" font-family="Arial, sans-serif" font-size="16" fill="#333">1</text>
+  <text x="70" y="1070" font-family="Arial, sans-serif" font-size="16" fill="#333">2</text>
+  <text x="70" y="990" font-family="Arial, sans-serif" font-size="16" fill="#333">3</text>
+  <text x="70" y="910" font-family="Arial, sans-serif" font-size="16" fill="#333">4</text>
+  <text x="70" y="830" font-family="Arial, sans-serif" font-size="16" fill="#333">5</text>
+  <text x="70" y="750" font-family="Arial, sans-serif" font-size="16" fill="#333">6</text>
+  
+  <!-- Y-axis title -->
+  <text x="45" y="1000" font-family="Arial, sans-serif" font-size="16" fill="#333" transform="rotate(-90 45 1000)">Mean Number of Symptoms Reported</text>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="1230" x2="800" y2="1230" stroke="#333" stroke-width="2"/>
+  
+  <!-- Bars - Emotional -->
+  <rect x="145" y="750" width="50" height="480" fill="#b84747"/>
+  <rect x="200" y="1070" width="50" height="160" fill="#d4a5a5"/>
+  
+  <!-- Bars - Cognitive -->
+  <rect x="305" y="750" width="50" height="480" fill="#b84747"/>
+  <rect x="360" y="990" width="50" height="240" fill="#d4a5a5"/>
+  
+  <!-- Bars - Behavioral -->
+  <rect x="465" y="830" width="50" height="400" fill="#b84747"/>
+  <rect x="520" y="910" width="50" height="320" fill="#d4a5a5"/>
+  
+  <!-- Bars - Physical -->
+  <rect x="625" y="830" width="50" height="400" fill="#b84747"/>
+  <rect x="680" y="750" width="50" height="480" fill="#d4a5a5"/>
+  
+  <!-- X-axis labels -->
+  <text x="155" y="1260" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">Emotional</text>
+  <text x="345" y="1260" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">Cognitive</text>
+  <text x="505" y="1260" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">Behavioral</text>
+  <text x="665" y="1260" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">Physical</text>
+  
+  <!-- X-axis title -->
+  <text x="450" y="1300" font-family="Arial, sans-serif" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">Symptom Category</text>
+  
+  <!-- Legend -->
+  <rect x="610" y="890" width="20" height="20" fill="#b84747"/>
+  <text x="640" y="905" font-family="Arial, sans-serif" font-size="16" fill="#333">Pre Intervention</text>
+  
+  <rect x="610" y="925" width="20" height="20" fill="#d4a5a5"/>
+  <text x="640" y="940" font-family="Arial, sans-serif" font-size="16" fill="#333">Post Intervention</text>
+  
+  <!-- Y-axis tick marks -->
+  <line x1="95" y1="1230" x2="100" y2="1230" stroke="#333" stroke-width="2"/>
+  <line x1="95" y1="1150" x2="100" y2="1150" stroke="#333" stroke-width="2"/>
+  <line x1="95" y1="1070" x2="100" y2="1070" stroke="#333" stroke-width="2"/>
+  <line x1="95" y1="990" x2="100" y2="990" stroke="#333" stroke-width="2"/>
+  <line x1="95" y1="910" x2="100" y2="910" stroke="#333" stroke-width="2"/>
+  <line x1="95" y1="830" x2="100" y2="830" stroke="#333" stroke-width="2"/>
+  <line x1="95" y1="750" x2="100" y2="750" stroke="#333" stroke-width="2"/>
+</svg>

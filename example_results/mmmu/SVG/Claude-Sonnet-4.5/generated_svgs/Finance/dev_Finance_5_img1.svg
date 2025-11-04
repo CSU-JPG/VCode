@@ -1,0 +1,231 @@
+<svg viewBox="0 0 600 950" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="300" y="25" font-family="Arial, sans-serif" font-size="11" fill="#6B8E23" text-anchor="middle" font-weight="bold">
+    Income Statements for the Year Ending December 31 (Millions of Dollars Except
+  </text>
+  <text x="300" y="40" font-family="Arial, sans-serif" font-size="11" fill="#6B8E23" text-anchor="middle" font-weight="bold">
+    for Per Share Data)
+  </text>
+  
+  <!-- Header Row -->
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">Actual</text>
+  <text x="530" y="70" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">Projected</text>
+  <text x="450" y="85" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">2010</text>
+  <text x="530" y="85" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">2011</text>
+  
+  <line x1="20" y1="90" x2="580" y2="90" stroke="#000" stroke-width="1"/>
+  
+  <!-- Income Statement Items -->
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="10" fill="#000">Net sales</text>
+  <text x="430" y="110" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="110" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">500.0</text>
+  <text x="510" y="110" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="110" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">530.0</text>
+  
+  <text x="20" y="127" font-family="Arial, sans-serif" font-size="10" fill="#000">Costs (except depreciation)</text>
+  <text x="480" y="127" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">360.0</text>
+  <text x="560" y="127" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">381.6</text>
+  
+  <text x="20" y="144" font-family="Arial, sans-serif" font-size="10" fill="#000">Depreciation</text>
+  <text x="480" y="144" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">37.5</text>
+  <text x="560" y="144" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">39.8</text>
+  
+  <line x1="420" y1="150" x2="485" y2="150" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="150" x2="565" y2="150" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="35" y="165" font-family="Arial, sans-serif" font-size="10" fill="#000">Total operating costs</text>
+  <text x="430" y="165" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="165" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">397.5</text>
+  <text x="510" y="165" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="165" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">421.4</text>
+  
+  <text x="20" y="182" font-family="Arial, sans-serif" font-size="10" fill="#000">Earnings before interest and taxes</text>
+  <text x="430" y="182" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="182" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">102.5</text>
+  <text x="510" y="182" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="182" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">108.6</text>
+  
+  <text x="35" y="199" font-family="Arial, sans-serif" font-size="10" fill="#000">Less interest</text>
+  <text x="480" y="199" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">13.9</text>
+  <text x="560" y="199" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">16.0</text>
+  
+  <line x1="420" y1="204" x2="485" y2="204" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="204" x2="565" y2="204" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="20" y="219" font-family="Arial, sans-serif" font-size="10" fill="#000">Earnings before taxes</text>
+  <text x="430" y="219" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="219" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">88.6</text>
+  <text x="510" y="219" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="219" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">92.6</text>
+  
+  <text x="35" y="236" font-family="Arial, sans-serif" font-size="10" fill="#000">Taxes (40%)</text>
+  <text x="480" y="236" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">35.4</text>
+  <text x="560" y="236" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">37.0</text>
+  
+  <line x1="420" y1="241" x2="485" y2="241" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="241" x2="565" y2="241" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="20" y="256" font-family="Arial, sans-serif" font-size="10" fill="#000">Net income before preferred dividends</text>
+  <text x="430" y="256" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="256" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">53.2</text>
+  <text x="510" y="256" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="256" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">55.6</text>
+  
+  <text x="35" y="273" font-family="Arial, sans-serif" font-size="10" fill="#000">Preferred dividends</text>
+  <text x="480" y="273" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">6.0</text>
+  <text x="560" y="273" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">7.4</text>
+  
+  <line x1="420" y1="278" x2="485" y2="278" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="278" x2="565" y2="278" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="20" y="293" font-family="Arial, sans-serif" font-size="10" fill="#000">Net income available for common dividends</text>
+  <text x="430" y="293" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="293" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">47.2</text>
+  <text x="510" y="293" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="293" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">48.2</text>
+  
+  <text x="35" y="310" font-family="Arial, sans-serif" font-size="10" fill="#000">Common dividends</text>
+  <text x="480" y="310" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">40.8</text>
+  <text x="560" y="310" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">29.7</text>
+  
+  <line x1="420" y1="315" x2="485" y2="315" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="315" x2="565" y2="315" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="20" y="330" font-family="Arial, sans-serif" font-size="10" fill="#000">Addition to retained earnings</text>
+  <text x="430" y="330" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="330" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">6.4</text>
+  <text x="510" y="330" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="330" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">18.5</text>
+  
+  <text x="20" y="347" font-family="Arial, sans-serif" font-size="10" fill="#000">Number of shares</text>
+  <text x="480" y="347" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">10</text>
+  <text x="560" y="347" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">10</text>
+  
+  <text x="20" y="364" font-family="Arial, sans-serif" font-size="10" fill="#000">Dividends per share</text>
+  <text x="430" y="364" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="364" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">4.08</text>
+  <text x="510" y="364" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="364" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">2.97</text>
+  
+  <!-- Balance Sheet Title -->
+  <text x="20" y="400" font-family="Arial, sans-serif" font-size="11" fill="#6B8E23" font-weight="bold">
+    Balance Sheets for December 31 (Millions of Dollars)
+  </text>
+  
+  <!-- Balance Sheet Header Row -->
+  <text x="450" y="430" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">Actual</text>
+  <text x="530" y="430" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">Projected</text>
+  <text x="450" y="445" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">2010</text>
+  <text x="530" y="445" font-family="Arial, sans-serif" font-size="11" fill="#000" text-anchor="middle" font-weight="bold">2011</text>
+  
+  <line x1="20" y1="450" x2="580" y2="450" stroke="#000" stroke-width="1"/>
+  
+  <!-- Assets -->
+  <text x="20" y="470" font-family="Arial, sans-serif" font-size="10" fill="#000" font-weight="bold">Assets</text>
+  
+  <text x="20" y="487" font-family="Arial, sans-serif" font-size="10" fill="#000">Cash</text>
+  <text x="430" y="487" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="487" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">5.3</text>
+  <text x="510" y="487" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="487" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">5.6</text>
+  
+  <text x="20" y="504" font-family="Arial, sans-serif" font-size="10" fill="#000">Marketable securities</text>
+  <text x="480" y="504" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">49.9</text>
+  <text x="560" y="504" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">51.9</text>
+  
+  <text x="20" y="521" font-family="Arial, sans-serif" font-size="10" fill="#000">Accounts receivable</text>
+  <text x="480" y="521" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">53.0</text>
+  <text x="560" y="521" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">56.2</text>
+  
+  <text x="20" y="538" font-family="Arial, sans-serif" font-size="10" fill="#000">Inventories</text>
+  <text x="480" y="538" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">106.0</text>
+  <text x="560" y="538" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">112.4</text>
+  
+  <line x1="420" y1="543" x2="485" y2="543" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="543" x2="565" y2="543" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="35" y="558" font-family="Arial, sans-serif" font-size="10" fill="#000">Total current assets</text>
+  <text x="430" y="558" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="558" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">214.2</text>
+  <text x="510" y="558" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="558" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">226.1</text>
+  
+  <text x="20" y="575" font-family="Arial, sans-serif" font-size="10" fill="#000">Net plant and equipment</text>
+  <text x="480" y="575" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">375.0</text>
+  <text x="560" y="575" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">397.5</text>
+  
+  <line x1="420" y1="580" x2="485" y2="580" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="580" x2="565" y2="580" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="20" y="595" font-family="Arial, sans-serif" font-size="10" fill="#000" font-weight="bold">Total assets</text>
+  <text x="430" y="595" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="595" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">589.2</text>
+  <text x="510" y="595" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="595" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">623.6</text>
+  
+  <line x1="420" y1="600" x2="485" y2="600" stroke="#000" stroke-width="1.5"/>
+  <line x1="500" y1="600" x2="565" y2="600" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Liabilities and Equity -->
+  <text x="20" y="620" font-family="Arial, sans-serif" font-size="10" fill="#000" font-weight="bold">Liabilities and Equity</text>
+  
+  <text x="20" y="637" font-family="Arial, sans-serif" font-size="10" fill="#000">Accounts payable</text>
+  <text x="430" y="637" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="637" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">9.6</text>
+  <text x="510" y="637" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="637" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">11.2</text>
+  
+  <text x="20" y="654" font-family="Arial, sans-serif" font-size="10" fill="#000">Notes payable</text>
+  <text x="480" y="654" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">69.9</text>
+  <text x="560" y="654" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">74.1</text>
+  
+  <text x="20" y="671" font-family="Arial, sans-serif" font-size="10" fill="#000">Accruals</text>
+  <text x="480" y="671" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">27.5</text>
+  <text x="560" y="671" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">28.1</text>
+  
+  <line x1="420" y1="676" x2="485" y2="676" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="676" x2="565" y2="676" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="35" y="691" font-family="Arial, sans-serif" font-size="10" fill="#000">Total current liabilities</text>
+  <text x="430" y="691" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="691" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">107.0</text>
+  <text x="510" y="691" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="691" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">113.4</text>
+  
+  <text x="20" y="708" font-family="Arial, sans-serif" font-size="10" fill="#000">Long-term bonds</text>
+  <text x="480" y="708" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">140.8</text>
+  <text x="560" y="708" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">148.2</text>
+  
+  <text x="20" y="725" font-family="Arial, sans-serif" font-size="10" fill="#000">Preferred stock</text>
+  <text x="480" y="725" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">35.0</text>
+  <text x="560" y="725" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">37.1</text>
+  
+  <text x="20" y="742" font-family="Arial, sans-serif" font-size="10" fill="#000">Common stock (par plus PIC)</text>
+  <text x="480" y="742" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">160.0</text>
+  <text x="560" y="742" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">160.0</text>
+  
+  <text x="20" y="759" font-family="Arial, sans-serif" font-size="10" fill="#000">Retained earnings</text>
+  <text x="480" y="759" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">146.4</text>
+  <text x="560" y="759" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">164.9</text>
+  
+  <line x1="420" y1="764" x2="485" y2="764" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="764" x2="565" y2="764" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="35" y="779" font-family="Arial, sans-serif" font-size="10" fill="#000">Common equity</text>
+  <text x="430" y="779" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="779" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">306.4</text>
+  <text x="510" y="779" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="779" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">324.9</text>
+  
+  <line x1="420" y1="784" x2="485" y2="784" stroke="#000" stroke-width="0.5"/>
+  <line x1="500" y1="784" x2="565" y2="784" stroke="#000" stroke-width="0.5"/>
+  
+  <text x="20" y="799" font-family="Arial, sans-serif" font-size="10" fill="#000" font-weight="bold">Total liabilities and equity</text>
+  <text x="430" y="799" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="480" y="799" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">589.2</text>
+  <text x="510" y="799" font-family="Arial, sans-serif" font-size="10" fill="#000">$</text>
+  <text x="560" y="799" font-family="Arial, sans-serif" font-size="10" fill="#000" text-anchor="end">623.6</text>
+  
+  <line x1="420" y1="804" x2="485" y2="804" stroke="#000" stroke-width="1.5"/>
+  <line x1="500" y1="804" x2="565" y2="804" stroke="#000" stroke-width="1.5"/>
+</svg>

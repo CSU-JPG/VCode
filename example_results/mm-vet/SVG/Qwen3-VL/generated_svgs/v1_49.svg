@@ -1,0 +1,115 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .room-label { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; text-anchor: middle; }
+    .dimension { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .furniture { fill: black; }
+    .door { stroke: black; stroke-width: 2; fill: none; }
+    .window { fill: #ccc; stroke: black; }
+    .wall { fill: black; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; }
+  </style>
+
+  <!-- Walls and structure -->
+  <rect x="50" y="50" width="900" height="900" fill="none" stroke="black" stroke-width="4"/>
+
+  <!-- Entrance -->
+  <path d="M600 950 L650 950 L650 930 L600 930 Z" fill="black"/>
+  <text x="700" y="940" class="text">Entrance</text>
+
+  <!-- Foyer -->
+  <rect x="500" y="800" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="575" y="830" class="room-label">FOYER</text>
+  <text x="575" y="850" class="dimension">6'0" x 6'34"</text>
+
+  <!-- Living Room -->
+  <rect x="50" y="500" width="400" height="300" fill="none" stroke="black" stroke-width="2"/>
+  <text x="250" y="600" class="room-label">LIVING ROOM</text>
+  <text x="250" y="620" class="dimension">14'6" x 20'5"</text>
+
+  <!-- Dining Area -->
+  <rect x="50" y="250" width="200" height="250" fill="none" stroke="black" stroke-width="2"/>
+  <text x="150" y="300" class="room-label">DINING AREA</text>
+  <text x="150" y="320" class="dimension">9'10" x 13'0"</text>
+
+  <!-- Kitchen -->
+  <rect x="250" y="250" width="100" height="250" fill="none" stroke="black" stroke-width="2"/>
+  <text x="300" y="280" class="room-label">KITCHEN</text>
+  <text x="300" y="300" class="dimension">7'5" x 12'3"</text>
+
+  <!-- Oven -->
+  <rect x="260" y="300" width="30" height="30" fill="black"/>
+  <text x="275" y="340" class="text">oven</text>
+
+  <!-- Dishwasher -->
+  <rect x="350" y="300" width="20" height="20" fill="black"/>
+  <text x="360" y="330" class="text">DW</text>
+
+  <!-- Built-in -->
+  <rect x="350" y="350" width="30" height="30" fill="black"/>
+  <text x="365" y="390" class="text">Built-in</text>
+
+  <!-- CL (Closet) -->
+  <rect x="400" y="250" width="50" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="425" y="280" class="room-label">CL</text>
+  <text x="425" y="300" class="dimension">8'4" x 2'7"</text>
+
+  <!-- Second Bedroom -->
+  <rect x="500" y="250" width="200" height="250" fill="none" stroke="black" stroke-width="2"/>
+  <text x="600" y="300" class="room-label">SECOND BEDROOM</text>
+  <text x="600" y="320" class="dimension">10'10" x 14'7"</text>
+
+  <!-- WC -->
+  <rect x="500" y="500" width="100" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="550" y="530" class="room-label">WC</text>
+  <text x="550" y="550" class="dimension">5'2" x 5'2"</text>
+
+  <!-- Master Bedroom -->
+  <rect x="700" y="250" width="200" height="250" fill="none" stroke="black" stroke-width="2"/>
+  <text x="800" y="300" class="room-label">MASTER BEDROOM</text>
+  <text x="800" y="320" class="dimension">12'10" x 17'9"</text>
+
+  <!-- Master Bathroom -->
+  <rect x="800" y="600" width="100" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="850" y="630" class="room-label">MASTER BATHROOM</text>
+  <text x="850" y="650" class="dimension">4'11" x 6'10"</text>
+
+  <!-- Bath -->
+  <rect x="700" y="600" width="100" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="750" y="630" class="room-label">BATH</text>
+
+  <!-- LC (Laundry Closet) -->
+  <rect x="650" y="700" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="675" y="730" class="room-label">LC</text>
+
+  <!-- Terrace -->
+  <rect x="50" y="50" width="300" height="150" fill="none" stroke="black" stroke-width="2"/>
+  <text x="200" y="80" class="room-label">TERRACE</text>
+  <text x="200" y="100" class="dimension">21'6" x 8'0"</text>
+
+  <!-- Doors and windows -->
+  <path d="M150 250 L150 200" class="door"/>
+  <path d="M300 250 L300 200" class="door"/>
+  <path d="M500 500 L500 450" class="door"/>
+  <path d="M700 500 L700 450" class="door"/>
+  <path d="M800 600 L800 550" class="door"/>
+  <path d="M650 700 L650 650" class="door"/>
+
+  <!-- Windows -->
+  <rect x="50" y="600" width="20" height="10" class="window"/>
+  <rect x="50" y="700" width="20" height="10" class="window"/>
+  <rect x="50" y="800" width="20" height="10" class="window"/>
+  <rect x="50" y="900" width="20" height="10" class="window"/>
+  <rect x="900" y="600" width="20" height="10" class="window"/>
+  <rect x="900" y="700" width="20" height="10" class="window"/>
+  <rect x="900" y="800" width="20" height="10" class="window"/>
+  <rect x="900" y="900" width="20" height="10" class="window"/>
+
+  <!-- Furniture icons -->
+  <rect x="700" y="720" width="20" height="20" class="furniture"/>
+  <rect x="730" y="720" width="20" height="20" class="furniture"/>
+  <rect x="810" y="620" width="20" height="20" class="furniture"/>
+  <rect x="810" y="650" width="20" height="20" class="furniture"/>
+  <rect x="810" y="680" width="20" height="20" class="furniture"/>
+  <rect x="810" y="710" width="20" height="20" class="furniture"/>
+
+</svg>

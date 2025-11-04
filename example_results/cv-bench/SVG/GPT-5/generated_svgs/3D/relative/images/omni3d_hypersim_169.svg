@@ -1,0 +1,212 @@
+<svg viewBox="0 0 1100 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ceilingGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ef"/>
+      <stop offset="1" stop-color="#efeae2"/>
+    </linearGradient>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7d5d1"/>
+      <stop offset="1" stop-color="#c9c6c2"/>
+    </linearGradient>
+    <linearGradient id="brickGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c28b68"/>
+      <stop offset="1" stop-color="#a4704f"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a6a40"/>
+      <stop offset="1" stop-color="#6c4a2e"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0e5ec"/>
+      <stop offset="1" stop-color="#c5cad3"/>
+    </linearGradient>
+    <radialGradient id="lampAmber" cx="0.5" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#ffd27d" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c47a36" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="plantGrad" cx="0.5" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#bfe27c"/>
+      <stop offset="1" stop-color="#5c8c2b"/>
+    </radialGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="3" result="off"/>
+      <feMerge>
+        <feMergeNode in="off"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ceiling -->
+  <rect x="0" y="0" width="1100" height="160" fill="url(#ceilingGrad)"/>
+  <!-- Ceiling planks -->
+  <g stroke="#e1dbd2" stroke-width="4">
+    <line x1="0" y1="20" x2="1100" y2="20"/>
+    <line x1="0" y1="45" x2="1100" y2="45"/>
+    <line x1="0" y1="70" x2="1100" y2="70"/>
+    <line x1="0" y1="95" x2="1100" y2="95"/>
+    <line x1="0" y1="120" x2="1100" y2="120"/>
+    <line x1="0" y1="145" x2="1100" y2="145"/>
+  </g>
+
+  <!-- Left and center wall -->
+  <rect x="0" y="160" width="820" height="260" fill="url(#wallGrad)"/>
+  <!-- Right brick wall -->
+  <rect x="820" y="160" width="280" height="260" fill="url(#brickGrad)"/>
+  <!-- Simple brick lines -->
+  <g stroke="#8e5e40" stroke-width="1" opacity="0.35">
+    <!-- horizontal brick courses -->
+    <line x1="820" y1="180" x2="1100" y2="180"/>
+    <line x1="820" y1="200" x2="1100" y2="200"/>
+    <line x1="820" y1="220" x2="1100" y2="220"/>
+    <line x1="820" y1="240" x2="1100" y2="240"/>
+    <line x1="820" y1="260" x2="1100" y2="260"/>
+    <line x1="820" y1="280" x2="1100" y2="280"/>
+    <line x1="820" y1="300" x2="1100" y2="300"/>
+    <line x1="820" y1="320" x2="1100" y2="320"/>
+    <line x1="820" y1="340" x2="1100" y2="340"/>
+    <line x1="820" y1="360" x2="1100" y2="360"/>
+    <line x1="820" y1="380" x2="1100" y2="380"/>
+    <line x1="820" y1="400" x2="1100" y2="400"/>
+  </g>
+
+  <!-- Diagonal black beam near ceiling -->
+  <polygon points="720,0 1100,0 1100,160 880,160" fill="#1b1b1b" opacity="0.95"/>
+  <!-- Stairs (simplified) -->
+  <g fill="#5a4635">
+    <rect x="1000" y="60" width="80" height="12"/>
+    <rect x="960" y="80" width="80" height="12"/>
+    <rect x="920" y="100" width="80" height="12"/>
+    <rect x="880" y="120" width="80" height="12"/>
+    <rect x="840" y="140" width="80" height="12"/>
+  </g>
+
+  <!-- Window frame spanning center -->
+  <rect x="210" y="170" width="700" height="230" fill="#121212"/>
+  <rect x="220" y="180" width="680" height="210" fill="url(#glass)"/>
+  <!-- Window mullions -->
+  <g stroke="#1d1d1d" stroke-width="10">
+    <line x1="240" y1="170" x2="240" y2="400"/>
+    <line x1="310" y1="170" x2="310" y2="400"/>
+    <line x1="460" y1="170" x2="460" y2="400"/>
+    <line x1="590" y1="170" x2="590" y2="400"/>
+    <line x1="725" y1="170" x2="725" y2="400"/>
+    <line x1="875" y1="170" x2="875" y2="400"/>
+    <line x1="220" y1="250" x2="900" y2="250"/>
+    <line x1="220" y1="320" x2="900" y2="320"/>
+  </g>
+
+  <!-- Floor -->
+  <rect x="0" y="420" width="1100" height="380" fill="url(#floorGrad)"/>
+  <!-- Floor planks -->
+  <g stroke="#6a482a" stroke-width="2" opacity="0.5">
+    <line x1="0" y1="440" x2="1100" y2="440"/>
+    <line x1="0" y1="460" x2="1100" y2="460"/>
+    <line x1="0" y1="480" x2="1100" y2="480"/>
+    <line x1="0" y1="500" x2="1100" y2="500"/>
+    <line x1="0" y1="520" x2="1100" y2="520"/>
+    <line x1="0" y1="540" x2="1100" y2="540"/>
+    <line x1="0" y1="560" x2="1100" y2="560"/>
+    <line x1="0" y1="580" x2="1100" y2="580"/>
+    <line x1="0" y1="600" x2="1100" y2="600"/>
+    <line x1="0" y1="620" x2="1100" y2="620"/>
+    <line x1="0" y1="640" x2="1100" y2="640"/>
+    <line x1="0" y1="660" x2="1100" y2="660"/>
+    <line x1="0" y1="680" x2="1100" y2="680"/>
+    <line x1="0" y1="700" x2="1100" y2="700"/>
+    <line x1="0" y1="720" x2="1100" y2="720"/>
+  </g>
+
+  <!-- TV stand and TV (left) -->
+  <rect x="100" y="430" width="160" height="90" fill="#2b2b2b"/>
+  <rect x="120" y="445" width="120" height="60" rx="4" fill="#0b0b0b" stroke="#3b3b3b" stroke-width="3"/>
+  <rect x="100" y="420" width="190" height="120" fill="none" stroke="#3af057" stroke-width="8"/>
+
+  <!-- Pendant lamps -->
+  <g>
+    <line x1="350" y1="160" x2="350" y2="330" stroke="#1b1b1b" stroke-width="4"/>
+    <ellipse cx="350" cy="350" rx="85" ry="45" fill="url(#lampAmber)" stroke="#2b201a" stroke-width="4" opacity="0.9"/>
+    <line x1="680" y1="160" x2="680" y2="330" stroke="#1b1b1b" stroke-width="4"/>
+    <ellipse cx="680" cy="350" rx="85" ry="45" fill="url(#lampAmber)" stroke="#2b201a" stroke-width="4" opacity="0.9"/>
+    <!-- glow spots -->
+    <ellipse cx="350" cy="395" rx="80" ry="18" fill="#f1c27a" opacity="0.15"/>
+    <ellipse cx="680" cy="395" rx="80" ry="18" fill="#f1c27a" opacity="0.15"/>
+  </g>
+
+  <!-- Rug -->
+  <ellipse cx="360" cy="640" rx="240" ry="110" fill="#92a06b" opacity="0.5"/>
+
+  <!-- Sofa group -->
+  <g filter="url(#softShadow)">
+    <!-- sofa base -->
+    <rect x="480" y="560" width="420" height="70" rx="14" fill="#b9b2aa"/>
+    <!-- chaise -->
+    <rect x="810" y="560" width="120" height="120" rx="16" fill="#c9c2bb"/>
+    <!-- back -->
+    <rect x="500" y="505" width="380" height="70" rx="16" fill="#7d7b78"/>
+    <!-- arms -->
+    <rect x="460" y="540" width="50" height="90" rx="16" fill="#a9a39c"/>
+    <rect x="900" y="520" width="60" height="120" rx="16" fill="#bdb6af"/>
+    <!-- cushions -->
+    <rect x="515" y="515" width="75" height="50" rx="10" fill="#4c66a1"/>
+    <rect x="595" y="515" width="75" height="50" rx="10" fill="#3a538b"/>
+    <rect x="675" y="515" width="75" height="50" rx="10" fill="#2d4579"/>
+    <rect x="755" y="515" width="85" height="50" rx="10" fill="#b7cb62"/>
+    <!-- throw pillow -->
+    <ellipse cx="845" cy="540" rx="34" ry="26" fill="#b8be9e"/>
+  </g>
+
+  <!-- Side table and lamp near chaise -->
+  <g>
+    <rect x="895" y="625" width="90" height="18" rx="8" fill="#7b7771"/>
+    <rect x="910" y="635" width="60" height="70" rx="12" fill="#a7a29c"/>
+    <circle cx="890" cy="605" r="28" fill="url(#plantGrad)" />
+    <rect x="872" y="622" width="36" height="10" rx="5" fill="#5e5a55"/>
+  </g>
+
+  <!-- Small side table left of sofa -->
+  <g>
+    <rect x="456" y="595" width="36" height="10" rx="5" fill="#9f978f"/>
+    <rect x="446" y="605" width="56" height="50" rx="10" fill="#bdb5ad"/>
+  </g>
+
+  <!-- Coffee table (metal ring with glass) -->
+  <g filter="url(#softShadow)">
+    <ellipse cx="565" cy="640" rx="120" ry="44" fill="#cfd4d8" opacity="0.45" stroke="#6f6f6f" stroke-width="4"/>
+    <ellipse cx="565" cy="640" rx="100" ry="30" fill="#e7ecef" opacity="0.6"/>
+    <path d="M470,640 a120,44 0 0 0 190,0" fill="none" stroke="#4b4b4b" stroke-width="4"/>
+    <line x1="470" y1="640" x2="470" y2="690" stroke="#4b4b4b" stroke-width="6"/>
+    <line x1="660" y1="640" x2="660" y2="690" stroke="#4b4b4b" stroke-width="6"/>
+    <ellipse cx="565" cy="690" rx="110" ry="18" fill="#000" opacity="0.15"/>
+  </g>
+
+  <!-- Bowls and decor on floor -->
+  <ellipse cx="320" cy="710" rx="80" ry="28" fill="#e0a02b"/>
+  <ellipse cx="320" cy="706" rx="54" ry="14" fill="#ffd276"/>
+  <ellipse cx="380" cy="695" rx="60" ry="26" fill="#5a742a"/>
+  <ellipse cx="380" cy="690" rx="42" ry="12" fill="#9dc46b"/>
+  <ellipse cx="460" cy="735" rx="60" ry="20" fill="#efe8e1"/>
+  <ellipse cx="460" cy="733" rx="40" ry="10" fill="#fffaf5"/>
+
+  <!-- Framed artwork on right wall -->
+  <rect x="960" y="260" width="90" height="120" fill="#efefef" stroke="#9c9c9c" stroke-width="6"/>
+  <path d="M975,355 c10,-45 35,-60 55,-85" stroke="#4d4d4d" stroke-width="4" fill="none"/>
+
+  <!-- Framed mirror/picture left of TV -->
+  <rect x="270" y="410" width="70" height="130" fill="#2a2a2a" stroke="#1c1c1c" stroke-width="12"/>
+  <rect x="278" y="420" width="54" height="110" fill="#a3a7a9"/>
+
+  <!-- Green plant on right floor -->
+  <rect x="1020" y="540" width="60" height="20" rx="10" fill="#d39a62"/>
+  <g transform="translate(1030,520)">
+    <ellipse cx="20" cy="10" rx="20" ry="18" fill="url(#plantGrad)"/>
+    <ellipse cx="6" cy="18" rx="14" ry="12" fill="url(#plantGrad)"/>
+    <ellipse cx="32" cy="22" rx="16" ry="14" fill="url(#plantGrad)"/>
+  </g>
+
+  <!-- Highlight rectangles corresponding to the prompt -->
+  <rect x="450" y="470" width="500" height="190" fill="none" stroke="#2c54ff" stroke-width="8"/>
+  <rect x="470" y="560" width="210" height="90" fill="none" stroke="#ff3a1f" stroke-width="8"/>
+
+</svg>

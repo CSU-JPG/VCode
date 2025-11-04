@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e5fcc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a9fdd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#87ceeb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8d8e8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#skyGrad)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="150" cy="100" rx="60" ry="30" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="190" cy="110" rx="50" ry="25" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="1000" cy="80" rx="70" ry="35" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="1050" cy="95" rx="55" ry="28" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="500" cy="120" rx="45" ry="22" fill="#ffffff" opacity="0.4"/>
+  
+  <!-- CN Tower -->
+  <rect x="175" y="200" width="8" height="250" fill="#c0c0c0"/>
+  <rect x="172" y="150" width="14" height="50" fill="#d0d0d0"/>
+  <ellipse cx="179" cy="140" rx="12" ry="8" fill="#e74c3c"/>
+  <polygon points="179,80 185,140 173,140" fill="#a0a0a0"/>
+  
+  <!-- Skyline buildings -->
+  <rect x="80" y="300" width="60" height="150" fill="#2c3e50"/>
+  <rect x="150" y="280" width="50" height="170" fill="#34495e"/>
+  <rect x="210" y="320" width="45" height="130" fill="#2c3e50"/>
+  <rect x="800" y="290" width="70" height="160" fill="#34495e"/>
+  <rect x="880" y="310" width="55" height="140" fill="#2c3e50"/>
+  <rect x="945" y="270" width="65" height="180" fill="#34495e"/>
+  <rect x="1020" y="300" width="50" height="150" fill="#2c3e50"/>
+  
+  <!-- Building windows -->
+  <rect x="90" y="320" width="8" height="12" fill="#f39c12" opacity="0.7"/>
+  <rect x="102" y="320" width="8" height="12" fill="#f39c12" opacity="0.7"/>
+  <rect x="114" y="320" width="8" height="12" fill="#f39c12" opacity="0.7"/>
+  <rect x="160" y="300" width="8" height="12" fill="#f39c12" opacity="0.7"/>
+  <rect x="172" y="300" width="8" height="12" fill="#f39c12" opacity="0.7"/>
+  
+  <!-- News desk -->
+  <rect x="100" y="480" width="1000" height="320" fill="url(#deskGrad)"/>
+  <rect x="100" y="480" width="1000" height="15" fill="#a0c8d8"/>
+  
+  <!-- Desk reflection effect -->
+  <ellipse cx="600" cy="650" rx="400" ry="30" fill="#ffffff" opacity="0.2"/>
+  
+  <!-- CTV News Toronto Logo -->
+  <rect x="470" y="50" width="260" height="100" fill="#1e5fcc" opacity="0.3" rx="5"/>
+  
+  <!-- CTV letters -->
+  <circle cx="530" cy="85" r="22" fill="#e74c3c"/>
+  <text x="530" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="570" y="95" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff">T</text>
+  <text x="610" y="95" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff">V</text>
+  
+  <!-- NEWS text -->
+  <text x="530" y="140" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">NEWS</text>
+  
+  <!-- TORONTO text -->
+  <text x="530" y="175" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">TORONTO</text>
+  
+  <!-- Female anchor (left) -->
+  <!-- Head -->
+  <ellipse cx="380" cy="370" rx="45" ry="55" fill="#f4c5a8"/>
+  <!-- Hair -->
+  <path d="M 335 360 Q 335 310 380 305 Q 425 310 425 360 L 425 390 Q 420 395 380 395 Q 340 395 335 390 Z" fill="#d4a574"/>
+  <!-- Neck -->
+  <rect x="365" y="420" width="30" height="30" fill="#f4c5a8"/>
+  <!-- Body/Dress -->
+  <path d="M 300 450 L 350 450 L 365 600 L 395 600 L 410 450 L 460 450 L 460 700 L 300 700 Z" fill="#2d5c3f"/>
+  <!-- Arms -->
+  <rect x="295" y="490" width="25" height="90" fill="#2d5c3f"/>
+  <rect x="440" y="490" width="25" height="90" fill="#2d5c3f"/>
+  <!-- Hands on desk -->
+  <ellipse cx="307" cy="585" rx="18" ry="12" fill="#f4c5a8"/>
+  <ellipse cx="452" cy="585" rx="18" ry="12" fill="#f4c5a8"/>
+  <!-- Face details -->
+  <ellipse cx="365" cy="375" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="395" cy="375" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 372 395 Q 380 400 388 395" stroke="#c97a63" stroke-width="2" fill="none"/>
+  
+  <!-- Male anchor (right) -->
+  <!-- Head -->
+  <ellipse cx="820" cy="370" rx="45" ry="55" fill="#8b6f47"/>
+  <!-- Hair -->
+  <ellipse cx="820" cy="340" rx="47" ry="35" fill="#1a1a1a"/>
+  <!-- Neck -->
+  <rect x="805" y="420" width="30" height="30" fill="#8b6f47"/>
+  <!-- Suit -->
+  <path d="M 740 450 L 790 450 L 805 600 L 835 600 L 850 450 L 900 450 L 900 700 L 740 700 Z" fill="#1a1a1a"/>
+  <!-- Shirt -->
+  <path d="M 795 450 L 805 500 L 805 600 L 835 600 L 835 500 L 845 450 Z" fill="#e8f4f8"/>
+  <!-- Tie -->
+  <path d="M 815 450 L 810 500 L 820 580 L 830 500 L 825 450 Z" fill="#8b0000"/>
+  <!-- Arms -->
+  <rect x="735" y="490" width="25" height="90" fill="#1a1a1a"/>
+  <rect x="880" y="490" width="25" height="90" fill="#1a1a1a"/>
+  <!-- Hands on desk -->
+  <ellipse cx="747" cy="585" rx="18" ry="12" fill="#8b6f47"/>
+  <ellipse cx="892" cy="585" rx="18" ry="12" fill="#8b6f47"/>
+  <!-- Face details -->
+  <ellipse cx="805" cy="375" rx="3" ry="4" fill="#1a1a1a"/>
+  <ellipse cx="835" cy="375" rx="3" ry="4" fill="#1a1a1a"/>
+  <path d="M 812 395 Q 820 398 828 395" stroke="#6b5437" stroke-width="2" fill="none"/>
+</svg>

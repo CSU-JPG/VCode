@@ -1,0 +1,107 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke-width: 2; fill: none; }
+    .dot { r: 4; }
+    .label { font-family: Arial, sans-serif; font-size: 12px; }
+    .title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+    .legend { font-family: Arial, sans-serif; font-size: 12px; }
+  </style>
+
+  <!-- Title -->
+  <text x="10" y="20" class="title">US Nationwide:</text>
+
+  <!-- Legend -->
+  <circle cx="10" cy="45" r="4" fill="#1f77b4"/>
+  <text x="20" y="48" class="legend">Median House Price</text>
+  <circle cx="180" cy="45" r="4" fill="#ff7f0e"/>
+  <text x="190" y="48" class="legend">Median Gross Rent per Month</text>
+  <circle cx="10" cy="65" r="4" fill="#d62728"/>
+  <text x="20" y="68" class="legend">Median Household Income</text>
+
+  <!-- Axis labels -->
+  <text x="10" y="90" class="label">Growth rate:</text>
+  <text x="10" y="110" class="label">150%</text>
+  <text x="10" y="180" class="label">100%</text>
+  <text x="10" y="250" class="label">50%</text>
+  <text x="10" y="320" class="label">0</text>
+
+  <!-- X-axis labels -->
+  <text x="50" y="340" class="label">1960</text>
+  <text x="120" y="340" class="label">1970</text>
+  <text x="190" y="340" class="label">1980</text>
+  <text x="260" y="340" class="label">1990</text>
+  <text x="330" y="340" class="label">2000</text>
+  <text x="400" y="340" class="label">2008</text>
+  <text x="470" y="340" class="label">2010</text>
+  <text x="540" y="340" class="label">2017</text>
+
+  <!-- Grid lines -->
+  <line x1="40" y1="110" x2="580" y2="110" stroke="#ccc" stroke-dasharray="2,2"/>
+  <line x1="40" y1="180" x2="580" y2="180" stroke="#ccc" stroke-dasharray="2,2"/>
+  <line x1="40" y1="250" x2="580" y2="250" stroke="#ccc" stroke-dasharray="2,2"/>
+  <line x1="40" y1="320" x2="580" y2="320" stroke="#ccc" stroke-dasharray="2,2"/>
+
+  <!-- Data lines -->
+  <!-- Median House Price (blue) -->
+  <polyline class="line" stroke="#1f77b4" points="
+    50,320 
+    120,290 
+    190,240 
+    260,230 
+    330,200 
+    400,130 
+    470,180 
+    540,160
+  "/>
+  <!-- Dots for blue line -->
+  <circle cx="50" cy="320" class="dot" fill="#1f77b4"/>
+  <circle cx="120" cy="290" class="dot" fill="#1f77b4"/>
+  <circle cx="190" cy="240" class="dot" fill="#1f77b4"/>
+  <circle cx="260" cy="230" class="dot" fill="#1f77b4"/>
+  <circle cx="330" cy="200" class="dot" fill="#1f77b4"/>
+  <circle cx="400" cy="130" class="dot" fill="#1f77b4"/>
+  <circle cx="470" cy="180" class="dot" fill="#1f77b4"/>
+  <circle cx="540" cy="160" class="dot" fill="#1f77b4"/>
+
+  <!-- Median Gross Rent per Month (orange) -->
+  <polyline class="line" stroke="#ff7f0e" points="
+    50,320 
+    120,280 
+    190,250 
+    260,230 
+    330,220 
+    400,200 
+    470,200 
+    540,210
+  "/>
+  <!-- Dots for orange line -->
+  <circle cx="50" cy="320" class="dot" fill="#ff7f0e"/>
+  <circle cx="120" cy="280" class="dot" fill="#ff7f0e"/>
+  <circle cx="190" cy="250" class="dot" fill="#ff7f0e"/>
+  <circle cx="260" cy="230" class="dot" fill="#ff7f0e"/>
+  <circle cx="330" cy="220" class="dot" fill="#ff7f0e"/>
+  <circle cx="400" cy="200" class="dot" fill="#ff7f0e"/>
+  <circle cx="470" cy="200" class="dot" fill="#ff7f0e"/>
+  <circle cx="540" cy="210" class="dot" fill="#ff7f0e"/>
+
+  <!-- Median Household Income (red) -->
+  <polyline class="line" stroke="#d62728" points="
+    50,320 
+    120,290 
+    190,310 
+    260,290 
+    330,280 
+    400,270 
+    470,290 
+    540,280
+  "/>
+  <!-- Dots for red line -->
+  <circle cx="50" cy="320" class="dot" fill="#d62728"/>
+  <circle cx="120" cy="290" class="dot" fill="#d62728"/>
+  <circle cx="190" cy="310" class="dot" fill="#d62728"/>
+  <circle cx="260" cy="290" class="dot" fill="#d62728"/>
+  <circle cx="330" cy="280" class="dot" fill="#d62728"/>
+  <circle cx="400" cy="270" class="dot" fill="#d62728"/>
+  <circle cx="470" cy="290" class="dot" fill="#d62728"/>
+  <circle cx="540" cy="280" class="dot" fill="#d62728"/>
+</svg>

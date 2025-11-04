@@ -1,0 +1,45 @@
+<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer wall outline -->
+  <rect x="15" y="15" width="455" height="290" fill="#e8d5c4" stroke="#666" stroke-width="2"/>
+  
+  <!-- Top cabinet/shelf -->
+  <rect x="30" y="30" width="440" height="30" fill="#d4c4b4" stroke="#888" stroke-width="1.5"/>
+  
+  <!-- Sink cutout -->
+  <rect x="215" y="35" width="70" height="50" fill="#b8b8b8" stroke="#666" stroke-width="2" rx="3"/>
+  <ellipse cx="250" cy="60" rx="25" ry="18" fill="#e0e0e0" stroke="#888" stroke-width="1.5"/>
+  <circle cx="250" cy="60" r="3" fill="#666"/>
+  
+  <!-- Sink faucet indicators -->
+  <rect x="195" y="30" width="10" height="8" fill="#999" stroke="#666" stroke-width="1"/>
+  <rect x="295" y="30" width="10" height="8" fill="#999" stroke="#666" stroke-width="1"/>
+  
+  <!-- Left appliance (refrigerator) -->
+  <rect x="30" y="140" width="75" height="150" fill="#e8e8e8" stroke="#888" stroke-width="2"/>
+  <line x1="67" y1="140" x2="67" y2="290" stroke="#aaa" stroke-width="1"/>
+  <rect x="72" y="200" width="8" height="30" fill="#c0c0c0" stroke="#888" stroke-width="1" rx="1"/>
+  
+  <!-- Left top cabinet -->
+  <rect x="30" y="140" width="75" height="35" fill="#d4c4b4" stroke="#888" stroke-width="1.5"/>
+  
+  <!-- Left dimension labels -->
+  <text x="55" y="135" font-family="Arial" font-size="10" fill="#333">16"</text>
+  <text x="20" y="160" font-family="Arial" font-size="10" fill="#333">15"</text>
+  
+  <!-- Center island -->
+  <rect x="235" y="210" width="165" height="80" fill="#d4c4b4" stroke="#888" stroke-width="2"/>
+  
+  <!-- Island dimension labels -->
+  <text x="290" y="240" font-family="Arial" font-size="10" fill="#333">15"</text>
+  <text x="250" y="305" font-family="Arial" font-size="10" fill="#333">16"</text>
+  
+  <!-- Clearance notation -->
+  <line x1="105" y1="245" x2="235" y2="245" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="105" y1="235" x2="105" y2="255" stroke="#666" stroke-width="1"/>
+  <line x1="235" y1="235" x2="235" y2="255" stroke="#666" stroke-width="1"/>
+  <text x="130" y="235" font-family="Arial" font-size="9" fill="#333">NO MORE</text>
+  <text x="130" y="245" font-family="Arial" font-size="9" fill="#333">THAN 48"</text>
+  
+  <!-- White work surface -->
+  <rect x="100" y="100" width="320" height="90" fill="#ffffff" stroke="#aaa" stroke-width="1.5"/>
+</svg>

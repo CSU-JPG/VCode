@@ -1,0 +1,28 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="black"/>
+  <rect x="20" y="260" width="920" height="200" rx="10" fill="#FFD700" filter="url(#glow)"/>
+  <text x="120" y="400" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="black">Luxmi Jewellers</text>
+  <circle cx="50" cy="450" r="30" fill="#FFD700" filter="url(#glow)"/>
+  <g stroke="#666" stroke-width="2">
+    <line x1="100" y1="500" x2="900" y2="500"/>
+    <line x1="150" y1="550" x2="850" y2="550"/>
+    <line x1="200" y1="600" x2="800" y2="600"/>
+    <line x1="250" y1="650" x2="750" y2="650"/>
+    <line x1="300" y1="700" x2="700" y2="700"/>
+  </g>
+  <rect x="100" y="700" width="200" height="100" fill="#F5F5F5"/>
+  <rect x="500" y="700" width="300" height="100" fill="#E8E8E8"/>
+  <rect x="180" y="720" width="80" height="60" fill="#C0C0C0"/>
+  <rect x="550" y="720" width="200" height="60" fill="#D3D3D3"/>
+  <rect x="10" y="700" width="80" height="100" fill="#A9A9A9"/>
+  <rect x="900" y="700" width="80" height="100" fill="#A9A9A9"/>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

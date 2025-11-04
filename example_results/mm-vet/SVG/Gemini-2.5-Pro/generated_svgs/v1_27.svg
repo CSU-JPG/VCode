@@ -1,0 +1,64 @@
+<svg viewBox="0 0 850 720" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .question-text { font-family: Arial, sans-serif; font-size: 22px; }
+    .label-text { font-family: Arial, sans-serif; font-size: 20px; text-anchor: middle; dominant-baseline: middle;}
+    .caption-text { font-family: Arial, sans-serif; font-size: 20px; text-anchor: middle; }
+    .table-header { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; }
+    .table-text { font-family: Arial, sans-serif; font-size: 20px; }
+  </style>
+
+  <text x="20" y="40" class="question-text">1. Figure 1 shows the structure of the earth's interior. Write the number showing</text>
+  <text x="20" y="65" class="question-text">each layer in the table below.</text>
+
+  <g id="earth-diagram" transform="translate(0, -20)">
+    <g transform="translate(420, 250)">
+      <circle cx="0" cy="0" r="170" fill="#A9A9A9" stroke="black" stroke-width="1.5"/>
+      <path d="M -35 20 q 15 -20 10 -50 q -5 -30 -15 -30 q -10 20 0 50 q 10 30 5 60 q 5 -20 5 -30 Z" fill="#C0C0C0"/>
+    </g>
+    
+    <g id="cutaway" transform="translate(450, 250)">
+      <path d="M 0 -160 A 160 160 0 0 1 0 160 L 0 0 Z" fill="white" stroke="black" stroke-width="1.5"/>
+      <path d="M 0 -110 A 110 110 0 0 1 0 110 L 0 0 Z" fill="white" stroke="black" stroke-width="1.5"/>
+      <path d="M 0 -60 A 60 60 0 0 1 0 60 L 0 0 Z" fill="white" stroke="black" stroke-width="1.5"/>
+
+      <path d="M 0 -160 A 160 160 0 0 0 0 160 L 0 0 Z" fill="white" stroke="black" stroke-width="1.5"/>
+      <path d="M 0 -110 A 110 110 0 0 0 0 110 L 0 0 Z" fill="#d3d3d3" stroke="black" stroke-width="1.5"/>
+      <path d="M 0 -60 A 60 60 0 0 0 0 60 L 0 0 Z" fill="white" stroke="black" stroke-width="1.5"/>
+
+      <circle cx="0" cy="0" r="170" fill="none" stroke="black" stroke-width="2"/>
+      
+      <line x1="0" y1="-170" x2="0" y2="170" stroke="black" stroke-width="1.5"/>
+
+      <text x="-30" y="0" class="label-text">4</text>
+      <text x="-85" y="0" class="label-text">3</text>
+      <text x="135" y="0" class="label-text">2</text>
+    </g>
+
+    <g id="label-1" transform="translate(450, 250)">
+      <line x1="190" y1="0" x2="170" y2="0" stroke="black" stroke-width="2"/>
+      <path d="M 170 0 l -10 -5 l 0 10 z" fill="black"/>
+      <text x="205" y="0" class="label-text">1</text>
+    </g>
+  </g>
+
+  <text x="450" y="480" class="caption-text">Figure 1</text>
+
+  <g id="table">
+    <rect x="100" y="510" width="650" height="150" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="380" y1="510" x2="380" y2="660" stroke="black" stroke-width="1.5"/>
+    <line x1="100" y1="540" x2="750" y2="540" stroke="black" stroke-width="1.5"/>
+    <line x1="100" y1="570" x2="750" y2="570" stroke="black" stroke-width="1"/>
+    <line x1="100" y1="600" x2="750" y2="600" stroke="black" stroke-width="1"/>
+    <line x1="100" y1="630" x2="750" y2="630" stroke="black" stroke-width="1"/>
+    
+    <text x="110" y="532" class="table-header">Layer</text>
+    <text x="390" y="532" class="table-header">Number on figure 1</text>
+
+    <text x="110" y="562" class="table-text">Outer core</text>
+    <text x="110" y="592" class="table-text">Mantle</text>
+    <text x="110" y="622" class="table-text">Crust</text>
+    <text x="110" y="652" class="table-text">Inner core</text>
+  </g>
+
+  <text x="760" y="680" class="label-text" text-anchor="start" dominant-baseline="auto">(4)</text>
+</svg>

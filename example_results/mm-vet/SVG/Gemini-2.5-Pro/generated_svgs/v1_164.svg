@@ -1,0 +1,87 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#FFFFFF" width="800" height="600"/>
+  <defs>
+    <linearGradient id="gradCarrot1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E67E22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradBroccoliStalk1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#BADC9F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#93C572;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="gradBroccoliFloret1">
+      <stop offset="20%" stop-color="#8FB358" />
+      <stop offset="100%" stop-color="#4B6A2E" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Vegetables -->
+  <path d="M120 80 C150 60, 200 70, 220 100 L180 140 C150 130, 110 110, 120 80 Z" fill="#6B8E23" opacity="0.7"/>
+  <path d="M580 150 C620 130, 670 140, 680 170 L640 210 C610 200, 570 180, 580 150 Z" fill="#4B6A2E" opacity="0.8"/>
+  <path d="M400 50 C430 30, 480 40, 500 70 L460 110 C430 100, 390 80, 400 50 Z" fill="url(#gradBroccoliFloret1)" opacity="0.6"/>
+  <ellipse cx="640" cy="110" rx="40" ry="25" fill="url(#gradCarrot1)" transform="rotate(20 640 110)"/>
+
+  <!-- Main Vegetable Pile -->
+  <!-- Broccoli Base -->
+  <path d="M330 450 C300 480, 290 520, 320 540 L380 520 C400 500, 370 460, 330 450 Z" fill="#93C572"/>
+  <path d="M320 440 C280 420, 250 450, 250 490 L300 510 C320 490, 340 450, 320 440 Z" fill="#6B8E23"/>
+  <path d="M720 500 L760 540 C790 520, 800 480, 770 460 L740 470 Z" fill="#4B6A2E"/>
+  <path d="M750 380 L720 420 C700 450, 730 480, 760 470 L780 440 Z" fill="#6B8E23"/>
+  <path d="M448 456 L410 500 C400 540, 440 570, 480 560 L510 520 Z" fill="#93C572"/>
+  <path d="M448 456 C490 440, 520 460, 530 500 L480 520 C460 490, 450 470, 448 456 Z" fill="#6B8E23"/>
+  <path d="M500 240 C460 220, 430 250, 430 290 L480 310 C500 290, 520 250, 500 240 Z" fill="#6B8E23"/>
+  <path d="M410 180 C370 160, 340 190, 340 230 L390 250 C410 230, 430 190, 410 180 Z" fill="#4B6A2E"/>
+
+  <!-- Carrots -->
+  <path d="M250 250 C290 230, 340 250, 350 290 L310 320 C290 300, 260 280, 250 250 Z" fill="url(#gradCarrot1)"/>
+  <path d="M480 400 C520 380, 570 400, 580 440 L540 470 C520 450, 490 430, 480 400 Z" fill="url(#gradCarrot1)"/>
+  <path d="M600 240 C640 220, 690 240, 700 280 L660 310 C640 290, 610 270, 600 240 Z" fill="url(#gradCarrot1)"/>
+  <path d="M550 510 C590 490, 640 510, 650 550 L610 580 C590 560, 560 540, 550 510 Z" fill="url(#gradCarrot1)"/>
+  <path d="M200 400 C240 380, 290 400, 300 440 L260 470 C240 450, 210 430, 200 400 Z" fill="url(#gradCarrot1)"/>
+  <path d="M380 340 C420 320, 470 340, 480 380 L440 410 C420 390, 390 370, 380 340 Z" fill="url(#gradCarrot1)"/>
+
+  <!-- Central Broccoli -->
+  <path d="M400 280 L350 350 C330 400, 380 450, 440 440 L480 380 C500 350, 460 290, 400 280 Z" fill="url(#gradBroccoliStalk1)"/>
+  <path d="M450 200 C400 180, 350 200, 320 250 C330 300, 380 320, 440 300 C500 280, 520 230, 450 200 Z" fill="url(#gradBroccoliFloret1)"/>
+  <path d="M500 290 C480 260, 440 250, 420 280 C410 320, 450 350, 490 340 C520 330, 520 310, 500 290 Z" fill="#6B8E23"/>
+
+  <!-- Foreground Carrots and Broccoli -->
+  <path d="M430 550 L380 580 C350 560, 360 520, 390 510 L440 520 Z" fill="url(#gradBroccoliStalk1)" transform="rotate(10 400 550)"/>
+  <path d="M400 500 C360 480, 330 510, 340 550 L390 560 C410 540, 430 510, 400 500 Z" fill="#6B8E23"/>
+  <path d="M290 140 C320 120, 370 130, 380 160 L340 200 C310 190, 280 170, 290 140 Z" fill="#4B6A2E"/>
+  <path d="M150 150 C190 130, 240 150, 250 190 L210 220 C190 200, 160 180, 150 150 Z" fill="url(#gradCarrot1)"/>
+  <path d="M250 60 C280 40, 330 50, 340 80 L300 120 C270 110, 240 90, 250 60 Z" fill="url(#gradCarrot1)"/>
+  <path d="M550 450 C590 430, 640 450, 650 490 L610 520 C590 500, 560 480, 550 450 Z" fill="url(#gradCarrot1)"/>
+
+  <!-- Pesto Sauce Glaze and Herb Specks -->
+  <g fill="#4B6A2E" opacity="0.4">
+    <path d="M255 255 C295 235, 345 255, 355 295 L315 325 C295 305, 265 285, 255 255 Z"/>
+    <path d="M485 405 C525 385, 575 405, 585 445 L545 475 C525 455, 495 435, 485 405 Z"/>
+    <path d="M455 205 C405 185, 355 205, 325 255 C335 305, 385 325, 445 305 C505 285, 525 235, 455 205 Z"/>
+    <path d="M155 155 C195 135, 245 155, 255 195 L215 225 C195 205, 165 185, 155 155 Z"/>
+    <path d="M405 505 C365 485, 335 515, 345 555 L395 565 C415 545, 435 515, 405 505 Z"/>
+    <path d="M605 245 C645 225, 695 245, 705 285 L665 315 C645 295, 615 275, 605 245 Z"/>
+    <path d="M555 455 C595 435, 645 455, 655 495 L615 525 C595 505, 565 485, 555 455 Z"/>
+  </g>
+
+  <!-- Highlights -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <ellipse cx="295" cy="265" rx="25" ry="10" transform="rotate(-20 295 265)"/>
+    <ellipse cx="525" cy="415" rx="30" ry="12" transform="rotate(-20 525 415)"/>
+    <ellipse cx="400" cy="350" rx="40" ry="15"/>
+    <path d="M400 230 C420 225, 440 235, 445 250 C440 255, 420 250, 400 245 Z"/>
+    <ellipse cx="640" cy="260" rx="30" ry="12" transform="rotate(-20 640 260)"/>
+    <ellipse cx="190" cy="170" rx="20" ry="8" transform="rotate(-20 190 170)"/>
+  </g>
+
+  <!-- Herb Specks -->
+  <g fill="#2E421E">
+    <circle cx="300" cy="280" r="2"/><circle cx="315" cy="270" r="1.5"/><circle cx="280" cy="260" r="1"/>
+    <circle cx="530" cy="430" r="2.5"/><circle cx="550" cy="425" r="1"/><circle cx="510" cy="415" r="2"/>
+    <circle cx="420" cy="240" r="2"/><circle cx="440" cy="260" r="3"/><circle cx="390" cy="250" r="1.5"/>
+    <circle cx="460" cy="320" r="2"/><circle cx="480" cy="300" r="1"/><circle cx="410" cy="370" r="2.5"/>
+    <circle cx="200" cy="420" r="1.5"/><circle cx="230" cy="435" r="2"/><circle cx="265" cy="410" r="1"/>
+    <circle cx="620" cy="530" r="2"/><circle cx="600" cy="545" r="1"/><circle cx="580" cy="520" r="2.5"/>
+    <circle cx="700" cy="400" r="1.5"/><circle cx="730" cy="380" r="2"/><circle cx="280" cy="100" r="1.5"/>
+  </g>
+</svg>

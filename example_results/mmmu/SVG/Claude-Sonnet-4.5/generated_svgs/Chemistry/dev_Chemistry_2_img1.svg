@@ -1,0 +1,67 @@
+<svg viewBox="0 0 560 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="560" height="420" fill="#d4c5e0"/>
+  
+  <!-- Border frame -->
+  <rect x="15" y="15" width="530" height="390" fill="white" stroke="#8b7a9e" stroke-width="8"/>
+  
+  <!-- Grid lines -->
+  <line x1="80" y1="350" x2="520" y2="350" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="310" x2="520" y2="310" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="270" x2="520" y2="270" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="230" x2="520" y2="230" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="190" x2="520" y2="190" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="150" x2="520" y2="150" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="110" x2="520" y2="110" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="70" x2="520" y2="70" stroke="#ccc" stroke-width="1"/>
+  <line x1="80" y1="30" x2="520" y2="30" stroke="#ccc" stroke-width="1"/>
+  
+  <line x1="110" y1="30" x2="110" y2="350" stroke="#ccc" stroke-width="1"/>
+  <line x1="170" y1="30" x2="170" y2="350" stroke="#ccc" stroke-width="1"/>
+  <line x1="230" y1="30" x2="230" y2="350" stroke="#ccc" stroke-width="1"/>
+  <line x1="290" y1="30" x2="290" y2="350" stroke="#ccc" stroke-width="1"/>
+  <line x1="350" y1="30" x2="350" y2="350" stroke="#ccc" stroke-width="1"/>
+  <line x1="410" y1="30" x2="410" y2="350" stroke="#ccc" stroke-width="1"/>
+  <line x1="470" y1="30" x2="470" y2="350" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Axes -->
+  <line x1="80" y1="30" x2="80" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="80" y1="350" x2="520" y2="350" stroke="black" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="60" y="355" font-family="Arial" font-size="14" text-anchor="end">-50</text>
+  <text x="60" y="325" font-family="Arial" font-size="14" text-anchor="end">-25</text>
+  <text x="60" y="295" font-family="Arial" font-size="14" text-anchor="end">0</text>
+  <text x="60" y="265" font-family="Arial" font-size="14" text-anchor="end">25</text>
+  <text x="60" y="235" font-family="Arial" font-size="14" text-anchor="end">50</text>
+  <text x="60" y="205" font-family="Arial" font-size="14" text-anchor="end">75</text>
+  <text x="60" y="175" font-family="Arial" font-size="14" text-anchor="end">100</text>
+  <text x="60" y="145" font-family="Arial" font-size="14" text-anchor="end">125</text>
+  
+  <!-- X-axis labels -->
+  <text x="80" y="370" font-family="Arial" font-size="14" text-anchor="middle">0</text>
+  <text x="170" y="370" font-family="Arial" font-size="14" text-anchor="middle">2</text>
+  <text x="230" y="370" font-family="Arial" font-size="14" text-anchor="middle">4</text>
+  <text x="290" y="370" font-family="Arial" font-size="14" text-anchor="middle">6</text>
+  <text x="350" y="370" font-family="Arial" font-size="14" text-anchor="middle">8</text>
+  <text x="410" y="370" font-family="Arial" font-size="14" text-anchor="middle">10</text>
+  <text x="470" y="370" font-family="Arial" font-size="14" text-anchor="middle">12</text>
+  <text x="520" y="370" font-family="Arial" font-size="14" text-anchor="middle">14</text>
+  
+  <!-- Axis titles -->
+  <text x="300" y="395" font-family="Arial" font-size="16" text-anchor="middle" font-weight="normal">Heat added (kcal/mol)</text>
+  <text x="25" y="190" font-family="Arial" font-size="16" text-anchor="middle" transform="rotate(-90 25 190)" font-weight="normal">Temperature (°C)</text>
+  
+  <!-- Data line -->
+  <polyline points="80,330 95,290 140,290 230,180 410,180 460,235 520,145" 
+            fill="none" stroke="#d62828" stroke-width="3"/>
+  
+  <!-- Data points -->
+  <circle cx="80" cy="330" r="4" fill="#d62828"/>
+  <circle cx="95" cy="290" r="4" fill="#d62828"/>
+  <circle cx="140" cy="290" r="4" fill="#d62828"/>
+  <circle cx="230" cy="180" r="4" fill="#d62828"/>
+  <circle cx="410" cy="180" r="4" fill="#d62828"/>
+  <circle cx="460" cy="235" r="4" fill="#d62828"/>
+  <circle cx="520" cy="145" r="4" fill="#d62828"/>
+</svg>

@@ -1,0 +1,213 @@
+<svg viewBox="0 0 660 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98342"/>
+      <stop offset="1" stop-color="#a96932"/>
+    </linearGradient>
+    <pattern id="planks" width="26" height="500" patternUnits="userSpaceOnUse">
+      <rect width="26" height="500" fill="none"/>
+      <line x1="0.5" y1="0" x2="0.5" y2="500" stroke="#884f24" stroke-width="1" opacity="0.35"/>
+      <line x1="13" y1="0" x2="13" y2="500" stroke="#7c461e" stroke-width="0.8" opacity="0.25"/>
+    </pattern>
+    <linearGradient id="gFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a2e"/>
+      <stop offset="1" stop-color="#5f3c1d"/>
+    </linearGradient>
+    <linearGradient id="gWindowSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3ff"/>
+      <stop offset="1" stop-color="#7fc0e6"/>
+    </linearGradient>
+    <linearGradient id="gTV" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#404040"/>
+      <stop offset="1" stop-color="#1b1b1b"/>
+    </linearGradient>
+    <linearGradient id="gScreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#7a7a7a"/>
+    </linearGradient>
+    <radialGradient id="gCouch" cx="50%" cy="20%" r="90%">
+      <stop offset="0" stop-color="#95324f"/>
+      <stop offset="1" stop-color="#6f2139"/>
+    </radialGradient>
+    <linearGradient id="gTable" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b7813f"/>
+      <stop offset="1" stop-color="#8e5e2d"/>
+    </linearGradient>
+    <radialGradient id="gBabySkin" cx="50%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#f6d2b7"/>
+      <stop offset="1" stop-color="#e7b994"/>
+    </radialGradient>
+    <linearGradient id="gDress1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e24386"/>
+      <stop offset="1" stop-color="#b42064"/>
+    </linearGradient>
+    <linearGradient id="gDress2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f07cb2"/>
+      <stop offset="1" stop-color="#cc4a8d"/>
+    </linearGradient>
+    <radialGradient id="gBear" cx="40%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#e8d2b8"/>
+      <stop offset="1" stop-color="#c9ae8e"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <pattern id="pillowPattern" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#3b2b2b"/>
+      <circle cx="4" cy="4" r="2" fill="#d1a746"/>
+      <rect x="9" y="9" width="4" height="4" fill="#6aa0b8" transform="rotate(45 11 11)"/>
+      <circle cx="14" cy="5" r="2" fill="#b65a76"/>
+      <circle cx="6" cy="14" r="2" fill="#7ec07f"/>
+    </pattern>
+  </defs>
+
+  <!-- Wall background -->
+  <rect x="0" y="0" width="660" height="320" fill="url(#gWall)"/>
+  <rect x="0" y="0" width="660" height="320" fill="url(#planks)" opacity="0.55"/>
+
+  <!-- Floor -->
+  <rect x="0" y="320" width="660" height="180" fill="url(#gFloor)"/>
+
+  <!-- Left window frame -->
+  <g transform="translate(18,24)">
+    <rect x="0" y="0" width="148" height="158" rx="4" fill="#e9f0f5" stroke="#cfd8de" stroke-width="6"/>
+    <rect x="10" y="10" width="128" height="138" fill="url(#gWindowSky)" stroke="#9fb7c5" stroke-width="2"/>
+    <!-- Trees outside -->
+    <rect x="18" y="16" width="8" height="132" fill="#f4f8fb"/>
+    <rect x="54" y="16" width="9" height="132" fill="#f4f8fb"/>
+    <rect x="98" y="16" width="7" height="132" fill="#f4f8fb"/>
+    <circle cx="26" cy="36" r="18" fill="#7db96e" opacity="0.9"/>
+    <circle cx="62" cy="28" r="20" fill="#6cae60" opacity="0.85"/>
+    <circle cx="104" cy="44" r="22" fill="#7fbf72" opacity="0.9"/>
+    <!-- Window muntins -->
+    <line x1="0" y1="79" x2="148" y2="79" stroke="#cfd8de" stroke-width="6"/>
+    <line x1="74" y1="0" x2="74" y2="158" stroke="#cfd8de" stroke-width="6"/>
+  </g>
+
+  <!-- Rocking chair (left foreground) -->
+  <g transform="translate(72,292)" fill="#4b3424" stroke="#2d2017" stroke-width="2" filter="url(#shadow)">
+    <path d="M-40,-10 h100 v20 h-100 z" fill="#5a3e2a"/>
+    <rect x="-32" y="-94" width="14" height="80" rx="6"/>
+    <rect x="38" y="-94" width="14" height="80" rx="6"/>
+    <rect x="-38" y="-128" width="100" height="30" rx="8" fill="#6a4a33"/>
+    <path d="M-58,24 q40,32 116,0" fill="none" stroke="#3a281b" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- TV stand -->
+  <rect x="232" y="288" width="148" height="16" rx="2" fill="#2e2a26"/>
+  <rect x="234" y="300" width="144" height="8" fill="#1d1a18"/>
+
+  <!-- Television -->
+  <g transform="translate(232,180)" filter="url(#shadow)">
+    <rect x="0" y="0" width="180" height="120" rx="8" fill="url(#gTV)"/>
+    <rect x="14" y="16" width="126" height="88" rx="4" fill="url(#gScreen)"/>
+    <!-- Scanlines -->
+    <g opacity="0.25">
+      <rect x="14" y="20" width="126" height="2" fill="#000"/>
+      <rect x="14" y="26" width="126" height="2" fill="#000"/>
+      <rect x="14" y="32" width="126" height="2" fill="#000"/>
+      <rect x="14" y="38" width="126" height="2" fill="#000"/>
+      <rect x="14" y="44" width="126" height="2" fill="#000"/>
+      <rect x="14" y="50" width="126" height="2" fill="#000"/>
+      <rect x="14" y="56" width="126" height="2" fill="#000"/>
+      <rect x="14" y="62" width="126" height="2" fill="#000"/>
+      <rect x="14" y="68" width="126" height="2" fill="#000"/>
+      <rect x="14" y="74" width="126" height="2" fill="#000"/>
+      <rect x="14" y="80" width="126" height="2" fill="#000"/>
+      <rect x="14" y="86" width="126" height="2" fill="#000"/>
+      <rect x="14" y="92" width="126" height="2" fill="#000"/>
+    </g>
+    <!-- Control panel -->
+    <rect x="144" y="16" width="22" height="88" rx="2" fill="#2a2a2a"/>
+    <circle cx="155" cy="32" r="5" fill="#6b6b6b"/>
+    <circle cx="155" cy="52" r="5" fill="#6b6b6b"/>
+    <rect x="148" y="70" width="14" height="24" rx="2" fill="#3b3b3b"/>
+  </g>
+
+  <!-- Framed paintings on wall -->
+  <g transform="translate(260,18)">
+    <rect x="-36" y="0" width="120" height="70" fill="#d9e2e8" stroke="#f0f4f7" stroke-width="8"/>
+    <rect x="-28" y="8" width="104" height="54" fill="#7aa0b3"/>
+    <path d="M-28,48 q22,-22 40,0 t40,0" fill="#9fd0e2" opacity="0.65"/>
+    <rect x="122" y="0" width="128" height="92" fill="#d9e2e8" stroke="#f0f4f7" stroke-width="8"/>
+    <rect x="130" y="8" width="112" height="76" fill="#6aa9c8"/>
+    <rect x="130" y="50" width="112" height="34" fill="#4f7a8e"/>
+    <rect x="130" y="38" width="112" height="6" fill="#d07d3a" opacity="0.8"/>
+  </g>
+
+  <!-- Couch -->
+  <g transform="translate(404,214)" filter="url(#shadow)">
+    <path d="M-14,-40 h270 q14,0 14,14 v92 q0,14-14,14 h-270 q-14,0-14-14 v-92 q0-14 14-14 z" fill="url(#gCouch)"/>
+    <!-- Back rest curved -->
+    <path d="M-14,-40 q120,-36 298,0 v30 h-298 z" fill="#7f2842" opacity="0.9"/>
+    <!-- Pillows -->
+    <rect x="34" y="0" width="78" height="64" rx="10" fill="url(#pillowPattern)" stroke="#2b1e20" stroke-width="2"/>
+    <rect x="124" y="0" width="78" height="64" rx="10" fill="url(#pillowPattern)" stroke="#2b1e20" stroke-width="2"/>
+    <!-- Seat -->
+    <rect x="-14" y="44" width="298" height="36" rx="6" fill="#842848"/>
+  </g>
+
+  <!-- Coffee table (right front) -->
+  <g transform="translate(466,296)" filter="url(#shadow)">
+    <rect x="0" y="0" width="180" height="120" rx="4" fill="url(#gTable)" stroke="#764a24" stroke-width="2"/>
+    <rect x="10" y="12" width="160" height="18" fill="#9d6c37" opacity="0.5"/>
+    <rect x="10" y="38" width="160" height="66" fill="#a6743e" opacity="0.35"/>
+  </g>
+
+  <!-- Teddy bear on table -->
+  <g transform="translate(522,338)" filter="url(#shadow)">
+    <ellipse cx="62" cy="42" rx="62" ry="30" fill="#000" opacity="0.15"/>
+    <circle cx="56" cy="30" r="26" fill="url(#gBear)"/>
+    <circle cx="88" cy="44" r="24" fill="url(#gBear)"/>
+    <circle cx="24" cy="48" r="22" fill="url(#gBear)"/>
+    <circle cx="40" cy="18" r="10" fill="url(#gBear)"/>
+    <circle cx="72" cy="20" r="10" fill="url(#gBear)"/>
+    <circle cx="56" cy="34" r="6" fill="#8a724f"/>
+    <circle cx="56" cy="34" r="2.2" fill="#3a2e20"/>
+    <path d="M70,46 q14,8 32,6" stroke="#c8ad8d" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Child -->
+  <g transform="translate(360,340)" filter="url(#shadow)">
+    <!-- Shadow -->
+    <ellipse cx="-82" cy="60" rx="60" ry="16" fill="#000" opacity="0.2"/>
+    <!-- Body -->
+    <path d="M-116,8 q32,-24 64,0 v64 q-32,20-64,0 z" fill="url(#gDress1)"/>
+    <path d="M-116,40 q32,-16 64,0 v24 q-32,14-64,0 z" fill="url(#gDress2)"/>
+    <!-- Head -->
+    <circle cx="-84" cy="-14" r="28" fill="url(#gBabySkin)"/>
+    <!-- Ear -->
+    <circle cx="-104" cy="-10" r="8" fill="url(#gBabySkin)"/>
+    <!-- Hair clip -->
+    <rect x="-92" y="-30" width="18" height="6" rx="3" fill="#dba0cf"/>
+    <!-- Eye -->
+    <circle cx="-92" cy="-10" r="4" fill="#2c2c2c"/>
+    <!-- Mouth / pacifier -->
+    <circle cx="-76" cy="-4" r="6" fill="#9ad6d8" stroke="#68b7ba" stroke-width="2"/>
+    <circle cx="-76" cy="-4" r="2" fill="#5aa9ad"/>
+    <!-- Arms -->
+    <path d="M-120,8 q26,-10 40,-2" stroke="url(#gBabySkin)" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M-68,8 q26,8 40,30" stroke="url(#gBabySkin)" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- Straw to bear -->
+    <path d="M-28,40 q30,-18 72,-14" stroke="#9ad6d8" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- Dress hem -->
+    <path d="M-116,72 q32,16 64,0" stroke="#8e2a5d" stroke-width="6" fill="none"/>
+    <!-- Legs -->
+    <rect x="-108" y="72" width="14" height="26" rx="6" fill="url(#gBabySkin)"/>
+    <rect x="-80" y="72" width="14" height="26" rx="6" fill="url(#gBabySkin)"/>
+    <!-- Shoes -->
+    <ellipse cx="-101" cy="100" rx="12" ry="6" fill="#3b3b3b"/>
+    <ellipse cx="-73" cy="100" rx="12" ry="6" fill="#3b3b3b"/>
+  </g>
+
+  <!-- Rug / seat left bottom -->
+  <g transform="translate(18,380)" filter="url(#shadow)">
+    <rect x="0" y="0" width="160" height="74" rx="10" fill="#4f6a7a"/>
+    <path d="M0,36 h160" stroke="#89a5b4" stroke-width="4"/>
+    <path d="M0,18 h160" stroke="#6f8b9a" stroke-width="3"/>
+    <path d="M0,54 h160" stroke="#6f8b9a" stroke-width="3"/>
+  </g>
+
+  <!-- Baseboards -->
+  <rect x="0" y="308" width="660" height="8" fill="#7e5228" opacity="0.7"/>
+</svg>

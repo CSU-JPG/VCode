@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1100 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- BANK entity -->
+  <rect x="135" y="105" width="150" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="210" y="135" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">BANK</text>
+  
+  <!-- BANK attributes -->
+  <ellipse cx="75" cy="215" rx="45" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="75" y="220" text-anchor="middle" font-family="Arial" font-size="16">Code</text>
+  <line x1="75" y1="190" x2="165" y2="155" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="165" cy="215" rx="45" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="165" y="220" text-anchor="middle" font-family="Arial" font-size="16">Name</text>
+  <line x1="165" y1="190" x2="195" y2="155" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="255" cy="215" rx="45" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="255" y="220" text-anchor="middle" font-family="Arial" font-size="16">Addr</text>
+  <line x1="255" y1="190" x2="240" y2="155" stroke="black" stroke-width="1.5"/>
+  
+  <!-- BRANCHES relationship -->
+  <path d="M 400 80 L 465 130 L 530 80 L 465 30 Z" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <text x="465" y="110" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">BRANCHES</text>
+  <line x1="285" y1="130" x2="400" y2="80" stroke="black" stroke-width="2"/>
+  <text x="315" y="115" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">1</text>
+  
+  <!-- BANK_BRANCH entity -->
+  <rect x="785" y="90" width="260" height="70" fill="none" stroke="black" stroke-width="2"/>
+  <text x="915" y="130" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">BANK_BRANCH</text>
+  <line x1="530" y1="80" x2="785" y2="125" stroke="black" stroke-width="2"/>
+  <text x="665" y="95" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">N</text>
+  
+  <!-- BANK_BRANCH attributes -->
+  <ellipse cx="825" cy="215" rx="45" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="825" y="220" text-anchor="middle" font-family="Arial" font-size="16">Addr</text>
+  <line x1="825" y1="190" x2="840" y2="160" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="1005" cy="215" rx="60" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="1005" y="220" text-anchor="middle" font-family="Arial" font-size="16">Branch_no</text>
+  <line x1="1005" y1="215" x2="1005" y2="160" stroke="black" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <!-- ACCTS relationship -->
+  <path d="M 445 340 L 505 390 L 565 340 L 505 290 Z" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <text x="505" y="375" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">ACCTS</text>
+  <line x1="505" y1="290" x2="870" y2="160" stroke="black" stroke-width="2"/>
+  <text x="480" y="275" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">1</text>
+  
+  <!-- ACCOUNT entity -->
+  <rect x="425" y="595" width="215" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="532" y="625" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">ACCOUNT</text>
+  <line x1="505" y1="390" x2="505" y2="595" stroke="black" stroke-width="2"/>
+  <text x="515" y="490" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">N</text>
+  
+  <!-- ACCOUNT attributes -->
+  <ellipse cx="445" cy="535" rx="50" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="445" y="540" text-anchor="middle" font-family="Arial" font-size="16">Acct_no</text>
+  <line x1="445" y1="560" x2="460" y2="595" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="630" cy="535" rx="50" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="630" y="540" text-anchor="middle" font-family="Arial" font-size="16">Balance</text>
+  <line x1="630" y1="560" x2="590" y2="595" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="675" cy="615" rx="40" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="675" y="620" text-anchor="middle" font-family="Arial" font-size="16">Type</text>
+  <line x1="640" y1="615" x2="675" y2="615" stroke="black" stroke-width="1.5"/>
+  
+  <!-- LOANS relationship -->
+  <path d="M 860 340 L 920 390 L 980 340 L 920 290 Z" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <text x="920" y="375" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">LOANS</text>
+  <line x1="920" y1="290" x2="950" y2="160" stroke="black" stroke-width="2"/>
+  <text x="895" y="275" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">1</text>
+  
+  <!-- LOAN entity -->
+  <rect x="830" y="595" width="150" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="905" y="625" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">LOAN</text>
+  <line x1="920" y1="390" x2="905" y2="595" stroke="black" stroke-width="2"/>
+  <text x="920" y="490" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">N</text>
+  
+  <!-- LOAN attributes -->
+  <ellipse cx="805" cy="535" rx="50" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="805" y="540" text-anchor="middle" font-family="Arial" font-size="16">Loan_no</text>
+  <line x1="805" y1="560" x2="850" y2="595" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="1005" cy="535" rx="50" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="1005" y="540" text-anchor="middle" font-family="Arial" font-size="16">Amount</text>
+  <line x1="1005" y1="560" x2="960" y2="595" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="1035" cy="615" rx="40" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="1035" y="620" text-anchor="middle" font-family="Arial" font-size="16">Type</text>
+  <line x1="980" y1="620" x2="995" y2="620" stroke="black" stroke-width="1.5"/>
+  
+  <!-- A_C relationship -->
+  <path d="M 470 760 L 530 810 L 590 760 L 530 710 Z" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <text x="530" y="795" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">A_C</text>
+  <line x1="530" y1="645" x2="530" y2="710" stroke="black" stroke-width="2"/>
+  <text x="540" y="685" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">M</text>
+  
+  <!-- L_C relationship -->
+  <path d="M 855 760 L 915 810 L 975 760 L 915 710 Z" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <text x="915" y="795" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">L_C</text>
+  <line x1="905" y1="645" x2="915" y2="710" stroke="black" stroke-width="2"/>
+  <text x="915" y="685" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">M</text>
+  
+  <!-- CUSTOMER entity -->
+  <rect x="450" y="980" width="180" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="540" y="1010" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">CUSTOMER</text>
+  <line x1="530" y1="810" x2="505" y2="980" stroke="black" stroke-width="2"/>
+  <text x="515" y="900" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">N</text>
+  <line x1="915" y1="810" x2="580" y2="980" stroke="black" stroke-width="2"/>
+  <text x="750" y="900" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">N</text>
+  
+  <!-- CUSTOMER attributes -->
+  <ellipse cx="425" cy="930" rx="35" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="425" y="935" text-anchor="middle" font-family="Arial" font-size="16">Ssn</text>
+  <line x1="425" y1="955" x2="470" y2="980" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="605" cy="930" rx="45" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="605" y="935" text-anchor="middle" font-family="Arial" font-size="16">Name</text>
+  <line x1="605" y1="955" x2="575" y2="980" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="325" cy="1005" rx="45" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="325" y="1010" text-anchor="middle" font-family="Arial" font-size="16">Phone</text>
+  <line x1="370" y1="1005" x2="450" y2="1005" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="750" cy="1005" rx="45" ry="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="750" y="1010" text-anchor="middle" font-family="Arial" font-size="16">Addr</text>
+  <line x1="630" y1="1005" x2="705" y2="1005" stroke="black" stroke-width="1.5"/>
+</svg>

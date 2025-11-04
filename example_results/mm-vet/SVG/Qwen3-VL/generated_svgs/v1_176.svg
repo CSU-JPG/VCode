@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#1a1a1a"/>
+  <text x="500" y="60" text-anchor="middle" font-family="serif" font-size="80" fill="#b35900" transform="rotate(-5 500 60)">FELIZ AÑO NUEVO</text>
+  
+  <g id="background-figures">
+    <circle cx="400" cy="500" r="80" fill="#d9d9d9"/>
+    <rect x="350" y="580" width="100" height="120" fill="#333"/>
+    <circle cx="550" cy="450" r="70" fill="#f0f0f0"/>
+    <rect x="500" y="520" width="100" height="150" fill="#222"/>
+    <circle cx="900" cy="400" r="60" fill="#e6e6e6"/>
+    <rect x="850" y="460" width="100" height="180" fill="#1a1a1a"/>
+  </g>
+  
+  <g id="older-man">
+    <ellipse cx="180" cy="300" rx="80" ry="100" fill="#fff"/>
+    <rect x="0" y="400" width="250" height="400" fill="#fff"/>
+    <path d="M180 300 C 200 320, 220 340, 250 360" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M180 300 C 160 320, 140 340, 110 360" stroke="#333" stroke-width="3" fill="none"/>
+    <circle cx="150" cy="380" r="5" fill="#666"/>
+    <path d="M100 400 L 200 400" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <g id="younger-man">
+    <ellipse cx="750" cy="350" rx="70" ry="90" fill="#333"/>
+    <rect x="500" y="500" width="300" height="300" fill="#1a1a1a"/>
+    <rect x="650" y="500" width="100" height="60" fill="#fff"/>
+    <path d="M750 350 C 770 370, 790 390, 820 410" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M750 350 C 730 370, 710 390, 680 410" stroke="#333" stroke-width="3" fill="none"/>
+    <circle cx="720" cy="430" r="5" fill="#666"/>
+    <path d="M600 500 L 800 500" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <g id="hand">
+    <ellipse cx="180" cy="450" rx="60" ry="50" fill="#e6ccff"/>
+    <rect x="150" y="450" width="60" height="80" fill="#e6ccff"/>
+    <path d="M150 450 L 180 400" stroke="#e6ccff" stroke-width="20" fill="none"/>
+    <path d="M180 400 L 210 450" stroke="#e6ccff" stroke-width="20" fill="none"/>
+    <path d="M210 450 L 240 480" stroke="#e6ccff" stroke-width="20" fill="none"/>
+    <circle cx="100" cy="500" r="5" fill="#996633"/>
+  </g>
+</svg>

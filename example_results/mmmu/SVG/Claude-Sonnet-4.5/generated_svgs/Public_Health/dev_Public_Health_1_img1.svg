@@ -1,0 +1,28 @@
+<svg viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Border -->
+  <rect x="10" y="10" width="430" height="100" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="10" y1="35" x2="440" y2="35" stroke="black" stroke-width="1"/>
+  <line x1="10" y1="60" x2="440" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="10" y1="85" x2="440" y2="85" stroke="black" stroke-width="1"/>
+  
+  <!-- Vertical line -->
+  <line x1="230" y1="10" x2="230" y2="110" stroke="black" stroke-width="1"/>
+  
+  <!-- Header text -->
+  <text x="120" y="27" font-family="monospace" font-size="12" text-anchor="middle"></text>
+  <text x="335" y="27" font-family="monospace" font-size="12" text-anchor="middle">Incidence of lung cancer</text>
+  
+  <!-- Row 1 -->
+  <text x="20" y="52" font-family="monospace" font-size="12">All male physicians</text>
+  <text x="335" y="52" font-family="monospace" font-size="12" text-anchor="middle">0.94%</text>
+  
+  <!-- Row 2 -->
+  <text x="20" y="77" font-family="monospace" font-size="12">Smoking male physicians</text>
+  <text x="335" y="77" font-family="monospace" font-size="12" text-anchor="middle">1.30%</text>
+  
+  <!-- Row 3 -->
+  <text x="20" y="102" font-family="monospace" font-size="12">Non-smoking male physicians</text>
+  <text x="335" y="102" font-family="monospace" font-size="12" text-anchor="middle">0.07%</text>
+</svg>

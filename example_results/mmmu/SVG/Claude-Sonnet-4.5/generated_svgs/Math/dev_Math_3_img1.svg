@@ -1,0 +1,70 @@
+<svg viewBox="-80 -40 640 480" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="420" x2="100" y2="20" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- X-axis -->
+  <line x1="20" y1="320" x2="540" y2="320" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Y-axis label -->
+  <text x="120" y="35" font-size="24" font-style="italic">y</text>
+  
+  <!-- X-axis label -->
+  <text x="520" y="310" font-size="24" font-style="italic">x</text>
+  
+  <!-- Origin label -->
+  <text x="85" y="345" font-size="20" font-style="italic">O</text>
+  
+  <!-- Y-axis tick marks and labels -->
+  <line x1="95" y1="220" x2="105" y2="220" stroke="black" stroke-width="2"/>
+  <text x="75" y="230" font-size="20" text-anchor="end">1</text>
+  
+  <line x1="95" y1="120" x2="105" y2="120" stroke="black" stroke-width="2"/>
+  <text x="75" y="130" font-size="20" text-anchor="end">2</text>
+  
+  <line x1="95" y1="20" x2="105" y2="20" stroke="black" stroke-width="2"/>
+  <text x="75" y="30" font-size="20" text-anchor="end">3</text>
+  
+  <line x1="95" y1="420" x2="105" y2="420" stroke="black" stroke-width="2"/>
+  <text x="75" y="430" font-size="20" text-anchor="end">-1</text>
+  
+  <!-- X-axis tick marks and labels -->
+  <line x1="40" y1="315" x2="40" y2="325" stroke="black" stroke-width="2"/>
+  <text x="40" y="350" font-size="20" text-anchor="middle">-1</text>
+  
+  <line x1="200" y1="315" x2="200" y2="325" stroke="black" stroke-width="2"/>
+  <text x="200" y="350" font-size="20" text-anchor="middle">1</text>
+  
+  <line x1="300" y1="315" x2="300" y2="325" stroke="black" stroke-width="2"/>
+  <text x="300" y="350" font-size="20" text-anchor="middle">2</text>
+  
+  <line x1="400" y1="315" x2="400" y2="325" stroke="black" stroke-width="2"/>
+  <text x="400" y="350" font-size="20" text-anchor="middle">3</text>
+  
+  <line x1="500" y1="315" x2="500" y2="325" stroke="black" stroke-width="2"/>
+  <text x="500" y="350" font-size="20" text-anchor="middle">4</text>
+  
+  <!-- Curve of f' -->
+  <path d="M 40 390 Q 80 200, 100 120 Q 120 40, 180 20 Q 240 0, 300 140 Q 340 220, 400 250 Q 450 270, 500 310" 
+        fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Point (2, 5/3) -->
+  <circle cx="300" cy="153" r="5" fill="black"/>
+  <text x="330" y="140" font-size="20">(2, </text>
+  <text x="380" y="140" font-size="20">
+    <tspan baseline-shift="super" font-size="16">5</tspan>
+    <tspan>/</tspan>
+    <tspan baseline-shift="sub" font-size="16">3</tspan>
+  </text>
+  <text x="410" y="140" font-size="20">)</text>
+  
+  <!-- Graph label -->
+  <text x="240" y="410" font-size="22">Graph of </text>
+  <text x="360" y="410" font-size="22" font-style="italic">f'</text>
+</svg>

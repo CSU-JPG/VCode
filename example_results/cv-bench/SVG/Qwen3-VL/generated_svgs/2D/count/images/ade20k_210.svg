@@ -1,0 +1,57 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glacier" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#a0c0e0"/>
+    </linearGradient>
+    <linearGradient id="crevasse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000033"/>
+      <stop offset="100%" stop-color="#003366"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background mountain slope -->
+  <polygon points="0,0 500,0 500,170 0,170" fill="#555555"/>
+  
+  <!-- Glacier surface -->
+  <path d="M0,170 C50,160 100,155 150,150 C200,145 250,140 300,140 C350,140 400,145 450,150 C480,155 500,160 500,170 L500,500 L0,500 Z" fill="url(#glacier)"/>
+  
+  <!-- Crevasse -->
+  <path d="M250,170 C260,180 270,200 275,220 C280,240 285,260 290,280 C295,300 300,320 305,340 C310,360 315,380 320,400 C325,420 330,440 335,460 C340,480 345,500 350,500 L350,170 Z" fill="url(#crevasse)"/>
+  
+  <!-- Glacier edge on left -->
+  <path d="M0,170 C20,165 40,160 60,155 C80,150 100,145 120,140 C140,135 160,130 180,125 C200,120 220,115 240,110 C260,105 280,100 300,95 C320,90 340,85 360,80 C380,75 400,70 420,65 C440,60 460,55 480,50 C490,45 495,40 500,35 L500,170 Z" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Glacier edge on right -->
+  <path d="M500,170 C480,165 460,160 440,155 C420,150 400,145 380,140 C360,135 340,130 320,125 C300,120 280,115 260,110 C240,105 220,100 200,95 C180,90 160,85 140,80 C120,75 100,70 80,65 C60,60 40,55 20,50 C10,45 5,40 0,35 L0,170 Z" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Mountaineer -->
+  <g transform="translate(100,200) scale(0.5)">
+    <!-- Backpack -->
+    <rect x="0" y="-30" width="20" height="30" fill="#ff0000" rx="5"/>
+    <rect x="5" y="-35" width="10" height="10" fill="#00ff00" rx="2"/>
+    
+    <!-- Body -->
+    <rect x="5" y="-10" width="10" height="20" fill="#ffffff"/>
+    
+    <!-- Legs -->
+    <rect x="5" y="10" width="5" height="15" fill="#0000ff"/>
+    <rect x="10" y="10" width="5" height="15" fill="#0000ff"/>
+    
+    <!-- Arms -->
+    <rect x="0" y="-5" width="5" height="5" fill="#ffffff"/>
+    <rect x="15" y="-5" width="5" height="5" fill="#ffffff"/>
+    
+    <!-- Helmet -->
+    <circle cx="10" cy="-15" r="5" fill="#ff4500"/>
+    
+    <!-- Ice axe -->
+    <line x1="15" y1="-5" x2="25" y2="5" stroke="#000000" stroke-width="2"/>
+    <line x1="25" y1="5" x2="20" y2="10" stroke="#000000" stroke-width="2"/>
+  </g>
+  
+  <!-- Snow patches on mountain -->
+  <ellipse cx="80" cy="50" rx="15" ry="20" fill="#ffffff"/>
+  <ellipse cx="150" cy="30" rx="10" ry="15" fill="#ffffff"/>
+  <ellipse cx="200" cy="20" rx="8" ry="12" fill="#ffffff"/>
+</svg>

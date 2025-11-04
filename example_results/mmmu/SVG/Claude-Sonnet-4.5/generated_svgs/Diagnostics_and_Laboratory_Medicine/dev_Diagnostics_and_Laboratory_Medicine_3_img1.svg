@@ -1,0 +1,55 @@
+<svg viewBox="0 0 900 880" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="900" height="880" fill="#000000"/>
+  
+  <!-- Main ellipse body -->
+  <ellipse cx="450" cy="420" rx="420" ry="280" fill="none" stroke="#404040" stroke-width="2"/>
+  
+  <!-- Inner structures - grayscale textured areas -->
+  <ellipse cx="450" cy="420" rx="380" ry="240" fill="#1a1a1a" opacity="0.6"/>
+  
+  <!-- Vertebral body (bright center) -->
+  <ellipse cx="450" cy="420" rx="80" ry="85" fill="#d0d0d0"/>
+  <ellipse cx="450" cy="420" rx="50" ry="55" fill="#2a2a2a"/>
+  
+  <!-- Ribs/bone structures (white curved shapes) -->
+  <path d="M 180 380 Q 160 400 165 420 Q 170 440 190 450 Q 210 460 230 445" fill="#e8e8e8" stroke="#ffffff" stroke-width="2"/>
+  <path d="M 720 380 Q 740 400 735 420 Q 730 440 710 450 Q 690 460 670 445" fill="#e8e8e8" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Additional bone structures -->
+  <path d="M 320 350 Q 300 370 310 390 L 340 400 Q 350 380 335 360 Z" fill="#f0f0f0"/>
+  <path d="M 580 350 Q 600 370 590 390 L 560 400 Q 550 380 565 360 Z" fill="#f0f0f0"/>
+  
+  <!-- Spinal canal structures -->
+  <ellipse cx="375" cy="390" rx="35" ry="30" fill="#e0e0e0"/>
+  <ellipse cx="525" cy="390" rx="35" ry="30" fill="#e0e0e0"/>
+  <path d="M 420 340 L 440 340 L 450 365 L 440 380 L 420 380 L 410 365 Z" fill="#d8d8d8"/>
+  
+  <!-- Label markers and lines -->
+  <!-- Point A -->
+  <line x1="175" y1="275" x2="240" y2="340" stroke="#8b4545" stroke-width="2"/>
+  <text x="175" y="275" fill="#8b4545" font-size="24" font-weight="bold">A</text>
+  
+  <!-- Point B -->
+  <line x1="443" y1="230" x2="443" y2="380" stroke="#8b4545" stroke-width="2"/>
+  <text x="433" y="225" fill="#8b4545" font-size="24" font-weight="bold">B</text>
+  
+  <!-- Point C -->
+  <line x1="613" y1="253" x2="540" y2="380" stroke="#8b4545" stroke-width="2"/>
+  <text x="613" y="253" fill="#8b4545" font-size="24" font-weight="bold">C</text>
+  
+  <!-- Point D -->
+  <line x1="683" y1="693" x2="580" y2="540" stroke="#8b4545" stroke-width="2"/>
+  <text x="683" y="703" fill="#8b4545" font-size="24" font-weight="bold">D</text>
+  
+  <!-- Point E -->
+  <line x1="103" y1="683" x2="280" y2="560" stroke="#8b4545" stroke-width="2"/>
+  <text x="103" y="693" fill="#8b4545" font-size="24" font-weight="bold">E</text>
+  
+  <!-- Curved measurement lines at bottom -->
+  <path d="M 140 750 Q 450 820 860 750" fill="none" stroke="#808080" stroke-width="2"/>
+  <path d="M 140 790 L 380 790" fill="none" stroke="#808080" stroke-width="2"/>
+  <path d="M 520 790 L 760 790" fill="none" stroke="#808080" stroke-width="2"/>
+  <line x1="140" y1="750" x2="140" y2="790" stroke="#808080" stroke-width="2"/>
+  <line x1="860" y1="750" x2="860" y2="790" stroke="#808080" stroke-width="2"/>
+</svg>

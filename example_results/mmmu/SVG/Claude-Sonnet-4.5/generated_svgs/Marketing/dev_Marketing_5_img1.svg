@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1220 620" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid lines -->
+  <line x1="13" y1="70" x2="1207" y2="70" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="132" x2="1207" y2="132" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="194" x2="1207" y2="194" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="256" x2="1207" y2="256" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="318" x2="1207" y2="318" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="380" x2="1207" y2="380" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="442" x2="1207" y2="442" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="504" x2="1207" y2="504" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="566" x2="1207" y2="566" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="13" y1="608" x2="1207" y2="608" stroke="#d1d5db" stroke-width="1"/>
+  
+  <line x1="245" y1="13" x2="245" y2="608" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="477" y1="13" x2="477" y2="608" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="709" y1="13" x2="709" y2="608" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="941" y1="13" x2="941" y2="608" stroke="#d1d5db" stroke-width="1"/>
+  
+  <!-- Outer border -->
+  <rect x="13" y="13" width="1194" height="595" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Vertical lines -->
+  <line x1="245" y1="13" x2="245" y2="608" stroke="#000" stroke-width="2"/>
+  <line x1="477" y1="13" x2="477" y2="608" stroke="#000" stroke-width="2"/>
+  <line x1="709" y1="13" x2="709" y2="608" stroke="#000" stroke-width="2"/>
+  <line x1="941" y1="13" x2="941" y2="608" stroke="#000" stroke-width="2"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="13" y1="70" x2="1207" y2="70" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="132" x2="1207" y2="132" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="194" x2="1207" y2="194" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="256" x2="1207" y2="256" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="318" x2="1207" y2="318" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="380" x2="1207" y2="380" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="442" x2="1207" y2="442" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="504" x2="1207" y2="504" stroke="#000" stroke-width="2"/>
+  <line x1="13" y1="566" x2="1207" y2="566" stroke="#000" stroke-width="2"/>
+  
+  <!-- Text content -->
+  <text x="38" y="50" font-family="Arial, sans-serif" font-size="28" fill="#000">0.50</text>
+  <text x="270" y="50" font-family="Arial, sans-serif" font-size="28" fill="#000">4.25</text>
+  <text x="502" y="50" font-family="Arial, sans-serif" font-size="28" fill="#000">5</text>
+  <text x="734" y="50" font-family="Arial, sans-serif" font-size="28" fill="#000">6</text>
+  <text x="966" y="50" font-family="Arial, sans-serif" font-size="28" fill="#000">7.25</text>
+  
+  <text x="38" y="112" font-family="Arial, sans-serif" font-size="28" fill="#000">1.75</text>
+  <text x="270" y="112" font-family="Arial, sans-serif" font-size="28" fill="#000">4.25</text>
+  <text x="502" y="112" font-family="Arial, sans-serif" font-size="28" fill="#000">5.25</text>
+  <text x="734" y="112" font-family="Arial, sans-serif" font-size="28" fill="#000">6</text>
+  <text x="966" y="112" font-family="Arial, sans-serif" font-size="28" fill="#000">7.25</text>
+  
+  <text x="38" y="174" font-family="Arial, sans-serif" font-size="28" fill="#000">2</text>
+  <text x="270" y="174" font-family="Arial, sans-serif" font-size="28" fill="#000">4.25</text>
+  <text x="502" y="174" font-family="Arial, sans-serif" font-size="28" fill="#000">5.25</text>
+  <text x="734" y="174" font-family="Arial, sans-serif" font-size="28" fill="#000">6.25</text>
+  <text x="966" y="174" font-family="Arial, sans-serif" font-size="28" fill="#000">7.25</text>
+  
+  <text x="38" y="236" font-family="Arial, sans-serif" font-size="28" fill="#000">2.25</text>
+  <text x="270" y="236" font-family="Arial, sans-serif" font-size="28" fill="#000">4.25</text>
+  <text x="502" y="236" font-family="Arial, sans-serif" font-size="28" fill="#000">5.5</text>
+  <text x="734" y="236" font-family="Arial, sans-serif" font-size="28" fill="#000">6.25</text>
+  <text x="966" y="236" font-family="Arial, sans-serif" font-size="28" fill="#000">7.75</text>
+  
+  <text x="38" y="298" font-family="Arial, sans-serif" font-size="28" fill="#000">2.25</text>
+  <text x="270" y="298" font-family="Arial, sans-serif" font-size="28" fill="#000">4.5</text>
+  <text x="502" y="298" font-family="Arial, sans-serif" font-size="28" fill="#000">5.5</text>
+  <text x="734" y="298" font-family="Arial, sans-serif" font-size="28" fill="#000">6.5</text>
+  <text x="966" y="298" font-family="Arial, sans-serif" font-size="28" fill="#000">8</text>
+  
+  <text x="38" y="360" font-family="Arial, sans-serif" font-size="28" fill="#000">2.5</text>
+  <text x="270" y="360" font-family="Arial, sans-serif" font-size="28" fill="#000">4.75</text>
+  <text x="502" y="360" font-family="Arial, sans-serif" font-size="28" fill="#000">5.5</text>
+  <text x="734" y="360" font-family="Arial, sans-serif" font-size="28" fill="#000">6.5</text>
+  <text x="966" y="360" font-family="Arial, sans-serif" font-size="28" fill="#000">8.25</text>
+  
+  <text x="38" y="422" font-family="Arial, sans-serif" font-size="28" fill="#000">2.75</text>
+  <text x="270" y="422" font-family="Arial, sans-serif" font-size="28" fill="#000">4.75</text>
+  <text x="502" y="422" font-family="Arial, sans-serif" font-size="28" fill="#000">5.75</text>
+  <text x="734" y="422" font-family="Arial, sans-serif" font-size="28" fill="#000">6.5</text>
+  <text x="966" y="422" font-family="Arial, sans-serif" font-size="28" fill="#000">9.5</text>
+  
+  <text x="38" y="484" font-family="Arial, sans-serif" font-size="28" fill="#000">3.25</text>
+  <text x="270" y="484" font-family="Arial, sans-serif" font-size="28" fill="#000">4.75</text>
+  <text x="502" y="484" font-family="Arial, sans-serif" font-size="28" fill="#000">5.75</text>
+  <text x="734" y="484" font-family="Arial, sans-serif" font-size="28" fill="#000">6.75</text>
+  <text x="966" y="484" font-family="Arial, sans-serif" font-size="28" fill="#000">9.5</text>
+  
+  <text x="38" y="546" font-family="Arial, sans-serif" font-size="28" fill="#000">3.75</text>
+  <text x="270" y="546" font-family="Arial, sans-serif" font-size="28" fill="#000">5</text>
+  <text x="502" y="546" font-family="Arial, sans-serif" font-size="28" fill="#000">6</text>
+  <text x="734" y="546" font-family="Arial, sans-serif" font-size="28" fill="#000">6.75</text>
+  <text x="966" y="546" font-family="Arial, sans-serif" font-size="28" fill="#000">9.75</text>
+  
+  <text x="38" y="596" font-family="Arial, sans-serif" font-size="28" fill="#000">3.75</text>
+  <text x="270" y="596" font-family="Arial, sans-serif" font-size="28" fill="#000">5</text>
+  <text x="502" y="596" font-family="Arial, sans-serif" font-size="28" fill="#000">6</text>
+  <text x="734" y="596" font-family="Arial, sans-serif" font-size="28" fill="#000">6.75</text>
+  <text x="966" y="596" font-family="Arial, sans-serif" font-size="28" fill="#000">10.75</text>
+</svg>

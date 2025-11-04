@@ -1,0 +1,61 @@
+<svg viewBox="0 0 490 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="490" height="280" fill="#87CEEB"/>
+  
+  <!-- House wall -->
+  <rect x="280" y="80" width="150" height="200" fill="#E8D4A0"/>
+  
+  <!-- House roof -->
+  <polygon points="280,80 355,20 430,80" fill="#8B4513"/>
+  
+  <!-- Garage door lines -->
+  <line x1="330" y1="120" x2="380" y2="120" stroke="#C4A870" stroke-width="2"/>
+  <line x1="330" y1="160" x2="380" y2="160" stroke="#C4A870" stroke-width="2"/>
+  <line x1="330" y1="200" x2="380" y2="200" stroke="#C4A870" stroke-width="2"/>
+  
+  <!-- Bush -->
+  <ellipse cx="450" cy="240" rx="35" ry="40" fill="#228B22"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="240" width="490" height="40" fill="#90EE90"/>
+  
+  <!-- Mobile van body -->
+  <rect x="20" y="30" width="350" height="180" rx="5" fill="#4A90E2"/>
+  
+  <!-- Van top border -->
+  <rect x="20" y="30" width="350" height="15" rx="5" fill="#2E5C8A"/>
+  
+  <!-- Van window -->
+  <rect x="30" y="50" width="330" height="140" fill="#B8D8F0"/>
+  
+  <!-- Text: BOOK BURNING -->
+  <text x="185" y="85" font-family="Impact, Arial Black, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#000">BOOK BURNING</text>
+  
+  <!-- Open book icon -->
+  <path d="M 160 95 L 145 115 L 155 115 L 155 105 Z" fill="#F4E4C1" stroke="#8B7355" stroke-width="2"/>
+  <path d="M 160 95 L 175 115 L 165 115 L 165 105 Z" fill="#F4E4C1" stroke="#8B7355" stroke-width="2"/>
+  <line x1="160" y1="95" x2="160" y2="115" stroke="#8B7355" stroke-width="2"/>
+  <line x1="150" y1="107" x2="158" y2="107" stroke="#8B7355" stroke-width="1"/>
+  <line x1="162" y1="107" x2="170" y2="107" stroke="#8B7355" stroke-width="1"/>
+  
+  <!-- Text: MOBILE -->
+  <text x="185" y="165" font-family="Impact, Arial Black, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#000">MOBILE</text>
+  
+  <!-- Wheel well -->
+  <rect x="240" y="180" width="80" height="35" fill="#2E5C8A"/>
+  
+  <!-- Wheel -->
+  <circle cx="280" cy="215" r="35" fill="#333"/>
+  <circle cx="280" cy="215" r="25" fill="#555"/>
+  <circle cx="280" cy="215" r="12" fill="#888"/>
+  
+  <!-- Wheel spokes -->
+  <line x1="280" y1="203" x2="280" y2="227" stroke="#666" stroke-width="2"/>
+  <line x1="268" y1="215" x2="292" y2="215" stroke="#666" stroke-width="2"/>
+  
+  <!-- Van side detail line -->
+  <line x1="340" y1="200" x2="350" y2="200" stroke="#8B0000" stroke-width="3"/>
+  
+  <!-- Ground under van -->
+  <rect x="0" y="250" width="490" height="30" fill="#90EE90"/>
+</svg>

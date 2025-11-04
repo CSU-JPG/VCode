@@ -1,0 +1,9 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="600" fill="#d4b89a"/>
+  <text x="500" y="300" font-family="Arial" font-size="24" text-anchor="middle" fill="black">
+    This image cannot be accurately represented as SVG due to its photographic nature and complex details.
+  </text>
+  <text x="500" y="340" font-family="Arial" font-size="18" text-anchor="middle" fill="black">
+    SVG is not suitable for rendering detailed photographic scenes with realistic textures, lighting, and human features.
+  </text>
+</svg>

@@ -1,0 +1,128 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size: 24px; fill: #008080; text-anchor: middle; }
+    .subtitle { font-family: Arial, sans-serif; font-size: 18px; fill: #008080; text-anchor: middle; }
+    .label { font-family: Arial, sans-serif; font-size: 16px; fill: #333; }
+    .value { font-family: Arial, sans-serif; font-size: 20px; fill: white; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+    .legend-text { font-family: Arial, sans-serif; font-size: 14px; fill: #333; }
+    .total-label { font-family: Arial, sans-serif; font-size: 16px; fill: #666; text-anchor: middle; }
+  </style>
+
+  <!-- Title for Australia -->
+  <text x="500" y="30" class="title">Units Of electricity by fuel source in Australia</text>
+
+  <!-- Australia 1980 Pie Chart -->
+  <g transform="translate(50, 100)">
+    <circle cx="150" cy="150" r="150" fill="#f0f0f0"/>
+    <!-- Coal (green) -->
+    <path d="M150,150 L150,0 A150,150 0 0,1 279.9,75 Z" fill="#66bb6a"/>
+    <text x="220" y="40" class="value">50</text>
+    <!-- Hydro Power (red) -->
+    <path d="M150,150 L279.9,75 A150,150 0 0,1 225,259.8 Z" fill="#ef5350"/>
+    <text x="240" y="170" class="value">20</text>
+    <!-- Natural Gas (blue) -->
+    <path d="M150,150 L225,259.8 A150,150 0 0,1 75,259.8 Z" fill="#1e88e5"/>
+    <text x="100" y="220" class="value">20</text>
+    <!-- Oil (yellow) -->
+    <path d="M150,150 L75,259.8 A150,150 0 0,1 150,0 Z" fill="#ffca28"/>
+    <text x="100" y="100" class="value">10</text>
+    <text x="150" y="300" class="label">1980</text>
+    <text x="150" y="320" class="total-label">Total Production:</text>
+    <text x="150" y="340" class="total-label">100 units</text>
+  </g>
+
+  <!-- Australia 2000 Pie Chart -->
+  <g transform="translate(500, 100)">
+    <circle cx="150" cy="150" r="150" fill="#f0f0f0"/>
+    <!-- Coal (green) -->
+    <path d="M150,150 L150,0 A150,150 0 0,1 279.9,75 Z" fill="#66bb6a"/>
+    <text x="220" y="40" class="value">130</text>
+    <!-- Hydro Power (red) -->
+    <path d="M150,150 L279.9,75 A150,150 0 0,1 225,259.8 Z" fill="#ef5350"/>
+    <text x="240" y="170" class="value">36</text>
+    <!-- Natural Gas (blue) -->
+    <path d="M150,150 L225,259.8 A150,150 0 0,1 75,259.8 Z" fill="#1e88e5"/>
+    <text x="100" y="220" class="value">2</text>
+    <!-- Oil (yellow) -->
+    <path d="M150,150 L75,259.8 A150,150 0 0,1 150,0 Z" fill="#ffca28"/>
+    <text x="100" y="100" class="value">2</text>
+    <text x="150" y="300" class="label">2000</text>
+    <text x="150" y="320" class="total-label">Total Production:</text>
+    <text x="150" y="340" class="total-label">170 units</text>
+  </g>
+
+  <!-- Title for France -->
+  <text x="500" y="500" class="subtitle">Units of electricity by fuel source in France</text>
+
+  <!-- France 1980 Pie Chart -->
+  <g transform="translate(50, 570)">
+    <circle cx="150" cy="150" r="150" fill="#f0f0f0"/>
+    <!-- Coal (green) -->
+    <path d="M150,150 L150,0 A150,150 0 0,1 279.9,75 Z" fill="#66bb6a"/>
+    <text x="220" y="40" class="value">25</text>
+    <!-- Nuclear Power (brown) -->
+    <path d="M150,150 L279.9,75 A150,150 0 0,1 225,259.8 Z" fill="#8d6e63"/>
+    <text x="240" y="170" class="value">15</text>
+    <!-- Hydro Power (red) -->
+    <path d="M150,150 L225,259.8 A150,150 0 0,1 75,259.8 Z" fill="#ef5350"/>
+    <text x="100" y="220" class="value">5</text>
+    <!-- Natural Gas (blue) -->
+    <path d="M150,150 L75,259.8 A150,150 0 0,1 0,150 Z" fill="#1e88e5"/>
+    <text x="50" y="170" class="value">25</text>
+    <!-- Oil (yellow) -->
+    <path d="M150,150 L0,150 A150,150 0 0,1 150,0 Z" fill="#ffca28"/>
+    <text x="100" y="100" class="value">20</text>
+    <text x="150" y="300" class="label">1980</text>
+    <text x="150" y="320" class="total-label">Total Production:</text>
+    <text x="150" y="340" class="total-label">90 units</text>
+    <!-- Legend -->
+    <g transform="translate(300, 50)">
+      <rect x="0" y="0" width="15" height="15" fill="#1e88e5"/>
+      <text x="20" y="12" class="legend-text">Natural Gas</text>
+      <rect x="0" y="25" width="15" height="15" fill="#ffca28"/>
+      <text x="20" y="37" class="legend-text">Oil</text>
+      <rect x="0" y="50" width="15" height="15" fill="#66bb6a"/>
+      <text x="20" y="62" class="legend-text">Coal</text>
+      <rect x="0" y="75" width="15" height="15" fill="#8d6e63"/>
+      <text x="20" y="87" class="legend-text">Nuclear Power</text>
+      <rect x="0" y="100" width="15" height="15" fill="#ef5350"/>
+      <text x="20" y="112" class="legend-text">Hydro Power</text>
+    </g>
+  </g>
+
+  <!-- France 2000 Pie Chart -->
+  <g transform="translate(500, 570)">
+    <circle cx="150" cy="150" r="150" fill="#f0f0f0"/>
+    <!-- Nuclear Power (brown) -->
+    <path d="M150,150 L150,0 A150,150 0 0,1 279.9,75 Z" fill="#8d6e63"/>
+    <text x="220" y="40" class="value">126</text>
+    <!-- Coal (green) -->
+    <path d="M150,150 L279.9,75 A150,150 0 0,1 225,259.8 Z" fill="#66bb6a"/>
+    <text x="240" y="170" class="value">25</text>
+    <!-- Oil (yellow) -->
+    <path d="M150,150 L225,259.8 A150,150 0 0,1 75,259.8 Z" fill="#ffca28"/>
+    <text x="100" y="220" class="value">25</text>
+    <!-- Natural Gas (blue) -->
+    <path d="M150,150 L75,259.8 A150,150 0 0,1 150,0 Z" fill="#1e88e5"/>
+    <text x="100" y="100" class="value">2</text>
+    <!-- Hydro Power (red) -->
+    <path d="M150,150 L150,0 A150,150 0 0,1 150,0 Z" fill="#ef5350"/>
+    <text x="100" y="150" class="value">2</text>
+    <text x="150" y="300" class="label">2000</text>
+    <text x="150" y="320" class="total-label">Total Production:</text>
+    <text x="150" y="340" class="total-label">180 units</text>
+    <!-- Legend -->
+    <g transform="translate(300, 50)">
+      <rect x="0" y="0" width="15" height="15" fill="#1e88e5"/>
+      <text x="20" y="12" class="legend-text">Natural Gas</text>
+      <rect x="0" y="25" width="15" height="15" fill="#ffca28"/>
+      <text x="20" y="37" class="legend-text">Oil</text>
+      <rect x="0" y="50" width="15" height="15" fill="#66bb6a"/>
+      <text x="20" y="62" class="legend-text">Coal</text>
+      <rect x="0" y="75" width="15" height="15" fill="#8d6e63"/>
+      <text x="20" y="87" class="legend-text">Nuclear Power</text>
+      <rect x="0" y="100" width="15" height="15" fill="#ef5350"/>
+      <text x="20" y="112" class="legend-text">Hydro Power</text>
+    </g>
+  </g>
+</svg>

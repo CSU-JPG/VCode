@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="black"/>
+  <g opacity="0.8">
+    <path d="M0,0 L1000,0 L1000,1000 L0,1000 Z" fill="white"/>
+    <path d="M50,50 Q500,100 950,50" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M50,950 Q500,900 950,950" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M100,100 Q500,50 900,100" stroke="lightgray" fill="none" stroke-width="3"/>
+    <path d="M100,900 Q500,950 900,900" stroke="lightgray" fill="none" stroke-width="3"/>
+    <path d="M200,200 Q500,150 800,200" stroke="white" fill="none" stroke-width="4"/>
+    <path d="M200,800 Q500,850 800,800" stroke="white" fill="none" stroke-width="4"/>
+    <path d="M300,300 Q500,250 700,300" stroke="lightgray" fill="none" stroke-width="3"/>
+    <path d="M300,700 Q500,750 700,700" stroke="lightgray" fill="none" stroke-width="3"/>
+    <path d="M400,400 Q500,350 600,400" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M400,600 Q500,650 600,600" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M500,500 Q500,450 500,400" stroke="white" fill="none" stroke-width="3"/>
+    <path d="M500,500 Q500,550 500,600" stroke="white" fill="none" stroke-width="3"/>
+    <path d="M500,500 Q450,500 400,500" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M500,500 Q550,500 600,500" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M500,500 Q475,475 450,450" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M500,500 Q525,475 550,450" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M500,500 Q475,525 450,550" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M500,500 Q525,525 550,550" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M870,10 Q910,10 910,90 Q870,90 870,10" fill="black"/>
+    <text x="880" y="50" font-family="Arial" font-size="40" fill="white">L</text>
+    <path d="M200,250 Q250,230 270,250" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M200,250 Q250,270 270,250" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M750,430 Q800,410 820,430" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M750,430 Q800,450 820,430" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M940,880 Q950,890 960,880" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M940,880 Q950,870 960,880" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M500,100 Q500,150 500,200" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M500,800 Q500,850 500,900" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M500,200 Q500,250 500,300" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M500,700 Q500,750 500,800" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M500,300 Q500,350 500,400" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M500,600 Q500,650 500,700" stroke="white" fill="none" stroke-width="2"/>
+    <path d="M500,400 Q500,450 500,500" stroke="gray" fill="none" stroke-width="1"/>
+    <path d="M500,500 Q500,550 500,600" stroke="gray" fill="none" stroke-width="1"/>
+    <path d="M400,400 Q420,420 440,440" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M600,400 Q580,420 560,440" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M400,600 Q420,580 440,560" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M600,600 Q580,580 560,560" stroke="lightgray" fill="none" stroke-width="1"/>
+    <path d="M300,500 Q350,480 400,500" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M700,500 Q650,480 600,500" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M300,500 Q350,520 400,500" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M700,500 Q650,520 600,500" stroke="gray" fill="none" stroke-width="2"/>
+    <path d="M500,500 Q500,500 500,500" stroke="white" fill="none" stroke-width="5"/>
+  </g>
+</svg>

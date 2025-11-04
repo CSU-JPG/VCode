@@ -1,0 +1,144 @@
+<svg viewBox="0 0 520 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3f0e6"/>
+      <stop offset="1" stop-color="#e8e2d4"/>
+    </linearGradient>
+    <linearGradient id="ceilingGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5a12"/>
+      <stop offset="1" stop-color="#d59b2f"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7d8c0"/>
+      <stop offset="1" stop-color="#c8b294"/>
+    </linearGradient>
+    <linearGradient id="stoneGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8dcc8"/>
+      <stop offset="1" stop-color="#ccb89b"/>
+    </linearGradient>
+    <linearGradient id="windowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaeef4"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fd1dc"/>
+      <stop offset="1" stop-color="#2aa7b7"/>
+    </linearGradient>
+    <linearGradient id="fabricGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8e8"/>
+      <stop offset="1" stop-color="#e6d5b8"/>
+    </linearGradient>
+    <linearGradient id="pillowGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1efe9"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9a9a9"/>
+      <stop offset="1" stop-color="#d8d8d8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1" result="o"/>
+      <feMerge>
+        <feMergeNode in="o"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background walls and floor -->
+  <rect x="0" y="0" width="520" height="260" fill="url(#wallGrad)"/>
+  <rect x="0" y="0" width="520" height="36" fill="url(#ceilingGrad)"/>
+  <rect x="0" y="240" width="520" height="110" fill="url(#floorGrad)"/>
+
+  <!-- Left window panel -->
+  <g filter="url(#softShadow)">
+    <rect x="8" y="44" width="136" height="168" rx="3" fill="#d9c6a9"/>
+    <rect x="16" y="52" width="120" height="152" rx="2" fill="url(#windowGrad)"/>
+    <g stroke="#c6c6c6" stroke-width="2">
+      <line x1="28" y1="52" x2="28" y2="204"/>
+      <line x1="44" y1="52" x2="44" y2="204"/>
+      <line x1="60" y1="52" x2="60" y2="204"/>
+      <line x1="76" y1="52" x2="76" y2="204"/>
+      <line x1="92" y1="52" x2="92" y2="204"/>
+      <line x1="108" y1="52" x2="108" y2="204"/>
+    </g>
+  </g>
+
+  <!-- Right window panel -->
+  <g filter="url(#softShadow)">
+    <rect x="372" y="44" width="140" height="168" rx="3" fill="#d9c6a9"/>
+    <rect x="380" y="52" width="124" height="152" rx="2" fill="url(#windowGrad)"/>
+    <g stroke="#c6c6c6" stroke-width="2">
+      <line x1="392" y1="52" x2="392" y2="204"/>
+      <line x1="408" y1="52" x2="408" y2="204"/>
+      <line x1="424" y1="52" x2="424" y2="204"/>
+      <line x1="440" y1="52" x2="440" y2="204"/>
+      <line x1="456" y1="52" x2="456" y2="204"/>
+      <line x1="472" y1="52" x2="472" y2="204"/>
+    </g>
+  </g>
+
+  <!-- Rear counter and fixtures -->
+  <g filter="url(#softShadow)">
+    <rect x="140" y="120" width="240" height="34" rx="4" fill="url(#stoneGrad)"/>
+    <rect x="150" y="114" width="220" height="10" rx="3" fill="#efe7d8"/>
+    <rect x="192" y="102" width="18" height="10" rx="2" fill="url(#metalGrad)"/>
+    <rect x="310" y="102" width="18" height="10" rx="2" fill="url(#metalGrad)"/>
+    <circle cx="201" cy="100" r="3" fill="#9aa0a6"/>
+    <circle cx="319" cy="100" r="3" fill="#9aa0a6"/>
+  </g>
+
+  <!-- Central platform with sunken tub -->
+  <g filter="url(#softShadow)">
+    <rect x="90" y="156" width="340" height="54" rx="10" fill="url(#stoneGrad)"/>
+    <rect x="110" y="164" width="300" height="38" rx="8" fill="#e5d6be"/>
+    <rect x="128" y="170" width="264" height="26" rx="6" fill="url(#waterGrad)"/>
+    <rect x="128" y="170" width="264" height="26" rx="6" fill="url(#waterGrad)" opacity="0.2"/>
+    <ellipse cx="260" cy="182" rx="118" ry="10" fill="#ffffff" opacity="0.25"/>
+  </g>
+
+  <!-- Small tray with bowl and stones -->
+  <g transform="translate(170,190)" filter="url(#softShadow)">
+    <rect x="-24" y="-10" width="54" height="14" rx="4" fill="#3a2c1b"/>
+    <ellipse cx="3" cy="-4" rx="18" ry="6" fill="#1e1a15"/>
+    <circle cx="-5" cy="-6" r="3.2" fill="#2c2a27"/>
+    <circle cx="2" cy="-7" r="2.8" fill="#4a473f"/>
+    <circle cx="9" cy="-5.5" r="3.4" fill="#35322c"/>
+  </g>
+
+  <!-- Front chaise/platform -->
+  <g filter="url(#softShadow)">
+    <path d="M60,232 L240,258 Q256,260 276,252 L324,234 Q336,230 336,244 L336,312 Q336,324 324,330 L88,330 Q70,330 64,320 L56,308 Q52,300 52,290 L52,244 Q52,234 60,232 Z" fill="url(#stoneGrad)"/>
+    <path d="M72,246 L246,268 Q258,270 272,264 L318,246 L318,254 Q318,260 312,264 L268,284 Q256,290 242,288 L86,268 Q76,266 72,258 Z" fill="#e9dbc3" opacity="0.9"/>
+  </g>
+
+  <!-- Folded blanket -->
+  <g filter="url(#softShadow)">
+    <path d="M120,260 Q170,250 218,262 L270,276 Q280,279 280,286 Q280,296 270,300 L214,320 Q170,332 134,322 L104,314 Q92,310 92,300 L92,286 Q92,268 120,260 Z" fill="url(#fabricGrad)"/>
+    <path d="M100,292 Q156,274 214,288 L262,300" stroke="#f7edd7" stroke-width="3" opacity="0.8"/>
+    <path d="M104,304 Q160,286 216,300 L264,312" stroke="#e2d2b8" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Pillows -->
+  <g filter="url(#softShadow)">
+    <path d="M232,284 Q244,272 258,280 L282,292 Q290,296 286,304 Q282,312 270,310 L244,304 Q228,300 232,284 Z" fill="url(#pillowGrad)"/>
+    <path d="M204,276 Q216,264 232,270 L254,280 Q262,284 258,292 Q254,300 242,298 L216,292 Q200,288 204,276 Z" fill="url(#pillowGrad)"/>
+  </g>
+
+  <!-- Right cabinet -->
+  <g filter="url(#softShadow)">
+    <rect x="352" y="226" width="96" height="92" rx="4" fill="#b6a182"/>
+    <rect x="358" y="232" width="84" height="80" rx="3" fill="#d2c1a3"/>
+    <line x1="400" y1="232" x2="400" y2="312" stroke="#b9a88b" stroke-width="2"/>
+    <circle cx="394" cy="274" r="2.6" fill="#8a7b60"/>
+    <circle cx="406" cy="274" r="2.6" fill="#8a7b60"/>
+  </g>
+
+  <!-- Subtle vignette -->
+  <radialGradient id="vgn" cx="50%" cy="45%" r="70%">
+    <stop offset="0.7" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.12"/>
+  </radialGradient>
+  <rect x="0" y="0" width="520" height="350" fill="url(#vgn)"/>
+</svg>

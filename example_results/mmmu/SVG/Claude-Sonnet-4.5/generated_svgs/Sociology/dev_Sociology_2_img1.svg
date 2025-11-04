@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1400" fill="#c8c8c8"/>
+  
+  <!-- Darker background areas -->
+  <rect x="0" y="0" width="150" height="1400" fill="#a0a0a0"/>
+  <rect x="650" y="0" width="150" height="1400" fill="#b8b8b8"/>
+  
+  <!-- Face base -->
+  <ellipse cx="400" cy="520" rx="140" ry="180" fill="#d4c8b8"/>
+  
+  <!-- Forehead shadow -->
+  <ellipse cx="400" cy="400" rx="120" ry="60" fill="#c0b4a4"/>
+  
+  <!-- Hair - dark top -->
+  <path d="M 260 380 Q 280 320 350 300 Q 400 290 450 300 Q 520 320 540 380 L 520 420 Q 480 360 400 350 Q 320 360 280 420 Z" fill="#2a2a2a"/>
+  
+  <!-- Hair sides -->
+  <ellipse cx="270" cy="480" rx="45" ry="80" fill="#3a3a3a"/>
+  <ellipse cx="530" cy="480" rx="45" ry="80" fill="#3a3a3a"/>
+  
+  <!-- Ear left -->
+  <ellipse cx="260" cy="520" rx="25" ry="45" fill="#c8b8a8"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="350" cy="480" rx="30" ry="20" fill="white"/>
+  <ellipse cx="450" cy="480" rx="30" ry="20" fill="white"/>
+  <ellipse cx="350" cy="480" rx="18" ry="18" fill="#2a2a2a"/>
+  <ellipse cx="450" cy="480" rx="18" ry="18" fill="#2a2a2a"/>
+  <ellipse cx="355" cy="475" rx="8" ry="8" fill="black"/>
+  <ellipse cx="455" cy="475" rx="8" ry="8" fill="black"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 320 450 Q 350 445 375 450" stroke="#3a3a3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 425 450 Q 450 445 480 450" stroke="#3a3a3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 400 480 L 395 540 Q 395 555 400 560 Q 405 555 405 540 Z" fill="#b8a898"/>
+  <ellipse cx="390" cy="555" rx="8" ry="6" fill="#a89888"/>
+  <ellipse cx="410" cy="555" rx="8" ry="6" fill="#a89888"/>
+  
+  <!-- Mouth area -->
+  <path d="M 370 600 Q 400 605 430 600" stroke="#8a7a6a" stroke-width="3" fill="none"/>
+  
+  <!-- Beard -->
+  <ellipse cx="400" cy="640" rx="100" ry="80" fill="#4a4a4a"/>
+  <path d="M 300 600 Q 320 700 400 720 Q 480 700 500 600" fill="#3a3a3a"/>
+  <ellipse cx="400" cy="680" rx="90" ry="70" fill="#454545"/>
+  
+  <!-- Neck -->
+  <rect x="360" y="680" width="80" height="120" fill="#c8b8a8"/>
+  
+  <!-- White collar -->
+  <path d="M 340 780 L 360 820 L 400 800 L 440 820 L 460 780 Z" fill="white"/>
+  
+  <!-- Dark suit jacket -->
+  <path d="M 200 800 L 300 780 L 360 820 Q 380 1100 350 1400 L 200 1400 Z" fill="#1a1a1a"/>
+  <path d="M 600 800 L 500 780 L 440 820 Q 420 1100 450 1400 L 600 1400 Z" fill="#1a1a1a"/>
+  
+  <!-- Suit front -->
+  <path d="M 340 820 L 360 1400 L 440 1400 L 460 820 L 440 850 L 400 830 L 360 850 Z" fill="#2a2a2a"/>
+  
+  <!-- Lapels -->
+  <path d="M 340 820 L 360 850 L 380 1000 L 340 820" fill="#0a0a0a"/>
+  <path d="M 460 820 L 440 850 L 420 1000 L 460 820" fill="#0a0a0a"/>
+  
+  <!-- Tie suggestion -->
+  <path d="M 400 830 L 390 900 L 400 1100 L 410 900 Z" fill="#050505"/>
+  
+  <!-- Facial shadows -->
+  <ellipse cx="330" cy="520" rx="40" ry="50" fill="#b8a898" opacity="0.3"/>
+  <ellipse cx="470" cy="520" rx="40" ry="50" fill="#b8a898" opacity="0.3"/>
+  
+  <!-- Under chin shadow -->
+  <ellipse cx="400" cy="720" rx="80" ry="30" fill="#3a3a3a" opacity="0.4"/>
+</svg>

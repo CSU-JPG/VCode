@@ -1,0 +1,72 @@
+<svg viewBox="0 0 850 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <radialGradient id="lungGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(60,60,60);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(20,20,20);stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="heartGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(240,240,240);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(180,180,180);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#000000"/>
+  <g id="anatomy" fill-opacity="0.8">
+    <!-- Soft Tissue Outline -->
+    <path d="M120,720 L120,200 Q125,100 200,80 L350,20 L500,20 L650,80 Q725,100 730,200 L730,720 Z" fill="#252525"/>
+    <!-- Diaphragm and Abdomen -->
+    <path d="M120,720 L120,580 C250,550 350,560 425,580 C500,560 600,550 730,580 L730,720 Z" fill="#606060" filter="url(#blur)"/>
+    <path d="M120,580 C250,550 350,560 425,580 C500,560 600,550 730,580" fill="none" stroke="#999999" stroke-width="5"/>
+    <!-- Lung Fields -->
+    <path d="M425,580 C350,560 200,550 120,580 V180 Q125,100 200,80 L350,20 H425 V580 Z" fill="url(#lungGradient)"/>
+    <path d="M425,580 C500,560 650,550 730,580 V180 Q725,100 650,80 L500,20 H425 V580 Z" fill="url(#lungGradient)"/>
+    <!-- Heart and Mediastinum -->
+    <path d="M425,120 L400,160 Q380,200 380,250 L390,400 Q400,520 425,580 Q450,520 460,400 L490,300 Q510,200 480,150 L450,120 L425,120 Z" fill="url(#heartGradient)" filter="url(#blur)"/>
+    <path d="M425,120 L400,160 Q380,200 380,250 L390,400 Q400,520 425,580 Q450,520 460,400 L490,300 Q510,200 480,150 L450,120 L425,120 Z" fill="none" stroke="#D0D0D0" stroke-width="3"/>
+    <path d="M425,20 L425,120 M425,20 L450,120 M425,20 L400,120" stroke="#B0B0B0" stroke-width="20" stroke-linecap="round" filter="url(#blur)"/>
+    <!-- Pulmonary Vasculature (Hila) -->
+    <g stroke-width="4" stroke="#909090" stroke-opacity="0.6" fill="none" filter="url(#blur)">
+      <path d="M385,260 C350,270 320,290 290,320"/>
+      <path d="M360,280 C330,320 310,360 300,400"/>
+      <path d="M320,300 C280,310 250,330 230,360"/>
+      <path d="M465,270 C500,280 530,300 560,330"/>
+      <path d="M490,290 C520,330 540,370 550,410"/>
+      <path d="M530,310 C570,320 600,340 620,370"/>
+    </g>
+    <!-- Bony Thorax -->
+    <g fill="none" stroke="#A5A5A5" stroke-width="7" stroke-linecap="round">
+      <!-- Spine -->
+      <path d="M425,20 L425,580" stroke="#E0E0E0" stroke-width="30" filter="url(#blur)"/>
+      <path d="M425,20 L425,580" stroke="#C0C0C0" stroke-width="20"/>
+      <!-- Clavicles -->
+      <path d="M400,90 Q280,70 200,120" stroke="#F0F0F0" stroke-width="12"/>
+      <path d="M450,90 Q570,70 650,120" stroke="#F0F0F0" stroke-width="12"/>
+      <!-- Scapulae -->
+      <path d="M190,110 L140,200 L160,350" stroke="#B0B0B0" stroke-width="15" fill-opacity="0.2" fill="#B0B0B0"/>
+      <path d="M660,110 L710,200 L690,350" stroke="#B0B0B0" stroke-width="15" fill-opacity="0.2" fill="#B0B0B0"/>
+      <!-- Ribs -->
+      <g stroke="#BDBDBD" stroke-width="9">
+        <path d="M380,120 C280,130 180,180 140,220"/>
+        <path d="M470,120 C570,130 670,180 710,220"/>
+        <path d="M380,150 C260,160 160,220 135,270"/>
+        <path d="M470,150 C590,160 690,220 715,270"/>
+        <path d="M380,185 C240,195 145,265 130,320"/>
+        <path d="M470,185 C610,195 705,265 720,320"/>
+        <path d="M385,220 C230,230 135,310 130,370"/>
+        <path d="M465,220 C620,230 715,310 720,370"/>
+        <path d="M390,260 C220,270 130,360 130,420"/>
+        <path d="M460,260 C630,270 720,360 720,420"/>
+        <path d="M395,300 C210,310 130,410 135,470"/>
+        <path d="M455,300 C640,310 720,410 715,470"/>
+        <path d="M400,345 C200,355 135,460 145,520"/>
+        <path d="M450,345 C650,355 715,460 705,520"/>
+        <path d="M405,390 C210,400 150,500 160,560"/>
+        <path d="M445,390 C640,400 700,500 690,560"/>
+        <path d="M410,435 C230,445 170,530 180,580"/>
+        <path d="M440,435 C620,445 680,530 670,580"/>
+      </g>
+    </g>
+  </g>
+</svg>

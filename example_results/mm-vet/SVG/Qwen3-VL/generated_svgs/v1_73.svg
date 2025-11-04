@@ -1,0 +1,28 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#666"/>
+  <rect x="600" y="0" width="400" height="700" fill="#B87333"/>
+  <rect x="0" y="0" width="1000" height="50" fill="#333"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#444"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#666"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#888"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#AAA"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#CCC"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#EEE"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#FFF"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#F0F0F0"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#E0E0E0"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#D0D0D0"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#C0C0C0"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#B0B0B0"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#A0A0A0"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#909090"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#808080"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#707070"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#606060"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#505050"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#404040"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#303030"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#202020"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#101010"/>
+  <rect x="0" y="50" width="1000" height="650" fill="#000"/>
+</svg>

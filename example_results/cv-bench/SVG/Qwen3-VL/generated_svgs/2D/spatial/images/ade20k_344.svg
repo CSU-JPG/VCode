@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#f5e6d8"/>
+  
+  <!-- Walls and ceiling -->
+  <rect x="0" y="0" width="1000" height="100" fill="#8b4513"/>
+  <rect x="0" y="100" width="1000" height="600" fill="#f5e6d8"/>
+  
+  <!-- Windows with blinds -->
+  <rect x="460" y="100" width="540" height="280" fill="#8b4513"/>
+  <rect x="460" y="100" width="540" height="280" fill="#f5e6d8" opacity="0.7"/>
+  <rect x="460" y="100" width="540" height="280" fill="#8b4513" opacity="0.3"/>
+  
+  <!-- Massage tables -->
+  <rect x="200" y="400" width="600" height="150" fill="#fff"/>
+  <rect x="0" y="450" width="600" height="150" fill="#fff"/>
+  
+  <!-- Towels on tables -->
+  <rect x="300" y="420" width="400" height="30" fill="#e6c9a8"/>
+  <rect x="100" y="470" width="400" height="30" fill="#e6c9a8"/>
+  
+  <!-- Flowers on towels -->
+  <circle cx="350" cy="435" r="5" fill="white"/>
+  <circle cx="360" cy="435" r="5" fill="white"/>
+  <circle cx="370" cy="435" r="5" fill="white"/>
+  <circle cx="150" cy="485" r="5" fill="white"/>
+  <circle cx="160" cy="485" r="5" fill="white"/>
+  <circle cx="170" cy="485" r="5" fill="white"/>
+  
+  <!-- Bathtub -->
+  <ellipse cx="800" cy="450" rx="200" ry="80" fill="#fff"/>
+  <rect x="600" y="450" width="400" height="100" fill="#fff"/>
+  
+  <!-- Red rectangle around the lower massage table area -->
+  <rect x="100" y="470" width="400" height="100" fill="none" stroke="red" stroke-width="3"/>
+</svg>

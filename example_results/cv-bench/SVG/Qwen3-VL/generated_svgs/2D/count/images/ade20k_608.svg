@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f0f0f0"/>
+  
+  <!-- Factory floor -->
+  <rect x="0" y="400" width="1000" height="400" fill="#e0e0e0"/>
+  <rect x="0" y="400" width="200" height="300" fill="#ffff00"/>
+  <rect x="0" y="400" width="200" height="300" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="400" width="200" height="300" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="10,10"/>
+  
+  <!-- Yellow and black stripes -->
+  <rect x="0" y="450" width="200" height="20" fill="#ffff00"/>
+  <rect x="0" y="470" width="200" height="20" fill="#000000"/>
+  <rect x="0" y="490" width="200" height="20" fill="#ffff00"/>
+  <rect x="0" y="510" width="200" height="20" fill="#000000"/>
+  <rect x="0" y="530" width="200" height="20" fill="#ffff00"/>
+  <rect x="0" y="550" width="200" height="20" fill="#000000"/>
+  <rect x="0" y="570" width="200" height="20" fill="#ffff00"/>
+  <rect x="0" y="590" width="200" height="20" fill="#000000"/>
+  <rect x="0" y="610" width="200" height="20" fill="#ffff00"/>
+  <rect x="0" y="630" width="200" height="20" fill="#000000"/>
+  <rect x="0" y="650" width="200" height="20" fill="#ffff00"/>
+  <rect x="0" y="670" width="200" height="20" fill="#000000"/>
+  <rect x="0" y="690" width="200" height="20" fill="#ffff00"/>
+  <rect x="0" y="710" width="200" height="20" fill="#000000"/>
+  
+  <!-- Red area near assembly line -->
+  <rect x="200" y="500" width="300" height="200" fill="#ff0000"/>
+  
+  <!-- Blue car on assembly line -->
+  <rect x="220" y="300" width="280" height="150" fill="#0000aa"/>
+  <rect x="250" y="350" width="220" height="80" fill="#ffffff"/>
+  <circle cx="280" cy="400" r="20" fill="#ff0000"/>
+  <circle cx="500" cy="400" r="20" fill="#ff0000"/>
+  <rect x="220" y="200" width="280" height="100" fill="#0000aa"/>
+  <rect x="220" y="200" width="280" height="100" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Silver car in foreground -->
+  <rect x="430" y="400" width="570" height="300" fill="#cccccc"/>
+  <rect x="430" y="400" width="570" height="300" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="700" y="400" width="300" height="150" fill="#000000"/>
+  <rect x="700" y="400" width="300" height="150" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="480" cy="650" r="50" fill="#aaaaaa"/>
+  <circle cx="480" cy="650" r="50" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="480" cy="650" r="40" fill="#ffffff"/>
+  <circle cx="480" cy="650" r="40" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="480" cy="650" r="30" fill="#aaaaaa"/>
+  <circle cx="480" cy="650" r="30" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="480" cy="650" r="20" fill="#ffffff"/>
+  <circle cx="480" cy="650" r="20" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="700" y="500" width="100" height="50" fill="#000000"/>
+  <rect x="700" y="500" width="100" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="700" y="500" width="100" height="50" fill="#ffffff"/>
+  <rect x="700" y="500" width="100" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Black car in background -->
+  <rect x="700" y="200" width="300" height="150" fill="#000000"/>
+  <rect x="700" y="200" width="300" height="150" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="700" y="150" width="300" height="50" fill="#000000"/>
+  <rect x="700" y="150" width="300" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Factory equipment -->
+  <rect x="150" y="400" width="50" height="150" fill="#ffcc00"/>
+  <rect x="150" y="400" width="50" height="150" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="550" y="350" width="100" height="100" fill="#ffcc00"/>
+  <rect x="550" y="350" width="100" height="100" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="650" y="350" width="100" height="100" fill="#ffcc00"/>
+  <rect x="650" y="350" width="100" height="100" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Overhead crane -->
+  <rect x="500" y="0" width="500" height="100" fill="#ff6600"/>
+  <rect x="500" y="0" width="500" height="100" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="500" y="100" width="500" height="50" fill="#ff6600"/>
+  <rect x="500" y="100" width="500" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Lights -->
+  <rect x="800" y="50" width="200" height="20" fill="#ffffff"/>
+  <rect x="800" y="50" width="200" height="20" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="100" y="50" width="50" height="50" fill="#ffffff"/>
+  <rect x="100" y="50" width="50" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Control panels -->
+  <rect x="50" y="250" width="50" height="50" fill="#ffffff"/>
+  <rect x="50" y="250" width="50" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="480" y="250" width="50" height="50" fill="#ffffff"/>
+  <rect x="480" y="250" width="50" height="50" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Safety signs -->
+  <rect x="160" y="450" width="20" height="20" fill="#ffff00"/>
+  <rect x="160" y="450" width="20" height="20" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="170" cy="460" r="5" fill="#000000"/>
+  <circle cx="170" cy="460" r="5" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="165" y1="455" x2="175" y2="465" stroke="#000000" stroke-width="2"/>
+  <line x1="175" y1="455" x2="165" y2="465" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Watermark -->
+  <text x="850" y="780" font-family="Arial" font-size="12" fill="#000000">///MIZ3.Net</text>
+</svg>

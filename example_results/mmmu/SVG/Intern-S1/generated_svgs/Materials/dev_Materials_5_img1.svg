@@ -1,0 +1,56 @@
+<svg viewBox="0 0 390 220" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="0" width="250" height="30" fill="white" stroke="black"/>
+  <rect x="270" y="0" width="100" height="30" fill="white" stroke="black"/>
+  <rect x="20" y="30" width="250" height="30" fill="white" stroke="black"/>
+  <rect x="270" y="30" width="100" height="30" fill="white" stroke="black"/>
+  <rect x="20" y="60" width="250" height="30" fill="white" stroke="black"/>
+  <rect x="270" y="60" width="100" height="30" fill="white" stroke="black"/>
+  <rect x="20" y="90" width="250" height="30" fill="white" stroke="black"/>
+  <rect x="270" y="90" width="100" height="30" fill="white" stroke="black"/>
+  <rect x="20" y="120" width="250" height="30" fill="white" stroke="black"/>
+  <rect x="270" y="120" width="100" height="30" fill="white" stroke="black"/>
+  <rect x="20" y="150" width="250" height="30" fill="white" stroke="black"/>
+  <rect x="270" y="150" width="100" height="30" fill="white" stroke="black"/>
+  <text x="145" y="15" text-anchor="middle" dominant-baseline="middle" font-size="14">Electrode reaction</text>
+  <text x="320" y="15" text-anchor="middle" dominant-baseline="middle" font-size="14">Standard electrode potential (V)</text>
+  <text x="145" y="45" text-anchor="middle" dominant-baseline="middle" font-size="14">
+    <tspan>Au</tspan>
+    <tspan dy="-0.5em" font-size="0.7em">3+</tspan>
+    + 3e
+    <tspan dy="0.5em" font-size="0.7em">-</tspan>
+    → Au
+  </text>
+  <text x="320" y="45" text-anchor="middle" dominant-baseline="middle" font-size="14">+1.420</text>
+  <text x="145" y="75" text-anchor="middle" dominant-baseline="middle" font-size="14">
+    <tspan>Cu</tspan>
+    <tspan dy="-0.5em" font-size="0.7em">2+</tspan>
+    + 2e
+    <tspan dy="0.5em" font-size="0.7em">-</tspan>
+    → Cu
+  </text>
+  <text x="320" y="75" text-anchor="middle" dominant-baseline="middle" font-size="14">+0.340</text>
+  <text x="145" y="105" text-anchor="middle" dominant-baseline="middle" font-size="14">
+    <tspan>Ni</tspan>
+    <tspan dy="-0.5em" font-size="0.7em">2+</tspan>
+    + 2e
+    <tspan dy="0.5em" font-size="0.7em">-</tspan>
+    → Ni
+  </text>
+  <text x="320" y="105" text-anchor="middle" dominant-baseline="middle" font-size="14">-0.250</text>
+  <text x="145" y="135" text-anchor="middle" dominant-baseline="middle" font-size="14">
+    <tspan>Fe</tspan>
+    <tspan dy="-0.5em" font-size="0.7em">2+</tspan>
+    + 2e
+    <tspan dy="0.5em" font-size="0.7em">-</tspan>
+    → Fe
+  </text>
+  <text x="320" y="135" text-anchor="middle" dominant-baseline="middle" font-size="14">-0.440</text>
+  <text x="145" y="165" text-anchor="middle" dominant-baseline="middle" font-size="14">
+    <tspan>Na</tspan>
+    <tspan dy="-0.5em" font-size="0.7em">+</tspan>
+    + e
+    <tspan dy="0.5em" font-size="0.7em">-</tspan>
+    → Na
+  </text>
+  <text x="320" y="165" text-anchor="middle" dominant-baseline="middle" font-size="14">-2.924</text>
+</svg>

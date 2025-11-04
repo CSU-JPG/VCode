@@ -1,0 +1,290 @@
+<svg viewBox="0 0 600 950" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="frost" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+    </filter>
+    <linearGradient id="bagShine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.3"/>
+      <stop offset="30%" style="stop-color:white;stop-opacity:0"/>
+      <stop offset="70%" style="stop-color:white;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0.2"/>
+    </linearGradient>
+    <pattern id="crimp" patternUnits="userSpaceOnUse" width="8" height="8">
+        <path d="M-2,2 l4,-4 M0,8 l8,-8 M6,10 l4,-4" stroke="#000" stroke-width="0.5" stroke-opacity="0.2"/>
+    </pattern>
+    <g id="deco-leaf">
+      <path d="M 15 15 C 10 10, 20 10, 15 5" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 10 20 C 5 15, 15 15, 10 10" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 20 20 C 15 15, 25 15, 20 10" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 15 25 C 10 20, 20 20, 15 15" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- Vegetable Background -->
+  <g id="vegetables" filter="url(#frost)" opacity="0.9">
+    <!-- Cauliflower -->
+    <circle cx="200" cy="350" r="40" fill="#F5F5DC"/>
+    <circle cx="230" cy="390" r="35" fill="#F5F5DC"/>
+    <circle cx="180" cy="400" r="25" fill="#F5F5DC"/>
+    <circle cx="450" cy="480" r="50" fill="#F5F5DC"/>
+    <circle cx="490" cy="520" r="30" fill="#F5F5DC"/>
+    <circle cx="150" cy="680" r="55" fill="#F5F5DC"/>
+    <circle cx="350" cy="800" r="45" fill="#F5F5DC"/>
+    <circle cx="500" cy="250" r="30" fill="#F5F5DC"/>
+    <circle cx="530" cy="720" r="40" fill="#F5F5DC"/>
+
+    <!-- Carrots -->
+    <ellipse cx="120" cy="150" rx="25" ry="15" fill="#FF7F50" transform="rotate(-30, 120, 150)"/>
+    <ellipse cx="400" cy="200" rx="30" ry="18" fill="#FF7F50" transform="rotate(45, 400, 200)"/>
+    <ellipse cx="80" cy="800" rx="35" ry="22" fill="#FF7F50" transform="rotate(20, 80, 800)"/>
+    <ellipse cx="280" cy="880" rx="40" ry="25" fill="#FF7F50" transform="rotate(-15, 280, 880)"/>
+    <ellipse cx="480" cy="780" rx="32" ry="20" fill="#FF7F50" transform="rotate(60, 480, 780)"/>
+
+    <!-- Green Beans -->
+    <rect x="300" y="420" width="120" height="25" fill="#556B2F" rx="12" transform="rotate(25, 360, 432)"/>
+    <rect x="100" y="550" width="100" height="22" fill="#6B8E23" rx="11" transform="rotate(-40, 150, 561)"/>
+    <rect x="400" y="650" width="130" height="28" fill="#556B2F" rx="14" transform="rotate(10, 465, 664)"/>
+    <rect x="180" y="250" width="90" height="20" fill="#6B8E23" rx="10" transform="rotate(15, 225, 260)"/>
+
+    <!-- Zucchini -->
+    <ellipse cx="350" cy="300" rx="28" ry="18" fill="#9ACD32"/>
+    <ellipse cx="340" cy="310" rx="15" ry="10" fill="#F0FFF0"/>
+    <ellipse cx="250" cy="750" rx="30" ry="20" fill="#9ACD32"/>
+    <ellipse cx="245" cy="755" rx="18" ry="12" fill="#F0FFF0"/>
+
+    <!-- Red Pepper -->
+    <path d="M 500 400 q 10 30 -20 35 t -30 -20 z" fill="#DC143C"/>
+    <path d="M 150 480 q 20 25 -10 30 t -25 -25 z" fill="#B22222"/>
+
+    <!-- Lima Beans -->
+    <ellipse cx="400" cy="550" rx="15" ry="12" fill="#90EE90" transform="rotate(30, 400, 550)"/>
+    <ellipse cx="220" cy="620" rx="14" ry="11" fill="#98FB98" transform="rotate(-20, 220, 620)"/>
+  </g>
+
+  <!-- Plastic Bag Sheen and Seams -->
+  <rect x="0" y="0" width="600" height="950" fill="url(#bagShine)"/>
+  <rect y="0" width="600" height="20" fill="url(#crimp)" opacity="0.5"/>
+  <rect y="930" width="600" height="20" fill="url(#crimp)" opacity="0.5"/>
+  
+  <!-- Info Panels -->
+  <rect x="30" y="90" width="290" height="700" fill="white" fill-opacity="0.9" rx="10"/>
+  <rect x="330" y="100" width="250" height="600" fill="white" fill-opacity="0.9" rx="10"/>
+
+  <!-- Nutrition Facts -->
+  <g transform="translate(45 110)" font-family="Arial, sans-serif">
+    <text x="0" y="10" font-size="28" font-weight="bold">Nutrition Facts</text>
+    <text x="0" y="40" font-size="12">about 11 servings per container</text>
+    <text x="0" y="60" font-size="14" font-weight="bold">Serving size</text>
+    <text x="245" y="60" font-size="14" font-weight="bold" text-anchor="end">3/4 cup (79g)</text>
+    <rect x="0" y="75" width="260" height="8"/>
+    <text x="0" y="95" font-size="12">Amount per serving</text>
+    <text x="0" y="125" font-size="28" font-weight="bold">Calories</text>
+    <text x="245" y="125" font-size="40" font-weight="bold" text-anchor="end">25</text>
+    <rect x="0" y="140" width="260" height="4"/>
+    <text x="245" y="155" font-size="12" font-weight="bold" text-anchor="end">% Daily Value*</text>
+    
+    <g font-size="14">
+      <text x="0" y="175"><tspan font-weight="bold">Total Fat</tspan> 0g</text><text x="245" y="175" text-anchor="end" font-weight="bold">0%</text>
+      <rect x="0" y="180" width="260" height="1"/>
+      <text x="10" y="198">Saturated Fat 0g</text><text x="245" y="198" text-anchor="end" font-weight="bold">0%</text>
+      <rect x="10" y="203" width="250" height="1"/>
+      <text x="10" y="221">Trans Fat 0g</text>
+      <rect x="0" y="226" width="260" height="1"/>
+      <text x="0" y="244"><tspan font-weight="bold">Cholesterol</tspan> 0mg</text><text x="245" y="244" text-anchor="end" font-weight="bold">0%</text>
+      <rect x="0" y="249" width="260" height="1"/>
+      <text x="0" y="267"><tspan font-weight="bold">Sodium</tspan> 10mg</text><text x="245" y="267" text-anchor="end" font-weight="bold">0%</text>
+      <rect x="0" y="272" width="260" height="1"/>
+      <text x="0" y="290"><tspan font-weight="bold">Total Carbohydrate</tspan> 4g</text><text x="245" y="290" text-anchor="end" font-weight="bold">1%</text>
+      <rect x="0" y="295" width="260" height="1"/>
+      <text x="10" y="313">Dietary Fiber 1g</text><text x="245" y="313" text-anchor="end" font-weight="bold">4%</text>
+      <rect x="10" y="318" width="250" height="1"/>
+      <text x="10" y="336">Total Sugars 2g</text>
+      <rect x="10" y="341" width="250" height="1"/>
+      <text x="20" y="359">Includes 0g Added Sugars</text><text x="245" y="359" text-anchor="end" font-weight="bold">0%</text>
+      <rect x="0" y="364" width="260" height="1"/>
+      <text x="0" y="382"><tspan font-weight="bold">Protein</tspan> 1g</text>
+      <rect x="0" y="387" width="260" height="8"/>
+      <text x="0" y="405">Vitamin D 0mcg</text><text x="245" y="405" text-anchor="end">0%</text>
+      <rect x="0" y="410" width="260" height="1"/>
+      <text x="0" y="428">Calcium 20mg</text><text x="245" y="428" text-anchor="end">2%</text>
+      <rect x="0" y="433" width="260" height="1"/>
+      <text x="0" y="451">Iron 0.4mg</text><text x="245" y="451" text-anchor="end">2%</text>
+      <rect x="0" y="456" width="260" height="1"/>
+      <text x="0" y="474">Potassium 160mg</text><text x="245" y="474" text-anchor="end">4%</text>
+    </g>
+    <rect x="0" y="484" width="260" height="2"/>
+    <text x="0" y="500" font-size="9" style="white-space: pre;">
+      <tspan x="0" dy="1.2em">*The % Daily Value tells you how much a nutrient in a serving of</tspan>
+      <tspan x="0" dy="1.2em">food contributes to a daily diet. 2,000 calories a day is used for</tspan>
+      <tspan x="0" dy="1.2em">general nutrition advice.</tspan>
+    </text>
+  </g>
+  
+  <!-- Ingredients &amp;amp; Distributor -->
+  <g transform="translate(45 660)" font-family="Arial, sans-serif" font-size="11">
+    <text x="0" y="0" font-weight="bold">INGREDIENTS:</text>
+    <text x="85" y="0">ZUCCHINI, CARROTS,</text>
+    <text x="0" y="15">CAULIFLOWER, ITALIAN GREEN BEANS,</text>
+    <text x="0" y="30">LIMA BEANS, RED BELL PEPPER.</text>
+    
+    <text x="0" y="60" font-size="10">DISTRIBUTED BY</text>
+    <text x="0" y="75" font-size="10">J.R. SIMPLOT COMPANY</text>
+    <text x="0" y="90" font-size="10">P.O. BOX 9386</text>
+    <text x="0" y="105" font-size="10">BOISE, ID 83707</text>
+    <text x="0" y="120" font-size="10">1.800.572.7783</text>
+    <text x="0" y="135" font-size="10">www.simplotfoods.com</text>
+  </g>
+
+  <!-- Barcode and ID -->
+  <g transform="translate(50 800)">
+    <text x="85" y="0" font-size="10" font-family="monospace">P-18875-00-E</text>
+    <g transform="translate(0, 10)">
+        <rect x="0" y="0" width="2" height="50" fill="black"/>
+        <rect x="4" y="0" width="2" height="50" fill="black"/>
+        <rect x="8" y="0" width="3" height="50" fill="black"/>
+        <rect x="13" y="0" width="1" height="50" fill="black"/>
+        <rect x="16" y="0" width="4" height="50" fill="black"/>
+        <rect x="22" y="0" width="2" height="50" fill="black"/>
+        <rect x="25" y="0" width="1" height="50" fill="black"/>
+        <rect x="28" y="0" width="1" height="50" fill="black"/>
+        <rect x="31" y="0" width="3" height="50" fill="black"/>
+        <rect x="36" y="0" width="2" height="50" fill="black"/>
+        <rect x="40" y="0" width="1" height="50" fill="black"/>
+        <rect x="43" y="0" width="4" height="50" fill="black"/>
+        <rect x="49" y="0" width="1" height="50" fill="black"/>
+        <rect x="52" y="0" width="2" height="50" fill="black"/>
+        <rect x="56" y="0" width="2" height="50" fill="black"/>
+        <rect x="60" y="0" width="2" height="50" fill="black"/>
+        <rect x="64" y="0" width="2" height="50" fill="black"/>
+        <rect x="68" y="0" width="1" height="50" fill="black"/>
+        <rect x="71" y="0" width="3" height="50" fill="black"/>
+        <rect x="76" y="0" width="2" height="50" fill="black"/>
+        <!-- center guard -->
+        <rect x="80" y="0" width="1" height="55" fill="black"/>
+        <rect x="83" y="0" width="2" height="55" fill="black"/>
+        <rect x="87" y="0" width="1" height="55" fill="black"/>
+        <rect x="90" y="0" width="2" height="55" fill="black"/>
+        <rect x="94" y="0" width="1" height="55" fill="black"/>
+        <!-- right side -->
+        <rect x="97" y="0" width="4" height="50" fill="black"/>
+        <rect x="103" y="0" width="1" height="50" fill="black"/>
+        <rect x="106" y="0" width="1" height="50" fill="black"/>
+        <rect x="109" y="0" width="1" height="50" fill="black"/>
+        <rect x="112" y="0" width="2" height="50" fill="black"/>
+        <rect x="116" y="0" width="3" height="50" fill="black"/>
+        <rect x="121" y="0" width="2" height="50" fill="black"/>
+        <rect x="125" y="0" width="3" height="50" fill="black"/>
+        <rect x="130" y="0" width="1" height="50" fill="black"/>
+        <rect x="133" y="0" width="1" height="50" fill="black"/>
+        <rect x="136" y="0" width="4" height="50" fill="black"/>
+        <rect x="142" y="0" width="2" height="50" fill="black"/>
+        <rect x="146" y="0" width="1" height="50" fill="black"/>
+        <rect x="149" y="0" width="1" height="50" fill="black"/>
+        <rect x="152" y="0" width="2" height="50" fill="black"/>
+        <rect x="156" y="0" width="2" height="50" fill="black"/>
+        <rect x="160" y="0" width="2" height="50" fill="black"/>
+        <rect x="164" y="0" width="2" height="50" fill="black"/>
+        <rect x="168" y="0" width="2" height="50" fill="black"/>
+    </g>
+    <text x="-10" y="65" font-size="12" font-family="monospace">0</text>
+    <text x="20" y="65" font-size="12" font-family="monospace">71179</text>
+    <text x="90" y="65" font-size="12" font-family="monospace">18875</text>
+    <text x="160" y="65" font-size="12" font-family="monospace">2</text>
+  </g>
+
+  <!-- Cooking Instructions -->
+  <g transform="translate(345 115)" font-family="Arial, sans-serif">
+    <text x="0" y="15" font-size="18" font-weight="bold">COOKING INSTRUCTIONS</text>
+    <text x="0" y="35" font-size="14" font-weight="bold">KEEP FROZEN UNTIL READY TO USE</text>
+    <g font-size="11">
+      <text x="0" y="60">FOR FOOD SAFETY AND QUALITY,</text>
+      <text x="0" y="75">COOK TO A TEMPERATURE OF 165˚F.</text>
+      <text x="0" y="90">TO SERVE COLD, PREPARE</text>
+      <text x="0" y="105">VEGETABLES AS STATED BELOW,</text>
+      <text x="0" y="120">THEN COOL AS RAPIDLY AS POSSIBLE</text>
+      <text x="0" y="135">TO REFRIGERATED TEMPERATURE.</text>
+    </g>
+    
+    <!-- Stove Top -->
+    <g transform="translate(0, 160)">
+      <g transform="scale(0.8)">
+        <rect x="0" y="0" width="50" height="30" fill="none" stroke="black" stroke-width="2" rx="2"/>
+        <rect x="5" y="5" width="12" height="8" fill="#ccc"/>
+        <rect x="20" y="5" width="12" height="8" fill="#ccc"/>
+        <rect x="35" y="5" width="12" height="8" fill="#ccc"/>
+        <circle cx="11" cy="22" r="2" fill="#ccc"/>
+        <circle cx="26" cy="22" r="2" fill="#ccc"/>
+      </g>
+      <text x="50" y="15" font-size="14" font-weight="bold">STOVE TOP</text>
+      <g transform="translate(50, 25)" font-size="12" style="white-space: pre;">
+        <text x="0" y="15">1. Bring 5 quarts of water</text>
+        <text x="4" y="30">to a boil on HIGH.</text>
+        <text x="0" y="50">2. Add one bag of frozen</text>
+        <text x="4" y="65">vegetables and cook for</text>
+        <text x="4" y="80">7 minutes, stirring as</text>
+        <text x="4" y="95">needed.</text>
+      </g>
+    </g>
+
+    <!-- Steamer -->
+    <g transform="translate(0, 320)">
+      <g transform="translate(5,0)">
+        <path d="M0,20 h40 v10 h-40 z" fill="none" stroke="black" stroke-width="2"/>
+        <path d="M5,15 q5 -10 10 0" stroke="black" stroke-width="1.5" fill="none" />
+        <path d="M15,15 q5 -10 10 0" stroke="black" stroke-width="1.5" fill="none" />
+        <path d="M25,15 q5 -10 10 0" stroke="black" stroke-width="1.5" fill="none" />
+      </g>
+      <text x="50" y="15" font-size="14" font-weight="bold">STEAMER</text>
+      <g transform="translate(50, 25)" font-size="12" style="white-space: pre;">
+        <text x="0" y="15">1. Arrange one bag of</text>
+        <text x="4" y="30">frozen vegetables in a</text>
+        <text x="4" y="45">slotted full-size steam</text>
+        <text x="4" y="60">table pan.</text>
+        <text x="0" y="80">2. Steam for 5 minutes.</text>
+      </g>
+    </g>
+
+    <!-- Microwave -->
+    <g transform="translate(0, 460)">
+      <g transform="scale(0.8)">
+        <rect x="0" y="0" width="50" height="30" fill="#ccc" rx="2"/>
+        <rect x="5" y="5" width="30" height="20" fill="white" stroke="black" stroke-width="1"/>
+        <rect x="38" y="5" width="8" height="20" fill="#aaa"/>
+      </g>
+      <text x="50" y="15" font-size="14" font-weight="bold">MICROWAVE <tspan font-size="10">(1100 WATTS)</tspan></text>
+      <g transform="translate(50, 25)" font-size="12" style="white-space: pre;">
+        <text x="0" y="15">1. Place one bag of frozen</text>
+        <text x="4" y="30">vegetables in a</text>
+        <text x="4" y="45">microwave safe dish.</text>
+        <text x="0" y="65">2. Add 2 tbsp of water</text>
+        <text x="4" y="80">and cover.</text>
+        <text x="0" y="100">3. Cook on HIGH for</text>
+        <text x="4" y="115">15 minutes, stirring</text>
+        <text x="4" y="130">halfway through</text>
+        <text x="4" y="145">cook time.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Decorative Band -->
+  <g transform="translate(0, 650)">
+    <path d="M0,100 Q150 0, 300 100 T600 100 V300 H0 Z" fill="orangered" opacity="0.4"/>
+    <g transform="translate(0, 100)">
+      <path d="M0,0 Q150,-100 300,0 T600,0" fill="none" stroke="white" stroke-width="2"/>
+      <use href="#deco-leaf" x="-15" y="-15"/>
+      <use href="#deco-leaf" x="45" y="15"/>
+      <use href="#deco-leaf" x="105" y="30"/>
+      <use href="#deco-leaf" x="165" y="15"/>
+      <use href="#deco-leaf" x="225" y="-15"/>
+      <use href="#deco-leaf" x="285" y="-15"/>
+      <use href="#deco-leaf" x="345" y="15"/>
+      <use href="#deco-leaf" x="405" y="30"/>
+      <use href="#deco-leaf" x="465" y="15"/>
+      <use href="#deco-leaf" x="525" y="-15"/>
+      <use href="#deco-leaf" x="585" y="-15"/>
+    </g>
+  </g>
+
+  <text x="50" y="900" font-family="monospace" font-size="10" font-weight="bold">PRODUCT OF USA, MEXICO</text>
+
+</svg>

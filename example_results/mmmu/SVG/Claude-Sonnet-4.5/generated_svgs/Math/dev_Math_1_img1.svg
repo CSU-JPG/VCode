@@ -1,0 +1,53 @@
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title row -->
+  <text x="80" y="40" font-family="serif" font-size="24" text-anchor="middle">Student</text>
+  <text x="240" y="40" font-family="serif" font-size="24" text-anchor="middle">Exams</text>
+  <text x="420" y="40" font-family="serif" font-size="24" text-anchor="middle">Student</text>
+  <text x="520" y="40" font-family="serif" font-size="24" text-anchor="middle">Exams</text>
+  
+  <!-- Vertical separators -->
+  <line x1="160" y1="20" x2="160" y2="180" stroke="black" stroke-width="2"/>
+  <line x1="340" y1="20" x2="340" y2="180" stroke="black" stroke-width="2"/>
+  <line x1="345" y1="20" x2="345" y2="180" stroke="black" stroke-width="2"/>
+  
+  <!-- Horizontal line under header -->
+  <line x1="20" y1="55" x2="320" y2="55" stroke="black" stroke-width="1"/>
+  <line x1="360" y1="55" x2="580" y2="55" stroke="black" stroke-width="1"/>
+  
+  <!-- Left table data -->
+  <text x="80" y="85" font-family="serif" font-size="20" text-anchor="middle">A</text>
+  <text x="190" y="85" font-family="serif" font-size="20" text-anchor="middle">1</text>
+  <text x="240" y="85" font-family="serif" font-size="20" text-anchor="middle">2</text>
+  <text x="290" y="85" font-family="serif" font-size="20" text-anchor="middle">3</text>
+  
+  <text x="80" y="115" font-family="serif" font-size="20" text-anchor="middle">B</text>
+  <text x="190" y="115" font-family="serif" font-size="20" text-anchor="middle">1</text>
+  <text x="240" y="115" font-family="serif" font-size="20" text-anchor="middle">4</text>
+  <text x="290" y="115" font-family="serif" font-size="20" text-anchor="middle">5</text>
+  
+  <text x="80" y="145" font-family="serif" font-size="20" text-anchor="middle">C</text>
+  <text x="190" y="145" font-family="serif" font-size="20" text-anchor="middle">2</text>
+  <text x="240" y="145" font-family="serif" font-size="20" text-anchor="middle">4</text>
+  <text x="290" y="145" font-family="serif" font-size="20" text-anchor="middle">6</text>
+  
+  <text x="80" y="175" font-family="serif" font-size="20" text-anchor="middle">D</text>
+  <text x="190" y="175" font-family="serif" font-size="20" text-anchor="middle">3</text>
+  <text x="240" y="175" font-family="serif" font-size="20" text-anchor="middle">5</text>
+  <text x="290" y="175" font-family="serif" font-size="20" text-anchor="middle">7</text>
+  
+  <!-- Right table data -->
+  <text x="420" y="85" font-family="serif" font-size="20" text-anchor="middle">E</text>
+  <text x="480" y="85" font-family="serif" font-size="20" text-anchor="middle">6</text>
+  <text x="520" y="85" font-family="serif" font-size="20" text-anchor="middle">8</text>
+  <text x="560" y="85" font-family="serif" font-size="20" text-anchor="middle">10</text>
+  
+  <text x="420" y="115" font-family="serif" font-size="20" text-anchor="middle">F</text>
+  <text x="480" y="115" font-family="serif" font-size="20" text-anchor="middle">7</text>
+  <text x="520" y="115" font-family="serif" font-size="20" text-anchor="middle">8</text>
+  <text x="560" y="115" font-family="serif" font-size="20" text-anchor="middle">9</text>
+  
+  <text x="420" y="145" font-family="serif" font-size="20" text-anchor="middle">G</text>
+  <text x="480" y="145" font-family="serif" font-size="20" text-anchor="middle">1</text>
+  <text x="520" y="145" font-family="serif" font-size="20" text-anchor="middle">9</text>
+  <text x="560" y="145" font-family="serif" font-size="20" text-anchor="middle">10</text>
+</svg>

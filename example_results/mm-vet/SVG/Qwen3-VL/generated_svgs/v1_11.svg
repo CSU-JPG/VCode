@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 14px; fill: #333; }
+    .product-id { font-size: 20px; font-weight: bold; }
+    .name { font-size: 16px; font-weight: bold; }
+    .region { font-size: 14px; }
+    .volume { font-size: 14px; }
+    .price { font-size: 32px; font-weight: bold; fill: #d00; }
+    .rating-title { font-size: 12px; font-weight: bold; }
+    .rating { font-size: 12px; }
+    .description { font-size: 12px; }
+    .asterisk { font-size: 10px; }
+  </style>
+
+  <!-- Left label -->
+  <rect x="20" y="20" width="220" height="560" rx="8" ry="8" fill="#f8f8f8" stroke="#ccc"/>
+  <text x="30" y="60" class="product-id">608384</text>
+  <text x="30" y="90" class="name">NORTISTAR MERLOT</text>
+  <text x="30" y="110" class="region">COLUMBIA VALLEY</text>
+  <text x="170" y="110" class="volume">3.0 L</text>
+  <text x="30" y="140" class="asterisk">*</text>
+  <text x="30" y="180" class="price">139.99</text>
+  <text x="30" y="240" class="rating-title">RATINGS ON RECENT VINTAGES:</text>
+  <text x="30" y="255" class="rating">2014 No Rating Available</text>
+  <text x="30" y="290" class="description">Rich concentrated aromas of cherry, raspberry &amp; chocolate that lead into flavors of cinnamon &amp; vanilla. Subtle and soft with a lingering toasted oak finish.</text>
+
+  <!-- Middle label -->
+  <rect x="340" y="20" width="220" height="560" rx="8" ry="8" fill="#f8f8f8" stroke="#ccc"/>
+  <text x="350" y="60" class="product-id">729226</text>
+  <text x="350" y="90" class="name">MOET &amp; CHANDON IMPERIAL</text>
+  <text x="350" y="110" class="region">FRANCE</text>
+  <text x="170" y="110" class="volume">1.5 L</text>
+  <text x="350" y="140" class="asterisk">*</text>
+  <text x="350" y="180" class="price">114.99</text>
+  <text x="350" y="240" class="rating-title">RATINGS ON CURRENT VINTAGES:</text>
+  <text x="350" y="255" class="rating">NY WINE SPECTATOR 91 PTS.</text>
+  <text x="350" y="290" class="description">The aromas are intense and irresistible, a lively bouquet of fresh red summer berries of strawberry, raspberry &amp; red-currant, with floral nuances of rose and hawthorn, and a light peppery touch.</text>
+
+  <!-- Right label -->
+  <rect x="760" y="20" width="220" height="560" rx="8" ry="8" fill="#f8f8f8" stroke="#ccc"/>
+  <text x="770" y="60" class="product-id">1202915</text>
+  <text x="770" y="90" class="name">CHATEAU ST MICHELLE COLD CREEK CABERNET</text>
+  <text x="770" y="110" class="region">COLUMBIA VALLEY</text>
+  <text x="910" y="110" class="volume">3.0 L</text>
+  <text x="770" y="140" class="asterisk">*</text>
+  <text x="770" y="180" class="price">109.99</text>
+  <text x="770" y="240" class="rating-title">RATINGS ON RECENT VINTAGES:</text>
+  <text x="770" y="255" class="rating">2014 No Rating Available</text>
+  <text x="770" y="290" class="description">Flavors of dark cherries and fresh cooking herbs, and then intensified by the richness &amp; density of grapes grown in a vineyard that was planted more than 20 years ago. Plus tannin profile. Winemaker: R.M.</text>
+</svg>

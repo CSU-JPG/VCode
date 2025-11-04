@@ -1,0 +1,125 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#FAF5F2"/>
+  <g id="panel-1" transform="translate(0, 0)">
+    <path d="M 285,150 C 280,140 270,135 260,135 L 210,135 C 205,135 200,130 200,125 L 200,105 C 200,100 205,95 210,95 L 220,95 C 225,95 230,90 230,85 L 230,75 C 230,70 225,65 220,65 L 180,65 C 175,65 170,70 170,75 L 170,125 C 170,140 180,150 190,150 L 225,150 L 225,170 C 225,180 215,185 210,185 L 180,185 C 170,185 160,175 160,165 C 160,150 150,145 140,145 L 130,145 C 115,145 110,130 110,120 L 110,90 C 110,80 115,60 130,60 L 140,60 C 150,60 160,65 160,80" fill="#4CAF50" stroke="#5D4037" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M 170,155 Q 160,180 170,205" fill="none" stroke="#B2EBF2" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 270,220 C 275,210 270,200 260,200 L 200,205 L 180,200 C 170,190 175,180 180,170 C 200,160 210,165 220,180 C 230,195 250,200 270,220" fill="#E3F2FD"/>
+    <path d="M 120,250 C 120,210 320,210 320,250 C 320,290 270,320 220,320 C 170,320 120,290 120,250 Z" fill="#E0F2F7"/>
+    <path d="M 120,250 C 120,210 320,210 320,250" fill="#81D4FA"/>
+    <path d="M 230,165 C 225,170 220,170 215,165 L 200,150 C 205,140 210,140 215,150 Z M 210,150 L 210,110 M 200,120 L 220,120 M 205,130 L 215,130 M 190,140 C 200,155 220,155 230,140" fill="none" stroke="#757575" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 170,110 L 195,120 L 185,135 Z" fill="#CFD8DC"/>
+    <path d="M 195,120 L 200,90 C 200,80 215,80 215,90 L 210,120" fill="none" stroke="#757575" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 270,160 C 265,150 260,155 250,160 L 230,165 C 225,170 230,180 240,180 L 270,175 C 280,170 280,165 270,160 Z" fill="#EF5350"/>
+    <path d="M 250,160 L 235,120 C 235,110 250,110 250,120 L 240,160" fill="none" stroke="#B71C1C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 255,185 C 265,180 270,180 280,185 L 290,205 C 295,210 285,215 280,210 Z" fill="#FFFDE7"/>
+    <text x="60" y="90" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037" transform="rotate(-20, 60, 90)">WATER</text>
+    <text x="135" y="70" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037" transform="rotate(20, 135, 70)">YEAST</text>
+    <text x="250" y="105" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037" transform="rotate(25, 250, 105)">SUGAR</text>
+  </g>
+  <g id="panel-2" transform="translate(333, 0)">
+    <path d="M 120,250 C 120,210 320,210 320,250 C 320,290 270,320 220,320 C 170,320 120,290 120,250 Z" fill="#E0F2F7"/>
+    <path d="M 120,250 C 120,210 320,210 320,250" fill="#81D4FA"/>
+    <path d="M 140,210 C 180,180 260,180 300,210 C 260,240 180,240 140,210 Z" fill="white"/>
+    <path d="M 120,150 C 110,130 115,110 130,100 L 170,80 C 185,70 200,80 200,100 L 160,120 C 150,125 140,135 140,150 L 130,200 C 125,210 120,205 120,195 Z" fill="#FFC107"/>
+    <path d="M 140,140 L 160,120 L 165,145 Q 150,150 140,140 Z" fill="#FFF9C4"/>
+    <path d="M 150,155 Q 160,180 170,205" fill="none" stroke="#FFEB3B" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 210,160 L 290,160 A 10 10 0 0 1 290 180 L 210 180 A 10 10 0 0 1 210 160 Z" fill="#BDBDBD"/>
+    <path d="M 200,160 L 300,160" fill="none" stroke="#757575" stroke-width="2"/>
+    <path d="M 215,145 C 220,130 280,130 285,145" fill="none" stroke="#757575" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 220,180 C 200,185 200,140 220,140 L 280,140 C 300,140 300,185 280,180" fill="#E0E0E0" stroke="#757575" stroke-width="2"/>
+    <circle cx="250" cy="115" r="5" fill="#EEEEEE"/>
+    <circle cx="265" cy="120" r="5" fill="#EEEEEE"/>
+    <circle cx="235" cy="120" r="5" fill="#EEEEEE"/>
+    <path d="M 250,105 C 250,90 260,80 270,80 L 280,80 C 285,80 285,75 280,75 L 270,75 C 255,75 245,85 245,100 C 245,110 255,110 255,100" fill="#757575"/>
+    <path d="M 160,100 L 165,80 L 175,80 L 180,100" fill="#FFD54F"/>
+    <circle cx="150" cy="90" r="2" fill="white"/>
+    <circle cx="145" cy="95" r="2" fill="white"/>
+    <circle cx="155" cy="95" r="2" fill="white"/>
+    <text x="60" y="150" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">OIL</text>
+    <text x="170" y="65" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">Salt</text>
+    <text x="240" y="65" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">FLOUR</text>
+  </g>
+  <g id="panel-3" transform="translate(666, 0)">
+    <path d="M 90,290 C 40,200 150,80 290,120 C 350,200 290,320 150,310 C 120,305 100,295 90,290 Z" fill="#F4D3A3"/>
+    <path d="M 155,270 C 150,260 160,250 170,250 C 180,250 185,255 185,265 C 185,275 180,280 170,280 C 160,280 155,275 155,270 Z" fill="#F8EAD7" opacity="0.7"/>
+    <path d="M 250,210 C 245,200 255,190 265,190 C 275,190 280,195 280,205 C 280,215 275,220 265,220 C 255,220 250,215 250,210 Z" fill="#F8EAD7" opacity="0.7"/>
+    <path d="M 110,210 C 120,180 150,160 180,170 C 200,175 220,185 230,210 C 235,220 230,230 220,235 C 200,240 180,240 160,230 C 130,220 100,220 110,210 Z" fill="#F0C27B"/>
+    <path d="M 130,170 L 140,160 L 155,165 L 160,180 L 145,185 Z" fill="#F0C27B"/>
+    <path d="M 280,250 C 270,220 240,200 210,210 C 190,215 170,225 160,250 C 155,260 160,270 170,275 C 190,280 210,280 230,270 C 260,260 290,260 280,250 Z" fill="#F0C27B"/>
+    <path d="M 260,210 L 250,200 L 235,205 L 230,220 L 245,225 Z" fill="#F0C27B"/>
+    <text x="100" y="150" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">KNEAD</text>
+    <text x="130" y="180" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">dough</text>
+  </g>
+  <g id="panel-4" transform="translate(0, 333)">
+    <path d="M 90,280 C 90,220 310,220 310,280 L 300,310 L 100,310 Z" fill="#E57373"/>
+    <path d="M 100,220 A 10 10 0 0 1 120 220 L 120,210 C 120,200 130,195 140,200 L 130,215 Z" fill="#F48FB1"/>
+    <path d="M 300,220 A 10 10 0 0 0 280 220 L 280,210 C 280,200 270,195 260,200 L 270,215 Z" fill="#F48FB1"/>
+    <path d="M 110,220 C 110,160 290,160 290,220 C 290,280 230,290 170,290 C 110,290 110,280 110,220 Z" fill="#F4D3A3"/>
+    <path d="M 110,220 C 110,160 290,160 290,220" fill="#FADDB8"/>
+    <rect x="130" y="240" width="140" height="60" rx="15" fill="#D32F2F"/>
+    <path d="M 175,280 L 175,260 M 175,260 C 170,255 165,260 165,265 C 165,270 170,275 175,275" fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 195,270 L 205,270 M 200,260 L 200,280" fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 225,270 A 10 10 0 1 1 224.9 270 Z" stroke="white" stroke-width="4" fill="none"/>
+    <text x="110" y="340" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">PUT IN WARM</text>
+    <text x="150" y="370" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">place</text>
+  </g>
+  <g id="panel-5" transform="translate(333, 333)">
+    <text x="50" y="160" font-family="sans-serif" font-size="60" font-weight="bold" fill="#5D4037">MAKING</text>
+    <text x="70" y="230" font-family="sans-serif" font-size="60" font-weight="bold" fill="#5D4037">BREAD</text>
+    <text x="120" y="280" font-family="sans-serif" font-size="32" font-weight="bold" fill="#D32F2F">at home</text>
+  </g>
+  <g id="panel-6" transform="translate(666, 333)">
+    <path d="M 290,290 C 270,220 180,180 100,220 C 50,250 70,320 160,310 C 220,305 310,310 290,290 Z" fill="#F4D3A3"/>
+    <path d="M 120,290 C 100,280 80,290 80,310 C 80,330 100,340 120,330 C 140,320 140,300 120,290 Z" fill="#FADDB8"/>
+    <path d="M 90,240 L 280,240 L 275,260 L 95,260 Z" fill="#BDBDBD"/>
+    <path d="M 280,240 L 310,230 L 315,250 L 285,260 Z" fill="#E53935"/>
+    <path d="M 275,250 L 310,245 L 305,235" fill="none" stroke="#BF360C" stroke-width="3" stroke-linecap="round"/>
+    <text x="90" y="160" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">DIVIDE DOUGH</text>
+    <text x="110" y="180" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">...</text>
+    <text x="180" y="340" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">INTO</text>
+    <text x="160" y="370" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">PIECES</text>
+  </g>
+  <g id="panel-7" transform="translate(0, 666)">
+    <path d="M 80,290 C 80,180 320,180 320,290 C 320,320 250,340 190,340 C 130,340 80,320 80,290 Z" fill="#F4D3A3"/>
+    <path d="M 100,100 L 300,280" stroke="#A1887F" stroke-width="50" stroke-linecap="round"/>
+    <path d="M 90,130 C 80,120 80,100 90,90 L 110,110 Z" fill="#795548"/>
+    <path d="M 310,250 C 320,260 320,280 310,290 L 290,270 Z" fill="#795548"/>
+    <text x="50" y="150" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">PRESS EACH</text>
+    <text x="60" y="180" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">PIECE</text>
+    <text x="80" y="200" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">...</text>
+    <text x="100" y="350" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">INTO A FLAT DISK</text>
+  </g>
+  <g id="panel-8" transform="translate(333, 666)">
+    <rect x="80" y="180" width="240" height="130" rx="20" fill="#64B5F6"/>
+    <circle cx="120" cy="220" r="25" fill="#FADDB8"/>
+    <circle cx="200" cy="220" r="25" fill="#FADDB8"/>
+    <circle cx="280" cy="220" r="25" fill="#FADDB8"/>
+    <circle cx="120" cy="270" r="25" fill="#FADDB8"/>
+    <circle cx="200" cy="270" r="25" fill="#FADDB8"/>
+    <circle cx="280" cy="270" r="25" fill="#FADDB8"/>
+    <path d="M 115,215 C 120,210 125,210 130,215" fill="none" stroke="#F4D3A3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 195,215 C 200,210 205,210 210,215" fill="none" stroke="#F4D3A3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 275,215 C 280,210 285,210 290,215" fill="none" stroke="#F4D3A3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 115,265 C 120,260 125,260 130,265" fill="none" stroke="#F4D3A3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 195,265 C 200,260 205,260 210,265" fill="none" stroke="#F4D3A3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 275,265 C 280,260 285,260 290,265" fill="none" stroke="#F4D3A3" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 170,160 C 175,140 185,140 190,160" fill="none" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 200,165 C 205,145 215,145 220,165" fill="none" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+    <text x="240" y="160" font-family="sans-serif" font-size="32" font-weight="bold" fill="#D32F2F">C°</text>
+    <text x="85" y="350" font-family="sans-serif" font-size="24" font-weight="bold" fill="#5D4037">BAKE ON EACH SIDE</text>
+  </g>
+  <g id="panel-9" transform="translate(666, 666)">
+    <path d="M 220,280 C 120,280 80,200 150,150 C 220,100 300,150 300,230 C 300,270 270,280 220,280 Z" fill="#E4A853"/>
+    <circle cx="150" cy="220" r="5" fill="#F4D3A3"/>
+    <circle cx="180" cy="240" r="3" fill="#F4D3A3"/>
+    <circle cx="210" cy="210" r="6" fill="#F4D3A3"/>
+    <circle cx="240" cy="250" r="4" fill="#F4D3A3"/>
+    <circle cx="260" cy="200" r="3" fill="#F4D3A3"/>
+    <path d="M 250,290 C 250,230 320,230 320,290 C 320,330 280,340 250,330 Z" fill="#E4A853" transform="rotate(20, 285, 285)"/>
+    <path d="M 250,290 C 250,230 320,230 320,290" fill="#F4D3A3" transform="rotate(20, 285, 285)"/>
+    <circle cx="280" cy="260" r="5" fill="#E4A853" transform="rotate(20, 285, 285)"/>
+    <circle cx="300" cy="280" r="3" fill="#E4A853" transform="rotate(20, 285, 285)"/>
+    <circle cx="270" cy="310" r="4" fill="#E4A853" transform="rotate(20, 285, 285)"/>
+    <text x="120" y="350" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5D4037">WELL DONE</text>
+  </g>
+</svg>

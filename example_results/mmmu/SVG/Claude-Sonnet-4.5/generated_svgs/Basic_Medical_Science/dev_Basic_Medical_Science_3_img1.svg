@@ -1,0 +1,118 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="membraneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cytoplasmGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE4B5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="800" height="220" fill="url(#skyGrad)"/>
+  
+  <!-- Membrane -->
+  <rect y="220" width="800" height="60" fill="url(#membraneGrad)"/>
+  
+  <!-- Cytoplasm -->
+  <rect y="280" width="800" height="320" fill="url(#cytoplasmGrad)"/>
+  
+  <!-- Epinephrine molecule -->
+  <circle cx="190" cy="70" r="28" fill="#E74C3C"/>
+  <circle cx="190" cy="70" r="24" fill="#C0392B"/>
+  
+  <!-- Epinephrine label -->
+  <text x="240" y="55" font-family="Arial, sans-serif" font-size="20" fill="#333">Epinephrine</text>
+  
+  <!-- Arrow from epinephrine to receptor -->
+  <path d="M 190 100 L 190 150" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- G protein-coupled receptor -->
+  <ellipse cx="190" cy="235" rx="55" ry="45" fill="#9B59B6"/>
+  <ellipse cx="190" cy="235" rx="45" ry="35" fill="#8E44AD"/>
+  
+  <!-- Receptor label -->
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="16" fill="#333">G protein-coupled</text>
+  <text x="100" y="300" font-family="Arial, sans-serif" font-size="16" fill="#333">receptor</text>
+  
+  <!-- Arrow to G protein -->
+  <path d="M 240 240 L 310 320" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- G protein -->
+  <ellipse cx="360" cy="340" rx="50" ry="35" fill="#17A2B8"/>
+  <ellipse cx="360" cy="340" rx="40" ry="28" fill="#138496"/>
+  
+  <!-- G protein label -->
+  <text x="320" y="310" font-family="Arial, sans-serif" font-size="16" fill="#333">G protein</text>
+  
+  <!-- GTP -->
+  <ellipse cx="360" cy="345" rx="20" ry="15" fill="#FFD700"/>
+  <text x="345" y="352" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">GTP</text>
+  
+  <!-- Arrow to Adenylyl cyclase -->
+  <path d="M 410 340 L 520 340" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Adenylyl cyclase -->
+  <ellipse cx="600" cy="340" rx="55" ry="45" fill="#90EE90"/>
+  <ellipse cx="600" cy="340" rx="45" ry="35" fill="#7CCD7C"/>
+  
+  <!-- Adenylyl cyclase label -->
+  <text x="630" y="95" font-family="Arial, sans-serif" font-size="18" fill="#333">Adenylyl</text>
+  <text x="640" y="115" font-family="Arial, sans-serif" font-size="18" fill="#333">cyclase</text>
+  
+  <!-- ATP -->
+  <ellipse cx="560" cy="385" rx="18" ry="13" fill="#FFD700"/>
+  <text x="547" y="392" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333">ATP</text>
+  
+  <!-- cAMP -->
+  <ellipse cx="570" cy="430" rx="25" ry="18" fill="#FF8C00"/>
+  <text x="545" y="438" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFF">cAMP</text>
+  
+  <!-- Second messenger label -->
+  <text x="620" y="435" font-family="Arial, sans-serif" font-size="16" fill="#333">Second</text>
+  <text x="615" y="455" font-family="Arial, sans-serif" font-size="16" fill="#333">messenger</text>
+  
+  <!-- Arrow down from cAMP -->
+  <path d="M 570 450 L 520 490" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Protein kinase A -->
+  <ellipse cx="480" cy="510" rx="45" ry="32" fill="#5DADE2"/>
+  <ellipse cx="480" cy="510" rx="35" ry="25" fill="#3498DB"/>
+  
+  <!-- Protein kinase A label -->
+  <text x="520" y="505" font-family="Arial, sans-serif" font-size="15" fill="#333">Protein</text>
+  <text x="515" y="525" font-family="Arial, sans-serif" font-size="15" fill="#333">kinase A</text>
+  
+  <!-- Arrow to inhibition box -->
+  <path d="M 440 510 L 340 510" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Inhibition box -->
+  <rect x="80" y="460" width="220" height="35" fill="#FFFF99" stroke="#666" stroke-width="2"/>
+  <text x="95" y="483" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Inhibition of</text>
+  <text x="175" y="483" font-family="Arial, sans-serif" font-size="16" fill="#333">glycogen synthsis</text>
+  
+  <!-- Arrow to promotion box -->
+  <path d="M 430 520 L 310 540" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Promotion box -->
+  <rect x="80" y="515" width="220" height="35" fill="#FFFF99" stroke="#666" stroke-width="2"/>
+  <text x="95" y="538" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Promotion of</text>
+  <text x="175" y="538" font-family="Arial, sans-serif" font-size="16" fill="#333">glycogen breakdown</text>
+  
+  <!-- Figure label -->
+  <text x="20" y="575" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0066CC">▲ Figure 45.6</text>
+  <text x="140" y="575" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Cell-surface hormone receptors trigger</text>
+  <text x="20" y="595" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">signal transduction.</text>
+</svg>

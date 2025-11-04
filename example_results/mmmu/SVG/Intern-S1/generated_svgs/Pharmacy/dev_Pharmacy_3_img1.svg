@@ -1,0 +1,31 @@
+<svg viewBox="0 0 350 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vertical lines -->
+  <line x1="0" y1="0" x2="0" y2="150" stroke="black" stroke-width="1"/>
+  <line x1="150" y1="0" x2="150" y2="150" stroke="black" stroke-width="1"/>
+  <line x1="230" y1="0" x2="230" y2="150" stroke="black" stroke-width="1"/>
+  <line x1="330" y1="0" x2="330" y2="150" stroke="black" stroke-width="1"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="0" x2="330" y2="0" stroke="black" stroke-width="1"/>
+  <line x1="0" y1="30" x2="330" y2="30" stroke="black" stroke-width="1"/>
+  <line x1="0" y1="60" x2="330" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="0" y1="90" x2="330" y2="90" stroke="black" stroke-width="1"/>
+  <line x1="0" y1="120" x2="330" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="0" y1="150" x2="330" y2="150" stroke="black" stroke-width="1"/>
+  <!-- Header text -->
+  <text x="75" y="15" dy="0.3em" text-anchor="middle" font-size="12">Antibiotic Concentration</text>
+  <text x="190" y="15" dy="0.3em" text-anchor="middle" font-size="12">Growth</text>
+  <text x="280" y="15" dy="0.3em" text-anchor="middle" font-size="12">Growth in Subculture</text>
+  <!-- Data rows -->
+  <text x="75" y="45" dy="0.3em" text-anchor="middle" font-size="12">200 µg/ml</text>
+  <text x="190" y="45" dy="0.3em" text-anchor="middle" font-size="12">−</text>
+  <text x="280" y="45" dy="0.3em" text-anchor="middle" font-size="12">−</text>
+  <text x="75" y="75" dy="0.3em" text-anchor="middle" font-size="12">100 µg/ml</text>
+  <text x="190" y="75" dy="0.3em" text-anchor="middle" font-size="12">−</text>
+  <text x="280" y="75" dy="0.3em" text-anchor="middle" font-size="12">+</text>
+  <text x="75" y="105" dy="0.3em" text-anchor="middle" font-size="12">50 µg/ml</text>
+  <text x="190" y="105" dy="0.3em" text-anchor="middle" font-size="12">+</text>
+  <text x="280" y="105" dy="0.3em" text-anchor="middle" font-size="12">+</text>
+  <text x="75" y="135" dy="0.3em" text-anchor="middle" font-size="12">25 µg/ml</text>
+  <text x="190" y="135" dy="0.3em" text-anchor="middle" font-size="12">+</text>
+  <text x="280" y="135" dy="0.3em" text-anchor="middle" font-size="12">+</text>
+</svg>

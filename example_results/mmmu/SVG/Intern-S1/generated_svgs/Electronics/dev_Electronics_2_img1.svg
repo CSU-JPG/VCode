@@ -1,0 +1,27 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+<line x1="80" y1="50" x2="120" y2="50" stroke="black"/>
+<path d="M 100 50 L 105 60 L 95 70 L 105 80 L 95 90 L 105 100 L 95 110 L 105 120 L 95 130 L 105 140 L 95 150" stroke="black" fill="none"/>
+<circle cx="100" cy="150" r="5" stroke="black" fill="none"/>
+<line x1="100" y1="150" x2="50" y2="150" stroke="black"/>
+<line x1="50" y1="150" x2="50" y2="250" stroke="black"/>
+<polygon points="50,250 55,245 45,245" fill="black"/>
+<line x1="100" y1="150" x2="50" y2="150" stroke="black"/>
+<line x1="100" y1="155" x2="50" y2="155" stroke="black"/>
+<path d="M 100 150 L 105 160 L 95 170 L 105 180 L 95 190 L 105 200 L 95 210 L 105 220 L 95 230 L 105 240 L 95 250" stroke="black" fill="none"/>
+<line x1="100" y1="250" x2="100" y2="280" stroke="black"/>
+<line x1="95" y1="270" x2="105" y2="280" stroke="black"/>
+<line x1="90" y1="275" x2="110" y2="280" stroke="black"/>
+<circle cx="50" cy="150" r="3" stroke="black" fill="none"/>
+<line x1="50" y1="150" x2="30" y2="150" stroke="black"/>
+<line x1="30" y1="150" x2="30" y2="200" stroke="black"/>
+<text x="25" y="155" font-size="10">+</text>
+<text x="25" y="205" font-size="10">-</text>
+<text x="120" y="50" font-size="12">Vcc = 5V</text>
+<text x="110" y="100" font-size="12">Rc = 5 kΩ</text>
+<text x="75" y="150" font-size="12">C</text>
+<text x="110" y="200" font-size="12">RL</text>
+<text x="110" y="250" font-size="12">(output)</text>
+<text x="30" y="200" font-size="12">v1</text>
+<text x="110" y="100" font-size="10">Ic</text>
+<polygon points="105,90 110,85 110,95" fill="black"/>
+</svg>

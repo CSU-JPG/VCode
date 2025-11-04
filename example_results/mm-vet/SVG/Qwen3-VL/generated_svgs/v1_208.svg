@@ -1,0 +1,85 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke: #008B8B; stroke-width: 2; fill: none; }
+    .line2 { stroke: #00008B; stroke-width: 2; fill: none; }
+    .bar { fill: #00008B; }
+    .label { font-family: Arial, sans-serif; font-size: 12px; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #8B0000; }
+    .axis { stroke: #888; stroke-width: 1; }
+  </style>
+
+  <!-- Axes -->
+  <line x1="60" y1="40" x2="60" y2="440" class="axis"/>
+  <line x1="60" y1="440" x2="580" y2="440" class="axis"/>
+
+  <!-- Y-axis labels -->
+  <text x="10" y="440" class="label">0</text>
+  <text x="10" y="390" class="label">100</text>
+  <text x="10" y="340" class="label">200</text>
+  <text x="10" y="290" class="label">300</text>
+  <text x="10" y="240" class="label">400</text>
+  <text x="10" y="190" class="label">500</text>
+  <text x="10" y="140" class="label">600</text>
+  <text x="20" y="20" class="label">Thousands</text>
+
+  <!-- X-axis labels -->
+  <text x="70" y="460" class="label">1999</text>
+  <text x="120" y="460" class="label">2000</text>
+  <text x="170" y="460" class="label">2001</text>
+  <text x="220" y="460" class="label">2002</text>
+  <text x="270" y="460" class="label">2003</text>
+  <text x="320" y="460" class="label">2004</text>
+  <text x="370" y="460" class="label">2005</text>
+  <text x="420" y="460" class="label">2006</text>
+  <text x="470" y="460" class="label">2007</text>
+  <text x="520" y="460" class="label">2008</text>
+
+  <!-- Immigration line (cyan) -->
+  <polyline class="line" points="
+    70,380
+    120,370
+    170,365
+    220,360
+    270,350
+    320,320
+    370,310
+    420,315
+    470,310
+    520,315
+    570,310
+  "/>
+  <text x="250" y="280" class="label">Immigration</text>
+
+  <!-- Emigration line (dark blue) -->
+  <polyline class="line2" points="
+    70,400
+    120,390
+    170,385
+    220,380
+    270,370
+    320,365
+    370,360
+    420,365
+    470,370
+    470,370
+    520,350
+    570,370
+  "/>
+  <text x="450" y="390" class="label">Emigration</text>
+
+  <!-- Net bars -->
+  <rect x="75" y="290" width="20" height="150" class="bar"/>
+  <rect x="125" y="295" width="20" height="145" class="bar"/>
+  <rect x="175" y="285" width="20" height="155" class="bar"/>
+  <rect x="225" y="290" width="20" height="150" class="bar"/>
+  <rect x="275" y="300" width="20" height="140" class="bar"/>
+  <rect x="325" y="210" width="20" height="230" class="bar"/>
+  <rect x="375" y="240" width="20" height="200" class="bar"/>
+  <rect x="425" y="250" width="20" height="190" class="bar"/>
+  <rect x="475" y="230" width="20" height="210" class="bar"/>
+  <rect x="525" y="240" width="20" height="200" class="bar"/>
+  <text x="300" y="200" class="label">Net</text>
+
+  <!-- Title -->
+  <text x="150" y="480" class="title">Long-Term International Migration, UK, 1999-2008</text>
+</svg>

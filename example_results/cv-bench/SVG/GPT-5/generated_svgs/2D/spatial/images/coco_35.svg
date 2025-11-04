@@ -1,0 +1,144 @@
+<svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#efe6d6"/>
+      <stop offset="1" stop-color="#d8ccb6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#a86a42"/>
+      <stop offset="1" stop-color="#7a4b2a"/>
+    </linearGradient>
+    <linearGradient id="screenSky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#78b0ff"/>
+      <stop offset="1" stop-color="#55a36b"/>
+    </linearGradient>
+    <radialGradient id="field" cx="50%" cy="60%" r="70%">
+      <stop offset="0" stop-color="#6cc267"/>
+      <stop offset="1" stop-color="#2d8a3e"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background wall and floor -->
+  <rect x="0" y="0" width="520" height="400" fill="url(#wall)"/>
+  <rect x="0" y="290" width="520" height="12" fill="#ffffff" opacity="0.9"/>
+  <rect x="0" y="300" width="520" height="100" fill="url(#floor)"/>
+  <!-- Rug -->
+  <path d="M40 330 L220 320 L480 350 L280 370 Z" fill="#c07b54" opacity="0.55"/>
+
+  <!-- Left floor speaker and media stack -->
+  <rect x="132" y="210" width="25" height="116" rx="3" fill="#262626" stroke="#3a3a3a"/>
+  <rect x="115" y="240" width="12" height="85" fill="#222" rx="1"/>
+  <g transform="translate(116,246)" opacity="0.8">
+    <rect x="0" y="0" width="10" height="6" fill="#8fd1ff"/>
+    <rect x="0" y="7" width="10" height="6" fill="#ff9e7a"/>
+    <rect x="0" y="14" width="10" height="6" fill="#ffd86b"/>
+    <rect x="0" y="21" width="10" height="6" fill="#9bdc86"/>
+    <rect x="0" y="28" width="10" height="6" fill="#b0a9ff"/>
+    <rect x="0" y="35" width="10" height="6" fill="#ffb4c8"/>
+    <rect x="0" y="42" width="10" height="6" fill="#a8ffe1"/>
+    <rect x="0" y="49" width="10" height="6" fill="#ffd0a6"/>
+    <rect x="0" y="56" width="10" height="6" fill="#9ad4ff"/>
+    <rect x="0" y="63" width="10" height="6" fill="#f2f2f2"/>
+  </g>
+
+  <!-- Right floor speaker -->
+  <rect x="415" y="210" width="25" height="116" rx="3" fill="#262626" stroke="#3a3a3a"/>
+
+  <!-- TV stand -->
+  <rect x="250" y="260" width="40" height="60" rx="6" fill="#4a4a4a"/>
+  <ellipse cx="270" cy="325" rx="70" ry="10" fill="#2e2e2e" opacity="0.55"/>
+
+  <!-- TV frame -->
+  <rect x="160" y="120" width="230" height="140" rx="10" fill="url(#glass)" stroke="#303030" stroke-width="3"/>
+  <!-- Screen content -->
+  <rect x="170" y="130" width="210" height="120" rx="6" fill="#1b1f22"/>
+  <g clip-path="url(#clipScreen)">
+    <defs>
+      <clipPath id="clipScreen">
+        <rect x="170" y="130" width="210" height="120" rx="6"/>
+      </clipPath>
+    </defs>
+    <!-- Stadium sky and field -->
+    <rect x="170" y="130" width="210" height="60" fill="url(#screenSky)"/>
+    <rect x="170" y="190" width="210" height="60" fill="url(#field)"/>
+    <!-- Infield dirt -->
+    <polygon points="275,220 300,200 325,220 300,240" fill="#d2a678"/>
+    <!-- Foul lines -->
+    <line x1="300" y1="240" x2="170" y2="250" stroke="#fff" stroke-width="2"/>
+    <line x1="300" y1="240" x2="380" y2="250" stroke="#fff" stroke-width="2"/>
+    <!-- Home plate -->
+    <polygon points="300,243 295,247 300,251 305,247" fill="#ffffff"/>
+    <!-- Batter (cartoon) -->
+    <circle cx="238" cy="207" r="9" fill="#ffddc0"/>
+    <rect x="233" y="213" width="10" height="16" rx="3" fill="#3b7cff"/>
+    <rect x="246" y="211" width="22" height="4" rx="2" fill="#c8954e" transform="rotate(-12 246 211)"/>
+    <rect x="255" y="208" width="4" height="16" rx="2" fill="#ffe3ae" transform="rotate(-12 255 208)"/>
+    <!-- UI bars -->
+    <rect x="178" y="138" width="55" height="10" rx="2" fill="#2b2b2b"/>
+    <rect x="238" y="138" width="55" height="10" rx="2" fill="#2b2b2b"/>
+    <rect x="298" y="138" width="75" height="10" rx="2" fill="#2b2b2b"/>
+    <circle cx="374" cy="180" r="6" fill="#f3e06d"/>
+    <circle cx="388" cy="180" r="6" fill="#9fe37e"/>
+    <circle cx="402" cy="180" r="6" fill="#f08a7a"/>
+  </g>
+
+  <!-- Top shelf items on TV -->
+  <rect x="220" y="95" width="80" height="12" rx="2" fill="#2a2a2a" opacity="0.8"/>
+  <path d="M240 92 a7 7 0 0 1 14 0 v15 h-14z" fill="#3b2e28"/>
+  <path d="M300 88 a6 6 0 0 1 12 0 v19 h-12z" fill="#4b3a33"/>
+  <!-- Small plant silhouette -->
+  <rect x="352" y="84" width="22" height="8" rx="3" fill="#7f6a5a"/>
+  <path d="M363 82 c5 -10 18 2 13 6 s-10 -2 -13 -6z" fill="#9a6"/>
+  <path d="M357 80 c-3 -8 10 -9 10 -3 s-7 6 -10 3z" fill="#a7c79f"/>
+
+  <!-- Person on the right, swinging controller -->
+  <g transform="translate(380,170)">
+    <circle cx="30" cy="10" r="12" fill="#f0c29d"/>
+    <path d="M18 22 q20 10 22 40 l-30 0 q4 -23 8 -40z" fill="#6e6e6e"/>
+    <rect x="-5" y="62" width="40" height="30" rx="6" fill="#2a5c86"/>
+    <rect x="-1" y="85" width="16" height="12" rx="4" fill="#1d4060"/>
+    <!-- Raised arm -->
+    <path d="M43 16 q16 -20 30 -24 q8 -2 12 6 q-16 7 -26 25 q-6 10 -12 9 z" fill="#f0c29d"/>
+    <rect x="80" y="-12" width="18" height="7" rx="3" fill="#ffffff" transform="rotate(15 80 -12)"/>
+  </g>
+
+  <!-- Person on the left in red sweater -->
+  <g id="leftPerson" transform="translate(30,60)">
+    <!-- Head and hair -->
+    <circle cx="50" cy="18" r="18" fill="#f3c7a6"/>
+    <path d="M32 18 q5 -20 25 -20 q15 0 22 12 q-9 -5 -19 -3 q-14 3 -28 11z" fill="#2f2f2f" opacity="0.95"/>
+    <!-- Neck and collar -->
+    <rect x="46" y="30" width="8" height="8" fill="#f3c7a6"/>
+    <path d="M44 34 l8 -6 l8 6 l-4 4 h-8z" fill="#ffffff"/>
+    <!-- Torso (sweater) -->
+    <path d="M10 45 q20 -14 45 -10 q28 4 44 20 v70 q-22 20 -54 18 q-26 -1 -41 -9 z" fill="#8f2e2e"/>
+    <!-- Left arm -->
+    <path d="M20 78 q6 -14 20 -18 q10 -2 17 6 q6 7 2 15 q-4 9 -16 10 q-14 1 -23 -13z" fill="#8f2e2e"/>
+    <!-- Right arm crossing -->
+    <path d="M70 70 q-4 10 2 18 q6 8 22 12 q12 3 18 -5 q6 -7 0 -15 q-6 -8 -21 -11 q-12 -2 -21 1z" fill="#8f2e2e"/>
+    <!-- Hands -->
+    <circle cx="76" cy="92" r="8" fill="#f3c7a6"/>
+    <circle cx="90" cy="96" r="8" fill="#f3c7a6"/>
+    <!-- Wii Remote and strap -->
+    <g transform="rotate(-20 88 92)">
+      <rect x="82" y="86" width="24" height="9" rx="4.5" fill="#ffffff" stroke="#e6e6e6"/>
+      <rect x="84" y="88" width="2" height="5" fill="#c9c9c9"/>
+      <circle cx="96" cy="90.5" r="1.2" fill="#c9c9c9"/>
+      <path d="M82 95 q-8 5 -14 0" fill="none" stroke="#ffffff" stroke-width="2"/>
+    </g>
+    <!-- Jeans -->
+    <path d="M18 140 q20 6 45 6 q24 0 40 -8 v22 q-26 8 -56 8 q-20 0 -29 -3 z" fill="#2b5d7f"/>
+    <!-- Belt line -->
+    <rect x="30" y="126" width="70" height="6" fill="#244e6a"/>
+  </g>
+
+  <!-- Red annotation box around the person on the left -->
+  <rect x="10" y="40" width="180" height="300" fill="none" stroke="#ff3b2f" stroke-width="4"/>
+
+  <!-- Cable under TV -->
+  <path d="M271 263 q-2 14 6 18 q14 7 28 -2" stroke="#1a1a1a" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

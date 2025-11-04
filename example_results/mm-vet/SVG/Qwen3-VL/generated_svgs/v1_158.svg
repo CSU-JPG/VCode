@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bowlGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#333333"/>
+    </linearGradient>
+    <linearGradient id="soupGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6c28a"/>
+      <stop offset="100%" stop-color="#d4a76a"/>
+    </linearGradient>
+    <linearGradient id="mushroomGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9c6a8"/>
+      <stop offset="100%" stop-color="#a58f75"/>
+    </linearGradient>
+    <linearGradient id="herbGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a7d44"/>
+      <stop offset="100%" stop-color="#2e6b38"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="800" fill="#b8860b" opacity="0.7"/>
+
+  <path d="M0 0 Q500 80 1000 0 L1000 800 Q500 720 0 800 Z" fill="#8b4513" opacity="0.6"/>
+
+  <path d="M50 0 Q500 100 950 0 L950 800 Q500 700 50 800 Z" fill="url(#bowlGradient)" stroke="#000" stroke-width="10"/>
+
+  <path d="M70 20 Q500 120 930 20 L930 780 Q500 680 70 780 Z" fill="url(#soupGradient)" stroke="#8b4513" stroke-width="5"/>
+
+  <g transform="translate(150, 100)">
+    <path d="M200 200 C220 220 250 230 270 210 C290 190 280 160 260 150 C240 140 210 150 200 170 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M100 400 C120 420 150 430 170 410 C190 390 180 360 160 350 C140 340 110 350 100 370 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M250 450 C270 470 300 480 320 460 C340 440 330 410 310 400 C290 390 260 400 250 420 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M50 300 C70 320 100 330 120 310 C140 290 130 260 110 250 C90 240 60 250 50 270 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M350 600 C370 620 400 630 420 610 C440 590 430 560 410 550 C390 540 360 550 350 570 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M180 700 C200 720 230 730 250 710 C270 690 260 660 240 650 C220 640 190 650 180 670 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M550 700 C570 720 600 730 620 710 C640 690 630 660 610 650 C590 640 560 650 550 670 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M500 500 C520 520 550 530 570 510 C590 490 580 460 560 450 C540 440 510 450 500 470 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M400 300 C420 320 450 330 470 310 C490 290 480 260 460 250 C440 240 410 250 400 270 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+    <path d="M600 350 C620 370 650 380 670 360 C690 340 680 310 660 300 C640 290 610 300 600 320 Z" fill="url(#mushroomGradient)" stroke="#665544" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(150, 100)">
+    <path d="M30 500 C40 510 50 515 60 510 C70 505 65 495 55 490 C45 485 35 490 30 500 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M100 800 C110 810 120 815 130 810 C140 805 135 795 125 790 C115 785 105 790 100 800 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M70 700 C80 710 90 715 100 710 C110 705 105 695 95 690 C85 685 75 690 70 700 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M400 150 C410 160 420 165 430 160 C440 155 435 145 425 140 C415 135 405 140 400 150 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M450 250 C460 260 470 265 480 260 C490 255 485 245 475 240 C465 235 455 240 450 250 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M600 750 C610 760 620 765 630 760 C640 755 635 745 625 740 C615 735 605 740 600 750 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M500 800 C510 810 520 815 530 810 C540 805 535 795 525 790 C515 785 505 790 500 800 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M150 850 C160 860 170 865 180 860 C190 855 185 845 175 840 C165 835 155 840 150 850 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M250 300 C260 310 270 315 280 310 C290 305 285 295 275 290 C265 285 255 290 250 300 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M350 200 C360 210 370 215 380 210 C390 205 385 195 375 190 C365 185 355 190 350 200 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(150, 100)">
+    <circle cx="700" cy="450" r="5" fill="#ffffff" opacity="0.8"/>
+    <circle cx="750" cy="400" r="3" fill="#ffffff" opacity="0.7"/>
+    <circle cx="650" cy="500" r="4" fill="#ffffff" opacity="0.6"/>
+    <circle cx="600" cy="550" r="6" fill="#ffffff" opacity="0.9"/>
+    <circle cx="550" cy="600" r="3" fill="#ffffff" opacity="0.5"/>
+    <circle cx="500" cy="650" r="5" fill="#ffffff" opacity="0.8"/>
+    <circle cx="450" cy="700" r="4" fill="#ffffff" opacity="0.7"/>
+    <circle cx="400" cy="750" r="3" fill="#ffffff" opacity="0.6"/>
+    <circle cx="350" cy="800" r="5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="300" cy="850" r="4" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <g transform="translate(150, 100)">
+    <path d="M50 550 C60 560 70 565 80 560 C90 555 85 545 75 540 C65 535 55 540 50 550 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M120 600 C130 610 140 615 150 610 C160 605 155 595 145 590 C135 585 125 590 120 600 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M200 500 C210 510 220 515 230 510 C240 505 235 495 225 490 C215 485 205 490 200 500 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M300 400 C310 410 320 415 330 410 C340 405 335 395 325 390 C315 385 305 390 300 400 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M400 350 C410 360 420 365 430 360 C440 355 435 345 425 340 C415 335 405 340 400 350 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M500 450 C510 460 520 465 530 460 C540 455 535 445 525 440 C515 435 505 440 500 450 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M600 550 C610 560 620 565 630 560 C640 555 635 545 625 540 C615 535 605 540 600 550 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M700 650 C710 660 720 665 730 660 C740 655 735 645 725 640 C715 635 705 640 700 650 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M800 750 C810 760 820 765 830 760 C840 755 835 745 825 740 C815 735 805 740 800 750 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+    <path d="M900 850 C910 860 920 865 930 860 C940 855 935 845 925 840 C915 835 905 840 900 850 Z" fill="url(#herbGradient)" stroke="#225533" stroke-width="1"/>
+  </g>
+</svg>

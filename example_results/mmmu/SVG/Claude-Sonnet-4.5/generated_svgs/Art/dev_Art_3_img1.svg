@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background audience -->
+  <rect width="1200" height="800" fill="#1a1612"/>
+  
+  <!-- Audience figures in dark tones -->
+  <ellipse cx="200" cy="150" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="280" cy="140" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="360" cy="145" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="440" cy="150" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="520" cy="140" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="600" cy="145" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="680" cy="150" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="760" cy="145" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="840" cy="140" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="920" cy="150" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="1000" cy="145" rx="35" ry="45" fill="#2a2218"/>
+  
+  <!-- Second row of audience -->
+  <ellipse cx="240" cy="220" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="320" cy="210" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="400" cy="215" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="480" cy="220" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="560" cy="210" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="640" cy="215" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="720" cy="220" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="800" cy="215" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="880" cy="210" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="960" cy="220" rx="35" ry="45" fill="#2d2520"/>
+  
+  <!-- Third row of audience -->
+  <ellipse cx="200" cy="290" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="280" cy="280" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="360" cy="285" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="440" cy="290" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="520" cy="280" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="600" cy="285" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="680" cy="290" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="760" cy="285" rx="35" ry="45" fill="#2a2218"/>
+  <ellipse cx="840" cy="280" rx="35" ry="45" fill="#312822"/>
+  <ellipse cx="920" cy="290" rx="35" ry="45" fill="#2d2520"/>
+  <ellipse cx="1000" cy="285" rx="35" ry="45" fill="#2a2218"/>
+  
+  <!-- Operating table base -->
+  <ellipse cx="600" cy="550" rx="280" ry="40" fill="#8b4513" opacity="0.6"/>
+  <rect x="340" y="480" width="520" height="70" fill="#a0522d" rx="10"/>
+  
+  <!-- Patient on table -->
+  <ellipse cx="600" cy="500" rx="180" ry="60" fill="#d4c5b0"/>
+  <rect x="480" y="470" width="240" height="60" fill="#e8dcc8"/>
+  
+  <!-- Surgeon on left in white -->
+  <ellipse cx="320" cy="420" rx="45" ry="60" fill="#f5f5f0"/>
+  <circle cx="320" cy="360" r="35" fill="#f5e6d3"/>
+  <rect x="295" y="380" width="50" height="100" fill="#f5f5f0" rx="8"/>
+  <path d="M 320 440 L 340 500" stroke="#f5f5f0" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 320 440 L 300 500" stroke="#f5f5f0" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Central surgeon bending over -->
+  <ellipse cx="550" cy="480" rx="50" ry="65" fill="#e8e8e0"/>
+  <circle cx="550" cy="420" r="38" fill="#f5e6d3"/>
+  <rect x="520" y="440" width="60" height="80" fill="#e8e8e0" rx="10"/>
+  
+  <!-- Surgeon on right in white -->
+  <ellipse cx="720" cy="440" rx="45" ry="60" fill="#f5f5f0"/>
+  <circle cx="720" cy="380" r="35" fill="#f5e6d3"/>
+  <rect x="695" y="400" width="50" height="100" fill="#f5f5f0" rx="8"/>
+  
+  <!-- Assistant on far right -->
+  <ellipse cx="850" cy="460" rx="45" ry="60" fill="#f5f5f0"/>
+  <circle cx="850" cy="400" r="35" fill="#f5e6d3"/>
+  <rect x="825" y="420" width="50" height="100" fill="#f5f5f0" rx="8"/>
+  
+  <!-- Nurse figure on right -->
+  <ellipse cx="980" cy="480" rx="45" ry="60" fill="#f5f5f0"/>
+  <circle cx="980" cy="420" r="35" fill="#f5e6d3"/>
+  <rect x="955" y="440" width="50" height="100" fill="#f5f5f0" rx="8"/>
+  <polygon points="980,410 970,390 990,390" fill="#f5f5f0"/>
+  
+  <!-- Medical instruments suggestion -->
+  <line x1="320" y1="420" x2="380" y2="460" stroke="#c0c0c0" stroke-width="3"/>
+  <circle cx="380" cy="460" r="8" fill="#d0d0d0"/>
+  
+  <!-- Lighting effect from above -->
+  <radialGradient id="spotlight">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <ellipse cx="600" cy="450" rx="300" ry="200" fill="url(#spotlight)"/>
+  
+  <!-- Shadow under table -->
+  <ellipse cx="600" cy="560" rx="300" ry="30" fill="#000000" opacity="0.3"/>
+</svg>

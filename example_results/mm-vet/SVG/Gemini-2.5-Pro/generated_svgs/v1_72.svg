@@ -1,0 +1,115 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bowlShadow" cx="50%" cy="50%" r="65%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#ffffff; stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#f0f0f0; stop-opacity:1" />
+      <stop offset="95%" style="stop-color:#dcdcdc; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0c0c0; stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#201510"/>
+
+  <!-- Bamboo Mat -->
+  <g id="bamboo-mat">
+    <rect x="-10" y="110" width="420" height="12" fill="#c4a383" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="122" width="420" height="12" fill="#b59473" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="134" width="420" height="12" fill="#d1b08f" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="146" width="420" height="12" fill="#c4a383" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="158" width="420" height="12" fill="#b59473" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="170" width="420" height="12" fill="#d1b08f" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="182" width="420" height="12" fill="#c4a383" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="194" width="420" height="12" fill="#b59473" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="206" width="420" height="12" fill="#d1b08f" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="218" width="420" height="12" fill="#c4a383" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="230" width="420" height="12" fill="#b59473" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="242" width="420" height="12" fill="#d1b08f" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="254" width="420" height="12" fill="#c4a383" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="266" width="420" height="12" fill="#b59473" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="278" width="420" height="12" fill="#d1b08f" transform="rotate(-5 200 150)"/>
+    <rect x="-10" y="290" width="420" height="12" fill="#c4a383" transform="rotate(-5 200 150)"/>
+  </g>
+  
+  <!-- Faint background elements -->
+  <path d="M-10 0 H 100 Q 80 80, -10 100 Z" fill="#F5F5F5" opacity="0.8"/>
+  <circle cx="340" cy="40" r="15" fill="#a02c2c" opacity="0.6"/>
+  <circle cx="375" cy="55" r="18" fill="#3a5f0b" opacity="0.7"/>
+
+  <!-- Bowl -->
+  <g id="bowl">
+    <ellipse cx="200" cy="180" rx="170" ry="110" fill="url(#bowlShadow)" stroke="#b0b0b0" stroke-width="1"/>
+    <ellipse cx="200" cy="175" rx="160" ry="100" fill="#ffffff"/>
+  </g>
+
+  <!-- Banana Leaf Garnish -->
+  <path d="M290 120 C 310 160, 310 200, 320 220 L 340 210 C 325 180, 325 150, 310 115 Z" fill="#345830"/>
+  <path d="M55 220 C 70 200, 90 190, 110 200 L 100 230 C 80 220, 70 230, 50 240 Z" fill="#345830"/>
+
+  <!-- Food Base (Noodle Mass) -->
+  <path d="M100 150 C 120 120, 280 120, 300 150 C 320 180, 280 240, 200 240 C 120 240, 80 210, 100 150 Z" fill="#e8a87c"/>
+  
+  <!-- Food Details -->
+  <g id="food_details">
+    <!-- Chicken pieces -->
+    <path d="M190 150 C 210 145, 225 160, 215 175 C 200 185, 180 170, 190 150 Z" fill="#F5DEB3"/>
+    <path d="M240 170 C 260 165, 270 180, 260 195 L 245 190 Z" fill="#FAEBD7"/>
+    <path d="M140 190 C 160 180, 175 195, 160 210 L 145 205 Z" fill="#F5DEB3"/>
+    <path d="M135 155 L 155 145 L 160 165 L 140 170 Z" fill="#FAEBD7"/>
+    <path d="M270 140 L 290 145 L 285 165 L 270 160 Z" fill="#F5DEB3"/>
+
+    <!-- Noodles &amp;amp;amp; Cooked Sprouts Texture -->
+    <path d="M150 140 C 200 130, 250 150, 220 190" stroke="#d2b48c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M130 160 C 180 150, 240 170, 280 160" stroke="#fdf5e6" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M180 220 C 220 230, 270 210, 290 180" stroke="#d2b48c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M120 180 C 150 200, 200 210, 250 190" stroke="#fdf5e6" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M160 170 C 140 190, 160 210, 200 220" stroke="#fdf5e6" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M220 140 C 240 130, 260 150, 280 155" stroke="#d2b48c" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M250 170 C 220 180, 250 200, 270 210" stroke="#fdf5e6" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Crushed Peanuts -->
+  <g id="peanuts">
+    <path d="M70 180 C 80 170, 110 175, 115 190 C 118 210, 95 230, 75 225 C 60 220, 65 190, 70 180 Z" fill="#a0522d"/>
+    <circle cx="80" cy="195" r="3" fill="#d2b48c"/>
+    <circle cx="95" cy="190" r="4" fill="#8b4513"/>
+    <circle cx="100" cy="205" r="3" fill="#d2b48c"/>
+    <circle cx="85" cy="215" r="4" fill="#a0522d"/>
+    <circle cx="75" cy="205" r="2" fill="#8b4513"/>
+    <circle cx="90" cy="200" r="5" fill="#cd853f"/>
+  </g>
+
+  <!-- Fresh Bean Sprouts -->
+  <g id="fresh-sprouts" stroke="#f5f5f5" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <path d="M80 110 C 100 100, 120 115, 110 140"/>
+    <path d="M85 115 C 115 110, 130 130, 120 150"/>
+    <path d="M95 105 C 110 100, 135 110, 130 135"/>
+    <path d="M90 120 C 120 125, 125 150, 115 160"/>
+    <path d="M100 110 C 90 130, 100 150, 125 155"/>
+    <path d="M105 105 C 120 100, 140 120, 130 145"/>
+  </g>
+  
+  <!-- Green Onion Garnish -->
+  <g id="green-onions" fill="#228B22">
+    <rect x="200" y="210" width="10" height="3" rx="1" transform="rotate(20 200 210)"/>
+    <rect x="230" y="190" width="12" height="3" rx="1" transform="rotate(-15 230 190)"/>
+    <rect x="180" y="180" width="10" height="3" rx="1" transform="rotate(30 180 180)"/>
+    <rect x="160" y="215" width="12" height="3" rx="1" transform="rotate(10 160 215)"/>
+    <rect x="260" y="165" width="10" height="3" rx="1" transform="rotate(-25 260 165)"/>
+    <rect x="250" y="205" width="10" height="3" rx="1" transform="rotate(45 250 205)"/>
+  </g>
+
+  <!-- Cilantro Garnish -->
+  <g id="cilantro" fill="#3cb371" stroke="#2e8b57" stroke-width="0.5">
+    <path d="M180 135 C 170 145, 175 155, 185 155 C 195 155, 190 145, 180 135 Z"/>
+    <path d="M172 130 C 162 140, 167 150, 177 150 C 187 150, 182 140, 172 130 Z"/>
+  </g>
+
+  <!-- Shredded Carrots -->
+  <g id="carrots" stroke="#ff7f50" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M190 125 C 200 120, 210 125, 215 135"/>
+    <path d="M195 128 C 205 123, 215 128, 220 138"/>
+    <path d="M200 132 C 210 127, 220 132, 225 142"/>
+    <path d="M198 122 C 208 117, 218 122, 223 132"/>
+  </g>
+</svg>

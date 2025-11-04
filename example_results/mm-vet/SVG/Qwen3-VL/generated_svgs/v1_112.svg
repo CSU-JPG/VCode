@@ -1,0 +1,21 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#87CEEB"/>
+  <rect y="300" width="800" height="300" fill="#DEB887"/>
+  <rect y="300" width="800" height="150" fill="#4682B4"/>
+  <circle cx="400" cy="50" r="80" fill="#FFD700"/>
+  <path d="M100 250 C200 230, 600 230, 700 250" fill="none" stroke="#87CEEB" stroke-width="2"/>
+  <ellipse cx="450" cy="500" rx="120" ry="100" fill="#D2B48C"/>
+  <ellipse cx="450" cy="450" rx="80" ry="60" fill="#F5F5DC"/>
+  <circle cx="450" cy="400" r="30" fill="#2F4F4F"/>
+  <path d="M420 400 Q450 380, 480 400" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M430 410 Q450 430, 470 410" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M450 430 Q470 450, 490 430" fill="none" stroke="#000" stroke-width="2"/>
+  <ellipse cx="650" cy="300" rx="100" ry="120" fill="#8B4513"/>
+  <ellipse cx="650" cy="280" rx="60" ry="80" fill="#F5F5DC"/>
+  <circle cx="650" cy="250" r="25" fill="#2F4F4F"/>
+  <path d="M630 250 Q650 230, 670 250" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M640 260 Q650 280, 660 260" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M650 280 Q670 300, 690 280" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M450 500 Q500 450, 650 300" fill="none" stroke="#D2B48C" stroke-width="10"/>
+  <path d="M450 500 Q400 450, 650 300" fill="none" stroke="#D2B48C" stroke-width="10"/>
+</svg>

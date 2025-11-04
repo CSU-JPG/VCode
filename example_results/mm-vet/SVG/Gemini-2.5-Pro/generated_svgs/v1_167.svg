@@ -1,0 +1,122 @@
+<svg viewBox="0 0 450 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .wood { fill: #8B5A2B; }
+      .plate { fill: #F0EAD6; }
+      .plate-rim { fill: #344B33; }
+      .berry { fill: #C04040; }
+      .berry-hl { fill: #E58D8D; }
+      .leaf { fill: #3A6239; }
+      .tortilla { fill: #EADCB3; }
+      .tortilla-shadow { fill: #D8C8A3; }
+      .chicken { fill: #D3B19B; }
+      .chicken-dark { fill: #AF8B71; }
+      .peppers { fill: #4B6E4A; }
+      .cheese-y { fill: #FFD700; }
+      .cheese-w { fill: #FFF8E7; }
+      .slaw-base { fill: #E8E8E0; }
+      .slaw-purple { fill: #9370DB; }
+      .slaw-orange { fill: #FFA500; }
+      .slaw-green { fill: #ADD8E6; }
+      .lime-rind { fill: #32CD32; }
+      .lime-flesh { fill: #90EE90; }
+      .spoon { fill: #A9A9A9; }
+      .spoon-hl { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="wood" width="100%" height="100%"/>
+  <path d="M0 0 L450 0 L450 150 L0 500 Z" fill="#654321"/>
+
+  <!-- Plate -->
+  <circle cx="225" cy="305" r="240" class="plate"/>
+  <circle cx="225" cy="305" r="240" fill="none" stroke="#2c3e2b" stroke-width="20"/>
+
+  <!-- Plate Decoration -->
+  <g transform="translate(225 305)">
+    <g transform="rotate(20)">
+      <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+      <circle class="berry" cx="25" cy="-215" r="8"/><circle class="berry-hl" cx="23" cy="-217" r="3"/>
+    </g>
+    <g transform="rotate(50)">
+      <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+      <circle class="berry" cx="-25" cy="-215" r="8"/><circle class="berry-hl" cx="-23" cy="-217" r="3"/>
+    </g>
+    <g transform="rotate(90)">
+      <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+      <circle class="berry" cx="25" cy="-215" r="8"/><circle class="berry-hl" cx="23" cy="-217" r="3"/>
+    </g>
+     <g transform="rotate(120)">
+      <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+    </g>
+    <g transform="rotate(210)">
+      <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+      <circle class="berry" cx="25" cy="-215" r="8"/><circle class="berry-hl" cx="23" cy="-217" r="3"/>
+    </g>
+    <g transform="rotate(240)">
+      <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+    </g>
+    <g transform="rotate(270)">
+      <circle class="berry" cx="-25" cy="-215" r="8"/><circle class="berry-hl" cx="-23" cy="-217" r="3"/>
+    </g>
+     <g transform="rotate(300)">
+      <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+      <circle class="berry" cx="25" cy="-215" r="8"/><circle class="berry-hl" cx="23" cy="-217" r="3"/>
+    </g>
+    <g transform="rotate(330)">
+       <path class="leaf" d="M0 -230 C 15 -225, 15 -205, 0 -200 C -15 -205, -15 -225, 0 -230 Z"/>
+    </g>
+  </g>
+
+  <!-- Spoon -->
+  <path class="spoon" d="M80 440 Q 150 380, 200 390 C 230 395, 235 450, 210 470 Q 180 495, 80 440 Z"/>
+  <path class="spoon-hl" d="M185 410 Q 195 420, 205 440 Q 190 445, 185 410 Z" opacity="0.8"/>
+
+  <!-- Taco Filling (under tortillas) -->
+  <g>
+    <path class="chicken-dark" d="M280 280h20v15h-20z"/>
+    <path class="chicken" d="M300 275h25v20h-25z"/>
+    <path class="peppers" d="M275 290h20v10h-20z"/>
+    <path class="chicken" d="M320 300h15v15h-15z"/>
+    <path class="chicken-dark" d="M340 320h20v15h-20z"/>
+    <path class="peppers" d="M325 285h15v10h-15z"/>
+    <path class="chicken" d="M220 260h20v20h-20z"/>
+  </g>
+
+  <!-- Right Taco -->
+  <path class="tortilla-shadow" d="M210 125 C 350 100, 480 250, 420 380 C 400 350, 300 250, 210 125 Z"/>
+  <path class="tortilla" d="M200 120 C 340 95, 470 245, 410 375 C 390 345, 290 245, 200 120 Z"/>
+
+  <!-- Left Taco -->
+  <path class="tortilla-shadow" d="M150 70 C 180 250, 160 380, 140 370 C 10 320, 20 120, 150 70 Z"/>
+  <path class="tortilla" d="M145 75 C 175 255, 155 375, 135 365 C 15 315, 25 125, 145 75 Z"/>
+
+  <!-- Coleslaw -->
+  <path class="slaw-base" d="M180 350 C 250 320, 380 350, 400 450 C 350 500, 200 500, 160 450 C 140 410, 150 365, 180 350 Z"/>
+  <g stroke-width="2" stroke-linecap="round">
+    <path class="slaw-purple" d="M250 380 l 20 5"/> <path class="slaw-orange" d="M260 390 l 25 -5"/>
+    <path class="slaw-green" d="M280 400 l 15 8"/> <path class="slaw-purple" d="M300 410 l 20 -8"/>
+    <path class="slaw-orange" d="M320 420 l 10 10"/> <path class="slaw-green" d="M340 430 l 15 -10"/>
+    <path class="slaw-purple" d="M230 400 l -15 10"/> <path class="slaw-orange" d="M240 420 l 25 5"/>
+    <path class="slaw-green" d="M270 440 l 15 -5"/> <path class="slaw-purple" d="M300 450 l 20 8"/>
+    <path class="slaw-orange" d="M330 395 l 20 5"/> <path class="slaw-green" d="M350 415 l 15 -10"/>
+    <path class="slaw-purple" d="M220 440 l 30 10"/> <path class="slaw-orange" d="M280 370 l 10 -8"/>
+  </g>
+
+  <!-- Cheese -->
+  <g stroke-width="1.5" stroke-linecap="round" transform="translate(0, -20)">
+    <path class="cheese-y" d="M180 300 q 50 10 100 0"/> <path class="cheese-w" d="M185 305 q 60 -10 110 5"/>
+    <path class="cheese-y" d="M190 310 q 40 15 90 2"/> <path class="cheese-w" d="M195 315 q 70 -5 120 10"/>
+    <path class="cheese-y" d="M200 320 q 50 20 100 5"/> <path class="cheese-w" d="M205 325 q 60 5 110 -5"/>
+    <path class="cheese-y" d="M210 330 q 40 -15 90 0"/> <path class="cheese-w" d="M215 335 q 70 10 120 -2"/>
+    <path class="cheese-y" d="M220 340 q 50 -10 100 8"/> <path class="cheese-w" d="M225 345 q 60 12 110 -10"/>
+    <path class="cheese-y" d="M230 350 q 40 5 90 15"/> <path class="cheese-w" d="M235 355 q 70 -12 120 0"/>
+    <path class="cheese-y" d="M240,360 q 60 -15 100 0"/> <path class="cheese-w" d="M200,290 q 80 5 130 10"/>
+  </g>
+
+  <!-- Lime -->
+  <path class="lime-rind" d="M380 370 C 430 380, 420 440, 370 430 Z" />
+  <path class="lime-flesh" d="M383 375 C 415 385, 410 425, 375 425 Z" />
+
+</svg>

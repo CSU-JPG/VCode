@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 533" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .key-text { font-family: sans-serif; font-size: 28px; fill: #212121; text-anchor: middle; dominant-baseline: middle; }
+      .btn-text-main { font-family: sans-serif; font-size: 11px; fill: #424242; text-anchor: middle; }
+      .btn-text-sub { font-family: sans-serif; font-size: 11px; font-weight: bold; fill: #212121; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- ATM Machine Body -->
+  <rect width="800" height="533" fill="#B0BEC5"/>
+  <path d="M 0 0 H 800 V 130 L 780 140 H 20 L 0 130 Z" fill="#78909C"/>
+  <rect x="230" y="275" width="400" height="258" fill="#BDBDBD"/>
+
+  <!-- Cash Dispenser Slot -->
+  <rect x="260" y="140" width="280" height="75" fill="#37474F"/>
+  <path d="M 240 215 H 560 C 530 190, 270 190, 240 215 Z" fill="#CFD8DC"/>
+
+  <!-- Keypad Keys -->
+  <g id="keypad">
+    <rect x="360" y="360" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <text x="385" y="380" class="key-text">4</text>
+    <rect x="420" y="360" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <text x="445" y="380" class="key-text">5</text>
+    <rect x="480" y="360" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <text x="505" y="380" class="key-text">6</text>
+    <rect x="360" y="410" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <text x="385" y="430" class="key-text">7</text>
+    <rect x="420" y="410" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <text x="445" y="430" class="key-text">8</text>
+    <rect x="480" y="410" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <text x="505" y="430" class="key-text">9</text>
+    <rect x="360" y="460" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <rect x="420" y="460" width="50" height="40" rx="5" fill="#E0E0E0"/>
+    <text x="445" y="480" class="key-text">0</text>
+    <rect x="480" y="460" width="50" height="40" rx="5" fill="#E0E0E0"/>
+  </g>
+
+  <!-- Function Buttons -->
+  <g id="function-buttons">
+    <rect x="545" y="295" width="70" height="45" rx="5" fill="#D32F2F"/>
+    <path d="M 563 310 L 597 328 M 563 328 L 597 310" stroke="#FFFFFF" stroke-width="4"/>
+    <text x="580" y="303" class="btn-text-main" fill="white">AVBRYT</text>
+    <text x="580" y="335" class="btn-text-sub" fill="white">CANCEL</text>
+
+    <rect x="545" y="355" width="70" height="45" rx="5" fill="#FBC02D"/>
+    <path d="M 585 370 L 570 377.5 L 585 385 Z" fill="#424242"/>
+    <rect x="582" y="375" width="15" height="5" fill="#424242"/>
+    <text x="580" y="363" class="btn-text-main">FEL</text>
+    <text x="580" y="395" class="btn-text-sub">CLEAR</text>
+
+    <rect x="545" y="415" width="70" height="45" rx="5" fill="#EEEEEE"/>
+    <path d="M 585 430 a 8 8 0 0 1 0 10 M 590 427 a 12 12 0 0 1 0 16 M 575 435 L 570 435 L 570 445 L 577 440 Z" fill="none" stroke="#424242" stroke-width="2"/>
+    <text x="580" y="423" class="btn-text-main">TAL</text>
+    <text x="580" y="455" class="btn-text-sub">VOICE</text>
+
+    <rect x="545" y="475" width="70" height="45" rx="5" fill="#4CAF50"/>
+    <circle cx="580" cy="497.5" r="10" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+    <text x="580" y="483" class="btn-text-main" fill="white">KLAR</text>
+    <text x="580" y="515" class="btn-text-sub" fill="white">ENTER</text>
+  </g>
+
+  <!-- Banknote -->
+  <g>
+    <path d="M 230 250 C 235 240, 260 215, 300 200 C 400 170, 500 180, 580 195 L 570 265 C 500 250, 400 240, 300 260 C 260 270, 235 265, 230 250 Z" fill="#C8E6C9" stroke="#7CB342" stroke-width="1"/>
+    <text x="535" y="240" font-family="sans-serif" font-weight="bold" font-size="50" fill="#388E3C" transform="rotate(10 545 230)">200</text>
+    <text x="250" y="235" font-family="sans-serif" font-weight="bold" font-size="50" fill="#388E3C" transform="rotate(-10 260 225)">200</text>
+    <text x="390" y="238" font-family="monospace" font-weight="bold" font-size="12" fill="#2E7D32" text-anchor="middle">TVÅ HUNDRA KRONOR</text>
+    <g transform="translate(380, 210) scale(0.6)">
+      <path d="M-22 1c-1 2-2 4-2 6 0 2 0 2 1 4 2 3 5 4 8 4 3 0 5-2 7-4 1-2 2-6 1-9-1-2-2-4-4-5-3-2-6-1-8 0-3 1-3 3-3 4zm-1-10c0 1-1 3-2 3-2 0-3-2-2-4 0-1 1-2 2-2 1 0 2 2 2 3zm1 21c-4 0-7-2-10-4-1-1-2-3-2-4 0-2 2-4 4-5 3-1 6-1 9 0 4 2 7 5 7 9s-2 6-8 6z" fill="#607D8B"/>
+    </g>
+    <rect x="250" y="225" width="25" height="15" fill="#FFB74D"/>
+    <path d="M 252 232 h 21 M 252 235 h 21" stroke="#E65100" stroke-width="0.5"/>
+  </g>
+
+  <!-- Keypad Privacy Shield -->
+  <path d="M 320 280 L 340 520 L 560 520 L 580 280 L 555 285 L 535 500 L 365 500 L 345 285 Z" fill="#BDBDBD"/>
+  <path d="M 320 280 L 345 285 L 365 500 L 340 520 Z" fill="#9E9E9E"/>
+  <path d="M 580 280 L 555 285 L 535 500 L 560 520 Z" fill="#9E9E9E"/>
+  <path d="M 320 280 L 580 280 L 555 285 L 345 285 Z" fill="#E0E0E0"/>
+
+  <!-- Hand and Sleeve -->
+  <g>
+    <path d="M 170 310 C 220 270, 280 280, 280 280 L 260 533 L 0 533 L 0 400 C 50 420, 100 380, 170 310 Z" fill="#212121"/>
+    <path d="M 280 280 C 260 280, 230 300, 200 340 C 160 390, 160 450, 190 480 C 230 520, 310 500, 310 450 C 310 400, 310 330, 325 300 C 310 290, 290 285, 280 280 Z" fill="#E4C5AF"/>
+    <path d="M 235 245 C 260 270, 280 320, 280 350 C 280 390, 240 460, 210 470 C 180 460, 190 390, 210 350 C 215 330, 220 280, 235 245 Z" fill="#E4C5AF"/>
+    <path d="M 240 370 C 230 400, 230 430, 240 450 C 255 465, 280 460, 290 440 C 295 420, 290 390, 270 370 C 260 360, 250 360, 240 370 Z" stroke="#C1A792" fill="none" stroke-width="1.5"/>
+  </g>
+</svg>

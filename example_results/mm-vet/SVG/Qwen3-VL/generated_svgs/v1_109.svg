@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f5f5f5"/>
+  
+  <!-- Kitchen counter and sink area -->
+  <rect x="0" y="270" width="220" height="800" fill="#f0f0f0"/>
+  <rect x="0" y="690" width="90" height="110" fill="#cccccc"/>
+  <rect x="0" y="380" width="210" height="240" fill="#5d4c4c"/>
+  <rect x="0" y="380" width="210" height="240" fill="#5d4c4c"/>
+  
+  <!-- Pattern on countertop mat -->
+  <g fill="#ffffff">
+    <circle cx="20" cy="410" r="15"/>
+    <circle cx="60" cy="410" r="15"/>
+    <circle cx="100" cy="410" r="15"/>
+    <circle cx="140" cy="410" r="15"/>
+    <circle cx="180" cy="410" r="15"/>
+    <circle cx="20" cy="450" r="15"/>
+    <circle cx="60" cy="450" r="15"/>
+    <circle cx="100" cy="450" r="15"/>
+    <circle cx="140" cy="450" r="15"/>
+    <circle cx="180" cy="450" r="15"/>
+    <circle cx="20" cy="490" r="15"/>
+    <circle cx="60" cy="490" r="15"/>
+    <circle cx="100" cy="490" r="15"/>
+    <circle cx="140" cy="490" r="15"/>
+    <circle cx="180" cy="490" r="15"/>
+    <circle cx="20" cy="530" r="15"/>
+    <circle cx="60" cy="530" r="15"/>
+    <circle cx="100" cy="530" r="15"/>
+    <circle cx="140" cy="530" r="15"/>
+    <circle cx="180" cy="530" r="15"/>
+    <circle cx="20" cy="570" r="15"/>
+    <circle cx="60" cy="570" r="15"/>
+    <circle cx="100" cy="570" r="15"/>
+    <circle cx="140" cy="570" r="15"/>
+    <circle cx="180" cy="570" r="15"/>
+  </g>
+  
+  <!-- Green bowl on counter -->
+  <ellipse cx="20" cy="220" rx="35" ry="45" fill="#4CAF50"/>
+  
+  <!-- Person wearing purple shirt -->
+  <rect x="460" y="0" width="970" height="700" fill="#C98FDB"/>
+  <rect x="540" y="300" width="200" height="250" fill="#333333"/>
+  
+  <!-- Hands placing trash bag -->
+  <path d="M610 160 C630 140, 660 140, 680 160 C700 180, 710 210, 690 230 C670 250, 640 250, 620 230 C600 210, 590 180, 610 160 Z" fill="#E6C5C5"/>
+  <path d="M760 310 C780 290, 810 290, 830 310 C850 330, 860 360, 840 380 C820 400, 790 400, 770 380 C750 360, 740 330, 760 310 Z" fill="#E6C5C5"/>
+  
+  <!-- Trash can with white liner -->
+  <rect x="420" y="480" width="220" height="300" fill="#D3D3D3" rx="10" ry="10"/>
+  <rect x="420" y="480" width="220" height="300" fill="#D3D3D3" rx="10" ry="10"/>
+  <rect x="420" y="480" width="220" height="300" fill="#D3D3D3" rx="10" ry="10"/>
+  <rect x="420" y="480" width="220" height="300" fill="#D3D3D3" rx="10" ry="10"/>
+  
+  <!-- White trash bag liner -->
+  <path d="M420 480 L460 460 L600 460 L640 480 L640 520 L420 520 Z" fill="#ffffff"/>
+  <path d="M460 460 Q500 440, 550 440 Q600 440, 640 460" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  <path d="M420 480 Q450 470, 480 470 Q510 470, 540 480 Q570 490, 600 490 Q620 490, 640 480" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  <path d="M420 520 Q450 510, 480 510 Q510 510, 540 520 Q570 530, 600 530 Q620 530, 640 520" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Drawers/cabinet area -->
+  <rect x="180" y="640" width="450" height="160" fill="#ffffff" stroke="#cccccc" stroke-width="2"/>
+  <rect x="180" y="640" width="450" height="160" fill="#ffffff" stroke="#cccccc" stroke-width="2"/>
+  <rect x="180" y="640" width="450" height="160" fill="#ffffff" stroke="#cccccc" stroke-width="2"/>
+  <rect x="180" y="640" width="450" height="160" fill="#ffffff" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- Cabinet door handle -->
+  <rect x="190" y="0" width="20" height="280" fill="#222222"/>
+</svg>

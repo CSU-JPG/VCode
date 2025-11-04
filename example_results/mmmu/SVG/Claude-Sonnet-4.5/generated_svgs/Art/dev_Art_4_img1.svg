@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="900" fill="#d4d4d4"/>
+  
+  <!-- Base shadow -->
+  <ellipse cx="400" cy="820" rx="180" ry="25" fill="#4a4a4a" opacity="0.3"/>
+  
+  <!-- Bust base -->
+  <path d="M 250 750 Q 240 780 260 820 L 540 820 Q 560 780 550 750 Z" fill="#3a3a3a"/>
+  <path d="M 260 820 L 280 850 L 520 850 L 540 820 Z" fill="#2a2a2a"/>
+  
+  <!-- Shoulders and chest -->
+  <ellipse cx="400" cy="680" rx="160" ry="80" fill="#4a4a3a"/>
+  <path d="M 240 680 Q 240 720 280 760 L 520 760 Q 560 720 560 680 Z" fill="#3d3d2d"/>
+  
+  <!-- Collar/neckline detail -->
+  <rect x="360" y="640" width="80" height="120" fill="#5a5a4a" opacity="0.6"/>
+  
+  <!-- Neck -->
+  <path d="M 360 580 Q 350 600 350 620 L 350 660 L 450 660 L 450 620 Q 450 600 440 580 Z" fill="#4a4a3a"/>
+  
+  <!-- Head base -->
+  <ellipse cx="400" cy="400" rx="120" ry="140" fill="#4a4a3a"/>
+  
+  <!-- Face -->
+  <ellipse cx="400" cy="380" rx="100" ry="120" fill="#5a5a4a"/>
+  
+  <!-- Helmet/cap -->
+  <ellipse cx="400" cy="240" rx="125" ry="90" fill="#4a4a2a"/>
+  <path d="M 275 240 Q 270 200 300 170 Q 350 140 400 140 Q 450 140 500 170 Q 530 200 525 240 Z" fill="#5a5a3a"/>
+  
+  <!-- Helmet band -->
+  <rect x="280" y="280" width="240" height="25" rx="5" fill="#3a3a2a"/>
+  
+  <!-- Ear flaps on helmet -->
+  <ellipse cx="290" cy="330" rx="30" ry="40" fill="#4a4a2a"/>
+  <ellipse cx="510" cy="330" rx="30" ry="40" fill="#4a4a2a"/>
+  
+  <!-- Earrings -->
+  <circle cx="290" cy="350" r="8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="510" cy="350" r="8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="360" cy="360" rx="20" ry="15" fill="#2a2a2a"/>
+  <ellipse cx="440" cy="360" rx="20" ry="15" fill="#2a2a2a"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 340 340 Q 360 335 380 340" stroke="#3a3a3a" stroke-width="4" fill="none"/>
+  <path d="M 420 340 Q 440 335 460 340" stroke="#3a3a3a" stroke-width="4" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M 400 360 L 395 420 L 405 420 Z" fill="#4a4a3a"/>
+  <ellipse cx="390" cy="425" rx="8" ry="6" fill="#3a3a2a"/>
+  <ellipse cx="410" cy="425" rx="8" ry="6" fill="#3a3a2a"/>
+  
+  <!-- Mouth -->
+  <path d="M 370 460 Q 400 465 430 460" stroke="#2a2a2a" stroke-width="3" fill="none"/>
+  
+  <!-- Chin shadow -->
+  <ellipse cx="400" cy="500" rx="60" ry="30" fill="#3a3a2a" opacity="0.5"/>
+  
+  <!-- Highlights on face -->
+  <ellipse cx="370" cy="350" rx="8" ry="10" fill="#6a6a5a" opacity="0.4"/>
+  <ellipse cx="350" cy="390" rx="15" ry="20" fill="#6a6a5a" opacity="0.3"/>
+  <ellipse cx="450" cy="390" rx="15" ry="20" fill="#6a6a5a" opacity="0.3"/>
+  
+  <!-- Helmet highlights -->
+  <ellipse cx="380" cy="200" rx="40" ry="30" fill="#6a6a4a" opacity="0.4"/>
+  
+  <!-- Shoulder highlights -->
+  <ellipse cx="300" cy="700" rx="30" ry="20" fill="#5a5a4a" opacity="0.4"/>
+  <ellipse cx="500" cy="700" rx="30" ry="20" fill="#5a5a4a" opacity="0.4"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="-3 -1 15 12" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <path d="M0,0 L10,0 M10,0 L9.5,0.2 M10,0 L9.5,-0.2" stroke="black" fill="none"/>
+  <path d="M0,0 L0,10 M0,10 L-0.2,9.5 M0,10 L0.2,9.5" stroke="black" fill="none"/>
+  
+  <!-- Axis Labels -->
+  <text x="5" y="-0.5" text-anchor="middle" font-size="1">Temperature</text>
+  <text x="-2" y="5" transform="rotate(-90 -2 5)" text-anchor="middle" font-size="1">Pressure</text>
+  
+  <!-- Main Curve -->
+  <path d="M2,9 L3,6 L5,1 L7,4 L8,9" stroke="black" fill="none"/>
+  
+  <!-- Secondary Line -->
+  <path d="M2.5,7 L4,2" stroke="black" fill="none"/>
+  
+  <!-- Points -->
+  <circle cx="2" cy="9" r="0.2"/>
+  <circle cx="2.5" cy="7" r="0.2"/>
+  <circle cx="3" cy="6" r="0.2"/>
+  <circle cx="4" cy="5" r="0.2"/>
+  <circle cx="8" cy="9" r="0.2"/>
+  <circle cx="7" cy="4" r="0.2"/>
+  <circle cx="5" cy="1" r="0.2"/>
+  <circle cx="4" cy="2" r="0.2"/>
+  <circle cx="6" cy="2" r="0.2"/>
+  
+  <!-- Point Labels -->
+  <text x="2.3" y="9.3" font-size="0.8">1</text>
+  <text x="2.8" y="7.3" font-size="0.8">2</text>
+  <text x="3.3" y="6.3" font-size="0.8">3</text>
+  <text x="4.3" y="5.3" font-size="0.8">4</text>
+  <text x="8.3" y="9.3" font-size="0.8">5</text>
+  <text x="7.3" y="4.3" font-size="0.8">6</text>
+  <text x="5.3" y="1.3" font-size="0.8">7</text>
+  <text x="4.3" y="2.3" font-size="0.8">8</text>
+  <text x="6.3" y="2.3" font-size="0.8">9</text>
+</svg>

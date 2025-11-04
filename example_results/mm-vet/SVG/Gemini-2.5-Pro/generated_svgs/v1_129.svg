@@ -1,0 +1,141 @@
+<svg viewBox="0 0 800 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4ddd9"/>
+      <stop offset="40%" stop-color="#dde5e0"/>
+      <stop offset="100%" stop-color="#dde5e0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="580" fill="url(#wallGradient)"/>
+  <rect x="0" y="560" width="800" height="20" fill="#f5f5f5"/>
+  <rect x="0" y="580" width="800" height="100" fill="#d1cbc3"/>
+  <g fill="none" stroke="#bfb6ac" stroke-width="0.5">
+    <path d="M0 595 h800 M0 610 h800 M0 625 h800 M0 640 h800 M0 655 h800 M0 670 h800"/>
+    <path d="M100 580 v100 M250 580 v100 M400 580 v100 M550 580 v100 M700 580 v100"/>
+  </g>
+
+  <!-- Rug -->
+  <g transform="translate(0, 30)">
+    <path d="M-50 630 Q 150 610, 400 630 T 850 620 L 850 650 L -50 650 Z" fill="#65594f"/>
+    <path d="M50 635 C 150 625, 250 645, 350 630 S 480 620, 520 640" stroke="#f0ead6" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M10 648 S 100 660, 200 645 S 350 640, 400 648" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M600 630 C 650 640, 700 620, 750 635" stroke="#f0ead6" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Desk and Furniture -->
+  <g filter="url(#shadow)">
+    <!-- Desk Structure -->
+    <g fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1">
+      <!-- Center shelf -->
+      <path d="M360 350 V 560 H 370 V 360 H 510 V 560 H 520 V 350 Z"/>
+      <rect x="370" y="350" width="140" height="8"/>
+      <rect x="370" y="420" width="140" height="8"/>
+      <rect x="370" y="500" width="140" height="8"/>
+      <!-- Left Desk -->
+      <path d="M20 400 V 560 H 30 V 410 H 360 V 560 H 370 V 400 Z"/>
+      <rect x="30" y="400" width="340" height="10"/>
+      <!-- Right Desk -->
+      <path d="M510 480 V 560 H 520 V 490 H 770 V 560 H 780 V 480 Z"/>
+      <rect x="520" y="480" width="250" height="10"/>
+    </g>
+
+    <!-- Chairs -->
+    <g id="chair" fill="#212121">
+      <path d="M0 10 C 10 -10, 70 -10, 80 10 V 40 L 70 80 H 10 L 0 40 Z"/>
+      <path d="M-10 40 L -20 120 L 15 125 L 10 80 M 90 40 L 100 120 L 65 125 L 70 80"/>
+      <path d="M-5 35 H 85 M 7 70 A 40 40 0 0 0 73 70"/>
+      <g stroke="#212121" stroke-width="3" fill="none" stroke-linecap="round">
+        <path d="M5 2 H 75"/>
+        <path d="M5 8 H 75"/>
+        <path d="M5 14 H 75"/>
+        <path d="M5 20 H 75"/>
+        <path d="M5 26 H 75"/>
+        <path d="M5 32 H 75"/>
+        <path d="M5 45 H 75"/>
+        <path d="M5 52 H 75"/>
+        <path d="M5 59 H 75"/>
+        <path d="M5 66 H 75"/>
+      </g>
+    </g>
+    <use href="#chair" transform="translate(100 450)"/>
+    <use href="#chair" transform="translate(540 460)"/>
+
+    <!-- Desk Items -->
+    <!-- Left side -->
+    <rect x="50" y="460" width="25" height="25" rx="4" fill="#fff"/>
+    <path d="M55 468 l 5 -10 l 5 10 z M62.5 455 l 5 10 l -10 0 z" fill="#8BC34A"/>
+    <rect x="150" y="320" width="140" height="85" rx="5" fill="#e0e0e0"/>
+    <rect x="155" y="325" width="130" height="70" fill="#4fc3f7"/>
+    <path d="M180 395 l 20 -30 l 30 15 l 20 -20 l 30 35 H 180 Z" fill="#4CAF50"/>
+    <path d="M222 365 l 15 -15 l 15 15 Z" fill="#795548"/>
+    <path d="M215 300 V 320 H 225 Z" fill="#e0e0e0" transform="skewX(-20)"/>
+    <path d="M210 405 H 230 L 225 415 Z" fill="#e0e0e0"/>
+    <rect x="90" y="402" width="100" height="5" rx="2" fill="#fff"/>
+    <ellipse cx="205" cy="404" rx="8" ry="4" fill="#fff"/>
+
+    <!-- Center -->
+    <path d="M380 300 h 120 v 40 l -10 10 h -100 l -10 -10 v -40 z" fill="#333"/>
+    <path d="M385 305 h 110 v 5 l -5 5 h -100 l -5 -5 z" fill="#222"/>
+    <path d="M390 340 h 100 v 10 h -100 z" fill="#666"/>
+    <rect x="380" y="435" width="120" height="60" fill="#f0f0f0"/>
+    <rect x="385" y="440" width="110" height="8" fill="#fff" stroke="#ccc" stroke-width="0.5"/>
+    <rect x="385" y="450" width="110" height="8" fill="#fff" stroke="#ccc" stroke-width="0.5"/>
+    <rect x="385" y="460" width="110" height="8" fill="#fff" stroke="#ccc" stroke-width="0.5"/>
+    <path d="M375 428 h 130 v 5 h -130 z M375 498 h 130 v 5 h -130 z M378 428 v 75 M502 428 v 75" stroke="#c0c0c0" stroke-width="1.5" fill="none"/>
+    <rect x="385" y="510" width="50" height="45" fill="#f5f5f5" stroke="#ccc" stroke-width="1"/>
+    <circle cx="410" cy="515" r="2" fill="#aaa"/>
+    <rect x="445" y="510" width="20" height="45" fill="#fdd835"/>
+    <rect x="470" y="510" width="20" height="45" fill="#42a5f5"/>
+
+    <!-- Right side -->
+    <g transform="translate(560, 410)">
+      <path d="M-10 30 H 30 L 35 70 H -15 Z" fill="#333"/>
+      <path d="M-5 30 L 5 0 L 15 0 L 25 30 Z" fill="#333"/>
+      <circle cx="10" cy="75" r="15" fill="#333"/>
+    </g>
+    <rect x="590" y="440" width="120" height="8" rx="2" fill="#e0e0e0" transform="rotate(-5 650 444)"/>
+    <rect x="595" y="380" width="110" height="65" rx="2" fill="#e0e0e0" transform="rotate(-5 650 412.5)"/>
+    <rect x="598" y="383" width="104" height="59" fill="#f8bbd0" transform="rotate(-5 650 412.5)"/>
+    <ellipse cx="740" cy="482" rx="8" ry="4" fill="#fff"/>
+    <path d="M755 465 h 20 a 5 5 0 0 1 0 10 h -20 a 10 10 0 0 1 0 -20" fill="#fff"/>
+    <path d="M760 460 h 10 v 5 h-10 z" fill="#e0e0e0"/>
+
+    <!-- Wall Art -->
+    <g transform="translate(180 100)">
+      <rect x="0" y="0" width="120" height="160" fill="#fff" stroke="#f0f0f0" stroke-width="3"/>
+      <path d="M10 150 V 90 C 20 70, 40 60, 60 60 S 100 70, 110 90 V 150 Z" fill="#333"/>
+      <path d="M40 75 A 20 20 0 0 1 80 75" fill="#ffe0b2"/>
+      <path d="M10 50 H 110 L 100 30 H 20 Z" fill="#e0e0e0"/>
+      <rect x="10" y="120" width="100" height="30" fill="#aed5d5"/>
+    </g>
+    <g transform="translate(550 120)">
+      <rect x="0" y="0" width="110" height="150" fill="#212121"/>
+      <rect x="5" y="5" width="100" height="140" fill="#fff"/>
+      <g fill="none" stroke="#212121" stroke-width="1.5" stroke-linecap="round">
+        <path d="M55 130 V 70"/>
+        <path d="M55 70 l -20 -5 M55 70 l 20 -5 M55 70 l -10 -20 M55 70 l 10 -20 M55 70 l 0 -25"/>
+        <path d="M55 70 l -20 5 M55 70 l 20 5 M55 70 l -10 20 M55 70 l 10 20"/>
+      </g>
+      <g fill="#212121">
+        <path d="M30 50 l 5 2 l -5 -10 z" transform="rotate(-20 30 50)"/>
+        <path d="M40 30 l 5 2 l -5 -10 z" transform="rotate(-40 40 30)"/>
+        <path d="M60 25 l 5 2 l -5 -10 z" transform="rotate(-60 60 25)"/>
+        <path d="M80 35 l 5 2 l -5 -10 z" transform="rotate(-80 80 35)"/>
+        <path d="M90 55 l 5 2 l -5 -10 z" transform="rotate(-100 90 55)"/>
+      </g>
+    </g>
+  </g>
+</svg>

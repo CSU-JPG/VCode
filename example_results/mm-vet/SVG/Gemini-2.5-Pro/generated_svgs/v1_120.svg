@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 533" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f4f8"/>
+      <stop offset="100%" stop-color="#d9e2ec"/>
+    </linearGradient>
+    <radialGradient id="faceShade1">
+      <stop offset="60%" stop-color="#f2d7d0"/>
+      <stop offset="100%" stop-color="#e6c8c1"/>
+    </radialGradient>
+    <radialGradient id="faceShade2">
+      <stop offset="60%" stop-color="#e6c8b9"/>
+      <stop offset="100%" stop-color="#d9bba9"/>
+    </radialGradient>
+    <radialGradient id="faceShade3">
+      <stop offset="60%" stop-color="#f0d3cb"/>
+      <stop offset="100%" stop-color="#e3c4ba"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="533" fill="url(#bgGradient)"/>
+
+  <g id="background_elements">
+    <path d="M0 0 H 800 V 450 H 0 Z" fill="#ffffff" fill-opacity="0.8"/>
+    <path d="M500 0 V 450" stroke="#cccccc" stroke-width="2" stroke-opacity="0.5"/>
+    <path d="M780 0 V 450" stroke="#cccccc" stroke-width="8" stroke-opacity="0.3"/>
+    <path d="M300 0 V 450" stroke="#cccccc" stroke-width="2" stroke-opacity="0.5"/>
+    <g id="clock" fill="#a0a0a0" opacity="0.7">
+      <path d="M370 120 h 20"/>
+      <path d="M420 140 l -14 14"/>
+      <circle cx="450" cy="200" r="3"/>
+      <path d="M450 200 l 40 0"/>
+      <path d="M450 200 l 0 -30"/>
+      <path d="M420 260 l -14 -14"/>
+      <path d="M370 280 h 20"/>
+      <path d="M320 260 l 14 -14"/>
+      <path d="M320 140 l 14 14"/>
+    </g>
+  </g>
+
+  <g id="desk_and_chairs">
+    <path d="M-20 400 L 820 400 L 820 533 L -20 533 Z" fill="#f8f9fa"/>
+    <path d="M50 150 C 60 250, 180 250, 190 150 L 190 440 L 50 440 Z" fill="#2c3e50"/>
+    <path d="M60 160 C 70 250, 170 250, 180 160 Q 175 300 180 430 L 60 430 Q 65 300 60 160 Z" fill="#1c2833" fill-opacity="0.6"/>
+  </g>
+
+  <g id="people">
+    <g id="man">
+      <path d="M350 310 C 340 380, 480 380, 470 310 L 460 260 L 360 260 Z" fill="#2980b9"/>
+      <path d="M390 280 L 410 280 L 430 310 L 400 325 L 370 310 Z" fill="#ffffff"/>
+      <path d="M385 260 L 435 260 L 430 285 L 390 285 Z" fill="#e0c8b9"/>
+      <path d="M380 230 C 370 280, 450 280, 440 230 C 450 210, 370 210, 380 230 Z" fill="#3d2c1d"/>
+      <path d="M390 235 C 385 265, 435 265, 430 235 C 420 225, 400 225, 390 235 Z" fill="url(#faceShade2)"/>
+    </g>
+
+    <g id="woman_left">
+      <path d="M180 280 C 170 400, 360 400, 350 280 L 330 250 L 200 250 Z" fill="#a9cce3"/>
+      <path d="M230 260 L 290 260 Q 260 270, 230 260" fill="#ffffff"/>
+      <path d="M230 260 C 230 280, 290 280, 290 260 L 285 240 L 235 240 Z" fill="#e6c8c1"/>
+      <path d="M210 180 C 200 260, 310 260, 300 180 C 320 160, 190 160, 210 180 Z" fill="#593a2e"/>
+      <path d="M240 190 C 235 245, 285 245, 280 190 C 275 180, 245 180, 240 190 Z" fill="url(#faceShade1)"/>
+      <path d="M245 220 a 5 2 0 1 1 10 0 a 5 2 0 1 1 -10 0" fill="#444"/>
+      <path d="M265 220 a 5 2 0 1 1 10 0 a 5 2 0 1 1 -10 0" fill="#444"/>
+      <path d="M255 235 a 10 5 0 0 1 10 0" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+      <path d="M300 370 L 350 400 L 250 420 L 230 380 Z" fill="#f2d7d0"/>
+      <path d="M260 405 l 30 -5" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <g id="woman_right">
+      <path d="M500 290 C 490 420, 680 420, 670 290 L 650 260 L 520 260 Z" fill="#ffffff"/>
+      <path d="M560 270 L 620 270 L 615 250 L 565 250 Z" fill="#e3c4ba"/>
+      <path d="M540 190 C 530 270, 640 270, 630 190 C 650 170, 520 170, 540 190 Z" fill="#6d4c41"/>
+      <path d="M565 200 C 560 255, 610 255, 605 200 C 600 190, 570 190, 565 200 Z" fill="url(#faceShade3)"/>
+      <path d="M635 210 a 15 10 0 1 1 -30 0 a 15 10 0 1 1 30 0" fill="#6d4c41"/>
+      <path d="M580 370 L 630 380 L 620 410 L 560 400 Z" fill="#f0d3cb"/>
+    </g>
+  </g>
+
+  <g id="desk_items">
+    <path d="M240 400 L 380 395 L 390 435 L 250 440 Z" fill="#fff" stroke="#ddd"/>
+    <path d="M260 410 h 100 M 260 415 h 110 M 260 420 h 90 M 260 425 h 115" stroke="#ccc" stroke-width="1"/>
+    <path d="M420 470 l 200 -30 l 10 70 l -200 30 z" fill="#e0e0e0" transform="rotate(-5 520 470)"/>
+    <path d="M440 350 l 170 0 l 20 100 l -170 0 z" fill="#e0e0e0"/>
+    <rect x="440" y="350" width="190" height="100" fill="#ffffff"/>
+  </g>
+</svg>

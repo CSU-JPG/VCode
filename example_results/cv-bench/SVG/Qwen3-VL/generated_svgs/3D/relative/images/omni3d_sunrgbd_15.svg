@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1000" height="800" fill="white"/>
+  <rect x="0" y="250" width="1000" height="400" fill="#808080" opacity="0.3"/>
+  <rect x="0" y="0" width="1000" height="250" fill="#f0f0f0"/>
+  <rect x="100" y="400" width="100" height="150" fill="blue" stroke="black" stroke-width="2" opacity="0.5"/>
+  <rect x="650" y="100" width="150" height="200" fill="red" stroke="black" stroke-width="2" opacity="0.5"/>
+  <rect x="550" y="200" width="80" height="100" fill="green" stroke="black" stroke-width="2" opacity="0.5"/>
+  <rect x="170" y="450" width="180" height="180" fill="red" stroke="black" stroke-width="2"/>
+  <rect x="450" y="350" width="150" height="150" fill="gray" stroke="black" stroke-width="2"/>
+  <rect x="700" y="380" width="150" height="150" fill="gray" stroke="black" stroke-width="2"/>
+  <rect x="600" y="600" width="250" height="200" fill="white" stroke="black" stroke-width="2"/>
+  <rect x="800" y="50" width="200" height="200" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <rect x="800" y="250" width="200" height="100" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <rect x="800" y="350" width="200" height="100" fill="#d3d3d3" stroke="black" stroke-width="2"/>
+  <rect x="200" y="100" width="400" height="150" fill="black" stroke="black" stroke-width="2"/>
+  <rect x="100" y="350" width="100" height="50" fill="black" stroke="black" stroke-width="2"/>
+  <rect x="300" y="350" width="100" height="50" fill="black" stroke="black" stroke-width="2"/>
+  <rect x="400" y="300" width="50" height="50" fill="red" stroke="black" stroke-width="2"/>
+  <rect x="950" y="350" width="20" height="50" fill="green" stroke="black" stroke-width="2"/>
+  <rect x="750" y="300" width="100" height="50" fill="black" stroke="black" stroke-width="2"/>
+  <rect x="650" y="250" width="50" height="50" fill="black" stroke="black" stroke-width="2"/>
+</svg>

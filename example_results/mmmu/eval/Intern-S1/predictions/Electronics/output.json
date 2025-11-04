@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dev_Electronics_1",
+    "question_type": "open",
+    "answer": "120",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Calculate."
+  },
+  {
+    "id": "dev_Electronics_2",
+    "question_type": "open",
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Undefined."
+  },
+  {
+    "id": "dev_Electronics_3",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$3 \\pi x 10^-5 A$",
+      "B": "$0 \\pi x 10^-5 A$",
+      "C": "$1 \\pi x 10^-5 A$",
+      "D": "$-2 \\pi x 10^-5 A$"
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Electronics_4",
+    "question_type": "open",
+    "answer": "20",
+    "all_choices": [],
+    "index2ans": {},
+    "response": "Gain."
+  },
+  {
+    "id": "dev_Electronics_5",
+    "question_type": "multiple-choice",
+    "answer": "D",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) cos (t - 63.44^{\\circ})] u(t)$",
+      "B": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{3}) sin (t - 63.44^{\\circ})] u(t)$",
+      "C": "$[2 - 2.1e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$",
+      "D": "$[2 - 2.4e^{-(1 / 2)t} - (1 / \\sqrt{5}) sin (t - 63.44^{\\circ})] u(t)$"
+    },
+    "response": "A"
+  }
+]

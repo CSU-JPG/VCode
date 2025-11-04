@@ -1,0 +1,14 @@
+<svg viewBox="0 0 13 4" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0,3 L8.24,0 L12.24,0" stroke="black" fill="none"/>
+  <line x1="0" y1="3" x2="0" y2="0" stroke="black"/>
+  <line x1="8.24" y1="0" x2="12.24" y2="0" stroke="black"/>
+  <path d="M0.5,0 A0.5,0.5 0 0 1 0.47,-0.17" stroke="black" fill="none"/>
+  <text x="0.7" y="0.5" font-size="0.3">20°</text>
+  <text x="-0.5" y="1.5" font-size="0.3">3 m</text>
+  <text x="10.24" y="-0.2" font-size="0.3">4 m</text>
+  <text x="0" y="3.2" font-size="0.3">A</text>
+  <text x="8.24" y="-0.2" font-size="0.3">B</text>
+  <text x="12.24" y="-0.2" font-size="0.3">C</text>
+  <circle cx="0" cy="3" r="0.1" fill="gold"/>
+  <path d="M0,3 L8.24,0 L12.24,0" stroke="orange" stroke-dasharray="5,5" fill="none"/>
+</svg>

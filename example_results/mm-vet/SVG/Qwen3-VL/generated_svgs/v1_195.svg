@@ -1,0 +1,75 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="berryGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff4500"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </radialGradient>
+    <radialGradient id="blackberryGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#191919"/>
+    </radialGradient>
+    <linearGradient id="gallGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b8b8b"/>
+      <stop offset="50%" stop-color="#5d4037"/>
+      <stop offset="100%" stop-color="#4e342e"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background leaves -->
+  <g fill="#4caf50" opacity="0.8">
+    <path d="M0 0 Q500 200 1000 0 Q1000 500 500 1000 Q0 500 0 0"/>
+    <path d="M100 100 Q600 300 900 100 Q900 600 500 900 Q100 600 100 100"/>
+    <path d="M200 200 Q700 400 800 200 Q800 700 500 800 Q200 700 200 200"/>
+  </g>
+  
+  <!-- Main gall structure -->
+  <g transform="translate(500 500) scale(0.8)">
+    <path d="M-100 -150 C-50 -200 50 -200 100 -150 C150 -100 150 0 100 50 C50 100 -50 100 -100 50 C-150 0 -150 -100 -100 -150 Z" 
+          fill="url(#gallGradient)" stroke="#3e2723" stroke-width="3"/>
+    <path d="M-80 -130 C-30 -180 30 -180 80 -130 C130 -80 130 0 80 50 C30 100 -30 100 -80 50 C-130 0 -130 -80 -80 -130 Z" 
+          fill="#6d4c41" stroke="#3e2723" stroke-width="2"/>
+    <path d="M-60 -110 C-10 -160 10 -160 60 -110 C110 -60 110 0 60 50 C10 100 -10 100 -60 50 C-110 0 -110 -60 -60 -110 Z" 
+          fill="#5d4037" stroke="#3e2723" stroke-width="1"/>
+  </g>
+  
+  <!-- Gall texture details -->
+  <g fill="#3e2723" stroke="#2e1b14">
+    <circle cx="450" cy="400" r="3"/>
+    <circle cx="550" cy="450" r="4"/>
+    <circle cx="600" cy="550" r="3"/>
+    <circle cx="500" cy="600" r="4"/>
+    <circle cx="400" cy="550" r="3"/>
+    <circle cx="350" cy="450" r="4"/>
+    <circle cx="400" cy="350" r="3"/>
+    <circle cx="500" cy="300" r="4"/>
+    <circle cx="600" cy="350" r="3"/>
+    <circle cx="650" cy="450" r="4"/>
+  </g>
+  
+  <!-- Branches -->
+  <g stroke="#8b4513" stroke-width="8" fill="none">
+    <path d="M0 150 Q250 250 500 500"/>
+    <path d="M500 500 Q750 750 850 950"/>
+  </g>
+  
+  <!-- Berries -->
+  <g>
+    <circle cx="100" cy="550" r="25" fill="url(#berryGradient)"/>
+    <circle cx="80" cy="390" r="25" fill="url(#berryGradient)"/>
+    <circle cx="880" cy="430" r="25" fill="url(#berryGradient)"/>
+    <circle cx="890" cy="540" r="25" fill="url(#berryGradient)"/>
+    <circle cx="960" cy="750" r="25" fill="url(#berryGradient)"/>
+    <circle cx="520" cy="930" r="25" fill="url(#berryGradient)"/>
+    <circle cx="500" cy="910" r="25" fill="url(#berryGradient)"/>
+    <circle cx="600" cy="930" r="30" fill="url(#blackberryGradient)"/>
+    <circle cx="630" cy="950" r="30" fill="url(#blackberryGradient)"/>
+    <circle cx="650" cy="920" r="30" fill="url(#blackberryGradient)"/>
+  </g>
+  
+  <!-- Leaf details -->
+  <g fill="#4caf50" stroke="#2e7d32" stroke-width="1">
+    <path d="M0 800 Q100 850 200 800 Q250 750 200 700 Q100 750 0 800"/>
+    <path d="M50 810 Q100 830 150 810 Q170 790 150 770 Q100 790 50 810"/>
+    <path d="M70 820 Q100 830 130 820 Q140 810 130 800 Q100 810 70 820"/>
+  </g>
+</svg>

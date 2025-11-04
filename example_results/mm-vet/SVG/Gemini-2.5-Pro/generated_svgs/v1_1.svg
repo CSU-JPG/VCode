@@ -1,0 +1,9 @@
+<svg viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="50" font-family="Times New Roman, serif" font-size="36" font-weight="bold" fill="black">Solve the following equations:</text>
+  <text x="40" y="110" font-family="Times New Roman, serif" font-size="32" fill="black">
+    1) 8<tspan font-style="italic">x</tspan> + 11 = 4<tspan font-style="italic">x</tspan> + 14
+  </text>
+  <text x="40" y="165" font-family="Times New Roman, serif" font-size="32" fill="black">
+    2) 7<tspan font-style="italic">d</tspan> − 4 = 11<tspan font-style="italic">d</tspan> − 9
+  </text>
+</svg>

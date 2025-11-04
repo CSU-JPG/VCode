@@ -1,0 +1,165 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Border -->
+  <rect x="50" y="50" width="700" height="700" fill="white" stroke="black" stroke-width="3"/>
+  
+  <!-- Vertical center line -->
+  <line x1="400" y1="50" x2="400" y2="750" stroke="black" stroke-width="2"/>
+  
+  <!-- Horizontal center line -->
+  <line x1="50" y1="400" x2="750" y2="400" stroke="black" stroke-width="2"/>
+  
+  <!-- Top arrow with ORIGINALITY text -->
+  <line x1="80" y1="30" x2="720" y2="30" stroke="black" stroke-width="2"/>
+  <polygon points="80,30 95,25 95,35" fill="black"/>
+  <polygon points="720,30 705,25 705,35" fill="black"/>
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-style="italic">ORIGINALITY</text>
+  
+  <!-- Left arrow with FEASIBILITY text -->
+  <line x1="30" y1="80" x2="30" y2="720" stroke="black" stroke-width="2"/>
+  <polygon points="30,80 25,95 35,95" fill="black"/>
+  <polygon points="30,720 25,705 35,705" fill="black"/>
+  <text x="20" y="400" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-style="italic" transform="rotate(-90 20 400)">FEASIBILITY</text>
+  
+  <!-- Top-left quadrant: WHIFF? -->
+  <rect x="60" y="60" width="330" height="330" fill="white" stroke="black" stroke-width="1"/>
+  <pattern id="diagonal1" patternUnits="userSpaceOnUse" width="8" height="8">
+    <path d="M-2,2 l4,-4 M0,8 l8,-8 M6,10 l4,-4" stroke="black" stroke-width="1"/>
+  </pattern>
+  <rect x="60" y="60" width="330" height="330" fill="url(#diagonal1)"/>
+  <text x="225" y="80" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">WHIFF?</text>
+  
+  <!-- Clouds -->
+  <ellipse cx="120" cy="120" rx="25" ry="15" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="140" cy="115" rx="30" ry="18" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="160" cy="120" rx="25" ry="15" fill="white" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="280" cy="150" rx="30" ry="18" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="310" cy="145" rx="35" ry="20" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="340" cy="150" rx="30" ry="18" fill="white" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="180" cy="190" rx="28" ry="16" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="210" cy="185" rx="32" ry="19" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="240" cy="190" rx="28" ry="16" fill="white" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Birds -->
+  <path d="M 100,160 Q 105,155 110,160" fill="none" stroke="black" stroke-width="1.5"/>
+  <path d="M 110,160 Q 115,155 120,160" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <path d="M 320,200 Q 325,195 330,200" fill="none" stroke="black" stroke-width="1.5"/>
+  <path d="M 330,200 Q 335,195 340,200" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <path d="M 150,250 Q 155,245 160,250" fill="none" stroke="black" stroke-width="1.5"/>
+  <path d="M 160,250 Q 165,245 170,250" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Balloon -->
+  <ellipse cx="110" cy="280" rx="12" ry="18" fill="white" stroke="black" stroke-width="1.5"/>
+  <line x1="110" y1="298" x2="110" y2="320" stroke="black" stroke-width="1"/>
+  <rect x="105" y="320" width="10" height="8" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- NO text -->
+  <text x="225" y="330" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">NO</text>
+  
+  <!-- Top-right quadrant: YELLOW -->
+  <rect x="410" y="60" width="330" height="330" fill="white" stroke="black" stroke-width="1"/>
+  <text x="575" y="80" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">YELLOW</text>
+  
+  <!-- Stars -->
+  <path d="M 430,100 l3,8 l8,0 l-6,5 l2,8 l-7,-5 l-7,5 l2,-8 l-6,-5 l8,0 z" fill="white" stroke="black" stroke-width="1"/>
+  <path d="M 500,130 l2,6 l6,0 l-5,4 l2,6 l-5,-3 l-5,3 l2,-6 l-5,-4 l6,0 z" fill="white" stroke="black" stroke-width="1"/>
+  <path d="M 620,110 l3,8 l8,0 l-6,5 l2,8 l-7,-5 l-7,5 l2,-8 l-6,-5 l8,0 z" fill="white" stroke="black" stroke-width="1"/>
+  <path d="M 680,140 l2,6 l6,0 l-5,4 l2,6 l-5,-3 l-5,3 l2,-6 l-5,-4 l6,0 z" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Enterprise spaceship -->
+  <ellipse cx="600" cy="200" rx="60" ry="20" fill="white" stroke="black" stroke-width="2"/>
+  <rect x="570" y="190" width="60" height="20" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="650" cy="195" rx="25" ry="12" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="540" y1="200" x2="570" y2="200" stroke="black" stroke-width="3"/>
+  <ellipse cx="530" cy="200" rx="10" ry="15" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Planet -->
+  <circle cx="690" cy="100" r="30" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="690" cy="100" rx="30" ry="8" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- More stars -->
+  <path d="M 460,180 l2,5 l5,0 l-4,3 l1,5 l-4,-2 l-4,2 l1,-5 l-4,-3 l5,0 z" fill="white" stroke="black" stroke-width="1"/>
+  <path d="M 520,240 l2,5 l5,0 l-4,3 l1,5 l-4,-2 l-4,2 l1,-5 l-4,-3 l5,0 z" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- HOW? text -->
+  <text x="575" y="330" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">HOW?</text>
+  
+  <!-- Bottom-left quadrant: BLUE -->
+  <rect x="60" y="410" width="330" height="330" fill="white" stroke="black" stroke-width="1"/>
+  <text x="225" y="430" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">BLUE</text>
+  
+  <!-- Sun with rays -->
+  <circle cx="120" cy="480" r="25" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="445" x2="120" y2="455" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="505" x2="120" y2="515" stroke="black" stroke-width="2"/>
+  <line x1="85" y1="480" x2="95" y2="480" stroke="black" stroke-width="2"/>
+  <line x1="145" y1="480" x2="155" y2="480" stroke="black" stroke-width="2"/>
+  <line x1="95" y1="455" x2="102" y2="462" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="498" x2="145" y2="505" stroke="black" stroke-width="2"/>
+  <line x1="145" y1="455" x2="138" y2="462" stroke="black" stroke-width="2"/>
+  <line x1="95" y1="505" x2="102" y2="498" stroke="black" stroke-width="2"/>
+  
+  <!-- Leaning Tower structure -->
+  <pattern id="brick" patternUnits="userSpaceOnUse" width="20" height="10">
+    <rect width="20" height="10" fill="white"/>
+    <line x1="0" y1="5" x2="20" y2="5" stroke="black" stroke-width="0.5"/>
+    <line x1="10" y1="0" x2="10" y2="5" stroke="black" stroke-width="0.5"/>
+    <line x1="0" y1="5" x2="0" y2="10" stroke="black" stroke-width="0.5"/>
+  </pattern>
+  
+  <polygon points="250,550 280,650 320,650 340,550" fill="url(#brick)" stroke="black" stroke-width="2"/>
+  <rect x="240" y="540" width="110" height="15" fill="white" stroke="black" stroke-width="2"/>
+  <rect x="275" y="650" width="50" height="10" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Stick figure -->
+  <circle cx="220" cy="620" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <line x1="220" y1="628" x2="220" y2="655" stroke="black" stroke-width="1.5"/>
+  <line x1="220" y1="635" x2="210" y2="645" stroke="black" stroke-width="1.5"/>
+  <line x1="220" y1="635" x2="230" y2="645" stroke="black" stroke-width="1.5"/>
+  <line x1="220" y1="655" x2="210" y2="670" stroke="black" stroke-width="1.5"/>
+  <line x1="220" y1="655" x2="230" y2="670" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Water/ground line -->
+  <line x1="60" y1="680" x2="390" y2="680" stroke="black" stroke-width="2"/>
+  <path d="M 60,680 Q 80,690 100,680 Q 120,670 140,680 Q 160,690 180,680 Q 200,670 220,680 Q 240,690 260,680 Q 280,670 300,680 Q 320,690 340,680 Q 360,670 390,680" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- NOW text -->
+  <text x="225" y="720" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">NOW</text>
+  
+  <!-- Bottom-right quadrant: RED with crosshatch -->
+  <rect x="410" y="410" width="330" height="330" fill="white" stroke="black" stroke-width="1"/>
+  <pattern id="crosshatch" patternUnits="userSpaceOnUse" width="10" height="10">
+    <path d="M0,0 l10,10 M10,0 l-10,10" stroke="black" stroke-width="0.8"/>
+  </pattern>
+  <rect x="410" y="410" width="330" height="330" fill="url(#crosshatch)"/>
+  <text x="575" y="430" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">RED</text>
+  
+  <!-- Commercial airplane -->
+  <ellipse cx="550" cy="520" rx="80" ry="18" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 470,520 L 450,500 L 520,515 Z" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 600,510 L 650,490 L 630,520 Z" fill="white" stroke="black" stroke-width="2"/>
+  <polygon points="625,535 640,560 635,560 620,535" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Windows on plane -->
+  <circle cx="500" cy="518" r="3" fill="black"/>
+  <circle cx="515" cy="518" r="3" fill="black"/>
+  <circle cx="530" cy="518" r="3" fill="black"/>
+  <circle cx="545" cy="518" r="3" fill="black"/>
+  <circle cx="560" cy="518" r="3" fill="black"/>
+  <circle cx="575" cy="518" r="3" fill="black"/>
+  
+  <!-- Clouds in bottom right -->
+  <ellipse cx="460" cy="600" rx="30" ry="18" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="490" cy="595" rx="35" ry="20" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="520" cy="600" rx="30" ry="18" fill="white" stroke="black" stroke-width="1.5"/>
+  
+  <ellipse cx="640" cy="630" rx="25" ry="15" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="665" cy="625" rx="30" ry="18" fill="white" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="690" cy="630" rx="25" ry="15" fill="white" stroke="black" stroke-width="1.5"/>
+  
+  <!-- WOW! text -->
+  <text x="575" y="720" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">WOW!</text>
+</svg>

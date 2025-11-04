@@ -1,0 +1,124 @@
+<svg viewBox="0 0 730 530" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Wall and floor gradients -->
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4f4f6"/>
+      <stop offset="60%" stop-color="#f9fafb"/>
+      <stop offset="100%" stop-color="#e9ecef"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb1d0"/>
+      <stop offset="60%" stop-color="#5f87b5"/>
+      <stop offset="100%" stop-color="#3b6fa4"/>
+    </linearGradient>
+    <!-- Carpet dots pattern -->
+    <pattern id="carpetDots" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="20" height="20" fill="none"/>
+      <circle cx="10" cy="10" r="2.5" fill="#2f5f97" opacity="0.35"/>
+    </pattern>
+    <linearGradient id="boardWood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c48e3a"/>
+      <stop offset="100%" stop-color="#996d23"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="off"/>
+      <feMerge>
+        <feMergeNode in="off"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Back wall -->
+  <rect x="0" y="0" width="730" height="240" fill="url(#wallGrad)"/>
+
+  <!-- Left windows -->
+  <g opacity="0.85">
+    <rect x="8" y="18" width="150" height="120" fill="#ffffff" stroke="#d5dbe2"/>
+    <rect x="170" y="18" width="150" height="120" fill="#ffffff" stroke="#d5dbe2"/>
+    <!-- curtains/blinds -->
+    <g stroke="#cfd6df" stroke-width="2">
+      <line x1="8" y1="45" x2="158" y2="45"/>
+      <line x1="8" y1="70" x2="158" y2="70"/>
+      <line x1="8" y1="95" x2="158" y2="95"/>
+      <line x1="170" y1="45" x2="320" y2="45"/>
+      <line x1="170" y1="70" x2="320" y2="70"/>
+      <line x1="170" y1="95" x2="320" y2="95"/>
+    </g>
+  </g>
+
+  <!-- Floor: perspective trapezoid with dots -->
+  <g>
+    <polygon points="0,230 500,210 730,520 0,520" fill="url(#floorGrad)"/>
+    <polygon points="0,230 500,210 730,520 0,520" fill="url(#carpetDots)" opacity="0.55"/>
+  </g>
+
+  <!-- Right whiteboard wall (large) -->
+  <g filter="url(#softShadow)">
+    <!-- Board surface as tilted polygon -->
+    <polygon points="470,40 720,10 720,480 520,360" fill="#ffffff" stroke="#e3e7ec" stroke-width="2"/>
+    <!-- Wooden frame -->
+    <polyline points="470,40 720,10 720,480 520,360 470,40" fill="none" stroke="url(#boardWood)" stroke-width="16" stroke-linejoin="round"/>
+    <!-- Board tray with markers near the back -->
+    <polygon points="525,225 608,205 612,215 528,235" fill="#e5e9ef" stroke="#c6cbd3" stroke-width="1"/>
+    <rect x="540" y="213" width="16" height="4" fill="#4a80c4"/>
+    <rect x="561" y="210" width="16" height="4" fill="#2f9d59"/>
+    <rect x="582" y="207" width="16" height="4" fill="#c43a3a"/>
+  </g>
+
+  <!-- Back corner vertical conduit -->
+  <rect x="501" y="72" width="6" height="210" fill="#dfe6ee"/>
+  <rect x="503" y="270" width="3" height="35" fill="#dfe6ee"/>
+
+  <!-- Small outlet highlighted with a red rectangle on the back wall -->
+  <g>
+    <rect x="471" y="187" width="28" height="26" fill="#f2f4f7" stroke="#cbd3db"/>
+    <rect x="466" y="182" width="38" height="36" fill="none" stroke="#ff3b2f" stroke-width="5"/>
+    <circle cx="480" cy="198" r="2" fill="#6b7886"/>
+    <circle cx="491" cy="198" r="2" fill="#6b7886"/>
+  </g>
+
+  <!-- Furniture: left tables (simplified shapes) -->
+  <!-- Far left box-like table -->
+  <g filter="url(#softShadow)">
+    <polygon points="20,210 130,180 130,270 20,300" fill="#c99e59" opacity="0.9" stroke="#b9893f"/>
+    <polygon points="130,180 185,210 185,300 130,270" fill="#b88744" opacity="0.95" stroke="#a67534"/>
+    <polygon points="20,210 130,180 185,210 75,238" fill="#e1ba76" stroke="#c99e59"/>
+  </g>
+
+  <!-- Main small desk near center-left -->
+  <g filter="url(#softShadow)">
+    <!-- top -->
+    <polygon points="190,290 305,268 322,317 208,339" fill="#e0cfb2" stroke="#b5aa95"/>
+    <!-- front panel -->
+    <polygon points="208,339 322,317 316,392 200,410" fill="#cdb48a" stroke="#b59866"/>
+    <!-- left panel -->
+    <polygon points="190,290 208,339 200,410 180,360" fill="#c1a06a" stroke="#a68149"/>
+    <!-- metal legs -->
+    <rect x="205" y="339" width="12" height="86" fill="#cfd6df" stroke="#aab4bf"/>
+    <rect x="305" y="322" width="12" height="78" fill="#cfd6df" stroke="#aab4bf"/>
+    <rect x="176" y="360" width="10" height="48" fill="#cfd6df" stroke="#aab4bf"/>
+  </g>
+
+  <!-- Office chair approximation behind the table -->
+  <g filter="url(#softShadow)">
+    <rect x="300" y="280" width="55" height="75" rx="8" fill="#5a4d44"/>
+    <rect x="305" y="345" width="45" height="8" fill="#2b2521"/>
+    <line x1="328" y1="353" x2="328" y2="385" stroke="#2b2521" stroke-width="6"/>
+    <circle cx="328" cy="395" r="7" fill="#2b2521"/>
+  </g>
+
+  <!-- Blue highlighted rectangle around the table on the floor -->
+  <rect x="150" y="320" width="160" height="140" rx="8" fill="none" stroke="#1e5bbf" stroke-width="8"/>
+
+  <!-- Cable line on carpet -->
+  <path d="M35,455 C130,430 200,480 290,450 S460,440 600,505" fill="none" stroke="#f9fbff" stroke-width="3" opacity="0.7"/>
+
+  <!-- Baseboards -->
+  <rect x="0" y="225" width="480" height="8" fill="#d6d3c4"/>
+  <polygon points="480,215 520,208 520,222 480,230" fill="#d6d3c4"/>
+
+  <!-- Subtle vignette -->
+  <rect x="0" y="0" width="730" height="530" fill="none" stroke="#000000" stroke-opacity="0.05"/>
+</svg>

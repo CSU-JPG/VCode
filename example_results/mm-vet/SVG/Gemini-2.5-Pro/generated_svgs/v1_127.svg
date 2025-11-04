@@ -1,0 +1,92 @@
+<svg viewBox="0 0 800 534" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="bg-blur">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+    <filter id="person-blur">
+      <feGaussianBlur stdDeviation="15" />
+    </filter>
+    <radialGradient id="face-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#f9e0d2" />
+      <stop offset="100%" style="stop-color:#e7c8b8" />
+    </radialGradient>
+    <linearGradient id="bird-body-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9dc13a" />
+      <stop offset="30%" style="stop-color:#4f9c51" />
+      <stop offset="100%" style="stop-color:#3b7e56" />
+    </linearGradient>
+    <linearGradient id="bird-head-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2a2a2a" />
+      <stop offset="100%" style="stop-color:#4d4d4d" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="534" fill="#6a8240" />
+  <g filter="url(#bg-blur)">
+    <ellipse cx="100" cy="150" rx="200" ry="100" fill="#8a9a5b" />
+    <ellipse cx="700" cy="200" rx="250" ry="150" fill="#5a6e3c" />
+    <ellipse cx="400" cy="450" rx="300" ry="100" fill="#7d914d" />
+    <ellipse cx="50" cy="400" rx="150" ry="80" fill="#9cb25a" />
+  </g>
+
+  <!-- Person (out of focus) -->
+  <g filter="url(#person-blur)">
+    <!-- Hair -->
+    <path d="M 530,90 C 450,80 400,180 410,280 C 400,380 430,480 500,520 L 520,534 L 750,534 L 750,450 C 780,350 750,200 680,150 C 630,100 580,80 530,90 Z" fill="#2d221f" />
+    <path d="M 700,280 C 690,350 700,450 720,500 L 750,520 L 780,500 L 770,300 C 750,260 720,260 700,280 Z" fill="#251a16" />
+    <!-- Shirt -->
+    <path d="M 400,450 C 450,430 650,430 750,450 L 750,534 L 400,534 Z" fill="#e8eaf6" />
+    <!-- Face -->
+    <path d="M 500,110 C 450,180 450,350 510,440 C 580,470 680,440 710,350 C 730,250 680,130 600,100 C 550,80 520,90 500,110 Z" fill="url(#face-gradient)" />
+    <!-- Smile -->
+    <path d="M 570,360 C 590,385 640,385 660,365 Q 640,375 590,375 Q 570,370 570,360 Z" fill="#e59ca3" />
+  </g>
+
+  <!-- Hand -->
+  <g>
+    <path d="M 420,380 C 380,400 350,450 350,500 L 600,534 L 600,490 C 580,450 520,400 480,380 C 450,370 430,375 420,380 Z" fill="#e8c6b3" />
+    <path d="M 425,368 C 500,360 580,365 650,380 L 640,410 C 570,395 500,390 435,398 Z" fill="#f4d4c2" />
+    <path d="M 430,395 C 400,420 380,460 380,500 L 420,510 C 420,470 435,440 455,420 Z" fill="#d1b2a0" opacity="0.5" />
+    <path d="M 645,380 a 10 12 0 1 1 0 30" fill="#f8e5d9" />
+  </g>
+
+  <!-- Bird -->
+  <g>
+    <!-- Tail &amp;amp;amp; Rump -->
+    <path d="M 0,280 C 50,290 90,330 110,370 L 150,380 L 180,350 C 120,300 60,270 0,270 Z" fill="#c53038" />
+    <path d="M 0,270 L 150,270 C 180,275 200,310 180,350 L 150,380 L 110,370 C 90,330 50,290 0,280 Z" fill="#2e63a8" />
+    <!-- Body -->
+    <path d="M 120,250 C 250,230 380,250 420,300 L 410,350 C 300,350 200,320 120,330 Z" fill="url(#bird-body-gradient)" />
+    <!-- Neck feathers -->
+    <path d="M 400,290 C 390,320 405,350 425,355 L 440,320 C 430,290 410,280 400,290 Z" fill="#d1d1c8" />
+    <path d="M 405,280 C 395,305 408,335 430,340 L 445,310 C 435,285 415,275 405,280 Z" fill="#4a4a4a" opacity="0.3" />
+    <!-- Head -->
+    <path d="M 420,250 C 390,220 410,180 450,180 C 500,180 525,220 510,260 C 490,290 450,290 425,270 Z" fill="url(#bird-head-gradient)" />
+    <!-- scaly head pattern -->
+    <path d="M 420,265 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.5"/>
+    <path d="M 435,270 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.4"/>
+    <path d="M 450,273 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.3"/>
+    <path d="M 425,250 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.5"/>
+    <path d="M 440,253 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.4"/>
+    <path d="M 455,256 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.3"/>
+    <path d="M 415,235 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.5"/>
+    <path d="M 430,238 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.4"/>
+    <path d="M 445,241 c 5,-5 15,-5 20,0 l-10,8 z" fill="#c0c0c0" opacity="0.3"/>
+    <!-- Cheek Patch -->
+    <path d="M 480,260 a 20 15 0 0 1 -20 15 a 20 15 0 0 1 10 -25 z" fill="#1e557b" opacity="0.6"/>
+    <!-- Eye -->
+    <circle cx="485" cy="235" r="15" fill="#e8e8e8" />
+    <circle cx="485" cy="235" r="10" fill="#1a1a1a" />
+    <circle cx="482" cy="232" r="3" fill="#ffffff" />
+    <!-- Beak -->
+    <path d="M 505,255 C 525,260 530,270 520,280 C 515,275 510,265 505,255 Z" fill="#212121" />
+    <path d="M 517,278 l 5,3 -2,-6 z" fill="#f0f0f0" />
+    <!-- Feet -->
+    <g fill="#383838" stroke="#2a2a2a" stroke-width="1">
+      <path d="M 410,355 C 400,365 405,380 420,385 C 430,387 435,380 430,370 C 425,360 415,355 410,355 Z" />
+      <path d="M 422,384 a 10 5 0 1 1 -10,2 a 10 5 0 0 1 10,-2" />
+      <path d="M 409,385 a 10 5 0 1 1 -10,2 a 10 5 0 0 1 10,-2" />
+    </g>
+  </g>
+</svg>

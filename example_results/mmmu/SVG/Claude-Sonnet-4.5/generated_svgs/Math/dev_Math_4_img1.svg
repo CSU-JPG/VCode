@@ -1,0 +1,70 @@
+<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left graph (a) -->
+  <g id="graph-a">
+    <!-- Edges in black -->
+    <line x1="110" y1="40" x2="165" y2="70" stroke="black" stroke-width="2"/>
+    <line x1="110" y1="40" x2="95" y2="120" stroke="black" stroke-width="2"/>
+    <line x1="165" y1="70" x2="155" y2="150" stroke="black" stroke-width="2"/>
+    
+    <!-- Edges in red -->
+    <line x1="110" y1="40" x2="50" y2="90" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="110" y1="40" x2="95" y2="180" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="50" y1="90" x2="95" y2="180" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="95" y1="180" x2="155" y2="150" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="165" y1="70" x2="155" y2="150" stroke="#d32f2f" stroke-width="2.5"/>
+    
+    <!-- Nodes -->
+    <circle cx="110" cy="40" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="110" y="46" text-anchor="middle" font-size="18" font-family="Arial">1</text>
+    
+    <circle cx="165" cy="70" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="165" y="76" text-anchor="middle" font-size="18" font-family="Arial">2</text>
+    
+    <circle cx="95" cy="180" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="95" y="186" text-anchor="middle" font-size="18" font-family="Arial">3</text>
+    
+    <circle cx="50" cy="90" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="50" y="96" text-anchor="middle" font-size="18" font-family="Arial">4</text>
+    
+    <circle cx="155" cy="150" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="155" y="156" text-anchor="middle" font-size="18" font-family="Arial">5</text>
+  </g>
+  
+  <!-- Right graph (b) -->
+  <g id="graph-b" transform="translate(240, 0)">
+    <!-- Edges in black -->
+    <line x1="110" y1="40" x2="165" y2="70" stroke="black" stroke-width="2"/>
+    <line x1="110" y1="40" x2="95" y2="120" stroke="black" stroke-width="2"/>
+    
+    <!-- Edges in red -->
+    <line x1="110" y1="40" x2="50" y2="90" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="110" y1="40" x2="95" y2="180" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="50" y1="90" x2="95" y2="180" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="95" y1="180" x2="155" y2="150" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="165" y1="70" x2="155" y2="150" stroke="#d32f2f" stroke-width="2.5"/>
+    <line x1="165" y1="70" x2="110" y2="40" stroke="#d32f2f" stroke-width="2.5"/>
+    
+    <!-- Nodes -->
+    <circle cx="110" cy="40" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="110" y="46" text-anchor="middle" font-size="18" font-family="Arial">1</text>
+    
+    <circle cx="165" cy="70" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="165" y="76" text-anchor="middle" font-size="18" font-family="Arial">2</text>
+    
+    <circle cx="95" cy="180" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="95" y="186" text-anchor="middle" font-size="18" font-family="Arial">3</text>
+    
+    <circle cx="50" cy="90" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="50" y="96" text-anchor="middle" font-size="18" font-family="Arial">4</text>
+    
+    <circle cx="155" cy="150" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="155" y="156" text-anchor="middle" font-size="18" font-family="Arial">5</text>
+  </g>
+  
+  <!-- Labels -->
+  <text x="110" y="260" text-anchor="middle" font-size="16" font-family="serif">(a)</text>
+  <text x="350" y="260" text-anchor="middle" font-size="16" font-family="serif">(b)</text>
+  
+  <!-- Caption -->
+  <text x="250" y="295" text-anchor="middle" font-size="14" font-family="serif">Fig. 3.3   (a) A walk and (b) a cycle are illustrated.</text>
+</svg>

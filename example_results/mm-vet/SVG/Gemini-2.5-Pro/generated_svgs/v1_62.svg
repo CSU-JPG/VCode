@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Backgrounds -->
+  <rect x="0" y="0" width="800" height="35" fill="#1E8449"/>
+  <rect x="0" y="35" width="120" height="35" fill="#FFFF00"/>
+
+  <!-- Grid Lines -->
+  <path d="M0 35 L800 35 M0 70 L800 70 M0 105 L800 105 M0 140 L800 140 M0 175 L800 175 M0 210 L800 210 M0 245 L800 245 M120 0 L120 280 M205 0 L205 280 M290 0 L290 280 M375 0 L375 280 M460 0 L460 280 M545 0 L545 280 M630 0 L630 280 M715 0 L715 280" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="0" y="0" width="800" height="280" fill="none" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Text Content -->
+
+  <!-- Header Row -->
+  <g font-family="Arial, sans-serif" font-size="14px" fill="white" font-weight="bold" text-anchor="middle">
+    <text x="162.5" y="23">JAN</text>
+    <text x="247.5" y="23">FEB</text>
+    <text x="332.5" y="23">MAR</text>
+    <text x="417.5" y="23">APR</text>
+    <text x="502.5" y="23">MAY</text>
+    <text x="587.5" y="23">JUN</text>
+    <text x="672.5" y="23">Total</text>
+    <text x="757.5" y="23">Average</text>
+  </g>
+
+  <!-- Row 1: INCOME -->
+  <text x="10" y="58" font-family="Arial, sans-serif" font-size="14px" font-weight="bold" text-anchor="start" fill="black">INCOME</text>
+
+  <!-- Data Rows -->
+  <g font-family="Arial, sans-serif" font-size="14px" fill="black">
+    <!-- Row 2: Salary -->
+    <text x="10" y="93" text-anchor="start">Salary</text>
+    <text x="195" y="93" text-anchor="end">$5,000</text>
+    <text x="280" y="93" text-anchor="end">$5,000</text>
+    <text x="365" y="93" text-anchor="end">$5,000</text>
+    <text x="450" y="93" text-anchor="end">$5,000</text>
+    <text x="535" y="93" text-anchor="end">$5,000</text>
+    <text x="620" y="93" text-anchor="end">$5,000</text>
+    <text x="705" y="93" text-anchor="end">$30,000</text>
+    <text x="790" y="93" text-anchor="end">$5,000</text>
+
+    <!-- Row 3: Business -->
+    <text x="10" y="128" text-anchor="start">Business</text>
+    <text x="195" y="128" text-anchor="end">$4,000</text>
+    <text x="280" y="128" text-anchor="end">$4,200</text>
+    <text x="365" y="128" text-anchor="end">$3,800</text>
+    <text x="450" y="128" text-anchor="end">$3,400</text>
+    <text x="535" y="128" text-anchor="end">$4,000</text>
+    <text x="620" y="128" text-anchor="end">$3,600</text>
+    <text x="705" y="128" text-anchor="end">$23,000</text>
+    <text x="790" y="128" text-anchor="end">$3,833</text>
+
+    <!-- Row 4: Dividends -->
+    <text x="10" y="163" text-anchor="start">Dividends</text>
+    <text x="195" y="163" text-anchor="end">0</text>
+    <text x="280" y="163" text-anchor="end">0</text>
+    <text x="365" y="163" text-anchor="end">0</text>
+    <text x="450" y="163" text-anchor="end">0</text>
+    <text x="535" y="163" text-anchor="end">0</text>
+    <text x="620" y="163" text-anchor="end">0</text>
+    <text x="705" y="163" text-anchor="end">$0</text>
+    <text x="790" y="163" text-anchor="end">$0</text>
+
+    <!-- Row 5: Interest Income -->
+    <text x="10" y="198" text-anchor="start">Interest Income</text>
+    <text x="195" y="198" text-anchor="end">$50</text>
+    <text x="280" y="198" text-anchor="end">$50</text>
+    <text x="365" y="198" text-anchor="end">$50</text>
+    <text x="450" y="198" text-anchor="end">$50</text>
+    <text x="535" y="198" text-anchor="end">$50</text>
+    <text x="620" y="198" text-anchor="end">$50</text>
+    <text x="705" y="198" text-anchor="end">$300</text>
+    <text x="790" y="198" text-anchor="end">$50</text>
+
+    <!-- Row 6: Others -->
+    <text x="10" y="233" text-anchor="start">Others</text>
+    <text x="195" y="233" text-anchor="end">$0</text>
+    <text x="280" y="233" text-anchor="end">$0</text>
+    <text x="365" y="233" text-anchor="end">$20</text>
+    <text x="450" y="233" text-anchor="end">$0</text>
+    <text x="535" y="233" text-anchor="end">$30</text>
+    <text x="620" y="233" text-anchor="end">$0</text>
+    <text x="705" y="233" text-anchor="end">$50</text>
+    <text x="790" y="233" text-anchor="end">$8</text>
+
+    <!-- Row 7: Total -->
+    <g font-weight="bold">
+      <text x="10" y="268" text-anchor="start">Total</text>
+      <text x="195" y="268" text-anchor="end">$9,050</text>
+      <text x="280" y="268" text-anchor="end">$9,250</text>
+      <text x="365" y="268" text-anchor="end">$8,870</text>
+      <text x="450" y="268" text-anchor="end">$8,450</text>
+      <text x="535" y="268" text-anchor="end">$9,080</text>
+      <text x="620" y="268" text-anchor="end">$8,650</text>
+      <text x="705" y="268" text-anchor="end">$53,350</text>
+      <text x="790" y="268" text-anchor="end">$8,892</text>
+    </g>
+  </g>
+</svg>

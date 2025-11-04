@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="600" fill="#d42a2a"/>
+  <path d="M50 50 Q100 100 150 50 Q200 0 250 50 Q300 100 350 50 Q400 0 450 50 Q500 100 550 50 Q600 0 650 50 Q700 100 750 50 Q800 0 850 50 Q900 100 950 50" fill="none" stroke="#ffcc99" stroke-width="2"/>
+  <path d="M50 200 Q100 250 150 200 Q200 150 250 200 Q300 250 350 200 Q400 150 450 200 Q500 250 550 200 Q600 150 650 200 Q700 250 750 200 Q800 150 850 200 Q900 250 950 200" fill="none" stroke="#ffcc99" stroke-width="2"/>
+  <path d="M50 350 Q100 400 150 350 Q200 300 250 350 Q300 400 350 350 Q400 300 450 350 Q500 400 550 350 Q600 300 650 350 Q700 400 750 350 Q800 300 850 350 Q900 400 950 350" fill="none" stroke="#ffcc99" stroke-width="2"/>
+  <path d="M100 100 Q150 150 200 100 Q250 50 300 100 Q350 150 400 100 Q450 50 500 100 Q550 150 600 100 Q650 50 700 100 Q750 150 800 100 Q850 50 900 100 Q950 150 1000 100" fill="none" stroke="#ffcc99" stroke-width="2"/>
+  <path d="M100 250 Q150 300 200 250 Q250 200 300 250 Q350 300 400 250 Q450 200 500 250 Q550 300 600 250 Q650 200 700 250 Q750 300 800 250 Q850 200 900 250 Q950 300 1000 250" fill="none" stroke="#ffcc99" stroke-width="2"/>
+  <path d="M100 400 Q150 450 200 400 Q250 350 300 400 Q350 450 400 400 Q450 350 500 400 Q550 450 600 400 Q650 350 700 400 Q750 450 800 400 Q850 350 900 400 Q950 450 1000 400" fill="none" stroke="#ffcc99" stroke-width="2"/>
+  <rect x="150" y="200" width="400" height="400" fill="#ffd700"/>
+  <path d="M150 200 L200 250 L250 200 L300 250 L350 200 L400 250 L450 200 L500 250 L550 200" fill="none" stroke="#008080" stroke-width="3"/>
+  <path d="M200 250 Q250 300 300 250 Q350 200 400 250 Q450 300 500 250" fill="none" stroke="#008080" stroke-width="3"/>
+  <path d="M250 300 Q300 350 350 300 Q400 250 450 300" fill="none" stroke="#008080" stroke-width="3"/>
+  <path d="M300 350 Q350 400 400 350 Q450 300 500 350" fill="none" stroke="#008080" stroke-width="3"/>
+  <path d="M350 400 Q400 450 450 400 Q500 350 550 400" fill="none" stroke="#008080" stroke-width="3"/>
+  <path d="M400 450 Q450 500 500 450 Q550 400 600 450" fill="none" stroke="#008080" stroke-width="3"/>
+  <circle cx="300" cy="300" r="20" fill="#008080"/>
+  <circle cx="400" cy="300" r="20" fill="#008080"/>
+  <circle cx="350" cy="350" r="20" fill="#008080"/>
+  <circle cx="450" cy="350" r="20" fill="#008080"/>
+  <circle cx="400" cy="400" r="20" fill="#008080"/>
+  <circle cx="500" cy="400" r="20" fill="#008080"/>
+  <circle cx="450" cy="450" r="20" fill="#008080"/>
+  <circle cx="550" cy="450" r="20" fill="#008080"/>
+  <circle cx="500" cy="500" r="20" fill="#008080"/>
+  <circle cx="600" cy="500" r="20" fill="#008080"/>
+  <rect x="500" y="100" width="300" height="500" fill="#000000"/>
+  <circle cx="650" cy="300" r="100" fill="#ffffff"/>
+  <path d="M650 200 Q680 250 650 300 Q620 250 650 200" fill="none" stroke="#000000" stroke-width="10"/>
+  <path d="M650 300 Q680 350 650 400 Q620 350 650 300" fill="none" stroke="#000000" stroke-width="10"/>
+  <path d="M600 250 Q650 300 700 250" fill="none" stroke="#000000" stroke-width="10"/>
+  <path d="M600 350 Q650 300 700 350" fill="none" stroke="#000000" stroke-width="10"/>
+  <path d="M650 200 Q630 230 650 260 Q670 230 650 200" fill="none" stroke="#000000" stroke-width="5"/>
+  <path d="M650 400 Q630 370 650 340 Q670 370 650 400" fill="none" stroke="#000000" stroke-width="5"/>
+  <circle cx="650" cy="200" r="10" fill="#000000"/>
+  <circle cx="650" cy="400" r="10" fill="#000000"/>
+  <rect x="800" y="300" width="200" height="300" fill="#008080"/>
+  <path d="M800 300 L850 350 L900 300 L950 350 L1000 300" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M850 350 Q900 400 950 350 Q1000 300 1050 350" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M900 400 Q950 450 1000 400 Q1050 350 1100 400" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M950 450 Q1000 500 1050 450 Q1100 400 1150 450" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M1000 500 Q1050 550 1100 500 Q1150 450 1200 500" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <circle cx="900" cy="350" r="10" fill="#ffd700"/>
+  <circle cx="1000" cy="350" r="10" fill="#ffd700"/>
+  <circle cx="950" cy="400" r="10" fill="#ffd700"/>
+  <circle cx="1050" cy="400" r="10" fill="#ffd700"/>
+  <circle cx="1000" cy="450" r="10" fill="#ffd700"/>
+  <circle cx="1100" cy="450" r="10" fill="#ffd700"/>
+  <circle cx="1050" cy="500" r="10" fill="#ffd700"/>
+  <circle cx="1150" cy="500" r="10" fill="#ffd700"/>
+  <circle cx="1100" cy="550" r="10" fill="#ffd700"/>
+  <circle cx="1200" cy="550" r="10" fill="#ffd700"/>
+  <rect x="0" y="300" width="150" height="300" fill="#008080"/>
+  <path d="M0 300 L50 350 L100 300 L150 350 L200 300" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M50 350 Q100 400 150 350 Q200 300 250 350" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M100 400 Q150 450 200 400 Q250 350 300 400" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M150 450 Q200 500 250 450 Q300 400 350 450" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <path d="M200 500 Q250 550 300 500 Q350 450 400 500" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <circle cx="50" cy="350" r="10" fill="#ffd700"/>
+  <circle cx="150" cy="350" r="10" fill="#ffd700"/>
+  <circle cx="100" cy="400" r="10" fill="#ffd700"/>
+  <circle cx="200" cy="400" r="10" fill="#ffd700"/>
+  <circle cx="150" cy="450" r="10" fill="#ffd700"/>
+  <circle cx="250" cy="450" r="10" fill="#ffd700"/>
+  <circle cx="200" cy="500" r="10" fill="#ffd700"/>
+  <circle cx="300" cy="500" r="10" fill="#ffd700"/>
+  <circle cx="250" cy="550" r="10" fill="#ffd700"/>
+  <circle cx="350" cy="550" r="10" fill="#ffd700"/>
+</svg>

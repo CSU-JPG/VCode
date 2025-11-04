@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="1000" height="1000" fill="white"/>
+    <rect x="0" y="0" width="250" height="1000" fill="#4A90E2"/>
+    <rect x="250" y="0" width="750" height="1000" fill="#D3D3D3"/>
+    <rect x="460" y="520" width="30" height="20" fill="green" stroke="black"/>
+    <rect x="360" y="510" width="10" height="10" fill="red" stroke="black"/>
+    <line x1="250" y1="500" x2="750" y2="500" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="600" x2="750" y2="600" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="700" x2="750" y2="700" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="800" x2="750" y2="800" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="900" x2="750" y2="900" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="550" x2="750" y2="550" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="650" x2="750" y2="650" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="750" x2="750" y2="750" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="850" x2="750" y2="850" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="950" x2="750" y2="950" stroke="black" stroke-width="2"/>
+    <line x1="250" y1="500" x2="750" y2="500" stroke="white" stroke-width="4" stroke-dasharray="10,10"/>
+    <line x1="250" y1="600" x2="750" y2="600" stroke="white" stroke-width="4" stroke-dasharray="10,10"/>
+    <line x1="250" y1="700" x2="750" y2="700" stroke="white" stroke-width="4" stroke-dasharray="10,10"/>
+    <line x1="250" y1="800" x2="750" y2="800" stroke="white" stroke-width="4" stroke-dasharray="10,10"/>
+    <line x1="250" y1="900" x2="750" y2="900" stroke="white" stroke-width="4" stroke-dasharray="10,10"/>
+    <polygon points="450,580 460,570 470,580" fill="white"/>
+    <polygon points="550,580 560,570 570,580" fill="white"/>
+</svg>

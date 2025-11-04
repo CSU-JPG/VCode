@@ -1,0 +1,118 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Panel Frame -->
+  <rect x="20" y="20" width="380" height="760" fill="#8B6914" stroke="#5C4813" stroke-width="3"/>
+  <rect x="40" y="40" width="340" height="720" fill="#F5F5DC" stroke="#8B6914" stroke-width="2"/>
+  
+  <!-- Left Panel: Donor Portrait -->
+  <rect x="50" y="50" width="320" height="700" fill="#E8DCC0"/>
+  <path d="M 80 150 Q 90 120 110 110 Q 130 105 150 115 L 150 400 Q 145 420 130 425 Q 110 430 95 415 Z" fill="#2C1810"/>
+  <ellipse cx="130" cy="140" rx="25" ry="30" fill="#D4A276"/>
+  <path d="M 120 135 Q 125 125 140 135" fill="none" stroke="#654321" stroke-width="2"/>
+  <rect x="100" y="160" width="60" height="200" fill="#1a1a1a"/>
+  <path d="M 180 180 Q 190 150 220 155 Q 235 160 240 180 L 235 400 Q 230 420 215 425 Q 200 425 190 410 Z" fill="#8B4513"/>
+  <ellipse cx="215" cy="175" rx="22" ry="28" fill="#D4A276"/>
+  <rect x="195" y="200" width="50" height="180" fill="#654321"/>
+  <rect x="80" y="580" width="180" height="120" fill="#7B9E7B"/>
+  <path d="M 280 100 L 320 80 L 350 100 L 350 250 L 280 250 Z" fill="#8B7355"/>
+  <rect x="295" y="140" width="30" height="50" fill="#4A4A4A"/>
+  
+  <!-- Center Panel Frame -->
+  <rect x="420" y="20" width="560" height="760" fill="#9B7714" stroke="#6D5513" stroke-width="3"/>
+  <rect x="440" y="40" width="520" height="720" fill="#FAF0E6" stroke="#9B7714" stroke-width="2"/>
+  
+  <!-- Center Panel: Annunciation Scene -->
+  <rect x="450" y="50" width="500" height="700" fill="#E8DCC0"/>
+  
+  <!-- Room Interior -->
+  <rect x="460" y="80" width="480" height="30" fill="#6B4423"/>
+  <path d="M 500 80 L 520 60 L 880 60 L 900 80 Z" fill="#5A3A1F"/>
+  
+  <!-- Back Wall -->
+  <rect x="480" y="110" width="440" height="420" fill="#D6C8A8"/>
+  
+  <!-- Window -->
+  <rect x="700" y="130" width="100" height="120" fill="#87CEEB"/>
+  <rect x="700" y="130" width="100" height="60" fill="#4A90A4"/>
+  <line x1="750" y1="130" x2="750" y2="250" stroke="#654321" stroke-width="4"/>
+  <line x1="700" y1="190" x2="800" y2="190" stroke="#654321" stroke-width="4"/>
+  <rect x="695" y="125" width="110" height="130" fill="none" stroke="#5C4A3A" stroke-width="5"/>
+  
+  <!-- Objects on Wall -->
+  <circle cx="520" cy="180" r="25" fill="#C9B896" stroke="#654321" stroke-width="2"/>
+  <circle cx="580" cy="180" r="25" fill="#C9B896" stroke="#654321" stroke-width="2"/>
+  <ellipse cx="560" cy="240" rx="30" ry="40" fill="#B8860B"/>
+  
+  <!-- Angel Gabriel -->
+  <ellipse cx="580" cy="350" rx="35" ry="40" fill="#E8C19F"/>
+  <path d="M 560 340 Q 565 330 575 335 Q 580 330 585 335 Q 590 330 600 340" fill="#C4A77D"/>
+  <rect x="550" y="390" width="60" height="180" fill="#6C8EAD"/>
+  <path d="M 550 420 L 530 500 L 550 500 Z" fill="#5A7A9B"/>
+  <path d="M 610 420 L 630 500 L 610 500 Z" fill="#5A7A9B"/>
+  
+  <!-- Angel Wings -->
+  <path d="M 545 380 Q 510 350 500 380 Q 495 400 510 410 Q 530 400 545 390 Z" fill="#FFD700" opacity="0.8"/>
+  <path d="M 545 400 Q 520 380 510 410 Q 510 430 525 435 Q 540 425 545 415 Z" fill="#FFB347" opacity="0.7"/>
+  
+  <!-- Virgin Mary -->
+  <ellipse cx="740" cy="370" rx="32" ry="38" fill="#E8C19F"/>
+  <path d="M 720 360 Q 730 350 750 360" fill="#B8936D"/>
+  <rect x="710" y="410" width="60" height="180" fill="#DC143C"/>
+  <path d="M 710 440 L 680 540 L 710 540 Z" fill="#B22222"/>
+  <path d="M 770 440 L 800 540 L 770 540 Z" fill="#B22222"/>
+  
+  <!-- Blue Mantle -->
+  <path d="M 690 420 Q 680 400 690 390 L 740 390 Q 760 390 770 400 Q 780 410 770 430 L 760 480 L 700 480 Z" fill="#1E3A8A" opacity="0.8"/>
+  
+  <!-- Book on Stand -->
+  <rect x="640" y="520" width="80" height="15" fill="#8B6914"/>
+  <rect x="650" y="440" width="60" height="80" fill="#F5DEB3"/>
+  <rect x="655" y="445" width="50" height="70" fill="#FFFACD"/>
+  <line x1="680" y1="445" x2="680" y2="515" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Table -->
+  <ellipse cx="680" cy="540" rx="100" ry="25" fill="#8B6914"/>
+  <rect x="600" y="540" width="160" height="15" fill="#6B5A3A"/>
+  
+  <!-- Vase on Table -->
+  <ellipse cx="680" cy="420" rx="20" ry="30" fill="#B8860B"/>
+  <rect x="670" y="410" width="20" height="30" fill="#DAA520"/>
+  <circle cx="680" cy="390" r="12" fill="#FFF" opacity="0.5"/>
+  
+  <!-- Floor -->
+  <rect x="460" y="580" width="480" height="140" fill="#D4A76A"/>
+  <path d="M 460 600 L 940 600 M 460 620 L 940 620 M 460 640 L 940 640 M 460 660 L 940 660 M 460 680 L 940 680 M 460 700 L 940 700" stroke="#A0826D" stroke-width="1"/>
+  
+  <!-- Right Panel Frame -->
+  <rect x="1000" y="20" width="380" height="760" fill="#8B6914" stroke="#5C4813" stroke-width="3"/>
+  <rect x="1020" y="40" width="340" height="720" fill="#F5F5DC" stroke="#8B6914" stroke-width="2"/>
+  
+  <!-- Right Panel: Joseph in Workshop -->
+  <rect x="1030" y="50" width="320" height="700" fill="#E8DCC0"/>
+  
+  <!-- Window with City View -->
+  <rect x="1050" y="100" width="120" height="140" fill="#87CEEB"/>
+  <path d="M 1070 180 L 1080 160 L 1090 165 L 1095 170 L 1100 175 L 1105 180 L 1110 185 L 1120 180 L 1130 185 L 1140 190 L 1150 200 L 1140 200 L 1070 200 Z" fill="#8B7355"/>
+  <line x1="1110" y1="100" x2="1110" y2="240" stroke="#654321" stroke-width="3"/>
+  <line x1="1050" y1="170" x2="1170" y2="170" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Joseph Figure -->
+  <ellipse cx="1220" cy="380" rx="35" ry="40" fill="#D4A276"/>
+  <path d="M 1200 370 Q 1210 355 1230 365 Q 1240 355 1245 370" fill="#8B7355"/>
+  <rect x="1190" y="420" width="70" height="180" fill="#8B4513"/>
+  <path d="M 1190 450 L 1170 540 L 1190 540 Z" fill="#654321"/>
+  <path d="M 1260 450 L 1280 540 L 1260 540 Z" fill="#654321"/>
+  
+  <!-- Workbench -->
+  <rect x="1180" y="570" width="120" height="20" fill="#6B4423"/>
+  <rect x="1190" y="590" width="15" height="100" fill="#5A3A1F"/>
+  <rect x="1275" y="590" width="15" height="100" fill="#5A3A1F"/>
+  
+  <!-- Tools -->
+  <rect x="1210" y="555" width="40" height="10" fill="#8B4513"/>
+  <circle cx="1250" cy="560" r="8" fill="#696969"/>
+  <line x1="1195" y1="520" x2="1195" y2="570" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Architectural Details -->
+  <rect x="1045" y="60" width="280" height="25" fill="#8B6914"/>
+  <path d="M 1045 85 L 1060 70 L 1310 70 L 1325 85 Z" fill="#6B5513"/>
+</svg>

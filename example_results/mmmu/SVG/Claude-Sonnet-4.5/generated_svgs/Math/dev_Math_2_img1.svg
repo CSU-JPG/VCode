@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <line x1="40" y1="250" x2="380" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="180" y1="20" x2="180" y2="270" stroke="black" stroke-width="2"/>
+  
+  <!-- Arrow for x-axis -->
+  <polygon points="380,250 375,245 375,255" fill="black"/>
+  
+  <!-- Y-axis labels -->
+  <text x="165" y="255" font-family="Arial" font-size="14">0</text>
+  <text x="165" y="215" font-family="Arial" font-size="12">1</text>
+  <text x="165" y="175" font-family="Arial" font-size="12">2</text>
+  <text x="165" y="135" font-family="Arial" font-size="12">3</text>
+  <text x="165" y="95" font-family="Arial" font-size="12">4</text>
+  <text x="165" y="55" font-family="Arial" font-size="12">5</text>
+  
+  <!-- X-axis labels -->
+  <text x="100" y="268" font-family="Arial" font-size="12">-1</text>
+  <text x="265" y="268" font-family="Arial" font-size="12">0.5</text>
+  <text x="295" y="268" font-family="Arial" font-size="12">0.75</text>
+  <text x="330" y="268" font-family="Arial" font-size="12">1</text>
+  
+  <!-- Tick marks on y-axis -->
+  <line x1="175" y1="210" x2="185" y2="210" stroke="black" stroke-width="1"/>
+  <line x1="175" y1="170" x2="185" y2="170" stroke="black" stroke-width="1"/>
+  <line x1="175" y1="130" x2="185" y2="130" stroke="black" stroke-width="1"/>
+  <line x1="175" y1="90" x2="185" y2="90" stroke="black" stroke-width="1"/>
+  <line x1="175" y1="50" x2="185" y2="50" stroke="black" stroke-width="1"/>
+  
+  <!-- Tick marks on x-axis -->
+  <line x1="100" y1="245" x2="100" y2="255" stroke="black" stroke-width="1"/>
+  <line x1="270" y1="245" x2="270" y2="255" stroke="black" stroke-width="1"/>
+  <line x1="300" y1="245" x2="300" y2="255" stroke="black" stroke-width="1"/>
+  <line x1="330" y1="245" x2="330" y2="255" stroke="black" stroke-width="1"/>
+  
+  <!-- Curve path -->
+  <path d="M 60,250 Q 90,180 110,75 Q 125,50 140,55 Q 160,65 180,145 Q 200,230 230,247 Q 250,252 270,245 Q 290,235 310,225 Q 330,220 350,205" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Function label -->
+  <text x="120" y="25" font-family="Arial" font-size="16" font-style="italic">f(x) = 8x³ - 2x² - 7x + 3</text>
+  
+  <!-- Fig. 1 label -->
+  <text x="350" y="268" font-family="Arial" font-size="14">Fig. 1</text>
+</svg>

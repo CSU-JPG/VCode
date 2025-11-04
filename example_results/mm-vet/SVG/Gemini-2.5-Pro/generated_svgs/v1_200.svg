@@ -1,0 +1,117 @@
+<svg viewBox="0 0 435 525" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .s { stroke:black; stroke-width:1; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    .f { fill:black; }
+    .b { stroke:black; stroke-width:2; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+</style>
+<rect x="10" y="10" width="415" height="505" class="b" fill="white"/>
+<path class="b" d="M15 50 h 405"/>
+<path class="f" d="M149 18 h 138 v 28 h -138 z M152 21 h 22 v 22 h -22 z M178 21 h 22 v 22 h -22 z M204 21 h 22 v 22 h -22 z M230 21 h 22 v 22 h -22 z M256 21 h 22 v 22 h -22 z"/>
+<path class="s" stroke-width="2" d="M155 37 l 3 -10 l 3 10 m 5 -10 v 10 m -2 -5 h 4 m 6 -5 h 5 v 10 h -5 m -2.5 -5 h 2.5 m 8 5 v -10 l 10 10 v -10 m 6 5 h 5 m -2.5 -5 v 10 m 8 -10 h 5 v 10 m -5 -5 h 5 m 3 -5 l 3 5 l 3 -5 m 3 5 v -10 m 2 0 l 3 10 l 3 -10"/>
+<path class="b" d="M125 18 l -110 0 v 32 h 110 m 295 0 h -110 v -32 h 110"/>
+<path class="s" stroke-width="1.5" d="M20 22 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 m 105 0 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5 l 5 5 l 5 -5"/>
+
+<g id="background_canopy">
+    <path class="b" d="M100 50 v 10 c 0 20 118 20 118 0 v -10 m 117 0 v 10 c 0 20 -118 20 -118 0 v -10"/>
+    <path class="b" d="M100 60 c 20 20 50 20 65 0 m 88 0 c -20 20 -50 20 -65 0"/>
+    <path class="s" d="M130 75 l 3 3 l -3 3 l -3 -3 z m 175 0 l 3 3 l -3 3 l -3 -3 z"/>
+    <path class="b" d="M105 55 v 180 h -5 v -180 m 235 0 v 180 h 5 v -180"/>
+    <path class="b" d="M165 65 v 195 h -5 v -195 m 115 0 v 195 h 5 v -195"/>
+    <path class="f" d="M162 100 h -3 l 3 5 l 3 -5 z m 0 20 h -3 l 3 5 l 3 -5 z m 0 20 h -3 l 3 5 l 3 -5 z m 0 20 h -3 l 3 5 l 3 -5 z m 113 -80 h 3 l -3 5 l -3 -5 z m 0 20 h 3 l -3 5 l -3 -5 z m 0 20 h 3 l -3 5 l -3 -5 z m 0 20 h 3 l -3 5 l -3 -5 z"/>
+</g>
+
+<g id="central_figure">
+    <path class="f" d="M218 178 a 5 3 0 1 1 0 -6 a 5 3 0 1 1 0 6 z"/>
+    <path class="b" d="M175 120 c -20 20 0 55 10 60 c 20 10 45 10 65 0 c 10 -5 30 -40 10 -60 c -10 -10 -40 -15 -85 0 z"/>
+    <path class="s" stroke-width="2" d="M190 140 c 5 -3 15 -3 20 0 m 15 0 c 5 -3 15 -3 20 0"/>
+    <path class="b" d="M205 155 c 5 0 25 0 30 0"/>
+    <path class="f" d="M208 162 h 24 v 6 h -24 z m -2 10 l 14 35 l 14 -35 z"/>
+    <path class="b" d="M217 210 l -20 80 c 0 0 20 10 40 0 l -20 -80"/>
+    <path class="b" d="M175 145 c -10 20 -10 60 0 70 m 90 0 c 10 -10 10 -50 0 -70"/>
+    <path class="b" d="M185 110 a 20 20 0 0 1 20 -15 a 15 15 0 0 1 15 0 a 15 15 0 0 1 15 0 a 20 20 0 0 1 20 15"/>
+    <path class="b" d="M170 190 c -15 20 -15 80 0 100 m 100 0 c 15 -20 15 -80 0 -100"/>
+    <path class="b" d="M165 260 h 110"/>
+    <path class="b" d="M235 240 l 10 -20 l 20 20 l 10 -40 m -60 -20 l 10 20 l -20 20 l -10 40"/>
+    <path class="b" d="M180 290 c 20 0 30 -20 50 -20 s 30 20 50 20"/>
+    <path class="b" d="M230 270 l 30 10 l -20 30 l -40 -10 z M250 280 l -40 -10 l -20 30 l 30 10 z"/>
+    <path class="s" stroke-width="2" d="M210 290 l 20 10"/>
+</g>
+
+<g id="left_attendants">
+    <g id="top_left_attendant">
+        <path class="b" d="M65 90 c -15 15 0 40 5 45 c 10 5 25 5 35 0 c 5 -5 15 -30 5 -45 c -5 -5 -25 -8 -50 0z"/>
+        <path class="s" stroke-width="1.5" d="M75 110 c 3 -2 8 -2 12 0 m -2 5 c 2 0 6 0 8 0"/>
+        <path class="f" d="M90 108 a 1 1 0 1 1 0 -2 a 1 1 0 1 1 0 2 z"/>
+        <path class="b" d="M65 105 c -5 10 -5 30 0 35"/>
+        <path class="b" d="M70 80 a 10 10 0 0 1 10 -5 a 10 10 0 0 1 10 5 v 10 h -20 z"/>
+        <path class="b" d="M60 125 c -10 15 -10 50 0 60 l 50 -10 c 0 -30 0 -50 -10 -60 z"/>
+        <path class="f" d="M60 185 v -60 l -5 5 v 55 z"/>
+        <path class="s" stroke-width="2" d="M100 135 l -20 20"/>
+    </g>
+    <g id="bottom_left_attendant">
+        <path class="b" d="M60 250 c -15 15 0 40 5 45 c 10 5 25 5 35 0 c 5 -5 15 -30 5 -45 c -5 -5 -25 -8 -50 0z"/>
+        <path class="s" stroke-width="1.5" d="M70 270 c 3 -2 8 -2 12 0"/>
+        <path class="f" d="M75 278 h 10 v 4 h -10 z"/>
+        <path class="s" stroke-width="1.5" d="M73 285 l 3 5 l 3 -5 m 3 5 l 3 -5"/>
+        <path class="b" d="M60 265 c -5 10 -5 30 0 35"/>
+        <path class="b" d="M65 240 a 10 10 0 0 1 10 -5 a 10 10 0 0 1 10 5 v 10 h -20 z"/>
+        <path class="b" d="M55 280 c -10 15 -10 80 0 90 l 60 0 c 0 -30 0 -80 -10 -90 z"/>
+        <path class="f" d="M55 370 v -90 l -5 5 v 85 z"/>
+        <path class="b" d="M90 300 l -15 20 c 0 0 -5 5 -5 15"/>
+    </g>
+</g>
+
+<g id="right_attendants">
+    <g id="top_right_attendant">
+        <path class="b" d="M370 90 c 15 15 0 40 -5 45 c -10 5 -25 5 -35 0 c -5 -5 -15 -30 -5 -45 c 5 -5 25 -8 50 0z"/>
+        <path class="s" stroke-width="1.5" d="M350 110 c -3 -2 -8 -2 -12 0 m 2 5 c -2 0 -6 0 -8 0"/>
+        <path class="b" d="M370 105 c 5 10 5 30 0 35"/>
+        <path class="b" d="M345 85 a 10 10 0 0 1 10 -5 a 10 10 0 0 1 10 5 v 5 h -20 z"/>
+        <path class="b" d="M380 125 c 10 15 10 50 0 60 l -50 -10 c 0 -30 0 -50 10 -60 z"/>
+        <path class="f" d="M380 185 v -60 l 5 5 v 55 z"/>
+        <path class="b" d="M340 135 l 20 20"/>
+    </g>
+    <g id="bottom_right_attendant">
+        <path class="b" d="M375 250 c 15 15 0 40 -5 45 c -10 5 -25 5 -35 0 c -5 -5 -15 -30 -5 -45 c 5 -5 25 -8 50 0z"/>
+        <path class="s" stroke-width="1.5" d="M355 270 c -3 -2 -8 -2 -12 0"/>
+        <path class="b" d="M375 265 c 5 10 5 30 0 35"/>
+        <path class="b" d="M350 240 a 10 10 0 0 1 10 -5 a 10 10 0 0 1 10 5 v 10 h -20 z"/>
+        <path class="b" d="M385 280 c 10 15 10 80 0 90 l -60 0 c 0 -30 0 -80 10 -90 z"/>
+        <path class="f" d="M385 370 v -90 l 5 5 v 85 z"/>
+        <path class="b" d="M345 300 l 15 20 c 5 5 5 15 5 15 m -20 -30 l -15 20 c -5 5 -5 15 -5 15"/>
+    </g>
+</g>
+
+<g id="desk_and_items">
+    <path class="b" d="M90 310 h 260"/>
+    <path class="f" d="M90 310 h 260 v 15 h -260 z"/>
+    <path class="s" fill="white" stroke-width="1.5" d="M100 317.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5 l 10 7.5 l 10 -7.5"/>
+    <g id="items_on_desk">
+        <path class="b" d="M180 300 c 0 -5 5 -5 5 -5 l 10 5 l 10 -5 l 10 5 l 10 -5 l 10 5"/>
+        <path class="b" d="M230 300 c 0 -5 5 -5 5 -5"/>
+        <path class="b" d="M245 305 a 10 5 0 1 1 0 -10 a 10 5 0 1 1 0 10"/>
+        <path class="f" d="M245 303 a 8 3 0 1 1 0 -6 a 8 3 0 1 1 0 6"/>
+    </g>
+</g>
+
+<g id="bottom_elements">
+    <g id="pig">
+        <path class="f" d="M90 375 c -10 -20 -20 -15 -30 -5 c -10 10 0 35 15 35 c 15 5 40 0 50 -10 c 15 -15 15 -30 5 -40 c -5 -5 -15 -5 -30 0 l -10 20 z
+        M58 395 c 0 -5 -2 -10 -5 -10 s -5 5 -5 10 m 55 -25 c -5 -5 -10 -5 -15 0 l -5 5 m -10 -10 c -5 -5 -10 -5 -15 0 l -5 5 m -10 -10 c -5 -5 -10 -5 -15 0 l -5 5"/>
+    </g>
+    <g id="rooster">
+        <path class="b" d="M305 365 a 5 5 0 0 1 10 0 a 5 5 0 0 1 10 0 a 5 5 0 0 1 10 0"/>
+        <path class="b" d="M320 370 c 5 5 5 15 0 20 s -15 0 -15 -5 c 0 -10 10 -15 15 -15z"/>
+        <path class="s" stroke-width="2" d="M318 380 c 2 0 5 0 7 0"/>
+        <path class="f" d="M328 372 a 1 1 0 1 1 0 -2 a 1 1 0 1 1 0 2 z"/>
+        <path class="b" d="M310 390 c 0 10 -10 20 -20 20 s -20 -10 -20 -20 c 0 -10 10 -15 20 -15 s 20 5 20 15z"/>
+        <path class="s" stroke-width="2" d="M305 410 c 20 0 30 10 30 20 m -28 -18 c 20 0 30 10 30 20 m -28 -18 c 20 0 30 10 30 20"/>
+        <path class="b" d="M290 410 l 5 10 l -10 5 m 10 -5 l 5 10 l -10 5"/>
+    </g>
+    <g id="papers_and_decorations">
+        <path class="b" d="M190 350 h 20 v 20 h -20 z m 5 0 v -5 l 10 5 m 0 20 h -5 l 5 10"/>
+        <path class="b" d="M220 340 l 10 5 l -5 10 l -10 -5 z m 5 5 l 5 -5"/>
+        <path class="f" d="M245 350 a 3 3 0 1 1 0 -6 a 3 3 0 1 1 0 6 z"/>
+    </g>
+</g>
+</svg>

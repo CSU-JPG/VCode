@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="plateGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff5555"/>
+      <stop offset="100%" stop-color="#cc0000"/>
+    </linearGradient>
+    <linearGradient id="forkGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#a0a0a0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background surface (wooden table) -->
+  <rect width="1024" height="768" fill="#8b4513" opacity="0.8"/>
+  
+  <!-- Red plate -->
+  <ellipse cx="512" cy="384" rx="450" ry="350" fill="url(#plateGradient)" stroke="#990000" stroke-width="10"/>
+  
+  <!-- Plate scratches and crumbs -->
+  <path d="M350 150 Q400 200 450 180 Q500 160 550 200 Q600 240 650 220 Q700 200 750 250" stroke="#666" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M300 200 Q350 250 400 230 Q450 210 500 250 Q550 290 600 270 Q650 250 700 300" stroke="#666" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M400 300 Q450 350 500 330 Q550 310 600 350 Q650 390 700 370 Q750 350 800 400" stroke="#666" stroke-width="1" fill="none" opacity="0.3"/>
+  
+  <!-- Crumbs on plate -->
+  <circle cx="400" cy="250" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="500" cy="300" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="600" cy="200" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="700" cy="350" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="450" cy="400" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="550" cy="450" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="650" cy="300" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="750" cy="250" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="350" cy="350" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="450" cy="200" r="2" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Fork -->
+  <path d="M380 340 L990 250" stroke="url(#forkGradient)" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M380 340 L380 370 L385 370 L385 340 Z" fill="url(#forkGradient)"/>
+  <path d="M380 340 L375 345 L375 365 L380 365 Z" fill="url(#forkGradient)"/>
+  <path d="M380 340 L370 345 L370 365 L375 365 Z" fill="url(#forkGradient)"/>
+  <path d="M380 340 L365 345 L365 365 L370 365 Z" fill="url(#forkGradient)"/>
+  
+  <!-- Fork handle details -->
+  <path d="M990 250 L985 255 L985 265 L990 265 Z" fill="url(#forkGradient)"/>
+  <path d="M990 250 L980 255 L980 265 L985 265 Z" fill="url(#forkGradient)"/>
+  
+  <!-- Additional crumbs around fork -->
+  <circle cx="420" cy="320" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="480" cy="300" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="550" cy="280" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="620" cy="260" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="680" cy="240" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="750" cy="230" r="3" fill="#ffffff" opacity="0.7"/>
+  <circle cx="820" cy="220" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="880" cy="210" r="3" fill="#ffffff" opacity="0.7"/>
+</svg>

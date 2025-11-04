@@ -1,0 +1,133 @@
+[
+  {
+    "id": "dev_Mechanical_Engineering_1",
+    "question": "Determine the critical speed of rotation for the overhanging 2-in. diameter steel shaft (E = 29 * 10^6 psi) with attached 60-lb grinding wheel shown in Figure.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "85.5rpm",
+      "72.2rpm",
+      "95rpm",
+      "52rpm"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "85.5rpm",
+      "B": "72.2rpm",
+      "C": "95rpm",
+      "D": "52rpm"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Mechanical_Engineering/dev_Mechanical_Engineering_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Mechanical_Engineering_2",
+    "question": "A flat brass bar has length L, constant thickness t, and a rectangular cross section whose width varies linearly between $b_{2}$ at the fixed support to $b_{1}$ at the free end (see <image 1>). Assume that the taper of the bar is small. The bar has modulus of elasticity E. Calculate the displacements $\\delta_{b}$ and $\\delta_{c}$ if P = 200 kN, L = 2 m, t = 20 mm, b1 = 100 mm, b2 = 115 mm, and E = 96 GPa.",
+    "question_type": "multiple-choice",
+    "options": [
+      "$\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$",
+      "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
+      "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta_{B}=0.637mm,\\delta_{C}=2.946mm$",
+      "B": "$\\delta_{B}=0.937mm,\\delta_{C}=1.946mm$",
+      "C": "$\\delta_{B}=0.937mm,\\delta_{C}=2.946mm$"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Mechanical_Engineering/dev_Mechanical_Engineering_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Mechanical_Engineering_3",
+    "question": "Car A travels at a constant speed of 65 mi / hr. When in the position shown at time t = 0, car B has a speed of 25 mi / hr and accelerates at a constant rate of 0.1g along its path until it reaches a speed of 65 mi / hr, after which it travels at that constant speed. What is the steady-state position of car A with respect to car B? <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "$\\delta d=506.109$",
+      "$\\delta d=706.109$",
+      "$\\delta d=906.109$"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "$\\delta d=506.109$",
+      "B": "$\\delta d=706.109$",
+      "C": "$\\delta d=906.109$"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Mechanical_Engineering/dev_Mechanical_Engineering_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Mechanical_Engineering_4",
+    "question": "A flat 6-in. diameter disk buffer shown in P18.3 has a rotation speed of 500 rpm. The coefficient of friction between the buffer disk and a flat metal surface being polished is 0.2. The force on the disk is 15 lb. Assume that the normal pressure created by the 15 lb is uniformly distributed over the surface of the disk and that the tangential pressure force on the disk is q = fp, where f is the coefficient of friction. Determine the power transmitted to the buffing disk.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "0.0375hp",
+      "0.0475hp",
+      "0.0572hp",
+      "0.0623hp"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.0375hp",
+      "B": "0.0475hp",
+      "C": "0.0572hp",
+      "D": "0.0623hp"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Mechanical_Engineering/dev_Mechanical_Engineering_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Mechanical_Engineering_5",
+    "question": "In the pinewood-derby event shown, the car is released from rest at the starting position A and then rolls down the incline and on to the finish line C. If the constant acceleration down the incline is 2.75 m/s^2 and the speed from B to C is essentially constant, determine the time duration $t_{AC}$ for the race. The effects of the small transition area at B can be neglected.<image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "t=1.46s",
+      "t=2.46s",
+      "t=3.46s"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "t=1.46s",
+      "B": "t=2.46s",
+      "C": "t=3.46s"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Mechanical_Engineering/dev_Mechanical_Engineering_5_img1.png"
+    ],
+    "response": ""
+  }
+]

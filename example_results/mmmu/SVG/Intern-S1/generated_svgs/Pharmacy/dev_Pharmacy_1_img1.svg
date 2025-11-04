@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Benzene ring with Cl substituents -->
+  <path d="M50,100 L75,140 L125,140 L150,100 L125,60 L75,60 Z" fill="none" stroke="black"/>
+  <text x="45" y="110" font-size="12">Cl</text>
+  <text x="45" y="80" font-size="12">Cl</text>
+  
+  <!-- Arrow for Step 1 -->
+  <line x1="170" y1="100" x2="230" y2="100" stroke="black" marker-end="url(#arrowhead)"/>
+  <text x="200" y="80" font-size="12">AlCl₃</text>
+  <text x="200" y="120" font-size="12">Step 1</text>
+  
+  <!-- Ketone and COOH structure -->
+  <path d="M250,100 L275,140 L325,140 L350,100 L325,60 L275,60 Z" fill="none" stroke="black"/>
+  <line x1="350" y1="100" x2="390" y2="100" stroke="black"/>
+  <line x1="390" y1="100" x2="390" y2="120" stroke="black"/>
+  <line x1="390" y1="120" x2="410" y2="120" stroke="black"/>
+  <line x1="410" y1="120" x2="410" y2="80" stroke="black"/>
+  <line x1="410" y1="80" x2="390" y2="80" stroke="black"/>
+  <line x1="390" y1="80" x2="390" y2="100" stroke="black"/>
+  <text x="415" y="100" font-size="12">O</text>
+  <text x="355" y="110" font-size="12">Cl</text>
+  <text x="355" y="80" font-size="12">Cl</text>
+  
+  <!-- Arrow for Step 2 -->
+  <line x1="430" y1="100" x2="490" y2="100" stroke="black" marker-end="url(#arrowhead)"/>
+  <text x="460" y="80" font-size="12">NaBH₄</text>
+  <text x="460" y="100" font-size="12">NaOH</text>
+  <text x="460" y="120" font-size="12">Step 2</text>
+  
+  <!-- Lactone structure -->
+  <path d="M510,100 L535,140 L585,140 L610,100 L585,60 L535,60 Z" fill="none" stroke="black"/>
+  <path d="M610,100 Q630,80 650,100" fill="none" stroke="black"/>
+  <path d="M650,100 L650,140" fill="none" stroke="black"/>
+  <path d="M650,140 Q630,160 610,140" fill="none" stroke="black"/>
+  <text x="655" y="120" font-size="12">O</text>
+  <text x="615" y="110" font-size="12">Cl</text>
+  <text x="615" y="80" font-size="12">Cl</text>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0,0 10,3.5 0,7" fill="black"/>
+    </marker>
+  </defs>
+</svg>

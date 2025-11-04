@@ -1,0 +1,59 @@
+<svg viewBox="-50 -50 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+  
+  <!-- TV Area -->
+  <rect x="170" y="450" width="120" height="80" fill="black" stroke="blue" stroke-width="2"/>
+  <text x="230" y="490" font-size="10" text-anchor="middle" fill="white">TV</text>
+  
+  <!-- Living Room Section -->
+  <rect x="200" y="550" width="400" height="200" fill="#d4af37" opacity="0.3" stroke="green" stroke-width="3"/>
+  
+  <!-- Coffee Table -->
+  <rect x="320" y="650" width="120" height="60" fill="#8b4513" stroke="red" stroke-width="2"/>
+  <text x="380" y="680" font-size="10" text-anchor="middle" fill="white">Coffee Table</text>
+  
+  <!-- Sofa -->
+  <rect x="300" y="600" width="250" height="100" fill="#c0c0c0" rx="10" ry="10"/>
+  <text x="425" y="650" font-size="10" text-anchor="middle" fill="black">Sofa</text>
+  
+  <!-- Stairs -->
+  <polygon points="500,50 900,50 900,600 500,600" fill="none" stroke="black" stroke-width="4"/>
+  <line x1="500" y1="50" x2="900" y2="600" stroke="black" stroke-width="4"/>
+  <line x1="550" y1="50" x2="900" y2="550" stroke="black" stroke-width="2"/>
+  <line x1="600" y1="50" x2="900" y2="500" stroke="black" stroke-width="2"/>
+  <line x1="650" y1="50" x2="900" y2="450" stroke="black" stroke-width="2"/>
+  <line x1="700" y1="50" x2="900" y2="400" stroke="black" stroke-width="2"/>
+  <line x1="750" y1="50" x2="900" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="800" y1="50" x2="900" y2="300" stroke="black" stroke-width="2"/>
+  <line x1="850" y1="50" x2="900" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- Windows -->
+  <rect x="400" y="350" width="300" height="150" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="450" y1="350" x2="450" y2="500" stroke="black" stroke-width="1"/>
+  <line x1="500" y1="350" x2="500" y2="500" stroke="black" stroke-width="1"/>
+  <line x1="550" y1="350" x2="550" y2="500" stroke="black" stroke-width="1"/>
+  <line x1="600" y1="350" x2="600" y2="500" stroke="black" stroke-width="1"/>
+  <line x1="650" y1="350" x2="650" y2="500" stroke="black" stroke-width="1"/>
+  <line x1="700" y1="350" x2="700" y2="500" stroke="black" stroke-width="1"/>
+  
+  <!-- Dining Table -->
+  <rect x="0" y="600" width="200" height="100" fill="#8b4513"/>
+  <text x="100" y="650" font-size="12" text-anchor="middle" fill="white">Dining Table</text>
+  
+  <!-- Chairs -->
+  <rect x="50" y="650" width="60" height="80" fill="#8b4513" rx="5" ry="5"/>
+  <text x="80" y="690" font-size="8" text-anchor="middle" fill="white">Chair</text>
+  
+  <!-- Pendant Lights -->
+  <circle cx="100" cy="300" r="30" fill="gold"/>
+  <line x1="100" y1="300" x2="100" y2="400" stroke="black" stroke-width="2"/>
+  <text x="100" y="420" font-size="8" text-anchor="middle" fill="black">Light</text>
+  
+  <!-- Wall Art -->
+  <rect x="820" y="500" width="50" height="70" fill="white" stroke="black"/>
+  <text x="845" y="540" font-size="8" text-anchor="middle" fill="black">Art</text>
+  
+  <!-- Plants -->
+  <circle cx="820" cy="650" r="20" fill="green"/>
+  <text x="820" y="670" font-size="8" text-anchor="middle" fill="black">Plant</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size: 80px; font-weight: bold; text-anchor: middle; }
+    .label { font-family: Arial, sans-serif; font-size: 40px; font-weight: bold; text-anchor: middle; }
+    .caption { font-family: Arial, sans-serif; font-size: 24px; fill: black; }
+  </style>
+
+  <!-- Title -->
+  <text x="500" y="90" class="title">Studying online</text>
+
+  <!-- Zoom panel -->
+  <text x="250" y="250" class="label">Zoom</text>
+  <rect x="10" y="270" width="480" height="300" fill="#f0f0f0" stroke="#ccc"/>
+  <!-- Simplified representation of man with money falling -->
+  <circle cx="250" cy="350" r="20" fill="#333"/>
+  <rect x="230" y="370" width="40" height="60" fill="#000"/>
+  <rect x="210" y="370" width="20" height="40" fill="#000"/>
+  <rect x="270" y="370" width="20" height="40" fill="#000"/>
+  <!-- Money bills as rectangles -->
+  <rect x="50" y="300" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="350" y="320" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="150" y="380" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="400" y="400" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="100" y="420" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="280" y="440" width="15" height="8" fill="#0a0" opacity="0.7"/>
+
+  <!-- Teacher panel -->
+  <text x="750" y="250" class="label">Teacher</text>
+  <rect x="510" y="270" width="480" height="300" fill="#f0f0f0" stroke="#ccc"/>
+  <!-- Simplified teacher figure -->
+  <ellipse cx="750" cy="350" rx="30" ry="25" fill="#666"/>
+  <rect x="720" y="375" width="60" height="80" fill="#aaa"/>
+  <rect x="710" y="375" width="10" height="40" fill="#aaa"/>
+  <rect x="780" y="375" width="10" height="40" fill="#aaa"/>
+
+  <!-- Wifi company panel -->
+  <text x="250" y="610" class="label">Wifi company</text>
+  <rect x="10" y="630" width="480" height="300" fill="#f0f0f0" stroke="#ccc"/>
+  <!-- Simplified man with arms outstretched -->
+  <circle cx="250" cy="750" r="15" fill="#333"/>
+  <rect x="230" y="765" width="40" height="60" fill="#000"/>
+  <rect x="200" y="765" width="30" height="40" fill="#000"/>
+  <rect x="270" y="765" width="30" height="40" fill="#000"/>
+  <!-- Money bills -->
+  <rect x="50" y="680" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="350" y="700" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="150" y="780" width="15" height="8" fill="#0a0" opacity="0.7"/>
+  <rect x="400" y="800" width="15" height="8" fill="#0a0" opacity="0.7"/>
+
+  <!-- Students panel -->
+  <text x="750" y="610" class="label">Students</text>
+  <rect x="510" y="630" width="480" height="300" fill="#f0f0f0" stroke="#ccc"/>
+  <!-- Joker face simplified -->
+  <circle cx="870" cy="780" r="30" fill="red"/>
+  <circle cx="860" cy="770" r="4" fill="white"/>
+  <circle cx="880" cy="770" r="4" fill="white"/>
+  <path d="M855 785 Q870 795 885 785" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M865 795 Q870 805 875 795" fill="none" stroke="black" stroke-width="1"/>
+  <!-- "Put on a happy face" text -->
+  <text x="650" y="720" font-family="Arial" font-size="24" fill="pink">PUT ON A</text>
+  <text x="650" y="760" font-family="Arial" font-size="24" fill="pink">HAPPY FACE</text>
+  <!-- BCCL watermark -->
+  <text x="850" y="870" font-family="Arial" font-size="12" fill="black">BCCL</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1000" height="800" fill="#e0e0e0"/>
+  <rect x="240" y="250" width="760" height="550" fill="#d2b48c" stroke="#8b4513" stroke-width="2"/>
+  <rect x="240" y="300" width="100" height="300" fill="#8b4513" stroke="#000" stroke-width="1"/>
+  <rect x="440" y="450" width="150" height="200" fill="#8b4513" stroke="#000" stroke-width="1"/>
+  <rect x="290" y="350" width="120" height="150" fill="#333" rx="10" ry="10"/>
+  <circle cx="300" cy="650" r="10" fill="#000"/>
+  <circle cx="350" cy="650" r="10" fill="#000"/>
+  <circle cx="380" cy="600" r="10" fill="#000"/>
+  <circle cx="320" cy="550" r="10" fill="#000"/>
+  <circle cx="290" cy="550" r="10" fill="#000"/>
+  <rect x="400" y="200" width="200" height="100" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="410" y="210" width="180" height="80" fill="#000"/>
+  <rect x="380" y="280" width="150" height="20" fill="#333"/>
+  <rect x="500" y="300" width="30" height="20" fill="#000"/>
+  <rect x="250" y="150" width="120" height="180" fill="#a9a9a9" stroke="#000" stroke-width="2"/>
+  <rect x="150" y="180" width="100" height="120" fill="#333" rx="10" ry="10"/>
+  <rect x="100" y="120" width="150" height="60" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="100" width="80" height="80" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="800" y="400" width="200" height="40" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="800" y="200" width="100" height="100" fill="#333" rx="10" ry="10"/>
+  <rect x="900" y="150" width="100" height="100" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="950" y="100" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="850" y="100" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="800" y="100" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="800" y="50" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="850" y="50" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="900" y="50" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="950" y="50" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="800" y="0" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="850" y="0" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="900" y="0" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="950" y="0" width="50" height="50" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="0" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="50" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="100" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="150" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="200" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="250" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="300" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="350" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="400" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="450" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="500" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="550" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="600" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="650" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="700" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="750" width="1000" height="50" fill="#f0f0f0" stroke="#000" stroke-width="2"/>
+  <rect x="0" y="0" width="1000" height="800" fill="none" stroke="#000" stroke-width="1"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="150" y="0" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="300" y="0" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="0" y="30" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="150" y="30" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="300" y="30" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="0" y="60" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="150" y="60" width="150" height="30" fill="none" stroke="black"/>
+  <rect x="300" y="60" width="150" height="30" fill="none" stroke="black"/>
+  <text x="225" y="15" text-anchor="middle" dy="0.35em" font-size="12">16–29 year olds</text>
+  <text x="375" y="15" text-anchor="middle" dy="0.35em" font-size="12">30 years old and older</text>
+  <text x="75" y="45" text-anchor="middle" dy="0.35em" font-size="12">Own a tablet</text>
+  <text x="75" y="75" text-anchor="middle" dy="0.35em" font-size="12">Sample size</text>
+  <text x="225" y="45" text-anchor="middle" dy="0.35em" font-size="12">69</text>
+  <text x="375" y="45" text-anchor="middle" dy="0.35em" font-size="12">231</text>
+  <text x="225" y="75" text-anchor="middle" dy="0.35em" font-size="12">628</text>
+  <text x="375" y="75" text-anchor="middle" dy="0.35em" font-size="12">2309</text>
+</svg>

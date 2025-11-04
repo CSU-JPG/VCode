@@ -1,0 +1,68 @@
+<svg viewBox="0 0 540 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header row -->
+  <rect x="8" y="5" width="148" height="60" fill="#E8532F"/>
+  <rect x="156" y="5" width="218" height="60" fill="#E8532F"/>
+  <rect x="374" y="5" width="158" height="60" fill="#E8532F"/>
+  
+  <!-- Header text -->
+  <text x="82" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ACTIVITY</text>
+  <text x="265" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">IMMEDIATE</text>
+  <text x="265" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">PREDECESSOR(S)</text>
+  <text x="453" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">TIME (DAYS)</text>
+  
+  <!-- Row A -->
+  <rect x="8" y="65" width="148" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="156" y="65" width="218" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="374" y="65" width="158" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="82" y="90" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">A</text>
+  <text x="265" y="90" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">—</text>
+  <text x="453" y="90" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">2</text>
+  
+  <!-- Row B -->
+  <rect x="8" y="105" width="148" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="156" y="105" width="218" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="374" y="105" width="158" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="82" y="130" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">B</text>
+  <text x="265" y="130" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">—</text>
+  <text x="453" y="130" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">5</text>
+  
+  <!-- Row C -->
+  <rect x="8" y="145" width="148" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="156" y="145" width="218" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="374" y="145" width="158" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="82" y="170" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">C</text>
+  <text x="265" y="170" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">—</text>
+  <text x="453" y="170" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">1</text>
+  
+  <!-- Row D -->
+  <rect x="8" y="185" width="148" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="156" y="185" width="218" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="374" y="185" width="158" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="82" y="210" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">D</text>
+  <text x="265" y="210" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">B</text>
+  <text x="453" y="210" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">10</text>
+  
+  <!-- Row E -->
+  <rect x="8" y="225" width="148" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="156" y="225" width="218" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="374" y="225" width="158" height="40" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="82" y="250" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">E</text>
+  <text x="265" y="250" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">A, D</text>
+  <text x="453" y="250" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">3</text>
+  
+  <!-- Row F -->
+  <rect x="8" y="265" width="148" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="156" y="265" width="218" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="374" y="265" width="158" height="40" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="82" y="290" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">F</text>
+  <text x="265" y="290" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">C</text>
+  <text x="453" y="290" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">6</text>
+  
+  <!-- Row G -->
+  <rect x="8" y="305" width="148" height="40" fill="#CCCCCC" stroke="#999999" stroke-width="1"/>
+  <rect x="156" y="305" width="218" height="40" fill="#CCCCCC" stroke="#999999" stroke-width="1"/>
+  <rect x="374" y="305" width="158" height="40" fill="#CCCCCC" stroke="#999999" stroke-width="1"/>
+  <text x="82" y="330" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">G</text>
+  <text x="265" y="330" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">E, F</text>
+  <text x="453" y="330" font-family="Arial, sans-serif" font-size="16" fill="#333333" text-anchor="middle">8</text>
+</svg>

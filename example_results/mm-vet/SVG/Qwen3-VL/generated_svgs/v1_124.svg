@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f0e6d2"/>
+  
+  <!-- Napkin -->
+  <rect x="40" y="100" width="280" height="580" fill="#e8e0d0" stroke="#d0c8b8" stroke-width="2"/>
+  <line x1="40" y1="120" x2="320" y2="120" stroke="#d0c8b8" stroke-width="1"/>
+  <line x1="40" y1="560" x2="320" y2="560" stroke="#d0c8b8" stroke-width="1"/>
+  
+  <!-- Cutlery -->
+  <path d="M70 280v160l-10 10 10 10V600" fill="#c0c0c0" stroke="#999" stroke-width="1"/>
+  <path d="M130 200v400" fill="#c0c0c0" stroke="#999" stroke-width="1"/>
+  <path d="M190 380v120l-10 10 10 10v40" fill="#c0c0c0" stroke="#999" stroke-width="1"/>
+  
+  <!-- Salt &amp; Pepper Shakers -->
+  <circle cx="100" cy="40" r="20" fill="#e0e0e0" stroke="#999" stroke-width="1"/>
+  <circle cx="140" cy="40" r="20" fill="#e0e0e0" stroke="#999" stroke-width="1"/>
+  
+  <!-- Plate -->
+  <circle cx="650" cy="400" r="250" fill="#f8f8f8" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- Green Beans -->
+  <path d="M500 180q10 10 20 20 10 10 20 20 10 10 20 20 10 10 20 20 10 10 20 20" fill="none" stroke="#5a8c3a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M520 160q10 10 20 20 10 10 20 20 10 10 20 20 10 10 20 20 10 10 20 20" fill="none" stroke="#5a8c3a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M540 140q10 10 20 20 10 10 20 20 10 10 20 20 10 10 20 20 10 10 20 20" fill="none" stroke="#5a8c3a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Fish Fillet -->
+  <path d="M420 380q20 10 40 20 20 10 40 20 20 10 40 20 20 10 40 20" fill="#a0a0a0" stroke="#808080" stroke-width="2"/>
+  <path d="M440 360q20 10 40 20 20 10 40 20 20 10 40 20 20 10 40 20" fill="#a0a0a0" stroke="#808080" stroke-width="2"/>
+  <path d="M460 340q20 10 40 20 20 10 40 20 20 10 40 20 20 10 40 20" fill="#a0a0a0" stroke="#808080" stroke-width="2"/>
+  
+  <!-- Mashed Potatoes -->
+  <path d="M600 350q20 10 40 20 20 10 40 20 20 10 40 20 20 10 40 20" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  <path d="M620 330q20 10 40 20 20 10 40 20 20 10 40 20 20 10 40 20" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  <path d="M640 310q20 10 40 20 20 10 40 20 20 10 40 20 20 10 40 20" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Glass of Milk -->
+  <ellipse cx="900" cy="100" rx="60" ry="80" fill="#ffffff" stroke="#d0d0d0" stroke-width="2"/>
+  <rect x="840" y="180" width="120" height="20" fill="#ffffff" stroke="#d0d0d0" stroke-width="2"/>
+</svg>

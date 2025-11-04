@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#f0e6e0"/>
+  <!-- Walls and Ceiling -->
+  <rect x="0" y="0" width="500" height="700" fill="#e8e0e0"/>
+  <rect x="500" y="0" width="500" height="700" fill="#e8e0e0"/>
+  <rect x="0" y="0" width="1000" height="150" fill="#d0c8c8"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="550" width="1000" height="150" fill="#c8b8a8"/>
+  
+  <!-- Paintings on left wall -->
+  <rect x="0" y="0" width="100" height="350" fill="#806040"/>
+  <rect x="100" y="0" width="180" height="370" fill="#806040"/>
+  <rect x="290" y="140" width="100" height="300" fill="#806040"/>
+  <rect x="330" y="100" width="100" height="300" fill="#806040"/>
+  <rect x="360" y="190" width="100" height="300" fill="#806040"/>
+  <rect x="420" y="240" width="100" height="300" fill="#806040"/>
+  <rect x="460" y="260" width="100" height="300" fill="#806040"/>
+  <rect x="490" y="190" width="100" height="300" fill="#806040"/>
+  <rect x="520" y="280" width="100" height="300" fill="#806040"/>
+  
+  <!-- Chandeliers -->
+  <path d="M600 0 L600 100 L550 150 L650 150 Z" fill="#806040"/>
+  <circle cx="600" cy="100" r="10" fill="#806040"/>
+  <path d="M600 100 L600 200 L550 250 L650 250 Z" fill="#806040"/>
+  <circle cx="600" cy="200" r="10" fill="#806040"/>
+  
+  <!--人物-->
+  <!--左一女性-->
+  <rect x="170" y="430" width="280" height="600" fill="#c0c0c0"/>
+  <rect x="170" y="430" width="280" height="600" fill="#c0c0c0"/>
+  <ellipse cx="250" cy="460" rx="30" ry="20" fill="#806040"/>
+  <rect x="190" y="500" width="240" height="200" fill="#c0c0c0"/>
+  <rect x="190" y="500" width="240" height="200" fill="#c0c0c0"/>
+  
+  <!--左二女性-->
+  <rect x="330" y="380" width="440" height="600" fill="#d0a060"/>
+  <rect x="330" y="380" width="440" height="600" fill="#d0a060"/>
+  <ellipse cx="390" cy="420" rx="30" ry="20" fill="#a04040"/>
+  <rect x="350" y="580" width="400" height="120" fill="#ffffff"/>
+  <rect x="350" y="580" width="400" height="120" fill="#ffffff"/>
+  
+  <!--右二女性-->
+  <rect x="560" y="440" width="640" height="600" fill="#c0a060"/>
+  <rect x="560" y="440" width="640" height="600" fill="#c0a060"/>
+  <ellipse cx="600" cy="470" rx="30" ry="20" fill="#ffffff"/>
+  <rect x="580" y="550" width="600" height="150" fill="#c0a060"/>
+  <rect x="580" y="550" width="600" height="150" fill="#c0a060"/>
+  
+  <!--右一男性-->
+  <rect x="660" y="400" width="820" height="600" fill="#406040"/>
+  <rect x="660" y="400" width="820" height="600" fill="#406040"/>
+  <ellipse cx="740" cy="430" rx="30" ry="20" fill="#806040"/>
+  <rect x="680" y="550" width="800" height="150" fill="#406040"/>
+  <rect x="680" y="550" width="800" height="150" fill="#406040"/>
+  
+  <!--家具-->
+  <rect x="10" y="580" width="200" height="120" fill="#80a0c0"/>
+  <rect x="10" y="580" width="200" height="120" fill="#80a0c0"/>
+  <rect x="20" y="680" width="180" height="20" fill="#604020"/>
+  <rect x="20" y="680" width="180" height="20" fill="#604020"/>
+  
+  <!--装饰品-->
+  <rect x="300" y="380" width="340" height="700" fill="#c0a060"/>
+  <rect x="300" y="380" width="340" height="700" fill="#c0a060"/>
+  <rect x="500" y="420" width="540" height="600" fill="#c0a060"/>
+  <rect x="500" y="420" width="540" height="600" fill="#c0a060"/>
+</svg>

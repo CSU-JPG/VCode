@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1280 390" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer border -->
+  <rect x="20" y="10" width="1240" height="370" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Vertical divider -->
+  <line x1="490" y1="10" x2="490" y2="380" stroke="black" stroke-width="2"/>
+  
+  <!-- Horizontal dividers -->
+  <line x1="20" y1="70" x2="1260" y2="70" stroke="black" stroke-width="2"/>
+  <line x1="20" y1="130" x2="1260" y2="130" stroke="black" stroke-width="2"/>
+  <line x1="20" y1="190" x2="1260" y2="190" stroke="black" stroke-width="2"/>
+  <line x1="20" y1="250" x2="1260" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="20" y1="310" x2="1260" y2="310" stroke="black" stroke-width="2"/>
+  
+  <!-- Header text -->
+  <text x="255" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">X</text>
+  <text x="875" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">Freq.</text>
+  
+  <!-- Data rows -->
+  <text x="255" y="110" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">1</text>
+  <text x="875" y="110" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">1</text>
+  
+  <text x="255" y="170" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">2</text>
+  <text x="875" y="170" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">7</text>
+  
+  <text x="255" y="230" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">3</text>
+  <text x="875" y="230" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">18</text>
+  
+  <text x="255" y="290" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">4</text>
+  <text x="875" y="290" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">7</text>
+  
+  <text x="255" y="350" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">5</text>
+  <text x="875" y="350" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">6</text>
+</svg>

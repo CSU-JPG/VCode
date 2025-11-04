@@ -1,0 +1,228 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#4B2E16"/>
+  
+  <!-- Wooden ceiling and beams -->
+  <rect y="0" width="1000" height="150" fill="#3A230F"/>
+  <rect x="0" y="150" width="1000" height="50" fill="#5C3B17"/>
+  
+  <!-- Bookshelves -->
+  <rect x="200" y="150" width="800" height="100" fill="#6D451F"/>
+  <rect x="200" y="250" width="800" height="100" fill="#6D451F"/>
+  
+  <!-- Books on shelves (simplified representation) -->
+  <g fill="#8B5A2B">
+    <!-- Top shelf books -->
+    <rect x="210" y="170" width="10" height="60"/>
+    <rect x="225" y="170" width="8" height="60"/>
+    <rect x="240" y="170" width="12" height="60"/>
+    <rect x="260" y="170" width="10" height="60"/>
+    <rect x="275" y="170" width="8" height="60"/>
+    <rect x="290" y="170" width="12" height="60"/>
+    <rect x="310" y="170" width="10" height="60"/>
+    <rect x="325" y="170" width="8" height="60"/>
+    <rect x="340" y="170" width="12" height="60"/>
+    <rect x="360" y="170" width="10" height="60"/>
+    <rect x="375" y="170" width="8" height="60"/>
+    <rect x="390" y="170" width="12" height="60"/>
+    <rect x="410" y="170" width="10" height="60"/>
+    <rect x="425" y="170" width="8" height="60"/>
+    <rect x="440" y="170" width="12" height="60"/>
+    <rect x="460" y="170" width="10" height="60"/>
+    <rect x="475" y="170" width="8" height="60"/>
+    <rect x="490" y="170" width="12" height="60"/>
+    <rect x="510" y="170" width="10" height="60"/>
+    <rect x="525" y="170" width="8" height="60"/>
+    <rect x="540" y="170" width="12" height="60"/>
+    <rect x="560" y="170" width="10" height="60"/>
+    <rect x="575" y="170" width="8" height="60"/>
+    <rect x="590" y="170" width="12" height="60"/>
+    <rect x="610" y="170" width="10" height="60"/>
+    <rect x="625" y="170" width="8" height="60"/>
+    <rect x="640" y="170" width="12" height="60"/>
+    <rect x="660" y="170" width="10" height="60"/>
+    <rect x="675" y="170" width="8" height="60"/>
+    <rect x="690" y="170" width="12" height="60"/>
+    <rect x="710" y="170" width="10" height="60"/>
+    <rect x="725" y="170" width="8" height="60"/>
+    <rect x="740" y="170" width="12" height="60"/>
+    <rect x="760" y="170" width="10" height="60"/>
+    <rect x="775" y="170" width="8" height="60"/>
+    <rect x="790" y="170" width="12" height="60"/>
+    <rect x="810" y="170" width="10" height="60"/>
+    <rect x="825" y="170" width="8" height="60"/>
+    <rect x="840" y="170" width="12" height="60"/>
+    <rect x="860" y="170" width="10" height="60"/>
+    <rect x="875" y="170" width="8" height="60"/>
+    <rect x="890" y="170" width="12" height="60"/>
+    <rect x="910" y="170" width="10" height="60"/>
+    <rect x="925" y="170" width="8" height="60"/>
+    <rect x="940" y="170" width="12" height="60"/>
+    <rect x="960" y="170" width="10" height="60"/>
+    <rect x="975" y="170" width="8" height="60"/>
+    <rect x="990" y="170" width="12" height="60"/>
+    
+    <!-- Bottom shelf books -->
+    <rect x="210" y="270" width="10" height="60"/>
+    <rect x="225" y="270" width="8" height="60"/>
+    <rect x="240" y="270" width="12" height="60"/>
+    <rect x="260" y="270" width="10" height="60"/>
+    <rect x="275" y="270" width="8" height="60"/>
+    <rect x="290" y="270" width="12" height="60"/>
+    <rect x="310" y="270" width="10" height="60"/>
+    <rect x="325" y="270" width="8" height="60"/>
+    <rect x="340" y="270" width="12" height="60"/>
+    <rect x="360" y="270" width="10" height="60"/>
+    <rect x="375" y="270" width="8" height="60"/>
+    <rect x="390" y="270" width="12" height="60"/>
+    <rect x="410" y="270" width="10" height="60"/>
+    <rect x="425" y="270" width="8" height="60"/>
+    <rect x="440" y="270" width="12" height="60"/>
+    <rect x="460" y="270" width="10" height="60"/>
+    <rect x="475" y="270" width="8" height="60"/>
+    <rect x="490" y="270" width="12" height="60"/>
+    <rect x="510" y="270" width="10" height="60"/>
+    <rect x="525" y="270" width="8" height="60"/>
+    <rect x="540" y="270" width="12" height="60"/>
+    <rect x="560" y="270" width="10" height="60"/>
+    <rect x="575" y="270" width="8" height="60"/>
+    <rect x="590" y="270" width="12" height="60"/>
+    <rect x="610" y="270" width="10" height="60"/>
+    <rect x="625" y="270" width="8" height="60"/>
+    <rect x="640" y="270" width="12" height="60"/>
+    <rect x="660" y="270" width="10" height="60"/>
+    <rect x="675" y="270" width="8" height="60"/>
+    <rect x="690" y="270" width="12" height="60"/>
+    <rect x="710" y="270" width="10" height="60"/>
+    <rect x="725" y="270" width="8" height="60"/>
+    <rect x="740" y="270" width="12" height="60"/>
+    <rect x="760" y="270" width="10" height="60"/>
+    <rect x="775" y="270" width="8" height="60"/>
+    <rect x="790" y="270" width="12" height="60"/>
+    <rect x="810" y="270" width="10" height="60"/>
+    <rect x="825" y="270" width="8" height="60"/>
+    <rect x="840" y="270" width="12" height="60"/>
+    <rect x="860" y="270" width="10" height="60"/>
+    <rect x="875" y="270" width="8" height="60"/>
+    <rect x="890" y="270" width="12" height="60"/>
+    <rect x="910" y="270" width="10" height="60"/>
+    <rect x="925" y="270" width="8" height="60"/>
+    <rect x="940" y="270" width="12" height="60"/>
+    <rect x="960" y="270" width="10" height="60"/>
+    <rect x="975" y="270" width="8" height="60"/>
+    <rect x="990" y="270" width="12" height="60"/>
+  </g>
+  
+  <!-- Central light fixture -->
+  <circle cx="500" cy="130" r="15" fill="#FFD700"/>
+  <line x1="500" y1="130" x2="500" y2="250" stroke="#FFD700" stroke-width="4"/>
+  
+  <!-- Shoji screens -->
+  <rect x="380" y="400" width="120" height="250" fill="#F5F5DC"/>
+  <rect x="620" y="400" width="120" height="250" fill="#F5F5DC"/>
+  
+  <!-- Grid lines for shoji screens -->
+  <g stroke="#8B4513" stroke-width="1">
+    <!-- Left screen grid -->
+    <line x1="380" y1="430" x2="500" y2="430"/>
+    <line x1="380" y1="460" x2="500" y2="460"/>
+    <line x1="380" y1="490" x2="500" y2="490"/>
+    <line x1="380" y1="520" x2="500" y2="520"/>
+    <line x1="380" y1="550" x2="500" y2="550"/>
+    <line x1="380" y1="580" x2="500" y2="580"/>
+    <line x1="380" y1="610" x2="500" y2="610"/>
+    <line x1="380" y1="640" x2="500" y2="640"/>
+    <line x1="410" y1="400" x2="410" y2="650"/>
+    <line x1="440" y1="400" x2="440" y2="650"/>
+    <line x1="470" y1="400" x2="470" y2="650"/>
+    
+    <!-- Right screen grid -->
+    <line x1="620" y1="430" x2="740" y2="430"/>
+    <line x1="620" y1="460" x2="740" y2="460"/>
+    <line x1="620" y1="490" x2="740" y2="490"/>
+    <line x1="620" y1="520" x2="740" y2="520"/>
+    <line x1="620" y1="550" x2="740" y2="550"/>
+    <line x1="620" y1="580" x2="740" y2="580"/>
+    <line x1="620" y1="610" x2="740" y2="610"/>
+    <line x1="620" y1="640" x2="740" y2="640"/>
+    <line x1="650" y1="400" x2="650" y2="650"/>
+    <line x1="680" y1="400" x2="680" y2="650"/>
+    <line x1="710" y1="400" x2="710" y2="650"/>
+  </g>
+  
+  <!-- Background wall behind shoji screens -->
+  <rect x="500" y="400" width="120" height="250" fill="#FFFACD"/>
+  
+  <!-- Sink area with red box -->
+  <rect x="530" y="580" width="60" height="40" fill="#8B4513"/>
+  <rect x="540" y="590" width="40" height="20" fill="#F5F5DC"/>
+  <circle cx="560" y1="600" r="5" fill="#8B4513"/>
+  <rect x="530" y="580" width="60" height="40" fill="none" stroke="red" stroke-width="3"/>
+  
+  <!-- Floor -->
+  <rect y="650" width="1000" height="150" fill="#DEB887"/>
+  
+  <!-- Pillow with blue box -->
+  <rect x="460" y="720" width="120" height="40" rx="10" ry="10" fill="#556B2F"/>
+  <rect x="460" y="720" width="120" height="40" rx="10" ry="10" fill="none" stroke="blue" stroke-width="3"/>
+  <g fill="#FFFFFF">
+    <circle cx="470" cy="730" r="3"/>
+    <circle cx="485" cy="730" r="3"/>
+    <circle cx="500" cy="730" r="3"/>
+    <circle cx="515" cy="730" r="3"/>
+    <circle cx="530" cy="730" r="3"/>
+    <circle cx="545" cy="730" r="3"/>
+    <circle cx="560" cy="730" r="3"/>
+    <circle cx="470" cy="740" r="3"/>
+    <circle cx="485" cy="740" r="3"/>
+    <circle cx="500" cy="740" r="3"/>
+    <circle cx="515" cy="740" r="3"/>
+    <circle cx="530" cy="740" r="3"/>
+    <circle cx="545" cy="740" r="3"/>
+    <circle cx="560" cy="740" r="3"/>
+  </g>
+  
+  <!-- Fireplace -->
+  <rect x="760" y="650" width="120" height="120" fill="#8B4513"/>
+  <rect x="770" y="660" width="100" height="100" fill="#FF4500"/>
+  <rect x="780" y="670" width="80" height="80" fill="#FF8C00"/>
+  <rect x="790" y="680" width="60" height="60" fill="#FFD700"/>
+  <rect x="800" y="690" width="40" height="40" fill="#FF4500"/>
+  <rect x="810" y="700" width="20" height="20" fill="#FF8C00"/>
+  
+  <!-- Firewood stand -->
+  <rect x="750" y="750" width="140" height="20" fill="#8B4513"/>
+  <rect x="750" y="770" width="140" height="20" fill="#8B4513"/>
+  <rect x="750" y="790" width="140" height="10" fill="#8B4513"/>
+  
+  <!-- Cooking pot over fire -->
+  <rect x="790" y="630" width="60" height="30" fill="#8B4513"/>
+  <rect x="795" y="620" width="50" height="10" fill="#8B4513"/>
+  <rect x="800" y="610" width="40" height="10" fill="#8B4513"/>
+  
+  <!-- Bucket -->
+  <rect x="680" y="720" width="40" height="50" fill="#8B4513"/>
+  <rect x="685" y="725" width="30" height="40" fill="#F5F5DC"/>
+  
+  <!-- Plant -->
+  <rect x="300" y="620" width="20" height="60" fill="#8B4513"/>
+  <rect x="290" y="560" width="40" height="60" fill="#228B22"/>
+  <rect x="280" y="540" width="60" height="40" fill="#228B22"/>
+  <rect x="270" y="520" width="80" height="40" fill="#228B22"/>
+  <rect x="260" y="500" width="100" height="40" fill="#228B22"/>
+  <rect x="250" y="480" width="120" height="40" fill="#228B22"/>
+  
+  <!-- Calendar on right wall -->
+  <rect x="860" y="450" width="80" height="100" fill="#F5F5DC"/>
+  <text x="880" y="470" font-family="Arial" font-size="10" fill="#000">2013</text>
+  <text x="880" y="485" font-family="Arial" font-size="8" fill="#000">January</text>
+  <text x="870" y="500" font-family="Arial" font-size="6" fill="#000">S M T W T F S</text>
+  <text x="870" y="510" font-family="Arial" font-size="6" fill="#000">1 2 3 4 5 6 7</text>
+  <text x="870" y="520" font-family="Arial" font-size="6" fill="#000">8 9 10 11 12 13 14</text>
+  <text x="870" y="530" font-family="Arial" font-size="6" fill="#000">15 16 17 18 19 20 21</text>
+  <text x="870" y="540" font-family="Arial" font-size="6" fill="#000">22 23 24 25 26 27 28</text>
+  <text x="870" y="550" font-family="Arial" font-size="6" fill="#000">29 30 31</text>
+  
+  <!-- Left doorway -->
+  <rect x="0" y="300" width="200" height="350" fill="#3A230F"/>
+  <rect x="10" y="350" width="180" height="250" fill="#2B1D0E"/>
+</svg>

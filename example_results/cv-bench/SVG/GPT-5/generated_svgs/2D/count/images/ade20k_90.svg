@@ -1,0 +1,160 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- soft wall and light -->
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e3cd"/>
+      <stop offset="1" stop-color="#d8cfb2"/>
+    </linearGradient>
+
+    <!-- curtain pattern -->
+    <pattern id="curtainPat" patternUnits="userSpaceOnUse" width="24" height="24">
+      <rect width="24" height="24" fill="#9a816b"/>
+      <path d="M2 3c5 2 5 7 0 9m10-9c5 2 5 7 0 9m10-9c5 2 5 7 0 9" fill="none" stroke="#6d5748" stroke-width="1.2"/>
+      <circle cx="6" cy="6" r="1.3" fill="#c7b09c"/>
+      <circle cx="18" cy="13" r="1.3" fill="#c7b09c"/>
+    </pattern>
+
+    <!-- rug pattern -->
+    <pattern id="rugPat" patternUnits="userSpaceOnUse" width="18" height="18">
+      <rect width="18" height="18" fill="#c7c4aa"/>
+      <path d="M0 9h18M9 0v18" stroke="#b6b392" stroke-width="0.6" opacity="0.5"/>
+      <circle cx="9" cy="9" r="3.5" fill="none" stroke="#a6a480" stroke-width="0.8" opacity="0.6"/>
+    </pattern>
+
+    <!-- pillow dots -->
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#ffffff"/>
+      <circle cx="2" cy="2" r="0.8" fill="#e7a3ae"/>
+      <circle cx="6" cy="6" r="0.8" fill="#e7a3ae"/>
+    </pattern>
+
+    <!-- chaise pattern -->
+    <pattern id="vine" patternUnits="userSpaceOnUse" width="30" height="30">
+      <rect width="30" height="30" fill="#f1e9db"/>
+      <path d="M5 20c8-6 12-10 20-14M10 28c6-6 8-8 14-12" stroke="#c46f6d" stroke-width="1.2" fill="none"/>
+      <circle cx="8" cy="18" r="1.5" fill="#c46f6d"/>
+      <circle cx="22" cy="10" r="1.5" fill="#c46f6d"/>
+    </pattern>
+
+    <!-- outdoor gradient and clip for window panes -->
+    <linearGradient id="yard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6aa64e"/>
+      <stop offset="0.5" stop-color="#3c7c38"/>
+      <stop offset="1" stop-color="#2f662e"/>
+    </linearGradient>
+
+    <clipPath id="glassClip">
+      <rect x="390" y="150" width="200" height="450" rx="2"/>
+      <rect x="610" y="150" width="200" height="450" rx="2"/>
+    </clipPath>
+  </defs>
+
+  <!-- wall and vaulted ceiling -->
+  <rect x="0" y="0" width="1000" height="650" fill="url(#wallGrad)"/>
+  <polygon points="0,0 350,0 230,120 0,120" fill="#f5f1e1" opacity="0.8"/>
+  <polygon points="360,0 1000,0 1000,90 930,90 900,70 870,90 420,90" fill="#f5f1e1" opacity="0.85"/>
+  <rect x="488" y="0" width="24" height="95" fill="#f7f6ef" opacity="0.9"/>
+
+  <!-- long curtain rod -->
+  <line x1="120" y1="92" x2="960" y2="92" stroke="#1b1b1b" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#1b1b1b">
+    <circle cx="120" cy="92" r="6"/>
+    <circle cx="960" cy="92" r="6"/>
+  </g>
+
+  <!-- curtains -->
+  <path d="M300,120 q10,18 0,36 v444 h110 v-444 q-14,-14 0,-36 z" fill="url(#curtainPat)"/>
+  <path d="M830,120 q10,18 0,36 v444 h110 v-444 q-14,-14 0,-36 z" fill="url(#curtainPat)"/>
+  <!-- curtain rings -->
+  <g fill="#1b1b1b">
+    <circle cx="325" cy="98" r="6"/>
+    <circle cx="350" cy="98" r="6"/>
+    <circle cx="375" cy="98" r="6"/>
+    <circle cx="845" cy="98" r="6"/>
+    <circle cx="870" cy="98" r="6"/>
+    <circle cx="895" cy="98" r="6"/>
+  </g>
+
+  <!-- French doors frame -->
+  <rect x="370" y="120" width="460" height="510" rx="3" fill="#f6f3eb" stroke="#e8e2d3" stroke-width="3"/>
+  <!-- inner stiles -->
+  <rect x="370" y="120" width="18" height="510" fill="#f6f3eb"/>
+  <rect x="812" y="120" width="18" height="510" fill="#f6f3eb"/>
+  <rect x="577" y="120" width="44" height="510" fill="#f6f3eb"/>
+
+  <!-- glass areas -->
+  <rect x="390" y="150" width="200" height="450" fill="#b7d0c7" opacity="0.35"/>
+  <rect x="610" y="150" width="200" height="450" fill="#b7d0c7" opacity="0.35"/>
+
+  <!-- outdoor scene clipped inside glass -->
+  <g clip-path="url(#glassClip)">
+    <rect x="350" y="140" width="520" height="470" fill="url(#yard)"/>
+    <!-- distant trees -->
+    <g fill="#234f27" opacity="0.9">
+      <circle cx="540" cy="180" r="70"/>
+      <circle cx="700" cy="190" r="80"/>
+      <circle cx="620" cy="170" r="65"/>
+    </g>
+    <!-- tree trunks -->
+    <g stroke="#8a6f49" stroke-width="10" opacity="0.8">
+      <line x1="520" y1="230" x2="460" y2="470"/>
+      <line x1="720" y1="230" x2="780" y2="470"/>
+      <line x1="650" y1="230" x2="590" y2="470"/>
+    </g>
+    <!-- grass and a green bench -->
+    <rect x="350" y="420" width="520" height="190" fill="#3b8d34"/>
+    <g fill="#57b848">
+      <rect x="520" y="440" width="100" height="16" rx="3"/>
+      <rect x="525" y="456" width="90" height="12" rx="2"/>
+      <rect x="540" y="468" width="10" height="26"/>
+      <rect x="595" y="468" width="10" height="26"/>
+    </g>
+  </g>
+
+  <!-- muntins (grids) on each door -->
+  <g stroke="#f6f3eb" stroke-width="14">
+    <line x1="390" y1="240" x2="590" y2="240"/>
+    <line x1="390" y1="330" x2="590" y2="330"/>
+    <line x1="390" y1="420" x2="590" y2="420"/>
+    <line x1="390" y1="510" x2="590" y2="510"/>
+
+    <line x1="610" y1="240" x2="810" y2="240"/>
+    <line x1="610" y1="330" x2="810" y2="330"/>
+    <line x1="610" y1="420" x2="810" y2="420"/>
+    <line x1="610" y1="510" x2="810" y2="510"/>
+  </g>
+
+  <!-- knobs -->
+  <g fill="#2e2e2e">
+    <circle cx="590" cy="380" r="8"/>
+    <circle cx="610" cy="350" r="8"/>
+  </g>
+
+  <!-- rug -->
+  <rect x="210" y="520" width="640" height="120" rx="60" fill="url(#rugPat)" opacity="0.9"/>
+
+  <!-- bed: headboard -->
+  <rect x="80" y="290" width="150" height="200" rx="6" fill="#9e5f3e"/>
+  <rect x="70" y="280" width="20" height="40" fill="#9e5f3e"/>
+  <!-- nightstand -->
+  <rect x="220" y="360" width="80" height="70" rx="4" fill="#2b2b2b" opacity="0.85"/>
+  <rect x="230" y="370" width="60" height="8" fill="#4a4a4a"/>
+  <!-- lamp -->
+  <rect x="246" y="330" width="10" height="30" fill="#a35a30"/>
+  <path d="M230 320 h42 l-10 -22 h-22 z" fill="#efe6cc" stroke="#d5c9a8" stroke-width="1"/>
+
+  <!-- mattress and bedding -->
+  <path d="M20,410 q40,-40 120,-40 h260 q30,0 50,15 q20,15 20,40 v90 q-130,15 -260,15 q-130,0 -190,-18 z" fill="#e9edf0" stroke="#d9dee2" stroke-width="2" opacity="0.95"/>
+  <!-- duvet shading -->
+  <path d="M40,500 q150,-40 360,-30 v30 q-190,25 -360,18 z" fill="#cfd7dd" opacity="0.35"/>
+
+  <!-- pillow -->
+  <path d="M60,380 q20,-20 60,-18 h70 q25,2 45,18 q-8,30 -45,38 h-90 q-28,-8 -40,-38 z" fill="url(#dots)" stroke="#e7e0d8" stroke-width="1"/>
+
+  <!-- chaise on the right -->
+  <path d="M780,520 q40,-20 60,-18 q50,5 90,0 q30,-3 40,18 q0,70 -100,70 q-70,0 -90,-8 q-15,-6 -20,-32 q-4,-22 20,-30 z" fill="url(#vine)" stroke="#d6c8b3" stroke-width="2"/>
+  <ellipse cx="970" cy="520" rx="8" ry="12" fill="#d6c8b3"/>
+
+  <!-- small side table in foreground -->
+  <rect x="900" y="555" width="100" height="95" fill="#5b3c28" opacity="0.85"/>
+</svg>

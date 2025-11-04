@@ -1,0 +1,30 @@
+<svg viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Staff lines -->
+  <line x1="0" y1="20" x2="1000" y2="20" stroke="black"/>
+  <line x1="0" y1="35" x2="1000" y2="35" stroke="black"/>
+  <line x1="0" y1="50" x2="1000" y2="50" stroke="black"/>
+  <line x1="0" y1="65" x2="1000" y2="65" stroke="black"/>
+  <line x1="0" y1="80" x2="1000" y2="80" stroke="black"/>
+  
+  <!-- Treble clef -->
+  <path d="M 20 50 Q 30 30 40 50 T 60 70 Q 70 90 80 50" stroke="black" fill="none"/>
+  
+  <!-- Notes and symbols -->
+  <circle cx="100" cy="40" r="3" fill="black"/> <!-- Note -->
+  <line x1="100" y1="40" x2="100" y2="60" stroke="black"/> <!-- Stem -->
+  <path d="M 110 55 Q 120 50 130 55" stroke="black" fill="none"/> <!-- Tie -->
+  
+  <circle cx="150" cy="45" r="3" fill="black"/>
+  <line x1="150" y1="45" x2="150" y2="65" stroke="black"/>
+  
+  <!-- Sharp accidental -->
+  <path d="M 180 40 L 185 50 L 180 50 L 185 60" stroke="black"/>
+  <circle cx="190" cy="45" r="3" fill="black"/>
+  
+  <!-- Triplet bracket -->
+  <path d="M 220 55 Q 240 45 260 55" stroke="black"/>
+  <text x="240" y="45" font-size="8">3</text>
+  
+  <!-- Additional notes and symbols would follow similar patterns -->
+  
+</svg>

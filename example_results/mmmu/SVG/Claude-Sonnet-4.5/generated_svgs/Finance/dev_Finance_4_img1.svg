@@ -1,0 +1,35 @@
+<svg viewBox="0 0 820 320" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="820" height="320" fill="#d4dce3"/>
+  
+  <text x="40" y="50" font-family="serif" font-size="24" font-weight="bold" fill="#000">Case</text>
+  <text x="153" y="50" font-family="serif" font-size="24" font-weight="bold" fill="#000">Amount of annuity</text>
+  <text x="418" y="50" font-family="serif" font-size="24" font-weight="bold" fill="#000">Interest rate</text>
+  <text x="608" y="50" font-family="serif" font-size="24" font-weight="bold" fill="#000">Period (years)</text>
+  
+  <line x1="40" y1="65" x2="780" y2="65" stroke="#000" stroke-width="1"/>
+  
+  <text x="60" y="100" font-family="serif" font-size="22" fill="#000">A</text>
+  <text x="195" y="100" font-family="serif" font-size="22" fill="#000">$ 12,000</text>
+  <text x="485" y="100" font-family="serif" font-size="22" fill="#000">7%</text>
+  <text x="685" y="100" font-family="serif" font-size="22" fill="#000">3</text>
+  
+  <text x="60" y="145" font-family="serif" font-size="22" fill="#000">B</text>
+  <text x="195" y="145" font-family="serif" font-size="22" fill="#000">55,000</text>
+  <text x="485" y="145" font-family="serif" font-size="22" fill="#000">12</text>
+  <text x="685" y="145" font-family="serif" font-size="22" fill="#000">15</text>
+  
+  <text x="60" y="190" font-family="serif" font-size="22" fill="#000">C</text>
+  <text x="195" y="190" font-family="serif" font-size="22" fill="#000">700</text>
+  <text x="485" y="190" font-family="serif" font-size="22" fill="#000">20</text>
+  <text x="685" y="190" font-family="serif" font-size="22" fill="#000">9</text>
+  
+  <text x="60" y="235" font-family="serif" font-size="22" fill="#000">D</text>
+  <text x="195" y="235" font-family="serif" font-size="22" fill="#000">140,000</text>
+  <text x="485" y="235" font-family="serif" font-size="22" fill="#000">5</text>
+  <text x="685" y="235" font-family="serif" font-size="22" fill="#000">7</text>
+  
+  <text x="60" y="280" font-family="serif" font-size="22" fill="#000">E</text>
+  <text x="195" y="280" font-family="serif" font-size="22" fill="#000">22,500</text>
+  <text x="485" y="280" font-family="serif" font-size="22" fill="#000">10</text>
+  <text x="685" y="280" font-family="serif" font-size="22" fill="#000">5</text>
+</svg>

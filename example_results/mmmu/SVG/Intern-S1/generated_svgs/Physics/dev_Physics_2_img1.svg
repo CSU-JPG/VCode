@@ -1,0 +1,43 @@
+<svg viewBox="-5 15 106 20" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="25" x2="96" y2="25" stroke="black"/>
+  
+  <!-- Dashed cars with diamond wheels -->
+  <!-- Car at 0s -->
+  <rect x="-2" y="19" width="4" height="2" stroke="black" stroke-dasharray="2,2" fill="none"/>
+  <polygon points="-1.5,19.5 -1,20 -1.5,20.5 -2,20" stroke="black" fill="none"/>
+  <polygon points="1.5,19.5 2,20 1.5,20.5 1,20" stroke="black" fill="none"/>
+  
+  <!-- Car at 0.1s (6cm) -->
+  <rect x="4" y="19" width="4" height="2" stroke="black" stroke-dasharray="2,2" fill="none"/>
+  <polygon points="4.5,19.5 5,20 4.5,20.5 4,20" stroke="black" fill="none"/>
+  <polygon points="7.5,19.5 8,20 7.5,20.5 7,20" stroke="black" fill="none"/>
+  
+  <!-- Car at 0.2s (24cm) -->
+  <rect x="22" y="19" width="4" height="2" stroke="black" stroke-dasharray="2,2" fill="none"/>
+  <polygon points="22.5,19.5 23,20 22.5,20.5 22,20" stroke="black" fill="none"/>
+  <polygon points="25.5,19.5 26,20 25.5,20.5 25,20" stroke="black" fill="none"/>
+  
+  <!-- Car at 0.3s (54cm) -->
+  <rect x="52" y="19" width="4" height="2" stroke="black" stroke-dasharray="2,2" fill="none"/>
+  <polygon points="52.5,19.5 53,20 52.5,20.5 52,20" stroke="black" fill="none"/>
+  <polygon points="55.5,19.5 56,20 55.5,20.5 55,20" stroke="black" fill="none"/>
+  
+  <!-- Solid car at 0.4s (96cm) -->
+  <rect x="94" y="19" width="4" height="2" fill="black"/>
+  <polygon points="94.5,19.5 95,20 94.5,20.5 94,20" fill="black"/>
+  <polygon points="97.5,19.5 98,20 97.5,20.5 97,20" fill="black"/>
+  
+  <!-- Time labels -->
+  <text x="0" y="20" text-anchor="middle" font-size="1.2">0s</text>
+  <text x="6" y="20" text-anchor="middle" font-size="1.2">.1s</text>
+  <text x="24" y="20" text-anchor="middle" font-size="1.2">.2s</text>
+  <text x="54" y="20" text-anchor="middle" font-size="1.2">.3s</text>
+  <text x="96" y="20" text-anchor="middle" font-size="1.2">.4s</text>
+  
+  <!-- Distance labels -->
+  <text x="0" y="30" text-anchor="middle" font-size="1.2">Start</text>
+  <text x="6" y="30" text-anchor="middle" font-size="1.2">6cm</text>
+  <text x="24" y="30" text-anchor="middle" font-size="1.2">24cm</text>
+  <text x="54" y="30" text-anchor="middle" font-size="1.2">54cm</text>
+  <text x="96" y="30" text-anchor="middle" font-size="1.2">96cm</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- First cross -->
+  <rect x="85" y="5" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="110" y="37" font-family="Arial" font-size="24" text-anchor="middle">R</text>
+  
+  <rect x="35" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="60" y="87" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <rect x="85" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="110" y="87" font-family="Arial" font-size="24" text-anchor="middle">B</text>
+  
+  <rect x="135" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="160" y="87" font-family="Arial" font-size="24" text-anchor="middle">Y</text>
+  
+  <rect x="85" y="105" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="110" y="137" font-family="Arial" font-size="24" text-anchor="middle">R</text>
+  
+  <rect x="85" y="155" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="110" y="187" font-family="Arial" font-size="24" text-anchor="middle">B</text>
+  
+  <!-- Second cross -->
+  <rect x="275" y="5" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="300" y="37" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <rect x="225" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="250" y="87" font-family="Arial" font-size="24" text-anchor="middle">Y</text>
+  
+  <rect x="275" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="300" y="87" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <rect x="325" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="350" y="87" font-family="Arial" font-size="24" text-anchor="middle">R</text>
+  
+  <rect x="275" y="105" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="300" y="137" font-family="Arial" font-size="24" text-anchor="middle">Y</text>
+  
+  <rect x="275" y="155" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="300" y="187" font-family="Arial" font-size="24" text-anchor="middle">B</text>
+  
+  <!-- Third cross -->
+  <rect x="465" y="5" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="490" y="37" font-family="Arial" font-size="24" text-anchor="middle">Y</text>
+  
+  <rect x="415" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="440" y="87" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <rect x="465" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="490" y="87" font-family="Arial" font-size="24" text-anchor="middle">R</text>
+  
+  <rect x="515" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="540" y="87" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <rect x="465" y="105" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="490" y="137" font-family="Arial" font-size="24" text-anchor="middle">B</text>
+  
+  <rect x="465" y="155" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="490" y="187" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <!-- Fourth cross -->
+  <rect x="625" y="5" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="650" y="37" font-family="Arial" font-size="24" text-anchor="middle">R</text>
+  
+  <rect x="575" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="600" y="87" font-family="Arial" font-size="24" text-anchor="middle">Y</text>
+  
+  <rect x="625" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="650" y="87" font-family="Arial" font-size="24" text-anchor="middle">Y</text>
+  
+  <rect x="675" y="55" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="700" y="87" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <rect x="625" y="105" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="650" y="137" font-family="Arial" font-size="24" text-anchor="middle">G</text>
+  
+  <rect x="625" y="155" width="50" height="50" fill="none" stroke="black" stroke-width="2"/>
+  <text x="650" y="187" font-family="Arial" font-size="24" text-anchor="middle">B</text>
+</svg>

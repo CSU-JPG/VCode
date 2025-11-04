@@ -1,0 +1,63 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left wall -->
+  <rect x="115" y="20" width="25" height="340" fill="#2a2a2a"/>
+  
+  <!-- Right wall -->
+  <rect x="460" y="20" width="25" height="340" fill="#2a2a2a"/>
+  
+  <!-- Bottom wall -->
+  <rect x="115" y="335" width="370" height="25" fill="#2a2a2a"/>
+  
+  <!-- Top brown layer -->
+  <rect x="140" y="60" width="320" height="60" fill="#c89968" stroke="#000" stroke-width="2"/>
+  
+  <!-- Main water chamber -->
+  <rect x="140" y="120" width="320" height="215" fill="#ffb347" stroke="#000" stroke-width="2"/>
+  
+  <!-- Input arrow -->
+  <line x1="30" y1="210" x2="110" y2="210" stroke="#000" stroke-width="3"/>
+  <polygon points="110,210 95,200 95,220" fill="#000"/>
+  
+  <!-- Output arrow -->
+  <line x1="490" y1="210" x2="570" y2="210" stroke="#000" stroke-width="3"/>
+  <polygon points="490,210 505,200 505,220" fill="#000"/>
+  
+  <!-- Spring/coil -->
+  <path d="M 180,220 L 190,220 L 195,210 L 205,230 L 215,210 L 225,230 L 235,210 L 245,230 L 255,210 L 260,220 L 270,220" 
+        stroke="#000" stroke-width="3" fill="none"/>
+  
+  <!-- Propeller blades -->
+  <ellipse cx="380" cy="260" rx="15" ry="35" fill="#6699cc" opacity="0.7" transform="rotate(30 380 260)"/>
+  <ellipse cx="380" cy="260" rx="15" ry="35" fill="#4477aa" opacity="0.7" transform="rotate(-30 380 260)"/>
+  
+  <!-- Propeller center -->
+  <circle cx="380" cy="260" r="8" fill="#2a2a2a"/>
+  
+  <!-- Shaft -->
+  <rect x="388" y="255" width="80" height="10" fill="#999999" stroke="#000" stroke-width="1"/>
+  
+  <!-- Curved arrow around propeller -->
+  <path d="M 395,245 A 20 20 0 0 1 405,275" stroke="#4499ff" stroke-width="2" fill="none" marker-end="url(#arrowblue)"/>
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <polygon points="0,0 0,6 6,3" fill="#4499ff"/>
+    </marker>
+  </defs>
+  
+  <!-- H2O text -->
+  <text x="260" y="165" font-family="serif" font-size="32" fill="#000">H</text>
+  <text x="283" y="172" font-family="serif" font-size="20" fill="#000">2</text>
+  <text x="295" y="165" font-family="serif" font-size="32" fill="#000">O</text>
+  
+  <!-- P = constant text -->
+  <text x="210" y="200" font-family="serif" font-size="24" font-style="italic" fill="#000">P</text>
+  <text x="230" y="200" font-family="serif" font-size="24" fill="#000"> = constant</text>
+  
+  <!-- We label -->
+  <text x="60" y="265" font-family="serif" font-size="28" font-style="italic" fill="#000">W</text>
+  <text x="85" y="272" font-family="serif" font-size="18" fill="#000">e</text>
+  
+  <!-- Wsh label -->
+  <text x="510" y="280" font-family="serif" font-size="28" font-style="italic" fill="#000">W</text>
+  <text x="535" y="287" font-family="serif" font-size="18" fill="#000">sh</text>
+</svg>

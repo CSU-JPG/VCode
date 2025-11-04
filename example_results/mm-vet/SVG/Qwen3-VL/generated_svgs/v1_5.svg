@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cell { stroke: black; stroke-width: 1; fill: white; }
+    .text { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+
+  <!-- Grid lines -->
+  <rect x="0" y="0" width="200" height="60" class="cell"/>
+  <rect x="200" y="0" width="200" height="60" class="cell"/>
+  <rect x="0" y="60" width="200" height="60" class="cell"/>
+  <rect x="200" y="60" width="200" height="60" class="cell"/>
+  <rect x="0" y="120" width="200" height="60" class="cell"/>
+  <rect x="200" y="120" width="200" height="60" class="cell"/>
+  <rect x="0" y="180" width="200" height="60" class="cell"/>
+  <rect x="200" y="180" width="200" height="60" class="cell"/>
+  <rect x="0" y="240" width="200" height="60" class="cell"/>
+  <rect x="200" y="240" width="200" height="60" class="cell"/>
+
+  <!-- Text content -->
+  <text x="100" y="30" class="text">5 + a = 7</text>
+  <text x="300" y="30" class="text">40 + y = 45</text>
+  <text x="100" y="90" class="text">10 + y = 15</text>
+  <text x="300" y="90" class="text">39 + a = 41</text>
+  <text x="100" y="150" class="text">20 + a = 22</text>
+  <text x="300" y="150" class="text">24 + y = 29</text>
+  <text x="100" y="210" class="text">48 + a = 50</text>
+  <text x="300" y="210" class="text">15 + a = 17</text>
+  <text x="100" y="270" class="text">10 + a = 12</text>
+  <text x="300" y="270" class="text">34 + y = 39</text>
+</svg>

@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1366 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe2f7"/>
+      <stop offset="55%" stop-color="#e9eef6"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5f676f"/>
+      <stop offset="100%" stop-color="#3e454d"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5da45f"/>
+      <stop offset="100%" stop-color="#3c7f3e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#sky)"/>
+
+  <!-- distant tree line and shrubs -->
+  <g opacity="0.95">
+    <rect x="0" y="420" width="1366" height="80" fill="url(#grassGrad)"/>
+    <g fill="#2f5b33">
+      <circle cx="120" cy="150" r="90"/>
+      <circle cx="190" cy="110" r="80"/>
+      <circle cx="260" cy="160" r="70"/>
+      <circle cx="70" cy="210" r="80"/>
+      <circle cx="320" cy="120" r="65"/>
+      <circle cx="1090" cy="120" r="95"/>
+      <circle cx="1180" cy="100" r="80"/>
+      <circle cx="1260" cy="150" r="85"/>
+    </g>
+    <g stroke="#3a4a2f" stroke-width="8">
+      <line x1="110" y1="240" x2="110" y2="420"/>
+      <line x1="1180" y1="220" x2="1180" y2="420"/>
+    </g>
+  </g>
+
+  <!-- mid-right building -->
+  <g>
+    <rect x="880" y="360" width="260" height="150" fill="#3c434b"/>
+    <rect x="880" y="400" width="260" height="18" fill="#a6b23b" opacity="0.8"/>
+    <rect x="880" y="440" width="260" height="18" fill="#a6b23b" opacity="0.8"/>
+  </g>
+
+  <!-- road -->
+  <polygon points="250,450 1120,450 1366,768 0,768" fill="url(#roadGrad)"/>
+
+  <!-- left sidewalk and verge -->
+  <g>
+    <polygon points="0,540 250,450 340,480 90,650 0,650" fill="#cfd3d7"/>
+    <polygon points="0,520 250,450 240,430 0,500" fill="#6c7b44" opacity="0.8"/>
+    <line x1="70" y1="650" x2="330" y2="520" stroke="#bfc6cb" stroke-width="8"/>
+  </g>
+
+  <!-- speed hump with alternating blocks -->
+  <g transform="translate(480,470)">
+    <rect x="-20" y="0" width="460" height="25" rx="4" ry="4" fill="#222"/>
+    <g transform="translate(0,0)">
+      <rect x="-10" y="2" width="50" height="21" fill="#f0cc3a"/>
+      <rect x="60" y="2" width="50" height="21" fill="#f0cc3a"/>
+      <rect x="130" y="2" width="50" height="21" fill="#f0cc3a"/>
+      <rect x="200" y="2" width="50" height="21" fill="#f0cc3a"/>
+      <rect x="270" y="2" width="50" height="21" fill="#f0cc3a"/>
+      <rect x="340" y="2" width="50" height="21" fill="#f0cc3a"/>
+      <rect x="410" y="2" width="50" height="21" fill="#f0cc3a"/>
+    </g>
+  </g>
+
+  <!-- central white lane arrow -->
+  <g fill="#e9eef2" opacity="0.9">
+    <polygon points="675,650 700,715 650,715"/>
+    <rect x="667" y="600" width="16" height="64" rx="6" ry="6"/>
+    <rect x="657" y="720" width="36" height="24" rx="6" ry="6"/>
+  </g>
+
+  <!-- Overhead gantry -->
+  <g>
+    <!-- pillars -->
+    <rect x="560" y="180" width="40" height="300" fill="#1f2328"/>
+    <rect x="1020" y="170" width="40" height="320" fill="#1f2328"/>
+    <!-- portal beam -->
+    <rect x="110" y="150" width="1146" height="50" rx="10" ry="10" fill="#2b3036"/>
+    <!-- sign -->
+    <circle cx="683" cy="176" r="20" fill="#f2f2f2" stroke="#c23c3c" stroke-width="4"/>
+    <text x="683" y="182" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" fill="#2b2b2b">4.5m</text>
+  </g>
+
+  <!-- footpath shelter on left (simplified) -->
+  <g opacity="0.85">
+    <rect x="300" y="330" width="170" height="30" rx="10" ry="10" fill="#2b3137"/>
+    <rect x="305" y="360" width="12" height="120" fill="#22282f"/>
+    <rect x="374" y="360" width="12" height="120" fill="#22282f"/>
+    <rect x="442" y="360" width="12" height="120" fill="#22282f"/>
+  </g>
+
+  <!-- person (simplified) -->
+  <g transform="translate(440,430)">
+    <circle cx="0" cy="-30" r="16" fill="#c9b7a2"/>
+    <rect x="-10" y="-14" width="20" height="54" rx="10" ry="10" fill="#9aa0a6"/>
+    <rect x="-26" y="6" width="16" height="40" rx="8" ry="8" fill="#8b9096" transform="rotate(-10)"/>
+    <rect x="10" y="6" width="16" height="40" rx="8" ry="8" fill="#8b9096" transform="rotate(15)"/>
+    <rect x="-12" y="40" width="10" height="44" fill="#496d8a"/>
+    <rect x="6" y="40" width="10" height="44" fill="#496d8a"/>
+    <rect x="-16" y="80" width="18" height="8" rx="3" ry="3" fill="#2e3135"/>
+    <rect x="6" y="80" width="18" height="8" rx="3" ry="3" fill="#2e3135"/>
+  </g>
+
+  <!-- small car on the right (simplified) -->
+  <g transform="translate(1205,460)">
+    <rect x="-50" y="-10" width="120" height="30" rx="10" ry="10" fill="#dfe4ea" stroke="#b9c1c8" stroke-width="2"/>
+    <rect x="-35" y="-18" width="70" height="20" rx="8" ry="8" fill="#9fb6c9"/>
+    <circle cx="-25" cy="22" r="10" fill="#222"/>
+    <circle cx="45" cy="22" r="10" fill="#222"/>
+    <rect x="-60" y="-6" width="10" height="18" fill="#b9c1c8"/>
+    <rect x="62" y="-6" width="10" height="18" fill="#b9c1c8"/>
+  </g>
+
+  <!-- bounding boxes -->
+  <rect x="406" y="390" width="110" height="240" fill="none" stroke="#ff2a2a" stroke-width="4"/>
+  <rect x="1180" y="430" width="170" height="70" fill="none" stroke="#2a5cff" stroke-width="4"/>
+
+  <!-- foreground soft vignette -->
+  <rect x="0" y="0" width="1366" height="768" fill="none" stroke="#000" stroke-opacity="0.08" stroke-width="12"/>
+</svg>

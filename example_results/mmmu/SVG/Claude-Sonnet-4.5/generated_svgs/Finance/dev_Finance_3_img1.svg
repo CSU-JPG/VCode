@@ -1,0 +1,25 @@
+<svg viewBox="0 0 573 192" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="573" height="192" fill="#dfe8ec"/>
+  
+  <text x="43" y="50" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">Investment</text>
+  <text x="192" y="50" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">Single amount</text>
+  <text x="342" y="50" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#000">Investment life (years)</text>
+  
+  <line x1="20" y1="60" x2="553" y2="60" stroke="#999" stroke-width="1"/>
+  
+  <text x="43" y="88" font-family="Georgia, serif" font-size="18" fill="#000">A</text>
+  <text x="192" y="88" font-family="Georgia, serif" font-size="18" fill="#000">$ 8,400</text>
+  <text x="342" y="88" font-family="Georgia, serif" font-size="18" fill="#000">6</text>
+  
+  <text x="43" y="118" font-family="Georgia, serif" font-size="18" fill="#000">B</text>
+  <text x="192" y="118" font-family="Georgia, serif" font-size="18" fill="#000">15,900</text>
+  <text x="342" y="118" font-family="Georgia, serif" font-size="18" fill="#000">15</text>
+  
+  <text x="43" y="148" font-family="Georgia, serif" font-size="18" fill="#000">C</text>
+  <text x="192" y="148" font-family="Georgia, serif" font-size="18" fill="#000">7,600</text>
+  <text x="342" y="148" font-family="Georgia, serif" font-size="18" fill="#000">4</text>
+  
+  <text x="43" y="178" font-family="Georgia, serif" font-size="18" fill="#000">D</text>
+  <text x="192" y="178" font-family="Georgia, serif" font-size="18" fill="#000">13,000</text>
+  <text x="342" y="178" font-family="Georgia, serif" font-size="18" fill="#000">10</text>
+</svg>

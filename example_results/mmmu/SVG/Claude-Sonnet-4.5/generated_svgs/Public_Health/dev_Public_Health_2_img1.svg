@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Table border -->
+  <rect x="10" y="10" width="780" height="260" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Header row -->
+  <line x1="10" y1="50" x2="790" y2="50" stroke="black" stroke-width="2"/>
+  
+  <!-- Vertical lines -->
+  <line x1="250" y1="10" x2="250" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="400" y1="10" x2="400" y2="270" stroke="black" stroke-width="2"/>
+  <line x1="595" y1="10" x2="595" y2="270" stroke="black" stroke-width="2"/>
+  
+  <!-- Horizontal lines for data rows -->
+  <line x1="10" y1="90" x2="790" y2="90" stroke="black" stroke-width="1"/>
+  <line x1="10" y1="130" x2="790" y2="130" stroke="black" stroke-width="1"/>
+  <line x1="10" y1="170" x2="790" y2="170" stroke="black" stroke-width="1"/>
+  <line x1="10" y1="210" x2="790" y2="210" stroke="black" stroke-width="1"/>
+  <line x1="10" y1="250" x2="790" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- Header text -->
+  <text x="130" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Test results</text>
+  <text x="325" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Patients with cervical</text>
+  <text x="325" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">lesions</text>
+  <text x="692" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Patients with non-cervical</text>
+  <text x="692" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">lesions</text>
+  
+  <!-- Column headers -->
+  <text x="80" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">electronic colposcopy</text>
+  <text x="325" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">TCT</text>
+  
+  <!-- Row 1 -->
+  <text x="130" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">+</text>
+  <text x="325" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">-</text>
+  <text x="497" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">15</text>
+  <text x="692" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">10</text>
+  
+  <!-- Row 2 -->
+  <text x="130" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">-</text>
+  <text x="325" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">+</text>
+  <text x="497" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">5</text>
+  <text x="692" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">220</text>
+  
+  <!-- Row 3 -->
+  <text x="130" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">+</text>
+  <text x="325" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">+</text>
+  <text x="497" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">70</text>
+  <text x="692" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">25</text>
+  
+  <!-- Row 4 -->
+  <text x="130" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">-</text>
+  <text x="325" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">-</text>
+  <text x="497" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">10</text>
+  <text x="692" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">245</text>
+  
+  <!-- Total row -->
+  <text x="180" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Total</text>
+  <text x="497" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">100</text>
+  <text x="692" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">500</text>
+</svg>

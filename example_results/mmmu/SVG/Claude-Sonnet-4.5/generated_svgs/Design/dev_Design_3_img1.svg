@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Floor -->
+  <rect x="0" y="600" width="1200" height="200" fill="#8B6F47"/>
+  
+  <!-- Wood grain effect on floor -->
+  <line x1="0" y1="620" x2="1200" y2="620" stroke="#6B5637" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="650" x2="1200" y2="650" stroke="#6B5637" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="680" x2="1200" y2="680" stroke="#6B5637" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Back wall - white section -->
+  <rect x="0" y="200" width="500" height="400" fill="#F5F5F5"/>
+  
+  <!-- Wooden slat wall - curved design -->
+  <path d="M 0 200 Q 250 150 500 200 L 500 600 L 0 600 Z" fill="#D4A574"/>
+  
+  <!-- Vertical wooden slats -->
+  <rect x="20" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="50" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="80" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="110" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="140" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="170" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="200" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="230" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="260" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="290" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="320" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="350" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="380" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="410" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="440" y="200" width="15" height="400" fill="#C9944A"/>
+  <rect x="470" y="200" width="15" height="400" fill="#C9944A"/>
+  
+  <!-- White section with black stripes -->
+  <rect x="0" y="450" width="500" height="150" fill="#FFFFFF"/>
+  <rect x="20" y="460" width="15" height="130" fill="#000000"/>
+  <rect x="50" y="460" width="15" height="130" fill="#000000"/>
+  <rect x="80" y="460" width="15" height="130" fill="#000000"/>
+  <rect x="110" y="460" width="15" height="130" fill="#000000"/>
+  <rect x="140" y="460" width="15" height="130" fill="#000000"/>
+  <rect x="170" y="460" width="15" height="130" fill="#000000"/>
+  
+  <!-- Yellow/mustard banquette seating -->
+  <path d="M 50 500 L 450 500 L 450 600 L 50 600 Z" fill="#E6B524"/>
+  <ellipse cx="250" cy="500" rx="200" ry="20" fill="#D4A11F"/>
+  
+  <!-- Tables -->
+  <rect x="80" y="580" width="80" height="60" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+  <rect x="200" y="580" width="80" height="60" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+  <rect x="320" y="580" width="80" height="60" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+  
+  <!-- Chairs -->
+  <rect x="440" y="590" width="35" height="40" fill="#C9944A"/>
+  <rect x="440" y="590" width="35" height="10" fill="#B88439"/>
+  <rect x="500" y="590" width="35" height="40" fill="#C9944A"/>
+  <rect x="500" y="590" width="35" height="10" fill="#B88439"/>
+  <rect x="560" y="590" width="35" height="40" fill="#C9944A"/>
+  <rect x="560" y="590" width="35" height="10" fill="#B88439"/>
+  
+  <!-- More chairs in perspective -->
+  <rect x="620" y="600" width="30" height="35" fill="#C9944A"/>
+  <rect x="670" y="600" width="30" height="35" fill="#C9944A"/>
+  <rect x="720" y="600" width="30" height="35" fill="#C9944A"/>
+  
+  <!-- Tables in background -->
+  <rect x="640" y="570" width="70" height="50" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+  <rect x="750" y="570" width="70" height="50" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+  
+  <!-- Ceiling - black with lights -->
+  <rect x="0" y="0" width="1200" height="200" fill="#1A1A1A"/>
+  
+  <!-- Ceiling lights -->
+  <circle cx="100" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="200" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="300" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="400" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="500" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="600" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="700" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="800" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="900" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  <circle cx="1000" cy="100" r="12" fill="#FFE680" opacity="0.9"/>
+  
+  <!-- Light glow effects -->
+  <circle cx="100" cy="100" r="25" fill="#FFE680" opacity="0.3"/>
+  <circle cx="300" cy="100" r="25" fill="#FFE680" opacity="0.3"/>
+  <circle cx="500" cy="100" r="25" fill="#FFE680" opacity="0.3"/>
+  <circle cx="700" cy="100" r="25" fill="#FFE680" opacity="0.3"/>
+  <circle cx="900" cy="100" r="25" fill="#FFE680" opacity="0.3"/>
+  
+  <!-- Right wall - white/cream -->
+  <rect x="500" y="200" width="700" height="400" fill="#F8F8F8"/>
+  
+  <!-- Kitchen/service area in background -->
+  <rect x="900" y="250" width="250" height="150" fill="#E0E0E0"/>
+  <rect x="920" y="270" width="50" height="100" fill="#4A90E2"/>
+  
+  <!-- Ambient lighting on banquette -->
+  <rect x="50" y="480" width="400" height="20" fill="#FFC850" opacity="0.6"/>
+</svg>

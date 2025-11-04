@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background soil -->
+  <rect width="800" height="1200" fill="#3a3632"/>
+  
+  <!-- Dark soil patches -->
+  <ellipse cx="200" cy="500" rx="150" ry="80" fill="#2a2420" opacity="0.6"/>
+  <ellipse cx="600" cy="700" rx="180" ry="90" fill="#2a2420" opacity="0.5"/>
+  <ellipse cx="400" cy="900" rx="200" ry="100" fill="#2a2420" opacity="0.6"/>
+  
+  <!-- Bottom layer leaves (darker, partially wilted) -->
+  <path d="M 300 1000 Q 250 950 280 880 Q 300 850 340 870 Q 360 920 340 970 Z" fill="#5a6d3f" stroke="#4a5d2f" stroke-width="2"/>
+  <path d="M 500 1050 Q 460 1000 490 930 Q 510 900 550 920 Q 570 970 550 1020 Z" fill="#647541" stroke="#546530" stroke-width="2"/>
+  <path d="M 200 950 Q 170 910 190 860 Q 210 840 240 855 Q 255 895 235 935 Z" fill="#5d7042" stroke="#4d6032" stroke-width="2"/>
+  
+  <!-- Wilted/yellowing leaves at bottom -->
+  <path d="M 380 1080 Q 340 1050 355 1000 Q 370 980 400 990 Q 415 1030 405 1065 Z" fill="#8a954a" stroke="#7a8540" stroke-width="2"/>
+  <path d="M 250 1100 Q 220 1070 235 1025 Q 250 1005 275 1015 Q 285 1055 270 1085 Z" fill="#9a9d4f" stroke="#8a8d3f" stroke-width="2"/>
+  
+  <!-- Brown wilted leaves -->
+  <path d="M 450 1020 Q 420 1000 430 970 Q 445 955 465 965 Q 475 990 465 1010 Z" fill="#6b5d3a" stroke="#5b4d2a" stroke-width="2"/>
+  <path d="M 320 1050 Q 300 1030 310 1005 Q 320 995 335 1000 Q 340 1020 330 1040 Z" fill="#7a6842" stroke="#6a5832" stroke-width="2"/>
+  
+  <!-- Middle layer leaves -->
+  <path d="M 150 700 Q 100 650 130 570 Q 160 530 210 560 Q 240 630 210 690 Z" fill="#6b8249" stroke="#5b7239" stroke-width="2"/>
+  <path d="M 650 750 Q 610 690 640 610 Q 670 570 720 600 Q 750 670 720 740 Z" fill="#6f8650" stroke="#5f7640" stroke-width="2"/>
+  <path d="M 400 650 Q 360 600 385 530 Q 410 495 455 520 Q 480 585 460 640 Z" fill="#728a52" stroke="#628042" stroke-width="2"/>
+  
+  <!-- Top layer large leaves -->
+  <path d="M 100 400 Q 40 330 75 230 Q 120 170 190 210 Q 240 300 200 390 Z" fill="#7a9458" stroke="#6a8448" stroke-width="3">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite" 
+      values="M 100 400 Q 40 330 75 230 Q 120 170 190 210 Q 240 300 200 390 Z;
+              M 100 400 Q 38 328 73 228 Q 118 168 188 208 Q 238 298 200 390 Z;
+              M 100 400 Q 40 330 75 230 Q 120 170 190 210 Q 240 300 200 390 Z"/>
+  </path>
+  
+  <path d="M 600 350 Q 540 280 575 180 Q 620 120 690 160 Q 740 250 700 340 Z" fill="#7d9760" stroke="#6d8750" stroke-width="3">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" 
+      values="M 600 350 Q 540 280 575 180 Q 620 120 690 160 Q 740 250 700 340 Z;
+              M 600 350 Q 542 282 577 182 Q 622 122 692 162 Q 742 252 700 340 Z;
+              M 600 350 Q 540 280 575 180 Q 620 120 690 160 Q 740 250 700 340 Z"/>
+  </path>
+  
+  <path d="M 350 300 Q 290 230 325 130 Q 370 70 440 110 Q 490 200 450 290 Z" fill="#809a62" stroke="#708a52" stroke-width="3">
+    <animate attributeName="d" dur="4.5s" repeatCount="indefinite" 
+      values="M 350 300 Q 290 230 325 130 Q 370 70 440 110 Q 490 200 450 290 Z;
+              M 350 300 Q 288 228 323 128 Q 368 68 438 108 Q 488 198 450 290 Z;
+              M 350 300 Q 290 230 325 130 Q 370 70 440 110 Q 490 200 450 290 Z"/>
+  </path>
+  
+  <!-- Large top right leaf -->
+  <path d="M 700 200 Q 650 130 680 40 Q 720 -10 780 25 Q 820 110 790 195 Z" fill="#839d65" stroke="#739055" stroke-width="3"/>
+  
+  <!-- Leaf veins on large leaves -->
+  <line x1="150" y1="300" x2="120" y2="220" stroke="#6a8448" stroke-width="2" opacity="0.6"/>
+  <line x1="150" y1="300" x2="140" y2="250" stroke="#6a8448" stroke-width="1.5" opacity="0.5"/>
+  <line x1="400" y1="200" x2="370" y2="130" stroke="#708a52" stroke-width="2" opacity="0.6"/>
+  <line x1="650" y1="250" x2="620" y2="180" stroke="#6d8750" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Central yellowing/wilted stems -->
+  <path d="M 400 600 Q 410 580 405 550 Q 395 520 380 510" stroke="#8a8d4f" stroke-width="8" fill="none"/>
+  <path d="M 420 620 Q 430 600 425 570 Q 415 540 400 530" stroke="#9a9d5f" stroke-width="7" fill="none"/>
+  <path d="M 380 590 Q 370 570 375 545 Q 385 520 400 510" stroke="#7a8542" stroke-width="6" fill="none"/>
+  
+  <!-- Small ground plants/weeds -->
+  <circle cx="350" cy="850" r="3" fill="#4a6030"/>
+  <circle cx="365" cy="860" r="3" fill="#4a6030"/>
+  <circle cx="355" cy="870" r="3" fill="#4a6030"/>
+  <circle cx="450" cy="900" r="3" fill="#4a6030"/>
+  <circle cx="440" cy="910" r="3" fill="#4a6030"/>
+  
+  <!-- Spots and damage on leaves -->
+  <ellipse cx="180" cy="280" rx="8" ry="6" fill="#5a4a30" opacity="0.5"/>
+  <ellipse cx="420" cy="180" rx="10" ry="7" fill="#5a4a30" opacity="0.5"/>
+  <ellipse cx="670" cy="240" rx="9" ry="6" fill="#5a4a30" opacity="0.5"/>
+  <ellipse cx="290" cy="1020" rx="12" ry="9" fill="#4a3a20" opacity="0.6"/>
+  <ellipse cx="480" cy="990" rx="11" ry="8" fill="#4a3a20" opacity="0.6"/>
+</svg>

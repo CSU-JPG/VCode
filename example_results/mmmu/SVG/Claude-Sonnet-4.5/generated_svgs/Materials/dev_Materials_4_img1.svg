@@ -1,0 +1,37 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top left circle -->
+  <circle cx="75" cy="75" r="40" fill="#8B3A3A" stroke="#000" stroke-width="2"/>
+  
+  <!-- Top right circle -->
+  <circle cx="225" cy="75" r="40" fill="#8B3A3A" stroke="#000" stroke-width="2"/>
+  
+  <!-- Center circle with a/2 label -->
+  <circle cx="150" cy="120" r="40" fill="#A84444" stroke="#000" stroke-width="2"/>
+  
+  <!-- Bottom left circle -->
+  <circle cx="100" cy="200" r="35" fill="#8B3A3A" stroke="#000" stroke-width="2"/>
+  
+  <!-- Bottom right circle -->
+  <circle cx="225" cy="200" r="35" fill="#8B3A3A" stroke="#000" stroke-width="2"/>
+  
+  <!-- Arrow from center to top right -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#000"/>
+    </marker>
+  </defs>
+  
+  <line x1="150" y1="120" x2="205" y2="85" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow from center to bottom right -->
+  <line x1="150" y1="150" x2="200" y2="185" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow from center to bottom left -->
+  <line x1="130" y1="145" x2="110" y2="175" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Text label a/2 on center circle -->
+  <text x="135" y="115" font-family="Arial" font-size="18" fill="#000">a/2</text>
+  
+  <!-- Text label a on right side -->
+  <text x="235" y="145" font-family="Arial" font-size="20" fill="#000">a</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 450 240" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="30" font-size="14" font-family="sans-serif" text-anchor="start">Cash</text>
+  <text x="150" y="30" font-size="14" font-family="sans-serif" text-anchor="end">$ 3.5</text>
+  <text x="20" y="55" font-size="14" font-family="sans-serif" text-anchor="start">Receivables</text>
+  <text x="150" y="55" font-size="14" font-family="sans-serif" text-anchor="end">26.0</text>
+  <text x="20" y="80" font-size="14" font-family="sans-serif" text-anchor="start">Inventories</text>
+  <text x="150" y="80" font-size="14" font-family="sans-serif" text-anchor="end">58.0</text>
+  <line x1="20" y1="85" x2="150" y2="85" stroke="black"/>
+  <text x="20" y="105" font-size="14" font-family="sans-serif" text-anchor="start">Total current assets</text>
+  <text x="150" y="105" font-size="14" font-family="sans-serif" text-anchor="end">$ 87.5</text>
+  <line x1="20" y1="110" x2="150" y2="110" stroke="black"/>
+  <text x="20" y="130" font-size="14" font-family="sans-serif" text-anchor="start">Net fixed assets</text>
+  <text x="150" y="130" font-size="14" font-family="sans-serif" text-anchor="end">35.0</text>
+  <line x1="20" y1="135" x2="150" y2="135" stroke="black"/>
+  <text x="20" y="155" font-size="14" font-family="sans-serif" text-anchor="start">Total assets</text>
+  <text x="150" y="155" font-size="14" font-family="sans-serif" text-anchor="end">$ 122.5</text>
+  <text x="250" y="30" font-size="14" font-family="sans-serif" text-anchor="start">Accounts payable</text>
+  <text x="400" y="30" font-size="14" font-family="sans-serif" text-anchor="end">$ 9.0</text>
+  <text x="250" y="55" font-size="14" font-family="sans-serif" text-anchor="start">Notes payable</text>
+  <text x="400" y="55" font-size="14" font-family="sans-serif" text-anchor="end">18.0</text>
+  <text x="250" y="80" font-size="14" font-family="sans-serif" text-anchor="start">Accruals</text>
+  <text x="400" y="80" font-size="14" font-family="sans-serif" text-anchor="end">8.5</text>
+  <line x1="250" y1="85" x2="400" y2="85" stroke="black"/>
+  <text x="250" y="105" font-size="14" font-family="sans-serif" text-anchor="start">Total current liabilities</text>
+  <text x="400" y="105" font-size="14" font-family="sans-serif" text-anchor="end">$ 35.5</text>
+  <line x1="250" y1="110" x2="400" y2="110" stroke="black"/>
+  <text x="250" y="130" font-size="14" font-family="sans-serif" text-anchor="start">Mortgage loan</text>
+  <text x="400" y="130" font-size="14" font-family="sans-serif" text-anchor="end">6.0</text>
+  <text x="250" y="155" font-size="14" font-family="sans-serif" text-anchor="start">Common stock</text>
+  <text x="400" y="155" font-size="14" font-family="sans-serif" text-anchor="end">15.0</text>
+  <text x="250" y="180" font-size="14" font-family="sans-serif" text-anchor="start">Retained earnings</text>
+  <text x="400" y="180" font-size="14" font-family="sans-serif" text-anchor="end">66.0</text>
+  <line x1="250" y1="185" x2="400" y2="185" stroke="black"/>
+  <text x="250" y="205" font-size="14" font-family="sans-serif" text-anchor="start">Total liabilities and equity</text>
+  <text x="400" y="205" font-size="14" font-family="sans-serif" text-anchor="end">$ 122.5</text>
+</svg>

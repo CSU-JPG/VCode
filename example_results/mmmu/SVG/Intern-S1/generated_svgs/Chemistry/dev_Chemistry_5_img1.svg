@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+  
+  <!-- Structure I -->
+  <text x="100" y="100" font-family="Arial" font-size="24">CH₂=CH₂</text>
+  <path d="M160 90 Q200 50 240 90" stroke="black" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Structure II -->
+  <text x="300" y="100" font-family="Arial" font-size="24">CH₃O-CH=CH₂</text>
+  <path d="M360 90 Q400 50 440 90" stroke="black" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Structure III -->
+  <text x="500" y="100" font-family="Arial" font-size="24">CH₃O-CH=CH-C(=O)-OEt</text>
+  <path d="M560 100 Q600 150 640 100 Q680 50 720 100" stroke="black" fill="none" marker-end="url(#arrowhead)"/>
+</svg>

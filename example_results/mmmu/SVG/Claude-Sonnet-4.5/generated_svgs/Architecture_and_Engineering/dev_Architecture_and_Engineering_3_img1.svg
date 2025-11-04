@@ -1,0 +1,115 @@
+<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .truss-line { stroke: #4A90E2; stroke-width: 2; fill: none; }
+      .truss-fill { fill: #87CEEB; stroke: #4A90E2; stroke-width: 2; }
+      .support { fill: none; stroke: #333; stroke-width: 2; }
+      .text { font-family: Arial, sans-serif; font-size: 14px; fill: #000; }
+      .dimension-line { stroke: #000; stroke-width: 1; fill: none; }
+    </style>
+  </defs>
+  
+  <!-- Bottom chord -->
+  <line x1="50" y1="180" x2="450" y2="180" class="truss-line"/>
+  
+  <!-- Top chord -->
+  <line x1="110" y1="80" x2="280" y2="80" class="truss-line"/>
+  <line x1="280" y1="80" x2="390" y2="80" class="truss-line"/>
+  
+  <!-- Left diagonal members -->
+  <line x1="50" y1="180" x2="110" y2="80" class="truss-line"/>
+  <line x1="110" y1="80" x2="170" y2="180" class="truss-line"/>
+  
+  <!-- Center diagonal members -->
+  <line x1="170" y1="180" x2="280" y2="80" class="truss-line"/>
+  <line x1="280" y1="80" x2="280" y2="180" class="truss-line"/>
+  
+  <!-- Right diagonal members -->
+  <line x1="280" y1="180" x2="390" y2="80" class="truss-line"/>
+  <line x1="390" y1="80" x2="450" y2="180" class="truss-line"/>
+  
+  <!-- Vertical member at E -->
+  <line x1="280" y1="80" x2="280" y2="180" class="truss-line"/>
+  
+  <!-- Joint circles -->
+  <circle cx="50" cy="180" r="4" fill="#4A90E2"/>
+  <circle cx="110" cy="80" r="4" fill="#4A90E2"/>
+  <circle cx="170" cy="180" r="4" fill="#4A90E2"/>
+  <circle cx="280" cy="80" r="4" fill="#4A90E2"/>
+  <circle cx="280" cy="180" r="4" fill="#4A90E2"/>
+  <circle cx="390" cy="80" r="4" fill="#4A90E2"/>
+  <circle cx="450" cy="180" r="4" fill="#4A90E2"/>
+  
+  <!-- Support at A (pin) -->
+  <polygon points="50,180 40,195 60,195" class="support"/>
+  <line x1="40" y1="195" x2="60" y2="195" class="support"/>
+  
+  <!-- Support at D (roller) -->
+  <polygon points="450,180 440,195 460,195" class="support"/>
+  <circle cx="445" cy="200" r="5" class="support"/>
+  <circle cx="455" cy="200" r="5" class="support"/>
+  <line x1="435" y1="205" x2="465" y2="205" class="support"/>
+  
+  <!-- Load arrow at E (15 kips downward) -->
+  <line x1="280" y1="210" x2="280" y2="260" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#000"/>
+    </marker>
+  </defs>
+  
+  <!-- Load arrow at B (10 kips downward) -->
+  <line x1="110" y1="50" x2="110" y2="70" stroke="#000" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  <defs>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#000"/>
+    </marker>
+  </defs>
+  
+  <!-- Height dimension (8') -->
+  <line x1="470" y1="80" x2="470" y2="180" class="dimension-line"/>
+  <line x1="465" y1="80" x2="475" y2="80" class="dimension-line"/>
+  <line x1="465" y1="180" x2="475" y2="180" class="dimension-line"/>
+  <text x="480" y="135" class="text">8'</text>
+  
+  <!-- Bottom dimensions -->
+  <!-- 6' -->
+  <line x1="50" y1="240" x2="110" y2="240" class="dimension-line"/>
+  <line x1="50" y1="235" x2="50" y2="245" class="dimension-line"/>
+  <line x1="110" y1="235" x2="110" y2="245" class="dimension-line"/>
+  <text x="70" y="255" class="text" text-anchor="middle">6'</text>
+  
+  <!-- 5' -->
+  <line x1="110" y1="240" x2="170" y2="240" class="dimension-line"/>
+  <line x1="110" y1="235" x2="110" y2="245" class="dimension-line"/>
+  <line x1="170" y1="235" x2="170" y2="245" class="dimension-line"/>
+  <text x="140" y="255" class="text" text-anchor="middle">5'</text>
+  
+  <!-- 5' -->
+  <line x1="170" y1="240" x2="280" y2="240" class="dimension-line"/>
+  <line x1="170" y1="235" x2="170" y2="245" class="dimension-line"/>
+  <line x1="280" y1="235" x2="280" y2="245" class="dimension-line"/>
+  <text x="225" y="255" class="text" text-anchor="middle">5'</text>
+  
+  <!-- 6' -->
+  <line x1="280" y1="240" x2="390" y2="240" class="dimension-line"/>
+  <line x1="280" y1="235" x2="280" y2="245" class="dimension-line"/>
+  <line x1="390" y1="235" x2="390" y2="245" class="dimension-line"/>
+  <text x="335" y="255" class="text" text-anchor="middle">6'</text>
+  
+  <!-- Joint labels -->
+  <text x="35" y="185" class="text" font-style="italic">A</text>
+  <text x="105" y="70" class="text" font-style="italic">B</text>
+  <text x="280" y="70" class="text" font-style="italic">C</text>
+  <text x="455" y="185" class="text" font-style="italic">D</text>
+  <text x="165" y="195" class="text" font-style="italic">E</text>
+  <text x="285" y="195" class="text" font-style="italic">F</text>
+  
+  <!-- Load labels -->
+  <text x="120" y="45" class="text">10 kips</text>
+  <text x="295" y="265" class="text">15 kips</text>
+  
+  <!-- Problem number -->
+  <text x="250" y="305" class="text" font-weight="bold" text-anchor="middle">P8.4</text>
+</svg>

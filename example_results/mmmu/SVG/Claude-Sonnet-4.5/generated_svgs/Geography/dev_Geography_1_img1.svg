@@ -1,0 +1,167 @@
+<svg viewBox="0 0 1200 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <radialGradient id="spaceGradient" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#1a4d6d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1929;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="earthGradient" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#4a9fd8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d7ab5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a4d6d;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="url(#spaceGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="550" cy="80" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="620" cy="60" r="1" fill="white" opacity="0.6"/>
+  <circle cx="700" cy="90" r="1.2" fill="white" opacity="0.7"/>
+  <circle cx="850" cy="120" r="1" fill="white" opacity="0.8"/>
+  <circle cx="920" cy="100" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="980" cy="140" r="1" fill="white" opacity="0.7"/>
+  
+  <!-- Earth on left -->
+  <circle cx="180" cy="150" r="120" fill="url(#earthGradient)" opacity="0.3"/>
+  <path d="M 160 120 Q 170 140 180 150 Q 190 130 200 140" stroke="#5ab8e8" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 140 160 Q 160 170 180 165" stroke="#5ab8e8" stroke-width="1.5" fill="none" opacity="0.3"/>
+  
+  <!-- Main Earth on right -->
+  <circle cx="950" cy="700" r="280" fill="url(#earthGradient)"/>
+  <ellipse cx="950" cy="600" rx="100" ry="80" fill="#2d7ab5" opacity="0.6"/>
+  <ellipse cx="1050" cy="750" rx="80" ry="100" fill="#4a9fd8" opacity="0.4"/>
+  <path d="M 850 650 Q 900 680 950 670 Q 1000 660 1050 690" stroke="#1a4d6d" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Text box -->
+  <rect x="140" y="60" width="420" height="160" fill="rgba(90,184,232,0.15)" rx="5"/>
+  <text x="160" y="95" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Ocean Surface Topography Mission</text>
+  <text x="160" y="125" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">(OSTM) studies ocean dynamics,</text>
+  <text x="160" y="155" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">climate variability, and energy</text>
+  <text x="160" y="185" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">cycles.</text>
+  <line x1="560" y1="140" x2="720" y2="200" stroke="white" stroke-width="2"/>
+  
+  <!-- Orbital paths -->
+  <ellipse cx="600" cy="500" rx="450" ry="400" fill="none" stroke="rgba(90,184,232,0.3)" stroke-width="3"/>
+  <ellipse cx="600" cy="520" rx="480" ry="440" fill="none" stroke="rgba(90,184,232,0.25)" stroke-width="2"/>
+  <ellipse cx="600" cy="540" rx="510" ry="480" fill="none" stroke="rgba(120,200,120,0.3)" stroke-width="3"/>
+  
+  <!-- Satellites with labels -->
+  <!-- OSTM/Jason 2 -->
+  <g transform="translate(850,180)">
+    <rect x="-15" y="-8" width="30" height="16" fill="#d4af37"/>
+    <rect x="-25" y="-3" width="10" height="6" fill="#4a4a8c"/>
+    <rect x="15" y="-3" width="10" height="6" fill="#4a4a8c"/>
+    <rect x="-5" y="-15" width="10" height="7" fill="#5ab8e8"/>
+    <line x1="0" y1="8" x2="40" y2="30" stroke="#5ab8e8" stroke-width="15" opacity="0.4"/>
+  </g>
+  <text x="880" y="210" font-family="Arial, sans-serif" font-size="16" fill="white">OSTM/Jason 2</text>
+  
+  <!-- Jason -->
+  <g transform="translate(680,250)">
+    <rect x="-12" y="-6" width="24" height="12" fill="#d4af37"/>
+    <rect x="-20" y="-2" width="8" height="4" fill="#6a5acd"/>
+    <rect x="12" y="-2" width="8" height="4" fill="#6a5acd"/>
+  </g>
+  <text x="700" y="265" font-family="Arial, sans-serif" font-size="16" fill="white">Jason</text>
+  
+  <!-- QuikSCAT -->
+  <g transform="translate(550,320)">
+    <rect x="-10" y="-5" width="20" height="10" fill="#d4af37"/>
+    <rect x="-18" y="-2" width="7" height="4" fill="#4a4a8c"/>
+    <rect x="11" y="-2" width="7" height="4" fill="#4a4a8c"/>
+  </g>
+  <text x="570" y="340" font-family="Arial, sans-serif" font-size="16" fill="white">QuikSCAT</text>
+  
+  <!-- ACRIMSAT -->
+  <g transform="translate(420,410)">
+    <rect x="-10" y="-5" width="20" height="10" fill="#8b7355"/>
+    <rect x="-16" y="-2" width="6" height="4" fill="#6a5acd"/>
+    <rect x="10" y="-2" width="6" height="4" fill="#6a5acd"/>
+  </g>
+  <text x="440" y="425" font-family="Arial, sans-serif" font-size="16" fill="white">ACRIMSAT</text>
+  
+  <!-- EO-1 -->
+  <g transform="translate(650,520)">
+    <rect x="-8" y="-4" width="16" height="8" fill="#5ab8e8"/>
+    <rect x="-14" y="-1.5" width="5" height="3" fill="#4a4a8c"/>
+    <rect x="9" y="-1.5" width="5" height="3" fill="#4a4a8c"/>
+  </g>
+  <text x="670" y="535" font-family="Arial, sans-serif" font-size="16" fill="white">EO-1</text>
+  
+  <!-- TRMM -->
+  <g transform="translate(710,700)">
+    <rect x="-10" y="-5" width="20" height="10" fill="#d4af37"/>
+    <rect x="-16" y="-2" width="6" height="4" fill="#e0e0e0"/>
+    <rect x="10" y="-2" width="6" height="4" fill="#e0e0e0"/>
+  </g>
+  <text x="730" y="715" font-family="Arial, sans-serif" font-size="16" fill="white">TRMM</text>
+  
+  <!-- SORCE -->
+  <g transform="translate(460,720)">
+    <rect x="-12" y="-6" width="24" height="12" fill="#ff8c42"/>
+    <rect x="-18" y="-2" width="6" height="4" fill="#4a4a8c"/>
+    <rect x="12" y="-2" width="6" height="4" fill="#4a4a8c"/>
+  </g>
+  <text x="480" y="740" font-family="Arial, sans-serif" font-size="16" fill="white">SORCE</text>
+  
+  <!-- GRACE -->
+  <g transform="translate(380,830)">
+    <rect x="-10" y="-5" width="20" height="10" fill="#d4af37"/>
+    <rect x="-15" y="-2" width="5" height="4" fill="#4a4a8c"/>
+    <rect x="10" y="-2" width="5" height="4" fill="#4a4a8c"/>
+  </g>
+  <text x="400" y="850" font-family="Arial, sans-serif" font-size="16" fill="white">GRACE</text>
+  
+  <!-- ICESat -->
+  <g transform="translate(510,960)">
+    <rect x="-14" y="-7" width="28" height="14" fill="#e0e0e0"/>
+    <polygon points="-14,-7 -20,-12 -8,-12" fill="#d0d0d0"/>
+    <rect x="-22" y="-3" width="7" height="6" fill="#4a4a8c"/>
+    <rect x="15" y="-3" width="7" height="6" fill="#4a4a8c"/>
+  </g>
+  <text x="530" y="980" font-family="Arial, sans-serif" font-size="16" fill="white">ICESat</text>
+  
+  <!-- CALIPSO -->
+  <g transform="translate(770,1010)">
+    <rect x="-8" y="-4" width="16" height="8" fill="#ff6b6b"/>
+    <rect x="-12" y="-1.5" width="4" height="3" fill="#e0e0e0"/>
+    <rect x="8" y="-1.5" width="4" height="3" fill="#e0e0e0"/>
+  </g>
+  <text x="790" y="1025" font-family="Arial, sans-serif" font-size="16" fill="white">CALIPSO</text>
+  
+  <!-- CloudSat -->
+  <g transform="translate(1050,1050)">
+    <rect x="-10" y="-5" width="20" height="10" fill="#6a5acd"/>
+    <rect x="-15" y="-2" width="5" height="4" fill="#4a4a8c"/>
+    <rect x="10" y="-2" width="5" height="4" fill="#4a4a8c"/>
+    <polygon points="0,5 -3,12 3,12" fill="#d4af37"/>
+  </g>
+  <text x="1070" y="1070" font-family="Arial, sans-serif" font-size="16" fill="white">CloudSat</text>
+  
+  <!-- Aura -->
+  <g transform="translate(130,1060)">
+    <rect x="-16" y="-8" width="32" height="16" fill="#e0e0e0"/>
+    <circle cx="16" cy="0" r="12" fill="#d0d0d0"/>
+    <rect x="-24" y="-3" width="8" height="6" fill="#4a4a8c"/>
+    <rect x="16" y="-3" width="8" height="6" fill="#4a4a8c"/>
+  </g>
+  <text x="150" y="1085" font-family="Arial, sans-serif" font-size="16" fill="white">Aura</text>
+  
+  <!-- Annotation lines and numbers -->
+  <path d="M 210 380 L 140 420 L 140 620" stroke="white" stroke-width="2" fill="none"/>
+  <text x="145" y="900" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ff6b6b">1</text>
+  
+  <path d="M 240 500 L 180 540" stroke="white" stroke-width="2" fill="none"/>
+  <text x="145" y="760" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ff6b6b">2</text>
+  
+  <path d="M 280 620 L 200 660" stroke="white" stroke-width="2" fill="none"/>
+  <text x="405" y="490" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ff6b6b">2</text>
+  
+  <!-- Blue annotation boxes -->
+  <rect x="90" y="370" width="140" height="35" rx="3" fill="#5ab8e8"/>
+  <rect x="10" y="500" width="180" height="35" rx="3" fill="#5ab8e8"/>
+  <rect x="10" y="630" width="330" height="35" rx="3" fill="#5ab8e8"/>
+  <rect x="480" y="470" width="90" height="35" rx="3" fill="#5ab8e8"/>
+</svg>

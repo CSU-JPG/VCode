@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left X-ray - Lateral view of wrist -->
+  <rect x="10" y="10" width="380" height="580" fill="#000000"/>
+  
+  <!-- Radius and Ulna bones -->
+  <path d="M 80 50 L 100 50 L 110 200 L 115 350 L 120 500 L 125 550 L 100 550 L 95 500 L 90 350 L 85 200 Z" fill="#d0d0d0" opacity="0.9"/>
+  <path d="M 130 60 L 150 60 L 155 200 L 160 350 L 165 500 L 170 550 L 145 550 L 140 500 L 135 350 L 132 200 Z" fill="#c0c0c0" opacity="0.85"/>
+  
+  <!-- Carpal bones cluster -->
+  <ellipse cx="120" cy="420" rx="35" ry="25" fill="#b8b8b8" opacity="0.8"/>
+  <ellipse cx="150" cy="430" rx="30" ry="22" fill="#b0b0b0" opacity="0.8"/>
+  <ellipse cx="115" cy="460" rx="32" ry="24" fill="#b5b5b5" opacity="0.8"/>
+  <ellipse cx="145" cy="470" rx="28" ry="20" fill="#b2b2b2" opacity="0.8"/>
+  
+  <!-- Metacarpal bones -->
+  <path d="M 100 490 L 105 500 L 108 520 L 110 540 L 112 560 L 108 570 L 95 568 L 93 550 L 92 530 L 93 510 Z" fill="#c5c5c5" opacity="0.85"/>
+  <path d="M 115 492 L 120 502 L 123 522 L 125 542 L 127 565 L 123 575 L 110 573 L 108 553 L 107 533 L 108 512 Z" fill="#c3c3c3" opacity="0.85"/>
+  <path d="M 130 493 L 135 503 L 138 523 L 140 543 L 142 567 L 138 577 L 125 575 L 123 555 L 122 535 L 123 513 Z" fill="#c1c1c1" opacity="0.85"/>
+  
+  <!-- Right X-ray - Dorsopalmar view of hand -->
+  <rect x="410" y="10" width="380" height="580" fill="#000000"/>
+  
+  <!-- Radius and Ulna distal ends -->
+  <path d="M 520 40 L 600 40 L 610 80 L 615 120 L 610 140 L 510 140 L 515 120 L 518 80 Z" fill="#d0d0d0" opacity="0.9"/>
+  
+  <!-- Carpal bones row 1 -->
+  <ellipse cx="535" cy="170" rx="22" ry="28" fill="#b5b5b5" opacity="0.85"/>
+  <ellipse cx="565" cy="168" rx="24" ry="30" fill="#b3b3b3" opacity="0.85"/>
+  <ellipse cx="595" cy="170" rx="22" ry="28" fill="#b5b5b5" opacity="0.85"/>
+  <ellipse cx="625" cy="172" rx="20" ry="26" fill="#b7b7b7" opacity="0.85"/>
+  
+  <!-- Carpal bones row 2 -->
+  <ellipse cx="535" cy="210" rx="23" ry="26" fill="#b4b4b4" opacity="0.85"/>
+  <ellipse cx="565" cy="208" rx="25" ry="28" fill="#b2b2b2" opacity="0.85"/>
+  <ellipse cx="595" cy="210" rx="23" ry="26" fill="#b4b4b4" opacity="0.85"/>
+  <ellipse cx="625" cy="212" rx="21" ry="24" fill="#b6b6b6" opacity="0.85"/>
+  
+  <!-- Metacarpal bones -->
+  <path d="M 525 240 L 530 250 L 532 300 L 533 350 L 532 380 L 528 385 L 520 383 L 518 350 L 517 300 L 520 250 Z" fill="#c8c8c8" opacity="0.88"/>
+  <path d="M 550 238 L 555 248 L 557 298 L 558 370 L 557 400 L 553 405 L 545 403 L 543 370 L 542 298 L 545 248 Z" fill="#c6c6c6" opacity="0.88"/>
+  <path d="M 575 238 L 580 248 L 582 298 L 583 368 L 582 395 L 578 400 L 570 398 L 568 368 L 567 298 L 570 248 Z" fill="#c6c6c6" opacity="0.88"/>
+  <path d="M 600 239 L 605 249 L 607 299 L 608 360 L 607 385 L 603 390 L 595 388 L 593 360 L 592 299 L 595 249 Z" fill="#c7c7c7" opacity="0.88"/>
+  <path d="M 625 241 L 630 251 L 632 301 L 633 345 L 632 365 L 628 370 L 620 368 L 618 345 L 617 301 L 620 251 Z" fill="#c9c9c9" opacity="0.88"/>
+  
+  <!-- Proximal phalanges -->
+  <rect x="522" y="390" width="16" height="60" rx="3" fill="#cacaca" opacity="0.9"/>
+  <rect x="547" y="410" width="16" height="70" rx="3" fill="#c8c8c8" opacity="0.9"/>
+  <rect x="572" y="405" width="16" height="68" rx="3" fill="#c8c8c8" opacity="0.9"/>
+  <rect x="597" y="395" width="16" height="62" rx="3" fill="#c9c9c9" opacity="0.9"/>
+  <rect x="622" y="375" width="16" height="52" rx="3" fill="#cbcbcb" opacity="0.9"/>
+  
+  <!-- Middle phalanges -->
+  <rect x="547" y="485" width="16" height="50" rx="3" fill="#c5c5c5" opacity="0.9"/>
+  <rect x="572" y="478" width="16" height="48" rx="3" fill="#c5c5c5" opacity="0.9"/>
+  <rect x="597" y="462" width="16" height="46" rx="3" fill="#c6c6c6" opacity="0.9"/>
+  <rect x="622" y="432" width="16" height="42" rx="3" fill="#c8c8c8" opacity="0.9"/>
+  
+  <!-- Distal phalanges -->
+  <ellipse cx="530" cy="465" rx="8" ry="14" fill="#c3c3c3" opacity="0.9"/>
+  <ellipse cx="555" cy="548" rx="8" ry="13" fill="#c2c2c2" opacity="0.9"/>
+  <ellipse cx="580" cy="539" rx="8" ry="13" fill="#c2c2c2" opacity="0.9"/>
+  <ellipse cx="605" cy="521" rx="8" ry="13" fill="#c3c3c3" opacity="0.9"/>
+  <ellipse cx="630" cy="487" rx="8" ry="12" fill="#c4c4c4" opacity="0.9"/>
+  
+  <!-- Joint spaces (darker areas) -->
+  <ellipse cx="555" cy="481" rx="9" ry="4" fill="#888888" opacity="0.6"/>
+  <ellipse cx="580" cy="474" rx="9" ry="4" fill="#888888" opacity="0.6"/>
+  <ellipse cx="605" cy="458" rx="9" ry="4" fill="#888888" opacity="0.6"/>
+  <ellipse cx="630" cy="428" rx="9" ry="4" fill="#888888" opacity="0.6"/>
+</svg>

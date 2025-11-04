@@ -1,0 +1,147 @@
+<svg viewBox="0 0 1100 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#9b9893"/>
+    </linearGradient>
+
+    <linearGradient id="gWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d2d2d"/>
+      <stop offset="1" stop-color="#414141"/>
+    </linearGradient>
+
+    <linearGradient id="gFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c29a6a"/>
+      <stop offset="1" stop-color="#a47649"/>
+    </linearGradient>
+
+    <linearGradient id="gMirror" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8d5cd"/>
+      <stop offset="1" stop-color="#b5b0a5"/>
+    </linearGradient>
+
+    <radialGradient id="gMetal" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#d8d8d8"/>
+      <stop offset="0.62" stop-color="#9b9b9b"/>
+      <stop offset="0.85" stop-color="#6f6f6f"/>
+      <stop offset="1" stop-color="#4e4e4e"/>
+    </radialGradient>
+
+    <linearGradient id="gSofa" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfd7ce"/>
+      <stop offset="1" stop-color="#bcb3a8"/>
+    </linearGradient>
+
+    <linearGradient id="gPillow1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8f8f94"/>
+      <stop offset="1" stop-color="#595a60"/>
+    </linearGradient>
+
+    <linearGradient id="gPillow2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4b4b4b"/>
+      <stop offset="1" stop-color="#2e2e2e"/>
+    </linearGradient>
+
+    <linearGradient id="gPendant" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe7a1"/>
+      <stop offset="1" stop-color="#d2a448"/>
+    </linearGradient>
+
+    <clipPath id="clipMirror">
+      <rect x="560" y="310" width="440" height="130" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1100" height="800" fill="url(#gBg)"/>
+
+  <!-- Ceiling planes -->
+  <polygon points="0,0 1100,0 1100,140 760,160 520,150 0,140" fill="#cfcfcd"/>
+  <rect x="270" y="120" width="150" height="22" fill="#c7c7c5" opacity="0.7"/>
+  <rect x="620" y="120" width="170" height="24" fill="#c7c7c5" opacity="0.75"/>
+
+  <!-- Left dark wall -->
+  <rect x="0" y="120" width="360" height="520" fill="url(#gWall)"/>
+
+  <!-- Wooden floor -->
+  <polygon points="0,540 1100,470 1100,800 0,800" fill="url(#gFloor)"/>
+
+  <!-- Right white wall block -->
+  <rect x="540" y="70" width="510" height="570" rx="10" fill="#eeeae5"/>
+
+  <!-- Vertical slots on the right wall -->
+  <rect x="880" y="140" width="34" height="210" rx="6" fill="#dcd9d2"/>
+  <rect x="930" y="140" width="34" height="210" rx="6" fill="#dcd9d2"/>
+  <rect x="980" y="140" width="34" height="210" rx="6" fill="#dcd9d2"/>
+
+  <!-- Mirror opening -->
+  <rect x="560" y="300" width="440" height="150" rx="8" fill="url(#gMirror)" stroke="#a7a299" stroke-width="2"/>
+
+  <!-- Reflection hints inside mirror -->
+  <g clip-path="url(#clipMirror)" opacity="0.6">
+    <polygon points="560,370 1000,340 1000,420 560,450" fill="#b19b7e" opacity="0.45"/>
+    <line x1="640" y1="350" x2="670" y2="440" stroke="#6b5a43" stroke-width="4"/>
+    <line x1="720" y1="345" x2="740" y2="446" stroke="#6b5a43" stroke-width="4"/>
+    <line x1="810" y1="340" x2="820" y2="448" stroke="#6b5a43" stroke-width="4"/>
+    <circle cx="705" cy="332" r="10" fill="#8c7c5f"/>
+    <circle cx="760" cy="330" r="10" fill="#8c7c5f"/>
+    <circle cx="820" cy="328" r="10" fill="#8c7c5f"/>
+  </g>
+
+  <!-- Dining pendants -->
+  <g stroke="#e7e7e7" stroke-width="4">
+    <line x1="598" y1="120" x2="598" y2="278" />
+    <line x1="690" y1="120" x2="690" y2="272" />
+    <line x1="765" y1="120" x2="765" y2="268" />
+  </g>
+  <g>
+    <rect x="588" y="278" width="20" height="40" rx="4" fill="url(#gPendant)" stroke="#b48a36"/>
+    <rect x="680" y="272" width="20" height="46" rx="4" fill="url(#gPendant)" stroke="#b48a36"/>
+    <rect x="755" y="268" width="20" height="50" rx="4" fill="url(#gPendant)" stroke="#b48a36"/>
+  </g>
+
+  <!-- Sofa base -->
+  <rect x="360" y="560" width="520" height="200" rx="40" fill="url(#gSofa)" stroke="#b6aea4"/>
+  <!-- Sofa seat divisions -->
+  <line x1="520" y1="560" x2="520" y2="760" stroke="#c9c2ba" stroke-width="3" opacity="0.8"/>
+  <line x1="690" y1="560" x2="690" y2="760" stroke="#c9c2ba" stroke-width="3" opacity="0.8"/>
+  <line x1="360" y1="650" x2="880" y2="650" stroke="#c9c2ba" stroke-width="3" opacity="0.8"/>
+
+  <!-- Cushions -->
+  <ellipse cx="640" cy="540" rx="120" ry="80" fill="url(#gPillow2)"/>
+  <ellipse cx="720" cy="540" rx="110" ry="78" fill="url(#gPillow1)"/>
+  <ellipse cx="820" cy="560" rx="120" ry="82" fill="#a8acb3"/>
+  <ellipse cx="900" cy="590" rx="110" ry="74" fill="#888a90"/>
+
+  <!-- Big metallic pendant with stem -->
+  <path d="M90,0 C 250,210 180,170 320,310" fill="none" stroke="#cfd1d2" stroke-width="8"/>
+  <ellipse cx="320" cy="350" rx="170" ry="130" fill="url(#gMetal)" stroke="#6a6a6a" stroke-width="3"/>
+  <ellipse cx="280" cy="330" rx="50" ry="28" fill="#ffffff" opacity="0.35"/>
+
+  <!-- Small ceiling lights -->
+  <rect x="332" y="92" width="44" height="26" rx="4" fill="#dcdcdc"/>
+  <rect x="455" y="92" width="24" height="20" rx="4" fill="#dcdcdc"/>
+  <rect x="514" y="92" width="28" height="20" rx="4" fill="#dcdcdc"/>
+
+  <!-- Left door on the dark wall -->
+  <rect x="80" y="240" width="100" height="280" rx="6" fill="#f4efe6" stroke="#c9c2b6" stroke-width="2"/>
+  <rect x="95" y="260" width="22" height="240" fill="#b5bcc1"/>
+  <rect x="129" y="260" width="22" height="240" fill="#b5bcc1"/>
+  <rect x="140" y="380" width="10" height="20" rx="2" fill="#2b2b2b"/>
+
+  <!-- Red bounding rectangle (left) -->
+  <rect x="60" y="220" width="140" height="320" fill="none" stroke="#d82f1f" stroke-width="6"/>
+
+  <!-- Blue bounding rectangle (top center) -->
+  <rect x="330" y="20" width="380" height="200" fill="none" stroke="#2a5de6" stroke-width="6"/>
+
+  <!-- Table hints in foreground -->
+  <g opacity="0.5">
+    <rect x="180" y="620" width="220" height="12" rx="3" fill="#e1e1e1"/>
+    <line x1="210" y1="632" x2="210" y2="720" stroke="#9a8a74" stroke-width="6"/>
+    <line x1="360" y1="632" x2="360" y2="720" stroke="#9a8a74" stroke-width="6"/>
+    <rect x="200" y="700" width="180" height="10" rx="3" fill="#6b5a43"/>
+  </g>
+
+</svg>

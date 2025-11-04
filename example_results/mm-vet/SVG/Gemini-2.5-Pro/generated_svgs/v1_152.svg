@@ -1,0 +1,76 @@
+<svg viewBox="0 0 580 580" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .top-text { font: bold 36px 'Arial', sans-serif; fill: #000; }
+      .bottom-text { font: bold 42px 'Impact', 'Arial Black', sans-serif; fill: #fff; stroke: #000; stroke-width: 6; stroke-linejoin: round; text-anchor: middle; }
+    </style>
+    <path id="sky-flower" d="M-15,0 C-15,-20 15,-20 15,0 C25,-10 25,10 15,15 C15,25 -15,25 -15,15 C-25,10 -25,-10 -15,0 Z" fill="#352a65"/>
+  </defs>
+
+  <rect x="0" y="0" width="580" height="580" fill="#0c1440"/>
+
+  <use href="#sky-flower" transform="translate(100, 270) scale(1.5)"/>
+  <use href="#sky-flower" transform="translate(300, 290) scale(1.8)"/>
+  <use href="#sky-flower" transform="translate(500, 320) scale(1.2)"/>
+  <use href="#sky-flower" transform="translate(420, 480) scale(0.9)"/>
+
+  <g id="background-structure">
+    <path d="M 580,210 C 500,200 450,190 380,190 L 380,580 L 580,580 L 580,210 Z" fill="#b08a2a"/>
+    <path d="M 380,190 C 380,250 450,260 480,260 L 480,580 L 380,580 Z" fill="#d4ac0d"/>
+    <circle cx="480" cy="245" r="35" fill="#2d406a"/>
+    <circle cx="480" cy="245" r="28" fill="#4d6aa8"/>
+  </g>
+
+  <g id="patrick">
+    <path d="M410,480 L440,360 C445,340 420,320 400,325 C380,320 355,340 360,360 L390,480 Z" fill="#50a050"/>
+    <path d="M370,430 c-5,-5 5,-5 0,0" fill="#8e44ad"/>
+    <path d="M420,410 c-5,-5 5,-5 0,0" fill="#8e44ad"/>
+    <path d="M400,390 c-5,-5 5,-5 0,0" fill="#8e44ad"/>
+    <path d="M380,370 c-5,-5 5,-5 0,0" fill="#8e44ad"/>
+    <path d="M425,375 c-5,-5 5,-5 0,0" fill="#8e44ad"/>
+    <path d="M400,285 C450,285 460,360 440,360 L360,360 C340,360 350,285 400,285 Z" fill="#f8a3a6"/>
+    <path d="M400,410 L380,410 C370,410 365,420 375,425 L385,420 C395,415 400,410 400,410" fill="#f8a3a6"/>
+    <rect x="375" y="420" width="30" height="40" rx="5" fill="#e0e0e0"/>
+    <path d="M390,425 h10 M390,435 h10 M390,445 h10" stroke="#ababab" stroke-width="2"/>
+    <path d="M398,422 l5,5" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M390,345 c-10,-2 -12,5 -8,10 c4,-2 8,2 4,5" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M410,345 c10,-2 12,5 8,10 c-4,-2 -8,2 -4,5" stroke="#333" stroke-width="2" fill="none"/>
+    <ellipse cx="390" cy="340" rx="8" ry="10" fill="#fff" stroke="#000" stroke-width="1.5"/>
+    <circle cx="391" cy="342" r="2" fill="#000"/>
+    <ellipse cx="410" cy="340" rx="8" ry="10" fill="#fff" stroke="#000" stroke-width="1.5"/>
+    <circle cx="411" cy="342" r="2" fill="#000"/>
+  </g>
+
+  <g id="spongebob">
+    <path d="M190,480 V370 C190,340 210,330 240,330 C270,330 290,340 290,370 V480 Z" fill="#f8e71c"/>
+    <path d="M190,430 H290 V455 H190 Z" fill="#a0522d"/>
+    <path d="M190,430 H290 L270,415 L210,415 Z" fill="#fff"/>
+    <path d="M240,415 V430 L230,422 L240,415" fill="#f00"/>
+    <circle cx="215" cy="370" r="18" fill="#fff" stroke="#000" stroke-width="1"/>
+    <circle cx="212" cy="370" r="9" fill="#4d6aa8"/>
+    <circle cx="211" cy="370" r="4" fill="#000"/>
+    <circle cx="265" cy="370" r="18" fill="#fff" stroke="#000" stroke-width="1"/>
+    <circle cx="262" cy="370" r="9" fill="#4d6aa8"/>
+    <circle cx="261" cy="370" r="4" fill="#000"/>
+    <path d="M225,400 C240,415 255,400 225,400 Z" fill="#8c1c04"/>
+    <rect x="233" y="400" width="8" height="6" fill="#fff"/>
+    <rect x="247" y="400" width="8" height="6" fill="#fff"/>
+    <path d="M225,335 h-30 v-10 h-10 v30" stroke="#f8e71c" stroke-width="8" fill="none"/>
+    <path d="M185,345 h10 l10,-10 h20 l10,10 h10 v-15 h-60 z" fill="#5b7fa4"/>
+    <path d="M185,345 v-10 h60 v10" fill="#2d406a"/>
+  </g>
+
+  <g id="campfire">
+    <path d="M150,470 L220,490" stroke="#9a632b" stroke-width="20" stroke-linecap="round"/>
+    <path d="M140,490 L210,470" stroke="#9a632b" stroke-width="20" stroke-linecap="round"/>
+    <path d="M175,480 C150,470 190,470 175,440 C190,470 200,470 185,480 Z" fill="#ffcc00"/>
+    <path d="M175,475 C160,465 185,465 175,445 C185,465 190,465 180,475 Z" fill="#ff6600"/>
+  </g>
+
+  <rect x="0" y="0" width="580" height="190" fill="#fff"/>
+  <text x="30" y="70" class="top-text">Professor: "Good morni..."</text>
+  <text x="30" y="145" class="top-text">Freshmen:</text>
+
+  <text x="290" y="520" class="bottom-text">Write that down,</text>
+  <text x="290" y="565" class="bottom-text">write that down!</text>
+</svg>

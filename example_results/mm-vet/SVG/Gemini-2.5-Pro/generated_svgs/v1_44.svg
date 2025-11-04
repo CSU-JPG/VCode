@@ -1,0 +1,96 @@
+<svg viewBox="0 0 950 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;amp;amp;amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+
+  <!-- Header Text -->
+  <text x="475" y="60" font-family="Lato, sans-serif" font-size="42" font-weight="bold" fill="#3C3C3C" text-anchor="middle">Plastic Waste is Out of Control</text>
+  <text x="475" y="100" font-family="Lato, sans-serif" font-size="22" fill="#666666" text-anchor="middle">In 2015, humans threw out almost as much plastic as they made.</text>
+
+  <!-- Left Chart: Plastic Made -->
+  <g id="chart-made">
+    <text x="330" y="160" font-family="Lato, sans-serif" font-size="16" fill="#E84F86" font-weight="bold" text-anchor="middle">Plastic made (metric tonnes)</text>
+
+    <!-- Category Labels -->
+    <text x="180" y="200" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Industrial Machines</text>
+    <text x="180" y="240" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Electronics</text>
+    <text x="180" y="280" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Transportation</text>
+    <text x="180" y="320" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Consumer Products</text>
+    <text x="180" y="360" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Other</text>
+    <text x="180" y="400" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Textiles</text>
+    <text x="180" y="440" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Construction</text>
+    <text x="180" y="480" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Packaging</text>
+    <text x="180" y="530" font-family="Lato, sans-serif" font-size="16" fill="#666666" text-anchor="end" dominant-baseline="middle">Total</text>
+
+    <!-- Ticks -->
+    <line x1="185" y1="200" x2="190" y2="200" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="240" x2="190" y2="240" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="280" x2="190" y2="280" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="320" x2="190" y2="320" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="360" x2="190" y2="360" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="400" x2="190" y2="400" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="440" x2="190" y2="440" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="480" x2="190" y2="480" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="185" y1="530" x2="190" y2="530" stroke="#CCCCCC" stroke-width="1"/>
+
+    <!-- Bars and Value Labels -->
+    <rect x="190" y="189" width="3" height="22" fill="#F4729E"/><text x="198" y="200" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">3M</text>
+    <rect x="190" y="229" width="13.3" height="22" fill="#F4729E"/><text x="208.3" y="240" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">18M</text>
+    <rect x="190" y="269" width="19.9" height="22" fill="#F4729E"/><text x="214.9" y="280" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">27M</text>
+    <rect x="190" y="309" width="31" height="22" fill="#F4729E"/><text x="226" y="320" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">42M</text>
+    <rect x="190" y="349" width="34.6" height="22" fill="#F4729E"/><text x="229.6" y="360" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">47M</text>
+    <rect x="190" y="389" width="43.5" height="22" fill="#F4729E"/><text x="238.5" y="400" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">59M</text>
+    <rect x="190" y="429" width="47.9" height="22" fill="#F4729E"/><text x="242.9" y="440" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">65M</text>
+    <rect x="190" y="469" width="107.6" height="22" fill="#F4729E"/><text x="302.6" y="480" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">146M</text>
+    <rect x="190" y="519" width="300" height="22" fill="#F7679E"/><text x="495" y="530" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">407M</text>
+  </g>
+
+  <!-- Right Chart: Plastic Thrown Out -->
+  <g id="chart-thrown-out">
+    <text x="670" y="160" font-family="Lato, sans-serif" font-size="16" fill="#9B84E3" font-weight="bold" text-anchor="middle">Plastic thrown out (metric tonnes)</text>
+
+    <!-- Ticks -->
+    <line x1="510" y1="200" x2="515" y2="200" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="240" x2="515" y2="240" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="280" x2="515" y2="280" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="320" x2="515" y2="320" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="360" x2="515" y2="360" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="400" x2="515" y2="400" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="440" x2="515" y2="440" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="480" x2="515" y2="480" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="510" y1="530" x2="515" y2="530" stroke="#CCCCCC" stroke-width="1"/>
+
+    <!-- Bars and Value Labels -->
+    <rect x="515" y="189" width="2" height="22" fill="#B5A5EC"/><text x="522" y="200" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">1M</text>
+    <rect x="515" y="229" width="9.6" height="22" fill="#B5A5EC"/><text x="529.6" y="240" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">13M</text>
+    <rect x="515" y="269" width="12.5" height="22" fill="#B5A5EC"/><text x="532.5" y="280" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">17M</text>
+    <rect x="515" y="309" width="27.3" height="22" fill="#B5A5EC"/><text x="547.3" y="320" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">37M</text>
+    <rect x="515" y="349" width="28" height="22" fill="#B5A5EC"/><text x="548" y="360" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">38M</text>
+    <rect x="515" y="389" width="31" height="22" fill="#B5A5EC"/><text x="551" y="400" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">42M</text>
+    <rect x="515" y="429" width="9.6" height="22" fill="#B5A5EC"/><text x="529.6" y="440" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">13M</text>
+    <rect x="515" y="469" width="103.9" height="22" fill="#B5A5EC"/><text x="623.9" y="480" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">141M</text>
+    <rect x="515" y="519" width="222.6" height="22" fill="#A188F3"/><text x="742.6" y="530" font-family="Lato, sans-serif" font-size="16" fill="#333333" dominant-baseline="middle">302M</text>
+  </g>
+
+  <!-- Bottom Section -->
+  <g id="bottom-section">
+    <g transform="translate(60, 585)" stroke="#808080" stroke-width="2.5" fill="none">
+        <path d="M23,0 H37 V5 H23 Z"/>
+        <path d="M20,5 C20,12 25,12 25,12 H35 C35,12 40,12 40,5"/>
+        <path d="M22,12 V50 C22,55 25,58 30,58 C35,58 38,55 38,50 V12"/>
+        <path d="M24,25 H36"/>
+        <path d="M24,35 H36"/>
+        <path d="M24,45 H36"/>
+    </g>
+    <text x="140" y="595" font-family="Lato, sans-serif" font-size="18" fill="#333333">
+      <tspan>In 2015, humans produced <tspan font-weight="bold" fill="#E84F86">407 million metric tons of new plastic</tspan>, continuing the trend of making</tspan>
+      <tspan x="140" dy="1.3em">more and more plastic each year. Meanwhile, <tspan font-weight="bold" fill="#9B84E3">302 million metric tons</tspan> was discarded as waste,</tspan>
+      <tspan x="140" dy="1.3em">meaning it wasn't recycled or incinerated; it's just sitting in a dump or the ocean somewhere.</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <line x1="0" y1="0" x2="0" y2="300" stroke="black"/>
+  <line x1="0" y1="300" x2="400" y2="300" stroke="black"/>
+  
+  <!-- Grid lines -->
+  <line x1="0" y1="250" x2="400" y2="250" stroke="lightgray"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="lightgray"/>
+  <line x1="0" y1="150" x2="400" y2="150" stroke="lightgray"/>
+  <line x1="0" y1="100" x2="400" y2="100" stroke="lightgray"/>
+  <line x1="0" y1="50" x2="400" y2="50" stroke="lightgray"/>
+  
+  <!-- Y-axis labels -->
+  <text x="10" y="255" font-size="12" text-anchor="end">0.1</text>
+  <text x="10" y="205" font-size="12" text-anchor="end">0.2</text>
+  <text x="10" y="155" font-size="12" text-anchor="end">0.3</text>
+  <text x="10" y="105" font-size="12" text-anchor="end">0.4</text>
+  <text x="10" y="55" font-size="12" text-anchor="end">0.5</text>
+  <text x="10" y="5" font-size="12" text-anchor="end">0.6</text>
+  
+  <!-- Bars -->
+  <rect x="50" y="50" width="50" height="250" fill="blue"/>
+  <rect x="150" y="175" width="50" height="125" fill="blue"/>
+  <rect x="250" y="210" width="50" height="90" fill="blue"/>
+  <rect x="350" y="270" width="50" height="30" fill="blue"/>
+  
+  <!-- X-axis labels -->
+  <text x="75" y="305" font-size="12" text-anchor="middle">Food Donated</text>
+  <text x="175" y="305" font-size="12" text-anchor="middle">Donor Sex</text>
+  <text x="275" y="305" font-size="12" text-anchor="middle">Allogrooming</text>
+  <text x="375" y="305" font-size="12" text-anchor="middle">Relatedness</text>
+  
+  <!-- Y-axis label -->
+  <text x="10" y="150" font-size="14" transform="rotate(-90 10 150)" text-anchor="middle">Proportion of R²</text>
+</svg>

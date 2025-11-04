@@ -1,0 +1,256 @@
+<svg viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Income Statement -->
+  <text x="200" y="20" font-size="14" text-anchor="middle" font-weight="bold">Income Statements for the Year Ending December 31</text>
+  <text x="200" y="35" font-size="12" text-anchor="middle">(Millions of Dollars Except for Per Share Data)</text>
+  
+  <!-- Income Statement Headers -->
+  <rect x="0" y="60" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="60" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="60" width="100" height="20" fill="none" stroke="black"/>
+  <text x="200" y="75" font-size="12" text-anchor="middle">Actual 2010</text>
+  <text x="300" y="75" font-size="12" text-anchor="middle">Projected 2011</text>
+  
+  <!-- Income Statement Data Rows -->
+  <rect x="0" y="80" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="80" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="80" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="95" font-size="12" text-anchor="start">Net sales</text>
+  <text x="245" y="95" font-size="12" text-anchor="end">$ 500.0</text>
+  <text x="345" y="95" font-size="12" text-anchor="end">$ 530.0</text>
+  
+  <rect x="0" y="100" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="100" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="100" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="115" font-size="12" text-anchor="start">Costs (except depreciation)</text>
+  <text x="245" y="115" font-size="12" text-anchor="end">360.0</text>
+  <text x="345" y="115" font-size="12" text-anchor="end">381.6</text>
+  
+  <rect x="0" y="120" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="120" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="120" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="135" font-size="12" text-anchor="start">Depreciation</text>
+  <text x="245" y="135" font-size="12" text-anchor="end">37.5</text>
+  <text x="345" y="135" font-size="12" text-anchor="end">39.8</text>
+  
+  <rect x="0" y="140" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="140" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="140" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="155" font-size="12" text-anchor="start">Total operating costs</text>
+  <text x="245" y="155" font-size="12" text-anchor="end">$ 397.5</text>
+  <text x="345" y="155" font-size="12" text-anchor="end">$ 421.4</text>
+  
+  <rect x="0" y="160" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="160" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="160" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="175" font-size="12" text-anchor="start">Earnings before interest and taxes</text>
+  <text x="245" y="175" font-size="12" text-anchor="end">$ 102.5</text>
+  <text x="345" y="175" font-size="12" text-anchor="end">$ 108.6</text>
+  
+  <rect x="0" y="180" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="180" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="180" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="195" font-size="12" text-anchor="start">Less interest</text>
+  <text x="245" y="195" font-size="12" text-anchor="end">13.9</text>
+  <text x="345" y="195" font-size="12" text-anchor="end">16.0</text>
+  
+  <rect x="0" y="200" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="200" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="200" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="215" font-size="12" text-anchor="start">Earnings before taxes</text>
+  <text x="245" y="215" font-size="12" text-anchor="end">$ 88.6</text>
+  <text x="345" y="215" font-size="12" text-anchor="end">$ 92.6</text>
+  
+  <rect x="0" y="220" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="220" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="220" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="235" font-size="12" text-anchor="start">Taxes (40%)</text>
+  <text x="245" y="235" font-size="12" text-anchor="end">35.4</text>
+  <text x="345" y="235" font-size="12" text-anchor="end">37.0</text>
+  
+  <rect x="0" y="240" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="240" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="240" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="255" font-size="12" text-anchor="start">Net income before preferred dividends</text>
+  <text x="245" y="255" font-size="12" text-anchor="end">$ 53.2</text>
+  <text x="345" y="255" font-size="12" text-anchor="end">$ 55.6</text>
+  
+  <rect x="0" y="260" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="260" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="260" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="275" font-size="12" text-anchor="start">Preferred dividends</text>
+  <text x="245" y="275" font-size="12" text-anchor="end">6.0</text>
+  <text x="345" y="275" font-size="12" text-anchor="end">7.4</text>
+  
+  <rect x="0" y="280" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="280" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="280" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="295" font-size="12" text-anchor="start">Net income available for common dividends</text>
+  <text x="245" y="295" font-size="12" text-anchor="end">$ 47.2</text>
+  <text x="345" y="295" font-size="12" text-anchor="end">$ 48.2</text>
+  
+  <rect x="0" y="300" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="300" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="300" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="315" font-size="12" text-anchor="start">Common dividends</text>
+  <text x="245" y="315" font-size="12" text-anchor="end">$ 40.8</text>
+  <text x="345" y="315" font-size="12" text-anchor="end">$ 29.7</text>
+  
+  <rect x="0" y="320" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="320" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="320" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="335" font-size="12" text-anchor="start">Addition to retained earnings</text>
+  <text x="245" y="335" font-size="12" text-anchor="end">$ 6.4</text>
+  <text x="345" y="335" font-size="12" text-anchor="end">$ 18.5</text>
+  
+  <rect x="0" y="340" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="340" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="340" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="355" font-size="12" text-anchor="start">Number of shares</text>
+  <text x="245" y="355" font-size="12" text-anchor="end">10</text>
+  <text x="345" y="355" font-size="12" text-anchor="end">10</text>
+  
+  <rect x="0" y="360" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="360" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="360" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="375" font-size="12" text-anchor="start">Dividends per share</text>
+  <text x="245" y="375" font-size="12" text-anchor="end">$ 4.08</text>
+  <text x="345" y="375" font-size="12" text-anchor="end">$ 2.97</text>
+  
+  <!-- Balance Sheet -->
+  <text x="200" y="400" font-size="14" text-anchor="middle" font-weight="bold">Balance Sheets for December 31</text>
+  <text x="200" y="415" font-size="12" text-anchor="middle">(Millions of Dollars)</text>
+  
+  <!-- Balance Sheet Headers -->
+  <rect x="0" y="440" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="440" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="440" width="100" height="20" fill="none" stroke="black"/>
+  <text x="200" y="455" font-size="12" text-anchor="middle">Actual 2010</text>
+  <text x="300" y="455" font-size="12" text-anchor="middle">Projected 2011</text>
+  
+  <!-- Assets Section -->
+  <rect x="0" y="460" width="350" height="20" fill="none" stroke="black"/>
+  <text x="5" y="475" font-size="12" text-anchor="start" font-weight="bold">Assets</text>
+  
+  <rect x="0" y="480" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="480" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="480" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="495" font-size="12" text-anchor="start">Cash</text>
+  <text x="245" y="495" font-size="12" text-anchor="end">$ 5.3</text>
+  <text x="345" y="495" font-size="12" text-anchor="end">$ 5.6</text>
+  
+  <rect x="0" y="500" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="500" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="500" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="515" font-size="12" text-anchor="start">Marketable securities</text>
+  <text x="245" y="515" font-size="12" text-anchor="end">49.9</text>
+  <text x="345" y="515" font-size="12" text-anchor="end">51.9</text>
+  
+  <rect x="0" y="520" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="520" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="520" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="535" font-size="12" text-anchor="start">Accounts receivable</text>
+  <text x="245" y="535" font-size="12" text-anchor="end">53.0</text>
+  <text x="345" y="535" font-size="12" text-anchor="end">56.2</text>
+  
+  <rect x="0" y="540" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="540" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="540" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="555" font-size="12" text-anchor="start">Inventories</text>
+  <text x="245" y="555" font-size="12" text-anchor="end">106.0</text>
+  <text x="345" y="555" font-size="12" text-anchor="end">112.4</text>
+  
+  <rect x="0" y="560" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="560" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="560" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="575" font-size="12" text-anchor="start">Total current assets</text>
+  <text x="245" y="575" font-size="12" text-anchor="end">$ 214.2</text>
+  <text x="345" y="575" font-size="12" text-anchor="end">$ 226.1</text>
+  
+  <rect x="0" y="580" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="580" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="580" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="595" font-size="12" text-anchor="start">Net plant and equipment</text>
+  <text x="245" y="595" font-size="12" text-anchor="end">375.0</text>
+  <text x="345" y="595" font-size="12" text-anchor="end">397.5</text>
+  
+  <rect x="0" y="600" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="600" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="600" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="615" font-size="12" text-anchor="start">Total assets</text>
+  <text x="245" y="615" font-size="12" text-anchor="end">$ 589.2</text>
+  <text x="345" y="615" font-size="12" text-anchor="end">$ 623.6</text>
+  
+  <!-- Liabilities and Equity Section -->
+  <rect x="0" y="620" width="350" height="20" fill="none" stroke="black"/>
+  <text x="5" y="635" font-size="12" text-anchor="start" font-weight="bold">Liabilities and Equity</text>
+  
+  <rect x="0" y="640" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="640" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="640" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="655" font-size="12" text-anchor="start">Accounts payable</text>
+  <text x="245" y="655" font-size="12" text-anchor="end">$ 9.6</text>
+  <text x="345" y="655" font-size="12" text-anchor="end">$ 11.2</text>
+  
+  <rect x="0" y="660" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="660" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="660" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="675" font-size="12" text-anchor="start">Notes payable</text>
+  <text x="245" y="675" font-size="12" text-anchor="end">69.9</text>
+  <text x="345" y="675" font-size="12" text-anchor="end">74.1</text>
+  
+  <rect x="0" y="680" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="680" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="680" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="695" font-size="12" text-anchor="start">Accruals</text>
+  <text x="245" y="695" font-size="12" text-anchor="end">27.5</text>
+  <text x="345" y="695" font-size="12" text-anchor="end">28.1</text>
+  
+  <rect x="0" y="700" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="700" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="700" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="715" font-size="12" text-anchor="start">Total current liabilities</text>
+  <text x="245" y="715" font-size="12" text-anchor="end">$ 107.0</text>
+  <text x="345" y="715" font-size="12" text-anchor="end">$ 113.4</text>
+  
+  <rect x="0" y="720" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="720" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="720" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="735" font-size="12" text-anchor="start">Long-term bonds</text>
+  <text x="245" y="735" font-size="12" text-anchor="end">140.8</text>
+  <text x="345" y="735" font-size="12" text-anchor="end">148.2</text>
+  
+  <rect x="0" y="740" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="740" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="740" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="755" font-size="12" text-anchor="start">Preferred stock</text>
+  <text x="245" y="755" font-size="12" text-anchor="end">35.0</text>
+  <text x="345" y="755" font-size="12" text-anchor="end">37.1</text>
+  
+  <rect x="0" y="760" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="760" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="760" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="775" font-size="12" text-anchor="start">Common stock (par plus PIC)</text>
+  <text x="245" y="775" font-size="12" text-anchor="end">160.0</text>
+  <text x="345" y="775" font-size="12" text-anchor="end">160.0</text>
+  
+  <rect x="0" y="780" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="780" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="780" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="795" font-size="12" text-anchor="start">Retained earnings</text>
+  <text x="245" y="795" font-size="12" text-anchor="end">146.4</text>
+  <text x="345" y="795" font-size="12" text-anchor="end">164.9</text>
+  
+  <rect x="0" y="800" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="800" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="800" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="815" font-size="12" text-anchor="start">Common equity</text>
+  <text x="245" y="815" font-size="12" text-anchor="end">$ 306.4</text>
+  <text x="345" y="815" font-size="12" text-anchor="end">$ 324.9</text>
+  
+  <rect x="0" y="820" width="150" height="20" fill="none" stroke="black"/>
+  <rect x="150" y="820" width="100" height="20" fill="none" stroke="black"/>
+  <rect x="250" y="820" width="100" height="20" fill="none" stroke="black"/>
+  <text x="5" y="835" font-size="12" text-anchor="start">Total liabilities and equity</text>
+  <text x="245" y="835" font-size="12" text-anchor="end">$ 589.2</text>
+  <text x="345" y="835" font-size="12" text-anchor="end">$ 623.6</text>
+</svg>

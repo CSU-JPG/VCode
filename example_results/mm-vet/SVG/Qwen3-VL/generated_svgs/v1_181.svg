@@ -1,0 +1,46 @@
+<svg viewBox="120 0 880 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B6B2E"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8B6B2E"/>
+    </linearGradient>
+    <pattern id="flowerField" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2" fill="#FF69B4"/>
+      <circle cx="15" cy="5" r="2" fill="#4169E1"/>
+      <circle cx="5" cy="15" r="2" fill="#9ACD32"/>
+      <circle cx="15" cy="15" r="2" fill="#FFA500"/>
+    </pattern>
+    <pattern id="malePattern" x="0" y="0" width="15" height="15" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="8" height="8" fill="#000"/>
+      <rect x="8" y="0" width="7" height="8" fill="#FFF"/>
+      <rect x="0" y="8" width="8" height="7" fill="#FFF"/>
+      <rect x="8" y="8" width="7" height="7" fill="#000"/>
+    </pattern>
+    <pattern id="femalePattern" x="0" y="0" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="7.5" cy="7.5" r="5" fill="#FF4500"/>
+      <circle cx="7.5" cy="7.5" r="3" fill="#FFD700"/>
+      <circle cx="7.5" cy="7.5" r="1" fill="#000"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1000" height="1000" fill="url(#goldBg)"/>
+  
+  <!-- Flower field at bottom -->
+  <rect x="120" y="700" width="760" height="300" fill="url(#flowerField)"/>
+  
+  <!-- Male figure (left) -->
+  <path d="M320 10 C300 30 310 60 310 90 C310 120 320 150 320 180 C320 210 310 240 310 270 C310 300 320 330 320 360 C320 390 310 420 310 450 C310 480 320 510 320 540 C320 570 310 600 310 630 C310 660 320 690 320 720 C320 750 310 780 310 810 C310 840 320 870 320 900 C320 930 310 960 310 990 C310 990 350 990 350 990 C350 990 350 960 350 930 C350 900 350 870 350 840 C350 810 350 780 350 750 C350 720 350 690 350 660 C350 630 350 600 350 570 C350 540 350 510 350 480 C350 450 350 420 350 390 C350 360 350 330 350 300 C350 270 350 240 350 210 C350 180 350 150 350 120 C350 90 350 60 350 30 C350 0 320 0 320 10 Z" fill="url(#malePattern)"/>
+  
+  <!-- Female figure (right) -->
+  <path d="M350 10 C370 30 360 60 360 90 C360 120 350 150 350 180 C350 210 360 240 360 270 C360 300 350 330 350 360 C350 390 360 420 360 450 C360 480 350 510 350 540 C350 570 360 600 360 630 C360 660 350 690 350 720 C350 750 360 780 360 810 C360 840 350 870 350 900 C350 930 360 960 360 990 C360 990 400 990 400 990 C400 990 400 960 400 930 C400 900 400 870 400 840 C400 810 400 780 400 750 C400 720 400 690 400 660 C400 630 400 600 400 570 C400 540 400 510 400 480 C400 450 400 420 400 390 C400 360 400 330 400 300 C400 270 400 240 400 210 C400 180 400 150 400 120 C400 90 400 60 400 30 C400 0 350 0 350 10 Z" fill="url(#femalePattern)"/>
+  
+  <!-- Head and face details -->
+  <circle cx="450" cy="50" r="30" fill="#228B22"/>
+  <ellipse cx="500" cy="120" rx="25" ry="30" fill="#DEB887"/>
+  <circle cx="505" cy="110" r="2" fill="#000"/>
+  <path d="M490 140 Q500 150 510 140" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Signature in bottom right -->
+  <text x="780" y="910" font-family="Arial" font-size="12" fill="#FFFFFF">GUSTAV KLIMT</text>
+</svg>

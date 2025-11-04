@@ -1,0 +1,31 @@
+<svg viewBox="0 0 24 12" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="0.2" markerHeight="0.2" refX="0.1" refY="0.1" orient="auto">
+      <polygon points="0,0 0.2,0.1 0,0.2" fill="black"/>
+    </marker>
+  </defs>
+  <line x1="0" y1="0" x2="6" y2="8" stroke="black" stroke-width="0.1"/>
+  <line x1="6" y1="8" x2="11" y2="0" stroke="black" stroke-width="0.1"/>
+  <line x1="6" y1="8" x2="16" y2="8" stroke="black" stroke-width="0.1"/>
+  <line x1="16" y1="8" x2="11" y2="0" stroke="black" stroke-width="0.1"/>
+  <line x1="16" y1="8" x2="22" y2="0" stroke="black" stroke-width="0.1"/>
+  <line x1="0" y1="0" x2="11" y2="0" stroke="black" stroke-width="0.1"/>
+  <line x1="11" y1="0" x2="22" y2="0" stroke="black" stroke-width="0.1"/>
+  <path d="M0 0 L-0.2 -0.4 L0.2 -0.4 Z" fill="none" stroke="black" stroke-width="0.05"/>
+  <circle cx="22" cy="0" r="0.2" fill="white" stroke="black" stroke-width="0.1"/>
+  <path d="M21.8 -0.2 L22.2 -0.2 L22 -0.6 Z" fill="none" stroke="black" stroke-width="0.1"/>
+  <line x1="6" y1="8" x2="5" y2="8" stroke="black" stroke-width="0.1" marker-end="url(#arrow)"/>
+  <text x="5.5" y="7.8" font-size="0.3" text-anchor="middle">10 kips</text>
+  <line x1="11" y1="0" x2="11" y2="1" stroke="black" stroke-width="0.1" marker-end="url(#arrow)"/>
+  <text x="11.3" y="0.5" font-size="0.3">15 kips</text>
+  <line x1="22" y1="0" x2="22" y2="8" stroke="black" stroke-width="0.1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="22.3" y="4" font-size="0.3" text-anchor="start">8'</text>
+  <line x1="0" y1="0.5" x2="6" y2="0.5" stroke="black" stroke-width="0.1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="3" y="0.7" font-size="0.3" text-anchor="middle">6'</text>
+  <line x1="6" y1="0.5" x2="11" y2="0.5" stroke="black" stroke-width="0.1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="8.5" y="0.7" font-size="0.3" text-anchor="middle">5'</text>
+  <line x1="11" y1="0.5" x2="16" y2="0.5" stroke="black" stroke-width="0.1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="13.5" y="0.7" font-size="0.3" text-anchor="middle">5'</text>
+  <line x1="16" y1="0.5" x2="22" y2="0.5" stroke="black" stroke-width="0.1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="19" y="0.7" font-size="0.3" text-anchor="middle">6'</text>
+</svg>

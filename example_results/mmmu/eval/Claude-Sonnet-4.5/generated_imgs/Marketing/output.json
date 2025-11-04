@@ -1,0 +1,130 @@
+[
+  {
+    "id": "dev_Marketing_1",
+    "question": "The data in Table 8.2 are the result of a random survey of 39 national flags (with replacement between picks) from various countries. Let X = the number of colors on a national flag. <image 1> Using the same x_bar, sx, and level of confidence, suppose that n were 69 instead of 39. Would the error bound become larger or smaller?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Larger.",
+      "Smaller.",
+      "Not certain."
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Larger.",
+      "B": "Smaller.",
+      "C": "Not certain."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Marketing/dev_Marketing_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Marketing_2",
+    "question": "Two computer users were discussing tablet computers. A higher proportion of people ages 16 to 29 use tablets than the proportion of people age 30 and older. Table 10.17 details the number of tablet owners for each age group. Test at the 1% level of significance. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "Not certain."
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "B": "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "C": "Not certain."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Marketing/dev_Marketing_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Marketing_3",
+    "question": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in Table 12.16. <image 1> At the 10% significance level, are the scores among the different groups different?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "No, there is not enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "Not certain."
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "B": "No, there is not enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "C": "Not certain."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Marketing/dev_Marketing_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Marketing_4",
+    "question": "<image 1> Are the mean numbers of daily visitors to a ski resort the same for the three types of snow conditions? Suppose that Table 12.38 shows the results of a study. Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05. What can you conclude?",
+    "question_type": "multiple-choice",
+    "options": [
+      "There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "There is sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "Not certain."
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "B": "There is sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "C": "Not certain."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Marketing/dev_Marketing_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Marketing_5",
+    "question": "Thuy Dau, Ngoc Bui, Sam Su, and Lan Voung conducted a survey as to how long customers at Lucky claimed to wait in the checkout line until their turn. Let X = time in line. Table 6.1 displays the ordered real data (in minutes): <image 1> Use the distribution in part e to calculate the probability that a person will wait fewer than 6.1 minutes.",
+    "question_type": "multiple-choice",
+    "options": [
+      "0.6029",
+      "0.6030",
+      "0.6031",
+      "0.6032"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.6029",
+      "B": "0.6030",
+      "C": "0.6031",
+      "D": "0.6032"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Marketing/dev_Marketing_5_img1.png"
+    ],
+    "response": ""
+  }
+]

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="20%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="4" markerHeight="4" refX="2" refY="2" orient="auto">
+      <path d="M0,0 L4,2 L0,4" fill="black"/>
+    </marker>
+  </defs>
+  <rect x="100" y="50" width="200" height="150" fill="url(#topLayer)" stroke="black"/>
+  <text x="200" y="120" font-size="16" text-anchor="middle" fill="black">H₂O</text>
+  <text x="200" y="145" font-size="14" text-anchor="middle" fill="black">P = constant</text>
+  <path d="M60,100 L100,100 L90,110 L100,120 L90,130 L100,140" stroke="black" fill="none"/>
+  <path d="M50,100 L70,100 M50,140 L70,140" stroke="black" marker-end="url(#arrow)"/>
+  <line x1="300" y1="125" x2="380" y2="125" stroke="black"/>
+  <circle cx="300" cy="125" r="10" stroke="black" fill="none"/>
+  <path d="M290,125 L310,125 M300,115 L300,135" stroke="black"/>
+  <path d="M315,115 A10,10 0 0,1 315,135" stroke="blue" fill="none" marker-end="url(#arrow)"/>
+  <text x="60" y="80" font-size="14" fill="black">W<sub>e</sub></text>
+  <text x="350" y="100" font-size="14" fill="black">W<sub>sh</sub></text>
+</svg>

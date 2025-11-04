@@ -1,0 +1,25 @@
+<svg viewBox="0 0 570 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="570" height="200" fill="#d5dfe8"/>
+  
+  <text x="36" y="50" font-family="serif" font-size="18" fill="#2c3e50" font-weight="600">Case</text>
+  <text x="138" y="50" font-family="serif" font-size="18" fill="#2c3e50" font-weight="600">Opportunity cost, r</text>
+  <text x="340" y="50" font-family="serif" font-size="18" fill="#2c3e50" font-weight="600">Number of periods, n</text>
+  
+  <line x1="20" y1="60" x2="550" y2="60" stroke="#2c3e50" stroke-width="1.5"/>
+  
+  <text x="36" y="90" font-family="serif" font-size="18" fill="#2c3e50">A</text>
+  <text x="138" y="90" font-family="serif" font-size="18" fill="#2c3e50">2%</text>
+  <text x="340" y="90" font-family="serif" font-size="18" fill="#2c3e50">4</text>
+  
+  <text x="36" y="125" font-family="serif" font-size="18" fill="#2c3e50">B</text>
+  <text x="138" y="125" font-family="serif" font-size="18" fill="#2c3e50">10</text>
+  <text x="340" y="125" font-family="serif" font-size="18" fill="#2c3e50">2</text>
+  
+  <text x="36" y="160" font-family="serif" font-size="18" fill="#2c3e50">C</text>
+  <text x="138" y="160" font-family="serif" font-size="18" fill="#2c3e50">5</text>
+  <text x="340" y="160" font-family="serif" font-size="18" fill="#2c3e50">3</text>
+  
+  <text x="36" y="195" font-family="serif" font-size="18" fill="#2c3e50">D</text>
+  <text x="138" y="195" font-family="serif" font-size="18" fill="#2c3e50">13</text>
+  <text x="340" y="195" font-family="serif" font-size="18" fill="#2c3e50">2</text>
+</svg>

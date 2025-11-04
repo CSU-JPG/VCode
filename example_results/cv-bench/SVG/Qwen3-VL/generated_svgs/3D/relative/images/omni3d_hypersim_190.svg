@@ -1,0 +1,67 @@
+<svg viewBox="-3.5 -2.5 7 6" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      .furniture { fill: #8B4513; stroke: #000; stroke-width: 0.02; }
+      .white { fill: #FFF; stroke: #000; stroke-width: 0.02; }
+      .black { fill: #000; stroke: #000; stroke-width: 0.02; }
+      .gray { fill: #AAA; stroke: #000; stroke-width: 0.02; }
+      .chain { stroke: #000; stroke-width: 0.05; fill: none; }
+    </style>
+  </defs>
+
+  <rect x="-3.5" y="-2.5" width="7" height="6" fill="#F0F0F0"/>
+
+  <!-- Floor -->
+  <rect x="-3" y="-1" width="6" height="5" fill="#F5F5F5" stroke="#000" stroke-width="0.01"/>
+
+  <!-- Sofa -->
+  <rect x="-2.5" y="-0.5" width="1.5" height="1" class="white"/>
+  <rect x="-2.5" y="-0.3" width="1.5" height="0.3" class="gray"/>
+
+  <!-- Coffee Table -->
+  <rect x="-1.2" y="0.2" width="1" height="0.5" class="furniture"/>
+  <rect x="-1.2" y="0.2" width="1" height="0.5" fill="#8B4513" stroke="#000" stroke-width="0.02"/>
+  <rect x="-1.1" y="0.25" width="0.8" height="0.4" fill="#A0522D" stroke="#000" stroke-width="0.01"/>
+
+  <!-- Chair -->
+  <path d="M0.2,0.3 C0.5,0.5 0.7,0.8 0.6,1.1 C0.5,1.4 0.3,1.7 0.1,1.9 C-0.1,2.1 -0.3,2.2 -0.5,2.1 C-0.7,2.0 -0.8,1.8 -0.8,1.6 C-0.8,1.4 -0.7,1.2 -0.5,1.0 C-0.3,0.8 -0.1,0.6 0.1,0.5 C0.3,0.4 0.5,0.3 0.7,0.4 C0.9,0.5 1.1,0.7 1.2,0.9 C1.3,1.1 1.3,1.3 1.2,1.5 C1.1,1.7 1.0,1.9 0.8,2.0 C0.6,2.1 0.4,2.1 0.2,2.0 C0.0,1.9 -0.2,1.7 -0.3,1.5 C-0.4,1.3 -0.4,1.1 -0.3,0.9 C-0.2,0.7 0.0,0.5 0.2,0.3 Z" class="black"/>
+
+  <!-- Desk -->
+  <rect x="-0.5" y="-0.2" width="1.5" height="0.7" class="furniture"/>
+  <rect x="-0.5" y="-0.2" width="1.5" height="0.7" fill="#8B4513" stroke="#000" stroke-width="0.02"/>
+
+  <!-- TV -->
+  <rect x="1.2" y="-0.1" width="0.4" height="0.6" class="black"/>
+  <rect x="1.2" y="-0.1" width="0.4" height="0.6" fill="#000" stroke="#000" stroke-width="0.02"/>
+
+  <!-- Bookshelf -->
+  <rect x="-2.2" y="-1.2" width="0.8" height="0.4" class="furniture"/>
+  <rect x="-2.2" y="-1.2" width="0.8" height="0.4" fill="#8B4513" stroke="#000" stroke-width="0.02"/>
+
+  <!-- Chain -->
+  <line x1="1.5" y1="-1.5" x2="0.5" y2="1.5" class="chain"/>
+
+  <!-- Window -->
+  <rect x="-1.5" y="-1.5" width="0.8" height="0.8" class="white"/>
+  <rect x="-1.5" y="-1.5" width="0.8" height="0.8" fill="#FFF" stroke="#000" stroke-width="0.02"/>
+
+  <!-- Monitor -->
+  <rect x="-1.0" y="-1.0" width="0.4" height="0.3" class="black"/>
+  <rect x="-1.0" y="-1.0" width="0.4" height="0.3" fill="#000" stroke="#000" stroke-width="0.02"/>
+
+  <!-- Radiator -->
+  <rect x="-1.5" y="-0.5" width="0.6" height="0.2" class="gray"/>
+  <rect x="-1.5" y="-0.5" width="0.6" height="0.2" fill="#AAA" stroke="#000" stroke-width="0.02"/>
+
+  <!-- Picture frames -->
+  <rect x="-1.8" y="-1.5" width="0.1" height="0.1" class="black"/>
+  <rect x="-1.6" y="-1.5" width="0.1" height="0.1" class="black"/>
+  <rect x="-1.4" y="-1.5" width="0.1" height="0.1" class="black"/>
+
+  <!-- Book on table -->
+  <rect x="-1.0" y="0.3" width="0.2" height="0.05" class="black"/>
+  <rect x="-1.0" y="0.3" width="0.2" height="0.05" fill="#000" stroke="#000" stroke-width="0.01"/>
+
+  <!-- Green vase -->
+  <ellipse cx="1.5" cy="0.4" rx="0.1" ry="0.15" fill="#008000" stroke="#000" stroke-width="0.02"/>
+</svg>

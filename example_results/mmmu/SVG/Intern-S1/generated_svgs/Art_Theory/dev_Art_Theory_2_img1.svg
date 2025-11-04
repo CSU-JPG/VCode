@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f4e3"/>
+  <path d="M50 50 Q150 0 250 50 T450 50 T650 50 T750 50 L750 100 L50 100 Z" fill="#e0d8c0" stroke="#333" stroke-width="2"/>
+  <text x="400" y="70" font-family="serif" font-size="14" text-anchor="middle" fill="#333">IUN BASSVS VCVI VIXIT ANNIS XLIM MEN IIII NIPS APRAEFECTVR AVR BINEOETVS IIII TADDENVM VIII KAL SEPT EVSEBIO ET YPATI COSS</text>
+  <g stroke="#333" stroke-width="2">
+    <line x1="50" y1="100" x2="50" y2="350/>
+    <line x1="150" y1="100" x2="150" y2="350/>
+    <line x1="250" y1="100" x2="250" y2="350/>
+    <line x1="350" y1="100" x2="350" y2="350/>
+    <line x1="450" y1="100" x2="450" y2="350/>
+    <line x1="550" y1="100" x2="550" y2="350/>
+    <line x1="650" y1="100" x2="650" y2="350/>
+    <line x1="750" y1="100" x2="750" y2="350/>
+  </g>
+  <g font-family="serif" font-size="12" text-anchor="middle" fill="#333">
+    <text x="75" y="150">Figure</text>
+    <text x="175" y="150">Figure</text>
+    <text x="275" y="150">Figure</text>
+    <text x="375" y="150">Figure</text>
+    <text x="475" y="150">Figure</text>
+    <text x="575" y="150">Figure</text>
+    <text x="675" y="150">Figure</text>
+    <text x="775" y="150">Figure</text>
+  </g>
+  <g stroke="#333" stroke-width="2">
+    <path d="M50 350 Q100 400 150 350" fill="none"/>
+    <path d="M150 350 Q200 400 250 350" fill="none"/>
+    <path d="M250 350 Q300 400 350 350" fill="none"/>
+    <path d="M350 350 Q400 400 450 350" fill="none"/>
+    <path d="M450 350 Q500 400 550 350" fill="none"/>
+    <path d="M550 350 Q600 400 650 350" fill="none"/>
+    <path d="M650 350 Q700 400 750 350" fill="none"/>
+  </g>
+  <g font-family="serif" font-size="12" text-anchor="middle" fill="#333">
+    <text x="100" y="400">Scene</text>
+    <text x="200" y="400">Scene</text>
+    <text x="300" y="400">Scene</text>
+    <text x="400" y="400">Scene</text>
+    <text x="500" y="400">Scene</text>
+    <text x="600" y="400">Scene</text>
+    <text x="700" y="400">Scene</text>
+  </g>
+</svg>

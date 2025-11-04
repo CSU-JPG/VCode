@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#B8B8B8"/>
+  <g transform="translate(100, 50)">
+    <circle cx="100" cy="50" r="100" fill="#6B4226"/>
+    <circle cx="100" cy="50" r="90" fill="#8B5A2B"/>
+    <g>
+      <circle cx="70" cy="30" r="5" fill="#FF0000"/>
+      <circle cx="130" cy="70" r="5" fill="#FFFFFF"/>
+      <circle cx="80" cy="80" r="5" fill="#00AA00"/>
+      <circle cx="120" cy="40" r="5" fill="#FF0000"/>
+      <circle cx="90" cy="60" r="5" fill="#FFFFFF"/>
+      <circle cx="110" cy="50" r="5" fill="#00AA00"/>
+    </g>
+  </g>
+  <g transform="translate(250, 100)">
+    <circle cx="100" cy="50" r="100" fill="#6B4226"/>
+    <circle cx="100" cy="50" r="90" fill="#8B5A2B"/>
+    <g>
+      <circle cx="70" cy="30" r="5" fill="#FF0000"/>
+      <circle cx="130" cy="70" r="5" fill="#FFFFFF"/>
+      <circle cx="80" cy="80" r="5" fill="#00AA00"/>
+      <circle cx="120" cy="40" r="5" fill="#FF0000"/>
+      <circle cx="90" cy="60" r="5" fill="#FFFFFF"/>
+      <circle cx="110" cy="50" r="5" fill="#00AA00"/>
+    </g>
+  </g>
+  <g transform="translate(500, 200)">
+    <circle cx="100" cy="50" r="100" fill="#6B4226"/>
+    <circle cx="100" cy="50" r="90" fill="#8B5A2B"/>
+    <g>
+      <circle cx="70" cy="30" r="5" fill="#FF0000"/>
+      <circle cx="130" cy="70" r="5" fill="#FFFFFF"/>
+      <circle cx="80" cy="80" r="5" fill="#00AA00"/>
+      <circle cx="120" cy="40" r="5" fill="#FF0000"/>
+      <circle cx="90" cy="60" r="5" fill="#FFFFFF"/>
+      <circle cx="110" cy="50" r="5" fill="#00AA00"/>
+    </g>
+  </g>
+  <g transform="translate(750, 50)">
+    <circle cx="100" cy="50" r="100" fill="#6B4226"/>
+    <circle cx="100" cy="50" r="90" fill="#8B5A2B"/>
+    <g>
+      <circle cx="70" cy="30" r="5" fill="#FF0000"/>
+      <circle cx="130" cy="70" r="5" fill="#FFFFFF"/>
+      <circle cx="80" cy="80" r="5" fill="#00AA00"/>
+      <circle cx="120" cy="40" r="5" fill="#FF0000"/>
+      <circle cx="90" cy="60" r="5" fill="#FFFFFF"/>
+      <circle cx="110" cy="50" r="5" fill="#00AA00"/>
+    </g>
+  </g>
+  <g transform="translate(150, 400)">
+    <circle cx="100" cy="50" r="100" fill="#6B4226"/>
+    <circle cx="100" cy="50" r="90" fill="#8B5A2B"/>
+    <g>
+      <circle cx="70" cy="30" r="5" fill="#FF0000"/>
+      <circle cx="130" cy="70" r="5" fill="#FFFFFF"/>
+      <circle cx="80" cy="80" r="5" fill="#00AA00"/>
+      <circle cx="120" cy="40" r="5" fill="#FF0000"/>
+      <circle cx="90" cy="60" r="5" fill="#FFFFFF"/>
+      <circle cx="110" cy="50" r="5" fill="#00AA00"/>
+    </g>
+  </g>
+  <g transform="translate(850, 500)">
+    <circle cx="100" cy="50" r="100" fill="#6B4226"/>
+    <circle cx="100" cy="50" r="90" fill="#8B5A2B"/>
+    <g>
+      <circle cx="70" cy="30" r="5" fill="#FF0000"/>
+      <circle cx="130" cy="70" r="5" fill="#FFFFFF"/>
+      <circle cx="80" cy="80" r="5" fill="#00AA00"/>
+      <circle cx="120" cy="40" r="5" fill="#FF0000"/>
+      <circle cx="90" cy="60" r="5" fill="#FFFFFF"/>
+      <circle cx="110" cy="50" r="5" fill="#00AA00"/>
+    </g>
+  </g>
+  <g transform="translate(500, 700)">
+    <circle cx="100" cy="50" r="100" fill="#6B4226"/>
+    <circle cx="100" cy="50" r="90" fill="#8B5A2B"/>
+    <g>
+      <circle cx="70" cy="30" r="5" fill="#FF0000"/>
+      <circle cx="130" cy="70" r="5" fill="#FFFFFF"/>
+      <circle cx="80" cy="80" r="5" fill="#00AA00"/>
+      <circle cx="120" cy="40" r="5" fill="#FF0000"/>
+      <circle cx="90" cy="60" r="5" fill="#FFFFFF"/>
+      <circle cx="110" cy="50" r="5" fill="#00AA00"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,190 @@
+<svg viewBox="0 0 1170 878" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg-sky { fill: #d4dbe0; }
+      .bg-trees-far { fill: #52595d; }
+      .bg-snow { fill: #f5f8fa; }
+      .bg-snow-shadow { fill: #e1e7eb; }
+      .bg-tree-main { fill: #4a413a; }
+      .struct-blue { fill: #1e73be; }
+      .struct-roof { fill: #707880; }
+      .skin { fill: #f2d3be; }
+      .black { fill: #231f20; }
+      .gray-dark { fill: #58595b; }
+      .gray-mid { fill: #a7a9ac; }
+      .gray-light { fill: #d1d3d4; }
+      .white-cream { fill: #f0ede5; }
+      .blue-jacket { fill: #3a80a8; }
+      .blue-dark-jacket { fill: #314f6b; }
+      .blue-hat { fill: #0055d4; }
+      .blue-goggle { fill: #5c8fca; }
+      .red-pants { fill: #c1272d; }
+      .red-jacket { fill: #b8444c; }
+      .brown-pants { fill: #8c735b; }
+      .flag-green { fill: #00843D; }
+      .flag-white { fill: #ffffff; }
+      .plaid-dark { fill: #3a3a3a; }
+      .plaid-light { fill: #b5b5b5; }
+    </style>
+  </defs>
+
+  <rect class="bg-sky" width="1170" height="878"/>
+  <path class="bg-trees-far" d="M0 450 C100 420, 200 440, 350 400 L400 380 L550 420 L680 350 L800 390 L950 340 L1050 380 L1170 350 V 480 H 0 Z"/>
+  <path class="bg-snow" d="M0 878 L1170 878 L1170 450 C1000 500, 800 520, 600 550 C400 580, 200 550, 0 500 Z"/>
+  <path class="bg-snow-shadow" d="M300 878 C450 850, 600 860, 750 840 L1170 800 V 878 H 300Z M0 650 C150 680, 300 660, 450 690 L500 720 L350 750 L100 730 Z"/>
+
+  <path class="bg-tree-main" d="M220 180 L230 460 L245 460 L235 180 Z M225 180 C200 185, 170 200, 150 230 L160 235 C175 210, 200 195, 225 190 Z M225 180 C250 175, 280 185, 300 210 L290 215 C275 195, 250 185, 225 180 Z M100 280 L160 235 L165 240 L110 285 Z M280 250 L290 215 L295 220 L285 255 Z M50,350 l 50 -40 l5 5 l-50 40z M230 300 l 80 -30 l 5 5 l -80 30z"/>
+
+  <rect class="struct-blue" x="870" y="380" width="60" height="100"/>
+  <polygon class="struct-roof" points="950,330 1100,430 950,430"/>
+  <rect class="gray-dark" x="950" y="430" width="150" height="10"/>
+
+  <!-- Group of People -->
+  <g id="people">
+    <!-- Person back row far right (skier) -->
+    <g>
+      <path class="gray-dark" d="M990 700 l 20 160 l -140 30 l -20 -160 z" transform="rotate(-5 990 700)"/>
+      <path class="white-cream" d="M990 700 l 10 150 l -120 25 l -10 -150 z" transform="rotate(-5 990 700)"/>
+      <path class="plaid-dark" d="M1020 435 a 45 45 0 0 1 0 90 h -100 v -90 z"/>
+      <path class="plaid-light" d="M950 445 h 70 v 10 h-70z m0 20 h 70 v 10 h-70z m0 20 h 70 v 10 h-70z m0 20 h 70 v 10 h-70z"/>
+      <path class="black" d="M930 525 l 100 10 v 265 l -100 -10 z"/>
+      <circle class="skin" cx="970" cy="425" r="25"/>
+      <path class="blue-goggle" d="M950 415 h 40 a 10 10 0 0 1 0 20 h -40 a 10 10 0 0 1 0 -20 z"/>
+      <path class="black" d="M950 400 a 25 20 0 0 1 40 0z"/>
+    </g>
+
+    <!-- Person in red jacket -->
+    <g>
+      <path class="gray-mid" d="M890 560 h 60 v 180 h -60 z"/>
+      <path class="red-jacket" d="M880 480 a 40 40 0 0 1 80 0 v 100 h-80 z"/>
+      <circle class="skin" cx="920" cy="470" r="20"/>
+      <path class="blue-goggle" d="M905 460 h 30 a 10 10 0 0 1 0 20 h -30 a 10 10 0 0 1 0 -20 z"/>
+      <path class="black" d="M905 445 a 20 15 0 0 1 30 0z"/>
+    </g>
+
+    <!-- Person next to red jacket -->
+    <g>
+      <path class="blue-dark-jacket" d="M820 470 a 40 40 0 0 1 80 0 v 120 l -20 10 h-40 l-20 -10 z"/>
+      <path class="gray-dark" d="M840 590 l-10 170 h 40 l-10 -170 z"/>
+      <circle class="skin" cx="860" cy="460" r="22"/>
+      <path class="black" d="M840 440 a 25 20 0 0 1 40 0z"/>
+    </g>
+
+    <!-- Person crouching in front of flag -->
+    <g>
+      <path class="white-cream" d="M720 560 a 40 40 0 0 1 80 0 l-5 110 l -70 0 l-5 -110z"/>
+      <path class="gray-mid" d="M720 670 l 10 50 l 60 0 l -10 -50z"/>
+      <circle class="skin" cx="760" cy="550" r="20"/>
+      <path class="black" d="M745 530 a 20 15 0 0 1 30 0z"/>
+    </g>
+
+    <!-- Person with flag, left side -->
+    <g>
+      <path class="white-cream" d="M740 460 a 40 40 0 0 1 80 0 v 150 h -80 z"/>
+      <path class="skin" d="M750 450 a 25 25 0 1 1 50 0 a 25 25 0 1 1 -50 0"/>
+      <path class="blue-goggle" d="M755 440 h 40 a 10 10 0 0 1 0 20 h -40 a 10 10 0 0 1 0 -20 z"/>
+      <path class="black" d="M755 425 a 25 20 0 0 1 40 0z"/>
+    </g>
+
+    <!-- Person holding snowboard -->
+    <g>
+      <path class="blue-dark-jacket" d="M600 480 l 20 170 l-20 10 l -90 -20 l -10 -160 z"/>
+      <path class="white-cream" d="M600 480 l 10 160 l-80 -15 l 0 -150 z"/>
+      <path class="white-cream" d="M650 450 a 40 40 0 0 1 80 0 v 150 h-80 z"/>
+      <path class="skin" d="M660 440 a 25 25 0 1 1 50 0 a 25 25 0 1 1 -50 0"/>
+      <path class="blue-goggle" d="M665 430 h 40 a 10 10 0 0 1 0 20 h -40 a 10 10 0 0 1 0 -20 z"/>
+      <path class="black" d="M665 415 a 25 20 0 0 1 40 0z"/>
+    </g>
+
+    <!-- Person behind flag -->
+    <g>
+      <path class="white-cream" d="M570 430 a 35 35 0 0 1 70 0 v 80 h -70 z"/>
+      <circle class="skin" cx="605" cy="420" r="20"/>
+      <path class="black" d="M590 405 a 20 15 0 0 1 30 0z"/>
+    </g>
+
+    <!-- Kneeling person in middle -->
+    <g>
+      <path class="white-cream" d="M500 580 a 40 40 0 0 1 80 0 l 10 110 l -100 0 l 10 -110z"/>
+      <path class="gray-dark" d="M500 690 l -10 50 h 100 l-10-50z"/>
+      <path class="skin" d="M510 570 a 25 25 0 1 1 50 0 a 25 25 0 1 1 -50 0"/>
+      <path class="black" d="M510 550 a 25 20 0 0 1 50 0z"/>
+    </g>
+
+    <!-- Person behind snowboarder -->
+    <g>
+      <path class="white-cream" d="M430 400 a 35 35 0 0 1 70 0 v 100 h-70 z"/>
+      <circle class="skin" cx="465" cy="390" r="20"/>
+      <path class="gray-dark" d="M450 375 a 20 15 0 0 1 30 0z"/>
+    </g>
+
+    <!-- Snowboarder man -->
+    <g>
+      <path class="white-cream" d="M450 430 a 45 45 0 0 1 90 0 v 150 h-90 z"/>
+      <path class="gray-dark" d="M460 580 l-10 180 h 70 l-10 -180 z"/>
+      <circle class="skin" cx="495" cy="420" r="25"/>
+      <path class="gray-light" d="M475 410 h 40 a 10 10 0 0 1 0 20 h -40 a 10 10 0 0 1 0 -20 z"/>
+      <path class="brown-pants" d="M455 395 a 25 20 0 0 1 40 0z"/>
+    </g>
+
+    <!-- Woman next to snowboarder -->
+    <g>
+      <path class="white-cream" d="M360 430 a 40 40 0 0 1 80 0 v 160 h-80 z"/>
+      <circle class="skin" cx="400" cy="420" r="22"/>
+      <path class="blue-goggle" d="M380 410 h 40 a 10 10 0 0 1 0 20 h -40 a 10 10 0 0 1 0 -20 z"/>
+      <path class="black" d="M380 395 a 25 20 0 0 1 40 0z"/>
+    </g>
+
+    <!-- Man back left -->
+    <g>
+      <path class="blue-jacket" d="M260 420 a 50 50 0 0 1 100 0 v 170 h -100 z"/>
+      <path class="gray-dark" d="M260 500 h 100 v 20 h-100 z"/>
+      <path class="brown-pants" d="M270 590 l-10 200 h 80 l -10 -200 z"/>
+      <circle class="skin" cx="310" cy="410" r="25"/>
+      <path class="gray-dark" d="M290 385 a 25 20 0 0 1 40 0z"/>
+      <path style="fill:#e44d2e;" d="M300 388 h 5 v 5 h -5 z"/>
+      <path style="fill:#ffffff;" d="M305 388 h 5 v 5 h -5 z"/>
+      <path style="fill:#0055d4;" d="M310 388 h 5 v 5 h -5 z"/>
+    </g>
+
+    <!-- Kneeling man front left -->
+    <g>
+      <path class="black" d="M250 570 a 50 50 0 0 1 100 0 l-5 130 l-90 0 l-5 -130 z"/>
+      <path class="gray-dark" d="M260 610 a 40 40 0 0 0 -10 -20 h 90 a 40 40 0 0 0 -10 20 z"/>
+      <path class="red-pants" d="M240 700 l 20 130 h 100 l-30 -130 z"/>
+      <circle class="skin" cx="300" cy="560" r="28"/>
+      <path class="blue-hat" d="M280 530 a 30 25 0 0 1 40 0z"/>
+    </g>
+  </g>
+
+  <!-- Skis and Snowboards -->
+  <g id="equipment">
+    <path class="blue-dark-jacket" d="M520 460 l -25 200 l 10 5 l 25 -200 z"/>
+    <path class="white-cream" d="M515 470 l -20 160 l 10 0 l 20 -160 z"/>
+    <path class="black" d="M150 780 l 10 90 l -140 10 l -10 -90 z" transform="rotate(-15 150 780)"/>
+    <path class="gray-light" d="M150 780 l 5 80 l -120 8 l-5-80 z" transform="rotate(-15 150 780)"/>
+    <path class="black" d="M220 810 a 30 30 0 1 1 -60 0 a 30 30 0 1 1 60 0"/>
+    <path class="gray-light" d="M205 800 l 10 10 h-30 l 10-10z m -10 15 l 20 0 l-2 5 h -16 z"/>
+  </g>
+
+  <!-- Flag -->
+  <g id="flag">
+    <path class="flag-green" d="M490 450 C 550 440, 650 460, 720 450 L 730 630 C 650 640, 550 620, 480 630 Z"/>
+    <g class="flag-white" transform="translate(510 500) scale(0.8)">
+      <path d="M 50 0 L 60 0 L 80 50 L 70 50 Z M 80 0 L 90 0 L 70 50 L 60 50 Z M 65 55 a 15 15 0 1 1 0.1 0"/>
+      <path d="M 100 0 h 10 v 50 h -10 z M 100 22 h 20 v 6 h-20z"/>
+      <path d="M 130 0 h 30 v 10 h-30 v 15 h 20 v 10 h-20 v 15 h 30 v 10 h-40 V 0 z"/>
+      <path d="M 170 0 h 10 v 40 h 20 v 10 h-30 z"/>
+      <path d="M 10 70 h 30 v 10 h -10 v 30 h 10 v 10 h -20 a 10 10 0 0 1 -10 -10 v-30 a 10 10 0 0 1 10-10"/>
+      <path d="M 50 70 h 10 v 50 h -10 z"/>
+      <path d="M 70 70 h 10 v 50 h-10 z"/>
+      <path d="M 100 70 h 10 l 10 25 l 10 -25 h 10 v 50 h -10 v-30 l -10 15 l-10 -15 v 30 h-10 z"/>
+      <path d="M 150 70 h 25 a 25 25 0 1 1 0 50 h -25 a 25 25 0 1 1 0 -50 m 10 10 v 30 h 10 a 15 15 0 1 0 0 -30 z"/>
+      <path d="M 190 70 h 30 v 10 h -10 v 30 h 10 v 10 h -30z"/>
+      <path d="M 230 70 l 15 50 h-10 l -2 -8 h -16 l -2 8 h -10 l 15 -50 h 10 m -3 30 h -14 l 7 -22 z"/>
+      <path d="M 270 70 h 10 l 20 50 h -10 l -15 -37 l-15 37 h -10 z"/>
+      <path d="M 150 0 h 40 v 10 h-30 v 15 h 20 v 10 h-20 v 15 h 30 v 10 h-40z"/>
+      <text x="95" y="150" font-family="sans-serif" font-weight="bold" font-size="20">SPARTAN SKI CLUB</text>
+    </g>
+  </g>
+</svg>

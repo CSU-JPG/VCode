@@ -1,0 +1,61 @@
+<svg viewBox="0 0 280 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left circuit -->
+  <line x1="30" y1="20" x2="30" y2="35" stroke="black" stroke-width="2"/>
+  <line x1="30" y1="35" x2="60" y2="35" stroke="black" stroke-width="2"/>
+  
+  <!-- Left transformer primary -->
+  <path d="M 60 35 Q 65 40, 60 45 Q 55 50, 60 55 Q 65 60, 60 65 Q 55 70, 60 75" stroke="black" stroke-width="2" fill="none"/>
+  
+  <line x1="60" y1="75" x2="30" y2="75" stroke="black" stroke-width="2"/>
+  <line x1="30" y1="75" x2="30" y2="100" stroke="black" stroke-width="2"/>
+  
+  <!-- Top left terminal -->
+  <text x="25" y="15" font-family="Arial" font-size="14">+</text>
+  
+  <!-- Bottom left terminal -->
+  <text x="25" y="110" font-family="Arial" font-size="14">−</text>
+  
+  <!-- Left voltage label -->
+  <text x="15" y="60" font-family="Arial" font-size="14" font-style="italic">u₁</text>
+  
+  <!-- Transformer core -->
+  <line x1="70" y1="30" x2="70" y2="80" stroke="black" stroke-width="2"/>
+  <line x1="75" y1="30" x2="75" y2="80" stroke="black" stroke-width="2"/>
+  
+  <!-- Right transformer secondary -->
+  <path d="M 90 35 Q 85 40, 90 45 Q 95 50, 90 55 Q 85 60, 90 65 Q 95 70, 90 75" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Right circuit -->
+  <line x1="90" y1="35" x2="120" y2="35" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="35" x2="120" y2="20" stroke="black" stroke-width="2"/>
+  
+  <!-- Top connection -->
+  <line x1="120" y1="20" x2="220" y2="20" stroke="black" stroke-width="2"/>
+  
+  <!-- Right side vertical -->
+  <line x1="220" y1="20" x2="220" y2="45" stroke="black" stroke-width="2"/>
+  
+  <!-- Resistor -->
+  <rect x="215" y="45" width="10" height="30" stroke="black" stroke-width="2" fill="white"/>
+  
+  <line x1="220" y1="75" x2="220" y2="100" stroke="black" stroke-width="2"/>
+  
+  <!-- Bottom connection -->
+  <line x1="220" y1="100" x2="120" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="100" x2="120" y2="75" stroke="black" stroke-width="2"/>
+  <line x1="120" y1="75" x2="90" y2="75" stroke="black" stroke-width="2"/>
+  
+  <!-- Top right terminal -->
+  <text x="227" y="15" font-family="Arial" font-size="14">+</text>
+  
+  <!-- Bottom right terminal -->
+  <text x="227" y="110" font-family="Arial" font-size="14">−</text>
+  
+  <!-- Right voltage label -->
+  <text x="235" y="60" font-family="Arial" font-size="14" font-style="italic">u₂</text>
+  
+  <!-- Resistor label -->
+  <text x="235" y="65" font-family="Arial" font-size="12" font-style="italic">R</text>
+  <text x="245" y="67" font-family="Arial" font-size="10" font-style="italic">L</text>
+  <text x="250" y="65" font-family="Arial" font-size="12">=8 Ω</text>
+</svg>

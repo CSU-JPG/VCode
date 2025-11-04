@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#8B7E74"/>
+  <g>
+    <circle cx="560" cy="870" r="110" fill="#FF3B30" stroke="#2E2E2E" stroke-width="2"/>
+    <circle cx="390" cy="750" r="100" fill="#FF5733" stroke="#2E2E2E" stroke-width="2"/>
+    <circle cx="530" y="600" r="90" fill="#FF4500" stroke="#2E2E2E" stroke-width="2"/>
+    <circle cx="660" y="680" r="95" fill="#FF3B30" stroke="#2E2E2E" stroke-width="2"/>
+    <circle cx="750" y="870" r="110" fill="#FF3B30" stroke="#2E2E2E" stroke-width="2"/>
+    <path d="M480 630 Q520 680 550 720 Q580 760 610 780 Q640 800 670 790 Q700 780 730 750" fill="none" stroke="#2E2E2E" stroke-width="3"/>
+    <path d="M520 670 Q550 690 570 720 Q590 750 600 780 Q610 810 620 830" fill="none" stroke="#2E2E2E" stroke-width="3"/>
+    <path d="M600 670 Q620 690 640 720 Q660 750 670 780 Q680 810 690 830" fill="none" stroke="#2E2E2E" stroke-width="3"/>
+    <path d="M650 700 Q670 720 690 750 Q710 780 720 810 Q730 840 740 860" fill="none" stroke="#2E2E2E" stroke-width="3"/>
+  </g>
+  <g>
+    <ellipse cx="680" cy="490" rx="90" ry="80" fill="#ADFF2F" stroke="#2E2E2E" stroke-width="2"/>
+    <ellipse cx="670" cy="400" rx="10" ry="15" fill="#8B4513"/>
+    <ellipse cx="620" cy="320" rx="80" ry="70" fill="#B22222" stroke="#2E2E2E" stroke-width="2"/>
+    <ellipse cx="630" cy="190" rx="8" ry="12" fill="#8B4513"/>
+    <ellipse cx="830" cy="410" rx="85" ry="75" fill="#FF6347" stroke="#2E2E2E" stroke-width="2"/>
+    <ellipse cx="840" cy="290" rx="10" ry="15" fill="#8B4513"/>
+  </g>
+  <g>
+    <rect x="90" y="0" width="280" height="560" rx="20" fill="#D2691E" stroke="#2E2E2E" stroke-width="2"/>
+    <rect x="95" y="5" width="270" height="550" fill="#CD5C5C" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="100" y="10" width="260" height="540" fill="#FF6347" stroke="#2E2E2E" stroke-width="1"/>
+  </g>
+  <g>
+    <circle cx="240" cy="400" r="150" fill="#FFEBCD" stroke="#2E2E2E" stroke-width="2"/>
+    <circle cx="240" cy="400" r="145" fill="#FAEBD7" stroke="#2E2E2E" stroke-width="1"/>
+    <circle cx="240" cy="400" r="140" fill="#F5F5DC" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="115" y="90" width="250" height="40" rx="10" fill="#DAA520" stroke="#2E2E2E" stroke-width="2"/>
+    <rect x="120" y="95" width="240" height="30" rx="8" fill="#B8860B" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="125" y="100" width="230" height="20" rx="5" fill="#CD853F" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="130" y="105" width="220" height="10" rx="3" fill="#D2691E" stroke="#2E2E2E" stroke-width="1"/>
+  </g>
+  <g>
+    <circle cx="420" cy="300" r="150" fill="#FFA500" stroke="#2E2E2E" stroke-width="2"/>
+    <circle cx="420" cy="300" r="145" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <circle cx="420" cy="300" r="140" fill="#FFDEAD" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="295" y="0" width="250" height="40" rx="10" fill="#DAA520" stroke="#2E2E2E" stroke-width="2"/>
+    <rect x="300" y="5" width="240" height="30" rx="8" fill="#B8860B" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="305" y="10" width="230" height="20" rx="5" fill="#CD853F" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="310" y="15" width="220" height="10" rx="3" fill="#D2691E" stroke="#2E2E2E" stroke-width="1"/>
+  </g>
+  <g>
+    <rect x="480" y="0" width="280" height="250" rx="20" fill="#191970" stroke="#2E2E2E" stroke-width="2"/>
+    <rect x="485" y="5" width="270" height="240" fill="#000080" stroke="#2E2E2E" stroke-width="1"/>
+    <rect x="490" y="10" width="260" height="230" fill="#00008B" stroke="#2E2E2E" stroke-width="1"/>
+    <circle cx="500" cy="20" r="2" fill="#FFFFFF"/>
+    <circle cx="520" cy="40" r="2" fill="#FFFFFF"/>
+    <circle cx="540" cy="60" r="2" fill="#FFFFFF"/>
+    <circle cx="560" cy="80" r="2" fill="#FFFFFF"/>
+    <circle cx="580" cy="100" r="2" fill="#FFFFFF"/>
+    <circle cx="600" cy="120" r="2" fill="#FFFFFF"/>
+    <circle cx="620" cy="140" r="2" fill="#FFFFFF"/>
+    <circle cx="640" cy="160" r="2" fill="#FFFFFF"/>
+    <circle cx="660" cy="180" r="2" fill="#FFFFFF"/>
+    <circle cx="680" cy="200" r="2" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <polygon points="600,0 800,100 700,200" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="620,20 780,110 720,180" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="640,40 760,120 740,160" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="660,60 740,130 760,140" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="680,80 720,140 780,120" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="700,100 700,150 800,100" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="720,120 680,160 820,120" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="740,140 660,170 840,140" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="760,160 640,180 860,160" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="780,180 620,190 880,180" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="800,200 600,200 900,200" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+  </g>
+  <g>
+    <polygon points="0,600 100,700 50,800" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="20,620 80,710 60,790" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="40,640 60,720 70,780" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="60,660 40,730 80,770" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="80,680 20,740 90,760" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="100,700 0,750 100,750" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="120,720 -20,760 110,740" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="140,740 -40,770 120,730" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="160,760 -60,780 130,720" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="180,780 -80,790 140,710" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="200,800 -100,800 150,700" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+  </g>
+  <g>
+    <polygon points="100,880 200,980 150,1080" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="120,900 180,990 160,1070" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="140,920 160,1000 170,1060" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="160,940 140,1010 180,1050" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="180,960 120,1020 190,1040" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="200,980 100,1030 200,1030" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="220,1000 80,1040 210,1020" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="240,1020 60,1050 220,1010" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="260,1040 40,1060 230,1000" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="280,1060 20,1070 240,990" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="300,1080 0,1080 250,980" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+  </g>
+  <g>
+    <polygon points="850,600 950,700 900,800" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="870,620 930,710 910,790" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="890,640 910,720 920,780" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="910,660 890,730 930,770" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="930,680 870,740 940,760" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="950,700 850,750 950,750" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="970,720 830,760 960,740" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="990,740 810,770 970,730" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="1010,760 790,780 980,720" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="1030,780 770,790 990,710" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+    <polygon points="1050,800 750,800 1000,700" fill="#FFD700" stroke="#2E2E2E" stroke-width="1"/>
+  </g>
+</svg>

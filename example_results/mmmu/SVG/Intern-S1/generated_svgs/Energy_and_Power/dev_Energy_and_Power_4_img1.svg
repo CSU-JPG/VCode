@@ -1,0 +1,13 @@
+<svg viewBox="0 -5 120 40" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="0,28 100,15 100,0 0,0" fill="none" stroke="black"/>
+  <circle cx="0" cy="0" r="2" fill="black"/>
+  <circle cx="100" cy="0" r="2" fill="black"/>
+  <line x1="100" y1="15" x2="110" y2="15" stroke="black" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="4" markerHeight="4" refX="4" refY="2" orient="auto">
+      <polygon points="0,0 4,2 0,4" fill="black"/>
+    </marker>
+  </defs>
+  <text x="5" y="5" font-size="4">A</text>
+  <text x="105" y="15" font-size="4">a_x</text>
+</svg>

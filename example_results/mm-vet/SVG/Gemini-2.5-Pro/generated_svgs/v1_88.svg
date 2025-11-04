@@ -1,0 +1,73 @@
+<svg viewBox="0 0 600 286" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#b0b0b0"/>
+      <stop offset="50%" stop-color="#888888"/>
+      <stop offset="80%" stop-color="#b0b0b0"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="specks">
+      <feTurbulence type="fractalNoise" baseFrequency="1.5" numOctaves="1" result="turbulence"/>
+      <feComposite operator="in" in="turbulence" in2="SourceAlpha" result="composite"/>
+      <feColorMatrix in="composite" type="matrix" values="1 0 0 0 0
+                                                          0 1 0 0 0
+                                                          0 0 1 0 0
+                                                          0 0 0 10 -4" result="colormatrix"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="600" height="286" fill="#000"/>
+  <path d="M 0 245 L 600 245 L 600 286 L 0 286 Z" fill="#3a3a3a"/>
+  <path d="M 230 255 C 260 250, 280 260, 310 258 C 340 256, 370 265, 390 262 L 385 275 C 360 280, 330 270, 300 273 C 270 276, 250 282, 235 278 Z" fill="#222" opacity="0.6"/>
+  <path d="M 450 248 C 480 246, 500 252, 530 250 C 560 248, 580 255, 595 253 L 590 268 C 570 272, 540 263, 510 265 C 480 267, 470 275, 455 270 Z" fill="#222" opacity="0.4"/>
+  <path d="M -10 90 C 200 -20, 400 -20, 610 90 L 610 260 C 400 290, 200 290, -10 260 Z" fill="#0a2d3b"/>
+  <g filter="url(#specks)" fill="#d1ccc0" opacity="0.3">
+    <path d="M -10 90 C 200 -20, 400 -20, 610 90 L 610 260 C 400 290, 200 290, -10 260 Z"/>
+  </g>
+  <path d="M 120 200 H 480 C 475 220, 460 230, 300 230 C 140 230, 125 220, 120 200 Z" fill="#050505"/>
+  <rect x="0" y="50" width="600" height="60" fill="#050505"/>
+  <path d="M 0 50 Q 300 20, 600 50 L 600 45 Q 300 15, 0 45 Z" fill="url(#chrome)"/>
+  <g fill="#333">
+    <rect x="20" y="55" width="5" height="40"/>
+    <rect x="40" y="55" width="5" height="40"/>
+    <rect x="60" y="55" width="5" height="40"/>
+    <rect x="80" y="55" width="5" height="40"/>
+    <rect x="100" y="55" width="5" height="40"/>
+    <rect x="120" y="55" width="5" height="40"/>
+    <rect x="140" y="55" width="5" height="40"/>
+    <rect x="160" y="55" width="5" height="40"/>
+    <rect x="180" y="55" width="5" height="40"/>
+    <rect x="200" y="55" width="5" height="40"/>
+    <rect x="220" y="55" width="5" height="40"/>
+    <rect x="240" y="55" width="5" height="40"/>
+    <rect x="260" y="55" width="5" height="40"/>
+    <rect x="320" y="55" width="5" height="40"/>
+    <rect x="340" y="55" width="5" height="40"/>
+    <rect x="360" y="55" width="5" height="40"/>
+    <rect x="380" y="55" width="5" height="40"/>
+    <rect x="400" y="55" width="5" height="40"/>
+    <rect x="420" y="55" width="5" height="40"/>
+    <rect x="440" y="55" width="5" height="40"/>
+    <rect x="460" y="55" width="5" height="40"/>
+    <rect x="480" y="55" width="5" height="40"/>
+    <rect x="500" y="55" width="5" height="40"/>
+    <rect x="520" y="55" width="5" height="40"/>
+    <rect x="540" y="55" width="5" height="40"/>
+    <rect x="560" y="55" width="5" height="40"/>
+    <rect x="580" y="55" width="5" height="40"/>
+  </g>
+  <rect x="160" y="140" width="295" height="70" fill="#000" stroke="#222" stroke-width="2"/>
+  <circle cx="170" cy="175" r="2" fill="#333"/>
+  <circle cx="445" cy="175" r="2" fill="#333"/>
+  <g fill="#f0f0f0" transform="translate(0, 5)">
+    <path d="M 213 147 C 213 142, 203 142, 203 147 C 193 152, 191 165, 203 175 C 215 185, 222 193, 222 198 C 222 203, 212 203, 212 198 L 202 198 C 202 208, 222 208, 222 198 C 232 188, 235 175, 222 165 C 209 155, 203 147, 203 147 L 213 147 Z"/>
+    <path d="M 235 147 L 255 147 L 255 152 C 250 157, 245 167, 255 175 L 235 175 C 235 168, 245 162, 245 157 L 245 152 L 235 152 Z M 235 178 L 258 178 C 253 185, 240 198, 258 203 L 235 203 C 235 198, 245 190, 235 178 Z"/>
+    <path d="M 265 147 L 285 147 L 285 152 C 280 157, 275 167, 285 175 L 265 175 C 265 168, 275 162, 275 157 L 275 152 L 265 152 Z M 265 178 L 288 178 C 283 185, 270 198, 288 203 L 265 203 C 265 198, 275 190, 265 178 Z"/>
+    <path d="M 318 147 C 330 147, 330 203, 318 203 L 302 203 C 290 203, 290 147, 302 147 Z M 302 152 L 302 198 L 318 198 L 318 152 Z"/>
+    <path d="M 360 147 C 350 147, 338 155, 345 165 C 352 175, 360 185, 340 203 L 365 203 L 365 198 L 340 198 C 360 185, 345 170, 345 165 C 345 160, 360 152, 360 152 Z"/>
+    <path d="M 408 147 C 388 147, 388 203, 408 203 C 418 203, 418 175, 408 175 L 408 198 C 393 198, 393 152, 408 152 L 408 175 C 418 175, 418 147, 408 147 Z"/>
+    <path d="M 425 147 L 440 147 C 458 147, 458 203, 440 203 L 425 203 Z M 430 152 L 430 198 L 440 198 C 453 198, 453 152, 440 152 Z"/>
+  </g>
+  <path d="M -10 90 L -10 110 C 150 115, 450 115, 610 110 L 610 90 C 400 -20, 200 -20, -10 90 Z" fill="#fff" opacity="0.1"/>
+  <path d="M 0 45 Q 300 35, 600 45 L 600 40 Q 300 30, 0 40 Z" fill="#fff" opacity="0.4"/>
+</svg>

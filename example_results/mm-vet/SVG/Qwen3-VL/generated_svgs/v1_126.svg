@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="800" fill="#f5f5f5"/>
+  
+  <!-- Bread basket -->
+  <path d="M5 220 Q100 170 200 200 Q300 230 400 250 Q500 270 500 400 Q500 530 400 550 Q300 570 200 550 Q100 530 5 500 Q-90 470 5 220 Z" fill="#d4a76a" stroke="#8b5e3c" stroke-width="2"/>
+  <path d="M10 225 Q95 180 190 205 Q285 230 385 250 Q485 270 485 400 Q485 530 385 545 Q285 560 190 545 Q95 530 10 505 Q-75 480 10 225 Z" fill="#fff" stroke="#8b5e3c" stroke-width="1"/>
+  
+  <!-- Bread slices -->
+  <path d="M35 445 Q80 470 120 480 Q160 490 180 470 Q200 450 190 420 Q180 390 150 380 Q120 370 80 380 Q40 390 35 445 Z" fill="#f5e6c9" stroke="#d4a76a" stroke-width="1"/>
+  <path d="M45 320 Q90 345 130 355 Q170 365 190 345 Q210 325 200 295 Q190 265 160 255 Q130 245 90 255 Q50 265 45 320 Z" fill="#f5e6c9" stroke="#d4a76a" stroke-width="1"/>
+  <path d="M155 230 Q200 255 240 265 Q280 275 300 255 Q320 235 310 205 Q300 175 270 165 Q240 155 200 165 Q160 175 155 230 Z" fill="#f5e6c9" stroke="#d4a76a" stroke-width="1"/>
+  <path d="M225 300 Q270 325 310 335 Q350 345 370 325 Q390 305 380 275 Q370 245 340 235 Q310 225 270 235 Q230 245 225 300 Z" fill="#f5e6c9" stroke="#d4a76a" stroke-width="1"/>
+  <path d="M235 350 Q280 375 320 385 Q360 395 380 375 Q400 355 390 325 Q380 295 350 285 Q320 275 280 285 Q240 295 235 350 Z" fill="#f5e6c9" stroke="#d4a76a" stroke-width="1"/>
+  
+  <!-- Salt and pepper shakers -->
+  <circle cx="170" cy="580" r="25" fill="#ccc" stroke="#999" stroke-width="2"/>
+  <circle cx="270" cy="560" r="25" fill="#ccc" stroke="#999" stroke-width="2"/>
+  <path d="M160 560 L180 580 M180 560 L160 580" stroke="#333" stroke-width="1"/>
+  <path d="M260 540 L280 560 M280 540 L260 560" stroke="#333" stroke-width="1"/>
+  
+  <!-- Fork and knife -->
+  <path d="M160 370 L470 420" stroke="#666" stroke-width="4" fill="none"/>
+  <path d="M160 420 L510 480" stroke="#666" stroke-width="4" fill="none"/>
+  <path d="M360 370 L470 420" fill="#666"/>
+  <path d="M450 460 L510 480" fill="#666"/>
+  
+  <!-- Salad bowl -->
+  <path d="M450 220 Q550 180 650 200 Q750 220 800 280 Q850 340 800 400 Q750 460 650 480 Q550 500 450 480 Q350 460 450 220 Z" fill="#fff" stroke="#666" stroke-width="2"/>
+  
+  <!-- Salad ingredients -->
+  <path d="M520 260 Q550 240 580 260 Q610 280 630 300 Q650 320 630 340 Q610 360 580 380 Q550 400 520 380 Q490 360 470 340 Q450 320 470 300 Q490 280 520 260 Z" fill="#2e8b57" stroke="#226b44" stroke-width="1"/>
+  <path d="M550 440 Q580 420 610 440 Q640 460 660 480 Q680 500 660 520 Q640 540 610 560 Q580 580 550 560 Q520 540 500 520 Q480 500 500 480 Q520 460 550 440 Z" fill="#ff6347" stroke="#cc4c39" stroke-width="1"/>
+  <path d="M600 400 Q630 380 660 400 Q690 420 710 440 Q730 460 710 480 Q690 500 660 520 Q630 540 600 520 Q570 500 550 480 Q530 460 550 440 Q570 420 600 400 Z" fill="#8fbc8f" stroke="#6b996e" stroke-width="1"/>
+  <path d="M570 460 Q600 440 630 460 Q660 480 680 500 Q700 520 680 540 Q660 560 630 580 Q600 600 570 580 Q540 560 520 540 Q500 520 520 500 Q540 480 570 460 Z" fill="#9932cc" stroke="#7a2a9f" stroke-width="1"/>
+  <path d="M500 340 Q530 320 560 340 Q590 360 610 380 Q630 400 610 420 Q590 440 560 460 Q530 480 500 460 Q470 440 450 420 Q430 400 450 380 Q470 360 500 340 Z" fill="#8b4513" stroke="#6b360f" stroke-width="1"/>
+  
+  <!-- Feta cheese in salad -->
+  <path d="M580 260 Q620 240 660 260 Q700 280 720 320 Q740 360 720 400 Q700 440 660 460 Q620 480 580 460 Q540 440 520 400 Q500 360 520 320 Q540 280 580 260 Z" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <path d="M590 270 Q610 280 630 270 Q650 260 670 270 Q690 280 670 290 Q650 300 630 290 Q610 280 590 270 Z" fill="#333" stroke="#222" stroke-width="1"/>
+  
+  <!-- Tzatziki plate -->
+  <path d="M580 600 Q680 560 780 580 Q880 600 900 660 Q920 720 900 780 Q880 840 780 860 Q680 880 580 860 Q480 840 580 600 Z" fill="#fff" stroke="#666" stroke-width="2"/>
+  
+  <!-- Tzatziki content -->
+  <path d="M620 640 Q660 620 700 640 Q740 660 760 680 Q780 700 760 720 Q740 740 700 760 Q660 780 620 760 Q580 740 560 720 Q540 700 560 680 Q580 660 620 640 Z" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <path d="M650 660 Q670 670 690 660 Q710 650 730 660 Q750 670 730 680 Q710 690 690 680 Q670 670 650 660 Z" fill="#333" stroke="#222" stroke-width="1"/>
+  <path d="M680 700 Q700 710 720 700 Q740 690 760 700 Q780 710 760 720 Q740 730 720 720 Q700 710 680 700 Z" fill="#333" stroke="#222" stroke-width="1"/>
+  
+  <!-- Empty plates -->
+  <path d="M380 30 Q480 10 580 30 Q680 50 700 110 Q720 170 700 230 Q680 290 580 310 Q480 330 380 310 Q280 290 380 30 Z" fill="#fff" stroke="#ccc" stroke-width="2"/>
+  <path d="M610 0 Q710 -20 810 0 Q910 20 930 80 Q950 140 930 200 Q910 260 810 280 Q710 300 610 280 Q510 260 610 0 Z" fill="#fff" stroke="#ccc" stroke-width="2"/>
+  
+  <!-- Condiment bottles -->
+  <path d="M200 0 Q230 -10 260 0 Q290 10 310 30 Q330 50 310 70 Q290 90 260 100 Q230 110 200 100 Q170 90 150 70 Q130 50 150 30 Q170 10 200 0 Z" fill="#fff" stroke="#666" stroke-width="1"/>
+  <path d="M320 0 Q350 -10 380 0 Q410 10 430 30 Q450 50 430 70 Q410 90 380 100 Q350 110 320 100 Q290 90 270 70 Q250 50 270 30 Q290 10 320 0 Z" fill="#fff" stroke="#666" stroke-width="1"/>
+  <path d="M210 10 Q240 0 270 10 Q300 20 320 40 Q340 60 320 80 Q300 100 270 110 Q240 120 210 110 Q180 100 160 80 Q140 60 160 40 Q180 20 210 10 Z" fill="#ffeb3b" stroke="#e6c200" stroke-width="1"/>
+  <path d="M330 10 Q360 0 390 10 Q420 20 440 40 Q460 60 440 80 Q420 100 390 110 Q360 120 330 110 Q300 100 280 80 Q260 60 280 40 Q300 20 330 10 Z" fill="#ffeb3b" stroke="#e6c200" stroke-width="1"/>
+  
+  <!-- Hand -->
+  <path d="M850 0 Q900 10 950 0 Q1000 10 1000 50 Q1000 90 950 100 Q900 110 850 100 Q800 90 850 0 Z" fill="#ffdbac" stroke="#e6b89c" stroke-width="1"/>
+  <path d="M900 20 Q920 30 940 20 Q960 10 980 20 Q1000 30 980 40 Q960 50 940 40 Q920 30 900 20 Z" fill="#ffdbac" stroke="#e6b89c" stroke-width="1"/>
+  <path d="M930 40 Q950 50 970 40 Q990 30 1000 40 Q1000 50 990 60 Q970 70 950 60 Q930 50 930 40 Z" fill="#ffdbac" stroke="#e6b89c" stroke-width="1"/>
+  <path d="M960 60 Q980 70 1000 60 Q1000 70 1000 80 Q1000 90 990 100 Q970 110 950 100 Q930 90 960 60 Z" fill="#ffdbac" stroke="#e6b89c" stroke-width="1"/>
+</svg>

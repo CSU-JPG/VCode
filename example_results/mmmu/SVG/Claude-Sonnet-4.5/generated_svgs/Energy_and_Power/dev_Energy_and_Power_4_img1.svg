@@ -1,0 +1,54 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ground line -->
+  <line x1="20" y1="150" x2="280" y2="150" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Cart base -->
+  <line x1="60" y1="150" x2="60" y2="135" stroke="black" stroke-width="1.5"/>
+  <line x1="60" y1="135" x2="200" y2="135" stroke="black" stroke-width="1.5"/>
+  <line x1="200" y1="135" x2="200" y2="150" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Wheels -->
+  <circle cx="85" cy="150" r="8" fill="none" stroke="black" stroke-width="1.5"/>
+  <circle cx="85" cy="150" r="2" fill="black"/>
+  <circle cx="175" cy="150" r="8" fill="none" stroke="black" stroke-width="1.5"/>
+  <circle cx="175" cy="150" r="2" fill="black"/>
+  
+  <!-- Triangular wedge -->
+  <line x1="60" y1="135" x2="60" y2="65" stroke="black" stroke-width="1.5"/>
+  <line x1="60" y1="65" x2="200" y2="90" stroke="black" stroke-width="1.5"/>
+  <line x1="200" y1="90" x2="200" y2="135" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Arrow pointing right (az) -->
+  <line x1="205" y1="75" x2="250" y2="75" stroke="black" stroke-width="1.5"/>
+  <polygon points="250,75 245,72 245,78" fill="black"/>
+  
+  <!-- Height dimension (28 cm) -->
+  <line x1="45" y1="135" x2="45" y2="65" stroke="black" stroke-width="1"/>
+  <line x1="42" y1="135" x2="48" y2="135" stroke="black" stroke-width="1"/>
+  <line x1="42" y1="65" x2="48" y2="65" stroke="black" stroke-width="1"/>
+  <text x="30" y="100" font-family="Arial" font-size="12" fill="black">28 cm</text>
+  
+  <!-- Width dimension (100 cm) -->
+  <line x1="60" y1="155" x2="200" y2="155" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="152" x2="60" y2="158" stroke="black" stroke-width="1"/>
+  <line x1="200" y1="152" x2="200" y2="158" stroke="black" stroke-width="1"/>
+  <text x="115" y="170" font-family="Arial" font-size="12" fill="black" text-anchor="middle">100 cm</text>
+  
+  <!-- Right side height dimension (15 cm) -->
+  <line x1="215" y1="135" x2="215" y2="90" stroke="black" stroke-width="1"/>
+  <line x1="212" y1="135" x2="218" y2="135" stroke="black" stroke-width="1"/>
+  <line x1="212" y1="90" x2="218" y2="90" stroke="black" stroke-width="1"/>
+  <text x="225" y="115" font-family="Arial" font-size="12" fill="black">15 cm</text>
+  
+  <!-- Point A label -->
+  <text x="48" y="145" font-family="Arial" font-size="12" fill="black" font-style="italic">A</text>
+  
+  <!-- az label -->
+  <text x="255" y="80" font-family="Arial" font-size="12" fill="black">a<tspan font-size="8" baseline-shift="sub">z</tspan></text>
+  
+  <!-- Figure label -->
+  <text x="115" y="190" font-family="Arial" font-size="14" fill="black" font-weight="bold" text-anchor="middle">Fig. P2.139</text>
+  
+  <!-- Small line on wedge surface -->
+  <line x1="140" y1="80" x2="155" y2="83" stroke="black" stroke-width="1.5"/>
+</svg>

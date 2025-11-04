@@ -1,0 +1,67 @@
+<svg viewBox="-20 -20 1405 808" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd6da"/>
+      <stop offset="60%" stop-color="#aab3b7"/>
+      <stop offset="100%" stop-color="#98a1a4"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5f6163"/>
+      <stop offset="100%" stop-color="#3e3f42"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ea076"/>
+      <stop offset="100%" stop-color="#5f8258"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="-20" y="-20" width="1405" height="808" fill="url(#sky)"/>
+
+  <!-- distant greenery -->
+  <rect x="0" y="420" width="1365" height="160" fill="url(#grass)" opacity="0.85"/>
+
+  <!-- building on right -->
+  <rect x="1010" y="220" width="355" height="300" fill="#9aa0a5" opacity="0.55"/>
+  <rect x="1035" y="250" width="305" height="230" fill="#b9bdc1" opacity="0.35"/>
+
+  <!-- trees (simplified) -->
+  <g opacity="0.9">
+    <rect x="150" y="120" width="24" height="520" fill="#4b3a2e"/>
+    <circle cx="162" cy="140" r="90" fill="#44583f"/>
+    <circle cx="120" cy="220" r="70" fill="#465f43"/>
+    <circle cx="210" cy="230" r="75" fill="#3f553a"/>
+
+    <rect x="980" y="140" width="18" height="450" fill="#4b3a2e"/>
+    <circle cx="989" cy="160" r="70" fill="#43583e"/>
+    <circle cx="1040" cy="180" r="60" fill="#3f553a"/>
+  </g>
+
+  <!-- road -->
+  <polygon points="150,768 1215,768 930,380 435,380" fill="url(#road)"/>
+
+  <!-- sidewalks/grass edges -->
+  <polygon points="0,768 150,768 435,380 280,380 0,500" fill="#6f8d64"/>
+  <polygon points="1215,768 1365,768 1365,520 1085,380 930,380" fill="#6b8961"/>
+
+  <!-- center dashed line -->
+  <path d="M830,420 L690,760" stroke="#e6ecef" stroke-width="8" stroke-dasharray="22 22" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- forward arrow -->
+  <g transform="translate(675,560)" fill="#eef2f4" opacity="0.95">
+    <rect x="22" y="40" width="18" height="70" rx="4"/>
+    <polygon points="31,0 62,48 0,48"/>
+  </g>
+
+  <!-- approximate bounding boxes observed in the scene -->
+  <rect x="700" y="420" width="110" height="105" fill="none" stroke="#19c23e" stroke-width="4"/>
+  <rect x="1000" y="410" width="32" height="64" fill="none" stroke="#ff2e2e" stroke-width="4"/>
+  <rect x="1180" y="420" width="170" height="220" fill="none" stroke="#2e55ff" stroke-width="4"/>
+
+  <!-- subtle vignette -->
+  <radialGradient id="vignette" cx="50%" cy="45%" r="70%">
+    <stop offset="70%" stop-color="rgba(0,0,0,0)"/>
+    <stop offset="100%" stop-color="rgba(0,0,0,0.25)"/>
+  </radialGradient>
+  <rect x="-20" y="-20" width="1405" height="808" fill="url(#vignette)" pointer-events="none"/>
+</svg>

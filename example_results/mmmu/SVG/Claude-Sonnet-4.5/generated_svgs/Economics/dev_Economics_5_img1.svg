@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="400" y="30" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle">
+    Price per Frisbee Quantity Demanded Quantity Supplied
+  </text>
+  
+  <!-- Column Headers -->
+  <text x="150" y="80" font-family="serif" font-size="18" text-anchor="middle">$11</text>
+  <text x="400" y="80" font-family="serif" font-size="18" text-anchor="middle">1 million Frisbees</text>
+  <text x="650" y="80" font-family="serif" font-size="18" text-anchor="middle">15 million Frisbees</text>
+  
+  <!-- Row 1 -->
+  <text x="150" y="130" font-family="serif" font-size="18" text-anchor="middle">10</text>
+  <text x="400" y="130" font-family="serif" font-size="18" text-anchor="middle">2</text>
+  <text x="650" y="130" font-family="serif" font-size="18" text-anchor="middle">12</text>
+  
+  <!-- Row 2 -->
+  <text x="150" y="180" font-family="serif" font-size="18" text-anchor="middle">9</text>
+  <text x="400" y="180" font-family="serif" font-size="18" text-anchor="middle">4</text>
+  <text x="650" y="180" font-family="serif" font-size="18" text-anchor="middle">9</text>
+  
+  <!-- Row 3 -->
+  <text x="150" y="230" font-family="serif" font-size="18" text-anchor="middle">8</text>
+  <text x="400" y="230" font-family="serif" font-size="18" text-anchor="middle">6</text>
+  <text x="650" y="230" font-family="serif" font-size="18" text-anchor="middle">6</text>
+  
+  <!-- Row 4 -->
+  <text x="150" y="280" font-family="serif" font-size="18" text-anchor="middle">7</text>
+  <text x="400" y="280" font-family="serif" font-size="18" text-anchor="middle">8</text>
+  <text x="650" y="280" font-family="serif" font-size="18" text-anchor="middle">3</text>
+  
+  <!-- Row 5 -->
+  <text x="150" y="330" font-family="serif" font-size="18" text-anchor="middle">6</text>
+  <text x="400" y="330" font-family="serif" font-size="18" text-anchor="middle">10</text>
+  <text x="650" y="330" font-family="serif" font-size="18" text-anchor="middle">1</text>
+</svg>

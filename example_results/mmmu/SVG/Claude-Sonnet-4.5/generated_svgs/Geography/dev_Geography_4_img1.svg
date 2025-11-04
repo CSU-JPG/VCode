@@ -1,0 +1,73 @@
+<svg viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer rectangle -->
+  <rect x="50" y="50" width="600" height="600" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Top dimensions -->
+  <line x1="50" y1="20" x2="350" y2="20" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="15" x2="50" y2="25" stroke="black" stroke-width="1"/>
+  <line x1="350" y1="15" x2="350" y2="25" stroke="black" stroke-width="1"/>
+  <text x="200" y="15" font-family="Arial" font-size="14" text-anchor="middle">500</text>
+  
+  <line x1="350" y1="20" x2="550" y2="20" stroke="black" stroke-width="1"/>
+  <line x1="550" y1="15" x2="550" y2="25" stroke="black" stroke-width="1"/>
+  <text x="450" y="15" font-family="Arial" font-size="14" text-anchor="middle">1800</text>
+  
+  <line x1="550" y1="20" x2="650" y2="20" stroke="black" stroke-width="1"/>
+  <line x1="650" y1="15" x2="650" y2="25" stroke="black" stroke-width="1"/>
+  <text x="600" y="15" font-family="Arial" font-size="14" text-anchor="middle">500</text>
+  
+  <!-- Right dimensions -->
+  <line x1="670" y1="50" x2="670" y2="150" stroke="black" stroke-width="1"/>
+  <line x1="665" y1="50" x2="675" y2="50" stroke="black" stroke-width="1"/>
+  <line x1="665" y1="150" x2="675" y2="150" stroke="black" stroke-width="1"/>
+  <text x="685" y="105" font-family="Arial" font-size="14" text-anchor="start">500</text>
+  
+  <line x1="670" y1="150" x2="670" y2="350" stroke="black" stroke-width="1"/>
+  <line x1="665" y1="350" x2="675" y2="350" stroke="black" stroke-width="1"/>
+  <text x="685" y="255" font-family="Arial" font-size="14" text-anchor="start">1600</text>
+  
+  <line x1="670" y1="350" x2="670" y2="650" stroke="black" stroke-width="1"/>
+  <line x1="665" y1="650" x2="675" y2="650" stroke="black" stroke-width="1"/>
+  <text x="685" y="505" font-family="Arial" font-size="14" text-anchor="start">500</text>
+  
+  <!-- Left bottom dimensions -->
+  <line x1="20" y1="650" x2="20" y2="580" stroke="black" stroke-width="1"/>
+  <line x1="15" y1="650" x2="25" y2="650" stroke="black" stroke-width="1"/>
+  <line x1="15" y1="580" x2="25" y2="580" stroke="black" stroke-width="1"/>
+  <text x="10" y="620" font-family="Arial" font-size="14" text-anchor="end">a₁₁</text>
+  
+  <line x1="20" y1="580" x2="20" y2="520" stroke="black" stroke-width="1"/>
+  <line x1="15" y1="520" x2="25" y2="520" stroke="black" stroke-width="1"/>
+  <text x="10" y="555" font-family="Arial" font-size="14" text-anchor="end">c₁</text>
+  
+  <!-- Bottom left dimensions -->
+  <line x1="50" y1="670" x2="120" y2="670" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="665" x2="50" y2="675" stroke="black" stroke-width="1"/>
+  <line x1="120" y1="665" x2="120" y2="675" stroke="black" stroke-width="1"/>
+  <text x="85" y="685" font-family="Arial" font-size="14" text-anchor="middle">c₁</text>
+  
+  <line x1="120" y1="670" x2="190" y2="670" stroke="black" stroke-width="1"/>
+  <line x1="190" y1="665" x2="190" y2="675" stroke="black" stroke-width="1"/>
+  <text x="155" y="685" font-family="Arial" font-size="14" text-anchor="middle">a₁₁</text>
+  
+  <!-- Squares with center dots -->
+  <!-- Top left square -->
+  <rect x="80" y="80" width="80" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="120" cy="120" r="3" fill="black"/>
+  
+  <!-- Top right square -->
+  <rect x="540" y="80" width="80" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="580" cy="120" r="3" fill="black"/>
+  
+  <!-- Middle square -->
+  <rect x="310" y="240" width="80" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="350" cy="280" r="3" fill="black"/>
+  
+  <!-- Bottom left square -->
+  <rect x="80" y="540" width="80" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="120" cy="580" r="3" fill="black"/>
+  
+  <!-- Bottom right square -->
+  <rect x="540" y="540" width="80" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="580" cy="580" r="3" fill="black"/>
+</svg>

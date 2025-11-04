@@ -1,0 +1,110 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00008B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="deskGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#skyGradient)" />
+  <path d="M200 80 L220 200 L240 150 L260 250 L280 180 L300 300 L320 220 L340 350 L360 250 L380 400 L400 300 L420 450 L440 350 L460 500 L480 400 L500 550 L520 450 L540 600 L560 500 L580 650 L600 550 L620 700 L640 600 L660 720 L680 650 L700 720 L720 700 L740 720 L760 720 L780 720 L800 720 L820 720 L840 720 L860 720 L880 720 L900 720 L920 720 L940 720 L960 720 L980 720 L1000 720 L1020 720 L1040 720 L1060 720 L1080 720 L1100 720 L1120 720 L1140 720 L1160 720 L1180 720 L1200 720 L1220 720 L1240 720 L1260 720 L1280 720 L1280 600 L1260 600 L1240 600 L1220 600 L1200 600 L1180 600 L1160 600 L1140 600 L1120 600 L1100 600 L1080 600 L1060 600 L1040 600 L1020 600 L1000 600 L980 600 L960 600 L940 600 L920 600 L900 600 L880 600 L860 600 L840 600 L820 600 L800 600 L780 600 L760 600 L740 600 L720 600 L700 600 L680 600 L660 600 L640 600 L620 600 L600 600 L580 600 L560 600 L540 600 L520 600 L500 600 L480 600 L460 600 L440 600 L420 600 L400 600 L380 600 L360 600 L340 600 L320 600 L300 600 L280 600 L260 600 L240 600 L220 600 L200 600 Z" fill="#808080" />
+  <rect x="240" y="280" width="20" height="40" fill="#A9A9A9" />
+  <rect x="260" y="250" width="15" height="70" fill="#A9A9A9" />
+  <rect x="280" y="230" width="10" height="90" fill="#A9A9A9" />
+  <rect x="300" y="200" width="20" height="120" fill="#A9A9A9" />
+  <rect x="320" y="180" width="15" height="140" fill="#A9A9A9" />
+  <rect x="340" y="150" width="25" height="170" fill="#A9A9A9" />
+  <rect x="360" y="130" width="20" height="190" fill="#A9A9A9" />
+  <rect x="380" y="100" width="30" height="220" fill="#A9A9A9" />
+  <rect x="400" y="80" width="25" height="240" fill="#A9A9A9" />
+  <rect x="420" y="60" width="35" height="260" fill="#A9A9A9" />
+  <rect x="440" y="50" width="30" height="270" fill="#A9A9A9" />
+  <rect x="460" y="40" width="40" height="280" fill="#A9A9A9" />
+  <rect x="480" y="30" width="35" height="290" fill="#A9A9A9" />
+  <rect x="500" y="20" width="45" height="300" fill="#A9A9A9" />
+  <rect x="520" y="10" width="40" height="310" fill="#A9A9A9" />
+  <rect x="540" y="0" width="50" height="320" fill="#A9A9A9" />
+  <rect x="560" y="0" width="45" height="320" fill="#A9A9A9" />
+  <rect x="580" y="0" width="55" height="320" fill="#A9A9A9" />
+  <rect x="600" y="0" width="50" height="320" fill="#A9A9A9" />
+  <rect x="620" y="0" width="60" height="320" fill="#A9A9A9" />
+  <rect x="640" y="0" width="55" height="320" fill="#A9A9A9" />
+  <rect x="660" y="0" width="65" height="320" fill="#A9A9A9" />
+  <rect x="680" y="0" width="60" height="320" fill="#A9A9A9" />
+  <rect x="700" y="0" width="70" height="320" fill="#A9A9A9" />
+  <rect x="720" y="0" width="65" height="320" fill="#A9A9A9" />
+  <rect x="740" y="0" width="75" height="320" fill="#A9A9A9" />
+  <rect x="760" y="0" width="70" height="320" fill="#A9A9A9" />
+  <rect x="780" y="0" width="80" height="320" fill="#A9A9A9" />
+  <rect x="800" y="0" width="75" height="320" fill="#A9A9A9" />
+  <rect x="820" y="0" width="85" height="320" fill="#A9A9A9" />
+  <rect x="840" y="0" width="80" height="320" fill="#A9A9A9" />
+  <rect x="860" y="0" width="90" height="320" fill="#A9A9A9" />
+  <rect x="880" y="0" width="85" height="320" fill="#A9A9A9" />
+  <rect x="900" y="0" width="95" height="320" fill="#A9A9A9" />
+  <rect x="920" y="0" width="90" height="320" fill="#A9A9A9" />
+  <rect x="940" y="0" width="100" height="320" fill="#A9A9A9" />
+  <rect x="960" y="0" width="95" height="320" fill="#A9A9A9" />
+  <rect x="980" y="0" width="105" height="320" fill="#A9A9A9" />
+  <rect x="1000" y="0" width="100" height="320" fill="#A9A9A9" />
+  <rect x="1020" y="0" width="110" height="320" fill="#A9A9A9" />
+  <rect x="1040" y="0" width="105" height="320" fill="#A9A9A9" />
+  <rect x="1060" y="0" width="115" height="320" fill="#A9A9A9" />
+  <rect x="1080" y="0" width="110" height="320" fill="#A9A9A9" />
+  <rect x="1100" y="0" width="120" height="320" fill="#A9A9A9" />
+  <rect x="1120" y="0" width="115" height="320" fill="#A9A9A9" />
+  <rect x="1140" y="0" width="125" height="320" fill="#A9A9A9" />
+  <rect x="1160" y="0" width="120" height="320" fill="#A9A9A9" />
+  <rect x="1180" y="0" width="130" height="320" fill="#A9A9A9" />
+  <rect x="1200" y="0" width="125" height="320" fill="#A9A9A9" />
+  <rect x="1220" y="0" width="135" height="320" fill="#A9A9A9" />
+  <rect x="1240" y="0" width="130" height="320" fill="#A9A9A9" />
+  <rect x="1260" y="0" width="140" height="320" fill="#A9A9A9" />
+  <rect x="1280" y="0" width="135" height="320" fill="#A9A9A9" />
+  <path d="M240 80 L260 200 L280 150 L300 250 L320 180 L340 300 L360 220 L380 350 L400 250 L420 400 L440 300 L460 450 L480 350 L500 500 L520 400 L540 550 L560 450 L580 600 L600 500 L620 650 L640 550 L660 700 L680 600 L700 720 L720 650 L740 720 L760 700 L780 720 L800 720 L820 720 L840 720 L860 720 L880 720 L900 720 L920 720 L940 720 L960 720 L980 720 L1000 720 L1020 720 L1040 720 L1060 720 L1080 720 L1100 720 L1120 720 L1140 720 L1160 720 L1180 720 L1200 720 L1220 720 L1240 720 L1260 720 L1280 720 L1280 600 L1260 600 L1240 600 L1220 600 L1200 600 L1180 600 L1160 600 L1140 600 L1120 600 L1100 600 L1080 600 L1060 600 L1040 600 L1020 600 L1000 600 L980 600 L960 600 L940 600 L920 600 L900 600 L880 600 L860 600 L840 600 L820 600 L800 600 L780 600 L760 600 L740 600 L720 600 L700 600 L680 600 L660 600 L640 600 L620 600 L600 600 L580 600 L560 600 L540 600 L520 600 L500 600 L480 600 L460 600 L440 600 L420 600 L400 600 L380 600 L360 600 L340 600 L320 600 L300 600 L280 600 L260 600 L240 600 Z" fill="#404040" />
+  <path d="M200 80 L210 160 L220 120 L230 200 L240 150 L250 250 L260 180 L270 300 L280 220 L290 350 L300 250 L310 400 L320 300 L330 450 L340 350 L350 500 L360 400 L370 550 L380 450 L390 600 L400 500 L410 650 L420 550 L430 700 L440 600 L450 720 L460 650 L470 720 L480 700 L490 720 L500 720 L510 720 L520 720 L530 720 L540 720 L550 720 L560 720 L570 720 L580 720 L590 720 L600 720 L610 720 L620 720 L630 720 L640 720 L650 720 L660 720 L670 720 L680 720 L690 720 L700 720 L710 720 L720 720 L730 720 L740 720 L750 720 L760 720 L770 720 L780 720 L790 720 L800 720 L810 720 L820 720 L830 720 L840 720 L850 720 L860 720 L870 720 L880 720 L890 720 L900 720 L910 720 L920 720 L930 720 L940 720 L950 720 L960 720 L970 720 L980 720 L990 720 L1000 720 L1010 720 L1020 720 L1030 720 L1040 720 L1050 720 L1060 720 L1070 720 L1080 720 L1090 720 L1100 720 L1110 720 L1120 720 L1130 720 L1140 720 L1150 720 L1160 720 L1170 720 L1180 720 L1190 720 L1200 720 L1210 720 L1220 720 L1230 720 L1240 720 L1250 720 L1260 720 L1270 720 L1280 720 L1280 600 L1270 600 L1260 600 L1250 600 L1240 600 L1230 600 L1220 600 L1210 600 L1200 600 L1190 600 L1180 600 L1170 600 L1160 600 L1150 600 L1140 600 L1130 600 L1120 600 L1110 600 L1100 600 L1090 600 L1080 600 L1070 600 L1060 600 L1050 600 L1040 600 L1030 600 L1020 600 L1010 600 L1000 600 L990 600 L980 600 L970 600 L960 600 L950 600 L940 600 L930 600 L920 600 L910 600 L900 600 L890 600 L880 600 L870 600 L860 600 L850 600 L840 600 L830 600 L820 600 L810 600 L800 600 L790 600 L780 600 L770 600 L760 600 L750 600 L740 600 L730 600 L720 600 L710 600 L700 600 L690 600 L680 600 L670 600 L660 600 L650 600 L640 600 L630 600 L620 600 L610 600 L600 600 L590 600 L580 600 L570 600 L560 600 L550 600 L540 600 L530 600 L520 600 L510 600 L500 600 L490 600 L480 600 L470 600 L460 600 L450 600 L440 600 L430 600 L420 600 L410 600 L400 600 L390 600 L380 600 L370 600 L360 600 L350 600 L340 600 L330 600 L320 600 L310 600 L300 600 L290 600 L280 600 L270 600 L260 600 L250 600 L240 600 L230 600 L220 600 L210 600 L200 600 Z" fill="#000000" />
+  <rect x="190" y="50" width="20" height="570" fill="#808080" />
+  <circle cx="200" cy="180" r="10" fill="#808080" />
+  <rect x="180" y="220" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="250" r="10" fill="#808080" />
+  <rect x="180" y="280" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="320" r="10" fill="#808080" />
+  <rect x="180" y="350" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="390" r="10" fill="#808080" />
+  <rect x="180" y="420" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="460" r="10" fill="#808080" />
+  <rect x="180" y="490" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="530" r="10" fill="#808080" />
+  <rect x="180" y="560" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="600" r="10" fill="#808080" />
+  <rect x="180" y="630" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="670" r="10" fill="#808080" />
+  <rect x="180" y="700" width="40" height="10" fill="#808080" />
+  <circle cx="200" cy="720" r="10" fill="#808080" />
+  <rect x="0" y="600" width="1280" height="120" fill="url(#deskGradient)" />
+  <circle cx="200" cy="500" r="50" fill="#D3B393" />
+  <rect x="150" y="550" width="100" height="100" fill="#008000" />
+  <circle cx="700" cy="500" r="50" fill="#4B2E2B" />
+  <rect x="650" y="550" width="100" height="100" fill="#000000" />
+  <rect x="670" y="550" width="60" height="100" fill="#FFFFFF" />
+  <path d="M680 570 L690 590 L680 610 L670 590 Z" fill="#808080" />
+  <circle cx="170" cy="480" r="20" fill="#D3B393" />
+  <circle cx="230" cy="480" r="20" fill="#D3B393" />
+  <circle cx="670" cy="480" r="20" fill="#D3B393" />
+  <circle cx="730" cy="480" r="20" fill="#D3B393" />
+  <rect x="650" y="650" width="100" height="20" fill="#808080" />
+  <rect x="150" y="650" width="100" height="20" fill="#808080" />
+  <circle cx="400" cy="550" r="10" fill="#FFFFFF" />
+  <circle cx="500" cy="550" r="10" fill="#FFFFFF" />
+  <circle cx="390" cy="560" r="5" fill="#000000" />
+  <circle cx="510" cy="560" r="5" fill="#000000" />
+  <text x="500" y="100" font-family="sans-serif" font-size="80" fill="#FFFFFF" text-anchor="middle">NEWS TORONTO</text>
+  <circle cx="390" cy="100" r="30" fill="#FF0000" />
+  <circle cx="410" cy="100" r="30" fill="#00FF00" />
+  <circle cx="430" cy="100" r="30" fill="#0000FF" />
+  <rect x="410" y="90" width="20" height="20" fill="#FFFFFF" />
+  <path d="M440 90 L450 110 L460 90" fill="#00FF00" />
+</svg>

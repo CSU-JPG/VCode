@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  <!-- Left Portrait -->
+  <g transform="translate(50,50)">
+    <rect width="360" height="400" fill="#a00"/>
+    <path d="M100 150 Q150 100 200 150 Q250 200 200 250 Q150 300 100 250 Q50 200 100 150" fill="#ffd700"/>
+    <path d="M100 250 Q120 300 140 350 Q160 400 180 350 Q200 300 180 250" fill="#800"/>
+    <circle cx="150" cy="100" r="40" fill="#fff"/>
+    <path d="M130 120 Q150 140 170 120" stroke="#000" stroke-width="2"/>
+  </g>
+  <!-- Right Portrait -->
+  <g transform="translate(450,50)">
+    <rect width="360" height="400" fill="#468"/>
+    <path d="M100 100 Q200 50 300 100 Q350 150 300 200 Q250 250 200 200 Q150 150 100 100" fill="#800"/>
+    <path d="M150 200 Q200 250 250 200 Q300 150 250 100" fill="#fff"/>
+    <circle cx="200" cy="150" r="30" fill="#222"/>
+    <path d="M180 160 Q200 180 220 160" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

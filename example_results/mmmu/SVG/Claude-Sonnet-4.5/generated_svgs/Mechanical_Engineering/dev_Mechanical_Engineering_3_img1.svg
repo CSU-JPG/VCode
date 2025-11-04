@@ -1,0 +1,84 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green grass areas -->
+  <rect x="25" y="7" width="860" height="40" fill="#a8d5ba"/>
+  <rect x="25" y="195" width="860" height="405" fill="#a8d5ba"/>
+  
+  <!-- Beige/tan area -->
+  <rect x="25" y="47" width="860" height="35" fill="#e8dcd0"/>
+  
+  <!-- Gray road -->
+  <rect x="25" y="82" width="860" height="113" fill="#b8afa8"/>
+  
+  <!-- White dashed lane markers on top -->
+  <rect x="50" y="133" width="50" height="4" fill="white"/>
+  <rect x="145" y="133" width="50" height="4" fill="white"/>
+  <rect x="240" y="133" width="50" height="4" fill="white"/>
+  <rect x="335" y="133" width="50" height="4" fill="white"/>
+  <rect x="430" y="133" width="50" height="4" fill="white"/>
+  <rect x="525" y="133" width="50" height="4" fill="white"/>
+  <rect x="620" y="133" width="50" height="4" fill="white"/>
+  <rect x="715" y="133" width="50" height="4" fill="white"/>
+  <rect x="810" y="133" width="50" height="4" fill="white"/>
+  
+  <!-- Curved road path -->
+  <path d="M 150 195 Q 150 350, 280 450" fill="none" stroke="#d8cfc8" stroke-width="80"/>
+  
+  <!-- White center line dashed (vertical on left road) -->
+  <line x1="223" y1="195" x2="223" y2="240" stroke="white" stroke-width="3" stroke-dasharray="15,10"/>
+  
+  <!-- Orange dashed path lines -->
+  <!-- Car A path (straight then curve) -->
+  <line x1="315" y1="158" x2="440" y2="158" stroke="#f4a460" stroke-width="3" stroke-dasharray="12,8"/>
+  <path d="M 440 158 Q 380 200, 320 280" fill="none" stroke="#f4a460" stroke-width="3" stroke-dasharray="12,8"/>
+  
+  <!-- Car B path (straight down) -->
+  <line x1="223" y1="380" x2="223" y2="520" stroke="#f4a460" stroke-width="3" stroke-dasharray="12,8"/>
+  
+  <!-- Teal/cyan arrow from Car A -->
+  <line x1="280" y1="158" x2="340" y2="158" stroke="#5fb8a8" stroke-width="4"/>
+  <polygon points="340,158 328,153 328,163" fill="#5fb8a8"/>
+  
+  <!-- 300' dimension line -->
+  <line x1="318" y1="260" x2="430" y2="415" stroke="#666" stroke-width="1.5"/>
+  <line x1="480" y1="415" x2="430" y2="415" stroke="#666" stroke-width="1.5"/>
+  <line x1="318" y1="260" x2="370" y2="260" stroke="#666" stroke-width="1.5"/>
+  <line x1="323" y1="255" x2="313" y2="265" stroke="#666" stroke-width="1.5"/>
+  <line x1="435" y1="410" x2="425" y2="420" stroke="#666" stroke-width="1.5"/>
+  
+  <!-- 300' text -->
+  <text x="380" y="345" font-family="Georgia, serif" font-size="32" fill="#333" font-style="italic">300'</text>
+  
+  <!-- Car A (red car at top) -->
+  <g id="carA">
+    <!-- Car body -->
+    <rect x="175" y="143" width="50" height="30" fill="#c8384a" rx="3"/>
+    <!-- Windshield -->
+    <rect x="188" y="148" width="12" height="20" fill="#4a5a78"/>
+    <!-- Rear window -->
+    <rect x="213" y="148" width="10" height="20" fill="#4a5a78"/>
+    <!-- Wheels -->
+    <circle cx="185" cy="173" r="5" fill="#2a2a2a"/>
+    <circle cx="215" cy="173" r="5" fill="#2a2a2a"/>
+  </g>
+  
+  <!-- Car B (blue car at bottom) -->
+  <g id="carB">
+    <!-- Car body -->
+    <rect x="203" y="375" width="30" height="50" fill="#5a8ab8" rx="3"/>
+    <!-- Windshield -->
+    <rect x="208" y="388" width="20" height="12" fill="#6a8aa8"/>
+    <!-- Rear window -->
+    <rect x="208" y="409" width="20" height="10" fill="#6a8aa8"/>
+    <!-- Side detail -->
+    <rect x="211" y="398" width="6" height="8" fill="#d4a574"/>
+    <!-- Wheels -->
+    <circle cx="208" cy="385" r="5" fill="#2a2a2a"/>
+    <circle cx="228" cy="385" r="5" fill="#2a2a2a"/>
+    <circle cx="208" cy="415" r="5" fill="#2a2a2a"/>
+    <circle cx="228" cy="415" r="5" fill="#2a2a2a"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="150" y="170" font-family="Georgia, serif" font-size="28" fill="#000" font-style="italic">A</text>
+  <text x="215" y="515" font-family="Georgia, serif" font-size="28" fill="#000" font-style="italic">B</text>
+</svg>

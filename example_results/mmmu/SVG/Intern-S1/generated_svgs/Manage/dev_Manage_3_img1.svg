@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="white"/>
+  <line x1="0" y1="0" x2="0" y2="400" stroke="black"/>
+  <line x1="0" y1="0" x2="400" y2="0" stroke="black"/>
+  <text x="200" y="20" font-size="24" text-anchor="middle" font-family="sans-serif">ORIGINALITY</text>
+  <text x="20" y="200" transform="rotate(-90 20 200)" font-size="18" font-family="sans-serif">FEASIBILITY</text>
+  <text x="200" y="20" font-size="18" text-anchor="middle" font-family="sans-serif">ORIGINALITY</text>
+  <rect x="0" y="0" width="200" height="200" fill="white"/>
+  <rect x="200" y="0" width="200" height="200" fill="#FFFF00"/>
+  <rect x="0" y="200" width="200" height="200" fill="#0000FF"/>
+  <rect x="200" y="200" width="200" height="200" fill="#FF0000"/>
+  <path d="M50 50 Q60 40 70 50 Q80 60 90 50 Q80 40 70 30 Q60 40 50 50" fill="none" stroke="black"/>
+  <path d="M120 60 Q130 50 140 60 Q150 70 160 60 Q150 50 140 40 Q130 50 120 60" fill="none" stroke="black"/>
+  <circle cx="50" cy="70" r="5"/>
+  <line x1="50" y1="75" x2="50" y2="90" stroke="black"/>
+  <line x1="45" y1="80" x2="55" y2="80" stroke="black"/>
+  <path d="M50 90 Q45 95 50 100 Q55 95 50 90" fill="none" stroke="black"/>
+  <path d="M55 85 Q60 80 65 85" fill="none" stroke="black"/>
+  <path d="M70 110 Q75 105 80 110 Q75 115 70 110" fill="none" stroke="black"/>
+  <path d="M100 130 Q110 120 120 130 Q130 140 140 130 Q130 120 120 110 Q110 120 100 130" fill="none" stroke="black"/>
+  <text x="100" y="150" font-size="20" text-anchor="middle" font-family="sans-serif">NO</text>
+  <circle cx="300" cy="50" r="3" fill="black"/>
+  <circle cx="320" cy="30" r="2" fill="black"/>
+  <circle cx="340" cy="50" r="2" fill="black"/>
+  <circle cx="360" cy="30" r="3" fill="black"/>
+  <circle cx="380" cy="50" r="2" fill="black"/>
+  <circle cx="370" cy="70" r="2" fill="black"/>
+  <circle cx="350" cy="80" r="3" fill="black"/>
+  <circle cx="330" cy="70" r="2" fill="black"/>
+  <circle cx="310" cy="80" r="2" fill="black"/>
+  <circle cx="390" cy="80" r="2" fill="black"/>
+  <path d="M320 70 L325 65 L330 70 L325 75 Z" fill="black"/>
+  <path d="M340 90 L345 85 L350 90 L345 95 Z" fill="black"/>
+  <circle cx="370" cy="100" r="10" fill="black"/>
+  <circle cx="370" cy="100" r="5" fill="#FFFF00"/>
+  <path d="M350 110 Q360 100 370 110 Q380 120 390 110 Q380 100 370 90 Q360 100 350 110" fill="none" stroke="black"/>
+  <text x="300" y="150" font-size="20" text-anchor="middle" font-family="sans-serif">HOW?</text>
+  <circle cx="100" cy="320" r="20" fill="yellow"/>
+  <path d="M80 320 L120 320" stroke="yellow"/>
+  <path d="M100 300 L100 340" stroke="yellow"/>
+  <path d="M85 305 L115 335" stroke="yellow"/>
+  <path d="M115 305 L85 335" stroke="yellow"/>
+  <path d="M60 340 Q70 330 80 340 Q90 350 100 340 Q90 330 80 320 Q70 330 60 340" fill="none" stroke="black"/>
+  <path d="M60 340 L65 360 L85 360 L90 340 L60 340" fill="none" stroke="black"/>
+  <path d="M85 360 L85 380 L95 380 L95 360" fill="none" stroke="black"/>
+  <text x="100" y="350" font-size="20" text-anchor="middle" font-family="sans-serif">NOW</text>
+  <path d="M250 320 Q270 300 300 320 Q330 340 350 320 Q330 300 300 280 Q270 300 250 320" fill="none" stroke="black"/>
+  <path d="M350 320 L370 320" stroke="black"/>
+  <path d="M370 320 L390 320" stroke="black" stroke-dasharray="2,2"/>
+  <path d="M390 320 L410 320" stroke="black" stroke-dasharray="2,2"/>
+  <path d="M250 320 L260 310 L270 320 L260 330 Z" fill="black"/>
+  <text x="300" y="350" font-size="20" text-anchor="middle" font-family="sans-serif">WOW!</text>
+</svg>

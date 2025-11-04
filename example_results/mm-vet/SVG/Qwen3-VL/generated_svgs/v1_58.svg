@@ -1,0 +1,87 @@
+<svg viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; text-anchor: middle; }
+    .col-header { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; }
+    .cell { font-family: Arial, sans-serif; font-size: 16px; }
+    .line { stroke: #333; stroke-width: 1; }
+  </style>
+
+  <!-- Title -->
+  <text x="450" y="40" class="header">Dataset 1</text>
+
+  <!-- Horizontal line under title -->
+  <line x1="40" y1="60" x2="860" y2="60" stroke="#99C2E8" stroke-width="3"/>
+
+  <!-- Table structure -->
+  <rect x="40" y="100" width="820" height="500" fill="white" stroke="#333" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <rect x="40" y="100" width="273.3" height="40" fill="#FFC107" stroke="#333" stroke-width="1"/>
+  <rect x="313.3" y="100" width="273.3" height="40" fill="#8BC34A" stroke="#333" stroke-width="1"/>
+  <rect x="586.6" y="100" width="273.4" height="40" fill="#BBDEFB" stroke="#333" stroke-width="1"/>
+
+  <text x="176.65" y="127" class="col-header" text-anchor="middle">Department</text>
+  <text x="450" y="127" class="col-header" text-anchor="middle">Name</text>
+  <text x="723.3" y="127" class="col-header" text-anchor="middle">Salary</text>
+
+  <!-- Data rows -->
+  <g font-family="Arial" font-size="16" text-anchor="start">
+    <!-- Row 1 -->
+    <text x="50" y="165" class="cell">Administration</text>
+    <text x="323.3" y="165" class="cell">Emily</text>
+    <text x="596.6" y="165" class="cell">$2,000</text>
+    <!-- Row 2 -->
+    <text x="50" y="210" class="cell">Finance</text>
+    <text x="323.3" y="210" class="cell">Nick</text>
+    <text x="596.6" y="210" class="cell">$1,800</text>
+    <!-- Row 3 -->
+    <text x="50" y="255" class="cell">Marketing</text>
+    <text x="323.3" y="255" class="cell">John</text>
+    <text x="596.6" y="255" class="cell">$2,600</text>
+    <!-- Row 4 -->
+    <text x="50" y="300" class="cell">Marketing</text>
+    <text x="323.3" y="300" class="cell">Gloria</text>
+    <text x="596.6" y="300" class="cell">$1,800</text>
+    <!-- Row 5 -->
+    <text x="50" y="345" class="cell">Administration</text>
+    <text x="323.3" y="345" class="cell">Jane</text>
+    <text x="596.6" y="345" class="cell">$2,500</text>
+    <!-- Row 6 -->
+    <text x="50" y="390" class="cell">Finance</text>
+    <text x="323.3" y="390" class="cell">Max</text>
+    <text x="596.6" y="390" class="cell">$2,000</text>
+    <!-- Row 7 -->
+    <text x="50" y="435" class="cell">Administration</text>
+    <text x="323.3" y="435" class="cell">Tyler</text>
+    <text x="596.6" y="435" class="cell">$3,000</text>
+    <!-- Row 8 -->
+    <text x="50" y="480" class="cell">Finance</text>
+    <text x="323.3" y="480" class="cell">Wilkins</text>
+    <text x="596.6" y="480" class="cell">$2,500</text>
+    <!-- Row 9 -->
+    <text x="50" y="525" class="cell">Marketing</text>
+    <text x="323.3" y="525" class="cell">Miles</text>
+    <text x="596.6" y="525" class="cell">$2,800</text>
+    <!-- Row 10 -->
+    <text x="50" y="570" class="cell">Administration</text>
+    <text x="323.3" y="570" class="cell">Sabine</text>
+    <text x="596.6" y="570" class="cell">$1,900</text>
+  </g>
+
+  <!-- Vertical lines for columns -->
+  <line x1="313.3" y1="100" x2="313.3" y2="600" class="line"/>
+  <line x1="586.6" y1="100" x2="586.6" y2="600" class="line"/>
+
+  <!-- Horizontal lines for rows -->
+  <line x1="40" y1="140" x2="860" y2="140" class="line"/>
+  <line x1="40" y1="185" x2="860" y2="185" class="line"/>
+  <line x1="40" y1="230" x2="860" y2="230" class="line"/>
+  <line x1="40" y1="275" x2="860" y2="275" class="line"/>
+  <line x1="40" y1="320" x2="860" y2="320" class="line"/>
+  <line x1="40" y1="365" x2="860" y2="365" class="line"/>
+  <line x1="40" y1="410" x2="860" y2="410" class="line"/>
+  <line x1="40" y1="455" x2="860" y2="455" class="line"/>
+  <line x1="40" y1="500" x2="860" y2="500" class="line"/>
+  <line x1="40" y1="545" x2="860" y2="545" class="line"/>
+  <line x1="40" y1="590" x2="860" y2="590" class="line"/>
+</svg>

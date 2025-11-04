@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bar { fill: #9c27b0; }
+    .label { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; }
+    .value { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: white; text-anchor: middle; }
+    .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; text-anchor: middle; }
+  </style>
+
+  <!-- Bars -->
+  <rect class="bar" x="50" y="50" width="60" height="350" />
+  <rect class="bar" x="150" y="170" width="60" height="230" />
+  <rect class="bar" x="250" y="200" width="60" height="200" />
+
+  <!-- Values on bars -->
+  <text class="value" x="80" y="45">$130.96</text>
+  <text class="value" x="180" y="165">$82.56</text>
+  <text class="value" x="280" y="195">$70.55</text>
+
+  <!-- Labels under bars -->
+  <text class="label" x="80" y="430">Ford F150</text>
+  <text class="label" x="80" y="450">(Regular Cab)</text>
+  <text class="label" x="180" y="430">Toyota RAV4</text>
+  <text class="label" x="280" y="430">Honda Civic</text>
+
+  <!-- Title -->
+  <text class="title" x="200" y="480">Total fueling cost</text>
+  <line x1="50" y1="465" x2="310" y2="465" stroke="#9c27b0" stroke-width="2"/>
+</svg>

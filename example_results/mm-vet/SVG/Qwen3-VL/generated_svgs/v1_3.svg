@@ -1,0 +1,27 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill: white; stroke: black; stroke-width: 1; }
+    .text { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+
+  <!-- Top row -->
+  <rect x="5" y="5" width="90" height="40" class="box"/>
+  <text x="50" y="25" class="text">4 + 7 =</text>
+
+  <rect x="105" y="5" width="90" height="40" class="box"/>
+  <text x="150" y="25" class="text">7 + 2 =</text>
+
+  <!-- Middle row -->
+  <rect x="5" y="55" width="90" height="40" class="box"/>
+  <text x="50" y="75" class="text">2 + 2 =</text>
+
+  <rect x="105" y="55" width="90" height="40" class="box"/>
+  <text x="150" y="75" class="text">6 + 1 =</text>
+
+  <!-- Bottom row -->
+  <rect x="5" y="105" width="90" height="40" class="box"/>
+  <text x="50" y="125" class="text">9 + 3 =</text>
+
+  <rect x="105" y="105" width="90" height="40" class="box"/>
+  <text x="150" y="125" class="text">3 + 8 =</text>
+</svg>

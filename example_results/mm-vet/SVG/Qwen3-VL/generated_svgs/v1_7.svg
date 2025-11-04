@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="600" fill="white"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="80" fill="#4a7aff"/>
+  <text x="500" y="50" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">CAN YOU FIND THE MISSING NUMBERS?</text>
+  
+  <!-- Main content -->
+  <text x="350" y="120" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">IF</text>
+  
+  <!-- Equations -->
+  <text x="350" y="170" font-family="Arial" font-size="24" text-anchor="middle">2 X 1 X 3 = 5</text>
+  <text x="350" y="220" font-family="Arial" font-size="24" text-anchor="middle">4 X 5 X 2 = 14</text>
+  <text x="350" y="270" font-family="Arial" font-size="24" text-anchor="middle">3 X 3 X 4 = 15</text>
+  <text x="350" y="320" font-family="Arial" font-size="24" text-anchor="middle">5 X 3 X 2 = 11</text>
+  
+  <text x="350" y="380" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">THEN</text>
+  
+  <text x="350" y="430" font-family="Arial" font-size="24" text-anchor="middle">6 X 7 X 1 = ?</text>
+  
+  <!-- Question mark graphic -->
+  <g transform="translate(600, 150)">
+    <!-- Large golden question mark -->
+    <path d="M100,0 C100,50 50,100 0,100 C-50,100 -100,50 -100,0 C-100,-50 -50,-100 0,-100 C50,-100 100,-50 100,0 Z" fill="none" stroke="gold" stroke-width="15" stroke-linejoin="round"/>
+    <path d="M0,100 C50,100 100,50 100,0 C100,-50 50,-100 0,-100 C-50,-100 -100,-50 -100,0 C-100,50 -50,100 0,100 Z" fill="gold" stroke="darkgoldenrod" stroke-width="2"/>
+    
+    <!-- Base of question mark -->
+    <rect x="-20" y="100" width="40" height="30" fill="gold" stroke="darkgoldenrod" stroke-width="2"/>
+  </g>
+  
+  <!-- Thinking person figure -->
+  <g transform="translate(720, 200)">
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="15" fill="lightgray"/>
+    <!-- Body -->
+    <rect x="-10" y="-25" width="20" height="40" rx="5" fill="lightgray"/>
+    <!-- Arms -->
+    <path d="M-10,-25 L-20,-15 M10,-25 L20,-15" stroke="lightgray" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M-5,15 L-10,35 M5,15 L10,35" stroke="lightgray" stroke-width="4" stroke-linecap="round"/>
+    <!-- Hand on head (thinking pose) -->
+    <path d="M-15,-40 L-25,-50" stroke="lightgray" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Watermarks -->
+  <text x="10" y="590" font-family="Arial" font-size="10" fill="lightgray" opacity="0.5">©www.FunWithPuzzles.com</text>
+  <text x="600" y="590" font-family="Arial" font-size="10" fill="lightgray" opacity="0.5">©www.FunWithPuzzles.com</text>
+</svg>

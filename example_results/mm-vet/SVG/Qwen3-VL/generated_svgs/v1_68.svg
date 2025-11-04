@@ -1,0 +1,67 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="appleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#d43f8d"/>
+    </radialGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f8f8"/>
+  
+  <!-- Apple -->
+  <path d="M250,20 C150,20 100,100 150,250 C200,400 300,400 350,250 C400,100 350,20 250,20 Z" fill="url(#appleGradient)" stroke="#d43f8d" stroke-width="2"/>
+  
+  <!-- Apple stem -->
+  <path d="M350,420 C360,410 370,400 370,390" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Apple speckles -->
+  <circle cx="280" cy="150" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="320" cy="200" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="200" cy="300" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="250" cy="350" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="300" cy="320" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="180" cy="220" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="220" cy="180" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="330" cy="180" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="270" cy="280" r="1" fill="#ffd700" opacity="0.5"/>
+  <circle cx="230" cy="250" r="1" fill="#ffd700" opacity="0.5"/>
+  
+  <!-- Label -->
+  <rect x="200" y="100" width="100" height="80" rx="10" ry="10" fill="#ffffff" stroke="#00aa00" stroke-width="2"/>
+  
+  <!-- Label text -->
+  <text x="250" y="125" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#00aa00">FUJI</text>
+  <text x="250" y="145" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#00aa00">94131</text>
+  <text x="250" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#00aa00">USA</text>
+  
+  <!-- Organic badge -->
+  <circle cx="220" cy="120" r="10" fill="#00aa00"/>
+  <text x="220" y="124" font-family="Arial" font-size="8" text-anchor="middle" fill="#ffffff">ORGANIC</text>
+  
+  <!-- Barcode -->
+  <g transform="translate(210,170)">
+    <rect x="0" y="0" width="80" height="30" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+    <rect x="5" y="5" width="2" height="20" fill="#000000"/>
+    <rect x="10" y="5" width="1" height="20" fill="#000000"/>
+    <rect x="15" y="5" width="3" height="20" fill="#000000"/>
+    <rect x="20" y="5" width="1" height="20" fill="#000000"/>
+    <rect x="25" y="5" width="2" height="20" fill="#000000"/>
+    <rect x="30" y="5" width="1" height="20" fill="#000000"/>
+    <rect x="35" y="5" width="2" height="20" fill="#000000"/>
+    <rect x="40" y="5" width="1" height="20" fill="#000000"/>
+    <rect x="45" y="5" width="3" height="20" fill="#000000"/>
+    <rect x="50" y="5" width="1" height="20" fill="#000000"/>
+    <rect x="55" y="5" width="2" height="20" fill="#000000"/>
+    <rect x="60" y="5" width="1" height="20" fill="#000000"/>
+    <rect x="65" y="5" width="2" height="20" fill="#000000"/>
+    <rect x="70" y="5" width="1" height="20" fill="#000000"/>
+  </g>
+  
+  <!-- Highlight effect -->
+  <path d="M250,20 C150,20 100,100 150,250 C200,400 300,400 350,250 C400,100 350,20 250,20 Z" fill="url(#highlight)" opacity="0.3"/>
+</svg>

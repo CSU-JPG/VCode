@@ -1,0 +1,190 @@
+<svg viewBox="0 0 240 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Row 1 -->
+  <g transform="translate(10,10)">
+    <rect x="2" y="14" width="4" height="4"/><rect x="7" y="12" width="4" height="6"/><rect x="12" y="10" width="4" height="8"/>
+  </g>
+  <g transform="translate(30,10)">
+    <circle cx="10" cy="10" r="8"/><circle cx="8" cy="9" r="1"/><circle cx="12" cy="9" r="1"/><path d="M8 12 Q10 14 12 12"/>
+  </g>
+  <g transform="translate(50,10)">
+    <path d="M5 15 L10 10 L15 15 L10 20 Z"/><path d="M10 10 L15 5 L20 10 L15 15"/>
+  </g>
+  <g transform="translate(70,10)">
+    <path d="M5 15 Q10 10 15 15 Q10 20 5 15 Z"/>
+  </g>
+  <g transform="translate(90,10)">
+    <rect x="5" y="5" width="10" height="10"/><circle cx="10" cy="5" r="2"/>
+  </g>
+  <g transform="translate(110,10)">
+    <path d="M12 5 L8 15 L10 17 L14 7 Z"/><line x1="14" y1="7" x2="18" y2="3"/>
+  </g>
+  <g transform="translate(130,10)">
+    <path d="M10 5 A5 5 0 0 1 10 15"/><path d="M10 4 A6 6 0 0 1 10 16"/><path d="M10 3 A7 7 0 0 1 10 17"/>
+  </g>
+  <g transform="translate(150,10)">
+    <path d="M10 5 A5 5 0 0 1 15 10"/><path d="M15 10 L12 8 L12 12 Z"/>
+  </g>
+  <g transform="translate(170,10)">
+    <rect x="5" y="5" width="10" height="10"/><path d="M7 7 L10 10 L13 7"/><path d="M7 10 L10 7 L13 10"/>
+  </g>
+  <g transform="translate(190,10)">
+    <path d="M8 5 C10 3 12 3 14 5 C16 7 16 9 14 11 L10 15 L6 11 C4 9 4 7 6 5 C8 3 10 3 12 5"/>
+    <circle cx="10" cy="7" r="1"/>
+  </g>
+  <!-- Row 2 -->
+  <g transform="translate(10,30)">
+    <rect x="5" y="5" width="10" height="10"/><rect x="6" y="2" width="8" height="4"/>
+  </g>
+  <g transform="translate(30,30)">
+    <path d="M10 5 L8 10 L12 10 Z"/><circle cx="10" cy="15" r="3"/>
+  </g>
+  <g transform="translate(50,30)">
+    <path d="M5 5 L9 3 L13 5 L13 9 L9 11 L5 9 Z"/><path d="M9 3 L9 7 L13 9"/><path d="M5 9 L9 7 L9 11"/>
+  </g>
+  <g transform="translate(70,30)">
+    <circle cx="10" cy="10" r="8"/><path d="M10 5 L10 15"/>
+  </g>
+  <g transform="translate(90,30)">
+    <circle cx="10" cy="10" r="8"/><line x1="10" y1="2" x2="10" y2="18"/><line x1="2" y1="10" x2="18" y2="10"/>
+  </g>
+  <g transform="translate(110,30)">
+    <path d="M5 5 C7 3 13 3 15 5 C17 7 17 9 15 11 C13 13 7 13 5 11 C3 9 3 7 5 5 Z"/>
+  </g>
+  <g transform="translate(130,30)">
+    <path d="M5 5 C10 3 15 3 20 5 C18 7 18 9 20 11 C15 13 10 13 5 11 C7 9 7 7 5 5 Z"/>
+    <circle cx="10" cy="10" r="2"/>
+  </g>
+  <g transform="translate(150,30)">
+    <path d="M10 5 L15 10 L10 15 L5 10 Z"/>
+  </g>
+  <g transform="translate(170,30)">
+    <circle cx="10" cy="10" r="8"/><path d="M7 7 L13 13"/><path d="M13 7 L7 13"/>
+  </g>
+  <g transform="translate(190,30)">
+    <rect x="5" y="5" width="10" height="10"/><path d="M5 15 L10 10 L15 15"/>
+  </g>
+  <!-- Row 3 -->
+  <g transform="translate(10,50)">
+    <rect x="5" y="5" width="10" height="10"/><rect x="5" y="12" width="10" height="3"/>
+  </g>
+  <g transform="translate(30,50)">
+    <rect x="5" y="5" width="10" height="10"/><path d="M5 15 L10 10 L15 15"/>
+  </g>
+  <g transform="translate(50,50)">
+    <rect x="5" y="5" width="10" height="10"/><path d="M7 7 L13 13"/><path d="M13 7 L7 13"/>
+  </g>
+  <g transform="translate(70,50)">
+    <path d="M5 5 C10 3 15 3 20 5 C18 7 18 9 20 11 C15 13 10 13 5 11 C7 9 7 7 5 5 Z"/>
+  </g>
+  <g transform="translate(90,50)">
+    <rect x="5" y="5" width="10" height="10"/><circle cx="12" cy="7" r="2"/>
+  </g>
+  <g transform="translate(110,50)">
+    <rect x="5" y="5" width="10" height="10"/><path d="M7 12 L10 15 L13 12"/>
+  </g>
+  <g transform="translate(130,50)">
+    <path d="M5 10 L15 10"/><path d="M10 5 L10 15"/><path d="M7 12 Q10 8 13 12"/>
+  </g>
+  <g transform="translate(150,50)">
+    <path d="M5 5 C7 3 13 3 15 5 C17 7 17 9 15 11 C13 13 7 13 5 11 C3 9 3 7 5 5 Z"/>
+  </g>
+  <g transform="translate(170,50)">
+    <path d="M10 5 L8 10 L12 10 Z"/><circle cx="10" cy="15" r="3"/>
+  </g>
+  <g transform="translate(190,50)">
+    <path d="M5 5 L15 5 L15 15 L5 15 Z"/><path d="M5 10 L15 10"/>
+  </g>
+  <!-- Row 4 -->
+  <g transform="translate(10,70)">
+    <path d="M10 5 L8 15 L12 15 Z"/><path d="M10 10 L15 15 L15 5 Z"/>
+  </g>
+  <g transform="translate(30,70)">
+    <circle cx="8" cy="8" r="2"/><circle cx="12" cy="8" r="2"/><circle cx="10" cy="12" r="2"/>
+  </g>
+  <g transform="translate(50,70)">
+    <path d="M10 5 L15 15 L5 15 Z"/>
+  </g>
+  <g transform="translate(70,70)">
+    <path d="M5 10 L15 10"/><path d="M10 5 L10 15"/>
+  </g>
+  <g transform="translate(90,70)">
+    <rect x="5" y="5" width="10" height="10"/><path d="M5 15 L10 10 L15 15"/>
+  </g>
+  <g transform="translate(110,70)">
+    <circle cx="10" cy="10" r="8"/><path d="M10 5 L10 15"/>
+  </g>
+  <g transform="translate(130,70)">
+    <circle cx="10" cy="10" r="8"/><circle cx="10" cy="10" r="5"/>
+  </g>
+  <g transform="translate(150,70)">
+    <path d="M10 5 L15 10 L10 15 L5 10 Z"/>
+  </g>
+  <g transform="translate(170,70)">
+    <circle cx="10" cy="10" r="8"/><path d="M7 7 L13 13"/><path d="M13 7 L7 13"/>
+  </g>
+  <g transform="translate(190,70)">
+    <rect x="5" y="5" width="10" height="10"/><rect x="5" y="12" width="10" height="3"/>
+  </g>
+  <!-- Row 5 -->
+  <g transform="translate(10,90)">
+    <rect x="5" y="5" width="10" height="10"/><rect x="5" y="12" width="10" height="3"/>
+  </g>
+  <g transform="translate(30,90)">
+    <path d="M10 5 L15 15 L5 15 Z"/>
+  </g>
+  <g transform="translate(50,90)">
+    <circle cx="10" cy="10" r="8"/><path d="M7 7 L13 13"/><path d="M13 7 L7 13"/>
+  </g>
+  <g transform="translate(70,90)">
+    <path d="M5 10 L15 10"/><path d="M10 5 L10 15"/>
+  </g>
+  <g transform="translate(90,90)">
+    <circle cx="10" cy="10" r="8"/><path d="M10 5 L10 15"/>
+  </g>
+  <g transform="translate(110,90)">
+    <path d="M5 5 L15 5 L15 15 L5 15 Z"/><path d="M5 10 L15 10"/>
+  </g>
+  <g transform="translate(130,90)">
+    <path d="M10 5 L8 10 L12 10 Z"/><circle cx="10" cy="15" r="3"/>
+  </g>
+  <g transform="translate(150,90)">
+    <path d="M5 5 C7 3 13 3 15 5 C17 7 17 9 15 11 C13 13 7 13 5 11 C3 9 3 7 5 5 Z"/>
+  </g>
+  <g transform="translate(170,90)">
+    <circle cx="10" cy="10" r="8"/><path d="M7 7 L13 13"/><path d="M13 7 L7 13"/>
+  </g>
+  <g transform="translate(190,90)">
+    <path d="M10 5 L15 10 L10 15 L5 10 Z"/>
+  </g>
+  <!-- Row 6 -->
+  <g transform="translate(10,110)">
+    <circle cx="10" cy="10" r="8"/><path d="M7 7 L13 13"/><path d="M13 7 L7 13"/>
+  </g>
+  <g transform="translate(30,110)">
+    <path d="M10 5 L15 15 L5 15 Z"/>
+  </g>
+  <g transform="translate(50,110)">
+    <circle cx="10" cy="10" r="8"/><path d="M10 5 L10 15"/>
+  </g>
+  <g transform="translate(70,110)">
+    <rect x="5" y="5" width="10" height="10"/><rect x="5" y="12" width="10" height="3"/>
+  </g>
+  <g transform="translate(90,110)">
+    <path d="M5 5 L15 5 L15 15 L5 15 Z"/><path d="M5 10 L15 10"/>
+  </g>
+  <g transform="translate(110,110)">
+    <path d="M10 5 L8 10 L12 10 Z"/><circle cx="10" cy="15" r="3"/>
+  </g>
+  <g transform="translate(130,110)">
+    <path d="M5 5 C7 3 13 3 15 5 C17 7 17 9 15 11 C13 13 7 13 5 11 C3 9 3 7 5 5 Z"/>
+  </g>
+  <g transform="translate(150,110)">
+    <path d="M10 5 L15 10 L10 15 L5 10 Z"/>
+  </g>
+  <g transform="translate(170,110)">
+    <circle cx="10" cy="10" r="8"/><path d="M7 7 L13 13"/><path d="M13 7 L7 13"/>
+  </g>
+  <g transform="translate(190,110)">
+    <path d="M10 5 L8 10 L12 10 Z"/><circle cx="10" cy="15" r="3"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="appleGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#A0522D"/>
+    </linearGradient>
+    <linearGradient id="leafGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#228B22"/>
+      <stop offset="100%" stop-color="#32CD32"/>
+    </linearGradient>
+    <linearGradient id="spotGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#8FBC8F"/>
+  <path d="M200 500 C300 450, 400 550, 500 500 C600 450, 700 550, 800 500" fill="none" stroke="#8B4513" stroke-width="5"/>
+  <path d="M300 300 C350 250, 450 250, 500 300 C550 350, 450 450, 400 400" fill="url(#appleGradient)" stroke="#8B4513" stroke-width="2"/>
+  <path d="M150 600 C200 550, 300 650, 350 600 C400 550, 500 650, 550 600 C600 550, 700 650, 750 600 C800 550, 900 650, 950 600" fill="url(#leafGradient)" stroke="#228B22" stroke-width="2"/>
+  <path d="M300 700 C350 650, 450 750, 500 700 C550 650, 650 750, 700 700 C750 650, 850 750, 900 700" fill="url(#leafGradient)" stroke="#228B22" stroke-width="2"/>
+  <path d="M300 800 C350 750, 450 850, 500 800 C550 750, 650 850, 700 800 C750 750, 850 850, 900 800" fill="url(#leafGradient)" stroke="#228B22" stroke-width="2"/>
+  <path d="M350 550 C370 530, 390 550, 410 530 C430 510, 450 530, 470 510 C490 490, 510 510, 530 490 C550 470, 570 490, 590 470" fill="url(#spotGradient)" stroke="#FF4500" stroke-width="1"/>
+  <path d="M400 900 C420 880, 440 900, 460 880 C480 860, 500 880, 520 860 C540 840, 560 860, 580 840 C600 820, 620 840, 640 820" fill="url(#spotGradient)" stroke="#FF4500" stroke-width="1"/>
+  <path d="M600 750 C620 730, 640 750, 660 730 C680 710, 700 730, 720 710 C740 690, 760 710, 780 690 C800 670, 820 690, 840 670" fill="url(#spotGradient)" stroke="#FF4500" stroke-width="1"/>
+  <path d="M500 500 C520 480, 540 500, 560 480 C580 460, 600 480, 620 460 C640 440, 660 460, 680 440 C700 420, 720 440, 740 420" fill="url(#spotGradient)" stroke="#FF4500" stroke-width="1"/>
+  <path d="M800 600 C820 580, 840 600, 860 580 C880 560, 900 580, 920 560 C940 540, 960 560, 980 540" fill="url(#spotGradient)" stroke="#FF4500" stroke-width="1"/>
+</svg>

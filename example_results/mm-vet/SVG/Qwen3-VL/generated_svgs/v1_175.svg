@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#3a3a3a"/>
+  <defs>
+    <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skinTone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6b89c"/>
+      <stop offset="100%" stop-color="#d4a373"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background texture -->
+  <rect x="0" y="0" width="1000" height="700" fill="#5d5d5d" opacity="0.7"/>
+  
+  <!-- Character face -->
+  <ellipse cx="550" cy="350" rx="180" ry="200" fill="url(#skinTone)" stroke="#8b5e3c" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="480" cy="440" r="15" fill="#4f8ab4"/>
+  <circle cx="580" cy="440" r="15" fill="#4f8ab4"/>
+  <circle cx="480" cy="440" r="5" fill="#000"/>
+  <circle cx="580" cy="440" r="5" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M440,410 Q470,390 500,400" stroke="#3a2a1a" stroke-width="3" fill="none"/>
+  <path d="M560,410 Q590,390 620,400" stroke="#3a2a1a" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M520,460 Q530,500 540,460" stroke="#c99b7a" stroke-width="4" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M500,560 Q530,580 560,560" stroke="#a0522d" stroke-width="3" fill="none"/>
+  
+  <!-- Hair -->
+  <path d="M350,20 Q400,50 450,30 Q500,10 550,20 Q600,30 650,50 Q700,70 720,100 Q740,130 730,160 Q720,190 700,220 Q680,250 650,270 Q620,290 580,300 Q540,310 500,300 Q460,290 430,270 Q400,250 380,220 Q360,190 350,160 Q340,130 350,100 Q360,70 370,40 Q380,20 350,20" 
+        fill="#3a2a1a" stroke="#2a1a0a" stroke-width="2"/>
+  
+  <!-- Hand reaching forward -->
+  <path d="M100,500 Q150,400 200,350 Q250,300 300,250 Q350,200 400,200 Q450,200 500,250 Q550,300 600,350 Q650,400 700,500" 
+        fill="url(#skinTone)" stroke="#8b5e3c" stroke-width="3"/>
+  
+  <!-- Fingers -->
+  <path d="M200,350 Q220,320 240,300 Q260,280 280,270 Q300,260 320,250 Q340,240 360,240 Q380,240 400,250 Q420,260 440,270 Q460,280 480,300 Q500,320 520,350" 
+        fill="url(#skinTone)" stroke="#8b5e3c" stroke-width="2"/>
+  
+  <!-- Ring on finger -->
+  <ellipse cx="380" cy="480" rx="30" ry="25" fill="#d4af37" stroke="#b8860b" stroke-width="3"/>
+  <ellipse cx="380" cy="480" rx="25" ry="20" fill="url(#ringGlow)" opacity="0.7"/>
+  
+  <!-- Clothing -->
+  <path d="M50,450 Q100,400 150,380 Q200,360 250,350 Q300,340 350,330 Q400,320 450,310 Q500,300 550,310 Q600,320 650,330 Q700,340 750,350 Q800,360 850,380 Q900,400 950,450 Q1000,500 950,550 Q900,600 850,650 Q800,700 750,750 Q700,800 650,850 Q600,900 550,950 Q500,1000 450,950 Q400,900 350,850 Q300,800 250,750 Q200,700 150,650 Q100,600 50,550" 
+        fill="#8b4513" stroke="#5d290f" stroke-width="2"/>
+</svg>

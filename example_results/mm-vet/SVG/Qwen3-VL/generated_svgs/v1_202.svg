@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.7 0"/>
+    </filter>
+  </defs>
+  <g filter="url(#grain)">
+    <circle cx="500" cy="500" r="400" fill="#ccc"/>
+    <path d="M300 100 Q400 50 500 100 Q600 50 700 100 Q800 150 900 200 Q950 250 980 300 Q1000 350 1000 400 Q1000 500 950 600 Q900 700 800 800 Q700 900 600 950 Q500 1000 400 950 Q300 900 200 800 Q100 700 50 600 Q0 500 0 400 Q0 300 50 200 Q100 100 200 50 Q250 25 300 100" fill="none" stroke="#333" stroke-width="2"/>
+    <ellipse cx="500" cy="400" rx="150" ry="120" fill="#fff"/>
+    <circle cx="480" cy="350" r="10" fill="#000"/>
+    <circle cx="600" cy="350" r="10" fill="#000"/>
+    <path d="M450 450 Q500 500 550 450" fill="none" stroke="#000" stroke-width="5"/>
+    <path d="M300 200 Q350 150 400 100 Q450 50 500 50 Q550 50 600 100 Q650 150 700 200 Q750 250 800 300 Q850 350 900 400 Q950 450 1000 500" fill="none" stroke="#ddd" stroke-width="20" stroke-linecap="round"/>
+    <rect x="300" y="600" width="700" height="400" fill="#aaa"/>
+    <rect x="450" y="600" width="200" height="50" fill="#999"/>
+    <circle cx="600" cy="700" r="10" fill="#555"/>
+    <path d="M0 320 Q100 400 200 500 Q300 600 400 700 Q500 800 600 900 Q700 1000 800 900 Q900 800 1000 700" fill="none" stroke="#777" stroke-width="50" stroke-linecap="round"/>
+    <path d="M900 600 Q950 650 1000 700 Q1050 750 1100 800" fill="none" stroke="#555" stroke-width="30" stroke-linecap="round"/>
+    <path d="M0 300 Q50 350 100 400 Q150 450 200 500 Q250 550 300 600 Q350 650 400 700 Q450 750 500 800 Q550 850 600 900 Q650 950 700 1000" fill="none" stroke="#555" stroke-width="20" stroke-linecap="round"/>
+  </g>
+</svg>

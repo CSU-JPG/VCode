@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a8e3a"/>
+      <stop offset="100%" stop-color="#2d7a2d"/>
+    </linearGradient>
+    <linearGradient id="cornGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#c0c0c0"/>
+    </linearGradient>
+    <linearGradient id="brownGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b4513"/>
+      <stop offset="100%" stop-color="#5d2906"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background leaves -->
+  <rect width="1000" height="1000" fill="#1a3c1a"/>
+  
+  <!-- Main stalk -->
+  <path d="M330 0 L330 1000 L500 1000 L500 0 Z" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="2"/>
+  
+  <!-- Side stalks -->
+  <path d="M500 0 L500 200 L600 300 L600 1000" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="2"/>
+  <path d="M500 0 L500 200 L400 300 L400 1000" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="2"/>
+  
+  <!-- Corn husk -->
+  <path d="M230 320 L280 400 L300 500 L320 600 L350 700 L400 750 L500 780 L600 750 L650 700 L680 600 L700 500 L720 400 L680 320 L600 300 L500 300 L400 300 Z" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="2"/>
+  
+  <!-- Corn kernels (infected) -->
+  <path d="M320 430 L360 450 L400 430 L420 400 L400 380 L380 370 L350 380 L330 400 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M350 330 L400 350 L450 340 L480 320 L460 300 L430 290 L400 300 L370 310 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M400 420 L450 450 L500 440 L530 420 L510 400 L480 390 L450 400 L420 410 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M470 360 L520 380 L570 370 L600 350 L580 330 L550 320 L520 330 L490 340 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M550 340 L600 360 L650 350 L680 330 L660 310 L630 300 L600 310 L570 320 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M560 400 L610 420 L660 410 L690 390 L670 370 L640 360 L610 370 L580 380 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M450 560 L500 580 L550 570 L580 550 L560 530 L530 520 L500 530 L470 540 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M350 570 L400 590 L450 580 L480 560 L460 540 L430 530 L400 540 L370 550 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M320 500 L370 520 L420 510 L450 490 L430 470 L400 460 L370 470 L340 480 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  <path d="M480 500 L530 520 L580 510 L610 490 L590 470 L560 460 L530 470 L500 480 Z" fill="url(#cornGradient)" stroke="#5d2906" stroke-width="1"/>
+  
+  <!-- Diseased areas -->
+  <path d="M350 430 L400 450 L450 440 L480 420 L460 400 L430 390 L400 400 L370 410 Z" fill="url(#brownGradient)" opacity="0.6"/>
+  <path d="M470 360 L520 380 L570 370 L600 350 L580 330 L550 320 L520 330 L490 340 Z" fill="url(#brownGradient)" opacity="0.6"/>
+  <path d="M550 340 L600 360 L650 350 L680 330 L660 310 L630 300 L600 310 L570 320 Z" fill="url(#brownGradient)" opacity="0.6"/>
+  <path d="M450 560 L500 580 L550 570 L580 550 L560 530 L530 520 L500 530 L470 540 Z" fill="url(#brownGradient)" opacity="0.6"/>
+  <path d="M350 570 L400 590 L450 580 L480 560 L460 540 L430 530 L400 540 L370 550 Z" fill="url(#brownGradient)" opacity="0.6"/>
+  
+  <!-- Leaf details -->
+  <path d="M0 0 L200 200 L150 400 L100 600 L50 800 L0 1000" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="1"/>
+  <path d="M800 0 L1000 200 L950 400 L900 600 L850 800 L800 1000" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="1"/>
+  <path d="M600 0 L800 200 L750 400 L700 600 L650 800 L600 1000" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="1"/>
+  <path d="M200 0 L400 200 L350 400 L300 600 L250 800 L200 1000" fill="url(#greenGradient)" stroke="#2d7a2d" stroke-width="1"/>
+</svg>

@@ -1,0 +1,119 @@
+<svg viewBox="0 0 570 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ece3d2"/>
+      <stop offset="1" stop-color="#d7cdbd"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7b79c"/>
+      <stop offset="1" stop-color="#efe6d6"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6e3f23"/>
+      <stop offset="1" stop-color="#8b5733"/>
+    </linearGradient>
+    <radialGradient id="rug" cx="35%" cy="70%" r="60%">
+      <stop offset="0" stop-color="#6a3e49"/>
+      <stop offset="1" stop-color="#3f2230"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9aa0a9"/>
+      <stop offset="1" stop-color="#6e7680"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall and floor -->
+  <rect x="0" y="0" width="570" height="310" fill="url(#wall)"/>
+  <rect x="0" y="310" width="570" height="120" fill="url(#floor)"/>
+
+  <!-- Rug -->
+  <path d="M28 355 C85 320 175 322 256 345 C320 365 250 414 150 422 C83 426 30 396 28 355 Z" fill="url(#rug)" opacity="0.9"/>
+
+  <!-- Bookshelf on the left -->
+  <g>
+    <rect x="12" y="28" width="150" height="265" rx="6" fill="#fbfaf6" stroke="#ddd6c7" stroke-width="3"/>
+    <!-- shelf dividers -->
+    <rect x="20" y="60" width="134" height="4" fill="#e6dfcf"/>
+    <rect x="20" y="92" width="134" height="4" fill="#e6dfcf"/>
+    <rect x="20" y="124" width="134" height="4" fill="#e6dfcf"/>
+    <rect x="20" y="156" width="134" height="4" fill="#e6dfcf"/>
+    <rect x="20" y="188" width="134" height="4" fill="#e6dfcf"/>
+    <rect x="20" y="220" width="134" height="4" fill="#e6dfcf"/>
+    <rect x="20" y="252" width="134" height="4" fill="#e6dfcf"/>
+    <!-- books -->
+    <g>
+      <rect x="26" y="40" width="16" height="18" fill="#7aa3c6"/>
+      <rect x="44" y="40" width="12" height="18" fill="#edc868"/>
+      <rect x="58" y="40" width="10" height="18" fill="#c29474"/>
+      <rect x="72" y="40" width="14" height="18" fill="#8db27e"/>
+      <rect x="90" y="40" width="12" height="18" fill="#a77ea7"/>
+      <rect x="104" y="40" width="18" height="18" fill="#6f8fae"/>
+      <rect x="124" y="40" width="18" height="18" fill="#c97f6b"/>
+    </g>
+    <g>
+      <rect x="26" y="72" width="12" height="18" fill="#7fa98b"/>
+      <rect x="40" y="72" width="10" height="18" fill="#d98c7c"/>
+      <rect x="52" y="72" width="18" height="18" fill="#7fa0c7"/>
+      <rect x="72" y="72" width="12" height="18" fill="#d2ab5a"/>
+      <rect x="86" y="72" width="10" height="18" fill="#9c8bb6"/>
+      <rect x="98" y="72" width="22" height="18" fill="#7aa3c6"/>
+      <rect x="122" y="72" width="28" height="18" fill="#a6b2be"/>
+    </g>
+    <g>
+      <rect x="26" y="104" width="18" height="18" fill="#c2a77e"/>
+      <rect x="46" y="104" width="10" height="18" fill="#6b8fb0"/>
+      <rect x="58" y="104" width="12" height="18" fill="#a37da1"/>
+      <rect x="72" y="104" width="16" height="18" fill="#6fa081"/>
+      <rect x="90" y="104" width="10" height="18" fill="#d98c7c"/>
+      <rect x="102" y="104" width="12" height="18" fill="#9bb1c4"/>
+      <rect x="116" y="104" width="34" height="18" fill="#b9c1c9"/>
+    </g>
+    <!-- books near the red box area -->
+    <g>
+      <rect x="36" y="162" width="10" height="28" fill="#8fb2cc"/>
+      <rect x="48" y="158" width="12" height="34" fill="#cdd6e0"/>
+      <rect x="62" y="160" width="16" height="32" fill="#98a6b4"/>
+      <rect x="80" y="160" width="10" height="32" fill="#b7c9da"/>
+      <rect x="92" y="160" width="10" height="32" fill="#7aa3c6"/>
+      <rect x="104" y="164" width="14" height="28" fill="#c0d0df"/>
+      <rect x="120" y="162" width="18" height="30" fill="#91a6bc"/>
+    </g>
+  </g>
+
+  <!-- Chair behind desk -->
+  <rect x="138" y="205" width="58" height="78" rx="8" fill="#2e2b28" opacity="0.95"/>
+
+  <!-- Right cabinet -->
+  <rect x="420" y="210" width="128" height="118" rx="4" fill="#5a3726" stroke="#3f2519" stroke-width="2"/>
+  <rect x="420" y="206" width="128" height="6" fill="#3d2419" opacity="0.8"/>
+
+  <!-- Paintings on wall -->
+  <rect x="176" y="95" width="86" height="62" fill="url(#frame)" stroke="#2e2e34" stroke-width="2"/>
+  <rect x="266" y="72" width="104" height="74" fill="url(#frame)" stroke="#2e2e34" stroke-width="2"/>
+  <rect x="398" y="60" width="122" height="84" fill="url(#frame)" stroke="#2e2e34" stroke-width="2"/>
+
+  <!-- Desk -->
+  <g>
+    <rect x="170" y="240" width="260" height="130" rx="6" fill="url(#wood)" stroke="#4d2a18" stroke-width="3"/>
+    <rect x="188" y="265" width="224" height="78" rx="4" fill="#7a4a2f" opacity="0.9" stroke="#59331f" stroke-width="2"/>
+    <!-- carved accents -->
+    <path d="M200 304 C230 280 270 280 300 304 C330 327 370 327 400 304" fill="none" stroke="#4d2a18" stroke-width="3" opacity="0.7"/>
+    <path d="M198 284 L410 284 M198 324 L410 324" stroke="#4d2a18" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- Small side table behind desk -->
+  <rect x="332" y="200" width="110" height="60" fill="#6e4630" stroke="#4b2c1c" stroke-width="2"/>
+
+  <!-- Laptop on desk -->
+  <rect x="290" y="160" width="65" height="45" rx="4" fill="#1a1f25" stroke="#0b0d12" stroke-width="2"/>
+  <rect x="298" y="206" width="50" height="6" rx="3" fill="#2c2f36"/>
+  <!-- Blue bounding box around laptop -->
+  <rect x="286" y="156" width="73" height="53" fill="none" stroke="#1e66ff" stroke-width="4"/>
+
+  <!-- Red bounding box around books on shelf -->
+  <rect x="34" y="150" width="108" height="90" fill="none" stroke="#e43b2e" stroke-width="5"/>
+
+  <!-- Soft shadows -->
+  <ellipse cx="300" cy="370" rx="140" ry="22" fill="#000" opacity="0.08"/>
+  <ellipse cx="480" cy="330" rx="70" ry="14" fill="#000" opacity="0.06"/>
+</svg>

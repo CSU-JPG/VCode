@@ -1,0 +1,101 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="600" fill="#9a84d8"/>
+  <rect x="0" y="540" width="1000" height="60" fill="#ffffff"/>
+  
+  <!-- Desk area -->
+  <rect x="0" y="660" width="290" height="120" fill="#f8f8f8"/>
+  <rect x="140" y="700" width="80" height="30" fill="#ffffff"/>
+  <rect x="220" y="700" width="80" height="30" fill="#ffffff"/>
+  
+  <!-- Polka dot chair -->
+  <rect x="230" y="620" width="100" height="100" fill="#000000"/>
+  <circle cx="240" cy="630" r="5" fill="#ffffff"/>
+  <circle cx="260" cy="630" r="5" fill="#ffffff"/>
+  <circle cx="280" cy="630" r="5" fill="#ffffff"/>
+  <circle cx="240" cy="650" r="5" fill="#ffffff"/>
+  <circle cx="260" cy="650" r="5" fill="#ffffff"/>
+  <circle cx="280" cy="650" r="5" fill="#ffffff"/>
+  <circle cx="240" cy="670" r="5" fill="#ffffff"/>
+  <circle cx="260" cy="670" r="5" fill="#ffffff"/>
+  <circle cx="280" cy="670" r="5" fill="#ffffff"/>
+  <circle cx="240" cy="690" r="5" fill="#ffffff"/>
+  <circle cx="260" cy="690" r="5" fill="#ffffff"/>
+  <circle cx="280" cy="690" r="5" fill="#ffffff"/>
+  
+  <!-- Lamp with polka dots -->
+  <rect x="185" y="400" width="50" height="60" fill="#000000"/>
+  <circle cx="190" cy="410" r="3" fill="#ffffff"/>
+  <circle cx="200" cy="410" r="3" fill="#ffffff"/>
+  <circle cx="210" cy="410" r="3" fill="#ffffff"/>
+  <circle cx="190" cy="420" r="3" fill="#ffffff"/>
+  <circle cx="200" cy="420" r="3" fill="#ffffff"/>
+  <circle cx="210" cy="420" r="3" fill="#ffffff"/>
+  <circle cx="190" cy="430" r="3" fill="#ffffff"/>
+  <circle cx="200" cy="430" r="3" fill="#ffffff"/>
+  <circle cx="210" cy="430" r="3" fill="#ffffff"/>
+  <circle cx="190" cy="440" r="3" fill="#ffffff"/>
+  <circle cx="200" cy="440" r="3" fill="#ffffff"/>
+  <circle cx="210" cy="440" r="3" fill="#ffffff"/>
+  <circle cx="190" cy="450" r="3" fill="#ffffff"/>
+  <circle cx="200" cy="450" r="3" fill="#ffffff"/>
+  <circle cx="210" cy="450" r="3" fill="#ffffff"/>
+  <rect x="185" y="460" width="50" height="10" fill="#ffffff"/>
+  
+  <!-- LOVE sign -->
+  <rect x="0" y="100" width="250" height="200" fill="#ff80c0"/>
+  <text x="20" y="160" font-family="Arial" font-size="80" fill="#ffffff">L</text>
+  <text x="70" y="160" font-family="Arial" font-size="80" fill="#ffffff">O</text>
+  <text x="20" y="240" font-family="Arial" font-size="80" fill="#ffffff">V</text>
+  <text x="70" y="240" font-family="Arial" font-size="80" fill="#ffffff">E</text>
+  
+  <!-- Cat poster -->
+  <rect x="530" y="20" width="120" height="160" fill="#ffffff"/>
+  <rect x="540" y="30" width="100" height="140" fill="#ff8040"/>
+  <circle cx="580" cy="70" r="15" fill="#ffffff"/>
+  <circle cx="580" cy="70" r="5" fill="#000000"/>
+  <circle cx="595" cy="70" r="15" fill="#ffffff"/>
+  <circle cx="595" cy="70" r="5" fill="#000000"/>
+  <rect x="560" y="90" width="60" height="40" fill="#ff8040"/>
+  
+  <!-- Flamingo decoration -->
+  <path d="M700 70 Q710 50 720 60 Q730 70 720 80 Q710 90 700 80 Q690 70 700 70" fill="#ff4040"/>
+  <path d="M700 80 Q710 100 720 90 Q730 80 720 70 Q710 60 700 70 Q690 80 700 80" fill="#ff4040"/>
+  
+  <!-- Dresser -->
+  <rect x="450" y="680" width="400" height="120" fill="#f8f8f8"/>
+  <rect x="470" y="700" width="80" height="40" fill="#ffffff"/>
+  <rect x="570" y="700" width="80" height="40" fill="#ffffff"/>
+  <rect x="670" y="700" width="80" height="40" fill="#ffffff"/>
+  
+  <!-- Person in robe -->
+  <rect x="520" y="30" width="200" height="570" fill="#f0e0f0"/>
+  <ellipse cx="620" cy="150" rx="60" ry="80" fill="#000000"/>
+  <rect x="600" y="400" width="40" height="20" fill="#000000"/>
+  <rect x="610" y="500" width="20" height="20" fill="#000000"/>
+  <rect x="630" y="500" width="20" height="20" fill="#000000"/>
+  <rect x="610" y="520" width="20" height="20" fill="#000000"/>
+  <rect x="630" y="520" width="20" height="20" fill="#000000"/>
+  
+  <!-- Bed with colorful blanket -->
+  <rect x="0" y="800" width="300" height="100" fill="#00bfff"/>
+  <rect x="0" y="800" width="150" height="50" fill="#ff6666"/>
+  <circle cx="75" cy="825" r="20" fill="#ffff00"/>
+  
+  <!-- Flower picture frames -->
+  <rect x="790" y="180" width="150" height="150" fill="#ffffff"/>
+  <rect x="800" y="190" width="130" height="130" fill="#000000"/>
+  <path d="M865 255 Q875 245 885 255 Q895 265 885 275 Q875 285 865 275 Q855 265 865 255" fill="#ffffff"/>
+  
+  <!-- QR code posters (simplified) -->
+  <rect x="330" y="40" width="140" height="200" fill="#000000"/>
+  <rect x="350" y="100" width="20" height="20" fill="#ffffff"/>
+  <rect x="410" y="100" width="20" height="20" fill="#ffffff"/>
+  <rect x="360" y="110" width="5" height="5" fill="#000000"/>
+  <rect x="420" y="110" width="5" height="5" fill="#000000"/>
+  
+  <!-- Small framed pictures -->
+  <rect x="250" y="300" width="80" height="80" fill="#ffffff"/>
+  <rect x="260" y="310" width="60" height="60" fill="#ff0000"/>
+  <rect x="950" y="180" width="80" height="80" fill="#ffffff"/>
+  <rect x="960" y="190" width="60" height="60" fill="#00ff00"/>
+</svg>

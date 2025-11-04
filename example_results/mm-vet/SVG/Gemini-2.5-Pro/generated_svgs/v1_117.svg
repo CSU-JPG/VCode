@@ -1,0 +1,164 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F4F4F4"/>
+  <rect x="0" y="480" width="800" height="120" fill="#c57f2e"/>
+  <path d="M0 480 H800 M0 495 H800 M0 510 H800 M0 525 H800 M0 540 H800 M0 555 H800 M0 570 H800 M0 585 H800" stroke="#a5651e" stroke-width="1"/>
+
+  <!-- Left Door/Window -->
+  <rect x="30" y="60" width="120" height="420" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  <rect x="35" y="65" width="110" height="200" fill="#E8F4F8" opacity="0.5"/>
+  <rect x="35" y="275" width="110" height="200" fill="#E8F4F8" opacity="0.5"/>
+  <line x1="85" y1="60" x2="85" y2="480" stroke="#E0E0E0" stroke-width="2"/>
+  <line x1="30" y1="270" x2="150" y2="270" stroke="#E0E0E0" stroke-width="2"/>
+  <path d="M20 50 C 85 40, 85 40, 160 50" fill="none" stroke="#E0E0E0" stroke-width="4"/>
+
+  <!-- Right Window -->
+  <rect x="700" y="0" width="100" height="450" fill="#dbebf0"/>
+  <rect x="690" y="0" width="10" height="460" fill="#FFFFFF"/>
+  <rect x="700" y="220" width="100" height="10" fill="#FFFFFF"/>
+
+  <!-- Furniture -->
+  <!-- Left Shelf -->
+  <path d="M160 120 L180 490 L200 490 L180 120Z M310 120 L290 490 L270 490 L290 120Z" fill="#FFFFFF"/>
+  <rect x="175" y="150" width="120" height="8" fill="#FFFFFF"/>
+  <rect x="170" y="260" width="120" height="8" fill="#FFFFFF"/>
+  <rect x="165" y="360" width="120" height="8" fill="#FFFFFF"/>
+  <rect x="160" y="460" width="120" height="8" fill="#FFFFFF"/>
+
+  <!-- Middle Shelf -->
+  <path d="M380 160 L400 520 L420 520 L400 160Z M530 160 L510 520 L490 520 L510 160Z" fill="#FFFFFF"/>
+  <rect x="395" y="180" width="120" height="8" fill="#FFFFFF"/>
+  <rect x="390" y="280" width="120" height="8" fill="#FFFFFF"/>
+  <rect x="385" y="380" width="120" height="8" fill="#FFFFFF"/>
+  <rect x="380" y="480" width="120" height="8" fill="#FFFFFF"/>
+
+  <!-- Yucca Plant Stand -->
+  <path d="M320 485 L325 520 L375 520 L380 485 Z M330 485 L330 520 M370 485 L370 520" fill="none" stroke="#d4a373" stroke-width="5"/>
+
+  <!-- Right Wall Shelves -->
+  <rect x="550" y="280" width="140" height="10" fill="#e3c9a6"/>
+  <path d="M560 290 L560 310 L575 290Z M675 290 L675 310 L660 290Z" fill="#E0E0E0"/>
+  <rect x="560" y="410" width="130" height="10" fill="#e3c9a6"/>
+  <path d="M570 420 L570 440 L585 420Z M675 420 L675 440 L660 420Z" fill="#E0E0E0"/>
+
+  <!-- Right Bench -->
+  <rect x="680" y="490" width="120" height="20" fill="#b07d4a"/>
+  <rect x="690" y="510" width="20" height="70" fill="#b07d4a"/>
+  <rect x="750" y="510" width="20" height="70" fill="#b07d4a"/>
+
+  <!-- Pots &amp;amp;amp; Plants -->
+  <!-- Hanging Plants -->
+  <g fill="#1e6b34">
+    <path d="M210 50 C 210 80 200 130 205 180" stroke="#1e6b34" stroke-width="3" fill="none"/>
+    <path d="M220 50 C 225 90 215 140 220 190" stroke="#1e6b34" stroke-width="3" fill="none"/>
+    <rect x="200" y="40" width="30" height="15" fill="#f0f0f0"/>
+    <path d="M280 50 C 280 80 270 130 275 180" stroke="#1e6b34" stroke-width="3" fill="none"/>
+    <path d="M290 50 C 295 90 285 140 290 190" stroke="#1e6b34" stroke-width="3" fill="none"/>
+    <rect x="270" y="40" width="30" height="15" fill="#f0f0f0"/>
+    <path d="M350 30 C 350 70 340 130 345 200" stroke="#1e6b34" stroke-width="4" fill="none"/>
+    <path d="M365 30 C 370 80 360 140 365 210" stroke="#1e6b34" stroke-width="4" fill="none"/>
+    <rect x="340" y="25" width="35" height="18" fill="#f0f0f0"/>
+    <path d="M430 30 C 430 70 420 130 425 200" stroke="#1e6b34" stroke-width="4" fill="none"/>
+    <path d="M445 30 C 450 80 440 140 445 210" stroke="#1e6b34" stroke-width="4" fill="none"/>
+    <rect x="420" y="25" width="35" height="18" fill="#f0f0f0"/>
+    <path d="M510 40 C 510 80 500 130 505 180" stroke="#1e6b34" stroke-width="3" fill="none"/>
+    <path d="M520 40 C 525 90 515 140 520 190" stroke="#1e6b34" stroke-width="3" fill="none"/>
+    <rect x="500" y="35" width="30" height="15" fill="#f0f0f0"/>
+  </g>
+
+  <!-- Large Yucca Plant -->
+  <path d="M315 450 C 315 500, 385 500, 385 450 Z" fill="#4a6e8b"/>
+  <rect x="335" y="350" width="15" height="110" fill="#8B4513"/>
+  <rect x="350" y="350" width="15" height="110" fill="#8B4513"/>
+  <rect x="365" y="350" width="15" height="110" fill="#8B4513"/>
+  <g fill="#006400">
+    <path d="M342 350 L300 280 L350 350 L320 270 L358 350 L340 250 L365 350 L370 270 L372 350 L390 280 L380 350 L410 300 L385 350"/>
+  </g>
+
+  <!-- Plants on Left Shelf -->
+  <path d="M195 130 C 195 155, 225 155, 225 130 Z" fill="#e6d5b8"/>
+  <path d="M210 135 L200 100 L210 120 L220 100 Z" fill="#1e8449"/>
+  <path d="M255 135 C 255 155, 280 155, 280 135 Z" fill="#2c3e50"/>
+  <path d="M268 135 C 260 115, 275 115, 268 135 C 270 115, 285 115, 278 135" fill="#f39c12"/>
+  <path d="M190 240 C 190 265, 220 265, 220 240 Z" fill="#c3a995"/>
+  <path d="M205 245 C 190 215, 220 215, 205 245" fill="#4a7c59"/>
+  <path d="M255 240 C 255 265, 285 265, 285 240 Z" fill="#b48264"/>
+  <path d="M270 245 C 260 220, 270 220, 270 245 C 280 220, 290 220, 270 245" fill="#3d555e"/>
+  <path d="M200 340 C 200 365, 225 365, 225 340 Z" fill="#e0e0e0"/>
+  <path d="M212 345 L202 315 L212 335 L222 315 Z" fill="#78909c"/>
+  <path d="M250 440 C 250 465, 280 465, 280 440 Z" fill="#ffffff"/>
+  <path d="M265 440 C 255 400, 275 400, 265 440" fill="#388e3c"/>
+
+  <!-- Plants on Middle Shelf -->
+  <path d="M410 165 C 410 185, 430 185, 430 165 Z" fill="#d2b48c"/>
+  <path d="M420 170 C 415 155, 425 155, 420 170" fill="#27ae60"/>
+  <path d="M450 160 C 450 185, 490 185, 490 160 Z" fill="#34495e"/>
+  <path d="M470 165 C 460 145, 480 145, 470 165" fill="#556b2f"/>
+  <path d="M415 265 C 415 285, 435 285, 435 265 Z" fill="#e0e0e0"/>
+  <path d="M425 270 C 420 250, 430 250, 425 270" fill="#5d9e5f"/>
+  <path d="M465 260 C 465 285, 495 285, 495 260 Z" fill="#ffffff"/>
+  <path d="M480 265 C 470 240, 490 240, 480 265" fill="#8fbc8f"/>
+  <path d="M410 365 C 410 385, 440 385, 440 365 Z" fill="#8c7853"/>
+  <path d="M425 370 C 415 340, 435 340, 425 370" fill="#b2d8b2"/>
+  <path d="M470 360 C 470 385, 490 385, 490 360 Z" fill="#6c7a89"/>
+  <path d="M480 365 C 475 345, 485 345, 480 365" fill="#2e8b57"/>
+  <path d="M410 460 C 410 485, 440 485, 440 460 Z" fill="#e9d6af"/>
+  <path d="M425 465 C 415 440, 435 440, 425 465" fill="#3a5a40"/>
+  <path d="M470 460 C 470 485, 490 485, 490 460 Z" fill="#466060"/>
+  <path d="M480 465 C 475 445, 485 445, 480 465" fill="#588157"/>
+
+  <!-- Plants on Right Wall Shelves -->
+  <path d="M570 265 C 570 285, 600 285, 600 265 Z" fill="#dcedc8"/>
+  <path d="M585 270 C 575 250, 595 250, 585 270" fill="#558b2f"/>
+  <path d="M620 260 C 620 285, 640 285, 640 260 Z" fill="#7f8c8d"/>
+  <path d="M630 265 L 625 245 L 635 245 Z" fill="#2e7d32"/>
+  <path d="M655 250 C 655 285, 685 285, 685 250 Z" fill="#ff8a65"/>
+  <path d="M670 255 L 670 220 M665 235 L 675 235" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  <path d="M590 395 C 590 415, 610 415, 610 395 Z" fill="#ffffff"/>
+  <path d="M600 400 C 595 380, 605 380, 600 400" fill="#558b2f"/>
+
+  <!-- Big floor plants -->
+  <!-- Neon Pothos -->
+  <path d="M190 470 C 190 530, 310 530, 310 470" fill="#1c1c1c" opacity="0.8"/>
+  <g fill="#9acd32">
+    <ellipse cx="250" cy="460" rx="60" ry="30"/>
+    <ellipse cx="220" cy="470" rx="50" ry="25"/>
+    <ellipse cx="280" cy="470" rx="55" ry="28"/>
+    <ellipse cx="250" cy="480" rx="65" ry="35"/>
+  </g>
+  <!-- Philodendron -->
+  <path d="M540 470 C 540 560, 660 560, 660 470 Z" fill="#f0f0f0"/>
+  <g fill="#3b6e47">
+    <path d="M600 475 L 560 400 L 580 440 L 550 380 L 600 475 L 640 400 L 620 440 L 650 380 L 600 475"/>
+    <path d="M580 475 L 540 420 L 560 450 L 530 410 L 580 475 L 620 420 L 600 450 L 630 410 L 580 475"/>
+  </g>
+
+  <!-- Tulips on bench -->
+  <path d="M690 470 C 690 495, 740 495, 740 470 Z" fill="#e0e0e0"/>
+  <g stroke="#3a5a40" stroke-width="3">
+    <line x1="705" y1="475" x2="700" y2="430"/>
+    <line x1="715" y1="475" x2="715" y2="420"/>
+    <line x1="725" y1="475" x2="730" y2="430"/>
+  </g>
+  <g fill="#e53935">
+    <path d="M700 430 C 695 420, 705 420, 700 430 Z"/>
+    <path d="M715 420 C 710 410, 720 410, 715 420 Z"/>
+    <path d="M730 430 C 725 420, 735 420, 730 430 Z"/>
+  </g>
+
+  <!-- Plant hanging in window -->
+  <path d="M720 180 C 720 220, 780 220, 780 180 Z" fill="#f0f0f0"/>
+  <path d="M750 185 C 730 160, 770 160, 750 185 C 740 195, 760 195, 750 185" fill="#a2bca4"/>
+  <path d="M750 50 C 700 130, 800 130, 750 50" fill="none" stroke="#d4a373" stroke-width="8"/>
+
+  <!-- Left vining plant -->
+  <g fill="#2d6a4f">
+    <path d="M20 50 C 50 150, 20 250, 40 350 Q 60 400 100 450"/>
+    <path d="M40 50 C 80 180, 40 280, 70 400"/>
+    <ellipse cx="60" cy="100" rx="15" ry="10"/>
+    <ellipse cx="40" cy="150" rx="15" ry="10"/>
+    <ellipse cx="70" cy="200" rx="15" ry="10"/>
+    <ellipse cx="50" cy="280" rx="15" ry="10"/>
+    <ellipse cx="80" cy="350" rx="15" ry="10"/>
+  </g>
+</svg>

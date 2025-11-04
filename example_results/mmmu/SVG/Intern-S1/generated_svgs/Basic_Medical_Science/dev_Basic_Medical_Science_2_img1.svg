@@ -1,0 +1,16 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="retinaGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF4500;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <circle cx="400" cy="400" r="400" fill="url(#retinaGradient)" />
+  <circle cx="100" cy="400" r="50" fill="#FFD700" />
+  <path d="M100,400 Q200,300 300,200" stroke="#8B0000" stroke-width="8" fill="none" />
+  <path d="M100,400 Q250,500 400,600" stroke="#8B0000" stroke-width="8" fill="none" />
+  <path d="M100,400 Q300,350 500,300" stroke="#8B0000" stroke-width="8" fill="none" />
+  <path d="M100,400 Q150,450 200,500" stroke="#8B0000" stroke-width="8" fill="none" />
+  <path d="M400,400 L450,400" stroke="yellow" stroke-width="4" fill="none" />
+  <polygon points="450,400 440,390 440,410" fill="yellow" />
+</svg>

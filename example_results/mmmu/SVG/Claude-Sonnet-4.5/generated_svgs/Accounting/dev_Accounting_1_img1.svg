@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer border -->
+  <rect x="10" y="10" width="1180" height="300" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Header row -->
+  <text x="150" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Company A</text>
+  <text x="450" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Company B</text>
+  <text x="750" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Company C</text>
+  <text x="1050" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Company D</text>
+  
+  <!-- Row 1: Revenues -->
+  <text x="30" y="85" font-family="Arial, sans-serif" font-size="18" font-weight="bold">1</text>
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="18">Revenues</text>
+  <text x="150" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0066cc">?</text>
+  <text x="450" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">$1,480,500</text>
+  <text x="750" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">$103,950</text>
+  <text x="1050" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">$1,054,116</text>
+  
+  <!-- Row 2: Expenses -->
+  <text x="30" y="125" font-family="Arial, sans-serif" font-size="18" font-weight="bold">2</text>
+  <text x="80" y="125" font-family="Arial, sans-serif" font-size="18">Expenses</text>
+  <text x="150" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">$455,490</text>
+  <text x="450" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">1,518,300</text>
+  <text x="750" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">78,120</text>
+  <text x="1050" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0066cc">?</text>
+  
+  <!-- Row 3: Gains -->
+  <text x="30" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="bold">3</text>
+  <text x="80" y="165" font-family="Arial, sans-serif" font-size="18">Gains</text>
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">0</text>
+  <text x="450" y="165" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0066cc">?</text>
+  <text x="750" y="165" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">4,725</text>
+  <text x="1050" y="165" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">8,505</text>
+  
+  <!-- Row 4: Losses -->
+  <text x="30" y="205" font-family="Arial, sans-serif" font-size="18" font-weight="bold">4</text>
+  <text x="80" y="205" font-family="Arial, sans-serif" font-size="18">Losses</text>
+  <text x="150" y="205" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">32,760</text>
+  <line x1="125" y1="210" x2="175" y2="210" stroke="black" stroke-width="1"/>
+  <text x="450" y="205" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">0</text>
+  <line x1="425" y1="210" x2="475" y2="210" stroke="black" stroke-width="1"/>
+  <text x="750" y="205" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">5,670</text>
+  <line x1="725" y1="210" x2="775" y2="210" stroke="black" stroke-width="1"/>
+  <text x="1050" y="205" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">39,312</text>
+  <line x1="1025" y1="210" x2="1075" y2="210" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 5: Net Income or (Loss) -->
+  <text x="30" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold">5</text>
+  <text x="80" y="250" font-family="Arial, sans-serif" font-size="18">Net Income or (Loss)</text>
+  <text x="150" y="250" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">32,130</text>
+  <line x1="125" y1="255" x2="175" y2="255" stroke="black" stroke-width="2"/>
+  <line x1="125" y1="258" x2="175" y2="258" stroke="black" stroke-width="2"/>
+  <text x="450" y="250" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">39,690</text>
+  <line x1="425" y1="255" x2="475" y2="255" stroke="black" stroke-width="2"/>
+  <line x1="425" y1="258" x2="475" y2="258" stroke="black" stroke-width="2"/>
+  <text x="750" y="250" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0066cc">?</text>
+  <line x1="725" y1="255" x2="775" y2="255" stroke="black" stroke-width="2"/>
+  <line x1="725" y1="258" x2="775" y2="258" stroke="black" stroke-width="2"/>
+  <text x="1050" y="250" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">(58,275)</text>
+  <line x1="1025" y1="255" x2="1075" y2="255" stroke="black" stroke-width="2"/>
+  <line x1="1025" y1="258" x2="1075" y2="258" stroke="black" stroke-width="2"/>
+</svg>

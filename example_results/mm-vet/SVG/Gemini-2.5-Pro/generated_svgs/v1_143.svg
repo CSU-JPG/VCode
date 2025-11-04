@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad_steel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0B0B0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#CECABE" />
+  <rect x="0" y="0" width="1280" height="180" fill="#D3D0C3" />
+  <rect x="500" y="100" width="150" height="50" fill="#4A4A4A" />
+  <rect x="510" y="110" width="130" height="5" fill="#222" />
+  <rect x="510" y="125" width="130" height="5" fill="#222" />
+  <rect x="510" y="140" width="130" height="5" fill="#222" />
+  <rect x="800" y="100" width="150" height="50" fill="#4A4A4A" />
+  <rect x="810" y="110" width="130" height="5" fill="#222" />
+  <rect x="810" y="125" width="130" height="5" fill="#222" />
+  <rect x="810" y="140" width="130" height="5" fill="#222" />
+  <rect x="680" y="190" width="300" height="280" fill="#BDBDBD" />
+  <rect x="980" y="190" width="220" height="400" fill="#3E4C5C" />
+  <rect x="985" y="195" width="210" height="40" fill="#003366" />
+  <text x="1005" y="225" fill="white" font-size="20" font-family="Arial, sans-serif" font-weight="bold">Frozen Food</text>
+  <rect x="985" y="240" width="210" height="345" fill="#1C2833" fill-opacity="0.7" />
+
+  <!-- Main Display Case -->
+  <path d="M 150 170 L 150 700 L 800 700 L 800 280 L 750 170 Z" fill="url(#grad_steel)" stroke="#444" stroke-width="4" />
+  <path d="M 160 270 L 785 360 L 785 690 L 160 690 Z" fill="#000" fill-opacity="0.2" />
+  
+  <!-- Pastries -->
+  <rect x="170" y="470" width="605" height="10" fill="#F5DEB3" fill-opacity="0.4" />
+  <path d="M 170 480 H 775" stroke="#A9A9A9" stroke-width="15" />
+  <rect x="170" y="380" width="580" height="10" fill="#F5DEB3" fill-opacity="0.4" />
+  <path d="M 170 390 H 750" stroke="#A9A9A9" stroke-width="15" />
+  <rect x="170" y="560" width="620" height="10" fill="#F5DEB3" fill-opacity="0.4" />
+  <path d="M 170 570 H 790" stroke="#A9A9A9" stroke-width="15" />
+  <rect x="170" y="650" width="620" height="10" fill="#F5DEB3" fill-opacity="0.4" />
+  <path d="M 170 660 H 790" stroke="#A9A9A9" stroke-width="15" />
+  
+  <!-- Pastry blobs -->
+  <g fill="#EADAC7" stroke="#D2B48C" stroke-width="1">
+    <ellipse cx="200" cy="450" rx="30" ry="20"/><ellipse cx="260" cy="455" rx="30" ry="20"/><ellipse cx="320" cy="450" rx="30" ry="20"/><ellipse cx="380" cy="455" rx="30" ry="20"/><ellipse cx="440" cy="450" rx="30" ry="20"/><ellipse cx="500" cy="455" rx="30" ry="20"/><ellipse cx="560" cy="450" rx="30" ry="20"/><ellipse cx="620" cy="455" rx="30" ry="20"/><ellipse cx="680" cy="450" rx="30" ry="20"/><ellipse cx="740" cy="455" rx="30" ry="20"/>
+  </g>
+  <g fill="#C4A484" stroke="#8B4513" stroke-width="1">
+    <rect x="180" y="520" width="60" height="25" rx="5"/><rect x="250" y="520" width="60" height="25" rx="5"/><rect x="320" y="520" width="60" height="25" rx="5"/><rect x="390" y="520" width="60" height="25" rx="5"/><rect x="460" y="520" width="60" height="25" rx="5"/><rect x="530" y="520" width="60" height="25" rx="5"/><rect x="600" y="520" width="60" height="25" rx="5"/>
+  </g>
+  <g fill="#F5F5DC" stroke="#DCDCDC" stroke-width="1">
+    <ellipse cx="210" cy="610" rx="40" ry="25"/><ellipse cx="290" cy="610" rx="40" ry="25"/><ellipse cx="370" cy="610" rx="40" ry="25"/><ellipse cx="450" cy="610" rx="40" ry="25"/><ellipse cx="530" cy="610" rx="40" ry="25"/><ellipse cx="610" cy="610" rx="40" ry="25"/>
+  </g>
+   <g fill="#6B4F3A" stroke="#3E2723" stroke-width="1">
+    <rect x="190" y="680" width="50" height="30" rx="5"/><rect x="250" y="680" width="50" height="30" rx="5"/><rect x="310" y="680" width="50" height="30" rx="5"/><rect x="370" y="680" width="50" height="30" rx="5"/><rect x="430" y="680" width="50" height="30" rx="5"/>
+  </g>
+
+  <!-- Glass reflection -->
+  <path d="M 160 270 L 785 360 L 785 690 L 160 690 Z" fill="#B0E0E6" fill-opacity="0.1" />
+  <path d="M 180 290 L 250 680 L 190 680 L 160 290 Z" fill="#FFF" fill-opacity="0.15" />
+
+  <!-- Woman on the left -->
+  <g>
+    <path d="M 280 180 C 260 220, 240 300, 260 400 L 290 400 C 310 320, 310 250, 300 180 Z" fill="#3D2B1F" /> <!-- Hair -->
+    <path d="M 270 320 C 230 450, 220 600, 230 720 H 100 C 110 600, 130 450, 220 320 Z" fill="#BCC3D2" /> <!-- Dress -->
+    <path d="M 250 320 L 230 320 C 180 330, 170 380, 190 420 L 210 410 C 200 380, 220 340, 250 320 Z" fill="#E4B59E" /> <!-- Arm -->
+    <path d="M 190 320 C 150 380, 160 550, 280 580 C 340 540, 350 400, 300 320 C 290 330, 280 330, 270 320 Z" fill="#222" /> <!-- Bag -->
+    <path d="M 240 330 C 230 360, 250 370, 260 360 C 280 370, 300 360, 290 330 Z" fill="#333" />
+    <ellipse cx="290" cy="335" rx="10" ry="10" fill="#C0C0C0" />
+  </g>
+  
+  <!-- Couple on the right -->
+  <!-- Anna Faris -->
+  <g>
+    <path d="M 850 690 L 860 550 L 920 550 L 930 690 Z" fill="#4682B4" /> <!-- Shorts -->
+    <path d="M 850 690 L 855 710 L 880 710 L 875 690 Z" fill="#D2B48C" /> <!-- Left Leg -->
+    <path d="M 900 690 L 905 710 L 930 710 L 925 690 Z" fill="#D2B48C" /> <!-- Right Leg -->
+    <path d="M 850 550 L 840 430 L 940 430 L 930 550 Z" fill="#FFFFFF" /> <!-- Tank top -->
+    <path d="M 835 420 L 830 570 L 860 570 L 860 440 L 920 440 L 920 570 L 950 570 L 945 420 Z" fill="#D94E4E" /> <!-- Red jacket -->
+    <path d="M 870 350 C 850 380, 840 430, 880 430 C 920 430, 930 380, 910 350 Z" fill="#F5DEB3" /> <!-- Hair -->
+    <ellipse cx="890" cy="400" rx="30" ry="40" fill="#FADBC5" /> <!-- Face -->
+    <path d="M 870 470 C 840 490, 840 520, 875 510 L 895 530 L 900 480 Z" fill="#FADBC5" /> <!-- Right arm -->
+    <rect x="880" y="510" width="50" height="30" fill="#F5F5DC" stroke="#000" stroke-width="1" /> <!-- Map -->
+  </g>
+  
+  <!-- Chris Evans -->
+  <g>
+    <path d="M 780 690 L 780 500 L 860 500 L 860 690 Z" fill="#6B7468" /> <!-- Shorts -->
+    <rect x="785" y="550" width="30" height="60" fill="#5A6357" />
+    <path d="M 790 310 C 760 350, 750 450, 780 500 L 880 500 C 890 450, 880 350, 850 310 Z" fill="#4A4A4A" /> <!-- T-shirt -->
+    <ellipse cx="820" cy="330" rx="40" ry="50" fill="#E4C5AF" /> <!-- Head -->
+    <path d="M 800 300 C 790 320, 810 330, 840 320 L 850 300 Z" fill="#3D2B1F" /> <!-- Hair -->
+    <path d="M 760 380 C 740 400, 750 450, 790 440 L 800 460 L 810 390 Z" fill="#E4C5AF" /> <!-- Left arm -->
+    <path d="M 810 430 C 820 440, 840 440, 840 420 L 820 420" fill="#F5DEB3" /> <!-- Sandwich bread -->
+    <rect x="815" y="423" width="20" height="8" fill="#556B2F" /> <!-- Sandwich filling -->
+    <ellipse cx="815" cy="340" ry="5" rx="2" fill="#000"/> <!-- Eye -->
+    <ellipse cx="828" cy="340" ry="5" rx="2" fill="#000"/> <!-- Eye -->
+    <path d="M 818 360 Q 822 365 826 360" stroke="#000" stroke-width="2" fill="none"/> <!-- Mouth -->
+  </g>
+
+  <!-- Floor -->
+  <rect x="0" y="700" width="1280" height="20" fill="#8B8378" />
+
+</svg>

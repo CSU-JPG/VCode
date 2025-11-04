@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#66bb6a"/>
+  <circle cx="200" cy="200" r="50" fill="#ff7700" stroke="#ff9933" stroke-width="4"/>
+  <g transform="translate(500 500)">
+    <rect x="-200" y="-200" width="400" height="400" fill="none"/>
+    <path d="M-100 0 Q0 -100 100 0" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+  <polygon points="160,780 240,750 300,700 400,650 500,600 600,550 700,500 800,450 900,400 950,350 980,300 990,250 995,200 998,150 999,100 1000,50 1000,0 999,-50 998,-100 995,-150 990,-200 980,-250 950,-300 900,-350 800,-400 700,-450 600,-500 500,-550 400,-600 300,-650 240,-700 160,-750 100,-800 50,-850 20,-900 5,-950 0,-1000 -5,-950 -20,-900 -50,-850 -100,-800 -160,-750 -240,-700 -300,-650 -400,-600 -500,-550 -600,-500 -700,-450 -800,-400 -900,-350 -950,-300 -980,-250 -990,-200 -995,-150 -998,-100 -999,-50 -1000,0 -999,50 -998,100 -995,150 -990,200 -980,250 -950,300 -900,350 -800,400 -700,450 -600,500 -500,550 -400,600 -300,650 -240,700 -160,750 -100,800 -50,850 -20,900 -5,950 0,1000 5,950 20,900 50,850 100,800 160,750" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="150" y="750" width="100" height="50" fill="#ff4444"/>
+  <rect x="400" y="600" width="200" height="100" fill="#0044aa"/>
+  <rect x="500" y="500" width="300" height="200" fill="#ff4444"/>
+  <rect x="700" y="500" width="100" height="100" fill="#ffffff"/>
+  <rect x="700" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="500" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="450" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="400" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="350" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="300" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="250" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="200" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="150" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="100" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="50" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="0" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-50" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-100" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-150" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-200" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-250" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-300" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-350" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-400" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-450" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-500" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-550" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-600" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-650" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-700" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-750" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-800" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-850" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-900" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-950" y="550" width="50" height="50" fill="#000000"/>
+  <rect x="-1000" y="550" width="50" height="50" fill="#000000"/>
+</svg>

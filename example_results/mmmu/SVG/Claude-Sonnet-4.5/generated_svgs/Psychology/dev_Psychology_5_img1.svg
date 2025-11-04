@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1100 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer border -->
+  <rect x="20" y="20" width="1060" height="360" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Header row border -->
+  <line x1="20" y1="90" x2="1080" y2="90" stroke="black" stroke-width="3"/>
+  
+  <!-- Column borders -->
+  <line x1="250" y1="20" x2="250" y2="380" stroke="black" stroke-width="2"/>
+  <line x1="420" y1="90" x2="420" y2="380" stroke="black" stroke-width="2"/>
+  <line x1="600" y1="90" x2="600" y2="380" stroke="black" stroke-width="2"/>
+  <line x1="770" y1="90" x2="770" y2="380" stroke="black" stroke-width="2"/>
+  <line x1="940" y1="90" x2="940" y2="380" stroke="black" stroke-width="2"/>
+  
+  <!-- Row borders -->
+  <line x1="20" y1="235" x2="1080" y2="235" stroke="black" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="540" y="65" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle">Photo</text>
+  
+  <!-- Column headers -->
+  <text x="335" y="130" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">"Mugger"</text>
+  <text x="510" y="120" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">"Custodial</text>
+  <text x="510" y="150" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">Worker"</text>
+  <text x="685" y="120" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">Neutral</text>
+  <text x="685" y="150" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">Photo #1</text>
+  <text x="855" y="120" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">Neutral</text>
+  <text x="855" y="150" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">Photo #2</text>
+  <text x="1010" y="120" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">Neutral</text>
+  <text x="1010" y="150" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle">Photo #3</text>
+  
+  <!-- Row headers -->
+  <text x="135" y="180" font-family="serif" font-size="22" text-anchor="middle">Decoy Group</text>
+  <text x="135" y="210" font-family="serif" font-size="22" text-anchor="middle">(n = 75)</text>
+  <text x="135" y="295" font-family="serif" font-size="22" text-anchor="middle">Control Group</text>
+  <text x="135" y="325" font-family="serif" font-size="22" text-anchor="middle">(n = 75)</text>
+  
+  <!-- Data - Decoy Group -->
+  <text x="335" y="200" font-family="serif" font-size="26" text-anchor="middle">18</text>
+  <text x="510" y="200" font-family="serif" font-size="26" text-anchor="middle">37</text>
+  <text x="685" y="200" font-family="serif" font-size="26" text-anchor="middle">7</text>
+  <text x="855" y="200" font-family="serif" font-size="26" text-anchor="middle">5</text>
+  <text x="1010" y="200" font-family="serif" font-size="26" text-anchor="middle">8</text>
+  
+  <!-- Data - Control Group -->
+  <text x="335" y="315" font-family="serif" font-size="26" text-anchor="middle">23</text>
+  <text x="510" y="315" font-family="serif" font-size="26" text-anchor="middle">13</text>
+  <text x="685" y="315" font-family="serif" font-size="26" text-anchor="middle">12</text>
+  <text x="855" y="315" font-family="serif" font-size="26" text-anchor="middle">14</text>
+  <text x="1010" y="315" font-family="serif" font-size="26" text-anchor="middle">13</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1150 1150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid lines -->
+  <g stroke="#ccc" stroke-width="1">
+    <!-- Vertical grid lines -->
+    <line x1="0" y1="0" x2="0" y2="1100"/>
+    <line x1="100" y1="0" x2="100" y2="1100"/>
+    <line x1="200" y1="0" x2="200" y2="1100"/>
+    <line x1="300" y1="0" x2="300" y2="1100"/>
+    <line x1="400" y1="0" x2="400" y2="1100"/>
+    <line x1="500" y1="0" x2="500" y2="1100"/>
+    <line x1="600" y1="0" x2="600" y2="1100"/>
+    <line x1="700" y1="0" x2="700" y2="1100"/>
+    <line x1="800" y1="0" x2="800" y2="1100"/>
+    <line x1="900" y1="0" x2="900" y2="1100"/>
+    <line x1="1000" y1="0" x2="1000" y2="1100"/>
+    <line x1="1100" y1="0" x2="1100" y2="1100"/>
+    <!-- Horizontal grid lines -->
+    <line x1="0" y1="0" x2="1100" y2="0"/>
+    <line x1="0" y1="100" x2="1100" y2="100"/>
+    <line x1="0" y1="200" x2="1100" y2="200"/>
+    <line x1="0" y1="300" x2="1100" y2="300"/>
+    <line x1="0" y1="400" x2="1100" y2="400"/>
+    <line x1="0" y1="500" x2="1100" y2="500"/>
+    <line x1="0" y1="600" x2="1100" y2="600"/>
+    <line x1="0" y1="700" x2="1100" y2="700"/>
+    <line x1="0" y1="800" x2="1100" y2="800"/>
+    <line x1="0" y1="900" x2="1100" y2="900"/>
+    <line x1="0" y1="1000" x2="1100" y2="1000"/>
+    <line x1="0" y1="1100" x2="1100" y2="1100"/>
+  </g>
+  <!-- Axes -->
+  <g stroke="black" stroke-width="2">
+    <!-- X-axis -->
+    <line x1="0" y1="0" x2="1100" y2="0"/>
+    <!-- Y-axis -->
+    <line x1="0" y1="0" x2="0" y2="1100"/>
+  </g>
+  <!-- LRAS line -->
+  <line x1="500" y1="0" x2="500" y2="1100" stroke="black" stroke-width="3"/>
+  <!-- SRAS line -->
+  <line x1="0" y1="200" x2="1100" y2="1100" stroke="red" stroke-width="2"/>
+  <!-- AD line -->
+  <line x1="0" y1="1000" x2="1000" y2="0" stroke="blue" stroke-width="2"/>
+  <!-- Labels -->
+  <text x="-550" y="550" transform="rotate(-90 -550 550)" fill="black" font-size="14">Price Level</text>
+  <text x="550" y="1120" fill="black" font-size="14" text-anchor="middle">Real GDP</text>
+  <text x="500" y="-20" fill="black" font-size="14" text-anchor="middle">LRAS</text>
+  <text x="50" y="1000" fill="blue" font-size="14">AD</text>
+  <text x="1050" y="1050" fill="red" font-size="14" text-anchor="middle">SRAS</text>
+</svg>

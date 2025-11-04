@@ -1,0 +1,150 @@
+<svg viewBox="0 0 750 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfe4ea"/>
+      <stop offset="100%" stop-color="#bac3cc"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c99a63"/>
+      <stop offset="100%" stop-color="#a3703e"/>
+    </linearGradient>
+    <linearGradient id="postGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e2421"/>
+      <stop offset="100%" stop-color="#4b3b36"/>
+    </linearGradient>
+    <linearGradient id="blueHead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#50679e"/>
+      <stop offset="100%" stop-color="#2d3e74"/>
+    </linearGradient>
+
+    <!-- quilt pattern -->
+    <pattern id="quilt" patternUnits="userSpaceOnUse" width="60" height="60">
+      <rect width="60" height="60" fill="#eaeaea"/>
+      <g fill="none" stroke="#1f1f1f" stroke-width="1.2" opacity="0.65">
+        <circle cx="30" cy="30" r="16"/>
+        <circle cx="30" cy="30" r="10"/>
+        <g fill="#1f1f1f" stroke="none">
+          <circle cx="30" cy="12" r="3"/>
+          <circle cx="30" cy="48" r="3"/>
+          <circle cx="12" cy="30" r="3"/>
+          <circle cx="48" cy="30" r="3"/>
+          <circle cx="18" cy="18" r="2.6"/>
+          <circle cx="42" cy="18" r="2.6"/>
+          <circle cx="18" cy="42" r="2.6"/>
+          <circle cx="42" cy="42" r="2.6"/>
+        </g>
+      </g>
+    </pattern>
+
+    <!-- simple wood texture lines -->
+    <pattern id="woodLines" patternUnits="userSpaceOnUse" width="80" height="20">
+      <rect width="80" height="20" fill="url(#floorGrad)"/>
+      <path d="M0,7 C15,2 25,2 40,7 S65,12 80,7" fill="none" stroke="#895e36" stroke-width="1" opacity="0.6"/>
+      <path d="M0,16 C18,11 35,11 50,16 S70,21 80,16" fill="none" stroke="#7a4f2d" stroke-width="0.8" opacity="0.5"/>
+    </pattern>
+
+    <!-- simple shadow -->
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- wall and floor -->
+  <rect x="0" y="0" width="750" height="360" fill="url(#wallGrad)"/>
+  <rect x="0" y="360" width="750" height="190" fill="url(#woodLines)"/>
+
+  <!-- ceiling beams suggestion -->
+  <polygon points="465,0 520,0 750,140 700,140" fill="#2d2d2d" opacity="0.35"/>
+  <polygon points="60,0 100,0 300,120 260,120" fill="#2d2d2d" opacity="0.3"/>
+
+  <!-- left dresser -->
+  <g transform="translate(20,210)">
+    <rect x="0" y="0" width="120" height="160" rx="6" fill="#4a3327"/>
+    <rect x="6" y="10" width="108" height="45" fill="#3e2a20"/>
+    <rect x="6" y="60" width="108" height="45" fill="#3e2a20"/>
+    <rect x="6" y="110" width="108" height="45" fill="#3e2a20"/>
+    <rect x="52" y="24" width="16" height="16" fill="#cfcfcf" rx="2"/>
+  </g>
+
+  <!-- bed back posts -->
+  <g>
+    <g transform="translate(105,120)">
+      <rect x="0" y="0" width="26" height="210" rx="8" fill="url(#postGrad)"/>
+      <circle cx="13" cy="0" r="13" fill="#221a17"/>
+    </g>
+    <g transform="translate(430,116)">
+      <rect x="0" y="0" width="26" height="215" rx="8" fill="url(#postGrad)"/>
+      <circle cx="13" cy="0" r="13" fill="#221a17"/>
+    </g>
+  </g>
+
+  <!-- headboard -->
+  <path d="M120,260 Q270,165 420,260 L420,290 L120,290 Z" fill="url(#blueHead)" stroke="#223056" stroke-width="3"/>
+
+  <!-- wall art -->
+  <g opacity="0.8">
+    <rect x="470" y="165" width="55" height="90" fill="#bfb7a3" stroke="#2d2d2d" stroke-width="3"/>
+    <rect x="535" y="175" width="45" height="70" fill="#c8b58e" stroke="#2d2d2d" stroke-width="3"/>
+    <rect x="505" y="175" width="18" height="55" fill="#d2d2d2" stroke="#444" stroke-width="2"/>
+    <rect x="350" y="170" width="32" height="60" fill="#e6e6e6" stroke="#333" stroke-width="2"/>
+  </g>
+
+  <!-- mattress with quilt -->
+  <g transform="translate(120,290)">
+    <path d="M0,0 L420,0 L420,90 Q270,120 50,70 L0,60 Z" fill="url(#quilt)" stroke="#bdbdbd" stroke-width="2"/>
+  </g>
+
+  <!-- pillows -->
+  <g transform="translate(140,235)">
+    <path d="M0,40 Q20,10 80,20 Q140,30 160,15 Q150,50 120,65 Q80,80 30,70 Q-5,62 0,40 Z" fill="#e7e2cf" stroke="#bfb79b" stroke-width="2"/>
+    <path d="M150,30 Q168,18 175,32 Q182,46 165,62 Q148,78 135,64 Q122,50 150,30 Z" fill="#d8d1bb" stroke="#b4a98f" stroke-width="1.5"/>
+  </g>
+
+  <!-- front posts -->
+  <g>
+    <g transform="translate(305,290)">
+      <rect x="0" y="0" width="30" height="230" rx="10" fill="url(#postGrad)"/>
+      <circle cx="15" cy="0" r="15" fill="#221a17"/>
+    </g>
+    <g transform="translate(475,290)">
+      <rect x="0" y="0" width="30" height="230" rx="10" fill="url(#postGrad)"/>
+      <circle cx="15" cy="0" r="15" fill="#221a17"/>
+    </g>
+  </g>
+
+  <!-- right nightstand -->
+  <g transform="translate(520,360)">
+    <rect x="0" y="0" width="150" height="140" rx="6" fill="#4a3327"/>
+    <rect x="8" y="15" width="134" height="45" fill="#3e2a20"/>
+    <rect x="8" y="70" width="134" height="55" fill="#3e2a20"/>
+    <rect x="60" y="83" width="30" height="10" rx="2" fill="#cfcfcf"/>
+  </g>
+
+  <!-- right chair -->
+  <g transform="translate(610,310)">
+    <rect x="0" y="20" width="120" height="80" rx="8" fill="#1e252c"/>
+    <rect x="10" y="0" width="100" height="50" rx="8" fill="#1a2026"/>
+    <rect x="8" y="45" width="15" height="45" fill="#0f1419"/>
+    <rect x="97" y="45" width="15" height="45" fill="#0f1419"/>
+    <rect x="30" y="12" width="22" height="26" fill="#dcdcdc"/>
+    <rect x="68" y="12" width="22" height="26" fill="#dcdcdc"/>
+    <rect x="48" y="95" width="8" height="20" fill="#13171c"/>
+    <rect x="64" y="95" width="8" height="20" fill="#13171c"/>
+  </g>
+
+  <!-- small side table near chair -->
+  <g transform="translate(620,420)">
+    <rect x="0" y="0" width="120" height="50" fill="#3e2a20"/>
+    <rect x="15" y="50" width="12" height="15" fill="#3e2a20"/>
+  </g>
+
+  <!-- shadow under bed -->
+  <ellipse cx="340" cy="425" rx="220" ry="30" fill="#000" opacity="0.15" filter="url(#soft)"/>
+
+  <!-- annotation rectangles -->
+  <rect x="135" y="200" width="170" height="95" fill="none" stroke="#e11616" stroke-width="6"/>
+  <rect x="600" y="300" width="150" height="140" fill="none" stroke="#e11616" stroke-width="6"/>
+
+  <!-- subtle edges -->
+  <rect x="0.5" y="0.5" width="749" height="549" fill="none" stroke="#000" stroke-opacity="0.12"/>
+</svg>

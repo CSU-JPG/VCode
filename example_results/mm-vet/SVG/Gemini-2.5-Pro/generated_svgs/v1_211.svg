@@ -1,0 +1,114 @@
+<svg viewBox="0 0 950 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 28px; font-weight: bold; text-anchor: middle; fill: #333; }
+      .axis-label { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; text-anchor: middle; fill: #333; }
+      .category-label { font-family: Arial, sans-serif; font-size: 18px; text-anchor: end; fill: #333; }
+      .tick-label { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; fill: #333; }
+      .legend-label { font-family: Arial, sans-serif; font-size: 17px; text-anchor: start; fill: #333; }
+      .grid-line { stroke: #cccccc; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Titles -->
+  <text x="475" y="40" class="title">Amount spent on consumer goods</text>
+  <text x="475" y="680" class="axis-label">Spending in Thousand Pound Sterling</text>
+
+  <!-- Chart Area -->
+  <g transform="translate(220, 80)">
+    <!-- Data values mapping: x = (value - 130) * (700 / 45) -->
+    <!-- Scale factor: 15.555... -->
+
+    <!-- Category: Photographic film -->
+    <g transform="translate(0, 15)">
+      <text x="-20" y="44" class="category-label">Photographic film</text>
+      <rect x="0" y="0" width="637.5" height="18" fill="#FFC000"/>   <!-- Britain: 171 -->
+      <rect x="0" y="22" width="559.8" height="18" fill="#5A5A5A"/>   <!-- France: 166 -->
+      <rect x="0" y="44" width="419.8" height="18" fill="#ED7D31"/>   <!-- Italy: 157 -->
+      <rect x="0" y="66" width="388.9" height="18" fill="#4472C4"/>   <!-- Germany: 155 -->
+    </g>
+
+    <!-- Category: Toys -->
+    <g transform="translate(0, 115)">
+      <text x="-20" y="44" class="category-label">Toys</text>
+      <rect x="0" y="0" width="575.3" height="18" fill="#FFC000"/>   <!-- Britain: 167 -->
+      <rect x="0" y="22" width="435.4" height="18" fill="#5A5A5A"/>   <!-- France: 158 -->
+      <rect x="0" y="44" width="450.9" height="18" fill="#ED7D31"/>   <!-- Italy: 159 -->
+      <rect x="0" y="66" width="217.8" height="18" fill="#4472C4"/>   <!-- Germany: 144 -->
+    </g>
+
+    <!-- Category: CDs -->
+    <g transform="translate(0, 215)">
+      <text x="-20" y="44" class="category-label">CDs</text>
+      <rect x="0" y="0" width="559.8" height="18" fill="#FFC000"/>   <!-- Britain: 166 -->
+      <rect x="0" y="22" width="466.7" height="18" fill="#5A5A5A"/>   <!-- France: 160 -->
+      <rect x="0" y="44" width="311.1" height="18" fill="#ED7D31"/>   <!-- Italy: 150 -->
+      <rect x="0" y="66" width="233.3" height="18" fill="#4472C4"/>   <!-- Germany: 145 -->
+    </g>
+
+    <!-- Category: Perfumes -->
+    <g transform="translate(0, 315)">
+      <text x="-20" y="44" class="category-label">Perfumes</text>
+      <rect x="0" y="0" width="482.2" height="18" fill="#FFC000"/>   <!-- Britain: 161 -->
+      <rect x="0" y="22" width="279.9" height="18" fill="#5A5A5A"/>   <!-- France: 148 -->
+      <rect x="0" y="44" width="404.4" height="18" fill="#ED7D31"/>   <!-- Italy: 156 -->
+      <rect x="0" y="66" width="326.7" height="18" fill="#4472C4"/>   <!-- Germany: 151 -->
+    </g>
+
+    <!-- Category: Tennis racquets -->
+    <g transform="translate(0, 415)">
+      <text x="-20" y="44" class="category-label">Tennis racquets</text>
+      <rect x="0" y="0" width="404.4" height="18" fill="#FFC000"/>   <!-- Britain: 156 -->
+      <rect x="0" y="22" width="233.3" height="18" fill="#5A5A5A"/>   <!-- France: 145 -->
+      <rect x="0" y="44" width="419.8" height="18" fill="#ED7D31"/>   <!-- Italy: 157 -->
+      <rect x="0" y="66" width="311.1" height="18" fill="#4472C4"/>   <!-- Germany: 150 -->
+    </g>
+
+    <!-- Category: Personal stereos -->
+    <g transform="translate(0, 515)">
+      <text x="-20" y="44" class="category-label">Personal stereos</text>
+      <rect x="0" y="0" width="404.4" height="18" fill="#FFC000"/>   <!-- Britain: 156 -->
+      <rect x="0" y="22" width="264.4" height="18" fill="#5A5A5A"/>   <!-- France: 147 -->
+      <rect x="0" y="44" width="326.7" height="18" fill="#ED7D31"/>   <!-- Italy: 151 -->
+      <rect x="0" y="66" width="248.9" height="18" fill="#4472C4"/>   <!-- Germany: 146 -->
+    </g>
+  </g>
+
+  <!-- Axes and Gridlines -->
+  <g class="grid-line">
+    <line x1="220" y1="75" x2="220" y2="605"/>
+    <line x1="297.78" y1="75" x2="297.78" y2="605"/>
+    <line x1="375.56" y1="75" x2="375.56" y2="605"/>
+    <line x1="453.33" y1="75" x2="453.33" y2="605"/>
+    <line x1="531.11" y1="75" x2="531.11" y2="605"/>
+    <line x1="608.89" y1="75" x2="608.89" y2="605"/>
+    <line x1="686.67" y1="75" x2="686.67" y2="605"/>
+    <line x1="764.44" y1="75" x2="764.44" y2="605"/>
+    <line x1="842.22" y1="75" x2="842.22" y2="605"/>
+    <line x1="920" y1="75" x2="920" y2="605"/>
+  </g>
+  <g class="tick-label">
+    <text x="220" y="625">130</text>
+    <text x="297.78" y="625">135</text>
+    <text x="375.56" y="625">140</text>
+    <text x="453.33" y="625">145</text>
+    <text x="531.11" y="625">150</text>
+    <text x="608.89" y="625">155</text>
+    <text x="686.67" y="625">160</text>
+    <text x="764.44" y="625">165</text>
+    <text x="842.22" y="625">170</text>
+    <text x="920" y="625">175</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(280, 620)" class="legend-label">
+    <rect x="0" y="0" width="18" height="18" fill="#FFC000"/>
+    <text x="25" y="15">Britain</text>
+    <rect x="100" y="0" width="18" height="18" fill="#5A5A5A"/>
+    <text x="125" y="15">France</text>
+    <rect x="215" y="0" width="18" height="18" fill="#ED7D31"/>
+    <text x="240" y="15">Italy</text>
+    <rect x="300" y="0" width="18" height="18" fill="#4472C4"/>
+    <text x="325" y="15">Germany</text>
+  </g>
+</svg>

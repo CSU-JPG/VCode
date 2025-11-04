@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="branchGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B7355"/>
+      <stop offset="50%" stop-color="#A68A64"/>
+      <stop offset="100%" stop-color="#7C6B5A"/>
+    </linearGradient>
+    <linearGradient id="fruitGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B2E1F"/>
+      <stop offset="50%" stop-color="#A53D2E"/>
+      <stop offset="100%" stop-color="#6D2217"/>
+    </linearGradient>
+    <radialGradient id="mossGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFF00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0.3"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#C9D6E6"/>
+  <path d="M250 0 Q600 50 800 200 Q900 300 950 400 Q1000 500 950 600 Q900 700 800 800 Q600 950 250 1000" fill="none" stroke="url(#branchGradient)" stroke-width="80" stroke-linecap="round"/>
+  <path d="M0 780 Q300 800 700 850 Q800 860 900 900 Q950 920 1000 950" fill="none" stroke="url(#branchGradient)" stroke-width="40" stroke-linecap="round"/>
+  <path d="M0 520 Q50 530 100 550" fill="none" stroke="url(#branchGradient)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M20 0 Q150 50 200 100" fill="none" stroke="url(#branchGradient)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M800 100 Q900 150 950 200" fill="none" stroke="url(#branchGradient)" stroke-width="30" stroke-linecap="round"/>
+  <path d="M450 350 Q400 400 350 450" fill="none" stroke="url(#branchGradient)" stroke-width="15" stroke-linecap="round"/>
+  <path d="M230 410 Q300 450 350 500 Q400 550 450 600 Q500 650 450 700 Q400 750 350 800 Q300 850 250 900" fill="url(#fruitGradient)" stroke="#5D3E2F" stroke-width="5"/>
+  <path d="M700 350 Q750 400 800 450 Q850 500 900 550 Q950 600 900 650 Q850 700 800 750 Q750 800 700 850" fill="url(#mossGradient)" stroke="none"/>
+  <circle cx="800" cy="480" r="60" fill="url(#mossGradient)" stroke="none"/>
+  <circle cx="900" cy="920" r="20" fill="url(#mossGradient)" stroke="none"/>
+</svg>

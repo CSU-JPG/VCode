@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="earthGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0047ab"/>
+      <stop offset="100%" stop-color="#002f6c"/>
+    </radialGradient>
+    <radialGradient id="moonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#a0a0a0"/>
+    </radialGradient>
+  </defs>
+  
+  <circle cx="800" cy="400" r="200" fill="url(#earthGradient)"/>
+  <circle cx="100" cy="100" r="60" fill="url(#moonGradient)"/>
+  
+  <path d="M 100 400 Q 400 100 800 400 T 1100 400" stroke="cyan" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 150 500 Q 400 300 800 400 T 1050 500" stroke="green" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  
+  <text x="200" y="80" font-size="16" fill="white">Ocean Surface Topography Mission (OSTM) studies ocean dynamics, climate variability, and energy cycles.</text>
+  
+  <g>
+    <rect x="900" y="120" width="60" height="30" fill="#ffd700"/>
+    <rect x="880" y="140" width="20" height="60" fill="#ffd700"/>
+    <rect x="920" y="140" width="20" height="60" fill="#ffd700"/>
+    <text x="900" y="100" font-size="12" fill="white">OSTM/Jason 2</text>
+  </g>
+  
+  <g>
+    <rect x="760" y="180" width="50" height="25" fill="#ffd700"/>
+    <rect x="740" y="200" width="15" height="40" fill="#ffd700"/>
+    <rect x="780" y="200" width="15" height="40" fill="#ffd700"/>
+    <text x="760" y="160" font-size="12" fill="white">Jason</text>
+  </g>
+  
+  <g>
+    <rect x="630" y="220" width="40" height="20" fill="#ffd700"/>
+    <rect x="610" y="230" width="10" height="30" fill="#ffd700"/>
+    <rect x="650" y="230" width="10" height="30" fill="#ffd700"/>
+    <text x="630" y="200" font-size="12" fill="white">QuikSCAT</text>
+  </g>
+  
+  <g>
+    <rect x="490" y="300" width="40" height="20" fill="#ffd700"/>
+    <rect x="470" y="310" width="10" height="30" fill="#ffd700"/>
+    <rect x="510" y="310" width="10" height="30" fill="#ffd700"/>
+    <text x="490" y="280" font-size="12" fill="white">ACRIMSAT</text>
+  </g>
+  
+  <g>
+    <rect x="550" y="380" width="30" height="15" fill="#ffd700"/>
+    <rect x="530" y="390" width="10" height="25" fill="#ffd700"/>
+    <rect x="570" y="390" width="10" height="25" fill="#ffd700"/>
+    <text x="550" y="360" font-size="12" fill="white">SORCE</text>
+  </g>
+  
+  <g>
+    <rect x="420" y="420" width="30" height="15" fill="#ffd700"/>
+    <rect x="400" y="430" width="10" height="25" fill="#ffd700"/>
+    <rect x="440" y="430" width="10" height="25" fill="#ffd700"/>
+    <text x="420" y="400" font-size="12" fill="white">GRACE</text>
+  </g>
+  
+  <g>
+    <rect x="300" y="460" width="30" height="15" fill="#ffd700"/>
+    <rect x="280" y="470" width="10" height="25" fill="#ffd700"/>
+    <rect x="320" y="470" width="10" height="25" fill="#ffd700"/>
+    <text x="300" y="440" font-size="12" fill="white">ICESat</text>
+  </g>
+  
+  <g>
+    <rect x="200" y="500" width="30" height="15" fill="#ffd700"/>
+    <rect x="180" y="510" width="10" height="25" fill="#ffd700"/>
+    <rect x="220" y="510" width="10" height="25" fill="#ffd700"/>
+    <text x="200" y="480" font-size="12" fill="white">CALIPSO</text>
+  </g>
+  
+  <g>
+    <rect x="100" y="540" width="30" height="15" fill="#ffd700"/>
+    <rect x="80" y="550" width="10" height="25" fill="#ffd700"/>
+    <rect x="120" y="550" width="10" height="25" fill="#ffd700"/>
+    <text x="100" y="520" font-size="12" fill="white">CloudSat</text>
+  </g>
+  
+  <g>
+    <rect x="60" y="600" width="40" height="20" fill="#ffd700"/>
+    <rect x="40" y="610" width="10" height="30" fill="#ffd700"/>
+    <rect x="80" y="610" width="10" height="30" fill="#ffd700"/>
+    <text x="60" y="580" font-size="12" fill="white">Aura</text>
+  </g>
+  
+  <path d="M 150 200 Q 200 150 250 200 T 300 200" stroke="blue" stroke-width="4" fill="none"/>
+  <path d="M 100 300 Q 150 250 200 300 T 250 300" stroke="blue" stroke-width="4" fill="none"/>
+  <path d="M 180 400 Q 230 350 280 400 T 330 400" stroke="blue" stroke-width="4" fill="none"/>
+  
+  <text x="50" y="720" font-size="24" fill="red">1</text>
+  <text x="150" y="620" font-size="24" fill="red">2</text>
+  <text x="300" y="480" font-size="24" fill="red">3</text>
+</svg>

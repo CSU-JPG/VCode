@@ -1,0 +1,192 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <title>Mountain town street scene (vector approximation)</title>
+  <desc>Stylized SVG recreation of a mountain street with buildings, a lamppost and banner, road, and snowy peaks.</desc>
+
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#86b6e3"/>
+      <stop offset="70%" stop-color="#bcdcff"/>
+      <stop offset="100%" stop-color="#e8f3ff"/>
+    </linearGradient>
+
+    <linearGradient id="mountainSnow" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#eef3f9"/>
+      <stop offset="100%" stop-color="#d7dee9"/>
+    </linearGradient>
+
+    <linearGradient id="mountainRock" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b9c4d4"/>
+      <stop offset="60%" stop-color="#8f9bad"/>
+      <stop offset="100%" stop-color="#7c889a"/>
+    </linearGradient>
+
+    <linearGradient id="rangeDistant" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dce8f7"/>
+      <stop offset="100%" stop-color="#b8c9df"/>
+    </linearGradient>
+
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#858c92"/>
+      <stop offset="100%" stop-color="#696e73"/>
+    </linearGradient>
+
+    <linearGradient id="sidewalkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8cbd0"/>
+      <stop offset="100%" stop-color="#adb3b9"/>
+    </linearGradient>
+
+    <linearGradient id="brickGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b56c5f"/>
+      <stop offset="100%" stop-color="#8f5045"/>
+    </linearGradient>
+
+    <linearGradient id="plasterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cbbfaf"/>
+      <stop offset="100%" stop-color="#a59583"/>
+    </linearGradient>
+
+    <linearGradient id="roofGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9fb4c0"/>
+      <stop offset="100%" stop-color="#7e929f"/>
+    </linearGradient>
+
+    <pattern id="winPattern" width="10" height="12" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="6" height="8" fill="#6ea0c6" stroke="#d7efff" stroke-width="0.6" opacity="0.9"/>
+    </pattern>
+
+    <filter id="haze" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6"/>
+    </filter>
+
+    <linearGradient id="shadowFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="300" height="300" fill="url(#skyGrad)"/>
+
+  <!-- Distant mountain range -->
+  <path d="M160 110 L190 92 L210 100 L235 114 L260 125 L275 138 L270 145 L248 152 L220 150 L197 141 L175 130 Z"
+        fill="url(#rangeDistant)" stroke="#b7c9dd" stroke-width="0.6" opacity="0.95"/>
+
+  <!-- Main mountain mass -->
+  <g>
+    <path d="M14 190 L35 170 L55 155 L78 120 L95 98 L113 86 L135 94 L154 84 L176 78 L195 92 L211 105 L226 124 L220 136 L205 146 L184 158 L162 168 L138 177 L110 186 L78 194 L45 198 Z"
+          fill="url(#mountainRock)" stroke="#8a96a8" stroke-width="0.8"/>
+    <!-- Snow cap -->
+    <path d="M75 140 L95 116 L113 102 L134 108 L152 98 L171 92 L187 104 L199 116 L188 124 L171 130 L154 134 L136 140 L118 146 L101 150 Z"
+          fill="url(#mountainSnow)" stroke="#dfe7f2" stroke-width="0.6" filter="url(#haze)"/>
+  </g>
+
+  <!-- Valley haze -->
+  <rect x="0" y="170" width="210" height="20" fill="#e9f1fb" opacity="0.6" filter="url(#haze)"/>
+
+  <!-- Road (left, receding) -->
+  <path d="M5 230 L5 300 L160 300 L151 214 L22 200 Z" fill="url(#roadGrad)"/>
+
+  <!-- Road edges (snow/ice) -->
+  <path d="M5 230 Q30 224 46 220 Q66 216 88 214 Q112 212 130 213 L151 214 L153 226 Q120 228 99 231 Q74 235 54 240 Q34 245 5 254 Z"
+        fill="#e6eef6" opacity="0.85"/>
+
+  <!-- Center line -->
+  <path d="M24 246 L142 246" stroke="#f6e18a" stroke-width="2" stroke-dasharray="10 8" opacity="0.8"/>
+
+  <!-- Sidewalk along buildings -->
+  <path d="M120 210 L151 214 L160 300 L90 300 Z" fill="url(#sidewalkGrad)"/>
+
+  <!-- Buildings row (right side, receding) -->
+  <g id="buildings">
+    <!-- Front brick building -->
+    <g>
+      <rect x="205" y="120" width="80" height="112" fill="url(#brickGrad)" stroke="#743f36" stroke-width="1"/>
+      <rect x="205" y="110" width="80" height="14" fill="url(#roofGrad)" stroke="#62727f" stroke-width="0.8"/>
+      <rect x="212" y="132" width="64" height="84" fill="url(#winPattern)" opacity="0.75"/>
+      <rect x="205" y="168" width="80" height="10" fill="#6b7a84" opacity="0.35"/>
+      <rect x="210" y="204" width="36" height="28" fill="#9aa4ad" stroke="#6a7178" stroke-width="0.8"/>
+      <rect x="250" y="204" width="30" height="28" fill="#9aa4ad" stroke="#6a7178" stroke-width="0.8"/>
+      <path d="M205 222 L285 222" stroke="#57636d" stroke-width="1.2"/>
+    </g>
+
+    <!-- Second building -->
+    <g opacity="0.95">
+      <rect x="170" y="125" width="48" height="95" fill="url(#plasterGrad)" stroke="#7e6e5d" stroke-width="0.9"/>
+      <rect x="170" y="116" width="48" height="12" fill="url(#roofGrad)" stroke="#6a7a87" stroke-width="0.7"/>
+      <rect x="176" y="134" width="36" height="64" fill="url(#winPattern)" opacity="0.8"/>
+      <path d="M170 190 L218 190" stroke="#6a737a" stroke-width="1"/>
+    </g>
+
+    <!-- Third building -->
+    <g opacity="0.9">
+      <rect x="145" y="130" width="35" height="80" fill="#a39a8b" stroke="#736a5c" stroke-width="0.8"/>
+      <rect x="145" y="123" width="35" height="10" fill="url(#roofGrad)" stroke="#6a7a87" stroke-width="0.6"/>
+      <rect x="150" y="138" width="25" height="50" fill="url(#winPattern)" opacity="0.8"/>
+      <path d="M145 182 L180 182" stroke="#6a737a" stroke-width="0.9"/>
+    </g>
+
+    <!-- Fourth building (farthest) -->
+    <g opacity="0.85">
+      <rect x="125" y="135" width="25" height="65" fill="#b2a38f" stroke="#7b6e5b" stroke-width="0.7"/>
+      <rect x="125" y="129" width="25" height="8" fill="url(#roofGrad)" stroke="#6a7a87" stroke-width="0.5"/>
+      <rect x="129" y="141" width="17" height="38" fill="url(#winPattern)" opacity="0.85"/>
+      <path d="M125 172 L150 172" stroke="#6a737a" stroke-width="0.8"/>
+    </g>
+
+    <!-- Awnings / storefronts -->
+    <path d="M120 210 L205 210 L285 210" stroke="#3e4a52" stroke-width="1.4"/>
+    <path d="M205 210 L205 232 M250 210 L250 232" stroke="#3e4a52" stroke-width="1"/>
+    <path d="M170 210 L170 230" stroke="#3e4a52" stroke-width="0.9"/>
+    <path d="M145 210 L145 228" stroke="#3e4a52" stroke-width="0.8"/>
+
+    <!-- Shop awnings -->
+    <path d="M205 210 L246 210 L240 218 L205 218 Z" fill="#698ea7"/>
+    <path d="M246 210 L285 210 L280 218 L240 218 Z" fill="#6d7f8b"/>
+    <path d="M170 210 L190 210 L186 216 L170 216 Z" fill="#8097a6"/>
+    <path d="M145 210 L160 210 L158 215 L145 215 Z" fill="#7c8f9c"/>
+  </g>
+
+  <!-- Lamppost with banner (left) -->
+  <g id="lamppost" transform="translate(35,70)">
+    <rect x="-2" y="-5" width="4" height="200" rx="2" fill="#4f7c6d"/>
+    <!-- arms -->
+    <path d="M0 6 L35 -6" stroke="#4f7c6d" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 12 L38 0" stroke="#4f7c6d" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <!-- lamps -->
+    <circle cx="39" cy="-7" r="4.5" fill="#7ea895" stroke="#3e6b5b" stroke-width="1"/>
+    <circle cx="42" cy="1" r="4.5" fill="#7ea895" stroke="#3e6b5b" stroke-width="1"/>
+    <!-- banner -->
+    <rect x="8" y="26" width="18" height="52" rx="2" fill="#e0467a" stroke="#b62f5d" stroke-width="1.2"/>
+  </g>
+
+  <!-- Cars (simplified) -->
+  <g id="cars" opacity="0.95">
+    <g transform="translate(198,232)">
+      <rect x="0" y="6" width="34" height="10" rx="2" fill="#6d7d87"/>
+      <rect x="2" y="0" width="26" height="9" rx="2" fill="#8a9aa6"/>
+      <circle cx="8" cy="18" r="3.3" fill="#2e3337"/>
+      <circle cx="26" cy="18" r="3.3" fill="#2e3337"/>
+    </g>
+    <g transform="translate(240,236) scale(0.9)">
+      <rect x="0" y="6" width="30" height="9" rx="2" fill="#727b84"/>
+      <rect x="2" y="0" width="22" height="8" rx="2" fill="#9aa6b0"/>
+      <circle cx="8" cy="17" r="3" fill="#2e3337"/>
+      <circle cx="23" cy="17" r="3" fill="#2e3337"/>
+    </g>
+  </g>
+
+  <!-- Right-side shadow to imply building depth -->
+  <rect x="195" y="120" width="5" height="112" fill="url(#shadowFade)" opacity="0.6"/>
+
+  <!-- Snow piles near curb -->
+  <path d="M88 300 Q92 290 110 286 Q128 282 150 284 Q160 285 160 300 Z" fill="#eaf2fb" opacity="0.9"/>
+  <path d="M168 300 Q175 292 190 289 Q210 286 230 290 Q244 293 248 300 Z" fill="#eaf2fb" opacity="0.85"/>
+
+  <!-- Perspective hints: receding curb and facade line -->
+  <path d="M120 210 L285 200" stroke="#3f474d" stroke-width="0.7" opacity="0.4"/>
+  <path d="M5 230 L151 214" stroke="#c9d2dc" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Foreground vignette -->
+  <rect x="0" y="0" width="300" height="300" fill="none" stroke="#000" stroke-opacity="0.06" stroke-width="2"/>
+</svg>

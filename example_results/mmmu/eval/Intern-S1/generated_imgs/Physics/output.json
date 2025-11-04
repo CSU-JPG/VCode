@@ -1,0 +1,145 @@
+[
+  {
+    "id": "dev_Physics_1",
+    "question": "<image 1>An object shown in the accompanying figure moves in uniform circular motion. Which arrow best depicts the net force acting on the object at the instant shown?",
+    "question_type": "multiple-choice",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Physics/dev_Physics_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Physics_2",
+    "question": "The diagram below represents a toy car starting from rest and uniformly accelerating across the floor. The time and distance traveled from the start are shown in the diagram.<image 1>What was the instantaneous velocity of the cart at 96 centimeters from the start?",
+    "question_type": "multiple-choice",
+    "options": [
+      "0.6 m/s",
+      "4.8 m/s",
+      "1.9 m/s",
+      "60 m/s",
+      "2.4 m/s"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "0.6 m/s",
+      "B": "4.8 m/s",
+      "C": "1.9 m/s",
+      "D": "60 m/s",
+      "E": "2.4 m/s"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Physics/dev_Physics_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Physics_3",
+    "question": "A proton traveling with speed v enters a uniform electric field of magnitude E, directed parallel to the plane of the page, as shown in the figure. There is also a magnetic force on the proton that is in the direction opposite to that of the electric force.<image 1>If e represents the magnitude of the proton charge, what minimum magnitude of the magnetic field could balance the electric force on the proton?",
+    "question_type": "multiple-choice",
+    "options": [
+      "E/v",
+      "eE/v",
+      "vE",
+      "eE"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "E/v",
+      "B": "eE/v",
+      "C": "vE",
+      "D": "eE"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Physics/dev_Physics_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Physics_4",
+    "question": "<image 1>For the solenoids shown in the diagram (which are assumed to be close to each other), the resistance of the left-hand circuit is slowly increased. In which direction does the ammeter needle (indicating the direction of conventional current) in the right-hand circuit deflect in response to this change?",
+    "question_type": "multiple-choice",
+    "options": [
+      "The needle deflects to the left.",
+      "The needle deflects to the right.",
+      "The needle oscillates back and forth.",
+      "The needle never moves."
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "The needle deflects to the left.",
+      "B": "The needle deflects to the right.",
+      "C": "The needle oscillates back and forth.",
+      "D": "The needle never moves."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Physics/dev_Physics_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Physics_5",
+    "question": "<image 1>A battery, an ammeter, three resistors, and a switch are connected to form the simple circuit shown above. When the switch is closed what would happen to the potential difference across the 15 ohm resistor?",
+    "question_type": "multiple-choice",
+    "options": [
+      "it would equal the potential difference across the 20 ohm resistor",
+      "it would be twice the potential difference across the 30 ohm resistor",
+      "it would equal the potential difference across the 30 ohm resistor",
+      "it would be half the potential difference across the 30 ohm resistor"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "it would equal the potential difference across the 20 ohm resistor",
+      "B": "it would be twice the potential difference across the 30 ohm resistor",
+      "C": "it would equal the potential difference across the 30 ohm resistor",
+      "D": "it would be half the potential difference across the 30 ohm resistor"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Physics/dev_Physics_5_img1.png"
+    ],
+    "response": ""
+  }
+]

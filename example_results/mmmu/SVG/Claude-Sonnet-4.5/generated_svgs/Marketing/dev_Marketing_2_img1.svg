@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Table border -->
+  <rect x="10" y="15" width="1180" height="185" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="10" y1="75" x2="1190" y2="75" stroke="#888" stroke-width="1"/>
+  <line x1="10" y1="135" x2="1190" y2="135" stroke="#888" stroke-width="1"/>
+  
+  <!-- Vertical lines -->
+  <line x1="318" y1="15" x2="318" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="693" y1="15" x2="693" y2="200" stroke="#888" stroke-width="1"/>
+  
+  <!-- Header row -->
+  <text x="505" y="52" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">16–29 year olds</text>
+  <text x="941" y="52" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">30 years old and older</text>
+  
+  <!-- Row 1 -->
+  <text x="25" y="112" font-family="Arial, sans-serif" font-size="22">Own a tablet</text>
+  <text x="505" y="112" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">69</text>
+  <text x="941" y="112" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">231</text>
+  
+  <!-- Row 2 -->
+  <text x="25" y="172" font-family="Arial, sans-serif" font-size="22">Sample size</text>
+  <text x="505" y="172" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">628</text>
+  <text x="941" y="172" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">2,309</text>
+  
+  <!-- Table caption -->
+  <text x="20" y="230" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Table 10.17</text>
+</svg>

@@ -1,0 +1,159 @@
+<svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2ede3"/>
+      <stop offset="1" stop-color="#e8dfcf"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ca2c9"/>
+      <stop offset="1" stop-color="#718db9"/>
+    </linearGradient>
+    <linearGradient id="woodTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9a86b"/>
+      <stop offset="1" stop-color="#b27c3a"/>
+    </linearGradient>
+    <linearGradient id="woodFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfa062"/>
+      <stop offset="1" stop-color="#b48242"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf6ff"/>
+      <stop offset="1" stop-color="#cfe7ff"/>
+    </linearGradient>
+    <linearGradient id="monitor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2f39"/>
+      <stop offset="1" stop-color="#11151c"/>
+    </linearGradient>
+    <linearGradient id="crt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bcc3cc"/>
+      <stop offset="1" stop-color="#9aa3ae"/>
+    </linearGradient>
+    <linearGradient id="bookSpine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6b56a"/>
+      <stop offset="1" stop-color="#cf9444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="420" height="240" fill="url(#wallGrad)"/>
+  <rect x="0" y="240" width="420" height="80" fill="url(#floorGrad)"/>
+
+  <!-- Window -->
+  <rect x="12" y="18" width="128" height="126" fill="#d8d4c9" stroke="#c9c3b5" stroke-width="2"/>
+  <rect x="20" y="26" width="112" height="110" fill="url(#glass)"/>
+  <!-- Outside greenery -->
+  <rect x="20" y="26" width="112" height="40" fill="#a5c87a" opacity="0.85"/>
+  <circle cx="55" cy="60" r="22" fill="#8fbd67" opacity="0.9"/>
+  <circle cx="98" cy="55" r="18" fill="#7fb056" opacity="0.9"/>
+  <!-- Window muntins -->
+  <rect x="74" y="26" width="4" height="110" fill="#e8e4d8"/>
+  <rect x="20" y="76" width="112" height="4" fill="#e8e4d8"/>
+
+  <!-- Shelf unit behind -->
+  <rect x="235" y="18" width="120" height="150" fill="#d9c39c" stroke="#cbae7e" stroke-width="2"/>
+  <!-- Shelves -->
+  <rect x="240" y="24" width="110" height="8" fill="#cda86b"/>
+  <rect x="240" y="58" width="110" height="8" fill="#cda86b"/>
+  <rect x="240" y="92" width="110" height="8" fill="#cda86b"/>
+  <rect x="240" y="126" width="110" height="8" fill="#cda86b"/>
+  <!-- Books -->
+  <rect x="246" y="30" width="10" height="26" fill="#5b83d1"/>
+  <rect x="258" y="30" width="8" height="26" fill="#e06c6c"/>
+  <rect x="269" y="30" width="14" height="26" fill="#5fb58a"/>
+  <rect x="286" y="30" width="9" height="26" fill="#e3b54b"/>
+  <rect x="298" y="30" width="7" height="26" fill="#b87ad9"/>
+  <rect x="308" y="30" width="12" height="26" fill="#6a95e6"/>
+  <rect x="246" y="64" width="12" height="26" fill="#e3b54b"/>
+  <rect x="261" y="64" width="10" height="26" fill="#5fb58a"/>
+  <rect x="274" y="64" width="8" height="26" fill="#e06c6c"/>
+  <rect x="285" y="64" width="12" height="26" fill="#7db9f2"/>
+  <rect x="300" y="64" width="10" height="26" fill="#cf87cf"/>
+  <rect x="246" y="98" width="10" height="26" fill="#5b83d1"/>
+  <rect x="259" y="98" width="12" height="26" fill="#e06c6c"/>
+  <rect x="275" y="98" width="9" height="26" fill="#5fb58a"/>
+  <rect x="287" y="98" width="7" height="26" fill="#e3b54b"/>
+  <rect x="297" y="98" width="10" height="26" fill="#6a95e6"/>
+
+  <!-- Bulletin board -->
+  <rect x="155" y="24" width="70" height="132" fill="#2f5fa3" stroke="#e1d5b5" stroke-width="4"/>
+  <!-- Notes -->
+  <rect x="163" y="34" width="22" height="16" fill="#ffffff"/>
+  <rect x="189" y="34" width="26" height="12" fill="#f7f7f7"/>
+  <rect x="162" y="55" width="50" height="10" fill="#f2f2f2"/>
+  <rect x="162" y="70" width="44" height="12" fill="#ffffff"/>
+  <rect x="162" y="88" width="18" height="18" fill="#ffef9d"/>
+  <rect x="184" y="88" width="26" height="18" fill="#e8f0ff"/>
+  <rect x="162" y="110" width="52" height="12" fill="#f7f7f7"/>
+
+  <!-- Clock -->
+  <circle cx="360" cy="42" r="22" fill="#ffffff" stroke="#cfd2d6" stroke-width="2"/>
+  <circle cx="360" cy="42" r="2" fill="#7b8088"/>
+  <!-- clock ticks -->
+  <line x1="360" y1="22" x2="360" y2="26" stroke="#9aa0a8" stroke-width="2"/>
+  <line x1="360" y1="58" x2="360" y2="62" stroke="#9aa0a8" stroke-width="2"/>
+  <line x1="340" y1="42" x2="344" y2="42" stroke="#9aa0a8" stroke-width="2"/>
+  <line x1="376" y1="42" x2="380" y2="42" stroke="#9aa0a8" stroke-width="2"/>
+  <!-- hands -->
+  <line x1="360" y1="42" x2="360" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="360" y1="42" x2="372" y2="42" stroke="#333" stroke-width="2"/>
+
+  <!-- Counter top -->
+  <rect x="0" y="160" width="420" height="20" fill="url(#woodTop)"/>
+  <!-- Counter front panels -->
+  <rect x="0" y="180" width="420" height="100" fill="url(#woodFront)"/>
+  <!-- Panel trim -->
+  <rect x="10" y="188" width="180" height="84" fill="none" stroke="#a66f2f" stroke-width="6"/>
+  <rect x="210" y="188" width="200" height="84" fill="none" stroke="#a66f2f" stroke-width="6"/>
+  <!-- Counter mid rail -->
+  <rect x="0" y="214" width="420" height="10" fill="#b07b36"/>
+
+  <!-- Left chair (blue) -->
+  <ellipse cx="84" cy="205" rx="18" ry="14" fill="#6d8ed1"/>
+  <rect x="70" y="175" width="28" height="30" fill="#6d8ed1" rx="6"/>
+
+  <!-- Left person -->
+  <!-- Hair/head silhouette -->
+  <ellipse cx="86" cy="128" rx="16" ry="18" fill="#7a5b3d"/>
+  <!-- Torso -->
+  <path d="M66 144 q20 -10 40 0 v30 q-10 10 -20 10 q-10 0 -20 -10 z" fill="#f3f1ee"/>
+  <!-- Left arm and hand -->
+  <path d="M76 162 q6 12 20 12 q8 0 12 -4 l0 8 q-12 6 -28 0 q-10 -5 -12 -12 z" fill="#f3f1ee"/>
+  <circle cx="63" cy="176" r="4" fill="#e8c6a6"/>
+  <!-- Badge -->
+  <rect x="92" y="150" width="10" height="8" fill="#3a78d7" stroke="#e6e6e6" stroke-width="1"/>
+
+  <!-- Left monitor -->
+  <rect x="120" y="120" width="86" height="56" rx="4" fill="url(#monitor)"/>
+  <rect x="128" y="128" width="70" height="40" fill="#1b232e"/>
+  <rect x="156" y="178" width="30" height="6" fill="#3a3f46"/>
+  <rect x="164" y="184" width="14" height="10" fill="#3a3f46" rx="2"/>
+  <!-- Keyboard and mouse -->
+  <rect x="112" y="170" width="40" height="8" rx="3" fill="#3e434b"/>
+  <ellipse cx="101" cy="173" rx="6" ry="4" fill="#3e434b"/>
+
+  <!-- Right chair (blue) -->
+  <ellipse cx="320" cy="206" rx="18" ry="14" fill="#6d8ed1"/>
+  <rect x="306" y="176" width="28" height="30" fill="#6d8ed1" rx="6"/>
+
+  <!-- Right person -->
+  <!-- Hair/head -->
+  <ellipse cx="306" cy="134" rx="14" ry="16" fill="#4d3b2e"/>
+  <!-- Torso dark outfit -->
+  <path d="M286 148 q20 -12 44 4 l0 28 q-6 10 -22 10 q-18 0 -22 -12 z" fill="#22252a"/>
+  <!-- Arm -->
+  <path d="M320 164 q16 6 28 6 q6 0 10 -2 l0 10 q-6 2 -14 2 q-14 0 -24 -6 z" fill="#22252a"/>
+
+  <!-- Right CRT monitor -->
+  <path d="M325 120 h60 q10 0 10 10 v34 q0 10 -10 10 h-60 q-10 0 -10 -10 v-34 q0 -10 10 -10z" fill="url(#crt)"/>
+  <rect x="336" y="128" width="46" height="30" fill="#c7d0da"/>
+  <rect x="344" y="170" width="26" height="6" fill="#9aa3ae" rx="2"/>
+  <rect x="310" y="174" width="36" height="8" rx="3" fill="#3e434b"/>
+  <ellipse cx="302" cy="176" rx="6" ry="4" fill="#3e434b"/>
+
+  <!-- Desk accessories -->
+  <rect x="204" y="168" width="18" height="10" fill="#5d5f66" rx="2"/>
+  <rect x="214" y="162" width="10" height="6" fill="#5d5f66"/>
+
+  <!-- Subtle shadows on counter top -->
+  <rect x="0" y="160" width="420" height="6" fill="#a56f35" opacity="0.25"/>
+</svg>
