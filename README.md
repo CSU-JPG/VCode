@@ -87,21 +87,21 @@ Similarly, `revision.py` can be run independently to optimize previously generat
 python img2svg2render/img2svg.py \
   /path/to/input_images \
   ./generated_svgs \
-  --model Qwen3-VL-235B-A22B-Instruct \
+  --model gpt-5 \
   --base-url https://api.deepinfra.com/v1/openai \
   --api-key sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \
-  --max-tokens 8192
+  --max-tokens 16384
 ```
 
 | Argument            | Type | Default                               | Description                                               |
 | ------------------- | ---- | ------------------------------------- | --------------------------------------------------------- |
 | `images_folder`     | str  | —                                     | Path to the input folder containing image files.          |
 | `svg_output_folder` | str  | —                                     | Directory to save the generated SVG files.                |
-| `--model`           | str  | `Qwen3-VL-235B-A22B-Instruct`         | API model name used for conversion.                       |
+| `--model`           | str  | `gpt-5`                               | API model name used for conversion.                       |
 | `--base-url`        | str  | `https://api.deepinfra.com/v1/openai` | Base URL of the API endpoint.                             |
 | `--api-key`         | str  | Required                              | API key for authentication.                               |
 | `--sleep`           | int  | `5`                                   | Seconds to wait between consecutive API calls.            |
-| `--max-tokens`      | int  | `8192`                                | Maximum number of tokens allowed in the model’s response. |
+| `--max-tokens`      | int  | `16384`                                | Maximum number of tokens allowed in the model’s response. |
 
 ---
 
