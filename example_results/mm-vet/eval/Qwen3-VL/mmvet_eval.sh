@@ -5,8 +5,8 @@ set -o pipefail
 
 PYTHON_EXECUTABLE="python"
 
-INFERENCE_SCRIPT="/path/to/subtask/mm-vet/run_benchmark_gpt4o-mini_lmms-eval.py"
-EVALUATION_SCRIPT="/path/to/subtask/mm-vet/evaluator.py"
+INFERENCE_SCRIPT="/path/to/evaluation/mm-vet/run_benchmark_gpt4o-mini_lmms-eval.py"
+EVALUATION_SCRIPT="/path/to/evaluation/mm-vet/evaluator.py"
 
 # api gpt4o-mini-2024-0718
 API_KEY_INFERENCE="YOUR_API_KEY_HERE"

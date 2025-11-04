@@ -1,13 +1,15 @@
 # VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation
 
-<p align="center">
+<div align="center">
 
-<a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
-<a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
+<a href="https://csu-jpg.github.io/VCode" target="_blank">
+  <img src="https://img.shields.io/badge/Project-Page-brightgreen">
+</a>
+<a href="https://github.com/CSU-JPG/VCode" target="_blank">
+  <img src="https://img.shields.io/badge/Code-GitHub-black">
+</a>
 
-</p>
-
-
+</div>
 
 We proposed **VCode**: A Novel Perspective for Multimodal Coding.
 
@@ -197,71 +199,3 @@ chmod +x subtask/mmmu/mmmu_eval.sh
 These scripts will read your `generated_imgs/` and compute scores.
 
 > 💡 **Reference:** For directory organization and example script configuration, see **`example_results/`** (it shows a working layout you can mirror).
-
-
----
-
-**Step 3 — Calculate each dataset’s metrics**
-
-
-**Full Command with Options**
-
-```bash
-python metrics.py \
-  --folder1 /path/to/reference_images \
-  --folder2 /path/to/model_outputs/gpt-4o \
-  --ckpt google/siglip2-so400m-patch14-384
-```
-
-**Command Line Arguments**
-
-| Argument | Required | Default | Description |
-|----------|----------|---------|-------------|
-| `--folder1` | ✅ Yes | - | Path to reference images folder |
-| `--folder2` | ✅ Yes | - | Path to model output folder (containing `generated_imgs/` and `generated_svgs/`) |
-| `--ckpt` | ❌ No | `google/siglip2-so400m-patch14-384` | SigLIP model checkpoint |
-
-
-**Expected Directory Layout:**
-
-**Reference Images Folder** (`--folder1`)
-
-**Location:** `data/mm-vet/images` *(example path - can be customized)*
-```
-folder1/
-├── category1/
-│   ├── image001.png
-│   ├── image002.jpg
-│   └── ...
-├── category2/
-│   ├── image003.png
-│   └── ...
-└── ...
-```
-
-**Model Output Folder** (`--folder2`)
-
-**Location:** `example_results/mm-vet/Gemini-2.5-Pro` *(example path - can be customized)*
-```
-folder2/
-├── generated_imgs/           # Generated/rendered images
-│   ├── category1/
-│   │   ├── image001.png
-│   │   ├── image002.jpg
-│   │   └── ...
-│   ├── category2/
-│   │   ├── image003.png
-│   │   └── ...
-│   └── ...
-│
-└── generated_svgs/           # SVG source files
-    ├── category1/
-    │   ├── image001.svg
-    │   ├── image002.svg
-    │   └── ...
-    ├── category2/
-    │   ├── image003.svg
-    │   └── ...
-    └── ...
-```
-

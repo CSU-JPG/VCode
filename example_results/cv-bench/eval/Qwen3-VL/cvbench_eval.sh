@@ -2,15 +2,15 @@
 
 set -e
 
-SRC_DIR="/path/to/data/cv-bench/img"
+SRC_DIR="/path/to/data/cv-bench"
 BASE_DIR="./"
 DATA_DIR="$BASE_DIR/generated_imgs"
 
-ADE_EVAL_SCRIPT="/path/to/subtask/cv-bench/eval/ade/api_eval_new.py"
-COCO_EVAL_SCRIPT="/path/to/subtask/cv-bench/eval/coco/api_eval_new.py"
-OMNI_EVAL_SCRIPT="/path/to/subtask/cv-bench/eval/omni/api_eval_new.py"
-MERGE_SCRIPT="/path/to/subtask/cv-bench/merge_results_final.py"
-CALCULATE_SCRIPT="/path/to/subtask/cv-bench/calculate_score.py"
+ADE_EVAL_SCRIPT="/path/to/evaluation/cv-bench/eval/ade/api_eval_new.py"
+COCO_EVAL_SCRIPT="/path/to/evaluation/cv-bench/eval/coco/api_eval_new.py"
+OMNI_EVAL_SCRIPT="/path/to/evaluation/cv-bench/eval/omni/api_eval_new.py"
+MERGE_SCRIPT="/path/to/evaluation/cv-bench/merge_results_final.py"
+CALCULATE_SCRIPT="/path/to/evaluation/cv-bench/calculate_score.py"
 
 # API Key
 API_KEY="YOUR_API_KEY_HERE"
@@ -38,7 +38,7 @@ FINAL_SCORE_FILE="$DATA_DIR/${MODEL_PREFIX}_final_scores.csv"
 
 
 echo "--- [step 0] Copy annotations.jsonl ---"
-python /path/to/subtask/cv-bench/copy_annotations.py \
+python /path/to/evaluation/cv-bench/copy_annotations.py \
     --src_root "$SRC_DIR" \
     --base_dir "$BASE_DIR"
 echo "--- annotations.jsonl Copy done ---"
