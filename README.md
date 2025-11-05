@@ -280,6 +280,6 @@ folder2/
 }
 ```
 
-💡 **Thank you for citing our work!**
+💡 **If you find our work is helpful，please consider cite our work. Thanks for citing!**
 
 
