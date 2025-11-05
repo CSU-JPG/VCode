@@ -7,15 +7,9 @@
 
 </p>
 
-
-
-We proposed **VCode**: A Novel Perspective for Multimodal Coding.
+**TL;DR:** SVG code as a Visual Representation
 
 ![Overview](./assets/teaser.png)
-
-**VCoder** is a framework that augments VLMs as strong multimodal coders.
-
-![VCoder Overview](./assets/vcoder.png)
 
 ## 📋 Table of Contents
 
