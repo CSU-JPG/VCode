@@ -1,6 +1,6 @@
 # VCode: SVG as Symbolic Visual Representation
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://arxiv.org/abs/2511.02778" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/arXiv-2511.02778-b31b1b">
   </a>
@@ -13,7 +13,10 @@
   <a href="https://github.com/CSU-JPG/VCode" style="text-decoration:none;">
     <img src="https://img.shields.io/github/stars/CSU-JPG/VCode?style=social">
   </a>
-</p>
+</p> -->
+<a href="https://arxiv.org/abs/2511.02778" target="_blank"><img src="https://img.shields.io/badge/arXiv-2511.02778-red"></a>
+<a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
+<a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
 
 
 
@@ -21,7 +24,7 @@
 
 <img src="./assets/teaser.png" alt="Overview" width="800"/>
 
-## 📋 Table of Contents
+# 📋 Table of Contents
 
 <!--- [📚 Introduction](#-introduction)-->
 
@@ -31,7 +34,7 @@
 
 ---
 
-## 🛠️ Installation
+# 🛠️ Installation
 
 **Environment**
 
@@ -44,9 +47,9 @@ conda activate vcode
 
 ---
 
-## 🚀 Quick Start
+# 🚀 Quick Start
 
-### VCode-suite
+## VCode-suite
 
 **VCode-suite** is a comprehensive toolkit that automates the full image-to-SVG-to-render workflow.
 It includes both integrated pipelines and independent modules for generation, rendering, and revision.
@@ -71,9 +74,9 @@ Users can either run the end-to-end pipelines for batch processing, or execute i
 > to support flexible and modular experimentation within the VCode framework.
 
 
-#### ⚙️ Usage
+## ⚙️ Usage
 
-1️⃣ Generate and Render SVGs
+### 1️⃣ Generate and Render SVGs
 
 `pipeline.sh` orchestrates the full image-to-SVG-to-render workflow.
 It can connect to different generation modules — `img2svg`, `img2text2svg`, or `img2svgthinking` — to convert images into SVGs, then filter and render them into pixel images.
@@ -83,7 +86,7 @@ chmod +x pipeline.sh
 ./pipeline.sh
 ```
 
-2️⃣ Optimize Generated SVGs
+### 2️⃣ Optimize Generated SVGs
 
 `revision_pipeline.sh` automates the revision and optimization process.
 It takes the previously generated SVGs (`generated_svgs/`) and rendered images (`generated_imgs/`), calls the API-based revision module, and outputs the optimized SVGs and renders to `optimized_svgs/` and `optimized_imgs/`.
@@ -93,7 +96,7 @@ chmod +x revision_pipeline.sh
 ./revision_pipeline.sh
 ```
 
-#### 3️⃣ Run Scripts Independently
+### 3️⃣ Run Scripts Independently
 
 Both generation and revision scripts can be executed independently for flexible and customized workflows.
 
@@ -102,7 +105,7 @@ Similarly, `revision.py` can be run independently to optimize previously generat
 
 ---
 
-##### Run `img2svg.py`
+**Run `img2svg.py`**
 
 ```bash
 python vcode-suite/img2svg.py \
@@ -126,7 +129,7 @@ python vcode-suite/img2svg.py \
 
 ---
 
-##### Run `revision.py`
+**Run `revision.py`**
 
 ```bash
 python vcode-suite/revision.py \
@@ -160,7 +163,7 @@ python vcode-suite/revision.py \
 
 ---
 
-## 🔮 Evaluation
+# 🔮 Evaluation
 
 **Step 1 — Generate `generated_imgs/` for all three datasets**
 
@@ -273,7 +276,7 @@ folder2/
 
 ---
 
-## 📌 Citation
+# 📌 Citation
 
 ```bibtex
 @misc{VCode,
