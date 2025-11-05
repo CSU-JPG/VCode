@@ -1,10 +1,18 @@
 # VCode: SVG as Symbolic Visual Representation
 
 <p align="center">
-<a href="https://arxiv.org/abs/2511.02778" target="_blank"><img src="https://img.shields.io/badge/arXiv-2511.02778-red"></a>
-<a href="https://huggingface.co/papers/2511.02778" target="_blank"><img src="https://img.shields.io/badge/Daily-Paper-2511.02778-yellow"></a>
-<a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
-<a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
+<a href="https://arxiv.org/abs/2511.02778" target="_blank">
+  <img src="https://img.shields.io/badge/arXiv-2511.02778-b31b1b">
+</a>
+<a href="https://huggingface.co/papers/2511.02778" target="_blank">
+  <img src="https://img.shields.io/badge/🤗%20Daily%20Papers-2511.02778-ffd21e">
+</a>
+<a href="https://csu-jpg.github.io/VCode" target="_blank">
+  <img src="https://img.shields.io/badge/Project-Page-brightgreen">
+</a>
+<a href="https://github.com/CSU-JPG/VCode" target="_blank">
+  <img src="https://img.shields.io/github/stars/CSU-JPG/VCode?style=social">
+</a>
 
 </p>
 
@@ -264,7 +272,7 @@ folder2/
 
 ---
 
-# 📌 Citation
+## 📌 Citation
 
 ```bibtex
 @misc{VCode,
