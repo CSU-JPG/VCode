@@ -19,7 +19,7 @@
 - [🛠️ Installation](#-installation)
 - [🚀 Quick Start](#-quick-start)
 - [🔮 Evaluation](#-evaluation)
-
+- [📌 Citation](#-citation)
 ---
 
 # 🛠️ Installation
