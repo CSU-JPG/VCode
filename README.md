@@ -39,7 +39,7 @@ conda activate vcode
 
 ## VCode-suite
 
-**VCode-suite** is a comprehensive toolkit that automates the full image-to-SVG-to-render workflow.
+🧩 **VCode-suite** is a comprehensive toolkit that automates the full image-to-SVG-to-render workflow.
 It includes both integrated pipelines and independent modules for generation, rendering, and revision.
 Users can either run the end-to-end pipelines for batch processing, or execute individual scripts for customized control.
 
