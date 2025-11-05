@@ -64,7 +64,7 @@ Users can either run the end-to-end pipelines for batch processing, or execute i
 
 ## ⚙️ Usage
 
-### 1️⃣ Generate and Render SVGs
+### 1️⃣ Generate and render SVGs
 
 `pipeline.sh` orchestrates the full image-to-SVG-to-render workflow.
 It can connect to different generation modules — `img2svg`, `img2text2svg`, or `img2svgthinking` — to convert images into SVGs, then filter and render them into pixel images.
@@ -74,7 +74,7 @@ chmod +x pipeline.sh
 ./pipeline.sh
 ```
 
-### 2️⃣ Optimize Generated SVGs
+### 2️⃣ Optimize generated SVGs
 
 `revision_pipeline.sh` automates the revision and optimization process.
 It takes the previously generated SVGs (`generated_svgs/`) and rendered images (`generated_imgs/`), calls the API-based revision module, and outputs the optimized SVGs and renders to `optimized_svgs/` and `optimized_imgs/`.
@@ -84,7 +84,7 @@ chmod +x revision_pipeline.sh
 ./revision_pipeline.sh
 ```
 
-### 3️⃣ Run Scripts Independently
+### 3️⃣ Run scripts independently
 
 Both generation and revision scripts can be executed independently for flexible and customized workflows.
 
@@ -153,7 +153,9 @@ python vcode-suite/revision.py \
 
 # 🔮 Evaluation
 
-**Step 1 — Generate `generated_imgs/` for all three datasets**
+## ⚙️ Usage
+
+### 1️⃣ Generate imgs for all three datasets
 
 Use the VCode-suite pipeline (or standalone scripts) to render images for each dataset.
 Original images are already in `data/`:
@@ -171,23 +173,23 @@ generated_imgs/  ← used by the evaluators
 
 ---
 
-**Step 2 — Run each dataset’s evaluator**
+### 2️⃣ Run each dataset’s evaluator
 
-Each evaluator is a shell script under `subtask/…`. They all follow the same usage:
+Each evaluator is a shell script under `evaluation/…`. They all follow the same usage:
 
 ```bash
-chmod +x subtask/mm-vet/mmvet_eval.sh
-./subtask/mm-vet/mmvet_eval.sh
+chmod +x evaluation/mm-vet/mmvet_eval.sh
+./evaluation/mm-vet/mmvet_eval.sh
 ```
 
 ```bash
-chmod +x subtask/cv-bench/cvbench_eval.sh
-./subtask/cv-bench/cvbench_eval.sh
+chmod +x evaluation/cv-bench/cvbench_eval.sh
+./evaluation/cv-bench/cvbench_eval.sh
 ```
 
 ```bash
-chmod +x subtask/mmmu/mmmu_eval.sh
-./subtask/mmmu/mmmu_eval.sh
+chmod +x evaluation/mmmu/mmmu_eval.sh
+./evaluation/mmmu/mmmu_eval.sh
 ```
 
 These scripts will read your `generated_imgs/` and compute scores.
@@ -197,7 +199,7 @@ These scripts will read your `generated_imgs/` and compute scores.
 
 ---
 
-**Step 3 — Calculate each dataset’s metrics**
+### 3️⃣ Calculate each dataset’s metrics
 
 
 **Full Command with Options**
