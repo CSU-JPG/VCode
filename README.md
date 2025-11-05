@@ -2,6 +2,7 @@
 
 <p align="center">
 <a href="https://arxiv.org/abs/2511.02778" target="_blank"><img src="https://img.shields.io/badge/arXiv-2511.02778-red"></a>
+<a href="https://huggingface.co/papers/2511.02778" target="_blank"><img src="https://img.shields.io/badge/Daily-Paper-2511.02778-yellow"></a>
 <a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
 <a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
 
@@ -259,3 +260,24 @@ folder2/
    │   └── ...
    └── ...
 ```
+
+
+---
+
+# 📌 Citation
+
+```bibtex
+@misc{VCode,
+      title={VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation}, 
+      author={Kevin Qinghong Lin and Yuhao Zheng and Hangyu Ran and Dantong Zhu and Dongxing Mao and Linjie Li and Philip Torr and Alex Jinpeng Wang},
+      year={2025},
+      eprint={2511.02778},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.02778}, 
+}
+```
+
+💡 **Thank you for citing our work!**
+
+
