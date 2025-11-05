@@ -9,7 +9,7 @@
 
 **TL;DR:** SVG code as a Visual Representation
 
-![Overview](./assets/teaser.png)
+<img src="./assets/teaser.png" alt="Overview" width="800"/>
 
 ## 📋 Table of Contents
 
