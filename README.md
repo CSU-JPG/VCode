@@ -1,19 +1,20 @@
 # VCode: SVG as Symbolic Visual Representation
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2511.02778">
+  <a href="https://arxiv.org/abs/2511.02778" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/arXiv-2511.02778-b31b1b">
   </a>
-  <a href="https://huggingface.co/papers/2511.02778">
+  <a href="https://huggingface.co/papers/2511.02778" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/🤗%20Daily%20Papers-2511.02778-ffd21e">
   </a>
-  <a href="https://csu-jpg.github.io/VCode">
+  <a href="https://csu-jpg.github.io/VCode" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Project-Page-brightgreen">
   </a>
-  <a href="https://github.com/CSU-JPG/VCode">
+  <a href="https://github.com/CSU-JPG/VCode" style="text-decoration:none;">
     <img src="https://img.shields.io/github/stars/CSU-JPG/VCode?style=social">
   </a>
 </p>
+
 
 
 **TL;DR:** SVG code as a Visual Representation
