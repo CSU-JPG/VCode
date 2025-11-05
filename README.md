@@ -1,4 +1,4 @@
-# VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation
+# VCode: SVG as Symbolic Visual Representation
 
 <p align="center">
 <a href="https://arxiv.org/abs/2511.02778" target="_blank"><img src="https://img.shields.io/badge/arXiv-2511.02778-red"></a>
