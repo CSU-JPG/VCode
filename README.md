@@ -155,7 +155,7 @@ python vcode-suite/revision.py \
 
 ## ⚙️ Usage
 
-### 1️⃣ Generate imgs for all three datasets
+### 1️⃣ Generate IMGs for all three datasets
 
 Use the VCode-suite pipeline (or standalone scripts) to render images for each dataset.
 Original images are already in `data/`:
