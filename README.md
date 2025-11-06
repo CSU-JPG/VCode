@@ -7,6 +7,14 @@
 <a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
 </p>
 
+<p align="center">
+<a href="https://arxiv.org/abs/2511.02778" target="_blank"><img src="https://img.shields.io/badge/arXiv-2511.02778-red"></a>
+<a href="https://huggingface.co/spaces/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Demo-HuggingFace-blueviolet"></a>
+<a href="https://huggingface.co/papers/2511.02778" target="_blank"><img src="https://img.shields.io/badge/🤗%20Daily%20Papers-2511.02778-ffd21e"></a>
+<a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
+<a href="https://github.com/CSU-JPG/VCode" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-black"></a>
+</p>
+
 
 **TL;DR:** SVG code as a Visual Representation
 
