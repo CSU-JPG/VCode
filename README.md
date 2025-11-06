@@ -268,9 +268,10 @@ folder2/
 ---
 
 # 📌 Citation
+If you find our work useful, please cite:
 
 ```bibtex
-@misc{VCode,
+@misc{vcode,
       title={VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation}, 
       author={Kevin Qinghong Lin and Yuhao Zheng and Hangyu Ran and Dantong Zhu and Dongxing Mao and Linjie Li and Philip Torr and Alex Jinpeng Wang},
       year={2025},
@@ -280,7 +281,4 @@ folder2/
       url={https://arxiv.org/abs/2511.02778}, 
 }
 ```
-
-💡 **If you find our work is helpful，please consider cite our work. Thanks for citing!**
-
 
