@@ -13,11 +13,7 @@
 
 
 
-https://github.com/user-attachments/assets/2d202222-4934-4bc0-ae69-b231fc507d02
-
-
-
-<img src="./assets/teaser.png" alt="Overview" width="800"/>
+<img src="./assets/teaser.png" alt="Overview"/>
 
 <p align="center">
   <video src="https://github.com/user-attachments/assets/2d202222-4934-4bc0-ae69-b231fc507d02"
@@ -26,6 +22,7 @@ https://github.com/user-attachments/assets/2d202222-4934-4bc0-ae69-b231fc507d02
          muted>
   </video>
 </p>
+
 
 # 📋 Table of Contents
 
