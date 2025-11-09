@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="skyGrad" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#d4c5a9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8a8672;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="faceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8d4b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c4a882;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="hairGrad" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#3d2f1f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1410;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background sky -->
+  <rect width="800" height="1200" fill="url(#skyGrad)"/>
+  
+  <!-- Distant landscape left -->
+  <path d="M 0 400 Q 100 350 200 380 L 200 600 L 0 600 Z" fill="#4a5240" opacity="0.6"/>
+  
+  <!-- Distant landscape right -->
+  <path d="M 600 380 Q 700 350 800 400 L 800 600 L 600 600 Z" fill="#4a5240" opacity="0.6"/>
+  
+  <!-- Middle ground vegetation -->
+  <ellipse cx="150" cy="500" rx="120" ry="80" fill="#3d4a35" opacity="0.5"/>
+  <ellipse cx="650" cy="500" rx="120" ry="80" fill="#3d4a35" opacity="0.5"/>
+  
+  <!-- Foreground landscape -->
+  <path d="M 0 550 Q 200 520 400 540 Q 600 520 800 550 L 800 1200 L 0 1200 Z" fill="#6b5d4a"/>
+  
+  <!-- River/path -->
+  <path d="M 450 600 Q 480 700 500 850" stroke="#8a9088" stroke-width="40" fill="none" opacity="0.4"/>
+  
+  <!-- Dress dark base -->
+  <path d="M 300 650 Q 280 750 250 900 Q 240 1000 230 1200 L 570 1200 Q 560 1000 550 900 Q 520 750 500 650 Q 450 600 400 600 Q 350 600 300 650 Z" fill="#1a1614"/>
+  
+  <!-- Dress highlights -->
+  <path d="M 320 700 Q 310 800 300 950" stroke="#2d2520" stroke-width="15" fill="none" opacity="0.6"/>
+  
+  <!-- Right arm -->
+  <ellipse cx="520" cy="750" rx="45" ry="80" fill="#c4a882" transform="rotate(25 520 750)"/>
+  
+  <!-- Hands folded -->
+  <ellipse cx="380" cy="880" rx="55" ry="45" fill="#d4b894"/>
+  <ellipse cx="420" cy="890" rx="50" ry="42" fill="#c4a882"/>
+  <path d="M 360 870 Q 370 885 380 880 Q 390 875 400 890" stroke="#a68a64" stroke-width="2" fill="none"/>
+  
+  <!-- Left arm/sleeve -->
+  <path d="M 280 650 Q 260 700 270 780 Q 280 850 320 900" stroke="#3d342a" stroke-width="60" fill="none"/>
+  <ellipse cx="290" cy="820" rx="35" ry="70" fill="#c4a882" transform="rotate(-20 290 820)"/>
+  
+  <!-- Neck -->
+  <rect x="370" y="480" width="60" height="70" fill="#d4b894" rx="15"/>
+  
+  <!-- Face -->
+  <ellipse cx="400" cy="340" rx="95" ry="115" fill="url(#faceGrad)"/>
+  
+  <!-- Hair background -->
+  <ellipse cx="400" cy="280" rx="130" ry="160" fill="url(#hairGrad)"/>
+  
+  <!-- Hair left side -->
+  <path d="M 270 250 Q 250 300 260 400 Q 270 480 300 540" stroke="#1a1410" stroke-width="50" fill="none"/>
+  
+  <!-- Hair right side -->
+  <path d="M 530 250 Q 550 300 540 400 Q 530 480 500 540" stroke="#1a1410" stroke-width="50" fill="none"/>
+  
+  <!-- Face re-layer for proper overlap -->
+  <ellipse cx="400" cy="340" rx="90" ry="110" fill="url(#faceGrad)"/>
+  
+  <!-- Forehead -->
+  <path d="M 310 270 Q 400 250 490 270" stroke="#e8d4b8" stroke-width="3" fill="none" opacity="0.4"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 340 310 Q 360 305 375 308" stroke="#7a6550" stroke-width="3" fill="none"/>
+  <path d="M 425 308 Q 440 305 460 310" stroke="#7a6550" stroke-width="3" fill="none"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="355" cy="330" rx="12" ry="16" fill="#3d2f25"/>
+  <ellipse cx="445" cy="330" rx="12" ry="16" fill="#3d2f25"/>
+  <ellipse cx="357" cy="328" rx="4" ry="5" fill="#1a1410"/>
+  <ellipse cx="447" cy="328" rx="4" ry="5" fill="#1a1410"/>
+  <ellipse cx="359" cy="326" rx="2" ry="2" fill="#ffffff"/>
+  <ellipse cx="449" cy="326" rx="2" ry="2" fill="#ffffff"/>
+  
+  <!-- Nose -->
+  <path d="M 395 350 Q 392 370 395 385" stroke="#b89878" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 395 385 Q 390 388 385 386" stroke="#b89878" stroke-width="1.5" fill="none" opacity="0.5"/>
+  
+  <!-- Mouth - subtle smile -->
+  <path d="M 370 400 Q 400 410 430 400" stroke="#a67860" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Face shadows -->
+  <ellipse cx="330" cy="360" rx="20" ry="30" fill="#b89878" opacity="0.15"/>
+  <ellipse cx="470" cy="360" rx="20" ry="30" fill="#b89878" opacity="0.15"/>
+  <path d="M 400 390 Q 410 420 400 450" stroke="#b89878" stroke-width="8" fill="none" opacity="0.1"/>
+  
+  <!-- Veil/transparent covering -->
+  <path d="M 310 240 Q 400 220 490 240 L 510 300 Q 500 380 490 450 L 310 450 Q 300 380 290 300 Z" fill="#2d2520" opacity="0.15"/>
+  
+  <!-- Hair part detail -->
+  <line x1="400" y1="220" x2="400" y2="280" stroke="#0d0a08" stroke-width="2"/>
+  
+  <!-- Dress neckline -->
+  <path d="M 340 540 Q 400 560 460 540" stroke="#0d0a08" stroke-width="3" fill="none"/>
+  
+  <!-- Subtle dress folds -->
+  <path d="M 350 750 Q 360 850 370 1000" stroke="#0d0a08" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M 450 750 Q 440 850 430 1000" stroke="#0d0a08" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

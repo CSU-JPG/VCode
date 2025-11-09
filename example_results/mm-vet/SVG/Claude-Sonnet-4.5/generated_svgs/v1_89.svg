@@ -1,0 +1,56 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Night sky background -->
+  <rect width="800" height="600" fill="#000000"/>
+  
+  <!-- Building structure below sign -->
+  <rect x="100" y="400" width="600" height="200" fill="#2a2a2a"/>
+  
+  <!-- Window openings -->
+  <rect x="180" y="450" width="120" height="140" fill="#d4c5a0"/>
+  <rect x="340" y="450" width="120" height="140" fill="#d4c5a0"/>
+  <rect x="500" y="450" width="120" height="140" fill="#d4c5a0"/>
+  
+  <!-- Support poles/frame -->
+  <rect x="150" y="350" width="8" height="60" fill="#4a4a4a"/>
+  <rect x="640" y="350" width="8" height="60" fill="#4a4a4a"/>
+  
+  <!-- Main sign board background -->
+  <rect x="140" y="150" width="520" height="120" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="2"/>
+  
+  <!-- Upper border/frame of sign -->
+  <rect x="140" y="140" width="520" height="15" fill="#8b6f47"/>
+  <rect x="140" y="265" width="520" height="8" fill="#6b5437"/>
+  
+  <!-- Illuminated sign background (golden glow) -->
+  <rect x="160" y="165" width="480" height="85" fill="#ffa500" rx="5"/>
+  <rect x="165" y="170" width="470" height="75" fill="#ffb520" rx="3"/>
+  
+  <!-- Light bulb indicators on top -->
+  <circle cx="180" cy="147" r="3" fill="#ffcc00"/>
+  <circle cx="240" cy="147" r="3" fill="#ffcc00"/>
+  <circle cx="300" cy="147" r="3" fill="#ffcc00"/>
+  <circle cx="360" cy="147" r="3" fill="#ffcc00"/>
+  <circle cx="420" cy="147" r="3" fill="#ffcc00"/>
+  <circle cx="480" cy="147" r="3" fill="#ffcc00"/>
+  <circle cx="540" cy="147" r="3" fill="#ffcc00"/>
+  <circle cx="600" cy="147" r="3" fill="#ffcc00"/>
+  
+  <!-- Logo circle on left -->
+  <circle cx="210" cy="207" r="28" fill="#cc8800" stroke="#000000" stroke-width="2"/>
+  <path d="M 210 190 Q 220 200 210 210 Q 200 200 210 190" fill="#ffcc00"/>
+  <circle cx="207" cy="200" r="8" fill="#ffcc00"/>
+  
+  <!-- Text "Luxmi" -->
+  <text x="255" y="220" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000000">Luxmi</text>
+  
+  <!-- Text "Jewellers" -->
+  <text x="405" y="220" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000000">Jewellers</text>
+  
+  <!-- Glow effect around sign -->
+  <rect x="160" y="165" width="480" height="85" fill="none" stroke="#ffcc00" stroke-width="1" opacity="0.5" rx="5"/>
+  
+  <!-- Ambient light beams from sign -->
+  <path d="M 400 270 L 350 350 L 450 350 Z" fill="#ffa500" opacity="0.1"/>
+  <path d="M 300 270 L 250 350 L 350 350 Z" fill="#ffa500" opacity="0.08"/>
+  <path d="M 500 270 L 450 350 L 550 350 Z" fill="#ffa500" opacity="0.08"/>
+</svg>

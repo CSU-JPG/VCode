@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="appleGrad" cx="45%" cy="35%">
+      <stop offset="0%" style="stop-color:#ff9999;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#e63946;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c41e3a;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="highlight" cx="35%" cy="25%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="4" dy="8" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="900" fill="#e8e8e8"/>
+  
+  <ellipse cx="400" cy="750" rx="200" ry="40" fill="#333" opacity="0.15"/>
+  
+  <g filter="url(#shadow)">
+    <path d="M 400 150 Q 500 120 550 200 Q 580 280 570 400 Q 560 550 520 650 Q 480 730 400 780 Q 320 730 280 650 Q 240 550 230 400 Q 220 280 250 200 Q 300 120 400 150 Z" 
+          fill="url(#appleGrad)" stroke="#a01020" stroke-width="2"/>
+    
+    <ellipse cx="350" cy="250" rx="120" ry="100" fill="url(#highlight)"/>
+    
+    <path d="M 395 145 Q 390 100 385 70 Q 383 55 390 50 Q 400 45 410 55 Q 425 70 420 95 Q 415 120 405 145" 
+          fill="#7a9b3c" stroke="#5a7b2c" stroke-width="2"/>
+    
+    <ellipse cx="320" cy="280" rx="8" ry="8" fill="#d4a574" opacity="0.6"/>
+    <ellipse cx="380" cy="350" rx="6" ry="6" fill="#d4a574" opacity="0.6"/>
+    <ellipse cx="450" cy="400" rx="7" ry="7" fill="#d4a574" opacity="0.6"/>
+    <ellipse cx="350" cy="480" rx="6" ry="6" fill="#d4a574" opacity="0.6"/>
+    <ellipse cx="480" cy="320" rx="8" ry="8" fill="#d4a574" opacity="0.6"/>
+    <ellipse cx="420" cy="520" rx="7" ry="7" fill="#d4a574" opacity="0.6"/>
+  </g>
+  
+  <g transform="translate(340, 280)">
+    <ellipse cx="50" cy="45" rx="52" ry="47" fill="#2d7a2e"/>
+    
+    <rect x="10" y="15" width="80" height="60" rx="8" fill="#f5f5f5" stroke="#1a5a1b" stroke-width="2"/>
+    
+    <text x="50" y="32" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1a5a1b" text-anchor="middle">FUJI</text>
+    <text x="50" y="48" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a5a1b" text-anchor="middle">94131</text>
+    <text x="50" y="62" font-family="Arial, sans-serif" font-size="9" fill="#1a5a1b" text-anchor="middle">USA</text>
+    
+    <rect x="18" y="80" width="64" height="35" fill="#ffffff" stroke="#1a5a1b" stroke-width="1.5"/>
+    
+    <g fill="#000000">
+      <rect x="22" y="85" width="2" height="25"/>
+      <rect x="26" y="85" width="4" height="25"/>
+      <rect x="32" y="85" width="2" height="25"/>
+      <rect x="36" y="85" width="3" height="25"/>
+      <rect x="41" y="85" width="2" height="25"/>
+      <rect x="45" y="85" width="4" height="25"/>
+      <rect x="51" y="85" width="2" height="25"/>
+      <rect x="55" y="85" width="3" height="25"/>
+      <rect x="60" y="85" width="2" height="25"/>
+      <rect x="64" y="85" width="4" height="25"/>
+      <rect x="70" y="85" width="2" height="25"/>
+      <rect x="74" y="85" width="3" height="25"/>
+    </g>
+    
+    <circle cx="13" cy="8" r="3" fill="#ffd700" stroke="#e6c200" stroke-width="0.5"/>
+  </g>
+</svg>

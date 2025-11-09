@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+  
+  <!-- Dark foliage/trees in background -->
+  <path d="M0,0 L1920,0 L1920,400 Q1600,450 1400,400 Q1200,350 1000,420 Q800,380 600,410 Q400,390 200,420 Q100,400 0,430 Z" fill="#0d1e0d"/>
+  <ellipse cx="300" cy="200" rx="180" ry="200" fill="#0a150a"/>
+  <ellipse cx="600" cy="180" rx="160" ry="220" fill="#0d1a0d"/>
+  <ellipse cx="900" cy="150" rx="140" ry="180" fill="#0a120a"/>
+  
+  <!-- Ground/grass -->
+  <rect x="0" y="800" width="1920" height="280" fill="#1a2a1a"/>
+  <rect x="0" y="950" width="1920" height="130" fill="#0f1f0f"/>
+  
+  <!-- Large cream/tan pumpkin (left foreground) -->
+  <ellipse cx="450" cy="650" rx="280" ry="260" fill="#d4c4a0"/>
+  <path d="M450,390 Q460,500 450,650 M450,390 Q440,500 450,650" stroke="#b8a888" stroke-width="8" fill="none"/>
+  <path d="M450,390 Q480,500 450,650 M450,390 Q420,500 450,650" stroke="#c4b498" stroke-width="6" fill="none"/>
+  <ellipse cx="450" cy="370" rx="25" ry="35" fill="#8a9a6a"/>
+  
+  <!-- Pink/red pumpkin (center-left) -->
+  <ellipse cx="750" cy="480" rx="200" ry="190" fill="#c87a7a"/>
+  <path d="M750,290 Q760,380 750,480 M750,290 Q740,380 750,480" stroke="#a86060" stroke-width="6" fill="none"/>
+  <path d="M750,290 Q775,380 750,480 M750,290 Q725,380 750,480" stroke="#b87070" stroke-width="5" fill="none"/>
+  <ellipse cx="750" cy="275" rx="20" ry="28" fill="#7a8a5a"/>
+  
+  <!-- Orange pumpkin (top right) -->
+  <ellipse cx="1350" cy="380" rx="240" ry="220" fill="#d89a4a"/>
+  <path d="M1350,160 Q1360,260 1350,380 M1350,160 Q1340,260 1350,380" stroke="#c88a3a" stroke-width="7" fill="none"/>
+  <path d="M1350,160 Q1380,260 1350,380 M1350,160 Q1320,260 1350,380" stroke="#d8944a" stroke-width="6" fill="none"/>
+  <ellipse cx="1350" cy="145" rx="22" ry="30" fill="#8a9a5a"/>
+  
+  <!-- Pink pumpkin (right foreground) -->
+  <ellipse cx="1450" cy="650" rx="260" ry="240" fill="#d88a8a"/>
+  <path d="M1450,410 Q1460,520 1450,650 M1450,410 Q1440,520 1450,650" stroke="#c87a7a" stroke-width="7" fill="none"/>
+  <path d="M1450,410 Q1480,520 1450,650 M1450,410 Q1420,520 1450,650" stroke="#d88484" stroke-width="6" fill="none"/>
+  <ellipse cx="1450" cy="390" rx="24" ry="32" fill="#7a8a5a"/>
+  
+  <!-- Dark pumpkin behind couple -->
+  <ellipse cx="900" cy="550" rx="150" ry="140" fill="#5a4a4a"/>
+  <path d="M900,410 Q908,480 900,550 M900,410 Q892,480 900,550" stroke="#4a3a3a" stroke-width="5" fill="none"/>
+  
+  <!-- Two people embracing (simplified figures) -->
+  <!-- Person 1 - lighter hair, pink jacket -->
+  <ellipse cx="320" cy="420" rx="45" ry="55" fill="#c4a088"/>
+  <path d="M280,440 Q270,520 290,620 L350,620 Q340,520 360,440 Z" fill="#d89aa8"/>
+  <ellipse cx="310" cy="400" rx="60" ry="50" fill="#a88868"/>
+  <path d="M280,380 Q270,360 280,340 Q300,320 320,330 Q340,325 350,340 Q360,360 350,380 Z" fill="#b89a7a"/>
+  
+  <!-- Person 2 - darker hair, dark jacket -->
+  <ellipse cx="380" cy="400" rx="45" ry="55" fill="#d4b098"/>
+  <path d="M350,420 Q340,500 350,600 L410,600 Q420,500 410,420 Z" fill="#3a4a5a"/>
+  <ellipse cx="385" cy="380" rx="55" ry="48" fill="#c4a888"/>
+  <path d="M360,360 Q350,340 355,320 Q370,300 385,305 Q400,300 415,320 Q420,340 410,360 Z" fill="#2a2a3a"/>
+  
+  <!-- Arms embracing -->
+  <path d="M290,480 Q250,500 230,550 Q220,580 240,600" stroke="#d89aa8" stroke-width="35" fill="none" stroke-linecap="round"/>
+  <path d="M410,480 Q450,510 460,560 Q465,590 445,610" stroke="#3a4a5a" stroke-width="35" fill="none" stroke-linecap="round"/>
+  
+  <!-- Jeans for both figures -->
+  <path d="M290,620 L300,750 L310,750 L315,620 Z" fill="#4a5a6a"/>
+  <path d="M315,620 L320,750 L330,750 L335,620 Z" fill="#4a5a6a"/>
+  <path d="M350,600 L355,740 L365,740 L370,600 Z" fill="#4a5a6a"/>
+  <path d="M370,600 L375,740 L385,740 L390,600 Z" fill="#4a5a6a"/>
+  
+  <!-- Additional shadow and depth -->
+  <ellipse cx="450" cy="900" rx="300" ry="40" fill="#050505" opacity="0.4"/>
+  <ellipse cx="1450" cy="880" rx="280" ry="35" fill="#050505" opacity="0.4"/>
+</svg>

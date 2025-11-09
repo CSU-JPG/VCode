@@ -1,0 +1,54 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - bed sheets -->
+  <rect width="800" height="600" fill="#f5f5f0"/>
+  
+  <!-- Sheet wrinkles/shadows -->
+  <path d="M 0 100 Q 200 80 400 100 T 800 100 L 800 0 L 0 0 Z" fill="#e8e8e0"/>
+  <path d="M 0 500 Q 200 520 400 500 T 800 500 L 800 600 L 0 600 Z" fill="#e8e8e0"/>
+  <ellipse cx="200" cy="250" rx="80" ry="40" fill="#e0e0d8" opacity="0.5"/>
+  <ellipse cx="600" cy="350" rx="100" ry="50" fill="#e0e0d8" opacity="0.5"/>
+  
+  <!-- Kermit body -->
+  <ellipse cx="400" cy="420" rx="85" ry="110" fill="#7cb342"/>
+  <ellipse cx="400" cy="420" rx="65" ry="90" fill="#8bc34a"/>
+  
+  <!-- Kermit collar -->
+  <path d="M 320 380 Q 330 390 340 385 L 345 395 Q 355 390 365 395 L 370 385 Q 380 390 390 385 L 395 395 Q 405 390 415 395 L 420 385 Q 430 390 440 385 L 445 395 Q 455 390 465 395 L 470 385 Q 480 390 480 395" fill="none" stroke="#6d9939" stroke-width="3"/>
+  <path d="M 315 385 L 335 400 L 355 390 L 375 400 L 395 390 L 415 400 L 435 390 L 455 400 L 475 390 L 485 400 L 485 420 L 315 420 Z" fill="#7cb342"/>
+  
+  <!-- Left arm -->
+  <ellipse cx="310" cy="360" rx="35" ry="18" fill="#7cb342" transform="rotate(-25 310 360)"/>
+  <ellipse cx="285" cy="335" rx="30" ry="16" fill="#7cb342" transform="rotate(-35 285 335)"/>
+  <path d="M 265 320 Q 255 318 250 325 Q 248 330 252 335 Q 258 338 265 335 Q 270 332 268 325 Z" fill="#7cb342"/>
+  
+  <!-- Right arm -->
+  <ellipse cx="490" cy="360" rx="35" ry="18" fill="#7cb342" transform="rotate(25 490 360)"/>
+  <ellipse cx="515" cy="335" rx="30" ry="16" fill="#7cb342" transform="rotate(35 515 335)"/>
+  <path d="M 535 320 Q 545 318 550 325 Q 552 330 548 335 Q 542 338 535 335 Q 530 332 532 325 Z" fill="#7cb342"/>
+  
+  <!-- Head -->
+  <ellipse cx="400" cy="270" rx="75" ry="70" fill="#7cb342"/>
+  <ellipse cx="400" cy="280" rx="60" ry="50" fill="#8bc34a"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="370" cy="245" rx="28" ry="32" fill="#ffffff"/>
+  <ellipse cx="430" cy="245" rx="28" ry="32" fill="#ffffff"/>
+  <circle cx="372" cy="250" r="12" fill="#2d2d2d"/>
+  <circle cx="432" cy="250" r="12" fill="#2d2d2d"/>
+  <circle cx="374" cy="248" r="5" fill="#ffffff"/>
+  <circle cx="434" cy="248" r="5" fill="#ffffff"/>
+  
+  <!-- Mouth area -->
+  <ellipse cx="400" cy="300" rx="50" ry="30" fill="#8bc34a"/>
+  <path d="M 350 295 Q 400 320 450 295" fill="#d32f2f" stroke="#c62828" stroke-width="2"/>
+  <path d="M 350 295 Q 400 275 450 295" fill="#2d2d2d" opacity="0.3"/>
+  
+  <!-- Smile -->
+  <path d="M 355 295 Q 400 315 445 295" fill="none" stroke="#a52727" stroke-width="1.5"/>
+  
+  <!-- Neck ridge -->
+  <ellipse cx="400" cy="315" rx="40" ry="8" fill="#6d9939" opacity="0.6"/>
+  
+  <!-- Text overlay -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="18" fill="#666" text-anchor="middle" opacity="0.7">boredpanda.com</text>
+</svg>

@@ -1,7 +1,6 @@
 import os, random, base64, json
 import numpy as np
 from tqdm import tqdm
-import torch
 from argparse import ArgumentParser
 from pathlib import Path
 from PIL import Image
@@ -44,13 +43,10 @@ def call_api_engine(args, sample):
 
 
 # def call_api_engine(args, sample):
-#     # 1. 将 OpenAI 客户端替换为 ZhipuAiClient
-#     #    注意：Zhipu AI 的 SDK 不需要 base_url
 #     client = ZhipuAiClient(
 #         api_key=args.api_key
 #     )
 
-#     # 2. content 的构建逻辑完全不变
 #     content = [{"type": "text", "text": sample["prompt"]}]
 #     if "image" in sample and sample["image"] is not None:
 #         base64_img = encode_image(sample["image"])
@@ -59,17 +55,15 @@ def call_api_engine(args, sample):
 #             "image_url": {"url": f"data:image/png;base64,{base64_img}"}
 #         })
 
-#     # 3. 修改 client.chat.completions.create 的调用
 #     resp = client.chat.completions.create(
 #         model=args.model,
 #         messages=[{"role": "user", "content": content}],
 #         temperature=args.config.get("temperature", 0),
 #         max_tokens=4096,
-#         # stream=False,  # Zhipu SDK 默认就是非流式，可以省略
-#         thinking={"type": "disabled"} # 加入这个关键参数
+#         # stream=False,  
+#         thinking={"type": "disabled"}
 #     )
     
-#     # 4. 提取结果的逻辑完全不变
 #     return resp.choices[0].message.content.strip()
 
 
@@ -113,14 +107,6 @@ def save_outputs(args, samples, preds):
     print(f"✅ Saved {len(records)} samples -> {out_path}")
 
 
-def set_seed(seed_value):
-    torch.manual_seed(seed_value)
-    random.seed(seed_value)
-    np.random.seed(seed_value)
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False
-
-
 # ===== main =====
 def main():
     parser = ArgumentParser()
@@ -133,11 +119,9 @@ def main():
     parser.add_argument('--config_path', type=str, default="configs/api.yaml")
     parser.add_argument("--cache_dir", type=str, default=None,
                         help="Path to HuggingFace cache dir (for text metadata only)")
-    parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--base_url", type=str, default="https://tao.plus7.plus/v1",
                         help="Base URL for API endpoint")
     args = parser.parse_args()
-    set_seed(args.seed)
 
     args.config = load_yaml(args.config_path)
     for key, value in args.config.items():

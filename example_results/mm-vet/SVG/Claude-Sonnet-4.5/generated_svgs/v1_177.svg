@@ -1,0 +1,141 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#8B2635"/>
+  
+  <!-- Decorative red backdrop with patterns -->
+  <rect x="50" y="30" width="900" height="540" fill="#C41E3A"/>
+  
+  <!-- Golden cloud patterns -->
+  <ellipse cx="150" cy="80" rx="40" ry="25" fill="#D4AF37" opacity="0.6"/>
+  <ellipse cx="300" cy="100" rx="35" ry="20" fill="#D4AF37" opacity="0.5"/>
+  <ellipse cx="700" cy="90" rx="45" ry="28" fill="#D4AF37" opacity="0.6"/>
+  <ellipse cx="850" cy="110" rx="38" ry="22" fill="#D4AF37" opacity="0.5"/>
+  
+  <!-- Decorative swirl patterns -->
+  <path d="M 200 150 Q 220 130 240 150 Q 260 170 280 150" stroke="#8B4513" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 750 140 Q 770 120 790 140 Q 810 160 830 140" stroke="#8B4513" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Background performers -->
+  <ellipse cx="150" cy="320" rx="35" ry="50" fill="#6B8E23"/>
+  <circle cx="150" cy="285" r="22" fill="#FFE4C4"/>
+  
+  <ellipse cx="320" cy="310" rx="32" ry="48" fill="#4682B4"/>
+  <circle cx="320" cy="278" r="20" fill="#FFE4C4"/>
+  
+  <ellipse cx="680" cy="315" rx="33" ry="49" fill="#5F9EA0"/>
+  <circle cx="680" cy="282" r="21" fill="#FFE4C4"/>
+  
+  <ellipse cx="850" cy="325" rx="34" ry="47" fill="#87CEEB"/>
+  <circle cx="850" cy="293" r="19" fill="#FFE4C4"/>
+  
+  <!-- Left performer (in yellow) -->
+  <!-- Yellow robe -->
+  <ellipse cx="350" cy="400" rx="65" ry="110" fill="#FFD700"/>
+  <rect x="285" y="340" width="130" height="140" fill="#FFD700" rx="15"/>
+  
+  <!-- Blue decorative collar -->
+  <ellipse cx="350" cy="310" rx="55" ry="35" fill="#4169E1"/>
+  <path d="M 295 310 Q 350 290 405 310" stroke="#D4AF37" stroke-width="2" fill="none"/>
+  
+  <!-- Head -->
+  <circle cx="350" cy="260" r="32" fill="#FFE4C4"/>
+  
+  <!-- Headdress -->
+  <ellipse cx="350" cy="230" rx="45" ry="20" fill="#D4AF37"/>
+  <rect x="330" y="220" width="40" height="15" fill="#FFD700"/>
+  <circle cx="335" cy="225" r="6" fill="#00CED1"/>
+  <circle cx="365" cy="225" r="6" fill="#7FFF00"/>
+  
+  <!-- Hair ornaments -->
+  <ellipse cx="320" cy="250" rx="8" ry="12" fill="#2F4F4F"/>
+  <ellipse cx="380" cy="250" rx="8" ry="12" fill="#2F4F4F"/>
+  
+  <!-- Pearls/beads -->
+  <circle cx="350" cy="295" r="5" fill="#F5F5DC"/>
+  <circle cx="340" cy="300" r="4" fill="#F5F5DC"/>
+  <circle cx="360" cy="300" r="4" fill="#F5F5DC"/>
+  
+  <!-- Arm -->
+  <rect x="285" y="360" width="35" height="80" fill="#FFD700" rx="10"/>
+  <circle cx="302" cy="440" r="15" fill="#FFE4C4"/>
+  
+  <!-- Central warrior figure -->
+  <!-- Black and gold armor body -->
+  <ellipse cx="500" cy="400" rx="75" ry="120" fill="#1C1C1C"/>
+  <rect x="425" y="330" width="150" height="150" fill="#2F2F2F" rx="10"/>
+  
+  <!-- Gold armor details -->
+  <ellipse cx="460" cy="380" rx="25" ry="35" fill="#D4AF37"/>
+  <ellipse cx="540" cy="380" rx="25" ry="35" fill="#D4AF37"/>
+  <rect x="480" y="400" width="40" height="60" fill="#D4AF37"/>
+  
+  <!-- Ornate patterns on armor -->
+  <circle cx="460" cy="370" r="8" fill="#8B0000"/>
+  <circle cx="540" cy="370" r="8" fill="#8B0000"/>
+  <circle cx="500" cy="420" r="10" fill="#FFD700"/>
+  
+  <!-- Distinctive white face with black beard -->
+  <ellipse cx="500" cy="270" rx="38" ry="45" fill="#FFFFFF"/>
+  
+  <!-- Black beard -->
+  <path d="M 470 290 Q 500 310 530 290 L 520 300 Q 500 315 480 300 Z" fill="#000000"/>
+  <ellipse cx="500" cy="300" rx="25" ry="20" fill="#000000"/>
+  
+  <!-- Facial features -->
+  <ellipse cx="485" cy="265" rx="6" ry="8" fill="#000000"/>
+  <ellipse cx="515" cy="265" rx="6" ry="8" fill="#000000"/>
+  <path d="M 490 280 Q 500 283 510 280" stroke="#8B0000" stroke-width="2" fill="none"/>
+  
+  <!-- Elaborate headdress with black pom-poms -->
+  <ellipse cx="500" cy="215" rx="50" ry="25" fill="#D4AF37"/>
+  <rect x="470" y="200" width="60" height="20" fill="#FFD700"/>
+  
+  <!-- Black pom-poms on top -->
+  <circle cx="475" cy="185" r="12" fill="#000000"/>
+  <circle cx="500" cy="175" r="14" fill="#000000"/>
+  <circle cx="525" cy="185" r="12" fill="#000000"/>
+  <circle cx="490" cy="190" r="10" fill="#000000"/>
+  <circle cx="510" cy="190" r="10" fill="#000000"/>
+  
+  <!-- Ornamental details -->
+  <circle cx="475" cy="210" r="6" fill="#FF0000"/>
+  <circle cx="525" cy="210" r="6" fill="#FF0000"/>
+  
+  <!-- Feathers/plumes -->
+  <ellipse cx="455" cy="200" rx="8" ry="25" fill="#2F4F4F" transform="rotate(-30 455 200)"/>
+  <ellipse cx="545" cy="200" rx="8" ry="25" fill="#2F4F4F" transform="rotate(30 545 200)"/>
+  
+  <!-- Pearl strings -->
+  <circle cx="500" cy="240" r="5" fill="#F5F5DC"/>
+  <circle cx="485" cy="245" r="4" fill="#F5F5DC"/>
+  <circle cx="515" cy="245" r="4" fill="#F5F5DC"/>
+  
+  <!-- Right performer -->
+  <!-- Golden armor -->
+  <ellipse cx="700" cy="410" rx="70" ry="115" fill="#DAA520"/>
+  <rect x="630" y="340" width="140" height="145" fill="#B8860B" rx="12"/>
+  
+  <!-- Ornate patterns -->
+  <circle cx="665" cy="370" r="12" fill="#FF6347"/>
+  <circle cx="735" cy="370" r="12" fill="#FF6347"/>
+  <circle cx="700" cy="400" r="15" fill="#FFD700"/>
+  <circle cx="680" cy="430" r="10" fill="#D4AF37"/>
+  <circle cx="720" cy="430" r="10" fill="#D4AF37"/>
+  
+  <!-- Head -->
+  <circle cx="700" cy="280" r="30" fill="#FFE4C4"/>
+  
+  <!-- Headdress -->
+  <ellipse cx="700" cy="250" rx="42" ry="22" fill="#D4AF37"/>
+  <rect x="675" y="240" width="50" height="18" fill="#FFD700"/>
+  <circle cx="685" cy="245" r="7" fill="#FF4500"/>
+  <circle cx="715" cy="245" r="7" fill="#FF4500"/>
+  
+  <!-- Hair -->
+  <ellipse cx="675" cy="270" rx="10" ry="15" fill="#2F4F4F"/>
+  <ellipse cx="725" cy="270" rx="10" ry="15" fill="#2F4F4F"/>
+  
+  <!-- Stage floor -->
+  <rect x="50" y="520" width="900" height="50" fill="#8B4513"/>
+  <rect x="50" y="520" width="900" height="10" fill="#654321"/>
+</svg>

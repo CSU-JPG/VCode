@@ -1,0 +1,117 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#2a2a2a"/>
+  
+  <!-- Top left tomatoes -->
+  <ellipse cx="100" cy="80" rx="25" ry="22" fill="#c41e3a"/>
+  <ellipse cx="150" cy="85" rx="25" ry="22" fill="#c41e3a"/>
+  <ellipse cx="200" cy="90" rx="25" ry="22" fill="#c41e3a"/>
+  <ellipse cx="125" cy="110" rx="25" ry="22" fill="#c41e3a"/>
+  <ellipse cx="175" cy="115" rx="25" ry="22" fill="#c41e3a"/>
+  
+  <!-- Yellow peppers -->
+  <ellipse cx="280" cy="100" rx="28" ry="35" fill="#ffd700"/>
+  <ellipse cx="330" cy="105" rx="28" ry="35" fill="#ffd700"/>
+  <ellipse cx="280" cy="150" rx="28" ry="35" fill="#ffc107"/>
+  <ellipse cx="330" cy="155" rx="28" ry="35" fill="#ffc107"/>
+  
+  <!-- Cauliflower -->
+  <circle cx="420" cy="120" r="40" fill="#f5f5dc"/>
+  <circle cx="410" cy="110" r="15" fill="#f0ead6"/>
+  <circle cx="430" cy="115" r="18" fill="#f0ead6"/>
+  <circle cx="425" cy="135" r="16" fill="#f0ead6"/>
+  
+  <!-- Green cucumbers left -->
+  <rect x="60" y="240" width="25" height="100" rx="12" fill="#2d5016"/>
+  <rect x="90" y="240" width="25" height="100" rx="12" fill="#2d5016"/>
+  <rect x="120" y="240" width="25" height="100" rx="12" fill="#355e1f"/>
+  <rect x="150" y="240" width="25" height="100" rx="12" fill="#355e1f"/>
+  
+  <!-- More tomatoes -->
+  <ellipse cx="220" cy="280" rx="20" ry="18" fill="#d32f2f"/>
+  <ellipse cx="250" cy="285" rx="20" ry="18" fill="#d32f2f"/>
+  <ellipse cx="280" cy="290" rx="20" ry="18" fill="#d32f2f"/>
+  <ellipse cx="235" cy="305" rx="20" ry="18" fill="#c41e3a"/>
+  <ellipse cx="265" cy="310" rx="20" ry="18" fill="#c41e3a"/>
+  
+  <!-- Yellow apples/lemons center -->
+  <circle cx="380" cy="280" r="25" fill="#fff44f"/>
+  <circle cx="420" cy="285" r="25" fill="#fff44f"/>
+  <circle cx="460" cy="290" r="25" fill="#ffeb3b"/>
+  <circle cx="400" cy="315" r="25" fill="#ffeb3b"/>
+  <circle cx="440" cy="320" r="25" fill="#fff44f"/>
+  
+  <!-- Red apples upper right -->
+  <circle cx="650" cy="120" r="28" fill="#8b0000"/>
+  <circle cx="690" cy="125" r="28" fill="#a52a2a"/>
+  <circle cx="730" cy="130" r="28" fill="#8b0000"/>
+  <circle cx="670" cy="160" r="28" fill="#a52a2a"/>
+  <circle cx="710" cy="165" r="28" fill="#8b0000"/>
+  
+  <!-- Green apples right -->
+  <circle cx="900" cy="180" r="30" fill="#8db600"/>
+  <circle cx="945" cy="185" r="30" fill="#9acd32"/>
+  <circle cx="990" cy="190" r="30" fill="#8db600"/>
+  <circle cx="922" cy="220" r="30" fill="#9acd32"/>
+  <circle cx="967" cy="225" r="30" fill="#8db600"/>
+  
+  <!-- Oranges bottom center -->
+  <circle cx="320" cy="480" r="30" fill="#ff8c00"/>
+  <circle cx="365" cy="485" r="30" fill="#ff8c00"/>
+  <circle cx="410" cy="490" r="30" fill="#ffa500"/>
+  <circle cx="342" cy="520" r="30" fill="#ffa500"/>
+  <circle cx="387" cy="525" r="30" fill="#ff8c00"/>
+  <circle cx="432" cy="530" r="30" fill="#ff8c00"/>
+  
+  <!-- Purple grapes bottom -->
+  <circle cx="420" cy="420" r="15" fill="#4a235a"/>
+  <circle cx="445" cy="425" r="15" fill="#5b2c6f"/>
+  <circle cx="405" cy="440" r="15" fill="#4a235a"/>
+  <circle cx="430" cy="445" r="15" fill="#5b2c6f"/>
+  <circle cx="415" cy="460" r="15" fill="#4a235a"/>
+  
+  <!-- Strawberries bottom left -->
+  <path d="M 100 580 L 110 600 L 90 600 Z" fill="#c41e3a"/>
+  <path d="M 140 585 L 150 605 L 130 605 Z" fill="#d32f2f"/>
+  <path d="M 180 590 L 190 610 L 170 610 Z" fill="#c41e3a"/>
+  <path d="M 120 615 L 130 635 L 110 635 Z" fill="#d32f2f"/>
+  <path d="M 160 620 L 170 640 L 150 640 Z" fill="#c41e3a"/>
+  
+  <!-- Grapes right bottom -->
+  <circle cx="700" cy="520" r="15" fill="#5b2c6f"/>
+  <circle cx="725" cy="525" r="15" fill="#4a235a"/>
+  <circle cx="685" cy="540" r="15" fill="#5b2c6f"/>
+  <circle cx="710" cy="545" r="15" fill="#4a235a"/>
+  <circle cx="695" cy="560" r="15" fill="#5b2c6f"/>
+  
+  <!-- Bananas bottom right -->
+  <path d="M 950 600 Q 960 610 970 605 Q 975 600 980 595 Q 970 590 960 595 Q 955 598 950 600" fill="#ffe135"/>
+  <path d="M 1000 610 Q 1010 620 1020 615 Q 1025 610 1030 605 Q 1020 600 1010 605 Q 1005 608 1000 610" fill="#ffeb3b"/>
+  <path d="M 975 630 Q 985 640 995 635 Q 1000 630 1005 625 Q 995 620 985 625 Q 980 628 975 630" fill="#ffe135"/>
+  
+  <!-- Yellow lemons far right -->
+  <circle cx="1050" cy="280" r="28" fill="#fff44f"/>
+  <circle cx="1090" cy="285" r="28" fill="#ffeb3b"/>
+  <circle cx="1130" cy="290" r="28" fill="#fff44f"/>
+  <circle cx="1070" cy="320" r="28" fill="#ffeb3b"/>
+  <circle cx="1110" cy="325" r="28" fill="#fff44f"/>
+  
+  <!-- Price tags -->
+  <rect x="80" y="180" width="50" height="35" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="105" y="202" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">8.00</text>
+  
+  <rect x="250" y="220" width="50" height="35" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="275" y="242" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">9.00</text>
+  
+  <rect x="370" y="370" width="50" height="35" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="395" y="392" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">7.00</text>
+  
+  <rect x="450" y="560" width="55" height="35" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="477" y="582" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">12.00</text>
+  
+  <rect x="850" y="280" width="50" height="35" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="875" y="302" font-family="Arial" font-size="18" text-anchor="middle" fill="#000">9.00</text>
+  
+  <rect x="1050" y="680" width="50" height="35" fill="white" stroke="#000" stroke-width="1"/>
+  <text x="1075" y="702" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">15.00</text>
+</svg>

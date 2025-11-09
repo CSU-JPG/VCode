@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header row -->
+  <rect x="30" y="18" width="270" height="42" fill="#00A651"/>
+  <rect x="300" y="18" width="80" height="42" fill="#00A651"/>
+  <rect x="380" y="18" width="80" height="42" fill="#00A651"/>
+  <rect x="460" y="18" width="80" height="42" fill="#00A651"/>
+  <rect x="540" y="18" width="80" height="42" fill="#00A651"/>
+  <rect x="620" y="18" width="80" height="42" fill="#00A651"/>
+  <rect x="700" y="18" width="80" height="42" fill="#00A651"/>
+  <rect x="780" y="18" width="100" height="42" fill="#00A651"/>
+  <rect x="880" y="18" width="90" height="42" fill="#00A651"/>
+  
+  <!-- Header text -->
+  <text x="165" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">JAN</text>
+  <text x="340" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">FEB</text>
+  <text x="420" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">MAR</text>
+  <text x="500" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">APR</text>
+  <text x="580" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">MAY</text>
+  <text x="660" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">JUN</text>
+  <text x="740" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Total</text>
+  <text x="830" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Average</text>
+  <text x="925" y="45" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Average</text>
+  
+  <!-- INCOME row -->
+  <rect x="30" y="60" width="940" height="38" fill="#FFEB3B"/>
+  <text x="45" y="84" font-family="Arial" font-size="18" font-weight="bold" fill="black">INCOME</text>
+  
+  <!-- Salary row -->
+  <rect x="30" y="98" width="270" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="98" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="380" y="98" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="460" y="98" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="540" y="98" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="620" y="98" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="700" y="98" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="780" y="98" width="100" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="880" y="98" width="90" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="150" y="122" font-family="Arial" font-size="16" fill="#555" text-anchor="middle">Salary</text>
+  <text x="340" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$5,000</text>
+  <text x="420" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$5,000</text>
+  <text x="500" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$5,000</text>
+  <text x="580" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$5,000</text>
+  <text x="660" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$5,000</text>
+  <text x="740" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$5,000</text>
+  <text x="830" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$30,000</text>
+  <text x="925" y="122" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$5,000</text>
+  
+  <!-- Business row -->
+  <rect x="30" y="136" width="270" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="136" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="380" y="136" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="460" y="136" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="540" y="136" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="620" y="136" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="700" y="136" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="780" y="136" width="100" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="880" y="136" width="90" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="150" y="160" font-family="Arial" font-size="16" fill="#555" text-anchor="middle">Business</text>
+  <text x="340" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$4,000</text>
+  <text x="420" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$4,200</text>
+  <text x="500" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$3,800</text>
+  <text x="580" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$3,400</text>
+  <text x="660" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$4,000</text>
+  <text x="740" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$3,600</text>
+  <text x="830" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$23,000</text>
+  <text x="925" y="160" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$3,833</text>
+  
+  <!-- Dividends row -->
+  <rect x="30" y="174" width="270" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="174" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="380" y="174" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="460" y="174" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="540" y="174" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="620" y="174" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="700" y="174" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="780" y="174" width="100" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="880" y="174" width="90" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="150" y="198" font-family="Arial" font-size="16" fill="#555" text-anchor="middle">Dividends</text>
+  <text x="340" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">0</text>
+  <text x="420" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">0</text>
+  <text x="500" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">0</text>
+  <text x="580" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">0</text>
+  <text x="660" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">0</text>
+  <text x="740" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">0</text>
+  <text x="830" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$0</text>
+  <text x="925" y="198" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$0</text>
+  
+  <!-- Interest Income row -->
+  <rect x="30" y="212" width="270" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="212" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="380" y="212" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="460" y="212" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="540" y="212" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="620" y="212" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="700" y="212" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="780" y="212" width="100" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="880" y="212" width="90" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="150" y="236" font-family="Arial" font-size="16" fill="#555" text-anchor="middle">Interest Income</text>
+  <text x="340" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  <text x="420" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  <text x="500" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  <text x="580" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  <text x="660" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  <text x="740" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  <text x="830" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$300</text>
+  <text x="925" y="236" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  
+  <!-- Others row -->
+  <rect x="30" y="250" width="270" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="250" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="380" y="250" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="460" y="250" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="540" y="250" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="620" y="250" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="700" y="250" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="780" y="250" width="100" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="880" y="250" width="90" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="150" y="274" font-family="Arial" font-size="16" fill="#555" text-anchor="middle">Others</text>
+  <text x="340" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$0</text>
+  <text x="420" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$0</text>
+  <text x="500" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$20</text>
+  <text x="580" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$0</text>
+  <text x="660" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$30</text>
+  <text x="740" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$0</text>
+  <text x="830" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$50</text>
+  <text x="925" y="274" font-family="Arial" font-size="16" fill="black" text-anchor="middle">$8</text>
+  
+  <!-- Total row -->
+  <rect x="30" y="288" width="270" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="300" y="288" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="380" y="288" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="460" y="288" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="540" y="288" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="620" y="288" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="700" y="288" width="80" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="780" y="288" width="100" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  <rect x="880" y="288" width="90" height="38" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <text x="150" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">Total</text>
+  <text x="340" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$9,050</text>
+  <text x="420" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$9,250</text>
+  <text x="500" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$8,870</text>
+  <text x="580" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$8,450</text>
+  <text x="660" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$9,080</text>
+  <text x="740" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$8,650</text>
+  <text x="830" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$53,350</text>
+  <text x="925" y="312" font-family="Arial" font-size="16" font-weight="bold" fill="black" text-anchor="middle">$8,892</text>
+  
+  <!-- Border -->
+  <rect x="30" y="18" width="940" height="308" fill="none" stroke="#333" stroke-width="2"/>
+</svg>

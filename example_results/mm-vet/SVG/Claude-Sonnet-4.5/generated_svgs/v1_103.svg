@@ -1,0 +1,99 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#8B7355"/>
+  <rect x="100" y="0" width="200" height="1000" fill="#C9A961" opacity="0.6"/>
+  <rect x="500" y="0" width="200" height="1000" fill="#C9A961" opacity="0.4"/>
+  
+  <!-- Body - nude/beige dress -->
+  <ellipse cx="400" cy="680" rx="140" ry="180" fill="#F5E6D3"/>
+  <path d="M 260 680 Q 260 550 320 500 L 320 650 Z" fill="#F5E6D3"/>
+  <path d="M 540 680 Q 540 550 480 500 L 480 650 Z" fill="#F5E6D3"/>
+  
+  <!-- White feathered dress detail -->
+  <ellipse cx="400" cy="720" rx="130" ry="160" fill="#FFFFFF"/>
+  <circle cx="340" cy="680" r="25" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="370" cy="720" r="28" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="430" cy="720" r="28" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="460" cy="680" r="25" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="320" cy="750" r="22" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="480" cy="750" r="22" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="360" cy="780" r="20" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="440" cy="780" r="20" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Sheer overlay on shoulders/neck -->
+  <path d="M 320 500 Q 360 480 400 480 Q 440 480 480 500 L 480 550 Q 400 530 320 550 Z" fill="#F5E6D3" opacity="0.5"/>
+  
+  <!-- Neck -->
+  <rect x="380" y="460" width="40" height="50" fill="#D4A574"/>
+  
+  <!-- Head -->
+  <ellipse cx="400" cy="340" rx="90" ry="110" fill="#D4A574"/>
+  
+  <!-- Hair -->
+  <ellipse cx="360" cy="280" rx="70" ry="90" fill="#2C1810"/>
+  <ellipse cx="440" cy="280" rx="70" ry="90" fill="#2C1810"/>
+  <ellipse cx="400" cy="250" rx="85" ry="80" fill="#2C1810"/>
+  <path d="M 310 300 Q 280 350 290 420 Q 295 440 310 450 L 320 400 Q 315 350 310 300 Z" fill="#2C1810"/>
+  <path d="M 490 300 Q 520 380 500 450 L 485 420 Q 490 370 490 300 Z" fill="#2C1810"/>
+  <ellipse cx="340" cy="450" rx="35" ry="80" fill="#2C1810"/>
+  <ellipse cx="460" cy="450" rx="35" ry="80" fill="#2C1810"/>
+  
+  <!-- Headband with crystals -->
+  <ellipse cx="400" cy="245" rx="95" ry="12" fill="#C0C0C0"/>
+  <circle cx="370" cy="245" r="4" fill="#FFFFFF"/>
+  <circle cx="385" cy="245" r="4" fill="#FFFFFF"/>
+  <circle cx="400" cy="245" r="4" fill="#FFFFFF"/>
+  <circle cx="415" cy="245" r="4" fill="#FFFFFF"/>
+  <circle cx="430" cy="245" r="4" fill="#FFFFFF"/>
+  
+  <!-- Face features -->
+  <ellipse cx="365" cy="330" rx="15" ry="8" fill="#3D2817"/>
+  <ellipse cx="435" cy="330" rx="15" ry="8" fill="#3D2817"/>
+  <path d="M 350 325 Q 355 318 365 320" fill="none" stroke="#2C1810" stroke-width="3"/>
+  <path d="M 430 320 Q 440 318 450 325" fill="none" stroke="#2C1810" stroke-width="3"/>
+  
+  <!-- Smile -->
+  <path d="M 370 370 Q 400 390 430 370" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 372 372 Q 400 388 428 372" fill="#C97064" opacity="0.6"/>
+  
+  <!-- Nose -->
+  <path d="M 400 345 L 395 360" fill="none" stroke="#B8966A" stroke-width="2"/>
+  
+  <!-- Earrings -->
+  <rect x="305" y="350" width="8" height="45" rx="4" fill="#E8E8E8"/>
+  <rect x="487" y="350" width="8" height="45" rx="4" fill="#E8E8E8"/>
+  <circle cx="309" cy="360" r="5" fill="#FFFFFF"/>
+  <circle cx="491" cy="360" r="5" fill="#FFFFFF"/>
+  
+  <!-- Right hand on chest -->
+  <ellipse cx="350" cy="580" rx="35" ry="50" fill="#D4A574" transform="rotate(-25 350 580)"/>
+  <ellipse cx="340" cy="560" rx="12" ry="25" fill="#D4A574" transform="rotate(-40 340 560)"/>
+  <ellipse cx="350" cy="550" rx="12" ry="25" fill="#D4A574" transform="rotate(-30 350 550)"/>
+  <ellipse cx="365" cy="545" rx="12" ry="25" fill="#D4A574" transform="rotate(-20 365 545)"/>
+  <ellipse cx="380" cy="545" rx="12" ry="25" fill="#D4A574" transform="rotate(-10 380 545)"/>
+  
+  <!-- Ring on hand -->
+  <ellipse cx="370" cy="555" rx="8" ry="6" fill="#FFD700" transform="rotate(-20 370 555)"/>
+  <circle cx="370" cy="550" r="4" fill="#FFFFFF"/>
+  
+  <!-- Oscar statue -->
+  <rect x="430" y="780" width="35" height="120" fill="#1C1C1C"/>
+  <ellipse cx="447.5" cy="780" rx="25" ry="35" fill="#1C1C1C"/>
+  <rect x="415" y="895" width="65" height="15" rx="3" fill="#1C1C1C"/>
+  
+  <!-- Oscar figure -->
+  <circle cx="447.5" cy="735" r="18" fill="#D4AF37"/>
+  <ellipse cx="447.5" cy="770" rx="20" ry="35" fill="#D4AF37"/>
+  <rect x="440" y="760" width="15" height="30" fill="#D4AF37"/>
+  <ellipse cx="432" cy="765" rx="8" ry="20" fill="#D4AF37" transform="rotate(-30 432 765)"/>
+  <ellipse cx="463" cy="765" rx="8" ry="20" fill="#D4AF37" transform="rotate(30 463 765)"/>
+  <rect x="440" y="800" width="7" height="25" fill="#D4AF37"/>
+  <rect x="450" y="800" width="7" height="25" fill="#D4AF37"/>
+  
+  <!-- Microphone -->
+  <ellipse cx="450" cy="650" rx="18" ry="28" fill="#1C1C1C"/>
+  <rect x="445" y="665" width="10" height="80" fill="#2C2C2C"/>
+  
+  <!-- Shadow and depth -->
+  <ellipse cx="400" cy="950" rx="180" ry="30" fill="#000000" opacity="0.2"/>
+</svg>

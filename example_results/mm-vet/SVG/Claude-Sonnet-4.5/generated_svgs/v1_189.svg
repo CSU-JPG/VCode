@@ -1,0 +1,80 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#4a6b2f"/>
+  
+  <!-- Dark green leaves in background -->
+  <ellipse cx="150" cy="100" rx="120" ry="80" fill="#3d5a28" transform="rotate(-25 150 100)"/>
+  <ellipse cx="650" cy="150" rx="140" ry="90" fill="#3d5a28" transform="rotate(30 650 150)"/>
+  <ellipse cx="100" cy="400" rx="100" ry="70" fill="#3d5a28" transform="rotate(-40 100 400)"/>
+  <ellipse cx="700" cy="450" rx="110" ry="75" fill="#3d5a28" transform="rotate(35 700 450)"/>
+  
+  <!-- Healthy green leaves -->
+  <ellipse cx="200" cy="200" rx="110" ry="75" fill="#7fb03b" transform="rotate(-15 200 200)"/>
+  <ellipse cx="600" cy="250" rx="120" ry="80" fill="#8bc34a" transform="rotate(20 600 250)"/>
+  <ellipse cx="150" cy="500" rx="100" ry="70" fill="#7fb03b" transform="rotate(-30 150 500)"/>
+  <ellipse cx="650" cy="520" rx="105" ry="72" fill="#8bc34a" transform="rotate(25 650 520)"/>
+  
+  <!-- Central damaged leaves -->
+  <g>
+    <!-- Damaged leaf 1 -->
+    <ellipse cx="400" cy="300" rx="140" ry="100" fill="#a8c965"/>
+    <path d="M 400 200 Q 420 220 410 240 L 405 235 Q 415 215 400 200 Z" fill="#c7db8e"/>
+    <path d="M 400 200 L 400 400" stroke="#7a9c3e" stroke-width="3" fill="none"/>
+    
+    <!-- Holes in leaf 1 -->
+    <ellipse cx="380" cy="260" rx="12" ry="18" fill="#4a6b2f"/>
+    <ellipse cx="420" cy="270" rx="15" ry="20" fill="#4a6b2f"/>
+    <ellipse cx="390" cy="300" rx="18" ry="22" fill="#4a6b2f"/>
+    <ellipse cx="410" cy="310" rx="14" ry="19" fill="#4a6b2f"/>
+    <ellipse cx="370" cy="320" rx="16" ry="21" fill="#4a6b2f"/>
+    <ellipse cx="430" cy="330" rx="13" ry="17" fill="#4a6b2f"/>
+    <ellipse cx="395" cy="350" rx="17" ry="23" fill="#4a6b2f"/>
+    <ellipse cx="415" cy="360" rx="15" ry="20" fill="#4a6b2f"/>
+    
+    <!-- Brown edges and damage -->
+    <path d="M 280 290 Q 270 300 275 315 L 280 310 Q 275 300 280 290 Z" fill="#8b7355"/>
+    <path d="M 520 310 Q 530 320 525 335 L 520 330 Q 525 320 520 310 Z" fill="#8b7355"/>
+    <ellipse cx="350" cy="280" rx="8" ry="10" fill="#9d8b6f"/>
+    <ellipse cx="450" cy="350" rx="9" ry="11" fill="#9d8b6f"/>
+    
+    <!-- Damaged leaf 2 (overlapping) -->
+    <ellipse cx="380" cy="320" rx="130" ry="95" fill="#b5d478" transform="rotate(-10 380 320)"/>
+    <path d="M 380 225 L 380 415" stroke="#7a9c3e" stroke-width="2.5" fill="none"/>
+    
+    <!-- More holes in leaf 2 -->
+    <ellipse cx="360" cy="280" rx="11" ry="16" fill="#4a6b2f" transform="rotate(-10 360 280)"/>
+    <ellipse cx="340" cy="310" rx="14" ry="19" fill="#4a6b2f" transform="rotate(-10 340 310)"/>
+    <ellipse cx="370" cy="340" rx="16" ry="21" fill="#4a6b2f" transform="rotate(-10 370 340)"/>
+    <ellipse cx="350" cy="370" rx="13" ry="18" fill="#4a6b2f" transform="rotate(-10 350 370)"/>
+    <ellipse cx="400" cy="330" rx="12" ry="17" fill="#4a6b2f" transform="rotate(-10 400 330)"/>
+    
+    <!-- Web-like damage pattern -->
+    <path d="M 360 290 Q 380 300 390 310" stroke="#d4d9c0" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M 370 300 Q 375 315 365 330" stroke="#d4d9c0" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M 385 305 Q 395 318 390 335" stroke="#d4d9c0" stroke-width="1.5" fill="none" opacity="0.7"/>
+    
+    <!-- Additional brown spots -->
+    <ellipse cx="365" cy="350" rx="10" ry="12" fill="#a0896e" opacity="0.8"/>
+    <ellipse cx="410" cy="340" rx="11" ry="13" fill="#a0896e" opacity="0.8"/>
+    <ellipse cx="340" cy="330" rx="9" ry="11" fill="#9d8b6f" opacity="0.7"/>
+  </g>
+  
+  <!-- Side leaves partially visible -->
+  <ellipse cx="50" cy="300" rx="90" ry="65" fill="#7fb03b" transform="rotate(-45 50 300)"/>
+  <ellipse cx="750" cy="350" rx="95" ry="68" fill="#8bc34a" transform="rotate(40 750 350)"/>
+  
+  <!-- Subtle texture overlay -->
+  <rect width="800" height="600" fill="url(#noise)" opacity="0.03"/>
+  
+  <defs>
+    <pattern id="noise" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#000"/>
+      <circle cx="10" cy="15" r="1" fill="#fff"/>
+      <circle cx="40" cy="35" r="1" fill="#fff"/>
+      <circle cx="70" cy="25" r="1" fill="#fff"/>
+      <circle cx="25" cy="60" r="1" fill="#fff"/>
+      <circle cx="80" cy="75" r="1" fill="#fff"/>
+      <circle cx="50" cy="85" r="1" fill="#fff"/>
+    </pattern>
+  </defs>
+</svg>

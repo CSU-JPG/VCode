@@ -1,0 +1,29 @@
+<svg viewBox="0 0 440 460" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid lines -->
+  <rect x="8" y="8" width="424" height="444" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="220" y1="8" x2="220" y2="452" stroke="black" stroke-width="2"/>
+  <line x1="8" y1="96" x2="432" y2="96" stroke="black" stroke-width="2"/>
+  <line x1="8" y1="184" x2="432" y2="184" stroke="black" stroke-width="2"/>
+  <line x1="8" y1="272" x2="432" y2="272" stroke="black" stroke-width="2"/>
+  <line x1="8" y1="360" x2="432" y2="360" stroke="black" stroke-width="2"/>
+  
+  <!-- Row 1 -->
+  <text x="20" y="65" font-family="Arial, sans-serif" font-size="32" fill="black">5 + a = 7</text>
+  <text x="232" y="65" font-family="Arial, sans-serif" font-size="32" fill="black">40 + y = 45</text>
+  
+  <!-- Row 2 -->
+  <text x="20" y="153" font-family="Arial, sans-serif" font-size="32" fill="black">10 + y = 15</text>
+  <text x="232" y="153" font-family="Arial, sans-serif" font-size="32" fill="black">39 + a = 41</text>
+  
+  <!-- Row 3 -->
+  <text x="20" y="241" font-family="Arial, sans-serif" font-size="32" fill="black">20 + a = 22</text>
+  <text x="232" y="241" font-family="Arial, sans-serif" font-size="32" fill="black">24 + y = 29</text>
+  
+  <!-- Row 4 -->
+  <text x="20" y="329" font-family="Arial, sans-serif" font-size="32" fill="black">48 + a = 50</text>
+  <text x="232" y="329" font-family="Arial, sans-serif" font-size="32" fill="black">15 + a =17</text>
+  
+  <!-- Row 5 -->
+  <text x="20" y="417" font-family="Arial, sans-serif" font-size="32" fill="black">10 + a = 12</text>
+  <text x="232" y="417" font-family="Arial, sans-serif" font-size="32" fill="black">34 + y = 39</text>
+</svg>

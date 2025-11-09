@@ -1,0 +1,84 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Row 1 -->
+  <!-- Person 1 - Pink background -->
+  <rect x="0" y="0" width="100" height="150" fill="#e91e63"/>
+  <ellipse cx="50" cy="60" rx="25" ry="30" fill="#8b4513"/>
+  <circle cx="50" cy="75" r="28" fill="#f4c2a8"/>
+  <ellipse cx="43" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="57" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 43 83 Q 50 87 57 83" stroke="#c1503a" stroke-width="2" fill="none"/>
+  
+  <!-- Person 2 - Dark background -->
+  <rect x="100" y="0" width="100" height="150" fill="#1a1a1a"/>
+  <path d="M 150 50 Q 140 45 140 60 Q 140 75 150 80 Q 160 75 160 60 Q 160 45 150 50" fill="#5d4037"/>
+  <circle cx="150" cy="75" r="28" fill="#f4c2a8"/>
+  <ellipse cx="143" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="157" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 143 83 Q 150 87 157 83" stroke="#c1503a" stroke-width="2" fill="none"/>
+  
+  <!-- Person 3 - Dark background -->
+  <rect x="200" y="0" width="100" height="150" fill="#1a1a1a"/>
+  <ellipse cx="250" cy="55" rx="28" ry="32" fill="#c5986b"/>
+  <circle cx="250" cy="75" r="28" fill="#f4c2a8"/>
+  <ellipse cx="243" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="257" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 243 83 Q 250 88 257 83" stroke="#c1503a" stroke-width="2" fill="none"/>
+  
+  <!-- Person 4 - Dark background -->
+  <rect x="300" y="0" width="100" height="150" fill="#1a1a1a"/>
+  <ellipse cx="350" cy="55" rx="25" ry="30" fill="#d4a574"/>
+  <circle cx="350" cy="75" r="28" fill="#f4c2a8"/>
+  <ellipse cx="343" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="357" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 343 83 Q 350 87 357 83" stroke="#c1503a" stroke-width="2" fill="none"/>
+  
+  <!-- Person 5 - Dark background -->
+  <rect x="400" y="0" width="100" height="150" fill="#1a1a1a"/>
+  <path d="M 450 50 Q 438 45 438 60 Q 438 75 450 80 Q 462 75 462 60 Q 462 45 450 50" fill="#6d4c41"/>
+  <circle cx="450" cy="75" r="28" fill="#f4c2a8"/>
+  <ellipse cx="443" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="457" cy="72" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 443 83 Q 450 87 457 83" stroke="#c1503a" stroke-width="2" fill="none"/>
+  
+  <!-- Row 2 -->
+  <!-- Person 6 - Dark background -->
+  <rect x="0" y="150" width="100" height="150" fill="#1a1a1a"/>
+  <path d="M 50 180 Q 30 175 30 195 Q 30 210 50 215 Q 70 210 70 195 Q 70 175 50 180" fill="#f4e4b8"/>
+  <circle cx="50" cy="220" r="28" fill="#f4c2a8"/>
+  <ellipse cx="43" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="57" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 43 228 Q 50 232 57 228" stroke="#c1503a" stroke-width="2" fill="none"/>
+  
+  <!-- Person 7 - Red background -->
+  <rect x="100" y="150" width="100" height="150" fill="#b71c1c"/>
+  <path d="M 150 185 Q 135 180 135 200 Q 135 215 150 220 Q 165 215 165 200 Q 165 180 150 185" fill="#8b4513"/>
+  <circle cx="150" cy="220" r="28" fill="#c17a4a"/>
+  <ellipse cx="143" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="157" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 143 228 Q 150 232 157 228" stroke="#9d5734" stroke-width="2" fill="none"/>
+  
+  <!-- Person 8 - Dark background -->
+  <rect x="200" y="150" width="100" height="150" fill="#1a1a1a"/>
+  <path d="M 250 185 Q 235 180 235 200 Q 235 215 250 220 Q 265 215 265 200 Q 265 180 250 185" fill="#d4a574"/>
+  <circle cx="250" cy="220" r="28" fill="#f4c2a8"/>
+  <ellipse cx="243" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="257" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 243 228 Q 250 232 257 228" stroke="#c1503a" stroke-width="2" fill="none"/>
+  
+  <!-- Person 9 - Dark background -->
+  <rect x="300" y="150" width="100" height="150" fill="#1a1a1a"/>
+  <path d="M 350 185 Q 335 180 335 200 Q 335 215 350 220 Q 365 215 365 200 Q 365 180 350 185" fill="#2c1810"/>
+  <circle cx="350" cy="220" r="28" fill="#6d4c41"/>
+  <ellipse cx="343" cy="217" rx="3" ry="4" fill="#1a1a1a"/>
+  <ellipse cx="357" cy="217" rx="3" ry="4" fill="#1a1a1a"/>
+  <path d="M 343 228 Q 350 232 357 228" stroke="#5d4037" stroke-width="2" fill="none"/>
+  
+  <!-- Person 10 - Red background -->
+  <rect x="400" y="150" width="100" height="150" fill="#b71c1c"/>
+  <ellipse cx="450" cy="195" rx="25" ry="30" fill="#5d4037"/>
+  <circle cx="450" cy="220" r="28" fill="#f4c2a8"/>
+  <ellipse cx="443" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <ellipse cx="457" cy="217" rx="3" ry="4" fill="#2c1810"/>
+  <path d="M 443 228 Q 450 232 457 228" stroke="#c1503a" stroke-width="2" fill="none"/>
+  <rect x="440" y="235" width="20" height="15" fill="#1a1a1a"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#87CEEB"/>
+  
+  <!-- Trees background -->
+  <ellipse cx="100" cy="180" rx="80" ry="120" fill="#4A7C3B" opacity="0.6"/>
+  <ellipse cx="200" cy="160" rx="90" ry="130" fill="#5A8C4B" opacity="0.6"/>
+  <ellipse cx="320" cy="170" rx="85" ry="125" fill="#4A7C3B" opacity="0.6"/>
+  <ellipse cx="450" cy="150" rx="95" ry="135" fill="#5A8C4B" opacity="0.6"/>
+  <ellipse cx="580" cy="165" rx="88" ry="128" fill="#4A7C3B" opacity="0.6"/>
+  <ellipse cx="700" cy="155" rx="92" ry="132" fill="#5A8C4B" opacity="0.6"/>
+  
+  <!-- Road -->
+  <rect x="0" y="300" width="800" height="300" fill="#8B4545"/>
+  
+  <!-- Yellow road lines -->
+  <rect x="390" y="300" width="8" height="60" fill="#FFD700"/>
+  <rect x="390" y="380" width="8" height="60" fill="#FFD700"/>
+  <rect x="390" y="460" width="8" height="60" fill="#FFD700"/>
+  <rect x="390" y="540" width="8" height="60" fill="#FFD700"/>
+  
+  <rect x="402" y="300" width="8" height="60" fill="#FFD700"/>
+  <rect x="402" y="380" width="8" height="60" fill="#FFD700"/>
+  <rect x="402" y="460" width="8" height="60" fill="#FFD700"/>
+  <rect x="402" y="540" width="8" height="60" fill="#FFD700"/>
+  
+  <!-- Runner -->
+  <!-- Head -->
+  <circle cx="420" cy="340" r="22" fill="#E8B89A"/>
+  
+  <!-- Hair -->
+  <ellipse cx="420" cy="325" rx="23" ry="18" fill="#3D2817"/>
+  
+  <!-- Neck -->
+  <rect x="415" y="360" width="10" height="12" fill="#E8B89A"/>
+  
+  <!-- Torso/Tank top -->
+  <path d="M 395 372 L 445 372 L 442 420 L 398 420 Z" fill="#4169E1"/>
+  
+  <!-- Red symbol on tank -->
+  <circle cx="420" cy="390" r="8" fill="#DC143C"/>
+  <rect x="416" y="386" width="8" height="2" fill="#DC143C"/>
+  <rect x="419" y="383" width="2" height="8" fill="#DC143C"/>
+  
+  <!-- Shorts -->
+  <path d="M 398 420 L 442 420 L 438 455 L 428 455 L 420 445 L 412 455 L 402 455 Z" fill="#000000"/>
+  
+  <!-- Left leg (front) -->
+  <path d="M 412 455 L 410 490 L 408 510 L 412 510 L 415 490 L 418 470 Z" fill="#E8B89A"/>
+  
+  <!-- Right leg (back, slightly bent) -->
+  <path d="M 428 455 L 432 475 L 438 495 L 442 510 L 438 512 L 432 498 L 426 478 Z" fill="#D4A078"/>
+  
+  <!-- Left arm (bent at elbow) -->
+  <path d="M 398 375 L 385 385 L 378 395 L 375 405 L 378 407 L 388 398 L 398 388 Z" fill="#E8B89A"/>
+  
+  <!-- Right arm (bent at elbow, swinging) -->
+  <path d="M 442 380 L 455 375 L 468 378 L 475 385 L 472 388 L 460 383 L 445 387 Z" fill="#E8B89A"/>
+  
+  <!-- Left shoe -->
+  <ellipse cx="410" cy="513" rx="12" ry="6" fill="#333333"/>
+  
+  <!-- Right shoe -->
+  <ellipse cx="440" cy="513" rx="12" ry="6" fill="#333333"/>
+  
+  <!-- More foreground trees -->
+  <ellipse cx="80" cy="200" rx="70" ry="110" fill="#3A6C2B" opacity="0.8"/>
+  <ellipse cx="720" cy="190" rx="75" ry="115" fill="#3A6C2B" opacity="0.8"/>
+  
+  <!-- Ground/grass edge -->
+  <rect x="0" y="280" width="800" height="20" fill="#5A8C4B"/>
+</svg>

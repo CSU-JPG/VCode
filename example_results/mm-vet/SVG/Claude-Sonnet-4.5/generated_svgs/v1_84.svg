@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#000000"/>
+  
+  <!-- Chest X-ray base -->
+  <ellipse cx="512" cy="350" rx="420" ry="380" fill="#c0c0c0" opacity="0.3"/>
+  
+  <!-- Shoulder area -->
+  <ellipse cx="280" cy="180" rx="140" ry="100" fill="#d0d0d0" opacity="0.4"/>
+  <ellipse cx="744" cy="180" rx="140" ry="100" fill="#d0d0d0" opacity="0.4"/>
+  
+  <!-- Neck/throat area -->
+  <ellipse cx="512" cy="120" rx="90" ry="130" fill="#e0e0e0" opacity="0.5"/>
+  
+  <!-- Lung fields - left -->
+  <path d="M 250 300 Q 200 400 220 600 Q 240 700 320 780 Q 380 820 450 800 Q 480 790 490 750 Q 500 650 480 500 Q 470 400 420 330 Q 360 260 250 300 Z" fill="#404040" opacity="0.7"/>
+  
+  <!-- Lung fields - right -->
+  <path d="M 774 300 Q 824 400 804 600 Q 784 700 704 780 Q 644 820 574 800 Q 544 790 534 750 Q 524 650 544 500 Q 554 400 604 330 Q 664 260 774 300 Z" fill="#404040" opacity="0.7"/>
+  
+  <!-- Heart shadow -->
+  <ellipse cx="480" cy="550" rx="130" ry="180" fill="#303030" opacity="0.6"/>
+  
+  <!-- Rib structures - left side -->
+  <path d="M 200 250 Q 300 280 380 320" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 190 320 Q 290 360 370 400" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 185 390 Q 285 440 360 480" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 190 460 Q 280 520 350 560" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 200 530 Q 280 600 340 640" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 220 600 Q 290 670 330 720" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Rib structures - right side -->
+  <path d="M 824 250 Q 724 280 644 320" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 834 320 Q 734 360 654 400" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 839 390 Q 739 440 664 480" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 834 460 Q 744 520 674 560" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 824 530 Q 744 600 684 640" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 804 600 Q 734 670 694 720" stroke="#606060" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Spine/mediastinum -->
+  <rect x="490" y="200" width="44" height="650" fill="#505050" opacity="0.6" rx="8"/>
+  
+  <!-- Clavicles -->
+  <path d="M 380 200 Q 440 190 512 195" stroke="#808080" stroke-width="12" fill="none" opacity="0.6"/>
+  <path d="M 644 200 Q 584 190 512 195" stroke="#808080" stroke-width="12" fill="none" opacity="0.6"/>
+  
+  <!-- Medical device/tube visible in right lower area -->
+  <ellipse cx="640" cy="720" rx="45" ry="55" fill="#a0a0a0" opacity="0.7"/>
+  <path d="M 640 665 Q 645 600 650 550" stroke="#909090" stroke-width="6" fill="none" opacity="0.6"/>
+  
+  <!-- L marker -->
+  <text x="900" y="80" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#808080">L</text>
+  <rect x="890" y="30" width="70" height="70" fill="none" stroke="#606060" stroke-width="3" rx="10"/>
+  
+  <!-- Additional lung texture -->
+  <ellipse cx="350" cy="450" rx="80" ry="120" fill="#505050" opacity="0.3"/>
+  <ellipse cx="674" cy="450" rx="80" ry="120" fill="#505050" opacity="0.3"/>
+  
+  <!-- Diaphragm curves -->
+  <path d="M 250 750 Q 380 820 512 800 Q 644 820 774 750" stroke="#707070" stroke-width="4" fill="none" opacity="0.4"/>
+</svg>

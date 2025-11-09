@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="280" fill="#87CEEB"/>
+  
+  <!-- Ocean -->
+  <rect y="280" width="800" height="160" fill="#4A90A4"/>
+  
+  <!-- Waves -->
+  <path d="M0 300 Q50 295 100 300 T200 300 T300 300 T400 300 T500 300 T600 300 T700 300 T800 300 L800 320 L0 320 Z" fill="#E8F4F8" opacity="0.6"/>
+  <path d="M0 315 Q60 310 120 315 T240 315 T360 315 T480 315 T600 315 T720 315 T800 315 L800 335 L0 335 Z" fill="#FFFFFF" opacity="0.5"/>
+  <path d="M0 330 Q70 325 140 330 T280 330 T420 330 T560 330 T700 330 T800 330 L800 350 L0 350 Z" fill="#E8F4F8" opacity="0.4"/>
+  
+  <!-- Beach sand -->
+  <path d="M0 440 L800 380 L800 600 L0 600 Z" fill="#D4A574"/>
+  
+  <!-- Wet sand -->
+  <path d="M0 440 Q200 435 400 430 T800 420 L800 470 Q600 465 400 460 T0 450 Z" fill="#B8976A"/>
+  
+  <!-- Elephant body -->
+  <ellipse cx="380" cy="380" rx="65" ry="85" fill="#5A4A42"/>
+  
+  <!-- Elephant legs -->
+  <rect x="350" y="430" width="25" height="80" rx="12" fill="#4A3A32"/>
+  <rect x="385" y="430" width="25" height="80" rx="12" fill="#5A4A42"/>
+  
+  <!-- Elephant head -->
+  <ellipse cx="380" cy="330" rx="50" ry="55" fill="#5A4A42"/>
+  
+  <!-- Elephant ears -->
+  <ellipse cx="340" cy="320" rx="35" ry="50" fill="#6A5A52" transform="rotate(-20 340 320)"/>
+  <ellipse cx="420" cy="320" rx="35" ry="50" fill="#6A5A52" transform="rotate(20 420 320)"/>
+  
+  <!-- Elephant trunk -->
+  <path d="M380 355 Q385 380 390 405 Q392 425 395 445 Q395 460 390 475" stroke="#5A4A42" stroke-width="22" fill="none" stroke-linecap="round"/>
+  
+  <!-- Trunk tip -->
+  <ellipse cx="390" cy="478" rx="13" ry="10" fill="#5A4A42"/>
+  
+  <!-- Elephant tusks -->
+  <path d="M365 350 Q360 365 358 380" stroke="#E8DCC8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M395 350 Q400 365 402 380" stroke="#E8DCC8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small birds on beach -->
+  <g transform="translate(520, 500)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#8B7355"/>
+    <path d="M-8 -3 L-12 -5 M8 -3 L12 -5" stroke="#8B7355" stroke-width="2" fill="none"/>
+    <line x1="0" y1="6" x2="-2" y2="12" stroke="#8B7355" stroke-width="1.5"/>
+    <line x1="0" y1="6" x2="2" y2="12" stroke="#8B7355" stroke-width="1.5"/>
+  </g>
+  
+  <g transform="translate(560, 505)">
+    <ellipse cx="0" cy="0" rx="7" ry="5" fill="#8B7355"/>
+    <path d="M-7 -2 L-10 -4 M7 -2 L10 -4" stroke="#8B7355" stroke-width="1.5" fill="none"/>
+    <line x1="0" y1="5" x2="-2" y2="11" stroke="#8B7355" stroke-width="1.5"/>
+    <line x1="0" y1="5" x2="2" y2="11" stroke="#8B7355" stroke-width="1.5"/>
+  </g>
+  
+  <g transform="translate(490, 508)">
+    <ellipse cx="0" cy="0" rx="7" ry="5" fill="#8B7355"/>
+    <path d="M-7 -2 L-10 -4 M7 -2 L10 -4" stroke="#8B7355" stroke-width="1.5" fill="none"/>
+    <line x1="0" y1="5" x2="-2" y2="11" stroke="#8B7355" stroke-width="1.5"/>
+    <line x1="0" y1="5" x2="2" y2="11" stroke="#8B7355" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Footprints in sand -->
+  <ellipse cx="320" cy="500" rx="18" ry="12" fill="#A68A6A" opacity="0.5"/>
+  <ellipse cx="305" cy="520" rx="18" ry="12" fill="#A68A6A" opacity="0.5"/>
+</svg>

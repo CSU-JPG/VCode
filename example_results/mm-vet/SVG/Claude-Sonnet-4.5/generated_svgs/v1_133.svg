@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1280 960" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky/Background -->
+  <rect width="1280" height="960" fill="#87a96b"/>
+  
+  <!-- Grass background -->
+  <rect y="700" width="1280" height="260" fill="#5a7d3a"/>
+  
+  <!-- Fence back layer -->
+  <g id="fence-back">
+    <rect x="0" y="50" width="1280" height="15" fill="#8b7355"/>
+    <rect x="0" y="150" width="1280" height="15" fill="#8b7355"/>
+    <!-- Vertical slats -->
+    <rect x="50" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="120" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="190" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="260" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="330" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="400" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="470" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="540" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="610" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="680" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="750" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="820" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="890" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="960" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="1030" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="1100" y="0" width="35" height="200" fill="#8b7355"/>
+    <rect x="1170" y="0" width="35" height="200" fill="#9d8568"/>
+    <rect x="1240" y="0" width="35" height="200" fill="#8b7355"/>
+  </g>
+  
+  <!-- Front fence -->
+  <g id="fence-front">
+    <rect x="0" y="250" width="1280" height="20" fill="#a0906f"/>
+    <rect x="0" y="380" width="1280" height="20" fill="#a0906f"/>
+    <!-- Vertical posts -->
+    <rect x="100" y="200" width="50" height="250" fill="#b8a584"/>
+    <rect x="280" y="200" width="50" height="250" fill="#b8a584"/>
+    <rect x="460" y="200" width="50" height="250" fill="#b8a584"/>
+    <rect x="640" y="200" width="50" height="250" fill="#b8a584"/>
+    <rect x="820" y="200" width="50" height="250" fill="#b8a584"/>
+    <rect x="1000" y="200" width="50" height="250" fill="#b8a584"/>
+    <rect x="1180" y="200" width="50" height="250" fill="#b8a584"/>
+    <!-- Vertical slats between posts -->
+    <rect x="160" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="210" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="340" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="390" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="520" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="570" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="700" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="750" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="880" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="930" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="1060" y="220" width="30" height="200" fill="#9d8568"/>
+    <rect x="1110" y="220" width="30" height="200" fill="#9d8568"/>
+  </g>
+  
+  <!-- Tree stump -->
+  <ellipse cx="850" cy="450" rx="120" ry="50" fill="#4a3528"/>
+  <rect x="730" y="300" width="240" height="150" fill="#5a4535"/>
+  <ellipse cx="850" cy="300" rx="120" ry="50" fill="#6a5545"/>
+  <!-- Bark texture -->
+  <path d="M760 320 Q765 360 760 400" stroke="#3a2518" stroke-width="3" fill="none"/>
+  <path d="M800 310 Q805 370 800 420" stroke="#3a2518" stroke-width="3" fill="none"/>
+  <path d="M850 305 Q855 365 850 425" stroke="#3a2518" stroke-width="3" fill="none"/>
+  <path d="M900 310 Q895 370 900 420" stroke="#3a2518" stroke-width="3" fill="none"/>
+  <path d="M940 320 Q935 360 940 400" stroke="#3a2518" stroke-width="3" fill="none"/>
+  
+  <!-- Ground vegetation -->
+  <ellipse cx="400" cy="750" rx="200" ry="40" fill="#4a6330"/>
+  <ellipse cx="700" cy="780" rx="250" ry="50" fill="#5a7340"/>
+  <ellipse cx="950" cy="770" rx="180" ry="45" fill="#4a6330"/>
+  
+  <!-- Shrub/plant at base of stump -->
+  <ellipse cx="850" cy="600" rx="160" ry="140" fill="#5a7d3a"/>
+  <ellipse cx="780" cy="580" rx="100" ry="90" fill="#6a8d4a"/>
+  <ellipse cx="920" cy="590" rx="110" ry="95" fill="#6a8d4a"/>
+  <ellipse cx="850" cy="540" rx="90" ry="80" fill="#7a9d5a"/>
+  
+  <!-- Branches/stems -->
+  <path d="M820 600 L800 480" stroke="#5a4535" stroke-width="8" fill="none"/>
+  <path d="M870 600 L890 460" stroke="#5a4535" stroke-width="8" fill="none"/>
+  <path d="M850 590 L850 450" stroke="#5a4535" stroke-width="10" fill="none"/>
+  
+  <!-- Leaves on branches -->
+  <ellipse cx="800" cy="480" rx="25" ry="35" fill="#7a9d5a"/>
+  <ellipse cx="810" cy="460" rx="20" ry="30" fill="#6a8d4a"/>
+  <ellipse cx="795" cy="500" rx="22" ry="32" fill="#8aad6a"/>
+  <ellipse cx="890" cy="460" rx="25" ry="35" fill="#7a9d5a"/>
+  <ellipse cx="900" cy="440" rx="20" ry="30" fill="#6a8d4a"/>
+  <ellipse cx="880" cy="480" rx="22" ry="32" fill="#8aad6a"/>
+  <ellipse cx="850" cy="450" rx="28" ry="38" fill="#7a9d5a"/>
+  <ellipse cx="860" cy="420" rx="22" ry="32" fill="#8aad6a"/>
+  
+  <!-- Dead grass/mulch area -->
+  <ellipse cx="850" cy="720" rx="200" ry="60" fill="#8b7355" opacity="0.7"/>
+  <ellipse cx="820" cy="740" rx="180" ry="50" fill="#a0906f" opacity="0.6"/>
+  
+  <!-- Small plants/weeds -->
+  <path d="M600 720 Q610 690 620 720" stroke="#5a7340" stroke-width="4" fill="none"/>
+  <path d="M650 730 Q660 700 670 730" stroke="#5a7340" stroke-width="4" fill="none"/>
+  <path d="M1050 740 Q1060 710 1070 740" stroke="#5a7340" stroke-width="4" fill="none"/>
+  <path d="M1100 735 Q1110 705 1120 735" stroke="#5a7340" stroke-width="4" fill="none"/>
+</svg>

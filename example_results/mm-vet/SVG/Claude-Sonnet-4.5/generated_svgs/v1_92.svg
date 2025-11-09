@@ -1,0 +1,92 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background blur effect -->
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDiffuseLighting in="noise" lighting-color="#f5f0e8" surfaceScale="1">
+        <feDistantLight azimuth="45" elevation="60"/>
+      </feDiffuseLighting>
+    </filter>
+  </defs>
+  
+  <!-- Blurred background -->
+  <rect width="800" height="600" fill="#8b7355"/>
+  <ellipse cx="200" cy="300" rx="150" ry="200" fill="#b8a892" filter="url(#blur)" opacity="0.6"/>
+  <ellipse cx="650" cy="350" rx="120" ry="180" fill="#a89985" filter="url(#blur)" opacity="0.5"/>
+  
+  <!-- Book pages in background (blurred) -->
+  <path d="M 100 150 Q 120 200 110 400 L 300 420 L 290 130 Z" fill="#f9f5ed" filter="url(#blur)" opacity="0.7"/>
+  
+  <!-- Main book page -->
+  <path d="M 250 80 L 650 100 L 630 520 L 240 500 Z" fill="#f5ede0" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- Page texture -->
+  <rect x="250" y="80" width="400" height="440" fill="url(#paperTexture)" opacity="0.3"/>
+  
+  <!-- Inner border -->
+  <rect x="280" y="110" width="340" height="380" fill="none" stroke="#c4a57b" stroke-width="1.5"/>
+  
+  <!-- Title area with decorative lines -->
+  <line x1="290" y1="140" x2="610" y2="145" stroke="#8b4513" stroke-width="1"/>
+  <line x1="290" y1="150" x2="610" y2="155" stroke="#8b4513" stroke-width="0.5"/>
+  
+  <!-- Title text -->
+  <text x="320" y="175" font-family="serif" font-size="14" fill="#6b4423" font-style="italic">MR. WILLIAM</text>
+  <text x="310" y="210" font-family="serif" font-size="38" fill="#4a3420" font-weight="bold" letter-spacing="3">SHAKESPEARES</text>
+  
+  <!-- Subtitle -->
+  <text x="360" y="245" font-family="serif" font-size="16" fill="#5a4230" letter-spacing="2">COMEDIES,</text>
+  <text x="340" y="270" font-family="serif" font-size="16" fill="#5a4230" letter-spacing="2">HISTORIES, &amp;</text>
+  <text x="350" y="295" font-family="serif" font-size="16" fill="#5a4230" letter-spacing="2">TRAGEDIES.</text>
+  
+  <!-- Publication info -->
+  <text x="295" y="320" font-family="serif" font-size="10" fill="#6b5443" font-style="italic">Published according to the True Originall Copies</text>
+  
+  <!-- Portrait frame -->
+  <rect x="360" y="335" width="160" height="135" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="365" y="340" width="150" height="125" fill="#4a4a4a" stroke="#5a5a5a" stroke-width="1"/>
+  
+  <!-- Portrait - Shakespeare's face -->
+  <ellipse cx="440" cy="390" rx="50" ry="55" fill="#d4c4b0"/>
+  
+  <!-- Hair -->
+  <path d="M 390 370 Q 385 360 390 350 Q 400 345 410 348 Q 420 345 430 345 Q 440 343 450 345 Q 460 345 470 348 Q 480 345 490 350 Q 495 360 490 370 Z" fill="#6b5a4a"/>
+  
+  <!-- Forehead and face details -->
+  <ellipse cx="440" cy="385" rx="45" ry="50" fill="#e5d5c5"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="425" cy="385" rx="6" ry="8" fill="#2a2a2a"/>
+  <ellipse cx="455" cy="385" rx="6" ry="8" fill="#2a2a2a"/>
+  <ellipse cx="426" cy="383" rx="2" ry="3" fill="#ffffff"/>
+  <ellipse cx="456" cy="383" rx="2" ry="3" fill="#ffffff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 415 375 Q 425 373 432 375" fill="none" stroke="#4a3a2a" stroke-width="1.5"/>
+  <path d="M 448 375 Q 455 373 465 375" fill="none" stroke="#4a3a2a" stroke-width="1.5"/>
+  
+  <!-- Nose -->
+  <path d="M 440 385 L 440 405" fill="none" stroke="#c4b4a4" stroke-width="1.5"/>
+  <path d="M 435 405 Q 440 408 445 405" fill="none" stroke="#c4b4a4" stroke-width="1"/>
+  
+  <!-- Mustache -->
+  <path d="M 425 410 Q 430 413 440 412 Q 450 413 455 410" fill="none" stroke="#5a4a3a" stroke-width="2"/>
+  
+  <!-- Mouth -->
+  <path d="M 430 418 Q 440 420 450 418" fill="none" stroke="#8a6a5a" stroke-width="1.5"/>
+  
+  <!-- Beard -->
+  <path d="M 425 420 Q 428 430 430 440 Q 435 445 440 446 Q 445 445 450 440 Q 452 430 455 420" fill="#5a4a3a"/>
+  
+  <!-- Collar/Ruff -->
+  <path d="M 390 430 L 395 445 L 405 440 L 410 450 L 420 445 L 425 455 L 435 450 L 440 460 L 445 450 L 455 455 L 460 445 L 470 450 L 475 440 L 485 445 L 490 430 Z" fill="#f5f5f5" stroke="#d5d5d5" stroke-width="1"/>
+  
+  <!-- Decorative elements at bottom of page -->
+  <line x1="290" y1="480" x2="610" y2="485" stroke="#8b4513" stroke-width="0.5"/>
+  
+  <!-- Shadow and depth on right edge -->
+  <path d="M 650 100 L 655 105 L 635 525 L 630 520 Z" fill="#3a3a3a" opacity="0.3"/>
+</svg>

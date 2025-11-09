@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#4a5f7a"/>
+  
+  <!-- Dark blue abstract shape in background -->
+  <path d="M200 50 Q400 80 600 100 L700 150 Q650 200 550 180 L400 160 Q250 140 200 50" fill="#2c3e50" opacity="0.7"/>
+  <path d="M800 80 Q950 100 1100 120 L1200 180 Q1150 220 1000 200 L850 170 Q800 150 800 80" fill="#1a2530" opacity="0.6"/>
+  
+  <!-- Yellow floor -->
+  <rect y="700" width="1400" height="200" fill="#d4b86a"/>
+  
+  <!-- Person 1 - Left (light blue shirt, brown pants) -->
+  <ellipse cx="250" cy="320" rx="45" ry="50" fill="#f4a460"/>
+  <path d="M250 280 Q245 270 250 260 Q255 270 250 280" fill="#c8804a"/>
+  <rect x="205" y="360" width="90" height="180" rx="10" fill="#87ceeb"/>
+  <rect x="205" y="540" width="40" height="160" fill="#8b6914"/>
+  <rect x="255" y="540" width="40" height="160" fill="#8b6914"/>
+  <path d="M195 380 L180 480 L190 485 L205 390" fill="#87ceeb"/>
+  
+  <!-- Person 2 - Second from left (brown shirt, tan pants, curly hair) -->
+  <ellipse cx="420" cy="360" rx="45" ry="50" fill="#d4a574"/>
+  <circle cx="410" cy="340" r="8" fill="#2c1810"/>
+  <circle cx="415" cy="345" r="8" fill="#2c1810"/>
+  <circle cx="425" cy="340" r="8" fill="#2c1810"/>
+  <circle cx="430" cy="348" r="8" fill="#2c1810"/>
+  <circle cx="420" cy="352" r="8" fill="#2c1810"/>
+  <rect x="375" y="400" width="90" height="180" rx="10" fill="#6b5d52"/>
+  <rect x="375" y="580" width="40" height="120" fill="#c4a574"/>
+  <rect x="425" y="580" width="40" height="120" fill="#c4a574"/>
+  <circle cx="395" cy="380" r="18" fill="#1a1a1a" opacity="0.3"/>
+  <circle cx="395" cy="380" r="12" fill="#444"/>
+  <circle cx="445" cy="380" r="18" fill="#1a1a1a" opacity="0.3"/>
+  <circle cx="445" cy="380" r="12" fill="#444"/>
+  <rect x="395" y="365" width="50" height="3" fill="#333"/>
+  
+  <!-- Person 3 - Center (white shirt, black pants, bald, glasses) -->
+  <ellipse cx="610" cy="340" rx="48" ry="52" fill="#f5d5b8"/>
+  <rect x="565" y="385" width="90" height="190" rx="10" fill="#f8f8f8"/>
+  <rect x="565" y="575" width="40" height="125" fill="#1a1a1a"/>
+  <rect x="615" y="575" width="40" height="125" fill="#1a1a1a"/>
+  <circle cx="585" cy="360" r="20" fill="#1a1a1a" opacity="0.2"/>
+  <circle cx="585" cy="360" r="14" fill="#555"/>
+  <circle cx="635" cy="360" r="20" fill="#1a1a1a" opacity="0.2"/>
+  <circle cx="635" cy="360" r="14" fill="#555"/>
+  <rect x="585" y="345" width="50" height="3" fill="#222"/>
+  
+  <!-- Person 4 - Second from right (green shirt, beige pants, orange hair) -->
+  <ellipse cx="800" cy="370" rx="45" ry="50" fill="#f4c2a4"/>
+  <path d="M755 350 Q800 340 845 350 L845 380 Q800 390 755 380 Z" fill="#e67e22"/>
+  <rect x="755" y="410" width="90" height="180" rx="10" fill="#6b8e4e"/>
+  <rect x="755" y="590" width="40" height="110" fill="#e8dcc0"/>
+  <rect x="805" y="590" width="40" height="110" fill="#e8dcc0"/>
+  
+  <!-- Person 5 - Right (maroon shirt, dark pants, glasses) -->
+  <ellipse cx="990" cy="340" rx="45" ry="50" fill="#d4a574"/>
+  <path d="M990 310 Q985 300 990 290 Q995 300 990 310" fill="#3d2817"/>
+  <rect x="945" y="380" width="90" height="190" rx="10" fill="#7d4e57"/>
+  <rect x="945" y="570" width="40" height="130" fill="#3d2817"/>
+  <rect x="995" y="570" width="40" height="130" fill="#3d2817"/>
+  <circle cx="970" cy="355" r="18" fill="#1a1a1a" opacity="0.2"/>
+  <circle cx="970" cy="355" r="13" fill="#555"/>
+  <circle cx="1010" cy="355" r="18" fill="#1a1a1a" opacity="0.2"/>
+  <circle cx="1010" cy="355" r="13" fill="#555"/>
+  <rect x="970" y="342" width="40" height="3" fill="#333"/>
+  
+  <!-- Simple facial features -->
+  <circle cx="240" cy="310" r="3" fill="#2c1810"/>
+  <circle cx="260" cy="310" r="3" fill="#2c1810"/>
+  <path d="M245 325 Q250 330 255 325" stroke="#2c1810" fill="none" stroke-width="2"/>
+  
+  <circle cx="410" cy="365" r="3" fill="#2c1810"/>
+  <circle cx="430" cy="365" r="3" fill="#2c1810"/>
+  <path d="M415 380 Q420 385 425 380" stroke="#2c1810" fill="none" stroke-width="2"/>
+  
+  <path d="M605 375 Q610 380 615 375" stroke="#2c1810" fill="none" stroke-width="2"/>
+  
+  <circle cx="790" cy="370" r="3" fill="#2c1810"/>
+  <circle cx="810" cy="370" r="3" fill="#2c1810"/>
+  <path d="M795 385 Q800 390 805 385" stroke="#2c1810" fill="none" stroke-width="2"/>
+  
+  <circle cx="980" cy="345" r="3" fill="#2c1810"/>
+  <circle cx="1000" cy="345" r="3" fill="#2c1810"/>
+  <path d="M985 360 Q990 365 995 360" stroke="#2c1810" fill="none" stroke-width="2"/>
+</svg>

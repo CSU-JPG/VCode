@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a1a"/>
+  
+  <!-- Dark atmospheric background -->
+  <ellipse cx="400" cy="350" rx="350" ry="280" fill="#2d3a38" opacity="0.6"/>
+  
+  <!-- Head/face base -->
+  <ellipse cx="400" cy="280" rx="140" ry="170" fill="#d4a574"/>
+  
+  <!-- Forehead shadow -->
+  <ellipse cx="400" cy="200" rx="120" ry="40" fill="#c49263" opacity="0.5"/>
+  
+  <!-- Hair - left side -->
+  <path d="M 280 220 Q 260 200 250 240 Q 245 270 260 300 Q 270 320 290 330" fill="#9a9a9a" opacity="0.8"/>
+  
+  <!-- Hair - right side -->
+  <path d="M 520 220 Q 540 200 550 240 Q 555 270 540 300 Q 530 320 510 330" fill="#9a9a9a" opacity="0.8"/>
+  
+  <!-- Hair - top -->
+  <ellipse cx="400" cy="160" rx="100" ry="50" fill="#9a9a9a" opacity="0.8"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="360" cy="260" rx="20" ry="25" fill="#2d2520"/>
+  <ellipse cx="440" cy="260" rx="20" ry="25" fill="#2d2520"/>
+  
+  <!-- Eye highlights -->
+  <ellipse cx="365" cy="255" rx="6" ry="8" fill="#4a3f38"/>
+  <ellipse cx="445" cy="255" rx="6" ry="8" fill="#4a3f38"/>
+  
+  <!-- Nose -->
+  <path d="M 390 280 Q 395 310 400 320 Q 405 310 410 280" fill="#c49263" opacity="0.6"/>
+  
+  <!-- Mustache -->
+  <ellipse cx="360" cy="340" rx="45" ry="15" fill="#d0d0d0"/>
+  <ellipse cx="440" cy="340" rx="45" ry="15" fill="#d0d0d0"/>
+  
+  <!-- Beard - main volume -->
+  <ellipse cx="400" cy="420" rx="120" ry="100" fill="#d8d8d8"/>
+  
+  <!-- Beard layers for texture -->
+  <ellipse cx="380" cy="400" rx="80" ry="70" fill="#e8e8e8" opacity="0.7"/>
+  <ellipse cx="420" cy="400" rx="80" ry="70" fill="#e8e8e8" opacity="0.7"/>
+  <ellipse cx="400" cy="450" rx="100" ry="80" fill="#c8c8c8" opacity="0.6"/>
+  
+  <!-- Beard strands -->
+  <path d="M 320 380 Q 315 420 310 460" stroke="#a0a0a0" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 340 390 Q 335 430 330 470" stroke="#a0a0a0" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 460 390 Q 465 430 470 470" stroke="#a0a0a0" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 480 380 Q 485 420 490 460" stroke="#a0a0a0" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Collar - white -->
+  <path d="M 320 450 Q 330 470 360 480 L 360 520 L 280 540 L 280 480 Z" fill="#f5f5f5"/>
+  <path d="M 480 450 Q 470 470 440 480 L 440 520 L 520 540 L 520 480 Z" fill="#f5f5f5"/>
+  
+  <!-- Dark clothing -->
+  <rect x="280" y="480" width="240" height="120" fill="#1a1a2e"/>
+  <ellipse cx="400" cy="520" rx="150" ry="80" fill="#0f0f1a"/>
+</svg>

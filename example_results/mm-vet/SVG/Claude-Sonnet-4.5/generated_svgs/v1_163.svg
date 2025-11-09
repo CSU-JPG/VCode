@@ -1,0 +1,109 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#d4d4d4"/>
+  
+  <!-- Texture pattern for parchment paper -->
+  <defs>
+    <pattern id="paper" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#e8e8e8"/>
+      <circle cx="20" cy="30" r="1" fill="#c0c0c0" opacity="0.3"/>
+      <circle cx="60" cy="70" r="1" fill="#c0c0c0" opacity="0.3"/>
+      <circle cx="80" cy="20" r="1" fill="#c0c0c0" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#paper)"/>
+  
+  <!-- Cookie 1 (top left) -->
+  <ellipse cx="180" cy="120" rx="65" ry="58" fill="#c4915f"/>
+  <ellipse cx="180" cy="120" rx="60" ry="53" fill="#8b5a3c"/>
+  <circle cx="165" cy="105" r="3" fill="#fff"/>
+  <circle cx="190" cy="110" r="3" fill="#fff"/>
+  <circle cx="175" cy="125" r="3" fill="#ff4444"/>
+  <circle cx="195" cy="125" r="3" fill="#44ff44"/>
+  <circle cx="185" cy="135" r="3" fill="#fff"/>
+  
+  <!-- Cookie 2 (top center-left) -->
+  <ellipse cx="320" cy="140" rx="68" ry="60" fill="#c4915f"/>
+  <ellipse cx="320" cy="140" rx="63" ry="55" fill="#8b5a3c"/>
+  <circle cx="300" cy="125" r="3" fill="#44ff44"/>
+  <circle cx="315" cy="120" r="3" fill="#fff"/>
+  <circle cx="330" cy="128" r="3" fill="#ff4444"/>
+  <circle cx="340" cy="138" r="3" fill="#44ff44"/>
+  <circle cx="325" cy="150" r="3" fill="#fff"/>
+  <circle cx="310" cy="145" r="3" fill="#44ff44"/>
+  
+  <!-- Cookie 3 (top center) -->
+  <ellipse cx="480" cy="110" rx="70" ry="62" fill="#c4915f"/>
+  <ellipse cx="480" cy="110" rx="65" ry="57" fill="#8b5a3c"/>
+  <circle cx="460" cy="95" r="3" fill="#fff"/>
+  <circle cx="475" cy="90" r="3" fill="#44ff44"/>
+  <circle cx="490" cy="95" r="3" fill="#fff"/>
+  <circle cx="505" cy="100" r="3" fill="#ff4444"/>
+  <circle cx="495" cy="115" r="3" fill="#44ff44"/>
+  <circle cx="480" cy="125" r="3" fill="#fff"/>
+  <circle cx="465" cy="120" r="3" fill="#44ff44"/>
+  
+  <!-- Cookie 4 (top right, partial) -->
+  <ellipse cx="680" cy="130" rx="65" ry="58" fill="#c4915f"/>
+  <ellipse cx="680" cy="130" rx="60" ry="53" fill="#8b5a3c"/>
+  <circle cx="665" cy="115" r="3" fill="#44ff44"/>
+  <circle cx="680" cy="120" r="3" fill="#fff"/>
+  <circle cx="695" cy="125" r="3" fill="#ff4444"/>
+  
+  <!-- Cookie 5 (middle left) -->
+  <ellipse cx="140" cy="300" rx="72" ry="64" fill="#c4915f"/>
+  <ellipse cx="140" cy="300" rx="67" ry="59" fill="#8b5a3c"/>
+  <circle cx="120" cy="280" r="3" fill="#44ff44"/>
+  <circle cx="135" cy="275" r="3" fill="#fff"/>
+  <circle cx="150" cy="280" r="3" fill="#44ff44"/>
+  <circle cx="160" cy="290" r="3" fill="#ff4444"/>
+  <circle cx="155" cy="305" r="3" fill="#44ff44"/>
+  <circle cx="145" cy="315" r="3" fill="#fff"/>
+  <circle cx="130" cy="310" r="3" fill="#44ff44"/>
+  <circle cx="125" cy="295" r="3" fill="#fff"/>
+  
+  <!-- Cookie 6 (middle center) - with tree shape -->
+  <ellipse cx="340" cy="330" rx="70" ry="62" fill="#c4915f"/>
+  <ellipse cx="340" cy="330" rx="65" ry="57" fill="#8b5a3c"/>
+  <path d="M335 305 L345 305 L345 315 L340 315 L340 325 L335 325 Z" fill="#44ff44"/>
+  <circle cx="325" cy="310" r="4" fill="#44ff44"/>
+  <circle cx="320" cy="320" r="4" fill="#44ff44"/>
+  <circle cx="325" cy="330" r="4" fill="#44ff44"/>
+  <circle cx="330" cy="340" r="4" fill="#44ff44"/>
+  <circle cx="340" cy="345" r="4" fill="#44ff44"/>
+  <circle cx="350" cy="340" r="4" fill="#44ff44"/>
+  <circle cx="355" cy="330" r="4" fill="#44ff44"/>
+  
+  <!-- Cookie 7 (middle right) -->
+  <ellipse cx="540" cy="310" rx="68" ry="60" fill="#c4915f"/>
+  <ellipse cx="540" cy="310" rx="63" ry="55" fill="#8b5a3c"/>
+  <circle cx="520" cy="295" r="3" fill="#fff"/>
+  <circle cx="535" cy="290" r="3" fill="#44ff44"/>
+  <circle cx="550" cy="295" r="3" fill="#ff4444"/>
+  <circle cx="560" cy="305" r="3" fill="#44ff44"/>
+  <circle cx="555" cy="320" r="3" fill="#fff"/>
+  <circle cx="540" cy="325" r="3" fill="#44ff44"/>
+  <circle cx="525" cy="320" r="3" fill="#fff"/>
+  <circle cx="515" cy="310" r="3" fill="#fff"/>
+  
+  <!-- Cookie 8 (bottom right, partial) -->
+  <ellipse cx="720" cy="380" rx="65" ry="58" fill="#c4915f"/>
+  <ellipse cx="720" cy="380" rx="60" ry="53" fill="#8b5a3c"/>
+  <circle cx="705" cy="365" r="3" fill="#44ff44"/>
+  <circle cx="720" cy="370" r="3" fill="#fff"/>
+  
+  <!-- Cookie 9 (bottom left, partial) -->
+  <ellipse cx="160" cy="480" rx="68" ry="60" fill="#c4915f"/>
+  <ellipse cx="160" cy="480" rx="63" ry="55" fill="#8b5a3c"/>
+  <circle cx="145" cy="465" r="3" fill="#ff4444"/>
+  <circle cx="160" cy="470" r="3" fill="#44ff44"/>
+  
+  <!-- Shadows and depth -->
+  <ellipse cx="182" cy="125" rx="65" ry="5" fill="#000" opacity="0.15"/>
+  <ellipse cx="322" cy="145" rx="68" ry="5" fill="#000" opacity="0.15"/>
+  <ellipse cx="482" cy="115" rx="70" ry="5" fill="#000" opacity="0.15"/>
+  <ellipse cx="142" cy="305" rx="72" ry="5" fill="#000" opacity="0.15"/>
+  <ellipse cx="342" cy="335" rx="70" ry="5" fill="#000" opacity="0.15"/>
+  <ellipse cx="542" cy="315" rx="68" ry="5" fill="#000" opacity="0.15"/>
+</svg>

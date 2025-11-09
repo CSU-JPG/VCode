@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blurred green background -->
+  <defs>
+    <radialGradient id="bg1" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#90c890;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#4a8a4a;stop-opacity:0.6"/>
+    </radialGradient>
+    <radialGradient id="bg2" cx="70%" cy="60%">
+      <stop offset="0%" style="stop-color:#a8d8a8;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#5a9a5a;stop-opacity:0.5"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
+    </filter>
+  </defs>
+  
+  <!-- Background layers -->
+  <rect width="800" height="600" fill="#5a9a5a"/>
+  <ellipse cx="200" cy="150" rx="180" ry="180" fill="url(#bg1)" filter="url(#blur2)"/>
+  <ellipse cx="600" cy="400" rx="200" ry="200" fill="url(#bg2)" filter="url(#blur2)"/>
+  <ellipse cx="400" cy="300" rx="150" ry="150" fill="#6aa86a" opacity="0.4" filter="url(#blur1)"/>
+  
+  <!-- Branch -->
+  <path d="M 100 400 Q 250 350 400 320 Q 550 290 700 250" stroke="#5a4a3a" stroke-width="8" fill="none"/>
+  <path d="M 100 400 Q 250 350 400 320" stroke="#6a5a4a" stroke-width="6" fill="none"/>
+  
+  <!-- Main leaf with disease spots -->
+  <g transform="translate(350, 280)">
+    <!-- Leaf shape -->
+    <ellipse cx="0" cy="20" rx="110" ry="75" fill="#6b9d5f" transform="rotate(-15)"/>
+    <path d="M -90,-5 Q -50,0 0,20 Q 50,0 90,-5" stroke="#5a8a50" stroke-width="2" fill="none" transform="rotate(-15)"/>
+    
+    <!-- Leaf veins -->
+    <line x1="0" y1="-40" x2="0" y2="70" stroke="#5a8a50" stroke-width="1.5" transform="rotate(-15)" opacity="0.6"/>
+    <path d="M 0,0 Q 30,10 50,25" stroke="#5a8a50" stroke-width="1" fill="none" transform="rotate(-15)" opacity="0.5"/>
+    <path d="M 0,0 Q -30,10 -50,25" stroke="#5a8a50" stroke-width="1" fill="none" transform="rotate(-15)" opacity="0.5"/>
+    
+    <!-- Disease spots (rust-like) -->
+    <ellipse cx="-45" cy="15" rx="15" ry="12" fill="#c85a50" opacity="0.8" transform="rotate(-15)"/>
+    <ellipse cx="-30" cy="35" rx="20" ry="16" fill="#d86a5a" opacity="0.7" transform="rotate(-15)"/>
+    <ellipse cx="10" cy="25" rx="18" ry="14" fill="#c85a50" opacity="0.8" transform="rotate(-15)"/>
+    <ellipse cx="40" cy="10" rx="12" ry="10" fill="#d86a5a" opacity="0.75" transform="rotate(-15)"/>
+    <ellipse cx="-60" cy="40" rx="14" ry="11" fill="#c85a50" opacity="0.7" transform="rotate(-15)"/>
+    
+    <!-- Smaller rust spots -->
+    <circle cx="-70" cy="5" r="6" fill="#b84a40" opacity="0.8" transform="rotate(-15)"/>
+    <circle cx="-20" cy="55" r="7" fill="#c85a50" opacity="0.75" transform="rotate(-15)"/>
+    <circle cx="55" cy="30" r="5" fill="#b84a40" opacity="0.8" transform="rotate(-15)"/>
+    <circle cx="25" cy="50" r="6" fill="#d86a5a" opacity="0.7" transform="rotate(-15)"/>
+  </g>
+  
+  <!-- Additional leaves in background -->
+  <ellipse cx="200" cy="200" rx="70" ry="50" fill="#6b9d5f" opacity="0.6" transform="rotate(25 200 200)" filter="url(#blur1)"/>
+  <ellipse cx="600" cy="400" rx="80" ry="55" fill="#7aad6f" opacity="0.5" transform="rotate(-30 600 400)" filter="url(#blur1)"/>
+  
+  <!-- Fig fruit -->
+  <g transform="translate(320, 160)">
+    <ellipse cx="0" cy="0" rx="45" ry="55" fill="#8a6a7a"/>
+    <ellipse cx="-8" cy="-5" rx="35" ry="45" fill="#9a7a8a"/>
+    <ellipse cx="-10" cy="-8" rx="25" ry="35" fill="#aa8a9a"/>
+    <!-- Fruit texture -->
+    <ellipse cx="-12" cy="-15" rx="15" ry="20" fill="#ba9aaa" opacity="0.6"/>
+    <!-- Stem -->
+    <rect x="-3" y="-60" width="6" height="25" fill="#6a5a4a" rx="3"/>
+  </g>
+  
+  <!-- Small red spots on other leaves (background) -->
+  <circle cx="180" cy="190" r="8" fill="#c85a50" opacity="0.7" filter="url(#blur1)"/>
+  <circle cx="200" cy="210" r="6" fill="#d86a5a" opacity="0.6" filter="url(#blur1)"/>
+  <circle cx="620" cy="380" r="7" fill="#c85a50" opacity="0.6" filter="url(#blur1)"/>
+  
+  <!-- Foreground leaf edge (partial) -->
+  <path d="M 0,300 Q 50,280 100,300 Q 150,320 200,310" fill="#6b9d5f" opacity="0.8"/>
+  <circle cx="60" cy="290" r="9" fill="#c85a50" opacity="0.8"/>
+  <circle cx="120" cy="305" r="7" fill="#d86a5a" opacity="0.75"/>
+</svg>

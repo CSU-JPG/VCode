@@ -1,0 +1,80 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background bokeh effect -->
+  <defs>
+    <radialGradient id="bgGrad1" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#a8d896;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#7cb365;stop-opacity:0.3"/>
+    </radialGradient>
+    <radialGradient id="bgGrad2" cx="70%" cy="40%">
+      <stop offset="0%" style="stop-color:#c5e8b7;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#8fbc7a;stop-opacity:0.2"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+  </defs>
+  
+  <!-- Blurred background -->
+  <rect width="800" height="600" fill="#9bc285"/>
+  <ellipse cx="150" cy="120" rx="80" ry="80" fill="url(#bgGrad1)" filter="url(#blur)"/>
+  <ellipse cx="650" cy="180" rx="100" ry="100" fill="url(#bgGrad2)" filter="url(#blur)"/>
+  <ellipse cx="700" cy="400" rx="90" ry="90" fill="url(#bgGrad1)" filter="url(#blur)"/>
+  <ellipse cx="200" cy="500" rx="70" ry="70" fill="url(#bgGrad2)" filter="url(#blur)"/>
+  
+  <!-- Person's hand (blurred) -->
+  <ellipse cx="400" cy="520" rx="80" ry="35" fill="#f5d5c8" opacity="0.7" filter="url(#blur)"/>
+  <path d="M 320 510 Q 310 490 315 470 L 325 475 Q 323 495 330 510 Z" fill="#f5d5c8" opacity="0.7" filter="url(#blur)"/>
+  <path d="M 345 505 Q 340 485 343 465 L 353 468 Q 350 490 352 508 Z" fill="#f5d5c8" opacity="0.7" filter="url(#blur)"/>
+  <path d="M 370 500 Q 368 480 372 460 L 382 463 Q 378 485 377 503 Z" fill="#f5d5c8" opacity="0.7" filter="url(#blur)"/>
+  <path d="M 395 500 Q 395 478 400 458 L 410 461 Q 405 483 402 503 Z" fill="#f5d5c8" opacity="0.7" filter="url(#blur)"/>
+  
+  <!-- Parrot body -->
+  <ellipse cx="280" cy="300" rx="45" ry="55" fill="#7db365" transform="rotate(-15 280 300)"/>
+  
+  <!-- Parrot wing -->
+  <ellipse cx="265" cy="310" rx="35" ry="48" fill="#6a9f58" transform="rotate(-20 265 310)"/>
+  <path d="M 245 290 Q 230 310 235 335 Q 240 330 245 325 Q 250 315 248 300 Z" fill="#4a8fd9"/>
+  
+  <!-- Parrot tail feathers -->
+  <ellipse cx="310" cy="330" rx="15" ry="35" fill="#c94a4a" transform="rotate(25 310 330)"/>
+  <ellipse cx="320" cy="335" rx="12" ry="30" fill="#a63c3c" transform="rotate(30 320 335)"/>
+  
+  <!-- Parrot head -->
+  <ellipse cx="265" cy="265" rx="32" ry="35" fill="#8bb870"/>
+  
+  <!-- Parrot beak -->
+  <path d="M 245 265 Q 230 268 228 275 Q 230 278 235 277 Q 240 273 245 270 Z" fill="#5a5a5a"/>
+  <path d="M 245 270 Q 235 272 233 276 L 238 276 Q 242 274 245 273 Z" fill="#3a3a3a"/>
+  
+  <!-- Parrot eye -->
+  <circle cx="260" cy="258" r="8" fill="#fff"/>
+  <circle cx="262" cy="257" r="5" fill="#1a1a1a"/>
+  <circle cx="263" cy="255" r="2" fill="#fff"/>
+  <path d="M 252 253 Q 248 250 245 252" stroke="#4a4a4a" stroke-width="1.5" fill="none"/>
+  
+  <!-- Parrot head pattern/scales -->
+  <path d="M 268 248 Q 275 250 280 255" stroke="#6d9456" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 270 255 Q 277 257 282 262" stroke="#6d9456" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 268 262 Q 275 264 280 269" stroke="#6d9456" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 265 269 Q 272 271 277 276" stroke="#6d9456" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- Parrot neck scales -->
+  <path d="M 275 280 Q 282 282 287 287" stroke="#6d9456" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M 278 287 Q 285 289 290 294" stroke="#6d9456" stroke-width="1.2" fill="none" opacity="0.5"/>
+  
+  <!-- Parrot foot on finger -->
+  <ellipse cx="280" cy="345" rx="8" ry="5" fill="#5a5a5a"/>
+  <path d="M 275 345 L 268 352" stroke="#4a4a4a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 280 347 L 278 354" stroke="#4a4a4a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 285 345 L 288 352" stroke="#4a4a4a" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Person's face (heavily blurred) -->
+  <ellipse cx="480" cy="350" rx="85" ry="100" fill="#f5d5c8" opacity="0.4" filter="url(#blur)" transform="rotate(-5 480 350)"/>
+  
+  <!-- Person's hair (blurred) -->
+  <ellipse cx="460" cy="300" rx="90" ry="80" fill="#4a3828" opacity="0.3" filter="url(#blur)"/>
+  <ellipse cx="510" cy="310" rx="70" ry="75" fill="#4a3828" opacity="0.3" filter="url(#blur)"/>
+  
+  <!-- Person's clothing (blurred white) -->
+  <ellipse cx="480" cy="500" rx="120" ry="80" fill="#f0f0f0" opacity="0.5" filter="url(#blur)"/>
+</svg>

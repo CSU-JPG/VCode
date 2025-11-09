@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1200" fill="#4a4540"/>
+  
+  <!-- Left wall -->
+  <rect x="0" y="0" width="200" height="1200" fill="#5a4f45"/>
+  
+  <!-- Window frame -->
+  <rect x="20" y="80" width="160" height="280" fill="#6b5d4f" stroke="#3a3430" stroke-width="8"/>
+  <rect x="30" y="90" width="140" height="260" fill="#8a9aa8" opacity="0.6"/>
+  <line x1="100" y1="90" x2="100" y2="350" stroke="#3a3430" stroke-width="4"/>
+  <line x1="30" y1="220" x2="170" y2="220" stroke="#3a3430" stroke-width="4"/>
+  
+  <!-- Red curtain right -->
+  <path d="M 650 0 Q 680 100 670 300 L 670 1200 L 800 1200 L 800 0 Z" fill="#8b3a3a"/>
+  <path d="M 650 0 Q 680 100 670 300" fill="none" stroke="#6b2a2a" stroke-width="3"/>
+  
+  <!-- Red bed/bench -->
+  <rect x="250" y="450" width="400" height="200" fill="#a04040"/>
+  <path d="M 250 450 L 280 480 L 620 480 L 650 450 Z" fill="#8b3535"/>
+  
+  <!-- Chandelier -->
+  <ellipse cx="400" cy="150" rx="60" ry="20" fill="#9a8a5a"/>
+  <path d="M 370 150 L 365 180 M 400 150 L 400 180 M 430 150 L 435 180" stroke="#8a7a4a" stroke-width="2" fill="none"/>
+  <circle cx="365" cy="185" r="6" fill="#d4c494"/>
+  <circle cx="400" cy="185" r="6" fill="#d4c494"/>
+  <circle cx="435" cy="185" r="6" fill="#d4c494"/>
+  
+  <!-- Mirror on wall -->
+  <circle cx="400" cy="300" r="50" fill="#4a5560" stroke="#5a4530" stroke-width="8"/>
+  <ellipse cx="400" cy="300" rx="35" ry="35" fill="#6a7580" opacity="0.5"/>
+  
+  <!-- Man figure (left) -->
+  <!-- Hat -->
+  <ellipse cx="250" cy="170" rx="65" ry="18" fill="#2a2520"/>
+  <path d="M 185 170 Q 185 120 250 95 Q 315 120 315 170" fill="#2a2520"/>
+  
+  <!-- Head -->
+  <ellipse cx="250" cy="200" rx="30" ry="38" fill="#d4b8a0"/>
+  
+  <!-- Cloak -->
+  <path d="M 220 230 Q 180 400 190 700 L 190 1050 Q 220 1050 250 1050 Q 280 1050 310 1050 L 310 700 Q 320 400 280 230 Z" fill="#3a3555"/>
+  
+  <!-- Arm -->
+  <path d="M 280 380 Q 320 400 350 420" stroke="#d4b8a0" stroke-width="12" fill="none"/>
+  <ellipse cx="355" cy="420" rx="15" ry="12" fill="#d4b8a0"/>
+  
+  <!-- Woman figure (right) -->
+  <!-- Headdress -->
+  <path d="M 520 180 Q 530 160 545 155 Q 560 152 570 155 Q 580 160 585 175 L 590 200 Q 585 210 575 215 L 520 215 Z" fill="#e8e8e8"/>
+  <path d="M 545 155 Q 550 150 555 148 Q 565 148 570 155" fill="none" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- Head -->
+  <ellipse cx="545" cy="210" rx="25" ry="32" fill="#d4b8a0"/>
+  
+  <!-- Green dress -->
+  <path d="M 520 240 L 480 350 Q 475 550 470 800 L 465 1050 Q 545 1080 625 1050 L 615 800 Q 605 550 590 350 L 560 240 Z" fill="#4a7a3a"/>
+  
+  <!-- Dress overlay pattern -->
+  <path d="M 490 700 Q 495 750 500 800 Q 505 850 510 900" stroke="#3a5a2a" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 520 720 Q 525 770 530 820 Q 535 870 540 920" stroke="#3a5a2a" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Blue sleeves -->
+  <path d="M 520 240 Q 500 280 495 320 L 500 360 Q 510 365 520 360 L 520 300 Z" fill="#4a6a9a"/>
+  <path d="M 560 240 Q 580 280 585 320 L 580 360 Q 570 365 560 360 L 560 300 Z" fill="#4a6a9a"/>
+  
+  <!-- Belt -->
+  <ellipse cx="540" cy="340" rx="45" ry="12" fill="#6a4a3a"/>
+  
+  <!-- Dog -->
+  <ellipse cx="400" cy="950" rx="45" ry="35" fill="#6a4a2a"/>
+  <ellipse cx="380" cy="935" rx="20" ry="18" fill="#6a4a2a"/>
+  <circle cx="375" cy="930" r="3" fill="#2a2520"/>
+  <path d="M 430 960 L 450 975" stroke="#6a4a2a" stroke-width="8"/>
+  
+  <!-- Shoes/items on floor -->
+  <ellipse cx="120" cy="1050" rx="35" ry="15" fill="#8a6a4a"/>
+  <ellipse cx="180" cy="1070" rx="30" ry="12" fill="#8a6a4a"/>
+  
+  <!-- Floor reflection -->
+  <rect x="0" y="1000" width="800" height="200" fill="#3a3530" opacity="0.3"/>
+  
+  <!-- Wood floor planks -->
+  <line x1="0" y1="1100" x2="800" y2="1100" stroke="#2a2520" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="1150" x2="800" y2="1150" stroke="#2a2520" stroke-width="2" opacity="0.3"/>
+</svg>

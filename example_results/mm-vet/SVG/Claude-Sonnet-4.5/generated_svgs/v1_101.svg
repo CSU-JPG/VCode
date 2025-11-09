@@ -1,0 +1,176 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="450" fill="#ffffff"/>
+  
+  <!-- State outlines and fills -->
+  
+  <!-- California -->
+  <path d="M 40 120 L 35 180 L 45 250 L 60 280 L 80 290 L 90 280 L 95 260 L 100 240 L 105 220 L 105 200 L 100 180 L 95 160 L 90 140 L 85 120 L 80 100 L 70 90 L 55 95 L 45 105 Z" fill="#b4d864" stroke="#999" stroke-width="1"/>
+  
+  <!-- Oregon -->
+  <path d="M 40 50 L 35 90 L 40 120 L 45 105 L 55 95 L 70 90 L 85 85 L 100 85 L 115 90 L 120 70 L 115 50 L 100 45 L 85 45 L 70 45 L 55 45 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Washington -->
+  <path d="M 40 15 L 35 45 L 40 50 L 55 45 L 70 45 L 85 45 L 100 45 L 115 50 L 125 40 L 130 25 L 120 15 L 100 10 L 80 10 L 60 10 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Idaho -->
+  <path d="M 115 50 L 120 70 L 115 90 L 120 110 L 125 130 L 130 150 L 135 170 L 140 180 L 150 175 L 155 160 L 160 140 L 162 120 L 162 100 L 160 80 L 155 60 L 150 50 L 140 45 L 130 45 L 125 40 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Nevada -->
+  <path d="M 100 85 L 105 120 L 105 160 L 105 200 L 105 220 L 120 215 L 135 210 L 145 200 L 150 185 L 145 170 L 140 155 L 135 140 L 130 125 L 125 110 L 120 95 L 115 90 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Utah -->
+  <path d="M 145 130 L 150 150 L 153 170 L 155 190 L 158 210 L 160 225 L 175 225 L 190 225 L 195 210 L 200 190 L 200 170 L 198 150 L 195 130 L 185 130 L 175 130 L 165 130 L 155 130 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Arizona -->
+  <path d="M 105 220 L 105 240 L 108 260 L 115 280 L 125 295 L 140 305 L 155 308 L 160 300 L 163 285 L 165 270 L 167 255 L 170 240 L 170 225 L 160 225 L 145 225 L 130 225 L 120 225 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Montana -->
+  <path d="M 130 25 L 135 45 L 140 45 L 155 50 L 170 50 L 185 50 L 200 50 L 215 50 L 230 50 L 245 50 L 260 50 L 270 50 L 275 45 L 280 30 L 275 20 L 260 20 L 245 20 L 230 20 L 215 20 L 200 20 L 185 20 L 170 20 L 155 20 L 140 20 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Wyoming -->
+  <path d="M 162 80 L 165 100 L 168 120 L 170 140 L 172 160 L 175 175 L 190 175 L 205 175 L 220 175 L 235 175 L 250 175 L 260 175 L 265 160 L 268 140 L 270 120 L 270 100 L 268 80 L 265 70 L 250 70 L 235 70 L 220 70 L 205 70 L 190 70 L 175 70 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Colorado -->
+  <path d="M 175 175 L 178 195 L 180 215 L 183 235 L 185 255 L 200 255 L 215 255 L 230 255 L 245 255 L 260 255 L 275 255 L 285 255 L 288 240 L 290 220 L 292 200 L 293 180 L 290 175 L 275 175 L 260 175 L 245 175 L 230 175 L 215 175 L 200 175 Z" fill="#b4d864" stroke="#999" stroke-width="1"/>
+  
+  <!-- New Mexico -->
+  <path d="M 170 255 L 172 275 L 175 295 L 178 315 L 180 335 L 183 355 L 186 370 L 200 370 L 215 370 L 230 370 L 245 370 L 260 370 L 270 370 L 273 355 L 275 335 L 278 315 L 280 295 L 283 275 L 285 255 L 270 255 L 255 255 L 240 255 L 225 255 L 210 255 L 195 255 L 185 255 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- North Dakota -->
+  <path d="M 270 50 L 275 70 L 278 90 L 280 105 L 295 105 L 310 105 L 325 105 L 340 105 L 355 105 L 365 105 L 368 90 L 370 70 L 370 50 L 368 40 L 355 40 L 340 40 L 325 40 L 310 40 L 295 40 L 280 40 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- South Dakota -->
+  <path d="M 280 105 L 283 125 L 285 145 L 288 165 L 290 180 L 305 180 L 320 180 L 335 180 L 350 180 L 365 180 L 375 180 L 378 165 L 380 145 L 382 125 L 382 105 L 365 105 L 350 105 L 335 105 L 320 105 L 305 105 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Nebraska -->
+  <path d="M 290 180 L 293 200 L 295 220 L 298 240 L 315 240 L 330 240 L 345 240 L 360 240 L 375 240 L 388 240 L 390 225 L 392 210 L 394 195 L 395 180 L 390 180 L 375 180 L 360 180 L 345 180 L 330 180 L 315 180 L 300 180 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Kansas -->
+  <path d="M 298 240 L 300 260 L 303 280 L 305 295 L 320 295 L 335 295 L 350 295 L 365 295 L 380 295 L 395 295 L 405 295 L 407 280 L 409 265 L 410 250 L 410 240 L 395 240 L 380 240 L 365 240 L 350 240 L 335 240 L 320 240 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Minnesota -->
+  <path d="M 310 40 L 315 55 L 318 70 L 320 85 L 322 100 L 325 115 L 328 130 L 330 145 L 333 160 L 335 175 L 350 175 L 365 175 L 378 175 L 380 160 L 382 145 L 384 130 L 386 115 L 388 100 L 388 85 L 388 70 L 388 55 L 388 40 L 385 30 L 375 25 L 365 30 L 355 35 L 345 38 L 335 40 L 325 40 Z" fill="#b4d864" stroke="#999" stroke-width="1"/>
+  
+  <!-- Iowa -->
+  <path d="M 335 175 L 338 190 L 340 205 L 343 220 L 345 235 L 360 235 L 375 235 L 390 235 L 400 235 L 405 230 L 410 220 L 413 205 L 415 190 L 415 175 L 410 170 L 400 168 L 390 168 L 380 170 L 370 172 L 360 173 L 350 174 Z" fill="#b4d864" stroke="#999" stroke-width="1"/>
+  
+  <!-- Missouri -->
+  <path d="M 380 235 L 383 250 L 385 265 L 388 280 L 390 295 L 395 305 L 400 315 L 405 305 L 413 295 L 420 285 L 425 275 L 430 265 L 433 255 L 435 245 L 437 235 L 430 230 L 420 228 L 410 230 L 400 232 L 390 234 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Arkansas -->
+  <path d="M 395 305 L 398 320 L 400 335 L 403 350 L 405 360 L 418 360 L 430 360 L 440 360 L 445 350 L 448 335 L 450 320 L 450 305 L 445 295 L 435 293 L 425 295 L 415 300 L 405 303 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Louisiana -->
+  <path d="M 405 360 L 408 375 L 410 390 L 413 400 L 425 403 L 437 400 L 445 395 L 453 388 L 458 378 L 460 365 L 455 360 L 445 360 L 435 360 L 425 360 L 415 360 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Oklahoma -->
+  <path d="M 305 295 L 308 310 L 310 325 L 313 340 L 328 340 L 343 340 L 358 340 L 373 340 L 388 340 L 395 340 L 397 325 L 398 310 L 398 295 L 385 295 L 370 295 L 355 295 L 340 295 L 325 295 L 315 295 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Texas -->
+  <path d="M 270 370 L 273 385 L 275 400 L 278 415 L 285 425 L 295 430 L 310 428 L 325 423 L 340 418 L 355 410 L 365 400 L 373 388 L 380 375 L 385 360 L 388 345 L 390 340 L 375 340 L 360 340 L 345 340 L 330 340 L 315 340 L 300 340 L 290 340 L 280 345 L 275 355 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Wisconsin -->
+  <path d="M 350 105 L 353 120 L 355 135 L 358 150 L 360 165 L 378 165 L 390 165 L 395 155 L 398 140 L 400 125 L 400 110 L 398 100 L 395 95 L 388 95 L 380 98 L 372 100 L 365 102 L 358 104 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Illinois -->
+  <path d="M 400 170 L 403 185 L 405 200 L 408 215 L 410 230 L 413 245 L 415 255 L 425 253 L 432 245 L 437 230 L 440 215 L 442 200 L 443 185 L 443 170 L 438 162 L 430 160 L 422 162 L 415 165 L 408 168 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Michigan -->
+  <path d="M 395 95 L 400 110 L 403 125 L 405 140 L 408 155 L 423 155 L 435 150 L 442 140 L 447 128 L 450 115 L 450 105 L 448 95 L 443 88 L 435 85 L 425 85 L 415 88 L 405 92 Z M 428 65 L 433 78 L 438 88 L 445 93 L 453 90 L 458 82 L 460 72 L 458 62 L 453 55 L 445 52 L 437 54 L 432 60 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Indiana -->
+  <path d="M 425 155 L 428 170 L 430 185 L 433 200 L 435 215 L 437 230 L 445 228 L 453 220 L 458 210 L 462 195 L 465 180 L 467 165 L 467 155 L 462 150 L 455 148 L 448 150 L 440 152 L 433 154 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Ohio -->
+  <path d="M 445 150 L 448 165 L 450 180 L 453 195 L 455 210 L 458 220 L 468 218 L 478 210 L 485 200 L 490 188 L 493 175 L 495 162 L 495 150 L 490 143 L 482 140 L 473 140 L 465 143 L 457 146 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Kentucky -->
+  <path d="M 437 235 L 440 248 L 443 260 L 445 270 L 458 268 L 470 265 L 482 262 L 492 260 L 500 258 L 505 250 L 508 240 L 510 230 L 508 222 L 503 218 L 495 218 L 485 220 L 475 225 L 465 228 L 455 232 L 445 235 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Tennessee -->
+  <path d="M 445 270 L 448 282 L 450 293 L 453 302 L 465 300 L 477 298 L 489 296 L 501 294 L 513 292 L 525 290 L 533 285 L 538 275 L 540 265 L 540 258 L 535 254 L 525 254 L 515 256 L 505 258 L 495 260 L 485 262 L 475 264 L 465 266 L 455 268 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Mississippi -->
+  <path d="M 445 305 L 448 320 L 450 335 L 453 350 L 455 365 L 458 378 L 468 376 L 478 370 L 485 360 L 490 348 L 493 335 L 495 322 L 495 310 L 492 302 L 485 300 L 477 300 L 470 302 L 462 304 L 455 306 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Alabama -->
+  <path d="M 495 310 L 498 325 L 500 340 L 503 355 L 505 370 L 508 382 L 518 380 L 528 373 L 535 363 L 540 350 L 543 337 L 545 324 L 545 310 L 540 302 L 532 300 L 523 302 L 515 305 L 507 308 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- West Virginia -->
+  <path d="M 493 175 L 496 188 L 498 200 L 500 212 L 502 222 L 512 220 L 522 215 L 530 208 L 535 198 L 538 187 L 540 176 L 538 168 L 532 163 L 523 162 L 515 165 L 507 169 L 500 172 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Virginia -->
+  <path d="M 510 230 L 513 242 L 515 253 L 518 263 L 525 261 L 535 257 L 545 253 L 555 250 L 563 248 L 568 243 L 570 235 L 570 227 L 565 220 L 558 218 L 550 218 L 542 220 L 534 223 L 526 226 L 518 228 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- North Carolina -->
+  <path d="M 525 263 L 528 275 L 530 285 L 533 295 L 545 293 L 557 290 L 569 287 L 580 284 L 588 280 L 592 272 L 593 263 L 590 255 L 583 252 L 575 252 L 567 254 L 559 257 L 551 260 L 543 262 L 535 263 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- South Carolina -->
+  <path d="M 545 295 L 548 307 L 550 318 L 553 327 L 563 325 L 573 320 L 580 313 L 585 305 L 588 296 L 590 288 L 588 282 L 582 280 L 574 282 L 566 285 L 558 288 L 550 291 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Georgia -->
+  <path d="M 508 382 L 511 395 L 513 407 L 515 418 L 525 416 L 535 410 L 543 403 L 550 395 L 555 385 L 558 375 L 560 365 L 560 355 L 555 348 L 548 345 L 540 348 L 532 353 L 524 360 L 516 368 L 510 375 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Florida -->
+  <path d="M 515 418 L 518 430 L 522 440 L 528 448 L 535 452 L 543 453 L 550 450 L 555 443 L 558 433 L 560 423 L 560 413 L 557 403 L 553 395 L 548 390 L 543 388 L 535 390 L 528 395 L 523 403 L 518 410 Z M 565 340 L 568 350 L 572 358 L 578 363 L 585 363 L 590 358 L 593 350 L 593 342 L 590 335 L 585 332 L 578 332 L 572 335 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Pennsylvania -->
+  <path d="M 495 150 L 498 163 L 500 175 L 503 187 L 505 198 L 508 208 L 520 205 L 532 202 L 544 200 L 556 198 L 565 196 L 568 188 L 570 178 L 570 168 L 568 160 L 563 155 L 555 153 L 545 153 L 535 155 L 525 158 L 515 162 L 505 166 Z" fill="#b4d864" stroke="#999" stroke-width="1"/>
+  
+  <!-- New York -->
+  <path d="M 495 95 L 498 108 L 500 120 L 503 132 L 505 143 L 508 153 L 520 150 L 532 148 L 544 147 L 556 147 L 565 148 L 570 143 L 573 133 L 575 123 L 575 113 L 573 103 L 568 95 L 560 92 L 550 92 L 540 95 L 530 98 L 520 100 L 510 102 L 502 104 Z M 545 80 L 548 88 L 553 93 L 560 95 L 567 93 L 572 87 L 573 80 L 570 73 L 565 68 L 558 66 L 551 68 L 547 73 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- New Jersey -->
+  <path d="M 568 160 L 570 170 L 572 180 L 575 190 L 578 198 L 583 195 L 588 188 L 590 180 L 590 172 L 588 164 L 585 158 L 580 155 L 575 156 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Delaware -->
+  <path d="M 575 190 L 577 198 L 579 205 L 581 210 L 585 208 L 588 203 L 589 197 L 588 191 L 585 188 L 582 190 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Maryland -->
+  <path d="M 565 196 L 568 205 L 570 213 L 573 220 L 578 218 L 583 213 L 586 207 L 588 201 L 585 196 L 580 195 L 575 196 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Connecticut -->
+  <path d="M 575 147 L 578 155 L 580 162 L 582 168 L 588 166 L 593 160 L 595 153 L 593 147 L 588 144 L 583 145 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Rhode Island -->
+  <path d="M 593 147 L 595 153 L 597 158 L 600 155 L 601 150 L 600 145 L 597 143 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Massachusetts -->
+  <path d="M 575 123 L 578 132 L 580 140 L 583 147 L 588 145 L 593 143 L 598 140 L 603 135 L 605 128 L 603 122 L 598 118 L 593 118 L 588 120 L 583 123 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Vermont -->
+  <path d="M 570 103 L 572 113 L 575 123 L 578 130 L 583 128 L 587 120 L 590 112 L 590 103 L 587 97 L 582 95 L 577 97 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- New Hampshire -->
+  <path d="M 590 95 L 593 103 L 595 112 L 598 120 L 602 118 L 605 110 L 606 102 L 605 95 L 602 90 L 597 88 L 593 90 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Maine -->
+  <path d="M 605 60 L 608 72 L 610 85 L 612 95 L 615 105 L 618 95 L 620 85 L 620 75 L 618 65 L 615 55 L 610 50 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Alaska -->
+  <path d="M 35 385 L 40 395 L 48 405 L 58 410 L 70 412 L 80 410 L 88 405 L 93 397 L 95 387 L 93 377 L 88 370 L 80 368 L 70 368 L 58 372 L 48 378 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Hawaii -->
+  <path d="M 140 425 L 145 428 L 150 428 L 155 425 L 155 420 L 150 418 L 145 420 Z M 160 422 L 163 424 L 167 424 L 170 422 L 170 419 L 167 417 L 163 417 Z M 175 420 L 180 423 L 185 423 L 188 420 L 188 416 L 183 414 L 178 416 Z" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+  
+  <!-- City markers -->
+  <circle cx="58" cy="250" r="3" fill="#9fb332"/>
+  <text x="40" y="265" font-family="Arial, sans-serif" font-size="11" fill="#333">SAN DIEGO</text>
+  
+  <circle cx="360" cy="135" r="3" fill="#9fb332"/>
+  <text x="320" y="150" font-family="Arial, sans-serif" font-size="11" fill="#333">CHICAGO</text>
+  
+  <circle cx="470" cy="280" r="3" fill="#9fb332"/>
+  <text x="450" y="295" font-family="Arial, sans-serif" font-size="11" fill="#333">ATLANTA</text>
+  
+  <circle cx="565" cy="360" r="3" fill="#9fb332"/>
+  <text x="540" y="375" font-family="Arial, sans-serif" font-size="11" fill="#333">ORLANDO</text>
+  
+  <!-- State labels -->
+  <text x="305" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">MINNESOTA</text>
+  <text x="330" y="200" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">IOWA</text>
+  <text x="215" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">COLORADO</text>
+  <text x="485" y="165" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">PENNSYLVANIA</text>
+  <text x="35" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">CALIFORNIA</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f0"/>
+  
+  <!-- Window -->
+  <rect x="20" y="40" width="180" height="280" fill="#e8e8e0" opacity="0.7"/>
+  <line x1="110" y1="40" x2="110" y2="320" stroke="#d0d0c8" stroke-width="3"/>
+  <line x1="20" y1="180" x2="200" y2="180" stroke="#d0d0c8" stroke-width="3"/>
+  
+  <!-- Curtains -->
+  <path d="M 200 30 Q 220 150 200 320 L 230 320 L 230 30 Z" fill="#e8dcc8" opacity="0.8"/>
+  <path d="M 230 30 Q 250 150 230 320 L 260 320 L 260 30 Z" fill="#e0d4bc" opacity="0.8"/>
+  
+  <!-- Wall decoration -->
+  <rect x="580" y="60" width="140" height="180" fill="#ffffff" opacity="0.9"/>
+  <text x="650" y="120" font-size="48" fill="#e0e0e0" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">HOME</text>
+  
+  <!-- Walker/mobility aid -->
+  <rect x="680" y="380" width="80" height="4" fill="#b8b8b8"/>
+  <line x1="690" y1="384" x2="690" y2="480" stroke="#c0c0c0" stroke-width="6"/>
+  <line x1="750" y1="384" x2="750" y2="480" stroke="#c0c0c0" stroke-width="6"/>
+  <circle cx="690" cy="485" r="8" fill="#a0a0a0"/>
+  <circle cx="750" cy="485" r="8" fill="#a0a0a0"/>
+  
+  <!-- Couch/sofa -->
+  <rect x="180" y="380" width="280" height="120" rx="15" fill="#e8e0d8"/>
+  <rect x="190" y="360" width="260" height="40" rx="8" fill="#f0e8e0"/>
+  <ellipse cx="250" cy="420" rx="35" ry="25" fill="#d8d0c8"/>
+  <ellipse cx="320" cy="420" rx="35" ry="25" fill="#d8d0c8"/>
+  <ellipse cx="390" cy="420" rx="35" ry="25" fill="#d8d0c8"/>
+  
+  <!-- Elderly man sitting -->
+  <ellipse cx="300" cy="340" rx="45" ry="50" fill="#f5e6d3"/>
+  <circle cx="300" cy="260" r="38" fill="#ffd9c4"/>
+  <path d="M 280 245 Q 285 240 290 245" stroke="#8b7355" stroke-width="2" fill="none"/>
+  <path d="M 310 245 Q 315 240 320 245" stroke="#8b7355" stroke-width="2" fill="none"/>
+  <circle cx="287" cy="250" r="3" fill="#654321"/>
+  <circle cx="313" cy="250" r="3" fill="#654321"/>
+  <path d="M 290 268 Q 300 275 310 268" stroke="#8b6f47" stroke-width="2" fill="none"/>
+  <ellipse cx="300" cy="235" rx="42" ry="30" fill="#e8e8e8"/>
+  <path d="M 260 235 Q 270 220 285 225 Q 300 210 315 225 Q 330 220 340 235" fill="#f0f0f0"/>
+  
+  <!-- Man's sweater -->
+  <path d="M 260 290 L 250 340 L 250 420 L 280 420 L 280 340 Z" fill="#f5f0e8"/>
+  <path d="M 340 290 L 350 340 L 350 420 L 320 420 L 320 340 Z" fill="#f5f0e8"/>
+  <rect x="280" y="290" width="40" height="130" fill="#f8f5ed"/>
+  <path d="M 285 300 L 315 300 L 318 310 L 282 310 Z" fill="#e8e0d8"/>
+  <line x1="300" y1="310" x2="300" y2="380" stroke="#e0d8d0" stroke-width="2"/>
+  
+  <!-- Man's collar -->
+  <path d="M 285 290 L 280 300 L 290 305 L 300 295 Z" fill="#c8c0e8"/>
+  <path d="M 315 290 L 320 300 L 310 305 L 300 295 Z" fill="#c8c0e8"/>
+  
+  <!-- Man's pants -->
+  <rect x="270" y="420" width="28" height="80" fill="#2a2a2a"/>
+  <rect x="302" y="420" width="28" height="80" fill="#2a2a2a"/>
+  
+  <!-- Caregiver standing -->
+  <circle cx="480" cy="240" r="32" fill="#ffd9b3"/>
+  <ellipse cx="465" cy="225" rx="28" ry="35" fill="#f4d89f"/>
+  <ellipse cx="495" cy="225" rx="28" ry="35" fill="#f4d89f"/>
+  <ellipse cx="480" cy="210" rx="35" ry="45" fill="#f0d080"/>
+  <path d="M 460 235 Q 465 230 470 235" stroke="#8b7355" stroke-width="2" fill="none"/>
+  <path d="M 490 235 Q 495 230 500 235" stroke="#8b7355" stroke-width="2" fill="none"/>
+  <circle cx="467" cy="240" r="2.5" fill="#654321"/>
+  <circle cx="493" cy="240" r="2.5" fill="#654321"/>
+  <path d="M 472 252 Q 480 257 488 252" stroke="#c97a5f" stroke-width="2" fill="none"/>
+  
+  <!-- Caregiver's shirt -->
+  <path d="M 445 270 L 435 290 L 430 380 L 460 380 L 460 290 Z" fill="#ffffff"/>
+  <path d="M 515 270 L 525 290 L 530 380 L 500 380 L 500 290 Z" fill="#ffffff"/>
+  <rect x="460" y="270" width="40" height="110" fill="#fafafa"/>
+  
+  <!-- Caregiver's arm helping -->
+  <path d="M 430 320 Q 400 340 380 360 L 360 350 Q 380 330 410 310 Z" fill="#ffd9b3"/>
+  <ellipse cx="350" cy="355" rx="15" ry="12" fill="#ffd9b3"/>
+  
+  <!-- Caregiver's pants -->
+  <rect x="450" y="380" width="28" height="120" fill="#1a1a3a"/>
+  <rect x="482" y="380" width="28" height="120" fill="#1a1a3a"/>
+  
+  <!-- Shoes -->
+  <ellipse cx="464" cy="505" rx="18" ry="8" fill="#4a4a4a"/>
+  <ellipse cx="496" cy="505" rx="18" ry="8" fill="#4a4a4a"/>
+  <ellipse cx="284" cy="505" rx="16" ry="7" fill="#3a3a3a"/>
+  <ellipse cx="314" cy="505" rx="16" ry="7" fill="#3a3a3a"/>
+</svg>

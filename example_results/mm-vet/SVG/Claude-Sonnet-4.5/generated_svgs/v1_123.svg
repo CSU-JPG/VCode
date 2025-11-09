@@ -1,0 +1,105 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue bedding background -->
+  <rect width="1200" height="800" fill="#4a6fa5"/>
+  
+  <!-- Darker blue fabric folds -->
+  <path d="M0,200 Q300,150 600,200 T1200,200 L1200,800 L0,800 Z" fill="#3d5a8a"/>
+  <path d="M0,400 Q400,350 800,400 T1200,400 L1200,800 L0,800 Z" fill="#35527a"/>
+  
+  <!-- Yellow/gold pillow top left -->
+  <ellipse cx="200" cy="150" rx="180" ry="140" fill="#d4a03a"/>
+  <path d="M80,120 Q200,80 320,120 Q320,180 200,220 Q80,180 80,120" fill="#c89020"/>
+  
+  <!-- Gray knit cardigan top right -->
+  <path d="M900,100 L1150,100 L1150,350 Q1025,380 900,350 Z" fill="#6b7280"/>
+  <circle cx="1120" cy="180" r="18" fill="#e8dcc0" stroke="#8b8680" stroke-width="2"/>
+  <path d="M920,140 Q960,135 1000,140" stroke="#5a5f68" stroke-width="3" fill="none"/>
+  <path d="M920,180 Q960,175 1000,180" stroke="#5a5f68" stroke-width="3" fill="none"/>
+  <path d="M920,220 Q960,215 1000,220" stroke="#5a5f68" stroke-width="3" fill="none"/>
+  
+  <!-- Open book -->
+  <rect x="350" y="300" width="200" height="280" fill="#f5f5f0" rx="3"/>
+  <rect x="350" y="300" width="100" height="280" fill="#e8e8e0"/>
+  <line x1="450" y1="300" x2="450" y2="580" stroke="#333" stroke-width="2"/>
+  
+  <!-- Book text lines -->
+  <line x1="365" y1="330" x2="435" y2="330" stroke="#666" stroke-width="1" opacity="0.6"/>
+  <line x1="365" y1="345" x2="435" y2="345" stroke="#666" stroke-width="1" opacity="0.6"/>
+  <line x1="365" y1="360" x2="435" y2="360" stroke="#666" stroke-width="1" opacity="0.6"/>
+  <line x1="365" y1="375" x2="430" y2="375" stroke="#666" stroke-width="1" opacity="0.6"/>
+  <line x1="465" y1="330" x2="535" y2="330" stroke="#666" stroke-width="1" opacity="0.6"/>
+  <line x1="465" y1="345" x2="535" y2="345" stroke="#666" stroke-width="1" opacity="0.6"/>
+  <line x1="465" y1="360" x2="535" y2="360" stroke="#666" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Orange/ginger cat -->
+  <ellipse cx="280" cy="480" rx="85" ry="100" fill="#d97a3a"/>
+  <ellipse cx="250" cy="440" rx="40" ry="45" fill="#e89050"/>
+  <ellipse cx="310" cy="440" rx="40" ry="45" fill="#e89050"/>
+  
+  <!-- Cat ears -->
+  <path d="M230,400 L210,360 L250,390 Z" fill="#d97a3a"/>
+  <path d="M330,400 L350,360 L310,390 Z" fill="#d97a3a"/>
+  <path d="M225,385 L220,370 L240,385 Z" fill="#f5b070"/>
+  <path d="M325,385 L340,370 L310,385 Z" fill="#f5b070"/>
+  
+  <!-- Cat face -->
+  <circle cx="240" cy="450" r="12" fill="#f4d891"/>
+  <circle cx="310" cy="450" r="12" fill="#f4d891"/>
+  <ellipse cx="240" cy="450" rx="6" ry="10" fill="#2d2a1f"/>
+  <ellipse cx="310" cy="450" rx="6" ry="10" fill="#2d2a1f"/>
+  <circle cx="243" cy="445" r="3" fill="#fff"/>
+  <circle cx="313" cy="445" r="3" fill="#fff"/>
+  
+  <!-- Cat nose and mouth -->
+  <path d="M275,470 L270,475 L280,475 Z" fill="#d97a3a" stroke="#8b5a2a" stroke-width="1.5"/>
+  <path d="M275,475 Q270,480 265,478" stroke="#8b5a2a" stroke-width="1.5" fill="none"/>
+  <path d="M275,475 Q280,480 285,478" stroke="#8b5a2a" stroke-width="1.5" fill="none"/>
+  
+  <!-- Cat paws on book -->
+  <ellipse cx="400" cy="380" rx="25" ry="30" fill="#e89050"/>
+  <ellipse cx="480" cy="400" rx="25" ry="30" fill="#e89050"/>
+  
+  <!-- Striped blanket bottom left -->
+  <rect x="50" y="550" width="250" height="200" fill="#2d3748"/>
+  <rect x="50" y="560" width="250" height="20" fill="#e8e8e0"/>
+  <rect x="50" y="600" width="250" height="20" fill="#e8e8e0"/>
+  <rect x="50" y="640" width="250" height="20" fill="#e8e8e0"/>
+  <rect x="50" y="680" width="250" height="20" fill="#e8e8e0"/>
+  <rect x="50" y="720" width="250" height="20" fill="#e8e8e0"/>
+  
+  <!-- Gray tray -->
+  <rect x="620" y="420" width="280" height="320" fill="#7a8491" rx="8"/>
+  <rect x="630" y="430" width="260" height="300" fill="#8b95a3" rx="5"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="730" cy="510" rx="40" ry="45" fill="#2d2a1f"/>
+  <ellipse cx="730" cy="505" rx="35" ry="38" fill="#1a1815"/>
+  <path d="M770,510 Q790,510 790,530 Q790,545 775,545" stroke="#2d2a1f" stroke-width="6" fill="none"/>
+  
+  <!-- Cookies -->
+  <circle cx="780" cy="600" r="35" fill="#8b5a3a"/>
+  <circle cx="770" cy="595" r="4" fill="#654321"/>
+  <circle cx="785" cy="600" r="4" fill="#654321"/>
+  <circle cx="775" cy="610" r="4" fill="#654321"/>
+  <circle cx="790" cy="608" r="4" fill="#654321"/>
+  
+  <circle cx="840" cy="620" r="35" fill="#8b5a3a"/>
+  <circle cx="830" cy="615" r="4" fill="#654321"/>
+  <circle cx="845" cy="620" r="4" fill="#654321"/>
+  <circle cx="835" cy="630" r="4" fill="#654321"/>
+  <circle cx="850" cy="628" r="4" fill="#654321"/>
+  
+  <!-- Lavender sprig -->
+  <line x1="800" y1="680" x2="800" y2="720" stroke="#4a5a3a" stroke-width="3"/>
+  <circle cx="795" cy="665" r="4" fill="#6b5b95"/>
+  <circle cx="805" cy="665" r="4" fill="#6b5b95"/>
+  <circle cx="798" cy="672" r="4" fill="#6b5b95"/>
+  <circle cx="802" cy="672" r="4" fill="#6b5b95"/>
+  <circle cx="800" cy="680" r="4" fill="#6b5b95"/>
+  
+  <!-- Candle -->
+  <rect x="710" y="660" width="50" height="60" fill="#f4e4c1" rx="3"/>
+  <ellipse cx="735" cy="660" rx="25" ry="8" fill="#f5d891"/>
+  <ellipse cx="735" cy="650" rx="4" ry="8" fill="#ff6b35"/>
+  <ellipse cx="735" cy="645" rx="3" ry="5" fill="#ffa500"/>
+</svg>

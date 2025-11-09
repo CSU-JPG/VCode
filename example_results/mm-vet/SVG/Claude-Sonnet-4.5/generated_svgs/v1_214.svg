@@ -1,0 +1,135 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="20" fill="#008B8B" text-anchor="middle" font-weight="bold">Units Of electricity by fuel source in Australia</text>
+  
+  <!-- 1980 Australia Chart -->
+  <g transform="translate(200, 180)">
+    <!-- Green slice (50 units, 50%) -->
+    <path d="M 0,-80 A 80,80 0 0,1 80,0 L 0,0 Z" fill="#7CB342"/>
+    <text x="40" y="-40" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">50</text>
+    
+    <!-- Red slice (20 units, 20%) -->
+    <path d="M 80,0 A 80,80 0 0,1 0,80 L 0,0 Z" fill="#E53935"/>
+    <text x="40" y="40" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">20</text>
+    
+    <!-- Dark blue slice (20 units, 20%) -->
+    <path d="M 0,80 A 80,80 0 0,1 -80,0 L 0,0 Z" fill="#1E3A5F"/>
+    <text x="-40" y="40" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">20</text>
+    
+    <!-- Yellow slice (10 units, 10%) -->
+    <path d="M -80,0 A 80,80 0 0,1 0,-80 L 0,0 Z" fill="#FFB300"/>
+    <text x="-40" y="-40" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">10</text>
+    
+    <!-- Labels -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">1980</text>
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Total Production:</text>
+    <text x="0" y="158" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">100 units</text>
+  </g>
+  
+  <!-- 2000 Australia Chart -->
+  <g transform="translate(600, 180)">
+    <!-- Green slice (130 units, ~76.5%) -->
+    <path d="M 0,-80 A 80,80 0 1,1 -40,69.28 L 0,0 Z" fill="#7CB342"/>
+    <text x="20" y="-30" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">130</text>
+    
+    <!-- Red slice (36 units, ~21.2%) -->
+    <path d="M -40,69.28 A 80,80 0 0,1 80,0 L 0,0 Z" fill="#E53935"/>
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">36</text>
+    
+    <!-- Dark blue slice (2 units, ~1.2%) -->
+    <path d="M 80,0 A 80,80 0 0,1 76,-21 L 0,0 Z" fill="#1E3A5F"/>
+    <text x="78" y="-8" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">2</text>
+    
+    <!-- Yellow slice (2 units, ~1.2%) -->
+    <path d="M 76,-21 A 80,80 0 0,1 0,-80 L 0,0 Z" fill="#FFB300"/>
+    <text x="35" y="-55" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">2</text>
+    
+    <!-- Labels -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">2000</text>
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Total Production:</text>
+    <text x="0" y="158" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">170 units</text>
+  </g>
+  
+  <!-- France Title -->
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="20" fill="#008B8B" text-anchor="middle" font-weight="bold">Units of electricity by fuel source in France</text>
+  
+  <!-- Legend for France -->
+  <g transform="translate(480, 500)">
+    <circle cx="0" cy="0" r="5" fill="#1E3A5F"/>
+    <text x="10" y="5" font-family="Arial, sans-serif" font-size="12" fill="#333">Natural Gas</text>
+    
+    <circle cx="0" cy="20" r="5" fill="#FFB300"/>
+    <text x="10" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">Oil</text>
+    
+    <circle cx="0" cy="40" r="5" fill="#757575"/>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="12" fill="#333">Coal</text>
+    
+    <circle cx="0" cy="60" r="5" fill="#8B4513"/>
+    <text x="10" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">Nuclear Power</text>
+    
+    <circle cx="0" cy="80" r="5" fill="#E53935"/>
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="12" fill="#333">Hydro Power</text>
+  </g>
+  
+  <!-- 1980 France Chart -->
+  <g transform="translate(200, 590)">
+    <!-- Natural Gas slice (25 units, ~27.8%) -->
+    <path d="M 0,-80 A 80,80 0 0,1 56,56 L 0,0 Z" fill="#1E3A5F"/>
+    <text x="25" y="-35" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">25</text>
+    
+    <!-- Oil slice (20 units, ~22.2%) -->
+    <path d="M 56,56 A 80,80 0 0,1 -25,76 L 0,0 Z" fill="#FFB300"/>
+    <text x="25" y="50" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">20</text>
+    
+    <!-- Coal/Green slice (25 units, ~27.8%) -->
+    <path d="M -25,76 A 80,80 0 0,1 -80,0 L 0,0 Z" fill="#7CB342"/>
+    <text x="-50" y="35" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">25</text>
+    
+    <!-- Nuclear/Brown slice (15 units, ~16.7%) -->
+    <path d="M -80,0 A 80,80 0 0,1 -56,-56 L 0,0 Z" fill="#8B4513"/>
+    <text x="-50" y="-25" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">15</text>
+    
+    <!-- Hydro/Red slice (5 units, ~5.6%) -->
+    <path d="M -56,-56 A 80,80 0 0,1 0,-80 L 0,0 Z" fill="#E53935"/>
+    <text x="-30" y="-55" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">5</text>
+    
+    <!-- Labels -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">1980</text>
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Total Production:</text>
+    <text x="0" y="158" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">90 units</text>
+  </g>
+  
+  <!-- 2000 France Chart -->
+  <g transform="translate(600, 590)">
+    <!-- Nuclear/Brown slice (126 units, 70%) -->
+    <path d="M 0,-80 A 80,80 0 1,1 -80,0 L 0,0 Z" fill="#8B4513"/>
+    <text x="30" y="10" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">126</text>
+    
+    <!-- Hydro/Red slice (2 units, ~1.1%) -->
+    <path d="M -80,0 A 80,80 0 0,1 -78.4,-8.8 L 0,0 Z" fill="#E53935"/>
+    <rect x="-90" y="-20" width="25" height="20" fill="#E53935"/>
+    <text x="-77" y="-5" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">2</text>
+    
+    <!-- Oil slice (25 units, ~13.9%) -->
+    <path d="M -78.4,-8.8 A 80,80 0 0,1 -40,-69.28 L 0,0 Z" fill="#FFB300"/>
+    <text x="-55" y="-35" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">25</text>
+    
+    <!-- Coal/Green slice (25 units, ~13.9%) -->
+    <path d="M -40,-69.28 A 80,80 0 0,1 40,-69.28 L 0,0 Z" fill="#7CB342"/>
+    <text x="0" y="-65" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold">25</text>
+    
+    <!-- Natural Gas slice (2 units, ~1.1%) -->
+    <path d="M 40,-69.28 A 80,80 0 0,1 0,-80 L 0,0 Z" fill="#1E3A5F"/>
+    <rect x="35" y="-95" width="25" height="20" fill="#1E3A5F"/>
+    <text x="47" y="-80" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">2</text>
+    
+    <!-- Callout lines -->
+    <line x1="-78" y1="-4" x2="-85" y2="-15" stroke="#333" stroke-width="2"/>
+    <line x1="42" y1="-68" x2="50" y2="-85" stroke="#333" stroke-width="2"/>
+    
+    <!-- Labels -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">2000</text>
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Total Production:</text>
+    <text x="0" y="158" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">180units</text>
+  </g>
+</svg>

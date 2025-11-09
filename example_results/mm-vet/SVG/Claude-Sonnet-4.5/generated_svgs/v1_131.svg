@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="250" fill="#8B9BA3"/>
+  
+  <!-- Ocean -->
+  <rect y="250" width="800" height="350" fill="#40B5AD"/>
+  
+  <!-- Waves -->
+  <path d="M0,320 Q100,310 200,320 T400,320 T600,320 T800,320" fill="none" stroke="#5FCCC9" stroke-width="3" opacity="0.6"/>
+  <path d="M0,350 Q150,340 300,350 T600,350 T800,350" fill="none" stroke="#5FCCC9" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Water splash left -->
+  <ellipse cx="250" cy="380" rx="80" ry="40" fill="#E6F7F5" opacity="0.7"/>
+  <circle cx="230" cy="360" r="15" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="270" cy="370" r="10" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="240" cy="390" r="12" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Water splash right -->
+  <ellipse cx="550" cy="370" rx="90" ry="45" fill="#E6F7F5" opacity="0.7"/>
+  <circle cx="570" cy="350" r="18" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="530" cy="360" r="12" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="560" cy="385" r="14" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Surfboard -->
+  <ellipse cx="400" cy="420" rx="90" ry="20" fill="#FFFFFF" transform="rotate(-15 400 420)"/>
+  <ellipse cx="400" cy="420" rx="70" ry="15" fill="#F0F0F0" transform="rotate(-15 400 420)"/>
+  
+  <!-- Person's legs -->
+  <rect x="360" y="360" width="22" height="70" fill="#1a1a1a" transform="rotate(-10 371 360)"/>
+  <rect x="410" y="355" width="22" height="75" fill="#1a1a1a" transform="rotate(5 421 355)"/>
+  
+  <!-- Person's body (wetsuit) -->
+  <ellipse cx="400" cy="310" rx="50" ry="70" fill="#7B5FB0"/>
+  <rect x="375" y="280" width="50" height="60" fill="#7B5FB0"/>
+  
+  <!-- Arms -->
+  <rect x="330" y="280" width="18" height="60" fill="#6B4FA0" transform="rotate(-45 339 280)"/>
+  <rect x="450" y="270" width="18" height="65" fill="#6B4FA0" transform="rotate(60 459 270)"/>
+  
+  <!-- Sleeve detail -->
+  <rect x="438" y="285" width="25" height="20" fill="#808080"/>
+  
+  <!-- Head -->
+  <circle cx="400" cy="250" r="30" fill="#D4A574"/>
+  
+  <!-- Hair -->
+  <path d="M370,240 Q360,220 380,210 L400,215 L420,210 Q440,220 430,240 L420,250 Q410,260 400,265 Q390,260 380,250 Z" fill="#A0522D"/>
+  <ellipse cx="365" cy="250" rx="8" ry="25" fill="#A0522D" transform="rotate(-20 365 250)"/>
+  
+  <!-- Face details -->
+  <ellipse cx="390" cy="250" rx="3" ry="4" fill="#2C2C2C"/>
+  <ellipse cx="410" cy="250" rx="3" ry="4" fill="#2C2C2C"/>
+  <path d="M395,260 Q400,263 405,260" fill="none" stroke="#2C2C2C" stroke-width="2"/>
+  
+  <!-- Splash droplets -->
+  <circle cx="300" cy="340" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="320" cy="320" r="3" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="280" cy="350" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="500" cy="330" r="5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="520" cy="340" r="3" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="540" cy="320" r="4" fill="#FFFFFF" opacity="0.7"/>
+</svg>

@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#d4c8bc"/>
+  
+  <!-- Marble texture overlay -->
+  <defs>
+    <filter id="noise">
+      <feTurbulence baseFrequency="0.9" numOctaves="4" seed="2"/>
+      <feColorMatrix values="0 0 0 0 0.83
+                             0 0 0 0 0.79
+                             0 0 0 0 0.74
+                             0 0 0 0.15 0"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="#d4c8bc" filter="url(#noise)"/>
+  
+  <!-- White curry bowl -->
+  <ellipse cx="350" cy="520" rx="160" ry="30" fill="#8a8175"/>
+  <ellipse cx="350" cy="300" rx="180" ry="180" fill="#f5f3f0"/>
+  <ellipse cx="350" cy="290" rx="165" ry="155" fill="#fff"/>
+  
+  <!-- Curry sauce -->
+  <ellipse cx="350" cy="300" rx="150" ry="140" fill="#d9a621"/>
+  
+  <!-- Chickpeas and ingredients -->
+  <circle cx="320" cy="320" r="12" fill="#c89e3f"/>
+  <circle cx="360" cy="310" r="11" fill="#d4ab47"/>
+  <circle cx="340" cy="340" r="10" fill="#c89e3f"/>
+  <circle cx="380" cy="330" r="12" fill="#d4ab47"/>
+  <circle cx="310" cy="290" r="11" fill="#c89e3f"/>
+  <circle cx="370" cy="350" r="10" fill="#c89e3f"/>
+  <circle cx="330" cy="300" r="11" fill="#d4ab47"/>
+  <circle cx="390" cy="310" r="11" fill="#c89e3f"/>
+  <circle cx="350" cy="330" r="12" fill="#d4ab47"/>
+  <circle cx="300" cy="340" r="10" fill="#c89e3f"/>
+  
+  <!-- Sweet potato chunks -->
+  <ellipse cx="320" cy="260" rx="22" ry="18" fill="#e67e3b" transform="rotate(-15 320 260)"/>
+  <ellipse cx="380" cy="280" rx="20" ry="16" fill="#d97233" transform="rotate(10 380 280)"/>
+  <ellipse cx="350" cy="360" rx="24" ry="19" fill="#e67e3b" transform="rotate(25 350 360)"/>
+  <ellipse cx="290" cy="310" rx="21" ry="17" fill="#d97233" transform="rotate(-20 290 310)"/>
+  <ellipse cx="400" cy="340" rx="20" ry="16" fill="#e67e3b" transform="rotate(15 400 340)"/>
+  
+  <!-- Cauliflower pieces -->
+  <path d="M 310 270 Q 312 265 315 268 Q 318 266 320 270 Q 318 273 315 272 Q 312 274 310 270 Z" fill="#f5e8c7"/>
+  <path d="M 370 320 Q 373 316 376 319 Q 379 318 381 322 Q 378 325 375 324 Q 372 326 370 320 Z" fill="#f5e8c7"/>
+  <path d="M 340 350 Q 343 347 346 350 Q 349 349 351 353 Q 348 356 345 355 Q 342 357 340 350 Z" fill="#f5e8c7"/>
+  
+  <!-- Spinach leaves -->
+  <ellipse cx="330" cy="285" rx="15" ry="8" fill="#2d5c3e" transform="rotate(30 330 285)"/>
+  <ellipse cx="380" cy="305" rx="13" ry="7" fill="#2d5c3e" transform="rotate(-40 380 305)"/>
+  <ellipse cx="360" cy="340" rx="14" ry="7" fill="#2d5c3e" transform="rotate(20 360 340)"/>
+  <ellipse cx="310" cy="330" rx="12" ry="6" fill="#2d5c3e" transform="rotate(-25 310 330)"/>
+  
+  <!-- Spoon in curry -->
+  <ellipse cx="280" cy="290" rx="18" ry="24" fill="#8b7355" transform="rotate(-35 280 290)"/>
+  <rect x="260" y="250" width="12" height="60" fill="#a68968" transform="rotate(-35 266 280)"/>
+  
+  <!-- Rice bowl (terracotta) -->
+  <ellipse cx="580" cy="340" rx="100" ry="20" fill="#6d4c3d"/>
+  <ellipse cx="580" cy="210" rx="110" ry="110" fill="#c37d5f"/>
+  <ellipse cx="580" cy="200" rx="105" ry="100" fill="#d18968"/>
+  
+  <!-- Rice -->
+  <ellipse cx="580" cy="200" rx="95" ry="90" fill="#f5f5f0"/>
+  <ellipse cx="580" cy="185" rx="90" ry="80" fill="#fff"/>
+  
+  <!-- Rice grain details -->
+  <g opacity="0.3">
+    <ellipse cx="560" cy="180" rx="3" ry="8" fill="#e8e6e0" transform="rotate(15 560 180)"/>
+    <ellipse cx="590" cy="190" rx="3" ry="7" fill="#e8e6e0" transform="rotate(-20 590 190)"/>
+    <ellipse cx="575" cy="200" rx="3" ry="8" fill="#e8e6e0" transform="rotate(10 575 200)"/>
+    <ellipse cx="600" cy="185" rx="3" ry="7" fill="#e8e6e0" transform="rotate(25 600 185)"/>
+  </g>
+  
+  <!-- Small white dish -->
+  <ellipse cx="640" cy="450" rx="50" ry="10" fill="#b8ada3"/>
+  <ellipse cx="640" cy="420" rx="55" ry="55" fill="#f5f3f0"/>
+  <ellipse cx="640" cy="415" rx="48" ry="48" fill="#fff"/>
+  
+  <!-- White napkin -->
+  <path d="M 550 480 L 650 480 L 640 520 L 560 520 Z" fill="#f8f8f8"/>
+  <path d="M 560 480 Q 605 490 650 480" stroke="#e0e0e0" stroke-width="1" fill="none"/>
+</svg>

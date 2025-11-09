@@ -1,0 +1,117 @@
+<svg viewBox="0 0 850 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="425" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Dataset 1</text>
+  
+  <!-- Blue line under title -->
+  <rect x="40" y="85" width="770" height="4" fill="#4a90e2"/>
+  
+  <!-- Table headers -->
+  <rect x="40" y="145" width="310" height="60" fill="#ffc107" stroke="#333" stroke-width="2"/>
+  <text x="195" y="185" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Department</text>
+  
+  <rect x="350" y="145" width="220" height="60" fill="#8bc34a" stroke="#333" stroke-width="2"/>
+  <text x="460" y="185" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Name</text>
+  
+  <rect x="570" y="145" width="260" height="60" fill="#90caf9" stroke="#333" stroke-width="2"/>
+  <text x="700" y="185" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Salary</text>
+  
+  <!-- Row 1 -->
+  <rect x="40" y="205" width="310" height="55" fill="#fff9e6" stroke="#333" stroke-width="2"/>
+  <text x="195" y="240" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Administration</text>
+  
+  <rect x="350" y="205" width="220" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="460" y="240" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Emily</text>
+  
+  <rect x="570" y="205" width="260" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="700" y="240" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$2,000</text>
+  
+  <!-- Row 2 -->
+  <rect x="40" y="260" width="310" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="195" y="295" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Finance</text>
+  
+  <rect x="350" y="260" width="220" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="460" y="295" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Nick</text>
+  
+  <rect x="570" y="260" width="260" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="700" y="295" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$1,800</text>
+  
+  <!-- Row 3 -->
+  <rect x="40" y="315" width="310" height="55" fill="#fff9e6" stroke="#333" stroke-width="2"/>
+  <text x="195" y="350" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Marketing</text>
+  
+  <rect x="350" y="315" width="220" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="460" y="350" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">John</text>
+  
+  <rect x="570" y="315" width="260" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="700" y="350" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$2,600</text>
+  
+  <!-- Row 4 -->
+  <rect x="40" y="370" width="310" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="195" y="405" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Marketing</text>
+  
+  <rect x="350" y="370" width="220" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="460" y="405" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Gloria</text>
+  
+  <rect x="570" y="370" width="260" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="700" y="405" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$1,800</text>
+  
+  <!-- Row 5 -->
+  <rect x="40" y="425" width="310" height="55" fill="#fff9e6" stroke="#333" stroke-width="2"/>
+  <text x="195" y="460" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Administration</text>
+  
+  <rect x="350" y="425" width="220" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="460" y="460" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Jane</text>
+  
+  <rect x="570" y="425" width="260" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="700" y="460" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$2,500</text>
+  
+  <!-- Row 6 -->
+  <rect x="40" y="480" width="310" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="195" y="515" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Finance</text>
+  
+  <rect x="350" y="480" width="220" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="460" y="515" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Max</text>
+  
+  <rect x="570" y="480" width="260" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="700" y="515" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$2,000</text>
+  
+  <!-- Row 7 -->
+  <rect x="40" y="535" width="310" height="55" fill="#fff9e6" stroke="#333" stroke-width="2"/>
+  <text x="195" y="570" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Administration</text>
+  
+  <rect x="350" y="535" width="220" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="460" y="570" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Tyler</text>
+  
+  <rect x="570" y="535" width="260" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="700" y="570" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$3,000</text>
+  
+  <!-- Row 8 -->
+  <rect x="40" y="590" width="310" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="195" y="625" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Finance</text>
+  
+  <rect x="350" y="590" width="220" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="460" y="625" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Wilkins</text>
+  
+  <rect x="570" y="590" width="260" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="700" y="625" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$2,500</text>
+  
+  <!-- Row 9 -->
+  <rect x="40" y="645" width="310" height="55" fill="#fff9e6" stroke="#333" stroke-width="2"/>
+  <text x="195" y="680" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Marketing</text>
+  
+  <rect x="350" y="645" width="220" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="460" y="680" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Miles</text>
+  
+  <rect x="570" y="645" width="260" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="700" y="680" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$2,800</text>
+  
+  <!-- Row 10 -->
+  <rect x="40" y="700" width="310" height="55" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="195" y="735" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Administration</text>
+  
+  <rect x="350" y="700" width="220" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="460" y="735" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Sabine</text>
+  
+  <rect x="570" y="700" width="260" height="55" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  <text x="700" y="735" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">$1,900</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wood table background -->
+  <rect width="400" height="400" fill="#d4a574"/>
+  <path d="M0 0 Q100 5 200 0 T400 0 L400 400 Q300 395 200 400 T0 400 Z" fill="#c9995e" opacity="0.3"/>
+  
+  <!-- Wood grain texture -->
+  <line x1="0" y1="120" x2="400" y2="125" stroke="#b8935a" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="280" x2="400" y2="275" stroke="#b8935a" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Chopstick 1 (left) -->
+  <g>
+    <rect x="140" y="80" width="8" height="240" fill="#e8e8e8" rx="4"/>
+    <rect x="140" y="80" width="4" height="240" fill="#f5f5f5" rx="2"/>
+    <ellipse cx="144" cy="85" rx="4" ry="3" fill="#d5d5d5"/>
+    <ellipse cx="144" cy="315" rx="4" ry="3" fill="#d5d5d5"/>
+    <!-- Decorative pattern near bottom -->
+    <rect x="141" y="290" width="6" height="2" fill="#c0c0c0"/>
+    <rect x="141" y="294" width="6" height="1" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Chopstick 2 (right) -->
+  <g>
+    <rect x="252" y="80" width="8" height="240" fill="#e8e8e8" rx="4"/>
+    <rect x="252" y="80" width="4" height="240" fill="#f5f5f5" rx="2"/>
+    <ellipse cx="256" cy="85" rx="4" ry="3" fill="#d5d5d5"/>
+    <ellipse cx="256" cy="315" rx="4" ry="3" fill="#d5d5d5"/>
+    <!-- Decorative pattern near bottom -->
+    <rect x="253" y="290" width="6" height="2" fill="#c0c0c0"/>
+    <rect x="253" y="294" width="6" height="1" fill="#c0c0c0"/>
+  </g>
+  
+  <!-- Spoon -->
+  <g>
+    <!-- Handle -->
+    <rect x="60" y="150" width="6" height="170" fill="#e8e8e8" rx="3"/>
+    <rect x="60" y="150" width="3" height="170" fill="#f5f5f5" rx="1.5"/>
+    <!-- Decorative pattern on handle -->
+    <rect x="61" y="295" width="4" height="2" fill="#c0c0c0"/>
+    <rect x="61" y="299" width="4" height="1" fill="#c0c0c0"/>
+    
+    <!-- Spoon bowl -->
+    <ellipse cx="63" cy="120" rx="25" ry="35" fill="#e0e0e0"/>
+    <ellipse cx="63" cy="120" rx="23" ry="33" fill="#f0f0f0"/>
+    <ellipse cx="58" cy="115" rx="15" ry="20" fill="#ffffff" opacity="0.6"/>
+    <path d="M 63 85 Q 50 100 48 120 Q 50 140 63 155 Q 76 140 78 120 Q 76 100 63 85 Z" fill="#e8e8e8"/>
+    <path d="M 63 85 Q 53 100 51 120 Q 53 140 63 155 Q 73 140 75 120 Q 73 100 63 85 Z" fill="#f5f5f5"/>
+    
+    <!-- Connection between bowl and handle -->
+    <rect x="60" y="145" width="6" height="15" fill="#e8e8e8"/>
+    <rect x="60" y="145" width="3" height="15" fill="#f5f5f5"/>
+  </g>
+  
+  <!-- Garlic bulbs (decorative element top right) -->
+  <g transform="translate(300, 50)">
+    <ellipse cx="0" cy="0" rx="18" ry="20" fill="#f5ebe0"/>
+    <ellipse cx="-8" cy="-5" rx="16" ry="18" fill="#f0e6d6"/>
+    <ellipse cx="10" cy="-3" rx="15" ry="17" fill="#f0e6d6"/>
+    <ellipse cx="8" cy="12" rx="14" ry="16" fill="#ede3d0"/>
+    <ellipse cx="-10" cy="10" rx="13" ry="15" fill="#ede3d0"/>
+    <!-- Garlic texture -->
+    <path d="M -5 -10 Q 0 -5 5 -10" stroke="#d4c8b0" stroke-width="1" fill="none"/>
+    <path d="M -8 0 Q 0 5 8 0" stroke="#d4c8b0" stroke-width="1" fill="none"/>
+  </g>
+</svg>

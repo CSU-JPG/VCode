@@ -1,0 +1,50 @@
+<svg viewBox="0 0 710 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue header background -->
+  <rect x="7" y="7" width="696" height="60" fill="#4169E1"/>
+  
+  <!-- Header text -->
+  <text x="355" y="45" font-family="Arial Black, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">CAN YOU FIND THE MISSING NUMBERS?</text>
+  
+  <!-- IF text -->
+  <text x="230" y="105" font-family="Arial, sans-serif" font-size="28" fill="black">IF</text>
+  
+  <!-- First equation -->
+  <text x="50" y="145" font-family="Arial, sans-serif" font-size="26" fill="black">2 X 1 X 3 = 5</text>
+  
+  <!-- Second equation -->
+  <text x="50" y="180" font-family="Arial, sans-serif" font-size="26" fill="black">4 X 5 X 2 = 14</text>
+  
+  <!-- Third equation -->
+  <text x="50" y="215" font-family="Arial, sans-serif" font-size="26" fill="black">3 X 3 X 4 = 15</text>
+  
+  <!-- Fourth equation -->
+  <text x="50" y="250" font-family="Arial, sans-serif" font-size="26" fill="black">5 X 3 X 2 = 11</text>
+  
+  <!-- THEN text -->
+  <text x="165" y="290" font-family="Arial, sans-serif" font-size="28" fill="black">THEN</text>
+  
+  <!-- Fifth equation with question mark -->
+  <text x="50" y="330" font-family="Arial, sans-serif" font-size="26" fill="black">6 X 7 X 1 = ?</text>
+  
+  <!-- Question mark figure -->
+  <!-- Yellow question mark -->
+  <ellipse cx="530" cy="200" rx="45" ry="50" fill="#FFD700"/>
+  <ellipse cx="530" cy="200" rx="35" ry="40" fill="white"/>
+  <path d="M 515 175 Q 530 165 545 175 Q 550 185 545 195 Q 535 205 530 210 L 530 220" stroke="#FFD700" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <circle cx="530" cy="235" r="6" fill="#FFD700"/>
+  
+  <!-- 3D figure base -->
+  <ellipse cx="580" cy="240" rx="25" ry="8" fill="#CCCCCC"/>
+  
+  <!-- Figure body -->
+  <path d="M 570 240 L 570 200 Q 570 190 580 190 Q 590 190 590 200 L 590 240" fill="#E0E0E0"/>
+  
+  <!-- Figure head -->
+  <circle cx="580" cy="180" r="18" fill="#F0F0F0"/>
+  
+  <!-- Figure arm -->
+  <path d="M 590 205 Q 600 200 610 195 L 620 200 Q 615 205 605 210" fill="#E0E0E0"/>
+  
+  <!-- Copyright text -->
+  <text x="410" y="350" font-family="Arial, sans-serif" font-size="11" fill="#999999">©www.FunWithPuzzles.com</text>
+</svg>

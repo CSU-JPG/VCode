@@ -1,0 +1,87 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#d0d0c8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9a9a90;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  
+  <!-- Suit jacket - dark -->
+  <ellipse cx="400" cy="850" rx="280" ry="180" fill="#1a1a1a"/>
+  <rect x="120" y="670" width="560" height="330" fill="#1a1a1a"/>
+  
+  <!-- Shoulders -->
+  <ellipse cx="250" cy="680" rx="100" ry="60" fill="#0d0d0d"/>
+  <ellipse cx="550" cy="680" rx="100" ry="60" fill="#0d0d0d"/>
+  
+  <!-- White collar -->
+  <path d="M 350,640 Q 370,655 400,655 Q 430,655 450,640 L 460,670 Q 430,680 400,680 Q 370,680 340,670 Z" fill="#f5f5f5"/>
+  
+  <!-- Neck -->
+  <ellipse cx="400" cy="620" rx="45" ry="60" fill="#d4b896"/>
+  
+  <!-- Beard -->
+  <ellipse cx="400" cy="600" rx="75" ry="85" fill="#c8c8c8"/>
+  <ellipse cx="370" cy="570" rx="35" ry="45" fill="#d8d8d8"/>
+  <ellipse cx="430" cy="570" rx="35" ry="45" fill="#d8d8d8"/>
+  <path d="M 350,560 Q 400,610 450,560 Q 455,590 450,610 Q 430,625 400,625 Q 370,625 350,610 Q 345,590 350,560 Z" fill="#e8e8e8"/>
+  
+  <!-- Head -->
+  <ellipse cx="400" cy="420" rx="120" ry="145" fill="#d4b896"/>
+  
+  <!-- Ears -->
+  <ellipse cx="295" cy="440" rx="22" ry="35" fill="#c4a886"/>
+  <ellipse cx="505" cy="440" rx="22" ry="35" fill="#c4a886"/>
+  <ellipse cx="298" cy="445" rx="12" ry="20" fill="#b49876"/>
+  
+  <!-- Hair -->
+  <path d="M 280,320 Q 270,280 290,250 Q 320,220 360,215 Q 400,210 440,215 Q 480,220 510,250 Q 530,280 525,320 Q 520,300 510,290 Q 490,270 470,265 L 450,320 L 430,280 Q 410,275 390,275 Q 370,280 350,290 L 330,320 Q 310,300 300,310 Z" fill="#a0a0a0"/>
+  
+  <!-- Forehead highlights -->
+  <ellipse cx="400" cy="310" rx="90" ry="40" fill="#e4c8a6" opacity="0.5"/>
+  
+  <!-- Eye sockets shadow -->
+  <ellipse cx="360" cy="400" rx="35" ry="25" fill="#b49876" opacity="0.6"/>
+  <ellipse cx="440" cy="400" rx="35" ry="25" fill="#b49876" opacity="0.6"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="360" cy="405" rx="28" ry="20" fill="#f5f5f5"/>
+  <ellipse cx="440" cy="405" rx="28" ry="20" fill="#f5f5f5"/>
+  <circle cx="362" cy="408" r="16" fill="#3d3d3d"/>
+  <circle cx="442" cy="408" r="16" fill="#3d3d3d"/>
+  <circle cx="365" cy="405" r="7" fill="#000"/>
+  <circle cx="445" cy="405" r="7" fill="#000"/>
+  <circle cx="367" cy="403" r="3" fill="#fff"/>
+  <circle cx="447" cy="403" r="3" fill="#fff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 325,375 Q 345,365 375,370" stroke="#606060" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 425,370 Q 455,365 475,375" stroke="#606060" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 400,415 L 395,465 Q 395,475 400,478 L 400,478 Q 405,475 405,465 Z" fill="#c4a886"/>
+  <ellipse cx="385" cy="475" rx="8" ry="10" fill="#b49876"/>
+  <ellipse cx="415" cy="475" rx="8" ry="10" fill="#b49876"/>
+  
+  <!-- Mouth area under beard -->
+  <ellipse cx="400" cy="515" rx="30" ry="15" fill="#b49876" opacity="0.4"/>
+  
+  <!-- Mustache -->
+  <path d="M 350,495 Q 375,505 400,500 Q 425,505 450,495 Q 445,510 425,515 Q 410,518 400,518 Q 390,518 375,515 Q 355,510 350,495 Z" fill="#d8d8d8"/>
+  
+  <!-- Bow tie -->
+  <path d="M 365,655 L 350,665 L 365,675 L 385,670 Z" fill="#0d0d0d"/>
+  <path d="M 435,655 L 450,665 L 435,675 L 415,670 Z" fill="#0d0d0d"/>
+  <rect x="385" y="660" width="30" height="15" fill="#1a1a1a"/>
+  
+  <!-- Jacket buttons -->
+  <circle cx="400" cy="730" r="6" fill="#8a8a8a"/>
+  <circle cx="400" cy="800" r="6" fill="#8a8a8a"/>
+  
+  <!-- Face contour shadows -->
+  <path d="M 290,380 Q 285,420 290,460 Q 300,500 320,530" stroke="#b49876" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 510,380 Q 515,420 510,460 Q 500,500 480,530" stroke="#b49876" stroke-width="3" fill="none" opacity="0.5"/>
+</svg>

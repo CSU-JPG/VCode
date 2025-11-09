@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5F9EA0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="1400" height="900" fill="url(#skyGrad)"/>
+  
+  <!-- Distant hills/trees -->
+  <ellipse cx="700" cy="350" rx="800" ry="250" fill="#2F5F4F" opacity="0.6"/>
+  <ellipse cx="300" cy="320" rx="400" ry="180" fill="#3B6B52" opacity="0.7"/>
+  <ellipse cx="1100" cy="340" rx="450" ry="200" fill="#2F5F4F" opacity="0.65"/>
+  
+  <!-- Trees left and right -->
+  <ellipse cx="100" cy="280" rx="80" ry="180" fill="#4A7C59"/>
+  <ellipse cx="100" cy="350" rx="90" ry="200" fill="#3B6B52"/>
+  <rect x="85" y="450" width="30" height="150" fill="#3F2F1F"/>
+  
+  <ellipse cx="1300" cy="300" rx="70" ry="160" fill="#4A7C59"/>
+  <ellipse cx="1280" cy="350" rx="75" ry="180" fill="#3B6B52"/>
+  <rect x="1265" y="450" width="30" height="120" fill="#3F2F1F"/>
+  
+  <!-- Water body -->
+  <ellipse cx="700" cy="450" rx="600" ry="120" fill="url(#waterGrad)"/>
+  
+  <!-- Dead tree/branch on right -->
+  <path d="M 1150 350 Q 1170 320 1180 300 L 1185 290 M 1180 300 Q 1195 305 1210 295" stroke="#8B7355" stroke-width="6" fill="none"/>
+  <ellipse cx="1200" cy="285" rx="25" ry="35" fill="#9B8B5F" opacity="0.7"/>
+  
+  <!-- Ground -->
+  <ellipse cx="700" cy="720" rx="700" ry="150" fill="#B8956F"/>
+  <rect x="0" y="700" width="1400" height="200" fill="#C4A572"/>
+  
+  <!-- Flags -->
+  <line x1="1050" y1="500" x2="1050" y2="350" stroke="#666" stroke-width="3"/>
+  <polygon points="1050,355 1095,365 1050,375" fill="#C1272D"/>
+  <rect x="1050" y="365" width="45" height="10" fill="white"/>
+  <rect x="1050" y="375" width="45" height="10" fill="#002868"/>
+  
+  <line x1="1150" y1="510" x2="1150" y2="360" stroke="#666" stroke-width="3"/>
+  <rect x="1150" y="365" width="50" height="35" fill="#FFD700"/>
+  
+  <!-- Elephant -->
+  <ellipse cx="650" cy="670" rx="180" ry="140" fill="#6B6B6B"/>
+  <ellipse cx="580" cy="640" rx="90" ry="100" fill="#5F5F5F"/>
+  
+  <!-- Legs -->
+  <rect x="570" y="740" width="50" height="120" rx="10" fill="#5F5F5F"/>
+  <rect x="650" y="750" width="50" height="110" rx="10" fill="#5F5F5F"/>
+  <rect x="730" y="750" width="50" height="110" rx="10" fill="#656565"/>
+  <ellipse cx="595" cy="860" rx="30" ry="15" fill="#4A4A4A"/>
+  <ellipse cx="675" cy="860" rx="30" ry="15" fill="#4A4A4A"/>
+  <ellipse cx="755" cy="860" rx="30" ry="15" fill="#4A4A4A"/>
+  
+  <!-- Head -->
+  <ellipse cx="500" cy="620" rx="65" ry="80" fill="#656565"/>
+  <circle cx="485" cy="600" r="8" fill="#2F2F2F"/>
+  
+  <!-- Trunk -->
+  <path d="M 480 640 Q 450 680 440 720 Q 435 750 445 770" stroke="#656565" stroke-width="35" fill="none" stroke-linecap="round"/>
+  
+  <!-- Ear -->
+  <ellipse cx="515" cy="620" rx="45" ry="70" fill="#5A5A5A" transform="rotate(-20 515 620)"/>
+  
+  <!-- Tail -->
+  <path d="M 800 700 Q 850 710 880 720" stroke="#5F5F5F" stroke-width="8" fill="none"/>
+  <path d="M 880 720 L 875 735 L 885 735 Z" fill="#4A4A4A"/>
+  
+  <!-- Saddle/blanket -->
+  <ellipse cx="680" cy="610" rx="120" ry="50" fill="#8B4513"/>
+  <rect x="600" y="595" width="160" height="30" fill="#A0522D" rx="5"/>
+  <path d="M 600 625 L 580 670 L 620 660 Z" fill="#6B4423"/>
+  <path d="M 760 625 L 780 670 L 740 660 Z" fill="#6B4423"/>
+  
+  <!-- Straps/chains -->
+  <ellipse cx="680" cy="680" rx="100" ry="8" fill="none" stroke="#654321" stroke-width="3"/>
+  <line x1="650" y1="620" x2="640" y2="720" stroke="#4A4A4A" stroke-width="4"/>
+  
+  <!-- Mahout (rider) -->
+  <ellipse cx="680" cy="530" rx="35" ry="45" fill="#6FA8DC"/>
+  <circle cx="680" cy="490" r="22" fill="#D4A574"/>
+  
+  <!-- Hat -->
+  <ellipse cx="680" cy="475" rx="30" ry="12" fill="#E8D4A8"/>
+  <path d="M 660 475 Q 680 460 700 475" fill="#C4B89F"/>
+  <ellipse cx="680" cy="478" rx="28" ry="8" fill="#D4C4A8"/>
+  
+  <!-- Arms -->
+  <rect x="660" y="530" width="12" height="35" fill="#6FA8DC" transform="rotate(-15 666 530)"/>
+  <circle cx="662" cy="565" r="7" fill="#C49B6B"/>
+  
+  <!-- Legs of rider -->
+  <rect x="665" y="570" width="14" height="40" fill="#4A5F8F"/>
+  <rect x="690" y="570" width="14" height="40" fill="#4A5F8F"/>
+  
+  <!-- Foliage details -->
+  <ellipse cx="150" cy="250" rx="40" ry="60" fill="#5F9F6F" opacity="0.6"/>
+  <ellipse cx="1250" cy="270" rx="35" ry="55" fill="#5F9F6F" opacity="0.6"/>
+  
+  <!-- Ground texture -->
+  <ellipse cx="400" cy="820" rx="60" ry="20" fill="#A0916B" opacity="0.5"/>
+  <ellipse cx="900" cy="830" rx="70" ry="25" fill="#A0916B" opacity="0.5"/>
+  <ellipse cx="600" cy="810" rx="50" ry="18" fill="#9B8B67" opacity="0.5"/>
+</svg>

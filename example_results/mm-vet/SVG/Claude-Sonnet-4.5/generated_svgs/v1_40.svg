@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="560" fill="#0066CC"/>
+  
+  <!-- Title -->
+  <text x="500" y="80" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">5 STEPS TO WRITING AN SOP</text>
+  
+  <!-- Step 1: Create a list of processes -->
+  <circle cx="267" cy="190" r="50" fill="#2ECC71"/>
+  <rect x="247" y="165" width="40" height="50" rx="3" fill="white"/>
+  <line x1="255" y1="175" x2="260" y2="180" stroke="#2ECC71" stroke-width="2"/>
+  <line x1="260" y1="180" x2="270" y2="170" stroke="#2ECC71" stroke-width="2"/>
+  <line x1="255" y1="188" x2="260" y2="193" stroke="#2ECC71" stroke-width="2"/>
+  <line x1="260" y1="193" x2="270" y2="183" stroke="#2ECC71" stroke-width="2"/>
+  <line x1="255" y1="201" x2="260" y2="206" stroke="#2ECC71" stroke-width="2"/>
+  <line x1="260" y1="206" x2="270" y2="196" stroke="#2ECC71" stroke-width="2"/>
+  <text x="267" y="278" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">CREATE A LIST OF</text>
+  <text x="267" y="302" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">PROCESSES</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 330 190 L 400 190" stroke="white" stroke-width="6" fill="none"/>
+  <path d="M 400 190 L 390 180 L 390 200 Z" fill="white"/>
+  
+  <!-- Step 2: Identify your audience -->
+  <circle cx="476" cy="190" r="50" fill="#5DADE2"/>
+  <circle cx="466" cy="185" r="10" fill="white"/>
+  <circle cx="486" cy="185" r="10" fill="white"/>
+  <ellipse cx="476" cy="205" rx="22" ry="18" fill="white"/>
+  <circle cx="461" cy="178" r="3" fill="#5DADE2"/>
+  <circle cx="491" cy="178" r="3" fill="#5DADE2"/>
+  <circle cx="476" cy="178" r="3" fill="#5DADE2"/>
+  <text x="476" y="278" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">IDENTIFY YOUR</text>
+  <text x="476" y="302" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">AUDIENCE</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 539 190 L 609 190" stroke="white" stroke-width="6" fill="none"/>
+  <path d="M 609 190 L 599 180 L 599 200 Z" fill="white"/>
+  
+  <!-- Step 3: Define the objectives -->
+  <circle cx="685" cy="190" r="50" fill="#EC7063"/>
+  <circle cx="685" cy="190" r="35" fill="none" stroke="white" stroke-width="4"/>
+  <circle cx="685" cy="190" r="20" fill="none" stroke="white" stroke-width="4"/>
+  <circle cx="685" cy="190" r="8" fill="white"/>
+  <line x1="685" y1="158" x2="695" y2="170" stroke="white" stroke-width="4"/>
+  <path d="M 695 170 L 685 175 L 695 180 Z" fill="white"/>
+  <text x="685" y="278" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">DEFINE THE</text>
+  <text x="685" y="302" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">OBJECTIVES</text>
+  
+  <!-- Curved Arrow -->
+  <path d="M 735 210 Q 820 280 760 380" stroke="white" stroke-width="6" fill="none"/>
+  <path d="M 760 380 L 770 370 L 755 365 Z" fill="white"/>
+  
+  <!-- Step 4: Choose a format -->
+  <circle cx="580" cy="405" r="50" fill="#F4D03F"/>
+  <path d="M 565 390 L 580 410 L 605 380" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="580" y="493" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">CHOOSE A FORMAT</text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 517 405 L 447 405" stroke="white" stroke-width="6" fill="none"/>
+  <path d="M 447 405 L 457 395 L 457 415 Z" fill="white"/>
+  
+  <!-- Step 5: Write the SOP -->
+  <circle cx="372" cy="405" r="50" fill="#5DADE2"/>
+  <text x="372" y="415" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">SOP</text>
+  <text x="372" y="493" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">WRITE THE SOP</text>
+  
+  <!-- Frevvo logo -->
+  <text x="880" y="530" font-family="Arial, sans-serif" font-size="38" font-weight="normal" fill="white" font-style="italic">fre</text>
+  <text x="935" y="530" font-family="Arial, sans-serif" font-size="38" font-weight="normal" fill="white" font-style="italic">v</text>
+  <path d="M 945 510 L 950 505 L 955 510" stroke="white" stroke-width="2.5" fill="none"/>
+  <text x="955" y="530" font-family="Arial, sans-serif" font-size="38" font-weight="normal" fill="white" font-style="italic">o</text>
+</svg>

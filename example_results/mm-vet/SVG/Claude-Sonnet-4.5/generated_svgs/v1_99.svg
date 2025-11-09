@@ -1,0 +1,175 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue whale -->
+  <ellipse cx="120" cy="30" rx="45" ry="18" fill="#4169E1"/>
+  <path d="M 75 30 Q 65 25 60 30 Q 65 35 75 30" fill="#4169E1"/>
+  <path d="M 110 48 L 105 58 L 115 58 Z" fill="#4169E1"/>
+  <path d="M 130 48 L 125 58 L 135 58 Z" fill="#4169E1"/>
+  <ellipse cx="110" cy="28" rx="2" ry="2" fill="black"/>
+  <text x="120" y="15" font-size="12" text-anchor="middle" font-family="Arial">Blue whale</text>
+  
+  <!-- Killer whale -->
+  <ellipse cx="480" cy="30" rx="40" ry="16" fill="black"/>
+  <ellipse cx="480" cy="32" rx="35" ry="12" fill="white"/>
+  <ellipse cx="470" cy="28" rx="2" ry="2" fill="white"/>
+  <path d="M 460 20 L 455 10 L 465 18 Z" fill="black"/>
+  <text x="480" y="15" font-size="12" text-anchor="middle" font-family="Arial">Killer whale</text>
+  
+  <!-- Seagull -->
+  <ellipse cx="80" cy="120" rx="12" ry="8" fill="white" stroke="black" stroke-width="1"/>
+  <path d="M 68 120 L 58 118 L 68 116 Z" fill="gray"/>
+  <path d="M 92 120 L 102 118 L 92 116 Z" fill="gray"/>
+  <circle cx="76" cy="118" r="1.5" fill="black"/>
+  <path d="M 82 126 L 80 132 M 84 126 L 86 132" stroke="orange" stroke-width="1.5"/>
+  <text x="80" y="145" font-size="11" text-anchor="middle" font-family="Arial">Seagull</text>
+  
+  <!-- Leopard seal -->
+  <ellipse cx="280" cy="110" rx="35" ry="15" fill="#87CEEB"/>
+  <ellipse cx="270" cy="108" rx="2" ry="2" fill="black"/>
+  <path d="M 315 110 L 325 105 L 325 115 Z" fill="#87CEEB"/>
+  <circle cx="265" cy="115" r="2" fill="black"/>
+  <circle cx="275" cy="115" r="2" fill="black"/>
+  <circle cx="285" cy="115" r="2" fill="black"/>
+  <text x="280" y="135" font-size="11" text-anchor="middle" font-family="Arial">Leopard seal</text>
+  
+  <!-- Penguin -->
+  <ellipse cx="400" cy="140" rx="12" ry="18" fill="black"/>
+  <ellipse cx="400" cy="145" rx="8" ry="12" fill="white"/>
+  <ellipse cx="397" cy="135" rx="1.5" ry="1.5" fill="white"/>
+  <path d="M 388 145 L 382 150 M 412 145 L 418 150" stroke="black" stroke-width="2"/>
+  <path d="M 398 158 L 395 165 M 402 158 L 405 165" stroke="orange" stroke-width="2"/>
+  <text x="400" y="180" font-size="11" text-anchor="middle" font-family="Arial">Penguin</text>
+  
+  <!-- Elephant seal -->
+  <ellipse cx="520" cy="145" rx="30" ry="12" fill="#8B4513"/>
+  <ellipse cx="510" cy="143" rx="2" ry="2" fill="black"/>
+  <path d="M 490 143 Q 480 140 478 145" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <text x="520" y="170" font-size="11" text-anchor="middle" font-family="Arial">Elephant seal</text>
+  
+  <!-- Fish -->
+  <ellipse cx="100" cy="180" rx="18" ry="8" fill="#4682B4"/>
+  <path d="M 82 180 L 72 175 L 72 185 Z" fill="#4682B4"/>
+  <circle cx="108" cy="178" r="1.5" fill="black"/>
+  <path d="M 100 188 L 98 195 L 102 195 Z" fill="#4682B4"/>
+  <text x="100" y="210" font-size="11" text-anchor="middle" font-family="Arial">Fish</text>
+  
+  <!-- Squid -->
+  <ellipse cx="500" cy="200" rx="15" ry="8" fill="#6495ED"/>
+  <circle cx="497" cy="198" r="2" fill="black"/>
+  <line x1="490" y1="208" x2="488" y2="218" stroke="#6495ED" stroke-width="2"/>
+  <line x1="495" y1="208" x2="493" y2="218" stroke="#6495ED" stroke-width="2"/>
+  <line x1="500" y1="208" x2="500" y2="220" stroke="#6495ED" stroke-width="2"/>
+  <line x1="505" y1="208" x2="507" y2="218" stroke="#6495ED" stroke-width="2"/>
+  <line x1="510" y1="208" x2="512" y2="218" stroke="#6495ED" stroke-width="2"/>
+  <text x="500" y="235" font-size="11" text-anchor="middle" font-family="Arial">Squid</text>
+  
+  <!-- Krill -->
+  <path d="M 260 215 L 280 215 L 278 220 L 262 220 Z" fill="#FF6B6B"/>
+  <circle cx="275" cy="213" r="1" fill="black"/>
+  <line x1="265" y1="215" x2="262" y2="210" stroke="#FF6B6B" stroke-width="1"/>
+  <line x1="268" y1="215" x2="265" y2="210" stroke="#FF6B6B" stroke-width="1"/>
+  <line x1="272" y1="215" x2="270" y2="210" stroke="#FF6B6B" stroke-width="1"/>
+  <line x1="275" y1="215" x2="275" y2="210" stroke="#FF6B6B" stroke-width="1"/>
+  <text x="270" y="245" font-size="11" text-anchor="middle" font-family="Arial">Krill</text>
+  
+  <!-- Zooplankton -->
+  <circle cx="50" cy="270" r="8" fill="#90EE90"/>
+  <line x1="50" y1="262" x2="50" y2="255" stroke="#90EE90" stroke-width="1"/>
+  <line x1="48" y1="264" x2="45" y2="258" stroke="#90EE90" stroke-width="1"/>
+  <line x1="52" y1="264" x2="55" y2="258" stroke="#90EE90" stroke-width="1"/>
+  <circle cx="48" cy="269" r="1" fill="black"/>
+  <text x="50" y="295" font-size="11" text-anchor="middle" font-family="Arial">Zooplankton</text>
+  
+  <!-- Phytoplankton -->
+  <circle cx="150" cy="280" r="6" fill="#32CD32"/>
+  <line x1="150" y1="274" x2="150" y2="268" stroke="#228B22" stroke-width="1"/>
+  <line x1="145" y1="277" x2="140" y2="273" stroke="#228B22" stroke-width="1"/>
+  <line x1="155" y1="277" x2="160" y2="273" stroke="#228B22" stroke-width="1"/>
+  <line x1="147" y1="283" x2="143" y2="288" stroke="#228B22" stroke-width="1"/>
+  <line x1="153" y1="283" x2="157" y2="288" stroke="#228B22" stroke-width="1"/>
+  <text x="150" y="305" font-size="11" text-anchor="middle" font-family="Arial">Phytoplankton</text>
+  
+  <!-- Seaweed -->
+  <path d="M 300 320 Q 295 300 300 285 Q 305 300 300 320" fill="#228B22"/>
+  <path d="M 310 320 Q 308 305 310 290 Q 312 305 310 320" fill="#228B22"/>
+  <path d="M 320 320 Q 315 302 318 288 Q 321 302 320 320" fill="#228B22"/>
+  <text x="310" y="340" font-size="11" text-anchor="middle" font-family="Arial">Seaweed</text>
+  
+  <!-- Crab -->
+  <ellipse cx="500" cy="335" rx="20" ry="12" fill="#DC143C"/>
+  <circle cx="495" cy="332" r="2" fill="black"/>
+  <circle cx="505" cy="332" r="2" fill="black"/>
+  <path d="M 480 330 Q 475 325 478 322" stroke="#DC143C" stroke-width="3" fill="none"/>
+  <path d="M 520 330 Q 525 325 522 322" stroke="#DC143C" stroke-width="3" fill="none"/>
+  <line x1="488" y1="342" x2="483" y2="350" stroke="#DC143C" stroke-width="2"/>
+  <line x1="495" y1="345" x2="492" y2="352" stroke="#DC143C" stroke-width="2"/>
+  <line x1="505" y1="345" x2="508" y2="352" stroke="#DC143C" stroke-width="2"/>
+  <line x1="512" y1="342" x2="517" y2="350" stroke="#DC143C" stroke-width="2"/>
+  <text x="500" y="370" font-size="11" text-anchor="middle" font-family="Arial">Crab</text>
+  
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+  
+  <!-- Blue whale to Krill -->
+  <path d="M 120 48 Q 180 120 250 215" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Blue whale to Fish -->
+  <path d="M 100 48 Q 95 100 98 172" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Killer whale to Leopard seal -->
+  <path d="M 460 46 Q 360 70 300 100" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Killer whale to Penguin -->
+  <path d="M 470 46 Q 440 80 410 125" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Killer whale to Elephant seal -->
+  <path d="M 490 46 Q 500 80 515 133" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seagull to Fish -->
+  <path d="M 85 132 Q 90 150 95 172" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seagull to Krill -->
+  <path d="M 92 132 Q 160 170 250 210" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Leopard seal to Fish -->
+  <path d="M 260 125 Q 200 150 118 177" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Leopard seal to Krill -->
+  <path d="M 275 125 Q 272 160 272 207" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Leopard seal to Penguin -->
+  <path d="M 310 115 Q 350 125 388 138" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Penguin to Squid -->
+  <path d="M 410 158 Q 450 175 485 195" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Elephant seal to Squid -->
+  <path d="M 515 157 Q 510 175 505 192" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fish to Zooplankton -->
+  <path d="M 85 188 Q 70 220 55 262" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fish to Phytoplankton -->
+  <path d="M 108 195 Q 120 230 145 274" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Squid to Krill -->
+  <path d="M 485 205 Q 380 210 288 215" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Krill to Phytoplankton -->
+  <path d="M 255 225 Q 210 250 156 274" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Krill to Zooplankton -->
+  <path d="M 258 225 Q 180 245 58 265" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Zooplankton to Phytoplankton -->
+  <path d="M 58 275 Q 90 277 144 278" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seaweed to Phytoplankton -->
+  <path d="M 295 290 Q 240 285 156 282" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Crab to Seaweed -->
+  <path d="M 485 330 Q 400 327 328 322" stroke="black" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+</svg>

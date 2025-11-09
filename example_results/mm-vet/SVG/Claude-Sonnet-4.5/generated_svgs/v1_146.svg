@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ceiling -->
+  <rect width="1600" height="200" fill="#d4d0c8"/>
+  
+  <!-- Ornate ceiling pattern -->
+  <ellipse cx="400" cy="100" rx="80" ry="40" fill="#b8b4a8" opacity="0.6"/>
+  <ellipse cx="800" cy="100" rx="80" ry="40" fill="#b8b4a8" opacity="0.6"/>
+  <ellipse cx="1200" cy="100" rx="80" ry="40" fill="#b8b4a8" opacity="0.6"/>
+  
+  <!-- Chandelier -->
+  <line x1="800" y1="100" x2="800" y2="180" stroke="#4a4a3a" stroke-width="3"/>
+  <circle cx="800" cy="190" r="25" fill="#6b6b4b"/>
+  <line x1="770" y1="200" x2="770" y2="240" stroke="#e8d890" stroke-width="4"/>
+  <line x1="800" y1="200" x2="800" y2="240" stroke="#e8d890" stroke-width="4"/>
+  <line x1="830" y1="200" x2="830" y2="240" stroke="#e8d890" stroke-width="4"/>
+  
+  <!-- Wall with molding -->
+  <rect y="200" width="1600" height="700" fill="#e8e4dc"/>
+  
+  <!-- Wall panels -->
+  <rect x="100" y="240" width="140" height="200" fill="#d8d4cc" stroke="#b0aca4" stroke-width="4"/>
+  <rect x="260" y="240" width="140" height="200" fill="#d8d4cc" stroke="#b0aca4" stroke-width="4"/>
+  <rect x="420" y="240" width="140" height="200" fill="#d8d4cc" stroke="#b0aca4" stroke-width="4"/>
+  <rect x="900" y="240" width="140" height="200" fill="#d8d4cc" stroke="#b0aca4" stroke-width="4"/>
+  <rect x="1060" y="240" width="140" height="200" fill="#d8d4cc" stroke="#b0aca4" stroke-width="4"/>
+  <rect x="1220" y="240" width="140" height="200" fill="#d8d4cc" stroke="#b0aca4" stroke-width="4"/>
+  <rect x="1380" y="240" width="140" height="200" fill="#d8d4cc" stroke="#b0aca4" stroke-width="4"/>
+  
+  <!-- Paintings -->
+  <rect x="110" y="250" width="120" height="160" fill="#4a5a5a"/>
+  <rect x="270" y="250" width="120" height="160" fill="#5a6a6a"/>
+  <rect x="430" y="250" width="120" height="160" fill="#4a5a5a"/>
+  <rect x="910" y="250" width="120" height="160" fill="#5a6a6a"/>
+  <rect x="1070" y="250" width="120" height="160" fill="#4a5a5a"/>
+  <rect x="1230" y="250" width="120" height="160" fill="#5a6a6a"/>
+  <rect x="1390" y="250" width="120" height="160" fill="#4a5a5a"/>
+  
+  <!-- Floor -->
+  <rect y="700" width="1600" height="200" fill="#c8b89a"/>
+  
+  <!-- Floor boards -->
+  <line x1="0" y1="720" x2="1600" y2="720" stroke="#b0a080" stroke-width="2"/>
+  <line x1="0" y1="740" x2="1600" y2="740" stroke="#b0a080" stroke-width="2"/>
+  <line x1="0" y1="760" x2="1600" y2="760" stroke="#b0a080" stroke-width="2"/>
+  <line x1="0" y1="780" x2="1600" y2="780" stroke="#b0a080" stroke-width="2"/>
+  <line x1="0" y1="800" x2="1600" y2="800" stroke="#b0a080" stroke-width="2"/>
+  
+  <!-- Furniture - Chair left -->
+  <rect x="120" y="580" width="60" height="80" fill="#a8b8c8"/>
+  <rect x="125" y="530" width="50" height="50" fill="#a8b8c8"/>
+  
+  <!-- Decorative urns -->
+  <ellipse cx="200" cy="500" rx="20" ry="30" fill="#b8a87a"/>
+  <rect x="190" y="495" width="20" height="40" fill="#b8a87a"/>
+  
+  <ellipse cx="1400" cy="500" rx="20" ry="30" fill="#b8a87a"/>
+  <rect x="1390" y="495" width="20" height="40" fill="#b8a87a"/>
+  
+  <!-- Figure 1 - Left woman in gray dress -->
+  <ellipse cx="320" cy="420" rx="12" ry="15" fill="#3a2a1a"/>
+  <rect x="310" y="440" width="20" height="60" fill="#6a7a8a"/>
+  <polygon points="300,500 340,500 345,650 295,650" fill="#707880"/>
+  
+  <!-- Figure 2 - Woman in mustard/gold dress -->
+  <ellipse cx="520" cy="420" rx="12" ry="15" fill="#5a2a1a"/>
+  <rect x="510" y="440" width="20" height="50" fill="#b89040"/>
+  <polygon points="490,490 550,490 555,650 485,650" fill="#d8d4c0"/>
+  
+  <!-- Figure 3 - Child in gold dress -->
+  <ellipse cx="750" cy="450" rx="10" ry="12" fill="#e8e0d0"/>
+  <rect x="742" y="465" width="16" height="40" fill="#c8a850"/>
+  <polygon points="730,505 770,505 772,620 728,620" fill="#c8a850"/>
+  
+  <!-- Figure 4 - Man in dark coat -->
+  <ellipse cx="950" cy="430" rx="12" ry="15" fill="#3a2a1a"/>
+  <rect x="940" y="450" width="20" height="70" fill="#3a4a3a"/>
+  <polygon points="930,520 970,520 975,670 925,670" fill="#4a5a4a"/>
+  
+  <!-- Window/doorway at back -->
+  <rect x="700" y="280" width="180" height="300" fill="#e8e0d0" opacity="0.7"/>
+  
+  <!-- Furniture pieces right side -->
+  <rect x="1100" y="550" width="80" height="100" fill="#8a7a5a"/>
+  <rect x="1300" y="570" width="60" height="80" fill="#7a6a4a"/>
+</svg>

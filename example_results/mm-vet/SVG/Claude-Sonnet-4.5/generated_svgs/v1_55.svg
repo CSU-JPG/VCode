@@ -1,0 +1,79 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold">US Nationwide:</text>
+  
+  <!-- Legend -->
+  <circle cx="30" cy="50" r="6" fill="#4A90E2"/>
+  <text x="45" y="55" font-family="Arial, sans-serif" font-size="13">Median House Price</text>
+  
+  <circle cx="230" cy="50" r="6" fill="#F5A623"/>
+  <text x="245" y="55" font-family="Arial, sans-serif" font-size="13">Median Gross Rent per Month</text>
+  
+  <circle cx="30" cy="75" r="6" fill="#D0021B"/>
+  <text x="45" y="80" font-family="Arial, sans-serif" font-size="13">Median Household Income</text>
+  
+  <!-- Growth rate -->
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="13">Growth rate:</text>
+  <text x="20" y="130" font-family="Arial, sans-serif" font-size="13">150%</text>
+  
+  <!-- Y-axis labels -->
+  <text x="20" y="165" font-family="Arial, sans-serif" font-size="13">100%</text>
+  <text x="30" y="285" font-family="Arial, sans-serif" font-size="13">50%</text>
+  <text x="45" y="405" font-family="Arial, sans-serif" font-size="13">0</text>
+  
+  <!-- X-axis labels -->
+  <text x="75" y="435" font-family="Arial, sans-serif" font-size="13">1960</text>
+  <text x="155" y="435" font-family="Arial, sans-serif" font-size="13">1970</text>
+  <text x="235" y="435" font-family="Arial, sans-serif" font-size="13">1980</text>
+  <text x="315" y="435" font-family="Arial, sans-serif" font-size="13">1990</text>
+  <text x="395" y="435" font-family="Arial, sans-serif" font-size="13">2000</text>
+  <text x="475" y="435" font-family="Arial, sans-serif" font-size="13">2008</text>
+  <text x="515" y="435" font-family="Arial, sans-serif" font-size="13">2010</text>
+  <text x="555" y="435" font-family="Arial, sans-serif" font-size="13">2017</text>
+  
+  <!-- Grid lines -->
+  <line x1="80" y1="160" x2="580" y2="160" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="80" y1="280" x2="580" y2="280" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="80" y1="400" x2="580" y2="400" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- House Price line (blue) -->
+  <polyline points="80,390 160,310 240,295 320,250 400,155 480,180 520,195 560,178" 
+            fill="none" stroke="#4A90E2" stroke-width="2.5"/>
+  
+  <!-- House Price dots -->
+  <circle cx="80" cy="390" r="5" fill="#4A90E2"/>
+  <circle cx="160" cy="310" r="5" fill="#4A90E2"/>
+  <circle cx="240" cy="295" r="5" fill="#4A90E2"/>
+  <circle cx="320" cy="250" r="5" fill="#4A90E2"/>
+  <circle cx="400" cy="155" r="5" fill="#4A90E2"/>
+  <circle cx="480" cy="180" r="5" fill="#4A90E2"/>
+  <circle cx="520" cy="195" r="5" fill="#4A90E2"/>
+  <circle cx="560" cy="178" r="5" fill="#4A90E2"/>
+  
+  <!-- Rent line (orange) -->
+  <polyline points="160,325 240,305 320,295 400,260 480,270 520,285 560,265" 
+            fill="none" stroke="#F5A623" stroke-width="2.5"/>
+  
+  <!-- Rent dots -->
+  <circle cx="160" cy="325" r="5" fill="#F5A623"/>
+  <circle cx="240" cy="305" r="5" fill="#F5A623"/>
+  <circle cx="320" cy="295" r="5" fill="#F5A623"/>
+  <circle cx="400" cy="260" r="5" fill="#F5A623"/>
+  <circle cx="480" cy="270" r="5" fill="#F5A623"/>
+  <circle cx="520" cy="285" r="5" fill="#F5A623"/>
+  <circle cx="560" cy="265" r="5" fill="#F5A623"/>
+  
+  <!-- Income line (red) -->
+  <polyline points="80,398 160,400 240,388 320,370 400,365 480,365 520,380 560,370" 
+            fill="none" stroke="#D0021B" stroke-width="2.5"/>
+  
+  <!-- Income dots -->
+  <circle cx="80" cy="398" r="5" fill="#D0021B"/>
+  <circle cx="160" cy="400" r="5" fill="#D0021B"/>
+  <circle cx="240" cy="388" r="5" fill="#D0021B"/>
+  <circle cx="320" cy="370" r="5" fill="#D0021B"/>
+  <circle cx="400" cy="365" r="5" fill="#D0021B"/>
+  <circle cx="480" cy="365" r="5" fill="#D0021B"/>
+  <circle cx="520" cy="380" r="5" fill="#D0021B"/>
+  <circle cx="560" cy="370" r="5" fill="#D0021B"/>
+</svg>

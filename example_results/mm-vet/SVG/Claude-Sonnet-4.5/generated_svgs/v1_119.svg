@@ -1,0 +1,78 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - green wall -->
+  <rect x="0" y="0" width="800" height="350" fill="#2d5f3f"/>
+  
+  <!-- Ground/hay -->
+  <rect x="0" y="350" width="800" height="250" fill="#d4b87e"/>
+  
+  <!-- Hay texture -->
+  <path d="M0,380 Q100,360 200,380 T400,380 T600,380 T800,380" fill="none" stroke="#c4a86e" stroke-width="2"/>
+  <path d="M0,410 Q150,390 300,410 T600,410 T800,410" fill="none" stroke="#c4a86e" stroke-width="2"/>
+  
+  <!-- White decorative trim on wall -->
+  <rect x="0" y="20" width="800" height="30" fill="#e8e8e8"/>
+  <rect x="20" y="20" width="30" height="50" fill="#d0d0d0"/>
+  <rect x="70" y="20" width="30" height="50" fill="#d0d0d0"/>
+  <rect x="120" y="20" width="30" height="50" fill="#d0d0d0"/>
+  <rect x="170" y="20" width="30" height="50" fill="#d0d0d0"/>
+  <rect x="220" y="20" width="30" height="50" fill="#d0d0d0"/>
+  <rect x="270" y="20" width="30" height="50" fill="#d0d0d0"/>
+  
+  <!-- Hay rack/feeder -->
+  <polygon points="600,100 750,100 720,250 630,250" fill="#c9a86a" stroke="#a68850" stroke-width="3"/>
+  <line x1="620" y1="120" x2="610" y2="250" stroke="#a68850" stroke-width="4"/>
+  <line x1="650" y1="120" x2="640" y2="250" stroke="#a68850" stroke-width="4"/>
+  <line x1="680" y1="120" x2="670" y2="250" stroke="#a68850" stroke-width="4"/>
+  <line x1="710" y1="120" x2="700" y2="250" stroke="#a68850" stroke-width="4"/>
+  <line x1="740" y1="120" x2="730" y2="250" stroke="#a68850" stroke-width="4"/>
+  
+  <!-- Hay in rack -->
+  <ellipse cx="675" cy="140" rx="60" ry="25" fill="#d4a860"/>
+  <ellipse cx="670" cy="165" rx="55" ry="20" fill="#c49850"/>
+  
+  <!-- Left sheep (lighter) -->
+  <ellipse cx="280" cy="380" rx="85" ry="70" fill="#e8e0d0"/>
+  <ellipse cx="250" cy="350" rx="60" ry="55" fill="#e8e0d0"/>
+  
+  <!-- Left sheep legs -->
+  <rect x="240" y="420" width="20" height="70" fill="#2a2a2a"/>
+  <rect x="280" y="420" width="20" height="70" fill="#2a2a2a"/>
+  <rect x="310" y="420" width="20" height="70" fill="#2a2a2a"/>
+  <rect x="350" y="420" width="20" height="70" fill="#2a2a2a"/>
+  
+  <!-- Left sheep head -->
+  <ellipse cx="240" cy="340" rx="35" ry="40" fill="#1a1a1a"/>
+  <ellipse cx="230" cy="330" rx="8" ry="10" fill="#1a1a1a"/>
+  <ellipse cx="250" cy="330" rx="8" ry="10" fill="#1a1a1a"/>
+  
+  <!-- Left sheep face details -->
+  <circle cx="228" cy="328" r="3" fill="#fff"/>
+  <circle cx="248" cy="328" r="3" fill="#fff"/>
+  <ellipse cx="240" cy="350" rx="12" ry="8" fill="#4a4a4a"/>
+  
+  <!-- Right sheep (darker face) -->
+  <ellipse cx="480" cy="390" rx="90" ry="75" fill="#d8d0c0"/>
+  <ellipse cx="450" cy="355" rx="65" ry="60" fill="#d8d0c0"/>
+  
+  <!-- Right sheep legs -->
+  <rect x="430" y="430" width="22" height="75" fill="#2a2a2a"/>
+  <rect x="470" y="430" width="22" height="75" fill="#2a2a2a"/>
+  <rect x="510" y="430" width="22" height="75" fill="#2a2a2a"/>
+  <rect x="550" y="430" width="22" height="75" fill="#2a2a2a"/>
+  
+  <!-- Right sheep head -->
+  <ellipse cx="440" cy="345" rx="38" ry="42" fill="#1a1a1a"/>
+  <ellipse cx="428" cy="333" rx="9" ry="11" fill="#1a1a1a"/>
+  <ellipse cx="452" cy="333" rx="9" ry="11" fill="#1a1a1a"/>
+  
+  <!-- Right sheep face details -->
+  <circle cx="425" cy="330" r="3" fill="#fff"/>
+  <circle cx="448" cy="330" r="3" fill="#fff"/>
+  <ellipse cx="440" cy="355" rx="13" ry="9" fill="#4a4a4a"/>
+  
+  <!-- Wool texture highlights -->
+  <ellipse cx="260" cy="370" rx="25" ry="20" fill="#f5f0e8" opacity="0.5"/>
+  <ellipse cx="300" cy="390" rx="30" ry="25" fill="#f5f0e8" opacity="0.5"/>
+  <ellipse cx="460" cy="380" rx="28" ry="22" fill="#e8e0d8" opacity="0.5"/>
+  <ellipse cx="500" cy="400" rx="32" ry="28" fill="#e8e0d8" opacity="0.5"/>
+</svg>

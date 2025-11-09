@@ -1,0 +1,82 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f0"/>
+  
+  <!-- Window -->
+  <rect x="480" y="0" width="320" height="600" fill="#e8e8e8"/>
+  <rect x="485" y="5" width="310" height="590" fill="#f0f0f5" opacity="0.7"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="550" width="800" height="50" fill="#d4b896"/>
+  
+  <!-- Wall art/frame -->
+  <rect x="180" y="0" width="180" height="180" fill="#d9a65d"/>
+  
+  <!-- Rug -->
+  <ellipse cx="300" cy="520" rx="140" ry="60" fill="#d9d4c8"/>
+  
+  <!-- Side table base -->
+  <g id="table">
+    <!-- Front vertical legs -->
+    <rect x="320" y="350" width="8" height="200" fill="#3a3a3a"/>
+    <rect x="412" y="350" width="8" height="200" fill="#3a3a3a"/>
+    
+    <!-- Back vertical legs -->
+    <rect x="328" y="350" width="8" height="200" fill="#2a2a2a"/>
+    <rect x="420" y="350" width="8" height="200" fill="#2a2a2a"/>
+    
+    <!-- Horizontal supports -->
+    <rect x="320" y="350" width="108" height="8" fill="#3a3a3a"/>
+    <rect x="320" y="542" width="108" height="8" fill="#3a3a3a"/>
+    
+    <!-- Side supports -->
+    <rect x="320" y="350" width="8" height="200" fill="#2a2a2a"/>
+    <rect x="420" y="350" width="8" height="200" fill="#2a2a2a"/>
+    
+    <!-- Table top -->
+    <rect x="300" y="335" width="140" height="20" fill="#4a4a4a"/>
+    <rect x="300" y="330" width="140" height="5" fill="#2a2a2a"/>
+    <ellipse cx="370" cy="345" rx="70" ry="15" fill="#3a3a3a"/>
+  </g>
+  
+  <!-- Sofa -->
+  <g id="sofa">
+    <!-- Sofa base -->
+    <ellipse cx="150" cy="400" rx="120" ry="80" fill="#6b9b6b"/>
+    <rect x="30" y="320" width="240" height="80" fill="#7bad7b" rx="10"/>
+    
+    <!-- Sofa back -->
+    <ellipse cx="150" cy="280" rx="130" ry="70" fill="#6b9b6b"/>
+    <path d="M 20 280 Q 20 200 80 180 Q 150 160 220 180 Q 280 200 280 280 Z" fill="#7bad7b"/>
+    
+    <!-- Sofa arm -->
+    <ellipse cx="30" cy="320" rx="25" ry="60" fill="#6b9b6b"/>
+    
+    <!-- Cushions -->
+    <path d="M 100 240 L 140 220 L 160 240 L 120 260 Z" fill="#e6c9a8"/>
+    <path d="M 160 240 L 200 220 L 220 240 L 180 260 Z" fill="#f5d9b8"/>
+    <path d="M 50 280 L 100 270 L 110 310 L 60 320 Z" fill="#2a2a2a" opacity="0.3"/>
+  </g>
+  
+  <!-- Lamp on table -->
+  <g id="lamp">
+    <rect x="380" y="280" width="12" height="50" fill="#f5c842"/>
+    <ellipse cx="386" cy="280" rx="35" ry="8" fill="#f5d96b"/>
+    <path d="M 351 280 Q 351 250 386 245 Q 421 250 421 280 Z" fill="#fffef0" opacity="0.9"/>
+  </g>
+  
+  <!-- Prime Day box -->
+  <g id="box">
+    <path d="M 310 290 L 340 275 L 370 290 L 340 305 Z" fill="#d64c2f"/>
+    <rect x="310" y="290" width="30" height="35" fill="#c9341a"/>
+    <rect x="340" y="290" width="30" height="35" fill="#a82810"/>
+    
+    <!-- Prime Day text -->
+    <text x="320" y="305" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">prime</text>
+    <text x="322" y="317" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">day</text>
+    
+    <!-- Amazon smile -->
+    <path d="M 310 320 Q 325 325 340 320" stroke="white" stroke-width="2" fill="none"/>
+    <circle cx="342" cy="318" r="1.5" fill="white"/>
+  </g>
+</svg>

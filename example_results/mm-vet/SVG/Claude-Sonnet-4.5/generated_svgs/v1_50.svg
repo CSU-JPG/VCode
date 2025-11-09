@@ -1,0 +1,91 @@
+<svg viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer boundary -->
+  <rect x="10" y="10" width="580" height="460" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Master Bedroom -->
+  <rect x="10" y="10" width="160" height="140" fill="none" stroke="black" stroke-width="2"/>
+  <text x="90" y="75" text-anchor="middle" font-size="10" font-weight="bold">MASTER BEDROOM</text>
+  <text x="90" y="90" text-anchor="middle" font-size="9">19 X 15</text>
+  
+  <!-- Master Bathroom -->
+  <rect x="10" y="150" width="110" height="70" fill="none" stroke="black" stroke-width="2"/>
+  <text x="65" y="185" text-anchor="middle" font-size="9">BATHROOM</text>
+  <circle cx="25" cy="165" r="6" fill="none" stroke="black" stroke-width="1"/>
+  <circle cx="50" cy="165" r="6" fill="none" stroke="black" stroke-width="1"/>
+  <circle cx="75" cy="165" r="6" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Master Closet -->
+  <rect x="120" y="150" width="50" height="70" fill="none" stroke="black" stroke-width="2"/>
+  <text x="145" y="185" text-anchor="middle" font-size="9">CLOSET</text>
+  
+  <!-- Bedroom 2 -->
+  <rect x="200" y="10" width="90" height="120" fill="none" stroke="black" stroke-width="2"/>
+  <text x="245" y="60" text-anchor="middle" font-size="10" font-weight="bold">BEDROOM</text>
+  <text x="245" y="75" text-anchor="middle" font-size="9">12 X 11.5</text>
+  
+  <!-- Bathroom 2 -->
+  <rect x="200" y="150" width="90" height="70" fill="none" stroke="black" stroke-width="2"/>
+  <text x="245" y="185" text-anchor="middle" font-size="9">BATHROOM</text>
+  <circle cx="220" cy="205" r="6" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Bedroom 3 -->
+  <rect x="310" y="10" width="90" height="120" fill="none" stroke="black" stroke-width="2"/>
+  <text x="355" y="60" text-anchor="middle" font-size="10" font-weight="bold">BEDROOM</text>
+  <text x="355" y="75" text-anchor="middle" font-size="9">12 X 11.5</text>
+  
+  <!-- Closet between bedrooms -->
+  <rect x="290" y="150" width="50" height="50" fill="none" stroke="black" stroke-width="1"/>
+  <text x="315" y="178" text-anchor="middle" font-size="8">CLOSET</text>
+  
+  <!-- Utility -->
+  <rect x="290" y="200" width="50" height="50" fill="none" stroke="black" stroke-width="1"/>
+  <text x="315" y="228" text-anchor="middle" font-size="8">UTILITY</text>
+  
+  <!-- Patio -->
+  <rect x="420" y="10" width="170" height="110" fill="none" stroke="black" stroke-width="2"/>
+  <text x="505" y="60" text-anchor="middle" font-size="10" font-weight="bold">PATIO</text>
+  <text x="505" y="75" text-anchor="middle" font-size="9">21 X 12</text>
+  
+  <!-- Kitchen -->
+  <rect x="420" y="130" width="170" height="70" fill="none" stroke="black" stroke-width="2"/>
+  <text x="505" y="165" text-anchor="middle" font-size="10" font-weight="bold">KITCHEN</text>
+  <rect x="505" y="135" width="15" height="15" fill="none" stroke="black" stroke-width="1"/>
+  <rect x="525" y="135" width="15" height="15" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Dining Room -->
+  <rect x="420" y="200" width="170" height="80" fill="none" stroke="black" stroke-width="2"/>
+  <text x="505" y="235" text-anchor="middle" font-size="10" font-weight="bold">DINING ROOM</text>
+  <text x="505" y="250" text-anchor="middle" font-size="9">12 X 12.5</text>
+  
+  <!-- Living Room -->
+  <rect x="340" y="280" width="250" height="150" fill="none" stroke="black" stroke-width="2"/>
+  <text x="465" y="345" text-anchor="middle" font-size="11" font-weight="bold">LIVING ROOM</text>
+  <text x="465" y="365" text-anchor="middle" font-size="9">21.5 X 18.5</text>
+  
+  <!-- Single Garage -->
+  <rect x="10" y="260" width="130" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="75" y="305" text-anchor="middle" font-size="9" font-weight="bold">SINGLE GARAGE</text>
+  <text x="75" y="320" text-anchor="middle" font-size="8">14 X 23.25</text>
+  
+  <!-- Double Garage -->
+  <rect x="150" y="280" width="170" height="100" fill="none" stroke="black" stroke-width="2"/>
+  <text x="235" y="325" text-anchor="middle" font-size="9" font-weight="bold">DOUBLE GARAGE</text>
+  <text x="235" y="340" text-anchor="middle" font-size="8">19 X 21.25</text>
+  
+  <!-- Total Square Footage -->
+  <text x="75" y="350" text-anchor="middle" font-size="9">(775 SQ FT)</text>
+  
+  <!-- Porch -->
+  <rect x="280" y="430" width="120" height="40" fill="none" stroke="black" stroke-width="2"/>
+  <text x="340" y="455" text-anchor="middle" font-size="10">PORCH</text>
+  
+  <!-- Doors (simplified as lines/rectangles) -->
+  <line x1="90" y1="150" x2="90" y2="165" stroke="black" stroke-width="2"/>
+  <line x1="245" y1="130" x2="260" y2="130" stroke="black" stroke-width="2"/>
+  <line x1="355" y1="130" x2="370" y2="130" stroke="black" stroke-width="2"/>
+  <line x1="505" y1="200" x2="520" y2="200" stroke="black" stroke-width="2"/>
+  
+  <!-- Wall segments and details -->
+  <line x1="170" y1="10" x2="170" y2="80" stroke="black" stroke-width="1"/>
+  <line x1="290" y1="10" x2="290" y2="100" stroke="black" stroke-width="1"/>
+</svg>

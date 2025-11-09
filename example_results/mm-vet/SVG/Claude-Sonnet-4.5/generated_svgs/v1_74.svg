@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="#b8b8ba"/>
+  
+  <!-- Building structure -->
+  <path d="M200 150 L200 600 L750 600 L750 150 Z" fill="#4a4a4c"/>
+  
+  <!-- Building panels/texture -->
+  <g opacity="0.3">
+    <line x1="250" y1="150" x2="250" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="300" y1="150" x2="300" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="350" y1="150" x2="350" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="400" y1="150" x2="400" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="450" y1="150" x2="450" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="500" y1="150" x2="500" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="550" y1="150" x2="550" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="600" y1="150" x2="600" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="650" y1="150" x2="650" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+    <line x1="700" y1="150" x2="700" y2="600" stroke="#2a2a2c" stroke-width="2"/>
+  </g>
+  
+  <!-- Curved roof -->
+  <ellipse cx="475" cy="150" rx="280" ry="40" fill="#2a2a2c"/>
+  <path d="M195 150 Q475 110 755 150 L755 180 Q475 140 195 180 Z" fill="#3a3a3c"/>
+  
+  <!-- Windows at bottom -->
+  <rect x="220" y="450" width="80" height="120" fill="#1a1a1c" opacity="0.7"/>
+  <rect x="320" y="450" width="80" height="120" fill="#1a1a1c" opacity="0.7"/>
+  <rect x="420" y="450" width="80" height="120" fill="#1a1a1c" opacity="0.7"/>
+  <rect x="520" y="450" width="80" height="120" fill="#1a1a1c" opacity="0.7"/>
+  <rect x="620" y="450" width="80" height="120" fill="#1a1a1c" opacity="0.7"/>
+  
+  <!-- Leica logo circle -->
+  <circle cx="475" cy="220" r="70" fill="#c94244"/>
+  
+  <!-- Leica text in cursive style -->
+  <text x="475" y="235" font-family="cursive, serif" font-size="42" fill="white" text-anchor="middle" font-weight="normal" font-style="italic">Leica</text>
+  
+  <!-- Blurred paper/document in foreground (left side) -->
+  <g opacity="0.8">
+    <path d="M 50 250 L 280 200 L 320 500 L 90 550 Z" fill="#e8e8e0"/>
+    <!-- Text lines on paper -->
+    <line x1="100" y1="280" x2="250" y2="260" stroke="#8a8a8a" stroke-width="2" opacity="0.5"/>
+    <line x1="100" y1="310" x2="240" y2="290" stroke="#8a8a8a" stroke-width="2" opacity="0.5"/>
+    <line x1="100" y1="340" x2="230" y2="320" stroke="#8a8a8a" stroke-width="2" opacity="0.5"/>
+    <line x1="100" y1="370" x2="220" y2="350" stroke="#8a8a8a" stroke-width="2" opacity="0.5"/>
+    <line x1="110" y1="400" x2="250" y2="380" stroke="#8a8a8a" stroke-width="2" opacity="0.5"/>
+    <line x1="110" y1="430" x2="240" y2="410" stroke="#8a8a8a" stroke-width="2" opacity="0.5"/>
+    <line x1="120" y1="460" x2="260" y2="440" stroke="#8a8a8a" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4e8f0;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="gallGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#654321;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#4a2810;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d1f0f;stop-opacity:1" />
+    </radialGradient>
+    <filter id="texture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" />
+      <feColorMatrix type="saturate" values="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Blurred background branches -->
+  <ellipse cx="650" cy="400" rx="60" ry="25" fill="#a8987a" opacity="0.4"/>
+  <ellipse cx="700" cy="420" rx="40" ry="20" fill="#9a8870" opacity="0.35"/>
+  
+  <!-- Main diagonal branch (upper left to lower right) -->
+  <path d="M 100 50 Q 250 150 400 250 Q 500 320 650 420" 
+        stroke="#887766" stroke-width="35" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 100 50 Q 250 150 400 250 Q 500 320 650 420" 
+        stroke="#998877" stroke-width="28" fill="none" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Branch texture details -->
+  <ellipse cx="300" cy="180" rx="15" ry="12" fill="#6d5d4d" opacity="0.6"/>
+  <ellipse cx="450" cy="280" rx="12" ry="10" fill="#7a6a5a" opacity="0.5"/>
+  <ellipse cx="550" cy="360" rx="10" ry="8" fill="#5d4d3d" opacity="0.6"/>
+  
+  <!-- Small lichen spots on branch -->
+  <circle cx="320" cy="190" r="6" fill="#b8a84a" opacity="0.6"/>
+  <circle cx="470" cy="290" r="5" fill="#c4b65a" opacity="0.5"/>
+  <circle cx="420" cy="260" r="4" fill="#a89840" opacity="0.6"/>
+  
+  <!-- Lower diagonal branch -->
+  <path d="M 150 450 Q 350 480 550 500" 
+        stroke="#7a6a5a" stroke-width="25" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 150 450 Q 350 480 550 500" 
+        stroke="#8b7b6b" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Small twig off main branch -->
+  <line x1="350" y1="220" x2="380" y2="180" stroke="#6d5d4d" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- The gall (central focal point) -->
+  <g transform="translate(320, 280)">
+    <!-- Gall base shadow -->
+    <ellipse cx="2" cy="45" rx="40" ry="15" fill="#000000" opacity="0.3"/>
+    
+    <!-- Gall main body -->
+    <ellipse cx="0" cy="0" rx="48" ry="52" fill="url(#gallGradient)"/>
+    
+    <!-- Gall texture layers -->
+    <ellipse cx="-8" cy="-10" rx="35" ry="38" fill="#654321" opacity="0.7"/>
+    <ellipse cx="5" cy="5" rx="30" ry="32" fill="#5a3a1a" opacity="0.6"/>
+    
+    <!-- Rough texture bumps -->
+    <circle cx="-15" cy="-15" r="8" fill="#7a4a2a" opacity="0.8"/>
+    <circle cx="12" cy="-8" r="6" fill="#6a3a1a" opacity="0.7"/>
+    <circle cx="-10" cy="10" r="7" fill="#8a5a3a" opacity="0.6"/>
+    <circle cx="15" cy="12" r="5" fill="#5a3010" opacity="0.8"/>
+    <circle cx="-5" cy="-22" r="5" fill="#6a4020" opacity="0.7"/>
+    <circle cx="18" cy="-18" r="4" fill="#7a4a2a" opacity="0.6"/>
+    
+    <!-- Lighter spots for dimension -->
+    <ellipse cx="-18" cy="-5" rx="12" ry="10" fill="#9a6a4a" opacity="0.5"/>
+    <ellipse cx="10" cy="-15" rx="8" ry="7" fill="#8a5a3a" opacity="0.4"/>
+    
+    <!-- Dark crevices -->
+    <path d="M -20 -8 Q -15 0 -18 8" stroke="#3d1f0f" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 8 -12 Q 12 -5 10 2" stroke="#3d1f0f" stroke-width="1.5" fill="none" opacity="0.7"/>
+    
+    <!-- Tan/beige patches (lichen or dried areas) -->
+    <ellipse cx="-12" cy="15" rx="10" ry="8" fill="#c4a882" opacity="0.7"/>
+    <ellipse cx="8" cy="18" rx="8" ry="6" fill="#d4b892" opacity="0.6"/>
+    <ellipse cx="-5" cy="20" rx="6" ry="5" fill="#b49872" opacity="0.65"/>
+    <circle cx="2" cy="-18" r="5" fill="#c4a882" opacity="0.5"/>
+    
+    <!-- Attachment stem to branch -->
+    <rect x="-6" y="40" width="12" height="15" fill="#5a4a3a" rx="2"/>
+    <rect x="-4" y="42" width="8" height="12" fill="#6a5a4a" rx="1"/>
+  </g>
+  
+  <!-- Additional small branch detail -->
+  <line x1="280" y1="350" x2="260" y2="390" stroke="#6d5d4d" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Subtle branch highlights -->
+  <path d="M 120 70 Q 260 165 390 260" 
+        stroke="#aaa" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 170 460 Q 360 488 540 505" 
+        stroke="#aaa" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.25"/>
+</svg>

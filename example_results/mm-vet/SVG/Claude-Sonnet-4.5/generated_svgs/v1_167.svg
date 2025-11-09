@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wood table background -->
+  <rect width="800" height="800" fill="#8B4513"/>
+  <rect width="800" height="800" fill="#A0522D" opacity="0.3"/>
+  
+  <!-- Plate -->
+  <ellipse cx="400" cy="400" rx="320" ry="300" fill="#F5F5DC"/>
+  <ellipse cx="400" cy="400" rx="310" ry="290" fill="#FFFAF0"/>
+  
+  <!-- Decorative plate border - pink flowers -->
+  <circle cx="250" cy="200" r="15" fill="#FFB6C1"/>
+  <circle cx="245" cy="205" r="8" fill="#FF69B4"/>
+  <circle cx="550" cy="200" r="15" fill="#FFB6C1"/>
+  <circle cx="555" cy="205" r="8" fill="#FF69B4"/>
+  <circle cx="250" cy="600" r="15" fill="#FFB6C1"/>
+  <circle cx="245" cy="595" r="8" fill="#FF69B4"/>
+  <circle cx="550" cy="600" r="15" fill="#FFB6C1"/>
+  <circle cx="555" cy="595" r="8" fill="#FF69B4"/>
+  
+  <!-- Green leaves on border -->
+  <ellipse cx="280" cy="210" rx="12" ry="6" fill="#228B22" transform="rotate(45 280 210)"/>
+  <ellipse cx="520" cy="210" rx="12" ry="6" fill="#228B22" transform="rotate(-45 520 210)"/>
+  <ellipse cx="280" cy="590" rx="12" ry="6" fill="#228B22" transform="rotate(-45 280 590)"/>
+  <ellipse cx="520" cy="590" rx="12" ry="6" fill="#228B22" transform="rotate(45 520 590)"/>
+  
+  <!-- Rice (left side) -->
+  <ellipse cx="280" cy="350" rx="80" ry="70" fill="#F5F5F5"/>
+  <ellipse cx="285" cy="345" rx="75" ry="65" fill="#FFFFFF"/>
+  <rect x="240" y="300" width="5" height="3" fill="#E8E8E8" rx="1"/>
+  <rect x="250" y="310" width="4" height="2" fill="#E8E8E8" rx="1"/>
+  <rect x="270" y="305" width="5" height="3" fill="#E8E8E8" rx="1"/>
+  <rect x="290" y="315" width="4" height="2" fill="#E8E8E8" rx="1"/>
+  
+  <!-- Tortillas (top) -->
+  <ellipse cx="350" cy="240" rx="110" ry="85" fill="#FAEBD7"/>
+  <ellipse cx="350" cy="235" rx="105" ry="80" fill="#FFF8DC"/>
+  <ellipse cx="450" cy="250" rx="100" ry="80" fill="#FAEBD7"/>
+  <ellipse cx="450" cy="245" rx="95" ry="75" fill="#FFF8DC"/>
+  
+  <!-- Coleslaw (bottom) -->
+  <path d="M 300 520 Q 320 510 340 515 Q 360 520 380 515 Q 400 510 420 520 L 410 560 Q 390 565 370 560 Q 350 555 330 560 L 300 520 Z" fill="#F0E68C"/>
+  <rect x="310" y="525" width="15" height="2" fill="#FFD700" opacity="0.6"/>
+  <rect x="330" y="530" width="12" height="2" fill="#FFE4B5" opacity="0.6"/>
+  <rect x="350" y="528" width="18" height="2" fill="#F5DEB3" opacity="0.6"/>
+  <rect x="370" y="535" width="14" height="2" fill="#FFD700" opacity="0.6"/>
+  <rect x="320" y="540" width="16" height="2" fill="#DDA0DD" opacity="0.4"/>
+  <rect x="345" y="545" width="20" height="2" fill="#DDA0DD" opacity="0.4"/>
+  
+  <!-- Main filling area -->
+  <ellipse cx="420" cy="420" rx="140" ry="110" fill="#8B4513" opacity="0.3"/>
+  
+  <!-- Beans -->
+  <ellipse cx="380" cy="430" rx="25" ry="20" fill="#654321"/>
+  <ellipse cx="410" cy="440" rx="22" ry="18" fill="#654321"/>
+  <ellipse cx="440" cy="435" rx="24" ry="19" fill="#654321"/>
+  <ellipse cx="395" cy="455" rx="20" ry="17" fill="#654321"/>
+  
+  <!-- Grilled meat pieces -->
+  <rect x="360" y="395" width="35" height="25" fill="#8B4513" rx="5"/>
+  <rect x="400" y="390" width="40" height="28" fill="#A0522D" rx="5"/>
+  <rect x="445" y="400" width="38" height="26" fill="#8B4513" rx="5"/>
+  <rect x="380" y="425" width="32" height="22" fill="#A0522D" rx="5"/>
+  <line x1="370" y1="400" x2="390" y2="415" stroke="#654321" stroke-width="2"/>
+  <line x1="410" y1="395" x2="430" y2="410" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Peppers and vegetables -->
+  <ellipse cx="420" cy="385" rx="15" ry="8" fill="#228B22" transform="rotate(20 420 385)"/>
+  <ellipse cx="450" cy="395" rx="18" ry="9" fill="#32CD32" transform="rotate(-15 450 395)"/>
+  <ellipse cx="390" cy="410" rx="14" ry="7" fill="#228B22" transform="rotate(35 390 410)"/>
+  
+  <!-- Cheese shreds on top -->
+  <rect x="395" y="365" width="20" height="2" fill="#FFD700" opacity="0.8"/>
+  <rect x="420" y="368" width="25" height="2" fill="#FFA500" opacity="0.8"/>
+  <rect x="410" y="372" width="18" height="2" fill="#FFD700" opacity="0.8"/>
+  <rect x="435" y="370" width="22" height="2" fill="#FFA500" opacity="0.8"/>
+  <rect x="405" y="378" width="24" height="2" fill="#FFD700" opacity="0.8"/>
+  <rect x="430" y="375" width="20" height="2" fill="#FFA500" opacity="0.8"/>
+  <rect x="415" y="382" width="26" height="2" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Lime wedges -->
+  <path d="M 480 510 L 495 520 L 490 535 Z" fill="#90EE90"/>
+  <path d="M 482 512 L 493 520 L 488 532 Z" fill="#ADFF2F"/>
+  <circle cx="488" cy="522" r="3" fill="#F0FFF0" opacity="0.5"/>
+  
+  <path d="M 510 515 L 525 525 L 520 540 Z" fill="#90EE90"/>
+  <path d="M 512 517 L 523 525 L 518 537 Z" fill="#ADFF2F"/>
+  <circle cx="518" cy="527" r="3" fill="#F0FFF0" opacity="0.5"/>
+  
+  <!-- Additional garnish details -->
+  <circle cx="370" cy="480" r="3" fill="#FF6347"/>
+  <circle cx="390" cy="485" r="3" fill="#FF6347"/>
+  <circle cx="410" cy="478" r="3" fill="#FF6347"/>
+  
+  <!-- Sour cream dollops -->
+  <ellipse cx="320" cy="380" rx="25" ry="20" fill="#FFFAFA"/>
+  <ellipse cx="318" cy="378" rx="22" ry="18" fill="#FFFFFF" opacity="0.9"/>
+</svg>

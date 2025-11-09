@@ -1,0 +1,126 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6914;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8860B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B5410;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8B6914;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bgGrad)"/>
+  <ellipse cx="400" cy="300" rx="400" ry="400" fill="url(#spotlight)"/>
+  
+  <!-- Neck/Shoulders base -->
+  <path d="M 250 700 Q 300 650 400 650 Q 500 650 550 700 L 580 1000 L 220 1000 Z" fill="#D4A574"/>
+  
+  <!-- White feathered dress -->
+  <ellipse cx="400" cy="750" rx="180" ry="200" fill="#FFFFFF"/>
+  <path d="M 220 750 Q 220 850 250 900 Q 280 950 320 980 L 280 1000 L 220 900 Z" fill="#F8F8F8"/>
+  <path d="M 580 750 Q 580 850 550 900 Q 520 950 480 980 L 520 1000 L 580 900 Z" fill="#F8F8F8"/>
+  
+  <!-- Feather details -->
+  <ellipse cx="350" cy="800" rx="40" ry="80" fill="#FAFAFA" opacity="0.8"/>
+  <ellipse cx="400" cy="820" rx="35" ry="70" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="450" cy="800" rx="40" ry="80" fill="#FAFAFA" opacity="0.8"/>
+  <ellipse cx="320" cy="850" rx="30" ry="60" fill="#F5F5F5" opacity="0.7"/>
+  <ellipse cx="480" cy="850" rx="30" ry="60" fill="#F5F5F5" opacity="0.7"/>
+  
+  <!-- Mesh/sheer overlay on shoulders -->
+  <path d="M 280 680 Q 300 670 340 680 L 350 720 Q 320 710 290 720 Z" fill="#E8D4BC" opacity="0.6"/>
+  <path d="M 520 680 Q 500 670 460 680 L 450 720 Q 480 710 510 720 Z" fill="#E8D4BC" opacity="0.6"/>
+  
+  <!-- Head/Face -->
+  <ellipse cx="400" cy="350" rx="90" ry="110" fill="#D4A574"/>
+  
+  <!-- Hair -->
+  <path d="M 310 300 Q 280 280 270 320 Q 265 360 280 400 Q 300 440 330 460 L 340 420 Q 320 380 315 340 Q 312 310 320 295 Z" fill="#1a0f08"/>
+  <path d="M 490 300 Q 520 280 530 320 Q 535 360 520 400 Q 500 440 470 480 Q 450 520 440 560 L 430 520 Q 440 480 460 440 Q 480 400 485 360 Q 488 320 480 295 Z" fill="#1a0f08"/>
+  <ellipse cx="400" cy="280" rx="95" ry="80" fill="#1a0f08"/>
+  <path d="M 305 290 Q 320 250 360 240 Q 400 235 440 240 Q 480 250 495 290 L 490 300 Q 470 270 400 265 Q 330 270 310 300 Z" fill="#1a0f08"/>
+  
+  <!-- Headband with jewels -->
+  <ellipse cx="400" cy="270" rx="100" ry="12" fill="#C0C0C0"/>
+  <circle cx="370" cy="270" r="4" fill="#FFD700"/>
+  <circle cx="400" cy="268" r="5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="430" cy="270" r="4" fill="#FFD700"/>
+  
+  <!-- Facial features -->
+  <path d="M 350 340 Q 355 335 360 340" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 440 340 Q 445 335 450 340" stroke="#654321" stroke-width="2" fill="none"/>
+  <line x1="350" y1="345" x2="365" y2="348" stroke="#2a1810" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="435" y1="348" x2="450" y2="345" stroke="#2a1810" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Smiling mouth -->
+  <path d="M 370 390 Q 400 405 430 390" stroke="#8B4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 375 392 Q 400 402 425 392" fill="#CD8C95" opacity="0.6"/>
+  
+  <!-- Nose -->
+  <path d="M 395 365 Q 398 375 395 380" stroke="#B8926C" stroke-width="1.5" fill="none"/>
+  
+  <!-- Earrings -->
+  <g id="earring-left">
+    <circle cx="320" cy="380" r="5" fill="#C0C0C0"/>
+    <rect x="317" y="385" width="6" height="25" fill="#E8E8E8"/>
+    <circle cx="320" cy="412" r="6" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+  <g id="earring-right">
+    <circle cx="480" cy="380" r="5" fill="#C0C0C0"/>
+    <rect x="477" y="385" width="6" height="25" fill="#E8E8E8"/>
+    <circle cx="480" cy="412" r="6" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+  
+  <!-- Necklace -->
+  <ellipse cx="400" cy="460" rx="60" ry="8" fill="#D4AF37" opacity="0.7"/>
+  <circle cx="400" cy="465" r="8" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Arms -->
+  <path d="M 280 700 Q 260 750 240 820 L 260 830 Q 280 770 295 720 Z" fill="#C89968"/>
+  <path d="M 520 700 Q 540 750 565 820 L 545 830 Q 520 770 505 720 Z" fill="#C89968"/>
+  
+  <!-- Left hand near face -->
+  <ellipse cx="340" cy="420" rx="25" ry="35" fill="#D4A574" transform="rotate(-25 340 420)"/>
+  <ellipse cx="335" cy="445" rx="8" ry="12" fill="#D4A574"/>
+  <ellipse cx="345" cy="448" rx="8" ry="12" fill="#D4A574"/>
+  <ellipse cx="355" cy="445" rx="8" ry="12" fill="#D4A574"/>
+  
+  <!-- Right hand holding Oscar -->
+  <ellipse cx="520" cy="750" rx="30" ry="40" fill="#D4A574" transform="rotate(15 520 750)"/>
+  
+  <!-- Oscar statue -->
+  <g id="oscar">
+    <!-- Base -->
+    <rect x="505" y="850" width="50" height="15" rx="2" fill="#1a1a1a"/>
+    <rect x="510" y="865" width="40" height="8" rx="1" fill="#0a0a0a"/>
+    
+    <!-- Body -->
+    <ellipse cx="530" cy="820" rx="18" ry="30" fill="#DAA520"/>
+    <circle cx="530" cy="790" r="12" fill="#FFD700"/>
+    
+    <!-- Arms -->
+    <path d="M 520 805 Q 510 810 508 820" stroke="#DAA520" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 540 805 Q 545 815 542 825" stroke="#DAA520" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <!-- Sword -->
+    <line x1="508" y1="820" x2="508" y2="795" stroke="#C0C0C0" stroke-width="3"/>
+    <rect x="505" y="792" width="6" height="8" fill="#B8B8B8"/>
+    
+    <!-- Legs -->
+    <rect x="522" y="848" width="7" height="18" fill="#DAA520"/>
+    <rect x="531" y="848" width="7" height="18" fill="#DAA520"/>
+    
+    <!-- Shine effects -->
+    <circle cx="528" cy="795" r="3" fill="#FFFACD" opacity="0.8"/>
+    <ellipse cx="535" cy="815" rx="4" ry="8" fill="#FFFACD" opacity="0.5"/>
+  </g>
+  
+  <!-- Microphone -->
+  <rect x="380" y="500" width="15" height="80" rx="7" fill="#2a2a2a"/>
+  <ellipse cx="387.5" cy="495" rx="10" ry="15" fill="#1a1a1a"/>
+  <ellipse cx="387.5" cy="492" rx="8" ry="12" fill="#3a3a3a"/>
+</svg>

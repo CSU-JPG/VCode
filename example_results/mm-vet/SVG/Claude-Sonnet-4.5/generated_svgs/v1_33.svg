@@ -1,0 +1,84 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#C4A57B"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="100" cy="30" r="4" fill="#8B6F47" opacity="0.3"/>
+  <circle cx="450" cy="35" r="4" fill="#8B6F47" opacity="0.3"/>
+  <circle cx="85" cy="85" r="3" fill="#8B6F47" opacity="0.3"/>
+  <circle cx="255" cy="140" r="3" fill="#8B6F47" opacity="0.3"/>
+  <circle cx="145" cy="205" r="3" fill="#8B6F47" opacity="0.3"/>
+  <circle cx="435" cy="210" r="3" fill="#8B6F47" opacity="0.3"/>
+  <circle cx="200" cy="360" r="3" fill="#8B6F47" opacity="0.3"/>
+  
+  <!-- Title -->
+  <text x="300" y="45" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#5D3A1A" text-anchor="middle">CHOCOLATE CAKE RECIPE</text>
+  
+  <!-- Step 1 Circle -->
+  <circle cx="130" cy="130" r="55" fill="white"/>
+  <ellipse cx="130" cy="140" rx="35" ry="25" fill="#F5F5DC"/>
+  <rect x="105" y="115" width="15" height="20" fill="#FFD700" rx="2"/>
+  <text x="115" y="130" font-family="Arial" font-size="10" font-weight="bold" fill="#8B4513">F</text>
+  <circle cx="145" cy="120" r="6" fill="#FFB347"/>
+  <circle cx="155" cy="125" r="5" fill="#FFB347"/>
+  <rect x="135" y="115" width="12" height="18" fill="#87CEEB" rx="2"/>
+  <text x="140" y="128" font-family="Arial" font-size="9" fill="white">O</text>
+  <path d="M 120 145 Q 130 155 140 145" stroke="#DDD" stroke-width="2" fill="none"/>
+  <circle cx="25" cy="115" r="15" fill="#3E2723"/>
+  <text x="25" y="122" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  
+  <!-- Step 2 Circle -->
+  <circle cx="350" cy="130" r="55" fill="white"/>
+  <ellipse cx="350" cy="145" rx="35" ry="20" fill="#87CEEB"/>
+  <ellipse cx="350" cy="135" rx="30" ry="18" fill="#4A2511"/>
+  <rect x="360" y="120" width="4" height="25" fill="#8B4513"/>
+  <path d="M 362 118 L 368 115 L 365 120 Z" fill="#8B4513"/>
+  <rect x="325" y="110" width="15" height="22" fill="#D2691E" rx="2"/>
+  <rect x="327" y="112" width="11" height="8" fill="#8B4513"/>
+  <text x="332" y="126" font-family="Arial" font-size="8" fill="white">Co</text>
+  <circle cx="245" cy="115" r="15" fill="#3E2723"/>
+  <text x="245" y="122" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  
+  <!-- Step 3 Circle -->
+  <circle cx="130" cy="280" r="55" fill="white"/>
+  <ellipse cx="130" cy="295" rx="35" ry="15" fill="#696969"/>
+  <path d="M 95 285 Q 95 260 120 255 L 140 255 Q 165 260 165 285 Z" fill="#87CEEB"/>
+  <ellipse cx="130" cy="255" rx="25" ry="8" fill="#B0C4DE"/>
+  <ellipse cx="130" cy="268" rx="28" ry="12" fill="#4A2511"/>
+  <rect x="125" y="292" width="10" height="6" fill="#555" rx="1"/>
+  <circle cx="25" cy="265" r="15" fill="#3E2723"/>
+  <text x="25" y="272" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  
+  <!-- Step 4 Circle -->
+  <circle cx="310" cy="280" r="55" fill="white"/>
+  <rect x="270" y="265" width="80" height="50" fill="#E8E8E8" rx="5"/>
+  <rect x="273" y="268" width="74" height="44" fill="#FFF" stroke="#999" stroke-width="1.5"/>
+  <line x1="278" y1="295" x2="338" y2="295" stroke="#DDD" stroke-width="1.5"/>
+  <line x1="278" y1="285" x2="338" y2="285" stroke="#DDD" stroke-width="1.5"/>
+  <line x1="278" y1="305" x2="338" y2="305" stroke="#DDD" stroke-width="1.5"/>
+  <rect x="275" y="258" width="15" height="6" fill="#555" rx="1"/>
+  <circle x="282" cy="261" r="2" fill="#888"/>
+  <circle x="288" cy="261" r="2" fill="#888"/>
+  <circle x="294" cy="261" r="2" fill="#888"/>
+  <circle x="300" cy="261" r="2" fill="#888"/>
+  <circle cx="335" cy="250" r="12" fill="white" stroke="#999" stroke-width="1.5"/>
+  <text x="335" y="255" font-family="Arial" font-size="10" font-weight="bold" fill="#333" text-anchor="middle">350°</text>
+  <circle cx="205" cy="265" r="15" fill="#3E2723"/>
+  <text x="205" y="272" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  
+  <!-- Step 5 Circle -->
+  <circle cx="470" cy="280" r="55" fill="white"/>
+  <ellipse cx="470" cy="300" rx="40" ry="8" fill="#D3D3D3"/>
+  <path d="M 440 290 Q 438 275 450 270 L 490 270 Q 502 275 500 290 Z" fill="#4A2511"/>
+  <rect x="445" y="268" width="50" height="6" fill="#3E2723"/>
+  <rect x="448" y="262" width="44" height="6" fill="#5D4037"/>
+  <rect x="451" y="256" width="38" height="6" fill="#6D4C41"/>
+  <circle cx="455" cy="280" r="3" fill="#2E1A0F"/>
+  <circle cx="465" cy="283" r="3" fill="#2E1A0F"/>
+  <circle cx="475" cy="281" r="3" fill="#2E1A0F"/>
+  <circle cx="485" cy="279" r="3" fill="#2E1A0F"/>
+  <ellipse cx="462" cy="252" rx="6" ry="8" fill="#DC143C"/>
+  <path d="M 458 246 Q 462 242 466 246" fill="#228B22"/>
+  <circle cx="365" cy="265" r="15" fill="#3E2723"/>
+  <text x="365" y="272" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">5</text>
+</svg>

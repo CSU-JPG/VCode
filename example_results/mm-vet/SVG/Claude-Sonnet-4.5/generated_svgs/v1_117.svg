@@ -1,0 +1,144 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect width="1400" height="700" fill="#e8e8e8"/>
+  
+  <!-- Floor -->
+  <rect y="700" width="1400" height="300" fill="#c87533"/>
+  
+  <!-- Wood grain on floor -->
+  <rect y="700" width="1400" height="8" fill="#a0552a" opacity="0.3"/>
+  <rect y="730" width="1400" height="8" fill="#a0552a" opacity="0.3"/>
+  <rect y="760" width="1400" height="8" fill="#a0552a" opacity="0.3"/>
+  <rect y="790" width="1400" height="8" fill="#a0552a" opacity="0.3"/>
+  
+  <!-- Window on right -->
+  <rect x="1150" y="100" width="200" height="400" fill="#d0e8f0" opacity="0.6"/>
+  <line x1="1250" y1="100" x2="1250" y2="500" stroke="#888" stroke-width="3"/>
+  <line x1="1150" y1="300" x2="1350" y2="300" stroke="#888" stroke-width="3"/>
+  
+  <!-- Hanging plants at top -->
+  <ellipse cx="250" cy="50" rx="40" ry="15" fill="#4a7c3f"/>
+  <path d="M 250 65 Q 240 150 230 200 M 250 65 Q 250 150 250 200 M 250 65 Q 260 150 270 200" stroke="#6b9e5f" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="400" cy="50" rx="40" ry="15" fill="#4a7c3f"/>
+  <path d="M 400 65 Q 390 150 380 200 M 400 65 Q 400 150 400 200 M 400 65 Q 410 150 420 200" stroke="#6b9e5f" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="550" cy="50" rx="40" ry="15" fill="#4a7c3f"/>
+  <path d="M 550 65 Q 540 150 530 200 M 550 65 Q 550 150 550 200 M 550 65 Q 560 150 570 200" stroke="#6b9e5f" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="700" cy="50" rx="40" ry="15" fill="#4a7c3f"/>
+  <path d="M 700 65 Q 690 150 680 200 M 700 65 Q 700 150 700 200 M 700 65 Q 710 150 720 200" stroke="#6b9e5f" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="850" cy="50" rx="40" ry="15" fill="#4a7c3f"/>
+  <path d="M 850 65 Q 840 150 830 200 M 850 65 Q 850 150 850 200 M 850 65 Q 860 150 870 200" stroke="#6b9e5f" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="1000" cy="50" rx="40" ry="15" fill="#4a7c3f"/>
+  <path d="M 1000 65 Q 990 150 980 200 M 1000 65 Q 1000 150 1000 200 M 1000 65 Q 1010 150 1020 200" stroke="#6b9e5f" stroke-width="3" fill="none"/>
+  
+  <!-- Left shelf unit -->
+  <rect x="50" y="250" width="200" height="10" fill="#fff"/>
+  <rect x="50" y="380" width="200" height="10" fill="#fff"/>
+  <rect x="50" y="510" width="200" height="10" fill="#fff"/>
+  <rect x="50" y="640" width="200" height="10" fill="#fff"/>
+  <rect x="50" y="250" width="10" height="400" fill="#fff"/>
+  <rect x="240" y="250" width="10" height="400" fill="#fff"/>
+  
+  <!-- Plants on left shelf -->
+  <ellipse cx="100" cy="230" rx="25" ry="20" fill="#5a8c4a"/>
+  <ellipse cx="200" cy="230" rx="30" ry="25" fill="#ff6347"/>
+  
+  <ellipse cx="120" cy="360" rx="20" ry="18" fill="#6b9e5f"/>
+  <ellipse cx="180" cy="360" rx="25" ry="20" fill="#7aa65f"/>
+  
+  <ellipse cx="100" cy="490" rx="22" ry="19" fill="#5a8c4a"/>
+  <ellipse cx="190" cy="490" rx="28" ry="22" fill="#6b9e5f"/>
+  
+  <!-- Center tall plant (Dracaena) -->
+  <ellipse cx="400" cy="700" rx="40" ry="15" fill="#4a6fa5"/>
+  <rect x="395" y="450" width="10" height="250" fill="#8b6f47"/>
+  <rect x="395" y="350" width="10" height="100" fill="#8b6f47"/>
+  <ellipse cx="400" cy="320" rx="50" ry="30" fill="#2d5016"/>
+  <path d="M 400 350 L 370 420 M 400 350 L 400 420 M 400 350 L 430 420" stroke="#2d5016" stroke-width="8" fill="none"/>
+  
+  <!-- Center shelving unit -->
+  <rect x="500" y="300" width="250" height="8" fill="#fff"/>
+  <rect x="500" y="420" width="250" height="8" fill="#fff"/>
+  <rect x="500" y="540" width="250" height="8" fill="#fff"/>
+  <rect x="500" y="660" width="250" height="8" fill="#fff"/>
+  <rect x="500" y="300" width="8" height="368" fill="#fff"/>
+  <rect x="742" y="300" width="8" height="368" fill="#fff"/>
+  
+  <!-- Plants on center shelf -->
+  <ellipse cx="540" cy="280" rx="18" ry="15" fill="#d2691e"/>
+  <rect x="535" y="280" width="10" height="20" fill="#d2691e"/>
+  <ellipse cx="540" cy="300" rx="12" ry="8" fill="#8b4513"/>
+  
+  <ellipse cx="620" cy="400" rx="22" ry="18" fill="#5a8c4a"/>
+  <ellipse cx="700" cy="400" rx="20" ry="16" fill="#7aa65f"/>
+  
+  <ellipse cx="560" cy="520" rx="25" ry="20" fill="#6b9e5f"/>
+  <ellipse cx="650" cy="520" rx="20" ry="17" fill="#5a8c4a"/>
+  <ellipse cx="720" cy="520" rx="18" ry="15" fill="#7aa65f"/>
+  
+  <ellipse cx="580" cy="640" rx="22" ry="18" fill="#5a8c4a"/>
+  <ellipse cx="680" cy="640" rx="20" ry="16" fill="#6b9e5f"/>
+  
+  <!-- Wall mounted shelves (right side) -->
+  <rect x="850" y="350" width="180" height="8" fill="#deb887"/>
+  <rect x="850" y="500" width="180" height="8" fill="#deb887"/>
+  
+  <!-- Plants on wall shelves -->
+  <ellipse cx="900" cy="330" rx="20" ry="16" fill="#d2691e"/>
+  <rect x="895" y="330" width="10" height="20" fill="#d2691e"/>
+  <ellipse cx="900" cy="350" rx="15" ry="8" fill="#8b4513"/>
+  
+  <ellipse cx="970" cy="330" rx="18" ry="15" fill="#4a6fa5"/>
+  <ellipse cx="970" cy="320" rx="22" ry="18" fill="#5a8c4a"/>
+  
+  <ellipse cx="920" cy="480" rx="20" ry="16" fill="#6b9e5f"/>
+  <ellipse cx="980" cy="480" rx="18" ry="15" fill="#5a8c4a"/>
+  
+  <!-- Floor plants (left) -->
+  <ellipse cx="150" cy="700" rx="45" ry="18" fill="#ddd"/>
+  <ellipse cx="150" cy="650" rx="35" ry="30" fill="#7aa65f"/>
+  <path d="M 150 670 Q 130 700 120 730 M 150 670 Q 150 700 150 730 M 150 670 Q 170 700 180 730" stroke="#7aa65f" stroke-width="4" fill="none"/>
+  
+  <!-- Floor plants (center-left) -->
+  <ellipse cx="350" cy="710" rx="50" ry="20" fill="#ddd"/>
+  <ellipse cx="350" cy="650" rx="40" ry="35" fill="#6b9e5f"/>
+  
+  <!-- Floor plants (center) -->
+  <ellipse cx="620" cy="710" rx="55" ry="22" fill="#ddd"/>
+  <ellipse cx="620" cy="640" rx="45" ry="40" fill="#5a8c4a"/>
+  
+  <!-- Floor plants (right) -->
+  <ellipse cx="850" cy="710" rx="50" ry="20" fill="#ddd"/>
+  <ellipse cx="850" cy="650" rx="42" ry="38" fill="#6b9e5f"/>
+  
+  <!-- Right side table with plant -->
+  <rect x="1050" y="650" width="180" height="15" fill="#c87533"/>
+  <rect x="1070" y="665" width="10" height="50" fill="#8b6f47"/>
+  <rect x="1210" y="665" width="10" height="50" fill="#8b6f47"/>
+  
+  <ellipse cx="1140" cy="630" rx="40" ry="35" fill="#5a8c4a"/>
+  
+  <!-- Window plant -->
+  <ellipse cx="1270" cy="680" rx="35" ry="30" fill="#7aa65f"/>
+  <ellipse cx="1280" cy="600" rx="30" ry="25" fill="#6b9e5f"/>
+  
+  <!-- Red flowers on window -->
+  <ellipse cx="1280" cy="250" rx="25" ry="20" fill="#ff6347"/>
+  <ellipse cx="1275" cy="240" rx="12" ry="10" fill="#ff4500"/>
+  <ellipse cx="1285" cy="240" rx="12" ry="10" fill="#ff4500"/>
+  <ellipse cx="1280" cy="235" rx="12" ry="10" fill="#ff4500"/>
+  
+  <ellipse cx="1310" cy="630" rx="20" ry="18" fill="#ff6347"/>
+  <ellipse cx="1305" cy="620" rx="10" ry="8" fill="#ff4500"/>
+  <ellipse cx="1315" cy="620" rx="10" ry="8" fill="#ff4500"/>
+  <ellipse cx="1310" cy="615" rx="10" ry="8" fill="#ff4500"/>
+  
+  <!-- Small succulents scattered -->
+  <ellipse cx="300" cy="700" rx="15" ry="12" fill="#5a8c4a"/>
+  <ellipse cx="750" cy="710" rx="18" ry="14" fill="#6b9e5f"/>
+  <ellipse cx="950" cy="705" rx="16" ry="13" fill="#7aa65f"/>
+</svg>

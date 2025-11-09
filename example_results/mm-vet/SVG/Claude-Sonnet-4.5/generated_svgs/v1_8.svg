@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1249 835" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chalkboard background -->
+  <rect width="1249" height="835" fill="#6b7273"/>
+  
+  <!-- Chalk dust texture effect -->
+  <rect width="1249" height="835" fill="url(#chalkTexture)" opacity="0.3"/>
+  
+  <defs>
+    <pattern id="chalkTexture" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="20" r="1" fill="#9a9a9a" opacity="0.3"/>
+      <circle cx="45" cy="60" r="1.5" fill="#8a8a8a" opacity="0.2"/>
+      <circle cx="80" cy="30" r="1" fill="#7a7a7a" opacity="0.25"/>
+      <circle cx="25" cy="80" r="1.2" fill="#9a9a9a" opacity="0.2"/>
+      <circle cx="60" cy="15" r="1" fill="#8a8a8a" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Left math problem: 3x3= -->
+  <text x="85" y="280" font-family="Arial, sans-serif" font-size="80" fill="#ffffff" font-weight="bold" opacity="0.85">3</text>
+  <text x="135" y="270" font-family="Arial, sans-serif" font-size="50" fill="#ffffff" font-weight="bold" opacity="0.85">x</text>
+  <text x="175" y="280" font-family="Arial, sans-serif" font-size="80" fill="#ffffff" font-weight="bold" opacity="0.85">3=</text>
+  
+  <!-- Middle math problem: 7x2= -->
+  <text x="455" y="280" font-family="Arial, sans-serif" font-size="80" fill="#ffffff" font-weight="bold" opacity="0.85">7</text>
+  <text x="505" y="270" font-family="Arial, sans-serif" font-size="50" fill="#ffffff" font-weight="bold" opacity="0.85">x</text>
+  <text x="545" y="280" font-family="Arial, sans-serif" font-size="80" fill="#ffffff" font-weight="bold" opacity="0.85">2=</text>
+  
+  <!-- Right math problem: 11-2= -->
+  <text x="905" y="280" font-family="Arial, sans-serif" font-size="80" fill="#ffffff" font-weight="bold" opacity="0.85">11-2=</text>
+  
+  <!-- Left child (girl with ponytail and red bow) -->
+  <!-- Hair -->
+  <ellipse cx="165" cy="520" rx="50" ry="65" fill="#2a1810"/>
+  <ellipse cx="130" cy="580" rx="25" ry="60" fill="#2a1810"/>
+  <!-- Red bow -->
+  <ellipse cx="120" cy="480" rx="15" ry="8" fill="#dc143c"/>
+  <ellipse cx="145" cy="480" rx="15" ry="8" fill="#dc143c"/>
+  <circle cx="132" cy="480" r="6" fill="#b91230"/>
+  
+  <!-- Arm and hand -->
+  <rect x="230" y="400" width="50" height="15" fill="#f4c8a8" rx="7"/>
+  <rect x="270" y="380" width="15" height="40" fill="#f4c8a8" rx="7"/>
+  <!-- Hand holding chalk -->
+  <ellipse cx="320" cy="310" rx="20" ry="15" fill="#f4c8a8"/>
+  <rect x="310" y="295" width="8" height="25" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Uniform -->
+  <rect x="140" y="580" width="80" height="100" fill="#1a2332" rx="5"/>
+  <rect x="145" y="585" width="70" height="90" fill="#ffc0cb"/>
+  <line x1="180" y1="580" x2="180" y2="680" stroke="#dc143c" stroke-width="4"/>
+  
+  <!-- Middle child (girl with pigtails) -->
+  <!-- Hair -->
+  <ellipse cx="555" cy="520" rx="55" ry="60" fill="#2a1810"/>
+  <ellipse cx="510" cy="500" rx="20" ry="25" fill="#2a1810"/>
+  <ellipse cx="600" cy="500" rx="20" ry="25" fill="#2a1810"/>
+  <!-- Hair ties -->
+  <ellipse cx="510" cy="490" rx="10" ry="6" fill="#9370db"/>
+  <ellipse cx="600" cy="490" rx="10" ry="6" fill="#ffd700"/>
+  <!-- Ponytail -->
+  <ellipse cx="555" cy="560" rx="30" ry="45" fill="#2a1810"/>
+  
+  <!-- Arm and hand -->
+  <rect x="620" y="410" width="50" height="15" fill="#f4c8a8" rx="7"/>
+  <rect x="660" y="390" width="15" height="35" fill="#f4c8a8" rx="7"/>
+  <!-- Hand holding chalk -->
+  <ellipse cx="710" cy="315" rx="20" ry="15" fill="#f4c8a8"/>
+  <rect x="700" y="300" width="8" height="25" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Uniform -->
+  <rect x="530" y="580" width="85" height="100" fill="#1a2332" rx="5"/>
+  <rect x="535" y="585" width="75" height="90" fill="#ffc0cb"/>
+  <line x1="572" y1="580" x2="572" y2="680" stroke="#dc143c" stroke-width="4"/>
+  
+  <!-- Right child (boy) -->
+  <!-- Hair -->
+  <ellipse cx="975" cy="510" rx="55" ry="50" fill="#2a1810"/>
+  
+  <!-- Arm and hand -->
+  <rect x="1050" y="420" width="60" height="15" fill="#f4c8a8" rx="7"/>
+  <rect x="1100" y="395" width="15" height="40" fill="#f4c8a8" rx="7"/>
+  <!-- Hand holding chalk -->
+  <ellipse cx="1130" cy="320" rx="20" ry="15" fill="#f4c8a8"/>
+  <rect x="1120" y="305" width="8" height="25" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Uniform -->
+  <rect x="945" y="570" width="90" height="110" fill="#1a2332" rx="5"/>
+  <rect x="950" y="575" width="80" height="100" fill="#ffffff"/>
+  <line x1="990" y1="570" x2="990" y2="680" stroke="#dc143c" stroke-width="4"/>
+  
+  <!-- Collar details -->
+  <line x1="145" y1="585" x2="165" y2="605" stroke="#dc143c" stroke-width="3"/>
+  <line x1="215" y1="585" x2="195" y2="605" stroke="#dc143c" stroke-width="3"/>
+  
+  <line x1="535" y1="585" x2="555" y2="605" stroke="#dc143c" stroke-width="3"/>
+  <line x1="610" y1="585" x2="590" y2="605" stroke="#dc143c" stroke-width="3"/>
+  
+  <line x1="950" y1="575" x2="970" y2="595" stroke="#dc143c" stroke-width="3"/>
+  <line x1="1030" y1="575" x2="1010" y2="595" stroke="#dc143c" stroke-width="3"/>
+</svg>

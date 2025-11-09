@@ -1,0 +1,78 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#B8C5D6"/>
+  
+  <!-- Snow ground -->
+  <ellipse cx="400" cy="550" rx="450" ry="100" fill="#F0F4F8"/>
+  <rect y="450" width="800" height="150" fill="#F5F8FA"/>
+  
+  <!-- Distant trees -->
+  <line x1="100" y1="250" x2="100" y2="400" stroke="#8B7355" stroke-width="3"/>
+  <line x1="95" y1="280" x2="105" y2="290" stroke="#8B7355" stroke-width="2"/>
+  <line x1="95" y1="310" x2="105" y2="320" stroke="#8B7355" stroke-width="2"/>
+  
+  <line x1="180" y1="230" x2="180" y2="400" stroke="#8B7355" stroke-width="3"/>
+  <line x1="175" y1="260" x2="185" y2="270" stroke="#8B7355" stroke-width="2"/>
+  <line x1="175" y1="300" x2="185" y2="310" stroke="#8B7355" stroke-width="2"/>
+  
+  <line x1="620" y1="240" x2="620" y2="400" stroke="#8B7355" stroke-width="3"/>
+  <line x1="615" y1="270" x2="625" y2="280" stroke="#8B7355" stroke-width="2"/>
+  <line x1="615" y1="320" x2="625" y2="330" stroke="#8B7355" stroke-width="2"/>
+  
+  <line x1="710" y1="260" x2="710" y2="400" stroke="#8B7355" stroke-width="3"/>
+  <line x1="705" y1="290" x2="715" y2="300" stroke="#8B7355" stroke-width="2"/>
+  
+  <!-- Fallen log -->
+  <ellipse cx="300" cy="460" rx="80" ry="15" fill="#6B5847"/>
+  <rect x="220" y="450" width="160" height="20" fill="#7A6A58"/>
+  
+  <!-- Deer -->
+  <ellipse cx="320" cy="420" rx="55" ry="35" fill="#A67C52"/>
+  <ellipse cx="290" cy="400" rx="28" ry="32" fill="#A67C52"/>
+  <rect x="310" y="420" width="12" height="50" fill="#8B6F47"/>
+  <rect x="340" y="420" width="12" height="50" fill="#8B6F47"/>
+  <rect x="270" y="405" width="10" height="45" fill="#8B6F47"/>
+  <rect x="255" y="405" width="10" height="45" fill="#8B6F47"/>
+  <polygon points="290,385 285,365 295,365" fill="#8B6F47"/>
+  <polygon points="298,385 293,365 303,365" fill="#8B6F47"/>
+  <circle cx="285" cy="395" r="2" fill="#1a1a1a"/>
+  <ellipse cx="275" cy="398" rx="8" ry="6" fill="#9B8066"/>
+  
+  <!-- Tiger -->
+  <ellipse cx="480" cy="430" rx="60" ry="40" fill="#D4A574"/>
+  <ellipse cx="520" cy="410" rx="32" ry="35" fill="#D4A574"/>
+  <rect x="460" y="430" width="14" height="55" fill="#C9934F"/>
+  <rect x="490" y="430" width="14" height="55" fill="#C9934F"/>
+  <rect x="530" y="410" width="12" height="50" fill="#C9934F"/>
+  <rect x="555" y="410" width="12" height="50" fill="#C9934F"/>
+  <circle cx="515" cy="400" r="3" fill="#1a1a1a"/>
+  <circle cx="528" cy="400" r="3" fill="#1a1a1a"/>
+  <polygon points="508,390 510,375 505,385" fill="#C9934F"/>
+  <polygon points="535,390 537,375 532,385" fill="#C9934F"/>
+  <path d="M 520 405 Q 520 410 515 410" stroke="#1a1a1a" fill="none" stroke-width="2"/>
+  <line x1="450" y1="425" x2="420" y2="435" stroke="#C9934F" stroke-width="8"/>
+  <line x1="465" y1="420" x2="465" y2="380" stroke="#2C2416" stroke-width="3"/>
+  <line x1="480" y1="425" x2="480" y2="385" stroke="#2C2416" stroke-width="3"/>
+  <line x1="495" y1="425" x2="495" y2="385" stroke="#2C2416" stroke-width="3"/>
+  
+  <!-- Tree trunk right -->
+  <rect x="740" y="350" width="35" height="250" fill="#6B5847"/>
+  <ellipse cx="757" cy="365" rx="20" ry="12" fill="#E8EEF2"/>
+  
+  <!-- Bird -->
+  <ellipse cx="650" cy="200" rx="18" ry="12" fill="#2C2C2C"/>
+  <ellipse cx="665" cy="202" rx="8" ry="6" fill="#2C2C2C"/>
+  <path d="M 635 205 Q 620 195 608 200" stroke="#2C2C2C" fill="none" stroke-width="3"/>
+  <path d="M 635 207 Q 620 215 610 213" stroke="#2C2C2C" fill="none" stroke-width="3"/>
+  <path d="M 668 200 Q 685 192 695 195" stroke="#F5F5F5" fill="#F5F5F5" stroke-width="2"/>
+  <path d="M 668 204 Q 685 210 695 210" stroke="#F5F5F5" fill="#F5F5F5" stroke-width="2"/>
+  
+  <!-- Bare branches -->
+  <line x1="50" y1="350" x2="80" y2="320" stroke="#8B7355" stroke-width="2"/>
+  <line x1="80" y1="320" x2="75" y2="300" stroke="#8B7355" stroke-width="1.5"/>
+  <line x1="80" y1="320" x2="95" y2="310" stroke="#8B7355" stroke-width="1.5"/>
+  
+  <line x1="350" y1="380" x2="370" y2="350" stroke="#8B7355" stroke-width="2"/>
+  <line x1="370" y1="350" x2="365" y2="330" stroke="#8B7355" stroke-width="1.5"/>
+  <line x1="370" y1="350" x2="385" y2="340" stroke="#8B7355" stroke-width="1.5"/>
+</svg>

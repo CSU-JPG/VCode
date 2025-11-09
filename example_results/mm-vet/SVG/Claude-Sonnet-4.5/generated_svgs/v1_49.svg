@@ -1,0 +1,151 @@
+<svg viewBox="0 0 1200 950" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer border -->
+  <rect x="20" y="20" width="580" height="600" fill="none" stroke="black" stroke-width="8"/>
+  <rect x="30" y="30" width="560" height="580" fill="none" stroke="black" stroke-width="3"/>
+  <rect x="40" y="40" width="540" height="560" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Terrace -->
+  <rect x="40" y="40" width="540" height="200" fill="white" stroke="black" stroke-width="2"/>
+  <text x="310" y="130" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle">TERRACE</text>
+  <text x="310" y="165" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">21'6" x 8'0"</text>
+  
+  <!-- Right extension for bedrooms -->
+  <rect x="600" y="20" width="580" height="600" fill="white" stroke="black" stroke-width="8"/>
+  
+  <!-- Master Bedroom -->
+  <rect x="870" y="160" width="290" height="260" fill="white" stroke="black" stroke-width="3"/>
+  <text x="1015" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">MASTER BEDROOM</text>
+  <text x="1015" y="360" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">12'10" x 17'9"</text>
+  
+  <!-- Second Bedroom -->
+  <rect x="600" y="160" width="250" height="260" fill="white" stroke="black" stroke-width="3"/>
+  <text x="725" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">SECOND BEDROOM</text>
+  <text x="725" y="360" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">10'10" x 14'7"</text>
+  
+  <!-- Hatched areas on top -->
+  <pattern id="hatch" patternUnits="userSpaceOnUse" width="8" height="8">
+    <path d="M0,8 l8,-8 M-2,2 l4,-4 M6,10 l4,-4" stroke="black" stroke-width="1"/>
+  </pattern>
+  <rect x="70" y="265" width="60" height="20" fill="url(#hatch)"/>
+  <rect x="620" y="180" width="70" height="20" fill="url(#hatch)"/>
+  <rect x="970" y="180" width="70" height="20" fill="url(#hatch)"/>
+  
+  <!-- Living Room -->
+  <rect x="40" y="440" width="360" height="180" fill="white" stroke="black" stroke-width="3"/>
+  <text x="220" y="510" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">LIVING ROOM</text>
+  <text x="220" y="540" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">14'6" x 20'5"</text>
+  
+  <!-- Dining Area -->
+  <rect x="40" y="260" width="240" height="160" fill="white" stroke="black" stroke-width="3"/>
+  <text x="160" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">DINING AREA</text>
+  <text x="160" y="360" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">9'10" x 13'0"</text>
+  
+  <!-- Kitchen -->
+  <rect x="290" y="260" width="110" height="160" fill="white" stroke="black" stroke-width="3"/>
+  <text x="345" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" transform="rotate(-90 345 310)">KITCHEN</text>
+  <text x="345" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" transform="rotate(-90 345 330)">7'8" x 12'3"</text>
+  
+  <!-- Kitchen elements -->
+  <circle cx="315" cy="340" r="4" fill="black"/>
+  <circle cx="325" cy="340" r="4" fill="black"/>
+  <circle cx="315" cy="350" r="4" fill="black"/>
+  <circle cx="325" cy="350" r="4" fill="black"/>
+  <text x="345" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" transform="rotate(-90 345 380)">oven</text>
+  
+  <!-- DW (Dishwasher) -->
+  <rect x="415" y="340" width="30" height="40" fill="white" stroke="black" stroke-width="2"/>
+  <text x="430" y="365" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">DW</text>
+  
+  <!-- Built-in -->
+  <rect x="320" y="600" width="100" height="30" fill="white" stroke="black" stroke-width="2"/>
+  <text x="370" y="620" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Built-in</text>
+  
+  <!-- WC (Toilet) -->
+  <rect x="420" y="540" width="80" height="80" fill="white" stroke="black" stroke-width="3"/>
+  <text x="460" y="570" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">WC</text>
+  <text x="460" y="595" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">5'2" x 5'2"</text>
+  
+  <!-- TC arrow -->
+  <text x="520" y="370" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">TC</text>
+  <line x1="520" y1="330" x2="520" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="520" y1="390" x2="520" y2="410" stroke="black" stroke-width="2" marker-start="url(#arrowhead)"/>
+  <text x="555" y="370" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">8'4" x 2'7"</text>
+  
+  <!-- Foyer -->
+  <rect x="420" y="650" width="140" height="100" fill="white" stroke="black" stroke-width="3"/>
+  <text x="490" y="690" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">FOYER</text>
+  <text x="490" y="715" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">6'0" x 6'34"</text>
+  
+  <!-- Entrance arrow -->
+  <text x="550" y="770" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="start">Entrance</text>
+  <line x1="520" y1="765" x2="540" y2="765" stroke="black" stroke-width="3" marker-start="url(#arrowhead2)"/>
+  
+  <!-- Bath -->
+  <rect x="870" y="520" width="140" height="100" fill="white" stroke="black" stroke-width="3"/>
+  <text x="940" y="560" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">BATH</text>
+  
+  <!-- Bathroom fixtures -->
+  <ellipse cx="915" cy="595" rx="12" ry="8" fill="white" stroke="black" stroke-width="2"/>
+  <rect x="930" y="575" width="30" height="40" rx="15" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Master Bathroom -->
+  <rect x="1030" y="520" width="130" height="100" fill="white" stroke="black" stroke-width="3"/>
+  <text x="1095" y="550" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" transform="rotate(-90 1095 550)">MASTER</text>
+  <text x="1095" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" transform="rotate(-90 1095 565)">BATHROOM</text>
+  <text x="1095" y="590" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" transform="rotate(-90 1095 590)">4'11" x 8'10"</text>
+  
+  <!-- Master bathroom fixtures -->
+  <ellipse cx="1050" cy="555" rx="8" ry="12" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="1050" cy="585" rx="8" ry="12" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="1095" cy="595" rx="35" ry="15" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Closets -->
+  <rect x="870" y="440" width="80" height="60" fill="white" stroke="black" stroke-width="2"/>
+  <text x="910" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">CL</text>
+  <text x="910" y="485" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">2'11" x 6'11"</text>
+  
+  <rect x="730" y="520" width="60" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <text x="760" y="555" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">LC</text>
+  
+  <!-- Doors (dashed curves) -->
+  <path d="M 250 240 Q 270 260 250 280" fill="none" stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 180 210 Q 200 230 220 210" fill="none" stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 750 420 Q 770 440 790 420" fill="none" stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 870 640 Q 890 660 910 640" fill="none" stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 480 620 Q 500 640 520 620" fill="none" stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M 1100 720 Q 1120 740 1140 720" fill="none" stroke="black" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Double-headed arrow -->
+  <line x1="920" y1="490" x2="970" y2="490" stroke="black" stroke-width="2"/>
+  <polygon points="920,490 928,487 928,493" fill="black"/>
+  <polygon points="970,490 962,487 962,493" fill="black"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,2 5,5 0,8" fill="black"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="8,2 3,5 8,8" fill="black"/>
+    </marker>
+  </defs>
+  
+  <!-- Wall fills (black) -->
+  <rect x="40" y="240" width="540" height="20" fill="black"/>
+  <rect x="280" y="240" width="20" height="180" fill="black"/>
+  <rect x="400" y="260" width="20" height="160" fill="black"/>
+  <rect x="400" y="420" width="180" height="20" fill="black"/>
+  <rect x="560" y="440" width="20" height="180" fill="black"/>
+  <rect x="600" y="160" width="20" height="260" fill="black"/>
+  <rect x="850" y="160" width="20" height="260" fill="black"/>
+  <rect x="850" y="420" width="20" height="200" fill="black"/>
+  <rect x="1010" y="160" width="20" height="460" fill="black"/>
+  
+  <!-- Window indicators (small rectangles) -->
+  <rect x="455" y="340" width="15" height="30" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="455" y="340" width="15" height="30" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Refrigerator indicator -->
+  <rect x="405" y="295" width="8" height="30" fill="black"/>
+  <text x="409" y="315" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" transform="rotate(-90 409 315)">❄</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left panel background -->
+  <rect width="400" height="400" fill="#1a1a3e"/>
+  
+  <!-- Right panel background -->
+  <rect x="400" width="400" height="400" fill="#2a2a2a"/>
+  
+  <!-- Left panel - Woman pointing (blonde) -->
+  <ellipse cx="140" cy="180" rx="50" ry="70" fill="#f4d8a8"/>
+  <path d="M90 150 Q90 120 140 120 Q190 120 190 150" fill="#f9e4b7"/>
+  <circle cx="120" cy="170" r="8" fill="#3d2817"/>
+  <circle cx="160" cy="170" r="8" fill="#3d2817"/>
+  <ellipse cx="140" cy="200" rx="25" ry="20" fill="#ff6b7a"/>
+  <path d="M115 200 Q140 220 165 200" fill="#8b4545" opacity="0.7"/>
+  
+  <!-- Blonde hair -->
+  <path d="M90 120 Q70 100 80 80 Q90 60 120 70 Q140 50 160 70 Q180 60 190 80 Q200 100 190 120 Z" fill="#f4d896"/>
+  
+  <!-- Pointing arm -->
+  <rect x="190" y="175" width="90" height="20" fill="#f4d8a8" transform="rotate(-10 190 185)"/>
+  <circle cx="280" cy="175" r="15" fill="#f4d8a8"/>
+  
+  <!-- Gold ring on finger -->
+  <ellipse cx="270" cy="175" rx="8" ry="5" fill="#ffd700"/>
+  
+  <!-- Woman behind (brunette) -->
+  <ellipse cx="280" cy="200" rx="45" ry="65" fill="#d4b89a"/>
+  <circle cx="265" cy="190" r="7" fill="#2d1f14"/>
+  <circle cx="295" cy="190" r="7" fill="#2d1f14"/>
+  <ellipse cx="280" cy="215" rx="15" ry="12" fill="none" stroke="#8b6f5c" stroke-width="2"/>
+  
+  <!-- Dark hair -->
+  <path d="M235 170 Q230 140 250 130 Q280 120 300 130 Q325 140 325 170 Z" fill="#3d2817"/>
+  
+  <!-- Glass in foreground -->
+  <rect x="320" y="250" width="50" height="100" fill="none" stroke="#b8d4e8" stroke-width="3" opacity="0.6"/>
+  <rect x="325" y="255" width="40" height="40" fill="#d4e8f4" opacity="0.3"/>
+  
+  <!-- Right panel - White cat at table -->
+  <ellipse cx="550" cy="200" rx="60" ry="55" fill="#f5f5f5"/>
+  <circle cx="530" cy="180" r="20" fill="#f5f5f5"/>
+  <circle cx="570" cy="180" r="20" fill="#f5f5f5"/>
+  
+  <!-- Cat ears -->
+  <path d="M510 150 L530 170 L540 150 Z" fill="#f5f5f5"/>
+  <path d="M560 150 L570 170 L590 150 Z" fill="#f5f5f5"/>
+  <path d="M515 155 L530 170 L535 155 Z" fill="#ffc0cb"/>
+  <path d="M565 155 L570 170 L585 155 Z" fill="#ffc0cb"/>
+  
+  <!-- Cat eyes (annoyed expression) -->
+  <line x1="525" y1="180" x2="535" y2="185" stroke="#4a4a4a" stroke-width="3"/>
+  <line x1="565" y1="185" x2="575" y2="180" stroke="#4a4a4a" stroke-width="3"/>
+  
+  <!-- Cat nose and mouth -->
+  <path d="M550 195 L545 200 L550 202 L555 200 Z" fill="#d4a5a5"/>
+  <path d="M550 202 Q545 208 540 210 M550 202 Q555 208 560 210" stroke="#4a4a4a" stroke-width="2" fill="none"/>
+  
+  <!-- Table -->
+  <rect x="450" y="280" width="300" height="15" fill="#6b4423"/>
+  
+  <!-- Plate with salad -->
+  <ellipse cx="550" cy="285" rx="70" ry="20" fill="#e8e8e8"/>
+  <circle cx="530" cy="270" r="12" fill="#4a7c3e"/>
+  <circle cx="550" cy="275" r="12" fill="#5d8c4f"/>
+  <circle cx="570" cy="268" r="12" fill="#4a7c3e"/>
+  <circle cx="560" cy="280" r="10" fill="#6b8e5a"/>
+  
+  <!-- Lemon slice -->
+  <circle cx="600" cy="275" r="15" fill="#fff44f"/>
+  <line x1="590" y1="270" x2="610" y2="280" stroke="#d4c43f" stroke-width="2"/>
+  <line x1="595" y1="285" x2="605" y2="265" stroke="#d4c43f" stroke-width="2"/>
+  
+  <!-- Glass of water -->
+  <rect x="620" y="220" width="40" height="70" rx="5" fill="none" stroke="#b8d4e8" stroke-width="3" opacity="0.7"/>
+  <rect x="625" y="225" width="30" height="35" fill="#d4e8f4" opacity="0.4"/>
+  
+  <!-- Hand reaching for glass -->
+  <ellipse cx="650" cy="180" rx="25" ry="15" fill="#e8d4b8" transform="rotate(-20 650 180)"/>
+  <rect x="640" y="170" width="15" height="30" fill="#e8d4b8" transform="rotate(-30 650 180)"/>
+</svg>

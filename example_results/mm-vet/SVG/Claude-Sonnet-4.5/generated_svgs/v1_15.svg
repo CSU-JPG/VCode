@@ -1,0 +1,31 @@
+<svg viewBox="0 0 740 590" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer frame/background -->
+  <rect x="0" y="0" width="740" height="590" fill="#d0d0d0" rx="8"/>
+  
+  <!-- Shadow/depth effect -->
+  <rect x="10" y="165" width="720" height="340" fill="#a0a0a0" rx="12"/>
+  
+  <!-- Main white display area -->
+  <rect x="25" y="180" width="690" height="310" fill="#ffffff" rx="6"/>
+  
+  <!-- Black button on left side -->
+  <ellipse cx="52" cy="360" rx="12" ry="30" fill="#2a2a2a"/>
+  
+  <!-- Title text -->
+  <text x="145" y="275" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#000000">PORK BELLY</text>
+  
+  <!-- Shelf life text -->
+  <text x="467" y="255" font-family="Arial, sans-serif" font-size="20" fill="#666666">Shelf life</text>
+  <text x="467" y="280" font-family="Arial, sans-serif" font-size="20" fill="#666666">September 1</text>
+  
+  <!-- Horizontal line -->
+  <line x1="145" y1="310" x2="620" y2="310" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Black rectangle with 30% -->
+  <rect x="145" y="338" width="210" height="105" fill="#000000"/>
+  <text x="167" y="415" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="#ffffff">30%</text>
+  <text x="300" y="415" font-family="Arial, sans-serif" font-size="48" font-weight="normal" fill="#ffffff">↓</text>
+  
+  <!-- Price 9.80 -->
+  <text x="395" y="420" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="#000000">9.80</text>
+</svg>

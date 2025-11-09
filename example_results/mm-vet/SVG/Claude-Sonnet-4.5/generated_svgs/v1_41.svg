@@ -1,0 +1,145 @@
+<svg viewBox="0 0 800 680" xmlns="http://www.w3.org/2000/svg">
+  <!-- Border -->
+  <rect x="10" y="10" width="780" height="660" fill="none" stroke="black" stroke-width="4"/>
+  
+  <!-- Title -->
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle">Strategies to Build</text>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle">Working Memory</text>
+  
+  <!-- Logo circle -->
+  <circle cx="710" cy="70" r="35" fill="#87CEEB"/>
+  <ellipse cx="710" cy="85" rx="30" ry="15" fill="#90EE90"/>
+  <text x="710" y="75" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4169E1">Pathway</text>
+  <text x="710" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#228B22">2 Success</text>
+  
+  <!-- Website -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">www.thepathway2success.com</text>
+  
+  <!-- Grid lines -->
+  <line x1="10" y1="170" x2="790" y2="170" stroke="black" stroke-width="2"/>
+  <line x1="270" y1="170" x2="270" y2="670" stroke="black" stroke-width="2"/>
+  <line x1="530" y1="170" x2="530" y2="670" stroke="black" stroke-width="2"/>
+  <line x1="10" y1="340" x2="790" y2="340" stroke="black" stroke-width="2"/>
+  <line x1="10" y1="510" x2="790" y2="510" stroke="black" stroke-width="2"/>
+  
+  <!-- Row 1, Cell 1: Make Lists (Pink) -->
+  <rect x="10" y="170" width="260" height="170" fill="#FFB6D9"/>
+  <text x="140" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Make Lists</text>
+  <rect x="95" y="220" width="90" height="100" fill="white" stroke="black" stroke-width="1" rx="2"/>
+  <line x1="95" y1="225" x2="185" y2="225" stroke="black" stroke-width="1"/>
+  <line x1="95" y1="225" x2="95" y2="215" stroke="black" stroke-width="2"/>
+  <line x1="110" y1="225" x2="110" y2="215" stroke="black" stroke-width="2"/>
+  <line x1="125" y1="225" x2="125" y2="215" stroke="black" stroke-width="2"/>
+  <line x1="140" y1="225" x2="140" y2="215" stroke="black" stroke-width="2"/>
+  <text x="100" y="232" font-family="Arial, sans-serif" font-size="10">TO DO LIST</text>
+  <line x1="100" y1="245" x2="180" y2="245" stroke="black" stroke-width="0.5"/>
+  <line x1="100" y1="255" x2="180" y2="255" stroke="black" stroke-width="0.5"/>
+  <line x1="100" y1="265" x2="180" y2="265" stroke="black" stroke-width="0.5"/>
+  <line x1="100" y1="275" x2="180" y2="275" stroke="black" stroke-width="0.5"/>
+  <line x1="100" y1="285" x2="180" y2="285" stroke="black" stroke-width="0.5"/>
+  <line x1="100" y1="295" x2="180" y2="295" stroke="black" stroke-width="0.5"/>
+  <line x1="100" y1="305" x2="180" y2="305" stroke="black" stroke-width="0.5"/>
+  
+  <!-- Row 1, Cell 2: Make Meaningful Connections (Blue) -->
+  <rect x="270" y="170" width="260" height="170" fill="#87CEEB"/>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Make Meaningful</text>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Connections</text>
+  <circle cx="400" cy="280" r="35" fill="white" stroke="black" stroke-width="2"/>
+  <ellipse cx="400" cy="270" rx="12" ry="18" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 388 270 Q 388 285 400 295" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 412 270 Q 412 285 400 295" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="395" y1="310" x2="395" y2="320" stroke="black" stroke-width="2"/>
+  <line x1="405" y1="310" x2="405" y2="320" stroke="black" stroke-width="2"/>
+  
+  <!-- Row 1, Cell 3: Chunk Information (Beige) -->
+  <rect x="530" y="170" width="260" height="170" fill="#F5DEB3"/>
+  <text x="660" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Chunk Information</text>
+  <rect x="585" y="220" width="150" height="100" fill="white" stroke="#8B4513" stroke-width="3" rx="2"/>
+  <rect x="600" y="235" width="60" height="70" fill="white" stroke="black" stroke-width="1"/>
+  <text x="608" y="250" font-family="Arial, sans-serif" font-size="10">TODAY</text>
+  <line x1="605" y1="255" x2="655" y2="255" stroke="black" stroke-width="0.5"/>
+  <line x1="605" y1="265" x2="655" y2="265" stroke="black" stroke-width="0.5"/>
+  <line x1="605" y1="275" x2="655" y2="275" stroke="black" stroke-width="0.5"/>
+  <line x1="605" y1="285" x2="655" y2="285" stroke="black" stroke-width="0.5"/>
+  <line x1="605" y1="295" x2="655" y2="295" stroke="black" stroke-width="0.5"/>
+  <rect x="665" y="235" width="60" height="70" fill="white" stroke="black" stroke-width="1"/>
+  <text x="670" y="250" font-family="Arial, sans-serif" font-size="10">TOMORROW</text>
+  <line x1="670" y1="255" x2="720" y2="255" stroke="black" stroke-width="0.5"/>
+  <line x1="670" y1="265" x2="720" y2="265" stroke="black" stroke-width="0.5"/>
+  <line x1="670" y1="275" x2="720" y2="275" stroke="black" stroke-width="0.5"/>
+  <line x1="670" y1="285" x2="720" y2="285" stroke="black" stroke-width="0.5"/>
+  <line x1="670" y1="295" x2="720" y2="295" stroke="black" stroke-width="0.5"/>
+  <circle cx="595" cy="245" r="4" fill="black"/>
+  <circle cx="595" cy="260" r="4" fill="black"/>
+  <circle cx="595" cy="275" r="4" fill="black"/>
+  <circle cx="595" cy="290" r="4" fill="black"/>
+  
+  <!-- Row 2, Cell 1: Use Mnemonics and Acronyms (Tan) -->
+  <rect x="10" y="340" width="260" height="170" fill="#F0E68C"/>
+  <text x="140" y="370" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Use Mnemonics and</text>
+  <text x="140" y="393" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Acronyms</text>
+  <ellipse cx="110" cy="455" rx="22" ry="30" fill="#D3D3D3" stroke="black" stroke-width="2"/>
+  <circle cx="110" cy="448" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="102" y="460" width="16" height="25" fill="#D3D3D3" stroke="black" stroke-width="2"/>
+  <path d="M 135 440 L 165 425 L 170 445 L 145 455 Z" fill="#FFD700" stroke="black" stroke-width="2"/>
+  <circle cx="155" cy="432" r="8" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 155 440 L 155 460 M 145 450 L 165 450" stroke="black" stroke-width="2"/>
+  
+  <!-- Row 2, Cell 2: Use Games and Puzzles (Purple) -->
+  <rect x="270" y="340" width="260" height="170" fill="#DDA0DD"/>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Use Games and</text>
+  <text x="400" y="395" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Puzzles</text>
+  <path d="M 320 430 L 340 430 Q 345 430 345 435 L 345 455 Q 345 460 350 460 L 365 460 L 365 470 L 350 470 Q 345 470 345 475 L 345 490 Q 345 495 340 495 L 320 495 Z" fill="#E74C3C" stroke="black" stroke-width="2"/>
+  <circle cx="332" cy="460" r="8" fill="#E74C3C"/>
+  <path d="M 365 440 L 385 440 L 385 430 L 395 430 L 395 440 L 410 440 Q 415 440 415 445 L 415 475 Q 415 480 410 480 L 395 480 L 395 490 L 385 490 L 385 480 L 365 480 Z" fill="#E67E22" stroke="black" stroke-width="2"/>
+  <circle cx="390" cy="460" r="8" fill="#E67E22"/>
+  <path d="M 415 450 L 435 450 Q 440 450 440 455 L 440 475 L 450 475 L 450 485 L 440 485 L 440 495 Q 440 500 435 500 L 415 500 Q 410 500 410 495 L 410 475 L 400 475 L 400 465 L 410 465 L 410 455 Q 410 450 415 450 Z" fill="#F39C12" stroke="black" stroke-width="2"/>
+  <circle cx="428" cy="475" r="8" fill="#F39C12"/>
+  <path d="M 450 460 L 470 460 L 470 450 L 480 450 L 480 460 L 490 460 Q 495 460 495 465 L 495 480 Q 495 485 490 485 L 480 485 L 480 495 L 470 495 L 470 485 L 450 485 Q 445 485 445 480 L 445 465 Q 445 460 450 460 Z" fill="#27AE60" stroke="black" stroke-width="2"/>
+  <circle cx="470" cy="472" r="8" fill="#27AE60"/>
+  
+  <!-- Row 2, Cell 3: Practice Mental Math (Green) -->
+  <rect x="530" y="340" width="260" height="170" fill="#98FB98"/>
+  <text x="660" y="370" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Practice Mental Math</text>
+  <ellipse cx="660" cy="445" rx="50" ry="40" fill="#FFB6C1" stroke="#8B008B" stroke-width="3"/>
+  <path d="M 620 430 Q 625 420 635 425 Q 630 435 620 430 M 645 420 Q 650 410 660 415 Q 655 425 645 420 M 670 420 Q 675 410 685 415 Q 680 425 670 420 M 690 430 Q 695 420 705 425 Q 700 435 690 430" fill="none" stroke="#8B008B" stroke-width="2"/>
+  <path d="M 625 445 Q 630 435 640 440 Q 635 450 625 445 M 650 440 Q 655 430 665 435 Q 660 445 650 440 M 675 440 Q 680 430 690 435 Q 685 445 675 440" fill="none" stroke="#8B008B" stroke-width="2"/>
+  <path d="M 630 460 Q 635 450 645 455 Q 640 465 630 460 M 655 455 Q 660 445 670 450 Q 665 460 655 455 M 680 460 Q 685 450 695 455 Q 690 465 680 460" fill="none" stroke="#8B008B" stroke-width="2"/>
+  
+  <!-- Row 3, Cell 1: Exercise Before &amp; During Learning (Light Green) -->
+  <rect x="10" y="510" width="260" height="160" fill="#90EE90"/>
+  <text x="140" y="540" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Exercise Before &amp;</text>
+  <text x="140" y="563" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">During Learning</text>
+  <rect x="75" y="585" width="25" height="50" fill="#A9A9A9" stroke="black" stroke-width="2" rx="3"/>
+  <rect x="85" y="575" width="5" height="10" fill="#696969"/>
+  <rect x="165" y="585" width="25" height="50" fill="#A9A9A9" stroke="black" stroke-width="2" rx="3"/>
+  <rect x="175" y="575" width="5" height="10" fill="#696969"/>
+  <rect x="95" y="605" width="70" height="8" fill="#8B4513" stroke="black" stroke-width="2" rx="2"/>
+  <circle cx="105" cy="609" r="12" fill="#696969" stroke="black" stroke-width="2"/>
+  <circle cx="105" cy="609" r="6" fill="#2F4F4F"/>
+  <circle cx="155" cy="609" r="12" fill="#696969" stroke="black" stroke-width="2"/>
+  <circle cx="155" cy="609" r="6" fill="#2F4F4F"/>
+  
+  <!-- Row 3, Cell 2: Visualize (Pink) -->
+  <rect x="270" y="510" width="260" height="160" fill="#FFB6D9"/>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Visualize</text>
+  <path d="M 350 590 Q 340 585 340 595 L 335 610 Q 333 625 345 628 L 365 630 Q 370 630 370 620 L 370 600 Q 370 590 360 590 Z" fill="none" stroke="black" stroke-width="3"/>
+  <path d="M 450 590 Q 460 585 460 595 L 465 610 Q 467 625 455 628 L 435 630 Q 430 630 430 620 L 430 600 Q 430 590 440 590 Z" fill="none" stroke="black" stroke-width="3"/>
+  <rect x="340" y="585" width="120" height="50" fill="#FF69B4" stroke="black" stroke-width="3" rx="8"/>
+  <ellipse cx="370" cy="608" rx="18" ry="22" fill="#FFB6D9"/>
+  <ellipse cx="430" cy="608" rx="18" ry="22" fill="#FFB6D9"/>
+  <path d="M 385 615 L 415 615" stroke="black" stroke-width="3"/>
+  
+  <!-- Row 3, Cell 3: Make a Song (Blue) -->
+  <rect x="530" y="510" width="260" height="160" fill="#87CEEB"/>
+  <text x="660" y="545" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Make a Song</text>
+  <path d="M 600 615 L 600 585 Q 600 580 605 580 L 615 580 Q 618 580 618 585 Q 618 592 612 595 L 600 600" fill="black" stroke="black" stroke-width="2"/>
+  <ellipse cx="605" cy="620" rx="12" ry="8" fill="#E67E22" stroke="black" stroke-width="2"/>
+  <path d="M 670 605 L 670 585 Q 670 580 675 580 L 685 580 Q 688 580 688 585 Q 688 592 682 595 L 670 600" fill="black" stroke="black" stroke-width="2"/>
+  <ellipse cx="675" cy="620" rx="15" ry="10" fill="#3498DB" stroke="black" stroke-width="2"/>
+  <circle cx="608" cy="575" r="4" fill="black"/>
+  <circle cx="678" cy="575" r="4" fill="black"/>
+  
+  <!-- Credit -->
+  <text x="730" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="end">Clipart by Kate Hadfield</text>
+</svg>

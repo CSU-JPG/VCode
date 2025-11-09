@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background foliage blur -->
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+    <radialGradient id="berryGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A0000;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Blurred background leaves -->
+  <ellipse cx="200" cy="150" rx="120" ry="60" fill="#6B8E23" opacity="0.6" filter="url(#blur)"/>
+  <ellipse cx="400" cy="100" rx="140" ry="70" fill="#7BA428" opacity="0.6" filter="url(#blur)"/>
+  <ellipse cx="600" cy="180" rx="110" ry="65" fill="#6B8E23" opacity="0.6" filter="url(#blur)"/>
+  <ellipse cx="150" cy="400" rx="100" ry="55" fill="#7BA428" opacity="0.6" filter="url(#blur)"/>
+  <ellipse cx="650" cy="450" rx="90" ry="50" fill="#6B8E23" opacity="0.6" filter="url(#blur)"/>
+  
+  <!-- Mid-ground leaves more defined -->
+  <ellipse cx="250" cy="280" rx="80" ry="45" fill="#78A644" opacity="0.8"/>
+  <ellipse cx="550" cy="320" rx="75" ry="42" fill="#82B14E" opacity="0.8"/>
+  
+  <!-- Branch -->
+  <path d="M 150 300 Q 300 280 450 300" stroke="#6B4423" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 150 300 Q 300 280 450 300" stroke="#8B6F47" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Black knot gall - main structure -->
+  <ellipse cx="350" cy="300" rx="85" ry="95" fill="#3B3230"/>
+  
+  <!-- Gall texture and bumps -->
+  <ellipse cx="330" cy="270" rx="40" ry="35" fill="#4A403D"/>
+  <ellipse cx="380" cy="275" rx="35" ry="30" fill="#443A37"/>
+  <ellipse cx="360" cy="310" rx="45" ry="38" fill="#3E3532"/>
+  <ellipse cx="320" cy="320" rx="32" ry="28" fill="#4A403D"/>
+  <ellipse cx="390" cy="315" rx="38" ry="32" fill="#443A37"/>
+  <ellipse cx="340" cy="345" rx="35" ry="30" fill="#3E3532"/>
+  <ellipse cx="375" cy="340" rx="30" ry="25" fill="#4A403D"/>
+  
+  <!-- Highlighted bumps (lighter areas) -->
+  <ellipse cx="345" cy="265" rx="20" ry="18" fill="#6B5F5C" opacity="0.6"/>
+  <ellipse cx="375" cy="280" rx="18" ry="16" fill="#6B5F5C" opacity="0.5"/>
+  <ellipse cx="365" cy="305" rx="22" ry="19" fill="#6B5F5C" opacity="0.6"/>
+  <ellipse cx="335" cy="335" rx="17" ry="15" fill="#6B5F5C" opacity="0.5"/>
+  
+  <!-- Dark crevices and texture -->
+  <ellipse cx="315" cy="285" rx="8" ry="7" fill="#252020"/>
+  <ellipse cx="370" cy="295" rx="6" ry="6" fill="#252020"/>
+  <ellipse cx="345" cy="325" rx="7" ry="6" fill="#252020"/>
+  <ellipse cx="380" cy="330" rx="5" ry="5" fill="#252020"/>
+  
+  <!-- Small spots/texture details -->
+  <circle cx="325" cy="290" r="3" fill="#1A1515"/>
+  <circle cx="360" cy="285" r="2.5" fill="#1A1515"/>
+  <circle cx="350" cy="315" r="3" fill="#1A1515"/>
+  <circle cx="335" cy="305" r="2" fill="#1A1515"/>
+  <circle cx="375" cy="320" r="2.5" fill="#1A1515"/>
+  
+  <!-- Berries in background -->
+  <circle cx="580" cy="420" r="12" fill="url(#berryGrad)"/>
+  <circle cx="605" cy="415" r="11" fill="url(#berryGrad)"/>
+  <circle cx="200" cy="480" r="13" fill="#1A1A1A"/>
+  <circle cx="220" cy="475" r="12" fill="#1A1A1A"/>
+  
+  <!-- Foreground leaf detail -->
+  <ellipse cx="180" cy="520" rx="60" ry="35" fill="#82B14E" opacity="0.9"/>
+  <path d="M 180 485 L 180 555" stroke="#6B8E23" stroke-width="2"/>
+  
+  <!-- Small white flowers blur -->
+  <circle cx="300" cy="450" r="8" fill="#F0F0E8" opacity="0.7" filter="url(#blur)"/>
+  <circle cx="315" cy="455" r="7" fill="#F0F0E8" opacity="0.7" filter="url(#blur)"/>
+  <circle cx="285" cy="460" r="7" fill="#F0F0E8" opacity="0.7" filter="url(#blur)"/>
+</svg>

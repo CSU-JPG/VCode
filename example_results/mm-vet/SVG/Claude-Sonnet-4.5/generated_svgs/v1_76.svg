@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="#e8e4dc"/>
+  
+  <!-- Background buildings -->
+  <rect x="0" y="0" width="1200" height="380" fill="#d4c8b8"/>
+  
+  <!-- Left building -->
+  <rect x="0" y="80" width="280" height="300" fill="#c9baa8"/>
+  <rect x="20" y="120" width="60" height="80" fill="#b5a595"/>
+  <rect x="100" y="120" width="60" height="80" fill="#b5a595"/>
+  <rect x="180" y="120" width="60" height="80" fill="#b5a595"/>
+  
+  <!-- Central Trevi Fountain building -->
+  <rect x="280" y="40" width="640" height="340" fill="#d4c9bb"/>
+  
+  <!-- Central niche -->
+  <ellipse cx="600" cy="180" rx="80" ry="120" fill="#b8ab9d"/>
+  <ellipse cx="600" cy="200" rx="40" ry="60" fill="#a39486"/>
+  
+  <!-- Side niches -->
+  <ellipse cx="420" cy="200" rx="50" ry="80" fill="#bfb3a5"/>
+  <ellipse cx="780" cy="200" rx="50" ry="80" fill="#bfb3a5"/>
+  
+  <!-- Statues (simplified) -->
+  <ellipse cx="420" cy="220" rx="20" ry="40" fill="#e8e4dc"/>
+  <ellipse cx="600" cy="200" rx="25" ry="50" fill="#e8e4dc"/>
+  <ellipse cx="780" cy="220" rx="20" ry="40" fill="#e8e4dc"/>
+  
+  <!-- Decorative dome -->
+  <ellipse cx="720" cy="90" rx="50" ry="45" fill="#c4957a"/>
+  <path d="M 670 90 Q 720 60 770 90" fill="#b08060" stroke="#9a6f50" stroke-width="2"/>
+  
+  <!-- Columns -->
+  <rect x="340" y="180" width="25" height="180" fill="#c9bfb3"/>
+  <rect x="480" y="180" width="25" height="180" fill="#c9bfb3"/>
+  <rect x="695" y="180" width="25" height="180" fill="#c9bfb3"/>
+  <rect x="835" y="180" width="25" height="180" fill="#c9bfb3"/>
+  
+  <!-- Right building -->
+  <rect x="920" y="80" width="280" height="300" fill="#c9baa8"/>
+  <rect x="940" y="120" width="60" height="80" fill="#b5a595"/>
+  <rect x="1020" y="120" width="60" height="80" fill="#b5a595"/>
+  <rect x="1100" y="120" width="60" height="80" fill="#b5a595"/>
+  
+  <!-- Water basin/pool -->
+  <ellipse cx="600" cy="620" rx="580" ry="140" fill="#7fc5c8"/>
+  <ellipse cx="580" cy="610" rx="540" ry="120" fill="#8dd3d6"/>
+  <ellipse cx="600" cy="600" rx="500" ry="100" fill="#a8e4e6"/>
+  
+  <!-- Rocks and fountain base -->
+  <ellipse cx="200" cy="480" rx="120" ry="80" fill="#b8a893"/>
+  <ellipse cx="350" cy="500" rx="140" ry="90" fill="#c4b5a0"/>
+  <ellipse cx="520" cy="490" rx="160" ry="95" fill="#d1c2ad"/>
+  <ellipse cx="680" cy="495" rx="150" ry="90" fill="#c9baab"/>
+  <ellipse cx="850" cy="505" rx="145" ry="88" fill="#bfb0a0"/>
+  <ellipse cx="1000" cy="485" rx="130" ry="85" fill="#b3a490"/>
+  
+  <!-- Rock details and shadows -->
+  <ellipse cx="220" cy="460" rx="80" ry="50" fill="#a89785"/>
+  <ellipse cx="360" cy="475" rx="90" ry="55" fill="#b5a692"/>
+  <ellipse cx="540" cy="465" rx="100" ry="60" fill="#c2b3a0"/>
+  <ellipse cx="690" cy="470" rx="95" ry="58" fill="#baab9d"/>
+  <ellipse cx="860" cy="480" rx="92" ry="56" fill="#b0a18f"/>
+  <ellipse cx="1010" cy="460" rx="85" ry="52" fill="#a5967f"/>
+  
+  <!-- Water highlights on rocks -->
+  <ellipse cx="320" cy="520" rx="60" ry="20" fill="#9ad8da" opacity="0.6"/>
+  <ellipse cx="580" cy="525" rx="70" ry="22" fill="#9ad8da" opacity="0.6"/>
+  <ellipse cx="780" cy="530" rx="65" ry="20" fill="#9ad8da" opacity="0.6"/>
+  
+  <!-- Moss/vegetation on rocks -->
+  <ellipse cx="240" cy="490" rx="40" ry="25" fill="#8a9870" opacity="0.5"/>
+  <ellipse cx="490" cy="510" rx="50" ry="28" fill="#8a9870" opacity="0.5"/>
+  <ellipse cx="720" cy="515" rx="45" ry="26" fill="#8a9870" opacity="0.5"/>
+  <ellipse cx="920" cy="505" rx="42" ry="24" fill="#8a9870" opacity="0.5"/>
+  
+  <!-- Water ripples -->
+  <ellipse cx="300" cy="640" rx="80" ry="15" fill="#6fb8bb" opacity="0.4"/>
+  <ellipse cx="600" cy="660" rx="120" ry="20" fill="#6fb8bb" opacity="0.4"/>
+  <ellipse cx="900" cy="645" rx="90" ry="16" fill="#6fb8bb" opacity="0.4"/>
+</svg>

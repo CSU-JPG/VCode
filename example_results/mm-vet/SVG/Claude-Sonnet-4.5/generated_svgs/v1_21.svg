@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brick pavement background -->
+  <defs>
+    <pattern id="brickPattern" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+      <rect width="40" height="20" fill="#a08060"/>
+      <rect x="0" y="0" width="19" height="9" fill="#8a6e52" stroke="#7a5e42" stroke-width="0.3"/>
+      <rect x="20" y="0" width="19" height="9" fill="#8a6e52" stroke="#7a5e42" stroke-width="0.3"/>
+      <rect x="0" y="10" width="19" height="9" fill="#9a7858" stroke="#7a5e42" stroke-width="0.3"/>
+      <rect x="20" y="10" width="19" height="9" fill="#9a7858" stroke="#7a5e42" stroke-width="0.3"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1400" height="900" fill="url(#brickPattern)"/>
+  
+  <!-- Parking space lines -->
+  <line x1="50" y1="100" x2="200" y2="700" stroke="white" stroke-width="8"/>
+  <line x1="350" y1="100" x2="500" y2="700" stroke="white" stroke-width="8"/>
+  <line x1="650" y1="100" x2="800" y2="700" stroke="white" stroke-width="8"/>
+  <line x1="950" y1="100" x2="1100" y2="700" stroke="white" stroke-width="8"/>
+  
+  <!-- Top line -->
+  <line x1="50" y1="100" x2="1100" y2="100" stroke="white" stroke-width="8"/>
+  
+  <!-- Parking numbers -->
+  <text x="100" y="250" fill="white" font-size="80" font-weight="bold" transform="rotate(-65 100 250)">40</text>
+  <text x="400" y="250" fill="white" font-size="80" font-weight="bold" transform="rotate(-65 400 250)">55</text>
+  <text x="700" y="250" fill="white" font-size="80" font-weight="bold" transform="rotate(-65 700 250)">66</text>
+  <text x="1000" y="250" fill="white" font-size="80" font-weight="bold" transform="rotate(-65 1000 250)">77</text>
+  
+  <!-- Blue car (left) -->
+  <g transform="translate(750, 500)">
+    <ellipse cx="0" cy="0" rx="120" ry="220" fill="#4a5f8f"/>
+    <rect x="-100" y="-180" width="200" height="150" rx="20" fill="#4a5f8f"/>
+    <rect x="-85" y="-150" width="170" height="100" rx="15" fill="#6080b0" opacity="0.7"/>
+    <rect x="-90" y="0" width="180" height="120" rx="25" fill="#3d4f7a"/>
+    <ellipse cx="-60" cy="140" rx="35" ry="35" fill="#2a2a2a"/>
+    <ellipse cx="-60" cy="140" rx="25" ry="25" fill="#3a3a3a"/>
+    <ellipse cx="60" cy="140" rx="35" ry="35" fill="#2a2a2a"/>
+    <ellipse cx="60" cy="140" rx="25" ry="25" fill="#3a3a3a"/>
+    <ellipse cx="-60" cy="-80" rx="35" ry="35" fill="#2a2a2a"/>
+    <ellipse cx="-60" cy="-80" rx="25" ry="25" fill="#3a3a3a"/>
+    <ellipse cx="60" cy="-80" rx="35" ry="35" fill="#2a2a2a"/>
+    <ellipse cx="60" cy="-80" rx="25" ry="25" fill="#3a3a3a"/>
+    <rect x="-15" y="-190" width="30" height="15" fill="#ff4444"/>
+  </g>
+  
+  <!-- Red car (right) -->
+  <g transform="translate(1050, 480)">
+    <ellipse cx="0" cy="0" rx="110" ry="200" fill="#c93030"/>
+    <rect x="-90" y="-160" width="180" height="140" rx="18" fill="#c93030"/>
+    <rect x="-75" y="-140" width="150" height="90" rx="12" fill="#e06060" opacity="0.6"/>
+    <rect x="-85" y="10" width="170" height="110" rx="22" fill="#b02828"/>
+    <ellipse cx="-55" cy="130" rx="32" ry="32" fill="#2a2a2a"/>
+    <ellipse cx="-55" cy="130" rx="22" ry="22" fill="#3a3a3a"/>
+    <ellipse cx="55" cy="130" rx="32" ry="32" fill="#2a2a2a"/>
+    <ellipse cx="55" cy="130" rx="22" ry="22" fill="#3a3a3a"/>
+    <ellipse cx="-55" cy="-70" rx="32" ry="32" fill="#2a2a2a"/>
+    <ellipse cx="-55" cy="-70" rx="22" ry="22" fill="#3a3a3a"/>
+    <ellipse cx="55" cy="-70" rx="32" ry="32" fill="#2a2a2a"/>
+    <ellipse cx="55" cy="-70" rx="22" ry="22" fill="#3a3a3a"/>
+    <rect x="-12" y="-175" width="24" height="12" fill="#ffff66"/>
+    <rect x="-90" y="-20" width="180" height="40" rx="8" fill="#a02020"/>
+  </g>
+  
+  <!-- Shadow under blue car -->
+  <ellipse cx="750" cy="720" rx="100" ry="30" fill="#000000" opacity="0.2"/>
+  
+  <!-- Shadow under red car -->
+  <ellipse cx="1050" cy="700" rx="90" ry="25" fill="#000000" opacity="0.2"/>
+</svg>

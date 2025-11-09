@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5e6d3"/>
+  
+  <!-- Banknote base -->
+  <rect x="50" y="100" width="700" height="400" fill="#ffd9a8" stroke="#d4a574" stroke-width="2"/>
+  
+  <!-- Decorative border patterns -->
+  <rect x="60" y="110" width="680" height="380" fill="none" stroke="#c98a4f" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Ornamental corner designs -->
+  <circle cx="100" cy="150" r="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="700" cy="150" r="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="100" cy="450" r="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="700" cy="450" r="30" fill="none" stroke="#d4a574" stroke-width="2"/>
+  
+  <!-- Portrait oval -->
+  <ellipse cx="550" cy="250" rx="140" ry="170" fill="#e8d4c0" stroke="#8b6f47" stroke-width="3"/>
+  
+  <!-- Portrait features - simplified face -->
+  <ellipse cx="550" cy="220" rx="100" ry="120" fill="#f0dcc8"/>
+  
+  <!-- Hair -->
+  <path d="M 480 180 Q 460 150 480 130 Q 520 110 560 110 Q 600 110 620 130 Q 640 150 620 180 Q 610 200 600 210 Q 580 190 550 185 Q 520 190 500 210 Q 490 200 480 180" fill="#8b6f47"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="520" cy="230" rx="12" ry="8" fill="#5a4a3a"/>
+  <ellipse cx="580" cy="230" rx="12" ry="8" fill="#5a4a3a"/>
+  <ellipse cx="522" cy="228" rx="4" ry="4" fill="#fff"/>
+  <ellipse cx="582" cy="228" rx="4" ry="4" fill="#fff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 505 215 Q 520 210 535 215" fill="none" stroke="#6b5a4a" stroke-width="2"/>
+  <path d="M 565 215 Q 580 210 595 215" fill="none" stroke="#6b5a4a" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <path d="M 550 230 L 550 255 M 545 255 Q 550 258 555 255" fill="none" stroke="#c9a88a" stroke-width="1.5"/>
+  
+  <!-- Smile -->
+  <path d="M 525 275 Q 550 285 575 275" fill="none" stroke="#a88868" stroke-width="2"/>
+  
+  <!-- Pearl earring -->
+  <circle cx="485" cy="250" r="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Clothing/collar -->
+  <path d="M 480 320 Q 500 340 550 345 Q 600 340 620 320" fill="#d4a574" stroke="#b8935f" stroke-width="2"/>
+  
+  <!-- Text "Ten Pounds" -->
+  <text x="200" y="280" font-family="serif" font-size="48" font-style="italic" fill="#8b4513" opacity="0.8">Ten</text>
+  <text x="150" y="350" font-family="cursive" font-size="56" font-style="italic" fill="#8b4513" opacity="0.7">Pounds</text>
+  
+  <!-- Currency symbol -->
+  <text x="100" y="240" font-family="serif" font-size="72" font-weight="bold" fill="#a0522d">£10</text>
+  
+  <!-- Decorative guilloché patterns -->
+  <g opacity="0.3">
+    <circle cx="200" cy="150" r="15" fill="none" stroke="#d4a574" stroke-width="1"/>
+    <circle cx="240" cy="150" r="15" fill="none" stroke="#d4a574" stroke-width="1"/>
+    <circle cx="280" cy="150" r="15" fill="none" stroke="#d4a574" stroke-width="1"/>
+    <circle cx="320" cy="150" r="15" fill="none" stroke="#d4a574" stroke-width="1"/>
+  </g>
+  
+  <!-- Security features - holographic strip representation -->
+  <rect x="380" y="120" width="30" height="360" fill="url(#hologram)" opacity="0.6"/>
+  
+  <!-- Gradient definition for holographic effect -->
+  <defs>
+    <linearGradient id="hologram" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#ff8c00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#ff8c00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bank of England text -->
+  <text x="150" y="180" font-family="serif" font-size="18" fill="#8b4513" opacity="0.6">BANK OF ENGLAND</text>
+  
+  <!-- Serial number -->
+  <text x="100" y="470" font-family="monospace" font-size="16" fill="#8b4513" opacity="0.5">AB12 345678</text>
+  
+  <!-- Decorative rosette pattern -->
+  <g transform="translate(680, 450)">
+    <circle r="25" fill="none" stroke="#d4a574" stroke-width="1.5"/>
+    <path d="M 0,-20 L 0,20 M -20,0 L 20,0 M -14,-14 L 14,14 M -14,14 L 14,-14" stroke="#c98a4f" stroke-width="1"/>
+  </g>
+</svg>

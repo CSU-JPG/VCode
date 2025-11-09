@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#3a4a3d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1f1b;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="faceGrad" cx="40%" cy="35%">
+      <stop offset="0%" style="stop-color:#f4c4a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a580;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="ringGrad" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#daa520;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8860b;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <ellipse cx="400" cy="500" rx="200" ry="80" fill="#2d2520" opacity="0.4"/>
+  
+  <path d="M 350 450 Q 320 480 300 520 Q 290 550 300 580 L 320 580 Q 315 550 325 525 Q 340 490 365 465 Z" fill="#4a3428"/>
+  <path d="M 450 450 Q 480 480 500 520 Q 510 550 500 580 L 480 580 Q 485 550 475 525 Q 460 490 435 465 Z" fill="#4a3428"/>
+  
+  <ellipse cx="390" cy="360" rx="110" ry="140" fill="url(#faceGrad)"/>
+  
+  <path d="M 300 220 Q 280 240 275 265 Q 270 240 260 230 Q 270 210 290 200 Q 310 195 325 200 L 300 220 Z" fill="#3d2817"/>
+  <path d="M 480 220 Q 500 240 505 265 Q 510 240 520 230 Q 510 210 490 200 Q 470 195 455 200 L 480 220 Z" fill="#3d2817"/>
+  
+  <path d="M 250 180 Q 270 160 300 150 Q 330 145 360 150 Q 390 155 410 165 Q 430 155 460 150 Q 490 145 520 150 Q 545 158 560 175 Q 570 200 565 230 Q 560 260 550 285 Q 545 305 530 320 Q 510 200 480 190 Q 450 185 420 195 Q 390 185 360 195 Q 330 185 300 190 Q 270 200 250 320 Q 235 305 230 285 Q 225 260 230 230 Q 235 200 250 180 Z" fill="#3d2817"/>
+  
+  <ellipse cx="360" cy="340" rx="18" ry="22" fill="#1a1f1b"/>
+  <ellipse cx="420" cy="340" rx="18" ry="22" fill="#1a1f1b"/>
+  <ellipse cx="362" cy="336" rx="8" ry="10" fill="#4a7c59"/>
+  <ellipse cx="422" cy="336" rx="8" ry="10" fill="#4a7c59"/>
+  <ellipse cx="365" cy="333" rx="3" ry="4" fill="#ffffff"/>
+  <ellipse cx="425" cy="333" rx="3" ry="4" fill="#ffffff"/>
+  
+  <path d="M 345 315 Q 355 310 365 312" stroke="#8b6f47" stroke-width="3" fill="none"/>
+  <path d="M 405 315 Q 415 310 425 312" stroke="#8b6f47" stroke-width="3" fill="none"/>
+  
+  <ellipse cx="385" cy="370" rx="12" ry="18" fill="#c89b7b"/>
+  
+  <path d="M 370 395 Q 385 405 400 395" stroke="#a67c5c" stroke-width="2.5" fill="none"/>
+  <path d="M 375 410 Q 385 416 395 410" stroke="#d4a580" stroke-width="1.5" fill="none"/>
+  
+  <ellipse cx="345" cy="375" rx="22" ry="15" fill="#e8b89a" opacity="0.4"/>
+  <ellipse cx="425" cy="375" rx="22" ry="15" fill="#e8b89a" opacity="0.4"/>
+  
+  <path d="M 200 280 Q 180 350 190 420 Q 200 470 230 510 L 250 500 Q 225 465 220 420 Q 215 360 230 295 Z" fill="#6b4e3d"/>
+  
+  <ellipse cx="220" cy="240" rx="45" ry="35" fill="url(#ringGrad)"/>
+  <ellipse cx="220" cy="240" rx="35" ry="25" fill="#1a1f1b"/>
+  <ellipse cx="220" cy="240" rx="25" ry="18" fill="url(#ringGrad)"/>
+  <ellipse cx="220" cy="237" rx="15" ry="10" fill="#fffacd" opacity="0.6"/>
+  
+  <path d="M 180 270 Q 190 280 200 285 L 205 275 Q 195 270 187 263 Z" fill="#d4a580"/>
+  <path d="M 195 290 Q 200 295 205 298 L 207 288 Q 202 285 197 283 Z" fill="#d4a580"/>
+  
+  <ellipse cx="200" cy="265" rx="8" ry="6" fill="#c89b7b"/>
+  <ellipse cx="210" cy="275" rx="8" ry="6" fill="#c89b7b"/>
+  <ellipse cx="195" cy="280" rx="7" ry="5" fill="#c89b7b"/>
+  
+  <path d="M 260 250 Q 270 260 275 270 Q 278 275 280 282" stroke="#d4a580" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 265 258 Q 272 265 276 274" stroke="#c89b7b" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>

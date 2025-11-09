@@ -1,0 +1,72 @@
+<svg viewBox="0 0 600 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- START box -->
+  <rect x="80" y="20" width="130" height="50" fill="#1B8FB5"/>
+  <text x="145" y="52" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">START</text>
+  
+  <!-- Arrow down -->
+  <polygon points="145,70 120,100 145,130 145,110 145,110 145,90" fill="#F5A623"/>
+  <rect x="130" y="90" width="30" height="40" fill="#F5A623"/>
+  
+  <!-- Alarm Rings box -->
+  <rect x="80" y="130" width="130" height="80" fill="#E74C3C"/>
+  <text x="145" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Alarm</text>
+  <text x="145" y="195" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">Rings</text>
+  
+  <!-- Arrow down to diamond -->
+  <polygon points="145,210 120,240 145,270 145,250 145,250 145,230" fill="#7F8C8D"/>
+  <rect x="130" y="230" width="30" height="40" fill="#7F8C8D"/>
+  
+  <!-- Ready to get up? diamond -->
+  <polygon points="145,270 80,340 145,410 210,340" fill="#27AE60"/>
+  <text x="145" y="330" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Ready</text>
+  <text x="145" y="355" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">to get up?</text>
+  
+  <!-- NO arrow to Hit Snooze -->
+  <line x1="210" y1="340" x2="260" y2="340" stroke="#7F8C8D" stroke-width="3"/>
+  <polygon points="260,340 250,330 250,350" fill="#7F8C8D"/>
+  <text x="230" y="325" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#E74C3C">NO!</text>
+  
+  <!-- Hit Snooze Button box -->
+  <rect x="310" y="300" width="130" height="80" fill="#E74C3C"/>
+  <text x="375" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Hit</text>
+  <text x="375" y="355" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Snooze</text>
+  <text x="375" y="375" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Button</text>
+  
+  <!-- Average 3 times text -->
+  <text x="465" y="335" font-family="Arial, sans-serif" font-size="18" fill="#333">Average</text>
+  <text x="465" y="360" font-family="Arial, sans-serif" font-size="18" fill="#333">3 times</text>
+  
+  <!-- Arrow up to Delay -->
+  <line x1="375" y1="300" x2="375" y2="220" stroke="#7F8C8D" stroke-width="3"/>
+  <polygon points="375,220 365,230 385,230" fill="#7F8C8D"/>
+  
+  <!-- Delay shape -->
+  <path d="M 310 160 L 360 160 Q 420 160 420 190 Q 420 220 360 220 L 310 220 Z" fill="#E8A23A"/>
+  <text x="360" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Delay</text>
+  
+  <!-- Set for 5 minutes text -->
+  <text x="450" y="180" font-family="Arial, sans-serif" font-size="18" fill="#333">Set for 5</text>
+  <text x="450" y="205" font-family="Arial, sans-serif" font-size="18" fill="#333">minutes</text>
+  
+  <!-- Arrow from Delay to Alarm Rings -->
+  <line x1="310" y1="170" x2="210" y2="170" stroke="#7F8C8D" stroke-width="3"/>
+  <polygon points="210,170 220,160 220,180" fill="#7F8C8D"/>
+  
+  <!-- YES arrow down from diamond -->
+  <line x1="145" y1="410" x2="145" y2="460" stroke="#7F8C8D" stroke-width="3"/>
+  <polygon points="145,460 135,450 155,450" fill="#7F8C8D"/>
+  <text x="120" y="440" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#27AE60">YES</text>
+  
+  <!-- Climb Out of Bed box -->
+  <rect x="80" y="480" width="130" height="80" fill="#E74C3C"/>
+  <text x="145" y="510" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Climb Out</text>
+  <text x="145" y="535" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">of Bed</text>
+  
+  <!-- Arrow down to END -->
+  <polygon points="145,560 120,590 145,620 145,600 145,600 145,580" fill="#F5A623"/>
+  <rect x="130" y="580" width="30" height="40" fill="#F5A623"/>
+  
+  <!-- END box -->
+  <rect x="80" y="640" width="130" height="50" fill="#1B8FB5"/>
+  <text x="145" y="672" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">END</text>
+</svg>

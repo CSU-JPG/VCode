@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark blue background -->
+  <rect width="800" height="600" fill="#0a0f2c"/>
+  
+  <!-- Upper body/torso in white jacket -->
+  <ellipse cx="400" cy="450" rx="180" ry="150" fill="#e8e8e8"/>
+  
+  <!-- Neck -->
+  <rect x="375" y="320" width="50" height="60" fill="#d4a574"/>
+  
+  <!-- Head -->
+  <ellipse cx="400" cy="280" rx="70" ry="85" fill="#d4a574"/>
+  
+  <!-- Hair - dark -->
+  <ellipse cx="380" cy="220" rx="75" ry="50" fill="#1a1a1a"/>
+  <path d="M 325 240 Q 320 260 330 280 L 340 270 Q 335 250 340 235 Z" fill="#1a1a1a"/>
+  <path d="M 340 230 Q 350 210 370 200 Q 390 195 410 200 Q 430 210 450 225 L 455 235 Q 435 215 410 210 Q 385 210 360 230 Z" fill="#1a1a1a"/>
+  
+  <!-- Ear -->
+  <ellipse cx="330" cy="280" rx="12" ry="20" fill="#c49668"/>
+  
+  <!-- Facial features - eye closed -->
+  <path d="M 365 270 Q 380 265 395 270" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Eyebrow -->
+  <path d="M 360 255 Q 380 250 400 252" stroke="#2a2a2a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 395 280 L 395 300 Q 395 305 400 305" stroke="#b8815a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Mouth/lips -->
+  <path d="M 385 320 Q 395 325 405 320" stroke="#a86b4a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Facial hair/stubble shadow -->
+  <ellipse cx="395" cy="310" rx="35" ry="25" fill="#3a3a3a" opacity="0.15"/>
+  
+  <!-- Trophy - main cup body -->
+  <ellipse cx="520" cy="300" rx="90" ry="85" fill="#c0d5e8"/>
+  <ellipse cx="520" cy="295" rx="85" ry="80" fill="#d4e5f5"/>
+  
+  <!-- Trophy decorative elements -->
+  <path d="M 450 280 Q 440 260 450 240 Q 460 250 455 270 Z" fill="#a8c5dc" opacity="0.7"/>
+  <path d="M 590 280 Q 600 260 590 240 Q 580 250 585 270 Z" fill="#a8c5dc" opacity="0.7"/>
+  
+  <!-- Trophy ornate patterns -->
+  <ellipse cx="520" cy="270" rx="40" ry="30" fill="#b8d2e6" opacity="0.5"/>
+  <circle cx="490" cy="290" r="12" fill="#9eb8cc" opacity="0.6"/>
+  <circle cx="550" cy="290" r="12" fill="#9eb8cc" opacity="0.6"/>
+  <circle cx="520" cy="310" r="15" fill="#9eb8cc" opacity="0.6"/>
+  
+  <!-- Trophy handle left -->
+  <path d="M 430 290 Q 410 280 410 260 Q 410 240 430 235 L 435 240 Q 420 245 420 260 Q 420 280 435 287 Z" fill="#a8c5dc"/>
+  
+  <!-- Trophy handle right - partially visible -->
+  <path d="M 610 290 Q 625 285 630 270 L 628 268 Q 622 280 612 287 Z" fill="#a8c5dc"/>
+  
+  <!-- Trophy base -->
+  <rect x="495" y="375" width="50" height="15" fill="#8ba8bc"/>
+  <rect x="485" y="390" width="70" height="8" fill="#7a98ac"/>
+  
+  <!-- Trophy stem -->
+  <rect x="510" y="360" width="20" height="20" fill="#9eb8cc"/>
+  
+  <!-- Blue ribbon on trophy -->
+  <path d="M 540 320 Q 550 340 545 360 L 540 358 Q 543 340 535 325 Z" fill="#2a5a9c"/>
+  <path d="M 550 325 Q 560 345 555 365 L 550 363 Q 553 345 545 330 Z" fill="#3a6aac"/>
+  
+  <!-- Hand holding trophy -->
+  <ellipse cx="480" cy="350" rx="35" ry="25" fill="#c49668" transform="rotate(-20 480 350)"/>
+  <rect x="460" y="340" width="45" height="30" fill="#c49668" transform="rotate(-15 480 355)"/>
+  
+  <!-- Fingers -->
+  <ellipse cx="455" cy="335" rx="8" ry="18" fill="#b8815a" transform="rotate(-30 455 335)"/>
+  <ellipse cx="470" cy="330" rx="8" ry="20" fill="#b8815a" transform="rotate(-20 470 330)"/>
+  
+  <!-- Jacket collar -->
+  <path d="M 350 380 L 370 350 L 380 360 L 365 390 Z" fill="#f5f5f5"/>
+  <path d="M 450 380 L 430 350 L 420 360 L 435 390 Z" fill="#f5f5f5"/>
+  
+  <!-- Jacket zipper area -->
+  <rect x="395" y="380" width="10" height="100" fill="#d4d4d4"/>
+  <line x1="400" y1="385" x2="400" y2="470" stroke="#e84545" stroke-width="3"/>
+  
+  <!-- Small emblem on jacket (22) -->
+  <circle cx="340" cy="460" r="20" fill="#2d5c2d" opacity="0.7"/>
+  <text x="340" y="470" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#d4af37" text-anchor="middle">22</text>
+  
+  <!-- Shadow under trophy -->
+  <ellipse cx="520" cy="390" rx="70" ry="15" fill="#000000" opacity="0.2"/>
+</svg>

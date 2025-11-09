@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="800" height="800" fill="#2a2a2a"/>
+  
+  <!-- Frame border -->
+  <rect x="20" y="20" width="760" height="760" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+  <rect x="35" y="35" width="730" height="730" fill="none" stroke="#3a3a3a" stroke-width="4"/>
+  
+  <!-- Chalkboard background -->
+  <rect x="60" y="60" width="680" height="680" fill="#3d3d3d"/>
+  
+  <!-- Top holly decoration -->
+  <g transform="translate(400, 120)">
+    <ellipse cx="0" cy="0" rx="15" ry="12" fill="#4a7c4e" transform="rotate(-20)"/>
+    <ellipse cx="18" cy="-5" rx="15" ry="12" fill="#5a8c5e" transform="rotate(20)"/>
+    <ellipse cx="-18" cy="-5" rx="15" ry="12" fill="#5a8c5e" transform="rotate(-20)"/>
+    <circle cx="0" cy="0" r="5" fill="#c84040"/>
+    <circle cx="8" cy="-3" r="4" fill="#d85050"/>
+    <circle cx="-8" cy="-3" r="4" fill="#d85050"/>
+  </g>
+  
+  <!-- Decorative curls top left -->
+  <path d="M 120 200 Q 100 220 120 240" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  <path d="M 120 240 Q 140 260 120 280" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- Decorative curls top right -->
+  <path d="M 680 200 Q 700 220 680 240" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  <path d="M 680 240 Q 660 260 680 280" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- Left branch decoration -->
+  <g transform="translate(150, 420)">
+    <line x1="0" y1="0" x2="-20" y2="-25" stroke="#5a8c5e" stroke-width="3"/>
+    <line x1="0" y1="0" x2="-15" y2="-35" stroke="#5a8c5e" stroke-width="2.5"/>
+    <circle cx="-22" cy="-28" r="4" fill="#c84040"/>
+    <circle cx="-18" cy="-38" r="3.5" fill="#d85050"/>
+  </g>
+  
+  <!-- Text: HAVE -->
+  <text x="400" y="210" font-family="serif" font-size="72" fill="#d4c4a8" text-anchor="middle" font-weight="300" letter-spacing="8">HAVE</text>
+  
+  <!-- Text: yourself -->
+  <text x="400" y="290" font-family="cursive" font-size="68" fill="#e8d4bc" text-anchor="middle" font-style="italic">yourself</text>
+  
+  <!-- Text: A with decorative swirls -->
+  <path d="M 340 310 Q 330 330 340 350" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  <text x="400" y="360" font-family="serif" font-size="48" fill="#d4c4a8" text-anchor="middle" font-weight="300">A</text>
+  <path d="M 460 310 Q 470 330 460 350" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- Text: MERRY -->
+  <text x="400" y="460" font-family="serif" font-size="90" fill="#d4c4a8" text-anchor="middle" font-weight="300" letter-spacing="6">MERRY</text>
+  
+  <!-- Text: LITTLE -->
+  <text x="400" y="530" font-family="sans-serif" font-size="52" fill="#d4c4a8" text-anchor="middle" font-weight="bold" letter-spacing="4">LITTLE</text>
+  
+  <!-- Text: Christmas -->
+  <text x="400" y="620" font-family="cursive" font-size="72" fill="#e8d4bc" text-anchor="middle" font-style="italic">Christmas</text>
+  
+  <!-- Right holly decoration -->
+  <g transform="translate(620, 590)">
+    <ellipse cx="0" cy="0" rx="14" ry="11" fill="#4a7c4e" transform="rotate(25)"/>
+    <ellipse cx="16" cy="-8" rx="14" ry="11" fill="#5a8c5e" transform="rotate(-15)"/>
+    <ellipse cx="-12" cy="8" rx="13" ry="10" fill="#5a8c5e" transform="rotate(35)"/>
+    <circle cx="0" cy="0" r="4.5" fill="#c84040"/>
+    <circle cx="7" cy="-5" r="4" fill="#d85050"/>
+    <circle cx="-6" cy="5" r="3.5" fill="#d85050"/>
+  </g>
+  
+  <!-- Bottom left curl -->
+  <path d="M 120 620 Q 100 640 120 660" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- Bottom right curl -->
+  <path d="M 680 620 Q 700 640 680 660" fill="none" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- Additional decorative elements -->
+  <circle cx="165" cy="305" r="2" fill="#d4c4a8"/>
+  <circle cx="635" cy="305" r="2" fill="#d4c4a8"/>
+  <circle cx="165" cy="575" r="2" fill="#d4c4a8"/>
+  <circle cx="635" cy="575" r="2" fill="#d4c4a8"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Floor/Rug -->
+  <rect x="0" y="300" width="800" height="300" fill="#8B7355"/>
+  <ellipse cx="400" cy="450" rx="280" ry="120" fill="#D4C5B0" opacity="0.6"/>
+  <ellipse cx="400" cy="450" rx="220" ry="90" fill="#E8DCC8" opacity="0.5"/>
+  
+  <!-- Decorative rug pattern -->
+  <circle cx="350" cy="520" r="8" fill="#C9A86A" opacity="0.4"/>
+  <circle cx="450" cy="510" r="8" fill="#C9A86A" opacity="0.4"/>
+  <circle cx="380" cy="480" r="6" fill="#B8986A" opacity="0.4"/>
+  <circle cx="420" cy="490" r="6" fill="#B8986A" opacity="0.4"/>
+  
+  <!-- Wall -->
+  <rect x="0" y="0" width="800" height="300" fill="#E8DDD0"/>
+  
+  <!-- Furniture shadows -->
+  <rect x="550" y="180" width="180" height="420" fill="#5D4E37" opacity="0.3"/>
+  <rect x="50" y="50" width="100" height="200" fill="#6B5D45" opacity="0.3"/>
+  
+  <!-- Yellow/Orange Cat (sitting, facing away) -->
+  <ellipse cx="520" cy="400" rx="50" ry="65" fill="#D2691E"/>
+  <ellipse cx="520" cy="340" rx="40" ry="45" fill="#D2691E"/>
+  <!-- Cat ears -->
+  <polygon points="500,315 490,295 510,310" fill="#D2691E"/>
+  <polygon points="540,315 550,295 530,310" fill="#D2691E"/>
+  <!-- Cat tail -->
+  <path d="M 565 400 Q 600 390 610 420" stroke="#D2691E" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Cat stripes -->
+  <ellipse cx="525" cy="350" rx="8" ry="15" fill="#B8651E" opacity="0.5"/>
+  <ellipse cx="520" cy="380" rx="10" ry="18" fill="#B8651E" opacity="0.5"/>
+  
+  <!-- Tan/Beige Dog (sitting/standing position) -->
+  <ellipse cx="320" cy="430" rx="35" ry="50" fill="#D2B48C"/>
+  <ellipse cx="320" cy="380" rx="28" ry="32" fill="#D2B48C"/>
+  <!-- Dog head raised up -->
+  <ellipse cx="315" cy="350" rx="25" ry="28" fill="#D2B48C"/>
+  <!-- Dog ears -->
+  <ellipse cx="300" cy="340" rx="12" ry="20" fill="#C4A876"/>
+  <ellipse cx="330" cy="340" rx="12" ry="20" fill="#C4A876"/>
+  <!-- Dog snout -->
+  <ellipse cx="315" cy="360" rx="12" ry="10" fill="#C9A86A"/>
+  <!-- Dog tail (wagging up) -->
+  <path d="M 285 430 Q 265 410 270 385" stroke="#D2B48C" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Dog legs -->
+  <rect x="305" y="460" width="12" height="35" rx="6" fill="#D2B48C"/>
+  <rect x="330" y="465" width="12" height="30" rx="6" fill="#D2B48C"/>
+  
+  <!-- Furniture piece on right (dark wood) -->
+  <rect x="560" y="200" width="160" height="400" fill="#4A3C28"/>
+  <rect x="570" y="210" width="140" height="15" fill="#5D4E37"/>
+  
+  <!-- Furniture piece on left (yellow/gold stand) -->
+  <rect x="60" y="140" width="15" height="120" fill="#DAA520"/>
+  <rect x="115" y="140" width="15" height="120" fill="#DAA520"/>
+  <rect x="52" y="125" width="85" height="20" fill="#DAA520"/>
+  
+  <!-- Mirror/Picture frame on wall -->
+  <rect x="250" y="80" width="180" height="140" fill="#8B7355" opacity="0.4"/>
+  <rect x="260" y="90" width="160" height="120" fill="#B8A88E" opacity="0.3"/>
+</svg>

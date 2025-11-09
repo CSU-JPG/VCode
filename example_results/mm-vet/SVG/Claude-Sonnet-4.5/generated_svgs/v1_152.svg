@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Top text -->
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#000">
+    Professor: "Good morni..."
+  </text>
+  
+  <!-- Middle text -->
+  <text x="40" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#000">
+    Freshmen:
+  </text>
+  
+  <!-- Meme image representation box -->
+  <rect x="40" y="180" width="560" height="320" fill="#1a1a2e" stroke="#333" stroke-width="2"/>
+  
+  <!-- SpongeBob character representation (left) -->
+  <rect x="80" y="220" width="80" height="100" fill="#f9d71c" rx="5"/>
+  <circle cx="100" cy="240" r="12" fill="#fff"/>
+  <circle cx="102" cy="242" r="6" fill="#000"/>
+  <circle cx="160" cy="240" r="12" fill="#fff"/>
+  <circle cx="162" cy="242" r="6" fill="#000"/>
+  <rect x="105" y="270" width="30" height="20" fill="#fff" rx="3"/>
+  <line x1="110" y1="275" x2="110" y2="285" stroke="#000" stroke-width="2"/>
+  <line x1="120" y1="275" x2="120" y2="285" stroke="#000" stroke-width="2"/>
+  <line x1="130" y1="275" x2="130" y2="285" stroke="#000" stroke-width="2"/>
+  
+  <!-- Patrick character representation (right) -->
+  <path d="M 380 220 L 420 260 L 460 220 L 440 320 L 400 320 Z" fill="#f4a2a2"/>
+  <circle cx="410" cy="260" r="8" fill="#fff"/>
+  <circle cx="411" cy="261" r="4" fill="#000"/>
+  <circle cx="430" cy="260" r="8" fill="#fff"/>
+  <circle cx="431" cy="261" r="4" fill="#000"/>
+  <line x1="415" y1="280" x2="425" y2="280" stroke="#000" stroke-width="2"/>
+  
+  <!-- Campfire representation -->
+  <path d="M 280 350 L 270 380 L 290 380 Z" fill="#d2691e"/>
+  <path d="M 260 360 L 250 390 L 270 390 Z" fill="#8b4513"/>
+  <path d="M 300 360 L 310 390 L 290 390 Z" fill="#8b4513"/>
+  <path d="M 280 330 L 270 350 L 290 350 Z" fill="#ff6b00"/>
+  <path d="M 280 310 L 275 330 L 285 330 Z" fill="#ffa500"/>
+  
+  <!-- Text overlay on image (white text with shadow) -->
+  <text x="300" y="440" font-family="Impact, sans-serif" font-size="40" font-weight="bold" fill="#000" text-anchor="middle" opacity="0.8">
+    Write that down,
+  </text>
+  <text x="300" y="440" font-family="Impact, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">
+    Write that down,
+  </text>
+  
+  <text x="300" y="480" font-family="Impact, sans-serif" font-size="40" font-weight="bold" fill="#000" text-anchor="middle" opacity="0.8">
+    write that down!
+  </text>
+  <text x="300" y="480" font-family="Impact, sans-serif" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">
+    write that down!
+  </text>
+</svg>

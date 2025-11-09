@@ -30,8 +30,10 @@
 ```bash
 git clone -b main --single-branch https://github.com/CSU-JPG/VCode.git
 cd VCode
-conda env create -f environment.yaml
+conda create -n vcode python=3.10.2 -y
 conda activate vcode
+conda install pytorch=2.5.1 torchvision=0.20.1 torchaudio=2.5.1 pytorch-cuda=12.4 -c pytorch -c nvidia
+pip install -r requirements.txt
 ```
 
 ---

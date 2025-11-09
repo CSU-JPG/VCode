@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wooden surface -->
+  <rect width="800" height="600" fill="#8B7355"/>
+  <path d="M0 0 Q 200 20 400 10 T 800 15 L 800 200 Q 600 190 400 195 T 0 200 Z" fill="#A0826D" opacity="0.3"/>
+  <path d="M0 300 Q 200 310 400 305 T 800 310 L 800 400 Q 600 390 400 395 T 0 400 Z" fill="#6B5344" opacity="0.2"/>
+  
+  <!-- Top left blue/paper element -->
+  <path d="M 50 50 L 200 50 L 180 180 L 70 200 Z" fill="#4A7BA7" opacity="0.7"/>
+  
+  <!-- Main plate (ceramic/pink) -->
+  <ellipse cx="420" cy="340" rx="240" ry="220" fill="#B8838B"/>
+  <ellipse cx="420" cy="340" rx="230" ry="210" fill="#C4949C"/>
+  
+  <!-- Plate inner rim shadow -->
+  <ellipse cx="420" cy="340" rx="200" ry="180" fill="#A67880"/>
+  
+  <!-- Food remnants on plate -->
+  <ellipse cx="420" cy="330" rx="180" ry="160" fill="#8B4A5F"/>
+  <ellipse cx="380" cy="310" rx="140" ry="120" fill="#954D66" opacity="0.8"/>
+  <ellipse cx="450" cy="340" rx="120" ry="100" fill="#7A3D52" opacity="0.6"/>
+  
+  <!-- Food texture/specks -->
+  <circle cx="380" cy="300" r="3" fill="#6B3244"/>
+  <circle cx="420" cy="330" r="2" fill="#6B3244"/>
+  <circle cx="460" cy="350" r="2.5" fill="#6B3244"/>
+  <circle cx="400" cy="360" r="2" fill="#6B3244"/>
+  <circle cx="440" cy="310" r="2" fill="#6B3244"/>
+  <circle cx="410" cy="380" r="2.5" fill="#6B3244"/>
+  <circle cx="470" cy="320" r="2" fill="#6B3244"/>
+  <circle cx="390" cy="340" r="3" fill="#5A2838"/>
+  
+  <!-- Sauce/food smears -->
+  <path d="M 350 320 Q 360 315 370 320 Q 380 325 370 330 Q 360 335 350 330 Z" fill="#7A3D52" opacity="0.7"/>
+  <path d="M 480 350 Q 490 345 500 350 Q 510 355 500 360 Q 490 365 480 360 Z" fill="#6B3244" opacity="0.6"/>
+  
+  <!-- Fork -->
+  <g transform="translate(520, 280) rotate(25)">
+    <!-- Fork handle -->
+    <rect x="0" y="0" width="8" height="140" fill="#C0C0C0" rx="2"/>
+    <rect x="1" y="0" width="6" height="140" fill="#D8D8D8" rx="1"/>
+    
+    <!-- Fork tines -->
+    <rect x="-8" y="135" width="4" height="50" fill="#C0C0C0" rx="1"/>
+    <rect x="-1" y="135" width="4" height="50" fill="#C0C0C0" rx="1"/>
+    <rect x="6" y="135" width="4" height="50" fill="#C0C0C0" rx="1"/>
+    <rect x="13" y="135" width="4" height="50" fill="#C0C0C0" rx="1"/>
+    
+    <!-- Fork highlights -->
+    <rect x="1" y="2" width="2" height="130" fill="#EFEFEF" opacity="0.6"/>
+    <rect x="-7" y="137" width="1.5" height="45" fill="#E8E8E8" opacity="0.5"/>
+    <rect x="0" y="137" width="1.5" height="45" fill="#E8E8E8" opacity="0.5"/>
+    <rect x="7" y="137" width="1.5" height="45" fill="#E8E8E8" opacity="0.5"/>
+    <rect x="14" y="137" width="1.5" height="45" fill="#E8E8E8" opacity="0.5"/>
+  </g>
+  
+  <!-- Plate rim highlight -->
+  <ellipse cx="410" cy="310" rx="180" ry="40" fill="white" opacity="0.15"/>
+  
+  <!-- Additional food residue details -->
+  <path d="M 360 380 Q 370 375 380 380 L 370 390 Z" fill="#6B3244" opacity="0.5"/>
+  <path d="M 460 370 Q 470 365 480 370 L 470 380 Z" fill="#7A3D52" opacity="0.5"/>
+</svg>

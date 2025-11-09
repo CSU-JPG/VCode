@@ -1,0 +1,83 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Book shadow -->
+  <ellipse cx="400" cy="980" rx="280" ry="20" fill="#000" opacity="0.15"/>
+  
+  <!-- Book cover -->
+  <rect x="220" y="75" width="560" height="850" fill="#1BA0D8" rx="10"/>
+  
+  <!-- Book spine -->
+  <rect x="220" y="75" width="30" height="850" fill="#1890C8" rx="10"/>
+  
+  <!-- Title -->
+  <text x="500" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFF" text-anchor="middle">HISTOIRE</text>
+  <text x="500" y="240" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFF" text-anchor="middle">DE FRANCE</text>
+  
+  <!-- Subtitle -->
+  <text x="500" y="290" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#FFE55C" text-anchor="middle">De la Préhistoire à nos jours</text>
+  
+  <!-- Cloud base -->
+  <ellipse cx="500" cy="600" rx="200" ry="80" fill="#D8D8D8" opacity="0.6"/>
+  
+  <!-- Viking character (left back) -->
+  <circle cx="350" cy="560" r="35" fill="#F5C6A5"/>
+  <rect x="330" y="590" width="40" height="60" fill="#8B7355" rx="5"/>
+  <polygon points="330,565 350,540 370,565" fill="#B8B8B8"/>
+  <circle cx="340" cy="555" r="4" fill="#000"/>
+  <circle cx="360" cy="555" r="4" fill="#000"/>
+  <rect x="355" y="540" width="30" height="15" fill="#E8C547"/>
+  <rect x="360" y="535" width="20" height="8" fill="#E8C547"/>
+  
+  <!-- Joan of Arc character (right back) -->
+  <circle cx="650" cy="560" r="32" fill="#F5C6A5"/>
+  <rect x="633" y="587" width="34" height="55" fill="#2845A8" rx="5"/>
+  <path d="M 633 587 Q 650 595 667 587" fill="#FFD700"/>
+  <polygon points="650,535 640,560 660,560" fill="#8B4513"/>
+  <circle cx="642" cy="555" r="4" fill="#000"/>
+  <circle cx="658" cy="555" r="4" fill="#000"/>
+  <rect x="665" y="600" width="6" height="45" fill="#E8C547"/>
+  
+  <!-- Napoleon character (center) -->
+  <circle cx="480" cy="480" r="45" fill="#F5C6A5"/>
+  <rect x="455" y="520" width="50" height="75" fill="#1C3A7A" rx="5"/>
+  <polygon points="450,490 480,460 510,490" fill="#000"/>
+  <rect x="485" y="465" width="15" height="8" fill="#FFD700"/>
+  <circle cx="468" cy="478" r="5" fill="#000"/>
+  <circle cx="492" cy="478" r="5" fill="#000"/>
+  <path d="M 468 495 Q 480 500 492 495" stroke="#000" stroke-width="2" fill="none"/>
+  <rect x="455" y="520" width="50" height="20" fill="#FFF"/>
+  <circle cx="470" cy="545" r="8" fill="#FFD700"/>
+  <circle cx="490" cy="545" r="8" fill="#FFD700"/>
+  <rect x="505" y="535" width="8" height="35" fill="#FFD700" rx="4"/>
+  
+  <!-- Marianne character (right front) -->
+  <circle cx="570" cy="510" r="38" fill="#F5C6A5"/>
+  <rect x="548" y="543" width="44" height="65" fill="#DC143C" rx="5"/>
+  <polygon points="548,558 570,543 592,558" fill="#1C3A7A"/>
+  <polygon points="570,485 560,510 580,510" fill="#8B4513"/>
+  <circle cx="560" cy="505" r="4" fill="#000"/>
+  <circle cx="580" cy="505" r="4" fill="#000"/>
+  <path d="M 560 520 Q 570 523 580 520" stroke="#000" stroke-width="2" fill="none"/>
+  <rect x="545" y="480" width="10" height="35" fill="#1C3A7A"/>
+  <rect x="548" y="478" width="8" height="12" fill="#FFF"/>
+  <rect x="548" y="490" width="8" height="12" fill="#DC143C"/>
+  
+  <!-- King character (left front) -->
+  <circle cx="420" cy="520" r="40" fill="#F5C6A5"/>
+  <rect x="398" y="555" width="44" height="68" fill="#6B3FA0" rx="5"/>
+  <ellipse cx="420" cy="555" rx="30" ry="12" fill="#FFD700"/>
+  <circle cx="408" cy="515" r="4" fill="#000"/>
+  <circle cx="432" cy="515" r="4" fill="#000"/>
+  <path d="M 408 532 Q 420 536 432 532" stroke="#000" stroke-width="2" fill="none"/>
+  <polygon points="405,495 420,485 435,495 432,510 408,510" fill="#FFD700"/>
+  <rect x="418" y="483" width="4" height="8" fill="#DC143C"/>
+  <circle cx="420" cy="481" r="3" fill="#DC143C"/>
+  <polygon points="398,555 420,570 442,555" fill="#DC143C"/>
+  
+  <!-- Logo circle -->
+  <circle cx="500" cy="880" r="35" fill="#FFF"/>
+  <circle cx="500" cy="880" r="30" fill="none" stroke="#1BA0D8" stroke-width="3"/>
+  <text x="500" y="895" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#1BA0D8" text-anchor="middle">Q</text>
+  
+  <!-- Logo text -->
+  <text x="500" y="920" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">Quelle Histoire</text>
+</svg>

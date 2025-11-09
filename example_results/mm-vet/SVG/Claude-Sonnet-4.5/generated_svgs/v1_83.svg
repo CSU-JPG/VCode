@@ -1,0 +1,103 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#1a1a1a"/>
+  
+  <!-- Vignette effect -->
+  <defs>
+    <radialGradient id="vignette">
+      <stop offset="0%" stop-color="#2a2a2a" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="2"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  
+  <!-- Shoulder bones -->
+  <path d="M 150 150 Q 200 120 280 140 Q 320 150 350 180" fill="none" stroke="#888" stroke-width="18" opacity="0.6"/>
+  <path d="M 874 150 Q 824 120 744 140 Q 704 150 674 180" fill="none" stroke="#888" stroke-width="18" opacity="0.6"/>
+  
+  <!-- Rib cage outline - left side -->
+  <ellipse cx="380" cy="400" rx="110" ry="280" fill="none" stroke="#999" stroke-width="3" opacity="0.5"/>
+  <path d="M 380 200 Q 340 300 340 400 Q 340 500 360 600" fill="none" stroke="#999" stroke-width="2.5" opacity="0.4"/>
+  
+  <!-- Rib cage outline - right side -->
+  <ellipse cx="644" cy="400" rx="110" ry="280" fill="none" stroke="#999" stroke-width="3" opacity="0.5"/>
+  <path d="M 644 200 Q 684 300 684 400 Q 684 500 664 600" fill="none" stroke="#999" stroke-width="2.5" opacity="0.4"/>
+  
+  <!-- Ribs - left lung area -->
+  <g opacity="0.4">
+    <path d="M 390 220 Q 350 250 330 300" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 395 260 Q 355 290 335 340" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 400 300 Q 360 330 340 380" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 405 340 Q 365 370 345 420" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 410 380 Q 370 410 350 460" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 415 420 Q 375 450 355 500" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 420 460 Q 380 490 360 540" fill="none" stroke="#aaa" stroke-width="2"/>
+  </g>
+  
+  <!-- Ribs - right lung area -->
+  <g opacity="0.4">
+    <path d="M 634 220 Q 674 250 694 300" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 629 260 Q 669 290 689 340" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 624 300 Q 664 330 684 380" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 619 340 Q 659 370 679 420" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 614 380 Q 654 410 674 460" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 609 420 Q 649 450 669 500" fill="none" stroke="#aaa" stroke-width="2"/>
+    <path d="M 604 460 Q 644 490 664 540" fill="none" stroke="#aaa" stroke-width="2"/>
+  </g>
+  
+  <!-- Spine shadow -->
+  <rect x="492" y="150" width="40" height="650" fill="#d0d0d0" opacity="0.7"/>
+  <rect x="500" y="150" width="24" height="650" fill="#e8e8e8" opacity="0.6"/>
+  
+  <!-- Left lung -->
+  <ellipse cx="390" cy="420" rx="105" ry="200" fill="#3a3a3a" opacity="0.75"/>
+  <ellipse cx="390" cy="420" rx="95" ry="190" fill="#4a4a4a" opacity="0.7"/>
+  
+  <!-- Right lung -->
+  <ellipse cx="634" cy="420" rx="105" ry="200" fill="#3a3a3a" opacity="0.75"/>
+  <ellipse cx="634" cy="420" rx="95" ry="190" fill="#4a4a4a" opacity="0.7"/>
+  
+  <!-- Lung texture patterns -->
+  <g opacity="0.3" filter="url(#blur)">
+    <path d="M 340 350 Q 360 380 340 410 Q 320 440 340 470" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path d="M 360 330 Q 380 360 360 390 Q 340 420 360 450" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path d="M 380 310 Q 400 340 380 370 Q 360 400 380 430" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path d="M 684 350 Q 664 380 684 410 Q 704 440 684 470" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path d="M 664 330 Q 644 360 664 390 Q 684 420 664 450" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path d="M 644 310 Q 624 340 644 370 Q 664 400 644 430" fill="none" stroke="#666" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Heart shadow -->
+  <ellipse cx="480" cy="480" rx="70" ry="85" fill="#d8d8d8" opacity="0.6"/>
+  <path d="M 450 430 Q 480 410 510 430 Q 530 450 520 490 Q 510 530 480 560 Q 450 530 440 490 Q 430 450 450 430" fill="#e8e8e8" opacity="0.5"/>
+  
+  <!-- Diaphragm -->
+  <path d="M 300 680 Q 400 750 512 740 Q 624 750 724 680" fill="none" stroke="#999" stroke-width="3" opacity="0.4"/>
+  
+  <!-- Foreign object marker (dotted outline in left lung) -->
+  <g opacity="0.7">
+    <circle cx="360" cy="340" r="3" fill="#fff"/>
+    <circle cx="368" cy="355" r="3" fill="#fff"/>
+    <circle cx="355" cy="365" r="3" fill="#fff"/>
+    <circle cx="345" cy="350" r="3" fill="#fff"/>
+    <circle cx="350" cy="335" r="3" fill="#fff"/>
+  </g>
+  
+  <!-- Marker text -->
+  <text x="890" y="140" font-family="Arial, sans-serif" font-size="48" fill="#fff" font-weight="bold">HB</text>
+  <text x="890" y="190" font-family="Arial, sans-serif" font-size="36" fill="#fff">r</text>
+  
+  <!-- Vignette overlay -->
+  <rect width="1024" height="1024" fill="url(#vignette)" opacity="0.9"/>
+</svg>

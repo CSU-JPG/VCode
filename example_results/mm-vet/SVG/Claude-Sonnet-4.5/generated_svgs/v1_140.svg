@@ -1,0 +1,123 @@
+<svg viewBox="0 0 1600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect width="1600" height="800" fill="#9b8ba8"/>
+  
+  <!-- Left pink wall section -->
+  <polygon points="0,0 400,0 400,400 0,200" fill="#d4a5c3"/>
+  
+  <!-- White trim/molding -->
+  <rect y="500" width="1600" height="20" fill="#e8e8e8"/>
+  
+  <!-- Left wall art pieces -->
+  <rect x="50" y="80" width="120" height="150" fill="#e89bb5" stroke="#333" stroke-width="2"/>
+  <rect x="190" y="80" width="120" height="150" fill="#c8e6c9" stroke="#333" stroke-width="2"/>
+  <rect x="50" y="250" width="120" height="150" fill="#ffb3ba" stroke="#333" stroke-width="2"/>
+  <rect x="190" y="250" width="120" height="150" fill="#bae1ff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Polka dot storage box -->
+  <rect x="320" y="280" width="100" height="120" fill="#2a2a2a"/>
+  <circle cx="340" cy="310" r="8" fill="#fff"/>
+  <circle cx="370" cy="310" r="8" fill="#fff"/>
+  <circle cx="400" cy="310" r="8" fill="#fff"/>
+  <circle cx="340" cy="350" r="8" fill="#fff"/>
+  <circle cx="370" cy="350" r="8" fill="#fff"/>
+  <circle cx="400" cy="350" r="8" fill="#fff"/>
+  
+  <!-- Center framed artwork -->
+  <rect x="450" y="200" width="110" height="140" fill="#fff" stroke="#c9b896" stroke-width="8"/>
+  <rect x="465" y="215" width="80" height="110" fill="#ff6b8a"/>
+  <polygon points="480,270 520,240 540,280" fill="#2a2a2a"/>
+  
+  <!-- Upper center dark artwork -->
+  <rect x="600" y="50" width="140" height="200" fill="#1a1a1a" stroke="#444" stroke-width="3"/>
+  <rect x="630" y="80" width="30" height="40" fill="#666"/>
+  <rect x="680" y="80" width="30" height="40" fill="#666"/>
+  <circle cx="670" cy="180" r="15" fill="#ff6b9d"/>
+  <line x1="655" y1="150" x2="655" y2="180" stroke="#888" stroke-width="2"/>
+  <line x1="685" y1="150" x2="685" y2="180" stroke="#888" stroke-width="2"/>
+  
+  <!-- Dresser below dark art -->
+  <rect x="600" y="270" width="140" height="100" fill="#a89f91" stroke="#8a8173" stroke-width="2"/>
+  <rect x="620" y="285" width="100" height="15" fill="#c4b5a0"/>
+  <circle cx="665" cy="292" r="4" fill="#8b7355"/>
+  <rect x="620" y="320" width="100" height="15" fill="#c4b5a0"/>
+  <circle cx="665" cy="327" r="4" fill="#8b7355"/>
+  
+  <!-- Cat poster -->
+  <rect x="850" y="80" width="140" height="180" fill="#fff" stroke="#999" stroke-width="3"/>
+  <ellipse cx="920" cy="140" rx="35" ry="40" fill="#ff6347"/>
+  <circle cx="910" cy="135" r="8" fill="#2a2a2a"/>
+  <circle cx="930" cy="135" r="8" fill="#2a2a2a"/>
+  <polygon points="895,120 905,100 915,120" fill="#ff6347"/>
+  <polygon points="925,120 935,100 945,120" fill="#ff6347"/>
+  <path d="M 900 160 Q 920 170 940 160" stroke="#2a2a2a" stroke-width="2" fill="none"/>
+  <text x="870" y="250" font-family="Arial" font-size="14" fill="#333">LOBBY</text>
+  
+  <!-- Flamingo decoration -->
+  <path d="M 1030 120 Q 1040 100 1050 120 Q 1055 140 1050 160 Q 1045 180 1040 200" stroke="#ff69b4" stroke-width="8" fill="none"/>
+  <circle cx="1048" cy="115" r="12" fill="#ff69b4"/>
+  
+  <!-- Right side framed artworks -->
+  <rect x="1250" y="130" width="130" height="130" fill="#d4c5a9" stroke="#8b7355" stroke-width="8"/>
+  <rect x="1270" y="150" width="90" height="90" fill="#1a1a1a"/>
+  <path d="M 1295 165 L 1320 190 L 1345 165 L 1320 215 Z" fill="#6b5d8f" opacity="0.7"/>
+  
+  <rect x="1420" y="130" width="130" height="130" fill="#d4c5a9" stroke="#8b7355" stroke-width="8"/>
+  <rect x="1440" y="150" width="90" height="90" fill="#1a1a1a"/>
+  
+  <!-- Desk with items -->
+  <rect x="30" y="550" width="350" height="200" fill="#d4c5a9" stroke="#b8a88a" stroke-width="3"/>
+  <rect x="50" y="565" width="80" height="60" fill="#e8e8e8"/>
+  <circle cx="90" cy="595" r="8" fill="#ff69b4"/>
+  <rect x="150" y="570" width="40" height="80" fill="#ffe4e1"/>
+  <rect x="210" y="575" width="50" height="60" fill="#ffb6c1"/>
+  <circle cx="300" cy="590" r="20" fill="#ff6b6b"/>
+  
+  <!-- Polka dot chair -->
+  <rect x="350" y="600" width="80" height="100" fill="#2a2a2a"/>
+  <circle cx="370" cy="630" r="7" fill="#fff"/>
+  <circle cx="390" cy="630" r="7" fill="#fff"/>
+  <circle cx="410" cy="630" r="7" fill="#fff"/>
+  <circle cx="370" cy="660" r="7" fill="#fff"/>
+  <circle cx="390" cy="660" r="7" fill="#fff"/>
+  <circle cx="410" cy="660" r="7" fill="#fff"/>
+  <circle cx="380" cy="690" r="7" fill="#fff"/>
+  <circle cx="400" cy="690" r="7" fill="#fff"/>
+  
+  <!-- Bed -->
+  <rect x="30" y="700" width="200" height="100" fill="#87ceeb"/>
+  <ellipse cx="130" cy="720" rx="60" ry="20" fill="#00bfff"/>
+  <circle cx="100" cy="730" r="15" fill="#ff69b4"/>
+  
+  <!-- Right side dresser/nightstand -->
+  <rect x="850" y="550" width="120" height="200" fill="#e8e8d8" stroke="#d4c5a9" stroke-width="3"/>
+  <rect x="865" y="570" width="90" height="25" fill="#fff"/>
+  <circle cx="910" cy="582" r="4" fill="#8b7355"/>
+  <rect x="865" y="620" width="90" height="25" fill="#fff"/>
+  <circle cx="910" cy="632" r="4" fill="#8b7355"/>
+  <rect x="865" y="670" width="90" height="25" fill="#fff"/>
+  <circle cx="910" cy="682" r="4" fill="#8b7355"/>
+  
+  <!-- Pink ottoman/seat -->
+  <rect x="880" y="500" width="80" height="40" fill="#ffb6c1"/>
+  <circle cx="895" cy="515" r="6" fill="#fff"/>
+  <circle cx="915" cy="515" r="6" fill="#fff"/>
+  <circle cx="935" cy="515" r="6" fill="#fff"/>
+  <circle cx="955" cy="515" r="6" fill="#fff"/>
+  
+  <!-- Person silhouette -->
+  <ellipse cx="1050" cy="280" rx="50" ry="60" fill="#2a2a2a"/>
+  <rect x="1020" y="340" width="60" height="180" fill="#e8c9d4"/>
+  <rect x="1005" y="400" width="45" height="120" fill="#e8c9d4"/>
+  <rect x="1050" y="400" width="45" height="120" fill="#e8c9d4"/>
+  <path d="M 1050 320 Q 1080 340 1100 380" stroke="#2a2a2a" stroke-width="25" fill="none"/>
+  
+  <!-- TV/Monitor -->
+  <rect x="1350" y="550" width="150" height="100" fill="#1a1a1a" stroke="#333" stroke-width="3"/>
+  <rect x="1360" y="560" width="130" height="80" fill="#2a4a2a"/>
+  <circle cx="1480" cy="630" r="5" fill="#4a4" opacity="0.5"/>
+  
+  <!-- Light effects -->
+  <circle cx="200" cy="400" r="60" fill="#fff" opacity="0.15"/>
+  <circle cx="1100" cy="450" r="50" fill="#fff" opacity="0.1"/>
+</svg>

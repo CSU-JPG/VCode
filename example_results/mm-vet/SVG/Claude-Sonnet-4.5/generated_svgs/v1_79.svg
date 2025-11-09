@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f4d5c8"/>
+  
+  <!-- Top border pattern -->
+  <path d="M0,20 Q20,10 40,20 T80,20 T120,20 T160,20 T200,20 T240,20 T280,20 T320,20 T360,20 T400,20 T440,20 T480,20 T520,20 T560,20 T600,20 T640,20 T680,20 T720,20 T760,20 T800,20" fill="none" stroke="#2a1a1a" stroke-width="1.5"/>
+  <path d="M0,30 Q20,20 40,30 T80,30 T120,30 T160,30 T200,30 T240,30 T280,30 T320,30 T360,30 T400,30 T440,30 T480,30 T520,30 T560,30 T600,30 T640,30 T680,30 T720,30 T760,30 T800,30" fill="none" stroke="#2a1a1a" stroke-width="1.5"/>
+  
+  <!-- Text at top -->
+  <text x="20" y="15" font-family="serif" font-size="18" font-weight="bold" fill="#2a1a1a">FEDERAL RESERVE</text>
+  <text x="750" y="15" font-family="serif" font-size="18" font-weight="bold" fill="#2a1a1a" text-anchor="end">NOTE</text>
+  
+  <!-- Stars on left -->
+  <g fill="none" stroke="#d4a5d4" stroke-width="1.5">
+    <path d="M50,80 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+    <path d="M50,120 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+    <path d="M50,160 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+    <path d="M50,200 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+    <path d="M50,240 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+    <path d="M50,280 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+    <path d="M50,320 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+    <path d="M50,360 l5,15 l15,0 l-12,9 l5,15 l-13-9 l-13,9 l5-15 l-12-9 l15,0 z"/>
+  </g>
+  
+  <!-- Serial numbers (stylized) -->
+  <text x="30" y="205" font-family="monospace" font-size="10" fill="#c9a447">A</text>
+  <text x="30" y="220" font-family="monospace" font-size="10" fill="#c9a447">5</text>
+  
+  <!-- Lincoln portrait - simplified geometric representation -->
+  <ellipse cx="400" cy="280" rx="120" ry="150" fill="#e8c5b8"/>
+  
+  <!-- Hair -->
+  <path d="M320,180 Q300,200 300,240 L300,260 Q305,250 315,245" fill="#2a1a1a"/>
+  <path d="M480,180 Q500,200 500,240 L500,260 Q495,250 485,245" fill="#2a1a1a"/>
+  <path d="M300,240 Q320,160 400,150 Q480,160 500,240" fill="#2a1a1a"/>
+  
+  <!-- Forehead lines -->
+  <line x1="340" y1="220" x2="370" y2="215" stroke="#8a7a6a" stroke-width="0.5" opacity="0.5"/>
+  <line x1="340" y1="230" x2="370" y2="225" stroke="#8a7a6a" stroke-width="0.5" opacity="0.5"/>
+  <line x1="430" y1="215" x2="460" y2="220" stroke="#8a7a6a" stroke-width="0.5" opacity="0.5"/>
+  <line x1="430" y1="225" x2="460" y2="230" stroke="#8a7a6a" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="365" cy="260" rx="12" ry="15" fill="white"/>
+  <ellipse cx="435" cy="260" rx="12" ry="15" fill="white"/>
+  <circle cx="365" cy="262" r="6" fill="#2a1a1a"/>
+  <circle cx="435" cy="262" r="6" fill="#2a1a1a"/>
+  
+  <!-- Eyebrows -->
+  <path d="M350,245 Q365,240 380,245" fill="none" stroke="#2a1a1a" stroke-width="2"/>
+  <path d="M420,245 Q435,240 450,245" fill="none" stroke="#2a1a1a" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <path d="M400,260 L395,300 L405,300 Z" fill="#d4a5a4"/>
+  <path d="M395,300 Q390,305 390,310" fill="none" stroke="#8a7a6a" stroke-width="1"/>
+  <path d="M405,300 Q410,305 410,310" fill="none" stroke="#8a7a6a" stroke-width="1"/>
+  
+  <!-- Mouth -->
+  <path d="M370,330 Q400,325 430,330" fill="none" stroke="#6a4a4a" stroke-width="2"/>
+  
+  <!-- Beard -->
+  <path d="M350,320 Q340,350 340,380 Q340,400 360,410 Q400,420 440,410 Q460,400 460,380 Q460,350 450,320" fill="#2a1a1a"/>
+  <path d="M380,410 Q400,415 420,410" fill="none" stroke="#4a3a3a" stroke-width="1"/>
+  
+  <!-- Facial hair texture -->
+  <g opacity="0.3" stroke="#1a1a1a" stroke-width="0.5">
+    <line x1="345" y1="340" x2="348" y2="360"/>
+    <line x1="352" y1="345" x2="355" y2="365"/>
+    <line x1="445" y1="345" x2="448" y2="365"/>
+    <line x1="452" y1="340" x2="455" y2="360"/>
+  </g>
+  
+  <!-- Collar and bow tie -->
+  <rect x="350" y="410" width="100" height="40" fill="#1a1a1a"/>
+  <polygon points="370,430 400,420 430,430 400,440" fill="white"/>
+  
+  <!-- Suit -->
+  <path d="M300,450 L320,420 Q400,400 480,420 L500,450 L500,600 L300,600 Z" fill="#1a1a1a"/>
+  <path d="M400,420 L400,600" stroke="#2a2a2a" stroke-width="2"/>
+  
+  <!-- Eagle on right (simplified) -->
+  <g transform="translate(650,200)">
+    <ellipse cx="0" cy="20" rx="40" ry="50" fill="#c4b5d4" opacity="0.5"/>
+    <path d="M-20,0 Q0,-20 20,0" fill="#a495b4" opacity="0.5"/>
+    <path d="M-40,30 L-20,10 L0,30 L-20,25 Z" fill="#a495b4" opacity="0.5"/>
+    <path d="M40,30 L20,10 L0,30 L20,25 Z" fill="#a495b4" opacity="0.5"/>
+  </g>
+  
+  <!-- Denomination text -->
+  <text x="650" y="130" font-family="serif" font-size="48" font-weight="bold" fill="#8a6a8a">THE</text>
+  
+  <!-- Bottom text -->
+  <text x="50" y="560" font-family="serif" font-size="28" font-weight="bold" fill="#2a1a1a">FIVE</text>
+  <text x="750" y="560" font-family="serif" font-size="28" font-weight="bold" fill="#2a1a1a" text-anchor="end">DOLLARS</text>
+  
+  <!-- Lincoln nameplate -->
+  <ellipse cx="400" cy="490" rx="60" ry="20" fill="#8a7a6a" opacity="0.6"/>
+  <text x="400" y="495" font-family="serif" font-size="12" font-weight="bold" fill="#2a1a1a" text-anchor="middle">LINCOLN</text>
+  
+  <!-- Series text -->
+  <text x="720" y="400" font-family="sans-serif" font-size="10" fill="#2a1a1a">SERIES 20</text>
+  
+  <!-- Bottom border -->
+  <line x1="0" y1="580" x2="800" y2="580" stroke="#2a1a1a" stroke-width="2"/>
+</svg>

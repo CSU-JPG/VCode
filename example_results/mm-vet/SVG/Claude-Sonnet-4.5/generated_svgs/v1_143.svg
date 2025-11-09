@@ -1,0 +1,122 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#d4c8b8"/>
+  
+  <!-- Ceiling -->
+  <rect width="1200" height="80" fill="#b8a898"/>
+  <rect x="400" y="30" width="80" height="50" fill="#8a7a6a"/>
+  <rect x="900" y="40" width="100" height="40" fill="#6a5a4a"/>
+  
+  <!-- Back wall tiles -->
+  <rect x="0" y="80" width="1200" height="200" fill="#c8bcac"/>
+  <line x1="0" y1="130" x2="1200" y2="130" stroke="#b0a090" stroke-width="2"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#b0a090" stroke-width="2"/>
+  <line x1="0" y1="230" x2="1200" y2="230" stroke="#b0a090" stroke-width="2"/>
+  
+  <!-- Refrigerator on right -->
+  <rect x="1050" y="150" width="120" height="450" fill="#7a8a9a"/>
+  <rect x="1065" y="180" width="90" height="200" fill="#5a6a7a"/>
+  <rect x="1065" y="400" width="90" height="180" fill="#5a6a7a"/>
+  <circle cx="1080" cy="290" r="8" fill="#4a5a6a"/>
+  <circle cx="1080" cy="490" r="8" fill="#4a5a6a"/>
+  
+  <!-- Counter and display case -->
+  <rect x="150" y="300" width="600" height="500" fill="#9a8a7a"/>
+  
+  <!-- Glass display case -->
+  <path d="M 180 320 L 720 320 L 720 550 L 180 620 Z" fill="rgba(200,220,240,0.3)" stroke="#5a6a7a" stroke-width="3"/>
+  
+  <!-- Shelves with baked goods -->
+  <rect x="200" y="380" width="500" height="40" fill="#d4b896"/>
+  <ellipse cx="250" cy="400" rx="30" ry="15" fill="#c49856"/>
+  <ellipse cx="320" cy="400" rx="30" ry="15" fill="#b48846"/>
+  <ellipse cx="390" cy="400" rx="30" ry="15" fill="#c49856"/>
+  <ellipse cx="460" cy="400" rx="30" ry="15" fill="#b48846"/>
+  <ellipse cx="530" cy="400" rx="30" ry="15" fill="#c49856"/>
+  <ellipse cx="600" cy="400" rx="30" ry="15" fill="#b48846"/>
+  <ellipse cx="660" cy="400" rx="30" ry="15" fill="#c49856"/>
+  
+  <rect x="200" y="450" width="500" height="40" fill="#d4b896"/>
+  <ellipse cx="260" cy="470" rx="35" ry="18" fill="#a47836"/>
+  <ellipse cx="340" cy="470" rx="35" ry="18" fill="#946828"/>
+  <ellipse cx="420" cy="470" rx="35" ry="18" fill="#a47836"/>
+  <ellipse cx="500" cy="470" rx="35" ry="18" fill="#946828"/>
+  <ellipse cx="580" cy="470" rx="35" ry="18" fill="#a47836"/>
+  <ellipse cx="650" cy="470" rx="35" ry="18" fill="#946828"/>
+  
+  <rect x="200" y="520" width="500" height="40" fill="#d4b896"/>
+  <rect x="220" y="530" width="60" height="25" fill="#d4a876" rx="5"/>
+  <rect x="300" y="530" width="60" height="25" fill="#c49866" rx="5"/>
+  <rect x="380" y="530" width="60" height="25" fill="#d4a876" rx="5"/>
+  <rect x="460" y="530" width="60" height="25" fill="#c49866" rx="5"/>
+  <rect x="540" y="530" width="60" height="25" fill="#d4a876" rx="5"/>
+  <rect x="620" y="530" width="60" height="25" fill="#c49866" rx="5"/>
+  
+  <rect x="200" y="590" width="500" height="40" fill="#d4b896"/>
+  <circle cx="240" cy="610" r="18" fill="#e4c896"/>
+  <circle cx="300" cy="610" r="18" fill="#d4b886"/>
+  <circle cx="360" cy="610" r="18" fill="#e4c896"/>
+  <circle cx="420" cy="610" r="18" fill="#d4b886"/>
+  <circle cx="480" cy="610" r="18" fill="#e4c896"/>
+  <circle cx="540" cy="610" r="18" fill="#d4b886"/>
+  <circle cx="600" cy="610" r="18" fill="#e4c896"/>
+  <circle cx="660" cy="610" r="18" fill="#d4b886"/>
+  
+  <!-- Top shelf with pastries -->
+  <rect x="150" y="200" width="300" height="80" fill="#b89876"/>
+  <ellipse cx="200" cy="240" rx="40" ry="25" fill="#d4a866"/>
+  <path d="M 180 240 Q 200 225 220 240" fill="none" stroke="#8a6846" stroke-width="2"/>
+  <ellipse cx="280" cy="240" rx="40" ry="25" fill="#d4a866"/>
+  <path d="M 260 240 Q 280 225 300 240" fill="none" stroke="#8a6846" stroke-width="2"/>
+  <ellipse cx="360" cy="240" rx="40" ry="25" fill="#d4a866"/>
+  <path d="M 340 240 Q 360 225 380 240" fill="none" stroke="#8a6846" stroke-width="2"/>
+  
+  <!-- Hanging baskets -->
+  <ellipse cx="550" cy="180" rx="60" ry="30" fill="#c49856"/>
+  <ellipse cx="550" cy="175" rx="50" ry="25" fill="#d4a866"/>
+  <rect x="545" y="160" width="3" height="20" fill="#5a4a3a"/>
+  
+  <ellipse cx="680" cy="180" rx="60" ry="30" fill="#c49856"/>
+  <ellipse cx="680" cy="175" rx="50" ry="25" fill="#d4a866"/>
+  <rect x="675" y="160" width="3" height="20" fill="#5a4a3a"/>
+  
+  <!-- Equipment on counter -->
+  <rect x="760" y="250" width="80" height="120" fill="#8a8a8a"/>
+  <circle cx="800" cy="300" r="25" fill="#6a6a6a"/>
+  
+  <!-- Woman on left (customer) -->
+  <ellipse cx="100" cy="420" rx="35" ry="55" fill="#a0b0c0"/>
+  <circle cx="100" cy="340" r="35" fill="#6a4a3a"/>
+  <path d="M 70 340 Q 100 320 130 340" fill="#2a1a1a"/>
+  <rect x="85" y="440" width="12" height="60" fill="#d4c4b4"/>
+  <rect x="103" y="440" width="12" height="60" fill="#d4c4b4"/>
+  <ellipse cx="75" cy="385" rx="25" ry="35" fill="#2a2a2a"/>
+  
+  <!-- Man in center -->
+  <rect x="830" y="300" width="60" height="90" fill="#3a3a3a"/>
+  <circle cx="860" cy="260" r="30" fill="#d4b4a4"/>
+  <path d="M 835 250 Q 860 240 885 250" fill="#4a3a2a"/>
+  <ellipse cx="850" cy="265" rx="4" ry="6" fill="#2a2a2a"/>
+  <ellipse cx="870" cy="265" rx="4" ry="6" fill="#2a2a2a"/>
+  <rect x="840" y="390" width="18" height="80" fill="#6a6a5a"/>
+  <rect x="862" y="390" width="18" height="80" fill="#6a6a5a"/>
+  <ellipse cx="825" cy="330" rx="30" ry="20" fill="#d4b4a4"/>
+  <path d="M 825 330 L 780 360" stroke="#d4b4a4" stroke-width="15"/>
+  <rect x="770" y="350" width="30" height="40" fill="#f4e4c4"/>
+  
+  <!-- Woman on right -->
+  <ellipse cx="970" cy="350" rx="30" ry="50" fill="#e4e4e4"/>
+  <rect x="950" y="320" width="40" height="40" fill="#c43434"/>
+  <circle cx="970" cy="280" r="28" fill="#f4d4c4"/>
+  <path d="M 945 270 Q 970 255 995 270" fill="#e4c494"/>
+  <ellipse cx="960" cy="285" rx="3" ry="5" fill="#2a2a2a"/>
+  <ellipse cx="980" cy="285" rx="3" ry="5" fill="#2a2a2a"/>
+  <rect x="955" y="400" width="15" height="70" fill="#4a6a8a"/>
+  <rect x="975" y="400" width="15" height="70" fill="#4a6a8a"/>
+  <ellipse cx="1000" cy="345" rx="20" ry="15" fill="#f4d4c4"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="650" width="1200" height="150" fill="#a09888"/>
+  <line x1="0" y1="700" x2="1200" y2="700" stroke="#908878" stroke-width="2"/>
+  <line x1="0" y1="750" x2="1200" y2="750" stroke="#908878" stroke-width="2"/>
+</svg>

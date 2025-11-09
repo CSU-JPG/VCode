@@ -1,0 +1,103 @@
+<svg viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .header { fill: #ffffff; font-family: Arial, sans-serif; font-size: 28px; font-weight: bold; }
+      .cell { fill: #333333; font-family: Arial, sans-serif; font-size: 26px; }
+      .header-bg { fill: #0f6b8f; }
+      .row-bg { fill: #e8e8e8; }
+      .total-bg { fill: #0f6b8f; }
+      .total-text { fill: #ffffff; font-family: Arial, sans-serif; font-size: 26px; font-weight: bold; }
+    </style>
+  </defs>
+  
+  <!-- Header Row -->
+  <rect class="header-bg" x="40" y="25" width="230" height="70"/>
+  <rect class="header-bg" x="270" y="25" width="300" height="70"/>
+  <rect class="header-bg" x="570" y="25" width="300" height="70"/>
+  <rect class="header-bg" x="870" y="25" width="290" height="70"/>
+  <rect class="header-bg" x="1160" y="25" width="210" height="70"/>
+  
+  <text class="header" x="155" y="70" text-anchor="middle">Country</text>
+  <text class="header" x="420" y="70" text-anchor="middle">Sales Volume</text>
+  <text class="header" x="720" y="70" text-anchor="middle">Revenue</text>
+  <text class="header" x="1015" y="70" text-anchor="middle">Profit</text>
+  <text class="header" x="1265" y="70" text-anchor="middle">Profit Margin</text>
+  
+  <!-- USA Row -->
+  <rect class="row-bg" x="40" y="95" width="230" height="60"/>
+  <rect class="row-bg" x="270" y="95" width="300" height="60"/>
+  <rect class="row-bg" x="570" y="95" width="300" height="60"/>
+  <rect class="row-bg" x="870" y="95" width="290" height="60"/>
+  <rect class="row-bg" x="1160" y="95" width="210" height="60"/>
+  
+  <text class="cell" x="60" y="135">USA</text>
+  <text class="cell" x="420" y="135" text-anchor="middle">40,080</text>
+  <text class="cell" x="720" y="135" text-anchor="middle">$15,971,880</text>
+  <text class="cell" x="1015" y="135" text-anchor="middle">$3,086,421</text>
+  <text class="cell" x="1265" y="135" text-anchor="middle">19.3%</text>
+  
+  <!-- China Row -->
+  <rect fill="#ffffff" x="40" y="155" width="230" height="60"/>
+  <rect fill="#ffffff" x="270" y="155" width="300" height="60"/>
+  <rect fill="#ffffff" x="570" y="155" width="300" height="60"/>
+  <rect fill="#ffffff" x="870" y="155" width="290" height="60"/>
+  <rect fill="#ffffff" x="1160" y="155" width="210" height="60"/>
+  
+  <text class="cell" x="60" y="195">China</text>
+  <text class="cell" x="420" y="195" text-anchor="middle">35,070</text>
+  <text class="cell" x="720" y="195" text-anchor="middle">$15,866,670</text>
+  <text class="cell" x="1015" y="195" text-anchor="middle">$3,032,162</text>
+  <text class="cell" x="1265" y="195" text-anchor="middle">19.1%</text>
+  
+  <!-- Australia Row -->
+  <rect class="row-bg" x="40" y="215" width="230" height="60"/>
+  <rect class="row-bg" x="270" y="215" width="300" height="60"/>
+  <rect class="row-bg" x="570" y="215" width="300" height="60"/>
+  <rect class="row-bg" x="870" y="215" width="290" height="60"/>
+  <rect class="row-bg" x="1160" y="215" width="210" height="60"/>
+  
+  <text class="cell" x="60" y="255">Australia</text>
+  <text class="cell" x="420" y="255" text-anchor="middle">27,054</text>
+  <text class="cell" x="720" y="255" text-anchor="middle">$14,812,566</text>
+  <text class="cell" x="1015" y="255" text-anchor="middle">$2,868,636</text>
+  <text class="cell" x="1265" y="255" text-anchor="middle">19.4%</text>
+  
+  <!-- India Row -->
+  <rect fill="#ffffff" x="40" y="275" width="230" height="60"/>
+  <rect fill="#ffffff" x="270" y="275" width="300" height="60"/>
+  <rect fill="#ffffff" x="570" y="275" width="300" height="60"/>
+  <rect fill="#ffffff" x="870" y="275" width="290" height="60"/>
+  <rect fill="#ffffff" x="1160" y="275" width="210" height="60"/>
+  
+  <text class="cell" x="60" y="315">India</text>
+  <text class="cell" x="420" y="315" text-anchor="middle">23,046</text>
+  <text class="cell" x="720" y="315" text-anchor="middle">$10,608,174</text>
+  <text class="cell" x="1015" y="315" text-anchor="middle">$1,853,710</text>
+  <text class="cell" x="1265" y="315" text-anchor="middle">17.5%</text>
+  
+  <!-- South Korea Row -->
+  <rect class="row-bg" x="40" y="335" width="230" height="60"/>
+  <rect class="row-bg" x="270" y="335" width="300" height="60"/>
+  <rect class="row-bg" x="570" y="335" width="300" height="60"/>
+  <rect class="row-bg" x="870" y="335" width="290" height="60"/>
+  <rect class="row-bg" x="1160" y="335" width="210" height="60"/>
+  
+  <text class="cell" x="60" y="375">South Korea</text>
+  <text class="cell" x="420" y="375" text-anchor="middle">16,032</text>
+  <text class="cell" x="720" y="375" text-anchor="middle">$10,494,948</text>
+  <text class="cell" x="1015" y="375" text-anchor="middle">$1,975,844</text>
+  <text class="cell" x="1265" y="375" text-anchor="middle">18.8%</text>
+  
+  <!-- Total Row -->
+  <rect class="total-bg" x="40" y="395" width="230" height="70"/>
+  <rect class="total-bg" x="270" y="395" width="300" height="70"/>
+  <rect class="total-bg" x="570" y="395" width="300" height="70"/>
+  <rect class="total-bg" x="870" y="395" width="290" height="70"/>
+  <rect class="total-bg" x="1160" y="395" width="210" height="70"/>
+  
+  <text class="total-text" x="60" y="440">Total / Avg</text>
+  <text class="total-text" x="420" y="440" text-anchor="middle">141,282</text>
+  <text class="total-text" x="720" y="440" text-anchor="middle">$67,754,238</text>
+  <text class="total-text" x="1015" y="440" text-anchor="middle">$12,816,772</text>
+  <text class="total-text" x="1265" y="440" text-anchor="middle">18.8%</text>
+</svg>

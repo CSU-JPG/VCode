@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sample A Container -->
+  <g id="sampleA">
+    <!-- Jar body -->
+    <rect x="80" y="120" width="240" height="320" rx="20" fill="none" stroke="#999" stroke-width="3"/>
+    <!-- Jar neck -->
+    <rect x="100" y="100" width="200" height="25" fill="none" stroke="#999" stroke-width="3"/>
+    <!-- Jar lid -->
+    <rect x="85" y="75" width="230" height="30" rx="5" fill="#888"/>
+    
+    <!-- Green particles with motion lines -->
+    <circle cx="130" cy="160" r="18" fill="#5cb85c"/>
+    <path d="M 105 155 Q 100 157 95 160 M 105 160 Q 100 162 95 165 M 105 165 Q 100 167 95 170" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="220" cy="155" r="16" fill="#5cb85c"/>
+    <path d="M 240 145 Q 245 147 250 150 M 240 150 Q 245 152 250 155 M 240 155 Q 245 157 250 160" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="280" cy="180" r="17" fill="#5cb85c"/>
+    <path d="M 300 175 Q 305 177 310 180 M 300 180 Q 305 182 310 185 M 300 185 Q 305 187 310 190" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="120" cy="220" r="19" fill="#5cb85c"/>
+    <path d="M 95 215 Q 90 217 85 220 M 95 220 Q 90 222 85 225 M 95 225 Q 90 227 85 230" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="180" cy="210" r="17" fill="#5cb85c"/>
+    <path d="M 160 200 Q 155 202 150 205 M 160 205 Q 155 207 150 210 M 160 210 Q 155 212 150 215" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="290" cy="250" r="18" fill="#5cb85c"/>
+    
+    <circle cx="130" cy="290" r="20" fill="#5cb85c"/>
+    <path d="M 155 285 Q 160 287 165 290 M 155 290 Q 160 292 165 295 M 155 295 Q 160 297 165 300" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="230" cy="310" r="17" fill="#5cb85c"/>
+    <path d="M 210 300 Q 205 302 200 305 M 210 305 Q 205 307 200 310 M 210 310 Q 205 312 200 315" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="110" cy="370" r="21" fill="#5cb85c"/>
+    <path d="M 135 365 Q 140 367 145 370 M 135 370 Q 140 372 145 375 M 135 375 Q 140 377 145 380" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="270" cy="390" r="19" fill="#5cb85c"/>
+    <path d="M 295 385 Q 300 387 305 390 M 295 390 Q 300 392 305 395 M 295 395 Q 300 397 305 400" stroke="#333" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Sample B Container -->
+  <g id="sampleB">
+    <!-- Jar body -->
+    <rect x="480" y="120" width="240" height="320" rx="20" fill="none" stroke="#999" stroke-width="3"/>
+    <!-- Jar neck -->
+    <rect x="500" y="100" width="200" height="25" fill="none" stroke="#999" stroke-width="3"/>
+    <!-- Jar lid -->
+    <rect x="485" y="75" width="230" height="30" rx="5" fill="#888"/>
+    
+    <!-- Blue particles with motion lines -->
+    <circle cx="550" cy="170" r="14" fill="#4a5fa5"/>
+    <path d="M 568 165 Q 573 167 578 170 M 568 170 Q 573 172 578 175" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="510" cy="215" r="13" fill="#4a5fa5"/>
+    
+    <circle cx="595" cy="235" r="14" fill="#4a5fa5"/>
+    
+    <circle cx="650" cy="195" r="13" fill="#4a5fa5"/>
+    <path d="M 668 190 Q 673 192 678 195 M 668 195 Q 673 197 678 200" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="660" cy="260" r="14" fill="#4a5fa5"/>
+    <path d="M 678 255 Q 683 257 688 260 M 678 260 Q 683 262 688 265" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="530" cy="345" r="13" fill="#4a5fa5"/>
+    <path d="M 515 340 Q 510 342 505 345 M 515 345 Q 510 347 505 350" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="640" cy="310" r="14" fill="#4a5fa5"/>
+    <path d="M 658 305 Q 663 307 668 310 M 658 310 Q 663 312 668 315" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="680" cy="400" r="13" fill="#4a5fa5"/>
+    <path d="M 698 395 Q 703 397 708 400 M 698 400 Q 703 402 708 405" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <circle cx="555" cy="400" r="14" fill="#4a5fa5"/>
+    
+    <circle cx="650" cy="395" r="13" fill="#4a5fa5"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="200" y="495" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Sample A</text>
+  <text x="600" y="495" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Sample B</text>
+  
+  <text x="200" y="535" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Mass of each particle: 44 u</text>
+  <text x="600" y="535" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Mass of each particle: 36 u</text>
+  
+  <text x="200" y="565" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Average particle speed: 830 m/s</text>
+  <text x="600" y="565" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Average particle speed: 690 m/s</text>
+</svg>

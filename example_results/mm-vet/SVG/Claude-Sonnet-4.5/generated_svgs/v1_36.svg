@@ -1,0 +1,211 @@
+<svg viewBox="0 0 1200 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="1100" fill="#f4d9c6"/>
+  
+  <!-- Title -->
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="56" fill="#e17766" text-anchor="middle" font-weight="bold">Pancake recipe</text>
+  
+  <!-- Step 1: Mix dry ingredients -->
+  <circle cx="200" cy="250" r="90" fill="#fff"/>
+  <text x="80" y="190" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">1</text>
+  
+  <!-- Measuring cup -->
+  <rect x="150" y="200" width="40" height="50" fill="#a8c5d9" rx="3"/>
+  <rect x="190" y="210" width="25" height="8" fill="#7a9ab5"/>
+  <ellipse cx="170" cy="200" rx="20" ry="5" fill="#c5dae8"/>
+  
+  <!-- Spoon -->
+  <ellipse cx="240" cy="230" rx="12" ry="8" fill="#d4e4f0"/>
+  <rect x="245" y="220" width="3" height="35" fill="#b8cad9"/>
+  
+  <!-- Salt/pepper shaker -->
+  <rect x="155" y="270" width="18" height="30" fill="#e8e8e8" rx="2"/>
+  <rect x="155" y="270" width="18" height="8" fill="#333"/>
+  <circle cx="164" cy="304" r="3" fill="#ccc"/>
+  
+  <!-- Milk container -->
+  <rect x="195" y="260" width="30" height="40" fill="#fff" rx="3"/>
+  <rect x="195" y="260" width="30" height="10" fill="#f0d0b0"/>
+  <text x="210" y="285" font-family="Arial" font-size="10" fill="#999" text-anchor="middle">MILK</text>
+  
+  <!-- Bowl -->
+  <ellipse cx="200" cy="320" rx="60" ry="15" fill="#e17766"/>
+  <path d="M 140 320 Q 140 350 200 360 Q 260 350 260 320" fill="#f49b8a" stroke="#e17766" stroke-width="2"/>
+  
+  <!-- Step 2: Add eggs -->
+  <circle cx="560" cy="250" r="90" fill="#fff"/>
+  <text x="440" y="190" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">2</text>
+  
+  <!-- Eggs -->
+  <ellipse cx="500" cy="210" rx="18" ry="22" fill="#f5d5b5"/>
+  <ellipse cx="495" cy="208" rx="5" ry="6" fill="#e5c5a5"/>
+  <ellipse cx="530" cy="220" rx="18" ry="22" fill="#f5d5b5"/>
+  <ellipse cx="525" cy="218" rx="5" ry="6" fill="#e5c5a5"/>
+  
+  <!-- Whisk -->
+  <line x1="585" y1="190" x2="585" y2="240" stroke="#8a6e4a" stroke-width="4"/>
+  <circle cx="585" cy="190" r="4" fill="#d4a574"/>
+  <path d="M 575 240 Q 575 255 585 260 Q 595 255 595 240" fill="none" stroke="#ccc" stroke-width="2"/>
+  <line x1="580" y1="240" x2="580" y2="258" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="585" y1="240" x2="585" y2="260" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="590" y1="240" x2="590" y2="258" stroke="#ccc" stroke-width="1.5"/>
+  
+  <!-- Oil bottle -->
+  <ellipse cx="620" cy="230" rx="12" ry="18" fill="#f4d03f"/>
+  <rect x="617" y="212" width="6" height="10" fill="#d4b520"/>
+  <circle cx="620" cy="212" r="3" fill="#f4d03f"/>
+  
+  <!-- Bowl with mixture -->
+  <ellipse cx="560" cy="320" rx="60" ry="15" fill="#e17766"/>
+  <path d="M 500 320 Q 500 350 560 360 Q 620 350 620 320" fill="#f49b8a" stroke="#e17766" stroke-width="2"/>
+  <ellipse cx="560" cy="320" rx="50" ry="10" fill="#f4e5a0"/>
+  
+  <!-- Step 3: Mix well -->
+  <circle cx="920" cy="250" r="90" fill="#fff"/>
+  <text x="800" y="190" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">3</text>
+  
+  <!-- Whisk -->
+  <line x1="895" y1="190" x2="895" y2="240" stroke="#8a6e4a" stroke-width="4"/>
+  <circle cx="895" cy="190" r="4" fill="#d4a574"/>
+  <path d="M 885 240 Q 885 255 895 260 Q 905 255 905 240" fill="none" stroke="#ccc" stroke-width="2"/>
+  <line x1="890" y1="240" x2="890" y2="258" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="895" y1="240" x2="895" y2="260" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="900" y1="240" x2="900" y2="258" stroke="#ccc" stroke-width="1.5"/>
+  
+  <!-- Milk carton -->
+  <rect x="950" y="200" width="35" height="50" fill="#a8c5d9" rx="3"/>
+  <rect x="950" y="200" width="35" height="12" fill="#7a9ab5"/>
+  <rect x="962" y="195" width="10" height="8" fill="#7a9ab5"/>
+  <text x="967" y="230" font-family="Arial" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">MILK</text>
+  
+  <!-- Bowl with batter -->
+  <ellipse cx="920" cy="320" rx="60" ry="15" fill="#e17766"/>
+  <path d="M 860 320 Q 860 350 920 360 Q 980 350 980 320" fill="#f49b8a" stroke="#e17766" stroke-width="2"/>
+  <ellipse cx="920" cy="320" rx="50" ry="10" fill="#f4e5a0"/>
+  
+  <!-- Step 4: Heat pan -->
+  <circle cx="200" cy="550" r="90" fill="#fff"/>
+  <text x="80" y="490" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">4</text>
+  
+  <!-- Oil drops -->
+  <ellipse cx="225" cy="510" rx="6" ry="8" fill="#f4d03f"/>
+  <circle cx="225" cy="504" r="3" fill="#f4e56f"/>
+  
+  <!-- Oil bottle -->
+  <ellipse cx="230" cy="490" rx="12" ry="18" fill="#f4d03f"/>
+  <rect x="227" y="472" width="6" height="10" fill="#d4b520"/>
+  <circle cx="230" cy="472" r="3" fill="#f4d03f"/>
+  
+  <!-- Pan -->
+  <ellipse cx="200" cy="590" rx="55" ry="12" fill="#2d3436"/>
+  <path d="M 145 590 Q 145 605 200 610 Q 255 605 255 590" fill="#34495e" stroke="#2d3436" stroke-width="2"/>
+  <rect x="255" y="585" width="40" height="8" fill="#8a6e4a" rx="4"/>
+  
+  <!-- Flames -->
+  <path d="M 180 625 L 185 635 L 175 630 Z" fill="#f4d03f"/>
+  <path d="M 195 625 L 200 635 L 190 630 Z" fill="#f4d03f"/>
+  <path d="M 210 625 L 215 635 L 205 630 Z" fill="#f4d03f"/>
+  <path d="M 225 625 L 230 635 L 220 630 Z" fill="#f4d03f"/>
+  
+  <!-- Step 5: Pour batter -->
+  <circle cx="560" cy="550" r="90" fill="#fff"/>
+  <text x="440" y="490" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">5</text>
+  
+  <!-- Bowl tilted -->
+  <ellipse cx="520" cy="500" rx="45" ry="12" fill="#e17766" transform="rotate(-25 520 500)"/>
+  <path d="M 485 495 Q 475 515 510 525 Q 545 520 550 495" fill="#f49b8a" stroke="#e17766" stroke-width="2" transform="rotate(-25 520 500)"/>
+  
+  <!-- Batter stream -->
+  <path d="M 540 515 Q 545 530 550 545 L 555 545 Q 550 530 545 515 Z" fill="#f4e5a0"/>
+  
+  <!-- Ladle -->
+  <ellipse cx="620" cy="520" rx="25" ry="18" fill="#d4e4f0" transform="rotate(-30 620 520)"/>
+  <path d="M 635 510 Q 650 490 665 475" stroke="#7a9ab5" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="665" cy="475" r="5" fill="#5a7a95"/>
+  
+  <!-- Pan -->
+  <ellipse cx="560" cy="590" rx="55" ry="12" fill="#2d3436"/>
+  <path d="M 505 590 Q 505 605 560 610 Q 615 605 615 590" fill="#34495e" stroke="#2d3436" stroke-width="2"/>
+  <rect x="615" y="585" width="40" height="8" fill="#8a6e4a" rx="4"/>
+  
+  <!-- Flames -->
+  <path d="M 540 625 L 545 635 L 535 630 Z" fill="#f4d03f"/>
+  <path d="M 555 625 L 560 635 L 550 630 Z" fill="#f4d03f"/>
+  <path d="M 570 625 L 575 635 L 565 630 Z" fill="#f4d03f"/>
+  <path d="M 585 625 L 590 635 L 580 630 Z" fill="#f4d03f"/>
+  
+  <!-- Step 6: Cook -->
+  <circle cx="920" cy="550" r="90" fill="#fff"/>
+  <text x="800" y="490" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">6</text>
+  
+  <!-- Timer -->
+  <circle cx="980" cy="500" r="20" fill="#fff" stroke="#2d3436" stroke-width="3"/>
+  <circle cx="980" cy="500" r="3" fill="#2d3436"/>
+  <line x1="980" y1="500" x2="980" y2="488" stroke="#e17766" stroke-width="2.5"/>
+  <line x1="980" y1="500" x2="988" y2="505" stroke="#2d3436" stroke-width="2"/>
+  
+  <!-- Pan with pancake -->
+  <ellipse cx="920" cy="590" rx="55" ry="12" fill="#2d3436"/>
+  <path d="M 865 590 Q 865 605 920 610 Q 975 605 975 590" fill="#34495e" stroke="#2d3436" stroke-width="2"/>
+  <ellipse cx="920" cy="588" rx="38" ry="10" fill="#f4d595"/>
+  <rect x="975" y="585" width="40" height="8" fill="#8a6e4a" rx="4"/>
+  
+  <!-- Step 7: Flip -->
+  <circle cx="200" cy="850" r="90" fill="#fff"/>
+  <text x="80" y="790" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">7</text>
+  
+  <!-- Pancake in air -->
+  <ellipse cx="220" cy="810" rx="40" ry="8" fill="#f4b560" transform="rotate(-20 220 810)"/>
+  <ellipse cx="220" cy="810" rx="35" ry="6" fill="#f4d595" transform="rotate(-20 220 810)"/>
+  
+  <!-- Pan -->
+  <ellipse cx="200" cy="890" rx="55" ry="12" fill="#2d3436"/>
+  <path d="M 145 890 Q 145 905 200 910 Q 255 905 255 890" fill="#34495e" stroke="#2d3436" stroke-width="2"/>
+  <rect x="255" y="885" width="40" height="8" fill="#8a6e4a" rx="4"/>
+  
+  <!-- Step 8: Add toppings -->
+  <circle cx="560" cy="850" r="90" fill="#fff"/>
+  <text x="440" y="790" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">8</text>
+  
+  <!-- Butter melting -->
+  <path d="M 600 790 Q 595 785 605 780 L 620 785 Q 625 790 615 795 Z" fill="#f4d03f"/>
+  <path d="M 605 795 Q 610 805 615 815 L 625 820 Q 630 815 625 805 Z" fill="#f4d595" opacity="0.6"/>
+  
+  <!-- Pancake stack -->
+  <ellipse cx="560" cy="920" rx="50" ry="12" fill="#e17766"/>
+  <ellipse cx="560" cy="905" rx="48" ry="10" fill="#f4b560"/>
+  <ellipse cx="560" cy="890" rx="48" ry="10" fill="#f4d595"/>
+  <ellipse cx="560" cy="875" rx="48" ry="10" fill="#f4b560"/>
+  <ellipse cx="560" cy="860" rx="48" ry="10" fill="#f4d595"/>
+  
+  <!-- Syrup drip -->
+  <path d="M 560 855 Q 555 870 560 920" fill="#d4823f" opacity="0.7"/>
+  <path d="M 570 860 Q 575 880 580 920" fill="#d4823f" opacity="0.7"/>
+  
+  <!-- Step 9: Serve -->
+  <circle cx="920" cy="850" r="90" fill="#fff"/>
+  <text x="800" y="790" font-family="Arial" font-size="48" fill="#e17766" font-weight="bold">9</text>
+  
+  <!-- Plate with pancakes -->
+  <ellipse cx="920" cy="920" rx="60" ry="15" fill="#e17766"/>
+  <ellipse cx="920" cy="918" rx="58" ry="13" fill="#f49b8a"/>
+  
+  <!-- Pancake stack -->
+  <ellipse cx="920" cy="905" rx="48" ry="10" fill="#f4b560"/>
+  <ellipse cx="920" cy="890" rx="48" ry="10" fill="#f4d595"/>
+  <ellipse cx="920" cy="875" rx="48" ry="10" fill="#f4b560"/>
+  <ellipse cx="920" cy="860" rx="48" ry="10" fill="#f4d595"/>
+  <ellipse cx="920" cy="845" rx="48" ry="10" fill="#f4b560"/>
+  
+  <!-- Syrup on top -->
+  <ellipse cx="920" cy="843" rx="25" ry="6" fill="#f4d03f"/>
+  <path d="M 895 845 Q 890 860 895 905" fill="#f4d03f" opacity="0.8"/>
+  <path d="M 920 843 Q 915 865 920 905" fill="#f4d03f" opacity="0.8"/>
+  <path d="M 945 845 Q 950 860 945 905" fill="#f4d03f" opacity="0.8"/>
+  
+  <!-- Watermark -->
+  <rect y="1015" width="1200" height="85" fill="#000"/>
+  <text x="50" y="1070" font-family="Arial" font-size="32" fill="#fff" font-weight="bold">alamy</text>
+  <text x="1100" y="1050" font-family="Arial" font-size="14" fill="#fff">Image ID: 2GY9MY</text>
+  <text x="1020" y="1070" font-family="Arial" font-size="14" fill="#fff">www.alamy.com</text>
+</svg>

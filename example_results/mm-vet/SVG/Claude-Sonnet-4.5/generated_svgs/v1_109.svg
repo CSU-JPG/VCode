@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect x="0" y="0" width="800" height="600" fill="#f5f1ed"/>
+  
+  <!-- Cabinet/counter base -->
+  <rect x="0" y="350" width="800" height="250" fill="#e8e4df"/>
+  
+  <!-- White cabinet door left -->
+  <rect x="50" y="200" width="150" height="400" fill="#ffffff"/>
+  <rect x="55" y="205" width="140" height="390" fill="#fafafa"/>
+  <line x1="125" y1="380" x2="125" y2="420" stroke="#c0c0c0" stroke-width="2"/>
+  
+  <!-- Leopard print frame on wall -->
+  <rect x="50" y="80" width="180" height="140" fill="#d4a574"/>
+  <circle cx="80" cy="110" r="8" fill="#8b6f47"/>
+  <circle cx="120" cy="95" r="12" fill="#8b6f47"/>
+  <circle cx="160" cy="120" r="10" fill="#8b6f47"/>
+  <circle cx="200" cy="105" r="9" fill="#8b6f47"/>
+  <circle cx="90" cy="150" r="11" fill="#8b6f47"/>
+  <circle cx="140" cy="170" r="13" fill="#8b6f47"/>
+  <circle cx="180" cy="155" r="10" fill="#8b6f47"/>
+  <ellipse cx="105" cy="130" rx="15" ry="12" fill="#8b6f47" opacity="0.6"/>
+  <ellipse cx="170" cy="190" rx="18" ry="14" fill="#8b6f47" opacity="0.6"/>
+  
+  <!-- Green item upper left -->
+  <path d="M 250 100 L 280 80 L 290 120 L 260 140 Z" fill="#8ba882"/>
+  
+  <!-- Sink -->
+  <ellipse cx="400" cy="380" rx="120" ry="60" fill="#c8c8c8"/>
+  <ellipse cx="400" cy="380" rx="110" ry="50" fill="#dcdcdc"/>
+  <ellipse cx="400" cy="375" rx="100" ry="45" fill="#e8e8e8"/>
+  
+  <!-- Faucet -->
+  <rect x="395" y="320" width="10" height="40" fill="#b8b8b8"/>
+  <path d="M 400 320 Q 380 300 380 280 Q 380 260 400 250" stroke="#b8b8b8" stroke-width="8" fill="none"/>
+  <circle cx="400" cy="250" r="8" fill="#a0a0a0"/>
+  
+  <!-- Trash bin -->
+  <rect x="550" y="400" width="180" height="180" fill="#e0e0e0" rx="5"/>
+  <rect x="560" y="410" width="160" height="160" fill="#f0f0f0"/>
+  <line x1="570" y1="420" x2="570" y2="560" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- Person's torso (purple sweater) -->
+  <ellipse cx="500" cy="180" rx="120" ry="140" fill="#c8a0c8"/>
+  <rect x="380" y="150" width="240" height="200" fill="#c8a0c8" rx="20"/>
+  <path d="M 380 250 Q 350 300 320 380" stroke="#b890b8" stroke-width="40" fill="none"/>
+  <path d="M 620 250 Q 650 300 680 380" stroke="#b890b8" stroke-width="40" fill="none"/>
+  
+  <!-- Person's pants (dark blue) -->
+  <rect x="420" y="320" width="160" height="150" fill="#3a4a5a"/>
+  
+  <!-- Arms and hands with gloves -->
+  <path d="M 380 200 Q 350 280 380 360" stroke="#b890b8" stroke-width="35" fill="none"/>
+  <path d="M 620 200 Q 650 280 620 360" stroke="#b890b8" stroke-width="35" fill="none"/>
+  
+  <!-- Yellow gloves/hands -->
+  <ellipse cx="380" cy="370" rx="30" ry="40" fill="#f5c563" transform="rotate(-20 380 370)"/>
+  <ellipse cx="620" cy="370" rx="30" ry="40" fill="#f5c563" transform="rotate(20 620 370)"/>
+  
+  <!-- Fingers on left hand -->
+  <ellipse cx="365" cy="390" rx="8" ry="18" fill="#f5c563" transform="rotate(-30 365 390)"/>
+  <ellipse cx="375" cy="395" rx="8" ry="20" fill="#f5c563" transform="rotate(-15 375 395)"/>
+  <ellipse cx="385" cy="398" rx="8" ry="20" fill="#f5c563" transform="rotate(0 385 398)"/>
+  <ellipse cx="395" cy="395" rx="8" ry="18" fill="#f5c563" transform="rotate(15 395 395)"/>
+  
+  <!-- Fingers on right hand -->
+  <ellipse cx="605" cy="395" rx="8" ry="18" fill="#f5c563" transform="rotate(30 605 395)"/>
+  <ellipse cx="615" cy="398" rx="8" ry="20" fill="#f5c563" transform="rotate(15 615 398)"/>
+  <ellipse cx="625" cy="398" rx="8" ry="20" fill="#f5c563" transform="rotate(0 625 398)"/>
+  <ellipse cx="635" cy="393" rx="8" ry="18" fill="#f5c563" transform="rotate(-15 635 393)"/>
+  
+  <!-- White plastic bag -->
+  <path d="M 450 350 Q 420 380 430 450 L 470 480 Q 500 490 530 480 L 570 450 Q 580 380 550 350 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M 450 350 Q 440 360 445 380 Q 450 390 460 395" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+  <path d="M 550 350 Q 560 360 555 380 Q 550 390 540 395" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+  
+  <!-- Bag handles -->
+  <path d="M 460 340 Q 470 320 480 330" stroke="#f0f0f0" stroke-width="6" fill="none"/>
+  <path d="M 540 340 Q 530 320 520 330" stroke="#f0f0f0" stroke-width="6" fill="none"/>
+  
+  <!-- Bag creases and folds -->
+  <path d="M 470 380 Q 480 400 490 420" stroke="#e8e8e8" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 530 380 Q 520 400 510 420" stroke="#e8e8e8" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 440 410 L 560 410" stroke="#e0e0e0" stroke-width="1" opacity="0.5"/>
+  <path d="M 445 430 L 555 430" stroke="#e0e0e0" stroke-width="1" opacity="0.5"/>
+</svg>

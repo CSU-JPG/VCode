@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b0b0b0"/>
+    </radialGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1810"/>
+      <stop offset="50%" style="stop-color:#3d2416"/>
+      <stop offset="100%" style="stop-color:#1a0f08"/>
+    </linearGradient>
+    <radialGradient id="skinGrad" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#ffd4b8"/>
+      <stop offset="80%" style="stop-color:#f5c4a8"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background blur effect -->
+  <rect width="800" height="700" fill="url(#bgGrad)"/>
+  <ellipse cx="150" cy="200" rx="80" ry="120" fill="#7a6b88" opacity="0.3"/>
+  <ellipse cx="650" cy="250" rx="90" ry="140" fill="#4a4a5a" opacity="0.4"/>
+  
+  <!-- Car interior shadow -->
+  <rect x="50" y="300" width="700" height="200" fill="#1a1a2e" opacity="0.6"/>
+  
+  <!-- Hair -->
+  <ellipse cx="400" cy="200" rx="140" ry="160" fill="url(#hairGrad)"/>
+  <path d="M 260 180 Q 280 120 320 100 Q 360 85 400 80 Q 440 85 480 100 Q 520 120 540 180 L 540 240 Q 520 200 480 180 Q 440 170 400 170 Q 360 170 320 180 Q 280 200 260 240 Z" fill="url(#hairGrad)"/>
+  
+  <!-- Bangs -->
+  <path d="M 300 140 Q 320 110 350 100 Q 370 95 390 95 L 390 180 Q 370 165 350 160 Q 330 160 310 170 Z" fill="#2a1810"/>
+  <path d="M 390 95 Q 410 95 430 100 Q 460 110 480 140 L 470 170 Q 450 160 430 160 Q 410 165 390 180 Z" fill="#2a1810"/>
+  
+  <!-- Face -->
+  <ellipse cx="400" cy="280" rx="95" ry="115" fill="url(#skinGrad)"/>
+  
+  <!-- Neck -->
+  <path d="M 350 360 Q 360 400 370 430 Q 375 440 400 440 Q 425 440 430 430 Q 440 400 450 360 Z" fill="#f5c4a8"/>
+  
+  <!-- White shirt collar -->
+  <path d="M 300 430 Q 320 410 350 400 L 370 450 Q 350 460 330 480 Z" fill="#ffffff"/>
+  <path d="M 500 430 Q 480 410 450 400 L 430 450 Q 450 460 470 480 Z" fill="#ffffff"/>
+  <path d="M 370 450 L 400 520 L 430 450 L 430 400 Q 415 395 400 395 Q 385 395 370 400 Z" fill="#fafafa"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="360" cy="260" rx="20" ry="18" fill="#ffffff"/>
+  <ellipse cx="440" cy="260" rx="20" ry="18" fill="#ffffff"/>
+  <circle cx="362" cy="262" r="12" fill="#4a7ba7"/>
+  <circle cx="442" cy="262" r="12" fill="#4a7ba7"/>
+  <circle cx="364" cy="260" r="6" fill="#1a1a1a"/>
+  <circle cx="444" cy="260" r="6" fill="#1a1a1a"/>
+  <circle cx="366" cy="258" r="3" fill="#ffffff"/>
+  <circle cx="446" cy="258" r="3" fill="#ffffff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 335 235 Q 350 230 370 232" stroke="#2a1810" stroke-width="3" fill="none"/>
+  <path d="M 430 232 Q 450 230 465 235" stroke="#2a1810" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M 390 280 Q 390 300 392 310" stroke="#d4a894" stroke-width="2" fill="none"/>
+  <path d="M 392 310 Q 388 312 385 310" stroke="#d4a894" stroke-width="1.5" fill="none"/>
+  <path d="M 392 310 Q 396 312 399 310" stroke="#d4a894" stroke-width="1.5" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M 375 330 Q 400 340 425 330" stroke="#c48880" stroke-width="2.5" fill="none"/>
+  <path d="M 375 330 Q 400 335 425 330" fill="#e8a8a0" opacity="0.6"/>
+  
+  <!-- Left hand with cigarette -->
+  <ellipse cx="250" cy="320" rx="25" ry="35" fill="url(#skinGrad)" transform="rotate(-20 250 320)"/>
+  <path d="M 240 300 Q 235 290 232 280 L 245 275 Q 248 285 250 295 Z" fill="#f5c4a8"/>
+  <path d="M 245 275 Q 242 265 240 255 L 252 252 Q 254 262 256 272 Z" fill="#f5c4a8"/>
+  <path d="M 252 252 Q 250 242 248 232 L 260 230 Q 262 240 263 250 Z" fill="#f5c4a8"/>
+  <path d="M 260 230 Q 258 220 257 210 L 268 209 Q 270 219 271 229 Z" fill="#f5c4a8"/>
+  
+  <!-- Cigarette -->
+  <rect x="265" y="205" width="35" height="6" fill="#f5f5f5" transform="rotate(-15 265 208)"/>
+  <rect x="298" y="200" width="8" height="6" fill="#d4a894" transform="rotate(-15 298 203)"/>
+  <line x1="305" y1="199" x2="308" y2="198" stroke="#ff6b4a" stroke-width="1.5"/>
+  
+  <!-- Right hand with milkshake -->
+  <ellipse cx="550" cy="400" rx="30" ry="40" fill="url(#skinGrad)" transform="rotate(15 550 400)"/>
+  <path d="M 560 385 Q 565 375 568 365 L 580 368 Q 577 378 573 388 Z" fill="#f5c4a8"/>
+  <path d="M 580 368 Q 583 358 585 348 L 596 351 Q 594 361 590 371 Z" fill="#f5c4a8"/>
+  <path d="M 596 351 Q 599 341 600 331 L 610 334 Q 609 344 606 354 Z" fill="#f5c4a8"/>
+  
+  <!-- Milkshake glass -->
+  <path d="M 600 480 L 620 380 L 680 380 L 700 480 Z" fill="#ffffff" opacity="0.7" stroke="#d0d0d0" stroke-width="2"/>
+  <ellipse cx="650" cy="380" rx="40" ry="8" fill="#f0f0f0"/>
+  <ellipse cx="650" cy="480" rx="50" ry="10" fill="#e8e8e8"/>
+  
+  <!-- Milkshake content -->
+  <path d="M 625 470 L 640 400 L 660 400 L 675 470 Z" fill="#f5e6d3"/>
+  <ellipse cx="650" cy="400" rx="20" ry="6" fill="#f8f0e3"/>
+  
+  <!-- Straw -->
+  <rect x="645" y="320" width="6" height="90" fill="#e74c3c" opacity="0.8"/>
+  <rect x="645" y="410" width="6" height="40" fill="#e74c3c" opacity="0.6"/>
+  
+  <!-- Red nail polish -->
+  <ellipse cx="268" cy="209" rx="4" ry="5" fill="#c41e3a"/>
+  <ellipse cx="610" cy="334" rx="4" ry="5" fill="#c41e3a"/>
+  
+  <!-- Shadows and highlights -->
+  <ellipse cx="340" cy="290" rx="15" ry="20" fill="#000000" opacity="0.05"/>
+  <ellipse cx="460" cy="290" rx="15" ry="20" fill="#000000" opacity="0.05"/>
+  <path d="M 380 200 Q 400 195 420 200" stroke="#ffffff" stroke-width="2" opacity="0.3" fill="none"/>
+</svg>

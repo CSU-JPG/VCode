@@ -1,0 +1,25 @@
+<svg viewBox="0 0 380 270" xmlns="http://www.w3.org/2000/svg">
+  <!-- Row 1, Box 1 -->
+  <rect x="10" y="10" width="160" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <text x="85" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">4 + 7 =</text>
+  
+  <!-- Row 1, Box 2 -->
+  <rect x="180" y="10" width="160" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <text x="260" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">7 + 2 =</text>
+  
+  <!-- Row 2, Box 1 -->
+  <rect x="10" y="100" width="160" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <text x="85" y="145" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">2 + 2 =</text>
+  
+  <!-- Row 2, Box 2 -->
+  <rect x="180" y="100" width="160" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <text x="260" y="145" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">6 + 1 =</text>
+  
+  <!-- Row 3, Box 1 -->
+  <rect x="10" y="190" width="160" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <text x="85" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">9 + 3 =</text>
+  
+  <!-- Row 3, Box 2 -->
+  <rect x="180" y="190" width="160" height="80" fill="white" stroke="black" stroke-width="2"/>
+  <text x="260" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">3 + 8 =</text>
+</svg>

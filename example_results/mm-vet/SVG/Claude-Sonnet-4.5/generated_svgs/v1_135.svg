@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="400" fill="#d4d8dc"/>
+  
+  <!-- Distant trees -->
+  <ellipse cx="100" cy="380" rx="80" ry="40" fill="#5a7a4a"/>
+  <ellipse cx="200" cy="385" rx="90" ry="35" fill="#5a7a4a"/>
+  <ellipse cx="320" cy="380" rx="100" ry="40" fill="#5a7a4a"/>
+  <ellipse cx="450" cy="385" rx="85" ry="35" fill="#5a7a4a"/>
+  <ellipse cx="580" cy="380" rx="95" ry="40" fill="#5a7a4a"/>
+  <ellipse cx="700" cy="385" rx="80" ry="35" fill="#5a7a4a"/>
+  
+  <!-- Grass field -->
+  <rect y="400" width="800" height="200" fill="#7ba05b"/>
+  
+  <!-- Grass texture lines -->
+  <line x1="0" y1="420" x2="800" y2="425" stroke="#6b9051" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="450" x2="800" y2="455" stroke="#6b9051" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="480" x2="800" y2="485" stroke="#6b9051" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Bushes on right -->
+  <ellipse cx="650" cy="420" rx="60" ry="30" fill="#6b9051"/>
+  <ellipse cx="700" cy="425" rx="50" ry="28" fill="#6b9051"/>
+  <ellipse cx="740" cy="420" rx="55" ry="32" fill="#6b9051"/>
+  
+  <!-- Kite -->
+  <g transform="translate(480, 80)">
+    <!-- Kite main body - lime green/yellow -->
+    <path d="M 0,-40 L 60,0 L 0,40 L -60,0 Z" fill="#c8e650"/>
+    <!-- Kite green design -->
+    <path d="M -10,-30 Q 0,-20 10,-30 L 0,-5 Z" fill="#6b9051"/>
+    <path d="M 20,-15 Q 30,-5 35,-18" fill="none" stroke="#4a7a3a" stroke-width="2"/>
+    <!-- Kite blue section -->
+    <rect x="-40" y="5" width="80" height="20" fill="#4a90c8"/>
+    <!-- Kite tail ribbons -->
+    <path d="M 0,40 L 5,60 L 0,80 L -5,60 Z" fill="#ff8080"/>
+    <path d="M 0,80 L 8,100 L 0,120 L -8,100 Z" fill="#ff6b6b"/>
+    <path d="M 0,120 L 6,135 L 0,150 L -6,135 Z" fill="#ff8080"/>
+    <!-- Kite string -->
+    <line x1="0" y1="40" x2="-50" y2="180" stroke="#888" stroke-width="1"/>
+  </g>
+  
+  <!-- Girl -->
+  <g transform="translate(400, 350)">
+    <!-- Head -->
+    <ellipse cx="0" cy="-85" rx="18" ry="20" fill="#f4c4a0"/>
+    
+    <!-- Hair with braid -->
+    <path d="M -18,-90 Q -25,-95 -22,-80 L -20,-70" fill="#8b6840" stroke="#8b6840" stroke-width="2"/>
+    <ellipse cx="-8" cy="-95" rx="12" ry="8" fill="#8b6840"/>
+    <ellipse cx="8" cy="-95" rx="12" ry="8" fill="#8b6840"/>
+    
+    <!-- Braid on right side -->
+    <path d="M 15,-75 Q 25,-70 28,-50 Q 30,-30 28,-10" fill="none" stroke="#8b6840" stroke-width="5"/>
+    <ellipse cx="28" cy="-50" rx="3" ry="4" fill="#8b6840"/>
+    <ellipse cx="28" cy="-35" rx="3" ry="4" fill="#8b6840"/>
+    <ellipse cx="28" cy="-20" rx="3" ry="4" fill="#8b6840"/>
+    
+    <!-- Facial features -->
+    <circle cx="-6" cy="-87" r="1.5" fill="#333"/>
+    <circle cx="6" cy="-87" r="1.5" fill="#333"/>
+    <path d="M -4,-80 Q 0,-78 4,-80" fill="none" stroke="#333" stroke-width="1"/>
+    
+    <!-- Body (white shirt) -->
+    <rect x="-22" y="-65" width="44" height="45" rx="5" fill="#ffffff"/>
+    
+    <!-- Right arm raised (holding kite string) -->
+    <rect x="-45" y="-65" width="12" height="50" rx="6" fill="#ffffff" transform="rotate(-45 -39 -40)"/>
+    <!-- Hand -->
+    <ellipse cx="-50" cy="-75" rx="5" ry="6" fill="#f4c4a0"/>
+    <!-- String from hand to kite -->
+    <line x1="-50" y1="-75" x2="30" y2="-70" stroke="#888" stroke-width="1" opacity="0.7"/>
+    
+    <!-- Left arm -->
+    <rect x="10" y="-55" width="12" height="45" rx="6" fill="#ffffff" transform="rotate(25 16 -32)"/>
+    <!-- Left hand -->
+    <ellipse cx="28" cy="-20" rx="5" ry="6" fill="#f4c4a0"/>
+    
+    <!-- Pants (black) -->
+    <rect x="-18" y="-20" width="16" height="50" rx="4" fill="#2c2c2c"/>
+    <rect x="2" y="-20" width="16" height="50" rx="4" fill="#2c2c2c"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-10" cy="32" rx="8" ry="5" fill="#4a4a4a"/>
+    <ellipse cx="10" cy="32" rx="8" ry="5" fill="#4a4a4a"/>
+    <rect x="-14" y="27" width="8" height="8" fill="#ffffff"/>
+    <rect x="6" y="27" width="8" height="8" fill="#ffffff"/>
+  </g>
+</svg>

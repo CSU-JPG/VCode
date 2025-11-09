@@ -1,0 +1,136 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF7F50;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#FF7F50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5B9FAD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8E8E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0D0D0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="900" fill="url(#bgGrad)"/>
+  
+  <!-- Left Joy-Con (Cyan) -->
+  <g>
+    <rect x="150" y="220" width="130" height="470" rx="25" fill="#40C4D4"/>
+    <circle cx="215" cy="350" r="35" fill="#1A1A1A" opacity="0.8"/>
+    <circle cx="215" cy="350" r="28" fill="#2A2A2A"/>
+    <circle cx="188" cy="510" r="16" fill="#1A1A1A"/>
+    <circle cx="215" cy="540" r="16" fill="#1A1A1A"/>
+    <circle cx="242" cy="510" r="16" fill="#1A1A1A"/>
+    <circle cx="215" cy="480" r="16" fill="#1A1A1A"/>
+    <rect x="195" y="630" width="40" height="40" rx="5" fill="#1A1A1A"/>
+    <rect x="165" y="260" width="18" height="6" rx="2" fill="#1A1A1A"/>
+  </g>
+  
+  <!-- Right Joy-Con (Red) -->
+  <g>
+    <rect x="1120" y="220" width="130" height="470" rx="25" fill="#FF6B6B"/>
+    <circle cx="1185" cy="570" r="35" fill="#1A1A1A" opacity="0.8"/>
+    <circle cx="1185" cy="570" r="28" fill="#2A2A2A"/>
+    <circle cx="1225" cy="275" r="12" fill="#1A1A1A"/>
+    <text x="1225" y="281" font-family="Arial" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">+</text>
+    <circle cx="1235" cy="345" r="14" fill="#1A1A1A"/>
+    <text x="1235" y="352" font-family="Arial" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle">X</text>
+    <circle cx="1210" cy="375" r="14" fill="#1A1A1A"/>
+    <text x="1210" y="382" font-family="Arial" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle">Y</text>
+    <circle cx="1260" cy="375" r="14" fill="#1A1A1A"/>
+    <text x="1260" y="382" font-family="Arial" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle">A</text>
+    <circle cx="1235" cy="405" r="14" fill="#1A1A1A"/>
+    <text x="1235" y="412" font-family="Arial" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle">B</text>
+    <circle cx="1185" cy="480" r="10" fill="#1A1A1A"/>
+  </g>
+  
+  <!-- Main Console Body -->
+  <rect x="280" y="200" width="840" height="500" rx="15" fill="#1A1A1A"/>
+  
+  <!-- Screen -->
+  <rect x="320" y="250" width="760" height="390" rx="8" fill="url(#screenGrad)"/>
+  
+  <!-- Status bar -->
+  <g>
+    <circle cx="375" cy="285" r="10" fill="#4CAF50"/>
+    <circle cx="385" cy="285" r="5" fill="#FFF"/>
+    <circle cx="415" cy="285" r="10" fill="#4CAF50"/>
+    <circle cx="425" cy="285" r="5" fill="#FFF"/>
+    <text x="1020" y="292" font-family="Arial" font-size="14" fill="#333">5:30PM</text>
+    <path d="M 1042 278 L 1042 292 L 1046 292 L 1046 280 L 1050 280 L 1050 292 L 1054 292 L 1054 282 L 1054 278 Z" fill="#333"/>
+    <text x="1058" y="292" font-family="Arial" font-size="13" fill="#333">88%</text>
+    <rect x="1010" y="280" width="20" height="10" rx="2" fill="none" stroke="#333" stroke-width="1.5"/>
+    <rect x="1030" y="283" width="2" height="4" fill="#333"/>
+    <rect x="1012" y="282" width="16" height="6" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Game title -->
+  <text x="375" y="335" font-family="Arial" font-size="16" font-weight="bold" fill="#00BCD4">Mario Kart 8 Deluxe</text>
+  
+  <!-- Game tiles -->
+  <g>
+    <!-- Mario Kart 8 -->
+    <rect x="375" y="360" width="130" height="150" rx="8" fill="#E30000"/>
+    <text x="440" y="425" font-family="Arial" font-size="24" font-weight="bold" fill="#FFD700" text-anchor="middle">MK8</text>
+    <text x="440" y="450" font-family="Arial" font-size="12" fill="#FFF" text-anchor="middle">DELUXE</text>
+    
+    <!-- Super Mario Odyssey -->
+    <rect x="520" y="360" width="130" height="150" rx="8" fill="#E30000"/>
+    <text x="585" y="425" font-family="Arial" font-size="20" font-weight="bold" fill="#FFD700" text-anchor="middle">SUPER</text>
+    <text x="585" y="445" font-family="Arial" font-size="20" font-weight="bold" fill="#FFF" text-anchor="middle">MARIO</text>
+    
+    <!-- Zelda BOTW -->
+    <rect x="665" y="360" width="130" height="150" rx="8" fill="#1976D2"/>
+    <text x="730" y="420" font-family="Arial" font-size="18" font-weight="bold" fill="#FFD700" text-anchor="middle">ZELDA</text>
+    <text x="730" y="445" font-family="Arial" font-size="12" fill="#FFF" text-anchor="middle">Breath of</text>
+    <text x="730" y="460" font-family="Arial" font-size="12" fill="#FFF" text-anchor="middle">the Wild</text>
+    
+    <!-- Fortnite -->
+    <rect x="810" y="360" width="130" height="150" rx="8" fill="#0096FF"/>
+    <text x="875" y="415" font-family="Arial" font-size="22" font-weight="bold" fill="#FFF" text-anchor="middle">FORTNITE</text>
+  </g>
+  
+  <!-- Bottom menu icons -->
+  <g>
+    <rect x="510" y="535" width="40" height="35" rx="5" fill="#FF6B6B"/>
+    <rect x="515" y="545" width="30" height="3" fill="#FFF"/>
+    <rect x="515" y="552" width="30" height="3" fill="#FFF"/>
+    <rect x="515" y="559" width="30" height="3" fill="#FFF"/>
+    
+    <rect x="570" y="535" width="40" height="35" rx="5" fill="#FF9800"/>
+    <rect x="578" y="543" width="24" height="20" rx="2" fill="none" stroke="#FFF" stroke-width="2"/>
+    <path d="M 578 550 L 590 543 L 602 550" fill="none" stroke="#FFF" stroke-width="2"/>
+    
+    <rect x="630" y="535" width="40" height="35" rx="5" fill="#2196F3"/>
+    <rect x="638" y="543" width="24" height="18" rx="2" fill="none" stroke="#FFF" stroke-width="2"/>
+    <circle cx="650" cy="549" r="3" fill="#FFF"/>
+    
+    <rect x="690" y="535" width="40" height="35" rx="5" fill="#9E9E9E"/>
+    <path d="M 700 545 L 720 545 M 710 535 L 710 555 M 705 540 L 710 535 L 715 540 M 705 550 L 710 555 L 715 550" stroke="#FFF" stroke-width="2" fill="none"/>
+    
+    <circle cx="770" cy="552" r="20" fill="#757575"/>
+    <path d="M 770 542 a 10 10 0 0 1 0 20 M 770 542 a 10 10 0 0 0 0 20" fill="none" stroke="#FFF" stroke-width="2.5"/>
+    
+    <circle cx="830" cy="552" r="20" fill="#757575"/>
+    <circle cx="830" cy="552" r="8" fill="none" stroke="#FFF" stroke-width="2.5"/>
+    <line x1="830" y1="544" x2="830" y2="538" stroke="#FFF" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Console icon bottom left -->
+  <g>
+    <rect x="365" y="605" width="35" height="20" rx="3" fill="#666"/>
+    <rect x="370" y="610" width="25" height="10" fill="#333"/>
+    <circle cx="375" cy="615" r="2" fill="#666"/>
+    <circle cx="395" cy="615" r="2" fill="#666"/>
+  </g>
+  
+  <!-- Options and Start text -->
+  <g>
+    <circle cx="830" cy="608" r="8" fill="#333"/>
+    <text x="855" y="613" font-family="Arial" font-size="14" fill="#666">Options</text>
+    <circle cx="915" cy="608" r="8" fill="#333"/>
+    <text x="940" y="613" font-family="Arial" font-size="14" fill="#666">Start</text>
+  </g>
+</svg>

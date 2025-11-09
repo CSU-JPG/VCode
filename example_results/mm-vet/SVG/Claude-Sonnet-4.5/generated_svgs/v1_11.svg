@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#f5f5f5"/>
+  
+  <!-- Red header stripe -->
+  <rect width="1200" height="40" fill="#c41e3a"/>
+  
+  <!-- Left card -->
+  <rect x="20" y="50" width="360" height="230" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="40" y="80" font-family="Arial, sans-serif" font-size="20" font-weight="bold">608384</text>
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="18">*</text>
+  <text x="40" y="105" font-family="Arial, sans-serif" font-size="12">NORTHSTAR</text>
+  <text x="40" y="120" font-family="Arial, sans-serif" font-size="12">MERLOT</text>
+  <text x="40" y="135" font-family="Arial, sans-serif" font-size="11">COLUMBIA VALLEY 3.0 L</text>
+  <text x="80" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#c41e3a">139.99</text>
+  <text x="40" y="200" font-family="Arial, sans-serif" font-size="9" font-weight="bold">RATINGS ON RECENT VINTAGES:</text>
+  <text x="40" y="212" font-family="Arial, sans-serif" font-size="8">2014 No Rating Available</text>
+  <text x="40" y="228" font-family="Arial, sans-serif" font-size="8">Rich concentrated aromas of</text>
+  <text x="40" y="238" font-family="Arial, sans-serif" font-size="8">cherry, raspberry &amp; chocolate</text>
+  <text x="40" y="248" font-family="Arial, sans-serif" font-size="8">intermingled with notes of</text>
+  <text x="40" y="258" font-family="Arial, sans-serif" font-size="8">cinnamon &amp; vanilla. Silky and</text>
+  <text x="40" y="268" font-family="Arial, sans-serif" font-size="8">soft with a lingering toasted</text>
+  
+  <!-- Middle card -->
+  <rect x="420" y="50" width="360" height="230" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="440" y="80" font-family="Arial, sans-serif" font-size="20" font-weight="bold">729226</text>
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="18">*</text>
+  <text x="440" y="105" font-family="Arial, sans-serif" font-size="12">MOET &amp; CHANDON</text>
+  <text x="440" y="120" font-family="Arial, sans-serif" font-size="12">IMPERIAL</text>
+  <text x="440" y="135" font-family="Arial, sans-serif" font-size="12">FRANCE</text>
+  <text x="440" y="150" font-family="Arial, sans-serif" font-size="11">1.5 L</text>
+  
+  <!-- Photo placeholder -->
+  <rect x="480" y="85" width="100" height="80" fill="#e0e0e0" stroke="#999" stroke-width="1"/>
+  <text x="500" y="130" font-family="Arial, sans-serif" font-size="10" fill="#666">PHOTO</text>
+  
+  <text x="480" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#c41e3a">114.99</text>
+  <text x="440" y="200" font-family="Arial, sans-serif" font-size="9" font-weight="bold">RATINGS ON CURRENT VINTAGES:</text>
+  <text x="440" y="212" font-family="Arial, sans-serif" font-size="8">NV WINE SPECTATOR 91 PTS</text>
+  <text x="440" y="228" font-family="Arial, sans-serif" font-size="8">The aromas are intense and</text>
+  <text x="440" y="238" font-family="Arial, sans-serif" font-size="8">irresistible, a fresh bouquet</text>
+  <text x="440" y="248" font-family="Arial, sans-serif" font-size="8">of bright fruits, a mix of</text>
+  <text x="440" y="258" font-family="Arial, sans-serif" font-size="8">strawberry, raspberry &amp; red</text>
+  <text x="440" y="268" font-family="Arial, sans-serif" font-size="8">currant, with floral nuances</text>
+  
+  <!-- Right card -->
+  <rect x="820" y="50" width="360" height="230" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="840" y="80" font-family="Arial, sans-serif" font-size="20" font-weight="bold">1202915</text>
+  <text x="1000" y="80" font-family="Arial, sans-serif" font-size="18">*</text>
+  <text x="840" y="105" font-family="Arial, sans-serif" font-size="12">CHATEAU ST MICHELLE</text>
+  <text x="840" y="120" font-family="Arial, sans-serif" font-size="12">COLD CREEK CABERNET</text>
+  <text x="840" y="135" font-family="Arial, sans-serif" font-size="11">COLUMBIA VALLEY 3.0 L</text>
+  <text x="880" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#c41e3a">109.99</text>
+  <text x="840" y="200" font-family="Arial, sans-serif" font-size="9" font-weight="bold">RATINGS ON RECENT VINTAGES:</text>
+  <text x="840" y="212" font-family="Arial, sans-serif" font-size="8">2014 No Rating Available</text>
+  <text x="840" y="228" font-family="Arial, sans-serif" font-size="8">Flavors of dark cherries and</text>
+  <text x="840" y="238" font-family="Arial, sans-serif" font-size="8">cassis on the nose and lively</text>
+  <text x="840" y="248" font-family="Arial, sans-serif" font-size="8">intensified by the richness &amp;</text>
+  <text x="840" y="258" font-family="Arial, sans-serif" font-size="8">density of grapes from this</text>
+  <text x="840" y="268" font-family="Arial, sans-serif" font-size="8">vineyard that was planted more</text>
+  
+  <!-- Chicken text in header -->
+  <text x="480" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">CHICKEN</text>
+</svg>

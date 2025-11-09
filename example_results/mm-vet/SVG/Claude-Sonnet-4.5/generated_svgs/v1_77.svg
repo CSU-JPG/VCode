@@ -1,0 +1,117 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="1280" height="480" fill="#7BA5D4"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="200" cy="100" rx="80" ry="40" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="250" cy="90" rx="90" ry="45" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="300" cy="100" rx="70" ry="35" fill="#FFFFFF" opacity="0.9"/>
+  
+  <ellipse cx="600" cy="120" rx="100" ry="50" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="670" cy="110" rx="85" ry="45" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="730" cy="120" rx="75" ry="40" fill="#FFFFFF" opacity="0.9"/>
+  
+  <ellipse cx="1000" cy="80" rx="90" ry="45" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="1070" cy="90" rx="80" ry="40" fill="#FFFFFF" opacity="0.85"/>
+  
+  <!-- Ground -->
+  <rect y="480" width="1280" height="240" fill="#6B6B6B"/>
+  
+  <!-- Road markings -->
+  <rect x="0" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="120" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="240" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="360" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="480" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="600" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="720" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="840" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="960" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="1080" y="650" width="80" height="10" fill="#FFFFFF"/>
+  <rect x="1200" y="650" width="80" height="10" fill="#FFFFFF"/>
+  
+  <!-- Left building -->
+  <rect x="50" y="350" width="180" height="200" fill="#E8E3D8"/>
+  <rect x="60" y="360" width="30" height="30" fill="#4A4A4A"/>
+  <rect x="100" y="360" width="30" height="30" fill="#4A4A4A"/>
+  <rect x="140" y="360" width="30" height="30" fill="#4A4A4A"/>
+  <rect x="180" y="360" width="30" height="30" fill="#4A4A4A"/>
+  
+  <!-- Palm trees left -->
+  <rect x="70" y="420" width="12" height="120" fill="#8B6F47"/>
+  <ellipse cx="76" cy="410" rx="30" ry="35" fill="#4A7C3E"/>
+  <ellipse cx="76" cy="395" rx="25" ry="30" fill="#5A8C4E"/>
+  
+  <rect x="120" y="410" width="12" height="130" fill="#8B6F47"/>
+  <ellipse cx="126" cy="400" rx="32" ry="37" fill="#4A7C3E"/>
+  <ellipse cx="126" cy="385" rx="27" ry="32" fill="#5A8C4E"/>
+  
+  <rect x="170" y="430" width="10" height="110" fill="#8B6F47"/>
+  <ellipse cx="175" cy="420" rx="28" ry="33" fill="#4A7C3E"/>
+  <ellipse cx="175" cy="405" rx="23" ry="28" fill="#5A8C4E"/>
+  
+  <rect x="210" y="425" width="11" height="115" fill="#8B6F47"/>
+  <ellipse cx="215" cy="415" rx="29" ry="34" fill="#4A7C3E"/>
+  <ellipse cx="215" cy="400" rx="24" ry="29" fill="#5A8C4E"/>
+  
+  <!-- Mosque main structure -->
+  <rect x="480" y="380" width="320" height="170" fill="#9B8B7E"/>
+  
+  <!-- Mosque arches -->
+  <path d="M 500 520 Q 500 480 530 480 Q 560 480 560 520 Z" fill="#2C2C2C"/>
+  <path d="M 580 520 Q 580 480 610 480 Q 640 480 640 520 Z" fill="#2C2C2C"/>
+  <path d="M 660 520 Q 660 480 690 480 Q 720 480 720 520 Z" fill="#2C2C2C"/>
+  
+  <!-- Mosque dome -->
+  <ellipse cx="640" cy="360" rx="90" ry="50" fill="#C4B5A0"/>
+  <path d="M 550 360 Q 640 310 730 360" fill="#D4C5B0"/>
+  
+  <!-- Small domes -->
+  <ellipse cx="560" cy="390" rx="35" ry="20" fill="#E8DCC8"/>
+  <ellipse cx="620" cy="390" rx="35" ry="20" fill="#E8DCC8"/>
+  <ellipse cx="680" cy="390" rx="35" ry="20" fill="#E8DCC8"/>
+  <ellipse cx="740" cy="390" rx="35" ry="20" fill="#E8DCC8"/>
+  
+  <!-- Left minaret -->
+  <rect x="525" y="200" width="30" height="200" fill="#8B7E71"/>
+  <rect x="520" y="190" width="40" height="20" fill="#9B8B7E"/>
+  <polygon points="540,140 520,190 560,190" fill="#A09080"/>
+  <circle cx="540" cy="130" r="8" fill="#7A6A5A"/>
+  
+  <!-- Right minaret -->
+  <rect x="725" y="180" width="30" height="220" fill="#8B7E71"/>
+  <rect x="720" y="170" width="40" height="20" fill="#9B8B7E"/>
+  <polygon points="740,120 720,170 760,170" fill="#A09080"/>
+  <circle cx="740" cy="110" r="8" fill="#7A6A5A"/>
+  
+  <!-- Right building -->
+  <rect x="1050" y="420" width="150" height="130" fill="#4A4A4A"/>
+  <path d="M 1050 420 L 1125 390 L 1200 420 Z" fill="#3A3A3A"/>
+  
+  <!-- Background buildings -->
+  <rect x="850" y="450" width="120" height="100" fill="#B8B8B8"/>
+  <rect x="990" y="460" width="80" height="90" fill="#C8C8C8"/>
+  
+  <!-- Small plants/shrubs on ground -->
+  <ellipse cx="350" cy="570" rx="25" ry="20" fill="#5A7A4A"/>
+  <ellipse cx="420" cy="575" rx="20" ry="18" fill="#5A7A4A"/>
+  <ellipse cx="850" cy="570" rx="22" ry="19" fill="#5A7A4A"/>
+  <ellipse cx="920" cy="575" rx="23" ry="20" fill="#5A7A4A"/>
+  
+  <!-- Planters -->
+  <rect x="380" y="560" width="30" height="20" fill="#6B5B4A"/>
+  <rect x="450" y="560" width="30" height="20" fill="#6B5B4A"/>
+  <ellipse cx="395" cy="555" rx="12" ry="15" fill="#4A7A3A"/>
+  <ellipse cx="465" cy="555" rx="12" ry="15" fill="#4A7A3A"/>
+  
+  <!-- People silhouettes -->
+  <ellipse cx="780" cy="600" rx="8" ry="10" fill="#1A1A1A"/>
+  <rect x="776" y="610" width="8" height="25" fill="#1A1A1A"/>
+  <rect x="772" y="620" width="5" height="15" fill="#1A1A1A"/>
+  <rect x="783" y="620" width="5" height="15" fill="#1A1A1A"/>
+  
+  <ellipse cx="820" cy="605" rx="8" ry="10" fill="#1A1A1A"/>
+  <rect x="816" y="615" width="8" height="25" fill="#1A1A1A"/>
+  <rect x="812" y="625" width="5" height="15" fill="#1A1A1A"/>
+  <rect x="823" y="625" width="5" height="15" fill="#1A1A1A"/>
+</svg>

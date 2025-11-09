@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background soil -->
+  <rect width="800" height="600" fill="#4a3626"/>
+  
+  <!-- Darker soil patches -->
+  <ellipse cx="200" cy="500" rx="150" ry="80" fill="#3d2b1f" opacity="0.6"/>
+  <ellipse cx="600" cy="520" rx="180" ry="70" fill="#3d2b1f" opacity="0.5"/>
+  <ellipse cx="400" cy="480" rx="200" ry="90" fill="#3d2b1f" opacity="0.4"/>
+  
+  <!-- Yellow/brown dying outer leaves -->
+  <ellipse cx="150" cy="380" rx="120" ry="60" fill="#b8a558" opacity="0.7" transform="rotate(-25 150 380)"/>
+  <ellipse cx="650" cy="400" rx="110" ry="55" fill="#b8a558" opacity="0.7" transform="rotate(20 650 400)"/>
+  <ellipse cx="250" cy="450" rx="100" ry="50" fill="#c4b060" opacity="0.6" transform="rotate(-40 250 450)"/>
+  <ellipse cx="550" cy="470" rx="105" ry="52" fill="#c4b060" opacity="0.6" transform="rotate(35 550 470)"/>
+  
+  <!-- Yellowish leaves behind -->
+  <ellipse cx="320" cy="280" rx="80" ry="110" fill="#9eb86f" opacity="0.5" transform="rotate(-15 320 280)"/>
+  <ellipse cx="480" cy="290" rx="75" ry="105" fill="#9eb86f" opacity="0.5" transform="rotate(18 480 290)"/>
+  
+  <!-- Dark green outer leaves -->
+  <ellipse cx="250" cy="250" rx="90" ry="120" fill="#5a7c4a" transform="rotate(-30 250 250)"/>
+  <ellipse cx="550" cy="260" rx="85" ry="115" fill="#5a7c4a" transform="rotate(28 550 260)"/>
+  <ellipse cx="200" cy="320" rx="75" ry="100" fill="#6b8c5a" transform="rotate(-45 200 320)"/>
+  <ellipse cx="600" cy="330" rx="72" ry="95" fill="#6b8c5a" transform="rotate(42 600 330)"/>
+  
+  <!-- Medium green leaves -->
+  <ellipse cx="300" cy="220" rx="70" ry="95" fill="#7a9b69" transform="rotate(-20 300 220)"/>
+  <ellipse cx="500" cy="230" rx="68" ry="90" fill="#7a9b69" transform="rotate(22 500 230)"/>
+  <ellipse cx="280" cy="280" rx="65" ry="85" fill="#85a675" transform="rotate(-35 280 280)"/>
+  <ellipse cx="520" cy="290" rx="63" ry="83" fill="#85a675" transform="rotate(33 520 290)"/>
+  
+  <!-- Lighter green inner leaves -->
+  <ellipse cx="350" cy="200" rx="60" ry="80" fill="#a4c48a" transform="rotate(-12 350 200)"/>
+  <ellipse cx="450" cy="210" rx="58" ry="78" fill="#a4c48a" transform="rotate(15 450 210)"/>
+  <ellipse cx="340" cy="250" rx="55" ry="75" fill="#b5d39d" transform="rotate(-25 340 250)"/>
+  <ellipse cx="460" cy="260" rx="53" ry="73" fill="#b5d39d" transform="rotate(23 460 260)"/>
+  
+  <!-- Central cabbage head - pale blue-green -->
+  <ellipse cx="400" cy="240" rx="70" ry="65" fill="#c8d9c4"/>
+  <ellipse cx="395" cy="235" rx="60" ry="55" fill="#d4e4d0"/>
+  <ellipse cx="400" cy="230" rx="50" ry="45" fill="#dcecd8"/>
+  
+  <!-- Cabbage texture lines -->
+  <path d="M 380 210 Q 400 220 420 210" stroke="#b8c9b4" fill="none" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 375 230 Q 400 240 425 230" stroke="#b8c9b4" fill="none" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 370 250 Q 400 260 430 250" stroke="#b8c9b4" fill="none" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Leaf veins on outer leaves -->
+  <path d="M 250 200 L 250 300" stroke="#4a6339" fill="none" stroke-width="2" opacity="0.4"/>
+  <path d="M 550 210 L 550 310" stroke="#4a6339" fill="none" stroke-width="2" opacity="0.4"/>
+  <path d="M 300 180 L 300 260" stroke="#5a7346" fill="none" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 500 190 L 500 270" stroke="#5a7346" fill="none" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Highlights on cabbage -->
+  <ellipse cx="390" cy="225" rx="15" ry="12" fill="#f0f8ec" opacity="0.5"/>
+  <ellipse cx="410" cy="235" rx="12" ry="10" fill="#f0f8ec" opacity="0.4"/>
+</svg>

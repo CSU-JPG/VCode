@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1410"/>
+  
+  <!-- Blurred background crowd -->
+  <ellipse cx="150" cy="250" rx="60" ry="80" fill="#3a2820" opacity="0.6"/>
+  <ellipse cx="650" cy="280" rx="70" ry="90" fill="#3a2820" opacity="0.5"/>
+  <ellipse cx="400" cy="300" rx="50" ry="70" fill="#2a1f18" opacity="0.4"/>
+  
+  <!-- Blurred sign at top -->
+  <rect x="150" y="30" width="500" height="80" fill="#8b6f47" opacity="0.7" rx="5"/>
+  <rect x="170" y="45" width="460" height="50" fill="#6b5537" opacity="0.6" rx="3"/>
+  
+  <!-- Left figure (white shirt, black vest) -->
+  <g id="leftFigure">
+    <!-- Head -->
+    <ellipse cx="280" cy="240" rx="40" ry="50" fill="#d4b5a0"/>
+    <!-- Ear -->
+    <ellipse cx="315" cy="245" rx="10" ry="15" fill="#c4a590"/>
+    <!-- Hair -->
+    <path d="M 240 220 Q 260 200 280 195 Q 300 198 315 210 L 315 240 Q 310 225 280 220 Q 250 222 240 235 Z" fill="#1a1410"/>
+    <!-- Neck -->
+    <rect x="265" y="280" width="30" height="40" fill="#d4b5a0"/>
+    <!-- White shirt -->
+    <path d="M 250 320 L 240 500 L 320 500 L 310 320 Q 280 315 250 320 Z" fill="#f5f5f0"/>
+    <!-- Black vest -->
+    <path d="M 245 340 L 238 500 L 210 500 L 210 380 Q 220 350 245 340 Z" fill="#0f0f0f"/>
+    <path d="M 315 340 L 322 500 L 350 500 L 350 380 Q 340 350 315 340 Z" fill="#0f0f0f"/>
+    <!-- Collar -->
+    <polygon points="265,318 250,330 255,340 270,325" fill="#f5f5f0"/>
+    <polygon points="295,318 310,330 305,340 290,325" fill="#f5f5f0"/>
+    <!-- Black tie -->
+    <path d="M 278 330 L 275 420 L 280 425 L 285 420 L 282 330 Z" fill="#0f0f0f"/>
+    <!-- Arm reaching to right figure -->
+    <path d="M 320 360 Q 380 340 420 350 L 425 370 Q 385 365 330 385 Z" fill="#f5f5f0"/>
+    <!-- Hand on right figure's face -->
+    <ellipse cx="430" cy="250" rx="25" ry="20" fill="#d4b5a0" transform="rotate(-15 430 250)"/>
+  </g>
+  
+  <!-- Right figure (black suit) -->
+  <g id="rightFigure">
+    <!-- Head -->
+    <ellipse cx="520" cy="260" rx="42" ry="52" fill="#d4b5a0"/>
+    <!-- Ear -->
+    <ellipse cx="485" cy="265" rx="10" ry="15" fill="#c4a590"/>
+    <!-- Hair -->
+    <path d="M 480 235 Q 500 215 520 210 Q 545 215 560 230 L 560 265 Q 550 240 520 235 Q 490 237 480 250 Z" fill="#2a1f18"/>
+    <!-- Neck -->
+    <rect x="505" y="300" width="30" height="40" fill="#d4b5a0"/>
+    <!-- White shirt collar -->
+    <path d="M 490 335 L 485 350 L 500 355 L 505 340 Z" fill="#f5f5f0"/>
+    <path d="M 550 335 L 555 350 L 540 355 L 535 340 Z" fill="#f5f5f0"/>
+    <!-- Black suit -->
+    <path d="M 490 350 L 470 500 L 400 500 L 400 400 Q 420 365 490 350 Z" fill="#0f0f0f"/>
+    <path d="M 550 350 L 570 500 L 640 500 L 640 400 Q 620 365 550 350 Z" fill="#0f0f0f"/>
+    <!-- Lapels -->
+    <path d="M 505 340 L 490 360 L 485 500 L 500 500 L 505 360 Z" fill="#1a1a1a"/>
+    <path d="M 535 340 L 550 360 L 555 500 L 540 500 L 535 360 Z" fill="#1a1a1a"/>
+    <!-- Left arm -->
+    <path d="M 470 370 L 440 420 L 430 500 L 460 500 L 475 400 Z" fill="#0f0f0f"/>
+    <!-- Right arm reaching to left figure -->
+    <path d="M 570 380 Q 530 360 480 365 L 475 385 Q 520 380 565 400 Z" fill="#0f0f0f"/>
+  </g>
+  
+  <!-- Floor -->
+  <rect x="0" y="500" width="800" height="100" fill="#2a1f18"/>
+  
+  <!-- Ambient lighting effects -->
+  <ellipse cx="400" cy="200" rx="300" ry="200" fill="#4a3820" opacity="0.15"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#c4b5a0"/>
+  
+  <!-- Window frames in background -->
+  <rect x="100" y="50" width="180" height="280" fill="#8b7355" opacity="0.6"/>
+  <rect x="320" y="50" width="180" height="280" fill="#8b7355" opacity="0.6"/>
+  <rect x="540" y="50" width="180" height="280" fill="#8b7355" opacity="0.6"/>
+  <rect x="760" y="50" width="180" height="280" fill="#8b7355" opacity="0.6"/>
+  <rect x="980" y="50" width="180" height="280" fill="#8b7355" opacity="0.6"/>
+  
+  <!-- Figure 1 - Left man in tuxedo -->
+  <ellipse cx="200" cy="580" rx="80" ry="40" fill="#1a1a1a"/>
+  <rect x="160" y="360" width="80" height="220" fill="#1a1a1a"/>
+  <rect x="150" y="340" width="100" height="30" fill="#f5e6d3"/>
+  <path d="M 170 360 L 160 420 L 180 420 Z" fill="#1a1a1a"/>
+  <path d="M 230 360 L 240 420 L 220 420 Z" fill="#1a1a1a"/>
+  <circle cx="200" cy="300" r="35" fill="#d4a574"/>
+  <path d="M 185 280 Q 200 270 215 280" fill="#8b4513"/>
+  <circle cx="193" cy="300" r="3" fill="#2c1810"/>
+  <circle cx="207" cy="300" r="3" fill="#2c1810"/>
+  <rect x="185" y="340" width="30" height="20" fill="#000"/>
+  
+  <!-- Figure 2 - Man with hat -->
+  <ellipse cx="430" cy="580" rx="85" ry="40" fill="#1a1a1a"/>
+  <rect x="385" y="360" width="90" height="220" fill="#1a1a1a"/>
+  <rect x="375" y="340" width="110" height="30" fill="#f5e6d3"/>
+  <path d="M 395 360 L 385 420 L 410 420 Z" fill="#1a1a1a"/>
+  <path d="M 465 360 L 475 420 L 450 420 Z" fill="#1a1a1a"/>
+  <circle cx="430" cy="300" r="38" fill="#d4a574"/>
+  <ellipse cx="430" cy="260" rx="50" ry="20" fill="#2c2c2c"/>
+  <rect x="395" y="250" width="70" height="20" fill="#2c2c2c"/>
+  <path d="M 415 290 Q 430 305 445 290" fill="#4a4a4a"/>
+  <circle cx="420" cy="300" r="3" fill="#2c1810"/>
+  <circle cx="440" cy="300" r="3" fill="#2c1810"/>
+  <rect x="415" y="340" width="30" height="20" fill="#000"/>
+  
+  <!-- Figure 3 - Man in military uniform -->
+  <ellipse cx="660" cy="580" rx="80" ry="40" fill="#4a5f3a"/>
+  <rect x="620" y="360" width="80" height="220" fill="#4a5f3a"/>
+  <rect x="610" y="340" width="100" height="30" fill="#d4c5a0"/>
+  <path d="M 630 360 L 620 420 L 645 420 Z" fill="#4a5f3a"/>
+  <path d="M 690 360 L 700 420 L 675 420 Z" fill="#4a5f3a"/>
+  <circle cx="660" cy="300" r="35" fill="#d4a574"/>
+  <ellipse cx="660" cy="265" rx="38" ry="18" fill="#2c2c2c"/>
+  <rect x="632" y="258" width="56" height="15" fill="#2c2c2c"/>
+  <circle cx="651" cy="380" r="6" fill="#ffd700"/>
+  <rect x="635" y="395" width="50" height="8" fill="#c41e3a"/>
+  <rect x="635" cy="408" width="50" height="8" fill="#0047ab"/>
+  <rect x="635" y="421" width="50" height="8" fill="#ffd700"/>
+  <circle cx="653" cy="300" r="3" fill="#2c1810"/>
+  <circle cx="667" cy="300" r="3" fill="#2c1810"/>
+  <rect x="647" y="340" width="26" height="20" fill="#3a4a2a"/>
+  
+  <!-- Figure 4 - Right man in tuxedo -->
+  <ellipse cx="890" cy="580" rx="80" ry="40" fill="#1a1a1a"/>
+  <rect x="850" y="360" width="80" height="220" fill="#1a1a1a"/>
+  <rect x="840" y="340" width="100" height="30" fill="#f5e6d3"/>
+  <path d="M 860 360 L 850 420 L 875 420 Z" fill="#1a1a1a"/>
+  <path d="M 920 360 L 930 420 L 905 420 Z" fill="#1a1a1a"/>
+  <circle cx="890" cy="300" r="35" fill="#d4a574"/>
+  <path d="M 875 280 Q 890 270 905 280" fill="#1a1a1a"/>
+  <circle cx="883" cy="298" r="4" fill="#1a1a1a"/>
+  <circle cx="897" cy="298" r="4" fill="#1a1a1a"/>
+  <rect x="875" y="340" width="30" height="20" fill="#000"/>
+  
+  <!-- Texture overlay -->
+  <rect width="1200" height="700" fill="url(#grain)" opacity="0.15"/>
+  
+  <defs>
+    <pattern id="grain" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#000" opacity="0.1"/>
+      <circle cx="40" cy="30" r="1" fill="#000" opacity="0.1"/>
+      <circle cx="70" cy="20" r="1" fill="#000" opacity="0.1"/>
+      <circle cx="30" cy="60" r="1" fill="#000" opacity="0.1"/>
+      <circle cx="80" cy="80" r="1" fill="#000" opacity="0.1"/>
+    </pattern>
+  </defs>
+</svg>

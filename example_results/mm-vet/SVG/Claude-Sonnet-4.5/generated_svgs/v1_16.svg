@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#7a7a7a"/>
+  
+  <!-- Upper trim -->
+  <rect x="0" y="0" width="800" height="80" fill="#6a6a6a"/>
+  
+  <!-- Display panel background -->
+  <rect x="50" y="120" width="700" height="380" fill="#8a8a8a" rx="10"/>
+  
+  <!-- Inner display area -->
+  <rect x="80" y="200" width="640" height="240" fill="#b0b0b0" rx="5"/>
+  <rect x="85" y="205" width="630" height="230" fill="#d0d0d0" rx="3"/>
+  
+  <!-- "This Sale" text -->
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#e0e0e0" text-anchor="middle">This Sale</text>
+  
+  <!-- Price digits -->
+  <g font-family="monospace" font-size="140" font-weight="bold" fill="#000000">
+    <text x="150" y="340" text-anchor="middle">6</text>
+    <text x="270" y="340" text-anchor="middle">2</text>
+    <text x="360" y="340" text-anchor="middle">.</text>
+    <text x="450" y="340" text-anchor="middle">9</text>
+    <text x="570" y="340" text-anchor="middle">5</text>
+  </g>
+  
+  <!-- Gallons digits -->
+  <g font-family="monospace" font-size="90" font-weight="bold" fill="#000000">
+    <text x="200" y="415" text-anchor="middle">1</text>
+    <text x="280" y="415" text-anchor="middle">4</text>
+    <text x="340" y="415" text-anchor="middle">.</text>
+    <text x="410" y="415" text-anchor="middle">6</text>
+    <text x="490" y="415" text-anchor="middle">2</text>
+    <text x="570" y="415" text-anchor="middle">0</text>
+  </g>
+  
+  <!-- "Gallons" text -->
+  <text x="400" y="485" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#e0e0e0" text-anchor="middle">Gallons</text>
+  
+  <!-- Small reflection effect -->
+  <ellipse cx="150" cy="280" rx="30" ry="40" fill="#ffffff" opacity="0.15"/>
+</svg>

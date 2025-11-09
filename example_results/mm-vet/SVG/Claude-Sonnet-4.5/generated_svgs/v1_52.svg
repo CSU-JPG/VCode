@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Start box -->
+  <rect x="32" y="30" width="368" height="120" rx="20" fill="#FFB6C1" stroke="#000" stroke-width="3"/>
+  <text x="216" y="95" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#000">Lamp doesn't work</text>
+  
+  <!-- Arrow from start to first decision -->
+  <line x1="216" y1="150" x2="216" y2="230" stroke="#000" stroke-width="2"/>
+  <polygon points="216,230 206,210 226,210" fill="#000"/>
+  
+  <!-- First decision diamond -->
+  <polygon points="216,250 20,420 216,590 412,420" fill="#FFFF99" stroke="#000" stroke-width="3"/>
+  <text x="130" y="410" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#000">Lamp</text>
+  <text x="130" y="445" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#000">plugged in?</text>
+  
+  <!-- No path to Plug in lamp -->
+  <line x1="412" y1="420" x2="490" y2="420" stroke="#000" stroke-width="2"/>
+  <polygon points="490,420 470,410 470,430" fill="#000"/>
+  <text x="440" y="340" font-family="Arial, sans-serif" font-size="28" fill="#000">No</text>
+  
+  <rect x="510" y="360" width="270" height="120" rx="20" fill="#90EE90" stroke="#000" stroke-width="3"/>
+  <text x="645" y="430" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#000">Plug in lamp</text>
+  
+  <!-- Yes path from first decision to second decision -->
+  <line x1="216" y1="590" x2="216" y2="670" stroke="#000" stroke-width="2"/>
+  <polygon points="216,670 206,650 226,650" fill="#000"/>
+  <text x="180" y="540" font-family="Arial, sans-serif" font-size="28" fill="#000">Yes</text>
+  
+  <!-- Second decision diamond -->
+  <polygon points="216,690 20,860 216,1030 412,860" fill="#FFFF99" stroke="#000" stroke-width="3"/>
+  <text x="130" y="850" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#000">Bulb</text>
+  <text x="130" y="885" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#000">burned out?</text>
+  
+  <!-- Yes path to Replace bulb -->
+  <line x1="412" y1="860" x2="490" y2="860" stroke="#000" stroke-width="2"/>
+  <polygon points="490,860 470,850 470,870" fill="#000"/>
+  <text x="440" y="720" font-family="Arial, sans-serif" font-size="28" fill="#000">Yes</text>
+  
+  <rect x="510" y="800" width="280" height="120" rx="20" fill="#90EE90" stroke="#000" stroke-width="3"/>
+  <text x="650" y="870" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#000">Replace bulb</text>
+  
+  <!-- No path to Repair lamp -->
+  <line x1="216" y1="1030" x2="216" y2="1060" stroke="#000" stroke-width="2"/>
+  <polygon points="216,1060 206,1040 226,1040" fill="#000"/>
+  <text x="180" y="980" font-family="Arial, sans-serif" font-size="28" fill="#000">No</text>
+  
+  <rect x="105" y="1060" width="222" height="100" rx="20" fill="#90EE90" stroke="#000" stroke-width="3"/>
+  <text x="216" y="1120" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#000">Repair lamp</text>
+</svg>

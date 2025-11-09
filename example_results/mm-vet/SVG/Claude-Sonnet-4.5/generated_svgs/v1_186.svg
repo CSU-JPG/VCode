@@ -1,0 +1,105 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#d4b896"/>
+  
+  <!-- Distant mountains -->
+  <path d="M 0 350 Q 100 320 200 340 Q 300 310 400 330 Q 500 320 600 335 Q 700 315 800 330 Q 900 320 1000 340 Q 1100 325 1200 345 L 1200 400 L 0 400 Z" fill="#b8a788" opacity="0.4"/>
+  
+  <!-- Background hills -->
+  <ellipse cx="300" cy="420" rx="180" ry="80" fill="#c4b090" opacity="0.5"/>
+  <ellipse cx="700" cy="430" rx="200" ry="90" fill="#c4b090" opacity="0.5"/>
+  <ellipse cx="1000" cy="425" rx="150" ry="70" fill="#c4b090" opacity="0.5"/>
+  
+  <!-- Main mountain base -->
+  <path d="M 250 650 Q 280 580 320 520 Q 360 460 400 420 Q 440 380 480 370 Q 500 365 520 370 Q 560 380 600 430 Q 640 480 680 540 Q 720 600 750 650 Z" fill="#c9b491" stroke="#948570" stroke-width="1.5"/>
+  
+  <!-- Main peak structure -->
+  <path d="M 400 420 Q 420 350 440 280 Q 460 210 480 150 Q 490 120 500 100 Q 510 120 520 150 Q 540 210 560 280 Q 580 350 600 420 Z" fill="#d4c0a5" stroke="#8a7a65" stroke-width="2"/>
+  
+  <!-- Peak texture lines -->
+  <path d="M 480 150 Q 485 180 490 220 Q 495 260 500 300" stroke="#7a6a55" stroke-width="1.5" fill="none"/>
+  <path d="M 500 100 Q 505 140 510 190 Q 515 240 520 290" stroke="#7a6a55" stroke-width="1.5" fill="none"/>
+  <path d="M 520 150 Q 515 190 510 240 Q 505 290 500 340" stroke="#7a6a55" stroke-width="1.5" fill="none"/>
+  
+  <!-- Trees on peak (dots) -->
+  <circle cx="490" cy="105" r="2.5" fill="#3a3a30"/>
+  <circle cx="500" cy="102" r="2.5" fill="#3a3a30"/>
+  <circle cx="510" cy="105" r="2.5" fill="#3a3a30"/>
+  <circle cx="485" cy="115" r="2" fill="#3a3a30"/>
+  <circle cx="495" cy="112" r="2" fill="#3a3a30"/>
+  <circle cx="505" cy="113" r="2" fill="#3a3a30"/>
+  <circle cx="515" cy="116" r="2" fill="#3a3a30"/>
+  
+  <!-- Secondary peaks -->
+  <path d="M 600 430 Q 650 380 680 350 Q 710 320 740 310 Q 760 305 780 315 Q 810 330 840 370 Q 870 410 900 460 Q 920 500 930 540" fill="#c4b090" stroke="#948570" stroke-width="1.5"/>
+  
+  <!-- Rolling hills middle ground -->
+  <ellipse cx="200" cy="520" rx="120" ry="60" fill="#bda888" opacity="0.6"/>
+  <ellipse cx="850" cy="530" rx="140" ry="70" fill="#bda888" opacity="0.6"/>
+  
+  <!-- Foreground elements -->
+  <path d="M 0 600 Q 100 580 200 590 Q 300 570 400 585 Q 500 575 600 590 Q 700 580 800 595 Q 900 585 1000 600 Q 1100 590 1200 605 L 1200 800 L 0 800 Z" fill="#c9b491"/>
+  
+  <!-- Trees and vegetation -->
+  <g opacity="0.7">
+    <path d="M 150 620 L 150 650" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="150" cy="615" rx="8" ry="12" fill="#3a3a30"/>
+    
+    <path d="M 180 625 L 180 655" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="180" cy="620" rx="8" ry="12" fill="#3a3a30"/>
+    
+    <path d="M 220 615 L 220 645" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="220" cy="610" rx="8" ry="12" fill="#3a3a30"/>
+    
+    <path d="M 250 620 L 250 650" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="250" cy="615" rx="8" ry="12" fill="#3a3a30"/>
+    
+    <path d="M 650 630 L 650 660" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="650" cy="625" rx="8" ry="12" fill="#3a3a30"/>
+    
+    <path d="M 680 625 L 680 655" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="680" cy="620" rx="8" ry="12" fill="#3a3a30"/>
+    
+    <path d="M 710 630 L 710 660" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="710" cy="625" rx="8" ry="12" fill="#3a3a30"/>
+    
+    <path d="M 750 635 L 750 665" stroke="#4a4a38" stroke-width="2"/>
+    <ellipse cx="750" cy="630" rx="8" ry="12" fill="#3a3a30"/>
+  </g>
+  
+  <!-- Water/path in valley -->
+  <path d="M 400 550 Q 450 560 500 555 Q 550 550 600 560 Q 650 555 700 565 Q 750 560 800 570" stroke="#a09580" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Small structures/houses -->
+  <g opacity="0.5">
+    <rect x="580" y="575" width="12" height="10" fill="#5a5a48"/>
+    <rect x="600" y="578" width="10" height="8" fill="#5a5a48"/>
+    <rect x="620" y="576" width="11" height="9" fill="#5a5a48"/>
+    <rect x="640" y="580" width="10" height="8" fill="#5a5a48"/>
+  </g>
+  
+  <!-- More scattered trees on hills -->
+  <g opacity="0.6">
+    <ellipse cx="320" cy="480" rx="6" ry="10" fill="#3a3a30"/>
+    <ellipse cx="350" cy="490" rx="6" ry="10" fill="#3a3a30"/>
+    <ellipse cx="380" cy="470" rx="6" ry="10" fill="#3a3a30"/>
+    <ellipse cx="720" cy="420" rx="6" ry="10" fill="#3a3a30"/>
+    <ellipse cx="750" cy="410" rx="6" ry="10" fill="#3a3a30"/>
+    <ellipse cx="780" cy="425" rx="6" ry="10" fill="#3a3a30"/>
+  </g>
+  
+  <!-- Texture spots on mountains -->
+  <g opacity="0.4">
+    <circle cx="460" cy="180" r="2" fill="#5a5a48"/>
+    <circle cx="475" cy="200" r="2" fill="#5a5a48"/>
+    <circle cx="490" cy="220" r="2" fill="#5a5a48"/>
+    <circle cx="510" cy="210" r="2" fill="#5a5a48"/>
+    <circle cx="525" cy="190" r="2" fill="#5a5a48"/>
+    <circle cx="540" cy="210" r="2" fill="#5a5a48"/>
+    <circle cx="470" cy="250" r="2" fill="#5a5a48"/>
+    <circle cx="520" cy="240" r="2" fill="#5a5a48"/>
+  </g>
+  
+  <!-- Aging texture overlay -->
+  <rect width="1200" height="800" fill="#8a7a60" opacity="0.05"/>
+</svg>

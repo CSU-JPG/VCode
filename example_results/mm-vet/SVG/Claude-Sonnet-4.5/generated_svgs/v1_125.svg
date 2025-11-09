@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#e8f0f8"/>
+  
+  <!-- Coca-Cola Can -->
+  <g transform="translate(100, 50)">
+    <!-- Can body -->
+    <ellipse cx="100" cy="50" rx="85" ry="25" fill="#c41e3a"/>
+    <rect x="15" y="50" width="170" height="550" fill="#c41e3a"/>
+    <ellipse cx="100" cy="600" rx="85" ry="25" fill="#b01830"/>
+    
+    <!-- Top of can -->
+    <ellipse cx="100" cy="50" rx="85" ry="25" fill="#d4d4d4"/>
+    <ellipse cx="100" cy="50" rx="70" ry="20" fill="#e8e8e8"/>
+    <ellipse cx="100" cy="50" rx="50" ry="15" fill="#c0c0c0"/>
+    
+    <!-- White wave on can -->
+    <path d="M 30 200 Q 40 180 50 200 Q 60 220 70 200 L 75 550 Q 65 570 55 550 Q 45 530 35 550 Z" fill="white" opacity="0.9"/>
+    <path d="M 130 200 Q 140 180 150 200 Q 160 220 170 200 L 175 550 Q 165 570 155 550 Q 145 530 135 550 Z" fill="white" opacity="0.9"/>
+    
+    <!-- Coca-Cola text -->
+    <text x="100" y="280" font-family="serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" font-style="italic">Coca-Cola</text>
+    
+    <!-- Small text -->
+    <text x="100" y="320" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Schützmarken</text>
+    
+    <!-- Nutrition label -->
+    <ellipse cx="50" cy="520" rx="35" ry="35" fill="white"/>
+    <text x="50" y="510" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Kalorien</text>
+    <text x="50" y="525" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">105 kcal</text>
+    <text x="50" y="538" font-family="Arial" font-size="8" fill="black" text-anchor="middle">5,2%</text>
+  </g>
+  
+  <!-- Plate -->
+  <ellipse cx="900" cy="550" rx="320" ry="140" fill="#f5f5f5"/>
+  <ellipse cx="900" cy="540" rx="310" ry="130" fill="white"/>
+  
+  <!-- Ribs -->
+  <g transform="translate(650, 350)">
+    <!-- Bottom rib -->
+    <ellipse cx="250" cy="180" rx="140" ry="45" fill="#8b4513"/>
+    <path d="M 150 160 Q 180 140 210 150 Q 240 155 270 145 Q 300 140 330 155 Q 350 165 360 180 L 355 185 Q 345 175 325 170 Q 295 160 265 168 Q 235 173 205 165 Q 175 160 155 175 Z" fill="#a0522d"/>
+    <path d="M 160 165 Q 190 155 220 162 Q 250 167 280 160 Q 310 155 340 168" stroke="#6b3410" stroke-width="3" fill="none"/>
+    
+    <!-- Middle rib -->
+    <ellipse cx="240" cy="140" rx="145" ry="48" fill="#8b4513"/>
+    <path d="M 140 120 Q 170 100 200 110 Q 230 115 260 105 Q 290 100 320 115 Q 340 125 350 140 L 345 145 Q 335 135 315 130 Q 285 120 255 128 Q 225 133 195 125 Q 165 120 145 135 Z" fill="#a0522d"/>
+    <path d="M 150 125 Q 180 115 210 122 Q 240 127 270 120 Q 300 115 330 128" stroke="#6b3410" stroke-width="3" fill="none"/>
+    
+    <!-- Top rib -->
+    <ellipse cx="230" cy="100" rx="150" ry="50" fill="#8b4513"/>
+    <path d="M 130 80 Q 160 60 190 70 Q 220 75 250 65 Q 280 60 310 75 Q 330 85 340 100 L 335 105 Q 325 95 305 90 Q 275 80 245 88 Q 215 93 185 85 Q 155 80 135 95 Z" fill="#a0522d"/>
+    <path d="M 140 85 Q 170 75 200 82 Q 230 87 260 80 Q 290 75 320 88" stroke="#6b3410" stroke-width="3" fill="none"/>
+    
+    <!-- Glossy sauce/glaze -->
+    <ellipse cx="230" cy="95" rx="130" ry="35" fill="#8b0000" opacity="0.6"/>
+    <ellipse cx="240" cy="135" rx="125" ry="35" fill="#8b0000" opacity="0.6"/>
+    <ellipse cx="250" cy="175" rx="120" ry="35" fill="#8b0000" opacity="0.6"/>
+    
+    <!-- Highlights -->
+    <ellipse cx="210" cy="85" rx="40" ry="15" fill="white" opacity="0.4"/>
+    <ellipse cx="220" cy="125" rx="40" ry="15" fill="white" opacity="0.4"/>
+    <ellipse cx="230" cy="165" rx="40" ry="15" fill="white" opacity="0.4"/>
+  </g>
+  
+  <!-- Fork -->
+  <g transform="translate(950, 520)">
+    <rect x="0" y="0" width="15" height="120" fill="#c0c0c0"/>
+    <rect x="0" y="0" width="4" height="140" fill="#b0b0b0"/>
+    <rect x="6" y="0" width="4" height="140" fill="#b0b0b0"/>
+    <rect x="12" y="0" width="4" height="140" fill="#b0b0b0"/>
+    <ellipse cx="7.5" cy="142" rx="8" ry="3" fill="#a0a0a0"/>
+  </g>
+  
+  <!-- Sauce drips on plate -->
+  <ellipse cx="750" cy="560" rx="80" ry="20" fill="#5c2e0f" opacity="0.5"/>
+  <ellipse cx="1050" cy="570" rx="60" ry="15" fill="#5c2e0f" opacity="0.5"/>
+</svg>

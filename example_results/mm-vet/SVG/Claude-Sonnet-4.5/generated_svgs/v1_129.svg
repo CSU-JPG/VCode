@@ -1,0 +1,182 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect width="1200" height="1200" fill="#c8d5d0"/>
+  
+  <!-- Light from window -->
+  <path d="M 0 0 L 350 450 L 350 0 Z" fill="#e8f0ed" opacity="0.6"/>
+  
+  <!-- Floor -->
+  <rect y="900" width="1200" height="300" fill="#d4cec5"/>
+  
+  <!-- Floor tiles pattern -->
+  <g stroke="#b8b2a9" stroke-width="2" opacity="0.3">
+    <line x1="0" y1="900" x2="1200" y2="900"/>
+    <line x1="0" y1="950" x2="1200" y2="950"/>
+    <line x1="0" y1="1000" x2="1200" y2="1000"/>
+    <line x1="0" y1="1050" x2="1200" y2="1050"/>
+    <line x1="0" y1="1100" x2="1200" y2="1100"/>
+    <line x1="0" y1="1150" x2="1200" y2="1150"/>
+  </g>
+  
+  <!-- Left desk -->
+  <rect x="50" y="550" width="380" height="350" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="50" y="550" width="380" height="20" fill="#e8e8e8"/>
+  <rect x="50" y="880" width="30" height="20" fill="#e0e0e0"/>
+  <rect x="400" y="880" width="30" height="20" fill="#e0e0e0"/>
+  
+  <!-- Middle storage unit -->
+  <g>
+    <rect x="350" y="600" width="180" height="300" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+    <rect x="350" y="600" width="180" height="20" fill="#e8e8e8"/>
+    <line x1="350" y1="750" x2="530" y2="750" stroke="#e0e0e0" stroke-width="2"/>
+    <rect x="370" y="770" width="140" height="110" fill="white" stroke="#d0d0d0" stroke-width="1"/>
+    <rect x="375" y="785" width="130" height="20" fill="#f0f0f0"/>
+    <rect x="375" y="815" width="130" height="20" fill="#f0f0f0"/>
+    <rect x="375" y="845" width="130" height="20" fill="#f0f0f0"/>
+    <rect x="350" y="880" width="30" height="20" fill="#e0e0e0"/>
+    <rect x="500" y="880" width="30" height="20" fill="#e0e0e0"/>
+  </g>
+  
+  <!-- Right desk -->
+  <rect x="770" y="550" width="380" height="350" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="770" y="550" width="380" height="20" fill="#e8e8e8"/>
+  <rect x="770" y="880" width="30" height="20" fill="#e0e0e0"/>
+  <rect x="1120" y="880" width="30" height="20" fill="#e0e0e0"/>
+  
+  <!-- Storage under middle unit -->
+  <rect x="360" y="820" width="70" height="60" fill="#f8f8f8" stroke="#d0d0d0" stroke-width="1"/>
+  <rect x="460" y="820" width="60" height="60" fill="#f8f8f8" stroke="#d0d0d0" stroke-width="1"/>
+  <rect x="468" y="830" width="20" height="40" fill="#f4d03f"/>
+  <rect x="488" y="830" width="20" height="40" fill="#5dade2"/>
+  <rect x="508" y="830" width="8" height="40" fill="#f39c12"/>
+  
+  <!-- Left chair -->
+  <g>
+    <ellipse cx="150" cy="750" rx="50" ry="8" fill="#4a4a4a"/>
+    <rect x="130" y="680" width="40" height="70" fill="#2c2c2c"/>
+    <line x1="120" y1="750" x2="100" y2="770" stroke="#2c2c2c" stroke-width="3"/>
+    <line x1="180" y1="750" x2="200" y2="770" stroke="#2c2c2c" stroke-width="3"/>
+    <line x1="135" y1="750" x2="120" y2="800" stroke="#2c2c2c" stroke-width="3"/>
+    <line x1="165" y1="750" x2="180" y2="800" stroke="#2c2c2c" stroke-width="3"/>
+    <path d="M 100 650 L 120 680 L 135 750 L 120 770" stroke="#2c2c2c" stroke-width="3" fill="none"/>
+    <path d="M 200 650 L 180 680 L 165 750 L 180 770" stroke="#2c2c2c" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Right chair -->
+  <g>
+    <ellipse cx="870" cy="750" rx="50" ry="8" fill="#4a4a4a"/>
+    <rect x="850" y="680" width="40" height="70" fill="#2c2c2c"/>
+    <line x1="840" y1="750" x2="820" y2="770" stroke="#2c2c2c" stroke-width="3"/>
+    <line x1="900" y1="750" x2="920" y2="770" stroke="#2c2c2c" stroke-width="3"/>
+    <line x1="855" y1="750" x2="840" y2="800" stroke="#2c2c2c" stroke-width="3"/>
+    <line x1="885" y1="750" x2="900" y2="800" stroke="#2c2c2c" stroke-width="3"/>
+    <path d="M 820 650 L 840 680 L 855 750 L 840 770" stroke="#2c2c2c" stroke-width="3" fill="none"/>
+    <path d="M 920 650 L 900 680 L 885 750 L 900 770" stroke="#2c2c2c" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Left computer monitor -->
+  <g>
+    <rect x="240" y="420" width="130" height="90" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="2" rx="3"/>
+    <rect x="245" y="425" width="120" height="80" fill="#4a9fd8"/>
+    <rect x="250" y="430" width="110" height="70" fill="#5dade2"/>
+    <circle cx="280" cy="460" r="15" fill="#82c6f0"/>
+    <polygon points="290,450 320,470 290,490" fill="#c8e6f5"/>
+    <rect x="295" y="515" width="20" height="25" fill="#2a2a2a"/>
+    <ellipse cx="305" cy="540" rx="40" ry="5" fill="#3a3a3a"/>
+  </g>
+  
+  <!-- Left keyboard -->
+  <rect x="230" y="520" width="80" height="25" fill="#e8e8e8" stroke="#d0d0d0" stroke-width="1" rx="2"/>
+  
+  <!-- Left mouse -->
+  <ellipse cx="330" cy="532" rx="10" ry="15" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="1"/>
+  
+  <!-- Small plant on left desk -->
+  <g>
+    <rect x="80" y="530" width="25" height="25" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+    <path d="M 92 530 L 88 510 L 92 500" stroke="#4a7c59" stroke-width="2" fill="none"/>
+    <path d="M 92 530 L 96 510 L 92 500" stroke="#4a7c59" stroke-width="2" fill="none"/>
+    <path d="M 92 530 L 85 515 L 80 505" stroke="#4a7c59" stroke-width="2" fill="none"/>
+    <path d="M 92 530 L 99 515 L 104 505" stroke="#4a7c59" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Printer on middle unit -->
+  <g>
+    <rect x="380" y="520" width="120" height="60" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="2" rx="3"/>
+    <rect x="385" y="525" width="110" height="15" fill="#4a4a4a"/>
+    <text x="420" y="537" font-family="Arial" font-size="10" fill="white">Canon</text>
+    <rect x="390" y="545" width="100" height="30" fill="#2a2a2a"/>
+    <rect x="395" y="555" width="20" height="2" fill="#e74c3c"/>
+    <rect x="420" y="555" width="20" height="2" fill="#f39c12"/>
+    <rect x="445" y="555" width="20" height="2" fill="#2ecc71"/>
+  </g>
+  
+  <!-- Right laptop -->
+  <g>
+    <rect x="890" y="500" width="180" height="120" fill="#e8e8e8" stroke="#d0d0d0" stroke-width="2" rx="3"/>
+    <rect x="900" y="510" width="160" height="100" fill="#2c3e50"/>
+    <rect x="905" y="515" width="150" height="90" fill="#34495e"/>
+    <polygon points="890,620 1070,620 1060,630 900,630" fill="#bdc3c7"/>
+    <rect x="970" y="625" width="20" height="5" fill="#95a5a6"/>
+  </g>
+  
+  <!-- Right mouse -->
+  <ellipse cx="1100" cy="560" rx="12" ry="18" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="1"/>
+  
+  <!-- Desk lamp on right -->
+  <g>
+    <ellipse cx="720" cy="600" rx="40" ry="8" fill="#3a3a3a"/>
+    <rect x="718" y="500" width="4" height="100" fill="#2a2a2a"/>
+    <path d="M 720 500 L 760 480 L 780 470" stroke="#2a2a2a" stroke-width="4" fill="none"/>
+    <path d="M 765 465 L 785 475 L 795 470 L 775 460 Z" fill="#3a3a3a"/>
+  </g>
+  
+  <!-- Picture frame on right desk -->
+  <g>
+    <rect x="820" y="480" width="110" height="80" fill="white" stroke="#2a2a2a" stroke-width="3"/>
+    <rect x="828" y="488" width="94" height="64" fill="#d4a574"/>
+    <circle cx="860" cy="510" r="8" fill="#f4d03f"/>
+    <path d="M 835 540 L 850 530 L 865 535 L 880 525 L 895 530 L 910 540" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  </g>
+  
+  <!-- Left wall art - surreal photo -->
+  <g>
+    <rect x="315" y="50" width="160" height="230" fill="white" stroke="#d0d0d0" stroke-width="3"/>
+    <rect x="325" y="60" width="140" height="210" fill="#e8e8e8"/>
+    <ellipse cx="395" cy="120" rx="50" ry="25" fill="#b8b8b8"/>
+    <rect x="370" y="140" width="50" height="120" fill="#2a2a2a"/>
+    <circle cx="385" cy="150" r="8" fill="#d4a574"/>
+    <rect x="385" y="140" width="20" height="15" fill="#8b6f47"/>
+    <line x1="360" y1="140" x2="350" y2="170" stroke="#2a2a2a" stroke-width="3"/>
+    <line x1="410" y1="140" x2="420" y2="170" stroke="#2a2a2a" stroke-width="3"/>
+  </g>
+  
+  <!-- Right wall art - dandelion -->
+  <g>
+    <rect x="735" y="120" width="165" height="240" fill="white" stroke="#1a1a1a" stroke-width="4"/>
+    <rect x="745" y="130" width="145" height="220" fill="white"/>
+    <line x1="800" y1="280" x2="800" y2="200" stroke="#2a2a2a" stroke-width="2"/>
+    <circle cx="800" cy="200" r="25" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+    <g id="seed">
+      <line x1="800" y1="200" x2="785" y2="170" stroke="#3a3a3a" stroke-width="0.5"/>
+      <line x1="800" y1="200" x2="795" y2="175" stroke="#3a3a3a" stroke-width="0.5"/>
+      <line x1="800" y1="200" x2="805" y2="175" stroke="#3a3a3a" stroke-width="0.5"/>
+      <line x1="800" y1="200" x2="815" y2="170" stroke="#3a3a3a" stroke-width="0.5"/>
+      <line x1="800" y1="200" x2="775" y2="185" stroke="#3a3a3a" stroke-width="0.5"/>
+      <line x1="800" y1="200" x2="825" y2="185" stroke="#3a3a3a" stroke-width="0.5"/>
+      <line x1="800" y1="200" x2="780" y2="195" stroke="#3a3a3a" stroke-width="0.5"/>
+      <line x1="800" y1="200" x2="820" y2="195" stroke="#3a3a3a" stroke-width="0.5"/>
+    </g>
+    <line x1="810" y1="180" x2="850" y2="140" stroke="#3a3a3a" stroke-width="0.8"/>
+    <line x1="815" y1="185" x2="860" y2="150" stroke="#3a3a3a" stroke-width="0.8"/>
+    <line x1="820" y1="192" x2="870" y2="170" stroke="#3a3a3a" stroke-width="0.8"/>
+  </g>
+  
+  <!-- Bottom right rug texture -->
+  <g opacity="0.3">
+    <path d="M 1050 1000 Q 1100 1020 1150 1000" stroke="#a8a090" stroke-width="2" fill="none"/>
+    <path d="M 1050 1030 Q 1100 1050 1150 1030" stroke="#a8a090" stroke-width="2" fill="none"/>
+    <path d="M 1050 1060 Q 1100 1080 1150 1060" stroke="#a8a090" stroke-width="2" fill="none"/>
+    <path d="M 1050 1090 Q 1100 1110 1150 1090" stroke="#a8a090" stroke-width="2" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B0D4E3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE5B4;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FFD700;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.3" />
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </filter>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#skyGrad)"/>
+  
+  <ellipse cx="1300" cy="200" rx="80" ry="80" fill="url(#sunGrad)" opacity="0.9"/>
+  
+  <ellipse cx="200" cy="650" rx="180" ry="60" fill="#E8E8E8" opacity="0.7" filter="url(#blur)"/>
+  <ellipse cx="400" cy="680" rx="200" ry="70" fill="#D8D8D8" opacity="0.7" filter="url(#blur)"/>
+  <ellipse cx="600" cy="640" rx="220" ry="65" fill="#E0E0E0" opacity="0.7" filter="url(#blur)"/>
+  <ellipse cx="850" cy="700" rx="190" ry="60" fill="#D0D0D0" opacity="0.7" filter="url(#blur)"/>
+  <ellipse cx="1100" cy="660" rx="210" ry="70" fill="#E8E8E8" opacity="0.7" filter="url(#blur)"/>
+  <ellipse cx="1350" cy="690" rx="180" ry="65" fill="#D8D8D8" opacity="0.7" filter="url(#blur)"/>
+  
+  <ellipse cx="150" cy="200" rx="120" ry="40" fill="#F0F0F0" opacity="0.8" filter="url(#blur)"/>
+  <ellipse cx="350" cy="150" rx="140" ry="50" fill="#F8F8F8" opacity="0.8" filter="url(#blur)"/>
+  <ellipse cx="550" cy="180" rx="130" ry="45" fill="#F4F4F4" opacity="0.8" filter="url(#blur)"/>
+  <ellipse cx="1200" cy="150" rx="150" ry="50" fill="#F8F8F8" opacity="0.8" filter="url(#blur)"/>
+  <ellipse cx="1400" cy="220" rx="130" ry="45" fill="#F0F0F0" opacity="0.8" filter="url(#blur)"/>
+  
+  <g id="jet1" transform="translate(900, 450)">
+    <polygon points="0,-8 80,0 0,8" fill="#C0C0C0"/>
+    <polygon points="0,-8 -60,-15 -60,15 0,8" fill="#A8A8A8"/>
+    <polygon points="-60,-15 -90,-12 -90,12 -60,15" fill="#909090"/>
+    <rect x="-40" y="-3" width="25" height="6" fill="#404040" opacity="0.6"/>
+    <polygon points="-30,-20 -20,-8 -40,-8" fill="#B0B0B0"/>
+    <polygon points="-30,20 -20,8 -40,8" fill="#B0B0B0"/>
+    <polygon points="-85,-8 -100,-6 -100,6 -85,8" fill="#707070"/>
+    <polygon points="-85,-8 -100,-6 -100,6 -85,8" fill="#606060" opacity="0.5"/>
+    <circle cx="30" cy="0" r="3" fill="#303030"/>
+    <path d="M -50,-5 L -35,-5 L -35,5 L -50,5 Z" fill="#8B0000" opacity="0.7"/>
+  </g>
+  
+  <g id="jet2" transform="translate(650, 280) scale(0.85)">
+    <polygon points="0,-8 80,0 0,8" fill="#D0D0D0"/>
+    <polygon points="0,-8 -60,-15 -60,15 0,8" fill="#B8B8B8"/>
+    <polygon points="-60,-15 -90,-12 -90,12 -60,15" fill="#A0A0A0"/>
+    <rect x="-40" y="-3" width="25" height="6" fill="#505050" opacity="0.6"/>
+    <polygon points="-30,-20 -20,-8 -40,-8" fill="#C0C0C0"/>
+    <polygon points="-30,20 -20,8 -40,8" fill="#C0C0C0"/>
+    <polygon points="-85,-8 -100,-6 -100,6 -85,8" fill="#808080"/>
+    <circle cx="30" cy="0" r="3" fill="#404040"/>
+  </g>
+  
+  <g id="jet3" transform="translate(450, 180) scale(0.6)">
+    <polygon points="0,-6 60,0 0,6" fill="#D8D8D8" opacity="0.9"/>
+    <polygon points="0,-6 -50,-12 -50,12 0,6" fill="#C0C0C0" opacity="0.9"/>
+    <polygon points="-50,-12 -75,-10 -75,10 -50,12" fill="#A8A8A8" opacity="0.9"/>
+    <polygon points="-25,-16 -15,-6 -35,-6" fill="#C8C8C8" opacity="0.9"/>
+    <polygon points="-25,16 -15,6 -35,6" fill="#C8C8C8" opacity="0.9"/>
+  </g>
+  
+  <ellipse cx="900" cy="500" rx="120" ry="30" fill="#808080" opacity="0.2" filter="url(#blur)"/>
+</svg>

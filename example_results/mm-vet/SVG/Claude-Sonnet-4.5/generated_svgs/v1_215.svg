@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1200 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Border -->
+  <rect x="10" y="10" width="1180" height="980" fill="none" stroke="black" stroke-width="4"/>
+  
+  <!-- Title -->
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Village of Chorleywood showing development between 1868 and 1994</text>
+  
+  <!-- Main roads -->
+  <path d="M 250 60 L 420 280 L 420 550" stroke="black" stroke-width="8" fill="none"/>
+  <path d="M 420 280 L 900 300" stroke="black" stroke-width="8" fill="none"/>
+  <path d="M 900 300 L 1100 100" stroke="black" stroke-width="8" fill="none"/>
+  <path d="M 900 300 L 1100 850" stroke="black" stroke-width="8" fill="none"/>
+  <path d="M 50 400 L 200 500" stroke="black" stroke-width="8" fill="none"/>
+  
+  <!-- Roundabout -->
+  <circle cx="900" cy="300" r="25" fill="white" stroke="black" stroke-width="6"/>
+  
+  <!-- Motorway (built 1970) -->
+  <path d="M 50 600 L 200 650 L 750 620 L 1100 750" stroke="black" stroke-width="8" fill="none" stroke-dasharray="20,15"/>
+  
+  <!-- Railway (built 1909) -->
+  <path d="M 300 600 L 500 600" stroke="black" stroke-width="10" fill="none" stroke-dasharray="15,10"/>
+  <rect x="380" y="580" width="80" height="40" fill="black"/>
+  
+  <!-- Chorleywood Station -->
+  <rect x="280" y="450" width="150" height="120" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="280" y1="470" x2="430" y2="470" stroke="black" stroke-width="1"/>
+  <line x1="280" y1="490" x2="430" y2="490" stroke="black" stroke-width="1"/>
+  <line x1="280" y1="510" x2="430" y2="510" stroke="black" stroke-width="1"/>
+  <line x1="280" y1="530" x2="430" y2="530" stroke="black" stroke-width="1"/>
+  <line x1="280" y1="550" x2="430" y2="550" stroke="black" stroke-width="1"/>
+  <text x="290" y="545" font-family="Arial, sans-serif" font-size="14">Chorleywood Station</text>
+  
+  <!-- Development periods -->
+  
+  <!-- 1868-1883 (light fill) -->
+  <path d="M 250 350 Q 300 380 320 450 L 280 480 Q 250 420 220 380 Z" fill="#d0d0d0" stroke="black" stroke-width="1"/>
+  
+  <!-- 1883-1922 (horizontal lines) -->
+  <path d="M 200 650 L 300 700 L 400 720 L 380 680 L 280 660 L 220 640 Z" fill="white" stroke="black" stroke-width="2"/>
+  <pattern id="horizontal1" patternUnits="userSpaceOnUse" width="10" height="10">
+    <line x1="0" y1="5" x2="10" y2="5" stroke="black" stroke-width="1"/>
+  </pattern>
+  <path d="M 200 650 L 300 700 L 400 720 L 380 680 L 280 660 L 220 640 Z" fill="url(#horizontal1)"/>
+  
+  <!-- 1922-1970 (dotted) -->
+  <pattern id="dots" patternUnits="userSpaceOnUse" width="8" height="8">
+    <circle cx="4" cy="4" r="1.5" fill="black"/>
+  </pattern>
+  <path d="M 100 400 L 200 500 L 180 580 L 80 500 Z" fill="url(#dots)" stroke="black" stroke-width="2"/>
+  <path d="M 400 650 L 550 670 L 600 720 L 450 720 Z" fill="url(#dots)" stroke="black" stroke-width="2"/>
+  
+  <!-- 1970-1994 (diagonal lines) -->
+  <pattern id="diagonal" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="black" stroke-width="1"/>
+  </pattern>
+  <path d="M 620 150 L 850 180 L 870 290 L 640 270 Z" fill="url(#diagonal)" stroke="black" stroke-width="2"/>
+  <path d="M 920 150 L 1100 180 L 1100 320 L 930 290 Z" fill="url(#diagonal)" stroke="black" stroke-width="2"/>
+  <path d="M 650 480 L 850 500 L 870 620 L 750 620 L 700 580 Z" fill="url(#diagonal)" stroke="black" stroke-width="2"/>
+  <path d="M 910 460 L 1000 480 L 1050 580 L 950 640 L 880 600 Z" fill="url(#diagonal)" stroke-width="2"/>
+  <path d="M 900 670 L 1050 720 L 1100 850 L 1000 800 Z" fill="url(#diagonal)" stroke="black" stroke-width="2"/>
+  
+  <!-- Chorleywood Park and Golf course -->
+  <text x="550" y="400" font-family="Arial, sans-serif" font-size="16">Chorleywood Park</text>
+  <text x="560" y="425" font-family="Arial, sans-serif" font-size="16">and Golf course</text>
+  
+  <!-- Legend -->
+  <g transform="translate(40, 800)">
+    <rect x="0" y="0" width="60" height="10" fill="black"/>
+    <text x="70" y="10" font-family="Arial, sans-serif" font-size="14">Main roads</text>
+  </g>
+  
+  <g transform="translate(40, 830)">
+    <line x1="0" y1="5" x2="60" y2="5" stroke="black" stroke-width="8" stroke-dasharray="20,15"/>
+    <text x="70" y="10" font-family="Arial, sans-serif" font-size="14">Motorway (built 1970)</text>
+  </g>
+  
+  <g transform="translate(40, 860)">
+    <line x1="0" y1="5" x2="60" y2="5" stroke="black" stroke-width="8" stroke-dasharray="15,10"/>
+    <text x="70" y="10" font-family="Arial, sans-serif" font-size="14">Railway (built 1909)</text>
+  </g>
+  
+  <g transform="translate(480, 800)">
+    <rect x="0" y="0" width="40" height="25" fill="#d0d0d0" stroke="black" stroke-width="1"/>
+    <text x="50" y="17" font-family="Arial, sans-serif" font-size="14">1868 - 1883</text>
+  </g>
+  
+  <g transform="translate(480, 835)">
+    <rect x="0" y="0" width="40" height="25" fill="url(#horizontal1)" stroke="black" stroke-width="1"/>
+    <text x="50" y="17" font-family="Arial, sans-serif" font-size="14">1883 - 1922</text>
+  </g>
+  
+  <g transform="translate(480, 870)">
+    <rect x="0" y="0" width="40" height="25" fill="url(#dots)" stroke="black" stroke-width="1"/>
+    <text x="50" y="17" font-family="Arial, sans-serif" font-size="14">1922 - 1970</text>
+  </g>
+  
+  <g transform="translate(480, 905)">
+    <rect x="0" y="0" width="40" height="25" fill="url(#diagonal)" stroke="black" stroke-width="1"/>
+    <text x="50" y="17" font-family="Arial, sans-serif" font-size="14">1970 - 1994</text>
+  </g>
+</svg>

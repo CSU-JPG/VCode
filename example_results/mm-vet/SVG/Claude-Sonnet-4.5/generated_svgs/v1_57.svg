@@ -1,0 +1,140 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#000">Team GB's most successful Olympic sports</text>
+  <text x="30" y="65" font-family="Arial, sans-serif" font-size="14" fill="#666">Gold medals won by Team GB at the Summer Olympics (1996-2016)</text>
+  
+  <!-- Legend -->
+  <rect x="150" y="85" width="15" height="15" fill="#e63946"/>
+  <text x="170" y="97" font-family="Arial, sans-serif" font-size="13" fill="#000">Rowing</text>
+  
+  <rect x="240" y="85" width="15" height="15" fill="#f59e42"/>
+  <text x="260" y="97" font-family="Arial, sans-serif" font-size="13" fill="#000">Cycling</text>
+  
+  <rect x="330" y="85" width="15" height="15" fill="#ffd700"/>
+  <text x="350" y="97" font-family="Arial, sans-serif" font-size="13" fill="#000">Athletics</text>
+  
+  <rect x="440" y="85" width="15" height="15" fill="#4da6ff"/>
+  <text x="460" y="97" font-family="Arial, sans-serif" font-size="13" fill="#000">Sailing</text>
+  
+  <rect x="540" y="85" width="15" height="15" fill="#52b788"/>
+  <text x="560" y="97" font-family="Arial, sans-serif" font-size="13" fill="#000">Boxing</text>
+  
+  <!-- Olympic Rings -->
+  <circle cx="130" cy="180" r="35" fill="none" stroke="#bbb" stroke-width="5"/>
+  <circle cx="210" cy="180" r="35" fill="none" stroke="#bbb" stroke-width="5"/>
+  <circle cx="290" cy="180" r="35" fill="none" stroke="#bbb" stroke-width="5"/>
+  <circle cx="170" cy="220" r="35" fill="none" stroke="#bbb" stroke-width="5"/>
+  <circle cx="250" cy="220" r="35" fill="none" stroke="#bbb" stroke-width="5"/>
+  
+  <!-- Grid lines and Y-axis labels -->
+  <line x1="90" y1="430" x2="720" y2="430" stroke="#ddd" stroke-width="1"/>
+  <line x1="90" y1="390" x2="720" y2="390" stroke="#ddd" stroke-width="1"/>
+  <line x1="90" y1="350" x2="720" y2="350" stroke="#ddd" stroke-width="1"/>
+  <line x1="90" y1="310" x2="720" y2="310" stroke="#ddd" stroke-width="1"/>
+  <line x1="90" y1="270" x2="720" y2="270" stroke="#ddd" stroke-width="1"/>
+  <line x1="90" y1="230" x2="720" y2="230" stroke="#ddd" stroke-width="1"/>
+  <line x1="90" y1="190" x2="720" y2="190" stroke="#ddd" stroke-width="1"/>
+  <line x1="90" y1="150" x2="720" y2="150" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Y-axis -->
+  <line x1="90" y1="130" x2="90" y2="430" stroke="#333" stroke-width="2"/>
+  <text x="30" y="435" font-family="Arial, sans-serif" font-size="14" fill="#000">0</text>
+  <text x="30" y="395" font-family="Arial, sans-serif" font-size="14" fill="#000">1</text>
+  <text x="30" y="355" font-family="Arial, sans-serif" font-size="14" fill="#000">2</text>
+  <text x="30" y="315" font-family="Arial, sans-serif" font-size="14" fill="#000">3</text>
+  <text x="30" y="275" font-family="Arial, sans-serif" font-size="14" fill="#000">4</text>
+  <text x="30" y="235" font-family="Arial, sans-serif" font-size="14" fill="#000">5</text>
+  <text x="30" y="195" font-family="Arial, sans-serif" font-size="14" fill="#000">6</text>
+  <text x="30" y="155" font-family="Arial, sans-serif" font-size="14" fill="#000">7</text>
+  <text x="30" y="135" font-family="Arial, sans-serif" font-size="14" fill="#000">8</text>
+  
+  <!-- X-axis labels with flags and years -->
+  <rect x="100" y="450" width="20" height="12" fill="#3c3b6e"/>
+  <rect x="100" y="462" width="20" height="8" fill="#b22234"/>
+  <text x="93" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">Atlanta</text>
+  <text x="95" y="500" font-family="Arial, sans-serif" font-size="12" fill="#666">1996</text>
+  
+  <rect x="195" y="450" width="30" height="15" fill="#012169"/>
+  <text x="187" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">Sydney</text>
+  <text x="195" y="500" font-family="Arial, sans-serif" font-size="12" fill="#666">2000</text>
+  
+  <rect x="295" y="450" width="25" height="15" fill="#0d5eaf"/>
+  <rect x="295" y="460" width="25" height="5" fill="#fff"/>
+  <text x="287" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">Athens</text>
+  <text x="290" y="500" font-family="Arial, sans-serif" font-size="12" fill="#666">2004</text>
+  
+  <rect x="395" y="450" width="25" height="15" fill="#de2910"/>
+  <text x="385" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">Beijing</text>
+  <text x="390" y="500" font-family="Arial, sans-serif" font-size="12" fill="#666">2008</text>
+  
+  <rect x="495" y="450" width="25" height="15" fill="#012169"/>
+  <text x="485" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">London</text>
+  <text x="490" y="500" font-family="Arial, sans-serif" font-size="12" fill="#666">2012</text>
+  
+  <rect x="620" y="450" width="25" height="10" fill="#009c3b"/>
+  <rect x="620" y="460" width="25" height="5" fill="#ffdf00"/>
+  <text x="622" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">Rio</text>
+  <text x="620" y="500" font-family="Arial, sans-serif" font-size="12" fill="#666">2016</text>
+  
+  <!-- Data points and lines - Rowing (Red) -->
+  <polyline points="110,390 215,350 305,390 405,350 505,310 635,310" fill="none" stroke="#e63946" stroke-width="3"/>
+  <circle cx="110" cy="390" r="5" fill="#e63946" stroke="#fff" stroke-width="2"/>
+  <circle cx="215" cy="350" r="5" fill="#e63946" stroke="#fff" stroke-width="2"/>
+  <circle cx="305" cy="390" r="5" fill="#e63946" stroke="#fff" stroke-width="2"/>
+  <circle cx="405" cy="350" r="5" fill="#e63946" stroke="#fff" stroke-width="2"/>
+  <circle cx="505" cy="310" r="5" fill="#e63946" stroke="#fff" stroke-width="2"/>
+  <circle cx="635" cy="310" r="7" fill="none" stroke="#e63946" stroke-width="3"/>
+  
+  <!-- Data points and lines - Cycling (Orange) -->
+  <polyline points="110,430 215,390 305,350 405,150 505,150 635,230" fill="none" stroke="#f59e42" stroke-width="3"/>
+  <circle cx="110" cy="430" r="5" fill="#f59e42" stroke="#fff" stroke-width="2"/>
+  <circle cx="215" cy="390" r="5" fill="#f59e42" stroke="#fff" stroke-width="2"/>
+  <circle cx="305" cy="350" r="5" fill="#f59e42" stroke="#fff" stroke-width="2"/>
+  <circle cx="405" cy="150" r="5" fill="#f59e42" stroke="#fff" stroke-width="2"/>
+  <circle cx="505" cy="150" r="5" fill="#f59e42" stroke="#fff" stroke-width="2"/>
+  <circle cx="635" cy="230" r="7" fill="none" stroke="#f59e42" stroke-width="3"/>
+  
+  <!-- Data points and lines - Athletics (Yellow) -->
+  <polyline points="110,430 215,350 305,310 405,390 505,430 635,350" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <circle cx="110" cy="430" r="5" fill="#ffd700" stroke="#fff" stroke-width="2"/>
+  <circle cx="215" cy="350" r="5" fill="#ffd700" stroke="#fff" stroke-width="2"/>
+  <circle cx="305" cy="310" r="5" fill="#ffd700" stroke="#fff" stroke-width="2"/>
+  <circle cx="405" cy="390" r="5" fill="#ffd700" stroke="#fff" stroke-width="2"/>
+  <circle cx="505" cy="430" r="5" fill="#ffd700" stroke="#fff" stroke-width="2"/>
+  <circle cx="635" cy="350" r="7" fill="none" stroke="#ffd700" stroke-width="3"/>
+  
+  <!-- Data points and lines - Sailing (Blue) -->
+  <polyline points="110,430 215,310 305,350 405,270 505,390 635,350" fill="none" stroke="#4da6ff" stroke-width="3"/>
+  <circle cx="110" cy="430" r="5" fill="#4da6ff" stroke="#fff" stroke-width="2"/>
+  <circle cx="215" cy="310" r="5" fill="#4da6ff" stroke="#fff" stroke-width="2"/>
+  <circle cx="305" cy="350" r="5" fill="#4da6ff" stroke="#fff" stroke-width="2"/>
+  <circle cx="405" cy="270" r="5" fill="#4da6ff" stroke="#fff" stroke-width="2"/>
+  <circle cx="505" cy="390" r="5" fill="#4da6ff" stroke="#fff" stroke-width="2"/>
+  <circle cx="635" cy="350" r="7" fill="none" stroke="#4da6ff" stroke-width="3"/>
+  
+  <!-- Data points and lines - Boxing (Green) -->
+  <polyline points="110,430 215,390 305,430 405,350 505,310 635,390" fill="none" stroke="#52b788" stroke-width="3"/>
+  <circle cx="110" cy="430" r="5" fill="#52b788" stroke="#fff" stroke-width="2"/>
+  <circle cx="215" cy="390" r="5" fill="#52b788" stroke="#fff" stroke-width="2"/>
+  <circle cx="305" cy="430" r="5" fill="#52b788" stroke="#fff" stroke-width="2"/>
+  <circle cx="405" cy="350" r="5" fill="#52b788" stroke="#fff" stroke-width="2"/>
+  <circle cx="505" cy="310" r="5" fill="#52b788" stroke="#fff" stroke-width="2"/>
+  <circle cx="635" cy="390" r="7" fill="none" stroke="#52b788" stroke-width="3"/>
+  
+  <!-- Sport icons at the end -->
+  <text x="675" y="235" font-family="Arial, sans-serif" font-size="24" fill="#999">🚴</text>
+  <text x="675" y="315" font-family="Arial, sans-serif" font-size="24" fill="#999">🚣</text>
+  <text x="675" y="355" font-family="Arial, sans-serif" font-size="24" fill="#999">⛵</text>
+  <text x="675" y="360" font-family="Arial, sans-serif" font-size="24" fill="#999">🏃</text>
+  <text x="680" y="395" font-family="Arial, sans-serif" font-size="24" fill="#999">🥊</text>
+  
+  <!-- Footer -->
+  <text x="30" y="560" font-family="Arial, sans-serif" font-size="11" fill="#666">@StatistaCharts    Source: BBC</text>
+  <text x="550" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e63946">indy</text>
+  <text x="590" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000">100</text>
+  <text x="650" y="560" font-family="Arial, sans-serif" font-size="11" fill="#666">The INDEPENDENT</text>
+  <text x="730" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000">statista</text>
+</svg>

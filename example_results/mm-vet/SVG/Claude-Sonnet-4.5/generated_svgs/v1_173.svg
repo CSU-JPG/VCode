@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#a8b5c0"/>
+  
+  <!-- Mountains/Hills background -->
+  <path d="M0 250 Q200 180 400 220 T800 200 L800 300 L0 300 Z" fill="#8b9aa3"/>
+  <path d="M0 280 Q250 240 500 260 T800 250 L800 300 L0 300 Z" fill="#9ca8b0"/>
+  
+  <!-- Ground -->
+  <rect y="300" width="800" height="300" fill="#736b5e"/>
+  
+  <!-- Stone path/structure -->
+  <rect x="50" y="450" width="700" height="40" fill="#5a5a5a"/>
+  <rect x="80" y="410" width="640" height="40" fill="#6b6b6b"/>
+  
+  <!-- Stone structure right side (thatched building) -->
+  <path d="M550 200 L750 200 L750 500 L550 500 Z" fill="#8b7d5c"/>
+  <path d="M530 150 L770 150 L750 200 L550 200 Z" fill="#9d8b5f"/>
+  <path d="M500 100 L800 100 L770 150 L530 150 Z" fill="#b39d70"/>
+  
+  <!-- Dark doorway -->
+  <path d="M580 280 L650 250 L650 480 L580 480 Z" fill="#1a1a1a"/>
+  
+  <!-- Characters (simplified silhouettes) -->
+  <!-- Character 1 - Left (Legolas) -->
+  <ellipse cx="150" cy="380" rx="15" ry="20" fill="#d4c5a0"/>
+  <rect x="135" y="400" width="30" height="80" fill="#5a4a3a"/>
+  <rect x="130" y="400" width="40" height="85" rx="5" fill="#6b5b4b"/>
+  
+  <!-- Character 2 - Center-left (Gandalf) -->
+  <ellipse cx="280" cy="360" rx="18" ry="22" fill="#e8e8e8"/>
+  <rect x="260" y="382" width="40" height="100" fill="#f0f0f0"/>
+  <line x1="280" y1="340" x2="280" y2="280" stroke="#d0d0d0" stroke-width="4"/>
+  <polygon points="280,280 285,275 275,275" fill="#e8e8e8"/>
+  
+  <!-- Character 3 - Center (Aragorn) -->
+  <ellipse cx="380" cy="375" rx="16" ry="20" fill="#8b7355"/>
+  <rect x="365" y="395" width="30" height="85" fill="#3a3a3a"/>
+  <rect x="360" y="395" width="40" height="90" rx="5" fill="#4a4a4a"/>
+  
+  <!-- Character 4 - Center-right -->
+  <ellipse cx="480" cy="385" rx="14" ry="18" fill="#9b8570"/>
+  <rect x="468" y="403" width="24" height="77" fill="#5a4a3a"/>
+  
+  <!-- Character 5 - Right -->
+  <ellipse cx="580" cy="380" rx="15" ry="20" fill="#a89575"/>
+  <rect x="565" y="400" width="30" height="80" fill="#4a4a4a"/>
+  <rect x="560" y="398" width="40" height="85" rx="5" fill="#5a5a5a"/>
+  
+  <!-- Weapons/staffs -->
+  <line x1="150" y1="420" x2="140" y2="350" stroke="#6b5b4b" stroke-width="3"/>
+  <line x1="580" y1="410" x2="590" y2="340" stroke="#4a4a4a" stroke-width="3"/>
+  
+  <!-- Stone elements foreground -->
+  <rect x="100" y="470" width="80" height="30" fill="#7a7a7a"/>
+  <rect x="620" y="470" width="100" height="30" fill="#7a7a7a"/>
+  
+  <!-- Additional texture lines -->
+  <line x1="0" y1="320" x2="800" y2="330" stroke="#6a6250" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="360" x2="800" y2="370" stroke="#6a6250" stroke-width="2" opacity="0.3"/>
+</svg>

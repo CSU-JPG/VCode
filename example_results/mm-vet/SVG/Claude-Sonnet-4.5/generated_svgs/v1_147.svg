@@ -1,0 +1,116 @@
+<svg viewBox="0 0 1400 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#d4c4a8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8d7a5e;stop-opacity:1" />
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+    </filter>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1400" height="700" fill="url(#bgGrad)"/>
+  
+  <!-- Ornate wallpaper pattern suggestion -->
+  <rect x="0" y="0" width="300" height="700" fill="#a89779" opacity="0.3"/>
+  <rect x="1100" y="0" width="300" height="700" fill="#a89779" opacity="0.3"/>
+  
+  <!-- Blurred background figures -->
+  <ellipse cx="200" cy="400" rx="60" ry="120" fill="#3d3426" opacity="0.4" filter="url(#blur)"/>
+  <ellipse cx="1200" cy="400" rx="60" ry="120" fill="#3d3426" opacity="0.4" filter="url(#blur)"/>
+  <ellipse cx="100" cy="450" rx="50" ry="100" fill="#4a3f32" opacity="0.3" filter="url(#blur)"/>
+  
+  <!-- Man in white suit (left figure) -->
+  <g id="man">
+    <!-- Body/suit -->
+    <ellipse cx="550" cy="500" rx="120" ry="180" fill="#f5f3ed"/>
+    <rect x="430" y="420" width="240" height="250" rx="20" fill="#f5f3ed"/>
+    
+    <!-- Lapels and details -->
+    <path d="M 480 420 L 520 500 L 480 520" fill="#ebe8dc" opacity="0.8"/>
+    <path d="M 620 420 L 580 500 L 620 520" fill="#ebe8dc" opacity="0.8"/>
+    
+    <!-- Cravat/necktie -->
+    <path d="M 530 380 Q 550 400 550 430 Q 550 400 570 380 Z" fill="#f8f6f0"/>
+    <ellipse cx="550" cy="390" rx="25" ry="15" fill="#faf9f5"/>
+    
+    <!-- Arm holding glass -->
+    <ellipse cx="480" cy="380" rx="35" ry="90" fill="#f5f3ed" transform="rotate(-35 480 380)"/>
+    
+    <!-- Wine glass -->
+    <ellipse cx="440" cy="280" rx="18" ry="20" fill="none" stroke="#d4c9b8" stroke-width="2"/>
+    <rect x="438" y="295" width="4" height="40" fill="#d4c9b8"/>
+    <ellipse cx="440" cy="335" rx="15" ry="5" fill="#c9bda8"/>
+    <ellipse cx="440" cy="280" rx="14" ry="16" fill="#f5e6c8" opacity="0.6"/>
+    
+    <!-- Neck -->
+    <rect x="530" y="360" width="40" height="35" fill="#d9b89e"/>
+    
+    <!-- Head -->
+    <ellipse cx="550" cy="310" rx="55" ry="70" fill="#d9b89e"/>
+    
+    <!-- Hair (wavy, brownish) -->
+    <ellipse cx="520" cy="270" rx="45" ry="35" fill="#6b5744"/>
+    <ellipse cx="560" cy="265" rx="40" ry="38" fill="#6b5744"/>
+    <ellipse cx="585" cy="280" rx="25" ry="30" fill="#6b5744"/>
+    <path d="M 505 265 Q 510 250 520 255 Q 530 245 540 252 Q 550 242 565 250 Q 575 245 585 255" fill="#6b5744"/>
+    
+    <!-- Face features -->
+    <ellipse cx="535" cy="305" rx="3" ry="4" fill="#3d3426"/>
+    <ellipse cx="565" cy="305" rx="3" ry="4" fill="#3d3426"/>
+    <path d="M 535 330 Q 550 340 565 330" fill="none" stroke="#b5937a" stroke-width="2"/>
+    <path d="M 540 315 L 545 325" fill="none" stroke="#b5937a" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Woman (right figure) -->
+  <g id="woman">
+    <!-- Dress -->
+    <ellipse cx="820" cy="500" rx="100" ry="170" fill="#f0dfd0"/>
+    <path d="M 720 480 Q 820 450 920 480 L 920 650 Q 820 630 720 650 Z" fill="#f5e8dc"/>
+    
+    <!-- Bodice details -->
+    <ellipse cx="820" cy="420" rx="70" ry="50" fill="#f8f0e6"/>
+    
+    <!-- Arm holding glass -->
+    <ellipse cx="780" cy="380" rx="30" ry="85" fill="#d9b89e" transform="rotate(20 780 380)"/>
+    
+    <!-- Wine glass -->
+    <ellipse cx="770" cy="290" rx="16" ry="18" fill="none" stroke="#d4c9b8" stroke-width="2"/>
+    <rect x="768" y="305" width="4" height="35" fill="#d4c9b8"/>
+    <ellipse cx="770" cy="340" rx="13" ry="5" fill="#c9bda8"/>
+    <ellipse cx="770" cy="290" rx="12" ry="14" fill="#f5e6c8" opacity="0.6"/>
+    
+    <!-- Necklace/jewelry -->
+    <ellipse cx="820" cy="385" rx="35" ry="8" fill="none" stroke="#d4af87" stroke-width="2"/>
+    <circle cx="820" cy="395" r="5" fill="#e6d7c3"/>
+    
+    <!-- Neck -->
+    <rect x="805" y="360" width="30" height="30" fill="#d9b89e"/>
+    
+    <!-- Head -->
+    <ellipse cx="820" cy="315" rx="45" ry="60" fill="#d9b89e"/>
+    
+    <!-- Hair (dark, updo with decorative element) -->
+    <ellipse cx="820" cy="270" rx="50" ry="45" fill="#3d3426"/>
+    <ellipse cx="795" cy="280" rx="35" ry="40" fill="#3d3426"/>
+    <ellipse cx="845" cy="280" rx="35" ry="40" fill="#3d3426"/>
+    <circle cx="820" cy="250" r="20" fill="#3d3426"/>
+    
+    <!-- Hair ornament -->
+    <circle cx="840" cy="260" r="8" fill="#f5e8dc" opacity="0.7"/>
+    <circle cx="850" cy="265" r="6" fill="#f5e8dc" opacity="0.6"/>
+    <circle cx="830" cy="255" r="5" fill="#f5e8dc" opacity="0.5"/>
+    
+    <!-- Face features -->
+    <ellipse cx="805" cy="310" rx="3" ry="4" fill="#3d3426"/>
+    <ellipse cx="835" cy="310" rx="3" ry="4" fill="#3d3426"/>
+    <path d="M 805 330 Q 820 338 835 330" fill="none" stroke="#b5937a" stroke-width="2"/>
+    <path d="M 813 318 L 818 328" fill="none" stroke="#b5937a" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Atmospheric lighting effects -->
+  <ellipse cx="700" cy="200" rx="400" ry="150" fill="#fff9e6" opacity="0.15"/>
+  <rect x="0" y="0" width="1400" height="100" fill="#e6d9c3" opacity="0.1"/>
+</svg>

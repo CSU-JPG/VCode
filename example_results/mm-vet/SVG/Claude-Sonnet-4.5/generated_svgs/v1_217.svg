@@ -1,0 +1,112 @@
+<svg viewBox="0 0 600 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="75" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">INCOMING</text>
+  <text x="75" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">INFORMATION</text>
+  
+  <!-- Satellite -->
+  <ellipse cx="60" cy="80" rx="20" ry="15" fill="#90EE90" stroke="black" stroke-width="1"/>
+  <path d="M 50 70 Q 45 65 50 60 Q 55 65 50 70" fill="#228B22"/>
+  <path d="M 70 70 Q 75 65 70 60 Q 65 65 70 70" fill="#228B22"/>
+  <line x1="40" y1="75" x2="20" y2="65" stroke="navy" stroke-width="3"/>
+  <line x1="80" y1="75" x2="100" y2="65" stroke="navy" stroke-width="3"/>
+  <text x="60" y="110" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Satellite</text>
+  
+  <!-- Radar -->
+  <ellipse cx="60" cy="230" rx="25" ry="15" fill="#90EE90" stroke="black" stroke-width="1"/>
+  <rect x="50" y="220" width="20" height="15" fill="#228B22"/>
+  <path d="M 60 215 L 50 205 L 70 205 Z" fill="#90EE90" stroke="black" stroke-width="1"/>
+  <text x="60" y="260" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Radar</text>
+  
+  <!-- Digital buoy -->
+  <rect x="55" y="450" width="10" height="30" fill="#90EE90" stroke="black" stroke-width="1"/>
+  <ellipse cx="60" cy="445" rx="8" ry="5" fill="#FFD700" stroke="black" stroke-width="1"/>
+  <path d="M 60 480 L 50 495 L 70 495 Z" fill="navy"/>
+  <path d="M 45 495 Q 60 505 75 495" stroke="navy" fill="none" stroke-width="2"/>
+  <text x="60" y="515" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Digital buoy</text>
+  
+  <!-- Analysis &amp; Forecasting -->
+  <text x="215" y="50" font-family="Arial, sans-serif" font-size="11" font-weight="bold">ANALYSIS &amp;</text>
+  <text x="215" y="65" font-family="Arial, sans-serif" font-size="11" font-weight="bold">FORECASTING</text>
+  
+  <!-- Satellite photo -->
+  <rect x="150" y="100" width="110" height="80" fill="navy" stroke="black" stroke-width="2"/>
+  <ellipse cx="205" cy="140" rx="40" ry="30" fill="none" stroke="#00FF00" stroke-width="2"/>
+  <path d="M 170 120 Q 180 135 170 150" stroke="#00FF00" stroke-width="2" fill="none"/>
+  <path d="M 240 120 Q 230 135 240 150" stroke="#00FF00" stroke-width="2" fill="none"/>
+  <text x="205" y="195" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Satellite photo</text>
+  
+  <!-- Radar screen -->
+  <rect x="150" y="230" width="110" height="80" fill="white" stroke="#00FF00" stroke-width="3"/>
+  <circle cx="205" cy="270" r="35" fill="none" stroke="#00FF00" stroke-width="2"/>
+  <circle cx="205" cy="270" r="25" fill="none" stroke="#00FF00" stroke-width="1"/>
+  <circle cx="205" cy="270" r="15" fill="none" stroke="#00FF00" stroke-width="1"/>
+  <line x1="205" y1="270" x2="230" y2="255" stroke="#00FF00" stroke-width="2"/>
+  <text x="205" y="325" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Radar screen</text>
+  
+  <!-- Synoptic chart -->
+  <rect x="150" y="360" width="110" height="80" fill="white" stroke="#00FF00" stroke-width="3"/>
+  <path d="M 170 390 Q 190 380 210 390 Q 230 400 240 390" stroke="#00FF00" stroke-width="2" fill="none"/>
+  <path d="M 175 410 Q 195 420 215 410 Q 235 400 245 410" stroke="#00FF00" stroke-width="2" fill="none"/>
+  <circle cx="185" cy="400" r="3" fill="#00FF00"/>
+  <circle cx="220" cy="395" r="3" fill="#00FF00"/>
+  <text x="205" y="455" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Synoptic chart</text>
+  
+  <!-- Central Computer -->
+  <rect x="310" y="240" width="70" height="50" fill="navy" stroke="black" stroke-width="2"/>
+  <circle cx="345" cy="265" r="5" fill="white"/>
+  <rect x="310" y="295" width="70" height="10" fill="#CCCCCC" stroke="black" stroke-width="1"/>
+  <rect x="315" y="300" width="25" height="5" rx="2" fill="#666666"/>
+  <rect x="345" y="300" width="30" height="5" rx="2" fill="#666666"/>
+  <ellipse cx="395" cy="275" rx="12" ry="8" fill="#CCCCCC" stroke="black" stroke-width="1"/>
+  <text x="345" y="325" font-family="Arial, sans-serif" font-size="9" text-anchor="middle">PREPARING THE</text>
+  <text x="345" y="338" font-family="Arial, sans-serif" font-size="9" text-anchor="middle">BROADCAST</text>
+  
+  <!-- BROADCAST label -->
+  <text x="490" y="90" font-family="Arial, sans-serif" font-size="11" font-weight="bold">BROADCAST</text>
+  
+  <!-- TV newsreader -->
+  <rect x="445" y="105" width="90" height="70" fill="navy" stroke="black" stroke-width="2"/>
+  <circle cx="490" cy="135" r="15" fill="#FFE4B5" stroke="black" stroke-width="1"/>
+  <rect x="475" y="150" width="30" height="20" fill="#4169E1"/>
+  <text x="490" y="190" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">TV newsreader</text>
+  
+  <!-- Radio -->
+  <rect x="460" y="240" width="70" height="50" fill="navy" stroke="black" stroke-width="2"/>
+  <rect x="465" y="245" width="60" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="520" cy="275" r="5" fill="#666666"/>
+  <text x="495" y="305" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Radio</text>
+  
+  <!-- Recorded announcement -->
+  <ellipse cx="490" cy="410" rx="45" ry="25" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 470 410 L 480 405 L 480 415 Z" fill="#666666"/>
+  <rect x="475" y="400" width="5" height="20" fill="#90EE90"/>
+  <rect x="482" y="397" width="5" height="26" fill="#90EE90"/>
+  <rect x="489" y="402" width="5" height="16" fill="#90EE90"/>
+  <rect x="496" y="395" width="5" height="30" fill="#90EE90"/>
+  <text x="490" y="445" font-family="Arial, sans-serif" font-size="9" text-anchor="middle">Recorded</text>
+  <text x="490" y="457" font-family="Arial, sans-serif" font-size="9" text-anchor="middle">announcement</text>
+  
+  <!-- Connecting lines -->
+  <line x1="80" y1="85" x2="150" y2="130" stroke="navy" stroke-width="3"/>
+  <line x1="85" y1="235" x2="150" y2="260" stroke="navy" stroke-width="3"/>
+  <line x1="80" y1="465" x2="150" y2="400" stroke="navy" stroke-width="3"/>
+  
+  <line x1="260" y1="140" x2="310" y2="260" stroke="navy" stroke-width="3"/>
+  <line x1="260" y1="270" x2="310" y2="265" stroke="navy" stroke-width="3"/>
+  <line x1="260" y1="400" x2="310" y2="280" stroke="navy" stroke-width="3"/>
+  
+  <line x1="380" y1="250" x2="445" y2="140" stroke="navy" stroke-width="3"/>
+  <line x1="380" y1="265" x2="460" y2="265" stroke="navy" stroke-width="3"/>
+  <line x1="380" y1="280" x2="445" y2="400" stroke="navy" stroke-width="3"/>
+  
+  <!-- Arrow heads -->
+  <polygon points="150,130 145,125 145,135" fill="navy"/>
+  <polygon points="150,260 145,255 145,265" fill="navy"/>
+  <polygon points="150,400 145,395 145,405" fill="navy"/>
+  <polygon points="310,260 305,255 305,265" fill="navy"/>
+  <polygon points="310,265 305,260 305,270" fill="navy"/>
+  <polygon points="310,280 305,275 305,285" fill="navy"/>
+  <polygon points="445,140 440,135 440,145" fill="navy"/>
+  <polygon points="460,265 455,260 455,270" fill="navy"/>
+  <polygon points="445,400 440,395 440,405" fill="navy"/>
+</svg>

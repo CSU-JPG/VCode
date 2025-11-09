@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5C4033;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9B8B7E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B5A592;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9B8B7E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  
+  <rect x="0" y="0" width="1600" height="180" fill="url(#wall)"/>
+  
+  <rect x="900" y="80" width="450" height="400" fill="#D4AF37" opacity="0.6"/>
+  <rect x="920" y="100" width="410" height="360" fill="#8B7355"/>
+  
+  <ellipse cx="300" cy="450" rx="180" ry="320" fill="#C19A6B"/>
+  
+  <path d="M 200 350 Q 250 280 300 350 Q 350 280 400 350 L 400 500 Q 300 520 200 500 Z" fill="#B8956A"/>
+  
+  <rect x="220" y="500" width="160" height="400" fill="#D4C5B0"/>
+  <path d="M 240 520 L 360 520 L 350 580 L 250 580 Z" fill="#E8DCC8"/>
+  
+  <ellipse cx="1100" cy="450" rx="160" ry="300" fill="#2C2C2C"/>
+  
+  <rect x="1000" y="400" width="200" height="500" fill="#1A1A1A"/>
+  
+  <rect x="1020" y="450" width="160" height="300" fill="#F5F5F5"/>
+  <ellipse cx="1100" cy="470" rx="70" ry="40" fill="#E8E8E8"/>
+  
+  <ellipse cx="1100" cy="350" rx="90" ry="110" fill="#4A3C2E"/>
+  <ellipse cx="1085" cy="340" rx="35" ry="45" fill="#3A2C1E"/>
+  <ellipse cx="1115" cy="340" rx="35" ry="45" fill="#3A2C1E"/>
+  
+  <path d="M 1070 380 Q 1100 390 1130 380" fill="none" stroke="#2A1C0E" stroke-width="2"/>
+  
+  <ellipse cx="1085" cy="395" rx="15" ry="8" fill="#6B4423"/>
+  <ellipse cx="1115" cy="395" rx="15" ry="8" fill="#6B4423"/>
+  
+  <rect x="1060" y="530" width="30" height="40" fill="#C0C0C0" opacity="0.8"/>
+  <rect x="1110" y="530" width="30" height="40" fill="#C0C0C0" opacity="0.8"/>
+  <circle cx="1075" cy="545" r="6" fill="#E8E8E8"/>
+  <circle cx="1125" cy="545" r="6" fill="#E8E8E8"/>
+  
+  <rect x="50" y="150" width="200" height="300" fill="#C8B273" opacity="0.4"/>
+  <rect x="1350" y="150" width="200" height="300" fill="#C8B273" opacity="0.4"/>
+  
+  <rect x="400" y="200" width="150" height="250" fill="#8B7355" opacity="0.5"/>
+  <rect x="1050" y="200" width="150" height="250" fill="#8B7355" opacity="0.5"/>
+</svg>

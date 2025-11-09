@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8F4F8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="1200" height="900" fill="url(#skyGrad)"/>
+  
+  <!-- Distant city buildings -->
+  <rect x="700" y="550" width="60" height="150" fill="#D5D5D5" opacity="0.7"/>
+  <rect x="770" y="530" width="50" height="170" fill="#C8C8C8" opacity="0.7"/>
+  <rect x="830" y="560" width="55" height="140" fill="#DADADA" opacity="0.7"/>
+  <rect x="895" y="540" width="65" height="160" fill="#D0D0D0" opacity="0.7"/>
+  <rect x="970" y="555" width="50" height="145" fill="#CCCCCC" opacity="0.7"/>
+  <rect x="1030" y="545" width="60" height="155" fill="#D8D8D8" opacity="0.7"/>
+  <rect x="1100" y="560" width="55" height="140" fill="#CECECE" opacity="0.7"/>
+  
+  <!-- Trees in foreground -->
+  <ellipse cx="120" cy="750" rx="70" ry="90" fill="#8B7355"/>
+  <ellipse cx="120" cy="720" rx="80" ry="100" fill="#6B8E4E" opacity="0.8"/>
+  
+  <ellipse cx="220" cy="760" rx="60" ry="85" fill="#8B7355"/>
+  <ellipse cx="220" cy="730" rx="75" ry="95" fill="#5A7A3C" opacity="0.8"/>
+  
+  <ellipse cx="320" cy="755" rx="65" ry="88" fill="#8B7355"/>
+  <ellipse cx="320" cy="725" rx="78" ry="98" fill="#6B8E4E" opacity="0.8"/>
+  
+  <ellipse cx="180" cy="770" rx="55" ry="80" fill="#8B7355"/>
+  <ellipse cx="180" cy="745" rx="70" ry="90" fill="#5A7A3C" opacity="0.8"/>
+  
+  <ellipse cx="270" cy="765" rx="58" ry="82" fill="#8B7355"/>
+  <ellipse cx="270" cy="740" rx="72" ry="92" fill="#6B8E4E" opacity="0.8"/>
+  
+  <!-- Stone pagoda tower base -->
+  <rect x="325" y="550" width="110" height="80" fill="#A89872"/>
+  <rect x="315" y="545" width="130" height="10" fill="#B8A882"/>
+  
+  <!-- Tower stories -->
+  <rect x="335" y="480" width="90" height="70" fill="#9A8862"/>
+  <rect x="328" y="475" width="104" height="8" fill="#AA9872"/>
+  
+  <rect x="345" y="420" width="70" height="60" fill="#A89872"/>
+  <rect x="340" y="415" width="80" height="7" fill="#B8A882"/>
+  
+  <rect x="352" y="370" width="56" height="50" fill="#9A8862"/>
+  <rect x="348" y="366" width="64" height="6" fill="#AA9872"/>
+  
+  <rect x="358" y="330" width="44" height="40" fill="#A89872"/>
+  <rect x="355" y="327" width="50" height="5" fill="#B8A882"/>
+  
+  <rect x="363" y="298" width="34" height="32" fill="#9A8862"/>
+  <rect x="361" y="295" width="38" height="4" fill="#AA9872"/>
+  
+  <!-- Spire rings -->
+  <ellipse cx="380" cy="285" rx="12" ry="4" fill="#8B7355"/>
+  <ellipse cx="380" cy="275" rx="11" ry="4" fill="#8B7355"/>
+  <ellipse cx="380" cy="265" rx="10" ry="4" fill="#8B7355"/>
+  <ellipse cx="380" cy="255" rx="9" ry="3" fill="#8B7355"/>
+  <ellipse cx="380" cy="245" rx="8" ry="3" fill="#8B7355"/>
+  <ellipse cx="380" cy="235" rx="7" ry="3" fill="#8B7355"/>
+  <ellipse cx="380" cy="225" rx="6" ry="2" fill="#8B7355"/>
+  <ellipse cx="380" cy="215" rx="5" ry="2" fill="#8B7355"/>
+  
+  <!-- Top finial -->
+  <polygon points="380,210 377,200 383,200" fill="#8B7355"/>
+  <circle cx="380" cy="195" r="4" fill="#D4AF37"/>
+  <polygon points="380,190 378,180 382,180" fill="#D4AF37"/>
+  <circle cx="380" cy="175" r="3" fill="#FFD700"/>
+  
+  <!-- Window details on tower -->
+  <rect x="365" y="520" width="10" height="15" fill="#6B5D4F"/>
+  <rect x="385" y="520" width="10" height="15" fill="#6B5D4F"/>
+  
+  <rect x="365" y="450" width="8" height="12" fill="#6B5D4F"/>
+  <rect x="387" y="450" width="8" height="12" fill="#6B5D4F"/>
+  
+  <rect x="368" y="390" width="7" height="10" fill="#6B5D4F"/>
+  <rect x="385" y="390" width="7" height="10" fill="#6B5D4F"/>
+  
+  <rect x="371" y="345" width="6" height="8" fill="#6B5D4F"/>
+  <rect x="383" y="345" width="6" height="8" fill="#6B5D4F"/>
+  
+  <!-- More foreground trees -->
+  <ellipse cx="450" cy="770" rx="65" ry="85" fill="#8B7355"/>
+  <ellipse cx="450" cy="740" rx="80" ry="95" fill="#5A7A3C" opacity="0.8"/>
+  
+  <ellipse cx="550" cy="765" rx="60" ry="82" fill="#8B7355"/>
+  <ellipse cx="550" cy="735" rx="75" ry="92" fill="#6B8E4E" opacity="0.8"/>
+  
+  <ellipse cx="80" cy="780" rx="55" ry="75" fill="#8B7355"/>
+  <ellipse cx="80" cy="755" rx="68" ry="85" fill="#5A7A3C" opacity="0.8"/>
+  
+  <!-- Ground/grass -->
+  <rect x="0" y="800" width="1200" height="100" fill="#7A9B5A"/>
+</svg>

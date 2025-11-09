@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="leafGrad" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#4a7c3f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5a2b;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="eggGrad" cx="40%" cy="35%">
+      <stop offset="0%" style="stop-color:#f0f0f0;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#d8d8d8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b0b0b0;stop-opacity:1" />
+    </radialGradient>
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="3" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background leaves blurred -->
+  <ellipse cx="150" cy="250" rx="80" ry="200" fill="url(#leafGrad)" opacity="0.7" transform="rotate(-15 150 250)"/>
+  <ellipse cx="650" cy="280" rx="90" ry="220" fill="url(#leafGrad)" opacity="0.7" transform="rotate(20 650 280)"/>
+  <ellipse cx="100" cy="450" rx="70" ry="160" fill="#3d6b35" opacity="0.6" transform="rotate(-25 100 450)"/>
+  
+  <!-- Main central leaves -->
+  <ellipse cx="250" cy="300" rx="75" ry="210" fill="url(#leafGrad)" transform="rotate(-8 250 300)"/>
+  <path d="M 250,100 Q 255,250 250,500" stroke="#2d5a2b" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <ellipse cx="550" cy="320" rx="80" ry="220" fill="url(#leafGrad)" transform="rotate(12 550 320)"/>
+  <path d="M 550,110 Q 545,270 550,530" stroke="#2d5a2b" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <ellipse cx="380" cy="280" rx="70" ry="200" fill="#4a8040" transform="rotate(5 380 280)"/>
+  <path d="M 380,90 Q 375,240 380,480" stroke="#2d5a2b" stroke-width="2.5" fill="none" opacity="0.5"/>
+  
+  <!-- Stem/base structure -->
+  <ellipse cx="400" cy="420" rx="45" ry="40" fill="#5a7850" opacity="0.8"/>
+  <path d="M 360,410 Q 400,430 440,410" fill="#4a6840" opacity="0.7"/>
+  
+  <!-- Nest cup structure -->
+  <ellipse cx="400" cy="380" rx="90" ry="50" fill="#6b8460" filter="url(#shadow)"/>
+  <path d="M 320,375 Q 400,410 480,375 L 475,385 Q 400,420 325,385 Z" fill="#7a9070" opacity="0.8"/>
+  
+  <!-- Green bract leaves around nest -->
+  <ellipse cx="340" cy="365" rx="25" ry="35" fill="#5a8045" opacity="0.9" transform="rotate(-30 340 365)"/>
+  <ellipse cx="460" cy="365" rx="25" ry="35" fill="#5a8045" opacity="0.9" transform="rotate(30 460 365)"/>
+  <ellipse cx="400" cy="340" rx="30" ry="25" fill="#6a9050" opacity="0.8"/>
+  
+  <!-- Snake/reptile coiled in nest -->
+  <!-- Body coils -->
+  <ellipse cx="380" cy="355" rx="35" ry="45" fill="url(#eggGrad)" filter="url(#shadow)"/>
+  <ellipse cx="420" cy="355" rx="38" ry="48" fill="url(#eggGrad)" filter="url(#shadow)"/>
+  <ellipse cx="400" cy="340" rx="40" ry="35" fill="#e8e8e8" filter="url(#shadow)"/>
+  
+  <!-- Snake head/body parts -->
+  <ellipse cx="370" cy="320" rx="28" ry="32" fill="#dcdcdc" transform="rotate(-20 370 320)" filter="url(#shadow)"/>
+  <ellipse cx="430" cy="325" rx="30" ry="35" fill="#d8d8d8" transform="rotate(15 430 325)" filter="url(#shadow)"/>
+  
+  <!-- Additional coiled sections -->
+  <path d="M 355,360 Q 340,355 335,370 Q 332,385 345,390" fill="#c8c8c8" opacity="0.9"/>
+  <path d="M 445,360 Q 460,355 465,370 Q 468,385 455,390" fill="#c8c8c8" opacity="0.9"/>
+  
+  <!-- Texture spots on snake -->
+  <ellipse cx="390" cy="345" rx="8" ry="6" fill="#a8a8a8" opacity="0.6"/>
+  <ellipse cx="410" cy="350" rx="7" ry="5" fill="#a8a8a8" opacity="0.6"/>
+  <ellipse cx="375" cy="360" rx="6" ry="5" fill="#b0b0b0" opacity="0.5"/>
+  <ellipse cx="425" cy="358" rx="7" ry="6" fill="#b0b0b0" opacity="0.5"/>
+  <ellipse cx="400" cy="335" rx="5" ry="4" fill="#a0a0a0" opacity="0.6"/>
+  <ellipse cx="365" cy="325" rx="5" ry="4" fill="#a8a8a8" opacity="0.5"/>
+  <ellipse cx="435" cy="330" rx="6" ry="5" fill="#a8a8a8" opacity="0.5"/>
+  
+  <!-- More scattered texture -->
+  <circle cx="385" cy="370" r="3" fill="#989898" opacity="0.5"/>
+  <circle cx="415" cy="368" r="3" fill="#989898" opacity="0.5"/>
+  <circle cx="355" cy="365" r="2.5" fill="#909090" opacity="0.5"/>
+  <circle cx="445" cy="365" r="2.5" fill="#909090" opacity="0.5"/>
+  
+  <!-- Small head detail -->
+  <ellipse cx="365" cy="315" rx="15" ry="18" fill="#d0d0d0" transform="rotate(-25 365 315)"/>
+  <circle cx="360" cy="312" r="3" fill="#505050" opacity="0.7"/>
+  
+  <!-- Foreground leaf elements -->
+  <ellipse cx="200" cy="500" rx="65" ry="170" fill="#4a8040" opacity="0.85" transform="rotate(-12 200 500)"/>
+  <ellipse cx="600" cy="480" rx="70" ry="180" fill="#4a8040" opacity="0.85" transform="rotate(18 600 480)"/>
+</svg>

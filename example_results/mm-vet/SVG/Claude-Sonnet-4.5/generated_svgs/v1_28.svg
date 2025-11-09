@@ -1,0 +1,122 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a8fb8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7ba5c4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dirtGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9b7653;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7a5a3f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1200" height="400" fill="url(#skyGrad)"/>
+  
+  <!-- Dirt track -->
+  <rect y="400" width="1200" height="400" fill="url(#dirtGrad)"/>
+  
+  <!-- Grass strip -->
+  <rect y="380" width="1200" height="40" fill="#5a7a3f"/>
+  
+  <!-- Banner/signage area -->
+  <rect y="20" width="1200" height="180" fill="#4a6a8a" opacity="0.7"/>
+  
+  <!-- Lucas Oil left sign -->
+  <rect x="100" y="50" width="200" height="120" fill="#e8e8e8" rx="10"/>
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#d42424" text-anchor="middle">LUCAS</text>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">OIL PRODUCTS</text>
+  
+  <!-- Lucas Oil right sign -->
+  <rect x="700" y="60" width="350" height="100" fill="#e8e8e8" rx="8"/>
+  <text x="875" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#d42424" text-anchor="middle" font-style="italic">LUCAS OIL</text>
+  
+  <!-- Promo text -->
+  <text x="950" y="50" font-family="Arial, sans-serif" font-size="24" fill="#e8e8e8" text-anchor="middle">PROMOTOCROSS.COM</text>
+  
+  <!-- Dust clouds -->
+  <ellipse cx="200" cy="450" rx="80" ry="30" fill="#b8956f" opacity="0.4"/>
+  <ellipse cx="350" cy="460" rx="70" ry="25" fill="#b8956f" opacity="0.35"/>
+  <ellipse cx="500" cy="455" rx="75" ry="28" fill="#b8956f" opacity="0.38"/>
+  <ellipse cx="650" cy="465" rx="65" ry="22" fill="#b8956f" opacity="0.36"/>
+  <ellipse cx="800" cy="450" rx="80" ry="30" fill="#b8956f" opacity="0.4"/>
+  <ellipse cx="950" cy="458" rx="72" ry="26" fill="#b8956f" opacity="0.37"/>
+  
+  <!-- Motorcycles - simplified shapes -->
+  <!-- Bike 1 - Green/Yellow -->
+  <g transform="translate(150, 480)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#2fb52f" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#e8d820"/>
+    <circle cx="20" cy="7" r="6" fill="#333"/>
+  </g>
+  
+  <!-- Bike 2 - Yellow/Black -->
+  <g transform="translate(280, 490)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#e8d820" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#333"/>
+    <circle cx="20" cy="7" r="6" fill="#444"/>
+  </g>
+  
+  <!-- Bike 3 - Green -->
+  <g transform="translate(410, 485)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#2fb52f" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#333"/>
+    <circle cx="20" cy="7" r="6" fill="#222"/>
+  </g>
+  
+  <!-- Bike 4 - Red -->
+  <g transform="translate(540, 478)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#d42424" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#333"/>
+    <circle cx="20" cy="7" r="6" fill="#111"/>
+  </g>
+  
+  <!-- Bike 5 - Red/Orange -->
+  <g transform="translate(670, 492)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#d42424" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#ff6a1a"/>
+    <circle cx="20" cy="7" r="6" fill="#222"/>
+  </g>
+  
+  <!-- Bike 6 - Black -->
+  <g transform="translate(800, 486)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#333" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#222"/>
+    <circle cx="20" cy="7" r="6" fill="#111"/>
+  </g>
+  
+  <!-- Bike 7 - Blue -->
+  <g transform="translate(930, 482)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#2a5fbf" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#333"/>
+    <circle cx="20" cy="7" r="6" fill="#222"/>
+  </g>
+  
+  <!-- Bike 8 - Green/Black -->
+  <g transform="translate(1060, 488)">
+    <ellipse cx="0" cy="30" rx="15" ry="8" fill="#222"/>
+    <ellipse cx="40" cy="30" rx="15" ry="8" fill="#222"/>
+    <rect x="-10" y="10" width="60" height="25" fill="#2fb52f" rx="5"/>
+    <rect x="5" y="0" width="30" height="15" fill="#333"/>
+    <circle cx="20" cy="7" r="6" fill="#222"/>
+  </g>
+  
+  <!-- Track details -->
+  <path d="M 0 550 Q 300 530 600 550 T 1200 550" stroke="#5a3f2f" stroke-width="3" fill="none"/>
+  <path d="M 0 580 Q 400 560 800 580 T 1200 580" stroke="#5a3f2f" stroke-width="2" fill="none"/>
+</svg>

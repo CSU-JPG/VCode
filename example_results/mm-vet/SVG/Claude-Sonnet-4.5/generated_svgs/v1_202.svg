@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#e8e8e8"/>
+  
+  <!-- Bokeh background elements -->
+  <circle cx="200" cy="150" r="40" fill="#d0d0d0" opacity="0.6"/>
+  <circle cx="350" cy="100" r="30" fill="#c8c8c8" opacity="0.5"/>
+  <circle cx="500" cy="180" r="35" fill="#d5d5d5" opacity="0.6"/>
+  <circle cx="1100" cy="120" r="45" fill="#cdcdcd" opacity="0.5"/>
+  <circle cx="1250" cy="200" r="38" fill="#d2d2d2" opacity="0.6"/>
+  <circle cx="150" cy="400" r="32" fill="#d0d0d0" opacity="0.5"/>
+  <circle cx="1300" cy="450" r="42" fill="#c9c9c9" opacity="0.6"/>
+  <circle cx="100" cy="700" r="35" fill="#d3d3d3" opacity="0.5"/>
+  <circle cx="1320" cy="750" r="40" fill="#cecece" opacity="0.6"/>
+  
+  <!-- Foliage patterns -->
+  <ellipse cx="300" cy="250" rx="80" ry="60" fill="#b8b8b8" opacity="0.7"/>
+  <ellipse cx="450" cy="300" rx="70" ry="50" fill="#bcbcbc" opacity="0.6"/>
+  <ellipse cx="1050" cy="280" rx="90" ry="70" fill="#b5b5b5" opacity="0.7"/>
+  <ellipse cx="1200" cy="350" rx="75" ry="55" fill="#bababa" opacity="0.6"/>
+  
+  <!-- Head shape -->
+  <ellipse cx="700" cy="380" rx="180" ry="200" fill="#f5f5f5"/>
+  
+  <!-- Hair - wild and flowing -->
+  <path d="M 520 300 Q 480 250 500 200 Q 520 180 540 200 Q 550 240 560 280 Z" fill="#e0e0e0"/>
+  <path d="M 560 280 Q 540 220 560 180 Q 580 160 600 190 Q 610 240 620 290 Z" fill="#d8d8d8"/>
+  <path d="M 620 250 Q 610 200 630 160 Q 650 140 670 170 Q 680 210 685 260 Z" fill="#e2e2e2"/>
+  <path d="M 880 300 Q 920 250 900 200 Q 880 180 860 200 Q 850 240 840 280 Z" fill="#e0e0e0"/>
+  <path d="M 840 280 Q 860 220 840 180 Q 820 160 800 190 Q 790 240 780 290 Z" fill="#d8d8d8"/>
+  <path d="M 780 250 Q 790 200 770 160 Q 750 140 730 170 Q 720 210 715 260 Z" fill="#e2e2e2"/>
+  
+  <!-- Top of head hair -->
+  <ellipse cx="650" cy="200" rx="70" ry="40" fill="#dadada"/>
+  <ellipse cx="750" cy="190" rx="65" ry="38" fill="#d5d5d5"/>
+  <ellipse cx="700" cy="180" rx="80" ry="45" fill="#e0e0e0"/>
+  
+  <!-- Forehead -->
+  <path d="M 580 320 Q 700 280 820 320 L 820 380 Q 700 360 580 380 Z" fill="#f8f8f8"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="620" cy="400" rx="35" ry="30" fill="#ffffff"/>
+  <ellipse cx="780" cy="400" rx="35" ry="30" fill="#ffffff"/>
+  <circle cx="625" cy="405" r="18" fill="#4a4a4a"/>
+  <circle cx="775" cy="405" r="18" fill="#4a4a4a"/>
+  <circle cx="628" cy="402" r="8" fill="#000000"/>
+  <circle cx="772" cy="402" r="8" fill="#000000"/>
+  <circle cx="631" cy="400" r="4" fill="#ffffff"/>
+  <circle cx="769" cy="400" r="4" fill="#ffffff"/>
+  
+  <!-- Eye wrinkles -->
+  <path d="M 585 390 Q 590 380 595 390" stroke="#c0c0c0" stroke-width="2" fill="none"/>
+  <path d="M 590 400 Q 595 395 600 400" stroke="#c0c0c0" stroke-width="2" fill="none"/>
+  <path d="M 815 390 Q 810 380 805 390" stroke="#c0c0c0" stroke-width="2" fill="none"/>
+  <path d="M 810 400 Q 805 395 800 400" stroke="#c0c0c0" stroke-width="2" fill="none"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 590 370 Q 630 360 660 370" stroke="#a0a0a0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 740 370 Q 770 360 810 370" stroke="#a0a0a0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 700 380 L 690 450 Q 700 460 710 450 Z" fill="#ececec"/>
+  <ellipse cx="685" cy="455" rx="8" ry="12" fill="#e5e5e5"/>
+  <ellipse cx="715" cy="455" rx="8" ry="12" fill="#e5e5e5"/>
+  
+  <!-- Mustache -->
+  <path d="M 650 480 Q 675 490 700 488 Q 725 490 750 480 Q 760 485 755 495 Q 728 500 700 498 Q 672 500 645 495 Q 640 485 650 480" fill="#d8d8d8"/>
+  
+  <!-- Smile -->
+  <path d="M 640 520 Q 700 560 760 520" stroke="#b0b0b0" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 645 525 Q 700 555 755 525" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Laugh lines -->
+  <path d="M 665 500 Q 655 520 650 540" stroke="#c5c5c5" stroke-width="2" fill="none"/>
+  <path d="M 735 500 Q 745 520 750 540" stroke="#c5c5c5" stroke-width="2" fill="none"/>
+  
+  <!-- Chin -->
+  <ellipse cx="700" cy="570" rx="90" ry="70" fill="#f2f2f2"/>
+  
+  <!-- Neck -->
+  <rect x="660" y="620" width="80" height="60" fill="#efefef"/>
+  
+  <!-- Collar -->
+  <path d="M 620 680 L 660 650 L 700 670 L 740 650 L 780 680 L 770 750 L 630 750 Z" fill="#c0c0c0"/>
+  <path d="M 660 650 L 680 680 L 700 670 L 720 680 L 740 650 L 730 690 L 670 690 Z" fill="#a8a8a8"/>
+  
+  <!-- Sweater -->
+  <rect x="550" y="750" width="300" height="250" fill="#b8b8b8" rx="20"/>
+  <ellipse cx="700" cy="850" rx="120" ry="80" fill="#a5a5a5" opacity="0.3"/>
+  
+  <!-- Side hair wisps -->
+  <path d="M 520 400 Q 480 420 460 450 Q 450 470 470 480 Q 500 470 520 450 Z" fill="#d5d5d5" opacity="0.8"/>
+  <path d="M 880 400 Q 920 420 940 450 Q 950 470 930 480 Q 900 470 880 450 Z" fill="#d5d5d5" opacity="0.8"/>
+  
+  <!-- Shoulder definition -->
+  <path d="M 550 900 Q 600 920 700 930 Q 800 920 850 900" stroke="#959595" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

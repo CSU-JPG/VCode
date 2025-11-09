@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="40" y="40" font-family="Arial, sans-serif" font-size="20" fill="black">
+    1. Figure 1 shows the structure of the earth's interior. Write the number showing
+  </text>
+  <text x="80" y="70" font-family="Arial, sans-serif" font-size="20" fill="black">
+    each layer in the table below.
+  </text>
+  
+  <!-- Earth diagram -->
+  <g transform="translate(400, 380)">
+    <!-- Shadow/3D effect -->
+    <ellipse cx="-80" cy="0" rx="200" ry="200" fill="#666" opacity="0.5"/>
+    <ellipse cx="-80" cy="-80" rx="180" ry="180" fill="#888" opacity="0.5"/>
+    
+    <!-- Layer 1 - Crust (outermost) -->
+    <circle cx="0" cy="0" r="200" fill="white" stroke="black" stroke-width="2"/>
+    
+    <!-- Layer 2 - Mantle -->
+    <circle cx="0" cy="0" r="150" fill="white" stroke="black" stroke-width="2"/>
+    
+    <!-- Layer 3 - Outer core -->
+    <circle cx="0" cy="0" r="80" fill="white" stroke="black" stroke-width="2"/>
+    
+    <!-- Layer 4 - Inner core (center) -->
+    <circle cx="0" cy="0" r="40" fill="white" stroke="black" stroke-width="2"/>
+    
+    <!-- Center line -->
+    <line x1="0" y1="-200" x2="0" y2="0" stroke="black" stroke-width="1.5"/>
+    
+    <!-- Labels -->
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="24" fill="black" text-anchor="middle">4</text>
+    <text x="60" y="5" font-family="Arial, sans-serif" font-size="24" fill="black" text-anchor="middle">3</text>
+    <text x="115" y="5" font-family="Arial, sans-serif" font-size="24" fill="black" text-anchor="middle">2</text>
+    
+    <!-- Arrow and label 1 -->
+    <line x1="200" y1="0" x2="250" y2="0" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="260" y="5" font-family="Arial, sans-serif" font-size="24" fill="black">1</text>
+  </g>
+  
+  <!-- Figure 1 caption -->
+  <text x="530" y="680" font-family="Arial, sans-serif" font-size="22" fill="black" text-anchor="middle">Figure 1</text>
+  
+  <!-- Table -->
+  <g transform="translate(40, 730)">
+    <!-- Table border -->
+    <rect x="0" y="0" width="1120" height="280" fill="white" stroke="black" stroke-width="2"/>
+    
+    <!-- Horizontal lines -->
+    <line x1="0" y1="56" x2="1120" y2="56" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="112" x2="1120" y2="112" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="168" x2="1120" y2="168" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="224" x2="1120" y2="224" stroke="black" stroke-width="2"/>
+    
+    <!-- Vertical line -->
+    <line x1="560" y1="0" x2="560" y2="280" stroke="black" stroke-width="2"/>
+    
+    <!-- Header text -->
+    <text x="280" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="black" text-anchor="middle">Layer</text>
+    <text x="840" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="black" text-anchor="middle">Number on figure 1</text>
+    
+    <!-- Row labels -->
+    <text x="280" y="92" font-family="Arial, sans-serif" font-size="20" fill="black" text-anchor="middle">Outer core</text>
+    <text x="280" y="148" font-family="Arial, sans-serif" font-size="20" fill="black" text-anchor="middle">Mantle</text>
+    <text x="280" y="204" font-family="Arial, sans-serif" font-size="20" fill="black" text-anchor="middle">Crust</text>
+    <text x="280" y="260" font-family="Arial, sans-serif" font-size="20" fill="black" text-anchor="middle">Inner core</text>
+  </g>
+  
+  <!-- Mark allocation -->
+  <text x="1140" y="1040" font-family="Arial, sans-serif" font-size="20" fill="black" text-anchor="end">(4)</text>
+</svg>

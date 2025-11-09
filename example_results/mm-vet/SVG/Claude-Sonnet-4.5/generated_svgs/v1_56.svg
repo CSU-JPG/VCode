@@ -1,0 +1,113 @@
+<svg viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="720" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="500" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">
+    Japan: Gross domestic product (GDP) in current prices from 1980 to 2022, with
+  </text>
+  <text x="500" y="55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">
+    projections until 2028 (in billion U.S. dollars)
+  </text>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="600" x2="950" y2="600" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="100" y1="520" x2="950" y2="520" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="100" y1="440" x2="950" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="100" y1="360" x2="950" y2="360" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="100" y1="280" x2="950" y2="280" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="100" y1="200" x2="950" y2="200" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="100" y1="120" x2="950" y2="120" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Y-axis labels -->
+  <text x="90" y="605" font-family="Arial, sans-serif" font-size="12" text-anchor="end">1,000</text>
+  <text x="90" y="525" font-family="Arial, sans-serif" font-size="12" text-anchor="end">2,000</text>
+  <text x="90" y="445" font-family="Arial, sans-serif" font-size="12" text-anchor="end">3,000</text>
+  <text x="90" y="365" font-family="Arial, sans-serif" font-size="12" text-anchor="end">4,000</text>
+  <text x="90" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="end">5,000</text>
+  <text x="90" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="end">6,000</text>
+  <text x="90" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="end">7,000</text>
+  
+  <!-- Y-axis label -->
+  <text x="30" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" transform="rotate(-90 30 360)">
+    GDP in billion U.S. dollars
+  </text>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="600" x2="950" y2="600" stroke="#333" stroke-width="2"/>
+  
+  <!-- X-axis labels -->
+  <text x="110" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1980</text>
+  <text x="160" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1982</text>
+  <text x="210" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1984</text>
+  <text x="260" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1986</text>
+  <text x="310" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1988</text>
+  <text x="360" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1990</text>
+  <text x="410" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1992</text>
+  <text x="460" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1994</text>
+  <text x="510" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1996</text>
+  <text x="560" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">1998</text>
+  <text x="610" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">2000</text>
+  <text x="660" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">2002</text>
+  <text x="710" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">2004</text>
+  <text x="760" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">2006</text>
+  <text x="810" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">2008</text>
+  <text x="860" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">2010</text>
+  <text x="910" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">2012</text>
+  <text x="940" y="605" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2014</text>
+  <text x="940" y="620" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2016</text>
+  <text x="940" y="635" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2018</text>
+  <text x="940" y="650" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2020</text>
+  <text x="940" y="665" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2022</text>
+  <text x="940" y="680" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2024</text>
+  <text x="940" y="695" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2026</text>
+  <text x="940" y="710" font-family="Arial, sans-serif" font-size="11" text-anchor="start">2028*</text>
+  
+  <!-- Data line -->
+  <polyline fill="none" stroke="#1e88e5" stroke-width="3" points="
+    110,584 130,582 150,575 170,560 190,545 210,517 230,495 250,470 270,442 290,423 310,413 330,390 350,365 
+    370,342 390,312 410,328 430,324 450,309 470,293 490,304 510,316 530,324 550,318 570,327 590,336 
+    610,340 630,325 650,308 670,296 690,290 710,283 730,275 750,266 770,270 790,255 810,148 830,163 
+    850,183 870,246 890,260 910,270 930,253 950,242
+  "/>
+  
+  <!-- Data points -->
+  <circle cx="110" cy="584" r="3" fill="#1e88e5"/>
+  <circle cx="810" cy="148" r="4" fill="#1e88e5"/>
+  <circle cx="950" cy="242" r="4" fill="#1e88e5"/>
+  
+  <!-- Key data labels -->
+  <text x="110" y="575" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">1,127.88</text>
+  <text x="170" y="550" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">1,345.2</text>
+  <text x="210" y="505" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">2,121.25</text>
+  <text x="250" y="460" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">2,584.34</text>
+  <text x="270" y="430" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">3,134.18</text>
+  <text x="310" y="403" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">3,657.35</text>
+  <text x="330" y="378" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">3,989.53</text>
+  <text x="350" y="353" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,544.77</text>
+  <text x="370" y="330" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,999.8</text>
+  <text x="390" y="300" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">5,545.57</text>
+  <text x="430" y="312" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,192.45</text>
+  <text x="450" y="297" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,098.36</text>
+  <text x="470" y="281" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,968.36</text>
+  <text x="490" y="292" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,374.71</text>
+  <text x="510" y="304" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,893.14</text>
+  <text x="550" y="306" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,601.66</text>
+  <text x="590" y="324" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">5,106.68</text>
+  <text x="630" y="313" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">5,759.07</text>
+  <text x="810" y="138" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">6,233.15</text>
+  <text x="850" y="171" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">5,212.33</text>
+  <text x="870" y="234" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,444.63</text>
+  <text x="890" y="248" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,897</text>
+  <text x="910" y="258" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,930.84</text>
+  <text x="930" y="241" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">4,923.49</text>
+  <text x="950" y="230" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">5,344.03</text>
+  
+  <!-- Source information -->
+  <text x="50" y="670" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Source</text>
+  <text x="50" y="685" font-family="Arial, sans-serif" font-size="10">IMF</text>
+  <text x="50" y="700" font-family="Arial, sans-serif" font-size="9">© Statista 2023</text>
+  
+  <text x="350" y="670" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Additional Information:</text>
+  <text x="350" y="685" font-family="Arial, sans-serif" font-size="10">Japan; IMF; 1980 to 2022</text>
+</svg>

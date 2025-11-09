@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wood background -->
+  <rect width="800" height="600" fill="#6B4423"/>
+  <path d="M0 200 Q200 180 400 200 T800 200" fill="none" stroke="#5A3618" stroke-width="2" opacity="0.5"/>
+  <path d="M0 350 Q200 330 400 350 T800 350" fill="none" stroke="#5A3618" stroke-width="2" opacity="0.5"/>
+  <path d="M0 500 Q200 480 400 500 T800 500" fill="none" stroke="#5A3618" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Leaves -->
+  <ellipse cx="250" cy="150" rx="45" ry="35" fill="#4A7C2E" transform="rotate(-15 250 150)"/>
+  <ellipse cx="300" cy="130" rx="50" ry="40" fill="#558B3A"/>
+  <ellipse cx="360" cy="140" rx="48" ry="38" fill="#4A7C2E" transform="rotate(20 360 140)"/>
+  <ellipse cx="420" cy="160" rx="46" ry="36" fill="#558B3A" transform="rotate(-10 420 160)"/>
+  <ellipse cx="480" cy="145" rx="52" ry="40" fill="#4A7C2E"/>
+  <ellipse cx="540" cy="155" rx="47" ry="37" fill="#558B3A" transform="rotate(15 540 155)"/>
+  
+  <!-- Leaf details - serrated edges -->
+  <path d="M300 110 Q305 115 310 110 Q315 115 320 110 Q325 115 330 110" fill="none" stroke="#3D6428" stroke-width="1"/>
+  <path d="M480 125 Q485 130 490 125 Q495 130 500 125 Q505 130 510 125" fill="none" stroke="#3D6428" stroke-width="1"/>
+  
+  <!-- Stems -->
+  <line x1="350" y1="250" x2="320" y2="160" stroke="#7A9B4E" stroke-width="4"/>
+  <line x1="450" y1="320" x2="460" y2="170" stroke="#7A9B4E" stroke-width="4"/>
+  <line x1="520" y1="380" x2="510" y2="165" stroke="#7A9B4E" stroke-width="4"/>
+  
+  <!-- Red ripe strawberry (top left) -->
+  <ellipse cx="350" cy="280" rx="35" ry="40" fill="#C41E3A"/>
+  <ellipse cx="345" cy="275" rx="32" ry="36" fill="#E63946"/>
+  <ellipse cx="355" cy="285" rx="30" ry="35" fill="#DC143C"/>
+  
+  <!-- Seeds on ripe strawberry -->
+  <ellipse cx="340" cy="270" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="350" cy="265" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="360" cy="272" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="335" cy="280" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="345" cy="285" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="355" cy="282" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="365" cy="287" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="340" cy="293" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="350" cy="295" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="360" cy="298" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="345" cy="305" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  <ellipse cx="355" cy="308" rx="2" ry="3" fill="#F4D03F" opacity="0.9"/>
+  
+  <!-- Green unripe strawberry (bottom center) -->
+  <ellipse cx="450" cy="360" rx="28" ry="32" fill="#9ACD32"/>
+  <ellipse cx="448" cy="358" rx="25" ry="29" fill="#A8D84E"/>
+  
+  <!-- Seeds on green strawberry -->
+  <ellipse cx="445" cy="350" rx="1.5" ry="2" fill="#6B8E23" opacity="0.7"/>
+  <ellipse cx="453" cy="348" rx="1.5" ry="2" fill="#6B8E23" opacity="0.7"/>
+  <ellipse cx="442" cy="360" rx="1.5" ry="2" fill="#6B8E23" opacity="0.7"/>
+  <ellipse cx="450" cy="363" rx="1.5" ry="2" fill="#6B8E23" opacity="0.7"/>
+  <ellipse cx="458" cy="358" rx="1.5" ry="2" fill="#6B8E23" opacity="0.7"/>
+  <ellipse cx="446" cy="370" rx="1.5" ry="2" fill="#6B8E23" opacity="0.7"/>
+  <ellipse cx="454" cy="372" rx="1.5" ry="2" fill="#6B8E23" opacity="0.7"/>
+  
+  <!-- Moldy/gray strawberry (bottom right) -->
+  <ellipse cx="520" cy="410" rx="32" ry="36" fill="#696969"/>
+  <ellipse cx="518" cy="408" rx="29" ry="33" fill="#808080"/>
+  <ellipse cx="522" cy="413" rx="28" ry="32" fill="#A9A9A9"/>
+  
+  <!-- Mold texture -->
+  <circle cx="515" cy="405" r="3" fill="#4F4F4F" opacity="0.6"/>
+  <circle cx="525" cy="408" r="2.5" fill="#4F4F4F" opacity="0.6"/>
+  <circle cx="518" cy="415" r="3.5" fill="#4F4F4F" opacity="0.6"/>
+  <circle cx="528" cy="418" r="2" fill="#4F4F4F" opacity="0.6"/>
+  <circle cx="512" cy="420" r="2.5" fill="#4F4F4F" opacity="0.6"/>
+  
+  <!-- Orange/reddish strawberry (bottom left) -->
+  <ellipse cx="380" cy="370" rx="30" ry="34" fill="#E85D04"/>
+  <ellipse cx="378" cy="368" rx="27" ry="31" fill="#F77F00"/>
+  
+  <!-- Seeds on orange strawberry -->
+  <ellipse cx="375" cy="360" rx="2" ry="2.5" fill="#FFD60A" opacity="0.8"/>
+  <ellipse cx="383" cy="358" rx="2" ry="2.5" fill="#FFD60A" opacity="0.8"/>
+  <ellipse cx="372" cy="370" rx="2" ry="2.5" fill="#FFD60A" opacity="0.8"/>
+  <ellipse cx="380" cy="373" rx="2" ry="2.5" fill="#FFD60A" opacity="0.8"/>
+  <ellipse cx="388" cy="368" rx="2" ry="2.5" fill="#FFD60A" opacity="0.8"/>
+  <ellipse cx="376" cy="382" rx="2" ry="2.5" fill="#FFD60A" opacity="0.8"/>
+  <ellipse cx="384" cy="385" rx="2" ry="2.5" fill="#FFD60A" opacity="0.8"/>
+  
+  <!-- Calyxes (green tops) -->
+  <g transform="translate(350 245)">
+    <path d="M0 0 L-8 -10 L-5 -2 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L-2 -12 L0 -2 Z" fill="#558B3A"/>
+    <path d="M0 0 L5 -12 L2 -2 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L10 -10 L6 -2 Z" fill="#558B3A"/>
+    <path d="M0 0 L12 -6 L7 0 Z" fill="#4A7C2E"/>
+  </g>
+  
+  <g transform="translate(450 335)">
+    <path d="M0 0 L-6 -8 L-4 -1 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L-1 -9 L0 -1 Z" fill="#558B3A"/>
+    <path d="M0 0 L4 -9 L1 -1 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L7 -7 L4 -1 Z" fill="#558B3A"/>
+  </g>
+  
+  <g transform="translate(520 378)">
+    <path d="M0 0 L-7 -9 L-4 -1 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L-1 -10 L0 -1 Z" fill="#558B3A"/>
+    <path d="M0 0 L4 -10 L1 -1 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L8 -8 L5 -1 Z" fill="#558B3A"/>
+  </g>
+  
+  <g transform="translate(380 340)">
+    <path d="M0 0 L-6 -8 L-4 -1 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L-1 -10 L0 -1 Z" fill="#558B3A"/>
+    <path d="M0 0 L4 -9 L1 -1 Z" fill="#4A7C2E"/>
+    <path d="M0 0 L7 -7 L4 -1 Z" fill="#558B3A"/>
+  </g>
+</svg>

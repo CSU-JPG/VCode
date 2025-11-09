@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1120 1120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1120" height="1120" fill="#e8ddd4"/>
+  
+  <!-- Wall -->
+  <rect x="0" y="0" width="1120" height="700" fill="#f5ede6"/>
+  
+  <!-- Floor - herringbone pattern -->
+  <defs>
+    <pattern id="herringbone" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <rect width="120" height="120" fill="#c9a57b"/>
+      <rect x="0" y="0" width="60" height="20" fill="#d4b896" transform="rotate(45 30 10)"/>
+      <rect x="60" y="0" width="60" height="20" fill="#b89968" transform="rotate(-45 90 10)"/>
+      <rect x="0" y="40" width="60" height="20" fill="#b89968" transform="rotate(45 30 50)"/>
+      <rect x="60" y="40" width="60" height="20" fill="#d4b896" transform="rotate(-45 90 50)"/>
+      <rect x="0" y="80" width="60" height="20" fill="#d4b896" transform="rotate(45 30 90)"/>
+      <rect x="60" y="80" width="60" height="20" fill="#b89968" transform="rotate(-45 90 90)"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="700" width="1120" height="420" fill="url(#herringbone)"/>
+  
+  <!-- Curtains on left -->
+  <path d="M 40 100 Q 80 150 70 300 Q 65 450 75 650 L 40 650 Z" fill="#d9c4b8"/>
+  <path d="M 70 100 Q 110 150 100 300 Q 95 450 105 650 L 70 650 Z" fill="#e8d5ca"/>
+  <path d="M 100 100 Q 140 150 130 300 Q 125 450 135 650 L 100 650 Z" fill="#d9c4b8"/>
+  
+  <!-- Window light -->
+  <rect x="40" y="100" width="100" height="550" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Rug -->
+  <ellipse cx="450" cy="950" rx="200" ry="80" fill="#a8a8a8" opacity="0.3"/>
+  
+  <!-- Chair -->
+  <ellipse cx="300" cy="1000" rx="100" ry="60" fill="#f0f0f0"/>
+  <path d="M 250 1000 L 240 920 Q 235 880 250 860 L 350 860 Q 365 880 360 920 L 350 1000 Z" fill="#ffffff"/>
+  <rect x="230" y="920" width="10" height="120" fill="#d4d4d4"/>
+  <rect x="250" y="920" width="10" height="120" fill="#d4d4d4"/>
+  <rect x="340" y="920" width="10" height="120" fill="#d4d4d4"/>
+  <rect x="360" y="920" width="10" height="120" fill="#d4d4d4"/>
+  
+  <!-- Desk back legs -->
+  <rect x="520" y="620" width="15" height="180" fill="#2d2d2d"/>
+  <rect x="840" y="620" width="15" height="180" fill="#2d2d2d"/>
+  
+  <!-- Desk support bars -->
+  <polygon points="520,650 540,680 840,680 855,650" fill="#1a1a1a"/>
+  <rect x="535" y="680" width="15" height="100" fill="#1a1a1a"/>
+  <rect x="835" y="680" width="15" height="100" fill="#1a1a1a"/>
+  <rect x="535" y="770" width="315" height="10" fill="#1a1a1a"/>
+  
+  <!-- Desk surface -->
+  <rect x="480" y="340" width="420" height="290" rx="3" fill="#4a4a4a"/>
+  <rect x="485" y="345" width="410" height="280" fill="#5a5a5a"/>
+  
+  <!-- Desk front legs -->
+  <rect x="490" y="620" width="15" height="180" fill="#2d2d2d"/>
+  <rect x="870" y="620" width="15" height="180" fill="#2d2d2d"/>
+  
+  <!-- Coffee cup and saucer -->
+  <ellipse cx="580" cy="390" rx="30" ry="10" fill="#e8e8e8"/>
+  <rect x="560" y="370" width="40" height="20" rx="3" fill="#ffffff"/>
+  <ellipse cx="580" cy="370" rx="20" ry="8" fill="#c9b8a0"/>
+  <rect x="600" y="372" width="18" height="10" rx="5" fill="#ffffff"/>
+  
+  <!-- Laptop -->
+  <rect x="630" y="430" width="130" height="85" rx="2" fill="#e0e0e0"/>
+  <rect x="635" y="435" width="120" height="75" fill="#2d2d2d"/>
+  <rect x="630" y="515" width="130" height="8" fill="#d0d0d0"/>
+  <polygon points="640,523 750,523 755,540 635,540" fill="#e0e0e0"/>
+  <rect x="645" y="540" width="100" height="3" fill="#3d3d3d"/>
+  
+  <!-- Notebook -->
+  <rect x="770" y="500" width="60" height="90" rx="2" fill="#b8967d"/>
+  <line x1="775" y1="510" x2="825" y2="510" stroke="#8d6f5a" stroke-width="1"/>
+  <line x1="775" y1="520" x2="825" y2="520" stroke="#8d6f5a" stroke-width="1"/>
+  
+  <!-- Vintage radio -->
+  <rect x="835" y="450" width="85" height="65" rx="3" fill="#d4a574"/>
+  <circle cx="855" cy="482" r="12" fill="#3d3d3d"/>
+  <circle cx="895" cy="482" r="12" fill="#3d3d3d"/>
+  <rect x="845" y="505" width="65" height="5" fill="#a8896a"/>
+  <rect x="848" y="508" width="59" height="2" fill="#c9b8a0"/>
+  <path d="M 900 445 Q 910 450 910 460 L 910 490 Q 910 500 900 505" fill="#b8967d" stroke="#8d6f5a" stroke-width="2"/>
+  
+  <!-- Desk lamp -->
+  <rect x="565" y="200" width="8" height="150" fill="#2d2d2d"/>
+  <circle cx="569" cy="350" r="15" fill="#3d3d3d"/>
+  <path d="M 550 150 Q 540 170 545 190 L 593 190 Q 598 170 588 150 Z" fill="#3d3d3d"/>
+  <ellipse cx="569" cy="150" rx="20" ry="8" fill="#2d2d2d"/>
+  <rect x="567" y="185" width="4" height="15" fill="#2d2d2d"/>
+  
+  <!-- Vase in corner -->
+  <ellipse cx="1060" cy="1050" rx="30" ry="20" fill="#e8e8e8" opacity="0.5"/>
+  <path d="M 1040 1050 Q 1040 1000 1050 950 L 1070 950 Q 1080 1000 1080 1050 Z" fill="#ffffff" opacity="0.7"/>
+</svg>

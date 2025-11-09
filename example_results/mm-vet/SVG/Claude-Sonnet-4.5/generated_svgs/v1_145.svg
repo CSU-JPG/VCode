@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect width="1600" height="900" fill="#3a3a38"/>
+  
+  <!-- Door panels -->
+  <rect x="520" y="50" width="180" height="850" fill="#5a6a68"/>
+  <rect x="720" y="50" width="180" height="850" fill="#616b69"/>
+  
+  <!-- Door edges -->
+  <rect x="515" y="50" width="5" height="850" fill="#4a5452"/>
+  <rect x="700" y="50" width="5" height="850" fill="#4a5452"/>
+  <rect x="900" y="50" width="5" height="850" fill="#4a5452"/>
+  
+  <!-- Door hinge details -->
+  <rect x="705" y="450" width="10" height="40" fill="#3a4240"/>
+  
+  <!-- Woman figure (left) -->
+  <ellipse cx="380" cy="280" rx="75" ry="95" fill="#6b4a3a"/>
+  <path d="M 380 375 Q 320 520 310 720 L 450 720 Q 440 520 380 375 Z" fill="#8a5a52"/>
+  <rect x="305" y="350" width="150" height="50" fill="#7a4a42" opacity="0.8"/>
+  <path d="M 380 210 Q 350 210 340 240 Q 340 280 380 290 Q 420 280 420 240 Q 410 210 380 210 Z" fill="#d4a574"/>
+  <ellipse cx="365" cy="245" rx="8" ry="10" fill="#4a3a2a"/>
+  <path d="M 310 230 Q 320 210 340 215 Q 350 210 360 225" fill="#6b4023" stroke="#6b4023" stroke-width="3"/>
+  
+  <!-- Woman's purse strap -->
+  <line x1="340" y1="380" x2="320" y2="480" stroke="#2a2520" stroke-width="8"/>
+  
+  <!-- Boy figure (right) -->
+  <ellipse cx="1050" cy="340" rx="65" ry="85" fill="#4a1a1a"/>
+  <path d="M 1050 425 Q 1000 550 990 780 L 1110 780 Q 1100 550 1050 425 Z" fill="#4a1a2a"/>
+  <rect x="985" y="400" width="130" height="60" fill="#5a2a2a" opacity="0.9"/>
+  <path d="M 1050 270 Q 1025 270 1015 295 Q 1015 330 1050 340 Q 1085 330 1085 295 Q 1075 270 1050 270 Z" fill="#e4b89a"/>
+  <ellipse cx="1038" cy="305" rx="6" ry="8" fill="#3a2a1a"/>
+  <path d="M 1015 285 Q 1020 275 1030 278 Q 1038 273 1045 283" fill="#8b6a3a" stroke="#8b6a3a" stroke-width="2"/>
+  
+  <!-- Boy's collar and tie -->
+  <polygon points="1040,360 1060,360 1070,380 1030,380" fill="#ffffff"/>
+  <path d="M 1050 380 L 1045 420 L 1055 420 Z" fill="#2a3a4a"/>
+  <path d="M 1050 385 L 1040 395 L 1050 410" fill="#4a5a6a" opacity="0.6"/>
+  
+  <!-- Shadows under figures -->
+  <ellipse cx="380" cy="720" rx="70" ry="15" fill="#1a1a18" opacity="0.4"/>
+  <ellipse cx="1050" cy="780" rx="60" ry="12" fill="#1a1a18" opacity="0.4"/>
+</svg>

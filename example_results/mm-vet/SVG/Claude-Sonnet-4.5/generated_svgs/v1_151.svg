@@ -1,0 +1,45 @@
+<svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="500" height="600" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#000000">My Handwriting In Exams</text>
+  
+  <!-- First section - black bar -->
+  <rect x="0" y="80" width="500" height="50" fill="#000000"/>
+  <text x="250" y="112" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">First two pages</text>
+  
+  <!-- First section - handwriting sample (neat cursive) -->
+  <rect x="10" y="140" width="480" height="80" fill="#e8e8ff" stroke="#666666" stroke-width="1"/>
+  <text x="20" y="165" font-family="Brush Script MT, cursive" font-size="18" fill="#4444aa" style="font-style: italic;">Global warming is definitely a very large</text>
+  <text x="20" y="190" font-family="Brush Script MT, cursive" font-size="18" fill="#4444aa" style="font-style: italic;">issue in front of us. Central Govt</text>
+  <text x="20" y="210" font-family="Brush Script MT, cursive" font-size="18" fill="#4444aa" style="font-style: italic;">it's causing several disturbances in the</text>
+  
+  <!-- Middle section - black bar -->
+  <rect x="0" y="240" width="500" height="50" fill="#000000"/>
+  <text x="250" y="272" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">Middle pages</text>
+  
+  <!-- Middle section - handwriting sample (messy) -->
+  <rect x="10" y="300" width="480" height="80" fill="#e8e8ff" stroke="#666666" stroke-width="1"/>
+  <text x="20" y="325" font-family="Comic Sans MS, cursive" font-size="17" fill="#4444aa" transform="rotate(-2 20 325)">Also it caused the melt down of</text>
+  <text x="20" y="350" font-family="Comic Sans MS, cursive" font-size="17" fill="#4444aa" transform="rotate(1 20 350)">glacial and melting ice ocean that</text>
+  <text x="20" y="370" font-family="Comic Sans MS, cursive" font-size="17" fill="#4444aa" transform="rotate(-1 20 370)">polluted and that making the</text>
+  
+  <!-- Last section - black bar -->
+  <rect x="0" y="400" width="500" height="50" fill="#000000"/>
+  <text x="250" y="432" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">Last two pages</text>
+  
+  <!-- Last section - EKG/graph paper pattern -->
+  <rect x="10" y="460" width="480" height="120" fill="#ffe8e8" stroke="#666666" stroke-width="1"/>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ffcccc" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="10" y="460" width="480" height="120" fill="url(#grid)"/>
+  
+  <!-- EKG-like squiggly lines -->
+  <path d="M 20 520 L 50 520 L 55 500 L 60 540 L 65 520 L 95 520 L 100 505 L 105 535 L 110 520 L 140 520 L 145 510 L 150 530 L 155 520 L 185 520 L 190 500 L 195 540 L 200 520 L 230 520 L 235 505 L 240 535 L 245 520 L 275 520 L 280 510 L 285 530 L 290 520 L 320 520 L 325 500 L 330 540 L 335 520 L 365 520 L 370 505 L 375 535 L 380 520 L 410 520 L 415 510 L 420 530 L 425 520 L 455 520 L 460 500 L 465 540 L 470 520 L 480 520" fill="none" stroke="#ff6666" stroke-width="1.5"/>
+</svg>

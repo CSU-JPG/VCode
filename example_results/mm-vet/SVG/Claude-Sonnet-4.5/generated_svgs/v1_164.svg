@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- White plate background -->
+  <ellipse cx="400" cy="300" rx="380" ry="280" fill="#f5f5f5"/>
+  
+  <!-- Shadow under plate -->
+  <ellipse cx="400" cy="300" rx="380" ry="280" fill="none" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- Broccoli florets - dark green -->
+  <ellipse cx="320" cy="420" rx="45" ry="50" fill="#4a6b3a"/>
+  <ellipse cx="340" cy="390" rx="35" ry="40" fill="#5a7b4a"/>
+  <ellipse cx="380" cy="410" rx="40" ry="45" fill="#4a6b3a"/>
+  <ellipse cx="280" cy="360" rx="38" ry="42" fill="#5a7b4a"/>
+  <ellipse cx="450" cy="380" rx="42" ry="48" fill="#4a6b3a"/>
+  <ellipse cx="420" cy="340" rx="35" ry="40" fill="#5a7b4a"/>
+  <ellipse cx="360" cy="320" rx="40" ry="45" fill="#4a6b3a"/>
+  <ellipse cx="500" cy="320" rx="38" ry="43" fill="#5a7b4a"/>
+  
+  <!-- Broccoli florets - lighter green -->
+  <ellipse cx="300" cy="300" rx="45" ry="50" fill="#7a9b6a"/>
+  <ellipse cx="400" cy="280" rx="50" ry="55" fill="#8aab7a"/>
+  <ellipse cx="460" cy="300" rx="45" ry="50" fill="#7a9b6a"/>
+  <ellipse cx="340" cy="260" rx="42" ry="47" fill="#8aab7a"/>
+  <ellipse cx="520" cy="280" rx="40" ry="45" fill="#7a9b6a"/>
+  
+  <!-- Broccoli stems - pale green -->
+  <rect x="390" y="350" width="20" height="40" fill="#b5d5a5" rx="3"/>
+  <rect x="450" y="330" width="18" height="35" fill="#b5d5a5" rx="3"/>
+  <rect x="330" y="320" width="22" height="38" fill="#b5d5a5" rx="3"/>
+  <rect x="480" y="310" width="20" height="30" fill="#c5e5b5" rx="3"/>
+  <rect x="300" y="340" width="18" height="35" fill="#b5d5a5" rx="3"/>
+  
+  <!-- Carrots - orange -->
+  <ellipse cx="420" cy="240" rx="55" ry="25" fill="#f5a855" transform="rotate(-25 420 240)"/>
+  <ellipse cx="380" cy="200" rx="50" ry="23" fill="#f5a855" transform="rotate(35 380 200)"/>
+  <ellipse cx="500" cy="220" rx="52" ry="24" fill="#ff9944" transform="rotate(-15 500 220)"/>
+  <ellipse cx="350" cy="350" rx="48" ry="22" fill="#f5a855" transform="rotate(45 350 350)"/>
+  <ellipse cx="460" cy="190" rx="45" ry="20" fill="#ff9944" transform="rotate(-30 460 190)"/>
+  <ellipse cx="280" cy="280" rx="50" ry="23" fill="#f5a855" transform="rotate(20 280 280)"/>
+  <ellipse cx="540" cy="250" rx="48" ry="22" fill="#ff9944" transform="rotate(-40 540 250)"/>
+  
+  <!-- Highlights on carrots -->
+  <ellipse cx="425" cy="235" rx="20" ry="8" fill="#ffcc88" opacity="0.6" transform="rotate(-25 425 235)"/>
+  <ellipse cx="385" cy="195" rx="18" ry="7" fill="#ffcc88" opacity="0.6" transform="rotate(35 385 195)"/>
+  <ellipse cx="505" cy="215" rx="19" ry="7" fill="#ffcc88" opacity="0.6" transform="rotate(-15 505 215)"/>
+  
+  <!-- Green herb specks on carrots -->
+  <circle cx="430" cy="245" r="2" fill="#4a6b3a"/>
+  <circle cx="415" cy="235" r="1.5" fill="#4a6b3a"/>
+  <circle cx="390" cy="205" r="2" fill="#4a6b3a"/>
+  <circle cx="510" cy="225" r="1.5" fill="#4a6b3a"/>
+  <circle cx="465" cy="195" r="2" fill="#4a6b3a"/>
+  <circle cx="355" cy="355" r="1.5" fill="#4a6b3a"/>
+  
+  <!-- Glossy highlights on vegetables -->
+  <ellipse cx="310" cy="295" rx="15" ry="18" fill="#ffffff" opacity="0.3"/>
+  <ellipse cx="405" cy="275" rx="18" ry="20" fill="#ffffff" opacity="0.3"/>
+  <ellipse cx="325" cy="415" rx="12" ry="15" fill="#ffffff" opacity="0.25"/>
+  <ellipse cx="455" cy="385" rx="14" ry="16" fill="#ffffff" opacity="0.25"/>
+</svg>

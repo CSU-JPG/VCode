@@ -1,0 +1,87 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#000"/>
+  
+  <!-- Gradient definitions for X-ray effect -->
+  <defs>
+    <radialGradient id="chestGlow" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9"/>
+      <stop offset="50%" style="stop-color:#cccccc;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#666666;stop-opacity:0.3"/>
+    </radialGradient>
+    <radialGradient id="lungGradient" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#222222;stop-opacity:0.9"/>
+      <stop offset="60%" style="stop-color:#333333;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:0.5"/>
+    </radialGradient>
+    <linearGradient id="boneGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95"/>
+      <stop offset="50%" style="stop-color:#e0e0e0;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#cccccc;stop-opacity:0.7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main chest illumination -->
+  <ellipse cx="400" cy="450" rx="320" ry="400" fill="url(#chestGlow)" opacity="0.4"/>
+  
+  <!-- Spine -->
+  <rect x="390" y="50" width="20" height="550" fill="url(#boneGradient)" opacity="0.85"/>
+  <ellipse cx="400" cy="100" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="400" cy="150" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="400" cy="200" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="400" cy="250" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="400" cy="300" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="400" cy="350" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="400" cy="400" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="400" cy="450" rx="12" ry="18" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Left Lung -->
+  <path d="M 250 200 Q 200 250 210 350 Q 220 450 270 520 Q 300 560 350 570 Q 380 575 390 550 L 390 250 Q 380 210 350 200 Q 300 190 250 200 Z" 
+        fill="url(#lungGradient)" opacity="0.8"/>
+  
+  <!-- Right Lung -->
+  <path d="M 550 200 Q 600 250 590 350 Q 580 450 530 520 Q 500 560 450 570 Q 420 575 410 550 L 410 250 Q 420 210 450 200 Q 500 190 550 200 Z" 
+        fill="url(#lungGradient)" opacity="0.8"/>
+  
+  <!-- Rib cage - Left side -->
+  <path d="M 390 150 Q 300 160 240 220" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 390 200 Q 290 215 230 280" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 390 250 Q 280 270 220 340" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 390 300 Q 270 325 210 400" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 390 350 Q 260 380 200 460" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 390 400 Q 250 435 195 520" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 390 450 Q 245 485 200 570" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 390 500 Q 250 530 220 610" stroke="#e8e8e8" stroke-width="5" fill="none" opacity="0.7"/>
+  
+  <!-- Rib cage - Right side -->
+  <path d="M 410 150 Q 500 160 560 220" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 410 200 Q 510 215 570 280" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 410 250 Q 520 270 580 340" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 410 300 Q 530 325 590 400" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 410 350 Q 540 380 600 460" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 410 400 Q 550 435 605 520" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 410 450 Q 555 485 600 570" stroke="#e8e8e8" stroke-width="6" fill="none" opacity="0.75"/>
+  <path d="M 410 500 Q 550 530 580 610" stroke="#e8e8e8" stroke-width="5" fill="none" opacity="0.7"/>
+  
+  <!-- Clavicles (collar bones) -->
+  <path d="M 400 130 Q 320 125 250 145" stroke="#f0f0f0" stroke-width="10" fill="none" opacity="0.85"/>
+  <path d="M 400 130 Q 480 125 550 145" stroke="#f0f0f0" stroke-width="10" fill="none" opacity="0.85"/>
+  
+  <!-- Shoulder joints -->
+  <circle cx="220" cy="160" r="25" fill="#d0d0d0" opacity="0.7"/>
+  <circle cx="580" cy="160" r="25" fill="#d0d0d0" opacity="0.7"/>
+  
+  <!-- Heart shadow -->
+  <path d="M 380 320 Q 360 340 360 370 Q 360 400 380 420 Q 400 440 420 420 Q 440 400 440 370 Q 440 340 420 320 Q 400 310 380 320 Z" 
+        fill="#888888" opacity="0.5"/>
+  
+  <!-- Diaphragm -->
+  <path d="M 200 620 Q 300 680 400 690 Q 500 680 600 620" stroke="#a0a0a0" stroke-width="4" fill="none" opacity="0.6"/>
+  
+  <!-- Soft tissue edges -->
+  <ellipse cx="150" cy="400" rx="80" ry="320" fill="#333333" opacity="0.3"/>
+  <ellipse cx="650" cy="400" rx="80" ry="320" fill="#333333" opacity="0.3"/>
+  
+  <!-- Top marker -->
+  <text x="740" y="40" fill="#e0e0e0" font-size="24" font-family="Arial" opacity="0.8">L</text>
+</svg>

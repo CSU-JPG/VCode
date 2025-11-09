@@ -1,0 +1,111 @@
+<svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="550" fill="#f5f5f0"/>
+  
+  <!-- Decorative border top -->
+  <rect x="10" y="10" width="380" height="30" fill="#333" stroke="#000" stroke-width="2"/>
+  <path d="M 20 25 L 30 15 L 40 25 L 50 15 L 60 25 L 70 15 L 80 25 L 90 15 L 100 25 L 110 15 L 120 25 L 130 15 L 140 25 L 150 15 L 160 25 L 170 15 L 180 25 L 190 15 L 200 25 L 210 15 L 220 25 L 230 15 L 240 25 L 250 15 L 260 25 L 270 15 L 280 25 L 290 15 L 300 25 L 310 15 L 320 25 L 330 15 L 340 25 L 350 15 L 360 25 L 370 15 L 380 25" fill="none" stroke="#fff" stroke-width="1.5"/>
+  
+  <!-- Title text area -->
+  <rect x="100" y="18" width="200" height="16" fill="#ddd" rx="3"/>
+  
+  <!-- Main frame -->
+  <rect x="20" y="50" width="360" height="480" fill="#fff" stroke="#000" stroke-width="3"/>
+  
+  <!-- Central deity figure -->
+  <ellipse cx="200" cy="145" rx="55" ry="65" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  
+  <!-- Face features - closed eyes -->
+  <path d="M 175 140 Q 180 135 185 140" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 215 140 Q 220 135 225 140" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="155" rx="4" ry="6" fill="#000"/>
+  
+  <!-- Mustache -->
+  <path d="M 200 165 L 185 170 M 200 165 L 215 170" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 185 170 Q 170 175 165 178 M 215 170 Q 230 175 235 178" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Beard -->
+  <path d="M 185 185 Q 200 195 215 185" fill="#000"/>
+  <rect x="195" y="185" width="10" height="25" fill="#000"/>
+  
+  <!-- Crown/headpiece -->
+  <ellipse cx="200" cy="95" rx="45" ry="20" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  <circle cx="185" cy="85" r="4" fill="#000"/>
+  <circle cx="200" cy="82" r="4" fill="#000"/>
+  <circle cx="215" cy="85" r="4" fill="#000"/>
+  
+  <!-- Body/robe -->
+  <path d="M 155 190 L 155 280 L 245 280 L 245 190 Z" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  
+  <!-- Hands holding object -->
+  <ellipse cx="200" cy="240" rx="25" ry="20" fill="#fff" stroke="#000" stroke-width="2"/>
+  <circle cx="200" cy="240" r="8" fill="#333"/>
+  
+  <!-- Left attendant -->
+  <ellipse cx="90" cy="130" rx="30" ry="38" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  <circle cx="85" cy="125" r="3" fill="#000"/>
+  <circle cx="95" cy="125" r="3" fill="#000"/>
+  <path d="M 85 135 Q 90 138 95 135" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M 70 155 L 70 220 L 110 220 L 110 155 Z" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  
+  <!-- Left attendant antenna -->
+  <line x1="90" y1="95" x2="90" y2="85" stroke="#000" stroke-width="2"/>
+  <circle cx="90" cy="82" r="4" fill="#000"/>
+  
+  <!-- Right attendant -->
+  <ellipse cx="310" cy="130" rx="30" ry="38" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  <circle cx="305" cy="125" r="3" fill="#000"/>
+  <circle cx="315" cy="125" r="3" fill="#000"/>
+  <path d="M 305 135 Q 310 138 315 135" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M 290 155 L 290 220 L 330 220 L 330 155 Z" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  
+  <!-- Right attendant antenna -->
+  <line x1="310" y1="95" x2="310" y2="85" stroke="#000" stroke-width="2"/>
+  <circle cx="310" cy="82" r="4" fill="#000"/>
+  
+  <!-- Lower left attendant -->
+  <ellipse cx="80" cy="340" rx="28" ry="35" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  <circle cx="75" cy="335" r="3" fill="#000"/>
+  <circle cx="85" cy="335" r="3" fill="#000"/>
+  <path d="M 75 345 Q 80 348 85 345" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M 60 365 L 60 430 L 100 430 L 100 365 Z" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  
+  <!-- Lower right attendant -->
+  <ellipse cx="320" cy="340" rx="28" ry="35" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  <circle cx="315" cy="335" r="3" fill="#000"/>
+  <circle cx="325" cy="335" r="3" fill="#000"/>
+  <path d="M 315 345 Q 320 348 325 345" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M 300 365 L 300 430 L 340 430 L 340 365 Z" fill="#f0e6d2" stroke="#000" stroke-width="2"/>
+  
+  <!-- Table/altar -->
+  <rect x="140" y="290" width="120" height="15" fill="#8b7355" stroke="#000" stroke-width="2"/>
+  <rect x="145" y="305" width="110" height="8" fill="#8b7355" stroke="#000" stroke-width="2"/>
+  <line x1="155" y1="305" x2="155" y2="330" stroke="#000" stroke-width="3"/>
+  <line x1="245" y1="305" x2="245" y2="330" stroke="#000" stroke-width="3"/>
+  
+  <!-- Objects on table -->
+  <rect x="165" y="275" width="70" height="15" fill="#ddd" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Items below table -->
+  <ellipse cx="180" cy="350" rx="15" ry="12" fill="#fff" stroke="#000" stroke-width="2"/>
+  <ellipse cx="220" cy="350" rx="15" ry="12" fill="#fff" stroke="#000" stroke-width="2"/>
+  
+  <!-- Ground animals/offerings -->
+  <ellipse cx="160" cy="460" rx="20" ry="15" fill="#666" stroke="#000" stroke-width="2"/>
+  <circle cx="155" cy="457" r="2" fill="#000"/>
+  <path d="M 145 465 Q 150 470 155 465 M 165 465 Q 170 470 175 465" stroke="#000" stroke-width="2"/>
+  
+  <ellipse cx="240" cy="460" rx="20" ry="15" fill="#666" stroke="#000" stroke-width="2"/>
+  <circle cx="235" cy="457" r="2" fill="#000"/>
+  <path d="M 225 465 Q 230 470 235 465 M 245 465 Q 250 470 255 465" stroke="#000" stroke-width="2"/>
+  
+  <!-- Decorative elements on sides -->
+  <rect x="115" y="110" width="12" height="80" fill="#8b7355" stroke="#000" stroke-width="2"/>
+  <rect x="273" y="110" width="12" height="80" fill="#8b7355" stroke="#000" stroke-width="2"/>
+  
+  <!-- Additional decorative lines -->
+  <line x1="40" y1="490" x2="360" y2="490" stroke="#000" stroke-width="2"/>
+  <circle cx="200" cy="500" r="8" fill="#666" stroke="#000" stroke-width="1.5"/>
+</svg>

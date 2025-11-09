@@ -1,0 +1,55 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#d4d0ca"/>
+  
+  <!-- White fur bottom -->
+  <ellipse cx="200" cy="320" rx="180" ry="140" fill="#f5f5f0"/>
+  
+  <!-- Left ear -->
+  <path d="M 80 120 Q 60 80 70 40 Q 80 20 100 30 Q 120 50 110 90 Z" fill="#2a2a2a"/>
+  <path d="M 85 100 Q 75 75 80 55 Q 85 45 95 50 Q 105 65 100 85 Z" fill="#4a4a4a"/>
+  
+  <!-- Right ear -->
+  <path d="M 320 120 Q 340 80 330 40 Q 320 20 300 30 Q 280 50 290 90 Z" fill="#2a2a2a"/>
+  <path d="M 315 100 Q 325 75 320 55 Q 315 45 305 50 Q 295 65 300 85 Z" fill="#4a4a4a"/>
+  
+  <!-- White fur patches on ears -->
+  <ellipse cx="90" cy="90" rx="15" ry="25" fill="#f5f5f0" opacity="0.7"/>
+  <ellipse cx="310" cy="90" rx="15" ry="25" fill="#f5f5f0" opacity="0.7"/>
+  
+  <!-- Head/face area -->
+  <ellipse cx="200" cy="200" rx="140" ry="130" fill="#f5f5f0"/>
+  
+  <!-- Gray patches -->
+  <ellipse cx="130" cy="150" rx="45" ry="40" fill="#c0c0b8"/>
+  <ellipse cx="270" cy="150" rx="45" ry="40" fill="#c0c0b8"/>
+  
+  <!-- Forehead white -->
+  <ellipse cx="200" cy="130" rx="50" ry="35" fill="#ffffff"/>
+  
+  <!-- Open mouth/black void -->
+  <ellipse cx="200" cy="240" rx="85" ry="95" fill="#000000"/>
+  
+  <!-- Inner mouth darkness -->
+  <ellipse cx="200" cy="235" rx="80" ry="85" fill="#0a0a0a"/>
+  
+  <!-- Throat darkness -->
+  <ellipse cx="200" cy="290" rx="60" ry="40" fill="#000000"/>
+  
+  <!-- Text in mouth -->
+  <text x="200" y="255" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">妈!</text>
+  
+  <!-- Whiskers left -->
+  <line x1="80" y1="210" x2="30" y2="200" stroke="#606060" stroke-width="2" opacity="0.6"/>
+  <line x1="80" y1="225" x2="25" y2="230" stroke="#606060" stroke-width="2" opacity="0.6"/>
+  <line x1="85" y1="240" x2="35" y2="255" stroke="#606060" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Whiskers right -->
+  <line x1="320" y1="210" x2="370" y2="200" stroke="#606060" stroke-width="2" opacity="0.6"/>
+  <line x1="320" y1="225" x2="375" y2="230" stroke="#606060" stroke-width="2" opacity="0.6"/>
+  <line x1="315" y1="240" x2="365" y2="255" stroke="#606060" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Eyes (small, barely visible) -->
+  <ellipse cx="155" cy="180" rx="8" ry="10" fill="#1a1a1a"/>
+  <ellipse cx="245" cy="180" rx="8" ry="10" fill="#1a1a1a"/>
+</svg>

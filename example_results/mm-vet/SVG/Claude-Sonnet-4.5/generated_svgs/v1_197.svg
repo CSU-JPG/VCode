@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background blur -->
+  <defs>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  
+  <!-- Dark background -->
+  <rect width="800" height="600" fill="#1a3d1a"/>
+  
+  <!-- Blurred background leaves -->
+  <ellipse cx="700" cy="200" rx="120" ry="180" fill="#2d5a2d" filter="url(#blur1)"/>
+  <ellipse cx="100" cy="400" rx="100" ry="150" fill="#234a23" filter="url(#blur1)"/>
+  
+  <!-- Main leaf base - lime green -->
+  <path d="M 150 300 Q 200 250 300 220 Q 400 210 500 240 Q 580 270 620 330 Q 640 370 630 420 Q 610 480 550 520 Q 480 550 400 540 Q 320 530 260 490 Q 200 450 170 390 Q 150 350 150 300 Z" fill="#c5e855" stroke="#a8c940" stroke-width="2"/>
+  
+  <!-- Leaf veins -->
+  <path d="M 300 220 L 280 320" stroke="#95b835" stroke-width="3" fill="none"/>
+  <path d="M 400 210 L 400 380" stroke="#95b835" stroke-width="4" fill="none"/>
+  <path d="M 500 240 L 480 360" stroke="#95b835" stroke-width="3" fill="none"/>
+  <path d="M 300 280 L 360 300" stroke="#95b835" stroke-width="2" fill="none"/>
+  <path d="M 450 250 L 420 310" stroke="#95b835" stroke-width="2" fill="none"/>
+  <path d="M 280 350 L 350 370" stroke="#95b835" stroke-width="2" fill="none"/>
+  <path d="M 480 320 L 440 380" stroke="#95b835" stroke-width="2" fill="none"/>
+  
+  <!-- Secondary leaf overlapping -->
+  <path d="M 280 180 Q 320 160 380 170 Q 440 185 480 220 Q 510 250 510 290 Q 505 330 475 360 Q 440 385 390 385 Q 340 380 300 350 Q 270 320 265 280 Q 265 230 280 180 Z" fill="#d4f060" stroke="#b8d645" stroke-width="2"/>
+  
+  <!-- Veins on secondary leaf -->
+  <path d="M 380 170 L 380 320" stroke="#a5c940" stroke-width="3" fill="none"/>
+  <path d="M 340 200 L 360 260" stroke="#a5c940" stroke-width="2" fill="none"/>
+  <path d="M 420 200 L 400 270" stroke="#a5c940" stroke-width="2" fill="none"/>
+  
+  <!-- Brown damaged/diseased areas -->
+  <path d="M 320 240 Q 330 235 340 240 Q 348 248 345 258 Q 340 268 328 270 Q 318 268 315 258 Q 314 248 320 240 Z" fill="#8b6f47" stroke="#6b5537" stroke-width="1"/>
+  
+  <path d="M 420 280 Q 435 278 445 288 Q 450 300 445 312 Q 435 322 420 320 Q 408 315 405 302 Q 405 288 420 280 Z" fill="#9d7d5a" stroke="#7d6040" stroke-width="1"/>
+  
+  <path d="M 360 320 Q 368 318 376 324 Q 380 332 376 340 Q 368 346 358 344 Q 352 338 352 330 Q 353 324 360 320 Z" fill="#8b6f47" stroke="#6b5537" stroke-width="1"/>
+  
+  <path d="M 480 310 Q 492 308 502 316 Q 508 326 504 338 Q 496 348 482 348 Q 472 344 468 334 Q 468 320 480 310 Z" fill="#9d7d5a" stroke="#7d6040" stroke-width="1"/>
+  
+  <path d="M 300 380 Q 310 378 320 384 Q 326 394 322 404 Q 314 412 302 410 Q 294 406 292 396 Q 292 386 300 380 Z" fill="#8b6f47" stroke="#6b5537" stroke-width="1"/>
+  
+  <path d="M 440 380 Q 454 378 464 388 Q 470 400 464 412 Q 454 422 440 420 Q 430 414 428 402 Q 428 388 440 380 Z" fill="#9d7d5a" stroke="#7d6040" stroke-width="1"/>
+  
+  <path d="M 520 360 Q 530 358 538 366 Q 542 376 538 386 Q 530 394 520 392 Q 512 388 510 378 Q 510 366 520 360 Z" fill="#8b6f47" stroke="#6b5537" stroke-width="1"/>
+  
+  <path d="M 380 430 Q 392 428 402 436 Q 408 448 402 460 Q 392 468 380 466 Q 372 460 370 448 Q 370 436 380 430 Z" fill="#9d7d5a" stroke="#7d6040" stroke-width="1"/>
+  
+  <path d="M 260 340 Q 268 338 276 344 Q 280 354 276 364 Q 268 372 258 370 Q 252 366 250 356 Q 250 346 260 340 Z" fill="#8b6f47" stroke="#6b5537" stroke-width="1"/>
+  
+  <path d="M 340 460 Q 350 458 360 466 Q 366 478 360 488 Q 350 496 340 494 Q 332 488 330 478 Q 330 466 340 460 Z" fill="#9d7d5a" stroke="#7d6040" stroke-width="1"/>
+  
+  <!-- Texture details on brown spots -->
+  <ellipse cx="330" cy="255" rx="4" ry="3" fill="#6b5537" opacity="0.5"/>
+  <ellipse cx="430" cy="298" rx="5" ry="4" fill="#6b5537" opacity="0.5"/>
+  <ellipse cx="368" cy="332" rx="3" ry="3" fill="#6b5537" opacity="0.5"/>
+  <ellipse cx="490" cy="326" rx="4" ry="3" fill="#6b5537" opacity="0.5"/>
+  <ellipse cx="308" cy="394" rx="3" ry="3" fill="#6b5537" opacity="0.5"/>
+  <ellipse cx="448" cy="398" rx="4" ry="4" fill="#6b5537" opacity="0.5"/>
+  <ellipse cx="528" cy="376" rx="3" ry="3" fill="#6b5537" opacity="0.5"/>
+  <ellipse cx="388" cy="446" rx="4" ry="3" fill="#6b5537" opacity="0.5"/>
+  
+  <!-- Subtle highlights on leaves -->
+  <ellipse cx="350" cy="210" rx="40" ry="25" fill="#ffffff" opacity="0.15"/>
+  <ellipse cx="450" cy="300" rx="50" ry="30" fill="#ffffff" opacity="0.1"/>
+</svg>

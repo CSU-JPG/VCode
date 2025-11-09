@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0e8e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Branch structure -->
+  <path d="M100 300 Q400 290 700 300" stroke="#8b7355" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M100 300 Q400 290 700 300" stroke="#6b5d4f" stroke-width="14" fill="none" opacity="0.6"/>
+  
+  <!-- Branch texture -->
+  <ellipse cx="200" cy="299" rx="8" ry="3" fill="#5a4a3a" opacity="0.4"/>
+  <ellipse cx="350" cy="293" rx="6" ry="3" fill="#5a4a3a" opacity="0.4"/>
+  <ellipse cx="500" cy="294" rx="7" ry="3" fill="#5a4a3a" opacity="0.4"/>
+  <ellipse cx="620" cy="297" rx="5" ry="2" fill="#5a4a3a" opacity="0.4"/>
+  
+  <!-- Small buds -->
+  <circle cx="250" cy="288" r="3" fill="#9db84d"/>
+  <circle cx="430" cy="285" r="2.5" fill="#9db84d"/>
+  <circle cx="580" cy="290" r="3" fill="#9db84d"/>
+  
+  <!-- Background branches blur -->
+  <line x1="150" y1="150" x2="200" y2="280" stroke="#b0a090" stroke-width="4" opacity="0.3"/>
+  <line x1="600" y1="140" x2="550" y2="270" stroke="#b0a090" stroke-width="4" opacity="0.3"/>
+  
+  <!-- Bird 1: Eastern Bluebird (left) -->
+  <g transform="translate(120, 240)">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#4a90d9"/>
+    <ellipse cx="0" cy="8" rx="11" ry="12" fill="#e8c9a0"/>
+    <circle cx="0" cy="-8" r="10" fill="#4a90d9"/>
+    <circle cx="-3" cy="-10" r="2" fill="#1a1a1a"/>
+    <path d="M-8 -8 L-18 -12 L-16 -6 Z" fill="#2a5ca0"/>
+    <path d="M-6 12 L-10 26 L-4 24 Z" fill="#5a5040"/>
+    <path d="M4 12 L6 26 L10 24 Z" fill="#5a5040"/>
+    <path d="M6 -6 L10 -9 L8 -4 Z" fill="#d97020"/>
+  </g>
+  
+  <!-- Bird 2: Tufted Titmouse -->
+  <g transform="translate(240, 250)">
+    <ellipse cx="0" cy="0" rx="12" ry="16" fill="#a8a8a0"/>
+    <ellipse cx="0" cy="6" rx="10" ry="11" fill="#e8e8e0"/>
+    <circle cx="0" cy="-8" r="9" fill="#a8a8a0"/>
+    <path d="M2 -15 L4 -22 L0 -18 L-2 -22 L0 -15 Z" fill="#787870"/>
+    <circle cx="-2" cy="-9" r="2" fill="#1a1a1a"/>
+    <path d="M5 -7 L9 -8 L7 -5 Z" fill="#505040"/>
+    <path d="M-5 10 L-8 24 L-3 22 Z" fill="#605040"/>
+    <path d="M5 10 L8 24 L11 22 Z" fill="#605040"/>
+  </g>
+  
+  <!-- Bird 3: Small bird (center-left) -->
+  <g transform="translate(340, 258)">
+    <ellipse cx="0" cy="0" rx="10" ry="13" fill="#a09890"/>
+    <ellipse cx="0" cy="5" rx="8" ry="9" fill="#d8d0c8"/>
+    <circle cx="0" cy="-6" r="7" fill="#989088"/>
+    <circle cx="-2" cy="-7" r="1.5" fill="#1a1a1a"/>
+    <path d="M4 -5 L7 -6 L5 -3 Z" fill="#504840"/>
+    <path d="M-4 8 L-6 20 L-2 18 Z" fill="#706050"/>
+    <path d="M4 8 L6 20 L8 18 Z" fill="#706050"/>
+  </g>
+  
+  <!-- Bird 4: Female Cardinal -->
+  <g transform="translate(460, 250)">
+    <ellipse cx="0" cy="0" rx="13" ry="17" fill="#c8a878"/>
+    <ellipse cx="0" cy="7" rx="11" ry="13" fill="#d8b890"/>
+    <circle cx="0" cy="-9" r="10" fill="#c8a070"/>
+    <path d="M2 -16 L5 -24 L1 -19 L-3 -24 L0 -16 Z" fill="#b89060"/>
+    <circle cx="-2" cy="-10" r="2" fill="#1a1a1a"/>
+    <path d="M6 -8 L12 -9 L9 -5 Z" fill="#d86040"/>
+    <path d="M-5 11 L-9 26 L-4 24 Z" fill="#a87850"/>
+    <path d="M5 11 L9 26 L12 24 Z" fill="#a87850"/>
+  </g>
+  
+  <!-- Bird 5: Male Cardinal (bright red) -->
+  <g transform="translate(580, 245)">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#d93030"/>
+    <ellipse cx="0" cy="8" rx="12" ry="14" fill="#e84040"/>
+    <circle cx="0" cy="-9" r="11" fill="#d92020"/>
+    <path d="M3 -17 L6 -26 L2 -20 L-3 -26 L0 -17 Z" fill="#c91010"/>
+    <circle cx="-3" cy="-11" r="2" fill="#1a1a1a"/>
+    <path d="M7 -9 L14 -11 L11 -6 Z" fill="#2a2020"/>
+    <path d="M-6 12 L-10 28 L-5 26 Z" fill="#b82020"/>
+    <path d="M6 12 L10 28 L13 26 Z" fill="#b82020"/>
+  </g>
+  
+  <!-- Bird 6: Small bird (right) -->
+  <g transform="translate(680, 255)">
+    <ellipse cx="0" cy="0" rx="10" ry="13" fill="#c8b0a0"/>
+    <ellipse cx="0" cy="5" rx="8" ry="10" fill="#e8d8d0"/>
+    <circle cx="0" cy="-6" r="7" fill="#b8a090"/>
+    <circle cx="-2" cy="-7" r="1.5" fill="#1a1a1a"/>
+    <path d="M4 -5 L7 -6 L5 -3 Z" fill="#887868"/>
+    <path d="M-4 8 L-6 20 L-2 18 Z" fill="#988070"/>
+    <path d="M4 8 L6 20 L8 18 Z" fill="#988070"/>
+  </g>
+  
+  <!-- Foreground branch detail -->
+  <ellipse cx="300" cy="305" rx="15" ry="5" fill="#4a3a2a" opacity="0.3"/>
+  <ellipse cx="550" cy="307" rx="12" ry="4" fill="#4a3a2a" opacity="0.3"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+  <text x="27" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="black">Solve the following equations:</text>
+  
+  <text x="27" y="130" font-family="Arial, sans-serif" font-size="28" fill="black">1)</text>
+  <text x="85" y="130" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="black">8x</text>
+  <text x="135" y="130" font-family="Arial, sans-serif" font-size="28" fill="black">+</text>
+  <text x="165" y="130" font-family="Arial, sans-serif" font-size="28" fill="black">11</text>
+  <text x="215" y="130" font-family="Arial, sans-serif" font-size="28" fill="black">=</text>
+  <text x="255" y="130" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="black">4x</text>
+  <text x="305" y="130" font-family="Arial, sans-serif" font-size="28" fill="black">+</text>
+  <text x="335" y="130" font-family="Arial, sans-serif" font-size="28" fill="black">14</text>
+  
+  <text x="27" y="220" font-family="Arial, sans-serif" font-size="28" fill="black">2)</text>
+  <text x="85" y="220" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="black">7d</text>
+  <text x="135" y="220" font-family="Arial, sans-serif" font-size="28" fill="black">−</text>
+  <text x="165" y="220" font-family="Arial, sans-serif" font-size="28" fill="black">4</text>
+  <text x="205" y="220" font-family="Arial, sans-serif" font-size="28" fill="black">=</text>
+  <text x="245" y="220" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="black">11d</text>
+  <text x="305" y="220" font-family="Arial, sans-serif" font-size="28" fill="black">−</text>
+  <text x="335" y="220" font-family="Arial, sans-serif" font-size="28" fill="black">9</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="800" height="600" fill="#1a1a1a"/>
+  
+  <!-- Chalkboard -->
+  <rect x="200" y="40" width="400" height="520" fill="#2d2d2d" stroke="#1a1a1a" stroke-width="8"/>
+  
+  <!-- WiFi and FREE text in corner -->
+  <text x="520" y="75" font-family="Arial, sans-serif" font-size="18" fill="#4dd0e1" transform="rotate(-45 520 75)">WiFi</text>
+  <text x="520" y="95" font-family="Arial, sans-serif" font-size="16" fill="#4dd0e1" transform="rotate(-45 520 95)">FREE</text>
+  
+  <!-- PIZZA title -->
+  <text x="240" y="110" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ff69b4">PIZZA</text>
+  
+  <!-- Diagonal lines near title -->
+  <line x1="500" y1="70" x2="570" y2="100" stroke="#4dd0e1" stroke-width="2"/>
+  <line x1="510" y1="75" x2="580" y2="105" stroke="#4dd0e1" stroke-width="2"/>
+  
+  <!-- Menu items -->
+  <text x="240" y="160" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">MARGUERITA    5,10€</text>
+  <text x="240" y="185" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">CAPRICCIO-SA 8,50€</text>
+  <text x="240" y="210" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">DIAVOLA    7,80€</text>
+  <text x="240" y="235" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">4 STAGIONI  8,50€</text>
+  <text x="240" y="260" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">4 FORMAGGI  8,50€</text>
+  <text x="240" y="285" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">MARINARA    5,10€</text>
+  <text x="240" y="310" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">SAPORITA    8,50€</text>
+  <text x="240" y="335" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">WURSTEL     7,10€</text>
+  <text x="240" y="360" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">CAPRESE     7,50€</text>
+  <text x="240" y="385" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">PROSCIUTTO  7,10€</text>
+  <text x="240" y="410" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">GORGONZOLA 7,10€</text>
+  <text x="240" y="435" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">VEGETARIANA 8,50€</text>
+  <text x="240" y="460" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">FUNGHI      6,10€</text>
+  
+  <!-- CALZONE text -->
+  <text x="240" y="510" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffb347">CALZONE 14,00</text>
+  
+  <!-- Decorative elements - blurred background -->
+  <ellipse cx="100" cy="150" rx="30" ry="40" fill="#c41e3a" opacity="0.6" filter="blur(8px)"/>
+  <ellipse cx="120" cy="180" rx="25" ry="35" fill="#228b22" opacity="0.5" filter="blur(8px)"/>
+  <ellipse cx="90" cy="200" rx="20" ry="30" fill="#c41e3a" opacity="0.5" filter="blur(8px)"/>
+  
+  <rect x="680" y="350" width="80" height="100" fill="#d2691e" opacity="0.6" filter="blur(10px)"/>
+  <rect x="700" y="380" width="60" height="80" fill="#8b4513" opacity="0.5" filter="blur(8px)"/>
+</svg>

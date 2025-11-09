@@ -1,0 +1,78 @@
+<svg viewBox="0 0 600 1150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Start oval -->
+  <ellipse cx="175" cy="70" rx="105" ry="45" fill="#9BC88B" stroke="#000" stroke-width="2"/>
+  <text x="175" y="78" font-family="Arial, sans-serif" font-size="20" fill="#000" text-anchor="middle">Start</text>
+  
+  <!-- Arrow from Start to Turn on kettle -->
+  <line x1="175" y1="115" x2="175" y2="170" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Turn on kettle box -->
+  <rect x="80" y="170" width="190" height="70" fill="#F4E89D" stroke="#000" stroke-width="2"/>
+  <text x="175" y="200" font-family="Arial, sans-serif" font-size="18" fill="#000" text-anchor="middle">Turn on kettle</text>
+  
+  <!-- Arrow to Wait for kettle to boil -->
+  <line x1="175" y1="240" x2="175" y2="310" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Wait for kettle to boil box -->
+  <rect x="80" y="310" width="190" height="70" fill="#F4E89D" stroke="#000" stroke-width="2"/>
+  <text x="175" y="335" font-family="Arial, sans-serif" font-size="18" fill="#000" text-anchor="middle">Wait for kettle</text>
+  <text x="175" y="360" font-family="Arial, sans-serif" font-size="18" fill="#000" text-anchor="middle">to boil</text>
+  
+  <!-- Arrow to Water boiled decision -->
+  <line x1="175" y1="380" x2="175" y2="460" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Water boiled diamond -->
+  <polygon points="175,460 250,510 175,560 100,510" fill="#F4A460" stroke="#000" stroke-width="2"/>
+  <text x="175" y="505" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Water</text>
+  <text x="175" y="525" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">boiled?</text>
+  
+  <!-- N arrow to Wait box -->
+  <line x1="250" y1="510" x2="405" y2="510" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="270" y="500" font-family="Arial, sans-serif" font-size="18" fill="#000">N</text>
+  
+  <!-- Wait box -->
+  <rect x="405" y="475" width="165" height="70" fill="#F4E89D" stroke="#000" stroke-width="2"/>
+  <text x="487" y="518" font-family="Arial, sans-serif" font-size="18" fill="#000" text-anchor="middle">Wait</text>
+  
+  <!-- Arrow from Wait back to Wait for kettle to boil -->
+  <line x1="487" y1="475" x2="487" y2="345" stroke="#000" stroke-width="2"/>
+  <line x1="487" y1="345" x2="270" y2="345" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Y arrow to Pour water -->
+  <line x1="175" y1="560" x2="175" y2="620" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="160" y="595" font-family="Arial, sans-serif" font-size="18" fill="#000">Y</text>
+  
+  <!-- Pour water box -->
+  <rect x="80" y="620" width="190" height="70" fill="#F4E89D" stroke="#000" stroke-width="2"/>
+  <text x="175" y="645" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Pour water on</text>
+  <text x="175" y="670" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">teabag in cup</text>
+  
+  <!-- Arrow to Wait 2-3 min -->
+  <line x1="175" y1="690" x2="175" y2="750" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Wait 2-3 min box -->
+  <rect x="80" y="750" width="190" height="70" fill="#F4E89D" stroke="#000" stroke-width="2"/>
+  <text x="175" y="792" font-family="Arial, sans-serif" font-size="18" fill="#000" text-anchor="middle">Wait 2-3 min</text>
+  
+  <!-- Arrow to Add milk and sugar -->
+  <line x1="175" y1="820" x2="175" y2="880" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Add milk and sugar box -->
+  <rect x="80" y="880" width="190" height="70" fill="#F4E89D" stroke="#000" stroke-width="2"/>
+  <text x="175" y="910" font-family="Arial, sans-serif" font-size="18" fill="#000" text-anchor="middle">Add milk</text>
+  <text x="175" y="935" font-family="Arial, sans-serif" font-size="18" fill="#000" text-anchor="middle">and sugar</text>
+  
+  <!-- Arrow to Stop -->
+  <line x1="175" y1="950" x2="175" y2="1015" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Stop oval -->
+  <ellipse cx="175" cy="1060" rx="105" ry="45" fill="#F4A4A4" stroke="#000" stroke-width="2"/>
+  <text x="175" y="1068" font-family="Arial, sans-serif" font-size="20" fill="#000" text-anchor="middle">Stop</text>
+  
+  <!-- Arrowhead marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#000"/>
+    </marker>
+  </defs>
+</svg>

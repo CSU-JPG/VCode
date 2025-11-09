@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect width="1600" height="900" fill="#8B7355"/>
+  
+  <!-- Windows -->
+  <rect x="200" y="50" width="180" height="380" fill="#E8D5B7"/>
+  <rect x="420" y="50" width="180" height="380" fill="#E8D5B7"/>
+  <rect x="640" y="50" width="180" height="380" fill="#E8D5B7"/>
+  <rect x="860" y="50" width="180" height="380" fill="#E8D5B7"/>
+  
+  <!-- Window lattice pattern -->
+  <g stroke="#2C2416" stroke-width="4" fill="none">
+    <path d="M200,50 L380,430 M380,50 L200,430 M230,50 L350,430 M350,50 L230,430 M260,50 L320,430 M320,50 L260,430"/>
+    <path d="M420,50 L600,430 M600,50 L420,430 M450,50 L570,430 M570,50 L450,430 M480,50 L540,430 M540,50 L480,430"/>
+    <path d="M640,50 L820,430 M820,50 L640,430 M670,50 L790,430 M790,50 L670,430 M700,50 L760,430 M760,50 L700,430"/>
+    <path d="M860,50 L1040,430 M1040,50 L860,430 M890,50 L1010,430 M1010,50 L890,430 M920,50 L980,430 M980,50 L920,430"/>
+  </g>
+  
+  <!-- Framed pictures on walls -->
+  <rect x="80" y="100" width="80" height="70" fill="#4A4A4A" stroke="#2C2416" stroke-width="3"/>
+  <rect x="90" y="110" width="60" height="50" fill="#6B6B6B"/>
+  
+  <rect x="80" y="210" width="80" height="70" fill="#4A4A4A" stroke="#2C2416" stroke-width="3"/>
+  <rect x="90" y="220" width="60" height="50" fill="#6B6B6B"/>
+  
+  <rect x="1100" y="80" width="100" height="80" fill="#4A4A4A" stroke="#2C2416" stroke-width="3"/>
+  <rect x="1110" y="90" width="80" height="60" fill="#D4C5A0"/>
+  
+  <rect x="1250" y="60" width="90" height="70" fill="#4A4A4A" stroke="#2C2416" stroke-width="3"/>
+  <rect x="1260" y="70" width="70" height="50" fill="#6B6B6B"/>
+  
+  <!-- Bar counter on right -->
+  <rect x="1200" y="400" width="300" height="180" fill="#3D2817"/>
+  <rect x="1200" y="400" width="300" height="20" fill="#2C1810"/>
+  
+  <!-- Glasses on bar -->
+  <ellipse cx="1280" cy="480" rx="15" ry="25" fill="#B8D4E8" opacity="0.6"/>
+  <ellipse cx="1350" cy="490" rx="15" ry="25" fill="#B8D4E8" opacity="0.6"/>
+  
+  <!-- Pool table on left -->
+  <rect x="100" y="480" width="400" height="250" fill="#2C5F2D"/>
+  <rect x="90" y="730" width="420" height="40" fill="#5C3A21"/>
+  
+  <!-- Pool table edge highlights -->
+  <rect x="100" y="480" width="400" height="15" fill="#1A3A1B"/>
+  <rect x="100" y="480" width="15" height="250" fill="#1A3A1B"/>
+  
+  <!-- Chair/stool in front -->
+  <ellipse cx="400" cy="780" rx="60" ry="20" fill="#6B4423"/>
+  <rect x="380" y="700" width="40" height="80" fill="#5C3A21"/>
+  
+  <!-- Woman figure (center) -->
+  <ellipse cx="750" cy="250" rx="60" ry="80" fill="#F5D5A8"/>
+  <rect x="720" y="220" width="60" height="30" fill="#F0C080"/>
+  <path d="M720,200 Q750,150 780,200" fill="#E8C068"/>
+  
+  <!-- Hair -->
+  <path d="M700,180 Q750,120 800,180 L790,280 Q750,300 710,280 Z" fill="#F4D58D"/>
+  
+  <!-- T-shirt with flag -->
+  <rect x="680" y="330" width="140" height="180" fill="#FFFFFF"/>
+  
+  <!-- Union Jack design -->
+  <rect x="680" y="380" width="140" height="80" fill="#012169"/>
+  <path d="M680,380 L820,460 M820,380 L680,460" stroke="#FFFFFF" stroke-width="12"/>
+  <path d="M680,380 L820,460 M820,380 L680,460" stroke="#C8102E" stroke-width="6"/>
+  <path d="M750,380 L750,460 M680,420 L820,420" stroke="#FFFFFF" stroke-width="20"/>
+  <path d="M750,380 L750,460 M680,420 L820,420" stroke="#C8102E" stroke-width="12"/>
+  
+  <!-- Arms -->
+  <rect x="610" y="360" width="70" height="30" fill="#F5D5A8" transform="rotate(-15 645 375)"/>
+  <rect x="820" y="360" width="70" height="30" fill="#F5D5A8" transform="rotate(15 855 375)"/>
+  
+  <!-- Pants -->
+  <rect x="680" y="510" width="60" height="200" fill="#1A1A2E"/>
+  <rect x="760" y="510" width="60" height="200" fill="#1A1A2E"/>
+  
+  <!-- Man figure (right side) -->
+  <ellipse cx="1100" cy="280" rx="50" ry="70" fill="#D4A574"/>
+  <rect x="1080" y="260" width="40" height="25" fill="#C89F6F"/>
+  <path d="M1080,240 Q1100,220 1120,240" fill="#4A4A4A"/>
+  
+  <!-- Man's shirt -->
+  <rect x="1050" y="350" width="100" height="160" fill="#7C7C7C"/>
+  
+  <!-- Man's arm holding glass -->
+  <rect x="1150" y="380" width="80" height="25" fill="#D4A574" transform="rotate(25 1190 392)"/>
+  <rect x="1220" y="420" width="15" height="60" fill="#B8D4E8" opacity="0.6"/>
+  
+  <!-- Man's pants -->
+  <rect x="1050" y="510" width="45" height="180" fill="#3A3A52"/>
+  <rect x="1105" y="510" width="45" height="180" fill="#3A3A52"/>
+  
+  <!-- Floor -->
+  <rect y="720" width="1600" height="180" fill="#3D2817"/>
+  
+  <!-- Shadow effects -->
+  <ellipse cx="750" cy="850" rx="100" ry="20" fill="#000000" opacity="0.2"/>
+  <ellipse cx="1100" cy="850" rx="80" ry="15" fill="#000000" opacity="0.2"/>
+</svg>

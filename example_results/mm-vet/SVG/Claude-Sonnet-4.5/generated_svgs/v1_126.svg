@@ -1,0 +1,91 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background table surface -->
+  <rect width="1200" height="800" fill="#e8e8e0"/>
+  
+  <!-- Table texture -->
+  <rect width="1200" height="800" fill="#d5d5c8" opacity="0.3"/>
+  
+  <!-- Empty plates top -->
+  <ellipse cx="750" cy="120" rx="85" ry="20" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="2"/>
+  <ellipse cx="950" cy="120" rx="85" ry="20" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- Condiment holder -->
+  <rect x="280" y="80" width="70" height="120" rx="3" fill="#8B4513" opacity="0.6"/>
+  <ellipse cx="300" cy="110" rx="12" ry="18" fill="#FFD700" stroke="#CCA000" stroke-width="1"/>
+  <ellipse cx="335" cy="110" rx="12" ry="18" fill="#DC143C" stroke="#A00000" stroke-width="1"/>
+  
+  <!-- Bread basket -->
+  <ellipse cx="280" cy="350" rx="120" ry="90" fill="#D2691E" opacity="0.4"/>
+  <ellipse cx="280" cy="340" rx="115" ry="85" fill="#CD853F" opacity="0.5"/>
+  
+  <!-- Bread slices -->
+  <ellipse cx="250" cy="300" rx="50" ry="35" fill="#F4A460"/>
+  <ellipse cx="250" cy="295" rx="48" ry="32" fill="#FFDEAD"/>
+  <path d="M 230 295 Q 250 290 270 295" fill="none" stroke="#DEB887" stroke-width="1"/>
+  
+  <ellipse cx="280" cy="330" rx="50" ry="35" fill="#F4A460"/>
+  <ellipse cx="280" cy="325" rx="48" ry="32" fill="#FFDEAD"/>
+  
+  <ellipse cx="310" cy="300" rx="50" ry="35" fill="#F4A460"/>
+  <ellipse cx="310" cy="295" rx="48" ry="32" fill="#FFDEAD"/>
+  
+  <!-- Salt and pepper shakers in basket -->
+  <ellipse cx="260" cy="360" rx="15" ry="25" fill="#E0E0E0"/>
+  <ellipse cx="260" cy="340" rx="12" ry="8" fill="#C0C0C0"/>
+  <ellipse cx="300" cy="360" rx="15" ry="25" fill="#505050"/>
+  <ellipse cx="300" cy="340" rx="12" ry="8" fill="#404040"/>
+  
+  <!-- Salad bowl -->
+  <ellipse cx="650" cy="350" rx="110" ry="80" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="2"/>
+  <ellipse cx="650" cy="345" rx="105" ry="75" fill="#fff"/>
+  
+  <!-- Salad greens -->
+  <ellipse cx="620" cy="330" rx="35" ry="25" fill="#90EE90"/>
+  <ellipse cx="680" cy="330" rx="35" ry="25" fill="#228B22"/>
+  <ellipse cx="650" cy="350" rx="40" ry="28" fill="#32CD32"/>
+  
+  <!-- Tomatoes in salad -->
+  <ellipse cx="640" cy="360" rx="15" ry="12" fill="#FF6347"/>
+  <ellipse cx="670" cy="355" rx="12" ry="10" fill="#FF4500"/>
+  
+  <!-- Cucumbers -->
+  <rect x="630" y="365" width="25" height="12" rx="3" fill="#98FB98"/>
+  <rect x="660" y="368" width="20" height="10" rx="3" fill="#90EE90"/>
+  
+  <!-- Feta cheese on top -->
+  <rect x="640" cy="320" width="35" height="25" fill="#FFFACD" opacity="0.9"/>
+  <rect x="645" cy="318" width="25" height="20" fill="#FFF8DC"/>
+  
+  <!-- Black olives/toppings -->
+  <ellipse cx="655" cy="315" rx="8" ry="6" fill="#2F4F4F"/>
+  <ellipse cx="665" cy="318" rx="6" ry="5" fill="#1C1C1C"/>
+  
+  <!-- Tzatziki/white sauce plate -->
+  <ellipse cx="700" cy="580" rx="95" ry="22" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="2"/>
+  <ellipse cx="700" cy="575" rx="88" ry="65" fill="#fff" stroke="#d0d0d0" stroke-width="1"/>
+  
+  <!-- Sauce texture -->
+  <ellipse cx="700" cy="570" rx="75" ry="50" fill="#FFFAF0"/>
+  <ellipse cx="690" cy="565" rx="60" ry="40" fill="#F5F5DC" opacity="0.7"/>
+  
+  <!-- Herb specks in sauce -->
+  <circle cx="680" cy="560" r="2" fill="#556B2F"/>
+  <circle cx="710" cy="570" r="2" fill="#556B2F"/>
+  <circle cx="695" cy="575" r="1.5" fill="#6B8E23"/>
+  <circle cx="720" cy="565" r="1.5" fill="#556B2F"/>
+  <circle cx="685" cy="580" r="1" fill="#6B8E23"/>
+  
+  <!-- Fork on salad plate -->
+  <line x1="730" y1="340" x2="730" y2="390" stroke="#C0C0C0" stroke-width="3"/>
+  <line x1="725" y1="340" x2="725" y2="355" stroke="#C0C0C0" stroke-width="2"/>
+  <line x1="730" y1="340" x2="730" y2="355" stroke="#C0C0C0" stroke-width="2"/>
+  <line x1="735" y1="340" x2="735" y2="355" stroke="#C0C0C0" stroke-width="2"/>
+  
+  <!-- Hand indication top right -->
+  <ellipse cx="1050" cy="150" rx="60" ry="40" fill="#E8B89A" opacity="0.6"/>
+  
+  <!-- Additional texture and shadows -->
+  <ellipse cx="280" cy="355" rx="110" ry="5" fill="#000" opacity="0.1"/>
+  <ellipse cx="650" cy="425" rx="100" ry="8" fill="#000" opacity="0.1"/>
+  <ellipse cx="700" cy="605" rx="85" ry="5" fill="#000" opacity="0.1"/>
+</svg>

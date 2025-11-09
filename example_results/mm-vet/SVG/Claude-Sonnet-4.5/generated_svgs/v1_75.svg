@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a8a9a;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#87a8a8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8c5b8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d4d0be;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#f0ead0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#d4d0be;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#skyGrad)"/>
+  
+  <ellipse cx="900" cy="250" rx="180" ry="35" fill="url(#cloudGrad)"/>
+  <ellipse cx="950" cy="270" rx="120" ry="25" fill="url(#cloudGrad)"/>
+  
+  <rect x="0" y="650" width="1200" height="150" fill="#4a4540"/>
+  <rect x="0" y="670" width="1200" height="130" fill="#3a3530"/>
+  
+  <line x1="0" y1="680" x2="1200" y2="680" stroke="#d4d0be" stroke-width="3"/>
+  <line x1="100" y1="680" x2="200" y2="680" stroke="#ffffff" stroke-width="4"/>
+  <line x1="300" y1="680" x2="400" y2="680" stroke="#ffffff" stroke-width="4"/>
+  <line x1="500" y1="680" x2="600" y2="680" stroke="#ffffff" stroke-width="4"/>
+  <line x1="700" y1="680" x2="800" y2="680" stroke="#ffffff" stroke-width="4"/>
+  <line x1="900" y1="680" x2="1000" y2="680" stroke="#ffffff" stroke-width="4"/>
+  
+  <g transform="translate(400, 350)">
+    <path d="M 0 200 L 80 150 L 300 120 L 420 140 L 480 180 L 490 240 L 450 280 L 100 300 Z" fill="#1a2838" stroke="#0a0a0a" stroke-width="3"/>
+    
+    <rect x="150" y="180" width="200" height="80" fill="#2a3848" stroke="#0a0a0a" stroke-width="2"/>
+    
+    <ellipse cx="120" cy="280" rx="55" ry="55" fill="#2a2a2a" stroke="#0a0a0a" stroke-width="3"/>
+    <ellipse cx="120" cy="280" rx="35" ry="35" fill="#3a3a3a"/>
+    <circle cx="120" cy="280" r="25" fill="#1a1a1a"/>
+    
+    <ellipse cx="410" cy="280" rx="55" ry="55" fill="#2a2a2a" stroke="#0a0a0a" stroke-width="3"/>
+    <ellipse cx="410" cy="280" rx="35" ry="35" fill="#3a3a3a"/>
+    <circle cx="410" cy="280" r="25" fill="#1a1a1a"/>
+    
+    <rect x="50" y="140" width="60" height="50" rx="5" fill="#1a2838" stroke="#0a0a0a" stroke-width="2"/>
+    
+    <ellipse cx="180" cy="190" rx="25" ry="25" fill="#0a1a2a" stroke="#5a6a7a" stroke-width="2"/>
+    <ellipse cx="240" cy="190" rx="25" ry="25" fill="#0a1a2a" stroke="#5a6a7a" stroke-width="2"/>
+    
+    <circle cx="250" cy="230" r="35" fill="#e8e8e8" stroke="#2a2a2a" stroke-width="3"/>
+    <text x="250" y="245" font-family="Arial Black, sans-serif" font-size="32" font-weight="bold" fill="#1a1a1a" text-anchor="middle">43</text>
+    
+    <rect x="230" y="260" width="80" height="20" fill="#e8e8e8" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="270" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1a1a1a" text-anchor="middle">HOONIGAN</text>
+    
+    <path d="M 350 200 L 380 200 L 390 220 L 370 235 L 350 220 Z" fill="#39b54a"/>
+    <path d="M 370 200 L 400 200 L 410 220 L 390 235 L 370 220 Z" fill="#76c043"/>
+    <path d="M 390 200 L 420 200 L 430 220 L 410 235 L 390 220 Z" fill="#39b54a"/>
+    
+    <ellipse cx="90" cy="160" rx="20" ry="15" fill="#2a4a8a" stroke="#1a1a1a" stroke-width="2"/>
+    <path d="M 75 160 L 85 155 L 95 160 L 85 165 Z" fill="#e8e8e8"/>
+    
+    <text x="430" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e8e8e8">TOYO</text>
+    <text x="430" y="238" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e8e8e8">TIRES</text>
+    
+    <rect x="15" y="165" width="30" height="15" fill="#2a4a8a" rx="3"/>
+    <text x="30" y="177" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#e8e8e8" text-anchor="middle">FR</text>
+    
+    <path d="M 100 250 Q 150 240 200 250" stroke="#c84035" stroke-width="3" fill="none"/>
+  </g>
+  
+  <ellipse cx="200" cy="720" rx="15" ry="6" fill="#2a2a2a" opacity="0.4"/>
+  <ellipse cx="350" cy="720" rx="15" ry="6" fill="#2a2a2a" opacity="0.4"/>
+</svg>

@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bark1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d3028;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5a4638;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a1f1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="amber1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9500;stop-opacity:0.9" />
+      <stop offset="40%" style="stop-color:#ffc04d;stop-opacity:0.95" />
+      <stop offset="70%" style="stop-color:#cc6600;stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:#8b4500;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="amber2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffb347;stop-opacity:0.95" />
+      <stop offset="50%" style="stop-color:#ff8c00;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#b85c00;stop-opacity:0.85" />
+    </linearGradient>
+    <radialGradient id="highlight" cx="40%" cy="30%">
+      <stop offset="0%" style="stop-color:#fff8dc;stop-opacity:0.6" />
+      <stop offset="60%" style="stop-color:#ffcc66;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ff9500;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background blur -->
+  <rect width="800" height="600" fill="#8a7968" opacity="0.6"/>
+  <ellipse cx="200" cy="150" rx="80" ry="120" fill="#9a8978" opacity="0.4"/>
+  <ellipse cx="650" cy="400" rx="100" ry="140" fill="#7a6958" opacity="0.3"/>
+  
+  <!-- Bark texture base -->
+  <path d="M 200 50 Q 250 80 280 150 Q 300 250 320 350 Q 330 450 350 550 L 380 560 Q 360 460 350 360 Q 340 260 310 160 Q 280 90 240 60 Z" fill="url(#bark1)"/>
+  
+  <path d="M 350 100 Q 390 130 420 200 Q 440 280 450 380 Q 455 480 465 570 L 490 575 Q 480 475 470 375 Q 460 275 435 195 Q 405 125 370 95 Z" fill="#4a3a2d"/>
+  
+  <path d="M 500 150 Q 530 180 550 250 Q 565 340 575 450 Q 580 520 590 590 L 610 592 Q 600 520 595 445 Q 585 335 565 245 Q 540 175 515 145 Z" fill="url(#bark1)"/>
+  
+  <!-- Main amber drop (large center) -->
+  <ellipse cx="400" cy="320" rx="75" ry="95" fill="url(#amber1)"/>
+  <ellipse cx="390" cy="305" rx="60" ry="75" fill="url(#amber2)" opacity="0.8"/>
+  <ellipse cx="385" cy="295" rx="35" ry="45" fill="url(#highlight)"/>
+  <path d="M 380 270 Q 395 265 405 280 Q 410 300 395 320 Q 375 340 365 320 Q 360 300 370 280 Z" fill="#ffcc66" opacity="0.4"/>
+  
+  <!-- Upper amber drops -->
+  <ellipse cx="350" cy="180" rx="45" ry="60" fill="url(#amber1)"/>
+  <ellipse cx="345" cy="170" rx="30" ry="40" fill="url(#amber2)" opacity="0.85"/>
+  <ellipse cx="342" cy="165" rx="18" ry="25" fill="url(#highlight)"/>
+  
+  <path d="M 340 140 Q 350 135 355 145 L 360 175 Q 355 185 345 183 Q 335 180 335 170 Z" fill="url(#amber1)"/>
+  <ellipse cx="348" cy="155" rx="8" ry="12" fill="#ffeb99" opacity="0.5"/>
+  
+  <!-- Lower amber drops -->
+  <ellipse cx="420" cy="450" rx="50" ry="65" fill="url(#amber2)"/>
+  <ellipse cx="415" cy="440" rx="35" ry="48" fill="url(#amber1)" opacity="0.9"/>
+  <ellipse cx="410" cy="430" rx="22" ry="30" fill="url(#highlight)"/>
+  
+  <!-- Side amber pieces -->
+  <ellipse cx="300" cy="280" rx="35" ry="48" fill="url(#amber1)" opacity="0.85"/>
+  <ellipse cx="295" cy="275" rx="20" ry="28" fill="#ffcc66" opacity="0.6"/>
+  
+  <ellipse cx="510" cy="340" rx="40" ry="55" fill="url(#amber2)"/>
+  <ellipse cx="505" cy="330" rx="25" ry="35" fill="url(#highlight)"/>
+  
+  <!-- Small drips -->
+  <path d="M 385 410 Q 390 420 395 435 Q 398 445 395 450 Q 390 453 385 450 Q 380 445 382 435 Q 383 425 385 410 Z" fill="url(#amber1)" opacity="0.9"/>
+  
+  <path d="M 355 240 Q 358 248 360 258 Q 361 265 358 268 Q 354 270 350 267 Q 347 262 348 255 Q 349 247 355 240 Z" fill="#ff9500" opacity="0.85"/>
+  
+  <!-- Inclusions/bubbles -->
+  <ellipse cx="395" cy="310" rx="8" ry="10" fill="#5a3820" opacity="0.4"/>
+  <ellipse cx="405" cy="335" rx="6" ry="8" fill="#3a2810" opacity="0.5"/>
+  <ellipse cx="385" cy="325" rx="4" ry="5" fill="#2a1800" opacity="0.6"/>
+  <ellipse cx="350" cy="175" rx="5" ry="6" fill="#4a3020" opacity="0.45"/>
+  
+  <!-- Highlights and shine -->
+  <ellipse cx="398" cy="295" rx="12" ry="18" fill="#ffffcc" opacity="0.5"/>
+  <ellipse cx="347" cy="165" rx="10" ry="14" fill="#fff8dc" opacity="0.45"/>
+  <ellipse cx="418" cy="430" rx="14" ry="20" fill="#ffffcc" opacity="0.4"/>
+  
+  <!-- Bark texture details -->
+  <path d="M 320 300 Q 315 310 310 320" stroke="#2a1f1a" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 470 250 Q 475 265 480 280" stroke="#3d3028" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 380 140 Q 385 155 390 170" stroke="#2a1f1a" stroke-width="2" fill="none" opacity="0.4"/>
+</svg>

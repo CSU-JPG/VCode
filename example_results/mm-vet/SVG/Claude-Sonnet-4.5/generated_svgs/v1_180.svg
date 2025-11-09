@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1280 960" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <radialGradient id="skyGrad" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#4a6fa5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3a6b;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="moonGrad" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#fffacd;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f0e68c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base sky -->
+  <rect width="1280" height="960" fill="url(#skyGrad)"/>
+  
+  <!-- Swirling sky patterns -->
+  <path d="M 640 200 Q 680 150 720 180 Q 760 210 740 260 Q 720 310 680 300 Q 640 290 620 250 Q 600 210 640 200 Z" fill="#5a7fb8" opacity="0.7"/>
+  <path d="M 920 280 Q 950 250 980 270 Q 1010 290 1000 330 Q 990 370 960 365 Q 930 360 915 330 Q 900 300 920 280 Z" fill="#4a6fa5" opacity="0.6"/>
+  <path d="M 400 150 Q 420 130 440 145 Q 460 160 455 180 Q 450 200 430 198 Q 410 196 402 178 Q 395 160 400 150 Z" fill="#6a8fc0" opacity="0.5"/>
+  
+  <!-- Large swirl top right -->
+  <ellipse cx="1050" cy="180" rx="90" ry="80" fill="#f4d03f" opacity="0.8"/>
+  <ellipse cx="1060" cy="185" rx="70" ry="60" fill="#f9e79f" opacity="0.9"/>
+  <ellipse cx="1065" cy="190" rx="50" ry="45" fill="#fff9c4" opacity="1"/>
+  
+  <!-- Stars with halos -->
+  <ellipse cx="200" cy="380" rx="35" ry="32" fill="#e8e4a0" opacity="0.6"/>
+  <ellipse cx="200" cy="380" rx="22" ry="20" fill="#f5f3d0" opacity="0.8"/>
+  <ellipse cx="200" cy="380" rx="12" ry="11" fill="#fffacd"/>
+  
+  <ellipse cx="520" cy="320" rx="40" ry="38" fill="#d4d0a0" opacity="0.5"/>
+  <ellipse cx="520" cy="320" rx="25" ry="23" fill="#e8e4b0" opacity="0.7"/>
+  <ellipse cx="520" cy="320" rx="14" ry="13" fill="#f5f3d0"/>
+  
+  <ellipse cx="850" cy="240" rx="30" ry="28" fill="#e0dca0" opacity="0.6"/>
+  <ellipse cx="850" cy="240" rx="18" ry="17" fill="#ede9c0" opacity="0.8"/>
+  <ellipse cx="850" cy="240" rx="10" ry="9" fill="#faf8e0"/>
+  
+  <ellipse cx="340" cy="200" rx="28" ry="26" fill="#d8d4a0" opacity="0.5"/>
+  <ellipse cx="340" cy="200" rx="16" ry="15" fill="#e6e2b0" opacity="0.7"/>
+  <ellipse cx="340" cy="200" rx="9" ry="8" fill="#f4f0d0"/>
+  
+  <ellipse cx="1180" cy="380" rx="32" ry="30" fill="#dcd8a0" opacity="0.6"/>
+  <ellipse cx="1180" cy="380" rx="20" ry="18" fill="#eae6b8" opacity="0.8"/>
+  <ellipse cx="1180" cy="380" rx="11" ry="10" fill="#f8f4e0"/>
+  
+  <!-- Cypress tree -->
+  <path d="M 180 300 Q 160 400 140 500 Q 130 580 135 680 L 155 680 Q 160 580 170 500 Q 180 420 185 350 Q 200 420 210 500 Q 218 580 222 680 L 242 680 Q 245 600 240 520 Q 230 420 220 340 Q 210 280 180 300 Z" fill="#1a3a2a"/>
+  <ellipse cx="188" cy="300" rx="30" ry="45" fill="#2a4a3a" opacity="0.8"/>
+  
+  <!-- Hills -->
+  <path d="M 0 600 Q 200 550 400 580 Q 600 610 800 570 Q 1000 530 1200 560 Q 1280 575 1280 680 L 0 680 Z" fill="#2a4a5a" opacity="0.7"/>
+  <path d="M 0 640 Q 150 620 300 635 Q 500 650 700 625 Q 900 600 1100 630 Q 1280 645 1280 680 L 0 680 Z" fill="#3a5a6a" opacity="0.8"/>
+  
+  <!-- Village buildings -->
+  <rect x="420" y="640" width="45" height="35" fill="#4a3a2a"/>
+  <polygon points="420,640 442,620 465,640" fill="#5a4a3a"/>
+  <rect x="430" y="655" width="8" height="12" fill="#f4d03f" opacity="0.8"/>
+  
+  <rect x="480" y="635" width="50" height="40" fill="#3a2a1a"/>
+  <polygon points="480,635 505,615 530,635" fill="#4a3a2a"/>
+  <rect x="492" y="650" width="9" height="14" fill="#f9e79f" opacity="0.9"/>
+  
+  <rect x="545" y="642" width="40" height="33" fill="#4a3a2a"/>
+  <polygon points="545,642 565,625 585,642" fill="#5a4a3a"/>
+  <rect x="555" y="655" width="7" height="11" fill="#fffacd"/>
+  
+  <!-- Church with steeple -->
+  <rect x="600" y="625" width="55" height="50" fill="#5a4a3a"/>
+  <polygon points="600,625 627,605 655,625" fill="#6a5a4a"/>
+  <rect x="622" y="595" width="10" height="30" fill="#6a5a4a"/>
+  <polygon points="622,595 627,585 632,595" fill="#7a6a5a"/>
+  <rect x="615" y="650" width="10" height="15" fill="#f4d03f" opacity="0.7"/>
+  <rect x="635" y="650" width="10" height="15" fill="#f9e79f" opacity="0.8"/>
+  
+  <rect x="670" y="638" width="48" height="37" fill="#4a3a2a"/>
+  <polygon points="670,638 694,620 718,638" fill="#5a4a3a"/>
+  <rect x="682" y="653" width="8" height="13" fill="#fffacd" opacity="0.9"/>
+  
+  <rect x="735" y="644" width="42" height="31" fill="#3a2a1a"/>
+  <polygon points="735,644 756,628 777,644" fill="#4a3a2a"/>
+  <rect x="747" y="657" width="7" height="11" fill="#f4d03f" opacity="0.8"/>
+  
+  <!-- Foreground fields with texture -->
+  <path d="M 0 680 L 0 750 Q 320 730 640 745 Q 960 760 1280 740 L 1280 680 Z" fill="#4a6a5a" opacity="0.6"/>
+  <path d="M 0 750 L 0 820 Q 300 800 600 815 Q 900 830 1200 810 L 1280 800 L 1280 740 Z" fill="#3a5a4a" opacity="0.7"/>
+  <path d="M 0 820 L 0 960 L 1280 960 L 1280 800 Q 960 820 640 835 Q 320 850 0 820 Z" fill="#2a4a3a" opacity="0.8"/>
+  
+  <!-- Brushstroke texture overlay -->
+  <g opacity="0.15">
+    <path d="M 100 50 Q 150 48 200 52 Q 250 56 300 50" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M 400 100 Q 450 95 500 103 Q 550 111 600 105" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M 700 80 Q 750 78 800 84 Q 850 90 900 85" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M 150 200 Q 200 195 250 202 Q 300 209 350 205" stroke="#fff" stroke-width="1.5" fill="none"/>
+    <path d="M 500 250 Q 550 248 600 253 Q 650 258 700 254" stroke="#fff" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

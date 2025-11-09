@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="1200" height="400" fill="#c5d0d8"/>
+  
+  <!-- Snow ground -->
+  <rect y="400" width="1200" height="400" fill="#e8f0f5"/>
+  
+  <!-- Distant hill -->
+  <ellipse cx="400" cy="380" rx="350" ry="120" fill="#8a8a8a"/>
+  
+  <!-- Trees in background -->
+  <g opacity="0.6">
+    <line x1="100" y1="200" x2="100" y2="350" stroke="#4a4a4a" stroke-width="4"/>
+    <line x1="90" y1="230" x2="100" y2="250" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="110" y1="240" x2="100" y2="260" stroke="#4a4a4a" stroke-width="2"/>
+    
+    <line x1="250" y1="180" x2="250" y2="350" stroke="#4a4a4a" stroke-width="4"/>
+    <line x1="240" y1="210" x2="250" y2="230" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="260" y1="220" x2="250" y2="240" stroke="#4a4a4a" stroke-width="2"/>
+    
+    <line x1="450" y1="160" x2="450" y2="350" stroke="#4a4a4a" stroke-width="5"/>
+    <line x1="435" y1="200" x2="450" y2="220" stroke="#4a4a4a" stroke-width="2"/>
+    <line x1="465" y1="210" x2="450" y2="230" stroke="#4a4a4a" stroke-width="2"/>
+    
+    <line x1="700" y1="170" x2="700" y2="350" stroke="#4a4a4a" stroke-width="4"/>
+    <line x1="1050" y1="190" x2="1050" y2="350" stroke="#4a4a4a" stroke-width="5"/>
+  </g>
+  
+  <!-- Building/lodge -->
+  <rect x="980" y="320" width="140" height="80" fill="#6b8a7a"/>
+  <polygon points="980,320 1050,280 1120,320" fill="#4a6055"/>
+  
+  <!-- Blue banner -->
+  <rect x="820" y="300" width="60" height="80" fill="#2563eb"/>
+  
+  <!-- Skiers in background -->
+  <circle cx="200" cy="280" r="4" fill="#1e40af"/>
+  <line x1="200" y1="284" x2="200" y2="300" stroke="#1e40af" stroke-width="2"/>
+  <line x1="195" y1="305" x2="205" y2="305" stroke="#1e40af" stroke-width="2"/>
+  
+  <circle cx="350" cy="290" r="4" fill="#334155"/>
+  <line x1="350" y1="294" x2="350" y2="310" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Group of people - back row -->
+  <!-- Person 1 - left, blue jacket -->
+  <ellipse cx="150" cy="520" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="135" y="538" width="30" height="50" rx="5" fill="#1e3a5f"/>
+  <rect x="135" y="588" width="30" height="35" fill="#9a8a6a"/>
+  <circle cx="150" cy="505" r="12" fill="#1e40af"/>
+  <rect x="148" y="500" width="15" height="8" fill="#fbbf24"/>
+  
+  <!-- Person 2 - brown hair, beige jacket -->
+  <ellipse cx="220" cy="518" rx="15" ry="18" fill="#f4c5a5"/>
+  <path d="M 210 510 Q 220 505 230 510" fill="#8b4513"/>
+  <rect x="205" y="536" width="30" height="50" rx="5" fill="#d4c4a0"/>
+  <rect x="205" y="586" width="30" height="37" fill="#334155"/>
+  <circle cx="220" cy="505" r="10" fill="#2563eb"/>
+  
+  <!-- Person 3 - beige jacket, goggles -->
+  <ellipse cx="285" cy="518" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="270" y="536" width="30" height="50" rx="5" fill="#d4c4a0"/>
+  <rect x="270" y="586" width="30" height="37" fill="#475569"/>
+  <rect x="275" y="510" width="20" height="8" fill="#fbbf24" rx="4"/>
+  
+  <!-- Person 4 - beige jacket -->
+  <ellipse cx="345" cy="520" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="330" y="538" width="30" height="50" rx="5" fill="#d4c4a0"/>
+  <rect x="330" y="588" width="30" height="35" fill="#9a8a6a"/>
+  <circle cx="345" cy="508" r="10" fill="#fbbf24"/>
+  
+  <!-- Person 5 - center, beige jacket -->
+  <ellipse cx="405" cy="518" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="390" y="536" width="30" height="50" rx="5" fill="#d4c4a0"/>
+  <rect x="390" y="586" width="30" height="37" fill="#6b7280"/>
+  <circle cx="405" cy="505" r="10" fill="#10b981"/>
+  
+  <!-- Person 6 - beige/green jacket -->
+  <ellipse cx="465" cy="518" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="450" y="536" width="30" height="50" rx="5" fill="#b8c4a0"/>
+  <rect x="450" y="586" width="30" height="37" fill="#475569"/>
+  <circle cx="465" cy="505" r="10" fill="#22c55e"/>
+  
+  <!-- Person 7 - green/beige jacket -->
+  <ellipse cx="525" cy="518" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="510" y="536" width="30" height="50" rx="5" fill="#9aaa8a"/>
+  <rect x="510" y="586" width="30" height="37" fill="#334155"/>
+  <circle cx="525" cy="505" r="10" fill="#10b981"/>
+  
+  <!-- Person 8 - beige jacket -->
+  <ellipse cx="585" cy="518" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="570" y="536" width="30" height="50" rx="5" fill="#d4c4a0"/>
+  <rect x="570" y="586" width="30" height="37" fill="#64748b"/>
+  <circle cx="585" cy="505" r="10" fill="#22c55e"/>
+  
+  <!-- Person 9 - dark jacket -->
+  <ellipse cx="645" cy="520" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="630" y="538" width="30" height="50" rx="5" fill="#1e3a5f"/>
+  <rect x="630" y="588" width="30" height="35" fill="#475569"/>
+  <circle cx="645" cy="508" r="10" fill="#3b82f6"/>
+  
+  <!-- Person 10 - brown hair, rust jacket -->
+  <ellipse cx="705" cy="518" rx="15" ry="18" fill="#f4c5a5"/>
+  <path d="M 695 510 Q 705 505 715 510" fill="#8b4513"/>
+  <rect x="690" y="536" width="30" height="50" rx="5" fill="#b45f42"/>
+  <rect x="690" y="586" width="30" height="37" fill="#94a3b8"/>
+  <circle cx="705" cy="505" r="10" fill="#10b981"/>
+  
+  <!-- Person 11 - right, plaid jacket -->
+  <ellipse cx="770" cy="520" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="755" y="538" width="30" height="50" rx="5" fill="#4a5568"/>
+  <line x1="760" y1="545" x2="780" y2="545" stroke="#d4d4d4" stroke-width="2"/>
+  <line x1="760" y1="555" x2="780" y2="555" stroke="#d4d4d4" stroke-width="2"/>
+  <rect x="755" y="588" width="30" height="35" fill="#334155"/>
+  <circle cx="770" cy="508" r="10" fill="#22c55e"/>
+  
+  <!-- Front row - kneeling/sitting -->
+  <!-- Person 12 - left front, blue jacket -->
+  <ellipse cx="220" cy="590" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="205" y="608" width="30" height="40" rx="5" fill="#1e40af"/>
+  <rect x="205" y="648" width="13" height="25" fill="#dc2626"/>
+  <rect x="222" y="648" width="13" height="25" fill="#dc2626"/>
+  <circle cx="220" cy="578" r="10" fill="#3b82f6"/>
+  
+  <!-- Person 13 - front, beige jacket -->
+  <ellipse cx="340" cy="595" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="325" y="613" width="30" height="40" rx="5" fill="#c4d4b0"/>
+  <rect x="325" y="653" width="30" height="25" fill="#4a5568"/>
+  <circle cx="340" cy="583" r="10" fill="#22c55e"/>
+  
+  <!-- Person 14 - holding banner, kneeling -->
+  <ellipse cx="470" cy="595" rx="15" ry="18" fill="#f4c5a5"/>
+  <rect x="455" y="613" width="30" height="40" rx="5" fill="#c4b4a0"/>
+  <rect x="455" y="653" width="30" height="25" fill="#9a7a5a"/>
+  <circle cx="470" cy="583" r="10" fill="#10b981"/>
+  
+  <!-- Banner/flag in center -->
+  <rect x="405" y="540" width="90" height="70" rx="5" fill="#16a34a"/>
+  <text x="450" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">SMITH</text>
+  <text x="450" y="588" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">SKI</text>
+  <text x="450" y="603" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CLUB</text>
+  <circle cx="425" cy="560" r="6" fill="white" opacity="0.8"/>
+  <circle cx="445" cy="555" r="7" fill="white" opacity="0.8"/>
+  <circle cx="465" cy="557" r="6" fill="white" opacity="0.8"/>
+  <circle cx="475" cy="563" r="5" fill="white" opacity="0.8"/>
+  
+  <!-- Skis and poles -->
+  <line x1="130" y1="580" x2="125" y2="650" stroke="#2c3e50" stroke-width="4"/>
+  <line x1="140" y1="530" x2="135" y2="600" stroke="#666" stroke-width="2"/>
+  
+  <line x1="790" y1="570" x2="785" y2="650" stroke="#1a1a1a" stroke-width="5"/>
+  <line x1="800" y1="570" x2="795" y2="650" stroke="#1a1a1a" stroke-width="5"/>
+  <rect x="783" y="555" width="15" height="8" fill="#22c55e"/>
+  
+  <line x1="120" y1="540" x2="115" y2="610" stroke="#555" stroke-width="2"/>
+  <circle cx="113" cy="535" r="3" fill="#888"/>
+</svg>

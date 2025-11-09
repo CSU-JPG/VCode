@@ -1,0 +1,30 @@
+<svg viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ford F150 bar -->
+  <rect x="38" y="15" width="87" height="450" fill="#b030b0"/>
+  <text x="81.5" y="45" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">$130.96</text>
+  
+  <!-- Toyota RAV4 bar -->
+  <rect x="159" y="175" width="87" height="290" fill="#b030b0"/>
+  <text x="202.5" y="205" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">$82.56</text>
+  
+  <!-- Honda Civic bar -->
+  <rect x="280" y="215" width="87" height="250" fill="#b030b0"/>
+  <text x="323.5" y="245" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">$70.55</text>
+  
+  <!-- Labels -->
+  <text x="81.5" y="490" fill="black" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Ford</text>
+  <text x="81.5" y="510" fill="black" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">F150</text>
+  <text x="81.5" y="528" fill="black" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">(Regular Cab)</text>
+  
+  <text x="202.5" y="490" fill="black" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Toyota</text>
+  <text x="202.5" y="510" fill="black" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">RAV4</text>
+  
+  <text x="323.5" y="490" fill="black" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Honda</text>
+  <text x="323.5" y="510" fill="black" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Civic</text>
+  
+  <!-- Divider line -->
+  <line x1="38" y1="545" x2="367" y2="545" stroke="#b030b0" stroke-width="3"/>
+  
+  <!-- Bottom label -->
+  <text x="202.5" y="575" fill="black" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Total fueling cost</text>
+</svg>

@@ -1,0 +1,119 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4D03F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F39C12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E67E22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="800" height="400" fill="url(#skyGrad)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="80" cy="40" rx="60" ry="15" fill="#FFF5E1" opacity="0.7"/>
+  <ellipse cx="140" cy="35" rx="70" ry="18" fill="#FFF5E1" opacity="0.7"/>
+  <ellipse cx="200" cy="42" rx="50" ry="12" fill="#FFF5E1" opacity="0.7"/>
+  <ellipse cx="650" cy="50" rx="80" ry="20" fill="#FFF5E1" opacity="0.7"/>
+  <ellipse cx="720" cy="45" rx="60" ry="15" fill="#FFF5E1" opacity="0.7"/>
+  
+  <!-- Distant tree -->
+  <ellipse cx="680" cy="220" rx="80" ry="40" fill="#8B7355"/>
+  <path d="M 680 220 Q 690 240, 700 260" stroke="#654321" stroke-width="8" fill="none"/>
+  
+  <!-- Ground -->
+  <rect y="400" width="800" height="200" fill="#8BC34A"/>
+  
+  <!-- Grass texture -->
+  <line x1="50" y1="420" x2="50" y2="435" stroke="#7CB342" stroke-width="2"/>
+  <line x1="120" y1="430" x2="120" y2="445" stroke="#7CB342" stroke-width="2"/>
+  <line x1="200" y1="425" x2="200" y2="440" stroke="#7CB342" stroke-width="2"/>
+  <line x1="350" y1="470" x2="350" y2="485" stroke="#7CB342" stroke-width="2"/>
+  <line x1="650" y1="460" x2="650" y2="475" stroke="#7CB342" stroke-width="2"/>
+  <line x1="730" y1="440" x2="730" y2="455" stroke="#7CB342" stroke-width="2"/>
+  
+  <!-- Small rocks -->
+  <ellipse cx="380" cy="470" rx="8" ry="6" fill="#9E9E9E"/>
+  <ellipse cx="400" cy="475" rx="6" ry="5" fill="#BDBDBD"/>
+  <ellipse cx="320" cy="480" rx="7" ry="5" fill="#9E9E9E"/>
+  
+  <!-- Rhino body -->
+  <ellipse cx="200" cy="350" rx="85" ry="70" fill="#B0B0B0"/>
+  
+  <!-- Rhino legs -->
+  <rect x="150" y="380" width="25" height="50" rx="5" fill="#9E9E9E"/>
+  <rect x="195" y="380" width="25" height="50" rx="5" fill="#9E9E9E"/>
+  <rect x="195" y="380" width="25" height="50" rx="5" fill="#A8A8A8"/>
+  <rect x="230" y="380" width="25" height="50" rx="5" fill="#A8A8A8"/>
+  
+  <!-- Rhino head -->
+  <ellipse cx="250" cy="310" rx="45" ry="40" fill="#B8B8B8"/>
+  
+  <!-- Rhino horns -->
+  <path d="M 265 295 L 275 260 L 270 295 Z" fill="#D5D5D5"/>
+  <path d="M 250 300 L 255 280 L 248 300 Z" fill="#CCCCCC"/>
+  
+  <!-- Rhino ear -->
+  <ellipse cx="235" cy="290" rx="15" ry="25" fill="#A8A8A8"/>
+  <ellipse cx="235" cy="290" rx="8" ry="15" fill="#989898"/>
+  
+  <!-- Rhino eye -->
+  <circle cx="255" cy="305" r="6" fill="#FFF"/>
+  <circle cx="257" cy="304" r="4" fill="#000"/>
+  
+  <!-- Rhino glasses -->
+  <circle cx="255" cy="305" r="12" fill="none" stroke="#555" stroke-width="2"/>
+  <line x1="267" y1="305" x2="275" y2="305" stroke="#555" stroke-width="2"/>
+  
+  <!-- Rhino mouth -->
+  <path d="M 270 320 Q 275 325, 270 330" stroke="#666" stroke-width="2" fill="none"/>
+  
+  <!-- Palette in hand -->
+  <ellipse cx="180" cy="340" rx="20" ry="25" fill="#F4E4C1" transform="rotate(-20 180 340)"/>
+  <circle cx="175" cy="335" r="4" fill="#E74C3C"/>
+  <circle cx="185" cy="332" r="4" fill="#F39C12"/>
+  <circle cx="180" cy="345" r="4" fill="#3498DB"/>
+  <circle cx="172" cy="348" r="4" fill="#2ECC71"/>
+  
+  <!-- Paintbrush -->
+  <rect x="210" y="250" width="6" height="60" fill="#8B4513" transform="rotate(-30 213 280)"/>
+  <path d="M 240 240 L 250 230 L 245 245 Z" fill="#666"/>
+  
+  <!-- Easel -->
+  <line x1="380" y1="280" x2="360" y2="420" stroke="#8B4513" stroke-width="8"/>
+  <line x1="500" y1="280" x2="520" y2="420" stroke="#8B4513" stroke-width="8"/>
+  <line x1="440" y1="400" x2="380" y2="430" stroke="#8B4513" stroke-width="6"/>
+  <line x1="440" y1="400" x2="500" y2="430" stroke="#8B4513" stroke-width="6"/>
+  
+  <!-- Canvas on easel -->
+  <rect x="370" y="240" width="140" height="140" fill="#FFF" stroke="#8B4513" stroke-width="4"/>
+  
+  <!-- Painting on canvas - sailboat -->
+  <path d="M 390 310 L 390 350" stroke="#654321" stroke-width="3" fill="none"/>
+  <path d="M 390 310 L 420 340 L 390 340 Z" fill="#E8F4F8"/>
+  <path d="M 390 340 L 410 360 L 390 360 Z" fill="#D4E8F0"/>
+  <ellipse cx="440" cy="365" rx="40" ry="8" fill="#87CEEB"/>
+  
+  <!-- Small sun on canvas -->
+  <circle cx="470" cy="260" r="15" fill="#F39C12"/>
+  
+  <!-- Finished paintings on ground -->
+  <rect x="520" y="380" width="90" height="70" fill="#FFF" stroke="#8B4513" stroke-width="3" transform="rotate(5 565 415)"/>
+  <path d="M 540 400 L 540 430" stroke="#654321" stroke-width="2"/>
+  <path d="M 540 400 L 560 420 L 540 420 Z" fill="#E8F4F8"/>
+  <circle cx="580" cy="395" r="8" fill="#F39C12"/>
+  
+  <rect x="280" y="430" width="80" height="65" fill="#FFF" stroke="#8B4513" stroke-width="3" transform="rotate(-8 320 462)"/>
+  <path d="M 295 450 L 295 475" stroke="#654321" stroke-width="2"/>
+  <path d="M 295 450 L 315 465 L 295 465 Z" fill="#D4E8F0"/>
+  
+  <!-- Paint supplies -->
+  <rect x="310" y="410" width="20" height="35" fill="#3498DB" rx="2"/>
+  <ellipse cx="320" cy="408" rx="11" ry="5" fill="#2E86C1"/>
+  
+  <!-- Text banner -->
+  <rect y="540" width="800" height="60" fill="#000"/>
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFF" text-anchor="middle">You see the world</text>
+  <text x="400" y="595" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFF" text-anchor="middle" dy="0">as you are!</text>
+</svg>

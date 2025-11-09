@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#1a1a1a"/>
+  
+  <!-- Store sign background glow -->
+  <ellipse cx="1050" cy="180" rx="180" ry="80" fill="#3a3a3a" opacity="0.6"/>
+  
+  <!-- Store signage -->
+  <rect x="880" y="140" width="340" height="100" fill="#2a2a2a" opacity="0.8"/>
+  <text x="1050" y="200" font-family="Arial, sans-serif" font-size="48" fill="#e0e0e0" text-anchor="middle" font-weight="bold">ARCOIRIS</text>
+  
+  <!-- Architectural elements - storefront -->
+  <rect x="750" y="240" width="500" height="400" fill="#252525" opacity="0.7"/>
+  <rect x="770" y="260" width="460" height="60" fill="#303030"/>
+  
+  <!-- Window frames -->
+  <rect x="800" y="340" width="140" height="200" fill="#404040" opacity="0.6"/>
+  <rect x="970" y="340" width="140" height="200" fill="#404040" opacity="0.6"/>
+  <line x1="870" y1="340" x2="870" y2="540" stroke="#2a2a2a" stroke-width="3"/>
+  <line x1="1040" y1="340" x2="1040" y2="540" stroke="#2a2a2a" stroke-width="3"/>
+  
+  <!-- Man in background right -->
+  <ellipse cx="1150" cy="420" rx="50" ry="65" fill="#505050"/>
+  <circle cx="1150" cy="390" r="28" fill="#606060"/>
+  <rect x="1125" y="485" width="50" height="120" fill="#404040"/>
+  
+  <!-- Woman in background center -->
+  <ellipse cx="900" cy="440" rx="45" ry="60" fill="#707070"/>
+  <circle cx="900" cy="410" r="25" fill="#808080"/>
+  <path d="M 880 500 L 900 620 L 920 500 Z" fill="#606060"/>
+  
+  <!-- Main figure - man in foreground -->
+  <!-- Head -->
+  <ellipse cx="420" cy="280" rx="70" ry="85" fill="#b8b8b8"/>
+  <ellipse cx="380" cy="265" rx="25" ry="30" fill="#d0d0d0"/>
+  
+  <!-- Hair -->
+  <path d="M 350 240 Q 380 200 450 230 Q 480 250 470 280 Q 460 250 440 240 Q 420 235 400 240 Q 380 235 360 245 Z" fill="#3a3a3a"/>
+  
+  <!-- Facial features -->
+  <ellipse cx="390" cy="275" rx="8" ry="12" fill="#2a2a2a"/>
+  <ellipse cx="430" cy="280" rx="8" ry="12" fill="#2a2a2a"/>
+  <path d="M 385 310 Q 405 315 415 310" stroke="#2a2a2a" stroke-width="3" fill="none"/>
+  <line x1="375" y1="265" x2="400" y2="268" stroke="#2a2a2a" stroke-width="3"/>
+  <line x1="420" y1="270" x2="445" y2="272" stroke="#2a2a2a" stroke-width="3"/>
+  
+  <!-- Neck and collar -->
+  <rect x="395" y="355" width="50" height="40" fill="#c8c8c8"/>
+  <polygon points="380,385 395,365 445,365 460,385" fill="#e8e8e8"/>
+  
+  <!-- Tie -->
+  <polygon points="418,385 422,385 430,480 415,480" fill="#2a2a2a"/>
+  <rect x="410" y="380" width="25" height="15" fill="#3a3a3a"/>
+  
+  <!-- Suit jacket -->
+  <path d="M 280 400 L 320 380 L 380 390 L 420 480 L 420 720 L 360 750 L 280 720 Z" fill="#505050"/>
+  <path d="M 560 400 L 520 380 L 460 390 L 420 480 L 420 720 L 480 750 L 560 720 Z" fill="#454545"/>
+  
+  <!-- Jacket lapels -->
+  <path d="M 320 380 L 380 390 L 420 500 L 380 480 Z" fill="#606060"/>
+  <path d="M 520 380 L 460 390 L 420 500 L 460 480 Z" fill="#555555"/>
+  
+  <!-- Arm reaching forward -->
+  <ellipse cx="350" cy="450" rx="45" ry="90" fill="#585858" transform="rotate(-30 350 450)"/>
+  <ellipse cx="280" cy="380" rx="35" ry="75" fill="#606060" transform="rotate(-45 280 380)"/>
+  
+  <!-- Hand pointing -->
+  <ellipse cx="230" cy="340" rx="40" ry="30" fill="#c0c0c0" transform="rotate(-20 230 340)"/>
+  <rect x="210" y="325" width="15" height="35" fill="#b8b8b8" transform="rotate(-20 217 342)"/>
+  
+  <!-- Other arm -->
+  <ellipse cx="490" cy="500" rx="40" ry="85" fill="#505050"/>
+  
+  <!-- Pocket square -->
+  <polygon points="380,420 395,415 395,435 385,438" fill="#f0f0f0"/>
+  
+  <!-- Shadow and depth -->
+  <ellipse cx="420" cy="780" rx="180" ry="30" fill="#0a0a0a" opacity="0.5"/>
+  
+  <!-- Background crowd silhouettes -->
+  <circle cx="200" cy="500" r="30" fill="#404040" opacity="0.4"/>
+  <ellipse cx="200" cy="570" rx="35" ry="60" fill="#383838" opacity="0.4"/>
+  
+  <circle cx="150" cy="520" r="25" fill="#404040" opacity="0.3"/>
+  <ellipse cx="150" cy="580" rx="30" ry="55" fill="#383838" opacity="0.3"/>
+  
+  <circle cx="1300" cy="480" r="28" fill="#404040" opacity="0.3"/>
+  <ellipse cx="1300" cy="550" rx="32" ry="58" fill="#383838" opacity="0.3"/>
+</svg>

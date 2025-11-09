@@ -1,0 +1,115 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4d4a8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f9e5b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5c8a0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9d89a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8b87a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Book background -->
+  <rect width="800" height="1200" fill="url(#bgGrad)"/>
+  
+  <!-- Texture overlay (brush strokes simulation) -->
+  <rect x="50" y="100" width="150" height="200" fill="#fde8c0" opacity="0.3"/>
+  <rect x="600" y="150" width="120" height="180" fill="#f5d4a8" opacity="0.25"/>
+  <rect x="200" y="800" width="180" height="150" fill="#f9e5b8" opacity="0.2"/>
+  <rect x="500" y="900" width="200" height="100" fill="#f4d4a8" opacity="0.3"/>
+  
+  <!-- Green leaves at top -->
+  <ellipse cx="100" cy="80" rx="80" ry="60" fill="#4a7c59" opacity="0.7"/>
+  <ellipse cx="200" cy="60" rx="70" ry="55" fill="#3d6b4a" opacity="0.7"/>
+  <ellipse cx="300" cy="70" rx="65" ry="50" fill="#4a7c59" opacity="0.6"/>
+  <ellipse cx="400" cy="55" rx="75" ry="58" fill="#3d6b4a" opacity="0.65"/>
+  <ellipse cx="500" cy="65" rx="68" ry="52" fill="#4a7c59" opacity="0.7"/>
+  
+  <!-- Author text (马曼 著) -->
+  <text x="350" y="200" font-family="SimSun, serif" font-size="28" fill="#2d2d2d" text-anchor="middle">马曼</text>
+  <text x="430" y="200" font-family="SimSun, serif" font-size="22" fill="#2d2d2d">著</text>
+  
+  <!-- Main title (细细密密的光) -->
+  <text x="400" y="320" font-family="SimSun, STSong, serif" font-size="72" font-weight="bold" fill="#1a1a1a" text-anchor="middle">细细密密的光</text>
+  
+  <!-- Subtitle text -->
+  <text x="400" y="420" font-family="SimSun, serif" font-size="20" fill="#3d3d3d" text-anchor="middle">每个人都有自己的困境，</text>
+  <text x="400" y="455" font-family="SimSun, serif" font-size="20" fill="#3d3d3d" text-anchor="middle">却总会被光亮吸引，身不由己地慢慢靠近</text>
+  
+  <!-- Sky background for cityscape -->
+  <rect x="50" y="550" width="700" height="500" fill="url(#skyGrad)" opacity="0.4"/>
+  
+  <!-- Bridge structure (left side) -->
+  <line x1="80" y1="950" x2="120" y2="850" stroke="#8b4566" stroke-width="4"/>
+  <line x1="120" y1="850" x2="160" y2="900" stroke="#8b4566" stroke-width="4"/>
+  <line x1="80" y1="950" x2="160" y2="950" stroke="#7a3d5a" stroke-width="6"/>
+  
+  <!-- City buildings -->
+  <!-- Building 1 (left, short) -->
+  <rect x="150" y="900" width="70" height="150" fill="#7a5580" opacity="0.8"/>
+  <rect x="155" y="910" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="175" y="910" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="195" y="910" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="155" y="940" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="175" y="940" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="195" y="940" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="155" y="970" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="175" y="970" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="195" y="970" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  
+  <!-- Building 2 (tall center-left) -->
+  <rect x="230" y="750" width="80" height="300" fill="#6a4570" opacity="0.85"/>
+  <rect x="235" y="760" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="258" y="760" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="281" y="760" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="235" y="795" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="258" y="795" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="281" y="795" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="235" y="830" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="258" y="830" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="281" y="830" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="235" y="865" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="258" y="865" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  <rect x="281" y="865" width="18" height="22" fill="#f9d89a" opacity="0.7"/>
+  
+  <!-- Building 3 (tallest center) -->
+  <rect x="320" y="700" width="85" height="350" fill="#5a3d70" opacity="0.9"/>
+  <rect x="325" y="710" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="349" y="710" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="373" y="710" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="325" y="750" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="349" y="750" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="373" y="750" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="325" y="790" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="349" y="790" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  <rect x="373" y="790" width="19" height="24" fill="#f9d89a" opacity="0.75"/>
+  
+  <!-- Building 4 (blue-tinted) -->
+  <rect x="415" y="800" width="90" height="250" fill="#5a6090" opacity="0.85"/>
+  <rect x="420" y="810" width="20" height="23" fill="#f9d89a" opacity="0.6"/>
+  <rect x="445" y="810" width="20" height="23" fill="#f9d89a" opacity="0.6"/>
+  <rect x="470" y="810" width="20" height="23" fill="#f9d89a" opacity="0.6"/>
+  <rect x="420" y="845" width="20" height="23" fill="#f9d89a" opacity="0.6"/>
+  <rect x="445" y="845" width="20" height="23" fill="#f9d89a" opacity="0.6"/>
+  <rect x="470" y="845" width="20" height="23" fill="#f9d89a" opacity="0.6"/>
+  
+  <!-- Building 5 (medium right) -->
+  <rect x="515" y="850" width="75" height="200" fill="#6a5580" opacity="0.8"/>
+  <rect x="520" y="860" width="17" height="20" fill="#f9d89a" opacity="0.65"/>
+  <rect x="542" y="860" width="17" height="20" fill="#f9d89a" opacity="0.65"/>
+  <rect x="564" y="860" width="17" height="20" fill="#f9d89a" opacity="0.65"/>
+  
+  <!-- Building 6 (short right) -->
+  <rect x="600" y="920" width="65" height="130" fill="#7a5580" opacity="0.75"/>
+  <rect x="605" y="930" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="625" y="930" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  <rect x="645" y="930" width="15" height="18" fill="#f9d89a" opacity="0.6"/>
+  
+  <!-- Additional texture strokes on buildings -->
+  <line x1="150" y1="920" x2="220" y2="940" stroke="#f9d89a" stroke-width="2" opacity="0.3"/>
+  <line x1="320" y1="750" x2="400" y2="780" stroke="#f9d89a" stroke-width="3" opacity="0.25"/>
+  <line x1="500" y1="900" x2="580" y2="920" stroke="#f9d89a" stroke-width="2" opacity="0.3"/>
+</svg>

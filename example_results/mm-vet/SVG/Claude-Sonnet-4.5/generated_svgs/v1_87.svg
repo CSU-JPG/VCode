@@ -1,0 +1,174 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="1200" fill="#8B6F47"/>
+  
+  <!-- Wooden shelves -->
+  <rect x="20" y="30" width="1160" height="340" fill="#A0826D"/>
+  <rect x="20" y="400" width="1160" height="340" fill="#A0826D"/>
+  <rect x="20" y="770" width="1160" height="340" fill="#A0826D"/>
+  
+  <!-- Shelf dividers -->
+  <rect x="20" y="365" width="1160" height="30" fill="#8B6F47"/>
+  <rect x="20" y="735" width="1160" height="30" fill="#8B6F47"/>
+  
+  <!-- Top Shelf Books -->
+  <rect x="40" y="60" width="50" height="290" fill="#8B4513"/>
+  <text x="65" y="200" font-size="10" fill="#D4AF37" text-anchor="middle" writing-mode="tb">TOMO SIXSTE</text>
+  
+  <rect x="95" y="60" width="45" height="290" fill="#2F2F2F"/>
+  <rect x="97" y="100" width="41" height="5" fill="#FFF"/>
+  <rect x="97" y="250" width="41" height="5" fill="#FFF"/>
+  
+  <rect x="145" y="60" width="50" height="290" fill="#8B4513"/>
+  <rect x="147" y="120" width="46" height="60" fill="#2F2F2F"/>
+  <line x1="172" y1="140" x2="172" y2="160" stroke="#FFF" stroke-width="3"/>
+  <line x1="160" y1="150" x2="184" y2="150" stroke="#FFF" stroke-width="3"/>
+  <text x="170" y="220" font-size="12" fill="#FFF" text-anchor="middle">BIBLE</text>
+  
+  <rect x="200" y="60" width="50" height="290" fill="#1E3A5F"/>
+  <path d="M 215 140 L 235 120 L 235 160 Z" fill="#FFF"/>
+  <text x="225" y="200" font-size="10" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLIA</text>
+  
+  <rect x="255" y="60" width="45" height="290" fill="#4A4A4A"/>
+  <text x="277" y="180" font-size="10" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLIA</text>
+  
+  <rect x="305" y="60" width="35" height="290" fill="#5F5F7F"/>
+  
+  <rect x="345" y="60" width="45" height="290" fill="#3F3F3F"/>
+  <text x="367" y="180" font-size="10" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLIA</text>
+  
+  <rect x="395" y="60" width="55" height="290" fill="#8B4513"/>
+  <rect x="397" y="80" width="51" height="60" fill="#A0522D"/>
+  
+  <rect x="455" y="60" width="50" height="290" fill="#1E3A5F"/>
+  <rect x="457" y="100" width="46" height="80" fill="#8B0000"/>
+  <text x="480" y="180" font-size="11" fill="#FFF" text-anchor="middle">LA BIBLIA</text>
+  
+  <rect x="510" y="60" width="55" height="290" fill="#4A4A6A"/>
+  <text x="537" y="200" font-size="16" fill="#FFF" text-anchor="middle" font-weight="bold">BIBLIA</text>
+  
+  <rect x="570" y="60" width="45" height="290" fill="#8B0000"/>
+  <text x="592" y="180" font-size="10" fill="#FFF" text-anchor="middle" writing-mode="tb">Holy Bible</text>
+  
+  <rect x="620" y="60" width="50" height="290" fill="#D4A574"/>
+  <text x="645" y="180" font-size="14" fill="#8B4513" text-anchor="middle" font-weight="bold" writing-mode="tb">BIBELEN</text>
+  
+  <rect x="675" y="60" width="50" height="290" fill="#556B2F"/>
+  <text x="700" y="140" font-size="9" fill="#FFF" text-anchor="middle">GUDS NACHRICHT</text>
+  
+  <rect x="730" y="60" width="45" height="290" fill="#3F3F3F"/>
+  <text x="752" y="180" font-size="10" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBEL</text>
+  
+  <rect x="780" y="60" width="50" height="290" fill="#2F2F2F"/>
+  <circle cx="805" cy="180" r="20" fill="none" stroke="#FFF" stroke-width="2"/>
+  
+  <rect x="835" y="60" width="45" height="290" fill="#4A4A4A"/>
+  <text x="857" y="180" font-size="9" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBELEN</text>
+  
+  <rect x="885" y="60" width="55" height="290" fill="#556B2F"/>
+  
+  <rect x="945" y="60" width="50" height="290" fill="#2F2F2F"/>
+  <text x="970" y="180" font-size="10" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLIAN</text>
+  
+  <!-- Middle Shelf Books -->
+  <rect x="40" y="430" width="60" height="290" fill="#8B4513"/>
+  <text x="70" y="550" font-size="16" fill="#D4AF37" text-anchor="middle" font-weight="bold" writing-mode="tb">BIBLA</text>
+  
+  <rect x="105" y="430" width="40" height="290" fill="#556B2F"/>
+  
+  <rect x="150" y="430" width="35" height="290" fill="#CD5C5C"/>
+  
+  <rect x="190" y="430" width="50" height="290" fill="#1E3A5F"/>
+  <text x="215" y="580" font-size="16" fill="#D4AF37" text-anchor="middle" font-weight="bold" writing-mode="tb">BIBKA</text>
+  
+  <rect x="245" y="430" width="50" height="290" fill="#2F2F2F"/>
+  <text x="270" y="560" font-size="12" fill="#FFF" text-anchor="middle" writing-mode="tb">BEIBELE</text>
+  
+  <rect x="300" y="430" width="45" height="290" fill="#8B0000"/>
+  <text x="322" y="560" font-size="10" fill="#FFF" text-anchor="middle" writing-mode="tb">SEFE BIBLE</text>
+  
+  <rect x="350" y="430" width="50" height="290" fill="#2F2F2F"/>
+  <text x="375" y="550" font-size="11" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLE</text>
+  
+  <rect x="405" y="430" width="55" height="290" fill="#3F3F3F"/>
+  <circle cx="432" cy="570" r="18" fill="none" stroke="#FFF" stroke-width="2"/>
+  
+  <rect x="465" y="430" width="50" height="290" fill="#2F2F2F"/>
+  
+  <rect x="520" y="430" width="50" height="290" fill="#4A4A4A"/>
+  <text x="545" y="560" font-size="11" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLE</text>
+  
+  <rect x="575" y="430" width="45" height="290" fill="#3F3F3F"/>
+  
+  <rect x="625" y="430" width="50" height="290" fill="#1E3A5F"/>
+  <text x="650" y="550" font-size="12" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLIA</text>
+  
+  <rect x="680" y="430" width="55" height="290" fill="#4A4A4A"/>
+  
+  <rect x="740" y="430" width="50" height="290" fill="#3F3F3F"/>
+  
+  <rect x="795" y="430" width="45" height="290" fill="#2F2F2F"/>
+  <circle cx="817" cy="570" r="15" fill="none" stroke="#FFF" stroke-width="2"/>
+  
+  <rect x="845" y="430" width="50" height="290" fill="#4A4A4A"/>
+  
+  <rect x="900" y="430" width="45" height="290" fill="#3F3F3F"/>
+  
+  <rect x="950" y="430" width="55" height="290" fill="#556B2F"/>
+  <circle cx="977" cy="570" r="22" fill="none" stroke="#D4AF37" stroke-width="3"/>
+  
+  <!-- Bottom Shelf Books -->
+  <rect x="40" y="800" width="50" height="290" fill="#8B0000"/>
+  
+  <rect x="95" y="800" width="45" height="290" fill="#CD5C5C"/>
+  
+  <rect x="145" y="800" width="40" height="290" fill="#556B2F"/>
+  
+  <rect x="190" y="800" width="50" height="290" fill="#2F2F2F"/>
+  
+  <rect x="245" y="800" width="45" height="290" fill="#4A4A4A"/>
+  
+  <rect x="295" y="800" width="50" height="290" fill="#1E3A5F"/>
+  <text x="320" y="920" font-size="11" fill="#FFF" text-anchor="middle" writing-mode="tb">ZAMANTSUATLI</text>
+  
+  <rect x="350" y="800" width="45" height="290" fill="#8B0000"/>
+  
+  <rect x="400" y="800" width="50" height="290" fill="#1E3A5F"/>
+  
+  <rect x="455" y="800" width="50" height="290" fill="#2F2F2F"/>
+  <text x="480" y="920" font-size="12" fill="#FFF" text-anchor="middle" writing-mode="tb">BIBLIA</text>
+  
+  <rect x="510" y="800" width="45" height="290" fill="#3F3F3F"/>
+  
+  <rect x="560" y="800" width="50" height="290" fill="#556B2F"/>
+  
+  <rect x="615" y="800" width="55" height="290" fill="#6495ED"/>
+  <text x="642" y="920" font-size="16" fill="#FFF" text-anchor="middle" font-weight="bold" writing-mode="tb">BIIBBLI</text>
+  
+  <rect x="675" y="800" width="50" height="290" fill="#8B4513"/>
+  
+  <rect x="730" y="800" width="45" height="290" fill="#87CEEB"/>
+  
+  <rect x="780" y="800" width="50" height="290" fill="#2F4F2F"/>
+  
+  <rect x="835" y="800" width="45" height="290" fill="#3F5F3F"/>
+  
+  <rect x="885" y="800" width="50" height="290" fill="#8B0000"/>
+  <text x="910" y="920" font-size="11" fill="#FFF" text-anchor="middle" writing-mode="tb">SANA IZUU</text>
+  
+  <rect x="940" y="800" width="55" height="290" fill="#A0522D"/>
+  <rect x="945" y="820" width="45" height="80" fill="#CD853F"/>
+  
+  <!-- Bookmarks/ribbons -->
+  <rect x="240" y="340" width="8" height="30" fill="#6495ED"/>
+  <rect x="565" y="340" width="8" height="30" fill="#FFF"/>
+  <rect x="880" y="340" width="8" height="30" fill="#E6E6FA"/>
+  <rect x="1000" y="340" width="8" height="30" fill="#FFF"/>
+  
+  <rect x="365" y="710" width="8" height="30" fill="#FF0000"/>
+  <rect x="430" y="710" width="8" height="30" fill="#FF0000"/>
+  <rect x="620" y="710" width="8" height="30" fill="#FF6B6B"/>
+  <rect x="680" y="710" width="8" height="30" fill="#FF6B6B"/>
+  
+  <rect x="1010" y="1080" width="8" height="30" fill="#E6E6FA"/>
+</svg>

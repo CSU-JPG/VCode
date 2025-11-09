@@ -1,0 +1,158 @@
+<svg viewBox="0 0 1092 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1092" height="720" fill="#D4C4B0"/>
+  
+  <!-- Banner ribbon -->
+  <path d="M 170 50 L 200 80 L 890 80 L 920 50 L 890 80 L 920 110 L 200 110 L 170 80 Z" fill="#7FC0A8" stroke="#5A9B82" stroke-width="2"/>
+  <path d="M 200 80 L 350 80 L 350 120 L 320 110 L 200 110 Z" fill="#6AB095"/>
+  <path d="M 740 80 L 890 80 L 890 120 L 770 110 L 740 110 Z" fill="#6AB095"/>
+  
+  <!-- Banner text -->
+  <text x="545" y="90" font-family="'Brush Script MT', cursive" font-size="42" fill="#2C3E36" text-anchor="middle" font-style="italic">Homemade baguette</text>
+  
+  <!-- Baguette illustration -->
+  <ellipse cx="545" cy="160" rx="100" ry="20" fill="#D4A86A" stroke="#B8925A" stroke-width="2"/>
+  <line x1="470" y1="150" x2="480" y2="170" stroke="#B8925A" stroke-width="2"/>
+  <line x1="500" y1="148" x2="510" y2="168" stroke="#B8925A" stroke-width="2"/>
+  <line x1="530" y1="147" x2="540" y2="167" stroke="#B8925A" stroke-width="2"/>
+  <line x1="560" y1="147" x2="570" y2="167" stroke="#B8925A" stroke-width="2"/>
+  <line x1="590" y1="148" x2="600" y2="168" stroke="#B8925A" stroke-width="2"/>
+  <line x1="620" y1="150" x2="630" y2="170" stroke="#B8925A" stroke-width="2"/>
+  
+  <!-- Step 1 -->
+  <circle cx="52" cy="222" r="18" fill="none" stroke="#5A5A5A" stroke-width="2"/>
+  <text x="52" y="230" font-family="Arial" font-size="20" fill="#5A5A5A" text-anchor="middle">1</text>
+  <text x="85" y="228" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">Pour into a larger bowl:</text>
+  
+  <!-- Cup illustration -->
+  <rect x="210" y="260" width="80" height="70" rx="5" fill="#A8D8CC" stroke="#7FC0A8" stroke-width="2"/>
+  <ellipse cx="250" cy="260" rx="40" ry="8" fill="#B8E5D8"/>
+  <rect x="285" y="270" width="25" height="35" rx="8" fill="#A8D8CC" stroke="#7FC0A8" stroke-width="2"/>
+  <path d="M 285 280 Q 300 275 310 280 Q 300 285 285 290" fill="#A8D8CC"/>
+  
+  <!-- Step 1 text items -->
+  <text x="65" y="295" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A">• 200 ml of</text>
+  <text x="75" y="315" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A" font-style="italic">lukewarm water</text>
+  <text x="65" y="370" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A">• 1 tablespoon</text>
+  <text x="75" y="390" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A" font-style="italic">of sugar</text>
+  
+  <!-- Spoon -->
+  <ellipse cx="245" cy="380" rx="22" ry="12" fill="#D4C4A0" stroke="#B8A880" stroke-width="1.5"/>
+  <rect x="265" y="375" width="40" height="10" rx="2" fill="#D4C4A0" stroke="#B8A880" stroke-width="1.5"/>
+  
+  <!-- Yeast box -->
+  <rect x="175" y="440" width="50" height="45" rx="3" fill="#F5E6D3" stroke="#D4C4A0" stroke-width="2"/>
+  <rect x="185" y="450" width="30" height="20" fill="#E8D4B8"/>
+  <text x="65" y="465" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A">• 10 g of dry yeast</text>
+  
+  <!-- Step 2 -->
+  <circle cx="390" cy="222" r="18" fill="none" stroke="#5A5A5A" stroke-width="2"/>
+  <text x="390" y="230" font-family="Arial" font-size="20" fill="#5A5A5A" text-anchor="middle">2</text>
+  <text x="423" y="228" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">After 5 minutes, add:</text>
+  
+  <!-- Olive oil bottle -->
+  <ellipse cx="558" cy="285" rx="22" ry="35" fill="#B8925A" stroke="#9A7A4A" stroke-width="2"/>
+  <rect x="548" y="255" width="20" height="30" fill="#B8925A" stroke="#9A7A4A" stroke-width="2"/>
+  <ellipse cx="558" cy="255" rx="10" ry="5" fill="#9A7A4A"/>
+  
+  <!-- Olives -->
+  <ellipse cx="595" cy="300" rx="12" ry="15" fill="#3A3A3A"/>
+  <ellipse cx="615" cy="305" rx="12" ry="15" fill="#3A3A3A"/>
+  <ellipse cx="605" cy="290" rx="10" ry="13" fill="#3A3A3A"/>
+  
+  <text x="395" y="295" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A">• 50 ml of</text>
+  <text x="405" y="315" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A" font-style="italic">olive oil</text>
+  
+  <!-- Yogurt container -->
+  <rect x="540" y="355" width="70" height="50" rx="5" fill="#E8F5F2" stroke="#A8D8CC" stroke-width="2"/>
+  <ellipse cx="575" cy="355" rx="35" ry="8" fill="#F5FFFE"/>
+  <rect x="605" y="370" width="22" height="25" rx="8" fill="#E8F5F2" stroke="#A8D8CC" stroke-width="2"/>
+  
+  <text x="395" y="375" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A">• 2 tablespoon</text>
+  <text x="405" y="395" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A" font-style="italic">of yogurt</text>
+  
+  <!-- Spoon 2 -->
+  <ellipse cx="615" cy="420" rx="22" ry="12" fill="#D4C4A0" stroke="#B8A880" stroke-width="1.5"/>
+  <rect x="635" y="415" width="40" height="10" rx="2" fill="#D4C4A0" stroke="#B8A880" stroke-width="1.5"/>
+  
+  <text x="395" y="445" font-family="'Brush Script MT', cursive" font-size="16" fill="#3A3A3A">• 1 teaspoon of salt</text>
+  
+  <!-- Step 3 -->
+  <circle cx="713" cy="222" r="18" fill="none" stroke="#5A5A5A" stroke-width="2"/>
+  <text x="713" y="230" font-family="Arial" font-size="20" fill="#5A5A5A" text-anchor="middle">3</text>
+  <text x="746" y="228" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">Add 750 g of all-purpose flour</text>
+  
+  <!-- Flour bag -->
+  <path d="M 720 260 L 770 260 L 780 370 L 710 370 Z" fill="#B8825A" stroke="#9A6A4A" stroke-width="2"/>
+  <rect x="720" y="255" width="50" height="10" fill="#A8704A"/>
+  
+  <!-- Hands kneading -->
+  <path d="M 840 300 Q 850 290 860 300 L 870 310 Q 875 320 865 325 L 850 330 Q 840 325 840 315 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1.5"/>
+  <path d="M 870 310 L 875 305 L 880 310 L 875 315 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  <path d="M 865 315 L 868 310 L 873 315 L 868 320 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  <path d="M 860 320 L 863 315 L 868 320 L 863 325 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  <path d="M 855 325 L 858 320 L 863 325 L 858 330 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  
+  <path d="M 920 305 Q 910 295 900 305 L 890 315 Q 885 325 895 330 L 910 335 Q 920 330 920 320 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1.5"/>
+  <path d="M 890 315 L 885 310 L 880 315 L 885 320 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  <path d="M 895 320 L 892 315 L 887 320 L 892 325 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  <path d="M 900 325 L 897 320 L 892 325 L 897 330 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  <path d="M 905 330 L 902 325 L 897 330 L 902 335 Z" fill="#F5E6D3" stroke="#D4C4B0" stroke-width="1"/>
+  
+  <text x="755" y="405" font-family="'Brush Script MT', cursive" font-size="17" fill="#3A3A3A" font-style="italic">Knead for a few minutes</text>
+  <text x="773" y="425" font-family="'Brush Script MT', cursive" font-size="17" fill="#3A3A3A" font-style="italic">to get a smooth dough</text>
+  
+  <!-- Step 4 -->
+  <circle cx="52" cy="532" r="18" fill="none" stroke="#5A5A5A" stroke-width="2"/>
+  <text x="52" y="540" font-family="Arial" font-size="20" fill="#5A5A5A" text-anchor="middle">4</text>
+  <text x="85" y="538" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">Cover with a kitchen towel</text>
+  <text x="92" y="560" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">and leave for half an hour</text>
+  
+  <!-- Bowl with cloth -->
+  <ellipse cx="195" cy="620" rx="75" ry="25" fill="#A8D8CC" stroke="#7FC0A8" stroke-width="2"/>
+  <ellipse cx="195" cy="615" rx="75" ry="25" fill="#B8E5D8"/>
+  <path d="M 120 615 Q 120 580 195 570 Q 270 580 270 615" fill="#E85555" opacity="0.8"/>
+  <circle cx="145" cy="595" r="5" fill="#FFF" opacity="0.6"/>
+  <circle cx="195" cy="590" r="5" fill="#FFF" opacity="0.6"/>
+  <circle cx="245" cy="595" r="5" fill="#FFF" opacity="0.6"/>
+  <circle cx="170" cy="605" r="5" fill="#FFF" opacity="0.6"/>
+  <circle cx="220" cy="605" r="5" fill="#FFF" opacity="0.6"/>
+  
+  <!-- Step 5 -->
+  <circle cx="390" cy="532" r="18" fill="none" stroke="#5A5A5A" stroke-width="2"/>
+  <text x="390" y="540" font-family="Arial" font-size="20" fill="#5A5A5A" text-anchor="middle">5</text>
+  <text x="423" y="538" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">Shape the baguette, place</text>
+  <text x="423" y="560" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">in a baking tray and leave</text>
+  <text x="423" y="582" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">for another hour and and</text>
+  <text x="423" y="604" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">a half to rise</text>
+  
+  <!-- Baking tray with dough -->
+  <rect x="420" y="655" width="240" height="40" rx="3" fill="#E8E8E8" stroke="#B8B8B8" stroke-width="2"/>
+  <rect x="425" y="660" width="230" height="30" fill="#F5F5F5"/>
+  <line x1="440" y1="660" x2="440" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="470" y1="660" x2="470" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="500" y1="660" x2="500" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="530" y1="660" x2="530" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="560" y1="660" x2="560" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="590" y1="660" x2="590" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="620" y1="660" x2="620" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  <line x1="650" y1="660" x2="650" y2="690" stroke="#D8D8D8" stroke-width="1"/>
+  
+  <!-- Step 6 -->
+  <circle cx="713" cy="532" r="18" fill="none" stroke="#5A5A5A" stroke-width="2"/>
+  <text x="713" y="540" font-family="Arial" font-size="20" fill="#5A5A5A" text-anchor="middle">6</text>
+  <text x="746" y="538" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">Bake in a preheated oven</text>
+  <text x="746" y="560" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">at 250 degrees for approximately</text>
+  <text x="746" y="582" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">20-30 minutes until it's</text>
+  <text x="746" y="604" font-family="'Brush Script MT', cursive" font-size="22" fill="#3A3A3A" font-style="italic">evened out baked bread</text>
+  
+  <!-- Baked baguette -->
+  <ellipse cx="840" cy="675" rx="110" ry="22" fill="#D4A86A" stroke="#B8925A" stroke-width="2"/>
+  <ellipse cx="840" cy="673" rx="110" ry="22" fill="#E8BC7A"/>
+  <line x1="750" y1="665" x2="760" y2="685" stroke="#B8925A" stroke-width="2"/>
+  <line x1="785" y1="662" x2="795" y2="682" stroke="#B8925A" stroke-width="2"/>
+  <line x1="820" y1="661" x2="830" y2="681" stroke="#B8925A" stroke-width="2"/>
+  <line x1="855" y1="661" x2="865" y2="681" stroke="#B8925A" stroke-width="2"/>
+  <line x1="890" y1="662" x2="900" y2="682" stroke="#B8925A" stroke-width="2"/>
+  <line x1="925" y1="665" x2="935" y2="685" stroke="#B8925A" stroke-width="2"/>
+</svg>

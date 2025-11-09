@@ -15,7 +15,7 @@ CALCULATE_SCRIPT="/path/to/evaluation/cv-bench/calculate_score.py"
 # API Key
 API_KEY="YOUR_API_KEY_HERE"
 MODEL_NAME="gpt-4o-mini-2024-07-18"
-
+BASE_URL="YOUR_BASE_URL_HERE"
 
 echo "================================================="
 echo "Model name: $MODEL_NAME"
@@ -52,6 +52,7 @@ python "$ADE_EVAL_SCRIPT" \
     --data_root "$DATA_DIR" \
     --api_key "$API_KEY" \
     --model_name "$MODEL_NAME" \
+    --base_url "$BASE_URL" \
     --answers_file "$ANSWERS_ADE_FILE"
 echo "  -> ADE20K Eval done."
 
@@ -60,6 +61,7 @@ python "$COCO_EVAL_SCRIPT" \
     --data_root "$DATA_DIR" \
     --api_key "$API_KEY" \
     --model_name "$MODEL_NAME" \
+    --base_url "$BASE_URL" \
     --answers_file "$ANSWERS_COCO_FILE"
 echo "  -> COCO Eval done."
 
@@ -68,6 +70,7 @@ python "$OMNI_EVAL_SCRIPT" \
     --data_root "$DATA_DIR" \
     --api_key "$API_KEY" \
     --model_name "$MODEL_NAME" \
+    --base_url "$BASE_URL" \
     --answers_file "$ANSWERS_OMNI_FILE"
 echo "  -> Omni3D Eval done."
 echo "--- All Inference done. ---"

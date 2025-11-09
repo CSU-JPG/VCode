@@ -1,0 +1,81 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wooden table -->
+  <rect width="800" height="600" fill="#d4a574"/>
+  <rect x="0" y="0" width="800" height="150" fill="#e8b996"/>
+  
+  <!-- Wood grain texture -->
+  <line x1="0" y1="300" x2="800" y2="305" stroke="#c49563" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="350" x2="800" y2="355" stroke="#c49563" stroke-width="1.5" opacity="0.3"/>
+  <line x1="0" y1="420" x2="800" y2="418" stroke="#c49563" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Wooden planks lines -->
+  <line x1="200" y1="200" x2="200" y2="600" stroke="#b8935c" stroke-width="3" opacity="0.4"/>
+  <line x1="400" y1="200" x2="400" y2="600" stroke="#b8935c" stroke-width="3" opacity="0.4"/>
+  <line x1="600" y1="200" x2="600" y2="600" stroke="#b8935c" stroke-width="3" opacity="0.4"/>
+  
+  <!-- Dark bottle (left background) -->
+  <ellipse cx="120" cy="200" rx="35" ry="8" fill="#4a0a20" opacity="0.6"/>
+  <rect x="85" y="80" width="70" height="120" rx="8" fill="#6b0f30"/>
+  <rect x="88" y="83" width="64" height="114" rx="6" fill="#8b1340"/>
+  <rect x="95" y="90" width="20" height="30" rx="3" fill="#a01d50" opacity="0.5"/>
+  
+  <!-- Orange slices on table (right side) -->
+  <ellipse cx="680" cy="250" rx="55" ry="50" fill="#ff8c42"/>
+  <ellipse cx="680" cy="250" rx="48" ry="43" fill="#ffaa60"/>
+  <path d="M 680 205 L 680 295 M 640 250 L 720 250 M 652 218 L 708 282 M 708 218 L 652 282 M 660 230 L 700 270 M 700 230 L 660 270" stroke="#ff8c42" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="680" cy="250" rx="12" ry="12" fill="#ffcc88"/>
+  
+  <!-- Orange slice (left side) -->
+  <ellipse cx="580" cy="450" rx="48" ry="42" fill="#d85d3a"/>
+  <ellipse cx="580" cy="450" rx="42" ry="36" fill="#ff7a52"/>
+  <path d="M 580 410 L 580 490 M 540 450 L 620 450 M 552 420 L 608 480 M 608 420 L 552 480" stroke="#d85d3a" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="580" cy="450" rx="10" ry="10" fill="#ffaa88"/>
+  
+  <!-- Lime wedge (bottom right) -->
+  <path d="M 620 520 Q 650 500 680 520 L 650 550 Z" fill="#88cc44"/>
+  <path d="M 625 522 Q 650 505 675 522 L 650 545 Z" fill="#aae066"/>
+  <line x1="650" y1="510" x2="650" y2="545" stroke="#88cc44" stroke-width="1.5"/>
+  
+  <!-- Glass -->
+  <ellipse cx="380" cy="480" rx="75" ry="15" fill="#333" opacity="0.2"/>
+  <path d="M 310 340 L 315 470 Q 315 475 320 478 L 440 478 Q 445 475 445 470 L 450 340 Z" fill="#f4d15f" opacity="0.85"/>
+  <ellipse cx="380" cy="340" rx="70" ry="15" fill="#f4d15f"/>
+  <path d="M 310 340 L 315 470 Q 315 475 320 478 L 440 478 Q 445 475 445 470 L 450 340 Z" fill="none" stroke="#e6c04d" stroke-width="2"/>
+  
+  <!-- Liquid in glass with gradient effect -->
+  <ellipse cx="380" cy="345" rx="65" ry="13" fill="#f9dc6b" opacity="0.7"/>
+  <rect x="318" y="345" width="124" height="125" fill="#f9dc6b" opacity="0.7"/>
+  
+  <!-- Ice cubes floating -->
+  <rect x="340" y="360" width="28" height="28" rx="3" fill="#ffffdd" opacity="0.6"/>
+  <rect x="342" y="362" width="24" height="24" rx="2" fill="#ffffff" opacity="0.4"/>
+  
+  <rect x="385" y="355" width="30" height="30" rx="3" fill="#ffffdd" opacity="0.6"/>
+  <rect x="387" y="357" width="26" height="26" rx="2" fill="#ffffff" opacity="0.4"/>
+  
+  <rect x="420" y="365" width="26" height="26" rx="3" fill="#ffffdd" opacity="0.6"/>
+  <rect x="422" y="367" width="22" height="22" rx="2" fill="#ffffff" opacity="0.4"/>
+  
+  <!-- Melon balls on skewer -->
+  <line x1="365" y1="300" x2="365" y2="380" stroke="#f4e8c1" stroke-width="3"/>
+  <circle cx="365" cy="305" r="14" fill="#fff4a0"/>
+  <circle cx="365" cy="305" r="12" fill="#fff9c4"/>
+  <circle cx="365" cy="332" r="14" fill="#fff4a0"/>
+  <circle cx="365" cy="332" r="12" fill="#fff9c4"/>
+  <circle cx="365" cy="358" r="14" fill="#fff4a0"/>
+  <circle cx="365" cy="358" r="12" fill="#fff9c4"/>
+  
+  <!-- Mint leaf on top -->
+  <ellipse cx="360" cy="320" rx="12" ry="18" fill="#4a8a3a" transform="rotate(-15 360 320)"/>
+  <ellipse cx="360" cy="320" rx="10" ry="15" fill="#5fb049" transform="rotate(-15 360 320)"/>
+  <line x1="360" y1="305" x2="360" y2="335" stroke="#4a8a3a" stroke-width="1.5" transform="rotate(-15 360 320)"/>
+  
+  <!-- Glass highlights -->
+  <ellipse cx="330" cy="360" rx="8" ry="25" fill="#ffffff" opacity="0.3"/>
+  <ellipse cx="425" cy="390" rx="6" ry="20" fill="#ffffff" opacity="0.2"/>
+  
+  <!-- Orange half (top right) -->
+  <ellipse cx="720" cy="180" rx="60" ry="35" fill="#ff9944"/>
+  <ellipse cx="720" cy="180" rx="50" ry="28" fill="#ffb366"/>
+  <ellipse cx="720" cy="180" rx="15" ry="10" fill="#ffdd99"/>
+</svg>

@@ -1,0 +1,227 @@
+<svg viewBox="0 0 1100 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .header-text { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #000; }
+      .country-text { font-family: Arial, sans-serif; font-size: 16px; fill: #000; }
+      .data-text { font-family: Arial, sans-serif; font-size: 16px; fill: #000; text-anchor: middle; }
+      .label-text { font-family: Arial, sans-serif; font-size: 14px; fill: #000; text-anchor: middle; }
+      .yellow-row { fill: #FFF4CC; }
+      .white-row { fill: #FFFFFF; }
+      .gray-row { fill: #F0F0F0; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1100" height="750" fill="#FFFFFF"/>
+  
+  <!-- Header row -->
+  <rect x="20" y="20" width="1060" height="50" fill="#F8F8F8" stroke="#000" stroke-width="2"/>
+  <text x="200" y="55" class="label-text">Territory</text>
+  <text x="420" y="55" class="label-text">Total</text>
+  <text x="700" y="35" class="header-text">Awareness</text>
+  <line x1="560" y1="20" x2="560" y2="70" stroke="#000" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="620" y="55" class="label-text">M-25</text>
+  <text x="720" y="55" class="label-text">M25+</text>
+  <text x="820" y="55" class="label-text">F-25</text>
+  <text x="920" y="55" class="label-text">F25+</text>
+  
+  <!-- Dividing line -->
+  <line x1="20" y1="70" x2="1080" y2="70" stroke="#000" stroke-width="2"/>
+  
+  <!-- Person 1 placeholder -->
+  <rect x="30" y="90" width="180" height="280" fill="#E8D5C4" stroke="#666" stroke-width="1"/>
+  <circle cx="120" cy="150" r="40" fill="#B8906C"/>
+  <rect x="80" y="200" width="80" height="120" fill="#333"/>
+  <rect x="90" y="215" width="60" height="80" fill="#FFF" opacity="0.3"/>
+  
+  <!-- Person 1 data rows -->
+  <rect x="220" y="90" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="110" class="country-text">Australia</text>
+  <text x="420" y="110" class="data-text" font-weight="bold">94%</text>
+  <text x="620" y="110" class="data-text">92%</text>
+  <text x="720" y="110" class="data-text">93%</text>
+  <text x="820" y="110" class="data-text">94%</text>
+  <text x="920" y="110" class="data-text">96%</text>
+  
+  <rect x="220" y="120" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="140" class="country-text">France</text>
+  <text x="420" y="140" class="data-text" font-weight="bold">40%</text>
+  <text x="620" y="140" class="data-text">43%</text>
+  <text x="720" y="140" class="data-text">45%</text>
+  <text x="820" y="140" class="data-text">35%</text>
+  <text x="920" y="140" class="data-text">35%</text>
+  
+  <rect x="220" y="150" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="170" class="country-text">Germany</text>
+  <text x="420" y="170" class="data-text" font-weight="bold">65%</text>
+  <text x="620" y="170" class="data-text">66%</text>
+  <text x="720" y="170" class="data-text">66%</text>
+  <text x="820" y="170" class="data-text">68%</text>
+  <text x="920" y="170" class="data-text">63%</text>
+  
+  <rect x="220" y="180" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="200" class="country-text">Italy</text>
+  <text x="420" y="200" class="data-text" font-weight="bold">57%</text>
+  <text x="620" y="200" class="data-text">56%</text>
+  <text x="720" y="200" class="data-text">56%</text>
+  <text x="820" y="200" class="data-text">54%</text>
+  <text x="920" y="200" class="data-text">59%</text>
+  
+  <rect x="220" y="210" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="230" class="country-text">Japan</text>
+  <text x="420" y="230" class="data-text" font-weight="bold">18%</text>
+  <text x="620" y="230" class="data-text">12%</text>
+  <text x="720" y="230" class="data-text">23%</text>
+  <text x="820" y="230" class="data-text">8%</text>
+  <text x="920" y="230" class="data-text">22%</text>
+  
+  <rect x="220" y="240" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="260" class="country-text">Korea</text>
+  <text x="420" y="260" class="data-text" font-weight="bold">67%</text>
+  <text x="620" y="260" class="data-text">65%</text>
+  <text x="720" y="260" class="data-text">71%</text>
+  <text x="820" y="260" class="data-text">58%</text>
+  <text x="920" y="260" class="data-text">74%</text>
+  
+  <rect x="220" y="270" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="290" class="country-text">Mexico</text>
+  <text x="420" y="290" class="data-text" font-weight="bold">79%</text>
+  <text x="620" y="290" class="data-text">78%</text>
+  <text x="720" y="290" class="data-text">79%</text>
+  <text x="820" y="290" class="data-text">79%</text>
+  <text x="920" y="290" class="data-text">80%</text>
+  
+  <rect x="220" y="300" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="320" class="country-text">Russia</text>
+  <text x="420" y="320" class="data-text" font-weight="bold">69%</text>
+  <text x="620" y="320" class="data-text">64%</text>
+  <text x="720" y="320" class="data-text">79%</text>
+  <text x="820" y="320" class="data-text">64%</text>
+  <text x="920" y="320" class="data-text">70%</text>
+  
+  <rect x="220" y="330" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="350" class="country-text">Spain</text>
+  <text x="420" y="350" class="data-text" font-weight="bold">63%</text>
+  <text x="620" y="350" class="data-text">57%</text>
+  <text x="720" y="350" class="data-text">70%</text>
+  <text x="820" y="350" class="data-text">53%</text>
+  <text x="920" y="350" class="data-text">64%</text>
+  
+  <rect x="220" y="360" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="380" class="country-text">UK</text>
+  <text x="420" y="380" class="data-text" font-weight="bold">94%</text>
+  <text x="620" y="380" class="data-text">95%</text>
+  <text x="720" y="380" class="data-text">93%</text>
+  <text x="820" y="380" class="data-text">91%</text>
+  <text x="920" y="380" class="data-text">95%</text>
+  
+  <!-- Int'l Average row 1 -->
+  <rect x="20" y="390" width="1060" height="30" class="gray-row" stroke="#000" stroke-width="2"/>
+  <text x="120" y="410" class="country-text" font-style="italic" font-weight="bold">Int'l Average</text>
+  <text x="420" y="410" class="data-text" font-weight="bold">64%</text>
+  <text x="620" y="410" class="data-text">63%</text>
+  <text x="720" y="410" class="data-text">68%</text>
+  <text x="820" y="410" class="data-text">60%</text>
+  <text x="920" y="410" class="data-text">66%</text>
+  
+  <!-- Person 2 placeholder -->
+  <rect x="30" y="440" width="180" height="280" fill="#DDD" stroke="#666" stroke-width="1"/>
+  <circle cx="120" cy="500" r="40" fill="#8B6F47"/>
+  <rect x="80" y="550" width="80" height="120" fill="#5B2C6F"/>
+  <ellipse cx="85" cy="565" rx="8" ry="12" fill="#FFF" opacity="0.3"/>
+  <ellipse cx="155" cy="565" rx="8" ry="12" fill="#FFF" opacity="0.3"/>
+  
+  <!-- Person 2 data rows -->
+  <rect x="220" y="440" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="460" class="country-text">Australia</text>
+  <text x="420" y="460" class="data-text" font-weight="bold">62%</text>
+  <text x="620" y="460" class="data-text">54%</text>
+  <text x="720" y="460" class="data-text">59%</text>
+  <text x="820" y="460" class="data-text">70%</text>
+  <text x="920" y="460" class="data-text">65%</text>
+  
+  <rect x="220" y="470" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="490" class="country-text">France</text>
+  <text x="420" y="490" class="data-text" font-weight="bold">19%</text>
+  <text x="620" y="490" class="data-text">23%</text>
+  <text x="720" y="490" class="data-text">18%</text>
+  <text x="820" y="490" class="data-text">19%</text>
+  <text x="920" y="490" class="data-text">17%</text>
+  
+  <rect x="220" y="500" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="520" class="country-text">Germany</text>
+  <text x="420" y="520" class="data-text" font-weight="bold">20%</text>
+  <text x="620" y="520" class="data-text">21%</text>
+  <text x="720" y="520" class="data-text">19%</text>
+  <text x="820" y="520" class="data-text">22%</text>
+  <text x="920" y="520" class="data-text">20%</text>
+  
+  <rect x="220" y="530" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="550" class="country-text">Italy</text>
+  <text x="420" y="550" class="data-text" font-weight="bold">24%</text>
+  <text x="620" y="550" class="data-text">27%</text>
+  <text x="720" y="550" class="data-text">21%</text>
+  <text x="820" y="550" class="data-text">28%</text>
+  <text x="920" y="550" class="data-text">23%</text>
+  
+  <rect x="220" y="560" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="580" class="country-text">Japan</text>
+  <text x="420" y="580" class="data-text" font-weight="bold">15%</text>
+  <text x="620" y="580" class="data-text">9%</text>
+  <text x="720" y="580" class="data-text">20%</text>
+  <text x="820" y="580" class="data-text">11%</text>
+  <text x="920" y="580" class="data-text">16%</text>
+  
+  <rect x="220" y="590" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="610" class="country-text">Korea</text>
+  <text x="420" y="610" class="data-text" font-weight="bold">58%</text>
+  <text x="620" y="610" class="data-text">63%</text>
+  <text x="720" y="610" class="data-text">62%</text>
+  <text x="820" y="610" class="data-text">48%</text>
+  <text x="920" y="610" class="data-text">59%</text>
+  
+  <rect x="220" y="620" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="640" class="country-text">Mexico</text>
+  <text x="420" y="640" class="data-text" font-weight="bold">34%</text>
+  <text x="620" y="640" class="data-text">27%</text>
+  <text x="720" y="640" class="data-text">34%</text>
+  <text x="820" y="640" class="data-text">34%</text>
+  <text x="920" y="640" class="data-text">39%</text>
+  
+  <rect x="220" y="650" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="670" class="country-text">Russia</text>
+  <text x="420" y="670" class="data-text" font-weight="bold">55%</text>
+  <text x="620" y="670" class="data-text">56%</text>
+  <text x="720" y="670" class="data-text">57%</text>
+  <text x="820" y="670" class="data-text">47%</text>
+  <text x="920" y="670" class="data-text">60%</text>
+  
+  <rect x="220" y="680" width="860" height="30" class="white-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="700" class="country-text">Spain</text>
+  <text x="420" y="700" class="data-text" font-weight="bold">22%</text>
+  <text x="620" y="700" class="data-text">22%</text>
+  <text x="720" y="700" class="data-text">23%</text>
+  <text x="820" y="700" class="data-text">24%</text>
+  <text x="920" y="700" class="data-text">19%</text>
+  
+  <rect x="220" y="710" width="860" height="30" class="yellow-row" stroke="#CCC" stroke-width="1"/>
+  <text x="280" y="730" class="country-text">UK</text>
+  <text x="420" y="730" class="data-text" font-weight="bold">45%</text>
+  <text x="620" y="730" class="data-text">45%</text>
+  <text x="720" y="730" class="data-text">40%</text>
+  <text x="820" y="730" class="data-text">59%</text>
+  <text x="920" y="730" class="data-text">39%</text>
+  
+  <!-- Int'l Average row 2 -->
+  <rect x="20" y="740" width="1060" height="30" class="gray-row" stroke="#000" stroke-width="2"/>
+  <text x="120" y="760" class="country-text" font-style="italic" font-weight="bold">Int'l Average</text>
+  <text x="420" y="760" class="data-text" font-weight="bold">35%</text>
+  <text x="620" y="760" class="data-text">35%</text>
+  <text x="720" y="760" class="data-text">35%</text>
+  <text x="820" y="760" class="data-text">36%</text>
+  <text x="920" y="760" class="data-text">36%</text>
+  
+  <!-- Vertical divider line -->
+  <line x1="560" y1="70" x2="560" y2="770" stroke="#000" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>

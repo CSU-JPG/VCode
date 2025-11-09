@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#e8e8e8"/>
+  
+  <!-- Hair/steam wisps -->
+  <path d="M 180 40 Q 170 25 165 15 Q 168 30 170 45" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 200 35 Q 195 18 192 8 Q 196 22 198 38" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 220 40 Q 218 23 220 12 Q 222 28 223 45" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Head (large oval/circle) -->
+  <ellipse cx="200" cy="140" rx="95" ry="110" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+  
+  <!-- Eyes (tired/half-closed) -->
+  <ellipse cx="165" cy="125" rx="25" ry="15" fill="#ddd" stroke="#666" stroke-width="1.5"/>
+  <ellipse cx="235" cy="125" rx="25" ry="15" fill="#ddd" stroke="#666" stroke-width="1.5"/>
+  
+  <!-- Eye shadows/bags -->
+  <path d="M 145 130 Q 165 140 185 130" fill="none" stroke="#999" stroke-width="2" opacity="0.6"/>
+  <path d="M 215 130 Q 235 140 255 130" fill="none" stroke="#999" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Eyebrows (tired expression) -->
+  <path d="M 145 105 Q 165 100 180 102" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 220 102 Q 235 100 255 105" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="155" rx="8" ry="12" fill="#e0e0e0" stroke="#999" stroke-width="1"/>
+  
+  <!-- Mouth (neutral/tired) -->
+  <path d="M 185 185 Q 200 190 215 185" fill="none" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="200" cy="188" rx="3" ry="2" fill="#ccc"/>
+  
+  <!-- Body/shoulders (black shape) -->
+  <path d="M 105 240 L 105 280 Q 105 320 130 340 L 270 340 Q 295 320 295 280 L 295 240 Q 280 230 200 230 Q 120 230 105 240 Z" fill="#1a1a1a"/>
+  
+  <!-- Neck -->
+  <rect x="175" y="230" width="50" height="20" fill="#f5f5f5" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Chinese text -->
+  <text x="200" y="400" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">除了睡觉时间不想睡觉</text>
+  <text x="200" y="435" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">其他时间都想睡觉</text>
+</svg>

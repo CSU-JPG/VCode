@@ -1,0 +1,60 @@
+<svg viewBox="0 0 480 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top gray section -->
+  <rect width="480" height="98" fill="#d0d0d0"/>
+  
+  <!-- Top text -->
+  <text x="240" y="40" font-family="Courier New, monospace" font-size="24" fill="#000" text-anchor="middle" font-weight="bold">This is why I have</text>
+  <text x="240" y="75" font-family="Courier New, monospace" font-size="24" fill="#000" text-anchor="middle" font-weight="bold">trust issues</text>
+  
+  <!-- Iceland section background -->
+  <rect y="98" width="480" height="244" fill="#4a5f4a"/>
+  
+  <!-- Iceland mountains (dark) -->
+  <polygon points="0,200 80,150 160,170 240,140 320,160 400,150 480,180 480,342 0,342" fill="#2d3a3d"/>
+  
+  <!-- Iceland valley -->
+  <ellipse cx="240" cy="280" rx="200" ry="40" fill="#5a7d3a"/>
+  <ellipse cx="240" cy="290" rx="180" ry="35" fill="#6a8d4a"/>
+  
+  <!-- River in Iceland -->
+  <path d="M 200,260 Q 220,280 240,290 T 280,310" stroke="#a0b0a0" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Sky gradient effect -->
+  <rect y="98" width="480" height="80" fill="#5a6a7a" opacity="0.3"/>
+  
+  <!-- Iceland label background -->
+  <rect y="298" width="480" height="44" fill="#4a4a4a"/>
+  
+  <!-- Iceland text -->
+  <text x="240" y="328" font-family="Georgia, serif" font-size="32" fill="#fff" text-anchor="middle">Iceland</text>
+  
+  <!-- Greenland section -->
+  <rect y="342" width="480" height="244" fill="#e8e8e8"/>
+  
+  <!-- Snow/ice texture -->
+  <rect y="342" width="480" height="244" fill="#f5f5f5"/>
+  
+  <!-- Ice formations -->
+  <ellipse cx="120" cy="450" rx="60" ry="30" fill="#e0e8f0" opacity="0.7"/>
+  <ellipse cx="300" cy="470" rx="80" ry="35" fill="#d8e4f0" opacity="0.6"/>
+  
+  <!-- Snow hills -->
+  <path d="M 0,520 Q 120,480 240,500 T 480,490 L 480,586 L 0,586 Z" fill="#f0f4f8"/>
+  
+  <!-- Small figure (person) -->
+  <circle cx="380" cy="420" r="4" fill="#3a3a3a"/>
+  <line x1="380" y1="424" x2="380" y2="438" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="380" y1="430" x2="375" y2="436" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="380" y1="430" x2="385" y2="436" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="380" y1="438" x2="375" y2="448" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="380" y1="438" x2="385" y2="448" stroke="#3a3a3a" stroke-width="2"/>
+  
+  <!-- Blue ice accent -->
+  <ellipse cx="200" cy="540" rx="40" ry="15" fill="#b0d4e8" opacity="0.5"/>
+  
+  <!-- Greenland label background -->
+  <rect y="586" width="480" height="54" fill="#4a4a4a"/>
+  
+  <!-- Greenland text -->
+  <text x="240" y="622" font-family="Georgia, serif" font-size="32" fill="#fff" text-anchor="middle">Greenland</text>
+</svg>

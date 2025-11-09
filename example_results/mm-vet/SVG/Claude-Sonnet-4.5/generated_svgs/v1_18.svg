@@ -1,0 +1,128 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with marble texture effect -->
+  <defs>
+    <filter id="marble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="8" seed="1"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.2" intercept="0.3"/>
+        <feFuncG type="linear" slope="1.2" intercept="0.35"/>
+        <feFuncB type="linear" slope="1.3" intercept="0.4"/>
+      </feComponentTransfer>
+    </filter>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4c5e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8a5ca;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="creamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dfd0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blackGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Marble background -->
+  <rect width="800" height="800" fill="#e8e4f0" filter="url(#marble)"/>
+  
+  <!-- Marble swirl effects -->
+  <path d="M 0,200 Q 200,150 400,180 T 800,200 L 800,400 Q 600,380 400,420 T 0,400 Z" fill="#d8d0e5" opacity="0.4"/>
+  <path d="M 0,500 Q 250,480 500,520 T 800,500 L 800,700 Q 550,680 300,720 T 0,700 Z" fill="#cfc5db" opacity="0.3"/>
+  
+  <!-- Left product - Purple Shampoo -->
+  <g transform="translate(150,250)">
+    <rect x="0" y="0" width="100" height="280" rx="8" fill="url(#purpleGrad)" stroke="#9d8ab0" stroke-width="2"/>
+    <rect x="8" y="8" width="84" height="264" rx="5" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.3"/>
+    
+    <!-- Cap -->
+    <ellipse cx="50" cy="-8" rx="35" ry="12" fill="#9d8ab0"/>
+    <rect x="15" y="-20" width="70" height="15" rx="3" fill="#b8a5ca"/>
+    
+    <!-- Logo -->
+    <circle cx="50" cy="40" r="18" fill="none" stroke="#d4a574" stroke-width="1.5"/>
+    <text x="50" y="46" font-family="serif" font-size="16" fill="#d4a574" text-anchor="middle" font-weight="bold">CW</text>
+    
+    <!-- Brand text -->
+    <text x="50" y="75" font-family="sans-serif" font-size="7" fill="#4a4a4a" text-anchor="middle" letter-spacing="1">CHARLES</text>
+    <text x="50" y="84" font-family="sans-serif" font-size="7" fill="#4a4a4a" text-anchor="middle" letter-spacing="1">WORTHINGTON</text>
+    <text x="50" y="93" font-family="sans-serif" font-size="5" fill="#4a4a4a" text-anchor="middle" letter-spacing="0.5">LONDON</text>
+    
+    <!-- Product name -->
+    <text x="50" y="125" font-family="serif" font-size="16" fill="#a0305a" text-anchor="middle" font-weight="bold" font-style="italic">THICKER</text>
+    <text x="50" y="142" font-family="serif" font-size="16" fill="#a0305a" text-anchor="middle" font-weight="bold" font-style="italic">&amp;FULLER</text>
+    
+    <!-- Description -->
+    <text x="50" y="165" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle" font-weight="bold">DENSIFYING</text>
+    <text x="50" y="175" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle" font-weight="bold">SHAMPOO</text>
+    
+    <text x="50" y="245" font-family="sans-serif" font-size="5" fill="#4a4a4a" text-anchor="middle">FOR</text>
+    <text x="50" y="253" font-family="sans-serif" font-size="5" fill="#4a4a4a" text-anchor="middle">FINE &amp; THIN HAIR</text>
+    
+    <!-- Volume -->
+    <text x="50" y="270" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle">250ml 8.45 fl oz</text>
+  </g>
+  
+  <!-- Center product - Cream Conditioner -->
+  <g transform="translate(340,180)">
+    <rect x="0" y="0" width="120" height="360" rx="10" fill="url(#creamGrad)" stroke="#d4c5b0" stroke-width="2"/>
+    <rect x="10" y="10" width="100" height="340" rx="7" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.3"/>
+    
+    <!-- Cap -->
+    <ellipse cx="60" cy="-10" rx="40" ry="15" fill="#d4c5b0"/>
+    <rect x="20" y="-25" width="80" height="18" rx="4" fill="#e8dfd0"/>
+    
+    <!-- Logo -->
+    <circle cx="60" cy="50" r="22" fill="none" stroke="#d4a574" stroke-width="2"/>
+    <text x="60" y="57" font-family="serif" font-size="20" fill="#d4a574" text-anchor="middle" font-weight="bold">CW</text>
+    
+    <!-- Brand text -->
+    <text x="60" y="90" font-family="sans-serif" font-size="8" fill="#4a4a4a" text-anchor="middle" letter-spacing="1">CHARLES</text>
+    <text x="60" y="100" font-family="sans-serif" font-size="8" fill="#4a4a4a" text-anchor="middle" letter-spacing="1">WORTHINGTON</text>
+    <text x="60" y="110" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle" letter-spacing="0.5">LONDON</text>
+    
+    <!-- Product name -->
+    <text x="60" y="150" font-family="serif" font-size="20" fill="#a0305a" text-anchor="middle" font-weight="bold" font-style="italic">THICKER</text>
+    <text x="60" y="172" font-family="serif" font-size="20" fill="#a0305a" text-anchor="middle" font-weight="bold" font-style="italic">&amp;FULLER</text>
+    
+    <!-- Description -->
+    <text x="60" y="200" font-family="sans-serif" font-size="7" fill="#4a4a4a" text-anchor="middle" font-weight="bold">DENSIFYING</text>
+    <text x="60" y="212" font-family="sans-serif" font-size="7" fill="#4a4a4a" text-anchor="middle" font-weight="bold">CONDITIONER</text>
+    
+    <text x="60" y="320" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle">FOR</text>
+    <text x="60" y="330" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle">FINE &amp; THIN HAIR</text>
+  </g>
+  
+  <!-- Right product - Black Mousse -->
+  <g transform="translate(570,220)">
+    <!-- Bottle body -->
+    <rect x="0" y="40" width="85" height="200" rx="8" fill="url(#blackGrad)" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Black cap/pump -->
+    <ellipse cx="42.5" cy="35" rx="30" ry="12" fill="#1a1a1a"/>
+    <rect x="12.5" y="20" width="60" height="18" rx="5" fill="#2a2a2a"/>
+    <rect x="32.5" y="5" width="20" height="20" rx="2" fill="#1a1a1a"/>
+    <rect x="37.5" y="0" width="10" height="10" rx="1" fill="#2a2a2a"/>
+    
+    <!-- Grey label area -->
+    <rect x="5" y="80" width="75" height="140" rx="5" fill="#b8b0c8" opacity="0.9"/>
+    
+    <!-- Logo on label -->
+    <circle cx="42.5" cy="105" r="15" fill="none" stroke="#d4a574" stroke-width="1.5"/>
+    <text x="42.5" y="110" font-family="serif" font-size="13" fill="#d4a574" text-anchor="middle" font-weight="bold">CW</text>
+    
+    <!-- Brand text -->
+    <text x="42.5" y="130" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle" letter-spacing="0.8">CHARLES</text>
+    <text x="42.5" y="138" font-family="sans-serif" font-size="6" fill="#4a4a4a" text-anchor="middle" letter-spacing="0.8">WORTHINGTON</text>
+    <text x="42.5" y="145" font-family="sans-serif" font-size="4" fill="#4a4a4a" text-anchor="middle">LONDON</text>
+    
+    <!-- Product name -->
+    <text x="42.5" y="168" font-family="serif" font-size="13" fill="#a0305a" text-anchor="middle" font-weight="bold" font-style="italic">THICKER</text>
+    <text x="42.5" y="182" font-family="serif" font-size="13" fill="#a0305a" text-anchor="middle" font-weight="bold" font-style="italic">&amp;FULLER</text>
+    
+    <!-- Description -->
+    <text x="42.5" y="198" font-family="sans-serif" font-size="5" fill="#4a4a4a" text-anchor="middle" font-weight="bold">DENSIFYING</text>
+    <text x="42.5" y="206" font-family="sans-serif" font-size="5" fill="#4a4a4a" text-anchor="middle" font-weight="bold">MOUSSE</text>
+  </g>
+</svg>

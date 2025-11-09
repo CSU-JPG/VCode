@@ -1,0 +1,131 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4b896;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9a975;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b8a580;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a89670;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#skyGrad)"/>
+  
+  <!-- Distant hills -->
+  <ellipse cx="300" cy="120" rx="200" ry="40" fill="#9a8860" opacity="0.6"/>
+  <ellipse cx="700" cy="130" rx="250" ry="45" fill="#9a8860" opacity="0.6"/>
+  <ellipse cx="1000" cy="125" rx="180" ry="38" fill="#9a8860" opacity="0.6"/>
+  
+  <!-- Tree clusters background -->
+  <circle cx="200" cy="150" r="25" fill="#7a6b4d"/>
+  <circle cx="220" cy="155" r="22" fill="#7a6b4d"/>
+  <circle cx="240" cy="150" r="20" fill="#7a6b4d"/>
+  <circle cx="850" cy="140" r="30" fill="#7a6b4d"/>
+  <circle cx="880" cy="145" r="28" fill="#7a6b4d"/>
+  <circle cx="910" cy="142" r="25" fill="#7a6b4d"/>
+  
+  <!-- Water/river -->
+  <ellipse cx="600" cy="400" rx="280" ry="120" fill="url(#waterGrad)"/>
+  <path d="M 320 380 Q 400 360 500 370 Q 600 380 700 370 Q 800 360 880 380" fill="none" stroke="#a89670" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Main bridge arc -->
+  <path d="M 380 320 Q 600 180 820 320" fill="none" stroke="#6b5d42" stroke-width="12"/>
+  <path d="M 385 325 Q 600 190 815 325" fill="none" stroke="#8a7556" stroke-width="8"/>
+  
+  <!-- Bridge railings -->
+  <path d="M 390 315 Q 600 185 810 315" fill="none" stroke="#5a4d35" stroke-width="2"/>
+  <path d="M 390 330 Q 600 200 810 330" fill="none" stroke="#5a4d35" stroke-width="2"/>
+  
+  <!-- Bridge vertical supports -->
+  <line x1="450" y1="265" x2="450" y2="385" stroke="#6b5d42" stroke-width="3"/>
+  <line x1="520" y1="230" x2="520" y2="375" stroke="#6b5d42" stroke-width="3"/>
+  <line x1="600" y1="195" x2="600" y2="370" stroke="#6b5d42" stroke-width="3"/>
+  <line x1="680" y1="230" x2="680" y2="375" stroke="#6b5d42" stroke-width="3"/>
+  <line x1="750" y1="265" x2="750" y2="385" stroke="#6b5d42" stroke-width="3"/>
+  
+  <!-- Buildings left side -->
+  <rect x="150" y="280" width="80" height="60" fill="#9a7a56" stroke="#6b5438" stroke-width="2"/>
+  <polygon points="150,280 190,250 230,280" fill="#7a5d42"/>
+  <rect x="165" y="300" width="15" height="25" fill="#5a4530"/>
+  <rect x="200" y="300" width="15" height="25" fill="#5a4530"/>
+  
+  <rect x="250" y="290" width="70" height="55" fill="#a88560" stroke="#6b5438" stroke-width="2"/>
+  <polygon points="250,290 285,265 320,290" fill="#8a6d48"/>
+  <rect x="265" y="305" width="12" height="22" fill="#5a4530"/>
+  <rect x="295" y="305" width="12" height="22" fill="#5a4530"/>
+  
+  <!-- Buildings right side -->
+  <rect x="860" y="290" width="85" height="65" fill="#9a7a56" stroke="#6b5438" stroke-width="2"/>
+  <polygon points="860,290 902,260 945,290" fill="#7a5d42"/>
+  <rect x="875" y="310" width="16" height="28" fill="#5a4530"/>
+  <rect x="910" y="310" width="16" height="28" fill="#5a4530"/>
+  
+  <rect x="970" y="300" width="75" height="58" fill="#a88560" stroke="#6b5438" stroke-width="2"/>
+  <polygon points="970,300 1007,275 1045,300" fill="#8a6d48"/>
+  
+  <!-- People on bridge (small figures) -->
+  <circle cx="420" cy="295" r="4" fill="#4a3d2a"/>
+  <line x1="420" y1="299" x2="420" y2="310" stroke="#4a3d2a" stroke-width="2"/>
+  
+  <circle cx="550" cy="245" r="4" fill="#3a2d1a"/>
+  <line x1="550" y1="249" x2="550" y2="260" stroke="#3a2d1a" stroke-width="2"/>
+  
+  <circle cx="600" cy="220" r="4" fill="#4a3d2a"/>
+  <line x1="600" y1="224" x2="600" y2="235" stroke="#4a3d2a" stroke-width="2"/>
+  
+  <circle cx="650" cy="245" r="4" fill="#3a2d1a"/>
+  <line x1="650" y1="249" x2="650" y2="260" stroke="#3a2d1a" stroke-width="2"/>
+  
+  <circle cx="780" cy="295" r="4" fill="#4a3d2a"/>
+  <line x1="780" y1="299" x2="780" y2="310" stroke="#4a3d2a" stroke-width="2"/>
+  
+  <!-- Boats on water -->
+  <ellipse cx="480" cy="420" rx="25" ry="8" fill="#6b5438"/>
+  <line x1="490" y1="420" x2="490" y2="400" stroke="#5a4530" stroke-width="2"/>
+  
+  <ellipse cx="720" cy="430" rx="28" ry="9" fill="#6b5438"/>
+  <line x1="732" y1="430" x2="732" y2="408" stroke="#5a4530" stroke-width="2"/>
+  
+  <!-- Trees foreground left -->
+  <ellipse cx="100" cy="520" rx="35" ry="45" fill="#6a5a3d"/>
+  <rect x="95" y="540" width="10" height="35" fill="#5a4530"/>
+  
+  <ellipse cx="80" cy="535" rx="30" ry="40" fill="#7a6a4d"/>
+  <rect x="76" y="550" width="8" height="30" fill="#5a4530"/>
+  
+  <!-- Trees foreground right -->
+  <ellipse cx="1100" cy="510" rx="38" ry="48" fill="#6a5a3d"/>
+  <rect x="1095" y="535" width="10" height="40" fill="#5a4530"/>
+  
+  <ellipse cx="1130" cy="530" rx="32" ry="42" fill="#7a6a4d"/>
+  <rect x="1126" y="548" width="8" height="32" fill="#5a4530"/>
+  
+  <!-- Ground details -->
+  <path d="M 0 600 Q 200 580 400 590 Q 600 600 800 585 Q 1000 595 1200 600 L 1200 800 L 0 800 Z" fill="#b89968" opacity="0.7"/>
+  
+  <!-- Small figures on ground -->
+  <circle cx="300" cy="520" r="3" fill="#3a2d1a"/>
+  <line x1="300" y1="523" x2="300" y2="532" stroke="#3a2d1a" stroke-width="1.5"/>
+  
+  <circle cx="330" cy="525" r="3" fill="#4a3d2a"/>
+  <line x1="330" y1="528" x2="330" y2="537" stroke="#4a3d2a" stroke-width="1.5"/>
+  
+  <circle cx="900" cy="515" r="3" fill="#3a2d1a"/>
+  <line x1="900" y1="518" x2="900" y2="527" stroke="#3a2d1a" stroke-width="1.5"/>
+  
+  <circle cx="870" cy="520" r="3" fill="#4a3d2a"/>
+  <line x1="870" y1="523" x2="870" y2="532" stroke="#4a3d2a" stroke-width="1.5"/>
+  
+  <!-- Path/road -->
+  <path d="M 0 450 Q 200 440 380 460 L 820 460 Q 1000 445 1200 455" fill="none" stroke="#9a8660" stroke-width="25" opacity="0.5"/>
+  
+  <!-- Middle ground trees -->
+  <circle cx="550" cy="520" r="18" fill="#7a6a4d"/>
+  <rect x="547" y="530" width="6" height="20" fill="#5a4530"/>
+  
+  <circle cx="650" cy="525" r="16" fill="#6a5a3d"/>
+  <rect x="647" y="533" width="6" height="18" fill="#5a4530"/>
+</svg>

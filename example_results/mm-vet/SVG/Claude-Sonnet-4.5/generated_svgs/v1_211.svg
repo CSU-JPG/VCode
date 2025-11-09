@@ -1,0 +1,97 @@
+<svg viewBox="0 0 750 760" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="375" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">
+    Amount spent on consumer goods
+  </text>
+  
+  <!-- Chart border -->
+  <rect x="30" y="100" width="690" height="490" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Grid lines -->
+  <line x1="130" y1="100" x2="130" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="180" y1="100" x2="180" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="230" y1="100" x2="230" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="280" y1="100" x2="280" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="330" y1="100" x2="330" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="380" y1="100" x2="380" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="430" y1="100" x2="430" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="480" y1="100" x2="480" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="530" y1="100" x2="530" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="580" y1="100" x2="580" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="630" y1="100" x2="630" y2="590" stroke="#ccc" stroke-width="1"/>
+  <line x1="680" y1="100" x2="680" y2="590" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Y-axis labels -->
+  <text x="25" y="155" font-family="Arial, sans-serif" font-size="13" text-anchor="end" fill="#333">Photographic film</text>
+  <text x="25" y="235" font-family="Arial, sans-serif" font-size="13" text-anchor="end" fill="#333">Toys</text>
+  <text x="25" y="315" font-family="Arial, sans-serif" font-size="13" text-anchor="end" fill="#333">CDs</text>
+  <text x="25" y="395" font-family="Arial, sans-serif" font-size="13" text-anchor="end" fill="#333">Perfumes</text>
+  <text x="25" y="475" font-family="Arial, sans-serif" font-size="13" text-anchor="end" fill="#333">Tennis racquets</text>
+  <text x="25" y="555" font-family="Arial, sans-serif" font-size="13" text-anchor="end" fill="#333">Personal stereos</text>
+  
+  <!-- X-axis labels -->
+  <text x="130" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">130</text>
+  <text x="180" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">135</text>
+  <text x="230" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">140</text>
+  <text x="280" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">145</text>
+  <text x="330" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">150</text>
+  <text x="380" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">155</text>
+  <text x="430" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">160</text>
+  <text x="480" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">165</text>
+  <text x="530" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">170</text>
+  <text x="580" y="610" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">175</text>
+  
+  <!-- Photographic film bars -->
+  <rect x="130" y="127" width="470" height="10" fill="#FFC300"/>
+  <rect x="130" y="139" width="395" height="10" fill="#666"/>
+  <rect x="130" y="151" width="245" height="10" fill="#E85D30"/>
+  <rect x="130" y="163" width="200" height="10" fill="#5B8FBE"/>
+  
+  <!-- Toys bars -->
+  <rect x="130" y="207" width="437" height="10" fill="#FFC300"/>
+  <rect x="130" y="219" width="313" height="10" fill="#E85D30"/>
+  <rect x="130" y="231" width="280" height="10" fill="#666"/>
+  <rect x="130" y="243" width="153" height="10" fill="#5B8FBE"/>
+  
+  <!-- CDs bars -->
+  <rect x="130" y="287" width="402" height="10" fill="#FFC300"/>
+  <rect x="130" y="299" width="288" height="10" fill="#666"/>
+  <rect x="130" y="311" width="203" height="10" fill="#E85D30"/>
+  <rect x="130" y="323" width="152" height="10" fill="#5B8FBE"/>
+  
+  <!-- Perfumes bars -->
+  <rect x="130" y="367" width="310" height="10" fill="#FFC300"/>
+  <rect x="130" y="379" width="252" height="10" fill="#E85D30"/>
+  <rect x="130" y="391" width="168" height="10" fill="#666"/>
+  <rect x="130" y="403" width="202" height="10" fill="#5B8FBE"/>
+  
+  <!-- Tennis racquets bars -->
+  <rect x="130" y="447" width="258" height="10" fill="#E85D30"/>
+  <rect x="130" y="459" width="252" height="10" fill="#FFC300"/>
+  <rect x="130" y="471" width="153" height="10" fill="#666"/>
+  <rect x="130" y="483" width="202" height="10" fill="#5B8FBE"/>
+  
+  <!-- Personal stereos bars -->
+  <rect x="130" y="527" width="252" height="10" fill="#FFC300"/>
+  <rect x="130" y="539" width="168" height="10" fill="#666"/>
+  <rect x="130" y="551" width="192" height="10" fill="#E85D30"/>
+  <rect x="130" y="563" width="168" height="10" fill="#5B8FBE"/>
+  
+  <!-- Legend -->
+  <rect x="250" y="645" width="15" height="15" fill="#FFC300"/>
+  <text x="270" y="657" font-family="Arial, sans-serif" font-size="13" fill="#333">Britain</text>
+  
+  <rect x="330" y="645" width="15" height="15" fill="#666"/>
+  <text x="350" y="657" font-family="Arial, sans-serif" font-size="13" fill="#333">France</text>
+  
+  <rect x="410" y="645" width="15" height="15" fill="#E85D30"/>
+  <text x="430" y="657" font-family="Arial, sans-serif" font-size="13" fill="#333">Italy</text>
+  
+  <rect x="475" y="645" width="15" height="15" fill="#5B8FBE"/>
+  <text x="495" y="657" font-family="Arial, sans-serif" font-size="13" fill="#333">Germany</text>
+  
+  <!-- Bottom title -->
+  <text x="375" y="710" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">
+    Spending in Thousand Pound Sterling
+  </text>
+</svg>

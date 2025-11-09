@@ -1,0 +1,115 @@
+<svg viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="1000" fill="#2a2a2a"/>
+  
+  <!-- Wall sections -->
+  <rect x="0" y="0" width="400" height="1000" fill="#3a3a3a"/>
+  <rect x="400" y="0" width="600" height="1000" fill="#353535"/>
+  <rect x="1000" y="0" width="400" height="1000" fill="#383838"/>
+  
+  <!-- Poster/frame on left -->
+  <rect x="80" y="50" width="200" height="280" fill="#4a4a4a" stroke="#555" stroke-width="3"/>
+  <rect x="100" y="70" width="160" height="240" fill="#5a5a5a"/>
+  
+  <!-- Curtain texture left -->
+  <path d="M 50 100 Q 70 200 50 300 Q 70 400 50 500 Q 70 600 50 700 Q 70 800 50 900" 
+        fill="none" stroke="#252525" stroke-width="2" opacity="0.6"/>
+  <path d="M 350 100 Q 370 200 350 300 Q 370 400 350 500 Q 370 600 350 700 Q 370 800 350 900" 
+        fill="none" stroke="#252525" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Desk -->
+  <rect x="100" y="750" width="1200" height="200" fill="#2f2f2f"/>
+  <rect x="100" y="740" width="1200" height="20" fill="#3a3a3a"/>
+  
+  <!-- Person's suit jacket -->
+  <ellipse cx="700" cy="850" rx="280" ry="180" fill="#bebebe"/>
+  <path d="M 500 700 Q 520 750 540 850 L 560 950 L 450 950 L 470 850 Q 480 750 500 700 Z" fill="#c5c5c5"/>
+  <path d="M 900 700 Q 880 750 860 850 L 840 950 L 950 950 L 930 850 Q 920 750 900 700 Z" fill="#c5c5c5"/>
+  
+  <!-- Shirt -->
+  <ellipse cx="700" cy="600" rx="140" ry="160" fill="#d0d0d0"/>
+  
+  <!-- Tie -->
+  <path d="M 690 480 L 680 500 L 670 650 L 680 680 Q 690 690 700 690 Q 710 690 720 680 L 730 650 L 720 500 Z" fill="#1a1a1a"/>
+  <path d="M 690 480 L 700 490 L 710 480 L 700 470 Z" fill="#252525"/>
+  
+  <!-- Collar -->
+  <path d="M 640 490 L 660 520 L 690 480 L 680 460 Z" fill="#dadada"/>
+  <path d="M 760 490 L 740 520 L 710 480 L 720 460 Z" fill="#dadada"/>
+  
+  <!-- Neck -->
+  <rect x="665" y="430" width="70" height="60" rx="10" fill="#c9b8a8"/>
+  
+  <!-- Head -->
+  <ellipse cx="700" cy="320" rx="120" ry="150" fill="#d4c3b3"/>
+  
+  <!-- Forehead highlight -->
+  <ellipse cx="700" cy="230" rx="80" ry="40" fill="#ddd0c0" opacity="0.7"/>
+  
+  <!-- Hair -->
+  <ellipse cx="650" cy="200" rx="60" ry="45" fill="#1a1a1a"/>
+  <ellipse cx="700" cy="180" rx="70" ry="50" fill="#1a1a1a"/>
+  <ellipse cx="750" cy="200" rx="60" ry="45" fill="#1a1a1a"/>
+  <path d="M 590 240 Q 600 200 640 190 Q 680 180 700 175 Q 720 180 760 190 Q 800 200 810 240" 
+        fill="#1a1a1a" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Hair side part -->
+  <ellipse cx="630" cy="210" rx="50" ry="55" fill="#2a2a2a"/>
+  <ellipse cx="770" cy="220" rx="45" ry="50" fill="#2a2a2a"/>
+  
+  <!-- Ears -->
+  <ellipse cx="590" cy="310" rx="25" ry="35" fill="#cbb9a9"/>
+  <ellipse cx="810" cy="310" rx="25" ry="35" fill="#cbb9a9"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="650" cy="300" rx="20" ry="25" fill="#ffffff"/>
+  <ellipse cx="750" cy="300" rx="20" ry="25" fill="#ffffff"/>
+  <circle cx="650" cy="305" r="12" fill="#4a7c8a"/>
+  <circle cx="750" cy="305" r="12" fill="#4a7c8a"/>
+  <circle cx="653" cy="302" r="6" fill="#000000"/>
+  <circle cx="753" cy="302" r="6" fill="#000000"/>
+  <circle cx="656" cy="300" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="756" cy="300" r="3" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 620 270 Q 640 265 660 268" fill="none" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 740 268 Q 760 265 780 270" fill="none" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Eye bags -->
+  <ellipse cx="650" cy="325" rx="22" ry="8" fill="#b8a898" opacity="0.5"/>
+  <ellipse cx="750" cy="325" rx="22" ry="8" fill="#b8a898" opacity="0.5"/>
+  
+  <!-- Nose -->
+  <path d="M 685 310 Q 682 350 680 370" fill="none" stroke="#b5a494" stroke-width="2"/>
+  <ellipse cx="673" cy="373" rx="8" ry="10" fill="#c0af9f" opacity="0.6"/>
+  <ellipse cx="687" cy="373" rx="8" ry="10" fill="#c0af9f" opacity="0.6"/>
+  
+  <!-- Mouth -->
+  <path d="M 660 400 Q 700 405 740 400" fill="none" stroke="#8a7a6a" stroke-width="2"/>
+  <path d="M 670 410 Q 700 408 730 410" fill="none" stroke="#9a8a7a" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Facial shadows -->
+  <ellipse cx="620" cy="340" rx="30" ry="40" fill="#c5b4a4" opacity="0.3"/>
+  <ellipse cx="780" cy="340" rx="30" ry="40" fill="#c5b4a4" opacity="0.3"/>
+  
+  <!-- Arms on desk -->
+  <ellipse cx="500" cy="850" rx="80" ry="60" fill="#c0c0c0"/>
+  <ellipse cx="900" cy="850" rx="80" ry="60" fill="#c0c0c0"/>
+  
+  <!-- Hands -->
+  <ellipse cx="650" cy="880" rx="50" ry="40" fill="#d4c3b3"/>
+  <ellipse cx="750" cy="880" rx="50" ry="40" fill="#d4c3b3"/>
+  
+  <!-- Apple on desk -->
+  <ellipse cx="700" cy="870" rx="45" ry="50" fill="#8b4545"/>
+  <ellipse cx="700" cy="860" rx="40" ry="45" fill="#a05555"/>
+  <path d="M 700 820 Q 695 830 698 845" fill="none" stroke="#5a3a2a" stroke-width="3"/>
+  <ellipse cx="705" cy="850" rx="15" ry="20" fill="#c07070" opacity="0.4"/>
+  
+  <!-- Papers on desk -->
+  <rect x="950" y="780" width="150" height="120" fill="#e8e8e8" opacity="0.8"/>
+  <rect x="960" y="790" width="130" height="100" fill="#f5f5f5" opacity="0.6"/>
+  <line x1="970" y1="810" x2="1070" y2="810" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <line x1="970" y1="830" x2="1070" y2="830" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <line x1="970" y1="850" x2="1070" y2="850" stroke="#333" stroke-width="1" opacity="0.3"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#000000">Studying online</text>
+  
+  <!-- Grid lines -->
+  <line x1="400" y1="120" x2="400" y2="580" stroke="#cccccc" stroke-width="2"/>
+  <line x1="20" y1="350" x2="780" y2="350" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- Zoom label -->
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Zoom</text>
+  
+  <!-- Teacher label -->
+  <text x="600" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Teacher</text>
+  
+  <!-- Wifi company label -->
+  <text x="200" y="390" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Wifi company</text>
+  
+  <!-- Students label -->
+  <text x="600" y="390" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Students</text>
+  
+  <!-- Zoom quadrant - Person with money -->
+  <rect x="50" y="180" width="300" height="150" fill="#e8f4f8" stroke="#666" stroke-width="2"/>
+  <ellipse cx="200" cy="230" rx="25" ry="30" fill="#fdbcb4"/>
+  <rect x="175" y="255" width="50" height="60" fill="#333333"/>
+  <line x1="175" y1="270" x2="140" y2="250" stroke="#333333" stroke-width="4"/>
+  <line x1="225" y1="270" x2="260" y2="250" stroke="#333333" stroke-width="4"/>
+  <text x="90" y="210" font-size="28" fill="#2d8a3e">$</text>
+  <text x="130" y="240" font-size="28" fill="#2d8a3e">$</text>
+  <text x="270" y="210" font-size="28" fill="#2d8a3e">$</text>
+  <text x="310" y="240" font-size="28" fill="#2d8a3e">$</text>
+  <text x="110" y="300" font-size="28" fill="#2d8a3e">$</text>
+  <text x="280" y="295" font-size="28" fill="#2d8a3e">$</text>
+  
+  <!-- Teacher quadrant - Person relaxing -->
+  <rect x="450" y="180" width="300" height="150" fill="#e8e8e8" stroke="#666" stroke-width="2"/>
+  <ellipse cx="600" cy="230" rx="25" ry="30" fill="#fdbcb4"/>
+  <rect x="575" y="255" width="50" height="40" fill="#6699cc"/>
+  <line x1="575" y1="265" x2="540" y2="240" stroke="#6699cc" stroke-width="4"/>
+  <line x1="625" y1="265" x2="660" y2="240" stroke="#6699cc" stroke-width="4"/>
+  <rect x="680" y="200" width="50" height="30" fill="#999999"/>
+  <rect x="690" y="195" width="30" height="10" fill="#666666"/>
+  
+  <!-- Wifi company quadrant - Person with money -->
+  <rect x="50" y="410" width="300" height="150" fill="#e8f4f8" stroke="#666" stroke-width="2"/>
+  <ellipse cx="200" cy="460" rx="25" ry="30" fill="#fdbcb4"/>
+  <rect x="175" y="485" width="50" height="60" fill="#333333"/>
+  <line x1="175" y1="500" x2="140" y2="480" stroke="#333333" stroke-width="4"/>
+  <line x1="225" y1="500" x2="260" y2="480" stroke="#333333" stroke-width="4"/>
+  <text x="90" y="440" font-size="28" fill="#2d8a3e">$</text>
+  <text x="130" y="470" font-size="28" fill="#2d8a3e">$</text>
+  <text x="270" y="440" font-size="28" fill="#2d8a3e">$</text>
+  <text x="310" y="470" font-size="28" fill="#2d8a3e">$</text>
+  <text x="110" y="530" font-size="28" fill="#2d8a3e">$</text>
+  <text x="280" y="525" font-size="28" fill="#2d8a3e">$</text>
+  
+  <!-- Students quadrant - Sad face -->
+  <rect x="450" y="410" width="300" height="150" fill="#4a0e0e" stroke="#666" stroke-width="2"/>
+  <circle cx="600" cy="485" r="40" fill="#f5f5dc"/>
+  <path d="M 580 475 Q 590 465 600 475 Q 610 465 620 475" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="585" cy="480" r="5" fill="#000000"/>
+  <circle cx="615" cy="480" r="5" fill="#000000"/>
+  <path d="M 580 505 Q 600 495 620 505" fill="none" stroke="#cc0000" stroke-width="3"/>
+  <path d="M 560 460 L 540 445 L 545 465 Z" fill="#cc0000"/>
+  <text x="480" y="445" font-size="20" fill="#ff6b9d" font-style="italic">let's be</text>
+  <text x="490" y="470" font-size="24" fill="#ff6b9d" font-weight="bold">HAPPY</text>
+</svg>

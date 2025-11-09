@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1200 950" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="950" fill="#5a5a5a"/>
+  
+  <!-- Fence in background -->
+  <rect x="0" y="40" width="1200" height="6" fill="#3a3a3a"/>
+  <rect x="0" y="70" width="1200" height="6" fill="#3a3a3a"/>
+  <rect x="0" y="100" width="1200" height="6" fill="#3a3a3a"/>
+  <rect x="180" y="30" width="8" height="90" fill="#3a3a3a"/>
+  <rect x="465" y="30" width="8" height="90" fill="#3a3a3a"/>
+  <rect x="750" y="30" width="8" height="90" fill="#3a3a3a"/>
+  <rect x="1035" y="30" width="8" height="90" fill="#3a3a3a"/>
+  
+  <!-- Sand/ground -->
+  <ellipse cx="400" cy="500" rx="350" ry="80" fill="#d4c5b0"/>
+  <ellipse cx="900" cy="550" rx="280" ry="60" fill="#d4c5b0"/>
+  
+  <!-- Water pool -->
+  <ellipse cx="600" cy="620" rx="420" ry="140" fill="#8b9a94"/>
+  <ellipse cx="600" cy="610" rx="400" ry="130" fill="#a3b3ad"/>
+  
+  <!-- Rocks -->
+  <ellipse cx="250" cy="480" rx="100" ry="60" fill="#b8a894"/>
+  <ellipse cx="320" cy="500" rx="90" ry="55" fill="#c4b5a0"/>
+  <ellipse cx="950" cy="420" rx="80" ry="50" fill="#b8a894"/>
+  <ellipse cx="420" cy="620" rx="70" ry="40" fill="#c4b5a0"/>
+  
+  <!-- Rock near water -->
+  <ellipse cx="480" cy="580" rx="85" ry="50" fill="#c4b5a0"/>
+  <ellipse cx="480" cy="560" rx="75" ry="45" fill="#d4c5b0"/>
+  
+  <!-- Zebra body -->
+  <ellipse cx="450" cy="420" rx="140" ry="80" fill="#e8e8e8"/>
+  
+  <!-- Zebra neck -->
+  <path d="M 420 380 Q 400 340 385 280" stroke="#e8e8e8" stroke-width="45" fill="none"/>
+  
+  <!-- Zebra head -->
+  <ellipse cx="380" cy="260" rx="35" ry="45" fill="#e8e8e8"/>
+  
+  <!-- Zebra snout -->
+  <ellipse cx="375" cy="285" rx="25" ry="20" fill="#d0d0d0"/>
+  
+  <!-- Zebra ears -->
+  <ellipse cx="365" cy="235" rx="12" ry="20" fill="#e8e8e8" transform="rotate(-20 365 235)"/>
+  <ellipse cx="395" cy="235" rx="12" ry="20" fill="#e8e8e8" transform="rotate(20 395 235)"/>
+  
+  <!-- Zebra legs -->
+  <rect x="375" y="480" width="25" height="120" fill="#e8e8e8"/>
+  <rect x="440" y="480" width="25" height="120" fill="#e8e8e8"/>
+  <rect x="500" y="480" width="25" height="130" fill="#e8e8e8"/>
+  <rect x="540" y="480" width="25" height="130" fill="#e8e8e8"/>
+  
+  <!-- Zebra hooves -->
+  <ellipse cx="387" cy="600" rx="15" ry="8" fill="#1a1a1a"/>
+  <ellipse cx="452" cy="600" rx="15" ry="8" fill="#1a1a1a"/>
+  <ellipse cx="512" cy="610" rx="15" ry="8" fill="#1a1a1a"/>
+  <ellipse cx="552" cy="610" rx="15" ry="8" fill="#1a1a1a"/>
+  
+  <!-- Zebra stripes on body -->
+  <ellipse cx="450" cy="420" rx="130" ry="70" fill="none" stroke="#000" stroke-width="15"/>
+  <path d="M 330 410 Q 350 420 370 420" stroke="#000" stroke-width="18" fill="none"/>
+  <path d="M 340 390 Q 360 400 380 395" stroke="#000" stroke-width="16" fill="none"/>
+  <path d="M 350 435 Q 370 440 390 438" stroke="#000" stroke-width="18" fill="none"/>
+  <path d="M 480 360 Q 500 365 520 365" stroke="#000" stroke-width="16" fill="none"/>
+  <path d="M 490 390 Q 510 395 530 390" stroke="#000" stroke-width="18" fill="none"/>
+  <path d="M 500 420 Q 520 425 540 420" stroke="#000" stroke-width="18" fill="none"/>
+  <path d="M 490 445 Q 510 450 530 448" stroke="#000" stroke-width="16" fill="none"/>
+  
+  <!-- Zebra stripes on neck -->
+  <line x1="415" y1="365" x2="395" y2="340" stroke="#000" stroke-width="30"/>
+  <line x1="410" y1="340" x2="390" y2="315" stroke="#000" stroke-width="28"/>
+  <line x1="405" y1="315" x2="388" y2="290" stroke="#000" stroke-width="26"/>
+  
+  <!-- Zebra stripes on head -->
+  <path d="M 365 245 Q 370 255 375 265" stroke="#000" stroke-width="12" fill="none"/>
+  <path d="M 380 245 Q 380 260 378 275" stroke="#000" stroke-width="10" fill="none"/>
+  <path d="M 395 250 Q 390 265 385 280" stroke="#000" stroke-width="12" fill="none"/>
+  
+  <!-- Zebra stripes on legs -->
+  <rect x="375" y="500" width="25" height="15" fill="#000"/>
+  <rect x="375" y="535" width="25" height="15" fill="#000"/>
+  <rect x="375" y="570" width="25" height="15" fill="#000"/>
+  
+  <rect x="440" y="500" width="25" height="15" fill="#000"/>
+  <rect x="440" y="535" width="25" height="15" fill="#000"/>
+  <rect x="440" y="570" width="25" height="15" fill="#000"/>
+  
+  <rect x="500" y="510" width="25" height="15" fill="#000"/>
+  <rect x="500" y="545" width="25" height="15" fill="#000"/>
+  <rect x="500" y="580" width="25" height="15" fill="#000"/>
+  
+  <rect x="540" y="510" width="25" height="15" fill="#000"/>
+  <rect x="540" y="545" width="25" height="15" fill="#000"/>
+  <rect x="540" y="580" width="25" height="15" fill="#000"/>
+  
+  <!-- Zebra tail -->
+  <path d="M 580 420 Q 620 430 640 460" stroke="#e8e8e8" stroke-width="12" fill="none"/>
+  <ellipse cx="645" cy="470" rx="8" ry="25" fill="#1a1a1a"/>
+  
+  <!-- Zebra mane -->
+  <path d="M 395 240 L 390 230 L 395 235 L 400 225 L 398 235 L 403 228" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+  
+  <!-- Zebra eye -->
+  <circle cx="385" cy="255" r="4" fill="#1a1a1a"/>
+  
+  <!-- Reflection in water -->
+  <ellipse cx="510" cy="655" rx="60" ry="25" fill="#6a7a74" opacity="0.4"/>
+  
+  <!-- Wall element on right -->
+  <rect x="1050" y="150" width="150" height="800" fill="#9a9a9a"/>
+</svg>

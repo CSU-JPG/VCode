@@ -1,0 +1,118 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#c9a882"/>
+  
+  <rect x="10" y="10" width="780" height="380" fill="#d4b896" opacity="0.7"/>
+  
+  <g id="texture">
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#b8956f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="0" y1="120" x2="800" y2="120" stroke="#b8956f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="0" y1="190" x2="800" y2="190" stroke="#b8956f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="0" y1="260" x2="800" y2="260" stroke="#b8956f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="0" y1="330" x2="800" y2="330" stroke="#b8956f" stroke-width="0.5" opacity="0.3"/>
+  </g>
+  
+  <g id="leftFigure1">
+    <ellipse cx="70" cy="100" rx="10" ry="12" fill="#f5ddb0"/>
+    <rect x="60" y="112" width="20" height="50" fill="#e8d4b8" rx="3"/>
+    <path d="M 60 162 L 65 210 L 62 210 L 57 162 Z" fill="#8b7355"/>
+    <path d="M 80 162 L 75 210 L 78 210 L 83 162 Z" fill="#8b7355"/>
+    <rect x="60" y="115" width="20" height="8" fill="#9d8b7a"/>
+  </g>
+  
+  <g id="leftFigure2">
+    <ellipse cx="140" cy="95" rx="10" ry="12" fill="#f5ddb0"/>
+    <rect x="130" y="107" width="20" height="50" fill="#d4a574" rx="3"/>
+    <path d="M 130 157 L 135 205 L 132 205 L 127 157 Z" fill="#8b7355"/>
+    <path d="M 150 157 L 145 205 L 148 205 L 153 157 Z" fill="#8b7355"/>
+    <rect x="130" y="110" width="20" height="8" fill="#b89968"/>
+  </g>
+  
+  <g id="centerFigure">
+    <ellipse cx="210" cy="90" rx="11" ry="13" fill="#f5ddb0"/>
+    <path d="M 205 103 Q 208 102 210 102 Q 212 102 215 103" stroke="#2d2d2d" stroke-width="1.5" fill="none"/>
+    <rect x="199" y="103" width="22" height="60" fill="#c44536" rx="3"/>
+    <path d="M 199 163 L 204 220 L 201 220 L 196 163 Z" fill="#2d2d2d"/>
+    <path d="M 221 163 L 216 220 L 219 220 L 224 163 Z" fill="#2d2d2d"/>
+    <rect x="199" y="106" width="22" height="8" fill="#8b3626"/>
+  </g>
+  
+  <g id="rightGroup">
+    <ellipse cx="300" cy="110" rx="9" ry="11" fill="#f5ddb0"/>
+    <rect x="291" y="121" width="18" height="45" fill="#e8c4a8" rx="3"/>
+    <path d="M 291 166 L 296 205 L 293 205 L 288 166 Z" fill="#8b7355"/>
+    <path d="M 309 166 L 304 205 L 307 205 L 312 166 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="canopy">
+    <path d="M 370 80 Q 400 60 430 80 L 430 140 Q 400 120 370 140 Z" fill="#6b8b6b" stroke="#4a6b4a" stroke-width="2"/>
+    <path d="M 410 80 Q 440 60 470 80 L 470 140 Q 440 120 410 140 Z" fill="#7a9a7a" stroke="#5a7a5a" stroke-width="2"/>
+  </g>
+  
+  <g id="pole">
+    <rect x="445" y="85" width="8" height="145" fill="#6b4423" stroke="#5a3312" stroke-width="1"/>
+  </g>
+  
+  <g id="flag">
+    <path d="M 453 85 L 530 95 L 530 125 L 453 115 Z" fill="#c44536" stroke="#a43526" stroke-width="1"/>
+  </g>
+  
+  <g id="attendant1">
+    <ellipse cx="510" cy="130" rx="8" ry="10" fill="#f5ddb0"/>
+    <rect x="502" y="140" width="16" height="40" fill="#d4846b" rx="2"/>
+    <path d="M 502 180 L 506 215 L 503 215 L 499 180 Z" fill="#8b7355"/>
+    <path d="M 518 180 L 514 215 L 517 215 L 521 180 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="attendant2">
+    <ellipse cx="555" cy="135" rx="8" ry="10" fill="#f5ddb0"/>
+    <rect x="547" y="145" width="16" height="40" fill="#d4846b" rx="2"/>
+    <path d="M 547 185 L 551 220 L 548 220 L 544 185 Z" fill="#8b7355"/>
+    <path d="M 563 185 L 559 220 L 562 220 L 566 185 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="attendant3">
+    <ellipse cx="595" cy="140" rx="8" ry="10" fill="#f5ddb0"/>
+    <rect x="587" y="150" width="16" height="40" fill="#c44536" rx="2"/>
+    <path d="M 587 190 L 591 225 L 588 225 L 584 190 Z" fill="#8b7355"/>
+    <path d="M 603 190 L 599 225 L 602 225 L 606 190 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="attendant4">
+    <ellipse cx="635" cy="145" rx="8" ry="10" fill="#f5ddb0"/>
+    <rect x="627" y="155" width="16" height="40" fill="#d4846b" rx="2"/>
+    <path d="M 627 195 L 631 230 L 628 230 L 624 195 Z" fill="#8b7355"/>
+    <path d="M 643 195 L 639 230 L 642 230 L 646 195 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="attendant5">
+    <ellipse cx="540" cy="180" rx="7" ry="9" fill="#f5ddb0"/>
+    <rect x="533" y="189" width="14" height="35" fill="#c44536" rx="2"/>
+    <path d="M 533 224 L 537 255 L 534 255 L 530 224 Z" fill="#8b7355"/>
+    <path d="M 547 224 L 543 255 L 546 255 L 550 224 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="attendant6">
+    <ellipse cx="575" cy="185" rx="7" ry="9" fill="#f5ddb0"/>
+    <rect x="568" y="194" width="14" height="35" fill="#d4846b" rx="2"/>
+    <path d="M 568 229 L 572 260 L 569 260 L 565 229 Z" fill="#8b7355"/>
+    <path d="M 582 229 L 578 260 L 581 260 L 585 229 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="attendant7">
+    <ellipse cx="610" cy="190" rx="7" ry="9" fill="#f5ddb0"/>
+    <rect x="603" y="199" width="14" height="35" fill="#c44536" rx="2"/>
+    <path d="M 603 234 L 607 265 L 604 265 L 600 234 Z" fill="#8b7355"/>
+    <path d="M 617 234 L 613 265 L 616 265 L 620 234 Z" fill="#8b7355"/>
+  </g>
+  
+  <g id="seal" opacity="0.5">
+    <rect x="30" y="240" width="35" height="35" fill="#b84536" stroke="#8b3526" stroke-width="2"/>
+    <text x="47.5" y="262" font-size="14" fill="#e8d4b8" text-anchor="middle" font-family="serif">印</text>
+  </g>
+  
+  <g id="inscription" opacity="0.6">
+    <text x="760" y="50" font-size="12" fill="#4a3622" text-anchor="end" font-family="serif">春</text>
+    <text x="760" y="70" font-size="12" fill="#4a3622" text-anchor="end" font-family="serif">景</text>
+    <text x="760" y="90" font-size="12" fill="#4a3622" text-anchor="end" font-family="serif">圖</text>
+  </g>
+</svg>

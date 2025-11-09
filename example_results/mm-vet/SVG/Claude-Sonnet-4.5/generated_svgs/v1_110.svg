@@ -1,0 +1,94 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="400" fill="#87CEEB"/>
+  
+  <!-- Hills background -->
+  <ellipse cx="200" cy="320" rx="180" ry="100" fill="#6B8E23"/>
+  <ellipse cx="400" cy="340" rx="200" ry="90" fill="#556B2F"/>
+  <ellipse cx="600" cy="330" rx="150" ry="80" fill="#6B8E23"/>
+  
+  <!-- Ground -->
+  <rect y="400" width="800" height="200" fill="#C19A6B"/>
+  
+  <!-- Trees on left -->
+  <ellipse cx="100" cy="280" rx="60" ry="80" fill="#4A7C3A"/>
+  <rect x="90" y="280" width="20" height="60" fill="#654321"/>
+  
+  <ellipse cx="180" cy="300" rx="50" ry="70" fill="#3D6B2F"/>
+  <rect x="170" y="300" width="20" height="50" fill="#654321"/>
+  
+  <!-- Giraffe body -->
+  <ellipse cx="500" cy="420" rx="80" ry="60" fill="#C17A3F"/>
+  
+  <!-- Giraffe neck -->
+  <path d="M 500 360 Q 480 400 500 420" fill="#C17A3F" stroke="#C17A3F" stroke-width="60"/>
+  
+  <!-- Giraffe head -->
+  <ellipse cx="480" cy="350" rx="35" ry="45" fill="#C17A3F"/>
+  
+  <!-- Giraffe ear -->
+  <ellipse cx="465" cy="330" rx="12" ry="20" fill="#C17A3F"/>
+  
+  <!-- Giraffe horn/ossicone -->
+  <rect x="472" y="315" width="6" height="15" fill="#8B6F47" rx="3"/>
+  <circle cx="475" cy="315" r="4" fill="#654321"/>
+  
+  <!-- Giraffe snout -->
+  <ellipse cx="470" cy="365" rx="20" ry="15" fill="#A0673F"/>
+  
+  <!-- Giraffe eye -->
+  <circle cx="475" cy="345" r="5" fill="#2F1F1F"/>
+  
+  <!-- Giraffe spots on visible parts -->
+  <ellipse cx="490" cy="340" rx="12" ry="15" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="470" cy="360" rx="10" ry="12" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="510" cy="355" rx="11" ry="14" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="485" cy="375" rx="13" ry="15" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="520" cy="380" rx="12" ry="14" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="495" cy="395" rx="14" ry="16" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="480" cy="410" rx="13" ry="15" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="520" cy="410" rx="15" ry="17" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="500" cy="425" rx="14" ry="16" fill="#8B4513" opacity="0.7"/>
+  <ellipse cx="535" cy="425" rx="13" ry="15" fill="#8B4513" opacity="0.7"/>
+  
+  <!-- Giraffe mane -->
+  <path d="M 495 320 L 495 410" stroke="#654321" stroke-width="3" fill="none"/>
+  <line x1="495" y1="325" x2="505" y2="325" stroke="#654321" stroke-width="2"/>
+  <line x1="495" y1="335" x2="505" y2="335" stroke="#654321" stroke-width="2"/>
+  <line x1="495" y1="345" x2="505" y2="345" stroke="#654321" stroke-width="2"/>
+  <line x1="495" y1="355" x2="505" y2="355" stroke="#654321" stroke-width="2"/>
+  <line x1="495" y1="365" x2="505" y2="365" stroke="#654321" stroke-width="2"/>
+  <line x1="495" y1="375" x2="505" y2="375" stroke="#654321" stroke-width="2"/>
+  <line x1="495" y1="385" x2="505" y2="385" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Person in traditional cloth -->
+  <ellipse cx="420" cy="430" rx="25" ry="35" fill="#4A2F1F"/>
+  <circle cx="420" cy="380" r="22" fill="#3D2817"/>
+  
+  <!-- Red plaid shuka/cloth -->
+  <path d="M 395 380 L 380 430 L 380 480 L 460 480 L 460 430 L 445 380 Z" fill="#C41E3A"/>
+  
+  <!-- Plaid pattern -->
+  <line x1="380" y1="400" x2="460" y2="400" stroke="#FFD700" stroke-width="2"/>
+  <line x1="380" y1="420" x2="460" y2="420" stroke="#FFD700" stroke-width="2"/>
+  <line x1="380" y1="440" x2="460" y2="440" stroke="#FFD700" stroke-width="2"/>
+  <line x1="380" y1="460" x2="460" y2="460" stroke="#FFD700" stroke-width="2"/>
+  <line x1="400" y1="380" x2="400" y2="480" stroke="#FFD700" stroke-width="2"/>
+  <line x1="420" y1="380" x2="420" y2="480" stroke="#FFD700" stroke-width="2"/>
+  <line x1="440" y1="380" x2="440" y2="480" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Person's arm -->
+  <path d="M 445 400 L 470 380 L 475 395" fill="#3D2817"/>
+  
+  <!-- Colorful bracelet -->
+  <ellipse cx="472" cy="385" rx="8" ry="4" fill="#FF4500"/>
+  <ellipse cx="472" cy="390" rx="8" ry="4" fill="#FFD700"/>
+  <ellipse cx="472" cy="395" rx="8" ry="4" fill="#1E90FF"/>
+  
+  <!-- Ground texture -->
+  <circle cx="150" cy="520" r="8" fill="#A0826D" opacity="0.5"/>
+  <circle cx="250" cy="540" r="6" fill="#A0826D" opacity="0.5"/>
+  <circle cx="350" cy="515" r="7" fill="#A0826D" opacity="0.5"/>
+  <circle cx="600" cy="535" r="9" fill="#A0826D" opacity="0.5"/>
+  <circle cx="700" cy="520" r="7" fill="#A0826D" opacity="0.5"/>
+</svg>

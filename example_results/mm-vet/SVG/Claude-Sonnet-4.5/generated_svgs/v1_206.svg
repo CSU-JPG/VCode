@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#6B4C9A"/>
+  <ellipse cx="600" cy="200" rx="180" ry="140" fill="#4ECDC4" opacity="0.6"/>
+  <rect x="0" y="0" width="250" height="350" fill="#2D5F4F" opacity="0.4"/>
+  
+  <!-- Field/Ground -->
+  <rect x="0" y="480" width="800" height="120" fill="#5A8F6F"/>
+  
+  <!-- Player - Legs and Shorts -->
+  <path d="M 350 480 L 340 540 L 355 540 L 360 500 L 365 540 L 380 540 L 370 480 Z" fill="#1a1a1a"/>
+  
+  <!-- Player - Body/Jersey -->
+  <rect x="310" y="340" width="100" height="140" fill="#E8F0F5" rx="8"/>
+  
+  <!-- Jersey - Blue Stripes -->
+  <rect x="320" y="340" width="20" height="140" fill="#87CEEB"/>
+  <rect x="360" y="340" width="20" height="140" fill="#87CEEB"/>
+  
+  <!-- Jersey - Black stripes on shoulders -->
+  <rect x="305" y="340" width="15" height="60" fill="#1a1a1a"/>
+  <rect x="400" y="340" width="15" height="60" fill="#1a1a1a"/>
+  
+  <!-- Arms extended -->
+  <path d="M 305 360 L 220 340 L 215 355 L 300 375 Z" fill="#FDB9A8"/>
+  <path d="M 415 360 L 500 340 L 505 355 L 420 375 Z" fill="#FDB9A8"/>
+  
+  <!-- Jersey number 10 -->
+  <text x="345" y="420" font-family="Arial Black" font-size="40" font-weight="bold" fill="#1a1a1a">10</text>
+  
+  <!-- Captain armband -->
+  <rect x="490" y="345" width="20" height="15" fill="#FFD700"/>
+  
+  <!-- Neck -->
+  <rect x="345" y="320" width="30" height="20" fill="#FDB9A8"/>
+  
+  <!-- Head -->
+  <ellipse cx="360" cy="300" rx="30" ry="35" fill="#FDB9A8"/>
+  
+  <!-- Hair -->
+  <path d="M 340 280 Q 360 260 380 280 L 380 300 Q 370 290 360 290 Q 350 290 340 300 Z" fill="#2C1810"/>
+  
+  <!-- Facial features -->
+  <ellipse cx="352" cy="300" rx="3" ry="4" fill="#1a1a1a"/>
+  <ellipse cx="368" cy="300" rx="3" ry="4" fill="#1a1a1a"/>
+  <path d="M 355 310 Q 360 315 365 310" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  
+  <!-- Beard -->
+  <ellipse cx="360" cy="320" rx="12" ry="8" fill="#2C1810"/>
+  
+  <!-- Tattoo on left arm -->
+  <ellipse cx="240" cy="350" rx="15" ry="8" fill="#8B6B9F" opacity="0.5"/>
+  
+  <!-- Ball suggestion -->
+  <circle cx="150" cy="520" r="20" fill="#FFFFFF" opacity="0.7"/>
+  <path d="M 145 515 L 155 525 M 155 515 L 145 525" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Crowd blur suggestion -->
+  <ellipse cx="100" cy="150" rx="60" ry="80" fill="#2D5F4F" opacity="0.3"/>
+  <ellipse cx="700" cy="180" rx="50" ry="70" fill="#6B4C9A" opacity="0.3"/>
+</svg>

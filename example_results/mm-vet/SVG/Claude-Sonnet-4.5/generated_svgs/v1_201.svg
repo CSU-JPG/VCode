@@ -1,0 +1,93 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#8B7D6B"/>
+  
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A09080;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7A6B5B;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="faceGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#D4A88A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8906F;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect x="0" y="0" width="400" height="200" fill="url(#skyGrad)"/>
+  
+  <!-- Dark clothing base -->
+  <ellipse cx="200" cy="380" rx="140" ry="100" fill="#1a1a1a"/>
+  <rect x="60" y="280" width="280" height="220" fill="#1a1a1a"/>
+  
+  <!-- Body/torso -->
+  <path d="M 120 250 Q 140 320 140 400 L 260 400 Q 260 320 280 250 Z" fill="#2d2d2d"/>
+  
+  <!-- Coat/robe darker sections -->
+  <path d="M 80 280 Q 100 350 120 450 Q 140 470 160 480 L 180 480 L 180 300 Z" fill="#0d0d0d"/>
+  <path d="M 320 280 Q 300 350 280 450 Q 260 470 240 480 L 220 480 L 220 300 Z" fill="#0d0d0d"/>
+  
+  <!-- White collar/shirt -->
+  <path d="M 160 250 Q 180 260 200 260 Q 220 260 240 250 L 240 280 Q 220 290 200 290 Q 180 290 160 280 Z" fill="#F5F5F5"/>
+  <rect x="170" y="250" width="60" height="30" fill="#F5F5F5"/>
+  
+  <!-- Neck -->
+  <rect x="180" y="230" width="40" height="30" fill="#C99A77"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="55" ry="65" fill="url(#faceGrad)"/>
+  
+  <!-- Hat -->
+  <ellipse cx="200" cy="110" rx="75" ry="25" fill="#1a1a1a"/>
+  <path d="M 130 110 Q 130 80 200 75 Q 270 80 270 110 Q 270 140 200 145 Q 130 140 130 110 Z" fill="#1a1a1a"/>
+  <ellipse cx="200" cy="105" rx="70" ry="15" fill="#0d0d0d"/>
+  
+  <!-- Hat brim shadow -->
+  <ellipse cx="200" cy="140" rx="85" ry="12" fill="#0d0d0d" opacity="0.6"/>
+  
+  <!-- Facial features -->
+  <!-- Eyes -->
+  <ellipse cx="180" cy="175" rx="8" ry="10" fill="#4a3929"/>
+  <ellipse cx="220" cy="175" rx="8" ry="10" fill="#4a3929"/>
+  <ellipse cx="182" cy="173" rx="3" ry="4" fill="#1a1a1a"/>
+  <ellipse cx="222" cy="173" rx="3" ry="4" fill="#1a1a1a"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 165 165 Q 180 162 190 163" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 210 163 Q 220 162 235 165" stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M 200 185 L 198 205 L 205 208" stroke="#A8856B" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M 185 215 Q 200 218 215 215" stroke="#8B6F5B" stroke-width="2" fill="none"/>
+  
+  <!-- Hair visible under hat -->
+  <path d="M 140 130 Q 135 150 140 165 Q 145 155 150 145 Z" fill="#6B4E3D"/>
+  <path d="M 260 130 Q 265 150 260 165 Q 255 155 250 145 Z" fill="#6B4E3D"/>
+  <path d="M 150 140 Q 160 145 170 142" stroke="#6B4E3D" stroke-width="3" fill="none"/>
+  <path d="M 250 140 Q 240 145 230 142" stroke="#6B4E3D" stroke-width="3" fill="none"/>
+  
+  <!-- Right hand on chest -->
+  <ellipse cx="180" cy="320" rx="20" ry="25" fill="#C99A77"/>
+  <path d="M 165 315 Q 170 325 175 330" stroke="#A8856B" stroke-width="1.5" fill="none"/>
+  <path d="M 170 315 Q 175 325 180 330" stroke="#A8856B" stroke-width="1.5" fill="none"/>
+  <path d="M 175 315 Q 180 325 185 330" stroke="#A8856B" stroke-width="1.5" fill="none"/>
+  
+  <!-- Left hand lower -->
+  <ellipse cx="230" cy="380" rx="22" ry="28" fill="#C99A77"/>
+  <path d="M 215 375 Q 220 385 225 390" stroke="#A8856B" stroke-width="1.5" fill="none"/>
+  <path d="M 220 375 Q 225 385 230 390" stroke="#A8856B" stroke-width="1.5" fill="none"/>
+  <path d="M 225 375 Q 230 385 235 390" stroke="#A8856B" stroke-width="1.5" fill="none"/>
+  
+  <!-- Ring on hand -->
+  <ellipse cx="233" cy="385" rx="4" ry="3" fill="#DAA520"/>
+  
+  <!-- Fur trim on coat -->
+  <ellipse cx="100" cy="320" rx="25" ry="35" fill="#3d2f26" opacity="0.8"/>
+  <ellipse cx="110" cy="350" rx="20" ry="30" fill="#3d2f26" opacity="0.8"/>
+  
+  <!-- Shadows and depth -->
+  <ellipse cx="200" cy="180" rx="50" ry="60" fill="#000000" opacity="0.1"/>
+  <path d="M 160 280 Q 180 320 180 360" stroke="#000000" stroke-width="2" opacity="0.3" fill="none"/>
+</svg>

@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1120 1092" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1120" height="1092" fill="#1a1a1a"/>
+  
+  <!-- Yellow diagonal stripe -->
+  <polygon points="900,0 1120,0 1120,400 700,0" fill="#FFD700"/>
+  
+  <!-- Title section -->
+  <rect width="1120" height="360" fill="#2a2a2a"/>
+  
+  <!-- Title text -->
+  <text x="25" y="90" font-family="Arial Black, sans-serif" font-size="52" font-weight="bold" fill="white">
+    SECUREGUARD
+  </text>
+  <text x="380" y="90" font-family="Arial, sans-serif" font-size="20" fill="white">TM</text>
+  <text x="25" y="140" font-family="Arial Black, sans-serif" font-size="48" font-weight="bold" fill="white">
+    TIRE REPAIR KIT
+  </text>
+  
+  <!-- Easy 8 step guide text -->
+  <text x="10" y="200" font-family="Arial Black, sans-serif" font-size="38" font-weight="bold" fill="#FFD700" stroke="#000" stroke-width="1">
+    EASY 8 STEP
+  </text>
+  <text x="10" y="235" font-family="Arial Black, sans-serif" font-size="38" font-weight="bold" fill="#FFD700" stroke="#000" stroke-width="1">
+    GUIDE ON
+  </text>
+  <text x="10" y="270" font-family="Arial Black, sans-serif" font-size="38" font-weight="bold" fill="#FFD700" stroke="#000" stroke-width="1">
+    HOW TO
+  </text>
+  <text x="10" y="305" font-family="Arial Black, sans-serif" font-size="38" font-weight="bold" fill="#FFD700" stroke="#000" stroke-width="1">
+    USE YOUR
+  </text>
+  <text x="10" y="340" font-family="Arial Black, sans-serif" font-size="38" font-weight="bold" fill="#FFD700" stroke="#000" stroke-width="1">
+    REPAIR KIT
+  </text>
+  
+  <!-- Grid lines -->
+  <line x1="0" y1="360" x2="1120" y2="360" stroke="#FFD700" stroke-width="6"/>
+  <line x1="0" y1="726" x2="1120" y2="726" stroke="#FFD700" stroke-width="6"/>
+  <line x1="362" y1="360" x2="362" y2="1092" stroke="#FFD700" stroke-width="6"/>
+  <line x1="731" y1="360" x2="731" y2="1092" stroke="#FFD700" stroke-width="6"/>
+  
+  <!-- Step 1 box -->
+  <rect x="0" y="360" width="731" height="366" fill="#3a3a3a"/>
+  <text x="250" y="410" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">Remove</text>
+  <text x="250" y="445" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">foreign</text>
+  <text x="250" y="480" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">object.</text>
+  <text x="250" y="550" font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="white">1</text>
+  <ellipse cx="180" cy="600" rx="85" ry="40" fill="#2a2a2a"/>
+  <ellipse cx="180" cy="595" rx="85" ry="40" fill="#1a1a1a"/>
+  <path d="M 180 555 L 180 470 M 170 565 L 180 555 L 190 565" stroke="#c0c0c0" stroke-width="3" fill="none"/>
+  <ellipse cx="180" cy="465" rx="8" ry="8" fill="#FFB6C1"/>
+  
+  <!-- Step 2 box -->
+  <rect x="731" y="360" width="389" height="366" fill="#e8e8e8"/>
+  <text x="752" y="410" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">Lube the</text>
+  <text x="752" y="440" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">tip of the</text>
+  <text x="752" y="470" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">probe.</text>
+  <text x="752" y="560" font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="#1a1a1a">2</text>
+  <ellipse cx="900" cy="580" rx="45" ry="25" fill="#3a3a3a"/>
+  <rect x="885" y="560" width="30" height="40" rx="5" fill="#4a4a4a"/>
+  <path d="M 1000 550 L 900 580" stroke="#c0c0c0" stroke-width="4" fill="none"/>
+  <ellipse cx="1015" cy="540" rx="10" ry="10" fill="#FFB6C1"/>
+  
+  <!-- Step 3 box -->
+  <rect x="0" y="726" width="362" height="366" fill="#e8e8e8"/>
+  <text x="17" y="770" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a">Insert the lubed probe at</text>
+  <text x="17" y="795" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a">the angle of the puncture</text>
+  <text x="17" y="820" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a">to clean edges.</text>
+  <text x="17" y="920" font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="#1a1a1a">3</text>
+  <ellipse cx="140" cy="970" rx="70" ry="35" fill="#2a2a2a"/>
+  <ellipse cx="140" cy="965" rx="70" ry="35" fill="#1a1a1a"/>
+  <path d="M 200 900 L 160 950" stroke="#c0c0c0" stroke-width="4" fill="none"/>
+  <rect x="195" y="885" width="15" height="20" rx="7" fill="#4a4a4a"/>
+  
+  <!-- Step 4 box -->
+  <rect x="362" y="726" width="369" height="366" fill="#e8e8e8"/>
+  <text x="384" y="770" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a">Use probe to spread</text>
+  <text x="384" y="800" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a">tire puncture for</text>
+  <text x="384" y="830" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a">easy repair.</text>
+  <text x="384" y="930" font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="#1a1a1a">4</text>
+  <ellipse cx="520" cy="990" rx="70" ry="35" fill="#2a2a2a"/>
+  <ellipse cx="520" cy="985" rx="70" ry="35" fill="#1a1a1a"/>
+  <path d="M 580 920 L 540 970" stroke="#c0c0c0" stroke-width="4" fill="none"/>
+  <rect x="575" y="905" width="15" height="20" rx="7" fill="#4a4a4a"/>
+  
+  <!-- Step 5 box -->
+  <rect x="731" y="726" width="389" height="366" fill="#e8e8e8"/>
+  <text x="752" y="770" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a">Remove the repair</text>
+  <text x="752" y="800" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a">from the plastic.</text>
+  <text x="752" y="900" font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="#1a1a1a">5</text>
+  <rect x="870" y="940" width="50" height="100" rx="5" fill="#4a4a4a"/>
+  <rect x="880" y="950" width="10" height="80" fill="#8B4513"/>
+  <rect x="895" y="950" width="10" height="80" fill="#8B4513"/>
+  <ellipse cx="920" cy="980" rx="10" ry="10" fill="#FFB6C1"/>
+  
+  <!-- Tire illustrations -->
+  <ellipse cx="450" cy="560" rx="120" ry="120" fill="#1a1a1a"/>
+  <ellipse cx="450" cy="560" rx="90" ry="90" fill="#2a2a2a"/>
+  <ellipse cx="450" cy="560" rx="50" ry="50" fill="#c0c0c0"/>
+  
+  <ellipse cx="180" cy="950" rx="100" ry="100" fill="#1a1a1a"/>
+  <ellipse cx="180" cy="950" rx="75" ry="75" fill="#2a2a2a"/>
+  <ellipse cx="180" cy="950" rx="40" ry="40" fill="#c0c0c0"/>
+  
+  <ellipse cx="520" cy="970" rx="100" ry="100" fill="#1a1a1a"/>
+  <ellipse cx="520" cy="970" rx="75" ry="75" fill="#2a2a2a"/>
+  <ellipse cx="520" cy="970" rx="40" ry="40" fill="#c0c0c0"/>
+</svg>

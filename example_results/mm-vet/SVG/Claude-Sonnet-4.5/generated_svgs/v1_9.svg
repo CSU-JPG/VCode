@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#c9c5ba"/>
+  
+  <!-- Main blue sign background -->
+  <rect x="30" y="50" width="340" height="400" fill="#1a4d8f" stroke="#000" stroke-width="8"/>
+  
+  <!-- Header section -->
+  <rect x="30" y="50" width="340" height="70" fill="#1a4d8f"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">Gasoline</text>
+  <text x="240" y="95" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff">Self Serve</text>
+  
+  <!-- Regular section -->
+  <text x="50" y="160" font-family="Arial, sans-serif" font-size="24" fill="#b8d4f0">Regular</text>
+  <g id="regular-price">
+    <text x="150" y="200" font-family="Arial Black, sans-serif" font-size="80" font-weight="900" fill="#ff0000">3.49</text>
+    <text x="310" y="175" font-family="Arial Black, sans-serif" font-size="40" font-weight="900" fill="#ff0000">9</text>
+    <text x="335" y="175" font-family="Arial, sans-serif" font-size="28" fill="#ff0000">₁₀</text>
+  </g>
+  
+  <!-- Plus section -->
+  <text x="50" y="260" font-family="Arial, sans-serif" font-size="24" fill="#b8d4f0">Plus</text>
+  <g id="plus-price">
+    <text x="150" y="300" font-family="Arial Black, sans-serif" font-size="80" font-weight="900" fill="#ff0000">3.55</text>
+    <text x="310" y="275" font-family="Arial Black, sans-serif" font-size="40" font-weight="900" fill="#ff0000">9</text>
+    <text x="335" y="275" font-family="Arial, sans-serif" font-size="28" fill="#ff0000">₁₀</text>
+  </g>
+  
+  <!-- Supreme section -->
+  <text x="50" y="360" font-family="Arial, sans-serif" font-size="24" fill="#b8d4f0">Supreme</text>
+  <g id="supreme-price">
+    <text x="150" y="400" font-family="Arial Black, sans-serif" font-size="80" font-weight="900" fill="#ff0000">3.65</text>
+    <text x="310" y="375" font-family="Arial Black, sans-serif" font-size="40" font-weight="900" fill="#ff0000">9</text>
+    <text x="335" y="375" font-family="Arial, sans-serif" font-size="28" fill="#ff0000">₁₀</text>
+  </g>
+  
+  <!-- Diesel section -->
+  <rect x="30" y="460" width="340" height="100" fill="#00a651" stroke="#000" stroke-width="8"/>
+  <text x="50" y="500" font-family="Arial, sans-serif" font-size="24" fill="#fff">Diesel</text>
+  <text x="50" y="525" font-family="Arial, sans-serif" font-size="20" fill="#fff">No.2</text>
+  <g id="diesel-price">
+    <text x="150" y="530" font-family="Arial Black, sans-serif" font-size="70" font-weight="900" fill="#00ff88">3.60</text>
+    <text x="295" y="510" font-family="Arial Black, sans-serif" font-size="35" font-weight="900" fill="#00ff88">9</text>
+    <text x="315" y="510" font-family="Arial, sans-serif" font-size="24" fill="#00ff88">₁₀</text>
+  </g>
+</svg>

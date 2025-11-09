@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - dark arena -->
+  <rect width="1400" height="800" fill="#1a1a1a"/>
+  
+  <!-- Arena floor -->
+  <rect x="0" y="600" width="1400" height="200" fill="#2a2a2a"/>
+  
+  <!-- Floor markings -->
+  <rect x="200" y="680" width="60" height="4" fill="#3a3a3a"/>
+  <rect x="300" y="680" width="60" height="4" fill="#3a3a3a"/>
+  <rect x="400" y="680" width="60" height="4" fill="#3a3a3a"/>
+  <rect x="500" y="680" width="60" height="4" fill="#3a3a3a"/>
+  
+  <!-- Audience seats - left side -->
+  <g opacity="0.7">
+    <ellipse cx="150" cy="400" rx="100" ry="180" fill="#c49a2c"/>
+    <ellipse cx="250" cy="420" rx="80" ry="160" fill="#c49a2c"/>
+  </g>
+  
+  <!-- Audience seats - right side -->
+  <g opacity="0.7">
+    <ellipse cx="1250" cy="400" rx="100" ry="180" fill="#c49a2c"/>
+    <ellipse cx="1150" cy="420" rx="80" ry="160" fill="#c49a2c"/>
+  </g>
+  
+  <!-- Basketball hoop base -->
+  <rect x="690" y="500" width="80" height="120" fill="#2d8659"/>
+  <rect x="700" y="490" width="60" height="20" fill="#247a4d"/>
+  
+  <!-- Basketball hoop pole -->
+  <rect x="725" y="320" width="10" height="180" fill="#7a7a7a"/>
+  
+  <!-- Backboard -->
+  <rect x="640" y="260" width="180" height="120" fill="#e8e8e8" stroke="#999" stroke-width="3"/>
+  <rect x="650" y="270" width="160" height="100" fill="#f5f5f5"/>
+  
+  <!-- Backboard details -->
+  <rect x="680" y="300" width="100" height="60" fill="none" stroke="#c44" stroke-width="2"/>
+  
+  <!-- Rim -->
+  <ellipse cx="730" cy="360" rx="25" ry="8" fill="#d44"/>
+  <rect x="705" y="360" width="50" height="3" fill="#c33"/>
+  
+  <!-- Net -->
+  <path d="M 710 363 L 705 380 L 708 385 M 730 363 L 730 385 M 750 363 L 755 380 L 752 385" 
+        stroke="#fff" stroke-width="1" fill="none" opacity="0.6"/>
+  
+  <!-- Scoreboard -->
+  <rect x="690" y="80" width="100" height="60" fill="#2a5a8a"/>
+  <rect x="700" y="90" width="35" height="30" fill="#1a3a5a"/>
+  <text x="717" y="110" font-family="Arial" font-size="16" fill="#4af" text-anchor="middle" font-weight="bold">88</text>
+  <rect x="745" y="90" width="35" height="30" fill="#1a3a5a"/>
+  <text x="762" y="110" font-family="Arial" font-size="16" fill="#4af" text-anchor="middle" font-weight="bold">92</text>
+  
+  <!-- Scoreboard support -->
+  <line x1="740" y1="140" x2="740" y2="200" stroke="#666" stroke-width="3"/>
+  
+  <!-- Person on right (shirtless man) -->
+  <ellipse cx="1050" cy="480" rx="18" ry="20" fill="#daa589"/>
+  <rect x="1032" y="500" width="36" height="60" fill="#daa589"/>
+  <rect x="1025" y="560" width="20" height="70" fill="#4a6a9a"/>
+  <rect x="1055" y="560" width="20" height="70" fill="#4a6a9a"/>
+  <rect x="1020" y="505" width="15" height="50" fill="#daa589"/>
+  <rect x="1065" y="505" width="15" height="50" fill="#daa589"/>
+  
+  <!-- Person on left (woman in red dress) -->
+  <g>
+    <!-- Head -->
+    <ellipse cx="280" cy="340" rx="25" ry="28" fill="#e8b89a"/>
+    
+    <!-- Hair (blonde, flowing) -->
+    <path d="M 260 330 Q 250 320 255 310 Q 260 300 270 305 L 290 305 Q 300 300 305 310 Q 310 320 300 330 L 280 355" 
+          fill="#f5d98b" opacity="0.9"/>
+    <ellipse cx="270" cy="315" rx="30" ry="35" fill="#f5d98b" opacity="0.8"/>
+    
+    <!-- Dress body -->
+    <path d="M 280 368 L 260 420 Q 250 480 240 540 L 260 540 L 275 450 L 285 450 L 300 540 L 320 540 Q 310 480 300 420 Z" 
+          fill="#c44"/>
+    
+    <!-- Arms raised -->
+    <rect x="235" y="360" width="12" height="55" fill="#e8b89a" transform="rotate(-30 241 360)"/>
+    <rect x="310" y="360" width="12" height="55" fill="#e8b89a" transform="rotate(30 316 360)"/>
+    
+    <!-- Dress skirt flare -->
+    <path d="M 240 540 Q 230 560 225 580 L 245 580 M 320 540 Q 330 560 335 580 L 315 580" 
+          fill="#c44"/>
+  </g>
+  
+  <!-- Scattered confetti/particles -->
+  <circle cx="180" cy="120" r="3" fill="#f5d98b" opacity="0.8"/>
+  <circle cx="320" cy="80" r="2" fill="#f5d98b" opacity="0.8"/>
+  <circle cx="450" cy="140" r="3" fill="#f5d98b" opacity="0.8"/>
+  <circle cx="580" cy="100" r="2" fill="#f5d98b" opacity="0.8"/>
+  <circle cx="920" cy="110" r="3" fill="#f5d98b" opacity="0.8"/>
+  <circle cx="1080" cy="90" r="2" fill="#f5d98b" opacity="0.8"/>
+  <circle cx="1220" cy="130" r="3" fill="#f5d98b" opacity="0.8"/>
+  <circle cx="1350" cy="105" r="2" fill="#f5d98b" opacity="0.8"/>
+</svg>

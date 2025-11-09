@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blurred green background -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#90c050;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7028;stop-opacity:1" />
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" />
+    </filter>
+    <radialGradient id="tomatoGrad" cx="40%" cy="35%">
+      <stop offset="0%" style="stop-color:#f5f5a0;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#d4d878;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8b860;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="rotGrad" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#2d2418;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a3828;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5d4a38;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" filter="url(#blur)"/>
+  
+  <!-- Foliage suggestion in background -->
+  <ellipse cx="150" cy="120" rx="80" ry="60" fill="#3a5a20" opacity="0.6" filter="url(#blur)"/>
+  <ellipse cx="650" cy="180" rx="90" ry="70" fill="#4a6a28" opacity="0.5" filter="url(#blur)"/>
+  <ellipse cx="400" cy="80" rx="70" ry="50" fill="#507030" opacity="0.6" filter="url(#blur)"/>
+  
+  <!-- Stem at top -->
+  <rect x="395" y="140" width="10" height="35" fill="#6a8040" rx="2"/>
+  <line x1="395" y1="155" x2="385" y2="148" stroke="#5a7030" stroke-width="3"/>
+  <line x1="405" y1="158" x2="415" y2="152" stroke="#5a7030" stroke-width="3"/>
+  
+  <!-- Small green tomatoes in background -->
+  <ellipse cx="320" cy="200" rx="28" ry="30" fill="#6a9038" opacity="0.7"/>
+  <ellipse cx="500" cy="220" rx="25" ry="27" fill="#709040" opacity="0.6"/>
+  
+  <!-- Leaf behind tomato -->
+  <path d="M 250 280 Q 200 250 180 280 Q 190 310 220 320 Q 240 310 250 280 Z" fill="#4a7030" opacity="0.8"/>
+  <path d="M 220 285 Q 200 270 190 285" stroke="#3a5520" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Main tomato body -->
+  <ellipse cx="400" cy="310" rx="135" ry="145" fill="url(#tomatoGrad)"/>
+  
+  <!-- Highlight on tomato -->
+  <ellipse cx="360" cy="270" rx="45" ry="35" fill="#ffffcd" opacity="0.4"/>
+  
+  <!-- Shadow/shading on tomato -->
+  <ellipse cx="430" cy="360" rx="80" ry="60" fill="#a0a850" opacity="0.3"/>
+  
+  <!-- Blossom end scar at bottom (removed since showing rot area) -->
+  
+  <!-- Main rot area - dark irregular shape -->
+  <ellipse cx="400" cy="340" rx="70" ry="85" fill="url(#rotGrad)"/>
+  
+  <!-- Irregular edges of rot -->
+  <path d="M 360 290 Q 340 310 335 340 Q 340 370 355 395 Q 380 420 410 425 Q 445 420 460 395 Q 470 360 465 330 Q 455 300 435 285 Q 410 280 380 285 Q 365 288 360 290 Z" 
+        fill="#3a2818" opacity="0.7"/>
+  
+  <!-- Inner darker rot spots -->
+  <ellipse cx="385" cy="325" rx="25" ry="30" fill="#1a1410" opacity="0.8"/>
+  <ellipse cx="420" cy="350" rx="20" ry="25" fill="#1a1410" opacity="0.7"/>
+  <ellipse cx="395" cy="370" rx="18" ry="22" fill="#2a1815" opacity="0.6"/>
+  
+  <!-- Texture/damage details -->
+  <path d="M 340 330 Q 345 340 340 350" stroke="#2a1a10" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 460 340 Q 465 350 463 365" stroke="#2a1a10" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Leaf in front -->
+  <path d="M 280 350 Q 250 340 235 360 Q 240 390 265 405 Q 285 400 295 380 Q 295 365 280 350 Z" fill="#5a8038"/>
+  <path d="M 240 360 L 280 380" stroke="#4a6828" stroke-width="2" fill="none"/>
+  <path d="M 255 365 Q 245 375 248 385" stroke="#4a6828" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M 270 370 Q 262 380 265 390" stroke="#4a6828" stroke-width="1.5" fill="none" opacity="0.7"/>
+  
+  <!-- Hairy trichomes on stem and calyx -->
+  <line x1="398" y1="145" x2="393" y2="140" stroke="#d8d8b0" stroke-width="1" opacity="0.6"/>
+  <line x1="402" y1="147" x2="407" y2="142" stroke="#d8d8b0" stroke-width="1" opacity="0.6"/>
+  <line x1="395" y1="152" x2="390" y2="148" stroke="#d8d8b0" stroke-width="1" opacity="0.5"/>
+  <line x1="405" y1="154" x2="410" y2="150" stroke="#d8d8b0" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Finger/hand holding tomato -->
+  <path d="M 350 450 L 340 520 Q 340 545 355 555 Q 370 550 375 530 L 380 460 Z" fill="#f5d5c0"/>
+  <path d="M 380 460 L 385 520 Q 387 545 402 555 Q 417 550 420 530 L 420 455 Z" fill="#f5d0b8"/>
+  <path d="M 420 455 L 425 515 Q 428 540 442 550 Q 457 545 460 525 L 458 450 Z" fill="#f5d5c0"/>
+  <path d="M 458 450 L 462 510 Q 465 535 478 543 Q 490 538 492 520 L 488 445 Z" fill="#f5cdb5"/>
+  
+  <!-- Thumb -->
+  <ellipse cx="310" cy="400" rx="28" ry="45" fill="#f5d0b8" transform="rotate(-25 310 400)"/>
+  
+  <!-- Palm/base of hand -->
+  <path d="M 330 450 Q 300 470 295 500 Q 300 520 320 530 Q 340 528 350 510 L 350 450 Z" fill="#f5d5c0" opacity="0.9"/>
+  
+  <!-- Finger shadows/creases -->
+  <line x1="375" y1="480" x2="375" y2="500" stroke="#d8b8a0" stroke-width="1.5" opacity="0.4"/>
+  <line x1="420" y1="475" x2="420" y2="495" stroke="#d8b8a0" stroke-width="1.5" opacity="0.4"/>
+  <line x1="458" y1="470" x2="458" y2="490" stroke="#d8b8a0" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Fingernails -->
+  <ellipse cx="355" cy="553" rx="8" ry="6" fill="#f8e8e0"/>
+  <ellipse cx="402" cy="553" rx="8" ry="6" fill="#f8e8e0"/>
+  <ellipse cx="442" cy="548" rx="8" ry="6" fill="#f8e8e0"/>
+  <ellipse cx="478" cy="541" rx="7" ry="5" fill="#f8e8e0"/>
+</svg>

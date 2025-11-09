@@ -1,0 +1,91 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wooden table background -->
+  <rect width="800" height="600" fill="#c9a66b"/>
+  <path d="M0 0 L800 0 L800 600 L0 600 Z" fill="url(#woodGrain)" opacity="0.3"/>
+  
+  <defs>
+    <pattern id="woodGrain" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#b8935a"/>
+      <path d="M0 20 Q25 22 50 20 T100 20" stroke="#a07d4a" stroke-width="1" fill="none" opacity="0.5"/>
+      <path d="M0 45 Q25 48 50 45 T100 45" stroke="#a07d4a" stroke-width="1" fill="none" opacity="0.5"/>
+      <path d="M0 70 Q25 68 50 70 T100 70" stroke="#a07d4a" stroke-width="1" fill="none" opacity="0.5"/>
+    </pattern>
+    
+    <radialGradient id="soupGradient" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8864f;stop-opacity:1" />
+    </radialGradient>
+    
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+    </filter>
+  </defs>
+  
+  <!-- Blue paint mark -->
+  <ellipse cx="730" cy="100" rx="8" ry="15" fill="#4a7ba7" opacity="0.7"/>
+  
+  <!-- Bowl outer rim -->
+  <ellipse cx="350" cy="320" rx="280" ry="270" fill="#2a2520"/>
+  
+  <!-- Bowl inner darker edge -->
+  <ellipse cx="350" cy="320" rx="260" ry="250" fill="#1a1510"/>
+  
+  <!-- Soup surface -->
+  <ellipse cx="350" cy="310" rx="250" ry="240" fill="url(#soupGradient)"/>
+  
+  <!-- Darker soup areas for depth -->
+  <ellipse cx="320" cy="280" rx="80" ry="60" fill="#a67542" opacity="0.6"/>
+  <ellipse cx="400" cy="340" rx="70" ry="55" fill="#a67542" opacity="0.5"/>
+  
+  <!-- Mushroom pieces -->
+  <ellipse cx="280" cy="240" rx="35" ry="28" fill="#8d7560" opacity="0.9"/>
+  <ellipse cx="310" cy="245" rx="28" ry="22" fill="#a08874" opacity="0.85"/>
+  <ellipse cx="380" cy="270" rx="32" ry="25" fill="#9d8367" opacity="0.9"/>
+  <ellipse cx="420" cy="310" rx="38" ry="30" fill="#8d7560" opacity="0.88"/>
+  <ellipse cx="300" cy="350" rx="30" ry="24" fill="#a08874" opacity="0.87"/>
+  <ellipse cx="350" cy="380" rx="35" ry="28" fill="#9d8367" opacity="0.9"/>
+  <ellipse cx="400" cy="360" rx="28" ry="22" fill="#8d7560" opacity="0.86"/>
+  
+  <!-- Mushroom highlights -->
+  <ellipse cx="285" cy="235" rx="12" ry="9" fill="#b89d88" opacity="0.6"/>
+  <ellipse cx="385" cy="267" rx="10" ry="7" fill="#b89d88" opacity="0.5"/>
+  <ellipse cx="353" cy="377" rx="11" ry="8" fill="#b89d88" opacity="0.6"/>
+  
+  <!-- Potato/vegetable chunks -->
+  <ellipse cx="340" cy="300" rx="30" ry="28" fill="#d9c4a0" opacity="0.95"/>
+  <ellipse cx="370" cy="320" rx="28" ry="26" fill="#e3d1b5" opacity="0.92"/>
+  <ellipse cx="320" cy="330" rx="25" ry="24" fill="#d9c4a0" opacity="0.93"/>
+  
+  <!-- Potato highlights -->
+  <ellipse cx="345" cy="295" rx="10" ry="9" fill="#f0e6d8" opacity="0.7"/>
+  <ellipse cx="373" cy="315" rx="9" ry="8" fill="#f0e6d8" opacity="0.6"/>
+  
+  <!-- Herb pieces (parsley/cilantro) -->
+  <path d="M 360 260 Q 365 255 370 260 L 368 265 Z" fill="#3d6b3d" opacity="0.8"/>
+  <path d="M 420 340 Q 423 335 428 338 L 425 343 Z" fill="#4a7d4a" opacity="0.8"/>
+  <path d="M 300 320 Q 303 318 306 322 L 303 325 Z" fill="#3d6b3d" opacity="0.75"/>
+  <path d="M 385 395 Q 388 392 391 396 L 388 400 Z" fill="#4a7d4a" opacity="0.8"/>
+  <path d="M 260 270 Q 263 267 266 270 L 263 274 Z" fill="#3d6b3d" opacity="0.75"/>
+  <ellipse cx="340" cy="360" rx="4" ry="6" fill="#4a7d4a" opacity="0.7"/>
+  <ellipse cx="280" cy="300" rx="3" ry="5" fill="#3d6b3d" opacity="0.7"/>
+  
+  <!-- Black pepper specks -->
+  <circle cx="330" cy="290" r="1.5" fill="#1a1a1a"/>
+  <circle cx="365" cy="305" r="1.2" fill="#1a1a1a"/>
+  <circle cx="390" cy="335" r="1.3" fill="#1a1a1a"/>
+  <circle cx="310" cy="340" r="1.4" fill="#1a1a1a"/>
+  <circle cx="350" cy="370" r="1.3" fill="#1a1a1a"/>
+  <circle cx="285" cy="260" r="1.2" fill="#1a1a1a"/>
+  <circle cx="410" cy="295" r="1.4" fill="#1a1a1a"/>
+  <circle cx="340" cy="320" r="1.3" fill="#1a1a1a"/>
+  <circle cx="375" cy="350" r="1.2" fill="#1a1a1a"/>
+  
+  <!-- Soup highlights and reflections -->
+  <ellipse cx="290" cy="250" rx="40" ry="30" fill="#f5d9a8" opacity="0.25"/>
+  <ellipse cx="380" cy="290" rx="45" ry="35" fill="#f5d9a8" opacity="0.2"/>
+  <ellipse cx="320" cy="360" rx="35" ry="28" fill="#f5d9a8" opacity="0.18"/>
+  
+  <!-- Spoon handle on right side -->
+  <ellipse cx="680" cy="320" rx="35" ry="140" fill="#3a3330" opacity="0.9"/>
+  <ellipse cx="680" cy="320" rx="25" ry="130" fill="#4d4440" opacity="0.8"/>
+</svg>

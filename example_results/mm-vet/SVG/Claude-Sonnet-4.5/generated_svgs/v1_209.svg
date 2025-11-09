@@ -1,0 +1,83 @@
+<svg viewBox="0 0 900 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="450" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Global water use by sector</text>
+  
+  <!-- Graph axes -->
+  <line x1="80" y1="320" x2="80" y2="80" stroke="#000" stroke-width="2"/>
+  <line x1="80" y1="320" x2="780" y2="320" stroke="#000" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="40" y="325" font-size="14" text-anchor="end" fill="#333">0</text>
+  <text x="40" y="240" font-size="14" text-anchor="end" fill="#333">1,000</text>
+  <text x="40" y="155" font-size="14" text-anchor="end" fill="#333">2,000</text>
+  <text x="40" y="85" font-size="14" text-anchor="end" fill="#333">3,000</text>
+  
+  <!-- Y-axis label -->
+  <text x="25" y="200" font-size="14" text-anchor="middle" fill="#333" transform="rotate(-90 25 200)">km³</text>
+  
+  <!-- X-axis labels -->
+  <text x="80" y="345" font-size="14" text-anchor="middle" fill="#333">1900</text>
+  <text x="150" y="345" font-size="14" text-anchor="middle" fill="#333">1910</text>
+  <text x="220" y="345" font-size="14" text-anchor="middle" fill="#333">1920</text>
+  <text x="290" y="345" font-size="14" text-anchor="middle" fill="#333">1930</text>
+  <text x="360" y="345" font-size="14" text-anchor="middle" fill="#333">1940</text>
+  <text x="430" y="345" font-size="14" text-anchor="middle" fill="#333">1950</text>
+  <text x="500" y="345" font-size="14" text-anchor="middle" fill="#333">1960</text>
+  <text x="570" y="345" font-size="14" text-anchor="middle" fill="#333">1970</text>
+  <text x="640" y="345" font-size="14" text-anchor="middle" fill="#333">1980</text>
+  <text x="710" y="345" font-size="14" text-anchor="middle" fill="#333">1990</text>
+  <text x="780" y="345" font-size="14" text-anchor="middle" fill="#333">2000</text>
+  
+  <!-- Agriculture line (dashed) -->
+  <path d="M 80,290 L 150,280 L 220,265 L 290,245 L 360,220 L 430,185 L 500,145 L 570,110 L 640,80 L 710,65 L 780,90" 
+        stroke="#333" stroke-width="2" fill="none" stroke-dasharray="8,4"/>
+  <text x="795" y="95" font-size="14" fill="#333">Agriculture</text>
+  
+  <!-- Industrial use line (dashed) -->
+  <path d="M 80,315 L 150,313 L 220,310 L 290,305 L 360,297 L 430,285 L 500,268 L 570,240 L 640,205 L 710,165 L 780,135" 
+        stroke="#333" stroke-width="2" fill="none" stroke-dasharray="8,4"/>
+  <text x="795" y="140" font-size="14" fill="#333">Industrial use</text>
+  
+  <!-- Domestic use line (dashed) -->
+  <path d="M 80,318 L 150,317 L 220,316 L 290,314 L 360,311 L 430,307 L 500,301 L 570,293 L 640,280 L 710,265 L 780,245" 
+        stroke="#333" stroke-width="2" fill="none" stroke-dasharray="8,4"/>
+  <text x="795" y="250" font-size="14" fill="#333">Domestic use</text>
+  
+  <!-- Second chart title -->
+  <text x="450" y="400" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c5282">Water consumption in Brazil and Congo in 2000</text>
+  
+  <!-- Table -->
+  <rect x="150" y="430" width="600" height="60" fill="#d3d3d3" stroke="#000" stroke-width="2"/>
+  <rect x="150" y="490" width="600" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+  <rect x="150" y="560" width="600" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+  
+  <!-- Table vertical lines -->
+  <line x1="300" y1="430" x2="300" y2="630" stroke="#000" stroke-width="2"/>
+  <line x1="450" y1="430" x2="450" y2="630" stroke="#000" stroke-width="2"/>
+  <line x1="600" y1="430" x2="600" y2="630" stroke="#000" stroke-width="2"/>
+  
+  <!-- Table horizontal lines -->
+  <line x1="150" y1="490" x2="750" y2="490" stroke="#000" stroke-width="2"/>
+  <line x1="150" y1="560" x2="750" y2="560" stroke="#000" stroke-width="2"/>
+  
+  <!-- Table headers -->
+  <text x="225" y="465" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Country</text>
+  <text x="375" y="465" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Population</text>
+  <text x="525" y="465" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Irrigated land</text>
+  <text x="675" y="455" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Water consumption per</text>
+  <text x="675" y="475" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">person</text>
+  
+  <!-- Brazil row -->
+  <text x="225" y="530" font-size="15" text-anchor="middle" fill="#000">Brazil</text>
+  <text x="375" y="530" font-size="15" text-anchor="middle" fill="#000">176 million</text>
+  <text x="525" y="530" font-size="15" text-anchor="middle" fill="#000">26,500 km²</text>
+  <text x="675" y="530" font-size="15" text-anchor="middle" fill="#000">359 m³</text>
+  
+  <!-- Congo row -->
+  <text x="225" y="585" font-size="15" text-anchor="middle" fill="#000">Democratic</text>
+  <text x="225" y="605" font-size="15" text-anchor="middle" fill="#000">Republic</text>
+  <text x="225" y="625" font-size="15" text-anchor="middle" fill="#000">of Congo</text>
+  <text x="375" y="600" font-size="15" text-anchor="middle" fill="#000">5.2 million</text>
+  <text x="525" y="600" font-size="15" text-anchor="middle" fill="#000">100 km²</text>
+  <text x="675" y="600" font-size="15" text-anchor="middle" fill="#000">8 m³</text>
+</svg>

@@ -1,0 +1,120 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0c0c0;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="faceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4b89c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="1000" fill="url(#bgGrad)"/>
+  
+  <!-- Engraving texture lines -->
+  <g opacity="0.15">
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#000" stroke-width="0.5"/>
+    <line x1="0" y1="410" x2="800" y2="410" stroke="#000" stroke-width="0.5"/>
+    <line x1="0" y1="420" x2="800" y2="420" stroke="#000" stroke-width="0.5"/>
+    <line x1="0" y1="430" x2="800" y2="430" stroke="#000" stroke-width="0.5"/>
+    <line x1="0" y1="440" x2="800" y2="440" stroke="#000" stroke-width="0.5"/>
+    <line x1="0" y1="450" x2="800" y2="450" stroke="#000" stroke-width="0.5"/>
+    <line x1="0" y1="460" x2="800" y2="460" stroke="#000" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Coat/Jacket -->
+  <path d="M200 650 Q180 550 200 500 L250 520 Q300 450 400 450 Q500 450 550 520 L600 500 Q620 550 600 650 L550 800 Q500 850 400 850 Q300 850 250 800 Z" fill="#2a2a2a" stroke="#000" stroke-width="2"/>
+  
+  <!-- Shoulders and coat details -->
+  <ellipse cx="280" cy="580" rx="60" ry="80" fill="#1a1a1a" opacity="0.7"/>
+  <ellipse cx="520" cy="580" rx="60" ry="80" fill="#1a1a1a" opacity="0.7"/>
+  
+  <!-- White cravat/neckerchief -->
+  <path d="M350 480 Q400 500 450 480 L440 550 Q400 560 360 550 Z" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/>
+  <path d="M360 500 Q400 520 440 500" fill="none" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Neck -->
+  <ellipse cx="400" cy="430" rx="35" ry="50" fill="url(#faceGrad)"/>
+  
+  <!-- Face -->
+  <ellipse cx="400" cy="320" rx="90" ry="110" fill="url(#faceGrad)" stroke="#8b7355" stroke-width="1.5"/>
+  
+  <!-- Facial shadows -->
+  <path d="M320 320 Q320 360 340 380" fill="none" stroke="#c4a57b" stroke-width="2" opacity="0.5"/>
+  <path d="M480 320 Q480 360 460 380" fill="none" stroke="#c4a57b" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="365" cy="310" rx="18" ry="22" fill="#fff" stroke="#000" stroke-width="1"/>
+  <ellipse cx="435" cy="310" rx="18" ry="22" fill="#fff" stroke="#000" stroke-width="1"/>
+  <circle cx="365" cy="312" r="10" fill="#2c1810"/>
+  <circle cx="435" cy="312" r="10" fill="#2c1810"/>
+  <circle cx="368" cy="308" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="438" cy="308" r="4" fill="#fff" opacity="0.8"/>
+  
+  <!-- Eyebrows -->
+  <path d="M345 290 Q360 285 380 288" fill="none" stroke="#4a3728" stroke-width="3" stroke-linecap="round"/>
+  <path d="M420 288 Q440 285 455 290" fill="none" stroke="#4a3728" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M400 310 L395 350 Q400 355 405 350 Z" fill="#d4b89c" stroke="#b8956f" stroke-width="1"/>
+  <ellipse cx="390" cy="352" rx="4" ry="5" fill="#b8956f" opacity="0.6"/>
+  <ellipse cx="410" cy="352" rx="4" ry="5" fill="#b8956f" opacity="0.6"/>
+  
+  <!-- Mouth -->
+  <path d="M375 375 Q400 382 425 375" fill="none" stroke="#8b6f5f" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M380 378 Q400 383 420 378" fill="none" stroke="#6b4f3f" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Large curly wig - left side -->
+  <ellipse cx="300" cy="200" rx="50" ry="55" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="280" cy="250" rx="45" ry="50" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="270" cy="300" rx="42" ry="48" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="265" cy="350" rx="40" ry="45" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="260" cy="400" rx="38" ry="42" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="258" cy="450" rx="35" ry="40" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  
+  <!-- Large curly wig - right side -->
+  <ellipse cx="500" cy="200" rx="50" ry="55" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="520" cy="250" rx="45" ry="50" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="530" cy="300" rx="42" ry="48" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="535" cy="350" rx="40" ry="45" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="540" cy="400" rx="38" ry="42" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="542" cy="450" rx="35" ry="40" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  
+  <!-- Additional curls for volume -->
+  <ellipse cx="250" cy="220" rx="35" ry="40" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1"/>
+  <ellipse cx="240" cy="270" rx="32" ry="38" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1"/>
+  <ellipse cx="235" cy="320" rx="30" ry="35" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1"/>
+  
+  <ellipse cx="550" cy="220" rx="35" ry="40" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1"/>
+  <ellipse cx="560" cy="270" rx="32" ry="38" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1"/>
+  <ellipse cx="565" cy="320" rx="30" ry="35" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1"/>
+  
+  <!-- Wig top and forehead coverage -->
+  <ellipse cx="400" cy="180" rx="100" ry="65" fill="#a8a8a8" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="380" cy="160" rx="80" ry="50" fill="#b0b0b0" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="420" cy="160" rx="80" ry="50" fill="#b0b0b0" stroke="#6a6a6a" stroke-width="1.5"/>
+  
+  <!-- Curl details with spiral lines -->
+  <g fill="none" stroke="#6a6a6a" stroke-width="1.2" opacity="0.7">
+    <path d="M300 200 Q295 205 295 210 Q295 215 300 220"/>
+    <path d="M280 250 Q275 255 275 260 Q275 265 280 270"/>
+    <path d="M270 300 Q265 305 265 310 Q265 315 270 320"/>
+    
+    <path d="M500 200 Q505 205 505 210 Q505 215 500 220"/>
+    <path d="M520 250 Q525 255 525 260 Q525 265 520 270"/>
+    <path d="M530 300 Q535 305 535 310 Q535 315 530 320"/>
+  </g>
+  
+  <!-- Coat buttons -->
+  <circle cx="400" cy="560" r="6" fill="#3a3a3a" stroke="#000" stroke-width="1"/>
+  <circle cx="400" cy="600" r="6" fill="#3a3a3a" stroke="#000" stroke-width="1"/>
+  <circle cx="400" cy="640" r="6" fill="#3a3a3a" stroke="#000" stroke-width="1"/>
+  
+  <!-- Final engraving effect overlay -->
+  <g opacity="0.08">
+    <path d="M200 500 Q400 480 600 500" fill="none" stroke="#000" stroke-width="0.5"/>
+    <path d="M220 520 Q400 500 580 520" fill="none" stroke="#000" stroke-width="0.5"/>
+    <path d="M240 540 Q400 520 560 540" fill="none" stroke="#000" stroke-width="0.5"/>
+  </g>
+</svg>

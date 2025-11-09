@@ -1,0 +1,115 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background wall -->
+  <rect width="1400" height="900" fill="#f5f0e8"/>
+  
+  <!-- Desk surface -->
+  <rect x="0" y="650" width="1400" height="250" fill="#e8dcc8"/>
+  
+  <!-- Cardboard box left -->
+  <path d="M 50 400 L 280 400 L 280 680 L 50 680 Z" fill="#d4a574" stroke="#b08858" stroke-width="2"/>
+  <path d="M 50 400 L 165 350 L 395 350 L 280 400 Z" fill="#c99d6a"/>
+  <rect x="60" y="410" width="210" height="260" fill="#c99d6a"/>
+  
+  <!-- Pizza box bottom -->
+  <rect x="850" y="680" width="280" height="40" fill="#d4a574" stroke="#8b6f47" stroke-width="2"/>
+  <path d="M 850 680 L 830 670 L 1110 670 L 1130 680 Z" fill="#c99d6a"/>
+  <text x="950" y="705" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">regalpan.ro</text>
+  
+  <!-- Pizza box with pizza -->
+  <rect x="100" y="550" width="350" height="40" fill="#d4a574" stroke="#8b6f47" stroke-width="2"/>
+  <path d="M 100 550 L 80 540 L 430 540 L 450 550 Z" fill="#e8c89a"/>
+  
+  <!-- Pizza -->
+  <ellipse cx="275" cy="570" rx="160" ry="155" fill="#f4a460"/>
+  <ellipse cx="275" cy="570" rx="150" ry="145" fill="#ffd700"/>
+  
+  <!-- Pizza toppings - pepperoni -->
+  <circle cx="220" cy="520" r="12" fill="#8b0000"/>
+  <circle cx="300" cy="530" r="12" fill="#8b0000"/>
+  <circle cx="250" cy="570" r="12" fill="#8b0000"/>
+  <circle cx="320" cy="580" r="12" fill="#8b0000"/>
+  <circle cx="200" cy="600" r="12" fill="#8b0000"/>
+  <circle cx="280" cy="610" r="12" fill="#8b0000"/>
+  <circle cx="350" cy="560" r="12" fill="#8b0000"/>
+  
+  <!-- Pizza toppings - black olives -->
+  <circle cx="240" cy="540" r="8" fill="#1a1a1a"/>
+  <circle cx="310" cy="550" r="8" fill="#1a1a1a"/>
+  <circle cx="190" cy="570" r="8" fill="#1a1a1a"/>
+  <circle cx="270" cy="590" r="8" fill="#1a1a1a"/>
+  <circle cx="330" cy="600" r="8" fill="#1a1a1a"/>
+  <circle cx="220" cy="610" r="8" fill="#1a1a1a"/>
+  <circle cx="340" cy="540" r="8" fill="#1a1a1a"/>
+  <circle cx="260" cy="620" r="8" fill="#1a1a1a"/>
+  
+  <!-- Pizza toppings - green peppers -->
+  <ellipse cx="210" cy="550" rx="10" ry="6" fill="#90ee90" transform="rotate(30 210 550)"/>
+  <ellipse cx="290" cy="560" rx="10" ry="6" fill="#90ee90" transform="rotate(-20 290 560)"/>
+  <ellipse cx="230" cy="590" rx="10" ry="6" fill="#90ee90" transform="rotate(45 230 590)"/>
+  <ellipse cx="310" cy="610" rx="10" ry="6" fill="#90ee90" transform="rotate(-30 310 610)"/>
+  
+  <!-- Laptop -->
+  <rect x="500" y="400" width="280" height="200" fill="#4a4a4a" rx="5"/>
+  <rect x="510" y="410" width="260" height="180" fill="#87ceeb"/>
+  <!-- Laptop screen content -->
+  <rect x="520" y="420" width="80" height="150" fill="#ffffff" opacity="0.7"/>
+  <line x1="540" y1="440" x2="580" y2="440" stroke="#cccccc" stroke-width="2"/>
+  <line x1="540" y1="460" x2="580" y2="460" stroke="#cccccc" stroke-width="2"/>
+  <line x1="540" y1="480" x2="580" y2="480" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- Laptop base -->
+  <path d="M 480 600 L 800 600 L 820 650 L 460 650 Z" fill="#333333"/>
+  <rect x="490" y="610" width="300" height="30" fill="#2a2a2a" rx="3"/>
+  
+  <!-- Coca-Cola can left -->
+  <rect x="470" y="580" width="50" height="70" fill="#e30613" rx="5"/>
+  <ellipse cx="495" cy="580" rx="25" ry="8" fill="#ff1a2a"/>
+  <path d="M 480 600 Q 495 605 510 600" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <text x="478" y="625" font-family="Brush Script MT, cursive" font-size="16" fill="#ffffff" font-weight="bold">Coke</text>
+  
+  <!-- Coca-Cola can right -->
+  <rect x="870" y="580" width="50" height="70" fill="#e30613" rx="5"/>
+  <ellipse cx="895" cy="580" rx="25" ry="8" fill="#ff1a2a"/>
+  <path d="M 880 600 Q 895 605 910 600" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <text x="878" y="625" font-family="Brush Script MT, cursive" font-size="16" fill="#ffffff" font-weight="bold">Coke</text>
+  
+  <!-- Pink card/photo -->
+  <rect x="780" y="250" width="100" height="120" fill="#ff69b4"/>
+  <rect x="790" y="270" width="80" height="60" fill="#ffb6c1"/>
+  
+  <!-- Plant pot left (black) -->
+  <ellipse cx="950" cy="680" rx="35" ry="15" fill="#1a1a1a"/>
+  <path d="M 915 680 Q 915 650 950 620 Q 985 650 985 680" fill="#2a2a2a"/>
+  
+  <!-- Plant stems and leaves -->
+  <line x1="950" y1="620" x2="950" y2="400" stroke="#4a7c4e" stroke-width="4"/>
+  <ellipse cx="930" cy="450" rx="15" ry="30" fill="#90ee90" transform="rotate(-30 930 450)"/>
+  <ellipse cx="970" cy="470" rx="15" ry="30" fill="#7cb47c" transform="rotate(30 970 470)"/>
+  
+  <!-- Flowers on plant -->
+  <circle cx="940" cy="380" r="8" fill="#ffb347"/>
+  <circle cx="935" cy="373" r="6" fill="#ffd700"/>
+  <circle cx="945" cy="373" r="6" fill="#ff6b6b"/>
+  <circle cx="940" cy="368" r="5" fill="#ffa07a"/>
+  
+  <!-- Plant pot right -->
+  <ellipse cx="1250" cy="680" rx="40" ry="15" fill="#2d5016"/>
+  <path d="M 1210 680 Q 1210 650 1250 610 Q 1290 650 1290 680" fill="#3a6b1f"/>
+  
+  <!-- Plant leaves right -->
+  <line x1="1250" y1="610" x2="1250" y2="400" stroke="#2d5016" stroke-width="5"/>
+  <ellipse cx="1220" cy="500" rx="18" ry="40" fill="#228b22" transform="rotate(-25 1220 500)"/>
+  <ellipse cx="1280" cy="520" rx="18" ry="40" fill="#2e7d32" transform="rotate(25 1280 520)"/>
+  <ellipse cx="1230" cy="450" rx="16" ry="35" fill="#1b5e20" transform="rotate(-35 1230 450)"/>
+  <ellipse cx="1270" cy="470" rx="16" ry="35" fill="#33691e" transform="rotate(35 1270 470)"/>
+  
+  <!-- Notebook -->
+  <rect x="1050" y="620" width="120" height="150" fill="#ffffff" stroke="#cccccc" stroke-width="2"/>
+  <line x1="1070" y1="650" x2="1150" y2="650" stroke="#ff6b6b" stroke-width="2"/>
+  <line x1="1070" y1="680" x2="1150" y2="680" stroke="#ff6b6b" stroke-width="2"/>
+  <line x1="1070" y1="710" x2="1150" y2="710" stroke="#ff6b6b" stroke-width="2"/>
+  
+  <!-- Pen -->
+  <rect x="1140" y="640" width="8" height="80" fill="#1a1a1a" transform="rotate(15 1144 680)"/>
+  <path d="M 1142 718 L 1144 728 L 1146 718 Z" fill="#ffd700" transform="rotate(15 1144 723)"/>
+</svg>

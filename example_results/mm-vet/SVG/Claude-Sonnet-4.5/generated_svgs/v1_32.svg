@@ -1,0 +1,188 @@
+<svg viewBox="0 0 1094 1092" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangles for each panel -->
+  <rect x="0" y="0" width="358" height="358" fill="#f5ebe5"/>
+  <rect x="358" y="0" width="368" height="358" fill="#f0e6e0"/>
+  <rect x="726" y="0" width="368" height="358" fill="#f5ebe5"/>
+  <rect x="0" y="358" width="358" height="376" fill="#f0e6e0"/>
+  <rect x="358" y="358" width="368" height="376" fill="#f5ebe5"/>
+  <rect x="726" y="358" width="368" height="376" fill="#f0e6e0"/>
+  <rect x="0" y="734" width="358" height="358" fill="#f5ebe5"/>
+  <rect x="358" y="734" width="368" height="358" fill="#f0e6e0"/>
+  <rect x="726" y="734" width="368" height="358" fill="#f5ebe5"/>
+  
+  <!-- Panel 1: Mixing ingredients -->
+  <!-- Bowl -->
+  <ellipse cx="179" cy="200" rx="95" ry="85" fill="#a8c5d9"/>
+  <ellipse cx="179" cy="195" rx="85" ry="75" fill="#d4d4d4"/>
+  
+  <!-- Whisk -->
+  <rect x="155" y="80" width="8" height="60" fill="#c4655f" rx="4"/>
+  <line x1="151" y1="135" x2="145" y2="155" stroke="#8b4a45" stroke-width="3"/>
+  <line x1="159" y1="135" x2="159" y2="155" stroke="#8b4a45" stroke-width="3"/>
+  <line x1="167" y1="135" x2="173" y2="155" stroke="#8b4a45" stroke-width="3"/>
+  
+  <!-- Water bottle -->
+  <path d="M 60 90 L 65 85 L 75 85 L 80 90 L 75 150 L 65 150 Z" fill="#a8c5d9"/>
+  <rect x="67" y="85" width="6" height="8" fill="#6b99b8"/>
+  
+  <!-- Sugar -->
+  <ellipse cx="290" cy="85" rx="35" ry="25" fill="#a8c5d9" transform="rotate(-15 290 85)"/>
+  
+  <!-- Yeast packet -->
+  <rect x="135" y="55" width="12" height="35" fill="#c4655f" rx="2"/>
+  
+  <!-- Text -->
+  <text x="40" y="65" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">WATER</text>
+  <text x="130" y="50" font-family="Arial, sans-serif" font-size="16" fill="#8b6f47" font-weight="bold">YEAST</text>
+  <text x="260" y="75" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">SUGAR</text>
+  
+  <!-- Panel 2: Adding ingredients -->
+  <!-- Bowl -->
+  <ellipse cx="542" cy="200" rx="95" ry="85" fill="#a8c5d9"/>
+  <ellipse cx="542" cy="195" rx="85" ry="75" fill="#e8e8e8"/>
+  
+  <!-- Flour being sifted -->
+  <ellipse cx="570" cy="85" rx="40" ry="30" fill="#d4d4d4" transform="rotate(15 570 85)"/>
+  <circle cx="555" cy="110" r="2" fill="#d4d4d4"/>
+  <circle cx="565" cy="115" r="2" fill="#d4d4d4"/>
+  <circle cx="575" cy="112" r="2" fill="#d4d4d4"/>
+  <circle cx="560" cy="125" r="2" fill="#d4d4d4"/>
+  
+  <!-- Sifter -->
+  <rect x="545" y="65" width="50" height="25" fill="none" stroke="#a8c5d9" stroke-width="3" rx="5"/>
+  <line x1="550" y1="75" x2="590" y2="75" stroke="#a8c5d9" stroke-width="2"/>
+  <line x1="550" y1="80" x2="590" y2="80" stroke="#a8c5d9" stroke-width="2"/>
+  <rect x="595" y="70" width="35" height="8" fill="#a8c5d9" rx="4"/>
+  
+  <!-- Oil being poured -->
+  <ellipse cx="450" cy="125" rx="15" ry="20" fill="#e6c84d"/>
+  <path d="M 445 115 Q 440 100 438 85" stroke="#e6c84d" stroke-width="6" fill="none"/>
+  <ellipse cx="438" cy="80" rx="10" ry="8" fill="#e6c84d"/>
+  
+  <!-- Text -->
+  <text x="505" y="65" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">SALT+</text>
+  <text x="555" y="85" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">FLOUR</text>
+  <text x="405" y="155" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">OIL</text>
+  
+  <!-- Panel 3: Kneading dough -->
+  <!-- Dough -->
+  <ellipse cx="910" cy="180" rx="80" ry="70" fill="#f4d4b0"/>
+  
+  <!-- Hands -->
+  <ellipse cx="890" cy="140" rx="35" ry="45" fill="#e8a86d" transform="rotate(-20 890 140)"/>
+  <rect x="870" y="105" width="40" height="25" fill="#e8a86d" transform="rotate(-20 890 117)"/>
+  
+  <ellipse cx="950" cy="160" rx="35" ry="45" fill="#e8a86d" transform="rotate(25 950 160)"/>
+  <rect x="940" y="125" width="40" height="25" fill="#e8a86d" transform="rotate(25 960 137)"/>
+  
+  <!-- Fingers -->
+  <rect x="965" y="85" width="12" height="35" fill="#e8a86d" rx="6" transform="rotate(15 971 102)"/>
+  <rect x="980" y="75" width="12" height="35" fill="#e8a86d" rx="6" transform="rotate(20 986 92)"/>
+  <rect x="995" y="70" width="12" height="35" fill="#e8a86d" rx="6" transform="rotate(25 1001 87)"/>
+  
+  <!-- Text -->
+  <text x="745" y="120" font-family="Arial, sans-serif" font-size="20" fill="#8b6f47" font-weight="bold">KNEAD</text>
+  <text x="745" y="145" font-family="Arial, sans-serif" font-size="20" fill="#8b6f47" font-weight="bold">DOUGH</text>
+  
+  <!-- Panel 4: Rising in warm place -->
+  <!-- Bowl with cover -->
+  <ellipse cx="179" cy="580" rx="80" ry="50" fill="#c4655f"/>
+  <ellipse cx="179" cy="570" rx="70" ry="45" fill="#a84d47"/>
+  
+  <!-- Dough rising -->
+  <ellipse cx="165" cy="540" rx="35" ry="30" fill="#f4d4b0"/>
+  <ellipse cx="195" cy="540" rx="30" ry="28" fill="#f4d4b0"/>
+  <ellipse cx="180" cy="525" rx="32" ry="25" fill="#f4d4b0"/>
+  
+  <!-- Clock symbol -->
+  <circle cx="145" cy="485" r="20" fill="none" stroke="#8b6f47" stroke-width="3"/>
+  <text x="135" y="495" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">1h</text>
+  
+  <!-- Text -->
+  <text x="100" y="640" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">PUT IN WARM</text>
+  <text x="145" y="665" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">PLACE</text>
+  
+  <!-- Panel 5: Center title -->
+  <text x="380" y="530" font-family="Arial, sans-serif" font-size="68" fill="#8b6f47" font-weight="bold">MAKING</text>
+  <text x="405" y="610" font-family="Arial, sans-serif" font-size="68" fill="#8b6f47" font-weight="bold">BREAD</text>
+  <text x="465" y="655" font-family="Arial, sans-serif" font-size="32" fill="#c4655f" font-weight="bold">at home</text>
+  
+  <!-- Panel 6: Divide dough -->
+  <!-- Large dough piece -->
+  <ellipse cx="910" cy="570" rx="70" ry="65" fill="#f4d4b0"/>
+  <ellipse cx="895" cy="555" rx="25" ry="20" fill="#f4d4b0"/>
+  <ellipse cx="925" cy="555" rx="30" ry="22" fill="#f4d4b0"/>
+  
+  <!-- Small dough pieces -->
+  <ellipse cx="960" cy="630" rx="35" ry="30" fill="#f4d4b0"/>
+  <ellipse cx="1010" cy="625" rx="25" ry="22" fill="#f4d4b0"/>
+  
+  <!-- Knife -->
+  <rect x="1010" y="505" width="35" height="8" fill="#c4655f" rx="4"/>
+  <path d="M 1010 509 L 970 509 L 965 505 L 965 513 L 970 509 Z" fill="#a8c5d9"/>
+  <circle cx="1020" cy="509" r="4" fill="#c44747"/>
+  
+  <!-- Text -->
+  <text x="823" y="450" font-family="Arial, sans-serif" font-size="20" fill="#8b6f47" font-weight="bold">DIVIDE DOUGH</text>
+  <text x="823" y="475" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47">...</text>
+  <text x="785" y="645" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-style="italic">INTO</text>
+  <text x="785" y="670" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">PIECES</text>
+  
+  <!-- Panel 7: Press and flatten -->
+  <!-- Dough being rolled -->
+  <ellipse cx="179" cy="950" rx="65" ry="70" fill="#f4d4b0" transform="rotate(-10 179 950)"/>
+  
+  <!-- Rolling pin -->
+  <rect x="140" y="870" width="80" height="18" fill="#d4a574" rx="9" transform="rotate(-25 180 879)"/>
+  <ellipse cx="135" cy="865" rx="8" ry="10" fill="#b8895e" transform="rotate(-25 135 865)"/>
+  <ellipse cx="225" cy="893" rx="8" ry="10" fill="#b8895e" transform="rotate(-25 225 893)"/>
+  
+  <!-- Text -->
+  <text x="20" y="775" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">PRESS EACH</text>
+  <text x="20" y="800" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">PIECE</text>
+  <text x="20" y="825" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47">...</text>
+  <text x="65" y="1065" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47">...</text>
+  <text x="65" y="1085" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-style="italic">INTO</text>
+  <text x="120" y="1085" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">A FLAT DISK</text>
+  
+  <!-- Panel 8: Baking -->
+  <!-- Baking tray -->
+  <rect x="400" y="850" width="280" height="180" fill="#6b99b8" rx="15"/>
+  
+  <!-- Dough pieces on tray -->
+  <ellipse cx="470" cy="920" rx="42" ry="38" fill="#f4d4b0"/>
+  <ellipse cx="542" cy="920" rx="42" ry="38" fill="#f4d4b0"/>
+  <ellipse cx="614" cy="920" rx="42" ry="38" fill="#f4d4b0"/>
+  <ellipse cx="470" cy="990" rx="42" ry="38" fill="#f4d4b0"/>
+  <ellipse cx="542" cy="990" rx="42" ry="38" fill="#f4d4b0"/>
+  <ellipse cx="614" cy="990" rx="42" ry="38" fill="#f4d4b0"/>
+  
+  <!-- Temperature indicator -->
+  <text x="580" y="800" font-family="Arial, sans-serif" font-size="48" fill="#e8694d" font-weight="bold">C°</text>
+  <circle cx="535" cy="810" r="8" fill="#e8e8e8"/>
+  
+  <!-- Text -->
+  <text x="440" y="1060" font-family="Arial, sans-serif" font-size="18" fill="#8b6f47" font-weight="bold">BAKE ON EACH SIDE</text>
+  
+  <!-- Panel 9: Finished bread -->
+  <!-- Baked bread -->
+  <ellipse cx="910" cy="950" rx="85" ry="75" fill="#d4a574"/>
+  <ellipse cx="890" cy="935" rx="40" ry="35" fill="#c4955e"/>
+  <ellipse cx="920" cy="945" rx="35" ry="30" fill="#c4955e"/>
+  <ellipse cx="935" cy="960" rx="25" ry="22" fill="#c4955e"/>
+  <ellipse cx="880" cy="960" rx="28" ry="25" fill="#c4955e"/>
+  
+  <!-- Spots on bread -->
+  <ellipse cx="895" cy="925" rx="8" ry="6" fill="#b8895e"/>
+  <ellipse cx="915" cy="930" rx="6" ry="5" fill="#b8895e"/>
+  <ellipse cx="930" cy="940" rx="7" ry="6" fill="#b8895e"/>
+  <ellipse cx="870" cy="950" rx="9" ry="7" fill="#b8895e"/>
+  <ellipse cx="920" cy="970" rx="8" ry="6" fill="#b8895e"/>
+  
+  <!-- Bread slice -->
+  <path d="M 975 920 Q 1000 920 1010 935 Q 1015 950 1010 965 Q 1000 980 975 980 L 975 920" fill="#d4a574"/>
+  <ellipse cx="993" cy="950" rx="15" ry="25" fill="#f4e6d0"/>
+  
+  <!-- Text -->
+  <text x="815" y="1060" font-family="Arial, sans-serif" font-size="20" fill="#8b6f47" font-weight="bold">WELL DONE</text>
+</svg>

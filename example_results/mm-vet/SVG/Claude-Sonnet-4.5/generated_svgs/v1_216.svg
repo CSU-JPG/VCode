@@ -1,0 +1,100 @@
+<svg viewBox="0 0 550 520" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arrow definitions -->
+  <defs>
+    <!-- Arrow for north indicator -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+
+    <!-- Arrow for nearby towns -->
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- Countryside background -->
+  <rect x="10" y="10" width="490" height="480" fill="#f5f5f5"/>
+  
+  <!-- Main boundary outline -->
+  <path d="M 80 170 Q 60 200 50 250 Q 45 300 60 350 Q 80 400 120 430 L 200 460 L 350 460 Q 400 440 440 400 Q 470 360 480 300 Q 485 240 460 190 Q 430 150 380 140 L 250 130 Q 180 140 130 160 Z" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Railway line (dashed) -->
+  <path d="M 80 170 Q 100 200 130 220" 
+        fill="none" stroke="black" stroke-width="2" stroke-dasharray="8,5"/>
+  
+  <!-- Housing area (dark brown/maroon) -->
+  <path d="M 140 200 Q 180 190 250 200 Q 320 210 380 220 Q 420 240 440 280 Q 450 320 430 360 Q 400 400 350 420 Q 300 435 250 430 Q 200 425 160 400 Q 130 370 120 330 Q 110 280 130 240 Z" 
+        fill="#4a1a1a" opacity="0.9"/>
+  
+  <!-- Industry area (red-brown) -->
+  <ellipse cx="280" cy="250" rx="90" ry="40" fill="#8b3a3a" opacity="0.8"/>
+  
+  <!-- Town Centre S2 -->
+  <rect x="220" y="310" width="120" height="70" fill="#fffacd" stroke="black" stroke-width="2"/>
+  <circle cx="280" cy="345" r="25" fill="none" stroke="black" stroke-width="2"/>
+  <text x="280" y="352" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">S2</text>
+  
+  <!-- Town Centre S2 dashed border -->
+  <path d="M 220 310 L 340 310 L 340 380 L 220 380 Z" 
+        fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,3"/>
+  
+  <!-- S1 circle -->
+  <circle cx="120" cy="220" r="25" fill="white" stroke="black" stroke-width="2"/>
+  <text x="120" y="227" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">S1</text>
+  
+  <!-- Title box -->
+  <rect x="105" y="35" width="145" height="65" fill="#fffacd" stroke="black" stroke-width="2"/>
+  <rect x="108" y="38" width="145" height="65" fill="none" stroke="black" stroke-width="4"/>
+  <text x="177" y="60" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">GARLSDON</text>
+  <text x="177" y="80" font-family="Arial" font-size="13" text-anchor="middle">Population 65,000</text>
+  
+  <!-- North arrow -->
+  <text x="320" y="45" font-family="Arial" font-size="14" font-weight="bold">N</text>
+  <line x1="320" y1="50" x2="320" y2="75" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <polygon points="320,75 315,65 325,65" fill="black"/>
+  
+  <!-- Legend box -->
+  <rect x="365" y="30" width="160" height="130" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Legend items -->
+  <rect x="375" y="40" width="30" height="15" fill="white" stroke="black" stroke-width="1"/>
+  <text x="410" y="52" font-family="Arial" font-size="11">Countryside</text>
+  
+  <rect x="375" y="60" width="30" height="15" fill="#fffacd" stroke="black" stroke-width="1"/>
+  <text x="410" y="72" font-family="Arial" font-size="11">Town Centre</text>
+  <text x="410" y="84" font-family="Arial" font-size="9">(no traffic zone)</text>
+  
+  <rect x="375" y="90" width="30" height="15" fill="#8b3a3a" stroke="black" stroke-width="1"/>
+  <text x="410" y="102" font-family="Arial" font-size="11">Housing</text>
+  
+  <rect x="375" y="110" width="30" height="15" fill="#4a1a1a" stroke="black" stroke-width="1"/>
+  <text x="410" y="122" font-family="Arial" font-size="11">Industry</text>
+  
+  <line x1="375" y1="135" x2="405" y2="135" stroke="black" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="410" y="142" font-family="Arial" font-size="11">Railway</text>
+  
+  <line x1="375" y1="152" x2="405" y2="152" stroke="black" stroke-width="2.5"/>
+  <polygon points="405,152 395,148 395,156" fill="black"/>
+  <text x="410" y="157" font-family="Arial" font-size="11">Main roads</text>
+  
+  <!-- Distance labels -->
+  <text x="80" y="125" font-family="Arial" font-size="11" fill="#0000cc">12 km to Hindon</text>
+  <text x="80" y="140" font-family="Arial" font-size="11" fill="#cc6600">population 10,000</text>
+  
+  <text x="30" y="465" font-family="Arial" font-size="11" fill="#0000cc">16 km to Bransdon</text>
+  <text x="30" y="480" font-family="Arial" font-size="11" fill="#cc6600">population 15,000</text>
+  
+  <text x="340" y="465" font-family="Arial" font-size="11" fill="#0000cc">25 km to Cransdon</text>
+  <text x="340" y="480" font-family="Arial" font-size="11" fill="#cc6600">population 29,000</text>
+  
+  <!-- Arrows to nearby towns -->
+  <line x1="80" y1="155" x2="95" y2="180" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="95,180 88,172 92,168" fill="black"/>
+  
+  <line x1="60" y1="440" x2="80" y2="420" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="80,420 73,418 76,413" fill="black"/>
+  
+  <line x1="410" y1="450" x2="430" y2="410" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="430,410 426,418 422,414" fill="black"/>
+</svg>

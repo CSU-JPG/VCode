@@ -33,12 +33,12 @@ python /path/to/evaluation/mmmu/split_outputs_by_subject.py \
   --output_root "$output_path"
 
 echo "================= Step 4 ================="
-python /path/to/evaluation/evaluation/mmmu/main_parse_and_eval.py \
+python /path/to/evaluation/mmmu/main_parse_and_eval.py \
   --path "$output_path" \
   --subject ALL
 
 echo "================= Step 5 ================="
-python /path/to/evaluation/evaluation/mmmu/save_scores.py \
+python /path/to/evaluation/mmmu/save_scores.py \
   --input_path "$output_path" \
   --output_path "$output_path/scores.csv"
 

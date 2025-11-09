@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with traditional roof tiles -->
+  <defs>
+    <pattern id="tiles" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+      <ellipse cx="20" cy="10" rx="18" ry="8" fill="#8B6B5C" stroke="#6B4B3C" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="bronze" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5A7B7B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3A5555;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="patina" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#6B8B8B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A6B6B;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Roof tiles background -->
+  <rect width="800" height="150" fill="url(#tiles)"/>
+  <rect y="150" width="800" height="80" fill="#3A2A2A"/>
+  
+  <!-- Platform/base -->
+  <rect y="230" width="800" height="370" fill="#6B7B8B"/>
+  <rect y="520" width="800" height="80" fill="#8B6B5C"/>
+  
+  <!-- Decorative railing -->
+  <rect y="480" width="800" height="40" fill="#C8A882" opacity="0.3"/>
+  
+  <!-- Confucius statue - main body structure -->
+  <g transform="translate(400, 300)">
+    <!-- Robe base -->
+    <ellipse cx="0" cy="180" rx="120" ry="90" fill="url(#bronze)"/>
+    
+    <!-- Main robe -->
+    <path d="M -100 80 Q -120 150 -110 240 L 110 240 Q 120 150 100 80 Z" fill="url(#patina)" stroke="#2A3A3A" stroke-width="2"/>
+    
+    <!-- Inner robe detail -->
+    <path d="M -60 90 L -50 240 M 60 90 L 50 240" stroke="#3A4A4A" stroke-width="3" fill="none"/>
+    
+    <!-- Ornamental sash -->
+    <ellipse cx="0" cy="85" rx="85" ry="15" fill="#4A5A5A" opacity="0.7"/>
+    <path d="M -70 75 Q -75 85 -70 95 L 70 95 Q 75 85 70 75 Z" fill="#3A4A4A"/>
+    
+    <!-- Decorative patterns on robe -->
+    <circle cx="-50" cy="100" r="8" fill="#5A6A6A" opacity="0.6"/>
+    <circle cx="-50" cy="130" r="8" fill="#5A6A6A" opacity="0.6"/>
+    <circle cx="-50" cy="160" r="8" fill="#5A6A6A" opacity="0.6"/>
+    <circle cx="50" cy="100" r="8" fill="#5A6A6A" opacity="0.6"/>
+    <circle cx="50" cy="130" r="8" fill="#5A6A6A" opacity="0.6"/>
+    <circle cx="50" cy="160" r="8" fill="#5A6A6A" opacity="0.6"/>
+    
+    <!-- Arms/sleeves -->
+    <ellipse cx="-90" cy="120" rx="35" ry="60" fill="url(#bronze)" transform="rotate(-20 -90 120)"/>
+    <ellipse cx="90" cy="120" rx="35" ry="60" fill="url(#bronze)" transform="rotate(20 90 120)"/>
+    
+    <!-- Hands clasped -->
+    <ellipse cx="0" cy="140" rx="40" ry="30" fill="#5A7B7B"/>
+    <path d="M -30 130 Q 0 125 30 130 Q 30 145 0 150 Q -30 145 -30 130" fill="#4A6B6B" stroke="#3A5555" stroke-width="1.5"/>
+    
+    <!-- Neck -->
+    <rect x="-20" y="-40" width="40" height="35" rx="8" fill="#5A7B7B"/>
+    
+    <!-- Head/face -->
+    <ellipse cx="0" cy="-70" rx="55" ry="65" fill="url(#patina)"/>
+    
+    <!-- Traditional hat/headpiece -->
+    <ellipse cx="0" cy="-130" rx="45" ry="20" fill="#3A4A4A"/>
+    <path d="M -35 -135 Q 0 -145 35 -135 Q 35 -120 0 -125 Q -35 -120 -35 -135" fill="#2A3A3A"/>
+    
+    <!-- Forehead wrinkles -->
+    <path d="M -35 -90 Q 0 -95 35 -90" stroke="#2A3A3A" stroke-width="2" fill="none"/>
+    <path d="M -30 -85 Q 0 -88 30 -85" stroke="#2A3A3A" stroke-width="1.5" fill="none"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="-18" cy="-70" rx="8" ry="6" fill="#2A3A3A"/>
+    <ellipse cx="18" cy="-70" rx="8" ry="6" fill="#2A3A3A"/>
+    
+    <!-- Nose -->
+    <path d="M 0 -65 L -5 -50 L 5 -50 Z" fill="#4A5A5A" opacity="0.5"/>
+    
+    <!-- Mustache -->
+    <path d="M -25 -45 Q -35 -40 -40 -35 M 25 -45 Q 35 -40 40 -35" stroke="#3A4A4A" stroke-width="3" fill="none"/>
+    
+    <!-- Long beard -->
+    <path d="M -30 -35 Q -35 0 -30 40 Q -25 60 -15 75 L 15 75 Q 25 60 30 40 Q 35 0 30 -35 Q 0 -30 -30 -35" fill="#4A6B6B" stroke="#2A3A3A" stroke-width="1.5"/>
+    
+    <!-- Beard texture lines -->
+    <path d="M -20 -20 L -18 30 M -10 -25 L -8 40 M 0 -28 L 0 50 M 10 -25 L 8 40 M 20 -20 L 18 30" stroke="#3A5555" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Shadows for depth -->
+    <ellipse cx="-15" cy="-65" rx="25" ry="30" fill="#2A3A3A" opacity="0.15"/>
+    <ellipse cx="15" cy="-65" rx="25" ry="30" fill="#2A3A3A" opacity="0.15"/>
+  </g>
+  
+  <!-- Light weathering effects -->
+  <rect width="800" height="600" fill="#8B9B9B" opacity="0.05"/>
+</svg>

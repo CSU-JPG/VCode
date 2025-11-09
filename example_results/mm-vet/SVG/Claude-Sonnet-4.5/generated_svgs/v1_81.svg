@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- ATM background -->
+  <rect width="800" height="600" fill="#4a5568"/>
+  
+  <!-- ATM screen area -->
+  <rect x="100" y="40" width="600" height="120" fill="#2d3748" rx="5"/>
+  
+  <!-- Money being withdrawn -->
+  <g transform="translate(150, 60)">
+    <!-- 200 banknote -->
+    <rect x="0" y="0" width="200" height="100" fill="#a8e6a1" rx="8"/>
+    <text x="100" y="30" font-size="32" font-weight="bold" fill="#2d5a2d" text-anchor="middle">200</text>
+    <text x="100" y="60" font-size="12" fill="#2d5a2d" text-anchor="middle">НОРВЕГИЯ</text>
+    <!-- Hologram circle -->
+    <circle cx="50" cy="70" r="18" fill="#7fb578" opacity="0.6"/>
+  </g>
+  
+  <!-- Hand holding money -->
+  <path d="M 80 150 Q 100 140 120 135 L 150 130 Q 160 128 165 135 L 170 145 Q 172 155 168 165 L 155 180 Q 145 190 130 195 L 100 200 Q 85 198 78 188 Z" fill="#c19a6b"/>
+  
+  <!-- ATM keypad housing -->
+  <rect x="200" y="220" width="400" height="320" fill="#9ca3af" rx="15"/>
+  
+  <!-- Keypad area -->
+  <rect x="230" y="260" width="180" height="240" fill="#6b7280" rx="8"/>
+  
+  <!-- Number buttons -->
+  <!-- Row 1 -->
+  <rect x="250" y="280" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="272" y="305" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">1</text>
+  
+  <rect x="305" y="280" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="327" y="305" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">2</text>
+  
+  <rect x="360" y="280" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="382" y="305" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">3</text>
+  
+  <!-- Row 2 -->
+  <rect x="250" y="330" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="272" y="355" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">4</text>
+  
+  <rect x="305" y="330" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="327" y="355" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">5</text>
+  
+  <rect x="360" y="330" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="382" y="355" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">6</text>
+  
+  <!-- Row 3 -->
+  <rect x="250" y="380" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="272" y="405" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">7</text>
+  
+  <rect x="305" y="380" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="327" y="405" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">8</text>
+  
+  <rect x="360" y="380" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="382" y="405" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">9</text>
+  
+  <!-- Row 4 -->
+  <rect x="250" y="430" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <rect x="305" y="430" width="45" height="40" fill="#d1d5db" rx="4"/>
+  <text x="327" y="455" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">0</text>
+  <rect x="360" y="430" width="45" height="40" fill="#d1d5db" rx="4"/>
+  
+  <!-- Side buttons -->
+  <rect x="440" y="260" width="120" height="35" fill="#ef4444" rx="4"/>
+  <text x="500" y="282" font-size="11" font-weight="bold" fill="white" text-anchor="middle">AVBRYT</text>
+  
+  <rect x="440" y="305" width="120" height="35" fill="#fbbf24" rx="4"/>
+  <text x="500" y="327" font-size="11" font-weight="bold" fill="#1f2937" text-anchor="middle">FEL</text>
+  
+  <rect x="440" y="350" width="120" height="35" fill="#d1d5db" rx="4"/>
+  <text x="500" y="372" font-size="11" font-weight="bold" fill="#1f2937" text-anchor="middle">TAL</text>
+  
+  <rect x="440" y="395" width="120" height="35" fill="#60a5fa" rx="4"/>
+  <text x="500" y="417" font-size="11" font-weight="bold" fill="white" text-anchor="middle">BLÅ</text>
+  
+  <rect x="440" y="440" width="120" height="35" fill="#22c55e" rx="4"/>
+  <text x="500" y="462" font-size="11" font-weight="bold" fill="white" text-anchor="middle">KLAR</text>
+</svg>

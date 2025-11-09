@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#9a9a9a"/>
+  
+  <!-- Noise texture simulation -->
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" />
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <rect width="800" height="1000" fill="#9a9a9a" filter="url(#noise)" opacity="0.3"/>
+  
+  <!-- Head shape -->
+  <ellipse cx="400" cy="280" rx="110" ry="140" fill="#d4c4b0"/>
+  
+  <!-- Hair - curly sides -->
+  <path d="M 290 240 Q 270 250 265 270 Q 260 290 270 300 Q 280 310 285 300 Q 290 285 295 275 Z" fill="#2a2a2a"/>
+  <path d="M 510 240 Q 530 250 535 270 Q 540 290 530 300 Q 520 310 515 300 Q 510 285 505 275 Z" fill="#2a2a2a"/>
+  <ellipse cx="285" cy="260" rx="25" ry="35" fill="#2a2a2a"/>
+  <ellipse cx="515" cy="260" rx="25" ry="35" fill="#2a2a2a"/>
+  
+  <!-- Cap -->
+  <ellipse cx="400" cy="180" rx="120" ry="30" fill="#1a1a1a"/>
+  <path d="M 280 180 Q 280 140 400 135 Q 520 140 520 180 Q 520 200 400 205 Q 280 200 280 180 Z" fill="#2a2a2a"/>
+  
+  <!-- Cap visor -->
+  <ellipse cx="400" cy="195" rx="125" ry="18" fill="#1a1a1a"/>
+  <ellipse cx="400" cy="192" rx="125" ry="15" fill="#3a3a3a"/>
+  
+  <!-- Cap band and insignia -->
+  <rect x="275" y="195" width="250" height="15" fill="#4a4a4a"/>
+  <circle cx="400" cy="202" r="8" fill="#6a6a6a"/>
+  
+  <!-- Forehead -->
+  <rect x="320" y="210" width="160" height="40" fill="#d4c4b0"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 345 250 Q 365 245 380 248" stroke="#3a2a1a" stroke-width="4" fill="none"/>
+  <path d="M 420 248 Q 435 245 455 250" stroke="#3a2a1a" stroke-width="4" fill="none"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="360" cy="270" rx="15" ry="12" fill="#1a1a1a"/>
+  <ellipse cx="440" cy="270" rx="15" ry="12" fill="#1a1a1a"/>
+  <ellipse cx="362" cy="268" rx="6" ry="6" fill="#ffffff" opacity="0.4"/>
+  <ellipse cx="442" cy="268" rx="6" ry="6" fill="#ffffff" opacity="0.4"/>
+  
+  <!-- Nose -->
+  <path d="M 400 265 Q 405 290 400 310" stroke="#b4a490" stroke-width="3" fill="none"/>
+  <path d="M 395 305 Q 400 308 405 305" stroke="#b4a490" stroke-width="2" fill="none"/>
+  
+  <!-- Mustache -->
+  <ellipse cx="360" cy="325" rx="35" ry="15" fill="#2a2a2a"/>
+  <ellipse cx="440" cy="325" rx="35" ry="15" fill="#2a2a2a"/>
+  <path d="M 330 320 Q 320 315 310 318 Q 305 320 308 325 Q 315 330 325 328" fill="#2a2a2a"/>
+  <path d="M 470 320 Q 480 315 490 318 Q 495 320 492 325 Q 485 330 475 328" fill="#2a2a2a"/>
+  
+  <!-- Beard -->
+  <ellipse cx="400" cy="370" rx="70" ry="80" fill="#2a2a2a"/>
+  <path d="M 340 350 Q 330 380 335 410 Q 340 440 360 450" fill="#2a2a2a"/>
+  <path d="M 460 350 Q 470 380 465 410 Q 460 440 440 450" fill="#2a2a2a"/>
+  <ellipse cx="380" cy="400" rx="25" ry="35" fill="#1a1a1a"/>
+  <ellipse cx="420" cy="400" rx="25" ry="35" fill="#1a1a1a"/>
+  
+  <!-- Neck -->
+  <rect x="370" y="400" width="60" height="60" fill="#d4c4b0"/>
+  
+  <!-- White collar/cravat -->
+  <path d="M 350 460 Q 400 440 450 460 L 450 500 Q 400 480 350 500 Z" fill="#e8e8e8"/>
+  <polygon points="390,490 400,500 410,490 400,485" fill="#d8d8d8"/>
+  
+  <!-- Uniform coat -->
+  <path d="M 250 500 L 300 500 L 350 550 L 350 950 L 250 950 Z" fill="#2a2a2a"/>
+  <path d="M 550 500 L 500 500 L 450 550 L 450 950 L 550 950 Z" fill="#2a2a2a"/>
+  <rect x="300" y="500" width="200" height="450" fill="#3a3a3a"/>
+  
+  <!-- Coat lapels -->
+  <path d="M 300 500 L 350 550 L 350 700 L 320 650 Z" fill="#2a2a2a"/>
+  <path d="M 500 500 L 450 550 L 450 700 L 480 650 Z" fill="#2a2a2a"/>
+  
+  <!-- Buttons -->
+  <circle cx="380" cy="580" r="8" fill="#6a6a6a"/>
+  <circle cx="380" cy="630" r="8" fill="#6a6a6a"/>
+  <circle cx="380" cy="680" r="8" fill="#6a6a6a"/>
+  <circle cx="420" cy="580" r="8" fill="#6a6a6a"/>
+  <circle cx="420" cy="630" r="8" fill="#6a6a6a"/>
+  <circle cx="420" cy="680" r="8" fill="#6a6a6a"/>
+  
+  <!-- Shoulder straps/epaulettes -->
+  <rect x="250" y="500" width="50" height="30" fill="#4a4a4a"/>
+  <rect x="500" y="500" width="50" height="30" fill="#4a4a4a"/>
+  <line x1="260" y1="510" x2="290" y2="510" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="260" y1="520" x2="290" y2="520" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="510" y1="510" x2="540" y2="510" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="510" y1="520" x2="540" y2="520" stroke="#8a8a8a" stroke-width="2"/>
+  
+  <!-- Arms -->
+  <rect x="200" y="550" width="50" height="400" fill="#2a2a2a" transform="rotate(-10 225 550)"/>
+  <rect x="550" y="550" width="50" height="400" fill="#2a2a2a" transform="rotate(10 575 550)"/>
+</svg>

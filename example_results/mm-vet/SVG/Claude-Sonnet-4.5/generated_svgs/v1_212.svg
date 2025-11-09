@@ -1,0 +1,67 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="350" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000">Underground Railway Systems</text>
+  
+  <!-- Table border -->
+  <rect x="35" y="60" width="630" height="300" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Header row background -->
+  <rect x="35" y="60" width="630" height="50" fill="#d3d3d3"/>
+  
+  <!-- Vertical lines -->
+  <line x1="190" y1="60" x2="190" y2="360" stroke="#000" stroke-width="2"/>
+  <line x1="345" y1="60" x2="345" y2="360" stroke="#000" stroke-width="2"/>
+  <line x1="500" y1="60" x2="500" y2="360" stroke="#000" stroke-width="2"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="35" y1="110" x2="665" y2="110" stroke="#000" stroke-width="2"/>
+  <line x1="35" y1="160" x2="665" y2="160" stroke="#000" stroke-width="2"/>
+  <line x1="35" y1="210" x2="665" y2="210" stroke="#000" stroke-width="2"/>
+  <line x1="35" y1="260" x2="665" y2="260" stroke="#000" stroke-width="2"/>
+  <line x1="35" y1="310" x2="665" y2="310" stroke="#000" stroke-width="2"/>
+  
+  <!-- Header text -->
+  <text x="112" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">City</text>
+  <text x="267" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Date opened</text>
+  <text x="422" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Kilometres of route</text>
+  <text x="582" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Passengers per year</text>
+  <text x="582" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">(in millions)</text>
+  
+  <!-- Data rows -->
+  <!-- London -->
+  <text x="112" y="140" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">London</text>
+  <text x="267" y="140" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">1863</text>
+  <text x="422" y="140" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">394</text>
+  <text x="582" y="140" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">775</text>
+  
+  <!-- Paris -->
+  <text x="112" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">Paris</text>
+  <text x="267" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">1900</text>
+  <text x="422" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">199</text>
+  <text x="582" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">1191</text>
+  
+  <!-- Tokyo -->
+  <text x="112" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">Tokyo</text>
+  <text x="267" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">1927</text>
+  <text x="422" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">155</text>
+  <text x="582" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">1927</text>
+  
+  <!-- Washington DC -->
+  <text x="112" y="290" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">Washington DC</text>
+  <text x="267" y="290" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">1976</text>
+  <text x="422" y="290" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">126</text>
+  <text x="582" y="290" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">144</text>
+  
+  <!-- Kyoto -->
+  <text x="112" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">Kyoto</text>
+  <text x="267" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">1981</text>
+  <text x="422" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">11</text>
+  <text x="582" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">45</text>
+  
+  <!-- Los Angeles -->
+  <rect x="35" y="310" width="630" height="50" fill="#d3d3d3"/>
+  <text x="112" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">Los Angeles</text>
+  <text x="267" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">2001</text>
+  <text x="422" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">28</text>
+  <text x="582" y="340" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#000">50</text>
+</svg>

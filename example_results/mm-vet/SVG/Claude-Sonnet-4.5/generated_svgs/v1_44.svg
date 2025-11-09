@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1200 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="1000" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#333">
+    Plastic Waste is Out of Control
+  </text>
+  <text x="50" y="130" font-family="Arial, sans-serif" font-size="24" fill="#999">
+    In 2015, humans threw out almost as much plastic as they made.
+  </text>
+  
+  <!-- Divider line -->
+  <line x1="0" y1="170" x2="1200" y2="170" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Column headers -->
+  <text x="300" y="250" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#ff69b4" text-anchor="middle">
+    Plastic made (metric tonnes)
+  </text>
+  <text x="900" y="250" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#9370db" text-anchor="middle">
+    Plastic thrown out (metric tonnes)
+  </text>
+  
+  <!-- Left side - Plastic made -->
+  <!-- Industrial Machines -->
+  <text x="220" y="330" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Industrial Machines</text>
+  <rect x="240" y="310" width="15" height="30" fill="#ff69b4"/>
+  <text x="260" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">3M</text>
+  
+  <!-- Electronics -->
+  <text x="220" y="370" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Electronics</text>
+  <rect x="240" y="350" width="90" height="30" fill="#ff69b4"/>
+  <text x="335" y="370" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">18M</text>
+  
+  <!-- Transportation -->
+  <text x="220" y="410" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Transportation</text>
+  <rect x="240" y="390" width="135" height="30" fill="#ff69b4"/>
+  <text x="380" y="410" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">27M</text>
+  
+  <!-- Consumer Products -->
+  <text x="220" y="450" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Consumer Products</text>
+  <rect x="240" y="430" width="210" height="30" fill="#ff69b4"/>
+  <text x="455" y="450" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">42M</text>
+  
+  <!-- Other -->
+  <text x="220" y="490" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Other</text>
+  <rect x="240" y="470" width="235" height="30" fill="#ff69b4"/>
+  <text x="480" y="490" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">47M</text>
+  
+  <!-- Textiles -->
+  <text x="220" y="530" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Textiles</text>
+  <rect x="240" y="510" width="295" height="30" fill="#ff69b4"/>
+  <text x="540" y="530" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">59M</text>
+  
+  <!-- Construction -->
+  <text x="220" y="570" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Construction</text>
+  <rect x="240" y="550" width="325" height="30" fill="#ff69b4"/>
+  <text x="570" y="570" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">65M</text>
+  
+  <!-- Packaging -->
+  <text x="220" y="610" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Packaging</text>
+  <rect x="240" y="590" width="585" height="30" fill="#ff69b4"/>
+  <text x="830" y="610" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">146M</text>
+  
+  <!-- Total left -->
+  <text x="220" y="660" font-family="Arial, sans-serif" font-size="18" fill="#bbb" text-anchor="end">Total</text>
+  <rect x="240" y="640" width="810" height="40" fill="#ff69b4"/>
+  <text x="1055" y="665" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">407M</text>
+  
+  <!-- Right side - Plastic thrown out -->
+  <!-- Industrial Machines -->
+  <rect x="660" y="310" width="5" height="30" fill="#9370db"/>
+  <text x="670" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">1M</text>
+  
+  <!-- Electronics -->
+  <rect x="660" y="350" width="65" height="30" fill="#9370db"/>
+  <text x="730" y="370" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">13M</text>
+  
+  <!-- Transportation -->
+  <rect x="660" y="390" width="85" height="30" fill="#9370db"/>
+  <text x="750" y="410" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">17M</text>
+  
+  <!-- Consumer Products -->
+  <rect x="660" y="430" width="185" height="30" fill="#9370db"/>
+  <text x="850" y="450" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">37M</text>
+  
+  <!-- Other -->
+  <rect x="660" y="470" width="190" height="30" fill="#9370db"/>
+  <text x="855" y="490" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">38M</text>
+  
+  <!-- Textiles -->
+  <rect x="660" y="510" width="210" height="30" fill="#9370db"/>
+  <text x="875" y="530" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">42M</text>
+  
+  <!-- Construction -->
+  <rect x="660" y="550" width="65" height="30" fill="#9370db"/>
+  <text x="730" y="570" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">13M</text>
+  
+  <!-- Packaging -->
+  <rect x="660" y="590" width="565" height="30" fill="#9370db"/>
+  <text x="1230" y="610" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#333">141M</text>
+  
+  <!-- Total right -->
+  <rect x="660" y="640" width="900" height="40" fill="#9370db"/>
+  <text x="1565" y="665" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">302M</text>
+  
+  <!-- Divider line -->
+  <line x1="0" y1="720" x2="1200" y2="720" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Bottom text with bottle icon -->
+  <rect x="50" y="800" width="40" height="60" rx="5" fill="none" stroke="#333" stroke-width="3"/>
+  <ellipse cx="70" cy="795" rx="15" ry="8" fill="none" stroke="#333" stroke-width="3"/>
+  <line x1="60" y1="830" x2="55" y2="850" stroke="#333" stroke-width="3"/>
+  <line x1="70" y1="830" x2="70" y2="850" stroke="#333" stroke-width="3"/>
+  <line x1="80" y1="830" x2="85" y2="850" stroke="#333" stroke-width="3"/>
+  
+  <text x="110" y="835" font-family="Arial, sans-serif" font-size="20" fill="#333">
+    In 2015, humans produced <tspan fill="#ff69b4" font-weight="600">407 million metric tons of new plastic</tspan>, continuing the trend of making
+  </text>
+  <text x="110" y="865" font-family="Arial, sans-serif" font-size="20" fill="#333">
+    more and more plastic each year. Meanwhile, <tspan fill="#9370db" font-weight="600">302 million metric tons was discarded as waste</tspan>,
+  </text>
+  <text x="110" y="895" font-family="Arial, sans-serif" font-size="20" fill="#333">
+    meaning it wasn't recycled or incinerated; it's just sitting in a dump or the ocean somewhere.
+  </text>
+</svg>

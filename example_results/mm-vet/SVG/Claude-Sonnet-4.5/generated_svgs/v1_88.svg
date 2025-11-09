@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="800" height="400" fill="#0a0a0f"/>
+  
+  <!-- Car body shadow -->
+  <ellipse cx="400" cy="320" rx="280" ry="40" fill="#000" opacity="0.4"/>
+  
+  <!-- Car front bumper - dark blue metallic -->
+  <path d="M 150 240 Q 150 200 200 180 L 600 180 Q 650 200 650 240 L 650 300 Q 650 320 630 330 L 170 330 Q 150 320 150 300 Z" fill="#0d2d3f" stroke="#1a4a5f" stroke-width="1.5"/>
+  
+  <!-- Bumper highlight -->
+  <path d="M 180 195 Q 200 185 400 185 Q 600 185 620 195" fill="none" stroke="#2a5f7f" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Chrome grille upper -->
+  <rect x="200" y="120" width="400" height="50" fill="#b8c5d0" opacity="0.3"/>
+  <rect x="210" y="125" width="380" height="40" fill="url(#grille-gradient)"/>
+  
+  <!-- Grille pattern -->
+  <g opacity="0.7">
+    <rect x="220" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="240" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="260" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="280" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="300" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="320" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="340" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="360" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="380" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="400" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="420" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="440" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="460" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="480" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="500" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="520" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="540" y="130" width="8" height="30" fill="#6a7a8a"/>
+    <rect x="560" y="130" width="8" height="30" fill="#6a7a8a"/>
+  </g>
+  
+  <!-- License plate frame -->
+  <rect x="220" y="220" width="360" height="90" rx="4" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <rect x="230" y="230" width="340" height="70" rx="3" fill="#fef5d4" stroke="#2a2a2a" stroke-width="1.5"/>
+  
+  <!-- License plate text -->
+  <text x="400" y="280" font-family="Arial Black, sans-serif" font-size="58" font-weight="900" fill="#000" text-anchor="middle" letter-spacing="8">S 3302 CD</text>
+  
+  <!-- Headlight left -->
+  <ellipse cx="230" cy="200" rx="30" ry="20" fill="#8a9aa5" opacity="0.4"/>
+  <ellipse cx="230" cy="200" rx="25" ry="16" fill="#c8d5e0" opacity="0.5"/>
+  <ellipse cx="228" cy="198" rx="8" ry="6" fill="#fff" opacity="0.8"/>
+  
+  <!-- Headlight right -->
+  <ellipse cx="570" cy="200" rx="30" ry="20" fill="#8a9aa5" opacity="0.4"/>
+  <ellipse cx="570" cy="200" rx="25" ry="16" fill="#c8d5e0" opacity="0.5"/>
+  <ellipse cx="568" cy="198" rx="8" ry="6" fill="#fff" opacity="0.8"/>
+  
+  <!-- Reflections on bumper -->
+  <ellipse cx="350" cy="250" rx="80" ry="15" fill="#4a7a9f" opacity="0.15"/>
+  <ellipse cx="450" cy="260" rx="60" ry="12" fill="#5a8aaf" opacity="0.12"/>
+  
+  <!-- Ground reflection -->
+  <rect x="150" y="330" width="500" height="2" fill="#1a2a3a" opacity="0.5"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="grille-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9aaab5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6a7a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a5a6a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

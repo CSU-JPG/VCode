@@ -1,0 +1,129 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="1200" height="400" fill="#c8d5dd"/>
+  
+  <!-- Distant hills -->
+  <ellipse cx="300" cy="380" rx="350" ry="60" fill="#7a9aa8" opacity="0.4"/>
+  <ellipse cx="700" cy="390" rx="400" ry="50" fill="#7a9aa8" opacity="0.3"/>
+  <ellipse cx="1000" cy="385" rx="300" ry="55" fill="#7a9aa8" opacity="0.35"/>
+  
+  <!-- Grassland -->
+  <rect y="400" width="1200" height="400" fill="#6b8c4a"/>
+  <rect y="550" width="1200" height="250" fill="#5a7a3a"/>
+  
+  <!-- Grass texture -->
+  <path d="M0,450 Q50,430 100,450 Q150,470 200,450 Q250,430 300,450 Q350,470 400,450 Q450,430 500,450 Q550,470 600,450 Q650,430 700,450 Q750,470 800,450 Q850,430 900,450 Q950,470 1000,450 Q1050,430 1100,450 Q1150,470 1200,450" fill="#7a9a4a" opacity="0.6"/>
+  
+  <!-- Trees -->
+  <!-- Left tree -->
+  <path d="M180,350 Q170,400 165,500 Q185,500 190,350" fill="#4a3220"/>
+  <ellipse cx="175" cy="330" rx="60" ry="45" fill="#5a7a3a"/>
+  <ellipse cx="160" cy="350" rx="45" ry="35" fill="#6b8c4a"/>
+  
+  <!-- Middle-left tree -->
+  <path d="M380,380 Q375,420 370,520 Q385,520 390,380" fill="#4a3220"/>
+  <ellipse cx="380" cy="365" rx="55" ry="40" fill="#5a7a3a"/>
+  <ellipse cx="365" cy="380" rx="40" ry="30" fill="#6b8c4a"/>
+  
+  <!-- Right tree -->
+  <path d="M1050,360 Q1045,410 1040,520 Q1055,520 1060,360" fill="#4a3220"/>
+  <ellipse cx="1050" cy="345" rx="50" ry="38" fill="#5a7a3a"/>
+  <ellipse cx="1035" cy="365" rx="38" ry="28" fill="#6b8c4a"/>
+  
+  <!-- Left Giraffe -->
+  <g id="giraffe1">
+    <!-- Body -->
+    <ellipse cx="350" cy="480" rx="70" ry="55" fill="#c8914a" transform="rotate(-15 350 480)"/>
+    <!-- Neck -->
+    <path d="M380,440 L420,280 L440,280 L410,440 Z" fill="#c8914a"/>
+    <!-- Head -->
+    <ellipse cx="435" cy="250" rx="35" ry="30" fill="#c8914a"/>
+    <!-- Ears -->
+    <ellipse cx="425" cy="230" rx="8" ry="12" fill="#a87338"/>
+    <ellipse cx="445" cy="230" rx="8" ry="12" fill="#a87338"/>
+    <!-- Ossicones -->
+    <rect x="422" y="215" width="4" height="18" fill="#5a4030"/>
+    <rect x="444" y="215" width="4" height="18" fill="#5a4030"/>
+    <circle cx="424" cy="215" r="4" fill="#5a4030"/>
+    <circle cx="446" cy="215" r="4" fill="#5a4030"/>
+    <!-- Legs -->
+    <rect x="310" y="520" width="18" height="130" fill="#c8914a"/>
+    <rect x="360" y="520" width="18" height="135" fill="#c8914a"/>
+    <rect x="380" y="520" width="18" height="125" fill="#c8914a"/>
+    <rect x="420" y="525" width="18" height="120" fill="#c8914a"/>
+    <!-- Spots -->
+    <circle cx="370" cy="460" r="12" fill="#8b5a2b"/>
+    <circle cx="350" cy="490" r="14" fill="#8b5a2b"/>
+    <circle cx="320" cy="480" r="11" fill="#8b5a2b"/>
+    <circle cx="390" cy="485" r="13" fill="#8b5a2b"/>
+    <ellipse cx="400" cy="350" rx="12" ry="15" fill="#8b5a2b"/>
+    <ellipse cx="420" cy="310" rx="10" ry="13" fill="#8b5a2b"/>
+    <ellipse cx="410" cy="380" rx="11" ry="14" fill="#8b5a2b"/>
+    <ellipse cx="390" cy="410" rx="13" ry="15" fill="#8b5a2b"/>
+    <!-- Tail -->
+    <path d="M290,490 Q270,510 275,530" stroke="#8b5a2b" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Middle Giraffe (head down) -->
+  <g id="giraffe2">
+    <!-- Body -->
+    <ellipse cx="620" cy="470" rx="75" ry="60" fill="#c8914a" transform="rotate(5 620 470)"/>
+    <!-- Neck (bent down) -->
+    <path d="M680,450 Q720,420 750,380 Q740,370 700,400 L665,440 Z" fill="#c8914a"/>
+    <!-- Head (lowered) -->
+    <ellipse cx="760" cy="370" rx="32" ry="28" fill="#c8914a" transform="rotate(30 760 370)"/>
+    <!-- Ears -->
+    <ellipse cx="750" cy="355" rx="7" ry="10" fill="#a87338"/>
+    <ellipse cx="770" cy="360" rx="7" ry="10" fill="#a87338"/>
+    <!-- Legs -->
+    <rect x="570" y="515" width="18" height="135" fill="#c8914a"/>
+    <rect x="615" y="515" width="18" height="140" fill="#c8914a"/>
+    <rect x="650" y="515" width="18" height="130" fill="#c8914a"/>
+    <rect x="690" y="520" width="18" height="125" fill="#c8914a"/>
+    <!-- Spots -->
+    <circle cx="640" cy="455" r="13" fill="#8b5a2b"/>
+    <circle cx="610" cy="480" r="15" fill="#8b5a2b"/>
+    <circle cx="580" cy="470" r="12" fill="#8b5a2b"/>
+    <circle cx="665" cy="465" r="14" fill="#8b5a2b"/>
+    <ellipse cx="700" cy="420" rx="11" ry="13" fill="#8b5a2b"/>
+    <ellipse cx="720" cy="390" rx="10" ry="12" fill="#8b5a2b"/>
+    <!-- Tail -->
+    <path d="M560,485 Q540,505 545,525" stroke="#8b5a2b" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Right Giraffe -->
+  <g id="giraffe3">
+    <!-- Body -->
+    <ellipse cx="850" cy="485" rx="72" ry="58" fill="#c8914a" transform="rotate(-10 850 485)"/>
+    <!-- Neck -->
+    <path d="M890,450 L920,290 L940,292 L915,455 Z" fill="#c8914a"/>
+    <!-- Head -->
+    <ellipse cx="935" cy="265" rx="33" ry="28" fill="#c8914a"/>
+    <!-- Ears -->
+    <ellipse cx="925" cy="248" rx="7" ry="11" fill="#a87338"/>
+    <ellipse cx="945" cy="248" rx="7" ry="11" fill="#a87338"/>
+    <!-- Ossicones -->
+    <rect x="922" y="235" width="4" height="16" fill="#5a4030"/>
+    <rect x="942" y="235" width="4" height="16" fill="#5a4030"/>
+    <circle cx="924" cy="235" r="3.5" fill="#5a4030"/>
+    <circle cx="944" cy="235" r="3.5" fill="#5a4030"/>
+    <!-- Legs -->
+    <rect x="810" y="528" width="18" height="132" fill="#c8914a"/>
+    <rect x="855" y="528" width="18" height="135" fill="#c8914a"/>
+    <rect x="890" y="530" width="18" height="128" fill="#c8914a"/>
+    <rect x="925" y="533" width="18" height="123" fill="#c8914a"/>
+    <!-- Spots -->
+    <circle cx="870" cy="470" r="13" fill="#8b5a2b"/>
+    <circle cx="840" cy="495" r="14" fill="#8b5a2b"/>
+    <circle cx="820" cy="485" r="12" fill="#8b5a2b"/>
+    <circle cx="895" cy="480" r="13" fill="#8b5a2b"/>
+    <ellipse cx="910" cy="360" rx="11" ry="14" fill="#8b5a2b"/>
+    <ellipse cx="925" cy="320" rx="10" ry="12" fill="#8b5a2b"/>
+    <ellipse cx="905" cy="400" rx="12" ry="14" fill="#8b5a2b"/>
+    <!-- Tail -->
+    <path d="M790,500 Q770,520 775,540" stroke="#8b5a2b" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Foreground grass details -->
+  <path d="M0,650 L20,620 L15,650 M50,650 L65,625 L60,650 M100,650 L120,630 L115,650 M200,650 L215,625 L210,650 M350,650 L370,630 L365,650 M500,650 L520,620 L515,650 M700,650 L715,628 L710,650 M900,650 L920,625 L915,650 M1100,650 L1120,630 L1115,650" stroke="#4a6030" stroke-width="2" fill="none" opacity="0.7"/>
+</svg>

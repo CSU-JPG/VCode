@@ -1,0 +1,175 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="confetti1" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="trophy" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#skyGrad)"/>
+  
+  <!-- Crowd blur effect -->
+  <ellipse cx="600" cy="200" rx="500" ry="150" fill="#C8A882" opacity="0.3"/>
+  
+  <!-- Confetti particles -->
+  <circle cx="100" cy="80" r="8" fill="#FFD700" opacity="0.8"/>
+  <circle cx="150" cy="120" r="6" fill="#FF6B6B" opacity="0.7"/>
+  <circle cx="200" cy="60" r="7" fill="#4ECDC4" opacity="0.8"/>
+  <circle cx="250" cy="100" r="5" fill="#FFD700" opacity="0.9"/>
+  <rect x="80" y="140" width="10" height="10" fill="#95E1D3" opacity="0.7" transform="rotate(45 85 145)"/>
+  <rect x="180" y="90" width="8" height="8" fill="#FF6B6B" opacity="0.8" transform="rotate(30 184 94)"/>
+  
+  <circle cx="1000" cy="100" r="8" fill="#FFD700" opacity="0.8"/>
+  <circle cx="1050" cy="140" r="6" fill="#4ECDC4" opacity="0.7"/>
+  <circle cx="1100" cy="80" r="7" fill="#FF6B6B" opacity="0.8"/>
+  <circle cx="950" cy="120" r="6" fill="#95E1D3" opacity="0.9"/>
+  <rect x="1020" y="70" width="10" height="10" fill="#FFD700" opacity="0.7" transform="rotate(45 1025 75)"/>
+  <rect x="1080" y="130" width="8" height="8" fill="#4ECDC4" opacity="0.8" transform="rotate(30 1084 134)"/>
+  
+  <!-- Trophy (center, elevated) -->
+  <g transform="translate(600, 180)">
+    <!-- Trophy cup -->
+    <ellipse cx="0" cy="-20" rx="35" ry="15" fill="url(#trophy)"/>
+    <path d="M -30,-20 L -25,10 L 25,10 L 30,-20 Z" fill="url(#trophy)" stroke="#B8860B" stroke-width="2"/>
+    <rect x="-8" y="10" width="16" height="20" fill="#DAA520" stroke="#B8860B" stroke-width="1"/>
+    <ellipse cx="0" cy="30" rx="25" ry="8" fill="#B8860B"/>
+    <!-- Trophy handles -->
+    <path d="M -30,-10 Q -45,-10 -45,0 Q -45,10 -30,10" fill="none" stroke="#DAA520" stroke-width="3"/>
+    <path d="M 30,-10 Q 45,-10 45,0 Q 45,10 30,10" fill="none" stroke="#DAA520" stroke-width="3"/>
+    <!-- Trophy shine -->
+    <ellipse cx="-10" cy="-15" rx="8" ry="12" fill="#FFF" opacity="0.4"/>
+  </g>
+  
+  <!-- Players - Back row (simplified figures) -->
+  <g opacity="0.9">
+    <!-- Player 1 - Left back -->
+    <ellipse cx="150" cy="380" rx="20" ry="25" fill="#F4C2A0"/>
+    <rect x="130" y="405" width="40" height="80" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="135" y="410" width="15" height="70" fill="#FFF" opacity="0.8"/>
+    <rect x="150" y="410" width="15" height="70" fill="#87CEEB"/>
+    <circle cx="145" cy="375" r="3" fill="#333"/>
+    <circle cx="155" cy="375" r="3" fill="#333"/>
+    <path d="M 145,385 Q 150,388 155,385" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Player 2 -->
+    <ellipse cx="250" cy="370" rx="20" ry="25" fill="#F4C2A0"/>
+    <rect x="230" y="395" width="40" height="80" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="235" y="400" width="15" height="70" fill="#FFF" opacity="0.8"/>
+    <circle cx="245" cy="365" r="3" fill="#333"/>
+    <circle cx="255" cy="365" r="3" fill="#333"/>
+    
+    <!-- Player 3 -->
+    <ellipse cx="350" cy="375" rx="20" ry="25" fill="#F4C2A0"/>
+    <rect x="330" y="400" width="40" height="80" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="335" y="405" width="15" height="70" fill="#FFF" opacity="0.8"/>
+    <circle cx="345" cy="370" r="3" fill="#333"/>
+    <circle cx="355" cy="370" r="3" fill="#333"/>
+    
+    <!-- Player 4 - Right side back -->
+    <ellipse cx="850" cy="375" rx="20" ry="25" fill="#F4C2A0"/>
+    <rect x="830" y="400" width="40" height="80" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="835" y="405" width="15" height="70" fill="#FFF" opacity="0.8"/>
+    <circle cx="845" cy="370" r="3" fill="#333"/>
+    <circle cx="855" cy="370" r="3" fill="#333"/>
+    
+    <!-- Player 5 -->
+    <ellipse cx="950" cy="370" rx="20" ry="25" fill="#F4C2A0"/>
+    <rect x="930" y="395" width="40" height="80" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="935" y="400" width="15" height="70" fill="#FFF" opacity="0.8"/>
+    <circle cx="945" cy="365" r="3" fill="#333"/>
+    <circle cx="955" cy="365" r="3" fill="#333"/>
+    
+    <!-- Player 6 -->
+    <ellipse cx="1050" cy="380" rx="20" ry="25" fill="#F4C2A0"/>
+    <rect x="1030" y="405" width="40" height="80" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="1035" y="410" width="15" height="70" fill="#FFF" opacity="0.8"/>
+    <circle cx="1045" cy="375" r="3" fill="#333"/>
+    <circle cx="1055" cy="375" r="3" fill="#333"/>
+  </g>
+  
+  <!-- Players - Front row -->
+  <g>
+    <!-- Player 7 - Left front -->
+    <ellipse cx="200" cy="480" rx="22" ry="28" fill="#F4C2A0"/>
+    <rect x="178" y="508" width="44" height="90" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="183" y="513" width="17" height="80" fill="#FFF" opacity="0.8"/>
+    <rect x="200" y="513" width="17" height="80" fill="#87CEEB"/>
+    <circle cx="193" cy="473" r="3" fill="#333"/>
+    <circle cx="207" cy="473" r="3" fill="#333"/>
+    <path d="M 193,485 Q 200,490 207,485" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="200" cy="540" r="12" fill="#FFD700" opacity="0.9"/>
+    
+    <!-- Player 8 - Center left -->
+    <ellipse cx="320" cy="490" rx="22" ry="28" fill="#F4C2A0"/>
+    <rect x="298" y="518" width="44" height="90" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="303" y="523" width="17" height="80" fill="#FFF" opacity="0.8"/>
+    <circle cx="313" cy="483" r="3" fill="#333"/>
+    <circle cx="327" cy="483" r="3" fill="#333"/>
+    <path d="M 313,495 Q 320,500 327,495" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="320" cy="550" r="12" fill="#FFD700" opacity="0.9"/>
+    
+    <!-- Central player (trophy holder) - in black suit -->
+    <ellipse cx="600" cy="450" rx="25" ry="30" fill="#F4C2A0"/>
+    <rect x="575" y="480" width="50" height="100" rx="5" fill="#1a1a1a" stroke="#000" stroke-width="2"/>
+    <circle cx="590" cy="440" r="4" fill="#333"/>
+    <circle cx="610" cy="440" r="4" fill="#333"/>
+    <path d="M 590,455 Q 600,462 610,455" fill="none" stroke="#333" stroke-width="3"/>
+    <rect x="590" y="485" width="20" height="90" fill="#2a2a2a"/>
+    
+    <!-- Player 9 - Center right -->
+    <ellipse cx="720" cy="485" rx="22" ry="28" fill="#F4C2A0"/>
+    <rect x="698" y="513" width="44" height="90" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="703" y="518" width="17" height="80" fill="#FFF" opacity="0.8"/>
+    <circle cx="713" cy="478" r="3" fill="#333"/>
+    <circle cx="727" cy="478" r="3" fill="#333"/>
+    <path d="M 713,490 Q 720,495 727,490" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="720" cy="545" r="12" fill="#FFD700" opacity="0.9"/>
+    
+    <!-- Player 10 - Right front -->
+    <ellipse cx="880" cy="490" rx="22" ry="28" fill="#F4C2A0"/>
+    <rect x="858" y="518" width="44" height="90" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="863" y="523" width="17" height="80" fill="#FFF" opacity="0.8"/>
+    <circle cx="873" cy="483" r="3" fill="#333"/>
+    <circle cx="887" cy="483" r="3" fill="#333"/>
+    <path d="M 873,495 Q 880,500 887,495" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="880" cy="550" r="12" fill="#FFD700" opacity="0.9"/>
+    
+    <!-- Player 11 - Far right -->
+    <ellipse cx="1000" cy="480" rx="22" ry="28" fill="#F4C2A0"/>
+    <rect x="978" y="508" width="44" height="90" rx="5" fill="#87CEEB" stroke="#4A90E2" stroke-width="2"/>
+    <rect x="983" y="513" width="17" height="80" fill="#FFF" opacity="0.8"/>
+    <circle cx="993" cy="473" r="3" fill="#333"/>
+    <circle cx="1007" cy="473" r="3" fill="#333"/>
+    <path d="M 993,485 Q 1000,490 1007,485" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="1000" cy="540" r="12" fill="#FFD700" opacity="0.9"/>
+  </g>
+  
+  <!-- Goalkeeper (in neon/bright jersey) - right side -->
+  <g>
+    <ellipse cx="780" cy="390" rx="20" ry="25" fill="#F4C2A0"/>
+    <rect x="760" y="415" width="40" height="75" rx="5" fill="#ADFF2F" stroke="#7FFF00" stroke-width="2"/>
+    <circle cx="775" cy="385" r="3" fill="#333"/>
+    <circle cx="785" cy="385" r="3" fill="#333"/>
+    <path d="M 775,395 Q 780,398 785,395" fill="none" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <!-- Additional confetti and celebration elements -->
+  <circle cx="300" cy="150" r="6" fill="#FFD700" opacity="0.7"/>
+  <circle cx="500" cy="120" r="5" fill="#FF6B6B" opacity="0.8"/>
+  <circle cx="700" cy="140" r="7" fill="#4ECDC4" opacity="0.7"/>
+  <circle cx="900" cy="110" r="6" fill="#95E1D3" opacity="0.8"/>
+  
+  <rect x="400" y="100" width="8" height="8" fill="#FFD700" opacity="0.7" transform="rotate(45 404 104)"/>
+  <rect x="600" y="90" width="10" height="10" fill="#FF6B6B" opacity="0.8" transform="rotate(30 605 95)"/>
+  <rect x="800" y="120" width="8" height="8" fill="#4ECDC4" opacity="0.7" transform="rotate(60 804 124)"/>
+</svg>
