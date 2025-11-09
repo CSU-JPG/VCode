@@ -19,7 +19,13 @@ https://github.com/user-attachments/assets/2d202222-4934-4bc0-ae69-b231fc507d02
 
 <img src="./assets/teaser.png" alt="Overview" width="800"/>
 
-<video src="assets/VCode_demo_video.mp4" width="600" controls></video>
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/2d202222-4934-4bc0-ae69-b231fc507d02"
+         style="max-width: 80%; height: auto; border-radius: 10px;"
+         controls
+         muted>
+  </video>
+</p>
 
 # 📋 Table of Contents
 
