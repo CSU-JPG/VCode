@@ -13,9 +13,7 @@
 
 <img src="./assets/teaser.png" alt="Overview" width="800"/>
 
-<video src="https://github.com/CSU-JPG/VCode/raw/main/assets/VCode_demo_video.mp4" width="600" controls>
-  Your browser does not support the video tag.
-</video>
+<video src="https://github.com/CSU-JPG/VCode/raw/main/assets/VCode_demo_video.mp4" width="600" controls></video>
 
 # 📋 Table of Contents
 
