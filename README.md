@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/43fa1b58-fcef-4f93-92da-d6ccbd91881b
 # 🎨 VCode: SVG as Symbolic Visual Representation
 
 <p align="center">
@@ -11,9 +13,15 @@
 
 **TL;DR:** SVG code as a Visual Representation
 
+
+
+https://github.com/user-attachments/assets/2d202222-4934-4bc0-ae69-b231fc507d02
+
+
+
 <img src="./assets/teaser.png" alt="Overview" width="800"/>
 
-<video src="https://github.com/CSU-JPG/VCode/raw/main/assets/VCode_demo_video.mp4" width="600" controls></video>
+<video src="assets/VCode_demo_video.mp4" width="800" controls></video>
 
 # 📋 Table of Contents
 
