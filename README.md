@@ -11,11 +11,11 @@
 
 **TL;DR:** SVG code as a Visual Representation
 
-<video src="assets/video.mp4" width="600" controls>
+<img src="./assets/teaser.png" alt="Overview" width="800"/>
+
+<video src="./assets/VCode_demo_video.mp4" width="600" controls>
   Your browser does not support the video tag.
 </video>
-
-<img src="./assets/teaser.png" alt="Overview" width="800"/>
 
 # 📋 Table of Contents
 
