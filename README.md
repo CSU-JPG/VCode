@@ -1,4 +1,4 @@
-# 🎨 VCode: SVG as Symbolic Visual Representation
+## 🎨 VCode: SVG as Symbolic Visual Representation
 
 <p align="center">
 <a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
@@ -25,8 +25,11 @@
   </video>
 </p>
 
+## 📣 News
+- **[2025.11.08]** 🚀 We now offer a **free trial API** on our **[HuggingFace Space](https://huggingface.co/spaces/CSU-JPG/VCode)**.
+- **[2025.11.05]** 🔥 We are honored to be featured as 🤗 HuggingFace **[Daily Paper #1](https://huggingface.co/papers/2511.02778)**.
 
-# 📋 Table of Contents
+## 📋 Table of Contents
 
 <!--- [📚 Introduction](#-introduction)-->
 
@@ -36,7 +39,7 @@
 - [📌 Citation](#-citation)
 ---
 
-# 🛠️ Installation
+## 🛠️ Installation
 
 **Environment**
 
@@ -51,9 +54,9 @@ pip install -r requirements.txt
 
 ---
 
-# 🚀 Quick Start
+## 🚀 Quick Start
 
-## 🧩 VCode-suite
+### 🧩 VCode-suite
 
 **VCode-suite** is a comprehensive toolkit that automates the full image-to-SVG-to-render workflow.
 It includes both integrated pipelines and independent modules for generation, rendering, and revision.
@@ -78,9 +81,9 @@ Users can either run the end-to-end pipelines for batch processing, or execute i
 > to support flexible and modular experimentation within the VCode framework.
 
 
-## ⚙️ Usage
+### ⚙️ Usage
 
-### 1️⃣ Generate and render SVGs
+#### 1️⃣ Generate and render SVGs
 
 `pipeline.sh` orchestrates the full image-to-SVG-to-render workflow.
 It can connect to different generation modules — `img2svg`, `img2text2svg`, or `img2svgthinking` — to convert images into SVGs, then filter and render them into pixel images.
@@ -90,7 +93,7 @@ chmod +x pipeline.sh
 ./pipeline.sh
 ```
 
-### 2️⃣ Optimize generated SVGs
+#### 2️⃣ Optimize generated SVGs
 
 `revision_pipeline.sh` automates the revision and optimization process.
 It takes the previously generated SVGs (`generated_svgs/`) and rendered images (`generated_imgs/`), calls the API-based revision module, and outputs the optimized SVGs and renders to `optimized_svgs/` and `optimized_imgs/`.
@@ -100,7 +103,7 @@ chmod +x revision_pipeline.sh
 ./revision_pipeline.sh
 ```
 
-### 3️⃣ Run scripts independently
+#### 3️⃣ Run scripts independently
 
 Both generation and revision scripts can be executed independently for flexible and customized workflows.
 
@@ -167,11 +170,11 @@ python vcode-suite/revision.py \
 
 ---
 
-# 🔮 Evaluation
+## 🔮 Evaluation
 
-## ⚙️ Usage
+### ⚙️ Usage
 
-### 1️⃣ Generate IMGs for all three datasets
+#### 1️⃣ Generate IMGs for all three datasets
 
 Use the VCode-suite pipeline (or standalone scripts) to render images for each dataset.
 Original images are already in `data/`:
@@ -189,7 +192,7 @@ generated_imgs/  ← used by the evaluators
 
 ---
 
-### 2️⃣ Run each dataset’s evaluator
+#### 2️⃣ Run each dataset’s evaluator
 
 Each evaluator is a shell script under `evaluation/…`. They all follow the same usage:
 
@@ -215,7 +218,7 @@ These scripts will read your `generated_imgs/` and compute scores.
 
 ---
 
-### 3️⃣ Calculate each dataset’s metrics
+#### 3️⃣ Calculate each dataset’s metrics
 
 
 **Full Command with Options**
@@ -282,7 +285,7 @@ folder2/
 
 ---
 
-# 📌 Citation
+## 📌 Citation
 If you find our work useful, please cite:
 
 ```bibtex
