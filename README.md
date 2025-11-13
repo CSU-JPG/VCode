@@ -1,4 +1,4 @@
-## 🎨 VCode: SVG as Symbolic Visual Representation
+# 🎨 VCode: SVG as Symbolic Visual Representation
 
 <p align="center">
 <a href="https://csu-jpg.github.io/VCode" target="_blank"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
