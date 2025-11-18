@@ -180,8 +180,8 @@ python vcode-suite/revision.py \
 Use the VCode-suite pipeline (or standalone scripts) to render images for each dataset.
 Original images are already in `data/`:
 
-- **MM-Vet:** `data/mm-vet`
-- **CV-Bench:** `data/cv-bench/img`
+- **MM-Vet:** `data/mm-vet/images`
+- **CV-Bench:** `data/cv-bench`
 - **MMMU:** `data/mmmu/mmmu_dev_processed_single_img_subset`
 
 Running your pipeline will produce, per dataset, a folder like:
