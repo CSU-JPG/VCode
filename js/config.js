@@ -130,7 +130,7 @@ const PRED_SET   = {
     'qwen3vl': 'mm-vet/prediction/gpt4o-mini/pred_qwen3vl.json',
     'starvector': 'mm-vet/prediction/gpt4o-mini/pred_starvector.json',
     'vcoder': 'mm-vet/prediction/gpt4o-mini/pred_vcoder.json',
-    'gemini3.5': 'mm-vet/prediction/gpt4o-mini/pred_gemini3.json'
+    'gemini3': 'mm-vet/prediction/gpt4o-mini/pred_gemini3.json'
   }
 };
 const SCORE_SET  = {
@@ -234,7 +234,7 @@ const renderConfig = {
     orig: 'Orig. Image', vcoder: 'VCoder', gemini3: 'Gemini-3-Pro', 'cla4.5S': 'Claude-4.5-Sonnet', cla: 'Claude-4-Opus', gemf: 'Gemini-2.5-Flash', 'glm4.1Vthink': 'GLM-4.1-Thinking', 'glm4.5V': 'GLM-4.5V', gpto3: 'GPT-o3', interns1: 'Intern-S1', 'internvl3.5': 'InternVL-3.5', llama4: 'Llama-4', 'minicpmv4.5': 'MiniCPM-V-4.5', omnisvg: 'OmniSVG', 'qwen2.5vl7b': 'Qwen2.5-VL-7B', qwen3vl: 'Qwen3-VL', starvector: 'StarVector', 
     clatxt: 'Claude-4-Opus-Txt', gem: 'Gemini-2.5-Pro', qwn: 'Qwen2.5-VL-72B', gpt: 'GPT-4o', 'gpttxt': 'GPT-4o-Txt', 'gpt4.1': 'GPT-4.1', 'gpt4.1txt': 'GPT-4.1-Txt', 'claS': 'Claude-4-Sonnet', 'claStxt': 'Claude-4-Sonnet-Txt', 'claSthink': 'Claude-4-Sonnet-Th', 'g4omni': 'GPT-4o-mini', 'g4omnitxt': 'GPT-4o-mini-Txt', 'clathink': 'Claude-4-Opus-Th', 'internvl3': 'InternVL3', 'seed1.6': 'Seed1.6', 'seed1.6txt': 'Seed1.6-Txt', 'claRev': 'Claude-4-Opus-Rev', 'claRevtxt': 'Claude-4-Opus-Rev-Txt', 'clagsam': 'Claude-4-Opus+L&C&S', 'clahint': 'Claude-4-Opus-Hint', 'clahintRev': 'Claude-4-Opus-Hint-Rev', 'claocr': 'Claude-4-Opus+Txt', 'gpt5': 'GPT-5', 'gpt5txt': 'GPT-5-Txt', 'claflorence': 'Claude-4-Opus+L&C', 'vcoder': 'Claude-4-Opus+VCoder'
   },
-    scoreLabels: { orig: 'S-Orig', cla: 'S-Cla', clatxt: 'S-ClaT', gem: 'S-Gem', qwn: 'S-Qwn', gpt: 'S-GPT', 'gpttxt': 'S-GPT-Txt', 'gpt4.1': 'S-GPT4.1', 'gpt4.1txt': 'S-GPT4.1T', 'claS': 'S-ClaS', 'claStxt': 'S-ClaST', 'claSthink': 'S-ClaSTh', 'g4omni': 'S-G4o-mini', 'g4omnitxt': 'S-G4ominiT', 'clathink': 'S-Cla-Th', 'internvl3': 'S-InternVL3', 'seed1.6': 'S-Seed', 'seed1.6txt': 'S-SeedT', 'claRev': 'S-ClaR', 'claRevtxt': 'S-ClaRev-Txt', 'clagsam': 'S-ClaGSAM', 'clahint': 'S-ClaHint', 'clahintRev': 'S-ClaHintR', 'claocr': 'S-ClaOCR', 'gpt5': 'S-GPT5', 'gpt5txt': 'S-GPT5-Txt', 'claflorence': 'S-ClaFlorence' }
+    scoreLabels: { orig: 'S-Orig', gemini3:'S-Gemini-3-Pro', cla: 'S-Cla', clatxt: 'S-ClaT', gem: 'S-Gem', qwn: 'S-Qwn', gpt: 'S-GPT', 'gpttxt': 'S-GPT-Txt', 'gpt4.1': 'S-GPT4.1', 'gpt4.1txt': 'S-GPT4.1T', 'claS': 'S-ClaS', 'claStxt': 'S-ClaST', 'claSthink': 'S-ClaSTh', 'g4omni': 'S-G4o-mini', 'g4omnitxt': 'S-G4ominiT', 'clathink': 'S-Cla-Th', 'internvl3': 'S-InternVL3', 'seed1.6': 'S-Seed', 'seed1.6txt': 'S-SeedT', 'claRev': 'S-ClaR', 'claRevtxt': 'S-ClaRev-Txt', 'clagsam': 'S-ClaGSAM', 'clahint': 'S-ClaHint', 'clahintRev': 'S-ClaHintR', 'claocr': 'S-ClaOCR', 'gpt5': 'S-GPT5', 'gpt5txt': 'S-GPT5-Txt', 'claflorence': 'S-ClaFlorence' }
 };
 
 // =======================================================
@@ -526,6 +526,8 @@ renderConfig: {
   },
   scoreLabels: {
     'orig': 'S-Orig',
+    'gemini3': 'S-Gemini3',
+    'vcode': 'S-VCoder',
     'cla': 'S-Cla',
     'clason45': 'S-Clason45',
     'clason': 'S-Clason',
@@ -548,8 +550,7 @@ renderConfig: {
     'qv72b': 'S-Qwen72B',
     'seed16t': 'S-Seed16Th',
     'omnisvg': 'S-OmniSVG',
-    'sv8b': 'S-StarVector8B',
-    'vcode': 'S-VCoder'
+    'sv8b': 'S-StarVector8B'
   }
 }
 
