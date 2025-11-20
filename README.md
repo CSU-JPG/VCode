@@ -26,6 +26,7 @@
 </p>
 
 ## 📣 News
+- **[2025.11.08]** 🌟 Added Gemini-3-Pro to our benchmark, showing excellent performance.
 - **[2025.11.08]** 🎥 Released our **demo video** featuring lots of fun memes and reaction images converted into SVGs.
 - **[2025.11.08]** 🚀 We now offer a **free trial API** on our 🤗 **[HuggingFace Space](https://huggingface.co/spaces/CSU-JPG/VCode)**.
 - **[2025.11.05]** 🔥 We are honored to be featured as 🤗 **[HuggingFace Daily Paper #1](https://huggingface.co/papers/2511.02778)**.
