@@ -41,6 +41,7 @@ const GENERATOR_SETS = {
   'qwen3vl': 'Qwen3-VL',
   'starvector': 'StarVector',
   'vcoder': 'VCoder',
+  'gemini3': 'Gemini-3-Pro',
 };
 
 const GENERATOR_VARIANTS = {
@@ -67,7 +68,8 @@ const GENERATOR_VARIANTS = {
   'gpto3': ['gpto3'],
   'gpt5': ['gpt5', 'gpt5txt'],
   'gpt4.1': ['gpt4.1', 'gpt4.1txt'],
-  'g4omni': ['g4omni', 'g4omnitxt']
+  'g4omni': ['g4omni', 'g4omnitxt'],
+  'gemini3': ['gemini3'],
 };
 
 const TEXT_SET = {
@@ -128,6 +130,7 @@ const PRED_SET   = {
     'qwen3vl': 'mm-vet/prediction/gpt4o-mini/pred_qwen3vl.json',
     'starvector': 'mm-vet/prediction/gpt4o-mini/pred_starvector.json',
     'vcoder': 'mm-vet/prediction/gpt4o-mini/pred_vcoder.json',
+    'gemini3.5': 'mm-vet/prediction/gpt4o-mini/pred_gemini3.json'
   }
 };
 const SCORE_SET  = {
@@ -176,6 +179,7 @@ const SCORE_SET  = {
     'qwen3vl': 'mm-vet/score/gpt4o-mini/score_qwen3vl.json',
     'starvector': 'mm-vet/score/gpt4o-mini/score_starvector.json',
     'vcoder': 'mm-vet/score/gpt4o-mini/score_vcoder.json',
+    'gemini3': 'mm-vet/score/gpt4o-mini/score_gemini3.json',
   }
 };
 const IMG_DIR = {
@@ -221,12 +225,13 @@ const IMG_DIR = {
   'qwen3vl': 'mm-vet/images_qwen3vl/',
   'starvector': 'mm-vet/images_starvector/',
   'vcoder': 'mm-vet/images_vcoder/',
+  'gemini3': 'mm-vet/images_gemini3/'
 };
 
 const renderConfig = {
-    variantsByMethod: { 'img2svg': ['cla', 'gem', 'qwn', 'gpt', 'gpt4.1', 'claS', 'g4omni', 'internvl3', 'seed1.6', 'gpt5', 'gemf','cla4.5S', 'glm4.1Vthink', 'glm4.5V', 'gpto3', 'interns1', 'internvl3.5', 'llama4', 'minicpmv4.5', 'omnisvg', 'qwen2.5vl7b', 'qwen3vl', 'starvector', 'vcoder'], 'img2text2svg': ['clatxt', 'gpt4.1txt', 'claStxt', 'g4omnitxt', 'gpttxt', 'seed1.6txt', 'gpt5txt'], 'img2svg-thinking': ['clathink', 'claSthink'], 'img2svg-revision': ['claRev'], 'img2svg-revision-text': ['claRevtxt'], 'img2svg-gsam': ['clagsam'], 'img2svg-hint': ['clahint'], 'img2svg-hint-revision': ['clahintRev'], 'img2svg-ocr': ['claocr'], 'img2svg-florence': ['claflorence'], 'img2svg-all-in-one-revision':['vcoder'] },
+    variantsByMethod: { 'img2svg': ['gemini3', 'cla', 'gem', 'qwn', 'gpt', 'gpt4.1', 'claS', 'g4omni', 'internvl3', 'seed1.6', 'gpt5', 'gemf','cla4.5S', 'glm4.1Vthink', 'glm4.5V', 'gpto3', 'interns1', 'internvl3.5', 'llama4', 'minicpmv4.5', 'omnisvg', 'qwen2.5vl7b', 'qwen3vl', 'starvector', 'vcoder'], 'img2text2svg': ['clatxt', 'gpt4.1txt', 'claStxt', 'g4omnitxt', 'gpttxt', 'seed1.6txt', 'gpt5txt'], 'img2svg-thinking': ['clathink', 'claSthink'], 'img2svg-revision': ['claRev'], 'img2svg-revision-text': ['claRevtxt'], 'img2svg-gsam': ['clagsam'], 'img2svg-hint': ['clahint'], 'img2svg-hint-revision': ['clahintRev'], 'img2svg-ocr': ['claocr'], 'img2svg-florence': ['claflorence'], 'img2svg-all-in-one-revision':['vcoder'] },
   headerLabels: {
-    orig: 'Orig. Image', cla: 'Claude-4-Opus', gemf: 'Gemini-2.5-Flash', 'cla4.5S': 'Claude-4.5-Sonnet', 'glm4.1Vthink': 'GLM-4.1-Thinking', 'glm4.5V': 'GLM-4.5V', gpto3: 'GPT-o3', interns1: 'Intern-S1', 'internvl3.5': 'InternVL-3.5', llama4: 'Llama-4', 'minicpmv4.5': 'MiniCPM-V-4.5', omnisvg: 'OmniSVG', 'qwen2.5vl7b': 'Qwen2.5-VL-7B', qwen3vl: 'Qwen3-VL', starvector: 'StarVector', vcoder: 'VCoder',
+    orig: 'Orig. Image', vcoder: 'VCoder', gemini3: 'Gemini-3-Pro', 'cla4.5S': 'Claude-4.5-Sonnet', cla: 'Claude-4-Opus', gemf: 'Gemini-2.5-Flash', 'glm4.1Vthink': 'GLM-4.1-Thinking', 'glm4.5V': 'GLM-4.5V', gpto3: 'GPT-o3', interns1: 'Intern-S1', 'internvl3.5': 'InternVL-3.5', llama4: 'Llama-4', 'minicpmv4.5': 'MiniCPM-V-4.5', omnisvg: 'OmniSVG', 'qwen2.5vl7b': 'Qwen2.5-VL-7B', qwen3vl: 'Qwen3-VL', starvector: 'StarVector', 
     clatxt: 'Claude-4-Opus-Txt', gem: 'Gemini-2.5-Pro', qwn: 'Qwen2.5-VL-72B', gpt: 'GPT-4o', 'gpttxt': 'GPT-4o-Txt', 'gpt4.1': 'GPT-4.1', 'gpt4.1txt': 'GPT-4.1-Txt', 'claS': 'Claude-4-Sonnet', 'claStxt': 'Claude-4-Sonnet-Txt', 'claSthink': 'Claude-4-Sonnet-Th', 'g4omni': 'GPT-4o-mini', 'g4omnitxt': 'GPT-4o-mini-Txt', 'clathink': 'Claude-4-Opus-Th', 'internvl3': 'InternVL3', 'seed1.6': 'Seed1.6', 'seed1.6txt': 'Seed1.6-Txt', 'claRev': 'Claude-4-Opus-Rev', 'claRevtxt': 'Claude-4-Opus-Rev-Txt', 'clagsam': 'Claude-4-Opus+L&C&S', 'clahint': 'Claude-4-Opus-Hint', 'clahintRev': 'Claude-4-Opus-Hint-Rev', 'claocr': 'Claude-4-Opus+Txt', 'gpt5': 'GPT-5', 'gpt5txt': 'GPT-5-Txt', 'claflorence': 'Claude-4-Opus+L&C', 'vcoder': 'Claude-4-Opus+VCoder'
   },
     scoreLabels: { orig: 'S-Orig', cla: 'S-Cla', clatxt: 'S-ClaT', gem: 'S-Gem', qwn: 'S-Qwn', gpt: 'S-GPT', 'gpttxt': 'S-GPT-Txt', 'gpt4.1': 'S-GPT4.1', 'gpt4.1txt': 'S-GPT4.1T', 'claS': 'S-ClaS', 'claStxt': 'S-ClaST', 'claSthink': 'S-ClaSTh', 'g4omni': 'S-G4o-mini', 'g4omnitxt': 'S-G4ominiT', 'clathink': 'S-Cla-Th', 'internvl3': 'S-InternVL3', 'seed1.6': 'S-Seed', 'seed1.6txt': 'S-SeedT', 'claRev': 'S-ClaR', 'claRevtxt': 'S-ClaRev-Txt', 'clagsam': 'S-ClaGSAM', 'clahint': 'S-ClaHint', 'clahintRev': 'S-ClaHintR', 'claocr': 'S-ClaOCR', 'gpt5': 'S-GPT5', 'gpt5txt': 'S-GPT5-Txt', 'claflorence': 'S-ClaFlorence' }
@@ -254,7 +259,16 @@ const CVBENCH_CONFIG = {
         "depth": "Depth Order",
         "relative": "Relative Distance"
     },
-generators: {
+  generators: {
+  'gemini3': {
+      name: 'cv-bench/Gemini-3-Pro',
+      label: 'Gemini-3-Pro',
+      files: [
+        'gpt-4o-mini-2024-07-18_answers_ade.jsonl',
+        'gpt-4o-mini-2024-07-18_answers_coco.jsonl',
+        'gpt-4o-mini-2024-07-18_answers_omni.jsonl'
+      ]
+  },
   'cla': {
     name: 'cv-bench/Claude-4-Opus',
     label: 'Claude-4-Opus',
@@ -479,22 +493,24 @@ methodSets: {
 
 renderConfig: {
   variantsByMethod: {
-    'img2svg': [ 'cla','clason45','clason','g25f','g25p','glm41vt','glm45v','g41','g4o','g4om','g5','go3','llama4','s1','ivl35','ivl78', 'mcp45','qv3vl','qv7b','qv72b','seed16t','omnisvg','sv8b','vcode'
+    'img2svg': [ 'gemini3', 'vcode', 'cla','clason45','clason','g25f','g25p','g5','glm41vt','glm45v','g41','g4o','g4om','go3','llama4','s1','ivl35','ivl78', 'mcp45','qv3vl','qv7b','qv72b','seed16t','omnisvg','sv8b'
     ]
   },
   headerLabels: {
     'orig': 'Orig. Image',
+    'gemini3': 'Gemini-3-Pro',
+    'vcode': 'VCoder',
     'cla': 'Claude-4-Opus',
     'clason45': 'Claude-4.5-Sonnet',
     'clason': 'Claude-4-Sonnet',
     'g25f': 'Gemini-2.5-Flash',
     'g25p': 'Gemini-2.5-Pro',
+    'g5': 'GPT-5',
     'glm41vt': 'GLM-4.1V-Th',
     'glm45v': 'GLM-4.5V',
     'g41': 'GPT-4.1',
     'g4o': 'GPT-4o',
     'g4om': 'GPT-4o-mini',
-    'g5': 'GPT-5',
     'go3': 'GPT-o3',
     'llama4': 'Llama-4',
     's1': 'Intern-S1',
@@ -507,7 +523,6 @@ renderConfig: {
     'seed16t': 'Seed-1.6-Th',
     'omnisvg': 'OmniSVG-3B',
     'sv8b': 'StarVector-8B',
-    'vcode': 'VCoder'
   },
   scoreLabels: {
     'orig': 'S-Orig',
@@ -516,12 +531,12 @@ renderConfig: {
     'clason': 'S-Clason',
     'g25f': 'S-G2.5F',
     'g25p': 'S-G2.5P',
+    'g5': 'S-G5',
     'glm41vt': 'S-GLM41VTh',
     'glm45v': 'S-GLM45V',
     'g41': 'S-G4.1',
     'g4o': 'S-G4o',
     'g4om': 'S-G4oM',
-    'g5': 'S-G5',
     'go3': 'S-Go3',
     'llama4': 'S-Llama4',
     's1': 'S-InternS1',
@@ -587,18 +602,20 @@ const MMMU_CONFIG = {
         'g4omini': 'GPT-4o-mini'
     },
     
-    generators: {
+  generators: {
+      'gemini3': { name: 'mmmu/Gemini-3-Pro', label: 'Gemini-3-Pro' },
+      'vcoderc':  { name: 'mmmu/VCoder', label: 'VCoder' },
       'cla': { name: 'mmmu/Claude-4-Opus', label: 'Claude-4-Opus' },
       'cla_son45': { name: 'mmmu/Claude-4.5-Sonnet', label: 'Claude-4.5-Sonnet' },
       'cla_son':  { name: 'mmmu/Claude-4-Sonnet', label: 'Claude-4-Sonnet' },
       'gem25f':   { name: 'mmmu/Gemini-2.5-Flash', label: 'Gemini-2.5-Flash' },
-      'gem25p':   { name: 'mmmu/Gemini-2.5-Pro', label: 'Gemini-2.5-Pro' },
+      'gem25p': { name: 'mmmu/Gemini-2.5-Pro', label: 'Gemini-2.5-Pro' },
+      'g5':       { name: 'mmmu/GPT-5', label: 'GPT-5' },
       'glm41vt':  { name: 'mmmu/GLM-4.1V-Thinking', label: 'GLM-4.1V-Thinking' },
       'glm45v':   { name: 'mmmu/GLM-4.5V', label: 'GLM-4.5V' },
       'g41':      { name: 'mmmu/GPT-4.1', label: 'GPT-4.1' },
       'g4o':      { name: 'mmmu/GPT-4o', label: 'GPT-4o' },
       'g4omini':  { name: 'mmmu/GPT-4o-mini', label: 'GPT-4o-mini' },
-      'g5':       { name: 'mmmu/GPT-5', label: 'GPT-5' },
       'go3': { name: 'mmmu/GPT-o3', label: 'GPT-o3' },
       'llama4': { name: 'mmmu/Llama-4', label: 'Llama-4' },
       'interns1': { name: 'mmmu/Intern-S1', label: 'Intern-S1' },
@@ -611,7 +628,6 @@ const MMMU_CONFIG = {
       'qwen72b':  { name: 'mmmu/Qwen2.5-VL-72B', label: 'Qwen2.5-VL-72B' },
       'seed16t':  { name: 'mmmu/Seed-1.6-Thinking', label: 'Seed-1.6-Thinking' },
       'starvec': { name: 'mmmu/StarVector', label: 'StarVector' },
-      'vcoderc':  { name: 'mmmu/VCoder', label: 'VCoder' },
     },
     methodSets: {
         'img2svg': 'Img2SVG'
@@ -619,20 +635,21 @@ const MMMU_CONFIG = {
     renderConfig: {
        variantsByMethod: {
         'img2svg': [
-        'cla','cla_son45','cla_son','gem25f','gem25p','glm41vt','glm45v',
-        'g41','g4o','g4omini','g5','go3','llama4',
+        'gemini3', 'vcoderc', 'cla','cla_son45','cla_son','gem25f','gem25p','g5','glm41vt','glm45v',
+        'g41','g4o','g4omini','go3','llama4',
         'interns1','ivl35','ivl3_78b','minicpm',
-        'omnisvg','qwen3vl','qwen7b','qwen72b','seed16t','starvec','vcoderc']
+        'omnisvg','qwen3vl','qwen7b','qwen72b','seed16t','starvec']
        },
     headerLabels: {
       'orig': 'Orig. Image',
+      'gemini3': 'Gemini-3-Pro','vcoderc':'VCoder',
       'cla':'Claude-4-Opus','cla_son45':'Claude-4.5-Sonnet','cla_son':'Claude-4-Sonnet',
-      'gem25f':'Gemini-2.5-Flash','gem25p':'Gemini-2.5-Pro',
+      'gem25f':'Gemini-2.5-Flash','gem25p':'Gemini-2.5-Pro','g5':'GPT-5',
       'glm41vt':'GLM-4.1V-Thinking','glm45v':'GLM-4.5V',
-      'g41':'GPT-4.1','g4o':'GPT-4o','g4omini':'GPT-4o-mini','g5':'GPT-5','go3':'GPT-o3','llama4':'Llama-4',
+      'g41':'GPT-4.1','g4o':'GPT-4o','g4omini':'GPT-4o-mini','go3':'GPT-o3','llama4':'Llama-4',
       'interns1':'Intern-S1','ivl35':'InternVL3.5','ivl3_78b':'InternVL3-78B',
       'minicpm':'MiniCPM-V-4_5','omnisvg':'OmniSVG-3B','qwen3vl':'Qwen3-VL','qwen7b':'Qwen2.5-VL-7B','qwen72b':'Qwen2.5-VL-72B',
-      'seed16t':'Seed-1.6-Thinking','starvec':'StarVector-8B','vcoderc':'VCoder'
+      'seed16t':'Seed-1.6-Thinking','starvec':'StarVector-8B'
     },
     scoreLabels: {
       'orig':'S-Orig',

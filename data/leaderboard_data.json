@@ -1,4 +1,35 @@
 [
+{
+    "modelName": "Gemini-3-Pro",
+    "sigLipScore":0,
+    "codeToken": 1.8,
+    "size": null,
+    "date": "2025-11-20",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 52.1,
+      "general": {
+        "avg": 39.0,
+        "rec": 29.7,
+        "ocr": 57.6,
+        "know": 11.9,
+        "gen": 17.0,
+        "spat": 57.3,
+        "math": 52.7,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 42.5,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 58.7,
+        "2d": 59.1,
+        "3d": 58.3,
+        "samples": 100
+      }
+    }
+  },
   {
     "modelName": "Claude-4.5-Sonnet",
     "sigLipScore": 66.8,

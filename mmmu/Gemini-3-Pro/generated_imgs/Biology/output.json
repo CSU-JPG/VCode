@@ -1,0 +1,136 @@
+[
+  {
+    "id": "dev_Biology_1",
+    "question": "The hotizontal lines in the phylogenetic tree in <image 1> represent",
+    "question_type": "multiple-choice",
+    "options": [
+      "speciation events",
+      "separation events",
+      "relative length of time in existence",
+      "a common ancestor"
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "speciation events",
+      "B": "separation events",
+      "C": "relative length of time in existence",
+      "D": "a common ancestor"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Biology/dev_Biology_1_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Biology_2",
+    "question": "In <image 1>, if the nuclei were contained within the stalks of Acetabularia, what types of caps would you expect from graft A?",
+    "question_type": "multiple-choice",
+    "options": [
+      "A. crenulata",
+      "A. mediterranea",
+      "None of above"
+    ],
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "A. crenulata",
+      "B": "A. mediterranea",
+      "C": "None of above"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Biology/dev_Biology_2_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Biology_3",
+    "question": "<image 1> What kind of sugar is this, aldose or ketose?",
+    "question_type": "multiple-choice",
+    "options": [
+      "aldose",
+      "ketose"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B"
+    ],
+    "index2ans": {
+      "A": "aldose",
+      "B": "ketose"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Biology/dev_Biology_3_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Biology_4",
+    "question": "For your independent research, you transferred lymphocyte populations between syngeneic mice. You irradiated recipients first to ablate (get rid of) existing lymphocytes, then transferred defined cell populations from donors of same genetic background. The result is shown in <image 1>. What does this experiment tell us?",
+    "question_type": "multiple-choice",
+    "options": [
+      "Both B cells and T cells can produce antibodies.",
+      "Both B cells and T cells have memory functions.",
+      "Both B cells and T cells are required for an antibody response.",
+      "B cells are required for an antibody response in the absence of T cells.",
+      "B cells and T cells are co-localized and produce synergetic effects in bone marrow and thymus."
+    ],
+    "answer": "C",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "index2ans": {
+      "A": "Both B cells and T cells can produce antibodies.",
+      "B": "Both B cells and T cells have memory functions.",
+      "C": "Both B cells and T cells are required for an antibody response.",
+      "D": "B cells are required for an antibody response in the absence of T cells.",
+      "E": "B cells and T cells are co-localized and produce synergetic effects in bone marrow and thymus."
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Biology/dev_Biology_4_img1.png"
+    ],
+    "response": ""
+  },
+  {
+    "id": "dev_Biology_5",
+    "question": "In the Section of male pelvis, identify the 92 structure. <image 1>",
+    "question_type": "multiple-choice",
+    "options": [
+      "Obturator internus",
+      "Levatorani",
+      "Prostatic venous plexus",
+      "Obturator membrane"
+    ],
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "Obturator internus",
+      "B": "Levatorani",
+      "C": "Prostatic venous plexus",
+      "D": "Obturator membrane"
+    },
+    "image_paths": [
+      "./mmmu_dev_processed_single_img_subset/Biology/dev_Biology_5_img1.png"
+    ],
+    "response": ""
+  }
+]

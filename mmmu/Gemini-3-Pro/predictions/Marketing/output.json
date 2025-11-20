@@ -1,0 +1,84 @@
+[
+  {
+    "id": "dev_Marketing_1",
+    "question_type": "multiple-choice",
+    "answer": "B",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Larger.",
+      "B": "Smaller.",
+      "C": "Not certain."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Marketing_2",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "There is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "B": "There is sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
+      "C": "Not certain."
+    },
+    "response": "B"
+  },
+  {
+    "id": "dev_Marketing_3",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "B": "No, there is not enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
+      "C": "Not certain."
+    },
+    "response": "C"
+  },
+  {
+    "id": "dev_Marketing_4",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "index2ans": {
+      "A": "There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "B": "There is sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+      "C": "Not certain."
+    },
+    "response": "A"
+  },
+  {
+    "id": "dev_Marketing_5",
+    "question_type": "multiple-choice",
+    "answer": "A",
+    "all_choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "index2ans": {
+      "A": "0.6029",
+      "B": "0.6030",
+      "C": "0.6031",
+      "D": "0.6032"
+    },
+    "response": "B"
+  }
+]
