@@ -1,0 +1,137 @@
+<svg viewBox="0 0 1000 562" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A6B8A" />
+      <stop offset="40%" stop-color="#7C90A6" />
+      <stop offset="100%" stop-color="#FDD095" />
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#D4AF8F" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="jetMetal" x1="0%" y1="0%" x2="100%" y2="20%">
+      <stop offset="0%" stop-color="#586875" />
+      <stop offset="40%" stop-color="#8FA3B2" />
+      <stop offset="60%" stop-color="#C8D6E0" />
+      <stop offset="100%" stop-color="#9AA8B5" />
+    </linearGradient>
+    <linearGradient id="jetNozzle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111" />
+      <stop offset="50%" stop-color="#333" />
+      <stop offset="100%" stop-color="#111" />
+    </linearGradient>
+    <filter id="blurCloud" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="1000" height="562" fill="url(#skyGrad)" />
+
+  <!-- Distant Clouds -->
+  <g filter="url(#blurCloud)">
+    <path d="M0,200 Q200,150 500,200 Q800,250 1000,200 V562 H0 Z" fill="#fff" opacity="0.3" />
+    <ellipse cx="300" cy="100" rx="150" ry="40" fill="#fff" opacity="0.2" />
+    <ellipse cx="700" cy="80" rx="200" ry="50" fill="#fff" opacity="0.2" />
+  </g>
+
+  <!-- Distant Jet (Upper Center) -->
+  <g transform="translate(450, 110) scale(0.35)">
+    <!-- Distant Jet Body -->
+    <path d="M0,20 L150,0 L300,20 L150,40 Z" fill="#6A7A8B" />
+    <!-- Distant Wings -->
+    <path d="M100,20 L-50,80 L150,30 Z" fill="#5C6D7E" />
+    <path d="M100,20 L200,-40 L150,10 Z" fill="#5C6D7E" />
+    <!-- Distant Tails -->
+    <path d="M20,20 L0,-20 L40,10 Z" fill="#4A5A6B" />
+    <path d="M60,20 L40,-20 L80,10 Z" fill="#4A5A6B" />
+  </g>
+
+  <!-- Foreground Jet Group -->
+  <g id="foregroundJet">
+    <!-- Right Wing (Far side) -->
+    <path d="M550,220 L750,230 L650,250 Z" fill="#7C8D9C" stroke="#4A5766" stroke-width="1" />
+    
+    <!-- Right Tail Fin -->
+    <path d="M320,280 L370,150 L460,170 L420,280 Z" fill="#8495A3" stroke="#5E6F82" stroke-width="1" />
+    
+    <!-- Right Engine Nozzle Area -->
+    <path d="M280,410 L380,380 L400,300 L300,330 Z" fill="#5E6F82" />
+    <ellipse cx="310" cy="410" rx="30" ry="25" fill="url(#jetNozzle)" stroke="#222" stroke-width="2" />
+
+    <!-- Fuselage Main Body -->
+    <path d="M250,350 
+             C350,300 500,250 700,200 
+             L950,210 
+             Q980,215 950,230 
+             C800,260 600,300 400,350 
+             C350,360 300,380 250,350" 
+             fill="url(#jetMetal)" stroke="#6E7F8F" stroke-width="1" />
+    
+    <!-- Canopy -->
+    <path d="M720,200 Q780,170 840,190 L880,205 L730,215 Z" fill="#1A2533" stroke="#333" stroke-width="1" />
+    <path d="M750,195 L760,190 M790,185 L800,188" stroke="#556" stroke-width="1" opacity="0.5" />
+
+    <!-- Left Vertical Tail Fin -->
+    <path d="M220,280 L280,130 L400,150 L330,290 Z" fill="#94A5B3" stroke="#5E6F82" stroke-width="1" />
+    
+    <!-- Left Tail Markings -->
+    <g transform="translate(270, 180) skewY(-10) scale(1.2)">
+       <rect x="0" y="0" width="40" height="50" fill="none" stroke="#333" stroke-width="1" />
+       <text x="20" y="15" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#333" font-weight="bold">BLACK</text>
+       <path d="M20,20 L10,35 L20,45 L30,35 Z" fill="#222" />
+       <rect x="18" y="40" width="4" height="8" fill="#222" />
+       <text x="20" y="35" font-family="sans-serif" font-size="10" text-anchor="middle" fill="#EEE" font-weight="bold">41</text>
+       <text x="20" y="48" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#333" font-weight="bold">ACES</text>
+    </g>
+
+    <!-- Spine/Dorsal Details -->
+    <path d="M400,280 L720,200" stroke="#6E7F8F" stroke-width="1" fill="none" />
+
+    <!-- Left Engine Nozzle -->
+    <g transform="translate(-20, 10)">
+      <path d="M180,380 L280,350 L300,300 L200,330 Z" fill="#6A7A8B" />
+      <ellipse cx="180" cy="390" rx="32" ry="28" fill="url(#jetNozzle)" stroke="#222" stroke-width="2" />
+      <path d="M160,390 L180,365 L200,390 L180,415 Z" fill="#222" opacity="0.5" />
+    </g>
+
+    <!-- Left Horizontal Stabilizer -->
+    <path d="M60,350 L180,370 L260,340 L120,320 Z" fill="#8FA3B2" stroke="#5E6F82" stroke-width="1" />
+
+    <!-- Left Wing (Swept) -->
+    <!-- Complex shape: root at fuselage, sweeping back/out -->
+    <path d="M500,250 L50,330 L150,380 L580,290 Z" fill="#BCCCD9" stroke="#7A8B99" stroke-width="1" />
+    
+    <!-- Wing Details -->
+    <path d="M500,250 L150,330" stroke="#94A5B3" stroke-width="1" />
+    <path d="M450,270 L200,330" stroke="#94A5B3" stroke-width="1" />
+    
+    <!-- Fuselage Markings -->
+    <!-- "101" on Nose -->
+    <text x="860" y="235" font-family="Arial" font-weight="bold" font-size="16" fill="#333" transform="rotate(8 860,235)">101</text>
+    
+    <!-- Star Insignia -->
+    <g transform="translate(780, 245) rotate(5) scale(0.6)">
+      <circle cx="0" cy="0" r="20" fill="#222" />
+      <path d="M-20,0 L-30,-10 L-30,10 Z" fill="#222" />
+      <path d="M20,0 L30,-10 L30,10 Z" fill="#222" />
+      <path d="M0,-20 L-5,-5 L-20,-5 L-8,5 L-12,20 L0,12 L12,20 L8,5 L20,-5 L5,-5 Z" fill="#DDD" />
+    </g>
+    
+    <!-- "NAVY" Text -->
+    <text x="450" y="370" font-family="Arial" font-weight="bold" font-size="20" fill="#444" transform="rotate(-5 450,370) skewX(-10)">NAVY</text>
+    <text x="420" y="390" font-family="Arial" font-size="12" fill="#444" transform="rotate(-5 420,390) skewX(-10)">VF-41</text>
+    
+    <!-- Underwing Stores (Missiles/Tanks) -->
+    <path d="M550,330 L700,290 L710,300 L560,340 Z" fill="#DDEEFF" stroke="#8899AA" />
+    <path d="M600,305 L610,325" stroke="#8899AA" stroke-width="1"/>
+  </g>
+
+  <!-- Foreground Clouds/Mist -->
+  <g filter="url(#blurCloud)">
+    <path d="M0,400 Q200,350 400,450 Q700,500 1000,400 V562 H0 Z" fill="url(#cloudGrad)" />
+    <ellipse cx="200" cy="500" rx="200" ry="80" fill="#fff" opacity="0.4" />
+    <ellipse cx="800" cy="480" rx="150" ry="60" fill="#fff" opacity="0.3" />
+  </g>
+  
+</svg>

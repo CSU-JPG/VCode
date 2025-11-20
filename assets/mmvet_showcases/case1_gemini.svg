@@ -1,0 +1,111 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a472a;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66bb6a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="blurBg" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="800" fill="url(#grassGradient)" />
+  
+  <!-- Blurred Trees/Foliage Background -->
+  <g filter="url(#blurBg)" fill="#143b22" opacity="0.7">
+    <path d="M-50,0 L650,0 L650,400 Q500,450 400,350 T200,380 Q50,420 -50,350 Z" />
+    <circle cx="100" cy="200" r="120" opacity="0.5" />
+    <circle cx="500" cy="150" r="150" opacity="0.5" />
+    <circle cx="300" cy="100" r="100" opacity="0.5" />
+  </g>
+
+  <!-- The Frisbee -->
+  <g transform="rotate(-25, 150, 200)">
+    <ellipse cx="150" cy="200" rx="45" ry="12" fill="#ff9800" stroke="#e65100" stroke-width="2"/>
+    <ellipse cx="150" cy="200" rx="35" ry="8" fill="none" stroke="#ffe0b2" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- The Man -->
+  <g transform="translate(50, 40)">
+    <!-- Left Leg (Extended) -->
+    <path d="M150 600 L100 680 L130 700 L190 620 Z" fill="#dba690" /> <!-- Calf -->
+    
+    <!-- Left Shoe -->
+    <path d="M130 700 L100 720 Q90 730 100 735 L140 735 Q150 730 145 715 Z" fill="#f44336" />
+    <path d="M100 720 L140 735" stroke="#ffffff" stroke-width="2" fill="none" /> <!-- Sole -->
+
+    <!-- Right Leg (Bent, Knee down) -->
+    <path d="M380 650 L400 720 L450 720 L460 650 Z" fill="#dba690" /> <!-- Knee/Calf area -->
+    <!-- Right Shoe (Partially hidden/back) -->
+    <path d="M450 720 L470 730 L460 710 Z" fill="#f44336" />
+
+    <!-- Shorts (Blue) -->
+    <path d="M180 550 L280 520 L380 550 L440 650 L460 680 L380 700 L380 620 L300 640 L200 620 L150 580 Z" fill="#0d47a1" />
+    <path d="M280 520 L300 640" stroke="#083680" stroke-width="2" fill="none"/> <!-- Seam -->
+
+    <!-- Shirt (Red Hoodie/Sweater) -->
+    <path d="M250 450 Q300 420 380 430 L450 450 L500 550 L530 650 L500 670 L460 580 L420 600 L350 580 L280 550 L250 520 Z" fill="#d50000" />
+    <!-- Left Arm (Supporting) -->
+    <path d="M250 480 L180 500 L160 530" fill="#d50000" /> <!-- Sleeve hint -->
+    <!-- Right Arm (Supporting weight) -->
+    <path d="M480 480 L520 580 L550 660 L520 680 L480 600 Z" fill="#b71c1c" /> <!-- Shading -->
+    
+    <!-- Hand (Right) -->
+    <circle cx="530" cy="680" r="15" fill="#dba690" />
+
+    <!-- Head -->
+    <ellipse cx="480" cy="480" rx="35" ry="40" fill="#dba690" transform="rotate(-20, 480, 480)" />
+    <!-- Ear -->
+    <circle cx="495" cy="490" r="8" fill="#cfa08d" /> 
+    <!-- Cap (White, backwards) -->
+    <path d="M450 460 Q480 420 520 460 L530 490 L520 500 L510 480 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+    <path d="M520 480 L535 490" stroke="#000" stroke-width="3" /> <!-- Strap -->
+  </g>
+
+  <!-- The Dog (Border Collie) -->
+  <g transform="translate(20, -20)">
+    <!-- Tail -->
+    <path d="M500 350 Q550 320 570 300 Q580 290 560 280 Q540 280 500 320" fill="#212121" />
+    <path d="M570 300 Q580 290 565 285 Z" fill="#ffffff" /> <!-- Tail Tip -->
+
+    <!-- Hind Legs -->
+    <path d="M420 450 Q450 480 470 500 L450 520 Q400 480 400 450" fill="#212121" />
+    <path d="M450 520 L460 530 L440 535 Z" fill="#ffffff" /> <!-- Paw -->
+
+    <!-- Body Main -->
+    <path d="M420 450 Q480 380 450 320 L380 250 Q350 220 320 250 L300 300 Q320 350 380 420 Z" fill="#212121" />
+    
+    <!-- Chest/Stomach White -->
+    <path d="M330 320 Q360 350 380 420 L350 430 Q320 380 310 350 Z" fill="#ffffff" />
+
+    <!-- Front Legs -->
+    <path d="M320 300 L280 350 L270 340 L310 290 Z" fill="#ffffff" /> <!-- Left Front -->
+    <path d="M340 310 L300 370 L290 360 L330 300 Z" fill="#ffffff" /> <!-- Right Front -->
+
+    <!-- Neck/Collar White -->
+    <path d="M340 240 Q360 260 380 280 L360 300 Q330 280 320 250 Z" fill="#ffffff" />
+
+    <!-- Head -->
+    <g transform="rotate(-30, 300, 220)">
+      <!-- Neck Black -->
+      <path d="M290 230 L330 230 L330 260 L290 260 Z" fill="#212121" />
+      <!-- Skull -->
+      <ellipse cx="310" cy="220" rx="25" ry="20" fill="#212121" />
+      <!-- Snout -->
+      <path d="M290 215 L250 215 L250 230 L290 235 Z" fill="#212121" />
+      <!-- White Stripe on Face -->
+      <path d="M290 215 L260 218 L260 225 L290 225 Z" fill="#ffffff" />
+      <!-- Lower Jaw -->
+      <path d="M280 235 L255 240 L260 245 L290 240 Z" fill="#ffffff" />
+      <!-- Mouth Interior -->
+      <path d="M260 228 L280 235 L260 240 Z" fill="#5c0000" />
+      <!-- Eye -->
+      <circle cx="300" cy="218" r="2" fill="#ffffff" />
+      <circle cx="300" cy="218" r="1" fill="#000000" />
+      <!-- Ears -->
+      <path d="M320 210 L340 190 L330 220 Z" fill="#212121" />
+    </g>
+  </g>
+</svg>

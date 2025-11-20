@@ -1,0 +1,117 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#87CEEB"/>
+  
+  <!-- Grass areas -->
+  <rect x="0" y="0" width="1920" height="400" fill="#4a7c59"/>
+  <rect x="0" y="600" width="1920" height="480" fill="#4a7c59"/>
+  
+  <!-- Road -->
+  <rect x="1200" y="0" width="720" height="1080" fill="#505050"/>
+  <!-- Road lines -->
+  <line x1="1560" y1="0" x2="1560" y2="1080" stroke="#FFF" stroke-width="4" stroke-dasharray="20,15"/>
+  
+  <!-- Sidewalk -->
+  <rect x="700" y="0" width="120" height="1080" fill="#969696"/>
+  
+  <!-- Trees -->
+  <ellipse cx="150" cy="200" rx="120" ry="150" fill="#2d5016"/>
+  <rect x="120" y="300" width="60" height="200" fill="#654321"/>
+  <ellipse cx="1850" cy="150" rx="100" ry="130" fill="#2d5016"/>
+  <rect x="1825" y="250" width="50" height="150" fill="#654321"/>
+  
+  <!-- Left side parked car -->
+  <rect x="50" y="380" width="180" height="60" rx="15" fill="#C0C0C0"/>
+  <rect x="65" y="365" width="150" height="35" rx="10" fill="#C0C0C0"/>
+  <rect x="75" y="370" width="130" height="25" fill="#333"/>
+  <circle cx="90" cy="440" r="15" fill="#2F2F2F"/>
+  <circle cx="190" cy="440" r="15" fill="#2F2F2F"/>
+  
+  <!-- Right side cars in funeral procession -->
+  <!-- Car 1 -->
+  <rect x="1300" y="200" width="160" height="50" rx="10" fill="#505050"/>
+  <rect x="1310" y="190" width="140" height="30" rx="8" fill="#505050"/>
+  <rect x="1320" y="195" width="120" height="20" fill="#333"/>
+  <circle cx="1330" cy="250" r="12" fill="#2F2F2F"/>
+  <circle cx="1430" cy="250" r="12" fill="#2F2F2F"/>
+  
+  <!-- Car 2 -->
+  <rect x="1350" y="300" width="160" height="50" rx="10" fill="#696969"/>
+  <rect x="1360" y="290" width="140" height="30" rx="8" fill="#696969"/>
+  <rect x="1370" y="295" width="120" height="20" fill="#333"/>
+  <circle cx="1380" cy="350" r="12" fill="#2F2F2F"/>
+  <circle cx="1480" cy="350" r="12" fill="#2F2F2F"/>
+  
+  <!-- Car 3 -->
+  <rect x="1400" y="400" width="160" height="50" rx="10" fill="#C0C0C0"/>
+  <rect x="1410" y="390" width="140" height="30" rx="8" fill="#C0C0C0"/>
+  <rect x="1420" y="395" width="120" height="20" fill="#333"/>
+  <circle cx="1430" cy="450" r="12" fill="#2F2F2F"/>
+  <circle cx="1530" cy="450" r="12" fill="#2F2F2F"/>
+  
+  <!-- Car 4 -->
+  <rect x="1450" y="500" width="160" height="50" rx="10" fill="#505050"/>
+  <rect x="1460" y="490" width="140" height="30" rx="8" fill="#505050"/>
+  <rect x="1470" y="495" width="120" height="20" fill="#333"/>
+  <circle cx="1480" cy="550" r="12" fill="#2F2F2F"/>
+  <circle cx="1580" cy="550" r="12" fill="#2F2F2F"/>
+  
+  <!-- Car 5 -->
+  <rect x="1500" y="600" width="160" height="50" rx="10" fill="#696969"/>
+  <rect x="1510" y="590" width="140" height="30" rx="8" fill="#696969"/>
+  <rect x="1520" y="595" width="120" height="20" fill="#333"/>
+  <circle cx="1530" cy="650" r="12" fill="#2F2F2F"/>
+  <circle cx="1630" cy="650" r="12" fill="#2F2F2F"/>
+  
+  <!-- Coffin carried by pallbearers -->
+  <rect x="650" y="480" width="120" height="40" fill="#4B2F20" stroke="#000" stroke-width="2"/>
+  <rect x="655" y="485" width="110" height="30" fill="#6B4423"/>
+  
+  <!-- Funeral procession people -->
+  <!-- Front pallbearers -->
+  <path d="M 620,460 L 615,465 L 615,490 L 618,520 L 615,580 L 620,590 L 630,590 L 635,580 L 632,520 L 635,490 L 635,465 L 630,460 Z" fill="#000000"/>
+  <circle cx="625" cy="455" r="8" fill="#FDB5A6"/>
+  
+  <path d="M 660,460 L 655,465 L 655,490 L 658,520 L 655,580 L 660,590 L 670,590 L 675,580 L 672,520 L 675,490 L 675,465 L 670,460 Z" fill="#000000"/>
+  <circle cx="665" cy="455" r="8" fill="#FDB5A6"/>
+  
+  <path d="M 730,460 L 725,465 L 725,490 L 728,520 L 725,580 L 730,590 L 740,590 L 745,580 L 742,520 L 745,490 L 745,465 L 740,460 Z" fill="#000000"/>
+  <circle cx="735" cy="455" r="8" fill="#FDB5A6"/>
+  
+  <path d="M 770,460 L 765,465 L 765,490 L 768,520 L 765,580 L 770,590 L 780,590 L 785,580 L 782,520 L 785,490 L 785,465 L 780,460 Z" fill="#000000"/>
+  <circle cx="775" cy="455" r="8" fill="#FDB5A6"/>
+  
+  <!-- Following mourners (smaller due to perspective) -->
+  <path d="M 700,350 L 697,353 L 697,370 L 699,390 L 697,420 L 700,425 L 707,425 L 710,420 L 708,390 L 710,370 L 710,353 L 707,350 Z" fill="#000000"/>
+  <circle cx="703" cy="347" r="6" fill="#FDB5A6"/>
+  
+  <path d="M 720,340 L 717,343 L 717,360 L 719,380 L 717,410 L 720,415 L 727,415 L 730,410 L 728,380 L 730,360 L 730,343 L 727,340 Z" fill="#000000"/>
+  <circle cx="723" cy="337" r="6" fill="#FDB5A6"/>
+  
+  <path d="M 740,330 L 737,333 L 737,350 L 739,370 L 737,400 L 740,405 L 747,405 L 750,400 L 748,370 L 750,350 L 750,333 L 747,330 Z" fill="#000000"/>
+  <circle cx="743" cy="327" r="6" fill="#FDB5A6"/>
+  
+  <!-- More distant mourners (even smaller) -->
+  <path d="M 750,280 L 748,282 L 748,295 L 749,310 L 748,330 L 750,333 L 755,333 L 757,330 L 756,310 L 757,295 L 757,282 L 755,280 Z" fill="#000000"/>
+  <circle cx="752" cy="278" r="5" fill="#FDB5A6"/>
+  
+  <path d="M 765,270 L 763,272 L 763,285 L 764,300 L 763,320 L 765,323 L 770,323 L 772,320 L 771,300 L 772,285 L 772,272 L 770,270 Z" fill="#000000"/>
+  <circle cx="767" cy="268" r="5" fill="#FDB5A6"/>
+  
+  <!-- Additional mourners on sidewalk -->
+  <path d="M 900,700 L 895,705 L 895,730 L 898,770 L 895,850 L 900,860 L 915,860 L 920,850 L 917,770 L 920,730 L 920,705 L 915,700 Z" fill="#000000"/>
+  <circle cx="907" cy="695" r="10" fill="#FDB5A6"/>
+  
+  <path d="M 850,720 L 845,725 L 845,750 L 848,790 L 845,870 L 850,880 L 865,880 L 870,870 L 867,790 L 870,750 L 870,725 L 865,720 Z" fill="#000000"/>
+  <circle cx="857" cy="715" r="10" fill="#FDB5A6"/>
+  
+  <!-- Shadows for depth -->
+  <ellipse cx="710" cy="590" rx="80" ry="10" fill="#000" opacity="0.3"/>
+  <ellipse cx="900" cy="860" rx="30" ry="8" fill="#000" opacity="0.3"/>
+  <ellipse cx="1380" cy="260" rx="80" ry="15" fill="#000" opacity="0.3"/>
+  <ellipse cx="1430" cy="360" rx="80" ry="15" fill="#000" opacity="0.3"/>
+  <ellipse cx="1480" cy="460" rx="80" ry="15" fill="#000" opacity="0.3"/>
+  <ellipse cx="1530" cy="560" rx="80" ry="15" fill="#000" opacity="0.3"/>
+  <ellipse cx="1580" cy="660" rx="80" ry="15" fill="#000" opacity="0.3"/>
+  
+</svg>

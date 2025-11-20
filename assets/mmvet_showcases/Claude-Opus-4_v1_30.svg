@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a5d7a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4d19b;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#fff8dc;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#ffd700;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ff8c00;stop-opacity:0" />
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  
+  <!-- Sun -->
+  <circle cx="1050" cy="400" r="150" fill="url(#sun)" opacity="0.7"/>
+  
+  <!-- Clouds -->
+  <g opacity="0.8">
+    <ellipse cx="200" cy="250" rx="120" ry="40" fill="#e8ddd4" filter="url(#blur)"/>
+    <ellipse cx="150" cy="260" rx="80" ry="35" fill="#f0e6dd" filter="url(#blur)"/>
+    <ellipse cx="250" cy="265" rx="90" ry="30" fill="#e8ddd4" filter="url(#blur)"/>
+    
+    <ellipse cx="500" cy="350" rx="150" ry="45" fill="#f0e6dd" filter="url(#blur)"/>
+    <ellipse cx="450" cy="360" rx="100" ry="40" fill="#e8ddd4" filter="url(#blur)"/>
+    
+    <ellipse cx="800" cy="450" rx="180" ry="50" fill="#e8ddd4" filter="url(#blur)"/>
+    <ellipse cx="750" cy="460" rx="120" ry="40" fill="#f0e6dd" filter="url(#blur)"/>
+    
+    <ellipse cx="100" cy="500" rx="130" ry="40" fill="#f0e6dd" filter="url(#blur)"/>
+    <ellipse cx="350" cy="550" rx="160" ry="45" fill="#e8ddd4" filter="url(#blur)"/>
+  </g>
+  
+  <!-- Main F-14 aircraft -->
+  <g transform="translate(600,300) scale(1.2)">
+    <!-- Fuselage -->
+    <path d="M -80,0 L 80,0 L 100,5 L 100,10 L 90,15 L -60,15 L -90,10 L -90,5 Z" fill="#d3d3d3" stroke="#999" stroke-width="0.5"/>
+    
+    <!-- Cockpit -->
+    <path d="M -20,-5 L 20,-5 L 15,0 L -15,0 Z" fill="#4682b4" opacity="0.8"/>
+    
+    <!-- Main wings -->
+    <path d="M -30,5 L -120,25 L -130,30 L -125,35 L -40,15 Z" fill="#c0c0c0" stroke="#999" stroke-width="0.5"/>
+    <path d="M 30,5 L 120,25 L 130,30 L 125,35 L 40,15 Z" fill="#c0c0c0" stroke="#999" stroke-width="0.5"/>
+    
+    <!-- Tail fins -->
+    <path d="M -70,5 L -80,0 L -85,-20 L -80,-25 L -70,-20 Z" fill="#b8b8b8" stroke="#999" stroke-width="0.5"/>
+    <path d="M -50,5 L -60,0 L -65,-20 L -60,-25 L -50,-20 Z" fill="#b8b8b8" stroke="#999" stroke-width="0.5"/>
+    
+    <!-- Engines -->
+    <ellipse cx="-60" cy="10" rx="8" ry="5" fill="#696969"/>
+    <ellipse cx="-50" cy="10" rx="8" ry="5" fill="#696969"/>
+    
+    <!-- Markings -->
+    <text x="50" y="10" font-family="Arial" font-size="8" fill="#333">101</text>
+    <polygon points="-75,-15 -70,-10 -65,-15" fill="#ff0000"/>
+  </g>
+  
+  <!-- Background F-14 -->
+  <g transform="translate(300,150) scale(0.6) rotate(-10)">
+    <!-- Fuselage -->
+    <path d="M -80,0 L 80,0 L 100,5 L 100,10 L 90,15 L -60,15 L -90,10 L -90,5 Z" fill="#b0b0b0" stroke="#888" stroke-width="0.5"/>
+    
+    <!-- Cockpit -->
+    <path d="M -20,-5 L 20,-5 L 15,0 L -15,0 Z" fill="#4682b4" opacity="0.6"/>
+    
+    <!-- Main wings -->
+    <path d="M -30,5 L -120,25 L -130,30 L -125,35 L -40,15 Z" fill="#a8a8a8" stroke="#888" stroke-width="0.5"/>
+    <path d="M 30,5 L 120,25 L 130,30 L 125,35 L 40,15 Z" fill="#a8a8a8" stroke="#888" stroke-width="0.5"/>
+    
+    <!-- Tail fins -->
+    <path d="M -70,5 L -80,0 L -85,-20 L -80,-25 L -70,-20 Z" fill="#999" stroke="#888" stroke-width="0.5"/>
+    <path d="M -50,5 L -60,0 L -65,-20 L -60,-25 L -50,-20 Z" fill="#999" stroke="#888" stroke-width="0.5"/>
+    
+    <!-- Engines -->
+    <ellipse cx="-60" cy="10" rx="8" ry="5" fill="#505050"/>
+    <ellipse cx="-50" cy="10" rx="8" ry="5" fill="#505050"/>
+  </g>
+  
+  <!-- More cloud layers -->
+  <g opacity="0.6">
+    <ellipse cx="900" cy="200" rx="140" ry="35" fill="#f5ebe2" filter="url(#blur)"/>
+    <ellipse cx="600" cy="500" rx="170" ry="40" fill="#f0e6dd" filter="url(#blur)"/>
+    <ellipse cx="1000" cy="380" rx="150" ry="45" fill="#f5ebe2" filter="url(#blur)"/>
+  </g>
+</svg>

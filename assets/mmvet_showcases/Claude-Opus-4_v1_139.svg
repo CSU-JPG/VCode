@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#87CEEB"/>
+  
+  <!-- Grass areas -->
+  <rect x="0" y="300" width="1920" height="780" fill="#228B22"/>
+  
+  <!-- Road -->
+  <path d="M 1200 0 L 1400 0 L 1400 1080 L 1200 1080 Z" fill="#4A4A4A"/>
+  <path d="M 0 600 Q 400 550 800 600 T 1200 650" stroke="#4A4A4A" stroke-width="120" fill="none"/>
+  
+  <!-- Sidewalk -->
+  <path d="M 500 500 L 600 500 L 600 900 L 500 900 Z" fill="#C0C0C0"/>
+  
+  <!-- Trees -->
+  <ellipse cx="200" cy="250" rx="80" ry="100" fill="#0F4C0F"/>
+  <rect x="180" y="300" width="40" height="100" fill="#8B4513"/>
+  
+  <!-- Cars on road -->
+  <rect x="1250" y="100" width="100" height="180" fill="#C0C0C0" rx="10"/>
+  <rect x="1250" y="350" width="100" height="180" fill="#4169E1" rx="10"/>
+  <rect x="1250" y="600" width="100" height="180" fill="#C0C0C0" rx="10"/>
+  <rect x="1250" y="850" width="100" height="180" fill="#708090" rx="10"/>
+  
+  <!-- People in funeral procession -->
+  <!-- Front group -->
+  <ellipse cx="550" cy="650" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="535" y="670" width="30" height="60" fill="#000000"/>
+  <rect x="530" y="730" width="40" height="50" fill="#000000"/>
+  
+  <ellipse cx="550" cy="720" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="535" y="740" width="30" height="60" fill="#000000"/>
+  <rect x="530" y="800" width="40" height="50" fill="#000000"/>
+  
+  <!-- Middle group with casket -->
+  <ellipse cx="550" cy="550" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="535" y="570" width="30" height="60" fill="#000000"/>
+  <rect x="530" y="630" width="40" height="50" fill="#000000"/>
+  
+  <ellipse cx="600" cy="550" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="585" y="570" width="30" height="60" fill="#000000"/>
+  <rect x="580" y="630" width="40" height="50" fill="#000000"/>
+  
+  <ellipse cx="650" cy="550" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="635" y="570" width="30" height="60" fill="#000000"/>
+  <rect x="630" y="630" width="40" height="50" fill="#000000"/>
+  
+  <!-- Casket -->
+  <rect x="570" y="590" width="80" height="30" fill="#654321" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Back group -->
+  <ellipse cx="550" cy="450" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="535" y="470" width="30" height="60" fill="#000000"/>
+  <rect x="530" y="530" width="40" height="50" fill="#000000"/>
+  
+  <ellipse cx="600" cy="450" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="585" y="470" width="30" height="60" fill="#000000"/>
+  <rect x="580" y="530" width="40" height="50" fill="#000000"/>
+  
+  <ellipse cx="650" cy="450" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="635" y="470" width="30" height="60" fill="#000000"/>
+  <rect x="630" y="530" width="40" height="50" fill="#000000"/>
+  
+  <ellipse cx="550" cy="350" rx="15" ry="20" fill="#FDBCB4"/>
+  <rect x="535" y="370" width="30" height="60" fill="#000000"/>
+  <rect x="530" y="430" width="40" height="50" fill="#000000"/>
+  
+  <!-- Parked cars -->
+  <rect x="50" y="250" width="180" height="100" fill="#A9A9A9" rx="10"/>
+  <rect x="250" y="250" width="180" height="100" fill="#C0C0C0" rx="10"/>
+</svg>

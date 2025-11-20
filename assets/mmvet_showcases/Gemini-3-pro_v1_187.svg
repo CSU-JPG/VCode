@@ -1,0 +1,172 @@
+<svg viewBox="0 0 1200 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Aged Silk Texture -->
+  <rect width="1200" height="650" fill="#cba983" />
+  <filter id="paperTexture">
+    <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" result="noise"/>
+    <feDiffuseLighting in="noise" lighting-color="#e0cda0" surfaceScale="2">
+      <feDistantLight azimuth="45" elevation="60"/>
+    </feDiffuseLighting>
+  </filter>
+  <rect width="1200" height="650" fill="#cba983" filter="url(#paperTexture)" opacity="0.5"/>
+
+  <!-- Red Seals (Stamps) -->
+  <g opacity="0.6">
+    <rect x="50" y="50" width="40" height="40" fill="#b22222" rx="2"/>
+    <rect x="220" y="80" width="50" height="70" fill="none" stroke="#b22222" stroke-width="2"/>
+    <path d="M225 85 h40 v60 h-40 z" fill="#b22222" opacity="0.3"/>
+    <rect x="450" y="30" width="45" height="45" fill="none" stroke="#b22222" stroke-width="3"/>
+    <path d="M455 35 h35 v35 h-35 z" fill="#b22222" opacity="0.5"/>
+    <rect x="1100" y="500" width="60" height="60" fill="#b22222" rx="2"/>
+    <rect x="1120" y="580" width="40" height="40" fill="#b22222" rx="2"/>
+  </g>
+
+  <!-- LEFT GROUP: THE ENVOYS -->
+  
+  <!-- 1. Far Left Official (White Robe) -->
+  <g transform="translate(60, 280)">
+    <!-- Robe -->
+    <path d="M20,60 Q5,150 10,280 L60,290 Q70,150 60,60 Z" fill="#e6e1d3" stroke="#554d40" stroke-width="1"/>
+    <path d="M10,280 L10,320 L30,330 L50,320 L60,280" fill="#2a2a2a" /> <!-- Boots -->
+    <!-- Hands/Sleeves -->
+    <path d="M20,100 Q40,110 50,100" fill="none" stroke="#554d40" stroke-width="2"/>
+    <!-- Head -->
+    <path d="M20,20 Q20,60 35,60 Q50,60 50,20 Z" fill="#e8dcc5"/>
+    <path d="M15,15 L55,15 L50,-10 L20,-10 Z" fill="#1a1a1a"/> <!-- Hat -->
+    <!-- Face -->
+    <circle cx="35" cy="35" r="12" fill="#e8dcc5"/>
+    <path d="M35,25 L40,25 M38,35 L42,35" stroke="#333" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- 2. Middle Official (Patterned/Brownish Robe) -->
+  <g transform="translate(180, 270)">
+    <!-- Robe -->
+    <path d="M20,60 Q10,160 15,280 L65,290 Q80,160 70,60 Z" fill="#a67c52" stroke="#554d40" stroke-width="1"/>
+    <!-- Pattern overlay -->
+    <path d="M20,60 Q10,160 15,280 L65,290 Q80,160 70,60 Z" fill="url(#patternDots)" opacity="0.2"/>
+    <path d="M15,280 L15,320 L40,330 L65,320 L65,280" fill="#2a2a2a" /> <!-- Boots -->
+    <!-- Belt -->
+    <path d="M18,180 H67" stroke="#1a1a1a" stroke-width="3"/>
+    <!-- Head -->
+    <circle cx="45" cy="35" r="13" fill="#e8dcc5"/>
+    <path d="M25,15 L65,15 L60,-10 L30,-10 Z" fill="#1a1a1a"/> <!-- Hat -->
+    <!-- Beard -->
+    <path d="M40,45 L45,55 L50,45" fill="#1a1a1a"/>
+  </g>
+
+  <!-- 3. Tibetan Envoy (Red Robe) - Gar Tongtsen -->
+  <g transform="translate(320, 240)">
+    <!-- Robe -->
+    <path d="M10,60 Q-5,160 5,300 L80,310 Q95,160 85,60 Z" fill="#d94638" stroke="#8b2e26" stroke-width="1"/>
+    <path d="M5,300 L5,340 L30,350 L60,340 L80,300" fill="#2a2a2a" /> <!-- Boots -->
+    <!-- Belt -->
+    <path d="M2,180 Q45,190 88,180" stroke="#1a1a1a" stroke-width="4"/>
+    <!-- Arms folded -->
+    <path d="M85,100 Q60,130 45,120 Q30,130 10,100" fill="none" stroke="#b5362a" stroke-width="2"/>
+    <!-- Head -->
+    <circle cx="48" cy="40" r="16" fill="#cfaa8a"/> <!-- Darker skin tone -->
+    <path d="M25,20 L70,20 L65,-5 L30,-5 Z" fill="#1a1a1a"/> <!-- Hat -->
+    <!-- Full Beard -->
+    <path d="M32,40 Q48,75 64,40" fill="#1a1a1a"/>
+  </g>
+
+
+  <!-- RIGHT GROUP: EMPEROR &amp; COURT -->
+
+  <!-- Palanquin Poles (Behind) -->
+  <line x1="550" y1="350" x2="950" y2="350" stroke="#3e2723" stroke-width="4"/>
+
+  <!-- Back Row Attendants -->
+  <g transform="translate(600, 250)">
+    <!-- Attendant 1 -->
+    <path d="M0,100 L30,100 L25,50 L5,50 Z" fill="#d4c5b0"/>
+    <circle cx="15" cy="40" r="10" fill="#e8dcc5"/>
+    <circle cx="15" cy="30" r="10" fill="#1a1a1a"/> <!-- Hair -->
+    
+    <!-- Attendant 2 -->
+    <path d="M120,100 L150,100 L145,50 L125,50 Z" fill="#d4c5b0"/>
+    <circle cx="135" cy="40" r="10" fill="#e8dcc5"/>
+    <circle cx="135" cy="30" r="10" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Huge Fans -->
+  <g transform="translate(650, 50)">
+    <!-- Left Fan -->
+    <g transform="rotate(-15, 60, 150)">
+       <rect x="0" y="0" width="120" height="160" fill="#7a9181" stroke="#4a3b2a" stroke-width="2"/>
+       <rect x="10" y="10" width="100" height="140" fill="none" stroke="#4a3b2a" stroke-width="1" stroke-dasharray="5,5"/>
+       <line x1="60" y1="0" x2="60" y2="160" stroke="#4a3b2a" stroke-width="5"/> <!-- Spine -->
+       <line x1="60" y1="160" x2="60" y2="400" stroke="#3e2723" stroke-width="3"/> <!-- Handle -->
+       <!-- Feathers/Pattern details -->
+       <path d="M20,40 H100 M20,80 H100 M20,120 H100" stroke="#4a3b2a" stroke-width="2"/>
+    </g>
+    <!-- Right Fan -->
+    <g transform="rotate(15, 220, 150)">
+       <rect x="160" y="0" width="120" height="160" fill="#7a9181" stroke="#4a3b2a" stroke-width="2"/>
+       <rect x="170" y="10" width="100" height="140" fill="none" stroke="#4a3b2a" stroke-width="1" stroke-dasharray="5,5"/>
+       <line x1="220" y1="0" x2="220" y2="160" stroke="#4a3b2a" stroke-width="5"/> <!-- Spine -->
+       <line x1="220" y1="160" x2="220" y2="400" stroke="#3e2723" stroke-width="3"/> <!-- Handle -->
+       <path d="M180,40 H260 M180,80 H260 M180,120 H260" stroke="#4a3b2a" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Red Parasol -->
+  <g transform="translate(950, 30)">
+    <path d="M0,50 Q60,0 120,50 L130,80 Q60,40 -10,80 Z" fill="#d94638"/>
+    <line x1="60" y1="50" x2="60" y2="400" stroke="#3e2723" stroke-width="3"/>
+    <path d="M120,50 L130,80" stroke="#1a1a1a"/>
+  </g>
+
+  <!-- Emperor Taizong -->
+  <g transform="translate(760, 230)">
+    <!-- Sedan Chair Base -->
+    <rect x="-40" y="150" width="140" height="20" fill="#6d4c41"/>
+    
+    <!-- Body -->
+    <path d="M-10,60 Q30,160 70,150 Q60,60 30,50 Z" fill="#a66e56" stroke="#5d4037" stroke-width="1"/> 
+    <!-- Head -->
+    <circle cx="30" cy="30" r="18" fill="#e8dcc5"/>
+    <path d="M10,10 L50,10 L45,-25 L15,-25 Z" fill="#1a1a1a"/> <!-- Cap -->
+    <path d="M45,-5 L60,10" stroke="#1a1a1a" stroke-width="2"/> <!-- Cap Strings -->
+    <!-- Beard -->
+    <path d="M20,40 Q30,65 40,40" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Front Row Attendants (The bearers) -->
+  <!-- Defining a reusable attendant group for the striped skirts -->
+  <defs>
+    <g id="attendant">
+        <!-- Skirt -->
+        <path d="M-15,100 L15,100 L25,250 L-25,250 Z" fill="#e6e1d3"/> <!-- Base white -->
+        <!-- Stripes -->
+        <path d="M-10,100 L-15,250 M0,100 L0,250 M10,100 L15,250" stroke="#d94638" stroke-width="4"/>
+        <!-- Upper Body -->
+        <path d="M-15,100 L15,100 L10,50 L-10,50 Z" fill="#c4b29b"/>
+        <!-- Arms holding pole -->
+        <path d="M-10,70 L10,70" stroke="#5d4037" stroke-width="3"/>
+        <!-- Head -->
+        <circle cx="0" cy="40" r="9" fill="#e8dcc5"/>
+        <path d="M-10,35 Q0,25 10,35 L10,30 Q0,15 -10,30 Z" fill="#1a1a1a"/> <!-- Hair -->
+    </g>
+  </defs>
+
+  <!-- Placing Attendants -->
+  <!-- Left bearers -->
+  <use href="#attendant" x="600" y="300" />
+  <use href="#attendant" x="650" y="320" />
+  
+  <!-- Right bearers -->
+  <use href="#attendant" x="900" y="300" />
+  <use href="#attendant" x="950" y="310" />
+  <use href="#attendant" x="1000" y="290" />
+  
+  <!-- Middle bearers (partially obscured) -->
+  <use href="#attendant" x="720" y="330" opacity="0.9"/>
+  <use href="#attendant" x="850" y="330" opacity="0.9"/>
+
+  <!-- Palanquin Poles (Front) -->
+  <line x1="550" y1="380" x2="1050" y2="380" stroke="#3e2723" stroke-width="4"/>
+  
+  <!-- Details on Attendants (Sashes) -->
+  <path d="M595,360 L605,400 M645,380 L655,420 M900,370 L910,410" stroke="#d94638" stroke-width="2" opacity="0.8"/>
+
+</svg>

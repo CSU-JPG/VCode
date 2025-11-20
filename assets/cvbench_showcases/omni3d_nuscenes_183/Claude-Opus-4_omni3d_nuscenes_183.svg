@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="1920" height="600" fill="#8B9DC3"/>
+  
+  <!-- Trees and foliage background -->
+  <ellipse cx="200" cy="400" rx="180" ry="220" fill="#2F5233"/>
+  <ellipse cx="500" cy="380" rx="200" ry="250" fill="#3A5F3E"/>
+  <ellipse cx="800" cy="350" rx="250" ry="280" fill="#2F5233"/>
+  <ellipse cx="1200" cy="400" rx="300" ry="320" fill="#3A5F3E"/>
+  <ellipse cx="1600" cy="380" rx="220" ry="260" fill="#2F5233"/>
+  
+  <!-- Large tree branches -->
+  <path d="M 800 100 Q 600 200 500 350 Q 450 400 500 450" stroke="#4A3C28" stroke-width="20" fill="none"/>
+  <path d="M 800 100 Q 900 150 1000 250 Q 1100 350 1050 450" stroke="#4A3C28" stroke-width="25" fill="none"/>
+  <path d="M 1200 150 Q 1300 250 1400 350 Q 1450 400 1400 480" stroke="#4A3C28" stroke-width="18" fill="none"/>
+  
+  <!-- Buildings in background -->
+  <rect x="50" y="250" width="120" height="200" fill="#7A7A7A"/>
+  <rect x="1650" y="300" width="150" height="180" fill="#8B7355"/>
+  <rect x="1700" y="280" width="100" height="200" fill="#A0A0A0"/>
+  
+  <!-- Street lamps -->
+  <rect x="400" y="400" width="8" height="150" fill="#6B6B6B"/>
+  <circle cx="404" cy="400" r="15" fill="#E8E8E8"/>
+  <rect x="1400" y="420" width="8" height="130" fill="#6B6B6B"/>
+  <circle cx="1404" cy="420" r="15" fill="#E8E8E8"/>
+  
+  <!-- Road and grass slope -->
+  <path d="M 0 600 Q 200 550 400 540 L 1920 540 L 1920 1080 L 0 1080 Z" fill="#5A5A5A"/>
+  <path d="M 0 450 Q 300 500 600 540 L 0 600 Z" fill="#4A7C59"/>
+  
+  <!-- Road markings -->
+  <rect x="300" y="900" width="100" height="15" fill="#FFFFFF"/>
+  <rect x="500" y="900" width="100" height="15" fill="#FFFFFF"/>
+  <rect x="700" y="900" width="100" height="15" fill="#FFFFFF"/>
+  
+  <!-- Yellow lines -->
+  <rect x="0" y="650" width="1920" height="8" fill="#FFD700"/>
+  <rect x="0" y="665" width="1920" height="8" fill="#FFD700"/>
+  <rect x="0" y="680" width="1920" height="8" fill="#FFD700"/>
+  
+  <!-- AHEAD text -->
+  <text x="600" y="850" font-family="Arial, sans-serif" font-size="120" fill="#FFFFFF" font-weight="bold">AHEAD</text>
+  
+  <!-- Guardrail -->
+  <rect x="800" y="600" width="1120" height="5" fill="#C0C0C0"/>
+  <rect x="800" y="620" width="1120" height="5" fill="#C0C0C0"/>
+  <!-- Guardrail posts -->
+  <rect x="900" y="590" width="10" height="50" fill="#8B8B8B"/>
+  <rect x="1100" y="590" width="10" height="50" fill="#8B8B8B"/>
+  <rect x="1300" y="590" width="10" height="50" fill="#8B8B8B"/>
+  <rect x="1500" y="590" width="10" height="50" fill="#8B8B8B"/>
+  <rect x="1700" y="590" width="10" height="50" fill="#8B8B8B"/>
+  
+  <!-- Detection boxes -->
+  <rect x="280" y="480" width="60" height="80" fill="none" stroke="#00FF00" stroke-width="3"/>
+  <rect x="680" y="490" width="50" height="40" fill="none" stroke="#0000FF" stroke-width="3"/>
+  <rect x="740" y="490" width="50" height="40" fill="none" stroke="#FF0000" stroke-width="3"/>
+  
+  <!-- Sidewalk -->
+  <rect x="0" y="540" width="600" height="60" fill="#969696"/>
+</svg>

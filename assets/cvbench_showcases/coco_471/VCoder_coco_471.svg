@@ -1,0 +1,33 @@
+<svg viewBox="0 0 640 426" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bench/wooden surface background -->
+  <path d="M 376,17 L 367,48 L 490,422 L 639,417 L 639,252 L 433,25 L 377,18 Z" 
+        fill="#8B7355" stroke="none" opacity="0.3"/>
+  
+  <!-- Wood grain texture lines -->
+  <g stroke="#6B5945" stroke-width="2" opacity="0.4">
+    <line x1="0" y1="100" x2="640" y2="110"/>
+    <line x1="0" y1="200" x2="640" y2="208"/>
+    <line x1="0" y1="300" x2="640" y2="306"/>
+  </g>
+  
+  <!-- Orange fruit -->
+  <path d="M 319,151 L 297,152 L 283,155 L 276,159 L 264,172 L 258,183 L 254,196 L 254,211 L 258,225 L 265,237 L 285,253 L 310,259 L 340,259 L 355,253 L 370,236 L 379,215 L 380,193 L 375,177 L 365,163 L 343,153 L 328,151 Z" 
+        fill="#FF8C00" stroke="#FF6B00" stroke-width="1"/>
+  
+  <!-- Orange highlight -->
+  <ellipse cx="295" cy="180" rx="15" ry="20" 
+           fill="#FFAA33" opacity="0.6"/>
+  
+  <!-- Orange texture dots -->
+  <g fill="#FF7700" opacity="0.3">
+    <circle cx="300" cy="200" r="2"/>
+    <circle cx="320" cy="190" r="2"/>
+    <circle cx="340" cy="210" r="2"/>
+    <circle cx="310" cy="220" r="2"/>
+    <circle cx="330" cy="205" r="2"/>
+  </g>
+  
+  <!-- Text hint "O" -->
+  <text x="319" y="215" font-family="Arial, sans-serif" font-size="72" 
+        fill="#FFFFFF" opacity="0.15" text-anchor="middle">O</text>
+</svg>

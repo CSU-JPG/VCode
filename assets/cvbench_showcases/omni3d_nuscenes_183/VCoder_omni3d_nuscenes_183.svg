@@ -1,0 +1,139 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e8ea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c5c5c8;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Tree foliage pattern -->
+    <pattern id="foliagePattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="8" fill="#2d5016" opacity="0.8"/>
+      <circle cx="30" cy="25" r="9" fill="#3a6218" opacity="0.7"/>
+      <circle cx="5" cy="30" r="7" fill="#2d5016" opacity="0.9"/>
+      <circle cx="25" cy="8" r="6" fill="#4a7c1c" opacity="0.6"/>
+    </pattern>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="1600" height="900" fill="url(#skyGradient)"/>
+  
+  <!-- Background trees and foliage -->
+  <g id="trees">
+    <!-- Large tree canopy on right -->
+    <ellipse cx="1400" cy="200" rx="250" ry="180" fill="url(#foliagePattern)"/>
+    <rect x="1350" y="300" width="100" height="200" fill="#4a3c28" opacity="0.8"/>
+    
+    <!-- Background tree line -->
+    <path d="M0 100 Q200 80 400 100 T800 120 Q1000 100 1200 90 T1600 100 L1600 350 L0 400 Z" 
+          fill="#2d5016" opacity="0.9"/>
+    <path d="M0 150 Q300 130 600 150 T1200 140 Q1400 130 1600 140 L1600 400 L0 450 Z" 
+          fill="#3a6218" opacity="0.8"/>
+  </g>
+  
+  <!-- Buildings in background -->
+  <g id="buildings">
+    <!-- Building on left -->
+    <rect x="50" y="200" width="150" height="280" fill="#989898" opacity="0.7"/>
+    <rect x="60" y="210" width="30" height="40" fill="#4a4a4a" opacity="0.5"/>
+    <rect x="100" y="210" width="30" height="40" fill="#4a4a4a" opacity="0.5"/>
+    <rect x="140" y="210" width="30" height="40" fill="#4a4a4a" opacity="0.5"/>
+    
+    <!-- Buildings on right -->
+    <rect x="1100" y="250" width="180" height="200" fill="#b8a896" opacity="0.6"/>
+    <rect x="1300" y="280" width="150" height="170" fill="#a09080" opacity="0.6"/>
+  </g>
+  
+  <!-- Road surface -->
+  <path d="M0 500 Q200 480 400 490 L1200 450 Q1400 445 1600 450 L1600 900 L0 900 Z" 
+        fill="#4a4a4a"/>
+  
+  <!-- Road markings -->
+  <g id="roadMarkings">
+    <!-- White edge lines -->
+    <path d="M50 520 Q250 510 450 515 L1150 480" 
+          stroke="white" stroke-width="8" fill="none"/>
+    <path d="M1200 750 L1600 730" 
+          stroke="white" stroke-width="8" fill="none"/>
+    
+    <!-- Yellow chevron markings -->
+    <g id="chevrons">
+      <path d="M600 500 L650 490 L650 500 L600 510 Z" fill="#ffd700"/>
+      <path d="M660 495 L710 485 L710 495 L660 505 Z" fill="#ffd700"/>
+      <path d="M720 490 L770 480 L770 490 L720 500 Z" fill="#ffd700"/>
+      <path d="M780 485 L830 475 L830 485 L780 495 Z" fill="#ffd700"/>
+    </g>
+    
+    <!-- AHEAD text on road -->
+    <g id="aheadText" transform="translate(400, 750)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="120" font-weight="bold" 
+            fill="white" letter-spacing="20">AHEAD</text>
+    </g>
+    
+    <!-- Arrow marking -->
+    <path d="M350 650 L350 700 L330 700 L380 750 L430 700 L410 700 L410 650 Z" 
+          fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- Street furniture -->
+  <g id="streetFurniture">
+    <!-- Street light pole -->
+    <rect x="250" y="300" width="15" height="250" fill="#656565"/>
+    <path d="M245 300 Q257 290 270 300" stroke="#656565" stroke-width="10" fill="none"/>
+    <ellipse cx="280" cy="295" rx="20" ry="30" fill="#e0e0e0"/>
+    
+    <!-- Green railing on right -->
+    <g id="railing">
+      <rect x="1350" y="480" width="250" height="80" fill="none" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1370" y1="480" x2="1370" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1400" y1="480" x2="1400" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1430" y1="480" x2="1430" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1460" y1="480" x2="1460" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1490" y1="480" x2="1490" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1520" y1="480" x2="1520" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1550" y1="480" x2="1550" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+      <line x1="1580" y1="480" x2="1580" y2="560" stroke="#2d7a2d" stroke-width="4"/>
+    </g>
+  </g>
+  
+  <!-- Grassy slope on left -->
+  <path d="M0 400 Q100 380 200 400 L200 550 L0 580 Z" fill="#5a8030"/>
+  
+  <!-- Metadata-based elements -->
+  <g id="metadataElements">
+    <!-- Person silhouette (green box detection) -->
+    <g id="person" opacity="0.8">
+      <rect x="380" y="480" width="40" height="80" fill="#2a2a2a" rx="5"/>
+      <circle cx="400" cy="465" r="15" fill="#2a2a2a"/>
+      <path d="M385 500 L380 540 M415 500 L420 540" stroke="#2a2a2a" stroke-width="8" stroke-linecap="round"/>
+      <path d="M390 490 L385 520 M410 490 L415 520" stroke="#2a2a2a" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Vehicle (detected object with confidence 0.86) -->
+    <g id="vehicle">
+      <path d="M 938,505 L 928,508 L 925,511 L 925,523 L 928,528 L 948,530 L 1002,526 L 1008,522 L 997,513 L 954,505 Z" 
+            fill="#c04040" stroke="#8b0000" stroke-width="2"/>
+      <!-- Additional vehicle details -->
+      <rect x="935" y="510" width="60" height="15" fill="#d05050" opacity="0.8"/>
+      <rect x="940" y="514" width="20" height="8" fill="#333333" opacity="0.7"/>
+      <rect x="970" y="514" width="20" height="8" fill="#333333" opacity="0.7"/>
+    </g>
+    
+    <!-- Text overlays (Japanese/Chinese characters) -->
+    <g id="textOverlays" opacity="0.7">
+      <!-- Blue box with text -->
+      <rect x="485" y="475" width="80" height="115" fill="none" stroke="#0080ff" stroke-width="3"/>
+      <text x="525" y="540" font-family="Arial" font-size="60" fill="#0080ff" text-anchor="middle">口</text>
+      
+      <!-- Red box -->
+      <rect x="570" y="500" width="60" height="40" fill="none" stroke="#ff0000" stroke-width="3"/>
+      
+      <!-- Japanese character overlay -->
+      <rect x="730" y="503" width="95" height="56" fill="none" stroke="#00ff00" stroke-width="2" opacity="0.68"/>
+      <text x="780" y="540" font-family="Arial" font-size="40" fill="#00ff00" text-anchor="middle" opacity="0.68">日</text>
+    </g>
+  </g>
+  
+  <!-- Subtle overlays for depth -->
+  <rect width="1600" height="900" fill="black" opacity="0.05"/>
+</svg>

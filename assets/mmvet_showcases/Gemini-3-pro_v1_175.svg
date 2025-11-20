@@ -1,0 +1,113 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="heavyBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" />
+    </filter>
+    <filter id="slightBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+    </filter>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5dcb6" />
+      <stop offset="100%" stop-color="#b38b6d" />
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffdb0" />
+      <stop offset="30%" stop-color="#ffd700" />
+      <stop offset="100%" stop-color="#b8860b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background: Dark stone floor -->
+  <rect width="800" height="450" fill="#2e332f" />
+  <path d="M0 0 L800 0 L800 450 L0 450 Z" fill="#1a1c1a" opacity="0.4" />
+
+  <!-- Clothing / Shoulders -->
+  <path d="M550 300 Q700 250 800 350 L800 450 L450 450 Z" fill="#3d2319" />
+  <path d="M600 320 Q650 350 620 450 L500 450 Z" fill="#2b1811" />
+
+  <!-- Collar -->
+  <path d="M520 380 L580 420 L540 440 Z" fill="#d9d4bc" />
+
+  <!-- Frodo's Head (Sharp Focus) -->
+  <g transform="translate(60, 0)">
+    <!-- Hair Back -->
+    <path d="M350 100 Q450 20 580 60 Q680 80 680 200 Q700 300 650 350 L630 250 Z" fill="#261812" />
+    
+    <!-- Face Shape -->
+    <path d="M400 180 Q400 100 520 100 Q620 100 620 220 Q620 350 520 400 Q430 380 400 300 Z" fill="url(#skinGrad)" />
+    
+    <!-- Hair Front/Curls -->
+    <path d="M380 120 C400 50 600 50 650 150 C660 180 650 250 630 280 C650 180 600 80 500 80 C420 80 380 180 370 220 Z" fill="#3b2417" />
+    <path d="M450 110 Q470 140 450 160 M500 90 Q520 130 540 90 M580 100 Q560 140 600 130" stroke="#261812" stroke-width="3" fill="none" />
+
+    <!-- Eyes -->
+    <!-- Left Eye -->
+    <g transform="translate(445, 210)">
+      <path d="M-25 0 Q0 -15 25 0 Q0 15 -25 0" fill="#fff" />
+      <circle cx="0" cy="0" r="11" fill="#5caeff" />
+      <circle cx="0" cy="0" r="5" fill="#000" />
+      <circle cx="3" cy="-3" r="2" fill="#fff" opacity="0.7" />
+      <path d="M-25 -5 Q0 -25 30 -5" stroke="#a88268" stroke-width="2" fill="none" /> <!-- Brow ridge -->
+    </g>
+    
+    <!-- Right Eye -->
+    <g transform="translate(555, 215)">
+      <path d="M-25 0 Q0 -15 25 0 Q0 15 -25 0" fill="#fff" />
+      <circle cx="0" cy="0" r="11" fill="#5caeff" />
+      <circle cx="0" cy="0" r="5" fill="#000" />
+      <circle cx="3" cy="-3" r="2" fill="#fff" opacity="0.7" />
+      <path d="M-25 -5 Q0 -25 30 -5" stroke="#a88268" stroke-width="2" fill="none" />
+    </g>
+
+    <!-- Eyebrows (Worried) -->
+    <path d="M420 190 Q450 170 480 195" stroke="#261812" stroke-width="4" fill="none" />
+    <path d="M530 195 Q560 170 590 195" stroke="#261812" stroke-width="4" fill="none" />
+
+    <!-- Nose -->
+    <path d="M495 210 Q490 270 480 280 Q500 290 520 280" fill="#c49b7a" opacity="0.6" />
+    <path d="M500 220 L490 270" stroke="#b38b6d" stroke-width="1" />
+
+    <!-- Mouth -->
+    <path d="M470 320 Q500 330 530 320" fill="#8a5a44" /> <!-- Open mouth interior -->
+    <path d="M470 320 Q500 315 530 320" stroke="#ccafa3" stroke-width="3" fill="none" /> <!-- Upper lip -->
+    <path d="M475 325 Q500 340 525 325" stroke="#ccafa3" stroke-width="3" fill="none" /> <!-- Lower lip -->
+
+    <!-- Sweat/Lighting Highlights -->
+    <circle cx="460" cy="160" r="3" fill="#fff" opacity="0.3" filter="url(#slightBlur)" />
+    <circle cx="550" cy="150" r="4" fill="#fff" opacity="0.3" filter="url(#slightBlur)" />
+    <path d="M580 250 Q600 270 590 300" stroke="#fff" stroke-width="2" opacity="0.15" fill="none" />
+  </g>
+
+  <!-- Foreground: The Hand and Ring (Blurred) -->
+  <g filter="url(#heavyBlur)">
+    
+    <!-- Hand Base (Palm/Thumb area) -->
+    <path d="M0 450 L300 450 L350 300 Q200 200 100 300 L0 350 Z" fill="#dcbfa3" />
+    
+    <!-- Shadow on hand -->
+    <path d="M0 450 L150 450 L200 350 L0 400 Z" fill="#8f6b50" opacity="0.6" />
+
+    <!-- Index Finger (Pointing forward, holding ring) -->
+    <path d="M250 400 Q350 400 380 250 Q400 180 350 160 Q300 160 280 220 L250 350" fill="#e6cbb1" />
+    <ellipse cx="350" cy="180" rx="40" ry="35" fill="#f0dcc5" /> <!-- Finger tip highlight -->
+
+    <!-- Other fingers curled -->
+    <ellipse cx="200" cy="380" rx="50" ry="60" fill="#cea88a" />
+    <ellipse cx="120" cy="400" rx="50" ry="60" fill="#cea88a" />
+
+    <!-- The One Ring -->
+    <!-- It sits on the finger, extremely blurred, glowing gold -->
+    <g transform="translate(350, 200)">
+       <!-- Inner dark part (finger going through) -->
+       <ellipse cx="0" cy="0" rx="45" ry="15" fill="#3d2319" />
+       
+       <!-- The Ring Body -->
+       <path d="M-50 0 A 50 20 0 1 0 50 0 A 50 20 0 1 0 -50 0" fill="none" stroke="url(#ringGrad)" stroke-width="15" />
+       
+       <!-- Shine/Reflection -->
+       <path d="M-40 -5 Q0 -15 40 -5" stroke="#fff" stroke-width="4" opacity="0.8" fill="none" />
+       <path d="M-40 5 Q0 15 40 5" stroke="#b8860b" stroke-width="2" opacity="0.6" fill="none" />
+    </g>
+  </g>
+
+</svg>

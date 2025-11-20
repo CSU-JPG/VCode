@@ -1,0 +1,58 @@
+<svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="700" fill="#f5f5f5"/>
+  
+  <!-- Text at top -->
+  <text x="30" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#000">
+    Me: I'll do it at 8
+  </text>
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#000">
+    Time: 8.05
+  </text>
+  <text x="30" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#000">
+    Me: looks like I gotta wait till 9 now
+  </text>
+  
+  <!-- Bed/pillow background -->
+  <path d="M0 180 Q300 160 600 180 L600 700 L0 700 Z" fill="#e8d5d0"/>
+  <path d="M50 200 Q300 180 550 200 L550 680 L50 680 Z" fill="#f0e5e0"/>
+  
+  <!-- Kermit figure -->
+  <g transform="translate(300, 400)">
+    <!-- Body -->
+    <ellipse cx="0" cy="40" rx="80" ry="120" fill="#5fa052"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="70" ry="60" fill="#5fa052"/>
+    
+    <!-- Eyes -->
+    <circle cx="-25" cy="-60" r="15" fill="#fff"/>
+    <circle cx="25" cy="-60" r="15" fill="#fff"/>
+    <circle cx="-25" cy="-58" r="8" fill="#000"/>
+    <circle cx="25" cy="-58" r="8" fill="#000"/>
+    
+    <!-- Mouth -->
+    <path d="M-30 -30 Q0 -10 30 -30" stroke="#e74c3c" stroke-width="8" fill="#e74c3c"/>
+    
+    <!-- Arms -->
+    <ellipse cx="-60" cy="0" rx="25" ry="60" fill="#5fa052" transform="rotate(-30 -60 0)"/>
+    <ellipse cx="60" cy="0" rx="25" ry="60" fill="#5fa052" transform="rotate(30 60 0)"/>
+    
+    <!-- Hands -->
+    <circle cx="-80" cy="40" r="20" fill="#5fa052"/>
+    <circle cx="80" cy="40" r="20" fill="#5fa052"/>
+    
+    <!-- Legs -->
+    <ellipse cx="-30" cy="120" rx="30" ry="50" fill="#5fa052"/>
+    <ellipse cx="30" cy="120" rx="30" ry="50" fill="#5fa052"/>
+    
+    <!-- Feet -->
+    <ellipse cx="-35" cy="160" rx="35" ry="20" fill="#5fa052"/>
+    <ellipse cx="35" cy="160" rx="35" ry="20" fill="#5fa052"/>
+  </g>
+  
+  <!-- Watermark -->
+  <text x="420" y="680" font-family="Arial, sans-serif" font-size="16" fill="#999">
+    boredpanda.com
+  </text>
+</svg>

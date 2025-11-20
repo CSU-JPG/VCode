@@ -1,0 +1,190 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ead9bc"/>
+      <stop offset="100%" stop-color="#cfb891"/>
+    </linearGradient>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.05"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply"/>
+    </filter>
+    <linearGradient id="robeRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c84630"/>
+      <stop offset="100%" stop-color="#9f2f1e"/>
+    </linearGradient>
+    <linearGradient id="paleCloth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efe4cf"/>
+      <stop offset="100%" stop-color="#e0d0b1"/>
+    </linearGradient>
+    <linearGradient id="greenFan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7aa77b"/>
+      <stop offset="100%" stop-color="#4f7c55"/>
+    </linearGradient>
+    <linearGradient id="stripeRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d45b4f"/>
+      <stop offset="100%" stop-color="#a63b33"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9aa0a6"/>
+      <stop offset="100%" stop-color="#6f7379"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bgGrad)" filter="url(#paper)"/>
+
+  <!-- faded seals -->
+  <g opacity="0.25" fill="#c8624a" stroke="#c8624a">
+    <rect x="325" y="55" width="44" height="44" fill="none" stroke-width="2"/>
+    <rect x="352" y="25" width="56" height="56" fill="none" stroke-width="3"/>
+    <rect x="220" y="85" width="24" height="24" fill="none" stroke-width="2"/>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse cx="600" cy="610" rx="520" ry="38" fill="#b99f7a" opacity="0.18"/>
+
+  <!-- LEFT GROUP -->
+  <g stroke="#5b3c2a" stroke-width="2" fill="none">
+    <!-- attendant 1 -->
+    <g transform="translate(95,365)">
+      <ellipse cx="0" cy="-140" rx="20" ry="26" fill="#e9d6b8"/>
+      <path d="M-26 -112 Q0 -100 26 -112 L28 -92 Q4 -78 -22 -90 Z" fill="#d9c6a6"/>
+      <path d="M-32 -88 Q0 -75 32 -88 L36 50 Q2 70 -38 48 Z" fill="url(#paleCloth)"/>
+      <path d="M-36 50 Q2 72 38 50 L30 150 Q0 158 -30 150 Z" fill="#c7ad8b"/>
+      <path d="M-40 148 L-18 148 Q-10 188 -36 188 Z" fill="#7a5b3f"/>
+      <path d="M4 148 L28 148 Q36 188 10 188 Z" fill="#7a5b3f"/>
+    </g>
+    <!-- attendant 2 -->
+    <g transform="translate(175,360)">
+      <ellipse cx="0" cy="-140" rx="20" ry="26" fill="#e9d6b8"/>
+      <path d="M-26 -112 Q0 -100 26 -112 L28 -92 Q4 -78 -22 -90 Z" fill="#d9c6a6"/>
+      <path d="M-40 -85 Q0 -60 40 -85 L44 55 Q0 78 -44 55 Z" fill="#bca17c"/>
+      <path d="M-44 55 Q0 78 44 55 L30 155 Q-2 168 -34 158 Z" fill="#907253"/>
+      <path d="M-46 156 L-20 156 Q-8 194 -38 196 Z" fill="#6d533d"/>
+      <path d="M2 156 L28 156 Q36 196 8 198 Z" fill="#6d533d"/>
+      <path d="M-20 -128 L20 -128" stroke-width="5"/>
+    </g>
+    <!-- red-robed official -->
+    <g transform="translate(420,360)">
+      <ellipse cx="0" cy="-150" rx="26" ry="30" fill="#e7caa8"/>
+      <path d="M-32 -122 Q0 -108 32 -122 L34 -100 Q4 -86 -26 -98 Z" fill="#d4b593"/>
+      <path d="M-64 -100 Q0 -70 64 -100 L70 120 Q0 170 -70 120 Z" fill="url(#robeRed)"/>
+      <path d="M-40 122 Q0 142 40 122 L34 200 Q0 212 -34 200 Z" fill="#5e4a3a"/>
+      <path d="M-68 -25 Q0 -10 68 -25" stroke="#a13e2b" stroke-width="8"/>
+      <circle cx="-22" cy="-158" r="4" fill="#2b1d14" stroke="none"/>
+      <circle cx="10" cy="-158" r="4" fill="#2b1d14" stroke="none"/>
+    </g>
+    <!-- aide behind red-robed -->
+    <g transform="translate(335,365)">
+      <ellipse cx="0" cy="-145" rx="22" ry="27" fill="#e9d6b8"/>
+      <path d="M-42 -118 Q0 -98 42 -118 L44 -92 Q4 -76 -34 -90 Z" fill="#d9c6a6"/>
+      <path d="M-52 -92 Q0 -70 52 -92 L58 90 Q2 120 -58 90 Z" fill="#bca17c"/>
+      <path d="M-40 104 L-10 104 Q-4 150 -36 152 Z" fill="#6d533d"/>
+      <path d="M6 104 L36 104 Q46 152 16 154 Z" fill="#6d533d"/>
+    </g>
+  </g>
+
+  <!-- RIGHT PROCESSION -->
+  <g stroke="#5b3c2a" stroke-width="2">
+    <!-- poles -->
+    <path d="M880 135 L840 510" stroke="#6b4d36" stroke-width="6"/>
+    <path d="M920 145 L900 520" stroke="#6b4d36" stroke-width="6"/>
+    <path d="M1040 150 L1018 530" stroke="#6b4d36" stroke-width="6"/>
+    <!-- twin arch fan/canopy -->
+    <g>
+      <path d="M830 210 Q900 70 970 210 L965 250 Q900 120 835 250 Z" fill="#7b746a"/>
+      <path d="M930 210 Q1000 70 1070 210 L1065 250 Q1000 120 935 250 Z" fill="#7b746a"/>
+      <g>
+        <path d="M848 216 Q900 110 952 216 Q900 242 848 216 Z" fill="url(#greenFan)" stroke="#3e5f42"/>
+        <rect x="893" y="145" width="14" height="85" fill="#2f4a33" stroke="#2f4a33"/>
+        <path d="M948 216 Q900 110 852 216 Q900 242 948 216 Z" fill="none"/>
+      </g>
+      <g>
+        <path d="M948 216 Q1000 110 1052 216 Q1000 242 948 216 Z" fill="url(#greenFan)" stroke="#3e5f42"/>
+        <rect x="993" y="145" width="14" height="85" fill="#2f4a33" stroke="#2f4a33"/>
+      </g>
+    </g>
+
+    <!-- banner -->
+    <g transform="translate(1090,120)">
+      <path d="M0 0 L70 0 Q90 30 70 60 L0 60 Z" fill="#b5413a"/>
+      <path d="M0 0 L-18 405" stroke="#6b4d36" stroke-width="7"/>
+      <circle cx="-18" cy="405" r="6" fill="#6b4d36" stroke="none"/>
+    </g>
+
+    <!-- group of attendants in striped robes -->
+    <g>
+      <!-- person generator: positions -->
+      <!-- 1 -->
+      <g transform="translate(760,420)">
+        <ellipse cx="0" cy="-140" rx="20" ry="25" fill="#ecd6b8"/>
+        <path d="M-42 -110 Q0 -90 42 -110 L46 55 Q0 82 -46 55 Z" fill="url(#paleCloth)"/>
+        <path d="M-46 -30 L46 -30 M-46 10 L46 10 M-46 50 L46 50" stroke="url(#stripeRed)" stroke-width="10"/>
+        <path d="M-40 80 Q0 98 40 80 L34 150 Q0 162 -34 150 Z" fill="#6d533d"/>
+      </g>
+      <!-- 2 -->
+      <g transform="translate(810,430)">
+        <ellipse cx="0" cy="-150" rx="20" ry="26" fill="#ecd6b8"/>
+        <path d="M-42 -120 Q0 -100 42 -120 L46 40 Q0 70 -46 40 Z" fill="url(#paleCloth)"/>
+        <path d="M-46 -35 L46 -35 M-46 5 L46 5 M-46 45 L46 45" stroke="url(#stripeRed)" stroke-width="10"/>
+        <path d="M-40 70 Q0 90 40 70 L34 145 Q0 160 -34 145 Z" fill="#6d533d"/>
+      </g>
+      <!-- 3 -->
+      <g transform="translate(860,430)">
+        <ellipse cx="0" cy="-150" rx="20" ry="26" fill="#ecd6b8"/>
+        <path d="M-42 -120 Q0 -100 42 -120 L46 40 Q0 70 -46 40 Z" fill="url(#paleCloth)"/>
+        <path d="M-46 -35 L46 -35 M-46 5 L46 5 M-46 45 L46 45" stroke="url(#stripeRed)" stroke-width="10"/>
+        <path d="M-40 70 Q0 90 40 70 L34 145 Q0 160 -34 145 Z" fill="#6d533d"/>
+      </g>
+      <!-- 4 -->
+      <g transform="translate(910,430)">
+        <ellipse cx="0" cy="-150" rx="20" ry="26" fill="#ecd6b8"/>
+        <path d="M-42 -120 Q0 -100 42 -120 L46 40 Q0 70 -46 40 Z" fill="url(#paleCloth)"/>
+        <path d="M-46 -35 L46 -35 M-46 5 L46 5 M-46 45 L46 45" stroke="url(#stripeRed)" stroke-width="10"/>
+        <path d="M-40 70 Q0 90 40 70 L34 145 Q0 160 -34 145 Z" fill="#6d533d"/>
+      </g>
+      <!-- 5 -->
+      <g transform="translate(960,430)">
+        <ellipse cx="0" cy="-150" rx="20" ry="26" fill="#ecd6b8"/>
+        <path d="M-42 -120 Q0 -100 42 -120 L46 40 Q0 70 -46 40 Z" fill="url(#paleCloth)"/>
+        <path d="M-46 -35 L46 -35 M-46 5 L46 5 M-46 45 L46 45" stroke="url(#stripeRed)" stroke-width="10"/>
+        <path d="M-40 70 Q0 90 40 70 L34 145 Q0 160 -34 145 Z" fill="#6d533d"/>
+      </g>
+      <!-- 6 -->
+      <g transform="translate(1010,430)">
+        <ellipse cx="0" cy="-150" rx="20" ry="26" fill="#ecd6b8"/>
+        <path d="M-42 -120 Q0 -100 42 -120 L46 40 Q0 70 -46 40 Z" fill="url(#paleCloth)"/>
+        <path d="M-46 -35 L46 -35 M-46 5 L46 5 M-46 45 L46 45" stroke="url(#stripeRed)" stroke-width="10"/>
+        <path d="M-40 70 Q0 90 40 70 L34 145 Q0 160 -34 145 Z" fill="#6d533d"/>
+      </g>
+    </g>
+
+    <!-- spears -->
+    <g stroke="url(#steel)" stroke-width="6" fill="none">
+      <path d="M740 340 L780 560"/>
+      <path d="M790 330 L830 560"/>
+      <path d="M840 320 L880 560"/>
+    </g>
+    <!-- spearheads -->
+    <g fill="url(#steel)" stroke="#5b5e64" stroke-width="1">
+      <path d="M770 560 L788 560 L779 585 Z"/>
+      <path d="M820 560 L838 560 L829 585 Z"/>
+      <path d="M870 560 L888 560 L879 585 Z"/>
+    </g>
+  </g>
+
+  <!-- central subtle divider between left and right scenes -->
+  <path d="M600 120 L600 560" stroke="#8f7858" stroke-width="2" opacity="0.25" stroke-dasharray="6 10"/>
+
+  <!-- small ground pebbles -->
+  <g fill="#9a815f" opacity="0.35">
+    <circle cx="210" cy="595" r="3"/>
+    <circle cx="260" cy="602" r="2"/>
+    <circle cx="420" cy="598" r="3"/>
+    <circle cx="860" cy="600" r="3"/>
+    <circle cx="980" cy="608" r="2"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black circular frame (fisheye effect) -->
+  <circle cx="400" cy="300" r="295" fill="#000000"/>
+  <clipPath id="fisheyeClip">
+    <circle cx="400" cy="300" r="280"/>
+  </clipPath>
+  
+  <g clip-path="url(#fisheyeClip)">
+    <!-- Sky background -->
+    <rect x="0" y="0" width="800" height="300" fill="#87CEEB"/>
+    
+    <!-- Hills in background -->
+    <ellipse cx="600" cy="250" rx="200" ry="100" fill="#8B7355"/>
+    <ellipse cx="200" cy="280" rx="180" ry="80" fill="#967F5A"/>
+    
+    <!-- Trees -->
+    <ellipse cx="250" cy="150" rx="80" ry="120" fill="#228B22"/>
+    <ellipse cx="350" cy="130" rx="70" ry="100" fill="#2E8B57"/>
+    <ellipse cx="150" cy="170" rx="60" ry="90" fill="#006400"/>
+    
+    <!-- Wooden fence -->
+    <rect x="100" y="280" width="600" height="15" fill="#654321"/>
+    <rect x="120" y="220" width="12" height="80" fill="#654321"/>
+    <rect x="200" y="220" width="12" height="80" fill="#654321"/>
+    <rect x="280" y="220" width="12" height="80" fill="#654321"/>
+    <rect x="360" y="220" width="12" height="80" fill="#654321"/>
+    <rect x="440" y="220" width="12" height="80" fill="#654321"/>
+    <rect x="520" y="220" width="12" height="80" fill="#654321"/>
+    
+    <!-- Ground -->
+    <rect x="0" y="295" width="800" height="305" fill="#8B6914"/>
+    
+    <!-- Horse -->
+    <!-- Body -->
+    <ellipse cx="400" cy="340" rx="120" ry="80" fill="#4A3C28"/>
+    <!-- Neck -->
+    <path d="M 320 300 Q 280 250 300 200 Q 320 180 340 200 L 340 300 Z" fill="#4A3C28"/>
+    <!-- Head -->
+    <ellipse cx="310" cy="190" rx="40" ry="60" fill="#4A3C28" transform="rotate(-20 310 190)"/>
+    <!-- Muzzle -->
+    <ellipse cx="280" cy="210" rx="25" ry="35" fill="#3A2C18" transform="rotate(-20 280 210)"/>
+    <!-- Ears -->
+    <path d="M 320 160 L 315 140 L 325 150 Z" fill="#4A3C28"/>
+    <path d="M 335 165 L 330 145 L 340 155 Z" fill="#4A3C28"/>
+    <!-- Eye -->
+    <ellipse cx="315" cy="180" rx="8" ry="10" fill="#000000"/>
+    <ellipse cx="317" cy="178" rx="3" ry="4" fill="#FFFFFF"/>
+    <!-- Mane -->
+    <path d="M 340 160 Q 350 180 345 200 Q 340 220 335 240" stroke="#1C1410" stroke-width="8" fill="none"/>
+    <!-- Legs (visible portions) -->
+    <rect x="340" y="380" width="25" height="60" fill="#4A3C28"/>
+    <rect x="380" y="380" width="25" height="60" fill="#4A3C28"/>
+    
+    <!-- Hay in background -->
+    <circle cx="550" cy="350" r="40" fill="#DAA520"/>
+    <circle cx="580" cy="360" r="35" fill="#D4AF37"/>
+    
+    <!-- Fence post details -->
+    <rect x="100" y="250" width="600" height="8" fill="#4A3219"/>
+    
+    <!-- Some straw/hay on ground -->
+    <path d="M 300 400 L 305 395 M 310 405 L 315 398 M 320 402 L 325 396" stroke="#DAA520" stroke-width="2"/>
+    <path d="M 350 410 L 355 405 M 360 415 L 365 408 M 370 412 L 375 406" stroke="#D4AF37" stroke-width="2"/>
+  </g>
+  
+  <!-- Lens distortion effect at edges -->
+  <circle cx="400" cy="300" r="280" fill="none" stroke="#000000" stroke-width="15" opacity="0.3"/>
+</svg>

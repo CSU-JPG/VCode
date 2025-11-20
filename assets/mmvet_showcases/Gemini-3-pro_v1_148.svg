@@ -1,0 +1,82 @@
+<svg viewBox="0 0 600 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="pillowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdfdfd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background / Pillow -->
+  <rect width="600" height="550" fill="#ffffff" />
+  <rect x="0" y="160" width="600" height="390" fill="url(#pillowGradient)" />
+  
+  <!-- Pillow Wrinkles -->
+  <path d="M0 350 Q 150 380 300 450 Q 450 380 600 350" fill="none" stroke="#d0d0d0" stroke-width="2" opacity="0.5" />
+  <path d="M100 160 Q 150 300 50 550" fill="none" stroke="#d0d0d0" stroke-width="2" opacity="0.3" />
+  <path d="M500 160 Q 450 300 550 550" fill="none" stroke="#d0d0d0" stroke-width="2" opacity="0.3" />
+  
+  <!-- Shadow under Kermit -->
+  <ellipse cx="300" cy="430" rx="100" ry="80" fill="#000000" opacity="0.15" filter="url(#softShadow)" />
+
+  <!-- Kermit Figure -->
+  <g transform="translate(300, 350) scale(1.2)">
+    
+    <!-- Arms (Behind Head) -->
+    <path d="M -40 -10 Q -70 -40 -50 -80 Q -30 -100 -10 -90" fill="#6faa3e" stroke="#5c8f32" stroke-width="1" />
+    <path d="M 40 -10 Q 70 -40 50 -80 Q 30 -100 10 -90" fill="#6faa3e" stroke="#5c8f32" stroke-width="1" />
+
+    <!-- Body -->
+    <path d="M -45 -20 C -60 20 -50 80 0 90 C 50 80 60 20 45 -20 Z" fill="#6faa3e" />
+    <path d="M 0 -20 L 0 60" stroke="#5c8f32" stroke-width="1" opacity="0.3" /> <!-- Center seam -->
+
+    <!-- Legs/Feet -->
+    <path d="M -30 70 L -40 110 L -20 110 L -10 80 Z" fill="#6faa3e" />
+    <path d="M 30 70 L 40 110 L 20 110 L 10 80 Z" fill="#6faa3e" />
+    <!-- Feet flippers -->
+    <path d="M -40 110 L -50 130 L -30 125 L -10 130 L -20 110 Z" fill="#8bc34a" stroke="#5c8f32" stroke-width="1"/>
+    <path d="M 40 110 L 50 130 L 30 125 L 10 130 L 20 110 Z" fill="#8bc34a" stroke="#5c8f32" stroke-width="1"/>
+
+    <!-- Collar -->
+    <path d="M -35 -30 L -50 -20 L -35 -10 L -40 5 L -20 0 L 0 10 L 20 0 L 40 5 L 35 -10 L 50 -20 L 35 -30 Z" fill="#aed581" stroke="#8cbf50" stroke-width="1" />
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-60" rx="45" ry="35" fill="#6faa3e" />
+    
+    <!-- Eyes -->
+    <g transform="translate(0, -90)">
+      <circle cx="-18" cy="0" r="12" fill="#ffffff" />
+      <rect x="-24" y="-1" width="12" height="2" rx="1" fill="#000000" /> <!-- Pupil Left -->
+      
+      <circle cx="18" cy="0" r="12" fill="#ffffff" />
+      <rect x="12" y="-1" width="12" height="2" rx="1" fill="#000000" /> <!-- Pupil Right -->
+    </g>
+
+    <!-- Mouth -->
+    <path d="M -25 -60 Q 0 -30 25 -60" fill="#b71c1c" stroke="#7f1313" stroke-width="1" /> 
+    <path d="M -25 -60 Q 0 -30 25 -60 Z" fill="#b71c1c" />
+    <!-- Tongue -->
+    <path d="M -10 -50 Q 0 -40 10 -50 Q 0 -35 -10 -50" fill="#f06292" />
+  </g>
+
+  <!-- Meme Text -->
+  <g font-family="Arial, Helvetica, sans-serif" fill="#1a1a1a">
+    <text x="30" y="50" font-size="32" font-weight="bold">Me: I'll do it at 8</text>
+    <text x="30" y="95" font-size="32" font-weight="bold">Time: 8.05</text>
+    <text x="30" y="140" font-size="32" font-weight="bold">Me: looks like I gotta wait till 9 now</text>
+  </g>
+
+  <!-- Watermark -->
+  <text x="580" y="540" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="end" opacity="0.7">boredpanda.com</text>
+
+</svg>

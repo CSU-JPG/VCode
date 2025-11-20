@@ -1,0 +1,172 @@
+<svg viewBox="0 0 600 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for Gradients and Reusable Patterns -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffcc66;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffaa66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffddaa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hornGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e0e0d0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="sketchy">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="1" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+    </filter>
+  </defs>
+
+  <!-- Background: Sky and Ground -->
+  <rect x="0" y="0" width="600" height="550" fill="url(#skyGradient)" />
+  
+  <!-- Distant Mountains -->
+  <path d="M0,350 L50,320 L120,340 L200,310 L300,340 L450,300 L600,340 L600,350 L0,350" fill="#cc9966" stroke="none"/>
+
+  <!-- Ground -->
+  <rect x="0" y="350" width="600" height="200" fill="#aacc88" />
+  <path d="M0,350 Q300,340 600,350" fill="#aacc88" stroke="none"/>
+  
+  <!-- Grass Textures -->
+  <path d="M50,400 l5,-10 l5,10 M150,450 l5,-15 l5,15 M500,420 l-5,-12 l5,12" stroke="#668844" stroke-width="2" fill="none"/>
+
+  <!-- Background Acacia Tree -->
+  <g transform="translate(450, 220) scale(0.8)">
+    <path d="M50,130 Q60,100 50,80 Q40,60 20,50 M50,80 Q80,60 110,50" stroke="#443322" stroke-width="4" fill="none"/>
+    <path d="M10,50 Q65,20 120,50 Q100,70 65,60 Q30,70 10,50" fill="#446633" opacity="0.8"/>
+  </g>
+
+  <!-- RHINO CHARACTER -->
+  <g transform="translate(100, 150)">
+    <!-- Tail -->
+    <path d="M10,180 Q-10,200 5,220" stroke="#666" stroke-width="3" fill="none"/>
+    
+    <!-- Legs -->
+    <path d="M40,220 L40,260 Q40,270 60,270 L70,270 L70,240" fill="#ddd" stroke="#333" stroke-width="2"/>
+    <path d="M110,220 L110,260 Q110,270 130,270 L140,270 L140,230" fill="#ddd" stroke="#333" stroke-width="2"/>
+
+    <!-- Body -->
+    <ellipse cx="90" cy="160" rx="75" ry="90" fill="#ddd" stroke="#333" stroke-width="2"/>
+    
+    <!-- Arm holding Palette -->
+    <path d="M50,160 Q30,180 60,190" fill="#ddd" stroke="#333" stroke-width="2"/>
+    
+    <!-- Palette -->
+    <path d="M60,180 Q40,180 40,200 Q40,220 70,220 Q90,220 90,200 Q90,190 80,190 Q70,190 75,180 Z" fill="#f4e4bc" stroke="#333" stroke-width="1.5"/>
+    <circle cx="55" cy="200" r="5" fill="#ff4444" />
+    <circle cx="65" cy="210" r="5" fill="#4444ff" />
+    <circle cx="75" cy="200" r="5" fill="#44ff44" />
+
+    <!-- Head -->
+    <path d="M80,80 Q70,40 100,30 Q140,20 160,60 Q170,90 150,110" fill="#ddd" stroke="#333" stroke-width="2"/>
+    <!-- Ears -->
+    <ellipse cx="85" cy="40" rx="10" ry="15" transform="rotate(-20)" fill="#ddd" stroke="#333" stroke-width="2"/>
+    <ellipse cx="115" cy="35" rx="10" ry="15" transform="rotate(20)" fill="#ddd" stroke="#333" stroke-width="2"/>
+
+    <!-- The Real Horn -->
+    <path d="M145,70 Q180,40 170,10 Q165,40 160,60" fill="url(#hornGradient)" stroke="#333" stroke-width="2"/>
+    <!-- Small secondary horn -->
+    <path d="M135,65 Q140,55 145,65" fill="#ddd" stroke="#333" stroke-width="1"/>
+
+    <!-- Face Details -->
+    <circle cx="110" cy="60" r="12" fill="white" stroke="#333" stroke-width="1.5"/>
+    <circle cx="112" cy="60" r="2" fill="black"/>
+    <circle cx="135" cy="60" r="12" fill="white" stroke="#333" stroke-width="1.5"/>
+    <circle cx="133" cy="60" r="2" fill="black"/>
+    
+    <!-- Smile -->
+    <path d="M120,90 Q140,100 160,90" fill="white" stroke="#333" stroke-width="1.5"/>
+    <line x1="130" y1="90" x2="130" y2="98" stroke="#333" stroke-width="1"/>
+    <line x1="140" y1="92" x2="140" y2="98" stroke="#333" stroke-width="1"/>
+    <line x1="150" y1="90" x2="150" y2="96" stroke="#333" stroke-width="1"/>
+
+    <!-- Arm holding Brush -->
+    <path d="M130,160 Q150,170 160,150" fill="#ddd" stroke="#333" stroke-width="2"/>
+    <!-- Brush -->
+    <path d="M155,155 L180,120" stroke="#8B4513" stroke-width="4"/>
+    <path d="M180,120 L185,115 L190,122 Z" fill="#333"/>
+  </g>
+
+  <!-- EASEL AND PAINTINGS -->
+  <g transform="translate(300, 130)">
+    <!-- Easel Legs -->
+    <line x1="40" y1="50" x2="10" y2="250" stroke="#d2b48c" stroke-width="8" stroke-linecap="round"/>
+    <line x1="40" y1="50" x2="70" y2="250" stroke="#d2b48c" stroke-width="8" stroke-linecap="round"/>
+    <line x1="40" y1="50" x2="40" y2="240" stroke="#a08060" stroke-width="6" stroke-linecap="round"/>
+    <!-- Easel Shelf -->
+    <rect x="5" y="190" width="90" height="10" fill="#d2b48c" stroke="#5c4033" stroke-width="1"/>
+
+    <!-- MAIN PAINTING (On Easel) -->
+    <g transform="translate(15, 60)">
+      <!-- Canvas Frame -->
+      <rect x="0" y="0" width="80" height="100" fill="white" stroke="#333" stroke-width="2"/>
+      <!-- Painted Sky -->
+      <rect x="2" y="2" width="76" height="96" fill="#ffeeaa"/>
+      <!-- Painted Ground -->
+      <rect x="2" y="70" width="76" height="28" fill="#aacc88"/>
+      <!-- Painted Tree -->
+      <path d="M60,70 L60,50 M50,50 Q60,40 70,50" stroke="#555" stroke-width="1" fill="none"/>
+      <!-- THE PAINTED HORN (Obstruction) -->
+      <path d="M30,98 L40,40 L50,98" fill="#eee" stroke="#555" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- PAINTING 2 (Leaning Left) -->
+  <g transform="translate(340, 310)">
+    <rect x="0" y="0" width="60" height="70" fill="white" stroke="#333" stroke-width="2" transform="rotate(-5)"/>
+    <g transform="rotate(-5, 30, 35)">
+       <!-- Content: River -->
+       <rect x="2" y="2" width="56" height="66" fill="#87CEEB"/>
+       <rect x="2" y="40" width="56" height="28" fill="#4682B4"/>
+       <!-- PAINTED HORN -->
+       <path d="M20,66 L30,20 L40,66" fill="#eee" stroke="#555" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- PAINTING 3 (Leaning Right) -->
+  <g transform="translate(410, 290)">
+    <rect x="0" y="0" width="60" height="80" fill="white" stroke="#333" stroke-width="2" transform="rotate(5)"/>
+    <g transform="rotate(5, 30, 40)">
+       <!-- Content: Sunset -->
+       <rect x="2" y="2" width="56" height="76" fill="#FFD700"/>
+       <circle cx="40" cy="20" r="8" fill="orange"/>
+       <path d="M2,60 L58,60" stroke="#555" stroke-width="1"/>
+       <!-- PAINTED HORN -->
+       <path d="M20,76 L30,30 L40,76" fill="#eee" stroke="#555" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- PAINTING 4 (On Ground Left) -->
+  <g transform="translate(40, 400) rotate(-20)">
+    <rect x="0" y="0" width="80" height="60" fill="white" stroke="#333" stroke-width="2"/>
+    <!-- Content: Fruit Bowl -->
+    <rect x="2" y="2" width="76" height="56" fill="#eeffff"/>
+    <circle cx="30" cy="30" r="8" fill="#ccffcc"/> <!-- Pear -->
+    <circle cx="50" cy="35" r="8" fill="#ffcccc"/> <!-- Apple -->
+    <!-- PAINTED HORN -->
+    <path d="M30,56 L40,10 L50,56" fill="#eee" stroke="#555" stroke-width="1"/>
+  </g>
+
+  <!-- Painting Supplies -->
+  <g transform="translate(60, 360)">
+    <!-- Jar -->
+    <path d="M0,0 L0,30 Q10,35 20,30 L20,0 Z" fill="#add8e6" stroke="#333" stroke-width="1.5" opacity="0.7"/>
+    <!-- Brushes in jar -->
+    <line x1="5" y1="30" x2="0" y2="-10" stroke="#8B4513" stroke-width="2"/>
+    <line x1="15" y1="30" x2="20" y2="-15" stroke="#8B4513" stroke-width="2"/>
+  </g>
+
+  <!-- Paint Tubes -->
+  <g transform="translate(280, 380)">
+    <path d="M0,0 L10,0 L10,5 L0,5 Z" fill="gold" stroke="#333" stroke-width="1"/>
+    <path d="M10,0 Q20,2 10,5" fill="orange"/>
+    <path d="M30,10 L40,10 L40,15 L30,15 Z" fill="red" stroke="#333" stroke-width="1" transform="rotate(30)"/>
+  </g>
+
+  <!-- Bottom Text Bar -->
+  <rect x="0" y="550" width="600" height="100" fill="black" />
+  
+  <!-- Caption -->
+  <text x="300" y="590" font-family="Arial, sans-serif" font-size="34" fill="white" text-anchor="middle" font-weight="normal">You see the world</text>
+  <text x="300" y="630" font-family="Arial, sans-serif" font-size="34" fill="white" text-anchor="middle" font-weight="normal">as you are!</text>
+
+</svg>

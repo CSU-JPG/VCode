@@ -1,0 +1,45 @@
+<svg viewBox="0 0 500 375" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background carpet/floor -->
+  <rect width="500" height="375" fill="#D4B896"/>
+  
+  <!-- Carpet texture -->
+  <pattern id="carpet" patternUnits="userSpaceOnUse" width="4" height="4">
+    <rect width="4" height="4" fill="#D4B896"/>
+    <circle cx="2" cy="2" r="0.5" fill="#C8A882" opacity="0.3"/>
+  </pattern>
+  <rect width="500" height="375" fill="url(#carpet)"/>
+  
+  <!-- Luggage rack/stand -->
+  <g id="luggage-rack">
+    <!-- Base/legs -->
+    <path d="M 150,280 L 170,200 M 350,280 L 330,200" stroke="#8B4513" stroke-width="8" fill="none"/>
+    <!-- Cross support -->
+    <path d="M 160,240 L 340,240" stroke="#8B4513" stroke-width="6" fill="none"/>
+    <!-- Top support straps -->
+    <rect x="140" y="190" width="220" height="15" fill="#F5DEB3"/>
+  </g>
+  
+  <!-- Suitcase (using metadata path) -->
+  <g id="suitcase">
+    <path d="M 68,0 L 0,7 L 0,163 L 256,115 L 259,15 L 198,0 Z" fill="#2C2C2C"/>
+    <!-- Suitcase details -->
+    <rect x="20" y="20" width="220" height="3" fill="#444" opacity="0.5"/>
+    <rect x="20" y="140" width="220" height="3" fill="#444" opacity="0.5"/>
+    <!-- Handle -->
+    <rect x="110" y="0" width="40" height="8" rx="4" fill="#333"/>
+  </g>
+  
+  <!-- Luggage tag (using metadata path) -->
+  <g id="tag">
+    <path d="M 184,106 L 164,112 L 148,114 L 146,119 L 152,123 L 187,121 L 191,118 L 188,106 Z" 
+          fill="#FFF" stroke="#AAA" stroke-width="1"/>
+    <!-- Tag string -->
+    <line x1="146" y1="119" x2="130" y2="125" stroke="#666" stroke-width="1"/>
+  </g>
+  
+  <!-- Dark background area -->
+  <rect x="350" y="0" width="150" height="300" fill="#1A1A1A" opacity="0.9"/>
+  
+  <!-- Additional detail: shadow under suitcase -->
+  <ellipse cx="180" cy="170" rx="100" ry="20" fill="#000" opacity="0.2"/>
+</svg>

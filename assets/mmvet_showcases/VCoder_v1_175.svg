@@ -1,0 +1,124 @@
+<svg viewBox="0 0 1000 562" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="skinGradient">
+      <stop offset="0%" stop-color="#FFE0BD"/>
+      <stop offset="60%" stop-color="#FDBCB4"/>
+      <stop offset="100%" stop-color="#E5A88A"/>
+    </radialGradient>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037"/>
+      <stop offset="50%" stop-color="#3E2723"/>
+      <stop offset="100%" stop-color="#2E1A0F"/>
+    </linearGradient>
+    <radialGradient id="ringGradient">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFC125"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A5D3A"/>
+      <stop offset="50%" stop-color="#3E4E3C"/>
+      <stop offset="100%" stop-color="#2A3A28"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with green/brown tones -->
+  <rect x="0" y="0" width="1000" height="562" fill="url(#backgroundGradient)"/>
+  
+  <!-- Wall texture -->
+  <path d="M 0,0 L 200,0 L 250,50 L 300,20 L 400,80 L 500,30 L 600,60 L 700,40 L 800,70 L 900,20 L 1000,50 L 1000,150 L 950,180 L 850,160 L 750,190 L 650,170 L 550,200 L 450,180 L 350,210 L 250,190 L 150,220 L 50,200 L 0,230 Z" fill="#3A4A38" opacity="0.7"/>
+  
+  <!-- Additional background texture -->
+  <path d="M 0,200 Q 100,220 200,210 T 400,230 Q 500,240 600,220 T 800,240 L 1000,250 L 1000,562 L 0,562 Z" fill="#2E3E2C" opacity="0.5"/>
+  
+  <!-- Main figure (Frodo) -->
+  <path d="M 441,13 L 406,34 L 362,115 L 374,128 L 333,139 L 314,176 L 322,235 L 366,228 L 406,253 L 420,247 L 432,323 L 396,339 L 356,332 L 313,303 L 283,250 L 248,240 L 213,253 L 191,281 L 160,289 L 67,416 L 75,558 L 795,561 L 850,556 L 879,540 L 882,561 L 999,561 L 999,376 L 942,381 L 914,365 L 872,374 L 838,335 L 752,294 L 743,273 L 696,262 L 710,141 L 691,66 L 661,37 L 620,22 L 562,48 L 518,23 L 447,13 Z" fill="#1a1410"/>
+  
+  <!-- Cloak/clothing -->
+  <path d="M 400,200 L 380,250 L 350,300 L 320,350 L 300,400 L 280,450 L 260,500 L 250,550 L 750,550 L 780,500 L 800,450 L 820,400 L 840,350 L 850,300 L 840,250 L 820,200 L 780,180 L 700,170 L 600,165 L 500,168 L 400,180 Z" fill="#2a2418" stroke="#1a1410" stroke-width="2"/>
+  
+  <!-- Inner shirt/vest -->
+  <path d="M 450,250 L 460,280 L 480,320 L 500,360 L 520,400 L 540,440 L 560,400 L 580,360 L 600,320 L 620,280 L 630,250 L 600,240 L 550,235 L 500,238 L 450,245 Z" fill="#e8dcc0" stroke="#c8b890" stroke-width="1"/>
+  
+  <!-- Face with gradient -->
+  <path d="M 540,137 L 507,193 L 494,191 L 495,144 L 483,186 L 446,168 L 424,257 L 455,397 L 513,408 L 552,445 L 620,419 L 643,339 L 643,249 L 607,150 L 591,152 L 608,187 L 566,168 L 572,156 L 591,175 L 576,147 L 541,137 Z" fill="url(#skinGradient)" stroke="#d4a080" stroke-width="1"/>
+  
+  <!-- Face shadows -->
+  <path d="M 480,250 Q 470,270 475,290 L 490,320 L 480,250 Z" fill="#E5A88A" opacity="0.4"/>
+  <path d="M 580,250 Q 590,270 585,290 L 570,320 L 580,250 Z" fill="#E5A88A" opacity="0.4"/>
+  
+  <!-- Hair with multiple layers for texture -->
+  <g id="hair">
+    <!-- Base hair shape -->
+    <path d="M 480,120 Q 460,100 450,110 T 440,130 Q 430,140 425,155 L 424,180 L 430,170 Q 440,150 455,145 T 480,150 Q 500,130 520,125 T 550,130 Q 570,120 590,125 T 610,140 Q 620,150 625,165 L 630,180 L 635,170 Q 640,150 635,140 T 620,120 Q 600,100 580,95 T 540,100 Q 520,90 500,95 T 480,120 Z" fill="url(#hairGradient)"/>
+    
+    <!-- Hair texture strands -->
+    <path d="M 440,110 Q 438,115 441,120 T 447,130 Q 445,135 448,140" stroke="#3E2723" stroke-width="2" fill="none"/>
+    <path d="M 455,105 Q 453,110 456,115 T 461,125 Q 459,130 462,135" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+    <path d="M 470,100 Q 468,105 471,110 T 476,120 Q 474,125 477,130" stroke="#3E2723" stroke-width="2" fill="none"/>
+    <path d="M 485,98 Q 483,103 486,108 T 491,118 Q 489,123 492,128" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+    <path d="M 500,95 Q 498,100 501,105 T 506,115 Q 504,120 507,125" stroke="#3E2723" stroke-width="2" fill="none"/>
+    <path d="M 515,98 Q 513,103 516,108 T 521,118 Q 519,123 522,128" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+    <path d="M 530,100 Q 528,105 531,110 T 536,120 Q 534,125 537,130" stroke="#3E2723" stroke-width="2" fill="none"/>
+    <path d="M 545,105 Q 543,110 546,115 T 551,125 Q 549,130 552,135" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+    <path d="M 560,110 Q 558,115 561,120 T 566,130 Q 564,135 567,140" stroke="#3E2723" stroke-width="2" fill="none"/>
+    <path d="M 575,115 Q 573,120 576,125 T 581,135 Q 579,140 582,145" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+    <path d="M 590,120 Q 588,125 591,130 T 596,140 Q 594,145 597,150" stroke="#3E2723" stroke-width="2" fill="none"/>
+    <path d="M 605,125 Q 603,130 606,135 T 611,145 Q 609,150 612,155" stroke="#5D4037" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Eyes - green and almond shaped -->
+  <ellipse cx="475" cy="257" rx="18" ry="12" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+  <ellipse cx="475" cy="257" rx="10" ry="10" fill="#1B5E20"/>
+  <circle cx="475" cy="257" r="5" fill="#000000"/>
+  <circle cx="477" cy="255" r="2" fill="#ffffff"/>
+  
+  <ellipse cx="589" cy="259" rx="18" ry="12" fill="#2E7D32" stroke="#1B5E20" stroke-width="1"/>
+  <ellipse cx="589" cy="259" rx="10" ry="10" fill="#1B5E20"/>
+  <circle cx="589" cy="259" r="5" fill="#000000"/>
+  <circle cx="591" cy="257" r="2" fill="#ffffff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 455,240 Q 465,235 485,238" stroke="#3E2723" stroke-width="3" fill="none"/>
+  <path d="M 570,238 Q 590,235 605,240" stroke="#3E2723" stroke-width="3" fill="none"/>
+  
+  <!-- Nose with better shape -->
+  <path d="M 530,280 L 528,295 L 525,305 Q 523,310 525,312 L 530,315 L 535,312 Q 537,310 535,305 L 532,295 L 530,280" fill="#E5A88A" stroke="#d4a080" stroke-width="1"/>
+  
+  <!-- Mouth -->
+  <path d="M 510,340 Q 520,343 530,341 T 550,340" stroke="#c08060" stroke-width="2" fill="none"/>
+  
+  <!-- Sweat/moisture on face -->
+  <ellipse cx="500" cy="200" rx="3" ry="5" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="580" cy="210" rx="2" ry="4" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="550" cy="190" rx="2" ry="3" fill="#ffffff" opacity="0.4"/>
+  
+  <!-- Hand with better proportions -->
+  <ellipse cx="340" cy="380" rx="60" ry="75" fill="url(#skinGradient)" stroke="#d4a080" stroke-width="2"/>
+  
+  <!-- Properly proportioned fingers -->
+  <rect x="305" y="330" width="20" height="60" rx="10" fill="url(#skinGradient)" stroke="#d4a080" stroke-width="1"/>
+  <rect x="330" y="320" width="20" height="65" rx="10" fill="url(#skinGradient)" stroke="#d4a080" stroke-width="1"/>
+  <rect x="355" y="325" width="20" height="65" rx="10" fill="url(#skinGradient)" stroke="#d4a080" stroke-width="1"/>
+  <rect x="380" y="340" width="20" height="55" rx="10" fill="url(#skinGradient)" stroke="#d4a080" stroke-width="1"/>
+  
+  <!-- Thumb -->
+  <ellipse cx="310" cy="400" rx="15" ry="25" fill="url(#skinGradient)" stroke="#d4a080" stroke-width="1" transform="rotate(-30 310 400)"/>
+  
+  <!-- The One Ring - smaller and with gradient -->
+  <ellipse cx="352" cy="365" rx="25" ry="28" fill="url(#ringGradient)" stroke="#B8860B" stroke-width="2"/>
+  <ellipse cx="352" cy="365" rx="18" ry="20" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  
+  <!-- Ring inscription -->
+  <path d="M 337,362 Q 342,360 347,362 T 357,360 Q 362,362 367,360" stroke="#8B6914" stroke-width="0.8" fill="none" opacity="0.7"/>
+  <path d="M 337,368 Q 342,366 347,368 T 357,366 Q 362,368 367,366" stroke="#8B6914" stroke-width="0.8" fill="none" opacity="0.7"/>
+  
+  <!-- Golden glow from ring -->
+  <ellipse cx="352" cy="365" rx="35" ry="38" fill="#FFD700" opacity="0.15"/>
+  <ellipse cx="352" cy="365" rx="45" ry="48" fill="#FFD700" opacity="0.08"/>
+  
+  <!-- Character identification -->
+  <text x="750" y="520" font-family="serif" font-size="16" fill="#cccccc" opacity="0.7">Frodo Baggins</text>
+  <text x="750" y="540" font-family="serif" font-size="14" fill="#aaaaaa" opacity="0.6">The Lord of the Rings</text>
+</svg>

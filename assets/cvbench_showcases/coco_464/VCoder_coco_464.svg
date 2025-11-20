@@ -1,0 +1,88 @@
+<svg viewBox="0 0 640 424" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular frame/window effect -->
+  <defs>
+    <mask id="circularView">
+      <rect width="640" height="424" fill="black"/>
+      <circle cx="320" cy="212" r="200" fill="white"/>
+    </mask>
+  </defs>
+  
+  <!-- Dark frame border -->
+  <rect width="640" height="424" fill="#1a1a1a"/>
+  <circle cx="320" cy="212" r="200" fill="white"/>
+  
+  <!-- Background scene within circle -->
+  <g mask="url(#circularView)">
+    <!-- Sky and hills -->
+    <rect x="0" y="0" width="640" height="200" fill="#87CEEB"/>
+    <path d="M 0,150 Q 160,140 320,160 T 640,150 L 640,300 L 0,300 Z" fill="#7a8b5a"/>
+    
+    <!-- Trees -->
+    <ellipse cx="400" cy="80" rx="60" ry="80" fill="#2d5016"/>
+    <ellipse cx="450" cy="90" rx="50" ry="70" fill="#3a6b1f"/>
+    
+    <!-- Fence structure -->
+    <rect x="180" y="180" width="300" height="8" fill="#6b4423"/>
+    <rect x="200" y="150" width="8" height="80" fill="#6b4423"/>
+    <rect x="280" y="150" width="8" height="80" fill="#6b4423"/>
+    <rect x="360" y="150" width="8" height="80" fill="#6b4423"/>
+    <rect x="440" y="150" width="8" height="80" fill="#6b4423"/>
+    
+    <!-- Hay bale -->
+    <ellipse cx="520" cy="240" rx="40" ry="35" fill="#d4a76a"/>
+    <rect x="480" y="240" width="80" height="40" fill="#d4a76a"/>
+    <ellipse cx="520" cy="280" rx="40" ry="35" fill="#c19653"/>
+    
+    <!-- Main horse (closer to viewer) -->
+    <g id="horse1">
+      <metadata>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">horse</dc:subject>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Main horse leaning over wooden fence</dc:description>
+          </rdf:Description>
+        </rdf:RDF>
+      </metadata>
+      <path d="M 276,47 L 273,52 L 274,68 L 279,83 L 277,85 L 271,88 L 248,74 L 244,75 L 246,86 L 252,98 L 251,106 L 245,115 L 233,146 L 232,174 L 203,234 L 204,245 L 214,270 L 220,276 L 229,279 L 247,278 L 254,274 L 260,264 L 260,252 L 276,238 L 288,232 L 306,218 L 318,220 L 321,224 L 329,226 L 403,228 L 395,199 L 385,184 L 374,157 L 354,122 L 331,96 L 314,85 L 301,72 L 295,61 L 284,50 L 277,48 Z" 
+           fill="#3d2817" stroke="#2a1a0f" stroke-width="1"/>
+      <!-- Horse facial features -->
+      <circle cx="290" cy="75" r="8" fill="#1a1a1a"/>
+      <ellipse cx="250" cy="85" rx="12" ry="6" fill="#1a1a1a" transform="rotate(-10 250 85)"/>
+      <!-- Hint shapes for horse recognition -->
+      <ellipse cx="290" cy="120" rx="35" ry="45" fill="none" stroke="none" opacity="0"/>
+      <path d="M 250,85 Q 270,95 290,90" fill="none" stroke="none" opacity="0"/>
+    </g>
+    
+    <!-- Second horse (in background) -->
+    <g id="horse2">
+      <metadata>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">horse</dc:subject>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Second horse visible in background</dc:description>
+          </rdf:Description>
+        </rdf:RDF>
+      </metadata>
+      <path d="M 516,177 L 515,178 L 510,178 L 504,180 L 497,185 L 495,185 L 480,199 L 475,210 L 477,217 L 476,218 L 476,223 L 474,227 L 474,232 L 476,234 L 502,234 L 503,235 L 516,235 L 517,236 L 530,236 L 531,235 L 565,235 L 569,239 L 578,239 L 580,237 L 581,213 L 580,212 L 580,203 L 578,202 L 574,205 L 564,205 L 550,198 L 545,193 L 543,189 L 534,183 L 518,177 Z" 
+           fill="#8b6239" stroke="#6b4a29" stroke-width="1"/>
+      <!-- Hint shape for horse head -->
+      <ellipse cx="530" cy="210" rx="25" ry="30" fill="none" stroke="none" opacity="0"/>
+    </g>
+    
+    <!-- Ground/dirt -->
+    <path d="M 0,300 L 640,300 L 640,424 L 0,424 Z" fill="#8b6f47"/>
+    <ellipse cx="250" cy="320" rx="80" ry="20" fill="#7a5d3a" opacity="0.3"/>
+  </g>
+  
+  <!-- Circular frame edge highlight -->
+  <circle cx="320" cy="212" r="200" fill="none" stroke="#0a0a0a" stroke-width="15" mask="url(#circularView)"/>
+  
+  <!-- Edge gradient for depth -->
+  <defs>
+    <radialGradient id="edgeGradient">
+      <stop offset="70%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  <circle cx="320" cy="212" r="195" fill="url(#edgeGradient)" opacity="0.5"/>
+</svg>

@@ -1,0 +1,116 @@
+<svg viewBox="0 0 496 330" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="496" height="330" fill="url(#bgGradient)"/>
+  
+  <!-- Background person (blurred) -->
+  <g opacity="0.7" filter="url(#blur)">
+    <path d="M 68,83 L 44,128 L 53,172 L 90,164 L 77,132 L 118,123 L 83,116 L 78,83 Z" 
+          fill="#4a5568" opacity="0.8"/>
+    <!-- Add E text in background -->
+    <text x="82" y="141" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+          fill="#ffffff" opacity="0.6">E</text>
+  </g>
+  
+  <!-- Background furniture -->
+  <path d="M 189,133 L 165,136 L 153,136 L 146,138 L 136,138 L 127,140 L 127,143 L 129,145 L 160,146 L 161,147 L 177,148 L 183,145 L 209,145 L 216,143 L 223,143 L 228,142 L 230,138 L 229,135 L 227,134 L 192,134 L 191,133 Z" 
+        fill="#8b6439" opacity="0.6"/>
+  
+  <!-- Main table -->
+  <path d="M 94,253 L 45,266 L 32,271 L 0,278 L 0,329 L 107,329 L 123,315 L 123,298 L 130,288 L 109,278 L 105,274 L 100,253 Z" 
+        fill="#654321">
+    <title>Wooden café table</title>
+  </path>
+  
+  <!-- Laptop device -->
+  <g>
+    <path d="M 124,173 L 124,199 L 121,205 L 79,206 L 104,255 L 106,272 L 109,275 L 134,287 L 155,283 L 183,286 L 192,293 L 194,303 L 203,307 L 220,302 L 262,282 L 258,267 L 260,256 L 250,252 L 230,253 L 221,258 L 207,255 L 204,245 L 198,244 L 194,236 L 178,234 L 153,181 L 148,177 L 130,173 Z" 
+          fill="#2d3748"/>
+    <!-- Screen -->
+    <rect x="85" y="180" width="165" height="100" rx="2" fill="#1a202c"/>
+    <rect x="90" y="185" width="155" height="90" fill="#ffffff"/>
+    <!-- Screen content hint -->
+    <rect x="95" y="190" width="145" height="5" fill="#e2e8f0"/>
+    <rect x="95" y="200" width="120" height="3" fill="#e2e8f0"/>
+    <rect x="95" y="206" width="130" height="3" fill="#e2e8f0"/>
+    <rect x="95" y="212" width="110" height="3" fill="#e2e8f0"/>
+    <title>Laptop computer showing work content</title>
+  </g>
+  
+  <!-- Keyboard -->
+  <path d="M 187,251 L 186,252 L 187,255 L 200,283 L 209,288 L 216,287 L 254,272 L 248,269 L 241,268 L 231,264 L 217,262 L 207,257 L 201,256 L 188,251 Z" 
+        fill="#4a5568">
+    <title>Computer keyboard</title>
+  </path>
+  
+  <!-- Coffee cup -->
+  <g>
+    <ellipse cx="167" cy="329" rx="40" ry="8" fill="#d69e6a" opacity="0.3"/>
+    <path d="M 162,284 L 161,285 L 151,285 L 136,289 L 126,296 L 125,309 L 126,317 L 129,324 L 131,325 L 133,329 L 209,329 L 209,320 L 207,314 L 202,309 L 191,305 L 191,295 L 187,289 L 175,285 L 165,285 L 164,284 Z" 
+          fill="#8b4513"/>
+    <!-- Cup interior -->
+    <ellipse cx="167" cy="290" rx="28" ry="5" fill="#3c2414"/>
+    <!-- Coffee surface -->
+    <ellipse cx="167" cy="295" rx="24" ry="4" fill="#6f4e37"/>
+    <title>Coffee cup with latte</title>
+  </g>
+  
+  <!-- Mobile phone -->
+  <g>
+    <path d="M 305,279 L 304,280 L 297,281 L 296,282 L 294,282 L 293,283 L 291,283 L 290,284 L 288,284 L 287,285 L 285,285 L 284,286 L 282,286 L 279,288 L 276,288 L 275,289 L 273,289 L 272,290 L 270,290 L 269,291 L 267,291 L 266,292 L 264,292 L 263,293 L 262,293 L 259,296 L 259,298 L 260,299 L 260,300 L 261,300 L 263,302 L 264,302 L 266,304 L 277,309 L 278,310 L 287,310 L 288,309 L 291,309 L 292,308 L 294,308 L 297,306 L 299,306 L 302,304 L 304,304 L 307,302 L 312,301 L 315,299 L 317,299 L 318,298 L 319,298 L 320,297 L 322,297 L 327,294 L 329,294 L 331,291 L 330,288 L 329,288 L 327,286 L 324,285 L 323,284 L 321,284 L 316,281 L 313,281 L 312,280 L 306,280 Z" 
+          fill="#1a202c"/>
+    <!-- Screen -->
+    <rect x="265" y="285" width="60" height="20" rx="1" fill="#374151"/>
+    <title>Mobile phone</title>
+  </g>
+  
+  <!-- Main person (professional man working) -->
+  <g>
+    <!-- Body and clothing -->
+    <path d="M 266,0 L 237,17 L 231,42 L 266,110 L 241,135 L 227,220 L 197,240 L 220,253 L 243,248 L 268,219 L 267,283 L 325,276 L 361,287 L 373,318 L 361,329 L 392,329 L 396,279 L 429,253 L 416,156 L 399,126 L 325,79 L 330,36 L 300,0 Z" 
+          fill="#9ca3af"/>
+    
+    <!-- Collar detail -->
+    <path d="M 280,85 L 290,80 L 310,80 L 320,85 L 310,95 L 290,95 Z" 
+          fill="#ffffff" stroke="#2d3748" stroke-width="1"/>
+    
+    <!-- Head and face -->
+    <ellipse cx="285" cy="45" rx="25" ry="30" fill="#d4a574"/>
+    
+    <!-- Hair -->
+    <path d="M 260,25 Q 285,15 310,25 Q 315,35 310,40 Q 295,30 280,32 Q 265,30 260,40 Q 255,35 260,25" 
+          fill="#2d3748"/>
+    
+    <!-- Facial features -->
+    <ellipse cx="275" cy="42" rx="2" ry="3" fill="#1a202c"/>
+    <ellipse cx="295" cy="42" rx="2" ry="3" fill="#1a202c"/>
+    <path d="M 275,55 Q 285,58 295,55" stroke="#8b6439" stroke-width="1" fill="none"/>
+    
+    <!-- Arms -->
+    <path d="M 241,135 Q 200,160 197,240" stroke="#9ca3af" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <path d="M 325,135 Q 380,160 396,240" stroke="#9ca3af" stroke-width="20" stroke-linecap="round" fill="none"/>
+    
+    <!-- Hands -->
+    <ellipse cx="200" cy="245" rx="12" ry="8" fill="#d4a574" transform="rotate(-10 200 245)"/>
+    <ellipse cx="390" cy="245" rx="12" ry="8" fill="#d4a574" transform="rotate(10 390 245)"/>
+    
+    <title>Professional man in gray sweater working on laptop</title>
+  </g>
+  
+  <!-- Chair -->
+  <path d="M 425,206 L 430,254 L 398,279 L 395,329 L 475,329 L 451,222 L 429,206 Z" 
+        fill="#4a5568">
+    <title>Office chair</title>
+  </path>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7fafc"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,167 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="woodWall" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d28e48"/>
+      <stop offset="10%" stop-color="#b57034"/>
+      <stop offset="20%" stop-color="#d28e48"/>
+      <stop offset="30%" stop-color="#b57034"/>
+      <stop offset="40%" stop-color="#d28e48"/>
+      <stop offset="50%" stop-color="#b57034"/>
+      <stop offset="60%" stop-color="#d28e48"/>
+      <stop offset="70%" stop-color="#b57034"/>
+      <stop offset="80%" stop-color="#d28e48"/>
+      <stop offset="90%" stop-color="#b57034"/>
+      <stop offset="100%" stop-color="#d28e48"/>
+    </linearGradient>
+    <linearGradient id="floorGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b5a2b"/>
+      <stop offset="100%" stop-color="#cd853f"/>
+    </linearGradient>
+    <linearGradient id="dressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff69b4"/>
+      <stop offset="50%" stop-color="#db7093"/>
+      <stop offset="100%" stop-color="#c71585"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background: Wood Paneling and Floor -->
+  <rect x="0" y="0" width="800" height="450" fill="url(#woodWall)"/>
+  <rect x="0" y="450" width="800" height="150" fill="url(#floorGradient)"/>
+  
+  <!-- Vertical grooves for paneling -->
+  <g stroke="#8b4513" stroke-width="2">
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/>
+    <line x1="450" y1="0" x2="450" y2="450"/>
+    <line x1="650" y1="0" x2="650" y2="450"/>
+  </g>
+
+  <!-- Window (Left) -->
+  <rect x="0" y="0" width="220" height="250" fill="#e0ffff"/>
+  <!-- Trees outside -->
+  <path d="M-10 250 L50 150 L100 250 Z" fill="#228b22" opacity="0.8"/>
+  <path d="M80 250 L140 120 L200 250 Z" fill="#006400" opacity="0.7"/>
+  <!-- Window Frame -->
+  <rect x="0" y="100" width="220" height="10" fill="#fff"/>
+  <rect x="110" y="0" width="10" height="250" fill="#fff"/>
+  <!-- Curtain -->
+  <path d="M180 0 Q200 125 220 250 L220 0 Z" fill="#fdf5e6" opacity="0.9"/>
+
+  <!-- Pictures on Wall -->
+  <g transform="translate(300, 20)">
+    <rect x="0" y="0" width="140" height="100" fill="#fff" stroke="#ddd" stroke-width="3"/>
+    <rect x="5" y="5" width="130" height="90" fill="#87ceeb"/>
+    <path d="M10 95 L40 50 L70 95 Z" fill="#708090"/> <!-- Abstract painting content -->
+  </g>
+  <g transform="translate(550, 20)">
+    <rect x="0" y="0" width="200" height="120" fill="#fff" stroke="#ddd" stroke-width="3"/>
+    <rect x="5" y="5" width="190" height="110" fill="#4682b4"/>
+    <path d="M20 80 L60 80 L40 40 Z" fill="#cd5c5c"/> <!-- Boat sail shape -->
+    <rect x="100" y="60" width="80" height="40" fill="#2f4f4f"/> <!-- Dock shape -->
+  </g>
+
+  <!-- Red Sofa (Background Right) -->
+  <path d="M450 200 Q625 220 800 200 L800 450 L400 450 Q400 350 450 200" fill="#800000"/>
+  <path d="M400 350 Q600 360 800 350 L800 450 L400 450 Z" fill="#600000"/> <!-- Seat cushions -->
+  
+  <!-- Pillows -->
+  <rect x="500" y="240" width="80" height="80" fill="#2f4f4f" rx="10"/>
+  <path d="M510 250 Q540 260 570 250" stroke="#ffd700" stroke-width="3" fill="none"/>
+  <rect x="720" y="240" width="70" height="80" fill="#191970" rx="10"/>
+  <circle cx="755" cy="280" r="15" fill="#b8860b" opacity="0.5"/>
+
+  <!-- TV Stand and TV (Mid Left) -->
+  <rect x="220" y="300" width="180" height="150" fill="#5c4033"/> <!-- Table -->
+  <rect x="225" y="170" width="170" height="140" fill="#333" rx="5"/> <!-- TV Body -->
+  <rect x="235" y="180" width="130" height="100" fill="#111"/> <!-- Screen -->
+  <!-- Screen Content -->
+  <rect x="235" y="180" width="130" height="100" fill="#222"/>
+  <path d="M245 190 L265 220 L285 190" fill="#555" opacity="0.5"/> <!-- Ghostly figure on TV -->
+  <rect x="235" y="260" width="130" height="20" fill="#000080"/> <!-- News Banner Background -->
+  <text x="240" y="273" font-family="sans-serif" font-size="8" fill="white" font-weight="bold">CNN WHO IS JOHN KARR?</text>
+  
+  <!-- Electronics under TV -->
+  <rect x="240" y="390" width="100" height="20" fill="#111"/>
+  <circle cx="250" cy="400" r="2" fill="#0f0"/>
+
+  <!-- Chairs (Left Foreground) -->
+  <g transform="translate(-50, 50)">
+    <!-- Side Chair -->
+    <rect x="150" y="280" width="150" height="20" fill="#5c4033"/>
+    <path d="M150 280 L180 400 L160 400 L130 280 Z" fill="#3e2723"/> <!-- Leg -->
+    <path d="M300 280 L270 400 L290 400 L320 280 Z" fill="#3e2723"/> <!-- Leg -->
+    <rect x="150" y="240" width="150" height="40" fill="#800000" rx="10"/> <!-- Cushion -->
+    
+    <!-- Rocking Chair Back -->
+    <path d="M50 150 L80 350 L200 300 L180 150 Z" fill="#f5f5dc" stroke="#8b4513" stroke-width="5"/>
+    <circle cx="100" cy="200" r="10" fill="#ffb6c1" opacity="0.6"/> <!-- Flower pattern -->
+    <circle cx="150" cy="250" r="10" fill="#ffb6c1" opacity="0.6"/>
+    <path d="M30 400 Q100 420 200 380" stroke="#8b4513" stroke-width="8" fill="none"/> <!-- Rocker -->
+  </g>
+
+  <!-- Wooden Chest (Foreground Right) -->
+  <g transform="translate(450, 380)">
+    <rect x="0" y="0" width="300" height="180" fill="#cd853f" stroke="#8b4513" stroke-width="2"/>
+    <rect x="0" y="0" width="300" height="20" fill="#deb887"/> <!-- Lid edge -->
+    <circle cx="280" cy="100" r="5" fill="#daa520"/> <!-- Knot -->
+    <line x1="0" y1="50" x2="300" y2="50" stroke="#8b4513" opacity="0.3"/>
+  </g>
+
+  <!-- Ottoman (Foreground Left) -->
+  <path d="M-50 500 L250 480 L250 600 L-50 600 Z" fill="#4682b4"/>
+  <g stroke="#87ceeb" stroke-width="2" opacity="0.5">
+    <line x1="0" y1="500" x2="200" y2="490"/>
+    <line x1="0" y1="550" x2="200" y2="540"/>
+    <line x1="50" y1="480" x2="50" y2="600"/>
+    <line x1="150" y1="480" x2="150" y2="600"/>
+  </g>
+
+  <!-- Teddy Bear -->
+  <g transform="translate(520, 320)">
+    <ellipse cx="60" cy="40" rx="40" ry="35" fill="#d2b48c"/> <!-- Head -->
+    <ellipse cx="30" cy="20" rx="12" ry="12" fill="#d2b48c"/> <!-- Ear L -->
+    <ellipse cx="90" cy="20" rx="12" ry="12" fill="#d2b48c"/> <!-- Ear R -->
+    <ellipse cx="60" cy="100" rx="50" ry="45" fill="#d2b48c"/> <!-- Body -->
+    <ellipse cx="120" cy="110" rx="30" ry="20" fill="#d2b48c"/> <!-- Leg R -->
+    <ellipse cx="0" cy="110" rx="30" ry="20" fill="#d2b48c"/> <!-- Leg L -->
+    <circle cx="50" cy="35" r="3" fill="#000"/> <!-- Eye -->
+    <circle cx="70" cy="35" r="3" fill="#000"/> <!-- Eye -->
+    <ellipse cx="60" cy="45" rx="10" ry="8" fill="#f5deb3"/> <!-- Snout -->
+    <circle cx="60" cy="42" r="3" fill="#3e2723"/> <!-- Nose -->
+  </g>
+
+  <!-- Toddler Girl -->
+  <g transform="translate(310, 210)">
+    <!-- Dress -->
+    <path d="M70 120 L30 300 L150 300 L110 120 Z" fill="url(#dressGradient)"/>
+    <!-- Ruffles -->
+    <path d="M35 250 Q90 270 145 250" stroke="#c71585" stroke-width="2" fill="none"/>
+    <path d="M45 200 Q90 220 135 200" stroke="#c71585" stroke-width="2" fill="none"/>
+    
+    <!-- Arms -->
+    <path d="M70 140 Q50 180 80 160" stroke="#ffe0bd" stroke-width="20" stroke-linecap="round" fill="none"/> <!-- Left Arm -->
+    <path d="M110 140 Q140 180 110 140" stroke="#ffe0bd" stroke-width="20" stroke-linecap="round" fill="none"/> <!-- Right Arm simplified -->
+    
+    <!-- Head -->
+    <ellipse cx="90" cy="90" rx="50" ry="55" fill="#ffe0bd"/>
+    
+    <!-- Hair -->
+    <path d="M40 80 Q90 20 140 80 Q135 60 90 60 Q45 60 40 80" fill="#f0e68c"/>
+    <circle cx="55" cy="65" r="5" fill="#da70d6"/> <!-- Hair Clip -->
+    
+    <!-- Face Features -->
+    <circle cx="75" cy="90" r="4" fill="#4682b4"/> <!-- Eye L -->
+    <circle cx="105" cy="90" r="4" fill="#4682b4"/> <!-- Eye R -->
+    <circle cx="76" cy="89" r="1" fill="#fff"/> <!-- Catchlight -->
+    <circle cx="106" cy="89" r="1" fill="#fff"/>
+    <path d="M85 105 Q90 108 95 105" stroke="#cd853f" stroke-width="2" fill="none"/> <!-- Nose/Mouth area -->
+    
+    <!-- Spoon/Brush -->
+    <path d="M85 110 L120 150" stroke="#90ee90" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="85" cy="110" rx="8" ry="5" fill="#fff"/> <!-- Spoon head in mouth -->
+    
+    <!-- Hand holding spoon -->
+    <circle cx="115" cy="145" r="12" fill="#ffe0bd"/>
+  </g>
+
+</svg>

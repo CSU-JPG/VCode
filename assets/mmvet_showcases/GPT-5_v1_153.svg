@@ -1,0 +1,150 @@
+<svg viewBox="0 0 960 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb25b"/>
+      <stop offset="55%" stop-color="#ffd87a"/>
+      <stop offset="100%" stop-color="#ffeaa0"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c7c089"/>
+      <stop offset="60%" stop-color="#b7b072"/>
+      <stop offset="100%" stop-color="#9b9157"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="35%" r="0.6">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="60%" stop-color="#ffea61" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffd14a" stop-opacity="0.6"/>
+    </radialGradient>
+    <linearGradient id="canvasGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#f4f4f0"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="960" height="560" fill="url(#skyGrad)"/>
+  <circle cx="780" cy="170" r="80" fill="url(#sunGrad)"/>
+  <rect x="0" y="520" width="960" height="260" fill="url(#groundGrad)"/>
+
+  <!-- Distant hills -->
+  <path d="M0,520 C120,490 180,500 260,520 C340,540 480,520 580,500 C720,470 820,500 960,520 L960,560 L0,560 Z" fill="#a96d4e" opacity="0.35"/>
+  <path d="M0,545 C160,520 260,535 350,545 C480,560 620,540 760,530 C860,520 920,535 960,545 L960,570 L0,570 Z" fill="#8b5a3c" opacity="0.35"/>
+
+  <!-- Acacia trees (silhouettes) -->
+  <g fill="#5a3c2a" opacity="0.8">
+    <path d="M720,480 l6,-40 l6,40 v70 h-12 z"/>
+    <path d="M690,438 c20,-8 40,-8 60,0 c-8,8 -22,16 -30,16 c-8,0 -22,-8 -30,-16 z"/>
+    <path d="M840,490 l5,-36 l5,36 v62 h-10 z"/>
+    <path d="M810,454 c18,-8 36,-8 54,0 c-7,8 -20,16 -27,16 c-7,0 -20,-8 -27,-16 z"/>
+  </g>
+
+  <!-- Rhino -->
+  <g filter="url(#softShadow)">
+    <!-- Body -->
+    <ellipse cx="230" cy="540" rx="130" ry="150" fill="#bfc3c8" stroke="#8e9398" stroke-width="3"/>
+    <!-- Belly highlight -->
+    <ellipse cx="230" cy="575" rx="90" ry="105" fill="#d7dbe0" opacity="0.6"/>
+    <!-- Head -->
+    <ellipse cx="305" cy="460" rx="75" ry="70" fill="#c3c7cc" stroke="#8e9398" stroke-width="3"/>
+    <!-- Horn -->
+    <path d="M340,430 c18,-6 34,-4 46,10 c-12,20 -28,28 -46,30 z" fill="#f3f1ea" stroke="#c0b9a5" stroke-width="3"/>
+    <!-- Ear -->
+    <path d="M286,395 c4,-14 14,-22 24,-22 c6,6 6,16 -2,28 z" fill="#c3c7cc" stroke="#8e9398" stroke-width="3"/>
+    <!-- Eye -->
+    <circle cx="300" cy="457" r="6" fill="#222"/>
+    <circle cx="298" cy="455" r="2" fill="#fff"/>
+    <!-- Smile -->
+    <path d="M286,492 q18,10 40,0" stroke="#7a7f84" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Arms -->
+    <ellipse cx="270" cy="540" rx="34" ry="26" fill="#c3c7cc" stroke="#8e9398" stroke-width="3"/>
+    <ellipse cx="320" cy="535" rx="32" ry="24" fill="#c3c7cc" stroke="#8e9398" stroke-width="3"/>
+    <!-- Palette -->
+    <ellipse cx="260" cy="565" rx="44" ry="32" fill="#f3d7a2" stroke="#c9a86e" stroke-width="3"/>
+    <circle cx="244" cy="560" r="6" fill="#f45151"/>
+    <circle cx="258" cy="552" r="6" fill="#6cc36c"/>
+    <circle cx="272" cy="560" r="6" fill="#6aa9ff"/>
+    <circle cx="265" cy="574" r="6" fill="#f4cc2e"/>
+    <!-- Brush in hand -->
+    <path d="M338,536 l100,-30" stroke="#7a5230" stroke-width="6" stroke-linecap="round"/>
+    <path d="M438,506 l16,-8 l-6,18 z" fill="#7a5230"/>
+    <circle cx="338" cy="536" r="7" fill="#603913"/>
+    <circle cx="446" cy="499" r="6" fill="#d86c6c"/>
+    <!-- Legs/feet -->
+    <ellipse cx="180" cy="660" rx="30" ry="18" fill="#c3c7cc" stroke="#8e9398" stroke-width="3"/>
+    <ellipse cx="250" cy="665" rx="35" ry="20" fill="#c3c7cc" stroke="#8e9398" stroke-width="3"/>
+    <!-- Tail -->
+    <path d="M128,565 q-16,14 -28,10" stroke="#8e9398" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Easel and main canvas -->
+  <g filter="url(#softShadow)">
+    <!-- Legs -->
+    <path d="M470,612 l-50,110" stroke="#7b5a36" stroke-width="8" stroke-linecap="round"/>
+    <path d="M580,612 l54,112" stroke="#7b5a36" stroke-width="8" stroke-linecap="round"/>
+    <path d="M515,612 l6,120" stroke="#7b5a36" stroke-width="8" stroke-linecap="round"/>
+    <!-- Shelf -->
+    <rect x="454" y="610" width="160" height="14" fill="#7b5a36" rx="4"/>
+    <!-- Canvas -->
+    <rect x="440" y="380" width="190" height="170" rx="8" fill="#fefefe" stroke="#d6d6d6" stroke-width="6"/>
+    <rect x="450" y="390" width="170" height="150" fill="url(#canvasGrad)" stroke="#cfcfcf" stroke-width="2"/>
+    <!-- Painting (horn + savannah) -->
+    <rect x="450" y="494" width="170" height="46" fill="#e3dbb0"/>
+    <circle cx="596" cy="424" r="18" fill="#ffd34b"/>
+    <path d="M520,530 l26,-92 l26,92 z" fill="#c0b9a5" stroke="#9b947c" stroke-width="3"/>
+    <path d="M450,516 q36,-18 74,0 q36,18 96,0" fill="none" stroke="#ad9f75" stroke-width="4"/>
+  </g>
+
+  <!-- Small canvases on ground -->
+  <g filter="url(#softShadow)">
+    <!-- Left on ground -->
+    <rect x="80" y="630" width="140" height="90" rx="6" transform="rotate(10 150 675)" fill="#fff" stroke="#d6d6d6" stroke-width="5"/>
+    <rect x="90" y="640" width="120" height="70" transform="rotate(10 150 675)" fill="#fafafa" stroke="#cfcfcf" stroke-width="2"/>
+    <!-- Simple doodle -->
+    <path d="M110,690 q24,-22 48,-18 q26,4 42,26" transform="rotate(10 150 675)" stroke="#6aa9ff" stroke-width="4" fill="none"/>
+    <circle cx="182" cy="664" r="10" transform="rotate(10 150 675)" fill="#ffd34b"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <!-- Right canvases -->
+    <rect x="640" y="520" width="130" height="110" rx="6" transform="rotate(-6 705 575)" fill="#fff" stroke="#d6d6d6" stroke-width="5"/>
+    <rect x="648" y="528" width="114" height="94" transform="rotate(-6 705 575)" fill="#fafafa" stroke="#cfcfcf" stroke-width="2"/>
+    <rect x="600" y="560" width="120" height="90" rx="6" transform="rotate(6 660 605)" fill="#fff" stroke="#d6d6d6" stroke-width="5"/>
+    <rect x="608" y="568" width="104" height="74" transform="rotate(6 660 605)" fill="#fafafa" stroke="#cfcfcf" stroke-width="2"/>
+    <!-- Their paintings -->
+    <g transform="rotate(-6 705 575)">
+      <rect x="650" y="586" width="110" height="36" fill="#e3dbb0"/>
+      <circle cx="736" cy="540" r="12" fill="#ffd34b"/>
+      <path d="M706,596 l18,-64 l18,64 z" fill="#c0b9a5" stroke="#9b947c" stroke-width="3"/>
+    </g>
+    <g transform="rotate(6 660 605)">
+      <rect x="610" y="618" width="100" height="28" fill="#e3dbb0"/>
+      <circle cx="694" cy="582" r="10" fill="#ffd34b"/>
+      <path d="M660,622 l15,-52 l15,52 z" fill="#c0b9a5" stroke="#9b947c" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Ground details -->
+  <g fill="#7b5a36" opacity="0.7">
+    <ellipse cx="300" cy="710" rx="70" ry="12"/>
+    <ellipse cx="520" cy="720" rx="80" ry="14"/>
+    <ellipse cx="690" cy="715" rx="60" ry="10"/>
+  </g>
+  <g fill="#8a6a41">
+    <ellipse cx="360" cy="640" rx="10" ry="6"/>
+    <ellipse cx="410" cy="660" rx="8" ry="5"/>
+    <ellipse cx="620" cy="650" rx="9" ry="6"/>
+    <ellipse cx="755" cy="640" rx="7" ry="5"/>
+  </g>
+
+  <!-- Caption bar -->
+  <rect x="0" y="780" width="960" height="120" fill="#000"/>
+  <text x="480" y="845" fill="#ffffff" font-size="44" font-weight="700" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">
+    You see the world
+  </text>
+  <text x="480" y="885" fill="#ffffff" font-size="44" font-weight="700" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">
+    as you are!
+  </text>
+</svg>

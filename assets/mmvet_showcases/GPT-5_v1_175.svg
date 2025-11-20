@@ -1,0 +1,139 @@
+<svg viewBox="0 0 1000 562" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#3b3a38"/>
+			<stop offset="0.55" stop-color="#4a443e"/>
+			<stop offset="1" stop-color="#2c2a28"/>
+		</linearGradient>
+
+		<radialGradient id="vignette" cx="50%" cy="52%" r="65%">
+			<stop offset="55%" stop-color="rgba(0,0,0,0)"/>
+			<stop offset="100%" stop-color="rgba(0,0,0,0.55)"/>
+		</radialGradient>
+
+		<radialGradient id="skin" cx="48%" cy="42%" r="60%">
+			<stop offset="0" stop-color="#ffd4b8"/>
+			<stop offset="0.55" stop-color="#e7b08d"/>
+			<stop offset="1" stop-color="#b97f5a"/>
+		</radialGradient>
+
+		<radialGradient id="hand" cx="40%" cy="35%" r="75%">
+			<stop offset="0" stop-color="#f0c0a0"/>
+			<stop offset="0.55" stop-color="#d99d79"/>
+			<stop offset="1" stop-color="#996b50"/>
+		</radialGradient>
+
+		<linearGradient id="cloak" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#5b331f"/>
+			<stop offset="1" stop-color="#2f170f"/>
+		</linearGradient>
+
+		<radialGradient id="hair" cx="50%" cy="30%" r="80%">
+			<stop offset="0" stop-color="#3a2415"/>
+			<stop offset="1" stop-color="#120a06"/>
+		</radialGradient>
+
+		<radialGradient id="eyeWhite" cx="50%" cy="50%" r="60%">
+			<stop offset="0" stop-color="#f8fbff"/>
+			<stop offset="1" stop-color="#d6e0ea"/>
+		</radialGradient>
+
+		<radialGradient id="iris" cx="50%" cy="50%" r="60%">
+			<stop offset="0" stop-color="#98c7e8"/>
+			<stop offset="0.55" stop-color="#4fa0cd"/>
+			<stop offset="1" stop-color="#1e5f86"/>
+		</radialGradient>
+
+		<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#f6e7a8"/>
+			<stop offset="0.2" stop-color="#fff3c9"/>
+			<stop offset="0.45" stop-color="#d4a819"/>
+			<stop offset="0.75" stop-color="#fff5c7"/>
+			<stop offset="1" stop-color="#b58100"/>
+		</linearGradient>
+
+		<filter id="soft">
+			<feGaussianBlur stdDeviation="2" />
+		</filter>
+
+		<filter id="glow">
+			<feGaussianBlur stdDeviation="1.5" result="b"/>
+			<feMerge>
+				<feMergeNode in="b"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+	</defs>
+
+	<rect x="0" y="0" width="1000" height="562" fill="url(#bg)"/>
+
+	<!-- Floor hint -->
+	<path d="M0,380 C180,360 360,350 540,360 C720,370 880,410 1000,438 L1000,562 L0,562 Z" fill="#3e3a35" opacity="0.45"/>
+
+	<!-- Cloak -->
+	<path d="M75,470 C210,430 260,420 350,400 C470,372 560,410 650,440 C760,478 860,520 1000,562 L0,562 Z" fill="url(#cloak)"/>
+
+	<!-- Forearm / palm mass (foreshortened) -->
+	<path d="M210,420 C270,360 360,330 460,330 C600,330 720,430 750,520 C620,548 520,558 380,555 C300,552 230,540 185,525 C185,480 190,455 210,420 Z" fill="url(#hand)" opacity="0.9"/>
+
+	<!-- Fingers (stylized ellipses) -->
+	<ellipse cx="360" cy="350" rx="95" ry="115" fill="url(#hand)" transform="rotate(-12 360 350)" />
+	<ellipse cx="470" cy="420" rx="120" ry="100" fill="url(#hand)" transform="rotate(-8 470 420)" opacity="0.92"/>
+	<ellipse cx="300" cy="430" rx="105" ry="95" fill="url(#hand)" transform="rotate(-18 300 430)" opacity="0.95"/>
+	<ellipse cx="570" cy="435" rx="110" ry="90" fill="url(#hand)" transform="rotate(-4 570 435)" opacity="0.88"/>
+
+	<!-- Finger shadows -->
+	<path d="M270,458 C350,410 430,410 510,430" stroke="#6c4a39" stroke-width="28" opacity="0.25" stroke-linecap="round" filter="url(#soft)"/>
+	<path d="M480,450 C560,430 620,440 690,480" stroke="#6c4a39" stroke-width="26" opacity="0.22" stroke-linecap="round" filter="url(#soft)"/>
+
+	<!-- Face -->
+	<ellipse cx="560" cy="305" rx="140" ry="170" fill="url(#skin)" />
+	<path d="M445,235 C470,200 520,185 560,185 C620,185 670,210 690,240 C705,260 705,305 690,335 C675,365 645,385 610,390 C560,395 510,380 480,350 C450,320 435,275 445,235 Z" fill="url(#skin)" opacity="0.9"/>
+
+	<!-- Hair -->
+	<path d="M420,210 C440,145 520,120 575,120 C640,120 700,160 725,200 C740,225 730,265 705,290 C690,305 660,310 620,300 C590,292 550,292 515,298 C475,304 450,300 435,285 C422,272 415,240 420,210 Z" fill="url(#hair)"/>
+	<path d="M445,150 C470,130 520,120 560,120 C600,120 650,135 675,155" stroke="#1c120c" stroke-width="24" stroke-linecap="round" opacity="0.5"/>
+
+	<!-- Brows -->
+	<path d="M495,265 C520,255 545,255 565,265" stroke="#2a1a12" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+	<path d="M605,265 C627,257 650,257 672,265" stroke="#2a1a12" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+
+	<!-- Eyes -->
+	<ellipse cx="545" cy="290" rx="26" ry="18" fill="url(#eyeWhite)"/>
+	<circle cx="545" cy="292" r="10" fill="url(#iris)"/>
+	<circle cx="545" cy="292" r="4.5" fill="#0b1e2c"/>
+
+	<ellipse cx="640" cy="290" rx="26" ry="18" fill="url(#eyeWhite)"/>
+	<circle cx="640" cy="292" r="10" fill="url(#iris)"/>
+	<circle cx="640" cy="292" r="4.5" fill="#0b1e2c"/>
+
+	<!-- Eye highlights -->
+	<circle cx="540.5" cy="287.5" r="3.2" fill="#ffffff" opacity="0.9"/>
+	<circle cx="635.5" cy="287.5" r="3.2" fill="#ffffff" opacity="0.9"/>
+
+	<!-- Nose and lips simplified -->
+	<path d="M595,300 C592,318 584,330 570,338" stroke="#915e44" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+	<path d="M560,360 C575,362 590,362 610,356" stroke="#8a5540" stroke-width="7" stroke-linecap="round" opacity="0.65"/>
+
+	<!-- Sweat sheen -->
+	<path d="M585,255 C585,245 600,235 615,240" stroke="#ffd9c9" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+
+	<!-- Ring (elliptical, foreshortened) -->
+	<g transform="rotate(-8 430 260)">
+		<ellipse cx="430" cy="260" rx="70" ry="36" fill="none" stroke="url(#gold)" stroke-width="22" filter="url(#glow)"/>
+		<ellipse cx="430" cy="260" rx="70" ry="36" fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="4" stroke-linecap="round" stroke-dasharray="60 140"/>
+	</g>
+
+	<!-- Finger holding the ring (foreground) -->
+	<ellipse cx="395" cy="260" rx="78" ry="110" fill="url(#hand)" transform="rotate(-10 395 260)"/>
+	<path d="M335,280 C360,245 405,230 445,240" stroke="#6c4a39" stroke-width="22" stroke-linecap="round" opacity="0.3" filter="url(#soft)"/>
+
+	<!-- Highlights on hand -->
+	<path d="M340,330 C380,305 420,300 460,310" stroke="#ffd9bf" stroke-width="10" stroke-linecap="round" opacity="0.25" filter="url(#soft)"/>
+
+	<!-- Face shadows -->
+	<ellipse cx="560" cy="320" rx="150" ry="180" fill="#000" opacity="0.12" filter="url(#soft)"/>
+
+	<!-- Vignette -->
+	<rect x="0" y="0" width="1000" height="562" fill="url(#vignette)"/>
+</svg>

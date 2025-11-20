@@ -1,0 +1,97 @@
+<svg viewBox="0 0 448 440" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient - warmer sunset colors -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB366;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFDA77;stop-opacity:1" />
+    </linearGradient>
+    <!-- Grass pattern -->
+    <pattern id="grassPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M2,20 L3,15 L4,20 M7,20 L8,14 L9,20 M12,20 L13,16 L14,20 M17,20 L18,15 L19,20" stroke="#228B22" stroke-width="0.5" fill="none"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="448" height="440" fill="url(#sky)"/>
+  
+  <!-- White clouds instead of yellow -->
+  <ellipse cx="80" cy="40" rx="60" ry="20" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="350" cy="30" rx="80" ry="25" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="280" width="448" height="160" fill="#8bc34a"/>
+  <rect x="0" y="280" width="448" height="160" fill="url(#grassPattern)" opacity="0.5"/>
+  
+  <!-- More grass texture details -->
+  <g stroke="#689f38" stroke-width="1" opacity="0.7">
+    <path d="M20,320 l0,-5 M40,315 l0,-6 M60,325 l0,-4 M80,318 l0,-5 M100,322 l0,-6"/>
+    <path d="M120,316 l0,-5 M140,324 l0,-4 M160,319 l0,-6 M180,321 l0,-5 M200,317 l0,-4"/>
+    <path d="M220,323 l0,-5 M240,318 l0,-6 M260,322 l0,-4 M280,316 l0,-5 M300,324 l0,-6"/>
+    <path d="M320,319 l0,-4 M340,321 l0,-5 M360,317 l0,-6 M380,323 l0,-4 M400,318 l0,-5"/>
+    <path d="M30,310 l0,-4 M50,308 l0,-5 M70,312 l0,-4 M90,309 l0,-5 M110,311 l0,-4"/>
+    <path d="M130,307 l0,-5 M150,313 l0,-4 M170,308 l0,-5 M190,310 l0,-4 M210,306 l0,-5"/>
+  </g>
+  
+  <!-- Acacia tree - more authentic African savanna shape -->
+  <path d="M380,180 l0,100" stroke="#4A3C28" stroke-width="6" fill="none"/>
+  <path d="M340,175 Q360,165 380,170 Q400,165 420,175 Q410,185 400,180 Q390,185 380,182 Q370,185 360,180 Q350,185 340,175" fill="#5D4037"/>
+  <path d="M345,170 Q365,160 380,165 Q395,160 415,170 Q405,178 395,173 Q385,178 380,175 Q375,178 365,173 Q355,178 345,170" fill="#4E342E"/>
+  
+  <!-- Rhinoceros body using metadata path -->
+  <path d="M 164,60 L 162,86 L 154,99 L 144,94 L 145,88 L 142,85 L 131,83 L 140,70 L 138,61 L 132,61 L 125,67 L 118,81 L 112,81 L 108,70 L 99,65 L 89,66 L 84,70 L 85,75 L 97,84 L 83,99 L 76,112 L 71,139 L 61,162 L 58,195 L 61,208 L 67,218 L 86,234 L 83,250 L 86,252 L 119,255 L 164,250 L 159,229 L 171,218 L 176,203 L 172,170 L 177,168 L 194,171 L 198,168 L 203,158 L 202,140 L 211,123 L 210,119 L 193,140 L 185,139 L 169,143 L 163,139 L 179,123 L 178,86 L 174,70 L 168,60 Z" fill="#d3d3d3" stroke="#a9a9a9" stroke-width="2"/>
+  
+  <!-- Rhinoceros details -->
+  <circle cx="105" cy="90" r="4" fill="#333"/>
+  <path d="M145,75 Q155,65 160,70" fill="none" stroke="#999" stroke-width="2"/>
+  
+  <!-- Belly pattern - more detailed circular design -->
+  <circle cx="130" cy="180" r="25" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <circle cx="130" cy="180" r="18" fill="none" stroke="#FF8C00" stroke-width="1.5"/>
+  <circle cx="130" cy="180" r="12" fill="#FFA500"/>
+  <circle cx="130" cy="180" r="6" fill="#FF8C00"/>
+  
+  <!-- Easel -->
+  <path d="M200,140 l-20,140 M220,140 l20,140" stroke="#8d6e63" stroke-width="4"/>
+  <path d="M190,180 l40,0" stroke="#8d6e63" stroke-width="3"/>
+  
+  <!-- Canvas -->
+  <rect x="180" y="120" width="60" height="80" fill="#fff" stroke="#666" stroke-width="2"/>
+  <rect x="185" y="125" width="50" height="70" fill="#fffef7"/>
+  
+  <!-- Painting on canvas - more landscape-like -->
+  <circle cx="210" cy="150" r="8" fill="#FFD700"/>
+  <path d="M185,165 l50,0" stroke="#87CEEB" stroke-width="8"/>
+  <path d="M190,170 Q200,165 210,170 Q220,165 230,170" fill="none" stroke="#228B22" stroke-width="3"/>
+  <circle cx="195" cy="180" r="4" fill="#32CD32"/>
+  <circle cx="210" cy="182" r="5" fill="#228B22"/>
+  <circle cx="225" cy="180" r="4" fill="#32CD32"/>
+  
+  <!-- Paint bucket -->
+  <ellipse cx="100" cy="275" rx="15" ry="5" fill="#666"/>
+  <path d="M85,275 l0,-20 Q85,250 90,250 l20,0 Q115,250 115,255 l0,20" fill="#666"/>
+  <rect x="90" y="255" width="20" height="15" fill="#ff5722"/>
+  
+  <!-- Brushes in bucket -->
+  <rect x="95" y="240" width="2" height="20" fill="#8d6e63"/>
+  <rect x="103" y="238" width="2" height="22" fill="#8d6e63"/>
+  <circle cx="96" cy="240" r="3" fill="#e91e63"/>
+  <circle cx="104" cy="238" r="3" fill="#2196f3"/>
+  
+  <!-- Paintings on ground -->
+  <rect x="40" y="290" width="40" height="30" fill="#fff" stroke="#666" stroke-width="1" transform="rotate(-10 60 305)"/>
+  <rect x="250" y="295" width="35" height="25" fill="#fff" stroke="#666" stroke-width="1" transform="rotate(5 267 307)"/>
+  <rect x="320" y="285" width="38" height="28" fill="#fff" stroke="#666" stroke-width="1" transform="rotate(-15 339 299)"/>
+  
+  <!-- Paint spots on ground - adjusted colors -->
+  <ellipse cx="150" cy="300" rx="8" ry="4" fill="#FF1493" opacity="0.8"/>
+  <ellipse cx="180" cy="295" rx="6" ry="3" fill="#9370DB" opacity="0.8"/>
+  <ellipse cx="230" cy="305" rx="7" ry="4" fill="#FF8C00" opacity="0.8"/>
+  
+  <!-- Black text background -->
+  <rect x="0" y="340" width="448" height="100" fill="#000"/>
+  
+  <!-- Text using OCR metadata -->
+  <text x="120" y="385" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#fff">You see the world</text>
+  <text x="141" y="425" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#fff">as you are!</text>
+</svg>

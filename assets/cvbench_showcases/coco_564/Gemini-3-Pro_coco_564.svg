@@ -1,0 +1,112 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for chrome/metal parts -->
+    <linearGradient id="chromeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#555"/>
+      <stop offset="20%" stop-color="#fff"/>
+      <stop offset="50%" stop-color="#ccc"/>
+      <stop offset="80%" stop-color="#999"/>
+      <stop offset="100%" stop-color="#444"/>
+    </linearGradient>
+    
+    <!-- Gradient for ice bucket -->
+    <linearGradient id="bucketGrad" x1="0%" y1="0%" x2="100%" y2="10%">
+      <stop offset="10%" stop-color="#4a4542"/>
+      <stop offset="35%" stop-color="#b0aba5"/>
+      <stop offset="50%" stop-color="#e8e4e1"/>
+      <stop offset="70%" stop-color="#6e6864"/>
+      <stop offset="95%" stop-color="#3b3634"/>
+    </linearGradient>
+
+    <!-- Gradient for suitcase body -->
+    <linearGradient id="suitcaseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e3336"/>
+      <stop offset="50%" stop-color="#1a1d20"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Carpet -->
+  <rect width="640" height="480" fill="#aeb0a5"/>
+  <!-- Adding subtle texture variation to floor -->
+  <path d="M0 0 L640 0 L640 480 L0 480 Z" fill="#b8b2a5" opacity="0.6"/>
+
+  <!-- Furniture Background (Dark Wood Cabinet) -->
+  <rect x="400" y="0" width="240" height="280" fill="#2e1a0f"/>
+  <rect x="410" y="10" width="220" height="80" fill="#1c0d05" opacity="0.5"/> <!-- Shelf shadow -->
+  
+  <!-- Bed Frame / Baseboard (Left, under rack) -->
+  <path d="M0 380 L350 300 L320 450 L0 520 Z" fill="#4a2516"/>
+  <path d="M0 380 L350 300" stroke="#6d3e2b" stroke-width="5"/> <!-- Highlight edge -->
+
+  <!-- Luggage Rack - Back Leg (Darker/Further) -->
+  <path d="M240 240 L340 420" stroke="#666" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Ice Bucket Group -->
+  <g transform="translate(450, 290)">
+    <!-- Bottle Neck -->
+    <path d="M55 -50 L75 -50 L80 20 L50 20 Z" fill="#1a180e"/>
+    <rect x="55" y="-50" width="20" height="30" fill="#c4a048"/> <!-- Gold Foil -->
+    <ellipse cx="65" cy="-50" rx="10" ry="3" fill="#e6c670"/> <!-- Top of bottle -->
+
+    <!-- Bucket Body -->
+    <path d="M5 10 L125 10 L110 130 C110 145 20 145 20 130 Z" fill="url(#bucketGrad)"/>
+    <!-- Bucket Rim Interior -->
+    <ellipse cx="65" cy="10" rx="60" ry="8" fill="#111"/>
+
+    <!-- Napkin (Draping over) -->
+    <path d="M10 15 C-25 20 -25 60 15 80 L40 95 L100 85 L130 40 C140 20 100 10 65 15 Z" fill="#fcfcfc" filter="drop-shadow(1px 2px 3px rgba(0,0,0,0.3))"/>
+    <!-- Napkin Folds Shadows -->
+    <path d="M20 25 Q15 50 35 65" stroke="#ddd" stroke-width="2" fill="none"/>
+    <path d="M50 20 Q60 50 90 60" stroke="#ddd" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Luggage Rack - Front Structure -->
+  <!-- Horizontal Bar -->
+  <path d="M-20 285 L430 200" stroke="url(#chromeGrad)" stroke-width="16" stroke-linecap="round"/>
+  <!-- Front Leg -->
+  <path d="M350 215 L230 460" stroke="url(#chromeGrad)" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Black Straps wrapping the bar -->
+  <g transform="rotate(-11 200 240)">
+     <rect x="120" y="230" width="35" height="40" fill="#080808" rx="2"/>
+     <rect x="125" y="265" width="25" height="15" fill="#111"/> <!-- Buckle detail -->
+     
+     <rect x="320" y="230" width="35" height="40" fill="#080808" rx="2"/>
+  </g>
+
+  <!-- Suitcase -->
+  <g transform="rotate(-11 200 240) translate(0, -160)">
+    <!-- Main Body -->
+    <rect x="-20" y="40" width="460" height="190" rx="15" fill="url(#suitcaseGrad)"/>
+    
+    <!-- Top Lid Seam -->
+    <path d="M-20 90 L440 90" stroke="#000" stroke-width="2"/>
+    
+    <!-- Green Stitching/Trim Lines -->
+    <path d="M-20 160 L440 160" stroke="#388e3c" stroke-width="2" stroke-dasharray="4,3" opacity="0.9"/>
+    <path d="M-20 190 L440 190" stroke="#388e3c" stroke-width="2" stroke-dasharray="4,3" opacity="0.9"/>
+
+    <!-- Handle Assembly -->
+    <g transform="translate(160, 140)">
+      <!-- Handle hardware -->
+      <circle cx="0" cy="10" r="5" fill="#555"/>
+      <circle cx="110" cy="10" r="5" fill="#555"/>
+      <!-- Handle Strap -->
+      <path d="M5 10 C5 40 105 40 105 10" fill="none" stroke="#000" stroke-width="18" stroke-linecap="round"/>
+      <!-- Red Tape/Tag on handle -->
+      <path d="M75 35 L95 32 L98 20 L78 23 Z" fill="#d32f2f"/>
+      <!-- White Tag hanging -->
+      <rect x="40" y="35" width="35" height="15" fill="#eee" rx="2" transform="rotate(5)"/>
+      <!-- Highlight on handle -->
+      <path d="M15 12 C15 32 95 32 95 12" fill="none" stroke="#333" stroke-width="4"/>
+    </g>
+    
+    <!-- Rivets/Details -->
+    <circle cx="50" cy="160" r="3" fill="#555"/>
+    <circle cx="70" cy="160" r="3" fill="#555"/>
+    <circle cx="370" cy="160" r="3" fill="#555"/>
+    <circle cx="390" cy="160" r="3" fill="#555"/>
+  </g>
+
+</svg>

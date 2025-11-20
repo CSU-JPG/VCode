@@ -1,0 +1,123 @@
+<svg viewBox="0 0 602 602" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="602" height="602" fill="#f0f0f0"/>
+  
+  <!-- Title -->
+  <text x="91" y="94" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#000">Studying online</text>
+  
+  <!-- Four panels with white backgrounds -->
+  <rect x="12" y="175" width="283" height="170" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  <rect x="318" y="175" width="283" height="170" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  <rect x="12" y="395" width="283" height="155" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  <rect x="318" y="395" width="283" height="155" fill="#1a1a1a" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Panel labels -->
+  <text x="104" y="162" font-family="Arial, sans-serif" font-size="28" fill="#000">Zoom</text>
+  <text x="405" y="164" font-family="Arial, sans-serif" font-size="28" fill="#000">Teacher</text>
+  <text x="67" y="381" font-family="Arial, sans-serif" font-size="24" fill="#000">Wifi company</text>
+  <text x="396" y="384" font-family="Arial, sans-serif" font-size="26" fill="#000">Students</text>
+  
+  <!-- Define gradients for money -->
+  <defs>
+    <linearGradient id="moneyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#85bb65;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7c59;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Zoom panel - businessman with money -->
+  <g transform="translate(12,175)">
+    <!-- Money bills floating with more detail -->
+    <g opacity="0.8">
+      <rect x="20" y="30" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-15 45 41)"/>
+      <rect x="220" y="40" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(20 245 51)"/>
+      <rect x="60" y="80" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-10 85 91)"/>
+      <rect x="180" y="70" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(15 205 81)"/>
+      <rect x="30" y="120" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-20 55 131)"/>
+      <rect x="210" y="110" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(25 235 121)"/>
+      <rect x="100" y="25" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(30 125 36)"/>
+      <rect x="140" y="130" width="50" height="22" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-30 165 141)"/>
+    </g>
+    <!-- Businessman with better detail -->
+    <path d="M 141 45 C 141 35 149 25 157 25 C 165 25 173 35 173 45 L 173 55 C 173 60 169 65 162 67 L 162 70 L 152 70 L 152 67 C 145 65 141 60 141 55 Z" fill="#f4c2a1"/>
+    <path d="M 141 55 L 141 65 L 130 80 L 120 100 L 120 145 L 195 145 L 195 100 L 185 80 L 173 65 L 173 55" fill="#2c3e50"/>
+    <!-- Arms raised celebrating -->
+    <path d="M 130 80 L 100 50 C 95 45 90 45 85 50 L 70 65" stroke="#2c3e50" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 185 80 L 215 50 C 220 45 225 45 230 50 L 245 65" stroke="#2c3e50" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Tie -->
+    <path d="M 157 70 L 155 75 L 160 120 L 157 125 L 154 120 L 159 75 Z" fill="#c41e3a"/>
+  </g>
+  
+  <!-- Teacher panel - person relaxing with arms spread -->
+  <g transform="translate(318,175)">
+    <!-- Window/background -->
+    <rect x="20" y="20" width="240" height="120" fill="#e8f4f8"/>
+    <rect x="90" y="80" width="100" height="40" fill="#d4e8f0"/>
+    <!-- Teacher figure with spread arms -->
+    <path d="M 130 60 C 130 50 138 40 146 40 C 154 40 162 50 162 60 L 162 70 C 162 75 158 80 151 82 L 151 85 L 141 85 L 141 82 C 134 80 130 75 130 70 Z" fill="#f4c2a1"/>
+    <path d="M 130 70 L 130 80 L 120 90 L 110 100 L 110 130 L 182 130 L 182 100 L 172 90 L 162 80 L 162 70" fill="#95a5a6"/>
+    <!-- Arms stretched out (relaxing) -->
+    <path d="M 120 90 L 50 70 C 40 67 30 70 25 80 L 20 95" stroke="#7f8c8d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M 172 90 L 242 70 C 252 67 262 70 267 80 L 272 95" stroke="#7f8c8d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- Desk/laptop hint -->
+    <rect x="85" y="115" width="110" height="8" fill="#34495e"/>
+    <rect x="120" y="110" width="40" height="5" fill="#2c3e50"/>
+  </g>
+  
+  <!-- Wifi company panel - person with money -->
+  <g transform="translate(12,395)">
+    <!-- Money background with more detail -->
+    <g opacity="0.7">
+      <rect x="20" y="20" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-12 47.5 32)"/>
+      <rect x="200" y="30" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(18 227.5 42)"/>
+      <rect x="80" y="60" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-8 107.5 72)"/>
+      <rect x="160" y="50" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(12 187.5 62)"/>
+      <rect x="50" y="100" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-15 77.5 112)"/>
+      <rect x="190" y="90" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(20 217.5 102)"/>
+      <rect x="110" y="25" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(25 137.5 37)"/>
+      <rect x="130" y="110" width="55" height="24" fill="url(#moneyGradient)" stroke="#2a5a2a" stroke-width="0.5" transform="rotate(-25 157.5 122)"/>
+    </g>
+    <!-- Person with better proportions -->
+    <path d="M 131 40 C 131 30 139 20 147 20 C 155 20 163 30 163 40 L 163 50 C 163 55 159 60 152 62 L 152 65 L 142 65 L 142 62 C 135 60 131 55 131 50 Z" fill="#f4c2a1"/>
+    <path d="M 131 50 L 131 60 L 121 70 L 111 80 L 111 135 L 183 135 L 183 80 L 173 70 L 163 60 L 163 50" fill="#2c3e50"/>
+    <!-- Arms raised celebrating with money -->
+    <path d="M 121 70 L 91 40 C 86 35 81 35 76 40 L 61 55" stroke="#2c3e50" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 173 70 L 203 40 C 208 35 213 35 218 40 L 233 55" stroke="#2c3e50" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Sunglasses -->
+    <ellipse cx="137" cy="40" rx="12" ry="10" fill="#1a1a1a"/>
+    <ellipse cx="157" cy="40" rx="12" ry="10" fill="#1a1a1a"/>
+    <line x1="149" y1="40" x2="145" y2="40" stroke="#1a1a1a" stroke-width="3"/>
+    <!-- Tie -->
+    <path d="M 147 65 L 145 70 L 150 115 L 147 120 L 144 115 L 149 70 Z" fill="#c41e3a"/>
+  </g>
+  
+  <!-- Students panel - Joker -->
+  <g transform="translate(318,395)">
+    <!-- Joker figure with white face -->
+    <ellipse cx="141" cy="60" rx="30" ry="35" fill="#ffffff"/>
+    <!-- Green hair -->
+    <path d="M 111 30 Q 106 15 101 20 Q 96 10 91 15 Q 86 5 81 10 Q 76 0 71 5 L 71 40 L 111 40 Z" fill="#228b22"/>
+    <path d="M 171 30 Q 176 15 181 20 Q 186 10 191 15 Q 196 5 201 10 Q 206 0 211 5 L 211 40 L 171 40 Z" fill="#228b22"/>
+    <!-- Black eye areas -->
+    <ellipse cx="126" cy="55" rx="12" ry="15" fill="#1a1a1a"/>
+    <ellipse cx="156" cy="55" rx="12" ry="15" fill="#1a1a1a"/>
+    <!-- Red smile -->
+    <path d="M 105 75 Q 120 95 141 100 Q 162 95 177 75" stroke="#dc143c" stroke-width="6" fill="none"/>
+    <path d="M 100 70 Q 105 75 105 75" stroke="#dc143c" stroke-width="4" fill="none"/>
+    <path d="M 177 75 Q 177 75 182 70" stroke="#dc143c" stroke-width="4" fill="none"/>
+    <!-- Red nose -->
+    <circle cx="141" cy="65" r="5" fill="#dc143c"/>
+    <!-- Purple suit -->
+    <path d="M 111 95 L 101 105 L 91 115 L 91 155 L 191 155 L 191 115 L 181 105 L 171 95" fill="#4b0082"/>
+    <!-- Green vest -->
+    <path d="M 121 105 L 121 155 L 161 155 L 161 105 L 141 110 Z" fill="#228b22"/>
+    <!-- Orange/yellow shirt -->
+    <rect x="131" y="110" width="20" height="45" fill="#ffa500"/>
+    <!-- Text -->
+    <text x="10" y="80" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Put On A</text>
+    <text x="10" y="105" font-family="Arial, sans-serif" font-size="22" fill="#ffffff">HAPPY</text>
+    <!-- BCCL watermark -->
+    <text x="230" y="145" font-family="Arial, sans-serif" font-size="10" fill="#666">BCCL</text>
+    <text x="230" y="135" font-family="Arial, sans-serif" font-size="10" fill="#666">Joker</text>
+  </g>
+</svg>

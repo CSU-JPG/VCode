@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#87CEEB"/>
+  
+  <!-- Mountains -->
+  <polygon points="0,150 200,100 400,80 600,120 800,90 800,400 0,400" fill="#8B7355"/>
+  
+  <!-- Mountain vegetation patches -->
+  <ellipse cx="150" cy="200" rx="60" ry="30" fill="#6B7B5C"/>
+  <ellipse cx="350" cy="180" rx="80" ry="40" fill="#6B7B5C"/>
+  <ellipse cx="550" cy="210" rx="70" ry="35" fill="#6B7B5C"/>
+  
+  <!-- Road -->
+  <rect x="0" y="400" width="800" height="200" fill="#696969"/>
+  
+  <!-- Yellow line on road -->
+  <rect x="380" y="480" width="40" height="8" fill="#FFD700"/>
+  <rect x="440" y="480" width="40" height="8" fill="#FFD700"/>
+  <rect x="500" y="480" width="40" height="8" fill="#FFD700"/>
+  
+  <!-- Stone wall -->
+  <rect x="0" y="350" width="800" height="50" fill="#8B8682"/>
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#696969" stroke-width="2"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#696969" stroke-width="2"/>
+  
+  <!-- Sidewalk/curb -->
+  <rect x="0" y="500" width="800" height="100" fill="#A9A9A9"/>
+  <rect x="0" y="500" width="800" height="10" fill="#696969"/>
+  
+  <!-- White car -->
+  <rect x="400" y="440" width="80" height="30" rx="5" fill="#FFFFFF"/>
+  <rect x="410" y="430" width="60" height="20" rx="3" fill="#E0E0E0"/>
+  <circle cx="420" cy="470" r="8" fill="#333333"/>
+  <circle cx="460" cy="470" r="8" fill="#333333"/>
+  
+  <!-- Cyclist -->
+  <circle cx="300" cy="430" r="8" fill="#FFE4B5"/>
+  <rect x="295" y="435" width="10" height="20" fill="#4169E1"/>
+  <rect x="295" y="455" width="5" height="15" fill="#000080"/>
+  <rect x="300" y="455" width="5" height="15" fill="#000080"/>
+  <circle cx="295" cy="470" r="10" fill="#333333"/>
+  <circle cx="315" cy="470" r="10" fill="#333333"/>
+  <line x1="300" y1="440" x2="295" y2="470" stroke="#333333" stroke-width="2"/>
+  <line x1="300" y1="440" x2="315" y2="470" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Man observing -->
+  <circle cx="100" cy="480" r="12" fill="#FFE4B5"/>
+  <rect x="88" y="470" width="24" height="8" rx="2" fill="#8B4513"/>
+  <rect x="90" y="492" width="20" height="30" fill="#FFFFFF"/>
+  <rect x="85" y="522" width="30" height="40" fill="#4682B4"/>
+  <rect x="90" y="562" width="8" height="30" fill="#4682B4"/>
+  <rect x="102" y="562" width="8" height="30" fill="#4682B4"/>
+  <rect x="88" y="590" width="10" height="5" fill="#654321"/>
+  <rect x="102" y="590" width="10" height="5" fill="#654321"/>
+  <line x1="85" y1="510" x2="75" y2="520" stroke="#FFE4B5" stroke-width="3"/>
+  <line x1="115" y1="510" x2="105" y2="520" stroke="#FFE4B5" stroke-width="3"/>
+</svg>

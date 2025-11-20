@@ -1,0 +1,10 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green Box: Pedestrian on the left sidewalk -->
+  <rect x="498" y="486" width="58" height="96" fill="none" stroke="#00FF00" stroke-width="4" />
+
+  <!-- Blue Box: Vehicle in the distance (center-left) -->
+  <rect x="738" y="512" width="46" height="38" fill="none" stroke="#0000FF" stroke-width="4" />
+
+  <!-- Red Box: Vehicle/Motorcycle adjacent to the blue one (overlapping) -->
+  <rect x="762" y="512" width="56" height="38" fill="none" stroke="#FF0000" stroke-width="4" />
+</svg>

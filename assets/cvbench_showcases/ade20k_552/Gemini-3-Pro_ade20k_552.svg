@@ -1,0 +1,130 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="600" fill="#AECFE3" />
+
+  <!-- Background Trees (Simplified) -->
+  <g stroke="#5D4037" stroke-width="2" fill="none">
+    <!-- Left Tree -->
+    <path d="M100,400 Q100,200 80,100 M100,250 L50,150 M100,300 L150,200 M80,100 L60,50 M80,100 L110,60" />
+    <!-- Center Trees -->
+    <path d="M350,400 Q360,200 350,50 M360,280 L300,150 M360,250 L420,180 M350,50 L320,10 M350,50 L380,20" />
+    <path d="M450,400 Q440,250 460,80 M445,300 L400,220 M450,200 L500,150" />
+    <!-- Right Trees -->
+    <path d="M650,400 Q660,250 650,50 M660,300 L600,200 M660,280 L700,180" />
+    <path d="M720,400 L730,100 M725,250 L680,180 M725,300 L760,220" />
+  </g>
+
+  <!-- Green House (Left) -->
+  <path d="M-50,150 L150,150 L150,350 L-50,350 Z" fill="#2F4F4F" />
+  <path d="M-50,150 L50,100 L150,150" fill="#2F4F4F" />
+  <!-- Windows Green House -->
+  <rect x="20" y="180" width="30" height="40" fill="#1A1A1A" stroke="white" stroke-width="2"/>
+  <rect x="80" y="180" width="30" height="40" fill="#1A1A1A" stroke="white" stroke-width="2"/>
+
+  <!-- Beige House (Center) -->
+  <path d="M380,180 L550,180 L550,350 L380,350 Z" fill="#EEE8AA" />
+  <path d="M380,180 L465,120 L550,180" fill="#EEE8AA" /> <!-- Roof -->
+  <!-- Windows Beige House -->
+  <rect x="440" y="200" width="15" height="20" fill="#333" stroke="white" stroke-width="2"/>
+  <rect x="475" y="200" width="15" height="20" fill="#333" stroke="white" stroke-width="2"/>
+  <rect x="440" y="250" width="15" height="20" fill="#333" stroke="white" stroke-width="2"/>
+
+  <!-- Fences -->
+  <g stroke="#A9A9A9" stroke-width="1">
+    <line x1="150" y1="350" x2="600" y2="350" stroke-width="2"/> <!-- Top rail -->
+    <!-- Vertical posts -->
+    <line x1="200" y1="350" x2="200" y2="380" stroke-width="2"/>
+    <line x1="300" y1="350" x2="300" y2="380" stroke-width="2"/>
+    <line x1="400" y1="350" x2="400" y2="380" stroke-width="2"/>
+    <line x1="500" y1="350" x2="500" y2="380" stroke-width="2"/>
+    <!-- Mesh pattern approximation -->
+    <path d="M150,350 L160,380 M160,350 L170,380 M170,350 L180,380 M180,350 L190,380" fill="none" opacity="0.5"/>
+    <path d="M200,350 L210,380 M210,350 L220,380 M220,350 L230,380" fill="none" opacity="0.5"/>
+    <path d="M400,350 L410,380 M410,350 L420,380 M420,350 L430,380" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Brick Building (Right) -->
+  <rect x="600" y="120" width="200" height="260" fill="#A52A2A" />
+  <rect x="600" y="110" width="200" height="10" fill="#FFF" /> <!-- Coping -->
+  <!-- Brick lines -->
+  <path d="M600,140 H800 M600,160 H800 M600,180 H800 M600,200 H800 M600,220 H800 M600,240 H800 M600,260 H800 M600,280 H800 M600,300 H800 M600,320 H800 M600,340 H800 M600,360 H800" stroke="#800000" stroke-width="1" opacity="0.5"/>
+
+  <!-- Trash Can -->
+  <rect x="730" y="340" width="25" height="40" fill="#006400" stroke="#004d00"/>
+  <rect x="728" y="338" width="29" height="5" fill="#004d00"/>
+
+  <!-- Sidewalk -->
+  <rect x="0" y="380" width="800" height="40" fill="#D3D3D3" />
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#A9A9A9" stroke-width="1" />
+
+  <!-- White Car (Sedan) -->
+  <g transform="translate(150, 355)">
+    <!-- Tires -->
+    <circle cx="40" cy="55" r="16" fill="#222" />
+    <circle cx="40" cy="55" r="10" fill="#DDD" stroke="#222" stroke-width="2"/> <!-- Hubcap -->
+    <circle cx="160" cy="55" r="16" fill="#222" />
+    <circle cx="160" cy="55" r="10" fill="#DDD" stroke="#222" stroke-width="2"/> <!-- Hubcap -->
+    <!-- Shadow -->
+    <ellipse cx="100" cy="68" rx="110" ry="5" fill="black" opacity="0.3" />
+    <!-- Body -->
+    <path d="M0,35 Q0,20 15,20 L40,10 L130,10 L170,25 Q195,25 195,40 L195,55 L180,55 L180,45 L140,45 L140,55 L60,55 L60,45 L20,45 L20,55 L5,55 Q0,55 0,35 Z" fill="#F8F8FF" stroke="#CCC" stroke-width="1"/>
+    <!-- Windows -->
+    <path d="M45,12 L90,12 L90,25 L42,25 Z" fill="#778899" />
+    <path d="M95,12 L125,15 L130,25 L95,25 Z" fill="#778899" />
+    <!-- Tail Light -->
+    <path d="M0,35 L5,35 L5,45 L0,42 Z" fill="#CC0000" />
+  </g>
+
+  <!-- Teal Car (Station Wagon) -->
+  <g transform="translate(250, 360)">
+    <!-- Shadow -->
+    <ellipse cx="160" cy="75" rx="170" ry="8" fill="black" opacity="0.3" />
+    
+    <!-- Tires -->
+    <circle cx="65" cy="65" r="19" fill="#222" />
+    <circle cx="65" cy="65" r="11" fill="#C0C0C0" stroke="#222" stroke-width="2">
+        <path d="M65,54 L65,76 M54,65 L76,65" stroke="#555" stroke-width="1"/>
+    </circle>
+    
+    <circle cx="255" cy="65" r="19" fill="#222" />
+    <circle cx="255" cy="65" r="11" fill="#C0C0C0" stroke="#222" stroke-width="2">
+        <path d="M255,54 L255,76 M244,65 L266,65" stroke="#555" stroke-width="1"/>
+    </circle>
+
+    <!-- Body Main -->
+    <path d="M10,40 L15,30 L80,10 L230,10 L280,25 L310,40 Q320,45 320,55 L320,65 L310,70 L275,70 L235,70 L235,55 L275,55 Q280,55 280,45 L85,45 Q85,55 90,55 L45,55 Q45,55 45,45 L10,45 Q0,45 0,40 Z" fill="#2F6F7F" stroke="#1F4F5F" stroke-width="1"/>
+    <!-- Lower Side Trim -->
+    <path d="M15,48 L310,48" stroke="#111" stroke-width="2" fill="none"/>
+    
+    <!-- Roof Rack -->
+    <line x1="90" y1="8" x2="230" y2="8" stroke="#222" stroke-width="2" />
+    <line x1="100" y1="8" x2="100" y2="10" stroke="#222" stroke-width="2" />
+    <line x1="220" y1="8" x2="220" y2="10" stroke="#222" stroke-width="2" />
+
+    <!-- Windows -->
+    <!-- Rear Cargo -->
+    <path d="M20,30 L65,15 L75,38 L15,40 Z" fill="#5F7F8F" stroke="#222" stroke-width="1"/>
+    <!-- Rear Door -->
+    <path d="M80,15 L145,15 L145,38 L80,38 Z" fill="#5F7F8F" stroke="#222" stroke-width="1"/>
+    <!-- Front Door -->
+    <path d="M150,15 L210,15 L230,38 L150,38 Z" fill="#5F7F8F" stroke="#222" stroke-width="1"/>
+    <!-- Windshield area (implied) -->
+    
+    <!-- Lights -->
+    <rect x="0" y="38" width="8" height="10" fill="#CC0000" rx="2" /> <!-- Tail -->
+    <path d="M310,40 L318,42 L318,48 L310,46 Z" fill="#FFA500" /> <!-- Front Marker -->
+    <path d="M315,48 L320,48 L320,52 L315,52 Z" fill="#FFFFE0" opacity="0.8"/> <!-- Headlight -->
+
+    <!-- Door Handles -->
+    <rect x="135" y="40" width="8" height="3" fill="#111" />
+    <rect x="200" y="40" width="8" height="3" fill="#111" />
+  </g>
+
+  <!-- Foreground Road -->
+  <rect x="0" y="420" width="800" height="180" fill="#696969" />
+  
+  <!-- Double Yellow Lines -->
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#FFD700" stroke-width="3" />
+  <line x1="0" y1="530" x2="800" y2="530" stroke="#FFD700" stroke-width="3" />
+
+</svg>

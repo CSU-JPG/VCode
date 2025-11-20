@@ -1,0 +1,73 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background soil -->
+  <rect x="0" y="0" width="200" height="300" fill="#3d2f1f"/>
+  
+  <!-- Multiple leafy plants -->
+  <!-- Plant 1 - Left side -->
+  <g transform="translate(50, 150)">
+    <!-- Stems -->
+    <path d="M 0,0 Q -5,20 -8,40" stroke="#c5d4a0" stroke-width="4" fill="none"/>
+    <path d="M 0,0 Q 5,20 8,40" stroke="#c5d4a0" stroke-width="4" fill="none"/>
+    <path d="M 0,0 Q 0,25 0,45" stroke="#d4e2b0" stroke-width="5" fill="none"/>
+    
+    <!-- Leaves with veining -->
+    <ellipse cx="-25" cy="-20" rx="25" ry="40" fill="#6b9e4c" transform="rotate(-20 -25 -20)"/>
+    <path d="M -25,-55 Q -25,-20 -25,15" stroke="#5a8940" stroke-width="1.5" fill="none"/>
+    <path d="M -35,-35 Q -25,-20 -15,-5" stroke="#5a8940" stroke-width="1" fill="none"/>
+    
+    <ellipse cx="25" cy="-20" rx="25" ry="40" fill="#7bae5c" transform="rotate(20 25 -20)"/>
+    <path d="M 25,-55 Q 25,-20 25,15" stroke="#6a9e4c" stroke-width="1.5" fill="none"/>
+    
+    <ellipse cx="0" cy="-30" rx="22" ry="35" fill="#8bbe6c"/>
+    <path d="M 0,-60 Q 0,-30 0,0" stroke="#7bae5c" stroke-width="1.5" fill="none"/>
+    
+    <!-- Yellowing lower leaves -->
+    <ellipse cx="-15" cy="20" rx="20" ry="30" fill="#a5b570" transform="rotate(-45 -15 20)"/>
+    <ellipse cx="15" cy="25" rx="18" ry="28" fill="#b5c580" transform="rotate(40 15 25)"/>
+  </g>
+  
+  <!-- Plant 2 - Center -->
+  <g transform="translate(100, 140)">
+    <!-- White/pale stems characteristic of bok choy -->
+    <rect x="-8" y="0" width="16" height="50" rx="3" fill="#e8f0d5"/>
+    <rect x="-15" y="5" width="10" height="45" rx="3" fill="#e0e8c5" transform="rotate(-15 -10 27.5)"/>
+    <rect x="5" y="5" width="10" height="45" rx="3" fill="#e0e8c5" transform="rotate(15 10 27.5)"/>
+    
+    <!-- Fresh green leaves -->
+    <ellipse cx="-30" cy="-25" rx="28" ry="45" fill="#5a8940" transform="rotate(-25 -30 -25)"/>
+    <path d="M -30,-65 Q -30,-25 -30,15" stroke="#4a7930" stroke-width="2" fill="none"/>
+    
+    <ellipse cx="30" cy="-25" rx="28" ry="45" fill="#6b9e4c" transform="rotate(25 30 -25)"/>
+    <path d="M 30,-65 Q 30,-25 30,15" stroke="#5a8940" stroke-width="2" fill="none"/>
+    
+    <ellipse cx="0" cy="-35" rx="25" ry="40" fill="#7bae5c"/>
+    <path d="M 0,-70 Q 0,-35 0,0" stroke="#6b9e4c" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Plant 3 - Right side with some damaged leaves -->
+  <g transform="translate(150, 160)">
+    <path d="M 0,0 Q -3,15 -5,35" stroke="#c5d4a0" stroke-width="3" fill="none"/>
+    <path d="M 0,0 Q 3,15 5,35" stroke="#c5d4a0" stroke-width="3" fill="none"/>
+    
+    <!-- Mix of healthy and yellowing leaves -->
+    <ellipse cx="-20" cy="-15" rx="22" ry="35" fill="#7bae5c" transform="rotate(-15 -20 -15)"/>
+    <path d="M -20,-45 Q -20,-15 -20,15" stroke="#6b9e4c" stroke-width="1.5" fill="none"/>
+    
+    <!-- Yellowing leaf with brown spots -->
+    <ellipse cx="18" cy="-10" rx="20" ry="32" fill="#b5c580" transform="rotate(20 18 -10)"/>
+    <circle cx="15" cy="-5" r="3" fill="#8a7560" opacity="0.6"/>
+    <circle cx="22" cy="-15" r="2" fill="#8a7560" opacity="0.5"/>
+    
+    <ellipse cx="0" cy="-25" rx="18" ry="30" fill="#8bbe6c"/>
+  </g>
+  
+  <!-- Small weeds/growth between plants -->
+  <circle cx="75" cy="180" r="4" fill="#4a7930"/>
+  <circle cx="125" cy="195" r="3" fill="#5a8940"/>
+  <circle cx="30" cy="200" r="3" fill="#4a7930"/>
+  
+  <!-- Soil texture -->
+  <circle cx="20" cy="250" r="8" fill="#2d1f0f" opacity="0.5"/>
+  <circle cx="180" cy="270" r="10" fill="#2d1f0f" opacity="0.5"/>
+  <circle cx="100" cy="280" r="7" fill="#2d1f0f" opacity="0.5"/>
+</svg>

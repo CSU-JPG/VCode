@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#2a251f"/>
+  
+  <!-- Dark stone/rock background texture -->
+  <path d="M0 0 L200 50 L400 30 L600 80 L800 40 L1000 60 L1000 300 L800 320 L600 310 L400 330 L200 315 L0 325 Z" fill="#3d3a32" opacity="0.8"/>
+  <path d="M0 325 L200 315 L400 330 L600 310 L800 320 L1000 300 L1000 600 L0 600 Z" fill="#1f1d19" opacity="0.9"/>
+  
+  <!-- Figure silhouette -->
+  <ellipse cx="550" cy="350" rx="180" ry="220" fill="#1a1815"/>
+  
+  <!-- Head and face -->
+  <ellipse cx="550" cy="280" rx="85" ry="100" fill="#d4a574"/>
+  
+  <!-- Hair -->
+  <path d="M465 200 Q470 180 490 175 T520 165 T550 162 T580 165 T610 175 T630 190 L635 210 Q620 195 600 188 T560 185 T540 188 T520 195 T500 205 T480 215 Z" fill="#2d1810"/>
+  <path d="M470 220 Q475 205 485 200 T510 195 T530 198 T550 200 T570 198 T590 195 T610 200 T625 215 Q615 210 600 208 T570 210 T550 212 T530 210 T510 208 T490 210 T475 220 Z" fill="#2d1810"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="520" cy="280" rx="12" ry="15" fill="#4a7c59"/>
+  <ellipse cx="580" cy="280" rx="12" ry="15" fill="#4a7c59"/>
+  <circle cx="522" cy="278" r="6" fill="#1a1815"/>
+  <circle cx="582" cy="278" r="6" fill="#1a1815"/>
+  
+  <!-- Eyebrows -->
+  <path d="M505 260 Q515 255 530 258" stroke="#3d2314" stroke-width="3" fill="none"/>
+  <path d="M570 258 Q585 255 595 260" stroke="#3d2314" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M550 290 L545 305 L550 310 L555 305 Z" fill="#c49660"/>
+  
+  <!-- Mouth -->
+  <path d="M535 325 Q550 330 565 325" stroke="#a67c52" stroke-width="2" fill="none"/>
+  
+  <!-- Clothing -->
+  <path d="M420 360 Q450 340 550 335 T680 360 L690 450 Q650 470 550 475 T410 450 Z" fill="#3d342b"/>
+  <path d="M470 380 L480 420 L490 410 L500 425 L510 415 L520 430" stroke="#2a2420" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Hand and ring -->
+  <ellipse cx="350" cy="450" rx="60" ry="80" fill="#d4a574" transform="rotate(-30 350 450)"/>
+  
+  <!-- Fingers -->
+  <ellipse cx="320" cy="420" rx="15" ry="40" fill="#d4a574" transform="rotate(-45 320 420)"/>
+  <ellipse cx="340" cy="410" rx="15" ry="45" fill="#d4a574" transform="rotate(-35 340 410)"/>
+  <ellipse cx="360" cy="415" rx="15" ry="45" fill="#d4a574" transform="rotate(-25 360 415)"/>
+  <ellipse cx="380" cy="425" rx="15" ry="40" fill="#d4a574" transform="rotate(-15 380 425)"/>
+  
+  <!-- Ring -->
+  <ellipse cx="355" cy="430" rx="25" ry="30" fill="none" stroke="#d4af37" stroke-width="8"/>
+  <circle cx="355" cy="415" r="12" fill="#d4af37"/>
+  
+  <!-- Light reflection on face -->
+  <ellipse cx="530" cy="250" rx="30" ry="20" fill="#e5c699" opacity="0.4"/>
+  <ellipse cx="570" cy="255" rx="25" ry="15" fill="#e5c699" opacity="0.3"/>
+  
+  <!-- Sweat/water droplets -->
+  <circle cx="540" cy="240" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="560" cy="245" r="2" fill="#ffffff" opacity="0.5"/>
+</svg>

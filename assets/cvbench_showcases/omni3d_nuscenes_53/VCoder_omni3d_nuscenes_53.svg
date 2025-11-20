@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e5ea"/>
+      <stop offset="100%" style="stop-color:#c5cdd6"/>
+    </linearGradient>
+    <filter id="rain-blur">
+      <feGaussianBlur stdDeviation="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  
+  <!-- Buildings - using metadata paths -->
+  <!-- Left building -->
+  <path d="M 0,0 L 0,480 L 254,460 L 270,504 L 311,508 L 409,505 L 484,469 L 433,377 L 454,304 L 500,294 L 488,0 Z" 
+        fill="#8b7969" stroke="#6b5959" stroke-width="1"/>
+  
+  <!-- Center-left building -->
+  <path d="M 496,31 L 504,297 L 515,336 L 569,392 L 564,454 L 665,454 L 702,487 L 754,476 L 738,270 L 627,50 L 524,31 Z"
+        fill="#9b8979" stroke="#7b6959" stroke-width="1"/>
+  
+  <!-- Right building -->
+  <path d="M 969,0 L 944,5 L 946,52 L 921,58 L 908,147 L 944,391 L 1004,409 L 1013,501 L 1031,504 L 1046,464 L 1056,504 L 1122,511 L 1135,450 L 1190,448 L 1203,529 L 1331,543 L 1372,506 L 1420,533 L 1498,517 L 1527,545 L 1595,552 L 1599,0 Z"
+        fill="#a59585" stroke="#857565" stroke-width="1"/>
+  
+  <!-- Street -->
+  <path d="M 0,480 Q 800,460 1600,480 L 1600,900 L 0,900 Z" fill="#4a4a4a"/>
+  
+  <!-- Lane markings -->
+  <line x1="0" y1="650" x2="1600" y2="650" stroke="#ffd700" stroke-width="4" stroke-dasharray="40,20"/>
+  
+  <!-- Cars using metadata -->
+  <!-- Large car on left -->
+  <path d="M 172,473 L 69,477 L 0,485 L 0,708 L 57,711 L 71,707 L 90,688 L 105,651 L 117,645 L 159,643 L 194,635 L 205,641 L 216,658 L 238,660 L 250,658 L 267,644 L 273,630 L 272,592 L 267,568 L 254,549 L 254,510 L 245,483 L 230,474 L 178,473 Z"
+        fill="#6b6b6b" stroke="#4b4b4b" stroke-width="2"/>
+  
+  <!-- Wheels for left car -->
+  <ellipse cx="230" cy="620" rx="40" ry="40" fill="#2a2a2a"/>
+  <ellipse cx="100" cy="640" rx="40" ry="40" fill="#2a2a2a"/>
+  
+  <!-- Center car -->
+  <path d="M 364,508 L 312,513 L 279,520 L 266,528 L 260,536 L 258,550 L 268,566 L 269,578 L 275,586 L 274,600 L 281,617 L 285,620 L 309,621 L 342,618 L 352,624 L 363,626 L 371,623 L 381,609 L 389,605 L 408,600 L 434,604 L 442,599 L 446,571 L 441,543 L 402,512 L 388,508 Z"
+        fill="#7b7b7b" stroke="#5b5b5b" stroke-width="2"/>
+  
+  <!-- SUV with headlights -->
+  <path d="M 626,457 L 590,460 L 562,472 L 542,504 L 514,528 L 510,536 L 506,573 L 513,603 L 520,612 L 536,610 L 543,599 L 552,592 L 572,589 L 581,585 L 618,582 L 667,600 L 675,595 L 681,583 L 696,584 L 702,581 L 705,570 L 705,551 L 699,503 L 692,490 L 683,483 L 677,469 L 666,460 L 656,457 Z"
+        fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2"/>
+  
+  <!-- Headlights -->
+  <ellipse cx="520" cy="550" rx="15" ry="10" fill="#ffffcc" opacity="0.8"/>
+  <ellipse cx="560" cy="545" rx="15" ry="10" fill="#ffffcc" opacity="0.8"/>
+  
+  <!-- Road Work Sign -->
+  <rect x="1310" y="190" width="100" height="100" fill="#ff7700" transform="rotate(45 1360 240)"/>
+  <text x="1360" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">ROAD</text>
+  <text x="1360" y="240" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">WORK</text>
+  <text x="1360" y="260" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">AHEAD</text>
+  
+  <!-- Windows on buildings -->
+  <rect x="495" y="187" width="77" height="56" fill="#4a5a6a" opacity="0.7"/>
+  <rect x="73" y="0" width="91" height="125" fill="#4a5a6a" opacity="0.7"/>
+  
+  <!-- Bounding boxes -->
+  <rect x="767" y="442" width="63" height="64" fill="none" stroke="#00ff00" stroke-width="3" rx="5"/>
+  <rect x="1137" y="448" width="60" height="93" fill="none" stroke="#0000ff" stroke-width="3" rx="5"/>
+  <rect x="1041" y="439" width="60" height="40" fill="none" stroke="#ff0000" stroke-width="3" rx="5"/>
+  
+  <!-- Rain effect -->
+  <g opacity="0.3">
+    <line x1="100" y1="0" x2="95" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+    <line x1="300" y1="0" x2="295" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+    <line x1="500" y1="0" x2="495" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+    <line x1="700" y1="0" x2="695" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+    <line x1="900" y1="0" x2="895" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+    <line x1="1100" y1="0" x2="1095" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+    <line x1="1300" y1="0" x2="1295" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+    <line x1="1500" y1="0" x2="1495" y2="50" stroke="#b0c0d0" stroke-width="1" filter="url(#rain-blur)"/>
+  </g>
+  
+  <!-- Reflections on wet road -->
+  <g opacity="0.3">
+    <rect x="510" y="620" width="100" height="30" fill="#ffffcc" filter="url(#rain-blur)"/>
+    <rect x="250" y="640" width="80" height="25" fill="#ff0000" filter="url(#rain-blur)"/>
+  </g>
+</svg>

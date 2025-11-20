@@ -1,0 +1,81 @@
+<svg viewBox="0 0 720 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bedGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f7f7"/>
+      <stop offset="100%" stop-color="#ececec"/>
+    </linearGradient>
+    <linearGradient id="frogBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6cc452"/>
+      <stop offset="100%" stop-color="#57a840"/>
+    </linearGradient>
+    <linearGradient id="frogMouth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5a5a"/>
+      <stop offset="100%" stop-color="#e13b3b"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="3" result="off"/>
+      <feMerge>
+        <feMergeNode in="off"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pillowShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="3" result="off2"/>
+      <feMerge>
+        <feMergeNode in="off2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="680" fill="#ffffff"/>
+  
+  <g font-family="Arial, Helvetica, sans-serif" fill="#0f1720" font-size="34">
+    <text x="24" y="54"><tspan font-weight="700">Me: </tspan>I'll do it at 8</text>
+    <text x="24" y="100"><tspan font-weight="700">Time: </tspan>8.05</text>
+    <text x="24" y="146"><tspan font-weight="700">Me: </tspan>looks like I gotta wait till 9 now</text>
+  </g>
+
+  <rect x="20" y="170" width="680" height="490" rx="16" fill="url(#bedGrad)"/>
+  <rect x="40" y="190" width="640" height="250" rx="24" fill="#ffffff" filter="url(#pillowShadow)"/>
+
+  <g opacity="0.3" stroke="#d8d8d8" stroke-width="2" fill="none">
+    <path d="M60 260 C140 220, 220 220, 300 260"/>
+    <path d="M420 250 C500 210, 580 220, 660 260"/>
+    <path d="M60 320 C200 350, 520 350, 660 320"/>
+  </g>
+
+  <g transform="translate(0,10)" filter="url(#softShadow)">
+    <g transform="translate(360,420)">
+      <ellipse cx="0" cy="100" rx="75" ry="105" fill="url(#frogBody)"/>
+      <path d="M-55 175 L-15 150 L25 175 L-5 190 Z" fill="#82d164"/>
+      <path d="M-30 160 L-10 150 L10 160 L-10 170 Z" fill="#7acc59"/>
+      <circle cx="0" cy="20" r="55" fill="url(#frogBody)"/>
+      <path d="M-30 38 C-10 65, 10 65, 30 38 C12 18,-12 18,-30 38 Z" fill="url(#frogMouth)"/>
+      <path d="M-34 30 C-10 15, 10 15, 34 30" stroke="#2c6f23" stroke-width="4" fill="none"/>
+      <g>
+        <circle cx="-22" cy="-22" r="17" fill="#ffffff"/>
+        <circle cx="22" cy="-22" r="17" fill="#ffffff"/>
+        <circle cx="-18" cy="-20" r="6" fill="#111111"/>
+        <circle cx="18" cy="-20" r="6" fill="#111111"/>
+      </g>
+      <g fill="url(#frogBody)">
+        <path d="M-70 45 C-105 5,-92 -35,-60 -45 C-25 -55,-8 -20,-25 -5 C-38 6,-50 25,-60 40 Z"/>
+        <path d="M70 45 C105 5,92 -35,60 -45 C25 -55,8 -20,25 -5 C38 6,50 25,60 40 Z"/>
+      </g>
+      <g fill="url(#frogBody)">
+        <path d="M-10 190 C-5 225, 5 225, 10 190 C12 175, -12 175, -10 190 Z"/>
+        <path d="M-6 205 C-2 255, 12 270, 32 275 C45 278, 58 268, 54 248 C48 220, 24 205, -6 205 Z"/>
+        <path d="M6 205 C2 255, -12 270, -32 275 C-45 278, -58 268, -54 248 C-48 220, -24 205, 6 205 Z"/>
+      </g>
+      <g opacity="0.25">
+        <ellipse cx="-18" cy="5" rx="14" ry="6" fill="#ffffff"/>
+        <ellipse cx="18" cy="5" rx="14" ry="6" fill="#ffffff"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="560" y="662" font-size="14" font-family="Arial, Helvetica, sans-serif" fill="#bdbdbd">boredpanda.com</text>
+</svg>

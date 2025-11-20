@@ -1,0 +1,125 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Soil Gradients -->
+    <radialGradient id="soilGrad" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#3d3836" />
+      <stop offset="100%" stop-color="#262221" />
+    </radialGradient>
+    
+    <!-- Leaf Gradients -->
+    <linearGradient id="leafLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86c270" />
+      <stop offset="100%" stop-color="#4a854a" />
+    </linearGradient>
+    
+    <linearGradient id="leafDeep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5da056" />
+      <stop offset="100%" stop-color="#2f5e36" />
+    </linearGradient>
+
+    <radialGradient id="witheredLeaf" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#dbe0b6" /> <!-- Yellowish/Pale -->
+      <stop offset="50%" stop-color="#a8b886" />
+      <stop offset="100%" stop-color="#7a9165" />
+    </radialGradient>
+
+    <linearGradient id="stemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e3d594" />
+      <stop offset="50%" stop-color="#c4b068" />
+      <stop offset="100%" stop-color="#9c8c51" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background: Soil -->
+  <rect width="100%" height="100%" fill="url(#soilGrad)" />
+  
+  <!-- Soil texture (pebbles/clods) -->
+  <g fill="#544e4b" opacity="0.6">
+    <circle cx="50" cy="750" r="5" />
+    <circle cx="120" cy="780" r="8" />
+    <circle cx="400" cy="700" r="4" />
+    <circle cx="550" cy="650" r="6" />
+    <circle cx="200" cy="100" r="5" />
+    <ellipse cx="300" cy="600" rx="10" ry="7" />
+    <path d="M50,100 Q60,90 70,100 T90,110 L80,120 Z" />
+    <path d="M450,750 Q460,740 470,750 T490,760 L480,770 Z" />
+  </g>
+
+  <!-- Bottom Left Withered Leaf (Older growth) -->
+  <path d="M250,500 
+           C200,550 150,600 150,700 
+           C150,750 180,780 250,750 
+           C300,730 350,700 320,600 
+           C310,570 280,530 250,500 Z" 
+        fill="url(#witheredLeaf)" stroke="#8f9c6b" stroke-width="1"/>
+  <!-- Withered veins -->
+  <path d="M250,500 C220,600 200,700 220,740" fill="none" stroke="#c7cf9d" stroke-width="3" />
+
+  <!-- Bottom Right Leaf Cluster -->
+  <path d="M350,480 
+           C400,500 550,550 580,700 
+           C590,750 550,800 450,780 
+           C380,760 350,650 350,480 Z" 
+        fill="#4f8a54" />
+  <path d="M350,480 Q450,600 500,750" fill="none" stroke="#8eb57b" stroke-width="4" opacity="0.7"/>
+
+  <!-- Top Right Large Leaf (Dominant) -->
+  <path d="M320,450 
+           C400,400 500,300 580,250 
+           C620,100 500,20 350,50 
+           C280,80 300,300 320,450 Z" 
+        fill="url(#leafDeep)" />
+  <!-- Veins for Top Right -->
+  <path d="M340,380 C400,300 500,150 520,80" fill="none" stroke="#89b579" stroke-width="2" />
+  <path d="M340,380 C450,350 550,300 580,250" fill="none" stroke="#89b579" stroke-width="2" />
+  <path d="M340,380 C300,250 280,150 350,50" fill="none" stroke="#89b579" stroke-width="2" />
+
+  <!-- Top Left Leaf Cluster -->
+  <path d="M280,420 
+           C200,400 50,350 20,250 
+           C10,150 100,50 250,50 
+           C300,100 290,350 280,420 Z" 
+        fill="#5c9e60" />
+  <!-- Top Left Veins -->
+  <path d="M270,350 C200,300 100,250 50,200" fill="none" stroke="#9bc78d" stroke-width="2" />
+  <path d="M270,350 C250,200 200,100 150,50" fill="none" stroke="#9bc78d" stroke-width="2" />
+
+  <!-- Middle Left Leaf (Bright Green) -->
+  <path d="M280,450 
+           C200,450 50,480 20,600 
+           C10,650 50,700 150,650 
+           C200,620 250,500 280,450 Z" 
+        fill="url(#leafLight)" />
+   <path d="M280,450 C180,500 80,550 40,620" fill="none" stroke="#cce3a1" stroke-width="3" />
+
+  <!-- Central Crown / Stem Complex -->
+  <!-- This represents the thick, slightly peeling stalks connecting the leaves -->
+  <g transform="translate(250, 400)">
+    <!-- Main central stem bases -->
+    <path d="M30,50 C50,40 80,40 100,60 L110,100 C90,120 40,120 20,100 Z" fill="#4a3b32" /> <!-- deep shadow in center -->
+    
+    <!-- Stem to Top Left -->
+    <path d="M40,60 Q20,40 -20,0 L-10,-10 Q30,30 50,50 Z" fill="url(#stemGrad)" />
+    
+    <!-- Stem to Bottom Left (Curved/Broken) -->
+    <path d="M30,80 Q10,100 -40,120 L-50,110 Q0,90 40,70 Z" fill="#d9c98c" stroke="#b09f63" />
+    
+    <!-- Stem to Right (Thick) -->
+    <path d="M80,70 Q120,60 160,80 L160,95 Q110,80 70,90 Z" fill="url(#stemGrad)" stroke="#8c7e4b" />
+    
+    <!-- Peeling skin texture on stems -->
+    <path d="M85,75 Q110,70 130,80" fill="none" stroke="#f5ebc1" stroke-width="2" />
+    <path d="M35,85 Q10,100 -20,115" fill="none" stroke="#f5ebc1" stroke-width="2" />
+  </g>
+
+  <!-- New growth / Small inner leaves -->
+  <path d="M290,430 C310,410 330,410 340,440 C330,460 300,460 290,430 Z" fill="#a6d687" />
+  <path d="M320,460 C340,450 360,460 350,490 C330,490 320,470 320,460 Z" fill="#8eb872" />
+
+  <!-- Overlays for texture/depth (Ruffles) -->
+  <!-- Top right ruffle shadow -->
+  <path d="M580,250 C550,280 500,300 450,320" fill="none" stroke="#2e5733" stroke-width="2" opacity="0.3" />
+  <!-- Bottom left ruffle shadow -->
+  <path d="M150,700 C180,680 220,650 250,620" fill="none" stroke="#3e4d2f" stroke-width="2" opacity="0.3" />
+
+</svg>

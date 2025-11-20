@@ -1,0 +1,147 @@
+<svg viewBox="0 0 800 850" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Money Symbol -->
+    <g id="money">
+      <rect x="-20" y="-10" width="40" height="20" fill="#85bb65" stroke="#4a7035" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#4a7035" opacity="0.5"/>
+    </g>
+    
+    <!-- Suit Body -->
+    <g id="suit-body">
+      <path d="M-30,80 L-30,20 L-50,0 L-15,0 L0,20 L15,0 L50,0 L30,20 L30,80 Z" fill="#2c3e50"/>
+      <path d="M0,20 L0,80" stroke="#1a252f" stroke-width="2"/>
+      <polygon points="-15,0 15,0 0,25" fill="white"/>
+      <path d="M-5,0 L5,0 L0,20 Z" fill="#c0392b"/> <!-- Tie -->
+    </g>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="850" fill="white"/>
+
+  <!-- Main Title -->
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="60" text-anchor="middle" fill="black" font-weight="bold">Studying online</text>
+
+  <!-- Quadrant 1: Zoom -->
+  <g transform="translate(0, 120)">
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="35" text-anchor="middle" fill="black">Zoom</text>
+    
+    <!-- Zoom Graphic -->
+    <g transform="translate(200, 150)">
+      <!-- Money Rain -->
+      <use href="#money" x="-80" y="-30" transform="rotate(15)"/>
+      <use href="#money" x="90" y="-20" transform="rotate(-20)"/>
+      <use href="#money" x="-60" y="50" transform="rotate(45)"/>
+      <use href="#money" x="80" y="40" transform="rotate(-10)"/>
+      <use href="#money" x="-90" y="100" transform="rotate(30)"/>
+      <use href="#money" x="70" y="90" transform="rotate(-30)"/>
+
+      <!-- Happy Guy -->
+      <g transform="translate(0, 30)">
+        <path d="M-30,80 L-30,20 L-50,-10 L-70,-40 L-60,-45 L-40,-10 L-15,0 L15,0 L40,-10 L60,-45 L70,-40 L50,-10 L30,20 L30,80 Z" fill="#2c3e50"/> <!-- Arms Up -->
+        <polygon points="-15,0 15,0 0,25" fill="white"/>
+        <circle cx="0" cy="-20" r="25" fill="#f1c27d"/>
+        <path d="M-10,-15 Q0,-5 10,-15" stroke="black" stroke-width="2" fill="none"/> <!-- Smile -->
+      </g>
+    </g>
+  </g>
+
+  <!-- Quadrant 2: Teacher -->
+  <g transform="translate(400, 120)">
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="35" text-anchor="middle" fill="black">Teacher</text>
+    
+    <!-- Teacher Graphic -->
+    <g transform="translate(200, 180)">
+      <!-- Chair Back -->
+      <rect x="-40" y="-60" width="80" height="100" rx="10" fill="#34495e"/>
+      
+      <!-- Person Leaning Back -->
+      <path d="M-30,60 L-40,0 L-60,-30 L-30,-50 L0,-40 L30,-50 L60,-30 L40,0 L30,60 Z" fill="#7f8c8d"/>
+      <!-- Hands behind head -->
+      <path d="M-35,-45 L-50,-20 L-25,-20 Z" fill="#f1c27d"/>
+      <path d="M35,-45 L50,-20 L25,-20 Z" fill="#f1c27d"/>
+      
+      <!-- Head -->
+      <circle cx="0" cy="-40" r="22" fill="#8d5524"/>
+      <path d="M-8,-42 Q0,-38 8,-42" stroke="black" stroke-width="2" fill="none"/> <!-- Chill Smile -->
+      
+      <!-- Desk -->
+      <rect x="-100" y="40" width="200" height="60" fill="#5d4037"/>
+      <!-- Feet on desk -->
+      <ellipse cx="-20" cy="30" rx="15" ry="25" fill="#333"/>
+      <ellipse cx="20" cy="30" rx="15" ry="25" fill="#333"/>
+    </g>
+  </g>
+
+  <!-- Quadrant 3: Wifi Company -->
+  <g transform="translate(0, 480)">
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="35" text-anchor="middle" fill="black">Wifi company</text>
+    
+    <!-- Wifi Graphic (Iron Man Style Pose) -->
+    <g transform="translate(200, 150)">
+      <!-- Money Rain -->
+      <use href="#money" x="-100" y="-40" transform="rotate(80)"/>
+      <use href="#money" x="110" y="-30" transform="rotate(-60)"/>
+      <use href="#money" x="-120" y="60" transform="rotate(10)"/>
+      <use href="#money" x="100" y="50" transform="rotate(-15)"/>
+
+      <!-- Cool Guy -->
+      <g transform="translate(0, 30)">
+        <!-- Arms Wide Open -->
+        <path d="M-30,80 L-30,20 L-90,10 L-90,0 L-15,0 L15,0 L90,0 L90,10 L30,20 L30,80 Z" fill="#2c3e50"/>
+        <polygon points="-15,0 15,0 0,25" fill="white"/>
+        <path d="M-5,0 L5,0 L0,20 Z" fill="#3498db"/> <!-- Blue Tie -->
+        <circle cx="0" cy="-20" r="25" fill="#f1c27d"/>
+        <!-- Sunglasses -->
+        <rect x="-18" y="-25" width="15" height="8" fill="black"/>
+        <rect x="3" y="-25" width="15" height="8" fill="black"/>
+        <line x1="-3" y1="-21" x2="3" y2="-21" stroke="black" stroke-width="2"/>
+        <!-- Goatee -->
+        <path d="M-5,-10 L5,-10 L0,-5 Z" fill="#333"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Quadrant 4: Students -->
+  <g transform="translate(400, 480)">
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="35" text-anchor="middle" fill="black">Students</text>
+    
+    <!-- Student Graphic (Joker Style) -->
+    <g transform="translate(200, 150)">
+      <!-- Mirror/Background -->
+      <rect x="-100" y="-60" width="200" height="160" fill="#e0e0e0" stroke="#999" stroke-width="5"/>
+      
+      <!-- Joker Figure -->
+      <g transform="translate(40, 20)">
+        <!-- Red Suit -->
+        <path d="M-35,80 L-35,20 L-60,30 L-50,10 L-15,0 L15,0 L50,10 L60,30 L35,20 L35,80 Z" fill="#8e2430"/>
+        <path d="M-10,0 L10,0 L0,25 Z" fill="#f1c40f"/> <!-- Yellow Vest top -->
+        
+        <!-- Head -->
+        <circle cx="0" cy="-25" r="30" fill="white"/> <!-- White face paint -->
+        
+        <!-- Green Hair -->
+        <path d="M-30,-25 Q-35,-60 0,-55 Q35,-60 30,-25 Z" fill="#27ae60"/>
+        
+        <!-- Eyes/Makeup -->
+        <path d="M-15,-30 L-10,-40 L-5,-30 Z" fill="#3498db"/> <!-- Blue Diamond top left -->
+        <path d="M-15,-20 L-10,-10 L-5,-20 Z" fill="#3498db"/> <!-- Blue Diamond bot left -->
+        <path d="M5,-30 L10,-40 L15,-30 Z" fill="#3498db"/>   <!-- Blue Diamond top right -->
+        <path d="M5,-20 L10,-10 L15,-20 Z" fill="#3498db"/>   <!-- Blue Diamond bot right -->
+        
+        <!-- Sad real mouth -->
+        <path d="M-8,-15 Q0,-18 8,-15" stroke="black" stroke-width="1" fill="none"/>
+        
+        <!-- Painted Smile (Red) -->
+        <path d="M-20,-15 Q0,10 20,-15" stroke="#c0392b" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M-20,-15 L-25,-18" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+        <path d="M20,-15 L25,-18" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+      </g>
+
+      <!-- Text on Mirror -->
+      <text x="-80" y="-20" font-family="'Brush Script MT', cursive" font-size="28" fill="#c0392b" transform="rotate(-10)">Put on a</text>
+      <text x="-80" y="10" font-family="'Brush Script MT', cursive" font-size="32" fill="#c0392b" font-weight="bold" transform="rotate(-5)">HAPPY</text>
+      <text x="-75" y="40" font-family="'Brush Script MT', cursive" font-size="32" fill="#c0392b" font-weight="bold" transform="rotate(-8)">FACE</text>
+    </g>
+  </g>
+
+</svg>

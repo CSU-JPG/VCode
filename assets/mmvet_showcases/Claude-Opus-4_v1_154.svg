@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Left panel - Two women -->
+  <rect x="0" y="0" width="400" height="400" fill="#1a237e"/>
+  <rect x="10" y="10" width="380" height="380" fill="#283593"/>
+  
+  <!-- Woman on left -->
+  <ellipse cx="150" cy="200" rx="60" ry="80" fill="#fdbcb4"/>
+  <ellipse cx="150" cy="170" rx="65" ry="60" fill="#f4e04d"/>
+  <ellipse cx="150" cy="240" rx="35" ry="25" fill="#d32f2f" opacity="0.8"/>
+  <circle cx="130" cy="190" r="8" fill="#333"/>
+  <circle cx="170" cy="190" r="8" fill="#333"/>
+  <rect x="110" y="280" width="80" height="100" fill="#000"/>
+  
+  <!-- Woman on right -->
+  <ellipse cx="280" cy="200" rx="60" ry="80" fill="#fdbcb4"/>
+  <ellipse cx="280" cy="170" rx="65" ry="70" fill="#3e2723"/>
+  <circle cx="260" cy="190" r="8" fill="#333"/>
+  <circle cx="300" cy="190" r="8" fill="#333"/>
+  <rect x="240" y="280" width="80" height="100" fill="#000"/>
+  
+  <!-- Hand gesture -->
+  <ellipse cx="200" cy="250" rx="25" ry="15" fill="#fdbcb4" transform="rotate(-30 200 250)"/>
+  <circle cx="215" cy="245" r="12" fill="#ffd700"/>
+  
+  <!-- Right panel - Cat at dinner -->
+  <rect x="400" y="0" width="400" height="400" fill="#424242"/>
+  
+  <!-- Table -->
+  <rect x="450" y="300" width="300" height="80" fill="#8d6e63"/>
+  
+  <!-- Plate -->
+  <ellipse cx="600" cy="320" rx="80" ry="20" fill="#fff"/>
+  <ellipse cx="600" cy="315" rx="70" ry="15" fill="#f5f5f5"/>
+  
+  <!-- Salad on plate -->
+  <ellipse cx="580" cy="310" rx="25" ry="15" fill="#4caf50"/>
+  <ellipse cx="620" cy="310" rx="25" ry="15" fill="#4caf50"/>
+  <ellipse cx="600" cy="305" rx="20" ry="12" fill="#66bb6a"/>
+  <circle cx="590" cy="310" r="8" fill="#d32f2f"/>
+  <circle cx="610" cy="310" r="8" fill="#d32f2f"/>
+  
+  <!-- Cat -->
+  <ellipse cx="600" cy="200" rx="70" ry="60" fill="#f5f5f5"/>
+  <ellipse cx="600" cy="180" rx="50" ry="45" fill="#fff"/>
+  <polygon points="570,160 580,140 590,160" fill="#fff"/>
+  <polygon points="610,160 620,140 630,160" fill="#fff"/>
+  <ellipse cx="580" cy="180" rx="8" ry="12" fill="#000"/>
+  <ellipse cx="620" cy="180" rx="8" ry="12" fill="#000"/>
+  <path d="M590 190 Q600 195 610 190" fill="none" stroke="#ff69b4" stroke-width="2"/>
+  <path d="M600 195 L600 205" stroke="#000" stroke-width="2"/>
+  <path d="M600 205 Q590 210 580 205" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M600 205 Q610 210 620 205" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Hand reaching down -->
+  <rect x="650" y="50" width="40" height="100" fill="#333"/>
+  <ellipse cx="670" cy="150" rx="25" ry="20" fill="#fdbcb4"/>
+</svg>

@@ -1,0 +1,100 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#4a8cdb" />
+
+  <!-- Background Mountain -->
+  <path d="M0,200 L50,180 L150,120 L300,100 L450,80 L600,40 L800,0 L800,400 L0,400 Z" fill="#6e665c" />
+  <!-- Mountain details/shadows -->
+  <path d="M300,100 L400,150 L500,130 L600,200 L800,150 L800,400 L300,400 Z" fill="#574f46" opacity="0.6" />
+  <path d="M0,200 L100,250 L250,220 L0,400 Z" fill="#574f46" opacity="0.4" />
+
+  <!-- Retaining Wall (Right Side) -->
+  <path d="M450,280 L800,250 L800,350 L450,300 Z" fill="#4a4540" />
+  <rect x="450" y="290" width="350" height="30" fill="url(#wallPattern)" opacity="0.5"/>
+
+  <!-- Road -->
+  <path d="M0,600 L800,600 L800,300 L0,300 Z" fill="#9ea3a8" /> <!-- Base ground -->
+  <!-- Asphalt -->
+  <path d="M200,600 L400,300 L800,320 L800,600 Z" fill="#757575" />
+  
+  <!-- Road Markings -->
+  <!-- Yellow Line -->
+  <path d="M400,350 L800,500" stroke="#e6c300" stroke-width="3" />
+  <!-- White Shoulder Line -->
+  <path d="M230,600 L400,300" stroke="white" stroke-width="2" />
+
+  <!-- Distant Car -->
+  <g transform="translate(430, 305) scale(0.6)">
+    <!-- Shadow -->
+    <ellipse cx="50" cy="45" rx="55" ry="10" fill="black" opacity="0.4"/>
+    <!-- Body -->
+    <path d="M10,40 L10,25 L30,10 L70,10 L90,25 L90,40 Z" fill="white" />
+    <rect x="10" y="25" width="80" height="15" fill="white" />
+    <!-- Windshield -->
+    <path d="M32,12 L68,12 L85,25 L15,25 Z" fill="#2c3e50" />
+    <!-- Wheels -->
+    <circle cx="25" cy="40" r="8" fill="#1a1a1a" />
+    <circle cx="75" cy="40" r="8" fill="#1a1a1a" />
+    <!-- Grill/Bumper -->
+    <rect x="35" y="35" width="30" height="3" fill="#333" />
+  </g>
+
+  <!-- Distant Cyclist -->
+  <g transform="translate(385, 305) scale(0.35)">
+    <ellipse cx="20" cy="55" rx="20" ry="5" fill="black" opacity="0.4"/>
+    <circle cx="10" cy="50" r="12" stroke="#333" stroke-width="2" fill="none" />
+    <circle cx="40" cy="50" r="12" stroke="#333" stroke-width="2" fill="none" />
+    <path d="M10,50 L25,20 L40,50" stroke="#333" stroke-width="2" fill="none" />
+    <!-- Rider Body -->
+    <rect x="18" y="15" width="12" height="25" fill="white" />
+    <circle cx="24" cy="10" r="6" fill="#333" /> <!-- Helmet -->
+    <rect x="18" y="25" width="12" height="5" fill="#d63031" /> <!-- Stripe -->
+  </g>
+
+  <!-- Curb / Gutter Stones -->
+  <path d="M180,600 L230,600 L400,300 L350,300 Z" fill="#d1d1d1" />
+  <!-- Stones texture approximation -->
+  <circle cx="200" cy="580" r="10" fill="#b0b0b0" />
+  <circle cx="215" cy="550" r="9" fill="#a0a0a0" />
+  <circle cx="225" cy="520" r="8" fill="#b5b5b5" />
+  <circle cx="235" cy="490" r="7" fill="#999" />
+  <circle cx="245" cy="460" r="6" fill="#bbb" />
+  <circle cx="252" cy="440" r="5" fill="#aaa" />
+  <circle cx="260" cy="420" r="4" fill="#ccc" />
+  
+  <!-- Foreground Man -->
+  <g transform="translate(70, 200)">
+    <!-- Legs/Jeans -->
+    <path d="M10,200 L10,400 L60,400 L65,200 L120,200 L110,400 L160,400 L160,180 L10,180 Z" fill="#4a6ea3" />
+    <path d="M62,200 L62,350" stroke="#3a5580" stroke-width="2" /> <!-- Seam -->
+
+    <!-- Fanny Pack -->
+    <path d="M10,180 C10,180 50,210 130,190 L135,165 L20,165 Z" fill="#1a1a1a" />
+    <ellipse cx="100" cy="185" rx="25" ry="15" fill="#111" />
+
+    <!-- T-Shirt Body -->
+    <path d="M15,170 L15,100 C15,80 40,70 60,70 L110,75 C130,80 150,100 145,130 L135,170 Z" fill="white" />
+    <!-- Sleeve -->
+    <path d="M100,80 L150,90 L160,130 L120,140 Z" fill="white" />
+    
+    <!-- Arms -->
+    <path d="M120,140 L160,130 L190,160 L160,170 Z" fill="#8d5e41" /> <!-- Forearm -->
+    <circle cx="180" cy="165" r="10" fill="#8d5e41" /> <!-- Hand -->
+
+    <!-- Head/Neck -->
+    <rect x="70" y="50" width="40" height="30" fill="#8d5e41" /> <!-- Neck -->
+    <ellipse cx="95" cy="40" rx="35" ry="40" fill="#8d5e41" /> <!-- Head Shape -->
+    
+    <!-- Hair -->
+    <path d="M60,40 C60,10 90,0 120,10 L125,40 C125,40 110,30 100,30 C90,30 70,50 70,50 Z" fill="#333" />
+    <path d="M58,35 L65,60 L80,55 L70,30 Z" fill="#333" /> <!-- Sideburn/back -->
+
+    <!-- Sunglasses -->
+    <path d="M115,35 L135,35 L132,45 L115,45 Z" fill="black" />
+    <rect x="110" y="38" width="10" height="2" fill="black" /> <!-- Arm of glasses -->
+
+    <!-- Facial Features Hint -->
+    <path d="M130,50 L140,55 L130,60" fill="#8d5e41" /> <!-- Nose -->
+  </g>
+
+</svg>

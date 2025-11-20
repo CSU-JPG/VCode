@@ -1,0 +1,111 @@
+<svg viewBox="0 0 500 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g-forest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a3b20"/>
+      <stop offset="0.4" stop-color="#144d2b"/>
+      <stop offset="1" stop-color="#0a2a18"/>
+    </linearGradient>
+    <linearGradient id="g-grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53c552"/>
+      <stop offset="1" stop-color="#2f9b3f"/>
+    </linearGradient>
+    <radialGradient id="g-frisbee" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#ffa74a"/>
+      <stop offset="0.6" stop-color="#ff7f2a"/>
+      <stop offset="1" stop-color="#e46012"/>
+    </radialGradient>
+    <linearGradient id="g-shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ec4343"/>
+      <stop offset="1" stop-color="#b91f1f"/>
+    </linearGradient>
+    <linearGradient id="g-shorts" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f5fb6"/>
+      <stop offset="1" stop-color="#183c85"/>
+    </linearGradient>
+    <linearGradient id="g-skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5c8a1"/>
+      <stop offset="1" stop-color="#d79a6a"/>
+    </linearGradient>
+    <linearGradient id="g-dogBlack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16181b"/>
+      <stop offset="1" stop-color="#0a0b0d"/>
+    </linearGradient>
+    <radialGradient id="g-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#000" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background forest -->
+  <rect x="0" y="0" width="500" height="420" fill="url(#g-forest)"/>
+  <!-- Soft tree blobs -->
+  <g opacity="0.35">
+    <ellipse cx="60" cy="180" rx="70" ry="110" fill="#0e4022"/>
+    <ellipse cx="150" cy="140" rx="95" ry="120" fill="#0f4726"/>
+    <ellipse cx="270" cy="160" rx="110" ry="130" fill="#0e3c21"/>
+    <ellipse cx="400" cy="150" rx="95" ry="125" fill="#0e4123"/>
+    <ellipse cx="460" cy="200" rx="70" ry="100" fill="#0b341b"/>
+  </g>
+
+  <!-- Grass field -->
+  <rect x="0" y="400" width="500" height="350" fill="url(#g-grass)"/>
+  <ellipse cx="300" cy="610" rx="170" ry="36" fill="url(#g-shadow)"/>
+  <ellipse cx="200" cy="560" rx="120" ry="24" fill="url(#g-shadow)" opacity="0.5"/>
+
+  <!-- Frisbee -->
+  <g transform="translate(95,205)">
+    <circle r="36" fill="url(#g-frisbee)"/>
+    <circle r="26" fill="none" stroke="#ff9733" stroke-width="6"/>
+    <circle r="12" fill="#ff8a28" opacity="0.8"/>
+  </g>
+
+  <!-- Person -->
+  <g transform="translate(280,520) rotate(-12)">
+    <!-- Torso (red sweatshirt) -->
+    <path d="M-40,-10 C-95,-15 -120,20 -118,52 C-117,78 -97,92 -66,92 C-46,92 -26,88 -10,82 C22,70 46,40 48,20 C51,-5 26,-17 -2,-16 C-15,-15 -27,-13 -40,-10 Z" fill="url(#g-shirt)"/>
+    <!-- Right arm reaching forward -->
+    <path d="M-118,50 C-150,40 -176,44 -197,52 C-214,59 -216,73 -199,78 C-178,85 -153,86 -122,82" fill="url(#g-shirt)"/>
+    <path d="M-201,72 C-214,71 -221,83 -219,93 C-216,106 -201,109 -188,103 C-176,98 -175,84 -184,77 C-189,73 -195,72 -201,72 Z" fill="url(#g-skin)"/>
+    <!-- Left arm downward -->
+    <path d="M40,16 C74,12 96,22 105,38 C113,51 107,65 92,68 C73,71 54,60 38,39" fill="url(#g-shirt)"/>
+    <path d="M104,58 C118,56 127,66 127,78 C126,92 112,100 99,96 C85,92 80,78 89,66 C94,60 99,58 104,58 Z" fill="url(#g-skin)"/>
+
+    <!-- Shorts -->
+    <path d="M-18,72 C-36,74 -53,81 -68,94 C-88,110 -88,136 -74,143 C-57,152 -28,140 -4,124 C16,111 38,94 44,80 C48,70 38,64 22,64 C9,64 -4,68 -18,72 Z" fill="url(#g-shorts)"/>
+    <!-- Right leg extended -->
+    <path d="M-88,140 C-128,160 -154,184 -166,206 C-176,225 -163,240 -142,237 C-118,234 -88,212 -65,188 C-47,169 -56,150 -78,140 Z" fill="url(#g-skin)"/>
+    <path d="M-157,222 C-174,224 -184,234 -186,246 C-188,258 -178,268 -164,266 C-146,263 -130,248 -129,236 C-128,224 -139,220 -157,222 Z" fill="#e13a3a"/>
+    <!-- Left leg kneeling -->
+    <path d="M10,120 C-2,139 2,160 18,170 C34,180 58,178 72,168 C86,158 84,138 68,124 C52,110 28,104 10,120 Z" fill="url(#g-skin)"/>
+    <path d="M64,171 C78,170 88,176 92,186 C96,195 90,205 79,207 C64,210 48,201 46,191 C44,181 52,172 64,171 Z" fill="#e13a3a"/>
+
+    <!-- Head and cap -->
+    <ellipse cx="18" cy="-20" rx="20" ry="16" fill="url(#g-skin)"/>
+    <path d="M2,-32 C10,-46 34,-50 52,-44 C68,-38 72,-24 64,-14 C58,-6 42,-6 26,-10 C15,-13 6,-21 2,-32 Z" fill="#f2f2f2"/>
+    <path d="M52,-44 C64,-36 70,-18 59,-11 C56,-9 52,-9 47,-12 C51,-21 53,-33 52,-44 Z" fill="#d8d8d8"/>
+  </g>
+
+  <!-- Dog -->
+  <g transform="translate(340,360) rotate(16)">
+    <!-- Body -->
+    <path d="M-30,0 C-10,-18 24,-20 50,-4 C74,10 78,34 64,46 C50,58 20,56 0,44 C-18,33 -40,17 -30,0 Z" fill="url(#g-dogBlack)"/>
+    <!-- Belly white -->
+    <path d="M-10,2 C0,-4 16,-6 32,2 C42,7 48,18 42,26 C35,34 20,34 10,28 C0,22 -8,12 -10,2 Z" fill="#f5f5f5"/>
+    <!-- Back leg -->
+    <path d="M40,40 C54,44 64,54 68,66 C72,78 62,84 52,78 C40,72 30,54 32,44" fill="url(#g-dogBlack)"/>
+    <!-- Front leg -->
+    <path d="M0,36 C10,46 14,60 12,72 C10,84 0,84 -6,74 C-12,64 -14,48 -10,38" fill="url(#g-dogBlack)"/>
+    <!-- Neck and head -->
+    <path d="M-32,-2 C-44,-10 -54,-22 -58,-34 C-62,-46 -52,-52 -38,-48 C-26,-44 -16,-34 -12,-24 C-10,-18 -14,-10 -22,-6 C-26,-4 -30,-3 -32,-2 Z" fill="url(#g-dogBlack)"/>
+    <!-- Muzzle white -->
+    <path d="M-52,-36 C-42,-34 -34,-28 -30,-22 C-28,-18 -32,-14 -40,-14 C-46,-14 -54,-18 -58,-24 C-60,-28 -58,-34 -52,-36 Z" fill="#f0f0f0"/>
+    <!-- Ear -->
+    <path d="M-46,-50 C-52,-60 -52,-70 -44,-72 C-36,-74 -28,-66 -26,-56 C-28,-54 -36,-52 -46,-50 Z" fill="#0b0c0e"/>
+    <!-- Tail -->
+    <path d="M68,20 C82,18 92,26 96,36 C100,44 96,54 88,52 C80,50 72,34 68,20 Z" fill="url(#g-dogBlack)"/>
+  </g>
+
+  <!-- Small flying-disc motion arc -->
+  <path d="M130,210 C160,190 210,186 250,205" stroke="#ff9a3a" stroke-opacity="0.5" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+</svg>

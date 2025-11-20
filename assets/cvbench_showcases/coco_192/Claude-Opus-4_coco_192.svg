@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wood paneled walls -->
+  <rect x="0" y="0" width="800" height="400" fill="#8B6F47"/>
+  <line x1="100" y1="0" x2="100" y2="400" stroke="#7A5C3A" stroke-width="2"/>
+  <line x1="200" y1="0" x2="200" y2="400" stroke="#7A5C3A" stroke-width="2"/>
+  <line x1="300" y1="0" x2="300" y2="400" stroke="#7A5C3A" stroke-width="2"/>
+  <line x1="400" y1="0" x2="400" y2="400" stroke="#7A5C3A" stroke-width="2"/>
+  <line x1="500" y1="0" x2="500" y2="400" stroke="#7A5C3A" stroke-width="2"/>
+  <line x1="600" y1="0" x2="600" y2="400" stroke="#7A5C3A" stroke-width="2"/>
+  <line x1="700" y1="0" x2="700" y2="400" stroke="#7A5C3A" stroke-width="2"/>
+  
+  <!-- Window with trees -->
+  <rect x="20" y="20" width="180" height="150" fill="#87CEEB"/>
+  <rect x="20" y="20" width="180" height="150" fill="none" stroke="#D4A373" stroke-width="8"/>
+  <line x1="110" y1="20" x2="110" y2="170" stroke="#D4A373" stroke-width="4"/>
+  <line x1="20" y1="95" x2="200" y2="95" stroke="#D4A373" stroke-width="4"/>
+  <!-- Trees through window -->
+  <ellipse cx="60" cy="130" rx="25" ry="35" fill="#228B22"/>
+  <rect x="55" y="130" width="10" height="40" fill="#8B4513"/>
+  <ellipse cx="120" cy="120" rx="30" ry="40" fill="#228B22"/>
+  <rect x="115" y="120" width="10" height="50" fill="#8B4513"/>
+  <ellipse cx="170" cy="125" rx="28" ry="38" fill="#228B22"/>
+  <rect x="165" y="125" width="10" height="45" fill="#8B4513"/>
+  
+  <!-- Pictures on wall -->
+  <rect x="250" y="40" width="100" height="80" fill="#4682B4" stroke="#8B6F47" stroke-width="4"/>
+  <rect x="260" y="50" width="80" height="60" fill="#87CEEB"/>
+  <rect x="400" y="40" width="100" height="80" fill="#4682B4" stroke="#8B6F47" stroke-width="4"/>
+  <rect x="410" y="50" width="80" height="60" fill="#5F9EA0"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="400" width="800" height="200" fill="#6B4423"/>
+  
+  <!-- Dark chair on left -->
+  <rect x="50" y="320" width="80" height="100" fill="#3C2415"/>
+  <rect x="45" y="310" width="90" height="15" fill="#3C2415"/>
+  <rect x="50" y="420" width="10" height="40" fill="#3C2415"/>
+  <rect x="120" y="420" width="10" height="40" fill="#3C2415"/>
+  
+  <!-- TV stand -->
+  <rect x="180" y="350" width="150" height="80" fill="#2F1F0F"/>
+  <rect x="185" y="430" width="20" height="30" fill="#2F1F0F"/>
+  <rect x="305" y="430" width="20" height="30" fill="#2F1F0F"/>
+  
+  <!-- TV -->
+  <rect x="200" y="280" width="100" height="70" fill="#333333" stroke="#1A1A1A" stroke-width="3"/>
+  <rect x="210" y="290" width="80" height="50" fill="#000000"/>
+  <rect x="215" y="295" width="70" height="40" fill="#1E90FF"/>
+  
+  <!-- Burgundy couch -->
+  <rect x="400" y="300" width="350" height="150" fill="#722F37"/>
+  <rect x="400" y="280" width="350" height="40" rx="20" fill="#722F37"/>
+  <rect x="380" y="300" width="40" height="120" rx="20" fill="#722F37"/>
+  <rect x="730" y="300" width="40" height="120" rx="20" fill="#722F37"/>
+  
+  <!-- Decorative pillows -->
+  <ellipse cx="450" cy="340" rx="30" ry="25" fill="#D4AF37"/>
+  <ellipse cx="520" cy="340" rx="30" ry="25" fill="#8B4513"/>
+  
+  <!-- Teddy bear -->
+  <ellipse cx="650" cy="360" rx="25" ry="30" fill="#D2B48C"/>
+  <ellipse cx="650" cy="340" rx="18" ry="20" fill="#D2B48C"/>
+  <ellipse cx="635" cy="335" rx="8" ry="8" fill="#D2B48C"/>
+  <ellipse cx="665" cy="335" rx="8" ry="8" fill="#D2B48C"/>
+  <ellipse cx="630" cy="365" rx="12" ry="20" fill="#D2B48C"/>
+  <ellipse cx="670" cy="365" rx="12" ry="20" fill="#D2B48C"/>
+  
+  <!-- Little girl -->
+  <rect x="340" y="380" width="40" height="80" fill="#FF1493"/>
+  <rect x="340" y="460" width="15" height="40" fill="#FDBCB4"/>
+  <rect x="365" y="460" width="15" height="40" fill="#FDBCB4"/>
+  <ellipse cx="360" cy="350" rx="25" ry="30" fill="#FDBCB4"/>
+  <ellipse cx="348" cy="345" rx="5" ry="5" fill="#4169E1"/>
+  <ellipse cx="372" cy="345" rx="5" ry="5" fill="#4169E1"/>
+  <path d="M350 355 Q360 360 370 355" fill="none" stroke="#FF69B4" stroke-width="2"/>
+  <ellipse cx="360" cy="320" rx="30" ry="25" fill="#FFD700"/>
+  <!-- Arms -->
+  <rect x="320" y="390" width="30" height="10" fill="#FDBCB4" transform="rotate(-20 335 395)"/>
+  <rect x="370" y="390" width="30" height="10" fill="#FDBCB4" transform="rotate(20 385 395)"/>
+  
+  <!-- Striped ottoman/footrest -->
+  <rect x="120" y="420" width="120" height="60" fill="#4682B4"/>
+  <rect x="120" y="430" width="120" height="10" fill="#8B7355"/>
+  <rect x="120" y="450" width="120" height="10" fill="#8B7355"/>
+  <rect x="120" y="470" width="120" height="10" fill="#8B7355"/>
+</svg>

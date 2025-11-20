@@ -1,0 +1,183 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa0bf"/>
+      <stop offset="0.45" stop-color="#c3b6a2"/>
+      <stop offset="1" stop-color="#f1c589"/>
+    </linearGradient>
+
+    <radialGradient id="sun" cx="75%" cy="40%" r="45%">
+      <stop offset="0" stop-color="#ffd9a3" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#ffd9a3" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ffd9a3" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#314a66" />
+      <stop offset="1" stop-color="#0f2742" />
+    </linearGradient>
+
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+    <filter id="wideBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <filter id="seaNoise" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.12" numOctaves="2" seed="8" />
+      <feColorMatrix type="saturate" values="0.35"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.9"/>
+      </feComponentTransfer>
+      <feBlend mode="overlay" in2="SourceGraphic"/>
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+
+    <linearGradient id="metalLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="0.45" stop-color="#b7bcc1"/>
+      <stop offset="1" stop-color="#8f96a0"/>
+    </linearGradient>
+
+    <linearGradient id="metalDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#66707b"/>
+      <stop offset="1" stop-color="#3a3f46"/>
+    </linearGradient>
+
+    <radialGradient id="canopyGlass" cx="50%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#e5eef7" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#a9c1d7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#5a6a7c" stop-opacity="0.25"/>
+    </radialGradient>
+
+    <linearGradient id="afterburner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd6a6"/>
+      <stop offset="0.5" stop-color="#ffa54a"/>
+      <stop offset="1" stop-color="#ff7b2e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1400" height="800" fill="url(#sky)"/>
+  <rect x="0" y="0" width="1400" height="800" fill="url(#sun)"/>
+
+  <!-- Ocean horizon -->
+  <g transform="translate(0,450)">
+    <rect x="0" y="0" width="1400" height="350" fill="url(#ocean)"/>
+    <rect x="0" y="0" width="1400" height="350" fill="#ffffff" opacity="0.25" filter="url(#seaNoise)"/>
+  </g>
+
+  <!-- Cloud banks (stylized) -->
+  <g opacity="0.9">
+    <path d="M80,470c60,-60 160,-80 240,-40c40,-30 110,-20 140,15c30,-25 90,-15 120,10c25,-20 80,-20 105,0c28,-18 72,-18 110,-4c48,-40 120,-35 176,-2c38,-24 82,-22 118,6c30,-10 64,-6 88,10c20,25 12,56 -10,70c-290,12 -580,26 -865,36c-45,-20 -55,-72 -22,-101z" fill="#ffffff" opacity="0.55" filter="url(#softBlur)"/>
+    <path d="M260,540c40,-40 120,-50 170,-22c32,-22 70,-16 95,6c26,-16 58,-12 77,6c18,-12 44,-12 64,-3c30,-20 76,-20 110,2c24,-20 72,-22 98,3c22,-8 48,-4 66,10c12,18 8,40 -6,52c-256,10 -514,20 -774,28c-36,-16 -44,-56 -20,-82z" fill="#ffffff" opacity="0.6" filter="url(#softBlur)"/>
+    <path d="M980,520c38,-20 78,-18 106,8c22,-6 48,0 64,14c16,18 12,44 -8,58c-92,4 -184,8 -276,12c-18,-8 -22,-34 -8,-48c34,-36 76,-44 122,-44z" fill="#fff3de" opacity="0.65" filter="url(#wideBlur)"/>
+    <path d="M40,600c64,-48 152,-58 226,-26c52,-30 120,-28 166,4c40,-30 118,-28 162,8c30,-20 70,-20 102,-2c40,-24 96,-24 138,8c30,-22 72,-22 104,4c18,18 18,46 2,64c-300,18 -600,34 -900,44c-46,-20 -54,-72 0,-104z" fill="#ffffff" opacity="0.45" filter="url(#wideBlur)"/>
+  </g>
+
+  <!-- Far jet (upper center-left) -->
+  <g transform="translate(620,180) scale(0.55)">
+    <!-- fuselage + wings silhouette -->
+    <path d="M-140,120
+             c80,-40 180,-70 280,-82
+             c30,-4 46,-30 64,-52
+             c12,-14 22,-22 40,-24
+             c70,-8 140,20 160,34
+             c-18,10 -40,18 -58,24
+             c-12,4 -22,12 -28,22
+             c-8,12 -10,26 -20,36
+             c-8,8 -20,10 -30,12
+             c-90,12 -180,30 -266,52
+             c-20,6 -44,10 -66,2
+             c-24,-10 -28,-44 -16,-74z" fill="url(#metalDark)" opacity="0.9"/>
+    <!-- tails -->
+    <polygon points="230,2 258,-90 290,-86 274,20" fill="url(#metalLight)"/>
+    <polygon points="270,6 298,-78 330,-72 314,22" fill="url(#metalLight)"/>
+    <!-- center body -->
+    <path d="M-40,96 c140,-42 280,-66 420,-74 l-30,30 c-8,8 -20,14 -32,16 c-144,20 -286,44 -430,76 l-14,-18 c-4,-12 8,-22 86,-30z" fill="url(#metalLight)" opacity="0.85"/>
+    <!-- canopy -->
+    <ellipse cx="360" cy="16" rx="74" ry="26" fill="url(#canopyGlass)" stroke="#6a7686" stroke-width="2" opacity="0.9"/>
+    <!-- engines glow -->
+    <ellipse cx="-130" cy="140" rx="16" ry="12" fill="url(#afterburner)" opacity="0.5"/>
+    <ellipse cx="-106" cy="134" rx="14" ry="10" fill="url(#afterburner)" opacity="0.45"/>
+  </g>
+
+  <!-- Lead jet (foreground, right) -->
+  <g transform="translate(220,260) scale(1)">
+    <!-- swept wings platform -->
+    <path d="M40,250
+             c220,-110 480,-170 760,-188
+             c22,-2 42,-16 60,-42
+             c12,-16 30,-28 52,-30
+             c74,-6 150,24 196,48
+             c-28,12 -64,22 -90,30
+             c-18,6 -30,16 -38,30
+             c-14,24 -22,42 -42,54
+             c-18,10 -38,14 -58,16
+             c-212,20 -430,64 -650,124
+             c-18,4 -38,4 -56,-6
+             c-34,-18 -46,-56 -34,-76z" fill="url(#metalDark)" opacity="0.95"/>
+    <!-- main fuselage spine -->
+    <path d="M260,240
+             c210,-66 424,-100 640,-110
+             l-44,42
+             c-10,10 -26,18 -42,20
+             c-214,26 -428,80 -642,142
+             l-18,-26
+             c-4,-14 10,-30 106,-68z" fill="url(#metalLight)"/>
+    <!-- right wing (visible) -->
+    <path d="M520,316
+             c120,-62 238,-104 356,-126
+             c14,-2 28,2 40,10
+             c12,8 16,26 8,40
+             c-6,10 -14,18 -26,24
+             c-120,54 -248,92 -380,114
+             c-18,2 -38,-2 -52,-12
+             c-18,-12 -18,-34 54,-50z" fill="url(#metalLight)" opacity="0.95"/>
+    <!-- left wing (rear sweep) -->
+    <path d="M220,370
+             c110,-70 236,-124 370,-160
+             c14,-4 32,2 44,10
+             c10,6 18,22 12,36
+             c-6,12 -18,22 -32,28
+             c-138,56 -272,114 -404,178
+             c-18,8 -40,8 -58,0
+             c-22,-10 -22,-38 68,-92z" fill="url(#metalLight)" opacity="0.9"/>
+    <!-- twin tails -->
+    <polygon points="820,160 864,38 900,42 878,182" fill="url(#metalLight)"/>
+    <polygon points="866,170 910,52 944,58 926,188" fill="url(#metalLight)"/>
+    <!-- cockpit canopy -->
+    <path d="M980,188
+             c46,-22 130,-18 170,10
+             c18,12 16,40 -2,52
+             c-48,34 -146,28 -188,-6
+             c-16,-14 -10,-44 20,-56z" fill="url(#canopyGlass)" stroke="#6a7686" stroke-width="3"/>
+    <!-- panel hints -->
+    <g stroke="#737b85" stroke-width="2" opacity="0.35" fill="none">
+      <path d="M320,318 l220,-70"/>
+      <path d="M560,246 l-180,58"/>
+      <path d="M740,206 l-220,76"/>
+      <path d="M680,386 l260,-86"/>
+      <path d="M940,300 l-310,100"/>
+    </g>
+    <!-- engine nozzles -->
+    <ellipse cx="170" cy="430" rx="26" ry="20" fill="#33373d"/>
+    <ellipse cx="210" cy="416" rx="24" ry="18" fill="#3b4048"/>
+    <ellipse cx="168" cy="430" rx="14" ry="10" fill="url(#afterburner)" opacity="0.65"/>
+    <ellipse cx="210" cy="416" rx="12" ry="9" fill="url(#afterburner)" opacity="0.6"/>
+  </g>
+
+  <!-- Foreground cloud wisps crossing the lead jet -->
+  <g opacity="0.5" filter="url(#softBlur)">
+    <path d="M560,410c70,-28 140,-26 210,2c40,-16 90,-12 116,10c16,26 4,52 -18,62c-118,10 -236,18 -354,24c-24,-12 -26,-58 46,-98z" fill="#ffffff"/>
+    <path d="M820,480c52,-20 114,-18 156,8c18,24 6,46 -14,54c-92,8 -184,14 -276,18c-16,-10 -20,-38 20,-56c32,-16 74,-22 114,-24z" fill="#fff2df"/>
+  </g>
+
+  <!-- Distant contrails -->
+  <g stroke="#ffffff" stroke-opacity="0.5" stroke-width="3" filter="url(#softBlur)">
+    <path d="M180,200c180,-40 360,-52 540,-36"/>
+    <path d="M1020,170c120,-12 220,0 300,32"/>
+  </g>
+</svg>

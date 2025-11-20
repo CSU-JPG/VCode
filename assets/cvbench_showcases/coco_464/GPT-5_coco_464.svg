@@ -1,0 +1,108 @@
+<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#f5f8fb"/>
+      <stop offset="60%" stop-color="#d9eaf7"/>
+      <stop offset="100%" stop-color="#b9d2e8"/>
+    </radialGradient>
+    <linearGradient id="hillNear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6aa065"/>
+      <stop offset="100%" stop-color="#4e7f42"/>
+    </linearGradient>
+    <linearGradient id="hillFar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7fb26c"/>
+      <stop offset="100%" stop-color="#6b9d58"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a5b33"/>
+      <stop offset="100%" stop-color="#5b3c25"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4c382c"/>
+      <stop offset="100%" stop-color="#2f221a"/>
+    </linearGradient>
+    <radialGradient id="horseDark" cx="40%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#3a3a3f"/>
+      <stop offset="60%" stop-color="#2e2e32"/>
+      <stop offset="100%" stop-color="#1f2022"/>
+    </radialGradient>
+    <radialGradient id="horseLight" cx="40%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#f0e6d0"/>
+      <stop offset="100%" stop-color="#d8c9a5"/>
+    </radialGradient>
+    <radialGradient id="leaf" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#295c2c"/>
+      <stop offset="100%" stop-color="#163a1b"/>
+    </radialGradient>
+    <radialGradient id="finger" cx="40%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f1c4a8"/>
+      <stop offset="100%" stop-color="#d59f84"/>
+    </radialGradient>
+    <linearGradient id="nail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1fb36f"/>
+      <stop offset="100%" stop-color="#0a7c49"/>
+    </linearGradient>
+    <radialGradient id="lensInner" cx="50%" cy="50%" r="50%">
+      <stop offset="80%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.25)"/>
+    </radialGradient>
+    <clipPath id="lens">
+      <circle cx="450" cy="450" r="420"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="900" fill="#000000"/>
+
+  <circle cx="450" cy="450" r="430" fill="none" stroke="#000000" stroke-width="40"/>
+
+  <g clip-path="url(#lens)">
+    <rect x="0" y="0" width="900" height="900" fill="url(#sky)"/>
+
+    <path d="M0,560 C150,520 320,540 520,520 C690,505 800,460 900,420 L900,900 L0,900 Z" fill="url(#hillFar)" opacity="0.9"/>
+    <path d="M0,600 C220,570 420,610 700,590 C790,585 850,560 900,545 L900,900 L0,900 Z" fill="url(#hillNear)" opacity="0.95"/>
+
+    <path d="M340,500 L350,460 C360,440 360,430 360,420 L375,420 L375,590 L340,590 Z" fill="#4a3a2a"/>
+    <g opacity="0.95">
+      <circle cx="380" cy="360" r="120" fill="url(#leaf)"/>
+      <circle cx="470" cy="390" r="110" fill="url(#leaf)"/>
+      <circle cx="320" cy="420" r="95" fill="url(#leaf)"/>
+      <circle cx="420" cy="470" r="90" fill="url(#leaf)"/>
+      <circle cx="520" cy="450" r="80" fill="url(#leaf)"/>
+    </g>
+
+    <path d="M0,640 C180,620 380,660 600,650 C720,646 820,640 900,635 L900,900 L0,900 Z" fill="url(#ground)"/>
+
+    <g stroke="url(#wood)" stroke-width="28" stroke-linecap="square">
+      <line x1="70" y1="560" x2="370" y2="545"/>
+      <line x1="85" y1="610" x2="400" y2="600"/>
+      <line x1="320" y1="560" x2="320" y2="760"/>
+      <line x1="365" y1="570" x2="365" y2="800"/>
+      <line x1="610" y1="600" x2="830" y2="590"/>
+      <line x1="610" y1="650" x2="830" y2="640"/>
+      <line x1="610" y1="600" x2="610" y2="800"/>
+    </g>
+
+    <g>
+      <path d="M300,660 C330,630 345,610 360,595 C390,565 410,555 450,550 C470,547 490,545 520,550 C520,530 515,500 500,480 C485,460 470,450 450,445 C440,430 438,410 442,395 C450,365 460,350 475,335 C500,310 520,300 540,300 C560,300 580,310 590,320 C600,310 605,295 608,280 C612,260 610,245 603,230 C598,220 594,212 592,204 C590,196 595,186 610,182 C620,180 630,186 640,198 C660,222 667,258 658,298 C651,330 635,362 614,386 C618,400 622,420 618,440 C614,462 603,478 588,491 C570,506 548,514 526,516 C522,540 520,564 520,600 C520,660 520,720 520,760 L460,760 C430,760 410,740 380,730 C350,720 330,700 300,660 Z" fill="url(#horseDark)"/>
+      <ellipse cx="575" cy="405" rx="14" ry="10" fill="#111316"/>
+      <ellipse cx="575" cy="405" rx="6" ry="4" fill="#e6e6e6" opacity="0.7"/>
+      <path d="M520,352 C502,362 488,382 480,402 C476,412 474,420 474,428 C492,434 510,447 520,466 C532,462 544,454 554,444 C566,432 578,417 590,397 C586,391 582,384 580,376 C576,360 585,346 596,338 C580,340 560,342 540,346 C534,347 526,349 520,352 Z" fill="#f1f1f1"/>
+      <path d="M520,515 C540,518 555,520 572,515 C585,511 598,502 610,490 C606,510 598,528 586,540 C565,560 540,570 520,572 Z" fill="#1a1a1d" opacity="0.6"/>
+      <ellipse cx="515" cy="520" rx="10" ry="6" fill="#1a1a1a"/>
+    </g>
+
+    <ellipse cx="760" cy="560" rx="105" ry="120" fill="url(#horseLight)"/>
+    <path d="M690,580 C720,560 760,555 815,565" stroke="#cdbb93" stroke-width="24" stroke-linecap="round" opacity="0.7"/>
+
+    <g>
+      <path d="M110,760 C125,720 145,700 175,695 C205,690 230,705 252,740 C220,755 190,765 150,770 C135,772 120,768 110,760 Z" fill="url(#finger)"/>
+      <path d="M105,770 C130,795 165,800 205,792 C235,786 260,773 280,758 C268,740 255,730 240,726 C210,718 175,730 140,748 C126,755 115,763 105,770 Z" fill="url(#finger)" opacity="0.85"/>
+      <path d="M125,770 C140,772 156,770 168,764 C175,760 182,752 186,744 C166,738 147,742 132,753 C128,756 127,763 125,770 Z" fill="url(#nail)"/>
+    </g>
+
+    <circle cx="450" cy="450" r="420" fill="url(#lensInner)"/>
+  </g>
+
+  <circle cx="450" cy="450" r="430" fill="none" stroke="#0b0b0b" stroke-width="20" opacity="0.9"/>
+  <circle cx="450" cy="450" r="415" fill="none" stroke="#2a2a2a" stroke-width="4" opacity="0.35"/>
+</svg>

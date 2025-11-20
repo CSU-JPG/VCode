@@ -1,0 +1,157 @@
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with aged paper effect -->
+  <rect width="480" height="270" fill="#D4C5B9"/>
+  
+  <!-- Paper texture pattern -->
+  <defs>
+    <pattern id="paperTexture" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#D4C5B9"/>
+      <circle cx="25" cy="25" r="0.8" fill="#C4B5A9" opacity="0.2"/>
+      <circle cx="75" cy="75" r="0.8" fill="#C4B5A9" opacity="0.2"/>
+      <circle cx="50" cy="50" r="0.5" fill="#B4A599" opacity="0.3"/>
+      <circle cx="30" cy="70" r="0.6" fill="#C4B5A9" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="270" fill="url(#paperTexture)" opacity="0.6"/>
+  
+  <!-- Red seal in top right -->
+  <rect x="440" y="10" width="30" height="30" fill="#B22222" opacity="0.9"/>
+  <text x="455" y="30" font-family="serif" font-size="12" fill="#ffffff" text-anchor="middle">印</text>
+  
+  <!-- Left group - Three figures with proper details -->
+  
+  <!-- Person 1 (kneeling/seated figure) -->
+  <g transform="translate(20, 120)">
+    <!-- Body in kneeling position -->
+    <path d="M 10,20 C 8,25 5,30 5,40 L 3,50 C 3,55 4,60 8,65 L 12,70 C 15,72 18,72 20,70 L 22,65 C 22,60 20,55 18,50 L 15,40 C 15,35 12,25 10,20 Z" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <!-- Head -->
+    <ellipse cx="15" cy="15" rx="5" ry="6" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <!-- Hair/hat -->
+    <path d="M 10,10 C 10,8 15,6 20,8 L 20,12 C 18,10 12,10 10,12 Z" fill="#2C2C2C"/>
+    <!-- Facial features -->
+    <circle cx="13" cy="15" r="0.5" fill="#2C2C2C"/>
+    <circle cx="17" cy="15" r="0.5" fill="#2C2C2C"/>
+    <!-- Kneeling legs -->
+    <path d="M 8,65 C 5,68 3,72 5,75 L 15,75 C 18,72 20,68 18,65" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Person 2 (middle figure) -->
+  <g transform="translate(80, 100)">
+    <!-- Robe with proper folds -->
+    <path d="M 15,20 C 12,22 10,28 10,35 L 8,45 C 8,55 9,65 10,75 L 8,85 C 8,90 10,95 15,98 L 20,98 C 25,95 27,90 27,85 L 25,75 C 26,65 27,55 27,45 L 25,35 C 25,28 23,22 20,20 Z" fill="#D4A373" stroke="#8B6F47" stroke-width="0.5"/>
+    <!-- Inner garment -->
+    <rect x="12" y="40" width="11" height="20" fill="#8B4513" opacity="0.6"/>
+    <!-- Head -->
+    <ellipse cx="17.5" cy="12" rx="5" ry="6" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <!-- Hat -->
+    <path d="M 12,8 L 12,5 L 23,5 L 23,8 C 20,6 15,6 12,8 Z" fill="#2C2C2C"/>
+    <!-- Facial features -->
+    <circle cx="15" cy="12" r="0.5" fill="#2C2C2C"/>
+    <circle cx="20" cy="12" r="0.5" fill="#2C2C2C"/>
+    <!-- Robe details -->
+    <path d="M 10,35 C 12,37 15,38 18,37 M 10,50 C 12,52 15,53 18,52" stroke="#8B6F47" stroke-width="0.3" fill="none"/>
+  </g>
+  
+  <!-- Person 3 (figure in red robe) -->
+  <g transform="translate(140, 90)">
+    <!-- Flowing red robe -->
+    <path d="M 20,15 C 15,18 12,25 10,35 L 8,50 C 7,65 6,80 8,95 L 10,105 C 12,108 18,110 25,110 L 30,108 C 32,105 32,100 30,95 L 32,80 C 33,65 34,50 32,35 C 30,25 27,18 22,15 Z" fill="#B22222" stroke="#8B0000" stroke-width="0.5"/>
+    <!-- Head -->
+    <ellipse cx="21" cy="8" rx="5" ry="6" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <!-- Beard -->
+    <path d="M 18,12 C 18,14 19,16 21,16 C 23,16 24,14 24,12" fill="#2C2C2C" stroke="none"/>
+    <!-- Hat -->
+    <path d="M 16,4 L 16,0 L 26,0 L 26,4 C 24,2 18,2 16,4 Z" fill="#2C2C2C"/>
+    <!-- Facial features -->
+    <circle cx="19" cy="8" r="0.5" fill="#2C2C2C"/>
+    <circle cx="23" cy="8" r="0.5" fill="#2C2C2C"/>
+    <!-- Robe decorations -->
+    <path d="M 18,25 L 18,30 M 21,25 L 21,30 M 24,25 L 24,30" stroke="#2C2C2C" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Right group - Ceremonial canopy with procession -->
+  
+  <!-- Canopy structure with double peaks -->
+  <g transform="translate(250, 40)">
+    <!-- Support poles with decorative bands -->
+    <rect x="30" y="20" width="4" height="140" fill="#654321" stroke="#4A3C28" stroke-width="0.5"/>
+    <rect x="166" y="20" width="4" height="140" fill="#654321" stroke="#4A3C28" stroke-width="0.5"/>
+    <!-- Decorative bands on poles -->
+    <rect x="30" y="40" width="4" height="5" fill="#DC143C" opacity="0.7"/>
+    <rect x="30" y="80" width="4" height="5" fill="#DC143C" opacity="0.7"/>
+    <rect x="166" y="40" width="4" height="5" fill="#DC143C" opacity="0.7"/>
+    <rect x="166" y="80" width="4" height="5" fill="#DC143C" opacity="0.7"/>
+    
+    <!-- Double-peaked canopy -->
+    <path d="M 20,20 C 40,0 60,0 80,10 C 100,0 120,0 140,10 C 160,0 180,20 180,20 Z" fill="#5F7A5F" stroke="#4A5D4A" stroke-width="2"/>
+    <!-- Inner canopy detail -->
+    <path d="M 30,20 C 50,5 70,5 90,12 C 110,5 130,5 150,12 C 170,5 170,20 170,20 Z" fill="#6B8E23" stroke="#556B2F" stroke-width="1" opacity="0.8"/>
+    
+    <!-- Decorative finials -->
+    <circle cx="80" cy="8" r="4" fill="#DC143C"/>
+    <circle cx="120" cy="8" r="4" fill="#DC143C"/>
+    
+    <!-- Hanging tassels -->
+    <path d="M 32,20 C 30,25 28,30 25,35 M 32,20 C 32,25 32,30 32,35 M 32,20 C 34,25 36,30 39,35" stroke="#8B4513" stroke-width="1" fill="none"/>
+    <path d="M 168,20 C 166,25 164,30 161,35 M 168,20 C 168,25 168,30 168,35 M 168,20 C 170,25 172,30 175,35" stroke="#8B4513" stroke-width="1" fill="none"/>
+    
+    <!-- Additional decorative elements -->
+    <circle cx="25" cy="35" r="2" fill="#8B4513" opacity="0.6"/>
+    <circle cx="32" cy="35" r="2" fill="#8B4513" opacity="0.6"/>
+    <circle cx="39" cy="35" r="2" fill="#8B4513" opacity="0.6"/>
+    <circle cx="161" cy="35" r="2" fill="#8B4513" opacity="0.6"/>
+    <circle cx="168" cy="35" r="2" fill="#8B4513" opacity="0.6"/>
+    <circle cx="175" cy="35" r="2" fill="#8B4513" opacity="0.6"/>
+  </g>
+  
+  <!-- Court ladies under canopy with varied heights and details -->
+  
+  <!-- Lady 1 -->
+  <g transform="translate(290, 110)">
+    <path d="M 10,20 C 8,22 6,28 6,35 L 5,50 C 5,60 6,70 8,80 L 10,85 C 12,87 16,88 20,87 L 22,85 C 23,80 24,70 24,60 L 24,50 C 24,40 23,30 22,25 C 20,22 15,20 10,20 Z" fill="#FFB6C1" stroke="#D87093" stroke-width="0.5"/>
+    <ellipse cx="15" cy="12" rx="4" ry="5" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <path d="M 11,8 C 11,6 15,4 19,6 L 19,10 C 17,8 13,8 11,10 Z" fill="#2C2C2C"/>
+    <circle cx="13" cy="12" r="0.5" fill="#2C2C2C"/>
+    <circle cx="17" cy="12" r="0.5" fill="#2C2C2C"/>
+  </g>
+  
+  <!-- Lady 2 -->
+  <g transform="translate(320, 105)">
+    <path d="M 10,25 C 8,27 6,33 6,40 L 5,55 C 5,65 6,75 8,85 L 10,90 C 12,92 16,93 20,92 L 22,90 C 23,85 24,75 24,65 L 24,55 C 24,45 23,35 22,30 C 20,27 15,25 10,25 Z" fill="#FFD700" stroke="#DAA520" stroke-width="0.5"/>
+    <ellipse cx="15" cy="17" rx="4" ry="5" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <path d="M 11,13 C 11,11 15,9 19,11 L 19,15 C 17,13 13,13 11,15 Z" fill="#2C2C2C"/>
+    <circle cx="13" cy="17" r="0.5" fill="#2C2C2C"/>
+    <circle cx="17" cy="17" r="0.5" fill="#2C2C2C"/>
+    <!-- Hair ornament -->
+    <circle cx="15" cy="10" r="1.5" fill="#DC143C" opacity="0.7"/>
+  </g>
+  
+  <!-- Lady 3 -->
+  <g transform="translate(350, 108)">
+    <path d="M 10,22 C 8,24 6,30 6,37 L 5,52 C 5,62 6,72 8,82 L 10,87 C 12,89 16,90 20,89 L 22,87 C 23,82 24,72 24,62 L 24,52 C 24,42 23,32 22,27 C 20,24 15,22 10,22 Z" fill="#FF6347" stroke="#CD5C5C" stroke-width="0.5"/>
+    <ellipse cx="15" cy="14" rx="4" ry="5" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <path d="M 11,10 C 11,8 15,6 19,8 L 19,12 C 17,10 13,10 11,12 Z" fill="#2C2C2C"/>
+    <circle cx="13" cy="14" r="0.5" fill="#2C2C2C"/>
+    <circle cx="17" cy="14" r="0.5" fill="#2C2C2C"/>
+  </g>
+  
+  <!-- Lady 4 -->
+  <g transform="translate(380, 112)">
+    <path d="M 8,18 C 6,20 5,26 5,33 L 4,48 C 4,58 5,68 7,78 L 9,83 C 11,85 14,86 17,85 L 19,83 C 20,78 20,68 20,58 L 20,48 C 20,38 19,28 18,23 C 16,20 12,18 8,18 Z" fill="#FFC0CB" stroke="#D87093" stroke-width="0.5"/>
+    <ellipse cx="12" cy="10" rx="3.5" ry="4.5" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <path d="M 9,6 C 9,4 12,3 15,4 L 15,8 C 13,6 11,6 9,8 Z" fill="#2C2C2C"/>
+    <circle cx="10" cy="10" r="0.5" fill="#2C2C2C"/>
+    <circle cx="14" cy="10" r="0.5" fill="#2C2C2C"/>
+  </g>
+  
+  <!-- Lady 5 -->
+  <g transform="translate(405, 110)">
+    <path d="M 8,20 C 6,22 5,28 5,35 L 4,50 C 4,60 5,70 7,80 L 9,85 C 11,87 14,88 17,87 L 19,85 C 20,80 20,70 20,60 L 20,50 C 20,40 19,30 18,25 C 16,22 12,20 8,20 Z" fill="#FFB6C1" stroke="#D87093" stroke-width="0.5"/>
+    <ellipse cx="12" cy="12" rx="3.5" ry="4.5" fill="#F5F5DC" stroke="#8B7355" stroke-width="0.5"/>
+    <path d="M 9,8 C 9,6 12,5 15,6 L 15,10 C 13,8 11,8 9,10 Z" fill="#2C2C2C"/>
+    <circle cx="10" cy="12" r="0.5" fill="#2C2C2C"/>
+    <circle cx="14" cy="12" r="0.5" fill="#2C2C2C"/>
+    <!-- Hair ornament -->
+    <circle cx="12" cy="5" r="1.5" fill="#FFD700" opacity="0.7"/>
+  </g>
+</svg>

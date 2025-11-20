@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="fabric" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#e8d4b0"/>
+      <circle cx="20" cy="20" r="0.5" fill="#d4b896" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#fabric)"/>
+  
+  <!-- Left side figures -->
+  <g transform="translate(100, 250)">
+    <!-- First figure in white -->
+    <ellipse cx="0" cy="-30" rx="15" ry="20" fill="#2a2a2a"/>
+    <rect x="-20" y="-10" width="40" height="80" fill="#f5f5f0"/>
+    <rect x="-25" y="70" width="50" height="60" fill="#f5f5f0"/>
+    <line x1="-20" y1="20" x2="-40" y2="50" stroke="#f5f5f0" stroke-width="8"/>
+    <line x1="20" y1="20" x2="40" y2="50" stroke="#f5f5f0" stroke-width="8"/>
+  </g>
+  
+  <g transform="translate(200, 250)">
+    <!-- Second figure in patterned robe -->
+    <ellipse cx="0" cy="-30" rx="15" ry="20" fill="#2a2a2a"/>
+    <rect x="-20" y="-10" width="40" height="80" fill="#d4a574"/>
+    <rect x="-25" y="70" width="50" height="60" fill="#d4a574"/>
+    <circle cx="-10" cy="20" r="2" fill="#8b6f3d"/>
+    <circle cx="10" cy="20" r="2" fill="#8b6f3d"/>
+    <circle cx="0" cy="40" r="2" fill="#8b6f3d"/>
+  </g>
+  
+  <g transform="translate(300, 250)">
+    <!-- Third figure in red -->
+    <ellipse cx="0" cy="-30" rx="18" ry="25" fill="#2a2a2a"/>
+    <rect x="-30" y="-10" width="60" height="100" fill="#d63638"/>
+    <rect x="-35" y="90" width="70" height="70" fill="#d63638"/>
+    <rect x="-15" y="-35" width="30" height="15" fill="#2a2a2a"/>
+  </g>
+  
+  <!-- Right side group -->
+  <g transform="translate(700, 200)">
+    <!-- Canopy -->
+    <path d="M -50 50 L 0 -50 L 50 50" fill="none" stroke="#4a7c59" stroke-width="8"/>
+    <path d="M -50 50 L -50 60 L 50 60 L 50 50" fill="#4a7c59"/>
+    <rect x="-2" y="-50" width="4" height="100" fill="#8b4513"/>
+    
+    <!-- Flag -->
+    <rect x="48" y="-40" width="40" height="30" fill="#d63638"/>
+    
+    <!-- Multiple figures in pink/coral robes -->
+    <g transform="translate(-40, 100)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="#2a2a2a"/>
+      <rect x="-15" y="18" width="30" height="60" fill="#f4a5a5"/>
+      <rect x="-18" y="78" width="36" height="50" fill="#f4a5a5"/>
+    </g>
+    
+    <g transform="translate(0, 100)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="#2a2a2a"/>
+      <rect x="-15" y="18" width="30" height="60" fill="#f4a5a5"/>
+      <rect x="-18" y="78" width="36" height="50" fill="#f4a5a5"/>
+    </g>
+    
+    <g transform="translate(40, 100)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="#2a2a2a"/>
+      <rect x="-15" y="18" width="30" height="60" fill="#f4a5a5"/>
+      <rect x="-18" y="78" width="36" height="50" fill="#f4a5a5"/>
+    </g>
+    
+    <g transform="translate(-20, 140)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="#2a2a2a"/>
+      <rect x="-15" y="18" width="30" height="60" fill="#f4a5a5"/>
+      <rect x="-18" y="78" width="36" height="50" fill="#f4a5a5"/>
+    </g>
+    
+    <g transform="translate(20, 140)">
+      <ellipse cx="0" cy="0" rx="12" ry="18" fill="#2a2a2a"/>
+      <rect x="-15" y="18" width="30" height="60" fill="#f4a5a5"/>
+      <rect x="-18" y="78" width="36" height="50" fill="#f4a5a5"/>
+    </g>
+  </g>
+  
+  <!-- Seals -->
+  <rect x="50" y="50" width="30" height="30" fill="#d63638" opacity="0.3"/>
+  <rect x="450" y="80" width="30" height="30" fill="#d63638" opacity="0.3"/>
+  
+  <!-- Calligraphy marks -->
+  <text x="1100" y="100" font-family="serif" font-size="24" fill="#2a2a2a" opacity="0.6">墨</text>
+  <text x="1100" y="130" font-family="serif" font-size="24" fill="#2a2a2a" opacity="0.6">書</text>
+</svg>

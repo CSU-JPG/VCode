@@ -1,0 +1,61 @@
+<svg viewBox="0 0 700 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="650" fill="#f5f5f5"/>
+  
+  <!-- Bed context -->
+  <!-- Pillows -->
+  <rect x="50" y="180" width="600" height="120" fill="#f8f8f8" rx="20"/>
+  <rect x="80" y="160" width="540" height="100" fill="#ffffff" rx="15"/>
+  <!-- Pillow creases -->
+  <path d="M 100,200 Q 350,195 600,200" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+  <path d="M 120,230 Q 350,225 580,230" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+  
+  <!-- Sheet/blanket -->
+  <path d="M 40,300 Q 350,280 660,300 L 660,500 L 40,500 Z" fill="#fafafa"/>
+  <path d="M 40,300 Q 350,285 660,300" stroke="#e8e8e8" stroke-width="2" fill="none"/>
+  
+  <!-- Text elements -->
+  <text x="30" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#000000">Me: I'll do it at 8</text>
+  <text x="30" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#000000">Time: 8.05</text>
+  <text x="30" y="150" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#000000">Me: looks like I gotta wait till 9 now</text>
+  
+  <!-- Shadow under Kermit -->
+  <ellipse cx="350" cy="380" rx="100" ry="25" fill="#00000015"/>
+  
+  <!-- Kermit the Frog (lying down) -->
+  <g transform="translate(350,340) rotate(-25) translate(-90,-140)">
+    <!-- Body -->
+    <ellipse cx="90" cy="140" rx="75" ry="110" fill="#8bc34a">
+      <animate attributeName="ry" values="110;112;110" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Arms (relaxed at sides) -->
+    <ellipse cx="35" cy="160" rx="25" ry="60" fill="#7cb342" transform="rotate(-45 35 160)"/>
+    <ellipse cx="145" cy="160" rx="25" ry="60" fill="#7cb342" transform="rotate(45 145 160)"/>
+    
+    <!-- Head -->
+    <ellipse cx="90" cy="60" rx="55" ry="45" fill="#8bc34a"/>
+    
+    <!-- Collar/neck area -->
+    <ellipse cx="90" cy="95" rx="35" ry="15" fill="#7cb342"/>
+    
+    <!-- Eyes -->
+    <circle cx="70" cy="50" r="11" fill="#ffffff"/>
+    <circle cx="110" cy="50" r="11" fill="#ffffff"/>
+    <circle cx="70" cy="50" r="7" fill="#000000"/>
+    <circle cx="110" cy="50" r="7" fill="#000000"/>
+    <!-- Eyelids (relaxed) -->
+    <path d="M 58,45 Q 70,40 82,45" fill="#7cb342"/>
+    <path d="M 98,45 Q 110,40 122,45" fill="#7cb342"/>
+    
+    <!-- Mouth (content smile) -->
+    <path d="M 55,70 Q 90,82 125,70" fill="#e53935" stroke="#d32f2f" stroke-width="2"/>
+    <path d="M 55,70 Q 90,75 125,70" fill="#000000" opacity="0.2"/>
+    
+    <!-- Collar line -->
+    <path d="M 55,90 Q 90,95 125,90" fill="none" stroke="#4caf50" stroke-width="3"/>
+  </g>
+  
+  <!-- Watermark -->
+  <text x="520" y="630" font-family="Arial, sans-serif" font-size="14" fill="#cccccc">boredpanda.com</text>
+</svg>

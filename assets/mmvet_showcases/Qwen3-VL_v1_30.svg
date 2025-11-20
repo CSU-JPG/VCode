@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a6fa5"/>
+      <stop offset="100%" stop-color="#1e3c5f"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.85" cy="0.1" r="0.3">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="1000" height="700" fill="url(#skyGradient)"/>
+  <rect width="1000" height="700" fill="url(#sunGlow)" opacity="0.7"/>
+  
+  <!-- Clouds -->
+  <g opacity="0.8">
+    <path d="M0,0 Q100,30 200,10 T400,50 Q500,100 600,80 T800,100 Q900,50 1000,80 V700 H0 Z" fill="#f5deb3" stroke="#d2b48c" stroke-width="1"/>
+    <path d="M0,100 Q150,150 300,120 T500,180 Q650,150 800,180 T950,150 1000,180 V700 H0 Z" fill="#e6e6fa" stroke="#d8bfd8" stroke-width="0.5"/>
+    <path d="M0,200 Q200,250 400,220 T600,280 Q800,250 1000,280 V700 H0 Z" fill="#f0e68c" stroke="#daa520" stroke-width="0.5"/>
+    <path d="M0,300 Q250,350 500,320 T750,380 Q1000,350 1000,380 V700 H0 Z" fill="#fffacd" stroke="#ffa500" stroke-width="0.3"/>
+    <path d="M0,400 Q300,450 600,420 T900,480 Q1000,450 1000,480 V700 H0 Z" fill="#fff8dc" stroke="#ffdead" stroke-width="0.2"/>
+    <path d="M0,500 Q350,550 700,520 T1000,580 V700 H0 Z" fill="#f5f5dc" stroke="#f0e68c" stroke-width="0.1"/>
+  </g>
+  
+  <!-- Fighter Jet 1 (Foreground) -->
+  <g transform="translate(50,250) scale(0.8)">
+    <!-- Fuselage -->
+    <path d="M100,150 L900,100 L980,150 L900,200 L100,250 Z" fill="#a9a9b0" stroke="#808088" stroke-width="1"/>
+    
+    <!-- Wings -->
+    <path d="M100,150 L300,120 L500,100 L700,120 L900,150 L700,200 L500,220 L300,200 Z" fill="#a9a9b0" stroke="#808088" stroke-width="1"/>
+    
+    <!-- Tail fins -->
+    <path d="M100,150 L150,100 L200,150 L150,200 Z" fill="#696970" stroke="#404048" stroke-width="1"/>
+    <path d="M200,150 L250,100 L300,150 L250,200 Z" fill="#696970" stroke="#404048" stroke-width="1"/>
+    
+    <!-- Cockpit -->
+    <path d="M750,100 L850,110 L880,130 L850,150 L750,140 Z" fill="#808088" stroke="#606068" stroke-width="0.5"/>
+    
+    <!-- Engines -->
+    <path d="M120,200 L150,180 L180,200 L150,220 Z" fill="#505058" stroke="#303038" stroke-width="0.5"/>
+    <path d="M220,200 L250,180 L280,200 L250,220 Z" fill="#505058" stroke="#303038" stroke-width="0.5"/>
+    
+    <!-- Markings -->
+    <text x="800" y="130" font-family="Arial" font-size="20" fill="black" text-anchor="middle">101</text>
+    <text x="450" y="220" font-family="Arial" font-size="15" fill="black">NAVY</text>
+    <text x="430" y="240" font-family="Arial" font-size="12" fill="black">VF-41</text>
+    <text x="250" y="180" font-family="Arial" font-size="10" fill="black">USS ENTERPRISE</text>
+    
+    <!-- Squadron emblem on tail -->
+    <path d="M200,150 L250,100 L300,150 L250,200 Z" fill="#696970" stroke="#404048" stroke-width="1"/>
+    <text x="250" y="140" font-family="Arial" font-size="15" fill="white" text-anchor="middle">A BLACK</text>
+    <text x="250" y="160" font-family="Arial" font-size="25" fill="white" text-anchor="middle">41</text>
+    <text x="250" y="180" font-family="Arial" font-size="15" fill="white" text-anchor="middle">ACES A</text>
+    
+    <!-- Star insignia -->
+    <path d="M780,160 L785,170 L795,170 L787,175 L790,185 L780,178 L770,185 L773,175 L765,170 L775,170 Z" fill="white" stroke="black" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Fighter Jet 2 (Background) -->
+  <g transform="translate(350,80) scale(0.5)">
+    <!-- Fuselage -->
+    <path d="M100,150 L900,100 L980,150 L900,200 L100,250 Z" fill="#a9a9b0" stroke="#808088" stroke-width="1"/>
+    
+    <!-- Wings -->
+    <path d="M100,150 L300,120 L500,100 L700,120 L900,150 L700,200 L500,220 L300,200 Z" fill="#a9a9b0" stroke="#808088" stroke-width="1"/>
+    
+    <!-- Tail fins -->
+    <path d="M100,150 L150,100 L200,150 L150,200 Z" fill="#696970" stroke="#404048" stroke-width="1"/>
+    <path d="M200,150 L250,100 L300,150 L250,200 Z" fill="#696970" stroke="#404048" stroke-width="1"/>
+    
+    <!-- Cockpit -->
+    <path d="M750,100 L850,110 L880,130 L850,150 L750,140 Z" fill="#808088" stroke="#606068" stroke-width="0.5"/>
+    
+    <!-- Engines -->
+    <path d="M120,200 L150,180 L180,200 L150,220 Z" fill="#505058" stroke="#303038" stroke-width="0.5"/>
+    <path d="M220,200 L250,180 L280,200 L250,220 Z" fill="#505058" stroke="#303038" stroke-width="0.5"/>
+    
+    <!-- Markings -->
+    <text x="800" y="130" font-family="Arial" font-size="15" fill="black" text-anchor="middle">102</text>
+    <text x="450" y="220" font-family="Arial" font-size="10" fill="black">NAVY</text>
+    <text x="430" y="240" font-family="Arial" font-size="8" fill="black">VF-41</text>
+    
+    <!-- Squadron emblem on tail -->
+    <path d="M200,150 L250,100 L300,150 L250,200 Z" fill="#696970" stroke="#404048" stroke-width="1"/>
+    <text x="250" y="140" font-family="Arial" font-size="10" fill="white" text-anchor="middle">A BLACK</text>
+    <text x="250" y="160" font-family="Arial" font-size="18" fill="white" text-anchor="middle">41</text>
+    <text x="250" y="180" font-family="Arial" font-size="10" fill="white" text-anchor="middle">ACES A</text>
+    
+    <!-- Star insignia -->
+    <path d="M780,160 L785,170 L795,170 L787,175 L790,185 L780,178 L770,185 L773,175 L765,170 L775,170 Z" fill="white" stroke="black" stroke-width="0.3"/>
+  </g>
+</svg>

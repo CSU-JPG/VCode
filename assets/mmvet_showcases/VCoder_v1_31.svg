@@ -1,0 +1,112 @@
+<svg viewBox="0 0 557 418" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect x="0" y="0" width="557" height="180" fill="#6B9BD2"/>
+  
+  <!-- Mountain/hillside with darker, more realistic colors -->
+  <path d="M 0,60 Q 150,40 300,80 T 557,50 L 557,320 Q 400,280 200,300 L 0,280 Z" fill="#4A4A4A"/>
+  <path d="M 0,100 Q 200,90 400,120 L 557,100 L 557,320 L 400,300 L 0,280 Z" fill="#3A3A3A" opacity="0.8"/>
+  
+  <!-- Mountain texture overlay -->
+  <g opacity="0.3">
+    <path d="M 50,120 L 80,140 L 90,130 L 120,150 L 130,140 Z" fill="#2A2A2A"/>
+    <path d="M 200,100 L 230,120 L 240,110 L 270,130 L 280,120 Z" fill="#2A2A2A"/>
+    <path d="M 350,90 L 380,110 L 390,100 L 420,120 L 430,110 Z" fill="#2A2A2A"/>
+  </g>
+  
+  <!-- Road surface with gradient -->
+  <defs>
+    <linearGradient id="roadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5A5A5A"/>
+      <stop offset="100%" stop-color="#4A4A4A"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="280" width="557" height="100" fill="url(#roadGradient)"/>
+  
+  <!-- Road shoulder/sidewalk -->
+  <rect x="0" y="370" width="557" height="10" fill="#6B6B6B"/>
+  
+  <!-- Road yellow line -->
+  <rect x="240" y="310" width="80" height="4" fill="#FFD700"/>
+  
+  <!-- Roadside barrier/curb -->
+  <rect x="0" y="380" width="557" height="38" fill="#696969"/>
+  
+  <!-- Stone wall with texture pattern -->
+  <defs>
+    <pattern id="stoneWall" x="0" y="0" width="30" height="20" patternUnits="userSpaceOnUse">
+      <rect width="30" height="20" fill="#7A7A7A"/>
+      <line x1="0" y1="10" x2="30" y2="10" stroke="#606060" stroke-width="1"/>
+      <line x1="15" y1="0" x2="15" y2="10" stroke="#606060" stroke-width="1"/>
+      <line x1="15" y1="10" x2="15" y2="20" stroke="#606060" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <path d="M 400,180 L 557,160 L 557,280 L 400,280 Z" fill="url(#stoneWall)"/>
+  
+  <!-- Main person (foreground) with cap -->
+  <g id="main-person">
+    <!-- Body and clothing -->
+    <path d="M 96,97 L 80,102 L 72,109 L 65,125 L 70,143 L 69,151 L 46,170 L 41,182 L 40,234 L 47,273 L 42,291 L 40,318 L 46,343 L 49,417 L 117,417 L 117,407 L 122,403 L 119,397 L 120,391 L 127,371 L 129,347 L 128,314 L 135,299 L 138,299 L 141,293 L 135,278 L 135,256 L 138,254 L 148,259 L 160,249 L 162,244 L 161,238 L 157,233 L 132,228 L 129,225 L 125,217 L 124,207 L 103,168 L 104,164 L 114,155 L 118,146 L 126,138 L 128,131 L 122,127 L 119,112 L 114,104 L 101,97 Z" fill="#FFFFFF"/>
+    
+    <!-- Face area -->
+    <ellipse cx="95" cy="125" rx="15" ry="18" fill="#F4C2A1"/>
+    
+    <!-- Cap/hat with visor -->
+    <ellipse cx="95" cy="108" rx="22" ry="12" fill="#8B7355"/>
+    <path d="M 73,108 Q 95,100 117,108 L 115,115 Q 95,112 75,115 Z" fill="#6B5741"/>
+    <path d="M 70,112 L 120,112 L 118,108 L 72,108 Z" fill="#5A4A3A"/>
+    
+    <!-- Sunglasses -->
+    <rect x="80" y="120" width="30" height="8" fill="#1A1A1A"/>
+    
+    <!-- Blue jeans -->
+    <path d="M 47,276 L 42,293 L 40,320 L 46,343 L 49,417 L 117,417 L 118,395 L 126,371 L 127,312 L 102,308 L 96,300 L 73,287 L 52,282 L 49,276 Z" fill="#4169E1"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="65" cy="415" rx="20" ry="8" fill="#654321"/>
+    <ellipse cx="105" cy="415" rx="20" ry="8" fill="#654321"/>
+  </g>
+  
+  <!-- Cyclist in background with more detail -->
+  <g id="cyclist">
+    <!-- Person on bike -->
+    <path d="M 221,176 L 218,181 L 218,182 L 216,184 L 216,186 L 215,187 L 215,190 L 214,191 L 214,192 L 215,193 L 215,199 L 216,200 L 216,213 L 218,211 L 218,205 L 219,204 L 219,200 L 222,195 L 226,195 L 230,199 L 230,201 L 232,201 L 232,200 L 233,199 L 232,198 L 232,193 L 231,192 L 231,187 L 226,178 L 226,177 L 225,177 L 224,176 Z" fill="#333333"/>
+    
+    <!-- Bicycle frame -->
+    <path d="M 222,195 L 218,202 L 218,207 L 217,208 L 217,214 L 216,216 L 217,217 L 217,222 L 218,223 L 218,225 L 222,225 L 224,227 L 227,227 L 229,224 L 229,216 L 228,215 L 228,211 L 227,210 L 227,207 L 226,206 L 226,197 L 224,195 Z" fill="#1A1A1A"/>
+    
+    <!-- Bicycle wheels -->
+    <circle cx="218" cy="220" r="8" fill="none" stroke="#333333" stroke-width="2"/>
+    <circle cx="228" cy="220" r="8" fill="none" stroke="#333333" stroke-width="2"/>
+    
+    <!-- Spokes -->
+    <line x1="218" y1="212" x2="218" y2="228" stroke="#666" stroke-width="1"/>
+    <line x1="210" y1="220" x2="226" y2="220" stroke="#666" stroke-width="1"/>
+    <line x1="228" y1="212" x2="228" y2="228" stroke="#666" stroke-width="1"/>
+    <line x1="220" y1="220" x2="236" y2="220" stroke="#666" stroke-width="1"/>
+  </g>
+  
+  <!-- White car with improved detail -->
+  <g id="car">
+    <!-- Car body -->
+    <path d="M 253,178 L 246,180 L 241,185 L 238,190 L 237,198 L 238,199 L 238,206 L 241,210 L 245,209 L 246,207 L 251,207 L 255,211 L 258,211 L 261,209 L 283,209 L 286,211 L 290,211 L 293,208 L 293,204 L 294,203 L 294,197 L 292,193 L 281,182 L 277,179 L 274,179 L 273,178 Z" fill="#F0F0F0"/>
+    
+    <!-- Car windows -->
+    <path d="M 255,185 L 252,188 L 252,195 L 270,195 L 272,188 L 270,185 Z" fill="#4A90E2" opacity="0.7"/>
+    <path d="M 274,185 L 272,188 L 272,195 L 285,195 L 287,188 L 285,185 Z" fill="#4A90E2" opacity="0.7"/>
+    
+    <!-- Car lights -->
+    <ellipse cx="242" cy="200" rx="4" ry="3" fill="#FFE4B5"/>
+    <ellipse cx="292" cy="200" rx="4" ry="3" fill="#FF4444"/>
+    
+    <!-- Car wheels -->
+    <circle cx="248" cy="208" r="5" fill="#2A2A2A"/>
+    <circle cx="286" cy="208" r="5" fill="#2A2A2A"/>
+    <circle cx="248" cy="208" r="3" fill="#606060"/>
+    <circle cx="286" cy="208" r="3" fill="#606060"/>
+  </g>
+  
+  <!-- Add subtle shadows -->
+  <ellipse cx="95" cy="417" rx="30" ry="5" fill="#000000" opacity="0.2"/>
+  <ellipse cx="223" cy="227" rx="15" ry="3" fill="#000000" opacity="0.15"/>
+  <ellipse cx="265" cy="212" rx="35" ry="4" fill="#000000" opacity="0.15"/>
+</svg>

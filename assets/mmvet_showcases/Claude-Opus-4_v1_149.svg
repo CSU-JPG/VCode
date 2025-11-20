@@ -1,0 +1,27 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="300" y="80" font-family="Arial, sans-serif" font-size="72" font-weight="normal" text-anchor="middle" fill="black">Studying online</text>
+  
+  <!-- Section labels -->
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="black">Zoom</text>
+  <text x="450" y="160" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="black">Teacher</text>
+  <text x="150" y="380" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="black">Wifi company</text>
+  <text x="450" y="380" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="black">Students</text>
+  
+  <!-- Image placeholders -->
+  <!-- Zoom - Person with money -->
+  <rect x="50" y="180" width="200" height="150" fill="#f0f0f0" stroke="#ccc" stroke-width="2"/>
+  <text x="150" y="255" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">[Person with money]</text>
+  
+  <!-- Teacher - Person relaxing -->
+  <rect x="350" y="180" width="200" height="150" fill="#f0f0f0" stroke="#ccc" stroke-width="2"/>
+  <text x="450" y="255" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">[Person relaxing]</text>
+  
+  <!-- Wifi company - Person with money -->
+  <rect x="50" y="400" width="200" height="150" fill="#f0f0f0" stroke="#ccc" stroke-width="2"/>
+  <text x="150" y="475" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">[Person with money]</text>
+  
+  <!-- Students - Joker -->
+  <rect x="350" y="400" width="200" height="150" fill="#f0f0f0" stroke="#ccc" stroke-width="2"/>
+  <text x="450" y="475" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">[Joker character]</text>
+</svg>

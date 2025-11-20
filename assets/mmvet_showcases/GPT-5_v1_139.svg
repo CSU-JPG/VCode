@@ -1,0 +1,168 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#66a84f"/>
+      <stop offset="1" stop-color="#2f7e3a"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7b8088"/>
+      <stop offset="1" stop-color="#5f6670"/>
+    </linearGradient>
+    <linearGradient id="asphalt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#545a62"/>
+      <stop offset="1" stop-color="#2b3036"/>
+    </linearGradient>
+    <linearGradient id="sidewalk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7d7cf"/>
+      <stop offset="1" stop-color="#b9b9b0"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="rgba(0,0,0,0.25)"/>
+      <stop offset="1" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <linearGradient id="carSilver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfd4d8"/>
+      <stop offset="1" stop-color="#9aa2a8"/>
+    </linearGradient>
+    <linearGradient id="carDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f3a41"/>
+      <stop offset="1" stop-color="#12171b"/>
+    </linearGradient>
+    <linearGradient id="tree" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b7d2f"/>
+      <stop offset="1" stop-color="#1f4f1d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Lawn -->
+  <rect x="0" y="0" width="1400" height="800" fill="url(#grass)"/>
+
+  <!-- Curved driveway band -->
+  <path d="M0,180 C350,130 800,120 1400,220 L1400,320 C940,210 440,220 0,270 Z" fill="url(#asphalt)" opacity="0.9"/>
+
+  <!-- Street (right side) -->
+  <path d="M820,90 L1400,220 L1400,760 L900,640 L850,650 L820,90 Z" fill="url(#road)"/>
+
+  <!-- Sidewalk main vertical -->
+  <path d="M560,70 L610,380 L540,800 L420,800 L490,380 L440,70 Z" fill="url(#sidewalk)"/>
+
+  <!-- Sidewalk horizontal band -->
+  <path d="M0,330 L330,330 L600,330 L600,390 L0,390 Z" fill="url(#sidewalk)" opacity="0.9"/>
+
+  <!-- Highlight patch on grass -->
+  <ellipse cx="520" cy="460" rx="170" ry="120" fill="#cfe07a" opacity="0.55"/>
+
+  <!-- Trees/bushes left -->
+  <g opacity="0.95">
+    <ellipse cx="80" cy="80" rx="110" ry="70" fill="url(#tree)"/>
+    <ellipse cx="170" cy="120" rx="90" ry="60" fill="url(#tree)"/>
+    <ellipse cx="250" cy="70" rx="70" ry="50" fill="url(#tree)"/>
+  </g>
+
+  <!-- Cars parked left/center background -->
+  <g>
+    <rect x="300" y="40" rx="10" ry="10" width="200" height="60" fill="url(#carSilver)" stroke="#808890"/>
+    <rect x="520" y="35" rx="10" ry="10" width="110" height="45" fill="url(#carSilver)" stroke="#808890"/>
+    <rect x="640" y="30" rx="9" ry="9" width="120" height="48" fill="url(#carSilver)" stroke="#808890"/>
+    <rect x="770" y="60" rx="18" ry="18" width="140" height="70" fill="url(#carDark)"/>
+  </g>
+
+  <!-- Foreground cars on the street (right) -->
+  <g>
+    <rect x="1080" y="120" rx="22" ry="22" width="180" height="80" fill="url(#carDark)"/>
+    <rect x="1170" y="220" rx="18" ry="18" width="220" height="120" fill="url(#carSilver)"/>
+    <rect x="1220" y="400" rx="18" ry="18" width="180" height="140" fill="url(#carSilver)"/>
+  </g>
+
+  <!-- Left driveway car -->
+  <g>
+    <rect x="10" y="220" rx="14" ry="14" width="300" height="120" fill="url(#carSilver)" stroke="#8f969b"/>
+    <rect x="40" y="245" width="80" height="50" rx="6" ry="6" fill="#1b2126"/>
+    <rect x="150" y="245" width="80" height="50" rx="6" ry="6" fill="#1b2126"/>
+  </g>
+
+  <!-- People group front-right (adult + child) -->
+  <g transform="translate(780,520)">
+    <ellipse cx="40" cy="120" rx="70" ry="24" fill="rgba(0,0,0,0.25)"/>
+    <path d="M0,180 L20,40 C30,10 80,10 90,40 L110,180 Z" fill="#2b2b2d"/>
+    <circle cx="55" cy="10" r="16" fill="#caa88a"/>
+    <rect x="30" y="70" width="50" height="18" fill="#3c3f46"/>
+    <path d="M25,180 L38,120 L50,120 L42,180 Z" fill="#1d1e21"/>
+    <path d="M70,180 L72,120 L86,120 L96,180 Z" fill="#1d1e21"/>
+    <g transform="translate(130,30) scale(0.75)">
+      <ellipse cx="20" cy="200" rx="40" ry="14" fill="rgba(0,0,0,0.22)"/>
+      <path d="M0,220 L10,90 C14,70 50,70 56,90 L66,220 Z" fill="#1e2227"/>
+      <circle cx="33" cy="76" r="12" fill="#d8b79b"/>
+      <path d="M10,140 L56,140 L56,160 L10,160 Z" fill="#2a2e34"/>
+      <path d="M8,220 L18,170 L28,170 L26,220 Z" fill="#0f1216"/>
+      <path d="M46,220 L48,170 L58,170 L64,220 Z" fill="#0f1216"/>
+    </g>
+  </g>
+
+  <!-- Central procession group on sidewalk -->
+  <g transform="translate(470,300)">
+    <ellipse cx="80" cy="260" rx="120" ry="30" fill="rgba(0,0,0,0.2)"/>
+    <g transform="translate(0,0)">
+      <path d="M10,260 L30,120 C36,90 76,90 84,120 L100,260 Z" fill="#1e1f22"/>
+      <circle cx="56" cy="98" r="14" fill="#d7b49a"/>
+      <rect x="38" y="160" width="36" height="16" fill="#2b3137"/>
+    </g>
+    <g transform="translate(110,-10)">
+      <path d="M10,270 L24,150 C30,120 60,120 70,150 L86,270 Z" fill="#1a1b1f"/>
+      <circle cx="48" cy="135" r="13" fill="#cfab8d"/>
+      <rect x="34" y="190" width="30" height="14" fill="#343a41"/>
+    </g>
+    <g transform="translate(200,0)">
+      <path d="M12,260 L26,140 C34,110 70,110 80,140 L92,260 Z" fill="#222427"/>
+      <circle cx="52" cy="125" r="13" fill="#d1b195"/>
+      <rect x="38" y="185" width="30" height="14" fill="#2f353b"/>
+    </g>
+  </g>
+
+  <!-- People group on right sidewalk carrying trays -->
+  <g transform="translate(860,220)">
+    <ellipse cx="90" cy="210" rx="110" ry="26" fill="rgba(0,0,0,0.18)"/>
+    <path d="M20,220 L38,120 C46,90 88,90 98,120 L116,220 Z" fill="#191b1f"/>
+    <circle cx="68" cy="106" r="12" fill="#d2b19a"/>
+    <rect x="48" y="150" width="40" height="14" fill="#3a3f46"/>
+    <rect x="50" y="140" width="60" height="16" rx="4" ry="4" fill="#d7cdbd"/>
+  </g>
+
+  <!-- Small procession in the distance -->
+  <g transform="translate(680,120) scale(0.6)">
+    <ellipse cx="100" cy="220" rx="120" ry="26" fill="rgba(0,0,0,0.12)"/>
+    <path d="M20,230 L34,140 C40,118 82,118 92,140 L108,230 Z" fill="#1b1d21"/>
+    <circle cx="66" cy="130" r="11" fill="#d2b49b"/>
+    <g transform="translate(110,-10)">
+      <path d="M12,240 L28,150 C36,130 72,130 82,150 L98,240 Z" fill="#23262a"/>
+      <circle cx="56" cy="140" r="11" fill="#d2b49b"/>
+    </g>
+  </g>
+
+  <!-- Light patch on lawn (diagonal) -->
+  <path d="M360,410 C470,330 720,360 820,430 C760,480 560,520 430,500 Z" fill="#e6ee9b" opacity="0.4"/>
+
+  <!-- Distant houses silhouettes -->
+  <g opacity="0.35" fill="#3a3f45">
+    <path d="M900,40 L960,20 L1000,40 L1000,80 L900,80 Z"/>
+    <path d="M1030,35 L1070,22 L1110,35 L1110,78 L1030,78 Z"/>
+    <path d="M1140,38 L1180,26 L1220,38 L1220,76 L1140,76 Z"/>
+  </g>
+
+  <!-- Curb edge line -->
+  <path d="M980,130 C1160,200 1340,270 1400,320" fill="none" stroke="#cfcfc7" stroke-width="4" opacity="0.8"/>
+
+  <!-- Misc parked cars silhouettes along background curve -->
+  <g opacity="0.85">
+    <rect x="870" y="110" rx="14" ry="14" width="120" height="60" fill="url(#carDark)"/>
+    <rect x="960" y="160" rx="10" ry="10" width="100" height="54" fill="url(#carSilver)"/>
+    <rect x="1040" y="180" rx="10" ry="10" width="90" height="48" fill="url(#carDark)"/>
+  </g>
+
+  <!-- Bush beds -->
+  <ellipse cx="210" cy="210" rx="70" ry="28" fill="#6b342e" opacity="0.8"/>
+  <ellipse cx="220" cy="210" rx="48" ry="20" fill="#8f543e" opacity="0.6"/>
+
+  <!-- Shadows and vignette -->
+  <rect x="-50" y="-50" width="1500" height="900" fill="url(#shadow)" opacity="0.35"/>
+</svg>

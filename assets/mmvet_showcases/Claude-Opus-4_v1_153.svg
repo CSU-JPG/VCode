@@ -1,0 +1,101 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE4B5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DEB887;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <path d="M 50 80 Q 80 60, 120 80 T 180 80 Q 200 100, 180 120 Q 150 130, 100 120 Q 50 110, 50 80" fill="#FFF8DC" opacity="0.8"/>
+  <path d="M 600 120 Q 630 100, 670 120 T 730 120 Q 750 140, 730 160 Q 700 170, 650 160 Q 600 150, 600 120" fill="#FFF8DC" opacity="0.8"/>
+  
+  <!-- Ground -->
+  <rect y="500" width="800" height="300" fill="url(#groundGradient)"/>
+  
+  <!-- Grass -->
+  <rect y="500" width="800" height="200" fill="#90EE90"/>
+  
+  <!-- Grass blades -->
+  <g stroke="#228B22" stroke-width="2" fill="none">
+    <path d="M 100 680 Q 102 670, 100 660"/>
+    <path d="M 150 690 Q 152 680, 150 670"/>
+    <path d="M 200 685 Q 202 675, 200 665"/>
+    <path d="M 250 695 Q 252 685, 250 675"/>
+    <path d="M 300 680 Q 302 670, 300 660"/>
+    <path d="M 350 690 Q 352 680, 350 670"/>
+    <path d="M 400 685 Q 402 675, 400 665"/>
+    <path d="M 450 695 Q 452 685, 450 675"/>
+    <path d="M 500 680 Q 502 670, 500 660"/>
+    <path d="M 550 690 Q 552 680, 550 670"/>
+  </g>
+  
+  <!-- Acacia tree -->
+  <rect x="650" y="400" width="20" height="100" fill="#8B4513"/>
+  <ellipse cx="660" cy="380" rx="80" ry="40" fill="#228B22"/>
+  
+  <!-- Rhinoceros -->
+  <ellipse cx="250" cy="450" rx="120" ry="80" fill="#C0C0C0"/>
+  <ellipse cx="180" cy="430" rx="50" ry="60" fill="#C0C0C0"/>
+  <rect x="200" y="480" width="25" height="60" fill="#C0C0C0"/>
+  <rect x="280" y="480" width="25" height="60" fill="#C0C0C0"/>
+  
+  <!-- Horn -->
+  <path d="M 150 410 L 140 380 L 145 380 Z" fill="#F5F5DC"/>
+  
+  <!-- Eye -->
+  <circle cx="160" cy="420" r="8" fill="white"/>
+  <circle cx="158" cy="422" r="4" fill="black"/>
+  
+  <!-- Ear -->
+  <ellipse cx="175" cy="400" rx="15" ry="25" fill="#C0C0C0" transform="rotate(-30 175 400)"/>
+  
+  <!-- Paint palette on belly -->
+  <ellipse cx="240" cy="460" rx="30" ry="25" fill="#FFE4B5"/>
+  <circle cx="230" cy="455" r="5" fill="#FF0000"/>
+  <circle cx="245" cy="455" r="5" fill="#0000FF"/>
+  <circle cx="235" cy="465" r="5" fill="#FFFF00"/>
+  <circle cx="250" cy="465" r="5" fill="#00FF00"/>
+  
+  <!-- Easel -->
+  <line x1="350" y1="400" x2="320" y2="540" stroke="#8B4513" stroke-width="8"/>
+  <line x1="350" y1="400" x2="380" y2="540" stroke="#8B4513" stroke-width="8"/>
+  <line x1="335" y1="450" x2="365" y2="450" stroke="#8B4513" stroke-width="6"/>
+  
+  <!-- Canvas -->
+  <rect x="320" y="350" width="60" height="80" fill="white" stroke="#8B4513" stroke-width="4"/>
+  <rect x="325" y="355" width="50" height="70" fill="#FFE4B5"/>
+  <ellipse cx="350" cy="380" rx="15" ry="10" fill="#228B22"/>
+  <rect x="345" y="380" width="10" height="20" fill="#8B4513"/>
+  
+  <!-- Paintings on ground -->
+  <rect x="150" y="550" width="40" height="50" fill="white" stroke="#8B4513" stroke-width="2" transform="rotate(-10 170 575)"/>
+  <rect x="420" y="520" width="40" height="50" fill="white" stroke="#8B4513" stroke-width="2" transform="rotate(15 440 545)"/>
+  <rect x="480" y="540" width="40" height="50" fill="white" stroke="#8B4513" stroke-width="2" transform="rotate(-5 500 565)"/>
+  
+  <!-- Paint bucket -->
+  <ellipse cx="280" cy="540" rx="20" ry="5" fill="#696969"/>
+  <rect x="260" y="520" width="40" height="20" fill="#696969"/>
+  <ellipse cx="280" cy="520" rx="20" ry="5" fill="#808080"/>
+  
+  <!-- Brushes in bucket -->
+  <rect x="275" y="505" width="3" height="20" fill="#8B4513"/>
+  <rect x="280" y="508" width="3" height="18" fill="#8B4513"/>
+  <rect x="285" y="506" width="3" height="19" fill="#8B4513"/>
+  
+  <!-- Text background -->
+  <rect y="650" width="800" height="150" fill="black"/>
+  
+  <!-- Text -->
+  <text x="400" y="720" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">You see the world</text>
+  <text x="400" y="770" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">as you are!</text>
+</svg>

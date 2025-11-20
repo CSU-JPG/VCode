@@ -1,0 +1,7 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="500" cy="500" r="490" fill="black"/>
+  <g transform="translate(100,10) scale(0.8)">
+    <rect x="0" y="0" width="800" height="980" fill="white"/>
+    <image href="https://i.imgur.com/7GQeRqA.jpg" x="0" y="0" width="800" height="980"/>
+  </g>
+</svg>

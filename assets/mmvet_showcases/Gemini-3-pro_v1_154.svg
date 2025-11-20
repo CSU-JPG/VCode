@@ -1,0 +1,134 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for gradients/filters -->
+  <defs>
+    <linearGradient id="blondeHairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fceabb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8b500;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#ffe0bd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcd94;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- LEFT PANEL: The Women -->
+  <g id="left-panel">
+    <!-- Background -->
+    <rect x="0" y="0" width="400" height="400" fill="#1a1a2e" />
+    <!-- Abstract Foliage -->
+    <path d="M0,0 L400,0 L400,400 L0,400 Z" fill="#051405" />
+    <circle cx="50" cy="50" r="80" fill="#0f2e0f" opacity="0.6" />
+    <circle cx="350" cy="80" r="60" fill="#0f2e0f" opacity="0.6" />
+
+    <!-- The Brunette (Friend) -->
+    <g transform="translate(220, 50)">
+      <!-- Hair -->
+      <path d="M20,0 Q90,10 100,150 L-40,150 Q-30,10 20,0" fill="#3e2723" />
+      <!-- Face -->
+      <ellipse cx="30" cy="60" rx="45" ry="55" fill="#d4a373" />
+      <!-- Facial Features -->
+      <path d="M10,55 Q30,65 50,55" stroke="#8d5524" stroke-width="2" fill="none" /> <!-- Mouth -->
+      <circle cx="15" cy="45" r="3" fill="#3e2723" />
+      <circle cx="45" cy="45" r="3" fill="#3e2723" />
+      <path d="M5,40 Q20,35 30,40" stroke="#3e2723" stroke-width="2" fill="none" />
+      <path d="M40,40 Q55,35 65,40" stroke="#3e2723" stroke-width="2" fill="none" />
+    </g>
+
+    <!-- The Blonde (Taylor) -->
+    <g transform="translate(20, 80)">
+      <!-- Body/Shirt -->
+      <path d="M50,250 Q100,350 200,350 L0,350 Z" fill="#111" />
+      
+      <!-- Hair Back -->
+      <path d="M40,20 Q-20,100 10,250 L180,250 Q200,100 140,20 Z" fill="url(#blondeHairGrad)" />
+
+      <!-- Face Shape -->
+      <path d="M60,50 Q150,50 160,140 Q160,230 110,250 Q60,230 60,140 Z" fill="url(#skinGrad)" />
+
+      <!-- Eyes (Crying/Squinting) -->
+      <path d="M80,110 Q100,120 120,110" stroke="#8d5524" stroke-width="3" fill="none" />
+      <path d="M130,110 Q150,120 170,110" stroke="#8d5524" stroke-width="3" fill="none" />
+      <!-- Tears -->
+      <path d="M90,120 Q95,140 90,160" stroke="#e0ac9d" stroke-width="2" opacity="0.6" fill="none"/>
+
+      <!-- Mouth (Yelling) -->
+      <path d="M100,150 Q140,150 150,170 Q140,210 110,210 Q80,210 90,170 Z" fill="#a53b3b" />
+      <path d="M100,150 Q140,150 150,170 L90,170 Z" fill="#fff" opacity="0.8" /> <!-- Top Teeth -->
+      <path d="M95,205 Q125,205 140,195" stroke="#fff" stroke-width="4" fill="none" opacity="0.8" /> <!-- Bottom Teeth -->
+
+      <!-- Hair Front -->
+      <path d="M60,50 Q40,150 30,280 L60,280 Q80,150 90,50" fill="url(#blondeHairGrad)" />
+      <path d="M160,50 Q180,150 170,200" stroke="url(#blondeHairGrad)" stroke-width="15" fill="none" />
+
+      <!-- Pointing Arm -->
+      <g transform="rotate(-10, 150, 250)">
+        <!-- Arm -->
+        <path d="M140,240 L360,220 L360,260 L140,290 Z" fill="url(#skinGrad)" />
+        <!-- Hand/Finger -->
+        <path d="M360,220 L420,230 L420,250 L360,260 Z" fill="url(#skinGrad)" /> <!-- Pointing finger -->
+        <circle cx="360" cy="250" r="25" fill="url(#skinGrad)" /> <!-- Knuckles -->
+        <path d="M360,260 Q370,280 350,290" stroke="#e0ac9d" stroke-width="2" fill="none" />
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: The Cat -->
+  <g id="right-panel" transform="translate(400, 0)">
+    <!-- Background -->
+    <rect x="0" y="0" width="400" height="400" fill="#2d2d2d" />
+    
+    <!-- Chair Back -->
+    <path d="M50,100 L350,100 L330,300 L70,300 Z" fill="#1a1a1a" />
+    
+    <!-- The Cat -->
+    <g transform="translate(200, 220)">
+       <!-- Body -->
+       <ellipse cx="0" cy="80" rx="90" ry="70" fill="#f0f0f0" />
+       
+       <!-- Head -->
+       <path d="M-70,0 Q-75,-50 -40,-70 L-50,-90 L-10,-75 Q0,-80 10,-75 L50,-90 L40,-70 Q75,-50 70,0 Q70,50 0,50 Q-70,50 -70,0 Z" fill="#fdfdfd" />
+       
+       <!-- Ears Inner -->
+       <path d="M-40,-70 L-50,-90 L-20,-75 Z" fill="#e0ac9d" />
+       <path d="M40,-70 L50,-90 L20,-75 Z" fill="#e0ac9d" />
+
+       <!-- Face Features -->
+       <!-- Eyes (Confused/Squinty) -->
+       <path d="M-45,-15 Q-25,-25 -5,-15" stroke="#333" stroke-width="2" fill="none" />
+       <path d="M5,-15 Q25,-25 45,-15" stroke="#333" stroke-width="2" fill="none" />
+       <circle cx="-25" cy="-12" r="2" fill="#000" />
+       <circle cx="25" cy="-12" r="2" fill="#000" />
+       
+       <!-- Nose -->
+       <path d="M-5,5 L5,5 L0,10 Z" fill="#ffb7b2" />
+       
+       <!-- Mouth (Slightly open/grimace) -->
+       <path d="M-10,15 Q0,20 10,15" stroke="#333" stroke-width="1.5" fill="none" />
+    </g>
+
+    <!-- Table -->
+    <rect x="0" y="300" width="400" height="100" fill="#111" />
+    <rect x="0" y="300" width="400" height="5" fill="#444" /> <!-- Table Edge -->
+
+    <!-- Glass -->
+    <path d="M20,200 L60,200 L55,350 L25,350 Z" fill="#fff" opacity="0.1" stroke="#fff" stroke-width="1" stroke-opacity="0.3"/>
+    
+    <!-- Plate -->
+    <ellipse cx="200" cy="320" rx="140" ry="30" fill="#eee" />
+    <ellipse cx="200" cy="320" rx="120" ry="25" fill="#ddd" />
+
+    <!-- Salad (Green chaos) -->
+    <g transform="translate(200, 315)">
+      <path d="M-80,0 Q-60,-20 -40,5 T0,-5 T40,5 T80,0" stroke="#2e7d32" stroke-width="15" stroke-linecap="round" fill="none" />
+      <path d="M-60,5 Q-30,-15 0,10 T60,0" stroke="#4caf50" stroke-width="12" stroke-linecap="round" fill="none" />
+      <circle cx="-20" cy="-5" r="8" fill="#1b5e20" />
+      <circle cx="30" cy="0" r="6" fill="#66bb6a" />
+      <path d="M-50,0 L-30,-10 L-40,10 Z" fill="#388e3c" />
+      <path d="M20,-5 L40,-15 L30,5 Z" fill="#2e7d32" />
+    </g>
+  </g>
+
+  <!-- Center Divider Line -->
+  <line x1="400" y1="0" x2="400" y2="400" stroke="#fff" stroke-width="2" />
+
+</svg>

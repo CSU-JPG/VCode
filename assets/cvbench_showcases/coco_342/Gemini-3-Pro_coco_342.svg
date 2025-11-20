@@ -1,0 +1,92 @@
+<svg viewBox="0 0 500 333" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Environment -->
+  <rect width="500" height="333" fill="#e6e6e6"/>
+  
+  <!-- Windows and Greenery -->
+  <rect x="200" y="0" width="300" height="200" fill="#d9dcd9"/>
+  <path d="M200,0 L250,0 L250,180 L200,180 Z" fill="#5c5c5c" opacity="0.1"/> <!-- Window frame -->
+  <path d="M350,0 L400,0 L400,180 L350,180 Z" fill="#5c5c5c" opacity="0.1"/>
+  <!-- Abstract Greenery outside -->
+  <path d="M210,50 Q250,20 300,60 T400,50 T500,80 L500,180 L210,180 Z" fill="#8ba870" opacity="0.8"/>
+  
+  <!-- Interior Elements (Booths/Background Seating) -->
+  <rect x="0" y="160" width="500" height="60" fill="#5a4a42"/>
+  <rect x="0" y="0" width="180" height="333" fill="#999" opacity="0.2"/> <!-- Left blurred wall -->
+
+  <!-- Background Person (Target of Red Box) -->
+  <!-- Simplified blurred figure sitting at a table in the background -->
+  <g filter="url(#blur)">
+    <circle cx="95" cy="110" r="15" fill="#667"/>
+    <path d="M75,130 Q95,125 115,130 L120,180 L60,180 Z" fill="#778"/>
+    <rect x="50" y="170" width="100" height="10" fill="#654"/> <!-- Bg Table -->
+  </g>
+  
+  <!-- Red Bounding Box -->
+  <rect x="42" y="80" width="82" height="122" fill="none" stroke="#ff0000" stroke-width="4"/>
+
+  <!-- Foreground Table Surface -->
+  <path d="M-50,250 L600,230 L600,350 L-50,350 Z" fill="#a67c52"/>
+
+  <!-- Laptop -->
+  <!-- Screen Back -->
+  <path d="M60,160 L200,180 L190,280 L50,250 Z" fill="#4a4a4a"/>
+  <path d="M62,162 L198,182 L189,278 L52,252 Z" fill="#333"/> <!-- Bezel/screen dark -->
+  <!-- Keyboard Base (side view) -->
+  <path d="M190,280 L200,180 L300,200 L250,290 Z" fill="#222"/>
+  
+  <!-- Foreground Man -->
+  <g transform="translate(20, 0)">
+    <!-- Body/Sweater -->
+    <path d="M230,110 Q280,100 330,110 L380,150 L380,333 L220,333 L200,200 Z" fill="#b0b0b0"/>
+    
+    <!-- Shirt Collar -->
+    <path d="M285,115 L295,130 L320,120 L310,105 Z" fill="#a33"/>
+    <path d="M290,118 L300,125 L315,118" stroke="white" stroke-width="2" fill="none"/>
+    
+    <!-- Neck -->
+    <path d="M280,80 L280,120 L320,115 L320,80 Z" fill="#dcbfa6"/>
+    
+    <!-- Head -->
+    <path d="M250,50 Q250,110 290,115 Q330,110 330,60 Q330,10 290,10 Q250,10 250,50" fill="#dcbfa6"/>
+    
+    <!-- Hair -->
+    <path d="M245,50 Q250,10 290,5 Q335,5 340,50 L335,60 Q320,20 290,20 Q260,20 250,60 Z" fill="#1a1a1a"/>
+    <path d="M245,50 Q240,70 250,80 L255,70 Z" fill="#1a1a1a"/> <!-- Sideburns -->
+    
+    <!-- Facial Features -->
+    <path d="M255,65 Q265,60 275,65" stroke="#1a1a1a" stroke-width="2" fill="none"/> <!-- Eyebrow -->
+    <circle cx="268" cy="72" r="2" fill="#1a1a1a"/> <!-- Eye -->
+    <path d="M270,72 L260,85 L275,85" fill="#dcbfa6" stroke="#c8ab95" stroke-width="1"/> <!-- Nose -->
+    <path d="M270,98 Q280,102 290,98" stroke="#1a1a1a" stroke-width="1.5" fill="none"/> <!-- Mouth -->
+    <path d="M260,90 Q270,115 300,110 L300,100" fill="#1a1a1a" opacity="0.8"/> <!-- Beard -->
+    
+    <!-- Ear &amp; Headset -->
+    <ellipse cx="320" cy="65" rx="8" ry="12" fill="#dcbfa6"/>
+    <path d="M322,60 L310,85 L300,90" stroke="#888" stroke-width="3" fill="none"/> <!-- Boom mic -->
+    <rect x="315" y="55" width="10" height="20" rx="3" fill="#333"/> <!-- Earpiece -->
+
+    <!-- Arms and Hands -->
+    <path d="M330,130 Q380,150 380,220 L320,250" stroke="#b0b0b0" stroke-width="35" fill="none" stroke-linecap="round"/>
+    <ellipse cx="270" cy="260" rx="20" ry="15" fill="#dcbfa6"/> <!-- Hand on laptop -->
+  </g>
+  
+  <!-- Table Accessories -->
+  <!-- Smartphone -->
+  <rect x="280" y="280" width="70" height="40" rx="5" fill="#111" transform="rotate(-10 315 300)"/>
+  <rect x="285" y="285" width="60" height="30" rx="2" fill="#333" transform="rotate(-10 315 300)"/>
+  
+  <!-- Coffee Cup -->
+  <g transform="translate(150, 300)">
+    <ellipse cx="0" cy="0" rx="30" ry="8" fill="#ddd"/> <!-- Saucer -->
+    <path d="M-20,-5 L20,-5 L15,20 L-15,20 Z" fill="#fff"/> <!-- Cup Body -->
+    <ellipse cx="0" cy="-5" rx="20" ry="5" fill="#f0f0f0"/> <!-- Cup Rim -->
+    <path d="M15,0 Q25,0 25,10 Q25,15 18,15" stroke="#fff" stroke-width="3" fill="none"/> <!-- Handle -->
+  </g>
+  
+  <!-- Blur Filter Definition -->
+  <defs>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </filter>
+  </defs>
+</svg>

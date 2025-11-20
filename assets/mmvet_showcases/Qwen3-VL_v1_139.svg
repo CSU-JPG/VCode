@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="700" fill="#4a6b3c"/>
+  <rect x="300" y="50" width="300" height="650" fill="#8b8b8b"/>
+  <rect x="600" y="50" width="400" height="650" fill="#8b8b8b"/>
+  
+  <!-- Cars -->
+  <rect x="0" y="160" width="250" height="90" rx="10" fill="#d4d4d4"/>
+  <circle cx="135" cy="325" r="20" fill="#666"/>
+  <rect x="770" y="200" width="250" height="80" rx="10" fill="#888"/>
+  <circle cx="800" cy="420" r="20" fill="#666"/>
+  <rect x="850" y="330" width="250" height="90" rx="10" fill="#ccc"/>
+  <circle cx="875" cy="650" r="20" fill="#666"/>
+  <rect x="675" y="120" width="150" height="60" rx="10" fill="#4a7f5f"/>
+  <rect x="610" y="50" width="150" height="60" rx="10" fill="#555"/>
+  <rect x="530" y="50" width="120" height="50" rx="10" fill="#666"/>
+  <rect x="430" y="30" width="120" height="50" rx="10" fill="#aaa"/>
+  <rect x="250" y="30" width="150" height="50" rx="10" fill="#ccc"/>
+  <rect x="825" y="10" width="120" height="40" rx="10" fill="#ddd"/>
+  <rect x="870" y="0" width="150" height="60" rx="10" fill="#bbb"/>
+  <rect x="710" y="60" width="150" height="50" rx="10" fill="#555"/>
+  
+  <!-- People -->
+  <!-- Front group -->
+  <rect x="560" y="540" width="70" height="160" fill="#222"/>
+  <rect x="500" y="670" width="60" height="30" fill="#333"/>
+  <rect x="510" y="600" width="50" height="70" fill="#222"/>
+  <rect x="520" y="600" width="30" height="20" fill="#fff"/>
+  <rect x="560" y="540" width="70" height="160" fill="#333"/>
+  <rect x="580" y="560" width="50" height="100" fill="#222"/>
+  <rect x="590" y="560" width="30" height="20" fill="#fff"/>
+  
+  <!-- Middle group -->
+  <rect x="440" y="360" width="60" height="120" fill="#222"/>
+  <rect x="450" y="360" width="40" height="30" fill="#333"/>
+  <rect x="455" y="380" width="30" height="20" fill="#fff"/>
+  <rect x="380" y="390" width="60" height="120" fill="#222"/>
+  <rect x="390" y="390" width="40" height="30" fill="#333"/>
+  <rect x="395" y="410" width="30" height="20" fill="#fff"/>
+  <rect x="510" y="410" width="60" height="120" fill="#222"/>
+  <rect x="520" y="410" width="40" height="30" fill="#333"/>
+  <rect x="525" y="430" width="30" height="20" fill="#fff"/>
+  
+  <!-- Back group -->
+  <rect x="525" y="170" width="40" height="80" fill="#222"/>
+  <rect x="530" y="170" width="30" height="20" fill="#333"/>
+  <rect x="535" y="185" width="20" height="15" fill="#fff"/>
+  <rect x="560" y="200" width="40" height="80" fill="#222"/>
+  <rect x="565" y="200" width="30" height="20" fill="#333"/>
+  <rect x="570" y="215" width="20" height="15" fill="#fff"/>
+  <rect x="605" y="180" width="50" height="100" fill="#222"/>
+  <rect x="615" y="180" width="30" height="20" fill="#333"/>
+  <rect x="620" y="195" width="20" height="15" fill="#fff"/>
+  
+  <!-- Additional people -->
+  <rect x="490" y="210" width="40" height="80" fill="#222"/>
+  <rect x="495" y="210" width="30" height="20" fill="#333"/>
+  <rect x="500" y="225" width="20" height="15" fill="#fff"/>
+  <rect x="520" y="110" width="50" height="100" fill="#222"/>
+  <rect x="530" y="110" width="30" height="20" fill="#333"/>
+  <rect x="535" y="125" width="20" height="15" fill="#fff"/>
+  <rect x="740" y="120" width="40" height="80" fill="#222"/>
+  <rect x="745" y="120" width="30" height="20" fill="#333"/>
+  <rect x="750" y="135" width="20" height="15" fill="#fff"/>
+  <rect x="770" y="120" width="40" height="80" fill="#222"/>
+  <rect x="775" y="120" width="30" height="20" fill="#333"/>
+  <rect x="780" y="135" width="20" height="15" fill="#fff"/>
+</svg>

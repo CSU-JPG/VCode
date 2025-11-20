@@ -1,0 +1,91 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f0"/>
+  
+  <!-- Windows and exterior -->
+  <rect x="0" y="0" width="800" height="250" fill="#e8e8e0"/>
+  <rect x="50" y="30" width="120" height="180" fill="#a8d8a8" opacity="0.7"/>
+  <rect x="200" y="30" width="120" height="180" fill="#a8d8a8" opacity="0.7"/>
+  <rect x="350" y="30" width="120" height="180" fill="#a8d8a8" opacity="0.7"/>
+  <rect x="500" y="30" width="120" height="180" fill="#a8d8a8" opacity="0.7"/>
+  <rect x="650" y="30" width="120" height="180" fill="#a8d8a8" opacity="0.7"/>
+  
+  <!-- Building in background -->
+  <rect x="100" y="50" width="80" height="120" fill="#e8c8c8"/>
+  <rect x="300" y="40" width="100" height="130" fill="#e8c8c8"/>
+  <rect x="550" y="60" width="90" height="110" fill="#e8c8c8"/>
+  
+  <!-- Tables -->
+  <rect x="0" y="380" width="800" height="220" fill="#8b6f47"/>
+  <rect x="400" y="340" width="400" height="200" fill="#a0824d"/>
+  
+  <!-- Background person (in red box area) -->
+  <g transform="translate(80, 320)">
+    <ellipse cx="0" cy="0" rx="25" ry="30" fill="#4a4a4a"/>
+    <rect x="-25" y="20" width="50" height="60" fill="#2a2a2a"/>
+    <rect x="-15" y="80" width="30" height="50" fill="#3a3a3a"/>
+    <rect x="-30" y="40" width="60" height="15" fill="#6a6a6a"/>
+  </g>
+  
+  <!-- Red box indicator -->
+  <rect x="50" y="300" width="60" height="80" fill="none" stroke="#ff0000" stroke-width="3"/>
+  
+  <!-- Main person -->
+  <g transform="translate(450, 300)">
+    <!-- Head and hair -->
+    <ellipse cx="0" cy="0" rx="35" ry="40" fill="#d4a373"/>
+    <path d="M -35 -20 Q -40 -45 -20 -50 Q 0 -52 20 -50 Q 40 -45 35 -20 Q 30 -35 10 -38 Q -10 -38 -30 -35 Z" fill="#2a2a2a"/>
+    
+    <!-- Face details -->
+    <ellipse cx="-10" cy="-5" rx="3" ry="4" fill="#333"/>
+    <ellipse cx="10" cy="-5" rx="3" ry="4" fill="#333"/>
+    <path d="M -15 10 Q 0 15 15 10" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M -20 -15 L -10 -15" stroke="#333" stroke-width="2"/>
+    <path d="M 10 -15 L 20 -15" stroke="#333" stroke-width="2"/>
+    
+    <!-- Goatee -->
+    <ellipse cx="0" cy="20" rx="8" ry="10" fill="#2a2a2a"/>
+    
+    <!-- Body and sweater -->
+    <rect x="-50" y="35" width="100" height="120" rx="10" fill="#c0c0c0"/>
+    
+    <!-- Collar -->
+    <rect x="-40" y="30" width="80" height="20" fill="#fff"/>
+    <rect x="-40" y="30" width="80" height="20" fill="url(#checkered)"/>
+    
+    <!-- Arms -->
+    <rect x="-50" y="50" width="30" height="80" rx="10" fill="#c0c0c0"/>
+    <rect x="20" y="50" width="30" height="60" rx="10" fill="#c0c0c0" transform="rotate(-30 35 80)"/>
+    
+    <!-- Hands -->
+    <ellipse cx="-35" cy="135" rx="15" ry="20" fill="#d4a373"/>
+    <ellipse cx="60" cy="100" rx="15" ry="20" fill="#d4a373" transform="rotate(-30 60 100)"/>
+  </g>
+  
+  <!-- Laptop -->
+  <g transform="translate(480, 400)">
+    <rect x="0" y="0" width="120" height="80" rx="5" fill="#333"/>
+    <rect x="5" y="5" width="110" height="70" fill="#4a90e2"/>
+    <rect x="0" y="80" width="120" height="5" fill="#666"/>
+    <rect x="-10" y="85" width="140" height="40" rx="3" fill="#999"/>
+  </g>
+  
+  <!-- Phone -->
+  <rect x="420" y="440" width="40" height="60" rx="5" fill="#1a1a1a"/>
+  <rect x="425" y="445" width="30" height="50" fill="#333"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="380" cy="460" rx="25" ry="5" fill="#fff"/>
+  <rect x="360" y="430" width="40" height="30" rx="5" fill="#fff"/>
+  <rect x="355" y="440" width="12" height="15" rx="5" fill="#fff"/>
+  
+  <!-- Pattern for checkered collar -->
+  <defs>
+    <pattern id="checkered" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="5" height="5" fill="#8b0000"/>
+      <rect x="5" y="0" width="5" height="5" fill="#fff"/>
+      <rect x="0" y="5" width="5" height="5" fill="#fff"/>
+      <rect x="5" y="5" width="5" height="5" fill="#8b0000"/>
+    </pattern>
+  </defs>
+</svg>

@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Ground -->
+  <rect y="300" width="800" height="300" fill="#8FBC8F"/>
+  
+  <!-- Distant hills -->
+  <path d="M0 220 Q100 200 200 230 Q300 260 400 240 Q500 220 600 250 Q700 280 800 260 L800 300 L0 300 Z" fill="#8B4513"/>
+  
+  <!-- Trees -->
+  <path d="M600 170 Q620 160 640 170 Q660 180 680 170 Q700 160 720 170 Q740 180 760 170 Q780 160 800 170 L800 200 L600 200 Z" fill="#8B4513"/>
+  <path d="M600 170 Q620 160 640 170 Q660 180 680 170 Q700 160 720 170 Q740 180 760 170 Q780 160 800 170" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <path d="M40 280 Q60 270 80 280 Q100 290 120 280 Q140 270 160 280 Q180 290 200 280" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M20 280 Q40 270 60 280 Q80 290 100 280 Q120 270 140 280 Q160 290 180 280 Q200 270 220 280" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Rhino -->
+  <ellipse cx="200" cy="350" rx="100" ry="120" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <ellipse cx="200" cy="420" rx="30" ry="20" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <ellipse cx="150" cy="420" rx="30" ry="20" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <ellipse cx="250" cy="420" rx="30" ry="20" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <ellipse cx="100" cy="420" rx="30" ry="20" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  
+  <!-- Rhino horn -->
+  <path d="M300 120 Q320 100 340 120 Q360 140 380 120 Q400 100 420 120 Q440 140 460 120 Q480 100 500 120" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M300 120 Q320 100 340 120 Q360 140 380 120 Q400 100 420 120 Q440 140 460 120 Q480 100 500 120" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  
+  <!-- Rhino ears -->
+  <path d="M180 130 Q190 110 200 130 Q210 150 220 130" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <path d="M160 130 Q170 110 180 130 Q190 150 200 130" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  
+  <!-- Rhino eyes -->
+  <circle cx="220" cy="180" r="10" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="240" cy="180" r="10" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="220" cy="180" r="5" fill="#000"/>
+  <circle cx="240" cy="180" r="5" fill="#000"/>
+  
+  <!-- Rhino mouth -->
+  <path d="M200 220 Q220 240 240 220" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Rhino hand holding brush -->
+  <path d="M350 250 Q360 240 370 250 Q380 260 390 250 Q400 240 410 250 Q420 260 430 250" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <path d="M400 250 Q410 240 420 250 Q430 260 440 250 Q450 240 460 250 Q470 260 480 250" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  
+  <!-- Brush -->
+  <path d="M400 250 Q410 240 420 250 Q430 260 440 250 Q450 240 460 250 Q470 260 480 250" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <path d="M400 250 Q410 240 420 250 Q430 260 440 250 Q450 240 460 250 Q470 260 480 250" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  
+  <!-- Paint palette -->
+  <ellipse cx="280" cy="380" rx="40" ry="30" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="270" cy="370" r="5" fill="#FF0000"/>
+  <circle cx="280" cy="370" r="5" fill="#00FF00"/>
+  <circle cx="290" cy="370" r="5" fill="#0000FF"/>
+  <circle cx="270" cy="380" r="5" fill="#FFFF00"/>
+  <circle cx="280" cy="380" r="5" fill="#FFA500"/>
+  <circle cx="290" cy="380" r="5" fill="#800080"/>
+  
+  <!-- Easel -->
+  <rect x="350" y="200" width="100" height="200" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="350" y="200" width="100" height="200" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="350" y="200" width="100" height="200" fill="#FFF" stroke="#000" stroke-width="2"/>
+  
+  <!-- Paintings -->
+  <rect x="480" y="400" width="100" height="100" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="600" y="400" width="100" height="100" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="10" y="500" width="100" height="100" fill="#FFF" stroke="#000" stroke-width="2"/>
+  
+  <!-- Painting content -->
+  <path d="M500 420 Q520 400 540 420 Q560 440 580 420" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  <path d="M620 420 Q640 400 660 420 Q680 440 700 420" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  <path d="M30 520 Q50 500 70 520 Q90 540 110 520" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="400" y="550" font-family="Arial" font-size="30" text-anchor="middle" fill="#FFF">You see the world</text>
+  <text x="400" y="580" font-family="Arial" font-size="30" text-anchor="middle" fill="#FFF">as you are!</text>
+</svg>

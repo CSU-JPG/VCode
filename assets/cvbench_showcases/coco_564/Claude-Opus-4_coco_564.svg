@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background carpet -->
+  <rect width="800" height="600" fill="#C4A57B"/>
+  <rect width="800" height="600" fill="#B8956A" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="0.1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Dark background/wall -->
+  <rect x="0" y="0" width="800" height="250" fill="#1A0F0A"/>
+  <rect x="550" y="0" width="250" height="400" fill="#2A1510"/>
+  
+  <!-- Luggage rack -->
+  <rect x="100" y="280" width="400" height="15" fill="#8B4513" stroke="#5D2F0D" stroke-width="2"/>
+  <rect x="120" y="295" width="360" height="8" fill="#6B3410"/>
+  
+  <!-- Luggage rack legs -->
+  <rect x="150" y="295" width="8" height="120" fill="#2C2C2C" transform="rotate(-15 154 295)"/>
+  <rect x="450" y="295" width="8" height="120" fill="#2C2C2C" transform="rotate(15 454 295)"/>
+  
+  <!-- Cross support -->
+  <rect x="200" y="340" width="200" height="6" fill="#2C2C2C" transform="rotate(-8 300 343)"/>
+  <rect x="200" y="340" width="200" height="6" fill="#2C2C2C" transform="rotate(8 300 343)"/>
+  
+  <!-- Suitcase -->
+  <rect x="180" y="180" width="280" height="100" rx="10" fill="#1C1C1C" stroke="#0A0A0A" stroke-width="3"/>
+  <rect x="180" y="220" width="280" height="20" fill="#2A2A2A"/>
+  
+  <!-- Suitcase details -->
+  <rect x="200" y="190" width="240" height="5" fill="#3A3A3A"/>
+  <rect x="310" y="165" width="40" height="15" rx="3" fill="#2C2C2C"/>
+  
+  <!-- Zipper pulls -->
+  <circle cx="250" cy="230" r="4" fill="#C0C0C0"/>
+  <circle cx="270" cy="230" r="4" fill="#C0C0C0"/>
+  <rect x="250" y="225" width="20" height="2" fill="#FF0000"/>
+  <rect x="268" y="228" width="15" height="1" fill="#FFFFFF"/>
+  
+  <!-- Studs on suitcase -->
+  <circle cx="210" cy="200" r="3" fill="#8B8B8B"/>
+  <circle cx="230" cy="200" r="3" fill="#8B8B8B"/>
+  <circle cx="410" cy="200" r="3" fill="#8B8B8B"/>
+  <circle cx="430" cy="200" r="3" fill="#8B8B8B"/>
+  
+  <!-- White cloth/towel -->
+  <path d="M 380 380 Q 400 360 420 365 Q 440 370 450 390 Q 460 410 450 430 Q 440 445 420 450 Q 400 455 380 445 Q 360 435 355 415 Q 350 395 360 380 Z" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+  <path d="M 370 390 Q 380 385 390 388" fill="none" stroke="#D0D0D0" stroke-width="1"/>
+  <path d="M 385 400 Q 395 398 405 402" fill="none" stroke="#D0D0D0" stroke-width="1"/>
+  
+  <!-- Side straps -->
+  <rect x="170" y="240" width="15" height="40" fill="#1A1A1A"/>
+  <rect x="455" y="240" width="15" height="40" fill="#1A1A1A"/>
+</svg>

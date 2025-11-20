@@ -1,0 +1,69 @@
+<svg viewBox="0 0 560 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Room walls and floor -->
+  <rect x="0" y="0" width="560" height="420" fill="#D4C5B9"/>
+  <rect x="0" y="300" width="560" height="120" fill="#E8DDD0"/>
+  
+  <!-- White bookshelf on left -->
+  <rect x="20" y="60" width="120" height="240" fill="#F5F5F0"/>
+  <rect x="25" y="65" width="110" height="230" fill="#FFFFFF"/>
+  <!-- Shelves -->
+  <rect x="30" y="90" width="100" height="3" fill="#D0D0D0"/>
+  <rect x="30" y="130" width="100" height="3" fill="#D0D0D0"/>
+  <rect x="30" y="170" width="100" height="3" fill="#D0D0D0"/>
+  <rect x="30" y="210" width="100" height="3" fill="#D0D0D0"/>
+  <rect x="30" y="250" width="100" height="3" fill="#D0D0D0"/>
+  
+  <!-- Books on shelves -->
+  <rect x="35" y="70" width="8" height="18" fill="#8B0000"/>
+  <rect x="45" y="70" width="8" height="18" fill="#000080"/>
+  <rect x="55" y="70" width="8" height="18" fill="#006400"/>
+  <rect x="65" y="70" width="8" height="18" fill="#8B4513"/>
+  <rect x="75" y="70" width="8" height="18" fill="#4B0082"/>
+  
+  <!-- Red highlighted area with binders -->
+  <rect x="30" y="215" width="100" height="33" fill="#FF000020" stroke="#FF0000" stroke-width="2"/>
+  <rect x="35" y="220" width="15" height="25" fill="#4169E1"/>
+  <rect x="52" y="220" width="15" height="25" fill="#4169E1"/>
+  <rect x="69" y="220" width="15" height="25" fill="#4169E1"/>
+  <rect x="86" y="220" width="15" height="25" fill="#4169E1"/>
+  
+  <!-- Large wooden desk in center -->
+  <rect x="160" y="180" width="200" height="100" fill="#8B4513"/>
+  <rect x="160" y="180" width="200" height="90" fill="#A0522D"/>
+  <!-- Desk drawers -->
+  <rect x="170" y="200" width="180" height="30" fill="#654321"/>
+  <rect x="170" y="235" width="180" height="30" fill="#654321"/>
+  <!-- Drawer handles -->
+  <line x1="255" y1="215" x2="265" y2="215" stroke="#FFD700" stroke-width="2"/>
+  <line x1="255" y1="250" x2="265" y2="250" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Computer monitor on desk -->
+  <rect x="240" y="150" width="40" height="30" fill="#000000"/>
+  <rect x="242" y="152" width="36" height="26" fill="#0000FF"/>
+  <rect x="255" y="180" width="10" height="8" fill="#333333"/>
+  <rect x="245" y="188" width="30" height="3" fill="#666666"/>
+  
+  <!-- Dark wooden cabinet on right -->
+  <rect x="400" y="160" width="120" height="140" fill="#5D4037"/>
+  <rect x="400" y="160" width="120" height="130" fill="#6D4C41"/>
+  <!-- Cabinet sections -->
+  <rect x="410" y="170" width="100" height="50" fill="#4E342E"/>
+  <rect x="410" y="230" width="100" height="50" fill="#4E342E"/>
+  
+  <!-- Wall art pieces -->
+  <rect x="180" y="40" width="50" height="40" fill="#E0E0E0" stroke="#888888" stroke-width="2"/>
+  <rect x="280" y="30" width="60" height="50" fill="#E0E0E0" stroke="#888888" stroke-width="2"/>
+  <rect x="380" y="35" width="70" height="55" fill="#E0E0E0" stroke="#888888" stroke-width="2"/>
+  
+  <!-- Small framed items -->
+  <rect x="150" y="90" width="20" height="25" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <rect x="180" y="95" width="20" height="25" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  
+  <!-- Rug pattern -->
+  <ellipse cx="280" cy="350" rx="150" ry="60" fill="#8B4513" opacity="0.3"/>
+  <ellipse cx="280" cy="350" rx="130" ry="50" fill="#A0522D" opacity="0.3"/>
+  
+  <!-- Ottoman/footstool in foreground -->
+  <rect x="200" y="380" width="160" height="40" fill="#654321"/>
+  <rect x="200" y="375" width="160" height="10" fill="#8B4513"/>
+</svg>

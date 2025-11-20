@@ -1,0 +1,57 @@
+<svg viewBox="0 0 500 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="750" fill="#87CEEB"/>
+  
+  <!-- Trees and foliage -->
+  <ellipse cx="250" cy="100" rx="300" ry="150" fill="#2d5016"/>
+  <ellipse cx="100" cy="120" rx="80" ry="100" fill="#3a6b35"/>
+  <ellipse cx="400" cy="110" rx="90" ry="110" fill="#2d5016"/>
+  <ellipse cx="300" cy="140" rx="120" ry="80" fill="#3a6b35"/>
+  
+  <!-- Grass -->
+  <rect x="0" y="350" width="500" height="400" fill="#4a7c59"/>
+  <rect x="0" y="380" width="500" height="370" fill="#5eb670"/>
+  
+  <!-- Frisbee -->
+  <path d="M 99,123 L 98,124 L 91,124 L 82,127 L 77,130 L 70,137 L 68,141 L 66,152 L 67,153 L 68,160 L 71,165 L 81,174 L 96,179 L 110,179 L 119,176 L 127,171 L 133,162 L 134,156 L 135,155 L 135,148 L 132,139 L 125,131 L 116,126 L 110,125 L 109,124 L 103,124 L 102,123 Z" fill="#ff6b35" stroke="#cc4422" stroke-width="2"/>
+  <ellipse cx="101" cy="151" rx="25" ry="20" fill="#ff8c42" opacity="0.6"/>
+  <circle cx="101" cy="151" r="10" fill="#ffaa55" opacity="0.8"/>
+  
+  <!-- Person -->
+  <path d="M 264,396 L 184,417 L 196,438 L 264,428 L 275,442 L 217,481 L 200,508 L 164,519 L 86,575 L 80,589 L 108,591 L 208,536 L 248,546 L 295,508 L 311,523 L 323,580 L 377,591 L 373,525 L 391,522 L 419,595 L 451,601 L 444,521 L 410,449 L 407,414 L 273,396 Z" fill="#dc143c" stroke="#8b0000" stroke-width="2"/>
+  
+  <!-- Person's shorts -->
+  <path d="M 295,508 L 248,546 L 270,560 L 323,580 L 311,523 Z" fill="#191970"/>
+  <path d="M 391,522 L 373,525 L 377,591 L 419,595 Z" fill="#191970"/>
+  
+  <!-- Hat -->
+  <path d="M 377,405 L 367,409 L 364,414 L 364,422 L 367,435 L 381,451 L 392,458 L 392,464 L 394,464 L 411,443 L 413,437 L 413,426 L 408,415 L 399,407 L 393,405 Z" fill="#f5f5f5" stroke="#333333" stroke-width="1"/>
+  <ellipse cx="388" cy="425" rx="20" ry="8" fill="#e0e0e0"/>
+  
+  <!-- Sneakers -->
+  <path d="M 126,558 L 124,560 L 115,559 L 102,568 L 84,576 L 79,584 L 79,589 L 83,592 L 102,593 L 107,592 L 116,587 L 134,569 L 127,558 Z" fill="#dc143c" stroke="#8b0000" stroke-width="1"/>
+  <rect x="85" y="585" width="20" height="5" fill="#ffffff"/>
+  
+  <!-- Dog (Border Collie) -->
+  <path d="M 208,162 L 205,165 L 205,174 L 218,190 L 212,195 L 204,196 L 201,201 L 207,206 L 223,208 L 228,213 L 237,235 L 240,270 L 251,294 L 251,309 L 261,338 L 270,338 L 270,316 L 280,320 L 297,342 L 299,367 L 303,377 L 316,390 L 330,401 L 343,405 L 347,405 L 345,393 L 363,391 L 370,396 L 367,407 L 376,404 L 384,384 L 369,379 L 366,375 L 365,343 L 404,323 L 414,313 L 421,296 L 420,278 L 411,278 L 401,284 L 408,294 L 403,304 L 377,320 L 361,319 L 338,302 L 312,275 L 293,221 L 260,183 L 242,169 L 227,169 L 211,162 Z" fill="#000000" stroke="#333333" stroke-width="1"/>
+  
+  <!-- White markings on dog -->
+  <path d="M 220,180 L 235,190 L 250,210 L 265,240 L 270,270 L 265,290 L 260,280 L 255,250 L 245,220 L 230,195 L 220,180 Z" fill="#ffffff"/>
+  <path d="M 280,320 L 295,335 L 300,355 L 295,365 L 285,350 L 280,320 Z" fill="#ffffff"/>
+  <ellipse cx="225" cy="185" rx="8" ry="12" fill="#ffffff"/>
+  <path d="M 340,380 L 350,390 L 360,395 L 355,385 L 345,380 Z" fill="#ffffff"/>
+  
+  <!-- Dog's eye -->
+  <circle cx="215" cy="180" r="3" fill="#4169e1"/>
+  
+  <!-- Dog's nose -->
+  <ellipse cx="202" cy="198" rx="4" ry="3" fill="#000000"/>
+  
+  <!-- Text elements -->
+  <g transform="matrix(0.97,-0.24,0.24,0.97,0,0)">
+    <text x="200" y="560" font-family="Arial" font-size="140" font-weight="bold" fill="#333333">告</text>
+  </g>
+  <g transform="matrix(0.94,-0.34,0.34,0.94,0,0)">
+    <text x="170" y="530" font-family="Arial" font-size="50" fill="#666666">7</text>
+  </g>
+</svg>

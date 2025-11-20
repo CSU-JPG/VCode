@@ -1,0 +1,167 @@
+<svg viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cbe3ff"/>
+      <stop offset="100%" stop-color="#e9f3ff"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5d62"/>
+      <stop offset="100%" stop-color="#44474d"/>
+    </linearGradient>
+    <linearGradient id="sidewalkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d7d7d9"/>
+      <stop offset="100%" stop-color="#c4c5c8"/>
+    </linearGradient>
+    <linearGradient id="glassBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a9c9dd" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#d9ecf6" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="brickGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b84c3d"/>
+      <stop offset="100%" stop-color="#8e3a30"/>
+    </linearGradient>
+    <radialGradient id="wheelShade" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3"/>
+      <feOffset dy="2" dx="0" result="o"/>
+      <feMerge>
+        <feMergeNode in="o"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="1024" height="520" fill="url(#sky)"/>
+
+  <!-- Distant trees and houses -->
+  <g opacity="0.95">
+    <!-- Left dark house -->
+    <rect x="20" y="210" width="170" height="250" fill="#24443d"/>
+    <rect x="40" y="240" width="40" height="60" fill="#0f2520"/>
+    <rect x="110" y="240" width="40" height="60" fill="#0f2520"/>
+    <rect x="40" y="320" width="40" height="60" fill="#0f2520"/>
+    <rect x="110" y="320" width="40" height="60" fill="#0f2520"/>
+    <!-- Middle pale house -->
+    <rect x="200" y="210" width="220" height="220" fill="#f1f0e8" stroke="#cfcfc6"/>
+    <rect x="220" y="240" width="50" height="60" fill="#b7c3c2"/>
+    <rect x="290" y="240" width="50" height="60" fill="#b7c3c2"/>
+    <rect x="360" y="240" width="40" height="60" fill="#b7c3c2"/>
+    <rect x="220" y="310" width="50" height="60" fill="#b7c3c2"/>
+    <rect x="290" y="310" width="50" height="60" fill="#b7c3c2"/>
+    <!-- Gabled house center back -->
+    <polygon points="520,200 620,130 720,200 720,380 520,380" fill="#efe8d6" stroke="#d5cfbd"/>
+    <rect x="550" y="238" width="30" height="40" fill="#b6c6c7"/>
+    <rect x="605" y="238" width="30" height="40" fill="#b6c6c7"/>
+    <rect x="660" y="238" width="30" height="40" fill="#b6c6c7"/>
+    <rect x="605" y="300" width="30" height="40" fill="#b6c6c7"/>
+  </g>
+
+  <!-- Leafy trees -->
+  <g opacity="0.8">
+    <path d="M150,180 C130,140 210,120 230,180 C250,240 190,260 170,220 Z" fill="#9ac26d"/>
+    <rect x="180" y="220" width="12" height="100" fill="#6b4f32"/>
+    <path d="M430,160 C400,120 500,100 520,170 C540,240 460,250 440,200 Z" fill="#9fc77a"/>
+    <rect x="465" y="210" width="12" height="120" fill="#6b4f32"/>
+    <path d="M770,170 C740,120 840,120 860,180 C880,240 800,260 785,220 Z" fill="#9bc471"/>
+    <rect x="800" y="220" width="12" height="130" fill="#6b4f32"/>
+  </g>
+
+  <!-- Right brick wall -->
+  <rect x="780" y="250" width="220" height="210" fill="url(#brickGrad)" stroke="#622a23"/>
+  <rect x="780" y="250" width="220" height="14" fill="#e9e9e9"/>
+  <!-- Trash can -->
+  <rect x="940" y="400" width="30" height="55" rx="3" fill="#1f4a44"/>
+
+  <!-- Sidewalk -->
+  <rect x="0" y="470" width="1024" height="50" fill="url(#sidewalkGrad)"/>
+  <!-- Curb stones -->
+  <rect x="0" y="518" width="1024" height="8" fill="#a2a3a7"/>
+
+  <!-- Road -->
+  <rect x="0" y="526" width="1024" height="242" fill="url(#roadGrad)"/>
+  <!-- Double yellow lines -->
+  <line x1="0" y1="620" x2="1024" y2="620" stroke="#ffd84d" stroke-width="8"/>
+  <line x1="0" y1="638" x2="1024" y2="638" stroke="#ffd84d" stroke-width="8"/>
+
+  <!-- Chain fence suggestion -->
+  <g stroke="#6e6e6e" opacity="0.6">
+    <line x1="10" y1="470" x2="180" y2="470" stroke-width="3"/>
+    <line x1="10" y1="430" x2="10" y2="470" stroke-width="5"/>
+    <line x1="180" y1="430" x2="180" y2="470" stroke-width="5"/>
+    <line x1="180" y1="470" x2="300" y2="470" stroke-width="3"/>
+    <line x1="300" y1="430" x2="300" y2="470" stroke-width="5"/>
+  </g>
+
+  <!-- Parking sign pole -->
+  <rect x="712" y="320" width="6" height="150" fill="#cfcfcf"/>
+  <rect x="700" y="300" width="30" height="24" rx="2" fill="#ffffff" stroke="#c0c0c0"/>
+  <line x1="705" y1="312" x2="725" y2="312" stroke="#d64242" stroke-width="4"/>
+
+  <!-- Rear white car (background) -->
+  <g transform="translate(190,422)">
+    <ellipse cx="120" cy="90" rx="90" ry="18" fill="#000" opacity="0.25" filter="url(#softShadow)"/>
+    <path d="M15,60 C30,25 85,10 160,10 L230,10 C260,10 270,18 280,35 L290,58 C292,65 288,72 281,72 L38,72 C26,72 18,67 15,60 Z" fill="#f5f7fb" stroke="#cfd3d8"/>
+    <rect x="80" y="22" width="85" height="28" rx="4" fill="#a7c3d2"/>
+    <path d="M30,50 L80,22 L80,50 Z" fill="#a7c3d2"/>
+    <!-- Wheels -->
+    <g>
+      <circle cx="90" cy="74" r="16" fill="url(#wheelShade)"/>
+      <circle cx="90" cy="74" r="8" fill="#acb2b7"/>
+      <circle cx="230" cy="74" r="16" fill="url(#wheelShade)"/>
+      <circle cx="230" cy="74" r="8" fill="#acb2b7"/>
+    </g>
+  </g>
+
+  <!-- Foreground blue wagon -->
+  <g transform="translate(260,440)">
+    <!-- Shadow -->
+    <ellipse cx="230" cy="120" rx="220" ry="22" fill="#000" opacity="0.3" filter="url(#softShadow)"/>
+    <!-- Body -->
+    <path d="M20,100 C18,82 30,70 44,64 C76,50 130,44 188,44 L290,44 C330,44 362,40 386,52 C402,60 442,84 452,98 C458,106 454,114 444,114 L42,114 C30,114 22,108 20,100 Z" fill="#2f6672" stroke="#264f58" stroke-width="3"/>
+    <!-- Bumper -->
+    <rect x="432" y="98" width="22" height="12" rx="4" fill="#204852"/>
+    <!-- Windows -->
+    <path d="M92,48 L176,48 L176,94 L65,94 C62,94 60,92 61,90 C67,73 77,57 92,48 Z" fill="url(#glassBlue)"/>
+    <rect x="176" y="48" width="82" height="46" fill="url(#glassBlue)"/>
+    <rect x="258" y="48" width="80" height="46" fill="url(#glassBlue)"/>
+    <path d="M338,48 L400,78 L400,94 L338,94 Z" fill="url(#glassBlue)"/>
+    <!-- Door lines -->
+    <line x1="176" y1="60" x2="176" y2="112" stroke="#22474f" stroke-width="2"/>
+    <line x1="258" y1="60" x2="258" y2="112" stroke="#22474f" stroke-width="2"/>
+    <line x1="338" y1="60" x2="338" y2="112" stroke="#22474f" stroke-width="2"/>
+    <!-- Handles -->
+    <rect x="210" y="84" width="20" height="6" rx="3" fill="#0f2a31"/>
+    <rect x="292" y="84" width="20" height="6" rx="3" fill="#0f2a31"/>
+    <rect x="372" y="86" width="18" height="6" rx="3" fill="#0f2a31"/>
+    <!-- Rear light -->
+    <rect x="30" y="98" width="26" height="12" rx="2" fill="#ee6a3a"/>
+    <!-- Front light -->
+    <rect x="438" y="98" width="28" height="12" rx="2" fill="#f6c55a"/>
+    <!-- Fuel door -->
+    <rect x="316" y="86" width="18" height="14" rx="2" fill="#295863"/>
+    <!-- Wheels -->
+    <g>
+      <circle cx="148" cy="116" r="40" fill="url(#wheelShade)"/>
+      <circle cx="148" cy="116" r="22" fill="#c0c6cc"/>
+      <circle cx="360" cy="116" r="40" fill="url(#wheelShade)"/>
+      <circle cx="360" cy="116" r="22" fill="#c0c6cc"/>
+      <!-- Lug hints -->
+      <g fill="#9aa1a7">
+        <circle cx="148" cy="116" r="3"/>
+        <circle cx="138" cy="116" r="2.5"/>
+        <circle cx="158" cy="116" r="2.5"/>
+        <circle cx="148" cy="106" r="2.5"/>
+        <circle cx="148" cy="126" r="2.5"/>
+        <circle cx="360" cy="116" r="3"/>
+        <circle cx="350" cy="116" r="2.5"/>
+        <circle cx="370" cy="116" r="2.5"/>
+        <circle cx="360" cy="106" r="2.5"/>
+        <circle cx="360" cy="126" r="2.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

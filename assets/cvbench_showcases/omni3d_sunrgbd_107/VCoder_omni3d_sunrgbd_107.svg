@@ -1,0 +1,67 @@
+<svg viewBox="0 0 561 427" xmlns="http://www.w3.org/2000/svg">
+  <!-- Room background -->
+  <rect width="561" height="427" fill="#E8D7C3"/>
+  
+  <!-- Wall color -->
+  <rect width="561" height="300" fill="#D4C4B0"/>
+  
+  <!-- Bookshelf on left -->
+  <rect x="40" y="20" width="120" height="280" fill="#8B6F47" stroke="#654321" stroke-width="2"/>
+  <!-- Shelf divisions -->
+  <line x1="40" y1="80" x2="160" y2="80" stroke="#654321" stroke-width="2"/>
+  <line x1="40" y1="140" x2="160" y2="140" stroke="#654321" stroke-width="2"/>
+  <line x1="40" y1="200" x2="160" y2="200" stroke="#654321" stroke-width="2"/>
+  <line x1="40" y1="240" x2="160" y2="240" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Books on shelves -->
+  <rect x="50" y="30" width="15" height="45" fill="#8B4513"/>
+  <rect x="68" y="30" width="15" height="45" fill="#2F4F4F"/>
+  <rect x="86" y="30" width="15" height="45" fill="#8B0000"/>
+  <rect x="104" y="35" width="15" height="40" fill="#4682B4"/>
+  <rect x="122" y="30" width="15" height="45" fill="#8B4513"/>
+  
+  <!-- More books on lower shelves -->
+  <rect x="50" y="90" width="20" height="45" fill="#191970"/>
+  <rect x="73" y="90" width="15" height="45" fill="#8B0000"/>
+  <rect x="91" y="95" width="18" height="40" fill="#2F4F4F"/>
+  
+  <!-- Red box highlight area -->
+  <rect x="45" y="245" width="60" height="30" fill="#CD5C5C" opacity="0.8"/>
+  <text x="75" y="265" text-anchor="middle" font-family="Arial" font-size="12" fill="#FFFFFF">Storage</text>
+  
+  <!-- Desk -->
+  <path d="M 200 280 L 480 280 L 500 320 L 500 380 L 480 380 L 460 340 L 220 340 L 200 380 L 180 380 L 180 320 Z" 
+        fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Desk drawers -->
+  <rect x="220" y="290" width="60" height="40" fill="#6B4423" stroke="#4A2C17" stroke-width="1"/>
+  <rect x="290" y="290" width="60" height="40" fill="#6B4423" stroke="#4A2C17" stroke-width="1"/>
+  <rect x="360" y="290" width="60" height="40" fill="#6B4423" stroke="#4A2C17" stroke-width="1"/>
+  
+  <!-- Computer monitor -->
+  <rect x="320" y="220" width="80" height="60" fill="#000000"/>
+  <rect x="325" y="225" width="70" height="50" fill="#1E90FF"/>
+  <rect x="350" y="280" width="20" height="10" fill="#333333"/>
+  
+  <!-- Cabinet on right -->
+  <rect x="440" y="180" width="100" height="140" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="450" y="190" width="80" height="60" fill="#6B4423" stroke="#4A2C17" stroke-width="1"/>
+  <rect x="450" y="260" width="80" height="50" fill="#6B4423" stroke="#4A2C17" stroke-width="1"/>
+  
+  <!-- Wall pictures -->
+  <rect x="180" y="60" width="60" height="80" fill="#F5F5DC" stroke="#8B7355" stroke-width="3"/>
+  <rect x="190" y="70" width="40" height="60" fill="#87CEEB" opacity="0.5"/>
+  
+  <rect x="280" y="60" width="60" height="80" fill="#F5F5DC" stroke="#8B7355" stroke-width="3"/>
+  <rect x="290" y="70" width="40" height="60" fill="#87CEEB" opacity="0.5"/>
+  
+  <rect x="380" y="60" width="60" height="80" fill="#F5F5DC" stroke="#8B7355" stroke-width="3"/>
+  <rect x="390" y="70" width="40" height="60" fill="#87CEEB" opacity="0.5"/>
+  
+  <!-- Rug -->
+  <ellipse cx="280" cy="380" rx="120" ry="40" fill="#8B0000" opacity="0.3"/>
+  <ellipse cx="280" cy="380" rx="100" ry="30" fill="#CD853F" opacity="0.3"/>
+  
+  <!-- Chair indication -->
+  <path d="M 350 330 L 350 350 L 370 350 L 370 330 Z" fill="#4A4A4A" opacity="0.5"/>
+</svg>

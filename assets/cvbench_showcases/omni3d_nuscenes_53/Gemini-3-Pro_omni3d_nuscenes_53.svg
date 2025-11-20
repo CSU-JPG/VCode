@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Foggy atmosphere gradient -->
+    <linearGradient id="fogGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9CA6AC" />
+      <stop offset="45%" stop-color="#E0E0E0" />
+      <stop offset="55%" stop-color="#6B7175" />
+      <stop offset="100%" stop-color="#2C3033" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background: Sky and Road -->
+  <rect width="1600" height="900" fill="url(#fogGradient)" />
+
+  <!-- Perspective Elements: Buildings to frame the street -->
+  <!-- Left Building Block -->
+  <path d="M0,0 L600,0 L750,450 L0,900 Z" fill="#5D4037" opacity="0.8" />
+  <path d="M-10,100 L600,100 L750,450" stroke="#3E2723" stroke-width="2" fill="none" />
+  
+  <!-- Right Building Block -->
+  <path d="M1600,0 L1000,0 L850,450 L1600,900 Z" fill="#4E342E" opacity="0.8" />
+  <path d="M1610,100 L1000,100 L850,450" stroke="#3E2723" stroke-width="2" fill="none" />
+
+  <!-- Road Surface details -->
+  <path d="M0,900 L1600,900 L850,450 L750,450 Z" fill="#373B3E" opacity="0.6" />
+  
+  <!-- Double Yellow Lines -->
+  <path d="M450,900 L790,460" stroke="#FBC02D" stroke-width="4" opacity="0.7" />
+  <path d="M470,900 L795,460" stroke="#FBC02D" stroke-width="4" opacity="0.7" />
+
+  <!-- Sidewalk/Curb Right -->
+  <path d="M1600,900 L850,450" stroke="#777" stroke-width="2" />
+
+  <!-- Road Work Sign (Orange Diamond) on Right -->
+  <g transform="translate(1340, 250)">
+    <path d="M0,-45 L45,0 L0,45 L-45,0 Z" fill="#FF6F00" stroke="#333" stroke-width="2" />
+    <text x="0" y="-5" font-family="Arial" font-size="10" text-anchor="middle" fill="#333" font-weight="bold">ROAD</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" text-anchor="middle" fill="#333" font-weight="bold">WORK</text>
+  </g>
+
+  <!-- Bounding Boxes -->
+  
+  <!-- Green Box: Bus in distance -->
+  <rect x="770" y="445" width="58" height="60" fill="none" stroke="#00FF00" stroke-width="4" />
+  
+  <!-- Blue Box: Truck on right -->
+  <rect x="902" y="410" width="98" height="102" fill="none" stroke="#0000FF" stroke-width="4" />
+  
+  <!-- Red Box: Pedestrian on sidewalk -->
+  <rect x="1140" y="450" width="52" height="84" fill="none" stroke="#FF0000" stroke-width="4" />
+
+</svg>

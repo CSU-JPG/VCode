@@ -1,0 +1,214 @@
+<svg viewBox="0 0 1536 2048" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a6c3f"/>
+      <stop offset="0.45" stop-color="#3c7a44"/>
+      <stop offset="1" stop-color="#2a3b2c"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4e4a43"/>
+      <stop offset="1" stop-color="#2d2926"/>
+    </linearGradient>
+    <linearGradient id="leafA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ec171"/>
+      <stop offset="0.5" stop-color="#4aa259"/>
+      <stop offset="1" stop-color="#2d7a43"/>
+    </linearGradient>
+    <linearGradient id="leafB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7bd07a"/>
+      <stop offset="0.5" stop-color="#51a964"/>
+      <stop offset="1" stop-color="#2f6f48"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c7c26e"/>
+      <stop offset="0.5" stop-color="#b1a755"/>
+      <stop offset="1" stop-color="#8e7d3e"/>
+    </linearGradient>
+    <linearGradient id="tear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9c987"/>
+      <stop offset="1" stop-color="#b98a44"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.55" r="0.7">
+      <stop offset="0" stop-color="#00000000"/>
+      <stop offset="1" stop-color="#00000045"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background foliage tone -->
+  <rect x="0" y="0" width="1536" height="2048" fill="url(#bg)"/>
+  <!-- Soil at bottom -->
+  <path d="M0 1725 C260 1680, 470 1705, 690 1765
+           C920 1825, 1150 1890, 1536 1860
+           L1536 2048 L0 2048 Z" fill="url(#soil)"/>
+
+  <!-- Big right leaf -->
+  <g opacity="0.98">
+    <path d="M980 740
+             C1125 660, 1260 640, 1390 690
+             C1500 735, 1515 880, 1465 1000
+             C1410 1130, 1280 1235, 1140 1280
+             C1010 1320, 860 1310, 760 1250
+             C650 1185, 630 1050, 700 940
+             C780 815, 870 785, 980 740 Z"
+          fill="url(#leafA)" stroke="#2a5d3d" stroke-width="10" />
+    <!-- Veins -->
+    <path d="M1010 750 C1025 930, 1015 1090, 1000 1260" stroke="#95d3a0" stroke-width="6" fill="none" opacity="0.7"/>
+    <path d="M920 805 C1005 875, 1115 905, 1240 890" stroke="#8fcf9a" stroke-width="5" fill="none" opacity="0.6"/>
+    <path d="M930 930 C1040 960, 1170 955, 1300 910" stroke="#8fcf9a" stroke-width="4" fill="none" opacity="0.5"/>
+    <path d="M880 1060 C1000 1070, 1120 1050, 1245 990" stroke="#8fcf9a" stroke-width="4" fill="none" opacity="0.5"/>
+    <!-- Torn rings -->
+    <path d="M1200 1140
+             c60 -30, 105 -20, 120 10
+             c20 40,-35 75,-95 85
+             c-60 10,-110 -30,-70 -65
+             c15 -13, 30 -22, 45 -30 Z" fill="url(#tear)" stroke="#a7722c" stroke-width="6" opacity="0.95"/>
+  </g>
+
+  <!-- Left foreground leaf -->
+  <g>
+    <path d="M150 990
+             C60 1180, 80 1330, 220 1430
+             C360 1535, 620 1540, 840 1470
+             C1060 1405, 1140 1260, 1090 1125
+             C1040 990, 875 880, 650 900
+             C420 925, 250 835, 150 990 Z"
+          fill="url(#leafB)" stroke="#2a5d3d" stroke-width="11"/>
+    <!-- Veins -->
+    <path d="M520 920 C540 1100, 520 1300, 475 1480" stroke="#a1dbaa" stroke-width="6" fill="none" opacity="0.8"/>
+    <path d="M250 1120 C420 1125, 600 1085, 770 1000" stroke="#9ad3a5" stroke-width="5" fill="none" opacity="0.6"/>
+    <path d="M260 1240 C460 1240, 660 1200, 850 1110" stroke="#9ad3a5" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M300 1370 C520 1355, 730 1305, 930 1210" stroke="#9ad3a5" stroke-width="4" fill="none" opacity="0.6"/>
+    <!-- Burnt/torn margin -->
+    <path d="M210 1405 C250 1450, 330 1490, 420 1510
+             C380 1480, 360 1440, 370 1400
+             C380 1350, 440 1310, 520 1290
+             C435 1280, 330 1300, 260 1340
+             C230 1360, 215 1380, 210 1405 Z"
+          fill="url(#tear)" stroke="#a7722c" stroke-width="6" opacity="0.9"/>
+  </g>
+
+  <!-- Central curly young leaves cluster -->
+  <g>
+    <path d="M640 720
+             C700 660, 820 640, 900 675
+             C980 710, 1040 790, 1035 865
+             C1030 960, 960 1040, 860 1060
+             C760 1085, 645 1040, 595 970
+             C545 900, 560 780, 640 720 Z"
+          fill="url(#leafA)" stroke="#2a5d3d" stroke-width="10"/>
+    <path d="M710 730 C730 820, 740 910, 720 1000" stroke="#9ad6a7" stroke-width="5" fill="none"/>
+    <path d="M665 770 C740 790, 820 790, 900 765" stroke="#9ad6a7" stroke-width="4" fill="none"/>
+    <!-- small holes -->
+    <ellipse cx="850" cy="1000" rx="20" ry="14" fill="#7c5c2a" opacity="0.35"/>
+    <ellipse cx="780" cy="1015" rx="12" ry="9" fill="#7c5c2a" opacity="0.35"/>
+  </g>
+
+  <!-- Yellowed drooping leaf on ground -->
+  <g>
+    <path d="M430 1510
+             C370 1590, 350 1685, 400 1755
+             C450 1820, 570 1860, 700 1850
+             C830 1835, 950 1780, 980 1705
+             C1010 1620, 930 1550, 820 1510
+             C695 1465, 520 1435, 430 1510 Z"
+          fill="url(#leafB)" stroke="#2a5d3d" stroke-width="10"/>
+    <!-- necrotic patches -->
+    <path d="M520 1590
+             c40 -15, 70 -10, 80 15
+             c10 25,-20 55,-55 70
+             c-35 15,-75 5,-80 -20
+             c-6 -28,20 -45,55 -65 Z"
+          fill="url(#tear)" stroke="#8a642d" stroke-width="5" opacity="0.95"/>
+    <path d="M720 1700
+             c50 -25, 100 -20, 115 10
+             c20 40,-35 80,-95 95
+             c-60 15,-120 -20,-100 -55
+             c8 -20, 35 -38, 80 -50 Z"
+          fill="url(#tear)" stroke="#8a642d" stroke-width="5" opacity="0.93"/>
+  </g>
+
+  <!-- Twisted yellow ribbons around leaf petioles -->
+  <g>
+    <path d="M980 1220
+             c40 -80, 90 -115, 150 -115
+             c50 0, 75 30, 60 65
+             c-12 30,-50 55,-100 65
+             c-55 12,-100 0,-110 -15 Z"
+          fill="url(#tear)" stroke="#a7722c" stroke-width="7"/>
+    <path d="M820 1180
+             c-30 -50,-15 -95, 35 -115
+             c45 -18, 85 -8, 95 20
+             c10 30,-15 60,-65 85
+             c-40 20,-60 25,-65 10 Z"
+          fill="url(#tear)" stroke="#a7722c" stroke-width="7"/>
+  </g>
+
+  <!-- Stems emerging from crown -->
+  <g opacity="0.95">
+    <path d="M760 1160
+             C760 1240, 740 1320, 700 1400
+             C660 1475, 610 1535, 580 1560
+             C560 1575, 535 1575, 510 1560
+             C520 1520, 555 1450, 600 1380
+             C640 1314, 670 1240, 690 1160
+             C705 1105, 740 1105, 760 1160 Z"
+          fill="url(#stem)" stroke="#6d5a2b" stroke-width="8"/>
+    <path d="M900 1140
+             C890 1220, 880 1310, 850 1395
+             C830 1455, 790 1515, 750 1560
+             C740 1570, 715 1570, 700 1560
+             C710 1510, 740 1450, 770 1390
+             C800 1330, 830 1250, 845 1160
+             C855 1105, 895 1095, 900 1140 Z"
+          fill="url(#stem)" stroke="#6d5a2b" stroke-width="8"/>
+  </g>
+
+  <!-- Small weeds around crown -->
+  <g opacity="0.85">
+    <path d="M620 1320 c-35 10,-55 40,-40 60 c20 25,75 20,95 -5 c15 -20,-10 -55,-55 -55 Z" fill="#3d7c3e"/>
+    <path d="M540 1285 c-20 10,-30 30,-20 45 c15 20,55 15,70 -5 c10 -15,-8 -40,-50 -40 Z" fill="#2f6a37"/>
+    <path d="M880 1305 c-30 6,-45 28,-35 45 c12 20,50 18,68 -2 c15 -18,0 -45,-33 -43 Z" fill="#2f6a37"/>
+  </g>
+
+  <!-- Right edge curled leaf -->
+  <g>
+    <path d="M1160 1385
+             C1280 1360, 1380 1415, 1435 1495
+             C1490 1570, 1495 1680, 1450 1730
+             C1400 1785, 1285 1790, 1180 1750
+             C1080 1705, 1010 1630, 1010 1560
+             C1010 1480, 1070 1405, 1160 1385 Z"
+          fill="url(#leafA)" stroke="#2a5d3d" stroke-width="10"/>
+    <path d="M1180 1400 C1200 1520, 1200 1620, 1185 1720" stroke="#9dd6ab" stroke-width="6" fill="none" opacity="0.7"/>
+    <path d="M1090 1470 C1185 1490, 1290 1490, 1400 1460" stroke="#9dd6ab" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M1060 1560 C1180 1570, 1305 1550, 1415 1505" stroke="#9dd6ab" stroke-width="4" fill="none" opacity="0.6"/>
+    <!-- ring tear -->
+    <path d="M1300 1605
+             c50 -25, 90 -15, 105 15
+             c18 35,-30 70,-80 85
+             c-55 18,-110 -10,-95 -40
+             c8 -18, 30 -40, 70 -60 Z"
+          fill="url(#tear)" stroke="#a7722c" stroke-width="6" opacity="0.95"/>
+  </g>
+
+  <!-- Soil speckles -->
+  <g opacity="0.25">
+    <circle cx="120" cy="1890" r="6" fill="#b7b0a6"/>
+    <circle cx="180" cy="1970" r="4" fill="#a79f94"/>
+    <circle cx="260" cy="1905" r="5" fill="#9c958a"/>
+    <circle cx="330" cy="2010" r="3" fill="#b7b0a6"/>
+    <circle cx="440" cy="1940" r="4" fill="#a79f94"/>
+    <circle cx="520" cy="1990" r="5" fill="#9c958a"/>
+    <circle cx="600" cy="1920" r="4" fill="#b7b0a6"/>
+    <circle cx="740" cy="1975" r="3" fill="#a79f94"/>
+    <circle cx="820" cy="1910" r="4" fill="#9c958a"/>
+    <circle cx="900" cy="1985" r="5" fill="#b7b0a6"/>
+    <circle cx="1020" cy="1925" r="4" fill="#a79f94"/>
+    <circle cx="1120" cy="1995" r="5" fill="#9c958a"/>
+    <circle cx="1240" cy="1930" r="4" fill="#b7b0a6"/>
+    <circle cx="1360" cy="1980" r="3" fill="#a79f94"/>
+  </g>
+
+  <!-- Vignette -->
+  <rect x="0" y="0" width="1536" height="2048" fill="url(#shadow)" pointer-events="none"/>
+</svg>

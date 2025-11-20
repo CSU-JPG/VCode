@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="20" y="60" font-family="Arial" font-size="40" fill="black">Me: I'll do it at 8</text>
+  <text x="20" y="130" font-family="Arial" font-size="40" fill="black">Time: 8.05</text>
+  <text x="20" y="200" font-family="Arial" font-size="40" fill="black">Me: looks like I gotta wait till 9 now</text>
+  <g transform="translate(400, 400)">
+    <ellipse cx="0" cy="0" rx="80" ry="100" fill="#8B4513"/>
+    <circle cx="-40" cy="-20" r="15" fill="white"/>
+    <circle cx="40" cy="-20" r="15" fill="white"/>
+    <circle cx="-40" cy="-20" r="5" fill="black"/>
+    <circle cx="40" cy="-20" r="5" fill="black"/>
+    <ellipse cx="0" cy="10" rx="30" ry="20" fill="red"/>
+    <path d="M-30 30 Q0 60 30 30" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M-30 30 L-40 70 L-20 70 Z" fill="#8B4513"/>
+    <path d="M30 30 L40 70 L20 70 Z" fill="#8B4513"/>
+    <path d="M-50 -50 Q-30 -70 0 -70 Q30 -70 50 -50" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M-50 -50 Q-30 -30 0 -30 Q30 -30 50 -50" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M-50 -50 Q-30 -70 0 -70 Q30 -70 50 -50" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M-50 -50 Q-30 -30 0 -30 Q30 -30 50 -50" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M-50 -50 Q-30 -70 0 -70 Q30 -70 50 -50" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M-50 -50 Q-30 -30 0 -30 Q30 -30 50 -50" fill="none" stroke="black" stroke-width="2"/>
+  </g>
+  <text x="720" y="960" font-family="Arial" font-size="20" fill="gray">boredpanda.com</text>
+</svg>

@@ -1,0 +1,112 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Film Grain Filter -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.15 0"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    
+    <!-- Fisheye Circular Clip -->
+    <clipPath id="fisheye-clip">
+      <circle cx="400" cy="300" r="280"/>
+    </clipPath>
+    
+    <!-- Vignette Gradient -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="80%" stop-color="black" stop-opacity="0"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0.8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main Background (Black Frame) -->
+  <rect width="800" height="600" fill="#111"/>
+
+  <!-- Scene Content -->
+  <g clip-path="url(#fisheye-clip)">
+    
+    <!-- Sky -->
+    <rect width="800" height="600" fill="#e6eeef"/>
+    
+    <!-- Hills -->
+    <path d="M0 200 Q200 180 400 220 T800 200 V600 H0 Z" fill="#8ba870"/>
+    
+    <!-- Trees/Foliage Background -->
+    <path d="M-50 50 Q100 150 200 80 T400 100 T600 150 T850 100 V400 H-50 Z" fill="#1e3320"/>
+    <!-- Random leaves/texture in trees -->
+    <path d="M100 100 L120 140 L80 130 Z M300 80 L320 120 L280 110 Z M500 120 L520 160 L480 150 Z" fill="#2d4a2f"/>
+
+    <!-- The Other Horse (Right Side) -->
+    <path d="M600 250 Q650 230 700 260 Q750 250 800 280 V500 H600 Z" fill="#f5f0e6"/>
+    <path d="M600 250 Q650 230 700 260" fill="none" stroke="#e0d0c0" stroke-width="2"/>
+
+    <!-- Ground -->
+    <rect x="0" y="350" width="800" height="250" fill="#5c4033"/>
+    
+    <!-- Fence (Back Layer) -->
+    <path d="M0 300 Q400 280 800 300" stroke="#3e2723" stroke-width="15" fill="none"/>
+    <path d="M0 380 Q400 360 800 380" stroke="#3e2723" stroke-width="15" fill="none"/>
+    
+    <!-- Main Horse Body (Dark) -->
+    <path d="M350 150 Q450 180 500 350 L450 500 L300 500 Q320 300 350 150" fill="#231f20"/>
+    
+    <!-- Main Horse Head -->
+    <g transform="rotate(-10 300 250)">
+      <!-- Neck Shadow -->
+      <path d="M320 150 Q360 300 340 400 L280 350 Z" fill="#1a1717"/>
+      
+      <!-- Head Base -->
+      <path d="M310 80 L350 100 L380 250 Q390 320 350 360 Q310 380 270 350 Q250 320 260 250 L310 80" fill="#2b2626"/>
+      
+      <!-- Ears -->
+      <path d="M310 80 L290 40 L340 70 Z" fill="#231f20"/> <!-- Left Ear -->
+      <path d="M350 100 L370 50 L380 110 Z" fill="#231f20"/> <!-- Right Ear -->
+      
+      <!-- White Blaze -->
+      <path d="M325 120 Q335 180 330 240 Q328 280 320 300 L310 280 Q320 220 315 130 Z" fill="#f0f0f0"/>
+      
+      <!-- Eye -->
+      <circle cx="365" cy="180" r="8" fill="black"/>
+      <circle cx="367" cy="178" r="2" fill="white" opacity="0.6"/>
+      
+      <!-- Muzzle/Nose Highlights -->
+      <path d="M280 340 Q310 360 340 340" fill="none" stroke="#3a3030" stroke-width="5" opacity="0.5"/>
+      <ellipse cx="290" cy="330" rx="10" ry="15" fill="#111" transform="rotate(20)"/> <!-- Nostril -->
+      
+      <!-- Skin Highlights -->
+      <path d="M360 200 Q370 250 365 280" fill="none" stroke="#4a3b3b" stroke-width="4" opacity="0.3"/>
+    </g>
+
+    <!-- Fence (Front Layer - Posts and Rails) -->
+    <!-- Vertical Post -->
+    <rect x="380" y="280" width="40" height="300" fill="#2d1e17" transform="skewX(5)"/>
+    <!-- Another Post right -->
+    <rect x="650" y="280" width="30" height="300" fill="#2d1e17" transform="skewX(-5)"/>
+    
+    <!-- Diagonal Cross Beams -->
+    <path d="M300 350 L700 550 L720 520 L320 320 Z" fill="#3e2723"/>
+    
+    <!-- Forehead Foreground Fence Rail -->
+    <path d="M-50 350 Q400 330 850 350 L850 400 Q400 380 -50 400 Z" fill="#3e2723"/>
+    <!-- Wood Texture -->
+    <path d="M0 360 Q400 340 800 360" stroke="#5d4037" stroke-width="2" fill="none" opacity="0.5"/>
+
+    <!-- Finger (Bottom Left) -->
+    <g transform="translate(120, 520) rotate(-20)">
+        <path d="M0 0 Q30 50 60 40 Q90 30 80 -20 Q50 -60 0 0" fill="#eecfab"/>
+        <!-- Green Nail -->
+        <path d="M50 10 Q70 20 75 5 Q65 -10 45 0 Z" fill="#7cb342"/>
+        <path d="M55 5 Q65 10 70 5" stroke="#fff" stroke-width="2" opacity="0.4"/>
+    </g>
+
+    <!-- Grain Overlay -->
+    <rect width="800" height="600" filter="url(#grain)" opacity="0.4" style="mix-blend-mode: overlay;"/>
+    
+    <!-- Vignette Inside Clip -->
+    <circle cx="400" cy="300" r="280" fill="url(#vignette)"/>
+  </g>
+
+  <!-- Lens Border (Smoothing the edge) -->
+  <circle cx="400" cy="300" r="281" fill="none" stroke="#000" stroke-width="4"/>
+
+</svg>

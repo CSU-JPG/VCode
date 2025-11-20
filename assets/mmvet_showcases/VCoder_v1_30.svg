@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background with sunset gradient -->
+  <defs>
+    <radialGradient id="sunsetSky" cx="90%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFE4B5;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#FFD4A3;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="aircraftGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C0C0C0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5F9EA0;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <filter id="cloudFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+  </defs>
+  
+  <!-- Sky with sunset -->
+  <rect width="1920" height="1080" fill="url(#sunsetSky)"/>
+  
+  <!-- Ocean surface -->
+  <rect x="0" y="800" width="1920" height="280" fill="url(#oceanGradient)"/>
+  
+  <!-- Realistic cloud layers -->
+  <g opacity="0.8" filter="url(#cloudFilter)">
+    <path d="M 50,350 Q 150,300 250,350 T 450,350 Q 550,300 650,350 T 850,350 L 850,450 Q 650,500 450,450 T 50,450 Z" fill="#FFF8DC" opacity="0.9"/>
+    <path d="M 900,400 Q 1000,350 1100,400 T 1300,400 Q 1400,350 1500,400 T 1700,400 L 1700,500 Q 1500,550 1300,500 T 900,500 Z" fill="#FAEBD7" opacity="0.9"/>
+    <path d="M 200,600 Q 350,550 500,600 T 800,600 Q 950,550 1100,600 T 1400,600 L 1400,700 Q 1100,750 800,700 T 200,700 Z" fill="#FFE4B5" opacity="0.7"/>
+  </g>
+  
+  <!-- Lower cloud layer -->
+  <g opacity="0.6" filter="url(#cloudFilter)">
+    <path d="M -50,750 Q 100,700 250,750 T 550,750 Q 700,700 850,750 T 1150,750 Q 1300,700 1450,750 T 1750,750 L 1750,850 Q 1450,900 1150,850 T 550,850 Q 250,900 -50,850 Z" fill="#FFDEAD" opacity="0.8"/>
+  </g>
+  
+  <!-- Background F-14 Tomcat -->
+  <g transform="translate(300, 150) scale(0.3) rotate(-10)">
+    <path d="M 600,200 L 580,210 L 550,230 L 450,240 L 350,238 L 330,225 L 300,230 L 270,215 L 250,216 L 245,220 L 248,230 L 230,235 L 250,240 L 265,275 L 210,280 L 200,288 L 245,289 L 260,305 L 295,303 L 310,315 L 430,316 L 445,307 L 450,313 L 470,314 L 520,300 L 545,288 L 585,289 L 588,283 L 560,268 L 565,260 L 620,245 L 650,248 L 690,220 L 610,200 Z" fill="url(#aircraftGradient)" stroke="#999999" stroke-width="0.5"/>
+    <path d="M 550,250 L 580,245 L 585,255 L 580,265 L 550,270 Z" fill="rgba(50,50,80,0.8)" stroke="#333333" stroke-width="0.5"/>
+    <ellipse cx="565" cy="257" rx="8" ry="10" fill="rgba(255,255,255,0.3)"/>
+  </g>
+  
+  <!-- Main F-14 Tomcat with perspective -->
+  <g transform="translate(960, 540) skewY(-5) scale(1.2)">
+    <!-- Main fuselage with 3D perspective -->
+    <path d="M 400,-100 L 350,-80 L 250,-60 L -200,0 L -400,20 L -420,40 L -400,60 L -200,80 L 250,60 L 350,40 L 400,20 L 420,0 L 420,-20 L 400,-100 Z" fill="url(#aircraftGradient)" stroke="#B0B0B0" stroke-width="1"/>
+    
+    <!-- Wing with proper sweep angle -->
+    <path d="M 100,-20 L -300,100 L -500,120 L -520,140 L -500,160 L -300,180 L 100,60 L 250,40 L 270,20 L 250,0 L 100,-20 Z" fill="#E8E8E8" stroke="#A0A0A0" stroke-width="1"/>
+    
+    <!-- Second wing -->
+    <path d="M 100,20 L -300,140 L -500,160 L -520,180 L -500,200 L -300,220 L 100,100 L 250,80 L 270,60 L 250,40 L 100,20 Z" fill="#D8D8D8" stroke="#A0A0A0" stroke-width="1"/>
+    
+    <!-- Vertical stabilizers with proper angle -->
+    <path d="M -350,20 L -380,0 L -390,40 L -380,80 L -350,100 L -340,60 L -350,20 Z" fill="#E0E0E0" stroke="#999999" stroke-width="1"/>
+    <path d="M -350,60 L -380,40 L -390,80 L -380,120 L -350,140 L -340,100 L -350,60 Z" fill="#D0D0D0" stroke="#999999" stroke-width="1"/>
+    
+    <!-- Cockpit canopy with transparency -->
+    <path d="M 280,-60 L 350,-70 L 370,-50 L 360,-30 L 350,-10 L 280,-5 L 270,-25 L 280,-60 Z" fill="rgba(50,50,80,0.8)" stroke="#404040" stroke-width="1"/>
+    <ellipse cx="320" cy="-40" rx="30" ry="15" fill="rgba(255,255,255,0.3)"/>
+    
+    <!-- Pilots -->
+    <ellipse cx="310" cy="-35" rx="8" ry="12" fill="#1C1C1C"/>
+    <ellipse cx="330" cy="-38" rx="8" ry="12" fill="#1C1C1C"/>
+    
+    <!-- Engine intakes (rounded) -->
+    <ellipse cx="150" cy="20" rx="25" ry="20" fill="#505050" stroke="#404040" stroke-width="1"/>
+    <ellipse cx="150" cy="60" rx="25" ry="20" fill="#505050" stroke="#404040" stroke-width="1"/>
+    
+    <!-- Weapons/fuel tanks -->
+    <ellipse cx="-100" cy="120" rx="40" ry="8" fill="#707070" stroke="#505050" stroke-width="1"/>
+    <ellipse cx="-200" cy="130" rx="40" ry="8" fill="#707070" stroke="#505050" stroke-width="1"/>
+    <ellipse cx="-100" cy="160" rx="40" ry="8" fill="#707070" stroke="#505050" stroke-width="1"/>
+    <ellipse cx="-200" cy="170" rx="40" ry="8" fill="#707070" stroke="#505050" stroke-width="1"/>
+    
+    <!-- Panel lines -->
+    <line x1="250" y1="-40" x2="-200" y2="20" stroke="#B0B0B0" stroke-width="0.5"/>
+    <line x1="250" y1="0" x2="-200" y2="60" stroke="#B0B0B0" stroke-width="0.5"/>
+    <line x1="100" y1="-60" x2="100" y2="80" stroke="#B0B0B0" stroke-width="0.5"/>
+    
+    <!-- Squadron markings -->
+    <g transform="translate(-370, 60)">
+      <rect x="-10" y="-10" width="20" height="20" fill="#000000"/>
+      <text x="0" y="3" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">41</text>
+      <text x="0" y="9" font-family="Arial" font-size="5" fill="#FFFFFF" text-anchor="middle">CSA</text>
+    </g>
+    
+    <!-- US insignia -->
+    <circle cx="0" cy="40" r="20" fill="#FFFFFF" stroke="#FF0000" stroke-width="2"/>
+    <path d="M -15,40 L 15,40 M 0,25 L 0,55" stroke="#0000FF" stroke-width="3"/>
+    
+    <!-- Aircraft number -->
+    <text x="200" y="50" font-family="Arial" font-size="24" fill="#2C2C2C" font-weight="bold">101</text>
+    
+    <!-- NAVY text -->
+    <text x="50" y="45" font-family="Arial" font-size="18" fill="#2C2C2C" font-weight="bold">NAVY</text>
+  </g>
+  
+  <!-- Atmospheric haze -->
+  <rect width="1920" height="1080" fill="url(#sunsetSky)" opacity="0.2"/>
+</svg>

@@ -1,0 +1,147 @@
+<svg viewBox="0 0 1366 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd6db"/>
+      <stop offset="60%" stop-color="#b8c0c6"/>
+      <stop offset="100%" stop-color="#a9b0b6"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3c3f45"/>
+      <stop offset="60%" stop-color="#2f3338"/>
+      <stop offset="100%" stop-color="#24282c"/>
+    </linearGradient>
+    <linearGradient id="wallL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a5f4e"/>
+      <stop offset="100%" stop-color="#5e4739"/>
+    </linearGradient>
+    <linearGradient id="wallR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6e6b67"/>
+      <stop offset="100%" stop-color="#4d4b48"/>
+    </linearGradient>
+    <radialGradient id="fog" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mistL" cx="10%" cy="70%" r="40%">
+      <stop offset="0%" stop-color="#dfe4e8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#dfe4e8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mistR" cx="95%" cy="70%" r="35%">
+      <stop offset="0%" stop-color="#e6ebf0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e6ebf0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky/background -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#skyGrad)"/>
+
+  <!-- distant midtown buildings -->
+  <g opacity="0.6">
+    <rect x="470" y="20" width="170" height="420" fill="#7a838a"/>
+    <rect x="650" y="-10" width="70" height="480" fill="#949ca3" opacity="0.7"/>
+    <rect x="730" y="60" width="120" height="400" fill="#808a92" opacity="0.65"/>
+  </g>
+
+  <!-- left block of buildings -->
+  <g>
+    <rect x="0" y="0" width="560" height="700" fill="url(#wallL)"/>
+    <!-- windows/bays -->
+    <g fill="#2b2d31" opacity="0.55">
+      <rect x="30" y="40" width="480" height="70"/>
+      <rect x="30" y="140" width="480" height="70"/>
+      <rect x="30" y="240" width="480" height="70"/>
+      <rect x="30" y="340" width="480" height="70"/>
+      <rect x="30" y="440" width="480" height="70"/>
+      <rect x="30" y="540" width="480" height="70"/>
+    </g>
+    <!-- awnings -->
+    <g fill="#a46552" opacity="0.85">
+      <polygon points="180,300 250,300 230,330 160,330"/>
+      <polygon points="250,320 320,320 300,350 230,350"/>
+      <polygon points="320,340 390,340 370,370 300,370"/>
+    </g>
+  </g>
+
+  <!-- right block of buildings -->
+  <g>
+    <rect x="930" y="0" width="436" height="760" fill="url(#wallR)"/>
+    <g fill="#2a2a2a" opacity="0.55">
+      <rect x="960" y="40" width="120" height="120"/>
+      <rect x="1090" y="40" width="120" height="120"/>
+      <rect x="960" y="190" width="120" height="120"/>
+      <rect x="1090" y="190" width="120" height="120"/>
+      <rect x="960" y="340" width="120" height="120"/>
+      <rect x="1090" y="340" width="120" height="120"/>
+    </g>
+  </g>
+
+  <!-- street/road -->
+  <polygon points="110,768 1366,768 900,480 600,480" fill="url(#roadGrad)"/>
+  <!-- sidewalks -->
+  <polygon points="0,768 110,768 600,480 520,480 0,680" fill="#6a6a6a"/>
+  <polygon points="900,480 1366,768 1366,620 980,480" fill="#6f6f6f"/>
+
+  <!-- parked cars silhouettes left -->
+  <g fill="#676c70">
+    <rect x="0" y="600" width="220" height="110" rx="14"/>
+    <rect x="210" y="610" width="150" height="80" rx="12"/>
+    <rect x="370" y="600" width="180" height="100" rx="15"/>
+  </g>
+
+  <!-- approaching cars simple forms -->
+  <g opacity="0.9">
+    <rect x="540" y="515" width="60" height="25" fill="#9aa1a7" rx="5"/>
+    <rect x="635" y="500" width="90" height="45" fill="#a0a6ac" rx="8"/>
+    <rect x="800" y="495" width="120" height="60" fill="#9ea5aa" rx="10"/>
+  </g>
+
+  <!-- double yellow center lines -->
+  <g stroke="#f1c232" stroke-width="8" stroke-linecap="round" fill="none">
+    <polyline points="680,520 430,768" />
+    <polyline points="695,520 470,768" />
+  </g>
+
+  <!-- curb details -->
+  <rect x="1240" y="640" width="18" height="60" fill="#1b1b1b" rx="4"/>
+  <circle cx="1249" cy="632" r="16" fill="#f7e35d"/>
+
+  <!-- Road Work Ahead sign -->
+  <g transform="translate(1150,250)">
+    <rect x="-2" y="2" width="4" height="180" fill="#6b6a64"/>
+    <g transform="translate(0,0) rotate(45)">
+      <rect x="-60" y="-60" width="120" height="120" fill="#ff8f3a" stroke="#b25a19" stroke-width="6"/>
+      <text x="0" y="-8" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" fill="#2b2b2b" font-weight="700">ROAD</text>
+      <text x="0" y="20" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" fill="#2b2b2b" font-weight="700">WORK</text>
+      <text x="0" y="48" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle" fill="#2b2b2b" font-weight="700">AHEAD</text>
+    </g>
+  </g>
+
+  <!-- highlight boxes (as in the photo) -->
+  <rect x="642" y="410" width="76" height="64" fill="none" stroke="#2bdc00" stroke-width="4"/>
+  <rect x="806" y="360" width="112" height="130" fill="none" stroke="#2659ff" stroke-width="6"/>
+  <rect x="1025" y="420" width="38" height="110" fill="none" stroke="#ff1a1a" stroke-width="5"/>
+
+  <!-- distant perspective buildings in the lane -->
+  <g opacity="0.6">
+    <rect x="560" y="260" width="120" height="220" fill="#7f6f60"/>
+    <rect x="680" y="260" width="120" height="220" fill="#8a7a6b"/>
+    <rect x="800" y="260" width="120" height="220" fill="#7b6b5d"/>
+  </g>
+
+  <!-- mist and rain haze overlays -->
+  <rect x="0" y="0" width="1366" height="768" fill="url(#fog)"/>
+  <rect x="0" y="420" width="500" height="348" fill="url(#mistL)"/>
+  <rect x="900" y="420" width="466" height="348" fill="url(#mistR)"/>
+
+  <!-- subtle rain streaks -->
+  <g stroke="#ffffff" stroke-opacity="0.18">
+    <line x1="60" y1="40" x2="20" y2="120" stroke-width="2"/>
+    <line x1="140" y1="20" x2="100" y2="110" stroke-width="1.8"/>
+    <line x1="300" y1="10" x2="265" y2="105" stroke-width="2"/>
+    <line x1="480" y1="40" x2="440" y2="130" stroke-width="1.8"/>
+    <line x1="720" y1="30" x2="685" y2="120" stroke-width="1.6"/>
+    <line x1="980" y1="20" x2="945" y2="110" stroke-width="1.6"/>
+    <line x1="1200" y1="60" x2="1160" y2="150" stroke-width="2"/>
+  </g>
+</svg>

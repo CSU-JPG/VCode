@@ -1,0 +1,113 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="1200" height="400" fill="#87CEEB"/>
+  
+  <!-- Trees in background -->
+  <ellipse cx="150" cy="250" rx="80" ry="120" fill="#8B7355" opacity="0.7"/>
+  <ellipse cx="350" cy="220" rx="90" ry="140" fill="#8B7355" opacity="0.6"/>
+  <ellipse cx="550" cy="240" rx="85" ry="130" fill="#8B7355" opacity="0.7"/>
+  <ellipse cx="750" cy="230" rx="95" ry="135" fill="#8B7355" opacity="0.6"/>
+  <ellipse cx="950" cy="250" rx="80" ry="125" fill="#8B7355" opacity="0.7"/>
+  
+  <!-- Tree foliage -->
+  <ellipse cx="150" cy="180" rx="60" ry="80" fill="#90EE90" opacity="0.5"/>
+  <ellipse cx="350" cy="150" rx="70" ry="90" fill="#90EE90" opacity="0.4"/>
+  <ellipse cx="550" cy="170" rx="65" ry="85" fill="#90EE90" opacity="0.5"/>
+  <ellipse cx="750" cy="160" rx="75" ry="95" fill="#90EE90" opacity="0.4"/>
+  <ellipse cx="950" cy="180" rx="60" ry="80" fill="#90EE90" opacity="0.5"/>
+  
+  <!-- Buildings in background -->
+  <!-- Green house on left -->
+  <rect x="50" y="300" width="150" height="200" fill="#2F4F2F"/>
+  <polygon points="50,300 125,250 200,300" fill="#4F4F4F"/>
+  <rect x="80" y="350" width="40" height="60" fill="#333"/>
+  <rect x="130" y="350" width="40" height="60" fill="#333"/>
+  
+  <!-- Cream/beige houses in middle -->
+  <rect x="300" y="280" width="160" height="220" fill="#F5DEB3"/>
+  <polygon points="300,280 380,230 460,280" fill="#8B7D6B"/>
+  <rect x="320" y="320" width="35" height="50" fill="#4F4F4F"/>
+  <rect x="370" y="320" width="35" height="50" fill="#4F4F4F"/>
+  <rect x="420" y="320" width="35" height="50" fill="#4F4F4F"/>
+  <rect x="320" y="400" width="35" height="50" fill="#4F4F4F"/>
+  <rect x="370" y="400" width="35" height="50" fill="#4F4F4F"/>
+  
+  <!-- Another building -->
+  <rect x="500" y="290" width="140" height="210" fill="#DEB887"/>
+  <polygon points="500,290 570,240 640,290" fill="#8B7D6B"/>
+  
+  <!-- Brick building on right -->
+  <rect x="900" y="350" width="280" height="200" fill="#B22222"/>
+  <!-- Brick pattern -->
+  <g opacity="0.3">
+    <rect x="905" y="355" width="25" height="10" fill="#8B0000"/>
+    <rect x="935" y="355" width="25" height="10" fill="#8B0000"/>
+    <rect x="965" y="355" width="25" height="10" fill="#8B0000"/>
+    <rect x="995" y="355" width="25" height="10" fill="#8B0000"/>
+    <rect x="920" y="370" width="25" height="10" fill="#8B0000"/>
+    <rect x="950" y="370" width="25" height="10" fill="#8B0000"/>
+    <rect x="980" y="370" width="25" height="10" fill="#8B0000"/>
+  </g>
+  
+  <!-- Street/road -->
+  <rect x="0" y="550" width="1200" height="350" fill="#696969"/>
+  
+  <!-- Yellow center lines -->
+  <rect x="0" y="720" width="1200" height="8" fill="#FFD700"/>
+  <rect x="0" y="735" width="1200" height="8" fill="#FFD700"/>
+  
+  <!-- Fences -->
+  <rect x="0" y="480" width="300" height="3" fill="#8B8B8B"/>
+  <rect x="20" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="60" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="100" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="140" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="180" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="220" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="260" y="480" width="3" height="70" fill="#8B8B8B"/>
+  
+  <rect x="700" y="480" width="200" height="3" fill="#8B8B8B"/>
+  <rect x="720" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="760" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="800" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="840" y="480" width="3" height="70" fill="#8B8B8B"/>
+  <rect x="880" y="480" width="3" height="70" fill="#8B8B8B"/>
+  
+  <!-- Blue car (wagon) in foreground -->
+  <rect x="400" y="620" width="180" height="60" fill="#4682B4"/>
+  <rect x="380" y="640" width="220" height="40" fill="#4682B4"/>
+  <polygon points="600,640 620,650 620,680 600,680" fill="#4682B4"/>
+  <polygon points="380,640 360,650 360,680 380,680" fill="#4682B4"/>
+  <!-- Windows -->
+  <rect x="420" y="625" width="40" height="30" fill="#87CEEB" opacity="0.6"/>
+  <rect x="470" y="625" width="40" height="30" fill="#87CEEB" opacity="0.6"/>
+  <rect x="520" y="625" width="40" height="30" fill="#87CEEB" opacity="0.6"/>
+  <rect x="565" y="635" width="25" height="20" fill="#87CEEB" opacity="0.6"/>
+  <!-- Wheels -->
+  <circle cx="420" cy="685" r="15" fill="#2F2F2F"/>
+  <circle cx="420" cy="685" r="10" fill="#C0C0C0"/>
+  <circle cx="540" cy="685" r="15" fill="#2F2F2F"/>
+  <circle cx="540" cy="685" r="10" fill="#C0C0C0"/>
+  
+  <!-- White car in background -->
+  <rect x="250" y="580" width="140" height="50" fill="#F5F5F5"/>
+  <rect x="240" y="600" width="160" height="35" fill="#F5F5F5"/>
+  <polygon points="400,600 415,610 415,635 400,635" fill="#F5F5F5"/>
+  <polygon points="240,600 225,610 225,635 240,635" fill="#F5F5F5"/>
+  <!-- Windows -->
+  <rect x="265" y="585" width="30" height="25" fill="#87CEEB" opacity="0.5"/>
+  <rect x="305" y="585" width="30" height="25" fill="#87CEEB" opacity="0.5"/>
+  <rect x="345" y="585" width="30" height="25" fill="#87CEEB" opacity="0.5"/>
+  <!-- Wheels -->
+  <circle cx="270" cy="640" r="12" fill="#2F2F2F"/>
+  <circle cx="270" cy="640" r="8" fill="#C0C0C0"/>
+  <circle cx="360" cy="640" r="12" fill="#2F2F2F"/>
+  <circle cx="360" cy="640" r="8" fill="#C0C0C0"/>
+  
+  <!-- Street sign post -->
+  <rect x="680" y="400" width="5" height="150" fill="#708090"/>
+  <rect x="670" y="390" width="25" height="25" fill="#DC143C"/>
+  
+  <!-- Trash bin -->
+  <rect x="1050" y="510" width="30" height="40" fill="#2F4F2F"/>
+</svg>

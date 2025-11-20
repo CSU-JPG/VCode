@@ -1,0 +1,54 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1200" fill="#2d5016"/>
+  
+  <!-- Trees/foliage background -->
+  <ellipse cx="400" cy="200" rx="450" ry="250" fill="#1a3409" opacity="0.8"/>
+  <ellipse cx="200" cy="150" rx="200" ry="150" fill="#234d0f" opacity="0.7"/>
+  <ellipse cx="600" cy="180" rx="220" ry="160" fill="#1f4510" opacity="0.7"/>
+  
+  <!-- Grass -->
+  <rect x="0" y="400" width="800" height="800" fill="#4a7c2e"/>
+  <ellipse cx="400" cy="1200" rx="500" ry="300" fill="#5b8f3a"/>
+  
+  <!-- Person -->
+  <!-- Body -->
+  <rect x="320" y="700" width="160" height="200" rx="20" fill="#dc143c" transform="rotate(-20 400 800)"/>
+  <!-- Arms -->
+  <rect x="250" y="720" width="120" height="40" rx="20" fill="#dc143c" transform="rotate(-45 310 740)"/>
+  <rect x="430" y="720" width="120" height="40" rx="20" fill="#dc143c" transform="rotate(30 490 740)"/>
+  <!-- Shorts -->
+  <rect x="340" y="850" width="120" height="100" rx="15" fill="#1e3a5f" transform="rotate(-20 400 900)"/>
+  <!-- Legs -->
+  <rect x="330" y="920" width="50" height="120" rx="25" fill="#f4c2a1" transform="rotate(-30 355 980)"/>
+  <rect x="420" y="920" width="50" height="120" rx="25" fill="#f4c2a1" transform="rotate(10 445 980)"/>
+  <!-- Head -->
+  <circle cx="400" cy="650" r="60" fill="#f4c2a1"/>
+  <!-- Cap -->
+  <path d="M 340 630 Q 400 610 460 630 L 460 650 Q 400 660 340 650 Z" fill="#ffffff"/>
+  <ellipse cx="400" cy="630" rx="65" ry="15" fill="#ffffff"/>
+  
+  <!-- Dog -->
+  <!-- Body -->
+  <ellipse cx="400" cy="500" rx="80" ry="60" fill="#1a1a2e" transform="rotate(-30 400 500)"/>
+  <!-- Chest -->
+  <ellipse cx="380" cy="480" rx="40" ry="50" fill="#ffffff"/>
+  <!-- Head -->
+  <ellipse cx="350" cy="450" rx="45" ry="40" fill="#1a1a2e" transform="rotate(-20 350 450)"/>
+  <ellipse cx="340" cy="445" rx="25" ry="30" fill="#ffffff"/>
+  <!-- Legs -->
+  <rect x="360" y="520" width="25" height="60" rx="12" fill="#1a1a2e" transform="rotate(-40 372 550)"/>
+  <rect x="400" y="520" width="25" height="60" rx="12" fill="#1a1a2e" transform="rotate(-20 412 550)"/>
+  <rect x="420" y="480" width="25" height="60" rx="12" fill="#1a1a2e" transform="rotate(30 432 510)"/>
+  <rect x="380" y="480" width="25" height="60" rx="12" fill="#1a1a2e" transform="rotate(10 392 510)"/>
+  <!-- Tail -->
+  <path d="M 450 500 Q 480 480 490 510" stroke="#1a1a2e" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <circle cx="490" cy="510" r="10" fill="#ffffff"/>
+  <!-- Mouth open -->
+  <path d="M 320 440 Q 310 450 320 460 L 340 455 Z" fill="#ff1493"/>
+  
+  <!-- Frisbee -->
+  <ellipse cx="250" cy="350" rx="60" ry="20" fill="#ff6347" transform="rotate(-20 250 350)"/>
+  <ellipse cx="250" cy="350" rx="45" ry="15" fill="#ff8c69" transform="rotate(-20 250 350)"/>
+  <ellipse cx="250" cy="350" rx="30" ry="10" fill="#ffa07a" transform="rotate(-20 250 350)"/>
+</svg>

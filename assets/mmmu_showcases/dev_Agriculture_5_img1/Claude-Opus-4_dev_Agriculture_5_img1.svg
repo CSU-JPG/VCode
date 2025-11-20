@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background soil -->
+  <rect x="0" y="0" width="800" height="1000" fill="#3a3028"/>
+  
+  <!-- Soil texture -->
+  <circle cx="100" cy="900" r="8" fill="#2a2018" opacity="0.7"/>
+  <circle cx="300" cy="850" r="6" fill="#4a3838" opacity="0.6"/>
+  <circle cx="500" cy="920" r="10" fill="#2a2018" opacity="0.8"/>
+  <circle cx="700" cy="880" r="7" fill="#4a3838" opacity="0.5"/>
+  <circle cx="150" cy="950" r="5" fill="#5a4848" opacity="0.6"/>
+  <circle cx="400" cy="870" r="9" fill="#2a2018" opacity="0.7"/>
+  
+  <!-- Small green plants in background -->
+  <ellipse cx="650" cy="750" rx="15" ry="25" fill="#4a7c59" transform="rotate(-20 650 750)"/>
+  <ellipse cx="680" cy="780" rx="12" ry="20" fill="#5a8c69" transform="rotate(30 680 780)"/>
+  
+  <!-- Large cabbage/bok choy leaves -->
+  
+  <!-- Bottom left plant -->
+  <path d="M 50 800 Q 20 700, 80 650 Q 140 600, 180 650 Q 200 700, 150 780 Q 100 820, 50 800" fill="#7cb342" stroke="#5a8c2a" stroke-width="2"/>
+  <path d="M 80 750 Q 70 720, 90 700 Q 110 680, 130 700 Q 140 720, 120 740 Q 100 755, 80 750" fill="#8bc34a"/>
+  <line x1="80" y1="780" x2="100" y2="700" stroke="#5a8c2a" stroke-width="3"/>
+  
+  <!-- Center bottom plant -->
+  <path d="M 350 850 Q 320 750, 380 700 Q 440 650, 480 700 Q 500 750, 450 830 Q 400 870, 350 850" fill="#7cb342" stroke="#5a8c2a" stroke-width="2"/>
+  <line x1="380" y1="830" x2="400" y2="750" stroke="#5a8c2a" stroke-width="3"/>
+  
+  <!-- Right side large leaf -->
+  <path d="M 600 600 Q 570 500, 630 450 Q 690 400, 730 450 Q 750 500, 700 580 Q 650 620, 600 600" fill="#8bc34a" stroke="#6a9c2a" stroke-width="2"/>
+  <line x1="630" y1="580" x2="650" y2="500" stroke="#6a9c2a" stroke-width="3"/>
+  
+  <!-- Top center leaves -->
+  <path d="M 250 400 Q 220 300, 280 250 Q 340 200, 380 250 Q 400 300, 350 380 Q 300 420, 250 400" fill="#9ccc65" stroke="#7cb342" stroke-width="2"/>
+  <line x1="280" y1="380" x2="300" y2="300" stroke="#7cb342" stroke-width="3"/>
+  
+  <!-- Upper right leaf -->
+  <path d="M 500 300 Q 470 200, 530 150 Q 590 100, 630 150 Q 650 200, 600 280 Q 550 320, 500 300" fill="#aed581" stroke="#8bc34a" stroke-width="2"/>
+  <line x1="530" y1="280" x2="550" y2="200" stroke="#8bc34a" stroke-width="3"/>
+  
+  <!-- Yellowing/dried leaves -->
+  <path d="M 200 700 Q 180 650, 220 620 Q 260 590, 280 620 Q 290 650, 260 690 Q 230 710, 200 700" fill="#c5b358" stroke="#a09048" stroke-width="2"/>
+  <path d="M 200 700 Q 190 680, 210 670 Q 230 660, 240 670 Q 245 680, 230 690 Q 215 695, 200 700" fill="#d4c468" opacity="0.7"/>
+  
+  <path d="M 450 600 Q 430 550, 470 520 Q 510 490, 530 520 Q 540 550, 510 590 Q 480 610, 450 600" fill="#b5a348" stroke="#958338" stroke-width="2"/>
+  
+  <!-- Wilted/curled leaves -->
+  <path d="M 300 550 Q 280 500, 290 480 Q 300 460, 320 470 Q 340 480, 330 510 Q 320 540, 300 550" fill="#a59545" stroke="#857535" stroke-width="2" transform="rotate(15 310 510)"/>
+  
+  <path d="M 150 600 Q 130 570, 140 550 Q 150 530, 170 540 Q 190 550, 180 570 Q 170 590, 150 600" fill="#b5a555" stroke="#958545" stroke-width="2" transform="rotate(-20 160 570)"/>
+  
+  <!-- Leaf veins detail -->
+  <line x1="350" y1="830" x2="380" y2="780" stroke="#6a8c2a" stroke-width="1" opacity="0.6"/>
+  <line x1="350" y1="830" x2="320" y2="780" stroke="#6a8c2a" stroke-width="1" opacity="0.6"/>
+  <line x1="380" y1="800" x2="400" y2="750" stroke="#6a8c2a" stroke-width="1" opacity="0.6"/>
+  
+  <line x1="280" y1="380" x2="310" y2="330" stroke="#6a8c2a" stroke-width="1" opacity="0.6"/>
+  <line x1="280" y1="380" x2="250" y2="330" stroke="#6a8c2a" stroke-width="1" opacity="0.6"/>
+  
+  <line x1="630" y1="580" x2="660" y2="530" stroke="#5a7c1a" stroke-width="1" opacity="0.6"/>
+  <line x1="630" y1="580" x2="600" y2="530" stroke="#5a7c1a" stroke-width="1" opacity="0.6"/>
+</svg>
