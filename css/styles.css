@@ -153,29 +153,13 @@ body {
     font-size: 0.85rem;
 }
 
-    /* Teaser 容器最大宽度调整，为了容纳6张图，稍微宽一点 */
     .teaser-carousel {
-
-        /* 1. 增大顶部间距：让它离上面的徽章(Badges)远一点 */
         margin-top: 40px; 
-        
-        /* 2. 减小底部间距：原先可能是40px，现在改小，拉近与下方分割线的距离 */
         margin-bottom: 40px; 
-        max-width: 1100px; /* 增加宽度 */
+        max-width: 1100px;
         margin-left: auto;
         margin-right: auto;
     }
-
-
-    /* .model-label {
-        font-size: 0.8rem;
-        font-weight: 700;
-        color: #444;
-        margin-bottom: 6px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    } */
 
 
     .model-label {
@@ -188,28 +172,26 @@ body {
         margin-bottom: 6px;
     }
 
-    /* 图片样式 */
     .comp-img {
         width: 100%;
         height: auto;
-        border: 1px solid #eee; /* 加上淡边框让白色背景图也清晰 */
+        border: 1px solid #eee;
         border-radius: 4px;
         transition: transform 0.2s;
     }
     .comp-img:hover {
-        transform: scale(1.05); /* 鼠标悬停轻微放大 */
+        transform: scale(1.05);
         z-index: 10;
         box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
-    /* QA 文本框 (保持之前的风格) */
     .qa-box {
         margin-top: 18px;
         text-align: left;
         background-color: #f8f9fa;
         padding: 15px 25px;
         border-radius: 8px;
-        border-left: 5px solid #0d6efd; /* 左侧加个蓝条装饰 */
+        border-left: 5px solid #0d6efd;
     }
     
     .question-text { font-weight: 600; color: #2c3e50; margin-bottom: 5px; }
@@ -218,44 +200,29 @@ body {
     .a-tag { color: #198754; font-weight: bold; margin-right: 5px; }
 
 
-    /* 覆盖 Bootstrap 默认的按钮定位 */
 .carousel-control-prev,
 .carousel-control-next {
-    /* 1. 取消默认的全高度拉伸 */
     height: auto;
     bottom: auto; 
-    
-    /* 2. 关键调整：手动指定垂直位置 */
-    /* 50% 是整体的正中间。因为图片在上面，我们将它设为 35% 左右，
-       这样视觉上就刚好落在图片行的中间 */
     top: 35%; 
-    
-    /* 3. 自身垂直居中修正 */
     transform: translateY(-50%);
-    
-    /* 4. 保持之前的左右偏移 (稍微调大一点点防止遮挡最边缘的图) */
     width: 5%; 
 }
 
 .carousel-control-prev { left: -6%; }
 .carousel-control-next { right: -6%; }
 
-/* 针对移动端的微调 (手机上QA文本变长，整体变高，比例可能需要微调) */
 @media (max-width: 768px) {
     .carousel-control-prev,
     .carousel-control-next {
-        top: 25%; /* 手机上图片占比更小，按钮再往上提一点 */
+        top: 25%;
         left: 0;
         right: 0;
     }
 }
 
-/* 添加到你的 CSS 文件中 */
 .question-text, .answer-text {
-    /* 核心：保留代码里的回车换行，同时自动合并多余的缩进 */
     white-space: pre-line; 
-    
-    /* 辅助样式：防止长单词溢出，增加行高 */
     word-wrap: break-word;
     line-height: 1.5;
 }
