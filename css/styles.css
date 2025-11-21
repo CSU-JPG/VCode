@@ -249,3 +249,13 @@ body {
         right: 0;
     }
 }
+
+/* 添加到你的 CSS 文件中 */
+.question-text, .answer-text {
+    /* 核心：保留代码里的回车换行，同时自动合并多余的缩进 */
+    white-space: pre-line; 
+    
+    /* 辅助样式：防止长单词溢出，增加行高 */
+    word-wrap: break-word;
+    line-height: 1.5;
+}

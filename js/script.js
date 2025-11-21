@@ -375,10 +375,33 @@ function renderTable() {
     initializeTooltips();
 }
 
+    var textElements = document.querySelectorAll('.question-text, .answer-text');
+    function decodeSpecialChars(str) {
+        if (!str) return str;
+
+        str = str.replace(/\\u([0-9a-fA-F]{4})/g, function(match, hex) {
+            return String.fromCharCode(parseInt(hex, 16));
+        });
+        str = str.replace(/\\\\n/g, '<br>');
+        str = str.replace(/\\n/g, '<br>');
+        str = str.replace(/\\"/g, '"');
+        return str;
+    }
+
+    textElements.forEach(function(el) {
+        var rawHtml = el.innerHTML;
+        var decodedHtml = decodeSpecialChars(rawHtml);
+        if (rawHtml !== decodedHtml) {
+            el.innerHTML = decodedHtml;
+        }
+    });
+    
     document.querySelectorAll('input[name="benchmarkRadio"]').forEach(r => r.addEventListener('change', e => { currentBenchmark = e.target.value; updateSubMetricButtons(); updateChart(); }));
     document.querySelectorAll('input[name="viewRadio"]').forEach(r => r.addEventListener('change', e => { currentView = e.target.value; updateChart(); }));
     document.getElementById('toggleUnknownSize').addEventListener('change', updateChart);
     window.addEventListener('resize', () => myChart.resize());
     updateSubMetricButtons();
     updateChart();
+
+    
 })

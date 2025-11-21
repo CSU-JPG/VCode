@@ -272,6 +272,251 @@
         </button>
     </div>
 
+
+<!-- CVBench Showcases Carousel -->
+<div id="cvbenchCarousel" class="carousel slide teaser-carousel" data-bs-ride="carousel" data-bs-interval="8000">
+    <div class="carousel-inner">
+        
+        <!-- Case 1: ade20k_552 (根据截图2，原始图是PNG) -->
+        <div class="carousel-item active" data-case-id="ade20k_552">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/ade20k_552/ade20k_552.png" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/ade20k_552/Gemini-3-Pro_ade20k_552.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/ade20k_552/VCoder_ade20k_552.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/ade20k_552/Claude-Opus-4_ade20k_552.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/ade20k_552/GPT-5_ade20k_552.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/ade20k_552/Qwen3-VL_ade20k_552.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>How many cars are in the image? Select from the following choices.
+(A) 5
+(B) 3
+(C) 2
+(D) 1
+(E) 4
+(F) 0
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(B)</div>
+            </div>
+        </div>
+
+        <!-- Case 2: coco_192 (假设COCO原始图是jpg，如果显示不出来请改为png) -->
+        <div class="carousel-item" data-case-id="coco_192">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/coco_192/coco_192.png" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/coco_192/Gemini-3-Pro_coco_192.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/coco_192/VCoder_coco_192.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/coco_192/Claude-Opus-4_coco_192.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/coco_192/GPT-5_coco_192.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/coco_192/Qwen3-VL_coco_192.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>Considering the relative positions of the person and the boat in the image provided, where is the person located with respect to the boat? Select from the following choices.
+(A) above
+(B) below
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(B)</div>
+            </div>
+        </div>
+
+        <!-- Case 3: coco_342 -->
+        <div class="carousel-item" data-case-id="coco_342">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/coco_342/coco_342.png" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/coco_342/Gemini-3-Pro_coco_342.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/coco_342/VCoder_coco_342.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/coco_342/Claude-Opus-4_coco_342.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/coco_342/GPT-5_coco_342.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/coco_342/Qwen3-VL_coco_342.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>Considering the relative positions of the person (annotated by the red box) and the cell phone in the image provided, where is the person (annotated by the red box) located with respect to the cell phone? Select from the following choices.
+(A) above
+(B) below
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(A)</div>
+            </div>
+        </div>
+
+        <!-- Case 4: coco_464 -->
+        <div class="carousel-item" data-case-id="coco_464">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/coco_464/coco_464.png" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/coco_464/Gemini-3-Pro_coco_464.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/coco_464/VCoder_coco_464.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/coco_464/Claude-Opus-4_coco_464.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/coco_464/GPT-5_coco_464.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/coco_464/Qwen3-VL_coco_464.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>Considering the relative positions of the sheep and the horse in the image provided, where is the sheep located with respect to the horse? Select from the following choices.
+(A) left
+(B) right
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(B)</div>
+            </div>
+        </div>
+
+        <!-- Case 5: coco_471 -->
+        <div class="carousel-item" data-case-id="coco_471">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/coco_471/coco_471.png" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/coco_471/Gemini-3-Pro_coco_471.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/coco_471/VCoder_coco_471.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/coco_471/Claude-Opus-4_coco_471.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/coco_471/GPT-5_coco_471.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/coco_471/Qwen3-VL_coco_471.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>How many benchs are in the image? Select from the following choices.
+(A) 1
+(B) 3
+(C) 2
+(D) 0
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(A)</div>
+            </div>
+        </div>
+
+        <!-- Case 6: coco_564 -->
+        <div class="carousel-item" data-case-id="coco_564">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/coco_564/coco_564.png" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/coco_564/Gemini-3-Pro_coco_564.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/coco_564/VCoder_coco_564.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/coco_564/Claude-Opus-4_coco_564.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/coco_564/GPT-5_coco_564.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/coco_564/Qwen3-VL_coco_564.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>Considering the relative positions of the bottle and the suitcase in the image provided, where is the bottle located with respect to the suitcase? Select from the following choices.
+(A) left
+(B) right
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(B)</div>
+            </div>
+        </div>
+
+        <!-- Case 7: omni3d_nuscenes_53 -->
+        <div class="carousel-item" data-case-id="omni3d_nuscenes_53">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/omni3d_nuscenes_53/omni3d_nuscenes_53.jpg" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/omni3d_nuscenes_53/Gemini-3-Pro_omni3d_nuscenes_53.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/omni3d_nuscenes_53/VCoder_omni3d_nuscenes_53.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/omni3d_nuscenes_53/Claude-Opus-4_omni3d_nuscenes_53.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/omni3d_nuscenes_53/GPT-5_omni3d_nuscenes_53.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/omni3d_nuscenes_53/Qwen3-VL_omni3d_nuscenes_53.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>Estimate the real-world distances between objects in this image. Which object is closer to the pedestrian (highlighted by a red box), the truck (highlighted by a blue box) or the bus (highlighted by a green box)?
+(A) truck
+(B) bus
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(A)</div>
+            </div>
+        </div>
+
+        <!-- Case 8: omni3d_nuscenes_183 -->
+        <div class="carousel-item" data-case-id="omni3d_nuscenes_183">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/omni3d_nuscenes_183/omni3d_nuscenes_183.jpg" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/omni3d_nuscenes_183/Gemini-3-Pro_omni3d_nuscenes_183.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/omni3d_nuscenes_183/VCoder_omni3d_nuscenes_183.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/omni3d_nuscenes_183/Claude-Opus-4_omni3d_nuscenes_183.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/omni3d_nuscenes_183/GPT-5_omni3d_nuscenes_183.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/omni3d_nuscenes_183/Qwen3-VL_omni3d_nuscenes_183.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>Estimate the real-world distances between objects in this image. Which object is closer to the motorcycle (highlighted by a red box), the car (highlighted by a blue box) or the pedestrian (highlighted by a green box)?
+(A) car
+(B) pedestrian
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(A)</div>
+            </div>
+        </div>
+
+        <!-- Case 9: omni3d_sunrgbd_107 -->
+        <div class="carousel-item" data-case-id="omni3d_sunrgbd_107">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/cvbench_showcases/omni3d_sunrgbd_107/omni3d_sunrgbd_107.jpg" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/cvbench_showcases/omni3d_sunrgbd_107/Gemini-3-Pro_omni3d_sunrgbd_107.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/cvbench_showcases/omni3d_sunrgbd_107/VCoder_omni3d_sunrgbd_107.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/cvbench_showcases/omni3d_sunrgbd_107/Claude-Opus-4_omni3d_sunrgbd_107.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/cvbench_showcases/omni3d_sunrgbd_107/GPT-5_omni3d_sunrgbd_107.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/cvbench_showcases/omni3d_sunrgbd_107/Qwen3-VL_omni3d_sunrgbd_107.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span>Which object is closer to the camera taking this photo, the books (highlighted by a red box) or the computer (highlighted by a blue box)?
+(A) books
+(B) computer
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>(A)</div>
+            </div>
+        </div>
+        <!-- Case 10: MMMU  -->
+        <div class="carousel-item" data-case-id="mmmu">
+            <div class="container-fluid px-0">
+                <div class="row g-1 text-center">
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Orig</div><img src="assets/mmmu_showcases/dev_Agriculture_5_img1/dev_Agriculture_5_img1.png" class="comp-img mt-auto" alt="Original"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Gemini-3-Pro</div><img src="assets/mmmu_showcases/dev_Agriculture_5_img1/Gemini-3-Pro_dev_Agriculture_5_img1.svg" class="comp-img mt-auto" alt="Gemini"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">VCoder(Claude-4-Opus)</div><img src="assets/mmmu_showcases/dev_Agriculture_5_img1/VCoder_dev_Agriculture_5_img1.svg" class="comp-img mt-auto" alt="VCoder"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Claude-4-Opus</div><img src="assets/mmmu_showcases/dev_Agriculture_5_img1/Claude-Opus-4_dev_Agriculture_5_img1.svg" class="comp-img mt-auto" alt="Claude"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">GPT-5</div><img src="assets/mmmu_showcases/dev_Agriculture_5_img1/GPT-5_dev_Agriculture_5_img1.svg" class="comp-img mt-auto" alt="GPT-5"></div>
+                    <div class="col-2 d-flex flex-column"><div class="model-label">Qwen3-VL</div><img src="assets/mmmu_showcases/dev_Agriculture_5_img1/Qwen3-VL_dev_Agriculture_5_img1.svg" class="comp-img mt-auto" alt="Qwen3"></div>
+                </div>
+            </div>
+            <div class="qa-box">
+                <div class="question-text"><span class="q-tag">Q:</span> What among the listed issues would not be the cause for the petioles of this rhubarb splitting?
+(A) Physiological problems
+(B) Phytoplasma infection
+(C) I don't know and don't want to guess.
+(D) Animal damage
+(E) Bacteria
+
+Answer with the option's letter from the given choices directly.</div>
+                <div class="answer-text"><span class="a-tag">A:</span>E</div>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#cvbenchCarousel" data-bs-slide="prev">
+        <span style="background-color: rgba(0,0,0,0.3); border-radius: 50%; padding: 10px; display:flex; align-items:center; justify-content:center; width:40px; height:40px;">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cvbenchCarousel" data-bs-slide="next">
+        <span style="background-color: rgba(0,0,0,0.3); border-radius: 50%; padding: 10px; display:flex; align-items:center; justify-content:center; width:40px; height:40px;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+
+
+
         <h2 class="text-nowrap fw-bold">🏆 Leaderboard</h2>
         <div class="btn-group btn-group-sm" role="group" id="benchmarkGroup">
             <input type="radio" class="btn-check" name="benchmarkRadio" id="vcode_overall" value="vcode_overall" checked />
