@@ -1,5 +1,36 @@
 [
 {
+    "modelName": "GPT-5.2",
+    "sigLipScore":72.6,
+    "codeToken": 3.4,
+    "size": null,
+    "date": "2025-12-11",
+    "isThinkingModel": false,
+    "scores": {
+      "vcode_overall": 52.1,
+      "general": {
+        "avg": 39.6,
+        "rec": 32.6,
+        "ocr": 55.4,
+        "know": 21.8,
+        "gen": 27.4,
+        "spat": 52.3,
+        "math": 53.1,
+        "samples": 200
+      },
+      "professional": {
+        "avg": 41.8,
+        "samples": 146
+      },
+      "vision_centric": {
+        "avg": 54.4,
+        "2d": 50.4,
+        "3d": 58.3,
+        "samples": 100
+      }
+    }
+  },
+{
     "modelName": "Gemini-3-Pro",
     "sigLipScore":74.4,
     "codeToken": 1.8,
