@@ -7,7 +7,7 @@
     "date": "2025-12-11",
     "isThinkingModel": false,
     "scores": {
-      "vcode_overall": 52.1,
+      "vcode_overall": 43.5,
       "general": {
         "avg": 39.6,
         "rec": 32.6,
@@ -35,7 +35,7 @@
     "sigLipScore":74.4,
     "codeToken": 1.8,
     "size": null,
-    "date": "2025-11-20",
+    "date": "2025-11-18",
     "isThinkingModel": false,
     "scores": {
       "vcode_overall": 52.1,
