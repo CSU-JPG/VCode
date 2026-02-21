@@ -292,14 +292,11 @@ folder2/
 If you find our work useful, please cite:
 
 ```bibtex
-@misc{vcode,
-      title={VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation}, 
-      author={Kevin Qinghong Lin and Yuhao Zheng and Hangyu Ran and Dantong Zhu and Dongxing Mao and Linjie Li and Philip Torr and Alex Jinpeng Wang},
-      year={2025},
-      eprint={2511.02778},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2511.02778}, 
+@article{vcode,
+  title={VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual Representation},
+  author={Lin, Kevin Qinghong and Zheng, Yuhao and Ran, Hangyu and Zhu, Dantong and Mao, Dongxing and Li, Linjie and Torr, Philip and Wang, Alex Jinpeng},
+  journal={arXiv preprint arXiv:2511.02778},
+  year={2025}
 }
 ```
 
